@@ -1,6 +1,6 @@
 # Dataset ENEM
 
-Arquivos CSV em UTF-8. Os dois arquivos consolidados foram produzidos a partir das fontes coletadas para o projeto Gabaritei; o terceiro é uma fonte original.
+Arquivos CSV, os dois arquivos foram produzidos a partir das fontes coletadas para o projeto Gabaritei; o terceiro é uma fonte original.
 
 | Arquivo | Conteúdo e uso |
 |---|---|
