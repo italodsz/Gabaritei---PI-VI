@@ -1,4 +1,3 @@
-"""Reproducible ENEM source acquisition and conservative question normalization."""
 import argparse
 import ast
 import csv
@@ -11,8 +10,8 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-SOURCES = {
+RAIZ = Path(__file__).resolve().parent
+FONTES = {
     'maritaca': 'maritaca-ai/enem',
     'challenge': 'eduagarcia/enem_challenge',
     'audio_description': 'tardellirs/enem-audiodescricao',
@@ -23,178 +22,177 @@ SOURCES = {
     'mm_eval': 'mm-eval/ENEM',
     'challenge_port': 'nicholasKluge/enem_challenge',
 }
-HEADERS = {'User-Agent': 'data-EEnem-research/1.0'}
+CABECALHOS = {'User-Agent': 'data-EEnem-research/1.0'}
 
-def get(url):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=90)
+def abrir_url(url):
+    return urllib.request.urlopen(urllib.request.Request(url, headers=CABECALHOS), timeout=90)
 
-def download(url, path):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and path.stat().st_size:
+def baixar_arquivo(url, caminho):
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    if caminho.exists() and caminho.stat().st_size:
         return
-    temp = path.with_name(path.name + '.part')
-    with get(url) as response, temp.open('wb') as out:
-        while block := response.read(1024 * 1024):
-            out.write(block)
-    temp.replace(path)
+    temporario = caminho.with_name(caminho.name + '.part')
+    with abrir_url(url) as resposta, temporario.open('wb') as saida:
+        while bloco := resposta.read(1024 * 1024):
+            saida.write(bloco)
+    temporario.replace(caminho)
 
-def sha256(path):
-    digest = hashlib.sha256()
-    with path.open('rb') as stream:
-        while block := stream.read(1024 * 1024):
-            digest.update(block)
-    return digest.hexdigest()
+def calcular_sha256(caminho):
+    resumo = hashlib.sha256()
+    with caminho.open('rb') as fluxo:
+        while bloco := fluxo.read(1024 * 1024):
+            resumo.update(bloco)
+    return resumo.hexdigest()
 
-def acquire():
-    manifest = {'retrieved_at_utc': datetime.now(timezone.utc).isoformat(), 'files': [], 'errors': []}
-    for label, repo in SOURCES.items():
+def baixar_fontes():
+    manifesto = {'retrieved_at_utc': datetime.now(timezone.utc).isoformat(), 'files': [], 'errors': []}
+    for rotulo, repositorio in FONTES.items():
         try:
-            info = json.load(get('https://huggingface.co/api/datasets/' + repo))
-            revision = info['sha']
-            for entry in info.get('siblings', []):
-                name = entry['rfilename']
-                if not (name.endswith(('.jsonl', '.parquet', '.csv')) and (name.startswith('data/') or name.startswith('corpus/') or '/' not in name)):
+            informacoes = json.load(abrir_url('https://huggingface.co/api/datasets/' + repositorio))
+            revisao = informacoes['sha']
+            for entrada in informacoes.get('siblings', []):
+                nome = entrada['rfilename']
+                if not (nome.endswith(('.jsonl', '.parquet', '.csv')) and (nome.startswith('data/') or nome.startswith('corpus/') or '/' not in nome)):
                     continue
-                if label == 'audio_description' and name.startswith('corpus/') and name != 'corpus/registros.jsonl':
+                if rotulo == 'audio_description' and nome.startswith('corpus/') and nome != 'corpus/registros.jsonl':
                     continue
-                path = ROOT / 'raw' / label / name
-                url = f'https://huggingface.co/datasets/{repo}/resolve/{revision}/{name}'
+                caminho = RAIZ / 'raw' / rotulo / nome
+                url = f'https://huggingface.co/datasets/{repositorio}/resolve/{revisao}/{nome}'
                 try:
-                    download(url, path)
-                    manifest['files'].append({'source': label, 'repo': repo, 'revision': revision, 'path': str(path.relative_to(ROOT)), 'url': url, 'bytes': path.stat().st_size, 'sha256': sha256(path)})
+                    baixar_arquivo(url, caminho)
+                    manifesto['files'].append({'source': rotulo, 'repo': repositorio, 'revision': revisao, 'path': str(caminho.relative_to(RAIZ)), 'url': url, 'bytes': caminho.stat().st_size, 'sha256': calcular_sha256(caminho)})
                 except Exception as exc:
-                    manifest['errors'].append({'source': label, 'file': name, 'error': str(exc)})
+                    manifesto['errors'].append({'source': rotulo, 'file': nome, 'error': str(exc)})
         except Exception as exc:
-            manifest['errors'].append({'source': label, 'error': str(exc)})
+            manifesto['errors'].append({'source': rotulo, 'error': str(exc)})
     try:
-        mirror = 'https://raw.githubusercontent.com/wineone/tcc-matheus-lisboa/main/02-dataset/data/cleaned/enem_questions.zip'
-        archive = ROOT / 'raw' / 'zenodo_8301716' / 'enem_questions.zip'
-        download(mirror, archive)
-        expected_md5 = '0389950866be9f8466e2016dcad311be'
-        if hashlib.md5(archive.read_bytes()).hexdigest() != expected_md5:
-            raise ValueError('Zenodo archive MD5 does not match published record')
-        with zipfile.ZipFile(archive) as bundle:
-            data = bundle.read('all_questions_df.csv')
-        path = archive.parent / 'all_questions_df.csv'
-        path.write_bytes(data)
-        manifest['files'].append({'source': 'zenodo_questions', 'repo': 'zenodo:8301716', 'revision': '0.0.1', 'path': str(path.relative_to(ROOT)), 'url': 'https://zenodo.org/records/8301716', 'download_mirror': mirror, 'archive_md5': expected_md5, 'bytes': path.stat().st_size, 'sha256': sha256(path)})
+        espelho = 'https://raw.githubusercontent.com/wineone/tcc-matheus-lisboa/main/02-dataset/data/cleaned/enem_questions.zip'
+        arquivo_compactado = RAIZ / 'raw' / 'zenodo_8301716' / 'enem_questions.zip'
+        baixar_arquivo(espelho, arquivo_compactado)
+        md5_esperado = '0389950866be9f8466e2016dcad311be'
+        if hashlib.md5(arquivo_compactado.read_bytes()).hexdigest() != md5_esperado:
+            raise ValueError('O MD5 do arquivo Zenodo não corresponde ao registro publicado')
+        with zipfile.ZipFile(arquivo_compactado) as pacote:
+            dados = pacote.read('all_questions_df.csv')
+        caminho = arquivo_compactado.parent / 'all_questions_df.csv'
+        caminho.write_bytes(dados)
+        manifesto['files'].append({'source': 'zenodo_questions', 'repo': 'zenodo:8301716', 'revision': '0.0.1', 'path': str(caminho.relative_to(RAIZ)), 'url': 'https://zenodo.org/records/8301716', 'download_mirror': espelho, 'archive_md5': md5_esperado, 'bytes': caminho.stat().st_size, 'sha256': calcular_sha256(caminho)})
     except Exception as exc:
-        manifest['errors'].append({'source': 'zenodo_questions', 'error': str(exc)})
-    path = ROOT / 'manifests' / 'acquisition.json'
-    path.parent.mkdir(exist_ok=True)
-    path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
-    return manifest
+        manifesto['errors'].append({'source': 'zenodo_questions', 'error': str(exc)})
+    caminho = RAIZ / 'manifests' / 'acquisition.json'
+    caminho.parent.mkdir(exist_ok=True)
+    caminho.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2), encoding='utf-8')
+    return manifesto
 
-def records(path):
-    if path.suffix == '.jsonl':
-        with path.open(encoding='utf-8') as stream:
-            for line in stream:
-                if line.strip():
-                    yield json.loads(line)
-    elif path.suffix == '.csv':
-        with path.open(encoding='utf-8-sig', newline='') as stream:
-            yield from csv.DictReader(stream)
-    elif path.suffix == '.parquet':
+def ler_registros(caminho):
+    if caminho.suffix == '.jsonl':
+        with caminho.open(encoding='utf-8') as fluxo:
+            for linha in fluxo:
+                if linha.strip():
+                    yield json.loads(linha)
+    elif caminho.suffix == '.csv':
+        with caminho.open(encoding='utf-8-sig', newline='') as fluxo:
+            yield from csv.DictReader(fluxo)
+    elif caminho.suffix == '.parquet':
         import pyarrow.parquet as pq
-        reader = pq.ParquetFile(path)
-        for batch in reader.iter_batches(batch_size=512):
-            yield from batch.to_pylist()
+        leitor = pq.ParquetFile(caminho)
+        for lote in leitor.iter_batches(batch_size=512):
+            yield from lote.to_pylist()
 
-def clean(value):
-    return re.sub(r'\s+', ' ', str(value or '')).strip()
+def limpar_texto(valor):
+    return re.sub(r'\s+', ' ', str(valor or '')).strip()
 
-def choices(value):
-    if isinstance(value, dict):
-        if all(k in value for k in 'ABCDE'):
-            return [clean(value[k]) for k in 'ABCDE']
-        value = value.get('text') or value.get('alternatives') or value.get('choices') or value
-    if isinstance(value, list):
-        return [clean(v.get('text') if isinstance(v, dict) else v) for v in value]
+def extrair_alternativas(valor):
+    if isinstance(valor, dict):
+        if all(k in valor for k in 'ABCDE'):
+            return [limpar_texto(valor[k]) for k in 'ABCDE']
+        valor = valor.get('text') or valor.get('alternatives') or valor.get('choices') or valor
+    if isinstance(valor, list):
+        return [limpar_texto(v.get('text') if isinstance(v, dict) else v) for v in valor]
     return []
 
-def normalize(row, source, path, index):
-    question = clean(row.get('question') or row.get('question_stem') or row.get('enunciado') or row.get('pergunta') or row.get('statement') or (row.get('description') if source == 'zenodo_questions' else ''))
-    if source == 'ocr': question = clean(row.get('context')) + ' ' + question
-    options = choices(row.get('choices') or row.get('alternatives') or row.get('alternatives_text') or row.get('options'))
-    if source == 'zenodo_questions':
+def normalizar_questao(linha, fonte, caminho, indice):
+    pergunta = limpar_texto(linha.get('question') or linha.get('question_stem') or linha.get('enunciado') or linha.get('pergunta') or linha.get('statement') or (linha.get('description') if fonte == 'zenodo_questions' else ''))
+    if fonte == 'ocr': pergunta = limpar_texto(linha.get('context')) + ' ' + pergunta
+    alternativas = extrair_alternativas(linha.get('choices') or linha.get('alternatives') or linha.get('alternatives_text') or linha.get('options'))
+    if fonte == 'zenodo_questions':
         try:
-            options = [re.sub(r'^[A-E][).:-]\s*', '', clean(x)) for x in ast.literal_eval(row.get('alternatives') or '[]')]
+            alternativas = [re.sub(r'^[A-E][).:-]\s*', '', limpar_texto(x)) for x in ast.literal_eval(linha.get('alternatives') or '[]')]
         except (ValueError, SyntaxError, TypeError):
-            options = []
-    if source == 'ocr': options = [clean(row.get('option_' + x)) for x in 'abcde']
-    if source == 'mm_eval':
+            alternativas = []
+    if fonte == 'ocr': alternativas = [limpar_texto(linha.get('option_' + x)) for x in 'abcde']
+    if fonte == 'mm_eval':
         try:
-            msg = json.loads(row['messages']) if isinstance(row.get('messages'), str) else row['messages']
-            first = msg[0]
-            question = clean(first.get('question'))
-            options = choices(first.get('alternatives') or first.get('choices') or first.get('options'))
+            mensagem = json.loads(linha['messages']) if isinstance(linha.get('messages'), str) else linha['messages']
+            primeiro = mensagem[0]
+            pergunta = limpar_texto(primeiro.get('question'))
+            alternativas = extrair_alternativas(primeiro.get('alternatives') or primeiro.get('choices') or primeiro.get('options'))
         except (ValueError, KeyError, IndexError, TypeError): pass
-    answer = clean(row.get('answerKey') or row.get('ground_truth') or row.get('label') or row.get('answer') or row.get('correct_answer') or row.get('gabarito')).upper()
-    year = clean(row.get('exam_year') or row.get('year') or row.get('ano') or row.get('exam') or row.get('exam_edition') or (re.search(r'(?:19|20)\d{2}', str(path)) or [''])[0])
-    year_match = re.search(r'(?:19|20)\d{2}', year)
-    year = year_match.group() if year_match else ''
-    number = clean(row.get('question_number') or row.get('questao') or row.get('num') or row.get('number') or row.get('numero') or row.get('index_question') or '')
-    if not number:
-        match = re.search(r'(?:questao|q)[_ -]?(\d+)', clean(row.get('id')), re.I)
-        number = match.group(1) if match else ''
-    quality = []
-    if len(question) < 40: quality.append('short_or_missing_question')
-    if len(options) != 5 or any(not x for x in options): quality.append('incomplete_options')
-    if answer not in 'ABCDE' or len(answer) != 1: quality.append('invalid_answer')
-    if not re.fullmatch(r'(?:19|20)\d{2}', year): quality.append('missing_year')
-    if row.get('nullified'): quality.append('nullified')
-    if '[[placeholder]]' in question or (source in ('2025_d1', '2025_d2') and row.get('statement_image') is not None):
-        quality.append('needs_visual_review')
-    normalized = re.sub(r'\W+', '', question.casefold())
-    fingerprint = hashlib.sha256(normalized.encode()).hexdigest() if normalized else ''
-    return {'source': source, 'source_file': str(path.relative_to(ROOT)), 'source_row': index, 'source_id': clean(row.get('id')), 'year': year, 'question_number': number, 'question': question, 'options': options, 'answer': answer, 'fingerprint': fingerprint, 'quality_flags': quality}
+    gabarito = limpar_texto(linha.get('answerKey') or linha.get('ground_truth') or linha.get('label') or linha.get('answer') or linha.get('correct_answer') or linha.get('gabarito')).upper()
+    ano = limpar_texto(linha.get('exam_year') or linha.get('year') or linha.get('ano') or linha.get('exam') or linha.get('exam_edition') or (re.search(r'(?:19|20)\d{2}', str(caminho)) or [''])[0])
+    correspondencia_ano = re.search(r'(?:19|20)\d{2}', ano)
+    ano = correspondencia_ano.group() if correspondencia_ano else ''
+    numero = limpar_texto(linha.get('question_number') or linha.get('questao') or linha.get('num') or linha.get('number') or linha.get('numero') or linha.get('index_question') or '')
+    if not numero:
+        correspondencia = re.search(r'(?:questao|q)[_ -]?(\d+)', limpar_texto(linha.get('id')), re.I)
+        numero = correspondencia.group(1) if correspondencia else ''
+    problemas = []
+    if len(pergunta) < 40: problemas.append('short_or_missing_question')
+    if len(alternativas) != 5 or any(not x for x in alternativas): problemas.append('incomplete_options')
+    if gabarito not in 'ABCDE' or len(gabarito) != 1: problemas.append('invalid_answer')
+    if not re.fullmatch(r'(?:19|20)\d{2}', ano): problemas.append('missing_year')
+    if linha.get('nullified'): problemas.append('nullified')
+    if '[[placeholder]]' in pergunta or (fonte in ('2025_d1', '2025_d2') and linha.get('statement_image') is not None):
+        problemas.append('needs_visual_review')
+    texto_normalizado = re.sub(r'\W+', '', pergunta.casefold())
+    impressao_digital = hashlib.sha256(texto_normalizado.encode()).hexdigest() if texto_normalizado else ''
+    return {'source': fonte, 'source_file': str(caminho.relative_to(RAIZ)), 'source_row': indice, 'source_id': limpar_texto(linha.get('id')), 'year': ano, 'question_number': numero, 'question': pergunta, 'options': alternativas, 'answer': gabarito, 'fingerprint': impressao_digital, 'quality_flags': problemas}
 
-def build():
-    manifest = json.loads((ROOT / 'manifests' / 'acquisition.json').read_text(encoding='utf-8'))
-    out = ROOT / 'processed'; out.mkdir(exist_ok=True)
-    counts = Counter(); accepted = []; quarantine = []
-    seen = defaultdict(list)
-    for item in manifest['files']:
-        path = ROOT / item['path']
+def processar_dados():
+    manifesto = json.loads((RAIZ / 'manifests' / 'acquisition.json').read_text(encoding='utf-8'))
+    saida = RAIZ / 'processed'; saida.mkdir(exist_ok=True)
+    contagens = Counter(); aprovados = []; quarentena = []
+    agrupados = defaultdict(list)
+    for item in manifesto['files']:
+        caminho = RAIZ / item['path']
         try:
-            for index, row in enumerate(records(path), 1):
-                if not isinstance(row, dict): continue
-                record = normalize(row, item['source'], path, index)
-                counts[item['source']] += 1
-                if record['quality_flags']:
-                    quarantine.append(record)
+            for indice, linha in enumerate(ler_registros(caminho), 1):
+                if not isinstance(linha, dict): continue
+                registro = normalizar_questao(linha, item['source'], caminho, indice)
+                contagens[item['source']] += 1
+                if registro['quality_flags']:
+                    quarentena.append(registro)
                 else:
-                    seen[record['fingerprint']].append(record)
+                    agrupados[registro['fingerprint']].append(registro)
         except Exception as exc:
-            quarantine.append({'source': item['source'], 'source_file': item['path'], 'quality_flags': ['read_error'], 'error': str(exc)})
-    for group in seen.values():
-        # Keep each provenance row; split together and designate one primary record.
-        if len({r['answer'] for r in group}) > 1:
-            for record in group:
-                record['quality_flags'].append('answer_conflict')
-                quarantine.append(record)
+            quarentena.append({'source': item['source'], 'source_file': item['path'], 'quality_flags': ['read_error'], 'error': str(exc)})
+    for grupo in agrupados.values():
+        if len({r['answer'] for r in grupo}) > 1:
+            for registro in grupo:
+                registro['quality_flags'].append('answer_conflict')
+                quarentena.append(registro)
             continue
-        group_year = max(int(r['year']) for r in group)
-        group_split = 'test' if group_year >= 2024 else ('validation' if group_year == 2023 else 'train')
-        for rank, record in enumerate(group):
-            record['duplicate_count'] = len(group)
-            record['primary'] = rank == 0
-            record['split'] = group_split
-            accepted.append(record)
-    def write(name, rows):
-        with (out / name).open('w', encoding='utf-8') as stream:
-            for row in rows:
-                stream.write(json.dumps(row, ensure_ascii=False, default=str) + '\n')
-    write('questions_all.jsonl', accepted)
-    write('quarantine.jsonl', quarantine)
-    write('train.jsonl', [r for r in accepted if r['primary'] and r['split'] == 'train'])
-    write('validation.jsonl', [r for r in accepted if r['primary'] and r['split'] == 'validation'])
-    write('test.jsonl', [r for r in accepted if r['primary'] and r['split'] == 'test'])
-    report = {'raw_rows_by_source': counts, 'accepted_with_duplicates': len(accepted), 'unique_questions': sum(r['primary'] for r in accepted), 'quarantined': len(quarantine), 'split_counts': dict(Counter(r['split'] for r in accepted if r['primary'])), 'quality_flags': dict(Counter(f for r in quarantine for f in r['quality_flags']))}
-    (out / 'quality_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
-    return report
+        ano_grupo = max(int(r['year']) for r in grupo)
+        divisao_grupo = 'test' if ano_grupo >= 2024 else ('validation' if ano_grupo == 2023 else 'train')
+        for posicao, registro in enumerate(grupo):
+            registro['duplicate_count'] = len(grupo)
+            registro['primary'] = posicao == 0
+            registro['split'] = divisao_grupo
+            aprovados.append(registro)
+    def gravar_jsonl(nome, linhas):
+        with (saida / nome).open('w', encoding='utf-8') as fluxo:
+            for linha in linhas:
+                fluxo.write(json.dumps(linha, ensure_ascii=False, default=str) + '\n')
+    gravar_jsonl('questions_all.jsonl', aprovados)
+    gravar_jsonl('quarantine.jsonl', quarentena)
+    gravar_jsonl('train.jsonl', [r for r in aprovados if r['primary'] and r['split'] == 'train'])
+    gravar_jsonl('validation.jsonl', [r for r in aprovados if r['primary'] and r['split'] == 'validation'])
+    gravar_jsonl('test.jsonl', [r for r in aprovados if r['primary'] and r['split'] == 'test'])
+    relatorio = {'raw_rows_by_source': contagens, 'accepted_with_duplicates': len(aprovados), 'unique_questions': sum(r['primary'] for r in aprovados), 'quarantined': len(quarentena), 'split_counts': dict(Counter(r['split'] for r in aprovados if r['primary'])), 'quality_flags': dict(Counter(f for r in quarentena for f in r['quality_flags']))}
+    (saida / 'quality_report.json').write_text(json.dumps(relatorio, ensure_ascii=False, indent=2), encoding='utf-8')
+    return relatorio
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(); parser.add_argument('action', choices=['acquire', 'build', 'all']); args = parser.parse_args()
-    if args.action in ('acquire', 'all'): print(json.dumps(acquire(), ensure_ascii=False, default=str)[:1000])
-    if args.action in ('build', 'all'): print(json.dumps(build(), ensure_ascii=False, default=str))
+    analisador = argparse.ArgumentParser(); analisador.add_argument('acao', choices=['baixar', 'processar', 'tudo']); argumentos = analisador.parse_args()
+    if argumentos.acao in ('baixar', 'tudo'): print(json.dumps(baixar_fontes(), ensure_ascii=False, default=str)[:1000])
+    if argumentos.acao in ('processar', 'tudo'): print(json.dumps(processar_dados(), ensure_ascii=False, default=str))
