@@ -26,7 +26,7 @@ export function BottomNav() {
             href={item.href}
             aria-current={ativo ? "page" : undefined}
             className={cn(
-              "flex min-h-11 flex-1 flex-col items-center gap-0.5 border-t-[3px] border-t-transparent py-2 text-xs",
+              "flex min-h-12 flex-1 flex-col items-center gap-0.5 border-t-[3px] border-t-transparent py-2 text-xs",
               ativo ? "border-t-forest font-medium text-ink" : "text-ink-2",
             )}
           >

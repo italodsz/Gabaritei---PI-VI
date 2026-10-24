@@ -24,7 +24,7 @@ export function Pagination({ paginaAtual, totalPaginas, onPaginaChange, classNam
         aria-label="Página anterior"
         disabled={paginaAtual <= 1}
         onClick={() => onPaginaChange(paginaAtual - 1)}
-        className="flex size-11 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 disabled:opacity-40"
+        className="flex size-12 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 disabled:opacity-40"
       >
         <ChevronLeft className="size-4" strokeWidth={1.75} aria-hidden="true" />
       </button>
@@ -39,7 +39,7 @@ export function Pagination({ paginaAtual, totalPaginas, onPaginaChange, classNam
               aria-current={pagina === paginaAtual ? "page" : undefined}
               onClick={() => onPaginaChange(pagina)}
               className={cn(
-                "flex size-11 items-center justify-center rounded-sm text-sm font-medium text-ink-2 hover:bg-paper-2",
+                "flex size-12 items-center justify-center rounded-sm text-sm font-medium text-ink-2 hover:bg-paper-2",
                 pagina === paginaAtual && "bg-forest text-on-forest hover:bg-forest",
               )}
             >
@@ -53,7 +53,7 @@ export function Pagination({ paginaAtual, totalPaginas, onPaginaChange, classNam
         aria-label="Próxima página"
         disabled={paginaAtual >= totalPaginas}
         onClick={() => onPaginaChange(paginaAtual + 1)}
-        className="flex size-11 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 disabled:opacity-40"
+        className="flex size-12 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 disabled:opacity-40"
       >
         <ChevronRight className="size-4" strokeWidth={1.75} aria-hidden="true" />
       </button>

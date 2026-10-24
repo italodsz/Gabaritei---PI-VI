@@ -28,6 +28,7 @@ import {
   type SimuladoResumo,
   type Tentativa,
 } from "../types";
+import { truncarNaPalavra } from "@/lib/format";
 import { BANCO_DEMO, HABILIDADES, questaoPorId } from "./dados";
 import { comLatenciaECenario, garantirCenarioSemeado } from "./cenarios";
 import {
@@ -116,7 +117,9 @@ export const mockApi: Api = {
       const estado = lerEstado();
       const perfil: Perfil = estado.perfil ?? {
         id: "usuario-demo",
-        nome: email.split("@")[0],
+        // Nome fixo de demonstração, nunca derivado do e-mail (seção 6, etapa V):
+        // "nome: email.split('@')[0]" produzia saudações tipo "Olá, santoz".
+        nome: "Marina",
         email,
         faixaEtaria: null,
         criadoEm: new Date().toISOString(),
@@ -229,7 +232,7 @@ export const mockApi: Api = {
           ano: q.questao.ano,
           habilidade: q.questao.habilidade,
           faixa: q.questao.faixa,
-          trecho: q.questao.enunciado.find((b) => b.tipo === "texto")?.texto.slice(0, 140) ?? "",
+          trecho: truncarNaPalavra(q.questao.enunciado.find((b) => b.tipo === "texto")?.texto ?? "", 140),
           ultimaTentativa: ultima ? (ultima.correcao.correta ? "acertou" : "errou") : null,
         };
       });

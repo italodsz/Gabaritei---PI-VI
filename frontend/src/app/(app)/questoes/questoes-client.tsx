@@ -231,7 +231,7 @@ function ListaQuestoes() {
           <SheetTrigger asChild>
             <button
               type="button"
-              className="mb-4 flex min-h-11 items-center gap-2 rounded-sm border border-rule-strong bg-card px-4 text-sm font-medium text-ink"
+              className="mb-4 flex min-h-12 items-center gap-2 rounded-sm border border-rule-strong bg-card px-4 text-sm font-medium text-ink"
             >
               <SlidersHorizontal className="size-4" strokeWidth={1.75} aria-hidden="true" />
               Filtros{filtrosAtivos > 0 ? `, ${filtrosAtivos} ativos` : ""}

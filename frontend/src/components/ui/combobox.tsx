@@ -53,7 +53,7 @@ export function Combobox({ rotulo, opcoes, valor, onValorChange, placeholder, cl
           <button
             id={idGerado}
             type="button"
-            className="flex min-h-11 w-full items-center justify-between rounded-sm border border-rule-strong bg-card px-3 text-left text-base text-ink"
+            className="flex min-h-12 w-full items-center justify-between rounded-sm border border-rule-strong bg-card px-3 text-left text-base text-ink"
           >
             <span className={cn(!selecionada && "text-ink-2")}>
               {selecionada ? selecionada.rotulo : placeholder ?? "Selecionar"}
@@ -73,7 +73,7 @@ export function Combobox({ rotulo, opcoes, valor, onValorChange, placeholder, cl
               onChange={(e) => setBusca(e.target.value)}
               placeholder="Buscar por código ou texto"
               aria-label={`Buscar em ${rotulo}`}
-              className="mb-2 min-h-11 w-full rounded-xs border border-rule-strong bg-paper px-3 text-sm text-ink"
+              className="mb-2 min-h-12 w-full rounded-xs border border-rule-strong bg-paper px-3 text-sm text-ink"
             />
             <ul role="listbox" aria-label={rotulo} className="max-h-64 overflow-y-auto">
               {grupos.length === 0 ? (
@@ -95,7 +95,7 @@ export function Combobox({ rotulo, opcoes, valor, onValorChange, placeholder, cl
                               setBusca("");
                             }}
                             className={cn(
-                              "flex min-h-11 w-full items-center justify-between gap-2 rounded-xs px-3 text-left text-sm text-ink hover:bg-paper-2",
+                              "flex min-h-12 w-full items-center justify-between gap-2 rounded-xs px-3 text-left text-sm text-ink hover:bg-paper-2",
                               opcao.valor === valor && "bg-forest-soft",
                             )}
                           >

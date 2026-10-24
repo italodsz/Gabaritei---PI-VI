@@ -5,11 +5,11 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { AreaTag } from "@/components/dominio/area-tag";
+import { AreaTile } from "@/components/dominio/area-tile";
 import { CriterioRecomendacao } from "@/components/dominio/criterio-recomendacao";
 import { FoguinhoBadge } from "@/components/dominio/foguinho-badge";
 import { WeekStrip } from "@/components/dominio/week-strip";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { ErrorState } from "@/components/ui/error-state";
 import { Field } from "@/components/ui/field";
 import { Link } from "@/components/ui/link";
@@ -23,6 +23,12 @@ import { limparDescricaoHabilidadeMock } from "@/lib/questoes-filtros";
 import { lerSessaoAtivaId, salvarFilaSessao, salvarSessaoAtivaId } from "@/lib/sessao-ativa";
 
 const AREAS: Area[] = ["LC", "CH", "CN", "MT"];
+
+function saudacaoPeloHorario(hora: number): string {
+  if (hora < 12) return "Bom dia";
+  if (hora < 18) return "Boa tarde";
+  return "Boa noite";
+}
 
 function Bloco({
   titulo,
@@ -73,12 +79,17 @@ function BlocoRetomar() {
   );
 }
 
-function BlocoProximaPratica() {
+/**
+ * Faixa principal (etapa V, item 1): verde-floresta sólido, saudação pelo primeiro
+ * nome e horário, a próxima ação numa frase, um botão grande. Sem gradiente. A lógica
+ * de "começar treino" é a mesma de antes — só a apresentação mudou.
+ */
+function FaixaPrincipal() {
   const router = useRouter();
-  const [tema, setTema] = useState("");
-  const [areas, setAreas] = useState<Area[]>([]);
+  const [hora] = useState(() => new Date().getHours());
   const [iniciando, setIniciando] = useState(false);
 
+  const { data: perfil } = useQuery({ queryKey: ["perfil"], queryFn: () => getApi().obterPerfil() });
   const { data: reforco, isLoading: carregandoReforco, error: erroReforco, refetch: refazerReforco } = useQuery({
     queryKey: ["reforco"],
     queryFn: () => getApi().obterReforco(),
@@ -92,9 +103,10 @@ function BlocoProximaPratica() {
 
   const semHistorico = resumoGeral?.respondidas === 0;
   const prioridade = reforco?.prioridades[0];
+  const primeiroNome = perfil?.nome.split(" ")[0] ?? "";
+  const saudacao = `${saudacaoPeloHorario(hora)}${primeiroNome ? `, ${primeiroNome}` : ""}.`;
 
   const pedidoPronto = reforco && resumoGeral && !semHistorico && prioridade;
-
   const { data: previa, isLoading: carregandoPrevia } = useQuery({
     queryKey: ["previa-inicio", prioridade?.habilidade.codigo],
     queryFn: () =>
@@ -106,23 +118,6 @@ function BlocoProximaPratica() {
       }),
     enabled: !!pedidoPronto,
   });
-
-  async function comecarComTema() {
-    setIniciando(true);
-    try {
-      const { sessao, primeira } = await getApi().iniciarSessao({
-        modo: "tema",
-        areas: areas.length ? areas : undefined,
-        temaTexto: tema || undefined,
-        quantidade: 10,
-      });
-      salvarSessaoAtivaId(sessao.id);
-      salvarFilaSessao(sessao.id, { itens: primeira.itens, aviso: primeira.aviso });
-      router.push(`/treino/${sessao.id}`);
-    } finally {
-      setIniciando(false);
-    }
-  }
 
   async function comecarComPrevia() {
     if (!prioridade) return;
@@ -142,6 +137,10 @@ function BlocoProximaPratica() {
     }
   }
 
+  function irParaEscolhaDeArea() {
+    document.getElementById("comecar-por-area")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   return (
     <Bloco
       carregando={carregandoReforco || carregandoResumo}
@@ -151,61 +150,94 @@ function BlocoProximaPratica() {
         void refazerResumo();
       }}
     >
-      <div className="rounded-md border-t-2 border-t-ink bg-card p-6">
+      <section className="rounded-md bg-forest-ink p-6 text-paper lg:p-8">
+        <h1 tabIndex={-1} className="font-display text-3xl">
+          {saudacao}
+        </h1>
         {semHistorico ? (
           <>
-            <h2 className="text-2xl text-ink">Escolha um tema para começar</h2>
-            <p className="mt-2 text-sm text-ink-2">
-              Ainda não temos seu histórico, então vamos usar o tema que você escolher.
-            </p>
-            <div className="mt-4 flex flex-col gap-4">
-              <Field
-                rotulo="Tema (opcional)"
-                placeholder="Ex.: revolução industrial"
-                value={tema}
-                onChange={(e) => setTema(e.target.value)}
-              />
-              <div className="flex flex-wrap gap-x-4 gap-y-1">
-                {AREAS.map((area) => (
-                  <Checkbox
-                    key={area}
-                    rotulo={<AreaTag area={area} />}
-                    checked={areas.includes(area)}
-                    onCheckedChange={() =>
-                      setAreas((atual) => (atual.includes(area) ? atual.filter((a) => a !== area) : [...atual, area]))
-                    }
-                  />
-                ))}
-              </div>
-              <Button onClick={comecarComTema} carregando={iniciando} textoCarregando="Preparando" className="self-start">
-                Começar treino
-              </Button>
-            </div>
+            <p className="mt-2 max-w-md text-lg">Vamos montar seu primeiro treino.</p>
+            <Button variante="inverso" className="mt-5" onClick={irParaEscolhaDeArea}>
+              Escolher por onde começar
+            </Button>
           </>
         ) : (
           <>
-            <h2 className="text-2xl text-ink">
-              {prioridade
-                ? `Treinar ${prioridade.habilidade.codigo} de ${prioridade.area}`
-                : "Continuar treinando"}
-            </h2>
-            {carregandoPrevia ? (
-              <Skeleton className="mt-3 h-20 w-full" />
-            ) : previa?.itens[0] ? (
-              <CriterioRecomendacao criterio={previa.itens[0].criterio} className="mt-3" />
-            ) : null}
-            <div className="mt-4 flex flex-wrap gap-3">
-              <Button onClick={comecarComPrevia} carregando={iniciando} textoCarregando="Preparando">
-                Começar treino
-              </Button>
-              <Link href="/treino" className="inline-flex min-h-11 items-center">
-                Escolher outro modo
-              </Link>
-            </div>
+            <p className="mt-2 max-w-md text-lg">
+              {prioridade ? `Bora treinar ${prioridade.habilidade.codigo} de ${prioridade.area}?` : "Bora continuar treinando?"}
+            </p>
+            <Button variante="inverso" className="mt-5" onClick={comecarComPrevia} carregando={iniciando} textoCarregando="Preparando">
+              Começar treino
+            </Button>
           </>
         )}
-      </div>
+      </section>
+      {!semHistorico && (carregandoPrevia || previa?.itens[0]) ? (
+        <div className="mt-4">
+          {carregandoPrevia ? (
+            <Skeleton className="h-16 w-full" />
+          ) : previa?.itens[0] ? (
+            <CriterioRecomendacao criterio={previa.itens[0].criterio} />
+          ) : null}
+        </div>
+      ) : null}
     </Bloco>
+  );
+}
+
+function BlocoEscolherAreaETema() {
+  const router = useRouter();
+  const [tema, setTema] = useState("");
+  const [areas, setAreas] = useState<Area[]>([]);
+  const [iniciando, setIniciando] = useState(false);
+
+  const { data: resumoGeral } = useQuery({ queryKey: ["resumo-geral"], queryFn: () => getApi().obterResumoGeral() });
+  if (resumoGeral?.respondidas !== 0) return null;
+
+  async function comecarComTema() {
+    setIniciando(true);
+    try {
+      const { sessao, primeira } = await getApi().iniciarSessao({
+        modo: "tema",
+        areas: areas.length ? areas : undefined,
+        temaTexto: tema || undefined,
+        quantidade: 10,
+      });
+      salvarSessaoAtivaId(sessao.id);
+      salvarFilaSessao(sessao.id, { itens: primeira.itens, aviso: primeira.aviso });
+      router.push(`/treino/${sessao.id}`);
+    } finally {
+      setIniciando(false);
+    }
+  }
+
+  return (
+    <section id="comecar-por-area" className="scroll-mt-6 rounded-md border-t-2 border-t-ink bg-card p-6">
+      <h2 className="text-xl text-ink">Por onde você quer começar?</h2>
+      <div className="mt-4 grid grid-cols-2 gap-3">
+        {AREAS.map((area) => (
+          <AreaTile
+            key={area}
+            area={area}
+            checked={areas.includes(area)}
+            onCheckedChange={() =>
+              setAreas((atual) => (atual.includes(area) ? atual.filter((a) => a !== area) : [...atual, area]))
+            }
+          />
+        ))}
+      </div>
+      <div className="mt-4">
+        <Field
+          rotulo="Tema (opcional)"
+          placeholder="Ex.: revolução industrial"
+          value={tema}
+          onChange={(e) => setTema(e.target.value)}
+        />
+      </div>
+      <Button onClick={comecarComTema} carregando={iniciando} textoCarregando="Preparando" className="mt-4">
+        Começar treino
+      </Button>
+    </section>
   );
 }
 
@@ -218,10 +250,10 @@ function BlocoFoguinhoEMeta() {
   return (
     <Bloco carregando={isLoading} erro={error} onTentarDeNovo={() => refetch()}>
       {data ? (
-        <div className="rounded-md bg-paper-2 p-5">
+        <div className="rounded-md bg-paper-2 p-6">
           <FoguinhoBadge atual={data.foguinho.atual} melhor={data.foguinho.melhor} hojeContou={data.foguinho.hojeContou} emRisco={data.foguinho.emRisco} />
-          <WeekStrip dias={data.semana} className="mt-4" />
-          <div className="mt-4">
+          <WeekStrip dias={data.semana} className="mt-5" />
+          <div className="mt-5">
             <ProgressBar valor={data.metaSemanal.feito} total={data.metaSemanal.alvo} rotulo="Meta semanal de questões" />
             <p className="mt-1 text-sm text-ink-2">
               {data.metaSemanal.feito} de {data.metaSemanal.alvo} questões esta semana
@@ -275,18 +307,14 @@ function BlocoReforco() {
 }
 
 export function InicioClient() {
-  const { data: perfil } = useQuery({ queryKey: ["perfil"], queryFn: () => getApi().obterPerfil() });
-
   return (
     <div>
-      <h1 tabIndex={-1} className="mb-6 text-2xl text-ink">
-        Olá{perfil ? `, ${perfil.nome}` : ""}.
-      </h1>
+      <FaixaPrincipal />
 
-      <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
+      <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
         <div className="flex flex-col gap-6">
           <BlocoRetomar />
-          <BlocoProximaPratica />
+          <BlocoEscolherAreaETema />
         </div>
 
         <div className="flex flex-col gap-8">

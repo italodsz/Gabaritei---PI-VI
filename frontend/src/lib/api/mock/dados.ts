@@ -128,19 +128,11 @@ const TEMAS_ENUNCIADO: Record<Area, string[]> = {
   ],
 };
 
-function construirEnunciado(
-  area: Area,
-  indice: number,
-  tema: string,
-  comFigura: boolean,
-  figuraComDescricao: boolean,
-): Bloco[] {
-  const blocos: Bloco[] = [
-    {
-      tipo: "texto",
-      texto: `Questão de demonstração ${indice}, ${NOMES_AREA[area]}. Considere ${tema} para responder à questão a seguir. (Conteúdo fictício, gerado para fins de desenvolvimento. Não corresponde a nenhuma prova real do ENEM.)`,
-    },
-  ];
+function construirEnunciado(indice: number, tema: string, comFigura: boolean, figuraComDescricao: boolean): Bloco[] {
+  // Etapa V, item 7: nada de disclaimer no meio do enunciado — o aviso de que é
+  // conteúdo de demonstração mora no chip da questão e na faixa global, não aqui.
+  // O texto em si é curto e natural, sem o prefixo "Questão de demonstração N".
+  const blocos: Bloco[] = [{ tipo: "texto", texto: `Considere ${tema} para responder à questão a seguir.` }];
 
   if (comFigura) {
     blocos.push({
@@ -148,18 +140,13 @@ function construirEnunciado(
       figura: {
         id: `figura-demo-${indice}`,
         src: `/mock/figuras/demo-${(indice % 6) + 1}.svg`,
-        alt: figuraComDescricao ? `Ilustração esquemática de demonstração referente a ${tema}.` : null,
-        audiodescricao: figuraComDescricao
-          ? `Audiodescrição de demonstração: esquema simplificado relacionado a ${tema}, sem dados reais.`
-          : null,
+        alt: figuraComDescricao ? `Ilustração esquemática relacionada a ${tema}.` : null,
+        audiodescricao: figuraComDescricao ? `Esquema simplificado relacionado a ${tema}, sem dados reais.` : null,
       },
     });
   }
 
-  blocos.push({
-    tipo: "texto",
-    texto: "Com base nessas informações fictícias, assinale a alternativa correta.",
-  });
+  blocos.push({ tipo: "texto", texto: "Assinale a alternativa correta." });
 
   return blocos;
 }
@@ -208,7 +195,7 @@ function gerarQuestao(indice: number, aleatorio: () => number): Questao {
     habilidade,
     faixa,
     tri: { a, b, c },
-    enunciado: construirEnunciado(area, indice, tema, comFigura, figuraComDescricao),
+    enunciado: construirEnunciado(indice, tema, comFigura, figuraComDescricao),
     alternativas: construirAlternativas(indice),
     temResolucao,
   };

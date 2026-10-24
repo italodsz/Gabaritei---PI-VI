@@ -40,7 +40,7 @@ export const PasswordField = forwardRef<HTMLInputElement, PasswordFieldProps>(fu
           aria-invalid={erro ? true : undefined}
           aria-describedby={describedBy}
           className={cn(
-            "min-h-11 w-full rounded-sm border border-rule-strong bg-card px-3 pr-12 text-base text-ink",
+            "min-h-12 w-full rounded-sm border border-rule-strong bg-card px-3 pr-12 text-base text-ink",
             erro && "border-err",
             className,
           )}

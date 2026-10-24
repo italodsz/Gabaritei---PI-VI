@@ -170,7 +170,7 @@ export function SimuladoClient() {
               type="button"
               aria-pressed={item.marcada}
               onClick={aoMarcar}
-              className="flex min-h-11 items-center gap-1.5 rounded-sm border border-rule-strong px-3 text-sm text-ink hover:bg-paper-2"
+              className="flex min-h-12 items-center gap-1.5 rounded-sm border border-rule-strong px-3 text-sm text-ink hover:bg-paper-2"
             >
               <Flag className={item.marcada ? "size-4 fill-current" : "size-4"} strokeWidth={1.75} aria-hidden="true" />
               {item.marcada ? "Marcada para revisar" : "Marcar para revisar"}

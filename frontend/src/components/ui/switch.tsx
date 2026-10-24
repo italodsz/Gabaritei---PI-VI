@@ -13,7 +13,7 @@ export function Switch({ rotulo, descricao, id, className, ...props }: SwitchPro
   const idGerado = useId();
   const switchId = id ?? idGerado;
   return (
-    <div className="flex min-h-11 items-center justify-between gap-4">
+    <div className="flex min-h-12 items-center justify-between gap-4">
       <div>
         <label htmlFor={switchId} className="text-sm font-medium text-ink">
           {rotulo}

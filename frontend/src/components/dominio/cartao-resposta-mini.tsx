@@ -74,7 +74,7 @@ export function CartaoRespostaMini(props: CartaoRespostaMiniProps) {
               href={item.href}
               aria-label={`Questão ${item.n}: você ${item.correta ? "acertou" : "errou"}, marcou ${item.letra}. Ver revisão.`}
               className={cn(
-                "flex size-11 items-center justify-center gap-0.5 rounded-xs border text-xs font-mono",
+                "flex size-12 items-center justify-center gap-0.5 rounded-xs border text-xs font-mono",
                 "motion-safe-transition hover:opacity-80",
                 item.correta ? "border-forest bg-forest-soft text-forest-ink" : "border-err bg-err-soft text-err",
               )}
@@ -106,7 +106,7 @@ export function CartaoRespostaMini(props: CartaoRespostaMiniProps) {
               aria-current={item.n === atual ? "true" : undefined}
               onClick={() => onSelecionar(item.n)}
               className={cn(
-                "relative flex size-11 items-center justify-center rounded-xs border text-xs font-mono",
+                "relative flex size-12 items-center justify-center rounded-xs border text-xs font-mono",
                 "motion-safe-transition",
                 item.n === atual && "border-forest ring-2 ring-forest",
                 item.resposta ? "border-rule-strong bg-paper-2 text-ink" : "border-rule-strong text-ink-2",

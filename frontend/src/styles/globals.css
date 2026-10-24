@@ -35,6 +35,9 @@
   --font-serif: var(--font-source-serif-4), ui-serif, serif;
   --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
+  /* Etapa V: fonte de título de tela e número grande, isolada à parte da marca/enunciado
+     (que continuam --font-serif direto) para o grupo poder trocar numa linha só. */
+  --font-display: var(--font-serif);
 
   /* escala: 12, 14, 16, 18, 22, 28, 36 px (seção 6) */
   --text-xs: 0.75rem;
@@ -52,10 +55,10 @@
   --text-3xl: 2.25rem;
   --text-3xl--line-height: 1.15;
 
-  /* raios: seção 6 */
-  --radius-xs: 4px; /* folha, controles pequenos */
-  --radius-sm: 6px; /* botões, campos */
-  --radius-md: 8px; /* painéis */
+  /* raios: seção 6, aumentados na etapa V (item 3: painéis 16–20px, controles 12px) */
+  --radius-xs: 8px; /* folha, controles pequenos */
+  --radius-sm: 12px; /* botões, campos: "controles" */
+  --radius-md: 18px; /* painéis */
   --radius-full: 999px; /* tags, bolhas do cartão-resposta */
 }
 
@@ -79,7 +82,7 @@
   h1,
   h2,
   h3 {
-    font-family: var(--font-serif);
+    font-family: var(--font-display);
     text-wrap: balance;
   }
 
@@ -109,6 +112,17 @@
     outline: 2px solid var(--focus);
     outline-offset: 2px;
     border-radius: 2px;
+  }
+
+  /* Exceção documentada, escopada só a h1[tabindex="-1"] (etapa V, item 8a): FocoNoH1
+     chama h1.focus() em toda troca de rota (seção 8, foco não é automático no App
+     Router). Um h1 não interativo com tabindex=-1 nunca é alcançado pelo Tab — a
+     heurística de :focus-visible do navegador, porém, não distingue "foco programático
+     sem clique do usuário" de "navegação por teclado de verdade" nesse caso, e mostra o
+     anel mesmo quando a troca de rota veio de um clique de mouse. Não relaxa a regra
+     geral acima: todo elemento de verdade interativo continua com o anel. */
+  h1[tabindex="-1"]:focus-visible {
+    outline: none;
   }
 
   /* Regra 10/13: animar só transform e opacity, 120–180ms ease-out, some com reduced-motion. */

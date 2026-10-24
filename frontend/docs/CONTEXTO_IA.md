@@ -2,7 +2,7 @@
 
 Este documento existe porque você (a IA lendo isto) não consegue ver o frontend rodando. Tudo que você precisa saber sobre o que foi decidido, por quê, e como o código está organizado, está aqui. Leia isto inteiro antes de mexer em qualquer coisa.
 
-Repositório: `C:\Users\Darkz\Desktop\gabaritei-web` (Windows). Não é um repositório git inicializado ainda (confirme antes de assumir histórico de commits).
+Repositório de trabalho: `C:\Users\Darkz\Desktop\gabaritei-web` (Windows), git inicializado localmente. O remote de verdade (GitHub) é outro clone, em `C:\Users\Darkz\Documents\GitHub\Gabaritei---PI-VI`, dentro da subpasta `frontend/` — é um repositório de equipe (`github.com/italodsz/Gabaritei---PI-VI`, hoje público) que também guarda outras partes do projeto (dataset/pipeline do ENEM, numa branch separada `dataset-pipeline`). Depois de mexer em `gabaritei-web`, sincronize pra `Gabaritei---PI-VI/frontend/` antes de commitar/dar push por lá — os dois não são o mesmo working tree.
 
 Os dois documentos-fonte que geraram tudo isto:
 - `docs/FRONTEND_PROMPT.md` — a especificação completa da Fase 1 (o prompt original, em português, ~710 linhas). É a autoridade máxima: qualquer dúvida sobre "deveria ser assim?" se resolve lendo lá, não adivinhando.
@@ -37,6 +37,7 @@ npm run lint         # eslint .
 npm run test         # vitest run (unitário)
 npx playwright test  # e2e completo
 npx tsx scripts/auditar-contraste.ts   # auditoria de contraste (precisa do dev rodando)
+npm run check:regras # varredura estática das regras 4-9 (gradiente, roxo, âmbar fora de IA, etc.)
 npm run build        # build de produção
 ```
 
@@ -49,11 +50,13 @@ Isto não é estético opcional — é regra, verificada em todo etapa. A letra 
 ### 3.1 Tipografia
 
 Três famílias, cada uma com um papel fixo (nunca trocam de função):
-- **Source Serif 4** — títulos, números grandes (estatísticas), qualquer coisa "editorial".
+- **Source Serif 4** — a marca ("Gabaritei" no cabeçalho/sidebar) e o enunciado da questão. Só isso, direto via `font-serif`.
 - **IBM Plex Sans** — interface: botões, rótulos, texto corrido de UI.
 - **IBM Plex Mono** — dados técnicos: códigos de habilidade (H21), métricas tabulares, qualquer coisa que pareça "dado bruto".
 
 Carregadas via `next/font` em `src/app/layout.tsx`, expostas como variáveis CSS e consumidas no Tailwind `@theme`.
+
+Desde a etapa V (ajuste visual), título de tela (`h1`/`h2`/`h3`) e número grande (estatísticas) usam um token à parte, `--font-display` (hoje = `--font-serif`, mesma aparência de antes) — isolado assim de propósito pra poder virar IBM Plex Sans 600 numa linha só, se o grupo decidir que serif demais estava deixando o app "sério" pra adolescente. Use `font-display`, não `font-serif`, em título/número novo; `font-serif` fica reservado pra marca e enunciado.
 
 ### 3.2 Cores (tokens, `src/styles/tokens.css`)
 
@@ -72,7 +75,7 @@ Nunca cor literal no código — sempre o token. Valores (claro / escuro):
 | `--forest-soft` / `--forest-ink` | `#e3ece4` / `#245c3c` | `#24342b` / `#6bbe90` | fundo suave / texto verde (links) |
 | `--amber` / `--amber-soft` / `--amber-ink` | `#b8842e` / `#f3e7cc` / `#6b4a10` | `#d9a441` / `#323324` / `#e5b85a` | **exclusivo de conteúdo decidido por IA** |
 | `--err` / `--err-soft` / `--on-err` | `#a8321f` / `#f5e1dc` / `#fff` | `#ee8f7f` / `#332e29` / `#1a0f0c` | erro / "você errou" |
-| `--area-{mt,cn,ch,lc}` + `-soft` | ver arquivo | ver arquivo | só em `AreaTag` e filetes finos |
+| `--area-{mt,cn,ch,lc}` + `-soft` | ver arquivo | ver arquivo | `AreaTag`, filetes finos, e (etapa V, `TODO(equipe)` a ratificar) o ladrilho `AreaTile` |
 | `--focus` | `#2c6e49` | `#6bbe90` | anel de foco, 2px + offset 2px |
 
 Regra crítica (seção 2, regra 9 do prompt): **`--amber` é exclusivo de "isto foi decidido por IA"** — hoje só aparece em `CriterioRecomendacao` (o bloco que explica por que uma questão foi recomendada) e no selo "Recomendado". Não aparece em nenhum alerta, aviso, banner de demonstração, ou qualquer outra coisa. Já corrigi uma violação real disso nesta sessão (ver seção 8).
@@ -277,6 +280,9 @@ Isto é o que mais importa pra uma IA que vai mexer no código sem poder ver a t
 9. **A sessão de treino guarda a lista de questões no `sessionStorage` da aba** (não vem de volta do servidor): `obterSessao` não devolve a lista completa de itens, só o progresso agregado. Se a aba recarregar no meio do treino, a lista some e a tela mostra erro orientando a escolher o modo de novo (o que já foi respondido continua salvo no servidor — só a fila de próximas questões se perde). É uma limitação de contrato documentada, não bug.
 
 10. **O cenário de mock (`?cenario=` ou dropdown dev) só re-semeia dados se `estado.tentativas.length === 0`** — trocar de cenário no meio de uma sessão com dados existentes não limpa/recria automaticamente, a não ser que você use o dropdown `ScenarioSwitcher` (que chama `definirCenario()` explicitamente). Isso é intencional (não quer perder dado sem querer), mas pode confundir quem está testando manualmente — lembre disso antes de concluir "o cenário não funciona".
+11. **`AreaTile` (etapa V)** é um `CheckboxPrimitive.Root`, não um `RadioGroupPrimitive.Item`, mesmo onde só uma área pode ser escolhida por vez (ex.: Início sem histórico, escopo "Uma área" do Simulado) — o padrão já estabelecido no projeto pra "seleção única com aparência de card" é checkbox que limpa as outras opções ao marcar uma nova (`setAreas(... ? [] : [area])`), não um grupo de rádio de verdade. Siga esse padrão se adicionar um 4º lugar com ladrilho de área.
+12. **`FoguinhoBadge` tem 3 estados visuais** (acesa/em espera/zerada), todos derivados de campos que já existiam em `Regularidade.foguinho` — nunca adicione um 4º estado nem o vocabulário "apagou"/"quebrou" (é informativo, nunca punitivo, regra desde a Etapa 0).
+13. **Botão "inverso"** (`bg-paper text-forest-ink`) existe só pra funcionar em cima da faixa verde-floresta sólida do Início: a variante "primario" (`bg-forest`) é **invisível** nessa faixa no tema escuro, porque `--forest` e `--forest-ink` são a mesma cor exata nesse tema. Qualquer botão novo sobre um fundo `bg-forest-ink` precisa da variante "inverso", nunca "primario".
 
 ---
 
@@ -287,6 +293,7 @@ Toda etapa seguiu o mesmo método: implementar → rodar typecheck/lint → test
 - **Etapa 3**: modo "progressão" ignorava a área escolhida ao gerar a próxima questão; painel "Nesta sessão" não atualizava após cada resposta; `FocusShell` não tinha `h1` (falha de axe `page-has-heading-one`).
 - **Etapa 4**: botão "Enviar resposta" aparecia indevidamente no simulado (ver decisão 1 da seção 8); `Tentativa.id` inconsistente quebrando a busca de resolução (ver decisão 2); em-dash usado como separador na listagem de simulados.
 - **Etapa 5**: rolagem horizontal a 360px no Perfil causada pelo `AppShell` sem `min-w-0` (ver decisão 3); uso indevido de `--amber` num aviso de "modo de demonstração" que não é conteúdo de IA (violação da regra 9, corrigido pro estilo neutro já usado em avisos parecidos); travessão como separador em 6 lugares de texto visível ao usuário (banner de demonstração global, mensagem de erro do treino, enunciado de toda questão do mock, resumo do treino, títulos da galeria dev) — todos corrigidos pra dois-pontos, frase separada, ou parênteses.
+- **Etapa V (ajuste visual "calor e identidade")**: `trecho` da listagem de Questões cortava o enunciado com `.slice(0, 140)` sem respeitar palavra nem acrescentar reticências (o "enunciado cortado no meio" apontado no diagnóstico de paridade) — o `line-clamp-2` em CSS já existia e não era o problema; corrigido com `truncarNaPalavra` novo em `lib/format.ts`. `mock/client.ts` `entrar()` gerava o nome do perfil a partir do prefixo do e-mail (`"Olá, santoz"` pra um e-mail assim), trocado por nome fixo de demonstração. Anel de foco aparecia no `h1` em toda troca de rota mesmo por clique de mouse (heurística de `:focus-visible` do navegador em foco programático de elemento não interativo) — exceção CSS documentada e escopada só a `h1[tabindex="-1"]`.
 
 Uma "falsa pista" que vale registrar pelo processo: durante o teste manual do simulado, um script de automação (não o app) clicou em várias questões rápido demais sem esperar o React re-renderizar entre cliques, fazendo parecer que só a primeira resposta salvava. Refeito o teste clicando e aguardando a cada questão, confirmou que o mock e o client estavam corretos — vale sempre descartar erro de teste antes de assumir bug de produto.
 

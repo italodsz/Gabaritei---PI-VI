@@ -57,16 +57,16 @@ export function ResultadoClient() {
 
       <div className="mb-8 flex flex-wrap items-end gap-x-10 gap-y-4 border-b border-rule pb-8">
         <div>
-          <p className="font-serif text-4xl text-ink">
+          <p className="font-display text-4xl text-ink">
             {resultado.acertos} de {resultado.total}
           </p>
         </div>
         <div>
-          <p className="font-serif text-2xl text-ink">{formatarDuracao(resultado.duracaoSegundos)}</p>
+          <p className="font-display text-2xl text-ink">{formatarDuracao(resultado.duracaoSegundos)}</p>
           <p className="mt-1 text-sm text-ink-2">Tempo gasto</p>
         </div>
         <div>
-          <p className="font-serif text-2xl text-ink">{resultado.emBranco}</p>
+          <p className="font-display text-2xl text-ink">{resultado.emBranco}</p>
           <p className="mt-1 text-sm text-ink-2">Em branco</p>
         </div>
       </div>

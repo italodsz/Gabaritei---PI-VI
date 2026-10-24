@@ -54,3 +54,11 @@ export function formatarCronometro(segundosTotais: number): string {
 export function comEspacoSemQuebra(numero: number | string, unidade: string): string {
   return `${numero}${NBSP}${unidade}`;
 }
+
+/** Trunca num espaço antes do limite (nunca no meio de uma palavra) e acrescenta "…". */
+export function truncarNaPalavra(texto: string, maxCaracteres: number): string {
+  if (texto.length <= maxCaracteres) return texto;
+  const cortado = texto.slice(0, maxCaracteres);
+  const ultimoEspaco = cortado.lastIndexOf(" ");
+  return `${(ultimoEspaco > 0 ? cortado.slice(0, ultimoEspaco) : cortado).trimEnd()}…`;
+}

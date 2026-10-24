@@ -11,7 +11,7 @@ export default function NaoEncontrada() {
       <div className="mt-2 flex items-center gap-4">
         <NextLink
           href="/inicio"
-          className="inline-flex min-h-11 items-center justify-center rounded-sm bg-forest px-4 text-sm font-medium text-on-forest no-underline hover:bg-forest-hover"
+          className="inline-flex min-h-12 items-center justify-center rounded-sm bg-forest px-4 text-sm font-medium text-on-forest no-underline hover:bg-forest-hover"
         >
           Ir para o início
         </NextLink>

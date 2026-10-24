@@ -23,7 +23,7 @@ export function Disclosure({ titulo, children, abertoPorPadrao = false, classNam
         aria-expanded={aberto}
         aria-controls={idConteudo}
         onClick={() => setAberto((a) => !a)}
-        className="flex min-h-11 w-full items-center justify-between gap-2 py-3 text-left text-sm font-medium text-ink"
+        className="flex min-h-12 w-full items-center justify-between gap-2 py-3 text-left text-sm font-medium text-ink"
       >
         {titulo}
         <ChevronDown

@@ -184,7 +184,9 @@ Todos os pares abaixo foram calculados contra WCAG. Use exatamente estes valores
   --err-soft:     #F5E1DC;   /* texto --err sobre ele: 5,31:1 */
   --on-err:       #FFFFFF;   /* 6,69:1 sobre --err */
 
-  /* áreas: só em tags e filetes finos */
+  /* áreas: em tags, filetes finos, e (etapa V, item 2, TODO(equipe): ratificar) ladrilhos
+     de seleção de área (AreaTile) — ícone + fundo *-soft + texto da cor da área, nunca
+     texto corrido nem fundo sólido forte. Ver docs/PENDENCIAS.md. */
   --area-mt: #3F5E8C;  --area-mt-soft: #E4EAF3;   /* azul-ardósia */
   --area-cn: #17665F;  --area-cn-soft: #DFEEEC;   /* verde-azulado */
   --area-ch: #7D2E45;  --area-ch-soft: #F1E2E6;   /* bordô */

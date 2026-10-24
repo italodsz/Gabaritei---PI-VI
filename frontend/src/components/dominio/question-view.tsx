@@ -1,4 +1,6 @@
+import { apiMode } from "@/lib/api/client";
 import type { Correcao, Letra, Questao } from "@/lib/api/types";
+import { DemoChip } from "./demo-chip";
 import { Enunciado } from "./enunciado";
 import { AlternativasRadio } from "./alternativas-radio";
 import { Envio } from "./envio";
@@ -41,6 +43,7 @@ export function QuestionView({
 
   return (
     <div className={className}>
+      {apiMode() === "mock" ? <DemoChip className="mb-3" /> : null}
       <Enunciado blocos={questao.enunciado} descricaoAbertaPorPadrao={descricaoImagensAbertaPorPadrao} />
       <AlternativasRadio
         alternativas={questao.alternativas}

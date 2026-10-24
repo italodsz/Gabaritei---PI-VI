@@ -136,7 +136,7 @@ function FormularioEntrar() {
       </div>
 
       <div className="hidden rounded-md bg-paper-2 p-8 lg:block">
-        <p className="font-serif text-xl text-ink">Questões do ENEM, recomendadas com critério.</p>
+        <p className="font-display text-xl text-ink">Questões do ENEM, recomendadas com critério.</p>
         <p className="mt-2 text-sm text-ink-2">O Gabaritei sempre mostra por que recomendou cada questão.</p>
         <CartaoRespostaDecorativo className="mt-6" />
       </div>

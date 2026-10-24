@@ -55,20 +55,22 @@ export function ResumoClient() {
 
       <div className="mb-8 flex flex-wrap items-end gap-x-10 gap-y-4 border-b border-rule pb-8">
         <div>
-          <p className="font-serif text-4xl text-ink">
+          <p className="font-display text-4xl text-ink">
             {resumo.sessao.acertos} de {resumo.itens.length}
           </p>
+          {/* check-regras: ignore, "—" aqui é placeholder de valor ausente, não separador (ver PENDENCIAS.md) */}
           <p className="mt-1 text-sm text-ink-2">{taxaAcerto !== null ? formatarPercentual(taxaAcerto * 100) : "—"} de acerto</p>
         </div>
         <div>
-          <p className="font-serif text-2xl text-ink">
+          <p className="font-display text-2xl text-ink">
+            {/* check-regras: ignore, "—" aqui é placeholder de valor ausente, não separador (ver PENDENCIAS.md) */}
             {resumo.sessao.duracaoSegundos !== null ? formatarDuracao(resumo.sessao.duracaoSegundos) : "—"}
           </p>
           <p className="mt-1 text-sm text-ink-2">Tempo total</p>
         </div>
         {resumo.sessao.combo ? (
           <div>
-            <p className="font-serif text-2xl text-ink">×{resumo.sessao.combo.melhor}</p>
+            <p className="font-display text-2xl text-ink">×{resumo.sessao.combo.melhor}</p>
             <p className="mt-1 text-sm text-ink-2">Maior Combo</p>
           </div>
         ) : null}

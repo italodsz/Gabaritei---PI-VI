@@ -218,7 +218,7 @@ function ResolverQuestao({ id }: { id: string }) {
         <button
           type="button"
           onClick={() => router.push("/questoes")}
-          className="mt-4 min-h-11 text-sm font-medium text-forest-ink underline underline-offset-2"
+          className="mt-4 min-h-12 text-sm font-medium text-forest-ink underline underline-offset-2"
         >
           Voltar para Questões
         </button>

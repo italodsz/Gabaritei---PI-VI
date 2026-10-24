@@ -17,7 +17,7 @@ async function responderUmaAlternativa(page: import("@playwright/test").Page) {
 test.describe("Início", () => {
   test("mostra a próxima prática com critério e permite começar treino", async ({ page }) => {
     await entrar(page);
-    await expect(page.getByRole("heading", { level: 1 })).toContainText("Olá");
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("Marina");
     await expect(page.getByText("Recomendado pelo modelo")).toBeVisible();
     await page.getByRole("button", { name: "Começar treino" }).click();
     await page.waitForURL(/\/treino\/.+/);
@@ -26,7 +26,7 @@ test.describe("Início", () => {
   test("sem histórico, mostra o convite por tema", async ({ page }) => {
     await page.addInitScript(() => window.localStorage.setItem("gabaritei:mock:cenario", "novo"));
     await entrar(page);
-    await expect(page.getByText("Escolha um tema para começar")).toBeVisible();
+    await expect(page.getByText("Por onde você quer começar?")).toBeVisible();
     await expect(page.getByLabel("Tema (opcional)")).toBeVisible();
   });
 });

@@ -85,7 +85,7 @@ function BlocoIdentidade() {
   return (
     <section className="flex flex-wrap items-end justify-between gap-4">
       <div>
-        <p className="font-serif text-2xl text-ink">{perfil.nome}</p>
+        <p className="font-display text-2xl text-ink">{perfil.nome}</p>
         <p className="mt-1 text-sm text-ink-2">{perfil.email}</p>
         <p className="mt-1 text-sm text-ink-2">Conta criada em {formatarData(perfil.criadoEm)}.</p>
       </div>
@@ -107,19 +107,20 @@ function BlocoNumeros() {
       {data && data.respondidas > 0 ? (
         <div className="flex flex-wrap gap-x-8 gap-y-4">
           <div className="border-r border-rule pr-8">
-            <p className="font-serif text-2xl text-ink">{data.respondidas}</p>
+            <p className="font-display text-2xl text-ink">{data.respondidas}</p>
             <p className="mt-1 text-sm text-ink-2">Respondidas</p>
           </div>
           <div className="border-r border-rule pr-8">
-            <p className="font-serif text-2xl text-ink">{data.acertos}</p>
+            <p className="font-display text-2xl text-ink">{data.acertos}</p>
             <p className="mt-1 text-sm text-ink-2">Acertos</p>
           </div>
           <div className="border-r border-rule pr-8">
-            <p className="font-serif text-2xl text-ink">{data.erros}</p>
+            <p className="font-display text-2xl text-ink">{data.erros}</p>
             <p className="mt-1 text-sm text-ink-2">Erros</p>
           </div>
           <div>
-            <p className="font-serif text-2xl text-ink">
+            <p className="font-display text-2xl text-ink">
+              {/* check-regras: ignore, "—" aqui é placeholder de valor ausente, não separador (ver PENDENCIAS.md) */}
               {data.taxaAcerto !== null ? `${Math.round(data.taxaAcerto * 100)}%` : "—"}
             </p>
             <p className="mt-1 text-sm text-ink-2">Taxa de acerto</p>

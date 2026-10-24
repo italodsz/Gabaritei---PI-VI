@@ -13,7 +13,7 @@ export function Checkbox({ rotulo, className, id, ...props }: CheckboxProps) {
   const idGerado = useId();
   const checkboxId = id ?? idGerado;
   return (
-    <div className="flex min-h-11 items-center gap-2.5">
+    <div className="flex min-h-12 items-center gap-2.5">
       <CheckboxPrimitive.Root
         id={checkboxId}
         className={cn(

@@ -30,7 +30,7 @@ export default function ErroInesperado({ error, reset }: { error: Error & { dige
       <button
         type="button"
         onClick={copiarCodigo}
-        className="min-h-11 rounded-sm border border-rule-strong bg-card px-3 font-mono text-sm text-ink-2 hover:bg-paper-2"
+        className="min-h-12 rounded-sm border border-rule-strong bg-card px-3 font-mono text-sm text-ink-2 hover:bg-paper-2"
       >
         {copiado ? "Código copiado" : `Código: ${codigo}`}
       </button>

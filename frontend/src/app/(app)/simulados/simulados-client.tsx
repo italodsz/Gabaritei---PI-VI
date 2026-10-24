@@ -1,12 +1,12 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
+import { CalendarDays, Layers, Settings2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { AreaTag } from "@/components/dominio/area-tag";
+import { AreaTile } from "@/components/dominio/area-tile";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { EmptyState } from "@/components/ui/empty-state";
 import { ErrorState } from "@/components/ui/error-state";
 import { Field } from "@/components/ui/field";
@@ -95,23 +95,29 @@ function NovoSimulado() {
   }
 
   return (
+    <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
     <section className="rounded-md border-t-2 border-t-ink bg-card p-6">
       <h2 className="text-lg text-ink">Novo simulado</h2>
 
       <RadioCardGroup value={escopo} onValueChange={(v) => setEscopo(v as Escopo)} className="mt-4 flex flex-col gap-3">
-        <RadioCard value="area" titulo="Uma área" descricao="45 questões de uma única área." />
-        <RadioCard value="dia" titulo="Dia completo" descricao="90 questões, duas áreas do mesmo dia de prova." />
-        <RadioCard value="personalizado" titulo="Personalizado" descricao="Escolha as áreas e a quantidade (10 a 90)." />
+        <RadioCard value="area" titulo="Uma área" descricao="45 questões de uma única área." Icone={Layers} />
+        <RadioCard value="dia" titulo="Dia completo" descricao="90 questões, duas áreas do mesmo dia de prova." Icone={CalendarDays} />
+        <RadioCard
+          value="personalizado"
+          titulo="Personalizado"
+          descricao="Escolha as áreas e a quantidade (10 a 90)."
+          Icone={Settings2}
+        />
       </RadioCardGroup>
 
       {escopo === "area" ? (
         <fieldset className="mt-4">
           <legend className="mb-2 text-sm font-medium text-ink">Área</legend>
-          <div className="flex flex-wrap gap-x-4 gap-y-1">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {AREAS.map((area) => (
-              <Checkbox
+              <AreaTile
                 key={area}
-                rotulo={<AreaTag area={area} />}
+                area={area}
                 checked={areasPersonalizado.includes(area)}
                 onCheckedChange={() => setAreasPersonalizado(areasPersonalizado.includes(area) ? [] : [area])}
               />
@@ -135,11 +141,11 @@ function NovoSimulado() {
         <div className="mt-4 flex flex-col gap-4">
           <fieldset>
             <legend className="mb-2 text-sm font-medium text-ink">Áreas</legend>
-            <div className="flex flex-wrap gap-x-4 gap-y-1">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {AREAS.map((area) => (
-                <Checkbox
+                <AreaTile
                   key={area}
-                  rotulo={<AreaTag area={area} />}
+                  area={area}
                   checked={areasPersonalizado.includes(area)}
                   onCheckedChange={() =>
                     setAreasPersonalizado(
@@ -181,13 +187,32 @@ function NovoSimulado() {
       <p className="mt-5 text-sm text-ink-2">
         Você só vê a correção no final. Pode sair e voltar, mas o tempo continua correndo.
       </p>
+    </section>
+
+    {/* Painel de resumo ao lado do formulário, com questões e duração calculadas na
+        hora (etapa V, item 6) — mesmo padrão já usado em /treino. */}
+    <aside className="h-fit rounded-md bg-paper-2 p-5 lg:sticky lg:top-6">
+      <p className="font-medium text-ink">Resumo do simulado</p>
+      <dl className="mt-3 flex flex-col gap-2 text-sm">
+        <div className="flex justify-between gap-2">
+          <dt className="text-ink-2">Questões</dt>
+          <dd className="text-ink">{quantidadeFinal}</dd>
+        </div>
+        <div className="flex justify-between gap-2">
+          <dt className="text-ink-2">Duração</dt>
+          <dd className="text-ink">
+            {comLimite ? `${duracaoMinutos} min` : `${quantidadeFinal * 3} min (sugestão, sem limite)`}
+          </dd>
+        </div>
+      </dl>
 
       {erro ? <p className="mt-3 text-sm text-err">{erro}</p> : null}
 
-      <Button className="mt-5" onClick={aoIniciar} carregando={iniciando} textoCarregando="Preparando">
+      <Button className="mt-4 w-full" onClick={aoIniciar} carregando={iniciando} textoCarregando="Preparando">
         Iniciar simulado
       </Button>
-    </section>
+    </aside>
+    </div>
   );
 }
 

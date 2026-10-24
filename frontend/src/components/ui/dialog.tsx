@@ -27,7 +27,7 @@ export function DialogContent({ titulo, descricao, className, children, ...props
       >
         <div className="mb-4 flex items-start justify-between gap-4">
           <div>
-            <DialogPrimitive.Title className="font-serif text-xl text-ink">{titulo}</DialogPrimitive.Title>
+            <DialogPrimitive.Title className="font-display text-xl text-ink">{titulo}</DialogPrimitive.Title>
             {descricao ? (
               <DialogPrimitive.Description className="mt-1 text-sm text-ink-2">{descricao}</DialogPrimitive.Description>
             ) : (
@@ -38,7 +38,7 @@ export function DialogContent({ titulo, descricao, className, children, ...props
           </div>
           <DialogPrimitive.Close
             aria-label="Fechar"
-            className="flex size-11 shrink-0 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 hover:text-ink"
+            className="flex size-12 shrink-0 items-center justify-center rounded-sm text-ink-2 hover:bg-paper-2 hover:text-ink"
           >
             <X className="size-4" strokeWidth={1.75} aria-hidden="true" />
           </DialogPrimitive.Close>

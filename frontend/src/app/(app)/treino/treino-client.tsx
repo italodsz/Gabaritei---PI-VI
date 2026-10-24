@@ -1,13 +1,13 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
+import { Sparkles, SlidersHorizontal, Target, TrendingUp } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState } from "react";
 
-import { AreaTag } from "@/components/dominio/area-tag";
+import { AreaTile } from "@/components/dominio/area-tile";
 import { CriterioRecomendacao } from "@/components/dominio/criterio-recomendacao";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Combobox } from "@/components/ui/combobox";
 import { Field } from "@/components/ui/field";
 import { PageHeader } from "@/components/layout/page-header";
@@ -156,6 +156,7 @@ function EscolherModo() {
               value="tema"
               titulo="Por tema"
               descricao="Questões parecidas com um tema ou com uma questão que você escolher."
+              Icone={Sparkles}
             />
 
             <RadioCard
@@ -164,6 +165,7 @@ function EscolherModo() {
               descricao="Foco nas habilidades em que você mais precisa melhorar."
               disabled={!habilidadeDisponivel}
               motivo={!habilidadeDisponivel ? motivoHabilidade : undefined}
+              Icone={Target}
             />
 
             <RadioCard
@@ -172,12 +174,14 @@ function EscolherModo() {
               descricao="Questões na dificuldade certa para a sua proficiência."
               disabled={!nivelDisponivel}
               motivo={!nivelDisponivel ? motivoNivel : undefined}
+              Icone={SlidersHorizontal}
             />
 
             <RadioCard
               value="progressao"
               titulo="Progressão com Combo"
               descricao="A dificuldade sobe conforme você acerta em sequência."
+              Icone={TrendingUp}
             />
           </RadioCardGroup>
 
@@ -196,14 +200,9 @@ function EscolherModo() {
 
           <fieldset>
             <legend className="mb-2 text-sm font-medium text-ink">Áreas</legend>
-            <div className="flex flex-wrap gap-x-4 gap-y-1">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {AREAS.map((area) => (
-                <Checkbox
-                  key={area}
-                  rotulo={<AreaTag area={area} />}
-                  checked={areas.includes(area)}
-                  onCheckedChange={() => setAreas(toggle(areas, area))}
-                />
+                <AreaTile key={area} area={area} checked={areas.includes(area)} onCheckedChange={() => setAreas(toggle(areas, area))} />
               ))}
             </div>
           </fieldset>

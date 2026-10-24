@@ -29,17 +29,7 @@ export function Sidebar({ recolhida = false, onSair }: SidebarProps) {
           <span className="font-serif text-lg text-ink">{recolhida ? "G" : "Gabaritei"}</span>
         </div>
 
-        <div className="mt-2 px-2">
-          <span
-            className="flex min-h-11 items-center gap-2 rounded-sm px-2 text-sm text-ink-2"
-            title="FUVEST e UNICAMP chegam em breve"
-          >
-            <span className="font-medium text-ink">ENEM</span>
-            {!recolhida && <span className="text-xs">· FUVEST e UNICAMP em breve</span>}
-          </span>
-        </div>
-
-        <ul className="mt-2 flex flex-col gap-1 px-2">
+        <ul className="mt-4 flex flex-col gap-1 px-2">
           {ITENS_NAV.map((item) => {
             const ativo = pathname?.startsWith(item.href);
             const Icone = item.icone;
@@ -48,7 +38,7 @@ export function Sidebar({ recolhida = false, onSair }: SidebarProps) {
                 href={item.href}
                 aria-current={ativo ? "page" : undefined}
                 className={cn(
-                  "flex min-h-11 items-center gap-3 rounded-sm border-l-[3px] border-l-transparent px-3 text-sm",
+                  "flex min-h-12 items-center gap-3 rounded-sm border-l-[3px] border-l-transparent px-3 text-sm",
                   "motion-safe-transition",
                   ativo ? "border-l-forest font-medium text-ink" : "text-ink-2 hover:bg-paper hover:text-ink",
                 )}
@@ -65,12 +55,12 @@ export function Sidebar({ recolhida = false, onSair }: SidebarProps) {
       <div className="flex flex-col gap-1 px-2">
         {recolhida ? (
           <Tooltip conteudo="Perfil">
-            <Link href="/perfil" className="flex min-h-11 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink">
+            <Link href="/perfil" className="flex min-h-12 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink">
               <CircleUser className="size-5 shrink-0" strokeWidth={1.75} aria-hidden="true" />
             </Link>
           </Tooltip>
         ) : (
-          <Link href="/perfil" className="flex min-h-11 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink">
+          <Link href="/perfil" className="flex min-h-12 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink">
             <CircleUser className="size-5 shrink-0" strokeWidth={1.75} aria-hidden="true" />
             Perfil
           </Link>
@@ -78,7 +68,7 @@ export function Sidebar({ recolhida = false, onSair }: SidebarProps) {
         <button
           type="button"
           onClick={onSair}
-          className="flex min-h-11 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink"
+          className="flex min-h-12 items-center gap-3 rounded-sm px-3 text-sm text-ink-2 hover:bg-paper hover:text-ink"
         >
           <LogOut className="size-5 shrink-0" strokeWidth={1.75} aria-hidden="true" />
           {!recolhida && "Sair"}

@@ -10,7 +10,7 @@ export interface RemovableChipProps {
 
 /**
  * Chip de filtro ativo, removível (seção 10.3, tela 7). O chip inteiro é o
- * alvo de toque (min-h-11, seção 2 regra 10) — o X é só o indicador visual.
+ * alvo de toque (min-h-12, seção 2 regra 10) — o X é só o indicador visual.
  */
 export function RemovableChip({ children, onRemover, rotulo, className }: RemovableChipProps) {
   return (
@@ -19,7 +19,7 @@ export function RemovableChip({ children, onRemover, rotulo, className }: Remova
       onClick={onRemover}
       aria-label={`Tirar filtro: ${rotulo}`}
       className={cn(
-        "inline-flex min-h-11 items-center gap-1.5 rounded-full border border-rule-strong bg-card pl-3 pr-2.5 text-sm text-ink",
+        "inline-flex min-h-12 items-center gap-1.5 rounded-full border border-rule-strong bg-card pl-3 pr-2.5 text-sm text-ink",
         "hover:bg-paper-2",
         className,
       )}
