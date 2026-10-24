@@ -1,0 +1,247 @@
+"use client";
+
+import { useQuery } from "@tanstack/react-query";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+
+import { AreaTag } from "@/components/dominio/area-tag";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { EmptyState } from "@/components/ui/empty-state";
+import { ErrorState } from "@/components/ui/error-state";
+import { Field } from "@/components/ui/field";
+import { Link } from "@/components/ui/link";
+import { PageHeader } from "@/components/layout/page-header";
+import { RadioCard, RadioCardGroup } from "@/components/ui/radio-card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Switch } from "@/components/ui/switch";
+import { getApi } from "@/lib/api/client";
+import { mensagemDoErro } from "@/lib/api/errors";
+import { formatarData, formatarDuracao } from "@/lib/format";
+import type { Area, SimuladoConfig } from "@/lib/api/types";
+
+type Escopo = "area" | "dia" | "personalizado";
+
+const PARES_DIA: { valor: string; areas: Area[]; rotulo: string }[] = [
+  { valor: "lc-ch", areas: ["LC", "CH"], rotulo: "Linguagens e Ciências Humanas" },
+  { valor: "cn-mt", areas: ["CN", "MT"], rotulo: "Ciências da Natureza e Matemática" },
+];
+
+const AREAS: Area[] = ["LC", "CH", "CN", "MT"];
+
+function EmAndamento() {
+  const { data: simulados } = useQuery({ queryKey: ["simulados"], queryFn: () => getApi().listarSimulados() });
+  const emAndamento = simulados?.find((s) => s.status === "em_andamento");
+  if (!emAndamento) return null;
+
+  return (
+    <div className="mb-8 rounded-md bg-paper-2 p-5">
+      <p className="font-medium text-ink">
+        Simulado em andamento: {emAndamento.respondidas} de {emAndamento.total}
+      </p>
+      {emAndamento.limiteEm ? (
+        <p className="mt-1 text-sm text-ink-2">Tempo limite em {formatarData(emAndamento.limiteEm)}</p>
+      ) : null}
+      <Link href={`/simulados/${emAndamento.id}`} className="mt-2 inline-block">
+        Continuar
+      </Link>
+    </div>
+  );
+}
+
+function NovoSimulado() {
+  const router = useRouter();
+  const [escopo, setEscopo] = useState<Escopo>("personalizado");
+  const [parDia, setParDia] = useState(PARES_DIA[0].valor);
+  const [areasPersonalizado, setAreasPersonalizado] = useState<Area[]>(["MT"]);
+  const [quantidade, setQuantidade] = useState(10);
+  const [comLimite, setComLimite] = useState(false);
+  const [duracaoMinutos, setDuracaoMinutos] = useState(30);
+  const [cronometroVisivel, setCronometroVisivel] = useState(true);
+  const [iniciando, setIniciando] = useState(false);
+  const [erro, setErro] = useState<string | null>(null);
+
+  const areas: Area[] =
+    escopo === "area"
+      ? areasPersonalizado.slice(0, 1)
+      : escopo === "dia"
+        ? (PARES_DIA.find((p) => p.valor === parDia)?.areas ?? [])
+        : areasPersonalizado;
+  const quantidadeFinal = escopo === "area" ? 45 : escopo === "dia" ? 90 : quantidade;
+
+  async function aoIniciar() {
+    setErro(null);
+    if (escopo === "area" && areasPersonalizado.length === 0) {
+      setErro("Escolha uma área.");
+      return;
+    }
+    setIniciando(true);
+    try {
+      const config: SimuladoConfig = {
+        escopo,
+        areas,
+        quantidade: quantidadeFinal,
+        ano: null,
+        duracaoMinutos: comLimite ? duracaoMinutos : null,
+        cronometroVisivel,
+      };
+      const simulado = await getApi().criarSimulado(config);
+      router.push(`/simulados/${simulado.id}`);
+    } catch (e) {
+      setErro(mensagemDoErro(e));
+    } finally {
+      setIniciando(false);
+    }
+  }
+
+  return (
+    <section className="rounded-md border-t-2 border-t-ink bg-card p-6">
+      <h2 className="text-lg text-ink">Novo simulado</h2>
+
+      <RadioCardGroup value={escopo} onValueChange={(v) => setEscopo(v as Escopo)} className="mt-4 flex flex-col gap-3">
+        <RadioCard value="area" titulo="Uma área" descricao="45 questões de uma única área." />
+        <RadioCard value="dia" titulo="Dia completo" descricao="90 questões, duas áreas do mesmo dia de prova." />
+        <RadioCard value="personalizado" titulo="Personalizado" descricao="Escolha as áreas e a quantidade (10 a 90)." />
+      </RadioCardGroup>
+
+      {escopo === "area" ? (
+        <fieldset className="mt-4">
+          <legend className="mb-2 text-sm font-medium text-ink">Área</legend>
+          <div className="flex flex-wrap gap-x-4 gap-y-1">
+            {AREAS.map((area) => (
+              <Checkbox
+                key={area}
+                rotulo={<AreaTag area={area} />}
+                checked={areasPersonalizado.includes(area)}
+                onCheckedChange={() => setAreasPersonalizado(areasPersonalizado.includes(area) ? [] : [area])}
+              />
+            ))}
+          </div>
+        </fieldset>
+      ) : null}
+
+      {escopo === "dia" ? (
+        <fieldset className="mt-4">
+          <legend className="mb-2 text-sm font-medium text-ink">Dia</legend>
+          <RadioCardGroup value={parDia} onValueChange={setParDia} className="flex flex-col gap-2">
+            {PARES_DIA.map((p) => (
+              <RadioCard key={p.valor} value={p.valor} titulo={p.rotulo} />
+            ))}
+          </RadioCardGroup>
+        </fieldset>
+      ) : null}
+
+      {escopo === "personalizado" ? (
+        <div className="mt-4 flex flex-col gap-4">
+          <fieldset>
+            <legend className="mb-2 text-sm font-medium text-ink">Áreas</legend>
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
+              {AREAS.map((area) => (
+                <Checkbox
+                  key={area}
+                  rotulo={<AreaTag area={area} />}
+                  checked={areasPersonalizado.includes(area)}
+                  onCheckedChange={() =>
+                    setAreasPersonalizado(
+                      areasPersonalizado.includes(area)
+                        ? areasPersonalizado.filter((a) => a !== area)
+                        : [...areasPersonalizado, area],
+                    )
+                  }
+                />
+              ))}
+            </div>
+          </fieldset>
+          <Field
+            rotulo="Quantidade de questões (10 a 90)"
+            type="number"
+            min={10}
+            max={90}
+            value={quantidade}
+            onChange={(e) => setQuantidade(Math.min(90, Math.max(10, Number(e.target.value) || 10)))}
+          />
+        </div>
+      ) : null}
+
+      <div className="mt-5 flex flex-col gap-3 border-t border-rule pt-5">
+        <Switch rotulo="Com tempo limite" checked={comLimite} onCheckedChange={setComLimite} />
+        {comLimite ? (
+          <Field
+            rotulo="Minutos"
+            type="number"
+            min={1}
+            value={duracaoMinutos}
+            onChange={(e) => setDuracaoMinutos(Math.max(1, Number(e.target.value) || 1))}
+            dica={`Sugestão: 3 min por questão (${quantidadeFinal * 3} min).`}
+          />
+        ) : null}
+        <Switch rotulo="Mostrar cronômetro" checked={cronometroVisivel} onCheckedChange={setCronometroVisivel} />
+      </div>
+
+      <p className="mt-5 text-sm text-ink-2">
+        Você só vê a correção no final. Pode sair e voltar, mas o tempo continua correndo.
+      </p>
+
+      {erro ? <p className="mt-3 text-sm text-err">{erro}</p> : null}
+
+      <Button className="mt-5" onClick={aoIniciar} carregando={iniciando} textoCarregando="Preparando">
+        Iniciar simulado
+      </Button>
+    </section>
+  );
+}
+
+function Concluidos() {
+  const { data: simulados, isLoading, isError, error, refetch } = useQuery({
+    queryKey: ["simulados"],
+    queryFn: () => getApi().listarSimulados(),
+  });
+
+  const concluidos = simulados?.filter((s) => s.status === "finalizado") ?? [];
+
+  if (isLoading) {
+    return (
+      <div className="flex flex-col gap-3">
+        <Skeleton className="h-14 w-full" />
+        <Skeleton className="h-14 w-full" />
+      </div>
+    );
+  }
+  if (isError) return <ErrorState mensagem={mensagemDoErro(error)} onTentarDeNovo={() => refetch()} />;
+  if (concluidos.length === 0) {
+    return <EmptyState titulo="Você ainda não fez nenhum simulado." />;
+  }
+
+  return (
+    <ul>
+      {concluidos.map((s) => (
+        <li key={s.id} className="border-b border-rule py-3">
+          <Link href={`/simulados/${s.id}/resultado`} className="flex flex-wrap items-center justify-between gap-2">
+            <span className="flex flex-col text-sm text-ink">
+              <span>{s.rotulo}</span>
+              <span className="text-ink-2">{formatarData(s.iniciadoEm)}</span>
+            </span>
+            <span className="text-sm text-ink-2">
+              {s.acertos ?? 0} de {s.total}
+              {s.duracaoSegundos !== null ? `, ${formatarDuracao(s.duracaoSegundos)}` : ""}
+            </span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export function SimuladosClient() {
+  return (
+    <div>
+      <PageHeader titulo="Simulados" />
+      <EmAndamento />
+      <NovoSimulado />
+      <section className="mt-10">
+        <h2 className="mb-3 text-lg text-ink">Concluídos</h2>
+        <Concluidos />
+      </section>
+    </div>
+  );
+}

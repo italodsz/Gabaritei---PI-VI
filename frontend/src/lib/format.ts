@@ -1,0 +1,56 @@
+/** Datas, números e unidades em pt-BR (seção 4 e 6 do prompt). */
+
+const NBSP = " ";
+
+export function formatarData(iso: string): string {
+  return new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date(iso));
+}
+
+export function formatarDataHora(iso: string): string {
+  return new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short" }).format(
+    new Date(iso),
+  );
+}
+
+export function formatarHora(iso: string): string {
+  return new Intl.DateTimeFormat("pt-BR", { timeStyle: "short" }).format(new Date(iso));
+}
+
+export function formatarNumero(valor: number): string {
+  return new Intl.NumberFormat("pt-BR").format(valor);
+}
+
+export function formatarPercentual(valor: number, fracao = 0): string {
+  const texto = new Intl.NumberFormat("pt-BR", {
+    maximumFractionDigits: fracao,
+    minimumFractionDigits: fracao,
+  }).format(valor);
+  return `${texto}${NBSP}%`;
+}
+
+/** "2 h 49 min" ou "43 min" ou "38 s", com espaço sem quebra entre número e unidade. */
+export function formatarDuracao(segundosTotais: number): string {
+  const segundos = Math.max(0, Math.round(segundosTotais));
+  const h = Math.floor(segundos / 3600);
+  const min = Math.floor((segundos % 3600) / 60);
+  const s = segundos % 60;
+
+  if (h > 0) return `${h}${NBSP}h${NBSP}${min}${NBSP}min`;
+  if (min > 0) return `${min}${NBSP}min${s > 0 ? ` ${s}${NBSP}s` : ""}`;
+  return `${s}${NBSP}s`;
+}
+
+/** Para o Timer: "23:45" ou "1:02:03" */
+export function formatarCronometro(segundosTotais: number): string {
+  const segundos = Math.max(0, Math.round(segundosTotais));
+  const h = Math.floor(segundos / 3600);
+  const min = Math.floor((segundos % 3600) / 60);
+  const s = segundos % 60;
+  const mm = String(min).padStart(2, "0");
+  const ss = String(s).padStart(2, "0");
+  return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
+}
+
+export function comEspacoSemQuebra(numero: number | string, unidade: string): string {
+  return `${numero}${NBSP}${unidade}`;
+}

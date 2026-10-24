@@ -1,0 +1,169 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@theme {
+  /* cores: mapeiam para as variáveis de tokens.css, então bg-paper, text-ink etc. funcionam */
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-forest: var(--forest);
+  --color-forest-hover: var(--forest-hover);
+  --color-forest-soft: var(--forest-soft);
+  --color-forest-ink: var(--forest-ink);
+  --color-on-forest: var(--on-forest);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-amber-ink: var(--amber-ink);
+  --color-err: var(--err);
+  --color-err-soft: var(--err-soft);
+  --color-on-err: var(--on-err);
+  --color-area-mt: var(--area-mt);
+  --color-area-mt-soft: var(--area-mt-soft);
+  --color-area-cn: var(--area-cn);
+  --color-area-cn-soft: var(--area-cn-soft);
+  --color-area-ch: var(--area-ch);
+  --color-area-ch-soft: var(--area-ch-soft);
+  --color-area-lc: var(--area-lc);
+  --color-area-lc-soft: var(--area-lc-soft);
+  --color-focus: var(--focus);
+
+  /* tipografia: seção 6 — Source Serif 4 (editorial), IBM Plex Sans (interface), IBM Plex Mono (dados técnicos) */
+  --font-serif: var(--font-source-serif-4), ui-serif, serif;
+  --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
+
+  /* escala: 12, 14, 16, 18, 22, 28, 36 px (seção 6) */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.4;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.125rem; /* enunciado de questão */
+  --text-lg--line-height: 1.65;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.4;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 1.25;
+  --text-3xl: 2.25rem;
+  --text-3xl--line-height: 1.15;
+
+  /* raios: seção 6 */
+  --radius-xs: 4px; /* folha, controles pequenos */
+  --radius-sm: 6px; /* botões, campos */
+  --radius-md: 8px; /* painéis */
+  --radius-full: 999px; /* tags, bolhas do cartão-resposta */
+}
+
+@layer base {
+  * {
+    border-color: var(--rule);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    scrollbar-gutter: stable;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  table,
+  .tabular-nums,
+  time,
+  [data-mono] {
+    font-variant-numeric: tabular-nums;
+  }
+
+  button,
+  [role="button"],
+  a,
+  input,
+  select,
+  textarea,
+  summary {
+    touch-action: manipulation;
+  }
+
+  /* Regra 13 (seção 2): nada de outline: none sem substituto. Anel de foco sempre visível. */
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Regra 10/13: animar só transform e opacity, 120–180ms ease-out, some com reduced-motion. */
+  @media (prefers-reduced-motion: no-preference) {
+    .motion-safe-transition {
+      transition-property: transform, opacity;
+      transition-duration: 160ms;
+      transition-timing-function: ease-out;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -3rem;
+    z-index: 50;
+    transition-property: transform, opacity;
+    transition-duration: 160ms;
+  }
+
+  .skip-link:focus-visible {
+    top: 1rem;
+  }
+
+  .no-scrollbar-x {
+    overflow-x: auto;
+  }
+
+  /* Único momento orquestrado do design system (seção 6): bolhas do cartão-resposta
+     entram em sequência no resultado do simulado, até 900ms no total. */
+  @keyframes cartao-entrada {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cartao-entrada {
+    animation: cartao-entrada 200ms ease-out both;
+  }
+}
