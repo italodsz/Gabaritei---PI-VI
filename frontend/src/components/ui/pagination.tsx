@@ -40,7 +40,7 @@ export function Pagination({ paginaAtual, totalPaginas, onPaginaChange, classNam
               onClick={() => onPaginaChange(pagina)}
               className={cn(
                 "flex size-12 items-center justify-center rounded-sm text-sm font-medium text-ink-2 hover:bg-paper-2",
-                pagina === paginaAtual && "bg-forest text-on-forest hover:bg-forest",
+                pagina === paginaAtual && "bg-brand text-on-brand hover:bg-brand",
               )}
             >
               {pagina}

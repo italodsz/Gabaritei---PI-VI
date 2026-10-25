@@ -42,7 +42,7 @@ interface Falha {
  */
 const SCRIPT_NO_NAVEGADOR = `
 (function () {
-  // Tailwind v4 usa color-mix() para modificadores de opacidade (ex.: bg-forest/60),
+  // Tailwind v4 usa color-mix() para modificadores de opacidade (ex.: bg-brand/60),
   // e o Chrome devolve esse computed style em notação oklab(), não rgb(). Precisamos
   // converter os dois formatos para comparar cor de verdade.
   function toSrgbChannel(c) {

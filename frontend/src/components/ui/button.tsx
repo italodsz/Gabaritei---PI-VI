@@ -13,13 +13,13 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 const CLASSES_VARIANTE: Record<ButtonVariante, string> = {
-  primario: "bg-forest text-on-forest hover:bg-forest-hover disabled:opacity-60",
+  primario: "bg-brand text-on-brand hover:bg-brand-hover disabled:opacity-60",
   secundario: "bg-transparent text-ink border border-rule-strong hover:bg-paper-2 disabled:opacity-60",
-  discreto: "bg-transparent text-forest-ink hover:bg-forest-soft disabled:opacity-60",
+  discreto: "bg-transparent text-brand-ink hover:bg-brand-soft disabled:opacity-60",
   perigoso: "bg-err text-on-err hover:opacity-90 disabled:opacity-60",
-  // Etapa V: pro botão grande da faixa verde-floresta sólida do Início — "primario"
-  // (bg-forest) quase some em cima de --forest-ink (são a mesma cor no tema escuro).
-  inverso: "bg-paper text-forest-ink hover:bg-paper-2 disabled:opacity-60",
+  // Etapa V: pro botão grande da faixa sólida da marca do Início — "primario"
+  // (bg-brand) quase some em cima de --brand-ink (são a mesma cor no tema escuro).
+  inverso: "bg-paper text-brand-ink hover:bg-paper-2 disabled:opacity-60",
 };
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(

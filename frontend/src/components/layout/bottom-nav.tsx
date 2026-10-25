@@ -27,7 +27,7 @@ export function BottomNav() {
             aria-current={ativo ? "page" : undefined}
             className={cn(
               "flex min-h-12 flex-1 flex-col items-center gap-0.5 border-t-[3px] border-t-transparent py-2 text-xs",
-              ativo ? "border-t-forest font-medium text-ink" : "text-ink-2",
+              ativo ? "border-t-brand font-medium text-ink" : "text-ink-2",
             )}
           >
             <Icone className="size-5" strokeWidth={1.75} aria-hidden="true" />

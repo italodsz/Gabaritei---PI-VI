@@ -35,7 +35,7 @@ function Bolha({ letra, item }: { letra: Letra; item: CartaoRespostaItem }) {
 
   if (marcadaPeloEstudante && item.correta) {
     return (
-      <span className="flex size-6 items-center justify-center rounded-full bg-forest text-on-forest" aria-hidden="true">
+      <span className="flex size-6 items-center justify-center rounded-full bg-brand text-on-brand" aria-hidden="true">
         <Check className="size-3.5" strokeWidth={2.25} />
       </span>
     );
@@ -50,7 +50,7 @@ function Bolha({ letra, item }: { letra: Letra; item: CartaoRespostaItem }) {
   if (ehGabarito && !item.correta) {
     return (
       <span
-        className="flex size-6 items-center justify-center rounded-full border-2 border-forest text-forest-ink"
+        className="flex size-6 items-center justify-center rounded-full border-2 border-brand text-brand-ink"
         aria-hidden="true"
       >
         <Check className="size-3" strokeWidth={2.25} />
@@ -143,7 +143,7 @@ export function CartaoResposta({ itens, hrefBase, className }: CartaoRespostaPro
 
       <div className="mb-4 flex flex-wrap items-center gap-4 text-xs text-ink-2">
         <span className="flex items-center gap-1.5">
-          <span className="flex size-5 items-center justify-center rounded-full bg-forest text-on-forest">
+          <span className="flex size-5 items-center justify-center rounded-full bg-brand text-on-brand">
             <Check className="size-3" strokeWidth={2.25} aria-hidden="true" />
           </span>
           Você acertou
@@ -155,7 +155,7 @@ export function CartaoResposta({ itens, hrefBase, className }: CartaoRespostaPro
           Você errou
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="flex size-5 items-center justify-center rounded-full border-2 border-forest text-forest-ink">
+          <span className="flex size-5 items-center justify-center rounded-full border-2 border-brand text-brand-ink">
             <Check className="size-2.5" strokeWidth={2.25} aria-hidden="true" />
           </span>
           Gabarito oficial

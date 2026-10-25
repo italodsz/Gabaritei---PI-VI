@@ -14,11 +14,11 @@ export function FeedbackCorrecao({ correcao, className }: FeedbackCorrecaoProps)
       role="status"
       className={cn(
         "rounded-r-xs border-l-[3px] p-4",
-        correcao.correta ? "border-l-forest bg-forest-soft" : "border-l-err bg-err-soft",
+        correcao.correta ? "border-l-brand bg-brand-soft" : "border-l-err bg-err-soft",
         className,
       )}
     >
-      <p className={cn("flex items-center gap-2 font-medium", correcao.correta ? "text-forest-ink" : "text-err")}>
+      <p className={cn("flex items-center gap-2 font-medium", correcao.correta ? "text-brand-ink" : "text-err")}>
         {correcao.correta ? (
           <Check className="size-4" strokeWidth={2.25} aria-hidden="true" />
         ) : (

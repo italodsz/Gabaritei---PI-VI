@@ -41,7 +41,7 @@ export function FoguinhoBadge({ atual, melhor, hojeContou, emRisco, className }:
     anteriorRef.current = hojeContou;
   }, [hojeContou]);
 
-  const corIcone = estado === "acesa" ? "text-forest" : estado === "em-espera" ? "text-ink" : "text-ink-2";
+  const corIcone = estado === "acesa" ? "text-brand" : estado === "em-espera" ? "text-ink" : "text-ink-2";
   const corNumero = estado === "zerada" ? "text-ink-2" : "text-ink";
 
   const texto =

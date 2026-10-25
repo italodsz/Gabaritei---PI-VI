@@ -40,7 +40,7 @@ export function Sidebar({ recolhida = false, onSair }: SidebarProps) {
                 className={cn(
                   "flex min-h-12 items-center gap-3 rounded-sm border-l-[3px] border-l-transparent px-3 text-sm",
                   "motion-safe-transition",
-                  ativo ? "border-l-forest font-medium text-ink" : "text-ink-2 hover:bg-paper hover:text-ink",
+                  ativo ? "border-l-brand font-medium text-ink" : "text-ink-2 hover:bg-paper hover:text-ink",
                 )}
               >
                 <Icone className="size-5 shrink-0" strokeWidth={1.75} aria-hidden="true" />

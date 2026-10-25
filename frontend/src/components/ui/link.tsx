@@ -7,7 +7,7 @@ export type LinkProps = React.ComponentPropsWithoutRef<typeof NextLink>;
 export function Link({ className, ...props }: LinkProps) {
   return (
     <NextLink
-      className={cn("text-forest-ink underline underline-offset-2 hover:text-forest-hover", className)}
+      className={cn("text-brand-ink underline underline-offset-2 hover:text-brand-hover", className)}
       {...props}
     />
   );

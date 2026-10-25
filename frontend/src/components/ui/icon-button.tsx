@@ -10,11 +10,11 @@ export interface IconButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEl
 }
 
 const CLASSES_VARIANTE: Record<ButtonVariante, string> = {
-  primario: "bg-forest text-on-forest hover:bg-forest-hover",
+  primario: "bg-brand text-on-brand hover:bg-brand-hover",
   secundario: "bg-transparent text-ink border border-rule-strong hover:bg-paper-2",
   discreto: "bg-transparent text-ink-2 hover:bg-paper-2 hover:text-ink",
   perigoso: "bg-err text-on-err hover:opacity-90",
-  inverso: "bg-paper text-forest-ink hover:bg-paper-2",
+  inverso: "bg-paper text-brand-ink hover:bg-paper-2",
 };
 
 /** Botão só de ícone. `aria-label` é obrigatório (seção 9: nunca sem nome acessível). */

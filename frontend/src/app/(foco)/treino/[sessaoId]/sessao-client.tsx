@@ -296,7 +296,7 @@ export function SessaoClient() {
           <button
             type="button"
             onClick={() => setMostrarAtalhos(true)}
-            className="min-h-12 self-start text-sm font-medium text-forest-ink underline underline-offset-2"
+            className="min-h-12 self-start text-sm font-medium text-brand-ink underline underline-offset-2"
           >
             Ver atalhos de teclado
           </button>

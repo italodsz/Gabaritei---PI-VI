@@ -18,14 +18,14 @@ export function Checkbox({ rotulo, className, id, ...props }: CheckboxProps) {
         id={checkboxId}
         className={cn(
           "flex size-5 items-center justify-center rounded-xs border border-rule-strong bg-card",
-          "data-[state=checked]:bg-forest data-[state=checked]:border-forest",
+          "data-[state=checked]:bg-brand data-[state=checked]:border-brand",
           "motion-safe-transition",
           className,
         )}
         {...props}
       >
         <CheckboxPrimitive.Indicator>
-          <Check className="size-3.5 text-on-forest" strokeWidth={2.25} aria-hidden="true" />
+          <Check className="size-3.5 text-on-brand" strokeWidth={2.25} aria-hidden="true" />
         </CheckboxPrimitive.Indicator>
       </CheckboxPrimitive.Root>
       <label htmlFor={checkboxId} className="text-sm text-ink">

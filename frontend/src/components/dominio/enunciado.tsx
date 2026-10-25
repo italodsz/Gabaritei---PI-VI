@@ -34,7 +34,7 @@ function BlocoFigura({ figura, abertaPorPadrao }: { figura: Bloco & { tipo: "fig
             type="button"
             aria-expanded={aberta}
             onClick={() => setAberta((a) => !a)}
-            className="min-h-12 text-sm font-medium text-forest-ink underline underline-offset-2"
+            className="min-h-12 text-sm font-medium text-brand-ink underline underline-offset-2"
           >
             {aberta ? "Ocultar descrição da figura" : "Ler descrição da figura"}
           </button>
