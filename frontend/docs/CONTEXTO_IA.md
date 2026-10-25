@@ -37,9 +37,12 @@ npm run lint         # eslint .
 npm run test         # vitest run (unitário)
 npx playwright test  # e2e completo
 npx tsx scripts/auditar-contraste.ts   # auditoria de contraste (precisa do dev rodando)
-npm run check:regras # varredura estática das regras 4-9 (gradiente, roxo, âmbar fora de IA, etc.)
+npm run check:regras # varredura estática das regras 4-9 (gradiente, roxo, âmbar fora de IA, cor literal fora dos tokens, etc.)
+npm run capturar:telas # exporta PNG de verdade das telas principais pra e2e/capturas/
 npm run build        # build de produção
 ```
+
+Depois da etapa V veio uma "etapa de arrumação" (sem mudar nada visual): corrigiu os dois avisos de console que a etapa V tinha deixado passar (RadioGroup não controlado→controlado em `AlternativasRadio`; hidratação do `h1` nas rotas que usam `PageHeader`), expandiu bastante o `check:regras`, e consertou de verdade a flakiness crônica do `auditar-contraste.ts` (era um `waitForTimeout` fixo, trocado por esperar o conteúdo de verdade aparecer). Detalhe completo em `docs/PENDENCIAS.md`, seção "Etapa de arrumação".
 
 ---
 

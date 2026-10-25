@@ -14,7 +14,8 @@
     "test:a11y": "playwright test --grep @a11y",
     "audit:contraste": "tsx scripts/auditar-contraste.ts",
     "gerar:mock": "tsx scripts/gerar-mock.ts",
-    "check:regras": "tsx scripts/check-regras.ts"
+    "check:regras": "tsx scripts/check-regras.ts",
+    "capturar:telas": "tsx scripts/capturar-telas.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^6.0.0",

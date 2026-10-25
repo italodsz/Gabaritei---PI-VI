@@ -307,7 +307,7 @@ export function SessaoClient() {
         aberto={mostrarAtalhos}
         onOpenChange={setMostrarAtalhos}
         itens={[
-          { tecla: "A–E", acao: "Escolher alternativa" },
+          { tecla: "A–E", acao: "Escolher alternativa" }, // check-regras: ignore, traço médio de faixa (A até E), não separador
           { tecla: "Enter", acao: "Enviar resposta ou avançar" },
           { tecla: "N", acao: "Próxima questão (depois de corrigida)" },
           { tecla: "?", acao: "Abrir esta lista" },

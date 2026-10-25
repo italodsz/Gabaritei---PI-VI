@@ -78,7 +78,7 @@ export function ComboMeter({ estado, className }: ComboMeterProps) {
         <DialogContent titulo="Como o Combo funciona">
           <p className="text-sm text-ink-2">
             A cada {estado.config.acertosPorDegrau} acertos seguidos, a dificuldade das próximas questões sobe um
-            degrau (fácil → média → difícil). Quando você erra, a dificuldade{" "}
+            degrau (começa fácil, passa por média, chega a difícil). Quando você erra, a dificuldade{" "}
             {estado.config.noErro === "reinicia" ? "volta para fácil" : "desce um degrau"}.
           </p>
         </DialogContent>

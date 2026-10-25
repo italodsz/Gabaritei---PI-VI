@@ -30,10 +30,7 @@ export const FormErrorSummary = forwardRef<HTMLDivElement, FormErrorSummaryProps
       ref={ref}
       role="alert"
       tabIndex={-1}
-      className={cn(
-        "rounded-r-xs border-l-[3px] border-l-err bg-err-soft p-4 outline-none",
-        className,
-      )}
+      className={cn("rounded-r-xs border-l-[3px] border-l-err bg-err-soft p-4", className)}
     >
       <p className="flex items-center gap-2 font-medium text-ink">
         <AlertTriangle className="size-4 shrink-0 text-err" strokeWidth={1.75} aria-hidden="true" />

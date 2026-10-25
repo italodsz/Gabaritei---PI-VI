@@ -36,9 +36,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  // themeColor é metadado lido pelo SO/navegador (cor da barra de endereço), fora da
+  // cascata CSS — não há como referenciar var(--paper) aqui. Os hex têm que continuar
+  // batendo com --paper claro/escuro em tokens.css manualmente se o token mudar.
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f4f2ec" },
-    { media: "(prefers-color-scheme: dark)", color: "#121714" },
+    { media: "(prefers-color-scheme: light)", color: "#f4f2ec" }, // check-regras: ignore
+    { media: "(prefers-color-scheme: dark)", color: "#121714" }, // check-regras: ignore
   ],
 };
 

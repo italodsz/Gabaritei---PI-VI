@@ -8,10 +8,11 @@ export function FocoNoH1() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // Todo h1 do app já declara tabIndex={-1} direto no JSX (nunca via setAttribute
+    // aqui) — evita a divergência entre o HTML da primeira renderização do cliente
+    // e o que a hidratação espera, que antes gerava aviso de hidratação no console.
     const h1 = document.querySelector("h1");
-    if (!h1) return;
-    if (!h1.hasAttribute("tabindex")) h1.setAttribute("tabindex", "-1");
-    h1.focus();
+    h1?.focus();
   }, [pathname]);
 
   return null;

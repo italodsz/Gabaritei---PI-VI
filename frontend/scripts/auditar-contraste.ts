@@ -217,8 +217,11 @@ async function medirSessaoDeTreino(page: Page, tema: string): Promise<Falha[]> {
   await page.getByRole("radio", { name: "5", exact: true }).click();
   await page.click('button:has-text("Começar treino")');
   await page.waitForURL(/\/treino\/[^/]+$/);
+  // Espera a primeira alternativa de verdade em vez de um tempo fixo: um wait fixo
+  // (500ms) às vezes não bastava sob mais contenção de recursos (muitos navegadores
+  // abertos nesta auditoria), fazendo o loop de respostas abaixo não achar nada.
+  await page.waitForSelector('[role="radio"]', { timeout: 15000 });
   await page.waitForLoadState("networkidle");
-  await page.waitForTimeout(500);
 
   const falhasSessao = ((await page.evaluate(SCRIPT_NO_NAVEGADOR)) as FalhaBruta[]).map((f) => ({
     ...f,
@@ -270,8 +273,9 @@ async function medirSimulado(page: Page, tema: string): Promise<Falha[]> {
   await page.goto(`${BASE_URL}/simulados`);
   await page.click('button:has-text("Iniciar simulado")');
   await page.waitForURL(/\/simulados\/[^/]+$/);
+  // Mesmo motivo do medirSessaoDeTreino acima: espera a alternativa de verdade.
+  await page.waitForSelector('[role="radio"]', { timeout: 15000 });
   await page.waitForLoadState("networkidle");
-  await page.waitForTimeout(500);
 
   const falhasResolucao = ((await page.evaluate(SCRIPT_NO_NAVEGADOR)) as FalhaBruta[]).map((f) => ({
     ...f,

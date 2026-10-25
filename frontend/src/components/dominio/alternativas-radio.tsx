@@ -90,7 +90,10 @@ export function AlternativasRadio({
 
   return (
     <RadioGroupPrimitive.Root
-      value={respostaMarcada ?? undefined}
+      // "" nunca bate com nenhum `value` de alternativa (A-E): mesmo efeito visual de
+      // undefined, mas mantém o RadioGroup controlado desde o primeiro render — só
+      // null→undefined alternando fazia o Radix avisar "uncontrolled to controlled".
+      value={respostaMarcada ?? ""}
       onValueChange={(v) => onRespostaChange?.(v as Letra)}
       className={cn("flex flex-col gap-2", className)}
       aria-label="Alternativas"

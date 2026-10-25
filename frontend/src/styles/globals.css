@@ -122,7 +122,7 @@
      anel mesmo quando a troca de rota veio de um clique de mouse. Não relaxa a regra
      geral acima: todo elemento de verdade interativo continua com o anel. */
   h1[tabindex="-1"]:focus-visible {
-    outline: none;
+    outline: none; /* check-regras: ignore, exceção documentada acima */
   }
 
   /* Regra 10/13: animar só transform e opacity, 120–180ms ease-out, some com reduced-motion. */
