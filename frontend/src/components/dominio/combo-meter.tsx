@@ -49,7 +49,7 @@ export function ComboMeter({ estado, className }: ComboMeterProps) {
             className={cn(
               "flex-1 rounded-xs border border-rule-strong py-2 text-center text-xs font-medium text-ink-2",
               "motion-safe-transition",
-              i === estado.degrau && "border-forest bg-forest-soft text-forest-ink",
+              i === estado.degrau && "border-brand bg-brand-soft text-brand-ink",
             )}
             style={{ transitionDuration: "240ms" }}
             aria-current={i === estado.degrau ? "step" : undefined}

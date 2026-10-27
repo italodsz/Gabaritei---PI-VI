@@ -52,7 +52,7 @@ export function CartaoRespostaMini(props: CartaoRespostaMiniProps) {
               }
               className={cn(
                 "flex size-6 items-center justify-center rounded-full border text-[10px] font-mono",
-                item.n === atual ? "border-forest bg-forest text-on-forest" : "border-rule-strong text-ink-2",
+                item.n === atual ? "border-brand bg-brand text-on-brand" : "border-rule-strong text-ink-2",
                 item.letra && item.n !== atual && "border-rule-strong bg-paper-2 text-ink",
               )}
             >
@@ -76,7 +76,7 @@ export function CartaoRespostaMini(props: CartaoRespostaMiniProps) {
               className={cn(
                 "flex size-12 items-center justify-center gap-0.5 rounded-xs border text-xs font-mono",
                 "motion-safe-transition hover:opacity-80",
-                item.correta ? "border-forest bg-forest-soft text-forest-ink" : "border-err bg-err-soft text-err",
+                item.correta ? "border-brand bg-brand-soft text-brand-ink" : "border-err bg-err-soft text-err",
               )}
             >
               {item.correta ? (
@@ -108,7 +108,7 @@ export function CartaoRespostaMini(props: CartaoRespostaMiniProps) {
               className={cn(
                 "relative flex size-12 items-center justify-center rounded-xs border text-xs font-mono",
                 "motion-safe-transition",
-                item.n === atual && "border-forest ring-2 ring-forest",
+                item.n === atual && "border-brand ring-2 ring-brand",
                 item.resposta ? "border-rule-strong bg-paper-2 text-ink" : "border-rule-strong text-ink-2",
               )}
             >

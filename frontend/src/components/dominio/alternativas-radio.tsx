@@ -52,7 +52,7 @@ export function AlternativasRadio({
           "flex items-start gap-3 rounded-xs border p-3",
           "border-rule-strong",
           marcada && !mostrarResultado && "border-ink bg-paper-2",
-          mostrarResultado && correta && "border-forest bg-forest-soft",
+          mostrarResultado && correta && "border-brand bg-brand-soft",
           mostrarResultado && errada && "border-err bg-err-soft",
         )}
       >
@@ -71,7 +71,7 @@ export function AlternativasRadio({
           <span
             className={cn(
               "mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full border font-mono text-xs",
-              correta && "border-forest bg-forest text-on-forest",
+              correta && "border-brand bg-brand text-on-brand",
               errada && "border-err bg-err text-on-err",
               !correta && !errada && "border-rule-strong text-ink-2",
             )}

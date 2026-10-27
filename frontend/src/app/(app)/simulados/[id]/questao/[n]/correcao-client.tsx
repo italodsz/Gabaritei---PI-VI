@@ -117,7 +117,7 @@ export function CorrecaoClient() {
           <button
             type="button"
             onClick={() => router.push(`/simulados/${id}/resultado`)}
-            className="min-h-12 text-sm font-medium text-forest-ink underline underline-offset-2"
+            className="min-h-12 text-sm font-medium text-brand-ink underline underline-offset-2"
           >
             Voltar ao resultado
           </button>

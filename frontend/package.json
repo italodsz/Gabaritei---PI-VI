@@ -13,9 +13,14 @@
     "test:e2e": "playwright test",
     "test:a11y": "playwright test --grep @a11y",
     "audit:contraste": "tsx scripts/auditar-contraste.ts",
+    "audit:paletas": "tsx scripts/auditar-paletas.ts",
     "gerar:mock": "tsx scripts/gerar-mock.ts",
+    "gerar:paletas": "tsx scripts/gerar-paletas.ts",
+    "gerar:mola": "tsx scripts/gerar-mola.ts",
     "check:regras": "tsx scripts/check-regras.ts",
-    "capturar:telas": "tsx scripts/capturar-telas.ts"
+    "capturar:telas": "tsx scripts/capturar-telas.ts",
+    "capturar:antes": "tsx scripts/capturar-telas.ts antes",
+    "capturar:depois": "tsx scripts/capturar-telas.ts depois"
   },
   "dependencies": {
     "@hookform/resolvers": "^6.0.0",

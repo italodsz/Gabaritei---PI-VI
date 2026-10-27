@@ -96,12 +96,12 @@ export function Combobox({ rotulo, opcoes, valor, onValorChange, placeholder, cl
                             }}
                             className={cn(
                               "flex min-h-12 w-full items-center justify-between gap-2 rounded-xs px-3 text-left text-sm text-ink hover:bg-paper-2",
-                              opcao.valor === valor && "bg-forest-soft",
+                              opcao.valor === valor && "bg-brand-soft",
                             )}
                           >
                             <span>{opcao.rotulo}</span>
                             {opcao.valor === valor ? (
-                              <Check className="size-4 text-forest-ink" strokeWidth={1.75} aria-hidden="true" />
+                              <Check className="size-4 text-brand-ink" strokeWidth={1.75} aria-hidden="true" />
                             ) : null}
                           </button>
                         </li>

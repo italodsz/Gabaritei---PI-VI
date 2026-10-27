@@ -22,7 +22,7 @@ export function CartaoRespostaDecorativo({ className }: CartaoRespostaDecorativo
                 className={cn(
                   "flex size-6 items-center justify-center rounded-full border text-[10px]",
                   i === indicePreenchido
-                    ? "border-forest bg-forest text-on-forest"
+                    ? "border-brand bg-brand text-on-brand"
                     : "border-rule-strong text-ink-2",
                 )}
               >

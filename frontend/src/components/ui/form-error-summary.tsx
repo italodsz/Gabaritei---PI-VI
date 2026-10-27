@@ -41,7 +41,7 @@ export const FormErrorSummary = forwardRef<HTMLDivElement, FormErrorSummaryProps
         <ul className="mt-2 flex flex-col gap-1">
           {erros.map((erro) => (
             <li key={erro.id}>
-              <a href={`#${erro.id}`} className="text-sm text-forest-ink underline underline-offset-2">
+              <a href={`#${erro.id}`} className="text-sm text-brand-ink underline underline-offset-2">
                 {erro.rotulo}
               </a>
             </li>

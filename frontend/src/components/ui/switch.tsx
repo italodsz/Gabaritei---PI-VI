@@ -24,7 +24,7 @@ export function Switch({ rotulo, descricao, id, className, ...props }: SwitchPro
         id={switchId}
         className={cn(
           "relative inline-flex h-6 w-11 shrink-0 items-center rounded-full border border-rule-strong bg-paper-2",
-          "data-[state=checked]:border-forest data-[state=checked]:bg-forest",
+          "data-[state=checked]:border-brand data-[state=checked]:bg-brand",
           "motion-safe-transition",
           className,
         )}
@@ -33,7 +33,7 @@ export function Switch({ rotulo, descricao, id, className, ...props }: SwitchPro
         <SwitchPrimitive.Thumb
           className={cn(
             "size-[18px] translate-x-0.5 rounded-full bg-card",
-            "data-[state=checked]:translate-x-[22px] data-[state=checked]:bg-on-forest",
+            "data-[state=checked]:translate-x-[22px] data-[state=checked]:bg-on-brand",
             "motion-safe-transition",
           )}
         />

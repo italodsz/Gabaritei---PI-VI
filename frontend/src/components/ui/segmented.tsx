@@ -41,7 +41,7 @@ export function Segmented<T extends string>({
             className={cn(
               "min-h-9 min-w-11 rounded-xs px-3 text-sm font-medium text-ink-2",
               "motion-safe-transition",
-              selecionada && "bg-forest text-on-forest",
+              selecionada && "bg-brand text-on-brand",
             )}
           >
             {opcao.rotulo}

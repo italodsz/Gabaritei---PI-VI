@@ -143,7 +143,7 @@ function PainelFiltros({
         <button
           type="button"
           onClick={() => onMudar(FILTROS_PADRAO)}
-          className="self-start text-sm font-medium text-forest-ink underline underline-offset-2"
+          className="self-start text-sm font-medium text-brand-ink underline underline-offset-2"
         >
           Limpar filtros
         </button>
@@ -170,7 +170,7 @@ function LinhaQuestao({ questao, contexto }: { questao: QuestaoResumo; contexto:
         </div>
         <div className="flex shrink-0 items-center gap-3">
           <StatusChip status={questao.ultimaTentativa === "acertou" ? "acertou" : questao.ultimaTentativa === "errou" ? "errou" : "nao_respondida"} />
-          <span className="text-sm font-medium text-forest-ink">Resolver</span>
+          <span className="text-sm font-medium text-brand-ink">Resolver</span>
         </div>
       </Link>
     </li>

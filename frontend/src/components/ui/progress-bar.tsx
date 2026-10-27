@@ -21,7 +21,7 @@ export function ProgressBar({ valor, total, rotulo, mostrarNumero = true, classN
         aria-valuemax={total}
         className="h-2 flex-1 overflow-hidden rounded-full bg-paper-2"
       >
-        <div className="h-full rounded-full bg-forest motion-safe-transition" style={{ width: `${percentual}%` }} />
+        <div className="h-full rounded-full bg-brand motion-safe-transition" style={{ width: `${percentual}%` }} />
       </div>
       {mostrarNumero ? (
         <span className="shrink-0 text-sm tabular-nums text-ink-2">

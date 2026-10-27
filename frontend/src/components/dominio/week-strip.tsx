@@ -22,7 +22,7 @@ export function WeekStrip({ dias, className }: WeekStripProps) {
           dia.questoes > 0
             ? `${nomeDia}, ${dia.questoes} ${dia.questoes === 1 ? "questão" : "questões"}`
             : `${nomeDia}, sem atividade`;
-        // Só tons sólidos dos tokens (seção 6): modificador de opacidade (bg-forest/60)
+        // Só tons sólidos dos tokens (seção 6): modificador de opacidade (bg-brand/60)
         // sobre uma cor custom baseada em var() não compõe de forma confiável no Tailwind v4.
         const intensidade = dia.questoes === 0 ? 0 : dia.questoes < 10 ? 1 : 2;
         return (
@@ -34,8 +34,8 @@ export function WeekStrip({ dias, className }: WeekStripProps) {
               className={cn(
                 "flex size-7 items-center justify-center rounded-xs text-xs font-medium",
                 intensidade === 0 && "bg-paper-2 text-ink-2",
-                intensidade === 1 && "bg-forest-soft text-forest-ink",
-                intensidade === 2 && "bg-forest text-on-forest",
+                intensidade === 1 && "bg-brand-soft text-brand-ink",
+                intensidade === 2 && "bg-brand text-on-brand",
               )}
             >
               {nomeDia.slice(0, 1).toUpperCase()}

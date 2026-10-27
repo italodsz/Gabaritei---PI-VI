@@ -21,7 +21,7 @@ export function RadioCard({ titulo, descricao, motivo, Icone, className, disable
       aria-disabled={disabled || undefined}
       className={cn(
         "group flex w-full flex-col gap-1 rounded-xs border border-rule-strong bg-card p-4 text-left",
-        "data-[state=checked]:border-forest data-[state=checked]:bg-forest-soft",
+        "data-[state=checked]:border-brand data-[state=checked]:bg-brand-soft",
         // Disabled usa cores deliberadas em vez de opacity: opacity esmaeceria também o
         // texto do "motivo", que precisa continuar legível (explica por que está desabilitado).
         "motion-safe-transition disabled:cursor-not-allowed disabled:bg-paper-2",
@@ -31,12 +31,12 @@ export function RadioCard({ titulo, descricao, motivo, Icone, className, disable
     >
       <span className="flex items-center gap-2.5">
         {Icone ? (
-          <Icone className={cn("size-5 shrink-0", disabled ? "text-ink-2" : "text-forest-ink")} strokeWidth={1.75} aria-hidden={true} />
+          <Icone className={cn("size-5 shrink-0", disabled ? "text-ink-2" : "text-brand-ink")} strokeWidth={1.75} aria-hidden={true} />
         ) : null}
         {/* Indicador de seleção sempre presente, com ou sem ícone: a borda/fundo do
             cartão sozinhos seriam "só cor" pra indicar o estado (seção 2, regra 6). */}
-        <span className="flex size-5 shrink-0 items-center justify-center rounded-full border border-rule-strong group-data-[state=checked]:border-forest">
-          <RadioGroupPrimitive.Indicator className="size-2.5 rounded-full bg-forest" />
+        <span className="flex size-5 shrink-0 items-center justify-center rounded-full border border-rule-strong group-data-[state=checked]:border-brand">
+          <RadioGroupPrimitive.Indicator className="size-2.5 rounded-full bg-brand" />
         </span>
         <span className={cn("font-medium", disabled ? "text-ink-2" : "text-ink")}>{titulo}</span>
       </span>

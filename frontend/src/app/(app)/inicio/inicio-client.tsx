@@ -80,7 +80,7 @@ function BlocoRetomar() {
 }
 
 /**
- * Faixa principal (etapa V, item 1): verde-floresta sólido, saudação pelo primeiro
+ * Faixa principal (etapa V, item 1): sólido da marca, saudação pelo primeiro
  * nome e horário, a próxima ação numa frase, um botão grande. Sem gradiente. A lógica
  * de "começar treino" é a mesma de antes — só a apresentação mudou.
  */
@@ -150,7 +150,7 @@ function FaixaPrincipal() {
         void refazerResumo();
       }}
     >
-      <section className="rounded-md bg-forest-ink p-6 text-paper lg:p-8">
+      <section className="rounded-md bg-brand-ink p-6 text-paper lg:p-8">
         <h1 tabIndex={-1} className="font-display text-3xl">
           {saudacao}
         </h1>
