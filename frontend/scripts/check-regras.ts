@@ -172,13 +172,9 @@ for (const arquivo of ARQUIVOS_TODOS) {
 }
 
 // 12 e 15: cor literal fora dos tokens, e dentro dela, matiz de roxo/violeta (250–320°)
-// mesmo sem a palavra. Só os arquivos que definem tokens podem ter cor literal;
-// paletas.generated.css é produzido de paletas.json e nunca deve ser editado à mão.
-const ARQUIVOS_TOKEN = new Set([
-  "styles/tokens.css",
-  "styles/globals.css",
-  "styles/paletas.generated.css",
-]);
+// mesmo sem a palavra. Só styles/tokens.css e styles/globals.css podem ter cor literal
+// (é onde os tokens são definidos) — todo o resto deve usar o token, nunca o valor cru.
+const ARQUIVOS_TOKEN = new Set(["styles/tokens.css", "styles/globals.css"]);
 
 function hexParaHue(hex: string): number | null {
   let h = hex.replace("#", "");

@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "./tokens.css";
-@import "./paletas.generated.css";
 
 @theme {
   /* cores: mapeiam para as variáveis de tokens.css, então bg-paper, text-ink etc. funcionam */

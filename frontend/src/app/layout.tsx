@@ -36,9 +36,13 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  // Valor inicial da Floresta. O cliente sincroniza este meta com --paper quando
-  // tema ou paleta mudam (src/lib/paletas.ts).
-  themeColor: "#f4f2ec", // check-regras: ignore
+  // themeColor é metadado lido pelo SO/navegador (cor da barra de endereço), fora da
+  // cascata CSS — não há como referenciar var(--paper) aqui. Os hex têm que continuar
+  // batendo com --paper claro/escuro em tokens.css manualmente se o token mudar.
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f4f2ec" }, // check-regras: ignore
+    { media: "(prefers-color-scheme: dark)", color: "#121714" }, // check-regras: ignore
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
