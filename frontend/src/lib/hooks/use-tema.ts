@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Preferencias } from "@/lib/api/types";
+import { atualizarThemeColor } from "@/lib/paletas";
 
 export type Tema = Preferencias["tema"];
 
@@ -32,6 +33,7 @@ export function aplicarTema(tema: Tema): void {
   const root = document.documentElement;
   if (tema === "sistema") root.removeAttribute("data-theme");
   else root.setAttribute("data-theme", ATRIBUTO_POR_TEMA[tema]);
+  requestAnimationFrame(atualizarThemeColor);
 }
 
 /** Script para rodar antes da hidratação (ver layout.tsx) e evitar flash de tema errado. */
@@ -45,6 +47,10 @@ export function useTema() {
     // hidratação para o SSR não divergir do cliente (script inline já evita o flash visual).
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setTema(lerTemaSalvo());
+    atualizarThemeColor();
+    const media = window.matchMedia("(prefers-color-scheme: dark)");
+    media.addEventListener("change", atualizarThemeColor);
+    return () => media.removeEventListener("change", atualizarThemeColor);
   }, []);
 
   const definirTema = useCallback((novo: Tema) => {
