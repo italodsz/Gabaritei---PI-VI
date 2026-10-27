@@ -1,0 +1,24 @@
+{
+  "formato": 1,
+  "arquivo_original": "Gabaritei_git_experimento_v2.zip",
+  "bytes_original": 121717101,
+  "sha256_original": "78befcb7e68b92708267d461221347151dfa3b55944fe99a585c7f567279f26f",
+  "tamanho_parte_bytes": 41943040,
+  "partes": [
+    {
+      "arquivo": "Gabaritei_git_experimento_v2.zip.part01",
+      "bytes": 41943040,
+      "sha256": "1f016df5e7de4132a3a10b1e96fded1e2a347af15e2d2f9d75558e2843317edd"
+    },
+    {
+      "arquivo": "Gabaritei_git_experimento_v2.zip.part02",
+      "bytes": 41943040,
+      "sha256": "7f64b313506cc2811dc108750e2f9b1e33b6cc0e8c359cd101af802c6f939d52"
+    },
+    {
+      "arquivo": "Gabaritei_git_experimento_v2.zip.part03",
+      "bytes": 37831021,
+      "sha256": "4f40ac869156f8ed4c2e5499e383cc9babffc7849d908b50c6277d8058141011"
+    }
+  ]
+}

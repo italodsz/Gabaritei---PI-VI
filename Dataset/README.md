@@ -9,3 +9,7 @@ Arquivos CSV, os dois arquivos foram produzidos a partir das fontes coletadas pa
 | `all_questions_df.csv` | **1.006 linhas brutas** de uma única fonte, [Brazilian Secondary School Exam (ENEM) Questions Dataset](https://zenodo.org/records/8301716). O arquivo foi obtido do repositório dos autores, com MD5 igual ao publicado no Zenodo. |
 
 Nos CSVs consolidados, `record_id` identifica a ocorrência, `vector_group_id` liga versões da mesma pergunta e `quality_flags` indica pontos que precisam de revisão. A deduplicação removeu textos idênticos e pequenas variações de OCR/formatação; paráfrases e erros grandes ainda podem exigir revisão manual. A aprovação automática não substitui a conferência do gabarito com o INEP.
+
+## Experimento v2
+
+O pacote completo do experimento v2, incluindo dados, auditorias e mídias, está versionado em partes em [`experimento_v2/`](experimento_v2/). O diretório inclui instruções e um script que reconstrói o ZIP original e valida todos os hashes.
