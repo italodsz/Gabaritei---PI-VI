@@ -1,0 +1,29 @@
+{
+  "formato": 1,
+  "arquivo_original": "Gabaritei_v2_1_rc1.zip",
+  "bytes_original": 127010119,
+  "sha256_original": "0b811a89c59da1bd291ff59c76c2f17bbdc37df11a974542e895f2919a63b7d3",
+  "tamanho_parte_bytes": 41943040,
+  "partes": [
+    {
+      "arquivo": "Gabaritei_v2_1_rc1.zip.part01",
+      "bytes": 41943040,
+      "sha256": "f9346b30644ec83014c88d9da0ead5150778f944f748e6000e83fd22e8826cbe"
+    },
+    {
+      "arquivo": "Gabaritei_v2_1_rc1.zip.part02",
+      "bytes": 41943040,
+      "sha256": "39a13183a6cea12741bfe1e5d35da11b919ff7425b8f4d88e87fb5a2fc49c943"
+    },
+    {
+      "arquivo": "Gabaritei_v2_1_rc1.zip.part03",
+      "bytes": 41943040,
+      "sha256": "e2989ca81b532cdbabe02d41d3c5ff25c7781df18fda86ce1cae62f61880add1"
+    },
+    {
+      "arquivo": "Gabaritei_v2_1_rc1.zip.part04",
+      "bytes": 1180999,
+      "sha256": "591958ee7d6d8a0ab7baef1e60e1c389f0cf7930a54972842f84657b83095614"
+    }
+  ]
+}
