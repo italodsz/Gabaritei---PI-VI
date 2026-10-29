@@ -1,0 +1,12 @@
+{
+  "vectors_included": false,
+  "parent_vectors_valid_for_this_derivative": false,
+  "refit_before_comparing": true,
+  "reasons": [
+    "formula_alterada",
+    "cabecalho_alterado",
+    "galeria_de_treino_reduzida_em_1"
+  ],
+  "source_dataset_sha256": "b1c52e5b77ada4106f4bec18d4672dc3eabe4f98665102a66c06cd0eb2887790",
+  "derivative_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+}
