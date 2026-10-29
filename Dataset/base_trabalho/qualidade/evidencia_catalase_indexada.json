@@ -1,0 +1,13 @@
+{
+  "id": "gq_29b02702604175cb29267886",
+  "checked_on": "2026-10-29",
+  "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD11.pdf",
+  "corroborating_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_digital_D2_CD8.pdf",
+  "access_mode": "conteudo_oficial_indexado_retornado_em_pesquisa; nao_download_do_PDF",
+  "header_verified": ["Ensaio", "Temperatura (°C)", "Decomposição de H2O2 (10^-12 mol/min)"],
+  "rows_verified": [[1,10,"8,0"],[2,15,"10,5"],[3,20,"9,5"],[4,25,"5,0"],[5,30,"3,6"],[6,35,"3,1"]],
+  "pdf_visual_check": false,
+  "official_answer_key_downloaded": false,
+  "existing_answer_preserved_not_recertified": "E",
+  "decision": "cabecalho_normalizado; fora_de_novos_experimentos_ate_inspecao_visual"
+}
