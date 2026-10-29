@@ -1,0 +1,104 @@
+{
+  "experiment_id": "conteudo_v2_baseline_2026-10-28",
+  "seed": 42,
+  "source_release_commit": "d213cc78f66fc437ef2dbdd8e8343d311f7666de",
+  "source_archive_sha256": "78befcb7e68b92708267d461221347151dfa3b55944fe99a585c7f567279f26f",
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "max_features": 50000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b\\w+\\b"
+  },
+  "svd": {
+    "n_components": 256,
+    "n_iter": 7
+  },
+  "minilm": {
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "batch_size": 24,
+    "chunk_overlap": 32,
+    "aggregation": "mean_of_unit_chunk_embeddings_then_l2",
+    "cpu_threads": 4
+  },
+  "policy": {
+    "fit_scope": "train_without_assets_only",
+    "primary_gallery": "train_without_assets_only",
+    "primary_query_scope": "validation_without_assets_only",
+    "test_ranking_executed": false,
+    "include_descriptions": false,
+    "include_answer_or_metadata_in_text": false,
+    "include_all_option_texts": true,
+    "same_content_family_excluded": true,
+    "deduplicate_results_by_content_family": true,
+    "visual_vectors": "text_only_secondary_not_primary_gallery"
+  },
+  "demo_queries": [
+    {
+      "id": "demo01",
+      "area": "MT",
+      "text": "Questões de porcentagem envolvendo desconto e aumento de preço."
+    },
+    {
+      "id": "demo02",
+      "area": "MT",
+      "text": "Probabilidade de sortear bolas de uma urna."
+    },
+    {
+      "id": "demo03",
+      "area": "MT",
+      "text": "Área e volume de sólidos geométricos."
+    },
+    {
+      "id": "demo04",
+      "area": "CN",
+      "text": "Energia elétrica consumida por aparelhos e potência elétrica."
+    },
+    {
+      "id": "demo05",
+      "area": "CN",
+      "text": "Seleção natural e evolução dos seres vivos."
+    },
+    {
+      "id": "demo06",
+      "area": "CN",
+      "text": "Reações químicas e cálculo de quantidade de matéria."
+    },
+    {
+      "id": "demo07",
+      "area": "CH",
+      "text": "Escravidão e abolição no Brasil."
+    },
+    {
+      "id": "demo08",
+      "area": "CH",
+      "text": "Urbanização, migração e crescimento das cidades."
+    },
+    {
+      "id": "demo09",
+      "area": "CH",
+      "text": "Democracia, cidadania e participação política."
+    },
+    {
+      "id": "demo10",
+      "area": "LC",
+      "text": "Variação linguística e preconceito contra formas de falar."
+    },
+    {
+      "id": "demo11",
+      "area": "LC",
+      "text": "Figuras de linguagem e interpretação de poemas."
+    },
+    {
+      "id": "demo12",
+      "area": "LC",
+      "text": "Publicidade e estratégias para convencer o leitor."
+    }
+  ]
+}

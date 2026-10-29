@@ -1,0 +1,36 @@
+{
+  "versao": "italo-rrf-v1 (base de trabalho pós etapas 1-3)",
+  "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "elegiveis": {
+    "train": 1801,
+    "validation": 136,
+    "test": 126
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "max_features": 50000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b\\w+\\b"
+  },
+  "tfidf_vocabulario": 45176,
+  "minilm": {
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "batch_size": 24,
+    "chunk_overlap": 32,
+    "aggregation": "mean_of_unit_chunk_embeddings_then_l2",
+    "cpu_threads": 4
+  },
+  "minilm_origem": "reaproveitado da v2.1-rc1",
+  "minilm_vetores_desatualizados": [
+    "gq_14561aefce51ecddf26b4262"
+  ],
+  "rrf_k": 60,
+  "fine_tuning_neural": false
+}

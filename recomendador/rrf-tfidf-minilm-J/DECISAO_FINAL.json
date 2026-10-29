@@ -1,0 +1,26 @@
+{
+  "configuracao": "RRF (k=60) de TF-IDF + MiniLM em blocos, sem normalização extra e sem reordenação",
+  "texto": "enunciado + alternativas (pipeline_baseline.question_text)",
+  "galeria": "treino elegível da base de trabalho (1.801)",
+  "filtros": [
+    "mesma área",
+    "exclui e deduplica família de conteúdo"
+  ],
+  "escolhida_na": "validação, 44 comparações de pares com nota (majoritariamente notas de IA)",
+  "resultado_validacao": "34/44 pares na ordem certa",
+  "alternativas_rejeitadas": [
+    "TF-IDF só (30/44)",
+    "MiniLM só (24/44)",
+    "normalizações RSLP, prefixo, caracteres (33-34/44)",
+    "reordenações por habilidade, subtópico, operação/modo, comando, combinação (28-35/44; critério não atingido)"
+  ],
+  "teste_reservado_aberto": false,
+  "pendencias": [
+    "recodificar o vetor MiniLM da V01",
+    "corrigir os 8 problemas de texto encontrados",
+    "segunda avaliação por outra pessoa, com foco em CH e CN",
+    "versionar no GitHub"
+  ],
+  "status": "aprovada na primeira avaliação cega humana, com ressalvas; recomendada como versão de trabalho, não validada para todas as áreas",
+  "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json"
+}
