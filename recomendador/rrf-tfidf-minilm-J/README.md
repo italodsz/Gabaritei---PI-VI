@@ -1,6 +1,8 @@
 # RRF TF-IDF + MiniLM (J)
 
-Autor: Ítalo. **Recomendador oficial do Gabaritei.**
+Autor: Ítalo. **Recomendador de trabalho do Gabaritei; não validado para todas as áreas.**
+
+Estado e limitações atualizados: [ESTADO_ATUAL.md](ESTADO_ATUAL.md).
 
 Combina TF-IDF e MiniLM em blocos por fusão de posições (RRF, k = 60) sobre a base de
 trabalho das etapas 1 a 3 (2.971 questões; 2.063 elegíveis: 1.801 treino, 136 validação,
@@ -37,14 +39,22 @@ num computador com acesso ao HuggingFace para eliminar isso.
 | RRF | 34/44 (77%) |
 
 As notas desses pares são majoritariamente de IA (rodadas de 32 e 16 pares), não uma
-avaliação humana independente. Teste reservado não foi aberto.
+avaliação humana independente. O teste reservado estava fechado na escolha da configuração;
+posteriormente, foram realizadas avaliações das sugestões. Não deve ser tratado agora como
+um conjunto de teste ainda intocado.
 
 ## Avaliação cega humana (29/10/2026)
 
 Avaliador: Ítalo. 12/24 sugestões com nota 2 (critério: 50%), 21/24 com nota 1 ou 2,
 nenhum bloco com dois zeros. Aprovado no limite. Linguagens 5/6 e Matemática 4/6;
-Natureza 2/6 e Humanas 1/6. Segunda avaliação (CN e CH, outro avaliador) em andamento:
-a chave dela não está neste repositório até a ficha voltar.
+Natureza 2/6 e Humanas 1/6.
+
+Há resultados posteriores da segunda avaliação (CN e CH), mas as fontes disponíveis
+conflitam sobre notas e autoria. O histórico relata 3/24 notas 2 e 13/24 notas 1 ou 2;
+o DOCX consultado se identifica como análise por IA e apresenta 3/24 e 11/24,
+respectivamente. Não classificamos esta segunda avaliação como humana confirmada.
+Ver [registro das fontes](resultados/avaliacao2_fontes.json).
+A comparação posterior com filtro por habilidade ainda requer avaliação humana independente.
 
 ## Comparação com os outros recomendadores do grupo (validação, mesma base)
 

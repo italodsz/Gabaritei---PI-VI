@@ -14,13 +14,18 @@
     "normalizações RSLP, prefixo, caracteres (33-34/44)",
     "reordenações por habilidade, subtópico, operação/modo, comando, combinação (28-35/44; critério não atingido)"
   ],
-  "teste_reservado_aberto": false,
+  "teste_reservado_aberto": true,
   "pendencias": [
-    "recodificar o vetor MiniLM da V01",
-    "corrigir os 8 problemas de texto encontrados",
-    "segunda avaliação por outra pessoa, com foco em CH e CN",
-    "versionar no GitHub"
+    "recodificar o vetor MiniLM da V01 e validar novamente o índice",
+    "consolidar os problemas de texto relatados e corrigi-los em uma nova versão, sem alterar a base congelada",
+    "conciliar a avaliação 2: o histórico relata avaliação humana, mas o DOCX disponível é análise assistida por IA e contém notas diferentes",
+    "concluir avaliação humana independente da comparação com filtro por habilidade (avaliação 3)"
   ],
-  "status": "aprovada na primeira avaliação cega humana, com ressalvas; recomendada como versão de trabalho, não validada para todas as áreas",
-  "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json"
+  "status": "versão de trabalho RRF; primeira avaliação humana aprovada no limite; avaliações posteriores não sustentam aprovação geral, e a procedência da avaliação 2 está pendente",
+  "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json",
+  "teste_reservado_aberto_na_escolha": false,
+  "atualizado_em": "2026-10-30",
+  "estado_detalhado": "ESTADO_ATUAL.md",
+  "qwen": "adiado por decisão do usuário; não integra esta atualização",
+  "escopo_atualizacao": "Documentação e registro das fontes posteriores; código, base e índices preservados. Não representa incorporação de um bundle posterior indisponível."
 }

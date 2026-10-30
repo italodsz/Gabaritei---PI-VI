@@ -5,7 +5,7 @@ D = Cauê, K = João, H = Gabriel, U = Teles, J = Ítalo.
 
 | Pasta | Autor | Situação |
 |---|---|---|
-| `rrf-tfidf-minilm-J/` | Ítalo | Oficial. Passou na 1ª avaliação cega humana, com ressalvas |
+| `rrf-tfidf-minilm-J/` | Ítalo | Versão de trabalho; 1ª avaliação aprovada no limite. Pendências e fontes posteriores em ESTADO_ATUAL.md |
 
 Para adicionar o seu: crie um branch `nome/tarefa`, crie a pasta
 `recomendador/<tecnica>-<SIGLA>/` com o código e um `README.md` (autor, o que faz,
