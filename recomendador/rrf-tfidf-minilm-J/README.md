@@ -64,3 +64,11 @@ A comparação posterior com filtro por habilidade ainda requer avaliação huma
 | Híbrido v2.1 (João), sem limiar | 29/44 (66%) |
 | Chroma + MiniLM (Cauê) | 26/44 (59%) |
 | Sorteio na mesma área | 23/44 (52%) |
+
+## Candidato: RRF TF-IDF + Qwen3-Embedding-8B (05/11/2026)
+
+Modo `--metodo rrf_qwen`: troca o MiniLM pelo Qwen3-Embedding-8B (4 bits) com a instrução de
+representar o conceito e a operação pedida, ignorando o cenário. Na validação: **39/44** pares
+na ordem certa, contra 34/44 do oficial. Ainda não é o oficial: falta a avaliação cega 4.
+Detalhes em `resultados/teste_qwen3.md`. Os vetores ficam em `indice/qwen/` (34 MB) e são
+gerados por `gerar_vetores_qwen.py --quantizar-4bit`; `comparar_modelos.py` refaz a tabela.

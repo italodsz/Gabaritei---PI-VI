@@ -3,12 +3,16 @@
 Uso:
   python recomendador.py construir --minilm-de PASTA_rc1/entrega/vectors   # reaproveita vetores da v2.1-rc1
   python recomendador.py construir --recodificar                          # recalcula o MiniLM (precisa do modelo)
-  python recomendador.py buscar --question-id gq_... [--metodo rrf|tfidf|minilm] [--k 5]
+  python recomendador.py buscar --question-id gq_... [--metodo rrf|tfidf|minilm|qwen|rrf_qwen] [--k 5]
   python recomendador.py avaliar                                          # pares de desenvolvimento (validação)
 
 Regras: TF-IDF ajustado só no treino elegível; galeria = treino elegível; mesma área;
 exclui e deduplica a família de conteúdo; texto = enunciado + alternativas (sem gabarito,
 habilidade, TRI ou rótulos). Consultas do teste são recusadas.
+
+Modos com Qwen (candidatos, ainda não oficiais): usam os vetores em indice/qwen/, gerados por
+gerar_vetores_qwen.py com Qwen3-Embedding-8B em 4 bits e a instrução "conceito". O arquivo e
+o hash esperados estão em QWEN_ARQUIVO e QWEN_SHA256.
 """
 import argparse, collections, hashlib, json, sys
 from pathlib import Path
@@ -19,6 +23,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 ROOT = Path(__file__).resolve().parent
 BASE, IDX = ROOT / 'base', ROOT / 'indice'
 VERSAO = 'italo-rrf-v1 (base de trabalho pós etapas 1-3)'
+QWEN_ARQUIVO = 'Qwen3-Embedding-8B-4bit__conceito.npy'
+QWEN_SHA256 = 'fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de'
 sys.path.insert(0, str(ROOT))
 import pipeline_baseline as bl
 
@@ -80,6 +86,14 @@ class Indice:
         self.pos = {d['id']: k for k, d in enumerate(self.docs)}
         self.X = sparse.load_npz(IDX / 'tfidf.npz')
         self.M = np.load(IDX / 'minilm.npy')
+        self.Q = None
+        qf = IDX / 'qwen' / QWEN_ARQUIVO
+        if qf.exists():
+            if sha(qf) != QWEN_SHA256:
+                raise SystemExit(f'{qf.name} não é o arquivo registrado (hash diferente).')
+            if json.loads((IDX / 'qwen' / 'ids.json').read_text()) != [d['id'] for d in self.docs]:
+                raise SystemExit('A ordem de indice/qwen/ids.json não bate com indice/documentos.json.')
+            self.Q = np.load(qf)
 
     def ranking(self, qid, metodo='rrf'):
         qi = self.pos[qid]; q = self.docs[qi]
@@ -87,13 +101,19 @@ class Indice:
                          and d['area'] == q['area'] and d['family'] != q['family']])
         tf = (self.X[pool] @ self.X[qi].T).toarray().ravel()
         mn = self.M[pool] @ self.M[qi]
+        if metodo in ('qwen', 'rrf_qwen'):
+            if self.Q is None:
+                raise SystemExit(f'Vetores Qwen ausentes: coloque {QWEN_ARQUIVO} e ids.json em indice/qwen/.')
+            qw = self.Q[pool] @ self.Q[qi]
         if metodo == 'tfidf':
             s = tf
         elif metodo == 'minilm':
             s = mn
+        elif metodo == 'qwen':
+            s = qw
         else:
             s = np.zeros(len(pool))
-            for v in (tf, mn):
+            for v in ((tf, qw) if metodo == 'rrf_qwen' else (tf, mn)):
                 o = np.argsort(-v, kind='stable')
                 s[o] += 1 / (self.conf['rrf_k'] + np.arange(1, len(v) + 1))
         seen, out = set(), []
@@ -120,7 +140,8 @@ def avaliar():
     ix = Indice(); lab = collections.defaultdict(dict)
     for p in map(json.loads, (BASE / 'pares_desenvolvimento_compativeis.jsonl').open(encoding='utf-8')):
         lab[p['query_id']][p['candidate_id']] = p['human_grade']
-    for metodo in ('tfidf', 'minilm', 'rrf'):
+    metodos = ('tfidf', 'minilm', 'rrf') + (('qwen', 'rrf_qwen') if ix.Q is not None else ())
+    for metodo in metodos:
         ok = tot = 0
         for qid, L in lab.items():
             pos = {i: r for r, (i, _) in enumerate(ix.ranking(qid, metodo))}
@@ -137,7 +158,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar'])
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf', choices=['rrf', 'tfidf', 'minilm'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':

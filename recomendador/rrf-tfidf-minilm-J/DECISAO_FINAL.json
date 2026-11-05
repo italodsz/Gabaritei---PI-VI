@@ -27,5 +27,14 @@
   "atualizado_em": "2026-10-30",
   "estado_detalhado": "ESTADO_ATUAL.md",
   "qwen": "adiado por decisão do usuário; não integra esta atualização",
-  "escopo_atualizacao": "Documentação e registro das fontes posteriores; código, base e índices preservados. Não representa incorporação de um bundle posterior indisponível."
+  "escopo_atualizacao": "Documentação e registro das fontes posteriores; código, base e índices preservados. Não representa incorporação de um bundle posterior indisponível.",
+  "candidato_qwen": {
+    "metodo": "rrf_qwen",
+    "descricao": "RRF (k=60) de TF-IDF + Qwen3-Embedding-8B 4 bits com instrução \"conceito\"",
+    "validacao": "39/44 pares na ordem certa (oficial: 34/44)",
+    "vetores": "indice/qwen/Qwen3-Embedding-8B-4bit__conceito.npy",
+    "sha256_vetores": "fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de",
+    "status": "candidato; aguardando avaliação cega 4 (oficial × candidato) com avaliador humano",
+    "detalhes": "resultados/teste_qwen3.md"
+  }
 }
