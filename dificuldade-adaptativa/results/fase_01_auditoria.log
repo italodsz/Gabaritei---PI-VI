@@ -1,0 +1,265 @@
+$ git init C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\tmpq_az930d
+Initialized empty Git repository in C:/Users/Darkz/Documents/ChatGPT/pi6/dificuldade-adaptativa/tmpq_az930d/.git/
+$ git -C C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\tmpq_az930d fetch --depth=1 https://github.com/italodsz/Gabaritei---PI-VI.git 7e720fa876beb7249adab2f05d3ecf33ae5a2c51
+From https://github.com/italodsz/Gabaritei---PI-VI
+ * branch            7e720fa876beb7249adab2f05d3ecf33ae5a2c51 -> FETCH_HEAD
+$ git -C C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\tmpq_az930d -c core.autocrlf=false checkout --detach 7e720fa876beb7249adab2f05d3ecf33ae5a2c51
+HEAD is now at 7e720fa Cria branch dataset com a base de trabalho atual
+SHA-256 data/questions.jsonl: 22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5
+$ C:\Python314\python.exe -B experiments/fase_01_auditoria.py C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\tmpq_az930d\Dataset\base_trabalho
+2026-11-06T17:48:20.707053+00:00 Windows-11-10.0.26200-SP0 3.14.0 7e720fa876beb7249adab2f05d3ecf33ae5a2c51
+{
+  "data/questions.jsonl": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "ids_elegiveis.json": "00766d3cb76ed586839f19033e0ab4cc0029bb3173e912f33142ee3876669105",
+  "README.md": "39549b0956c6a331e24768b63adf0d469baef23fbf1d3078993d84bf1a6ca5a1",
+  "AVISO_INDICES.json": "31e29f9fe109fdc293010416ebf62035426bd86ae44ffdb1c67e709fdd0712c5",
+  "qualidade/bloqueios.json": "4e38fa7b437bbdb84c9e27442f8e027daadc1239ac115340c4c6bfbb11f2f720",
+  "qualidade/alteracoes_2_itens.json": "76b3cdbcc77388f8dbff3d3f5e555c6f661d376e7beaebcb27137931370b7a28",
+  "qualidade/evidencia_catalase_indexada.json": "e45f860da85f520f2efd52b1dafddc4ce205806604539e24c89cfb4553ed4f41",
+  "splits/train.jsonl": "b432fb4c866a7092a6672916f131bc68bd0f426d7fb8bbebf7e64cfdfe48400b",
+  "splits/validation.jsonl": "8594bb01f2fc95946068e9f549f95f64d760c60afc4c7fc8795ed34b106e3fa8",
+  "splits/test.jsonl": "2441dc1cc07a50a61126db4498afd978cd0a2e0dd073b979cf6f600874c364f1"
+}
+Catálogo 2971 IDs duplicados 0
+Elegíveis únicos 2063
+train 2616 duplicados split/lista 0 0 diferença lista 815 divergências catálogo 0 split divergente 0
+validation 177 duplicados split/lista 0 0 diferença lista 41 divergências catálogo 0 split divergente 0
+test 178 duplicados split/lista 0 0 diferença lista 52 divergências catálogo 0 split divergente 0
+Bloqueios [('gq_29b02702604175cb29267886', True, [], False)]
+Fórmula corrigida: presente True
+Índices {'vectors_included': False, 'parent_vectors_valid_for_this_derivative': False, 'refit_before_comparing': True, 'reasons': ['formula_alterada', 'cabecalho_alterado', 'galeria_de_treino_reduzida_em_1'], 'source_dataset_sha256': 'b1c52e5b77ada4106f4bec18d4672dc3eabe4f98665102a66c06cd0eb2887790', 'derivative_dataset_sha256': '22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5'}
+Elegiveis presentes train 1801 faltantes 0 extras brutos 815 elegiveis ready_text falso 0
+Elegiveis presentes validation 136 faltantes 0 extras brutos 41 elegiveis ready_text falso 0
+Elegiveis presentes test 126 faltantes 0 extras brutos 52 elegiveis ready_text falso 0
+PASS: SHA-256, counts, unique IDs, catalog equality, eligibility and blocked items
+Interseções por par de splits
+train validation id 0 exemplos []
+train validation family_id 0 exemplos []
+train validation content_family_id 0 exemplos []
+train validation co_item 0 exemplos []
+train validation question 0 exemplos []
+train test id 0 exemplos []
+train test family_id 0 exemplos []
+train test content_family_id 0 exemplos []
+train test co_item 0 exemplos []
+train test question 0 exemplos []
+validation test id 0 exemplos []
+validation test family_id 0 exemplos []
+validation test content_family_id 0 exemplos []
+validation test co_item 0 exemplos []
+validation test question 0 exemplos []
+Quase duplicatas Jaccard >= 0,8 e < 1 0 []
+PASS: no overlap between splits for the five tested keys
+
+ catalog
+year {2009: 170, 2010: 166, 2011: 164, 2012: 172, 2013: 174, 2014: 172, 2015: 284, 2016: 287, 2017: 179, 2018: 170, 2019: 174, 2020: 168, 2021: 164, 2022: 172, 2023: 177, 2024: 178}
+area {'CH': 766, 'CN': 708, 'LC': 801, 'MT': 696}
+application_type {'regular': 2750, 'second_application': 221}
+application_format {'standard': 2454, 'adapted_accessible': 517}
+ready_text {True: 2063, False: 908}
+ready_multimodal {True: 2971}
+Habilidade por área {('CH', None): 79, ('CN', None): 65, ('LC', '25'): 25, ('LC', '21'): 25, ('LC', '29'): 21, ('LC', '22'): 29, ('LC', '16'): 44, ('LC', '15'): 32, ('LC', '26'): 21, ('LC', '9'): 24, ('LC', '13'): 21, ('LC', '2'): 16, ('LC', '12'): 26, ('LC', '19'): 23, ('LC', '10'): 22, ('LC', '30'): 22, ('LC', '1'): 23, ('LC', '24'): 29, ('LC', '3'): 26, ('LC', '28'): 22, ('LC', '20'): 24, ('LC', '14'): 26, ('LC', '18'): 30, ('LC', '17'): 39, ('LC', '27'): 20, ('LC', '23'): 29, ('LC', '4'): 24, ('LC', '11'): 17, ('MT', '19'): 23, ('MT', '1'): 24, ('MT', '15'): 6, ('MT', '8'): 30, ('MT', '18'): 23, ('MT', '12'): 29, ('MT', '24'): 22, ('MT', '28'): 30, ('MT', '23'): 18, ('MT', '26'): 26, ('MT', '13'): 19, ('MT', '6'): 13, ('MT', '29'): 23, ('MT', '9'): 22, ('MT', '5'): 21, ('MT', '21'): 22, ('MT', '27'): 27, ('MT', '4'): 27, ('MT', '22'): 18, ('MT', '11'): 24, ('MT', '14'): 22, ('MT', '3'): 32, ('MT', '17'): 22, ('MT', '16'): 26, ('MT', '2'): 23, ('MT', '25'): 32, ('CH', '5'): 27, ('CH', '13'): 22, ('CH', '26'): 27, ('CH', '11'): 29, ('CH', '21'): 18, ('CH', '8'): 23, ('CH', '24'): 26, ('CH', '22'): 22, ('CH', '2'): 23, ('CH', '15'): 28, ('CH', '17'): 21, ('CH', '10'): 18, ('CH', '20'): 18, ('CH', '14'): 21, ('CH', '18'): 24, ('CH', '4'): 23, ('CH', '1'): 31, ('CH', '6'): 23, ('CH', '23'): 30, ('CH', '16'): 21, ('CH', '19'): 20, ('CH', '3'): 27, ('CH', '29'): 21, ('CH', '12'): 22, ('CH', '9'): 20, ('CH', '25'): 17, ('CH', '28'): 18, ('CH', '30'): 22, ('CH', '27'): 26, ('CN', '30'): 16, ('CN', '14'): 27, ('CN', '10'): 21, ('CN', '16'): 18, ('CN', '24'): 27, ('CN', '7'): 21, ('CN', '26'): 21, ('CN', '15'): 23, ('CN', '23'): 22, ('CN', '3'): 23, ('CN', '5'): 20, ('CN', '11'): 18, ('CN', '28'): 19, ('CN', '13'): 16, ('CN', '21'): 19, ('CN', '4'): 18, ('CN', '18'): 30, ('CN', '9'): 20, ('CN', '1'): 27, ('CN', '6'): 19, ('CN', '12'): 19, ('CN', '19'): 22, ('CN', '25'): 25, ('CN', '8'): 21, ('CN', '2'): 25, ('CN', '20'): 24, ('CN', '29'): 18, ('CN', '22'): 22, ('LC', '8'): 25, ('LC', '5'): 26, ('LC', '6'): 33, ('LC', '7'): 30, ('MT', '20'): 20, ('MT', '30'): 17, ('MT', '7'): 18, ('MT', '10'): 16, ('CH', '7'): 19, ('CN', '17'): 21, ('CN', '27'): 21, ('LC', None): 27, ('MT', None): 21}
+Pedagogia (status, método) Counter({('rule_generated_unreviewed', 'deterministic_keyword_rules_v1'): 2971})
+Campos de pedagogia Counter({'cognitive_operation_predicted': 2971, 'content_mode': 2971, 'method': 2971, 'review_status': 2971, 'skill_predicted': 2971, 'skill_prediction_note': 2971, 'subtopic_predicted': 2971, 'topic_confidence': 2971, 'topic_evidence_terms': 2971, 'topic_predicted': 2971})
+a válidos 2971 ausentes 0 inválidos 0 mín/med/máx (0.01929, 2.05337, 8.00279) outliers IQR 38
+b válidos 2971 ausentes 0 inválidos 0 mín/med/máx (-2.59784, 1.224, 61.05459) outliers IQR 60
+c válidos 2971 ausentes 0 inválidos 0 mín/med/máx (0.00083, 0.16469, 0.5) outliers IQR 42
+b por área/ano/aplicação (total, válidos, mediana)
+('CH', 2009, 'regular') 44 44 1.35483
+('CH', 2010, 'regular') 42 42 1.15089
+('CH', 2011, 'regular') 35 35 0.39947
+('CH', 2012, 'regular') 45 45 1.029
+('CH', 2013, 'regular') 45 45 1.1622
+('CH', 2014, 'regular') 44 44 1.22098
+('CH', 2015, 'regular') 45 45 1.2222
+('CH', 2015, 'second_application') 35 35 1.01427
+('CH', 2016, 'regular') 43 43 1.11588
+('CH', 2016, 'second_application') 33 33 1.07648
+('CH', 2017, 'regular') 45 45 0.96775
+('CH', 2018, 'regular') 44 44 1.42757
+('CH', 2019, 'regular') 43 43 1.01836
+('CH', 2020, 'regular') 45 45 1.21931
+('CH', 2021, 'regular') 44 44 1.019995
+('CH', 2022, 'regular') 44 44 0.900065
+('CH', 2023, 'regular') 45 45 0.67105
+('CH', 2024, 'regular') 45 45 0.68765
+('CN', 2009, 'regular') 41 41 1.85241
+('CN', 2010, 'regular') 39 39 1.12506
+('CN', 2011, 'regular') 43 43 1.13389
+('CN', 2012, 'regular') 40 40 1.0670000000000002
+('CN', 2013, 'regular') 39 39 1.584
+('CN', 2014, 'regular') 40 40 1.32029
+('CN', 2015, 'regular') 43 43 1.44219
+('CN', 2015, 'second_application') 24 24 1.249335
+('CN', 2016, 'regular') 42 42 1.434065
+('CN', 2016, 'second_application') 33 33 1.22283
+('CN', 2017, 'regular') 42 42 1.61555
+('CN', 2018, 'regular') 39 39 1.50273
+('CN', 2019, 'regular') 42 42 1.41442
+('CN', 2020, 'regular') 40 40 1.320695
+('CN', 2021, 'regular') 39 39 1.40697
+('CN', 2022, 'regular') 37 37 1.46498
+('CN', 2023, 'regular') 44 44 1.557
+('CN', 2024, 'regular') 41 41 1.27494
+('LC', 2009, 'regular') 43 43 0.90582
+('LC', 2010, 'regular') 46 46 0.6839
+('LC', 2011, 'regular') 44 44 0.51213
+('LC', 2012, 'regular') 49 49 0.763
+('LC', 2013, 'regular') 50 50 0.6753
+('LC', 2014, 'regular') 49 49 0.67722
+('LC', 2015, 'regular') 49 49 0.67871
+('LC', 2015, 'second_application') 27 27 0.81728
+('LC', 2016, 'regular') 47 47 1.09342
+('LC', 2016, 'second_application') 30 30 0.531665
+('LC', 2017, 'regular') 49 49 0.66029
+('LC', 2018, 'regular') 48 48 0.96864
+('LC', 2019, 'regular') 46 46 0.750695
+('LC', 2020, 'regular') 47 47 1.0073
+('LC', 2021, 'regular') 42 42 0.77137
+('LC', 2022, 'regular') 45 45 0.67994
+('LC', 2023, 'regular') 45 45 0.59679
+('LC', 2024, 'regular') 45 45 0.52101
+('MT', 2009, 'regular') 42 42 2.26648
+('MT', 2010, 'regular') 39 39 1.78724
+('MT', 2011, 'regular') 42 42 1.673095
+('MT', 2012, 'regular') 38 38 1.3559999999999999
+('MT', 2013, 'regular') 40 40 1.8965049999999999
+('MT', 2014, 'regular') 39 39 1.96098
+('MT', 2015, 'regular') 40 40 2.1793750000000003
+('MT', 2015, 'second_application') 21 21 1.68855
+('MT', 2016, 'regular') 41 41 1.93987
+('MT', 2016, 'second_application') 18 18 1.81773
+('MT', 2017, 'regular') 43 43 2.07643
+('MT', 2018, 'regular') 39 39 2.03259
+('MT', 2019, 'regular') 43 43 1.95289
+('MT', 2020, 'regular') 36 36 1.775785
+('MT', 2021, 'regular') 39 39 1.73939
+('MT', 2022, 'regular') 46 46 2.36563
+('MT', 2023, 'regular') 43 43 1.75696
+('MT', 2024, 'regular') 47 47 1.73917
+
+ train
+year {2009: 170, 2010: 166, 2011: 164, 2012: 172, 2013: 174, 2014: 172, 2015: 284, 2016: 287, 2017: 179, 2018: 170, 2019: 174, 2020: 168, 2021: 164, 2022: 172}
+area {'CH': 676, 'CN': 623, 'LC': 711, 'MT': 606}
+application_type {'regular': 2395, 'second_application': 221}
+application_format {'standard': 2448, 'adapted_accessible': 168}
+ready_text {True: 1801, False: 815}
+ready_multimodal {True: 2616}
+Habilidade por área {('CH', None): 79, ('CN', None): 65, ('LC', '25'): 22, ('LC', '21'): 23, ('LC', '29'): 18, ('LC', '22'): 25, ('LC', '16'): 40, ('LC', '15'): 26, ('LC', '26'): 19, ('LC', '9'): 21, ('LC', '13'): 16, ('LC', '2'): 15, ('LC', '12'): 23, ('LC', '19'): 21, ('LC', '10'): 18, ('LC', '30'): 19, ('LC', '1'): 21, ('LC', '24'): 27, ('LC', '3'): 24, ('LC', '28'): 20, ('LC', '20'): 21, ('LC', '14'): 22, ('LC', '18'): 26, ('LC', '17'): 35, ('LC', '27'): 17, ('LC', '23'): 26, ('LC', '4'): 21, ('LC', '11'): 14, ('MT', '19'): 19, ('MT', '1'): 21, ('MT', '15'): 5, ('MT', '8'): 26, ('MT', '18'): 20, ('MT', '12'): 24, ('MT', '24'): 20, ('MT', '28'): 26, ('MT', '23'): 16, ('MT', '26'): 24, ('MT', '13'): 16, ('MT', '6'): 10, ('MT', '29'): 21, ('MT', '9'): 19, ('MT', '5'): 18, ('MT', '21'): 19, ('MT', '27'): 23, ('MT', '4'): 23, ('MT', '22'): 14, ('MT', '11'): 21, ('MT', '14'): 20, ('MT', '3'): 28, ('MT', '17'): 20, ('MT', '16'): 23, ('MT', '2'): 19, ('MT', '25'): 29, ('CH', '5'): 23, ('CH', '13'): 20, ('CH', '26'): 23, ('CH', '11'): 25, ('CH', '21'): 15, ('CH', '8'): 20, ('CH', '24'): 24, ('CH', '22'): 19, ('CH', '2'): 20, ('CH', '15'): 24, ('CH', '17'): 19, ('CH', '10'): 15, ('CH', '20'): 16, ('CH', '14'): 19, ('CH', '18'): 22, ('CH', '4'): 20, ('CH', '1'): 27, ('CH', '6'): 20, ('CH', '23'): 26, ('CH', '16'): 17, ('CH', '19'): 18, ('CH', '3'): 22, ('CH', '29'): 19, ('CH', '12'): 19, ('CH', '9'): 17, ('CH', '25'): 15, ('CH', '28'): 16, ('CH', '30'): 19, ('CH', '27'): 23, ('CN', '30'): 14, ('CN', '14'): 24, ('CN', '10'): 18, ('CN', '16'): 16, ('CN', '24'): 23, ('CN', '7'): 17, ('CN', '26'): 19, ('CN', '15'): 20, ('CN', '23'): 19, ('CN', '3'): 20, ('CN', '5'): 17, ('CN', '11'): 15, ('CN', '28'): 15, ('CN', '13'): 15, ('CN', '21'): 18, ('CN', '4'): 15, ('CN', '18'): 26, ('CN', '9'): 18, ('CN', '1'): 24, ('CN', '6'): 16, ('CN', '12'): 15, ('CN', '19'): 20, ('CN', '25'): 22, ('CN', '8'): 18, ('CN', '2'): 21, ('CN', '20'): 21, ('CN', '29'): 15, ('CN', '22'): 20, ('LC', '8'): 22, ('LC', '5'): 24, ('LC', '6'): 31, ('LC', '7'): 27, ('MT', '20'): 17, ('MT', '30'): 14, ('MT', '7'): 16, ('MT', '10'): 14, ('CH', '7'): 15, ('CN', '17'): 18, ('CN', '27'): 19, ('LC', None): 27, ('MT', None): 21}
+Pedagogia (status, método) Counter({('rule_generated_unreviewed', 'deterministic_keyword_rules_v1'): 2616})
+Campos de pedagogia Counter({'cognitive_operation_predicted': 2616, 'content_mode': 2616, 'method': 2616, 'review_status': 2616, 'skill_predicted': 2616, 'skill_prediction_note': 2616, 'subtopic_predicted': 2616, 'topic_confidence': 2616, 'topic_evidence_terms': 2616, 'topic_predicted': 2616})
+a válidos 2616 ausentes 0 inválidos 0 mín/med/máx (0.01929, 2.037315, 8.00279) outliers IQR 38
+b válidos 2616 ausentes 0 inválidos 0 mín/med/máx (-2.59784, 1.23575, 61.05459) outliers IQR 58
+c válidos 2616 ausentes 0 inválidos 0 mín/med/máx (0.00083, 0.164435, 0.5) outliers IQR 35
+b por área/ano/aplicação (total, válidos, mediana)
+('CH', 2009, 'regular') 44 44 1.35483
+('CH', 2010, 'regular') 42 42 1.15089
+('CH', 2011, 'regular') 35 35 0.39947
+('CH', 2012, 'regular') 45 45 1.029
+('CH', 2013, 'regular') 45 45 1.1622
+('CH', 2014, 'regular') 44 44 1.22098
+('CH', 2015, 'regular') 45 45 1.2222
+('CH', 2015, 'second_application') 35 35 1.01427
+('CH', 2016, 'regular') 43 43 1.11588
+('CH', 2016, 'second_application') 33 33 1.07648
+('CH', 2017, 'regular') 45 45 0.96775
+('CH', 2018, 'regular') 44 44 1.42757
+('CH', 2019, 'regular') 43 43 1.01836
+('CH', 2020, 'regular') 45 45 1.21931
+('CH', 2021, 'regular') 44 44 1.019995
+('CH', 2022, 'regular') 44 44 0.900065
+('CN', 2009, 'regular') 41 41 1.85241
+('CN', 2010, 'regular') 39 39 1.12506
+('CN', 2011, 'regular') 43 43 1.13389
+('CN', 2012, 'regular') 40 40 1.0670000000000002
+('CN', 2013, 'regular') 39 39 1.584
+('CN', 2014, 'regular') 40 40 1.32029
+('CN', 2015, 'regular') 43 43 1.44219
+('CN', 2015, 'second_application') 24 24 1.249335
+('CN', 2016, 'regular') 42 42 1.434065
+('CN', 2016, 'second_application') 33 33 1.22283
+('CN', 2017, 'regular') 42 42 1.61555
+('CN', 2018, 'regular') 39 39 1.50273
+('CN', 2019, 'regular') 42 42 1.41442
+('CN', 2020, 'regular') 40 40 1.320695
+('CN', 2021, 'regular') 39 39 1.40697
+('CN', 2022, 'regular') 37 37 1.46498
+('LC', 2009, 'regular') 43 43 0.90582
+('LC', 2010, 'regular') 46 46 0.6839
+('LC', 2011, 'regular') 44 44 0.51213
+('LC', 2012, 'regular') 49 49 0.763
+('LC', 2013, 'regular') 50 50 0.6753
+('LC', 2014, 'regular') 49 49 0.67722
+('LC', 2015, 'regular') 49 49 0.67871
+('LC', 2015, 'second_application') 27 27 0.81728
+('LC', 2016, 'regular') 47 47 1.09342
+('LC', 2016, 'second_application') 30 30 0.531665
+('LC', 2017, 'regular') 49 49 0.66029
+('LC', 2018, 'regular') 48 48 0.96864
+('LC', 2019, 'regular') 46 46 0.750695
+('LC', 2020, 'regular') 47 47 1.0073
+('LC', 2021, 'regular') 42 42 0.77137
+('LC', 2022, 'regular') 45 45 0.67994
+('MT', 2009, 'regular') 42 42 2.26648
+('MT', 2010, 'regular') 39 39 1.78724
+('MT', 2011, 'regular') 42 42 1.673095
+('MT', 2012, 'regular') 38 38 1.3559999999999999
+('MT', 2013, 'regular') 40 40 1.8965049999999999
+('MT', 2014, 'regular') 39 39 1.96098
+('MT', 2015, 'regular') 40 40 2.1793750000000003
+('MT', 2015, 'second_application') 21 21 1.68855
+('MT', 2016, 'regular') 41 41 1.93987
+('MT', 2016, 'second_application') 18 18 1.81773
+('MT', 2017, 'regular') 43 43 2.07643
+('MT', 2018, 'regular') 39 39 2.03259
+('MT', 2019, 'regular') 43 43 1.95289
+('MT', 2020, 'regular') 36 36 1.775785
+('MT', 2021, 'regular') 39 39 1.73939
+('MT', 2022, 'regular') 46 46 2.36563
+
+ validation
+year {2023: 177}
+area {'CH': 45, 'CN': 44, 'LC': 45, 'MT': 43}
+application_type {'regular': 177}
+application_format {'adapted_accessible': 175, 'standard': 2}
+ready_text {True: 136, False: 41}
+ready_multimodal {True: 177}
+Habilidade por área {('CH', '22'): 2, ('CH', '3'): 2, ('CH', '21'): 1, ('CH', '1'): 2, ('CH', '15'): 2, ('CH', '26'): 2, ('CH', '16'): 2, ('CH', '9'): 2, ('CH', '23'): 2, ('CH', '2'): 1, ('CH', '27'): 2, ('CH', '17'): 1, ('CH', '7'): 2, ('CH', '14'): 1, ('CH', '30'): 2, ('CH', '6'): 2, ('CH', '8'): 2, ('CH', '4'): 1, ('CH', '11'): 2, ('CH', '29'): 1, ('CH', '12'): 2, ('CH', '28'): 1, ('CH', '19'): 1, ('CH', '25'): 1, ('CH', '20'): 1, ('CH', '18'): 1, ('CH', '13'): 1, ('CH', '5'): 1, ('CH', '10'): 1, ('CH', '24'): 1, ('CN', '29'): 2, ('CN', '24'): 2, ('CN', '17'): 2, ('CN', '19'): 1, ('CN', '2'): 2, ('CN', '27'): 1, ('CN', '5'): 1, ('CN', '4'): 2, ('CN', '28'): 2, ('CN', '1'): 2, ('CN', '9'): 1, ('CN', '10'): 2, ('CN', '18'): 2, ('CN', '25'): 1, ('CN', '26'): 1, ('CN', '13'): 1, ('CN', '20'): 2, ('CN', '7'): 2, ('CN', '22'): 1, ('CN', '23'): 1, ('CN', '16'): 1, ('CN', '3'): 2, ('CN', '8'): 1, ('CN', '21'): 1, ('CN', '30'): 1, ('CN', '6'): 2, ('CN', '15'): 1, ('CN', '14'): 1, ('CN', '12'): 2, ('CN', '11'): 1, ('LC', '1'): 1, ('LC', '22'): 2, ('LC', '30'): 2, ('LC', '4'): 1, ('LC', '29'): 2, ('LC', '23'): 2, ('LC', '27'): 2, ('LC', '14'): 2, ('LC', '5'): 1, ('LC', '7'): 1, ('LC', '8'): 2, ('LC', '6'): 1, ('LC', '20'): 1, ('LC', '21'): 1, ('LC', '16'): 3, ('LC', '24'): 1, ('LC', '17'): 2, ('LC', '15'): 3, ('LC', '28'): 1, ('LC', '26'): 1, ('LC', '3'): 1, ('LC', '25'): 1, ('LC', '12'): 2, ('LC', '10'): 2, ('LC', '11'): 2, ('LC', '13'): 2, ('LC', '9'): 1, ('LC', '19'): 1, ('LC', '18'): 1, ('MT', '12'): 2, ('MT', '1'): 1, ('MT', '4'): 2, ('MT', '28'): 2, ('MT', '16'): 1, ('MT', '19'): 2, ('MT', '18'): 2, ('MT', '8'): 2, ('MT', '27'): 2, ('MT', '25'): 1, ('MT', '22'): 2, ('MT', '2'): 2, ('MT', '26'): 1, ('MT', '3'): 1, ('MT', '21'): 1, ('MT', '5'): 2, ('MT', '14'): 1, ('MT', '11'): 1, ('MT', '13'): 1, ('MT', '6'): 2, ('MT', '9'): 2, ('MT', '10'): 1, ('MT', '17'): 1, ('MT', '30'): 2, ('MT', '23'): 1, ('MT', '7'): 1, ('MT', '20'): 2, ('MT', '29'): 1, ('MT', '24'): 1}
+Pedagogia (status, método) Counter({('rule_generated_unreviewed', 'deterministic_keyword_rules_v1'): 177})
+Campos de pedagogia Counter({'cognitive_operation_predicted': 177, 'content_mode': 177, 'method': 177, 'review_status': 177, 'skill_predicted': 177, 'skill_prediction_note': 177, 'subtopic_predicted': 177, 'topic_confidence': 177, 'topic_evidence_terms': 177, 'topic_predicted': 177})
+a válidos 177 ausentes 0 inválidos 0 mín/med/máx (0.71667, 2.1809, 5.9367) outliers IQR 1
+b válidos 177 ausentes 0 inválidos 0 mín/med/máx (-1.14947, 1.19128, 3.00088) outliers IQR 0
+c válidos 177 ausentes 0 inválidos 0 mín/med/máx (0.00556, 0.17386, 0.49995) outliers IQR 1
+b por área/ano/aplicação (total, válidos, mediana)
+('CH', 2023, 'regular') 45 45 0.67105
+('CN', 2023, 'regular') 44 44 1.557
+('LC', 2023, 'regular') 45 45 0.59679
+('MT', 2023, 'regular') 43 43 1.75696
+
+ test
+year {2024: 178}
+area {'CH': 45, 'CN': 41, 'LC': 45, 'MT': 47}
+application_type {'regular': 178}
+application_format {'adapted_accessible': 174, 'standard': 4}
+ready_text {True: 126, False: 52}
+ready_multimodal {True: 178}
+Habilidade por área {('CH', '18'): 1, ('CH', '17'): 1, ('CH', '10'): 2, ('CH', '7'): 2, ('CH', '2'): 2, ('CH', '3'): 3, ('CH', '8'): 1, ('CH', '22'): 1, ('CH', '16'): 2, ('CH', '30'): 1, ('CH', '21'): 2, ('CH', '1'): 2, ('CH', '14'): 1, ('CH', '4'): 2, ('CH', '12'): 1, ('CH', '13'): 1, ('CH', '11'): 2, ('CH', '26'): 2, ('CH', '23'): 2, ('CH', '24'): 1, ('CH', '20'): 1, ('CH', '29'): 1, ('CH', '15'): 2, ('CH', '27'): 1, ('CH', '5'): 3, ('CH', '25'): 1, ('CH', '9'): 1, ('CH', '19'): 1, ('CH', '6'): 1, ('CH', '28'): 1, ('CN', '8'): 2, ('CN', '18'): 2, ('CN', '3'): 1, ('CN', '29'): 1, ('CN', '14'): 2, ('CN', '28'): 2, ('CN', '2'): 2, ('CN', '15'): 2, ('CN', '22'): 1, ('CN', '7'): 2, ('CN', '24'): 2, ('CN', '25'): 2, ('CN', '1'): 1, ('CN', '19'): 1, ('CN', '11'): 2, ('CN', '27'): 1, ('CN', '12'): 2, ('CN', '23'): 2, ('CN', '5'): 2, ('CN', '30'): 1, ('CN', '20'): 1, ('CN', '9'): 1, ('CN', '6'): 1, ('CN', '26'): 1, ('CN', '17'): 1, ('CN', '10'): 1, ('CN', '4'): 1, ('CN', '16'): 1, ('LC', '15'): 3, ('LC', '13'): 3, ('LC', '14'): 2, ('LC', '6'): 1, ('LC', '7'): 2, ('LC', '1'): 1, ('LC', '8'): 1, ('LC', '5'): 1, ('LC', '9'): 2, ('LC', '11'): 1, ('LC', '17'): 2, ('LC', '22'): 2, ('LC', '18'): 3, ('LC', '25'): 2, ('LC', '12'): 1, ('LC', '10'): 2, ('LC', '2'): 1, ('LC', '16'): 1, ('LC', '29'): 1, ('LC', '28'): 1, ('LC', '30'): 1, ('LC', '21'): 1, ('LC', '19'): 1, ('LC', '23'): 1, ('LC', '24'): 1, ('LC', '27'): 1, ('LC', '3'): 1, ('LC', '4'): 2, ('LC', '20'): 2, ('LC', '26'): 1, ('MT', '25'): 2, ('MT', '21'): 2, ('MT', '27'): 2, ('MT', '11'): 2, ('MT', '12'): 3, ('MT', '3'): 3, ('MT', '28'): 2, ('MT', '4'): 2, ('MT', '19'): 2, ('MT', '8'): 2, ('MT', '2'): 2, ('MT', '1'): 2, ('MT', '29'): 1, ('MT', '14'): 1, ('MT', '22'): 2, ('MT', '15'): 1, ('MT', '30'): 1, ('MT', '13'): 2, ('MT', '16'): 2, ('MT', '26'): 1, ('MT', '10'): 1, ('MT', '18'): 1, ('MT', '7'): 1, ('MT', '17'): 1, ('MT', '9'): 1, ('MT', '5'): 1, ('MT', '23'): 1, ('MT', '6'): 1, ('MT', '24'): 1, ('MT', '20'): 1}
+Pedagogia (status, método) Counter({('rule_generated_unreviewed', 'deterministic_keyword_rules_v1'): 178})
+Campos de pedagogia Counter({'cognitive_operation_predicted': 178, 'content_mode': 178, 'method': 178, 'review_status': 178, 'skill_predicted': 178, 'skill_prediction_note': 178, 'subtopic_predicted': 178, 'topic_confidence': 178, 'topic_evidence_terms': 178, 'topic_predicted': 178})
+a válidos 178 ausentes 0 inválidos 0 mín/med/máx (0.20704, 2.2752, 5.44912) outliers IQR 4
+b válidos 178 ausentes 0 inválidos 0 mín/med/máx (-0.92571, 1.09641, 11.14224) outliers IQR 1
+c válidos 178 ausentes 0 inválidos 0 mín/med/máx (0.00115, 0.15571000000000002, 0.5) outliers IQR 4
+b por área/ano/aplicação (total, válidos, mediana)
+('CH', 2024, 'regular') 45 45 0.68765
+('CN', 2024, 'regular') 41 41 1.27494
+('LC', 2024, 'regular') 45 45 0.52101
+('MT', 2024, 'regular') 47 47 1.73917
+Cortes experimentais ajustados somente no treino 0.8005400000000001 1.56301
+train {'média': 600, 'fácil': 601, 'difícil': 600} {('CH', 'média'): 224, ('CH', 'fácil'): 191, ('CH', 'difícil'): 171, ('CN', 'difícil'): 145, ('CN', 'média'): 142, ('CN', 'fácil'): 106, ('LC', 'fácil'): 282, ('LC', 'difícil'): 89, ('LC', 'média'): 177, ('MT', 'média'): 57, ('MT', 'fácil'): 22, ('MT', 'difícil'): 195}
+validation {'média': 42, 'fácil': 54, 'difícil': 40} {('CH', 'média'): 10, ('CH', 'fácil'): 23, ('CH', 'difícil'): 6, ('CN', 'difícil'): 14, ('CN', 'fácil'): 8, ('CN', 'média'): 10, ('LC', 'média'): 12, ('LC', 'difícil'): 6, ('LC', 'fácil'): 21, ('MT', 'difícil'): 14, ('MT', 'média'): 10, ('MT', 'fácil'): 2}
+test {'média': 42, 'fácil': 53, 'difícil': 31} {('CH', 'média'): 14, ('CH', 'fácil'): 23, ('CH', 'difícil'): 5, ('CN', 'fácil'): 3, ('CN', 'média'): 10, ('CN', 'difícil'): 5, ('LC', 'difícil'): 3, ('LC', 'média'): 11, ('LC', 'fácil'): 23, ('MT', 'difícil'): 18, ('MT', 'fácil'): 4, ('MT', 'média'): 7}
+Campos de eventos no catálogo []
+Habilidade ausente {'train': 164, 'validation': 0, 'test': 0}
+Maiores b [('gq_cf15f16c076fceccbc04a730', 'CN', 2015, 'regular', {'a': 0.01929, 'b': 61.05459, 'c': 0.21513}, True), ('gq_f6bfb042b1e67117f55d4d96', 'MT', 2013, 'regular', {'a': 0.09882, 'b': 17.62443, 'c': 0.21403}, False), ('gq_911162421ce7ddc9c68c8d08', 'MT', 2013, 'regular', {'a': 0.29253, 'b': 14.23385, 'c': 0.14042}, False), ('gq_63abb69716ebeba164a92e7f', 'MT', 2019, 'regular', {'a': 0.1828, 'b': 12.4166, 'c': 0.11617}, True), ('gq_5164737c861aa2584f7e6797', 'MT', 2014, 'regular', {'a': 0.15248, 'b': 11.43966, 'c': 0.21171}, False), ('gq_3e25bf1d5bf4b645a2ec4316', 'CH', 2024, 'regular', {'a': 0.20704, 'b': 11.14224, 'c': 0.17137}, True), ('gq_62f65d32755efb120fb96f1c', 'MT', 2016, 'regular', {'a': 0.29852, 'b': 10.12436, 'c': 0.15255}, False), ('gq_fffc55b255f3d3aafc110f67', 'CN', 2019, 'regular', {'a': 0.05808, 'b': 8.96186, 'c': 0.22071}, False)]
+Pedagogia certificada por humano 0
+PASS: no missing or invalid TRI parameters under the specified domain checks

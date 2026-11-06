@@ -1,0 +1,9 @@
+$ C:\Python314\python.exe -B -m unittest discover -s tests -p test_auditoria.py -v
+test_counts_and_cutoffs (test_auditoria.AuditEvidenceTests.test_counts_and_cutoffs) ... ok
+test_integrity_and_event_scope (test_auditoria.AuditEvidenceTests.test_integrity_and_event_scope) ... ok
+test_modified_catalog_is_rejected (test_auditoria.AuditEvidenceTests.test_modified_catalog_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.627s
+
+OK
