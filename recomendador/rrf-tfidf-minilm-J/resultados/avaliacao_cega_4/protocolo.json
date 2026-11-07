@@ -1,0 +1,41 @@
+{
+ "protocolo": "avaliacao_cega_4_v2_tres_metodos",
+ "data": "2026-11-06",
+ "substitui": "avaliação cega 4 (dois métodos), que não chegou a ser aplicada por pessoa",
+ "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+ "vetores_qwen_sha256": "fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de",
+ "reranker_resultados_sha256": "c067b1e0fdadbabe7daab7eb3b98aa0bdfcf27f6881660fc48cf201a77ce0746",
+ "semente": "gabaritei-avaliacao-cega-4-v2-tres-metodos-2026-11-06",
+ "metodos": {
+  "A": "oficial: RRF (k=60) TF-IDF + MiniLM em blocos, top 3",
+  "B": "candidato 1: RRF (k=60) TF-IDF + Qwen3-Embedding-8B 4 bits, instrução \"conceito\", top 3",
+  "C": "candidato 2: B reordenado pelo Qwen3-Reranker-4B 4 bits (instrução em português) via RRF com a ordem de B, top 20 → top 3"
+ },
+ "selecao": "teste elegível (2024), excluindo as 26 referências já usadas (avaliações 1, 2, 3 e piloto reservado) e suas famílias; 1 MT, 3 CN, 3 CH, 1 LC, ordenadas por sha256(semente+id)",
+ "pares": 40,
+ "avaliacao": "cada sugestão é avaliada uma vez; a nota vale para todo método que a sugeriu; Pendente não entra na conta",
+ "criterios_definidos_antes": {
+  "limiares": [
+   "nota 2 >= 50% das sugestões do método",
+   "nota 1 ou 2 >= 75%",
+   "nenhum bloco com duas ou mais notas 0"
+  ],
+  "decisao": [
+   "1. Entre B e C, vale o de maior média; se a diferença de média for menor que 0,10, vale B (mais simples e barato).",
+   "2. O escolhido vira oficial se a média dele for maior que a de A.",
+   "3. Se ele também cumprir os três limiares, é aprovado sem ressalvas; se não cumprir, é adotado com a limitação registrada por área."
+  ],
+  "leitura_por_area": "CN e CH (6 referências) mostram se a falha da avaliação 2 diminuiu; MT e LC (2) verificam que não piora"
+ },
+ "avaliador_requerido": "pessoa, sem consultar IA nem avaliações anteriores; preferencialmente Teles; guardar a ficha preenchida com nome e data",
+ "referencias": [
+  "gq_64efa1ca93543d8cd3920a21",
+  "gq_17661f478f83207f8750992f",
+  "gq_fb83a591a7f133c53142b3f5",
+  "gq_31c35fbf745c475caaecd64f",
+  "gq_d93cca4cd211bdacba067786",
+  "gq_0378c9443902a858bb8237d8",
+  "gq_519b6c60c0caf9d62242442b",
+  "gq_a8c9242936dbbe2c908e9ef9"
+ ]
+}

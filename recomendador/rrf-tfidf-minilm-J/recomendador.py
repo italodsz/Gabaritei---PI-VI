@@ -3,7 +3,7 @@
 Uso:
   python recomendador.py construir --minilm-de PASTA_rc1/entrega/vectors   # reaproveita vetores da v2.1-rc1
   python recomendador.py construir --recodificar                          # recalcula o MiniLM (precisa do modelo)
-  python recomendador.py buscar --question-id gq_... [--metodo rrf|tfidf|minilm|qwen|rrf_qwen] [--k 5]
+  python recomendador.py buscar --question-id gq_... [--metodo rrf_qwen|rrf|tfidf|minilm|qwen] [--k 5]   (padrão: rrf_qwen)
   python recomendador.py avaliar                                          # pares de desenvolvimento (validação)
 
 Regras: TF-IDF ajustado só no treino elegível; galeria = treino elegível; mesma área;
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar'])
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':

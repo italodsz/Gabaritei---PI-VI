@@ -1,5 +1,4 @@
 {
-  "configuracao": "RRF (k=60) de TF-IDF + MiniLM em blocos, sem normalização extra e sem reordenação",
   "texto": "enunciado + alternativas (pipeline_baseline.question_text)",
   "galeria": "treino elegível da base de trabalho (1.801)",
   "filtros": [
@@ -16,12 +15,11 @@
   ],
   "teste_reservado_aberto": true,
   "pendencias": [
-    "recodificar o vetor MiniLM da V01 e validar novamente o índice",
-    "consolidar os problemas de texto relatados e corrigi-los em uma nova versão, sem alterar a base congelada",
-    "conciliar a avaliação 2: o histórico relata avaliação humana, mas o DOCX disponível é análise assistida por IA e contém notas diferentes",
-    "concluir avaliação humana independente da comparação com filtro por habilidade (avaliação 3)"
+    "calibrar o agente com 50 pares avaliados por Ítalo",
+    "corrigir os problemas de texto (avaliações 1, 2, 4 e escala)",
+    "pré-calcular as recomendações do catálogo para o app"
   ],
-  "status": "versão de trabalho RRF; primeira avaliação humana aprovada no limite; avaliações posteriores não sustentam aprovação geral, e a procedência da avaliação 2 está pendente",
+  "status": "rrf_qwen oficial desde 06/11/2026 (avaliação cega 4, Teles: média 0,96 contra 0,79 do anterior); não cumpre os limiares, sobretudo em Ciências da Natureza",
   "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json",
   "teste_reservado_aberto_na_escolha": false,
   "atualizado_em": "2026-10-30",
@@ -34,7 +32,19 @@
     "validacao": "39/44 pares na ordem certa (oficial: 34/44)",
     "vetores": "indice/qwen/Qwen3-Embedding-8B-4bit__conceito.npy",
     "sha256_vetores": "fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de",
-    "status": "candidato; aguardando avaliação cega 4 (oficial × candidato) com avaliador humano",
+    "status": "adotado como oficial em 06/11/2026",
     "detalhes": "resultados/teste_qwen3.md"
+  },
+  "oficial_ate_06_11": "RRF (k=60) de TF-IDF + MiniLM em blocos, sem normalização extra e sem reordenação",
+  "configuracao": "rrf_qwen: RRF (k=60) de TF-IDF (1-2 gramas) + Qwen3-Embedding-8B 4 bits com instrução \"conceito\"",
+  "evidencias_rrf_qwen": {
+    "validacao_44_pares": "39/44 (anterior 34/44)",
+    "avaliacao_cega_4_teles": "0,96 × 0,79 (A) × 0,75 (C)",
+    "avaliacao_escala_agente": "0,87 × 0,62 (A) × 0,92 (C)"
+  },
+  "reranker": {
+    "status": "não adotado",
+    "motivo": "ganho pequeno e não confirmado (Teles: −0,21; agente: +0,05, abaixo do limite de 0,10); ~15 h para o catálogo",
+    "proximo_passo": "testar só em Ciências da Natureza"
   }
 }

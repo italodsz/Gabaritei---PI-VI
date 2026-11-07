@@ -72,3 +72,12 @@ representar o conceito e a operação pedida, ignorando o cenário. Na validaç�
 na ordem certa, contra 34/44 do oficial. Ainda não é o oficial: falta a avaliação cega 4.
 Detalhes em `resultados/teste_qwen3.md`. Os vetores ficam em `indice/qwen/` (34 MB) e são
 gerados por `gerar_vetores_qwen.py --quantizar-4bit`; `comparar_modelos.py` refaz a tabela.
+
+## Oficial desde 06/11/2026: RRF TF-IDF + Qwen3-Embedding-8B (`rrf_qwen`)
+
+Avaliação cega 4 (Teles, 8 referências, três métodos): média 0,96 para `rrf_qwen`, 0,79 para o
+anterior (RRF + MiniLM) e 0,75 com reranker. Avaliação em escala por agente (36 referências):
+0,87 × 0,62 × 0,92. O `rrf_qwen` passa a ser o padrão do `buscar`. Limitação: não atinge os
+limiares de qualidade (50% de nota 2), sobretudo em Ciências da Natureza. O reranker
+(Qwen3-Reranker-4B) está documentado em `resultados/teste_reranker.md` e não foi adotado.
+Detalhes em `resultados/avaliacao_cega_4/` e `resultados/avaliacao_escala/`.

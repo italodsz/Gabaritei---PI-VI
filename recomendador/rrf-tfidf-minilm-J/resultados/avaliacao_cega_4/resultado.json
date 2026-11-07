@@ -1,0 +1,428 @@
+{
+ "protocolo": "avaliacao_cega_4_v2_tres_metodos",
+ "avaliador": "Teles (às cegas, sem IA, segundo Ítalo)",
+ "data_resultado": "2026-11-06",
+ "chave_sha256": "b87f1851051985144403e453abe8505f3ca2ca6a5b3d35038884cfb216005226",
+ "notas": [
+  {
+   "item": "S11",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_2e0ca74444a5da66f09227d6",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S12",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_d462a7dac7ae253eff4d58f4",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 2
+  },
+  {
+   "item": "S13",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_36f04f02fa45161b19c60220",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S14",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_41af12aeede1ee8ea10e5ee8",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S15",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_0a743d5fdb70d03a1842dc30",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 2
+  },
+  {
+   "item": "S16",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_d59fc4e973766ac856c5713f",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S17",
+   "referencia": "gq_64efa1ca93543d8cd3920a21",
+   "candidata": "gq_96a5a508a70b9673ddefc8d6",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 0
+  },
+  {
+   "item": "S21",
+   "referencia": "gq_17661f478f83207f8750992f",
+   "candidata": "gq_474aa62febd8fe645cbed1a4",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S22",
+   "referencia": "gq_17661f478f83207f8750992f",
+   "candidata": "gq_e5f364a155d4835989f87f89",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 1
+  },
+  {
+   "item": "S23",
+   "referencia": "gq_17661f478f83207f8750992f",
+   "candidata": "gq_bf9ab4008795fa3dabd1d72b",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 1
+  },
+  {
+   "item": "S24",
+   "referencia": "gq_17661f478f83207f8750992f",
+   "candidata": "gq_7404424a1bc5a826cc70e111",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 0
+  },
+  {
+   "item": "S31",
+   "referencia": "gq_fb83a591a7f133c53142b3f5",
+   "candidata": "gq_50de727e5796ec112c1ef8ac",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S32",
+   "referencia": "gq_fb83a591a7f133c53142b3f5",
+   "candidata": "gq_4b03dff79d3fdb9df705b780",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 0
+  },
+  {
+   "item": "S33",
+   "referencia": "gq_fb83a591a7f133c53142b3f5",
+   "candidata": "gq_d574ea329034546110897255",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 0
+  },
+  {
+   "item": "S34",
+   "referencia": "gq_fb83a591a7f133c53142b3f5",
+   "candidata": "gq_1afb927bd9d1b657dc84cd78",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 0
+  },
+  {
+   "item": "S41",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_3a9e81dfe26db477b8d911b2",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 1
+  },
+  {
+   "item": "S42",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_73531de91af5128c82cf4948",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 0
+  },
+  {
+   "item": "S43",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_295619e57ff025e2713454ff",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S44",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_c7763cd102dda20ce2ae86c8",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S45",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_5843d5654cb1bf9b2880a684",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 1
+  },
+  {
+   "item": "S46",
+   "referencia": "gq_31c35fbf745c475caaecd64f",
+   "candidata": "gq_bf9ab4008795fa3dabd1d72b",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S51",
+   "referencia": "gq_d93cca4cd211bdacba067786",
+   "candidata": "gq_2e32fa55b630fc50fe7ccb03",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 0
+  },
+  {
+   "item": "S52",
+   "referencia": "gq_d93cca4cd211bdacba067786",
+   "candidata": "gq_76c6b00fb9c3b5047d4251c9",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S53",
+   "referencia": "gq_d93cca4cd211bdacba067786",
+   "candidata": "gq_21e5a60728be62cf1e98e303",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 2
+  },
+  {
+   "item": "S54",
+   "referencia": "gq_d93cca4cd211bdacba067786",
+   "candidata": "gq_0bda1983efd44ac50e0ee528",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 2
+  },
+  {
+   "item": "S55",
+   "referencia": "gq_d93cca4cd211bdacba067786",
+   "candidata": "gq_f1a3e0744feb06081d2d5f67",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 0
+  },
+  {
+   "item": "S61",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_d9aa79149b8e7981bccc6cfd",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 2
+  },
+  {
+   "item": "S62",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_230eb8e10d175e18010c5f82",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S63",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_b1ea987a53ba909e011b974c",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 1
+  },
+  {
+   "item": "S64",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_fb101eec894718dae4d57427",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 1
+  },
+  {
+   "item": "S65",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_00209c342d216cafe9ac9d38",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 0
+  },
+  {
+   "item": "S66",
+   "referencia": "gq_0378c9443902a858bb8237d8",
+   "candidata": "gq_67078cffcb41eb81b1abce22",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 0
+  },
+  {
+   "item": "S71",
+   "referencia": "gq_519b6c60c0caf9d62242442b",
+   "candidata": "gq_eeb211aec2a1fea32ffd62c8",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 2
+  },
+  {
+   "item": "S72",
+   "referencia": "gq_519b6c60c0caf9d62242442b",
+   "candidata": "gq_dc66a7fe8ba72bb7755a1f66",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 2
+  },
+  {
+   "item": "S73",
+   "referencia": "gq_519b6c60c0caf9d62242442b",
+   "candidata": "gq_c36671610c763eba60b4df3a",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 2
+  },
+  {
+   "item": "S74",
+   "referencia": "gq_519b6c60c0caf9d62242442b",
+   "candidata": "gq_ec223c142f51587cf9445458",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 1
+  },
+  {
+   "item": "S81",
+   "referencia": "gq_a8c9242936dbbe2c908e9ef9",
+   "candidata": "gq_144242e1691d7cb7a334767d",
+   "A_oficial_rrf_minilm": 1,
+   "B_rrf_qwen": 1,
+   "C_rrf_qwen_reranker": 1,
+   "nota": 2
+  },
+  {
+   "item": "S82",
+   "referencia": "gq_a8c9242936dbbe2c908e9ef9",
+   "candidata": "gq_93ed94f6bac7170d9a525e6b",
+   "A_oficial_rrf_minilm": 2,
+   "B_rrf_qwen": 2,
+   "C_rrf_qwen_reranker": 2,
+   "nota": 0
+  },
+  {
+   "item": "S83",
+   "referencia": "gq_a8c9242936dbbe2c908e9ef9",
+   "candidata": "gq_56bc6f2af6d5a7856dc1034c",
+   "A_oficial_rrf_minilm": 3,
+   "B_rrf_qwen": 3,
+   "C_rrf_qwen_reranker": null,
+   "nota": 0
+  },
+  {
+   "item": "S84",
+   "referencia": "gq_a8c9242936dbbe2c908e9ef9",
+   "candidata": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "A_oficial_rrf_minilm": null,
+   "B_rrf_qwen": null,
+   "C_rrf_qwen_reranker": 3,
+   "nota": 0
+  }
+ ],
+ "resumo": {
+  "A_oficial": {
+   "media": 0.79,
+   "nota2": "6/24",
+   "nota1ou2": "13/24",
+   "blocos_2_zeros": 4
+  },
+  "B_rrf_qwen": {
+   "media": 0.96,
+   "nota2": "8/24",
+   "nota1ou2": "15/24",
+   "blocos_2_zeros": 2
+  },
+  "C_reranker": {
+   "media": 0.75,
+   "nota2": "6/24",
+   "nota1ou2": "12/24",
+   "blocos_2_zeros": 4
+  },
+  "por_area_media": {
+   "MT": {
+    "A": 0.33,
+    "B": 1.67,
+    "C": 1.33
+   },
+   "CH": {
+    "A": 1.22,
+    "B": 1.33,
+    "C": 0.89
+   },
+   "LC": {
+    "A": 0.67,
+    "B": 0.67,
+    "C": 0.67
+   },
+   "CN": {
+    "A": 0.56,
+    "B": 0.44,
+    "C": 0.44
+   }
+  }
+ },
+ "decisao": "B vira oficial (média maior que A e que C); não cumpre os limiares → adotado com limitação registrada (Natureza)",
+ "revisao_italo_apos_ver_notas": {
+  "S14": 2,
+  "S17": 1,
+  "S21": 0,
+  "S23": 2,
+  "S31": 0,
+  "efeito": "B 1,04–1,12; C 0,83–0,92; A 0,71–0,79; mesma decisão"
+ },
+ "notas_claude_dadas_apos_ver_as_do_teles": {
+  "concordancia_exata": "17/40",
+  "dif_max_1": "38/40",
+  "medias": {
+   "A": 0.54,
+   "B": 0.88,
+   "C": 0.88
+  }
+ }
+}
