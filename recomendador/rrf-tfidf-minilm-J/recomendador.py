@@ -153,22 +153,35 @@ def avaliar():
         print(f'{metodo:7s} pares na ordem certa: {ok}/{tot} ({ok/tot:.0%})')
 
 
-# Faixas de dificuldade: tercis do parâmetro b (TRI do INEP) nas questões de treino,
-# os mesmos usados no modelo de dificuldade do Gabriel (Fase 2).
-TERCIS_B = (0.8005, 1.5630)
+# Faixas de dificuldade: tercis do parâmetro b (TRI do INEP) calculados POR ÁREA nas questões
+# de treino, para que "fácil" signifique fácil dentro da própria área.
+def tercis_por_area(ix):
+    out = {}
+    for area in ('MT', 'CN', 'CH', 'LC'):
+        bs = [float(ix.rows[d['id']]['tri']['b']) for d in ix.docs if d['split'] == 'train' and d['area'] == area
+              and (ix.rows[d['id']].get('tri') or {}).get('b') is not None]
+        out[area] = [round(float(x), 4) for x in np.quantile(bs, [1/3, 2/3])]
+    return out
 
-def nivel(b):
+def nivel(b, cortes):
     if b is None: return None
-    return 'facil' if b < TERCIS_B[0] else 'media' if b < TERCIS_B[1] else 'dificil'
+    return 'facil' if b < cortes[0] else 'media' if b < cortes[1] else 'dificil'
 
 def exportar(top):
     ix = Indice(); metodo = 'rrf_qwen'
     if ix.Q is None: raise SystemExit('Faltam os vetores Qwen em indice/qwen/.')
+    cortes = tercis_por_area(ix)
+    af = ROOT / 'catalogo' / 'alertas_texto.json'
+    alertas = json.loads(af.read_text(encoding='utf-8')) if af.exists() else {}
+    def grave(motivos):
+        return any('##' not in m and 'Markdown' not in m for m in motivos)
     meta = {}
     for d in ix.docs:
         r = ix.rows[d['id']]; b = (r.get('tri') or {}).get('b')
+        al = alertas.get(d['id'], [])
         meta[d['id']] = {'area': r['area'], 'ano': r['year'], 'habilidade': r.get('skill'),
-                         'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b)}
+                         'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b, cortes[r['area']]),
+                         'alerta_texto': al, 'alerta_grave': grave(al)}
     recs = {}
     for n, d in enumerate(ix.docs, 1):
         recs[d['id']] = [i for i, _ in ix.ranking(d['id'], metodo, galeria='todas')[:top]]
@@ -180,7 +193,9 @@ def exportar(top):
         'base_sha256': ix.conf['base_sha256'], 'qwen_sha256': QWEN_SHA256,
         'galeria': 'todas as questões elegíveis da mesma área, sem a própria família (treino, validação e teste)',
         'ordem': 'cada lista vem da mais para a menos relevante; filtrar por nível sem reordenar',
-        'tercis_tri_b': list(TERCIS_B), 'questoes': meta, 'recomendacoes': recs},
+        'cortes_nivel_por_area_tri_b': cortes,
+        'alerta_grave': 'defeito de conteúdo conhecido (expoente, fórmula, equação, palavras coladas etc.); o app deve evitar sugerir',
+        'questoes': meta, 'recomendacoes': recs},
         ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(f'pronto: {out} | {len(recs)} questões × {top} sugestões | {out.stat().st_size/1e6:.1f} MB')
 
