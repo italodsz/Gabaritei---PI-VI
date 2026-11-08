@@ -5,6 +5,7 @@ Uso:
   python recomendador.py construir --recodificar                          # recalcula o MiniLM (precisa do modelo)
   python recomendador.py buscar --question-id gq_... [--metodo rrf_qwen|rrf|tfidf|minilm|qwen] [--k 5]   (padrão: rrf_qwen)
   python recomendador.py avaliar                                          # pares de desenvolvimento (validação)
+  python recomendador.py exportar [--top 50]                              # catálogo de recomendações para o app
 
 Regras: TF-IDF ajustado só no treino elegível; galeria = treino elegível; mesma área;
 exclui e deduplica a família de conteúdo; texto = enunciado + alternativas (sem gabarito,
@@ -95,9 +96,9 @@ class Indice:
                 raise SystemExit('A ordem de indice/qwen/ids.json não bate com indice/documentos.json.')
             self.Q = np.load(qf)
 
-    def ranking(self, qid, metodo='rrf'):
+    def ranking(self, qid, metodo='rrf', galeria='treino'):
         qi = self.pos[qid]; q = self.docs[qi]
-        pool = np.array([k for k, d in enumerate(self.docs) if d['split'] == 'train'
+        pool = np.array([k for k, d in enumerate(self.docs) if (galeria == 'todas' or d['split'] == 'train')
                          and d['area'] == q['area'] and d['family'] != q['family']])
         tf = (self.X[pool] @ self.X[qi].T).toarray().ravel()
         mn = self.M[pool] @ self.M[qi]
@@ -152,11 +153,43 @@ def avaliar():
         print(f'{metodo:7s} pares na ordem certa: {ok}/{tot} ({ok/tot:.0%})')
 
 
+# Faixas de dificuldade: tercis do parâmetro b (TRI do INEP) nas questões de treino,
+# os mesmos usados no modelo de dificuldade do Gabriel (Fase 2).
+TERCIS_B = (0.8005, 1.5630)
+
+def nivel(b):
+    if b is None: return None
+    return 'facil' if b < TERCIS_B[0] else 'media' if b < TERCIS_B[1] else 'dificil'
+
+def exportar(top):
+    ix = Indice(); metodo = 'rrf_qwen'
+    if ix.Q is None: raise SystemExit('Faltam os vetores Qwen em indice/qwen/.')
+    meta = {}
+    for d in ix.docs:
+        r = ix.rows[d['id']]; b = (r.get('tri') or {}).get('b')
+        meta[d['id']] = {'area': r['area'], 'ano': r['year'], 'habilidade': r.get('skill'),
+                         'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b)}
+    recs = {}
+    for n, d in enumerate(ix.docs, 1):
+        recs[d['id']] = [i for i, _ in ix.ranking(d['id'], metodo, galeria='todas')[:top]]
+        if n % 500 == 0: print(f'{n}/{len(ix.docs)}', flush=True)
+    out = ROOT / 'catalogo' / 'recomendacoes_rrf_qwen.json'
+    out.parent.mkdir(exist_ok=True)
+    out.write_text(json.dumps({
+        'versao': VERSAO, 'metodo': metodo, 'top': top,
+        'base_sha256': ix.conf['base_sha256'], 'qwen_sha256': QWEN_SHA256,
+        'galeria': 'todas as questões elegíveis da mesma área, sem a própria família (treino, validação e teste)',
+        'ordem': 'cada lista vem da mais para a menos relevante; filtrar por nível sem reordenar',
+        'tercis_tri_b': list(TERCIS_B), 'questoes': meta, 'recomendacoes': recs},
+        ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'pronto: {out} | {len(recs)} questões × {top} sugestões | {out.stat().st_size/1e6:.1f} MB')
+
 if __name__ == '__main__':
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar'])
+    ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar', 'exportar'])
+    ap.add_argument('--top', type=int, default=50)
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
     ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen'])
     ap.add_argument('--k', type=int, default=5)
@@ -169,5 +202,7 @@ if __name__ == '__main__':
         if not a.question_id:
             ap.error('buscar requer --question-id')
         buscar(a.question_id, a.metodo, a.k)
+    elif a.comando == 'exportar':
+        exportar(a.top)
     else:
         avaliar()
