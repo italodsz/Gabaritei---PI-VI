@@ -1,0 +1,269 @@
+/* Estrutura do app: menu lateral retrátil (reaproveitado do front anterior:
+   Sidebar.tsx + AppShell.tsx), topo enxuto e coluna "Minhas notas".
+   O menu recolhido ocupa --rail; ao expandir, ele se sobrepõe ao conteúdo
+   (nada é empurrado), então cards e notas não se deslocam. */
+
+:root {
+  --rail: 84px;
+  --rail-open: 256px;
+  --nav-bg: #070807;
+  --nav-raised: rgb(255 255 255 / .06);
+  --nav-raised-strong: rgb(255 255 255 / .1);
+  --nav-line: rgb(255 255 255 / .1);
+  --nav-muted: #a4a6a4;
+  --nav-accent: #c4fcc3;
+  --hi-size: 20px;
+}
+
+svg.hi { width: var(--hi-size); height: var(--hi-size); fill: none; stroke: none; }
+
+.app-frame { padding-left: var(--rail); --week-width: clamp(300px, 25vw, 390px); }
+@media (max-width: 1020px) and (min-width: 761px) { .app-frame { --week-width: 280px; } }
+
+/* ------------------------------------------------------------------ */
+/* Menu lateral                                                         */
+/* ------------------------------------------------------------------ */
+.side-nav {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--rail);
+  z-index: 60;
+}
+/* Faixa de tolerância à direita do menu: aproximar o cursor já abre. */
+.side-nav::after { content: ''; position: absolute; top: 0; bottom: 0; left: 100%; width: 10px; }
+.side-surface {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--rail);
+  background: var(--nav-bg);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  will-change: width;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow .3s cubic-bezier(.22, 1, .36, 1);
+}
+.side-nav.is-open .side-surface { box-shadow: 18px 0 40px -18px rgb(0 0 0 / .55); }
+.side-brand {
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 22px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 14px;
+  outline-offset: -6px;
+}
+.side-logo { width: 40px; height: 40px; flex-shrink: 0; display: grid; place-items: center; border-radius: 14px; background: #171a17; box-shadow: 0 4px 12px rgb(0 0 0 / .4), inset 0 0 0 1px rgb(255 255 255 / .08); color: var(--nav-accent); }
+.side-logo svg { width: 24px; height: 24px; stroke-width: 3.4; }
+.side-brand-name { font-family: var(--display); font-size: 1.3rem; font-weight: 750; letter-spacing: -.03em; white-space: nowrap; }
+.side-brand-name .brand-dot { color: var(--nav-accent); margin-left: 0; }
+.side-section { margin: 8px 0 4px; height: 16px; padding-left: 31px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: rgb(185 194 187 / .7); white-space: nowrap; }
+.side-items { position: relative; display: flex; flex-direction: column; gap: 4px; padding: 0 16px; }
+.side-item {
+  position: relative;
+  z-index: 1;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 16px;
+  border-radius: 16px;
+  color: var(--nav-muted);
+  text-decoration: none;
+  font-size: 14.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  outline: none;
+}
+.side-item::before { content: ''; position: absolute; inset: 0; border-radius: 16px; background: transparent; transition: background-color .2s; z-index: -1; }
+.side-item:hover::before { background: var(--nav-raised); }
+.side-item:hover, .side-item.is-active { color: #fff; }
+.side-item:focus-visible { box-shadow: 0 0 0 2px var(--nav-accent); }
+.side-item.is-active .side-icon { color: var(--nav-accent); }
+.side-icon { display: grid; place-items: center; width: 20px; height: 20px; flex-shrink: 0; transition: color .2s; }
+.side-active {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 0;
+  height: 48px;
+  border-radius: 16px;
+  background: var(--nav-raised-strong);
+  box-shadow: inset 0 0 0 1px var(--nav-line);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+}
+.side-active i { position: absolute; left: -1px; top: 50%; width: 3px; height: 20px; margin-top: -10px; border-radius: 3px; background: var(--nav-accent); }
+.side-label { display: inline-block; opacity: 0; transform: translateX(-6px); pointer-events: none; transition: opacity .1s, transform .1s; }
+.side-nav.is-open .side-label { opacity: 1; transform: none; pointer-events: auto; transition: opacity .2s .06s, transform .2s .06s; }
+
+.side-bottom { margin-top: auto; display: flex; flex-direction: column; gap: 12px; padding: 16px; }
+.side-resume, .side-streak {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 12px;
+  border-radius: 16px;
+  background: var(--nav-raised);
+  box-shadow: inset 0 0 0 1px var(--nav-line);
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background-color .2s;
+}
+.side-resume:hover { background: var(--nav-raised-strong); }
+.side-resume:focus-visible { outline: 2px solid var(--nav-accent); outline-offset: 2px; }
+.side-resume-icon { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 12px; background: var(--nav-accent); color: #111411; }
+.side-resume-icon svg { width: 16px; height: 16px; }
+.side-resume-icon svg path { fill: currentColor; }
+.side-resume .side-label, .side-streak .side-label { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.side-resume small { font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; color: var(--nav-accent); }
+.side-resume strong, .side-streak strong { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
+.side-streak { background: transparent; box-shadow: none; padding: 8px 12px; }
+.side-nav.is-open .side-streak { background: var(--nav-raised); }
+.side-streak-icon { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 12px; background: rgb(223 150 125 / .2); color: #df967d; }
+.side-streak-icon.is-idle { background: var(--nav-raised); color: var(--nav-muted); }
+.side-streak span.side-streak-count { position: absolute; left: 12px; bottom: -1px; width: 36px; text-align: center; font-size: 11px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.side-nav.is-open .side-streak-count { opacity: 0; }
+.side-streak small { font-size: 12px; color: var(--nav-muted); }
+
+/* ------------------------------------------------------------------ */
+/* Topo enxuto (perfil e guias rápidas; a navegação mudou para o menu)  */
+/* ------------------------------------------------------------------ */
+.topbar { height: 64px; gap: 18px; padding: 0 22px 0 28px; justify-content: flex-end; }
+.topbar-title { margin-right: auto; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: #9fa39f; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topbar-title strong { color: #fff; font-weight: 650; }
+.topbar .quick-dots { order: 2; border-left: 0; padding-left: 0; }
+.topbar .profile-wrapper { order: 3; padding-left: 18px; border-left: 1px solid #ffffff1f; }
+@media (min-width: 761px) { .list-summary { top: 24px; } .hist-start { top: 24px; } .lg-sticky { top: 24px; } }
+
+/* ------------------------------------------------------------------ */
+/* Botão "Criar" (funcionalidade futura, sem ação)                      */
+/* ------------------------------------------------------------------ */
+.heading-tools { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.create-soon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  height: 43px;
+  padding: 0 14px 0 6px;
+  border-radius: 30px;
+  background: #fff;
+  border: 1px dashed #c9cec7;
+  color: #2c312c;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: not-allowed;
+  transition: border-color .2s, background-color .2s;
+}
+.create-soon:active { transform: none; }
+.create-soon:hover, .create-soon:focus-visible { border-color: #9da49b; background: #fbfcfb; }
+.create-soon-icon { width: 31px; height: 31px; display: grid; place-items: center; border-radius: 50%; background: linear-gradient(140deg, #d6c8fd, #c4fcc3); color: #1b201b; transition: transform .35s cubic-bezier(.34, 1.56, .64, 1); }
+.create-soon-icon svg.hi { --hi-size: 17px; }
+.create-soon:hover .create-soon-icon { transform: rotate(90deg); }
+.create-soon-tag { font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 20px; background: #f1f2f0; color: #7a8079; }
+.create-soon-tip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 230px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #1d251d;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity .16s, transform .16s;
+  z-index: 30;
+}
+.create-soon:hover .create-soon-tip, .create-soon:focus-visible .create-soon-tip { opacity: 1; transform: none; }
+
+/* ------------------------------------------------------------------ */
+/* Trilha: os tracejados são desenhados por drawTrail (app.js)          */
+/* ------------------------------------------------------------------ */
+.learning-canvas .connections { position: absolute; inset: 0 auto auto 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; overflow: visible; animation: none; }
+.learning-canvas .connections path.trail-line { fill: none; stroke: #8bb27f; stroke-width: 1.2; stroke-dasharray: 2.5 3.5; stroke-linecap: round; animation: none; }
+.learning-canvas .connections mask path { fill: none; stroke: #fff; stroke-width: 6; stroke-linecap: round; animation: none; }
+.learning-canvas .connections circle { fill: #73a665; stroke: none; transform-box: fill-box; transform-origin: center; }
+/* Os cards entram pelo Motion (app.js); o keyframe CSS antigo fica desligado. */
+.learning-canvas .activity-card { animation: none; }
+.learning-canvas.is-entering .activity-card, .learning-canvas.is-entering .stats { opacity: 0; }
+.learning-canvas .stats { animation: none; }
+
+/* Seção de concluídas (separada das pendências) */
+.done-banner { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 18px; padding: 12px 16px; border-radius: 18px; background: #eef7ee; color: #2c4a2c; font-size: 12px; }
+.done-banner button { background: #fff; border-radius: 20px; padding: 7px 12px; font-size: 11px; font-weight: 600; }
+
+/* Página secundária: entrada (pageVariants) feita pelo Motion. */
+.secondary-page { animation: none; }
+
+/* ------------------------------------------------------------------ */
+/* Celular: o menu vira barra inferior com os 5 destinos                */
+/* ------------------------------------------------------------------ */
+@media (max-width: 760px) {
+  .app-frame { padding-left: 0; padding-bottom: 72px; }
+  .side-nav { inset: auto 0 0 0; width: auto; height: 68px; }
+  .side-nav::after { display: none; }
+  .side-surface { position: static; width: auto !important; height: 68px; flex-direction: row; align-items: center; }
+  .side-brand, .side-section, .side-bottom, .side-active { display: none; }
+  .side-items { flex-direction: row; flex: 1; padding: 6px; gap: 2px; }
+  .side-item { flex: 1; flex-direction: column; justify-content: center; gap: 3px; height: 56px; padding: 0; font-size: 10px; }
+  .side-item.is-active::before { background: var(--nav-raised-strong); }
+  .side-label { opacity: 1; transform: none; }
+  .topbar { height: auto; min-height: 60px; padding: 10px 14px; display: flex; }
+  .topbar-title { display: none; }
+  .heading-tools { width: 100%; }
+  .heading-tools .search { flex: 1; }
+  .create-soon-label { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .side-label, .side-nav.is-open .side-label { transition: none; }
+  .create-soon-icon { transition: none; }
+}
+.side-item:focus-visible, .side-brand:focus-visible, .side-resume:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--nav-accent); }
+
+/* ------------------------------------------------------------------ */
+/* Sem barra superior: guias rápidas e perfil no rodapé do menu lateral  */
+/* ------------------------------------------------------------------ */
+.side-bottom { gap: 10px; padding: 12px 16px 18px; align-items: stretch; }
+.side-bottom .quick-dots { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 0 0 0 8px; border: 0; }
+.side-bottom .dock-divider { width: 20px; height: 1px; margin: 4px 0 4px 8px; background: #ffffff26; }
+.side-bottom .dock-button { width: 36px; height: 36px; flex-shrink: 0; }
+.side-bottom .dock-button:hover { transform: translateX(2px); }
+.side-bottom .dock-button[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--nav-bg), 0 0 0 5px #fff; }
+/* Recolhido: o rótulo aparece como dica à direita. Expandido: vira rótulo fixo. */
+.side-bottom [data-tooltip]::after { left: calc(100% + 12px); top: 50%; bottom: auto; transform: translate(-4px, -50%); background: #1d251d; font-size: 11px; }
+.side-bottom [data-tooltip]:hover::after, .side-bottom [data-tooltip]:focus-visible::after { transform: translate(0, -50%); }
+.side-nav.is-open .side-bottom [data-tooltip]::after { opacity: 1; background: transparent; padding: 0; color: #d6dad5; font-size: 13px; font-weight: 600; transform: translate(0, -50%); transition: opacity .2s .06s; }
+.side-nav.is-open .side-bottom .dock-button:hover::after { color: #fff; }
+.side-surface { overflow: visible; }
+.side-surface > .side-brand, .side-surface > .side-section, .side-surface > .side-items { overflow: hidden; }
+.side-bottom .profile-wrapper { position: relative; border-top: 1px solid var(--nav-line); padding: 12px 0 0 6px; }
+.side-bottom .profile { display: flex; align-items: center; gap: 12px; padding: 0; color: #fff; background: none; white-space: nowrap; }
+.side-bottom .profile:active { transform: none; }
+.side-bottom .avatar { width: 40px; height: 40px; flex-shrink: 0; }
+.side-bottom .profile-text { display: flex; opacity: 0; transition: opacity .1s; pointer-events: none; }
+.side-bottom .profile-text > span { display: block; }
+.side-bottom .profile > svg { opacity: 0; transform: rotate(-90deg); margin-left: 4px; transition: opacity .1s; }
+.side-nav.is-open .side-bottom .profile-text, .side-nav.is-open .side-bottom .profile > svg { opacity: 1; transition: opacity .2s .06s; }
+.side-bottom .profile-menu { top: auto; bottom: 0; right: auto; left: calc(100% + 14px); z-index: 70; }
+@media (max-height: 760px) and (min-width: 761px) { .side-bottom .dock-button { width: 32px; height: 32px; } .side-bottom .quick-dots { gap: 4px; } .side-items .side-item { height: 44px; } }
+@media (max-width: 760px) { .side-bottom { display: none; } }
+.side-bottom .quick-dots [data-tooltip]:last-child::after { left: calc(100% + 12px); right: auto; transform: translate(-4px, -50%); }
+.side-bottom .quick-dots [data-tooltip]:last-child:hover::after, .side-nav.is-open .side-bottom .quick-dots [data-tooltip]:last-child::after { transform: translate(0, -50%); }
+.side-bottom .dock-button.dark { background: #2a2d2a; box-shadow: inset 0 0 0 1px #ffffff24; color: #fff; }

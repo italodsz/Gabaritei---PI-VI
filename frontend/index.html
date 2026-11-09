@@ -4,11 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#dff7fa">
-  <title>Meu plano · Gabaritei</title>
+  <title>Meus estudos · Gabaritei</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12'/%3E%3Cpath d='m11 20 6 6 13-14' fill='none' stroke='%23c6fac9' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="areas.css">
   <link rel="stylesheet" href="learning-pages.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="practice-screen.css">
+  <link rel="stylesheet" href="question-screen.css">
+  <link rel="stylesheet" href="history-page.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="legacy-ui.css">
+  <link rel="stylesheet" href="shell.css">
+  <link rel="stylesheet" href="notes.css">
+  <link rel="stylesheet" href="simulados.css">
+  <link rel="stylesheet" href="config-studio.css">
+  <link rel="stylesheet" href="result-page.css">
+  <script src="assets/vendor/motion.js"></script>
   <script type="module" src="app.js"></script>
 </head>
 <body>
@@ -38,50 +50,72 @@
     <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></symbol>
     <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="m14 3 7 7-4 1-4 5-2-2-7 7m1-11 5-4 1-4M5 10l9 9"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16l-1 4ZM14 7l3 3"/></symbol>
+    <symbol id="i-languages" viewBox="0 0 24 24"><path d="M3 5h9M7.5 3v2M5 5c1 4 3 6 6 7M10 5c-1 4-3 7-6 8M13 20l4-9 4 9M14.5 17h5"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 2-.8 2-2 0-.6-.3-1-.6-1.4-.3-.4-.5-.8-.5-1.3 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.3-4-7.5-9-7.5ZM7.5 11h.01M10 7.5h.01M14.5 7.5h.01"/></symbol>
+    <symbol id="i-scroll" viewBox="0 0 24 24"><path d="M8 4h10a2 2 0 0 1 2 2v1h-4M8 4a2 2 0 0 0-2 2v12a2 2 0 0 1-2 2h11a2 2 0 0 0 2-2V7M8 4a2 2 0 0 1 2 2v1M9 11h5M9 15h5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18ZM3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9s1-6.5 3.5-9Z"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a2 2 0 0 0-3-1ZM15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 4.5a3.5 3.5 0 0 1 0 6.5M18 14.5c1.8.8 3 2.8 3 5.5"/></symbol>
+    <symbol id="i-atom" viewBox="0 0 24 24"><path d="M12 12h.01M12 3c-2 0-3.5 4-3.5 9s1.5 9 3.5 9 3.5-4 3.5-9S14 3 12 3ZM4.2 7.5c1-1.7 5.3-.9 9.6 1.6s7 6.1 6 7.8-5.3.9-9.6-1.6-7-6.1-6-7.8ZM19.8 7.5c-1-1.7-5.3-.9-9.6 1.6s-7 6.1-6 7.8 5.3.9 9.6-1.6 7-6.1 6-7.8Z"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3M7 15h10"/></symbol>
+    <symbol id="i-sigma" viewBox="0 0 24 24"><path d="M18 5H6l6 7-6 7h12"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></symbol>
+    <symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 5.1A10 10 0 0 1 12 5c6.5 0 10 7 10 7a17 17 0 0 1-3.2 4.2M6.6 6.6C3.8 8.4 2 12 2 12s3.5 7 10 7c1.8 0 3.4-.5 4.8-1.3M9.9 9.9a3 3 0 0 0 4.2 4.2"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol>
+    <symbol id="i-columns" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM14 5v14"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4m0 0h11l-2 4 2 4H5"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm-4-9 3 3 5-6"/></symbol>
+    <symbol id="i-x-circle" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM9 9l6 6m0-6-6 6"/></symbol>
+    <symbol id="i-lightbulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3Z"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-skip" viewBox="0 0 24 24"><path d="M5 5l10 7-10 7V5ZM19 5v14"/></symbol>
+    <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></symbol>
+    <symbol id="i-bookmark-check" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4V3Zm3 7 2 2 4-4"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+    <symbol id="i-dots" viewBox="0 0 24 24"><path d="M5.5 12h.01M12 12h.01M18.5 12h.01" stroke-width="3.2"/></symbol>
+    <symbol id="i-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 2.6-6.4L3 8M3 3v5h5M12 7v5l3 2"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3m-9 0 1 13h10l1-13M10 11v6m4-6v6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5-12-7.5Z"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3c1 3 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-5 1-8.5Z"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z"/></symbol>
   </defs></svg>
 
   <div class="presentation-label"><span class="tiny-mark"></span> GABARITEI LAB <span class="label-line"></span> UMA NOVA FORMA DE ESTUDAR</div>
   <div class="app-frame">
-    <header class="topbar">
-      <a class="brand" href="#plano" aria-label="Gabaritei, meu plano"><span class="brand-symbol"><svg><use href="#i-check"/></svg></span>gabaritei<span class="brand-dot">.</span></a>
-      <nav class="main-nav" aria-label="Navegação principal">
-        <button class="nav-item active" data-page="plano" aria-current="page"><svg><use href="#i-route"/></svg><span>Meu plano</span></button>
-        <button class="nav-item" data-page="questoes"><svg><use href="#i-layers"/></svg><span>Questões</span></button>
-        <button class="nav-item" data-page="simulados"><svg><use href="#i-clipboard"/></svg><span>Simulados</span></button>
-        <button class="nav-item" data-page="progresso"><svg><use href="#i-chart"/></svg><span>Progresso</span></button>
-      </nav>
-      <div class="profile-wrapper"><button class="profile" id="profile-button" aria-expanded="false" aria-controls="profile-menu"><span class="avatar">I</span><span class="profile-text"><strong>Ítalo</strong><span>Um passo de cada vez</span></span><svg><use href="#i-chevron"/></svg></button><div id="profile-menu" class="profile-menu" hidden><strong>Seu espaço de estudos</strong><p>Este é um protótipo individual.<br>Todos os dados são demonstrativos.</p><button id="reset-demo">Restaurar demonstração</button></div></div>
-    </header>
+    <aside class="side-nav" id="side-nav" aria-label="Navegação principal">
+      <div class="side-surface" id="side-surface">
+        <a class="side-brand" href="#plano" aria-label="Gabaritei, ir para Meus estudos"><span class="side-logo"><svg aria-hidden="true"><use href="#i-check"/></svg></span><span class="side-label side-brand-name">gabaritei<span class="brand-dot">.</span></span></a>
+        <p class="side-section"><span class="side-label">Estudar</span></p>
+        <nav class="side-items" id="side-items"><span class="side-active" id="side-active" aria-hidden="true"><i></i></span><a class="side-item" href="#plano" data-page="plano"><span class="side-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-House"/></svg></span><span class="side-label">Início</span></a><a class="side-item" href="#questoes" data-page="questoes"><span class="side-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-BookOpenCheck"/></svg></span><span class="side-label">Questões</span></a><a class="side-item" href="#simulados" data-page="simulados"><span class="side-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-Timer"/></svg></span><span class="side-label">Simulados</span></a><a class="side-item" href="#historico" data-page="historico"><span class="side-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-History"/></svg></span><span class="side-label">Histórico</span></a><a class="side-item" href="#progresso" data-page="progresso"><span class="side-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-ChartNoAxesCombined"/></svg></span><span class="side-label">Progresso</span></a></nav>
+        <div class="side-bottom" id="side-bottom"><div class="quick-dots" role="toolbar" aria-label="Guias rápidas"><button class="dock-button lavender" id="dock-map" aria-label="Voltar à trilha" data-tooltip="Minha trilha"><svg><use href="#i-grid"/></svg></button><button class="dock-button cyan" id="filter-button" aria-label="Mostrar também as atividades concluídas" aria-pressed="false" data-tooltip="Concluídas"><svg><use href="#i-filter"/></svg></button><button class="dock-button yellow" id="focus-button" aria-label="Abrir timer de foco" data-tooltip="Modo foco"><svg><use href="#i-focus"/></svg></button><button class="dock-button pink" id="saved-button" aria-label="Mostrar atividades salvas" aria-pressed="false" data-tooltip="Salvas"><svg><use href="#i-bookmark"/></svg></button><span class="dock-divider"></span><button class="dock-button dark" id="add-button" aria-label="Adicionar atividade" data-tooltip="Nova atividade"><svg><use href="#i-plus"/></svg></button></div><div class="profile-wrapper"><button class="profile" id="profile-button" aria-expanded="false" aria-controls="profile-menu"><span class="avatar">I</span><span class="profile-text"><strong>Ítalo</strong><span>Um passo de cada vez</span></span><svg><use href="#i-chevron"/></svg></button><div id="profile-menu" class="profile-menu" hidden><strong>Seu espaço de estudos</strong><p>Todos os dados são demonstrativos.</p><button id="reset-demo">Restaurar demonstração</button></div></div></div>
+      </div>
+    </aside>
 
     <div class="app-body">
       <main id="main" tabindex="-1">
         <section class="plan-page" id="plan-page" aria-labelledby="page-title">
-          <div class="page-heading"><div><div class="eyebrow">UM POUCO MELHOR, TODOS OS DIAS</div><h1 id="page-title">Meu plano de estudos <span class="title-emoji" aria-hidden="true">📚</span></h1></div><label class="search"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="Buscar assunto" aria-label="Buscar assunto"><kbd>/</kbd></label></div>
+          <div class="page-heading"><div><div class="eyebrow">UM POUCO MELHOR, TODOS OS DIAS</div><h1 id="page-title">Meus estudos</h1></div><div class="heading-tools"><button type="button" class="create-soon" id="create-soon" aria-disabled="true" aria-describedby="create-soon-tip"><span class="create-soon-icon"><svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-Plus"/></svg></span><span class="create-soon-label">Criar</span><span class="create-soon-tag">Em breve</span><span class="create-soon-tip" id="create-soon-tip" role="tooltip">Em breve: criar listas, simulados e objetivos. Ainda indisponível neste protótipo.</span></button><label class="search"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="Buscar assunto" aria-label="Buscar assunto"><kbd>/</kbd></label></div></div>
           <div class="canvas-shell">
-            <aside class="canvas-tools" aria-label="Visualização do plano"><div class="view-switch"><button class="icon-button selected" data-view="map" aria-label="Visualizar trilha" aria-pressed="true" data-tooltip="Trilha"><svg><use href="#i-route"/></svg></button><button class="icon-button" data-view="list" aria-label="Visualizar lista" aria-pressed="false" data-tooltip="Lista"><svg><use href="#i-list"/></svg></button><button class="icon-button" data-view="grid" aria-label="Visualizar grade" aria-pressed="false" data-tooltip="Grade"><svg><use href="#i-grid"/></svg></button></div><div class="canvas-bottom-tools"><button class="icon-button notification-button" id="notifications" aria-label="Ver atividades da semana"><svg><use href="#i-bell"/></svg><span>3</span></button><div class="zoom-controls"><button class="icon-button" id="zoom-in" aria-label="Aumentar visualização"><svg><use href="#i-plus"/></svg></button><button class="icon-button" id="zoom-out" aria-label="Diminuir visualização"><svg><use href="#i-minus"/></svg></button></div></div></aside>
+            <aside class="canvas-tools" aria-label="Visualização do plano"><div class="view-switch"><button class="icon-button selected" data-view="map" aria-label="Visualizar trilha" aria-pressed="true" data-tooltip="Trilha"><svg><use href="#i-route"/></svg></button><button class="icon-button" data-view="list" aria-label="Visualizar lista" aria-pressed="false" data-tooltip="Lista"><svg><use href="#i-list"/></svg></button><button class="icon-button" data-view="grid" aria-label="Visualizar grade" aria-pressed="false" data-tooltip="Grade"><svg><use href="#i-grid"/></svg></button></div><div class="canvas-bottom-tools"><button class="icon-button notification-button" id="notifications" aria-label="Ir para Minhas notas"><svg><use href="#i-bell"/></svg><span>3</span></button><div class="zoom-controls"><button class="icon-button" id="zoom-in" aria-label="Aumentar visualização"><svg><use href="#i-plus"/></svg></button><button class="icon-button" id="zoom-out" aria-label="Diminuir visualização"><svg><use href="#i-minus"/></svg></button></div></div></aside>
             <div class="learning-canvas" id="learning-canvas">
-              <svg class="connections" viewBox="0 0 720 630" preserveAspectRatio="none" aria-hidden="true"><path d="M323 108H341Q354 108 354 123V504Q354 520 371 520H390M323 336H341Q354 336 354 320M323 561H341Q354 561 354 546V245Q354 231 371 231H390"/><g><circle cx="323" cy="108" r="3.2"/><circle cx="323" cy="336" r="3.2"/><circle cx="323" cy="561" r="3.2"/><circle cx="390" cy="231" r="3.2"/><circle cx="390" cy="520" r="3.2"/></g></svg>
-              <div class="stats" aria-label="Resumo do plano"><div class="stat stat-blue"><strong id="total-count">5</strong><span>Atividades</span></div><div class="stat stat-green"><span class="confetti" aria-hidden="true">🎉</span><strong id="done-count">2</strong><span>Concluídas</span></div><div class="stat stat-outline"><strong id="upcoming-count">3</strong><span>Próximas</span></div></div>
+              <svg class="connections" aria-hidden="true"></svg>
+              <div class="stats" aria-label="Resumo dos estudos"><div class="stat stat-blue"><strong id="total-count">0</strong><span>Atividades</span></div><div class="stat stat-green"><strong id="done-count">0</strong><span>Concluídas</span></div><div class="stat stat-outline"><strong id="upcoming-count">0</strong><span>Pendentes</span></div></div>
               <div id="activities" class="activities"></div>
               <div id="empty-state" class="empty-state" hidden><svg><use href="#i-search"/></svg><h2>Nenhum assunto por aqui</h2><p>Experimente outra palavra ou limpe os filtros.</p><button class="small-button" id="clear-search">Limpar busca</button></div>
             </div>
           </div>
-          <div class="canvas-caption"><span><span class="status-dot"></span> Seu ritmo. Seu caminho.</span><span>Protótipo visual · Dados demonstrativos</span></div>
+          <div class="canvas-caption"><span><span class="status-dot"></span> Seu ritmo. Seu caminho.</span><span>Dados demonstrativos</span></div>
         </section>
         <section id="secondary-page" class="secondary-page" hidden></section>
       </main>
 
-      <aside class="week-panel" aria-labelledby="week-title"><div class="week-heading"><div class="eyebrow">ESPAÇO PARA O QUE IMPORTA</div><h2 id="week-title">Minha semana <span aria-hidden="true">🗓️</span></h2><p>Pequenos passos, grandes descobertas.</p></div><div class="week-tabs"><span>09 — 15 NOV</span><span class="week-current">Esta semana</span></div>
-        <button class="event-card event-cyan" data-event="0"><span class="event-meta"><span><svg><use href="#i-target"/></svg>Prática</span><span>Seg, 09</span></span><strong>Uma dose de Matemática</strong><span class="event-description">Funções, gráficos e aquele<br>empurrãozinho que faltava.</span><span class="event-time"><svg><use href="#i-clock"/></svg>20 minutos só para você<svg class="event-arrow"><use href="#i-arrow"/></svg></span></button>
-        <button class="event-card event-lilac" data-event="1"><span class="event-meta"><span><svg><use href="#i-book"/></svg>Revisão</span><span>Ter, 10</span></span><strong>Errar também é aprender.</strong><span class="event-description">Revisite suas últimas questões<br>e conecte os pontos.</span><span class="event-link">Rever questões<svg><use href="#i-arrow"/></svg></span></button>
-        <button class="event-card event-yellow" data-event="2"><span class="event-meta"><span><svg><use href="#i-clipboard"/></svg>Simulado</span><span>Qua, 11</span></span><strong>Pronto para um novo desafio?</strong><span class="event-description">10 questões de Natureza.<br>Um treino no seu tempo.</span><span class="event-link">Ver simulado<svg><use href="#i-arrow"/></svg></span></button>
-        <div class="note-slot"><button class="sticky-note" id="note-button" aria-label="Editar lembrete pessoal"><span class="note-top"><svg><use href="#i-pin"/></svg> LEMBRETE PARA MIM <span>↗</span></span><span id="note-content">Você não precisa saber tudo.<br>Só precisa começar.</span><span class="note-scribble" aria-hidden="true">✳</span></button></div>
-      </aside>
+      <aside class="notes-panel" id="notes-panel" aria-labelledby="notes-title"></aside>
     </div>
-    <div class="floating-dock" aria-label="Ferramentas do plano"><button class="dock-button lavender" id="dock-map" aria-label="Voltar à trilha" data-tooltip="Minha trilha"><svg><use href="#i-grid"/></svg></button><button class="dock-button cyan" id="filter-button" aria-label="Mostrar apenas atividades pendentes" aria-pressed="false" data-tooltip="Pendentes"><svg><use href="#i-filter"/></svg></button><button class="dock-button yellow" id="focus-button" aria-label="Abrir timer de foco" data-tooltip="Modo foco"><svg><use href="#i-focus"/></svg></button><button class="dock-button pink" id="saved-button" aria-label="Mostrar atividades salvas" aria-pressed="false" data-tooltip="Salvas"><svg><use href="#i-bookmark"/></svg></button><span class="dock-divider"></span><button class="dock-button dark" id="add-button" aria-label="Adicionar atividade" data-tooltip="Nova atividade"><svg><use href="#i-plus"/></svg></button></div>
   </div>
-  <footer class="outside-footer"><span>Feito para aprender. No seu tempo.</span><span>CONCEITO 01 <span class="footer-dot">•</span> CANVAS DE ESTUDOS</span></footer>
+  <footer class="outside-footer"><span>Feito para aprender. No seu tempo.</span><span>GABARITEI <span class="footer-dot">•</span> PLANO DE ESTUDOS</span></footer>
 
   <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div><button class="dialog-close icon-button" id="close-dialog" aria-label="Fechar janela"><svg><use href="#i-x"/></svg></button></dialog>
   <div class="toast" role="status" aria-live="polite" id="toast"></div>

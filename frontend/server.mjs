@@ -14,4 +14,4 @@ createServer(async (req, res) => {
     res.writeHead(200, { 'Content-Type': types[extname(path)] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
     res.end(body);
   } catch { res.writeHead(404).end('Arquivo não encontrado'); }
-}).listen(4173, '127.0.0.1', () => console.log('Gabaritei · Protótipo visual\nLocal: http://127.0.0.1:4173'));
+}).listen(4173, '127.0.0.1', () => console.log('Gabaritei\nLocal: http://127.0.0.1:4173'));

@@ -1,4 +1,10 @@
 import * as E from './assets/learning-engine.js';
+import { createPracticeScreen } from './practice-screen.js';
+import { createHistoryPage } from './history-page.js';
+import { createConfigStudio } from './config-studio.js';
+import { createExamScreen } from './exam-screen.js';
+import { hi } from './legacy-ui.js';
+import { pageEnter } from './motion-kit.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pct = value => `${Math.round((value || 0) * 100)}%`;
@@ -7,14 +13,19 @@ const duration = ms => { const m = Math.floor(ms / 60000); return m >= 60 ? `${M
 const shortTime = ms => { const s = Math.round(ms / 1000); return `${Math.floor(s / 60)}min ${String(s % 60).padStart(2, '0')}s`; };
 const clockText = ms => { const s = Math.floor(ms / 1000); return `${String(Math.floor(s / 60)).padStart(2,'0')}:${String(s % 60).padStart(2,'0')}`; };
 const areaOrder = ['linguagens','natureza','humanas','matematica'];
-const colors = {linguagens:'#9d2f40',natureza:'#226b47',humanas:'#914315',matematica:'#2856b6'};
-const storageKey = 'gabaritei:canvas-learning:v1';
+const colors = {linguagens:'#be471c',natureza:'#39a250',humanas:'#e4b324',matematica:'#3e5ac6'};
+const inks = {linguagens:'#983d1a',natureza:'#2c703a',humanas:'#7b651c',matematica:'#364ea6'};
+const SUBJECT_ICON = {portugues:'pen',literatura:'book',ingles:'languages',espanhol:'languages',artes:'palette',historia:'scroll',geografia:'globe',filosofia:'brain',sociologia:'users',fisica:'atom',quimica:'flask',biologia:'leaf',matematica:'sigma'};
+globalThis.__gabaritei = { E };
+const storageKey = 'gabaritei:estudos:v1';
+/** Chave usada antes da renomeação; lida só para não perder o progresso já salvo. */
+const oldStorageKey = 'gabaritei:canvas-learning:v1';
 
-export function createLearningPages({ root, openDialog, closeDialog, toast, navigate, icons }) {
+export function createLearningPages({ root, openDialog, closeDialog, toast, navigate, icons, onChange = () => {}, saveToNotes = () => {} }) {
   const $ = (s, parent = root) => parent.querySelector(s);
   const $$ = (s, parent = root) => [...parent.querySelectorAll(s)];
   let account;
-  try { const saved = JSON.parse(localStorage.getItem(storageKey)); if (saved && Array.isArray(saved.practiceSessions) && Array.isArray(saved.simulations) && Array.isArray(saved.goals) && saved.onboarding && saved.study && saved.profile) account = saved; } catch { /* Funciona sem armazenamento. */ }
+  try { const saved = JSON.parse(localStorage.getItem(storageKey) ?? localStorage.getItem(oldStorageKey)); if (saved && Array.isArray(saved.practiceSessions) && Array.isArray(saved.simulations) && Array.isArray(saved.goals) && saved.onboarding && saved.study && saved.profile) account = saved; } catch { /* Funciona sem armazenamento. */ }
   if (!account) { account = E.createDemoAccount(Date.now()); account.profile.name = 'Ítalo'; account.profile.nickname = 'Ítalo'; }
   account.practiceSessions = account.practiceSessions.map(s => s.status === 'in_progress' ? E.practice.pause(E.practice.recover(s,Date.now()),Date.now()) : s);
   let memoryNotice = false;
@@ -23,9 +34,6 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const settings = { tab:'montar', subjectId:null, topicIds:[], subtopicIds:[], years:[], count:account.study.defaultQuestionCount, timer:account.study.practiceTimer, expanded:null, area:null, aiCount:account.study.defaultQuestionCount };
   const performance = { period:'day', subjectView:'barras' };
   let page = 'questoes';
-  let session = null;
-  let tick = null;
-  let heartbeat = 0;
   const filter = () => ({subjectId:settings.subjectId,topicIds:[...settings.topicIds],subtopicIds:[...settings.subtopicIds],years:[...settings.years],count:settings.count});
   const subject = () => E.SUBJECT_BY_ID[settings.subjectId];
   const activeArea = () => subject()?.areaId || settings.area;
@@ -34,104 +42,131 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const panel = (title, subtitle, content, cls='', action='') => `<section class="studio-panel ${cls}"><header class="studio-panel-heading"><div><h2>${title}</h2>${subtitle?`<p>${subtitle}</p>`:''}</div>${action}</header>${content}</section>`;
   const bar = (value, color, label='') => `<div class="studio-progress" role="progressbar" aria-label="${esc(label)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(value*100)}"><span style="width:${Math.max(0,Math.min(1,value))*100}%;background:${color}"></span></div>`;
   function pageHeader(eyebrow,title,description,actions='') { return `<header class="studio-header"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1><p>${description}</p></div>${actions?`<div class="studio-header-actions">${actions}</div>`:''}</header>`; }
-  const notice = () => `<div class="studio-demo-tag">${icons('spark')} Acervo autoral demonstrativo · Histórico simulado + suas práticas neste protótipo</div>`;
+  const notice = () => `<div class="studio-demo-tag">${icons('spark')} Acervo autoral demonstrativo · Histórico simulado + suas práticas</div>`;
 
-  function mount(nextPage) { page = nextPage; root.dataset.learning = nextPage; root.classList.add('learning-page'); if (page === 'questoes') renderPractice(); else renderPerformance(); }
+  function mount(nextPage, { enter = true } = {}) {
+    page = nextPage; root.dataset.learning = nextPage; root.classList.add('learning-page');
+    root.classList.toggle('legacy-ui', page !== 'progresso');
+    if (page === 'questoes') studio.mount('practice');
+    else if (page === 'simulado-personalizado') studio.mount('simulation');
+    else if (page === 'historico') history.render();
+    else renderPerformance();
+  }
   function preserveRender(renderFn) { const focused = document.activeElement?.getAttribute('data-focus'); renderFn(); if (focused) $$('[data-focus]').find(el=>el.dataset.focus===focused)?.focus({preventScroll:true}); }
 
-  function areaSelectors() {
-    return `<div class="area-grid practice-area-grid">${areaOrder.map((key,index)=>{const a=E.AREA_BY_ID[key]; const title=a.name.replace(' e suas Tecnologias','');return `<button class="area-card area-${key} ${activeArea()===key?'area-selected':''}" data-select-area="${key}" aria-pressed="${activeArea()===key}" aria-label="Selecionar ${esc(a.name)}"><span class="area-number">${String(index+1).padStart(2,'0')}</span><span class="area-copy"><h3><span class="area-title">${esc(title)}</span><span class="area-suffix">e suas Tecnologias</span></h3><span class="area-cta">${activeArea()===key?'Área selecionada':'Escolher área'} ${icons(activeArea()===key?'check':'arrow')}</span></span><img class="area-art" src="assets/area-${key}.svg" alt="" width="180" height="190"></button>`;}).join('')}</div>`;
-  }
-  function renderPractice() {
-    const rs = records();
-    const recommendations = recs();
-    const last = account.practiceSessions.filter(s=>s.status==='in_progress').sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt))[0];
-    root.innerHTML = `<div class="learning-shell">${pageHeader('PRÁTICA · DO SEU JEITO','Monte sua lista de questões','Escolha matéria, assuntos e quantidade — ou deixe as recomendações ajudarem você.',`<span class="catalog-badge">${icons('layers')} ${E.questionRepository.all().length} questões autorais</span>`)}
-      <div class="studio-tabs" role="tablist" aria-label="Modo de prática">${[{id:'montar',name:'Montar lista',icon:'list'},{id:'recomendadas',name:'Recomendadas',icon:'spark'},{id:'ia',name:'IA escolhe por mim',icon:'target'}].map(t=>`<button id="tab-${t.id}" role="tab" aria-controls="practice-tab-panel" aria-selected="${settings.tab===t.id}" tabindex="${settings.tab===t.id?0:-1}" data-tab="${t.id}">${icons(t.icon)}${t.name}${t.id==='recomendadas'?`<span>${recommendations.length}</span>`:''}</button>`).join('')}</div>
-      ${last?`<div class="resume-banner"><span class="resume-symbol">${icons('clock')}</span><div><strong>Seu estudo continua aqui.</strong><span>${esc(last.title)} · ${Object.values(last.answers).filter(a=>a.confirmed).length}/${last.questionIds.length} respondidas</span></div><button class="small-button" data-resume="${esc(last.id)}">Continuar lista ${icons('arrow')}</button></div>`:''}
-      <div id="practice-tab-panel" role="tabpanel" aria-labelledby="tab-${settings.tab}">${settings.tab==='montar'?customForm(rs):settings.tab==='recomendadas'?recommendationCards(recommendations):automaticForm(rs)}</div>${notice()}</div>`;
-    bindPractice();
-  }
-  function customForm(rs) {
-    const current = subject();
-    const pool = E.availableForFilters(filter());
-    const finalCount = Math.min(settings.count,pool.length);
-    const summary = new Map(E.topicStats(rs).map(t=>[t.topicId,t]));
-    const weak = E.rankTopics(rs).weakest.slice(0,5);
-    const subjectGroups = areaOrder.filter(id=>!activeArea()||activeArea()===id).map(id=>`<div class="subject-group"><h3><span class="area-color-dot" style="background:${colors[id]}"></span>${esc(E.AREA_BY_ID[id].name)}</h3><div class="subject-options">${E.subjectsOfArea(id).map(s=>`<button data-subject="${s.id}" aria-pressed="${settings.subjectId===s.id}" data-focus="subject-${s.id}" class="subject-option ${settings.subjectId===s.id?'selected':''}" style="--choice-color:${colors[id]}">${icons(s.id==='matematica'?'calculator':id==='natureza'?'leaf':'book')}${esc(s.name)}<span>${E.questionRepository.query({subjectId:s.id}).length}</span></button>`).join('')}</div></div>`).join('');
-    const topics = !current ? `<div class="topic-empty">${icons('layers')}<div><strong>Primeiro, escolha uma matéria.</strong><p>Ou comece por um dos seus pontos de atenção:</p><div class="weak-topic-chips">${weak.map(t=>`<button data-set-topic="${t.topicId}">${esc(t.name)} <strong>${pct(t.accuracy)}</strong></button>`).join('')||'<span>Pratique para descobrir os assuntos que precisam de revisão.</span>'}</div></div></div>` : `<div class="topics-list">${current.topics.map(t=>{const selected=settings.topicIds.includes(t.id);const stat=summary.get(t.id);const count=E.questionRepository.query({topicIds:[t.id]}).length;return `<div class="topic-row"><div class="topic-row-main"><label><input type="checkbox" data-topic="${t.id}" data-focus="topic-${t.id}" ${selected?'checked':''}><span>${esc(t.name)}</span></label>${stat&&stat.answered>=4&&stat.smoothed<.55?'<span class="attention-tag">Ponto de atenção</span>':''}<span class="topic-stat">${count} questões${stat?` · ${pct(stat.accuracy)} de acerto`:''}</span>${t.subtopics.length>1?`<button class="icon-button ${settings.expanded===t.id?'expanded':''}" data-expand="${t.id}" data-focus="expand-${t.id}" aria-expanded="${settings.expanded===t.id}" aria-label="${settings.expanded===t.id?'Ocultar':'Mostrar'} subtópicos de ${esc(t.name)}">${icons('chevron')}</button>`:''}</div>${settings.expanded===t.id?`<div class="subtopic-options">${t.subtopics.map(sub=>`<label class="subtopic-chip"><input type="checkbox" data-subtopic="${sub.id}" data-focus="sub-${sub.id}" data-parent-topic="${t.id}" ${settings.subtopicIds.includes(sub.id)?'checked':''}><span>${esc(sub.name)}</span></label>`).join('')}</div>`:''}</div>`;}).join('')}</div>`;
-    return `<div class="practice-layout"><div class="practice-main">
-      ${panel('1. Matéria','Escolha sua área e uma matéria. Sem seleção, a lista mistura todas.',`${areaSelectors()}<div class="subject-picker">${subjectGroups}<button class="text-button" id="all-subjects">${icons('layers')} Misturar todas as matérias</button></div>`)}
-      ${panel('2. Assuntos e subtópicos',current?`Selecione os assuntos de ${esc(current.name)}. Sem marcação, todos entram.`:'Mais foco no que você quer aprender.',topics)}
-      ${panel('3. Quantidade e ano de referência','Ajuste sua prática ao tempo que você tem hoje.',`<div class="quantity-and-years"><div><h3>Quantas questões?</h3>${segmented('count',settings.count,E.PRACTICE_COUNTS.map(n=>({value:n,label:String(n)})),'Quantidade de questões')}<p class="field-hint">De 5 a 30 questões por lista.</p></div><div><h3>Anos de referência</h3><div class="year-options">${E.REFERENCE_YEARS.map(y=>`<button data-year="${y}" data-focus="year-${y}" aria-pressed="${settings.years.includes(y)}">${y}</button>`).join('')}</div><p class="field-hint">São etiquetas do acervo fictício, não provas oficiais. Sem seleção, todos os anos.</p></div></div>`)}
-      </div><aside class="list-summary"><div class="summary-topline">SUA PRÓXIMA DESCOBERTA ${icons('spark')}</div><div class="summary-count"><strong>${finalCount}</strong><span>questões</span></div><dl><div><dt>Matéria</dt><dd>${esc(current?.name||'Todas as matérias')}</dd></div><div><dt>Assuntos</dt><dd>${settings.topicIds.length?settings.topicIds.map(id=>esc(E.TOPIC_BY_ID[id]?.name)).join(', '):'Todos'}</dd></div>${settings.subtopicIds.length?`<div><dt>Subtópicos</dt><dd>${settings.subtopicIds.length} selecionados</dd></div>`:''}<div><dt>Anos</dt><dd>${settings.years.length?[...settings.years].sort((a,b)=>b-a).join(', '):'Todos'}</dd></div><div><dt>Disponíveis</dt><dd>${pool.length} no acervo</dd></div></dl>${pool.length<settings.count?`<p class="availability-warning">${!pool.length?'Nenhuma questão com esses filtros. Remova um filtro para continuar.':`Encontramos ${pool.length} questões. Sua lista terá essa quantidade.`}</p>`:''}<label class="timer-toggle"><span><strong>Cronômetro visível</strong><small>Você pode ocultá-lo durante a prática.</small></span><input type="checkbox" role="switch" id="practice-timer" ${settings.timer?'checked':''}></label><button class="primary-button summary-start" id="start-custom" ${!finalCount?'disabled':''}>Começar lista ${icons('arrow')}</button><p>Sem pressa. Um passo de cada vez.</p></aside></div>`;
-  }
-  function recommendationCards(list) {
-    return `<div class="recommendation-grid">${list.map(rec=>`<article class="recommendation-card" style="--rec-color:${colors[rec.areaId]}"><div class="recommendation-top"><span class="recommendation-symbol">${icons(rec.areaId==='natureza'?'leaf':rec.areaId==='matematica'?'calculator':'book')}</span><span class="recommendation-kind">${esc(E.RECOMMENDATION_LABEL[rec.kind])}</span></div><span class="recommendation-subject">${esc(rec.subjectName)}</span><h2>${esc(rec.topicName)}</h2><p>${esc(rec.reason)}</p>${rec.accuracy!==null?`<div class="rec-accuracy"><span>Seu acerto <strong>${pct(rec.accuracy)}</strong></span>${bar(rec.accuracy,colors[rec.areaId],`Acerto em ${rec.topicName}`)}</div>`:''}<div class="recommendation-footer"><span>${rec.available} disponíveis</span><button data-start-topic="${rec.topicId}">Praticar ${Math.min(settings.count,rec.available)} ${icons('arrow')}</button></div></article>`).join('')}</div><div class="method-note">${icons('spark')} Recomendações por regras locais: desempenho por assunto, dificuldades declaradas e tempo desde a última revisão. Sem serviço externo de IA.</div>`;
-  }
-  function automaticForm(rs) {
-    const preview=E.buildAutoSelection(account,rs,settings.aiCount,Date.now(),'preview');
-    return `<div class="automatic-layout"><section class="automatic-hero"><span class="auto-icon">${icons('spark')}</span><div class="eyebrow">MENOS DECISÕES, MAIS DESCOBERTAS</div><h2>Deixe a seleção<br>com a gente.</h2><p>Equilibramos seus pontos de atenção, as matérias que você marcou como difíceis e os assuntos que precisam de revisão.</p><h3>Quantas questões?</h3>${segmented('ai-count',settings.aiCount,E.PRACTICE_COUNTS.map(n=>({value:n,label:String(n)})),'Quantidade da seleção automática')}<button class="primary-button" id="start-auto">Gerar e começar ${icons('arrow')}</button><small>Demonstração local: seleção baseada em regras no navegador, sem modelos de IA ou serviços externos.</small></section>${panel('Como a lista seria composta',esc(preview.summary),`<div class="automatic-topics">${preview.topics.map(t=>{const n=preview.questionIds.filter(id=>E.questionRepository.getById(id)?.topicId===t.topicId).length;return `<div><div class="automatic-topic-label"><strong>${esc(t.topicName)}</strong><span>${n} q.</span></div><p>${esc(t.subjectName)}</p>${bar(n/Math.max(1,preview.questionIds.length),colors[t.areaId],`Participação de ${t.topicName}`)}<small>${esc(E.RECOMMENDATION_LABEL[t.kind])}</small></div>`;}).join('')}</div><div class="field-hint">${icons('clock')} Prioriza questões inéditas e, depois, questões que você errou.</div>`,'automatic-preview')}</div>`;
-  }
-  function setSubject(id) { settings.subjectId = id; settings.area = E.SUBJECT_BY_ID[id]?.areaId || null; settings.topicIds=[]; settings.subtopicIds=[]; settings.expanded=null; }
-  function bindPractice() {
-    $$('[data-tab]').forEach(b=>{b.onclick=()=>{settings.tab=b.dataset.tab;renderPractice();$(`#tab-${settings.tab}`).focus({preventScroll:true});};b.onkeydown=event=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;event.preventDefault();const ids=['montar','recomendadas','ia'];let i=ids.indexOf(settings.tab);i=event.key==='Home'?0:event.key==='End'?2:(i+(event.key==='ArrowRight'?1:2))%3;settings.tab=ids[i];renderPractice();$(`#tab-${settings.tab}`).focus({preventScroll:true});};});
-    $$('[data-select-area]').forEach(b=>b.onclick=()=>{setSubject(E.subjectsOfArea(b.dataset.selectArea)[0].id);renderPractice();});
-    $$('[data-subject]').forEach(b=>b.onclick=()=>{setSubject(settings.subjectId===b.dataset.subject?null:b.dataset.subject);preserveRender(renderPractice);});
-    $('#all-subjects')?.addEventListener('click',()=>{setSubject(null);renderPractice();});
-    $$('[data-topic]').forEach(input=>input.onchange=()=>{const id=input.dataset.topic;settings.topicIds=input.checked?[...settings.topicIds,id]:settings.topicIds.filter(t=>t!==id);if(!input.checked)settings.subtopicIds=settings.subtopicIds.filter(s=>!s.startsWith(`${id}.`));preserveRender(renderPractice);});
-    $$('[data-expand]').forEach(b=>b.onclick=()=>{settings.expanded=settings.expanded===b.dataset.expand?null:b.dataset.expand;preserveRender(renderPractice);});
-    $$('[data-subtopic]').forEach(input=>input.onchange=()=>{const id=input.dataset.subtopic;settings.subtopicIds=input.checked?[...settings.subtopicIds,id]:settings.subtopicIds.filter(s=>s!==id);if(input.checked&&!settings.topicIds.includes(input.dataset.parentTopic))settings.topicIds.push(input.dataset.parentTopic);preserveRender(renderPractice);});
-    $$('[data-count]').forEach(b=>b.onclick=()=>{settings.count=Number(b.dataset.count);renderPractice();});
-    $$('[data-ai-count]').forEach(b=>b.onclick=()=>{settings.aiCount=Number(b.dataset.aiCount);renderPractice();});
-    $$('[data-year]').forEach(b=>b.onclick=()=>{const y=Number(b.dataset.year);settings.years=settings.years.includes(y)?settings.years.filter(n=>n!==y):[...settings.years,y];preserveRender(renderPractice);});
-    $('#practice-timer')?.addEventListener('change',event=>{settings.timer=event.target.checked;account.study.practiceTimer=settings.timer;save();});
-    $$('[data-set-topic]').forEach(b=>b.onclick=()=>{const t=E.TOPIC_BY_ID[b.dataset.setTopic];setSubject(t.subjectId);settings.topicIds=[t.id];settings.expanded=t.id;renderPractice();});
-    $$('[data-start-topic]').forEach(b=>b.onclick=()=>startTopic(b.dataset.startTopic));
-    $$('[data-resume]').forEach(b=>b.onclick=()=>openSession(account.practiceSessions.find(s=>s.id===b.dataset.resume)));
-    $('#start-custom')?.addEventListener('click',()=>{const f=filter();const ids=E.selectPracticeQuestions({...f,count:Math.min(f.count,E.availableForFilters(f).length)},records(),Date.now(),account.onboarding.level);const names=settings.topicIds.map(id=>E.TOPIC_BY_ID[id]?.name);beginList(names.length===1?names[0]:subject()?.name||'Lista personalizada',ids,'custom',f);});
-    $('#start-auto')?.addEventListener('click',()=>{const selection=E.buildAutoSelection(account,records(),settings.aiCount,Date.now(),Date.now());beginList('Seleção automática',selection.questionIds,'auto',{...E.EMPTY_FILTERS,count:selection.questionIds.length});});
-  }
-  function startTopic(id) { const t=E.TOPIC_BY_ID[id];if(!t)return;const f={...E.EMPTY_FILTERS,subjectId:t.subjectId,topicIds:[id],count:settings.count};const ids=E.selectPracticeQuestions(f,records(),Date.now(),account.onboarding.level);beginList(t.name,ids,'recommended',f); }
-  function beginList(title,ids,mode,filters) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return;}const created=E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:settings.timer,now:Date.now()});account.practiceSessions.push(created);save();openSession(created); }
+  function startTopic(id) { const t=E.TOPIC_BY_ID[id];if(!t)return;const f={...E.EMPTY_FILTERS,subjectId:t.subjectId,topicIds:[id],count:account.study.defaultQuestionCount};const ids=E.selectPracticeQuestions(f,records(),Date.now(),account.onboarding.level);beginList(t.name,ids,'recommended',f); }
+  function beginList(title,ids,mode,filters,onComplete) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return null;}const created=E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:account.study.practiceTimer,now:Date.now()});account.practiceSessions.push(created);save();openSession(created,{onComplete});return created; }
 
-  function updateSession(next) { session=next;const i=account.practiceSessions.findIndex(s=>s.id===next.id);if(i>=0)account.practiceSessions[i]=next;save(); }
-  function openSession(value) { if(!value)return;session=E.practice.resume(value,Date.now());updateSession(session);openDialog(sessionHTML());document.querySelector('#dialog').classList.add('practice-dialog');bindSession();clearInterval(tick);heartbeat=0;tick=setInterval(()=>{const el=document.querySelector('#session-clock');if(session?.status==='in_progress'){if(el)el.textContent=clockText(E.clockElapsed(session.clock,Date.now()));if(++heartbeat%15===0)updateSession(E.practice.heartbeat(session,Date.now()));}},1000); }
-  function paintSession() { const el=document.querySelector('#dialog-content');el.innerHTML=sessionHTML();bindSession(); }
-  function sessionHTML() {
-    const q=E.questionRepository.getById(session.questionIds[session.currentIndex]);
-    const answer=session.answers[q.id];
-    const answered=Object.values(session.answers).filter(a=>a.confirmed).length;
-    const paused=session.clock.runningSince===null;
-    return `<div class="session-header"><span class="dialog-label">QUESTÃO DEMONSTRATIVA · ${esc(E.SUBJECT_BY_ID[q.subjectId].name)}</span><span class="session-index">${session.currentIndex+1} / ${session.questionIds.length}</span></div><h2 id="dialog-title" class="dialog-title">${esc(session.title)}</h2><div class="session-toolbar"><button class="small-button" id="pause-session">${icons('clock')}${paused?'Continuar':'Pausar'}</button><button class="text-button" id="session-timer-toggle">${session.timerVisible?'Ocultar tempo':'Mostrar tempo'}</button>${session.timerVisible?`<span id="session-clock">${clockText(E.clockElapsed(session.clock,Date.now()))}</span>`:''}<span class="session-area" style="color:${colors[q.areaId]}">${esc(E.AREA_BY_ID[q.areaId].shortName)}</span></div>
-      ${bar(answered/session.questionIds.length,colors[q.areaId],'Progresso da lista')}
-      ${paused?`<div class="session-paused">${icons('focus')}<h3>Uma pausa também faz parte.</h3><p>O cronômetro está parado. Retome quando estiver pronto.</p><button class="primary-button" id="unpause-session">Continuar minha prática</button></div>`:`<div class="session-question">${q.support?`<div class="question-support">${q.support.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}${q.support.credit?`<small>${esc(q.support.credit)}</small>`:''}</div>`:''}${q.image?`<figure class="question-figure"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}">${q.image.caption?`<figcaption>${esc(q.image.caption)}</figcaption>`:''}</figure>`:''}<p class="question-text">${esc(q.prompt)}</p><div class="answer-list">${q.alternatives.map(a=>`<button class="answer ${answer.selected===a.letter?'selected':''} ${answer.confirmed&&a.letter===q.correct?'correct':''} ${answer.confirmed&&answer.selected===a.letter&&!answer.correct?'incorrect':''}" data-letter="${a.letter}" aria-pressed="${answer.selected===a.letter}" ${answer.confirmed?'disabled':''}><span>${a.letter}</span>${esc(a.text)}</button>`).join('')}</div>${answer.confirmed?`<div class="answer-feedback" role="status"><strong>${answer.correct?'Muito bem! Você conectou os pontos.':'Vamos entender esse caminho?'}</strong><p>${esc(q.explanation)}</p></div>`:''}</div>`}
-      <div class="session-nav"><button class="small-button" id="session-prev" ${session.currentIndex===0?'disabled':''}>Anterior</button><span>${answered} respondidas</span>${!answer.confirmed&&!paused?`<button class="primary-button" id="session-confirm" ${!answer.selected?'disabled':''}>Confirmar ${icons('check')}</button>`:`<button class="primary-button" id="session-next" ${paused?'disabled':''}>${session.currentIndex===session.questionIds.length-1?'Ver resultado':'Próxima'} ${icons('arrow')}</button>`}</div><div class="session-bottom"><button class="text-button" id="session-skip" ${paused?'disabled':''}>Pular questão</button><button class="text-button" id="session-finish">Encerrar lista</button></div>`;
+  const studio = createConfigStudio({
+    E, root, account: () => account, records, save, toast, saveToNotes,
+    onStartPractice: (title, ids, mode, filters) => beginList(title, ids, mode, filters),
+    onStartSimulation: input => startSimulation(input),
+    onBack: () => navigate('simulados'),
+  });
+  const practiceScreen = createPracticeScreen({
+    E, icons, toast, save,
+    getAccount: () => account,
+    onExit: () => { if (!root.hidden && ['questoes', 'progresso', 'historico'].includes(page)) mount(page, { enter: false }); onChange(); },
+    onProgress: () => navigate('progresso'),
+    onNewList: () => navigate('questoes'),
+    onNewSimulation: () => navigate('simulados'),
+    onHome: () => navigate('plano'),
+    onHistory: () => navigate('historico'),
+    saveToNotes: (ref, el) => saveToNotes(ref, el),
+    reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.pickQuestions(E.questionRepository.query({ topicIds: [topicId] }), account.study.defaultQuestionCount, records(), E.createRng(E.freshSeed()), account.onboarding.level).map(q => q.id); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
+  });
+  /** Resultado de um simulado na mesma tela de resultado, só para leitura. */
+  function openSimulationResult(sim, options = {}) {
+    if (!sim) return;
+    const answers = {};
+    for (const id of sim.questionIds) {
+      const a = sim.answers[id];
+      const q = E.questionRepository.getById(id);
+      answers[id] = { questionId: id, selected: a?.selected ?? null, confirmed: !!a?.selected, correct: a?.selected ? a.selected === q?.correct : null, answeredAt: a?.answeredAt ?? null, timeSpentMs: a?.timeSpentMs ?? 0 };
+    }
+    const asList = { ...sim, kind: 'practice', mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: sim.questionIds.length }, timerVisible: true, currentIndex: 0, cursorElapsedMs: 0, answers };
+    practiceScreen.openResult(asList, { kicker: 'RESULTADO DO SIMULADO', review: options.review, simulation: sim });
   }
-  function bindSession() {
-    const dialog=document.querySelector('#dialog-content');
-    $$('[data-letter]',dialog).forEach(b=>b.onclick=()=>{updateSession(E.practice.select(session,b.dataset.letter,Date.now()));paintSession();});
-    $('#session-confirm',dialog)?.addEventListener('click',()=>{updateSession(E.practice.confirm(session,Date.now()));paintSession();});
-    $('#session-prev',dialog)?.addEventListener('click',()=>{updateSession(E.practice.goTo(session,session.currentIndex-1,Date.now()));paintSession();});
-    const advance=()=>{if(session.currentIndex===session.questionIds.length-1)finishSession();else{updateSession(E.practice.goTo(session,session.currentIndex+1,Date.now()));paintSession();}};
-    $('#session-next',dialog)?.addEventListener('click',advance);
-    $('#session-skip',dialog)?.addEventListener('click',advance);
-    $('#session-finish',dialog)?.addEventListener('click',()=>finishSession());
-    const togglePause=()=>{updateSession(session.clock.runningSince===null?E.practice.resume(session,Date.now()):E.practice.pause(session,Date.now()));paintSession();};
-    $('#pause-session',dialog)?.addEventListener('click',togglePause);
-    $('#unpause-session',dialog)?.addEventListener('click',togglePause);
-    $('#session-timer-toggle',dialog)?.addEventListener('click',()=>{updateSession(E.practice.setTimerVisible(session,!session.timerVisible));paintSession();});
+  const history = createHistoryPage({ E, root, icons, toast, save, records, navigate, beginList: (...args) => beginList(...args), openSession: (...args) => openSession(...args), openSimulationResult, openExam: sim => openExam(sim), saveToNotes, getAccount: () => account });
+
+  /* Simulados: prova sem correção imediata (exam-screen.js). */
+  const exam = createExamScreen({
+    E, hi, toast, save, getAccount: () => account,
+    onExit: () => { if (!root.hidden && ['historico', 'simulado-personalizado'].includes(page)) mount(page, { enter: false }); onChange(); },
+    onFinished: sim => { openSimulationResult(sim, { kicker: 'RESULTADO DO SIMULADO' }); onChange(); },
+  });
+  function openExam(sim) { if (sim) exam.open(sim); }
+  /** Cria um simulado com as questões escolhidas e abre a prova. */
+  function startSimulation({ title, questionIds, durationMs, timerHidden = false, criteria = 'balanced', edition = null }) {
+    if (!questionIds.length) { toast('Nenhuma questão disponível com essas opções.'); return null; }
+    const created = E.createSimulationFromQuestions({ title, questionIds, config: { durationMs, criteria, edition }, now: Date.now(), timerHidden });
+    account.simulations.push(created);
+    save();
+    exam.open(created);
+    return created;
   }
-  function finishSession(confirmed=false) {
-    const unanswered=Object.values(session.answers).filter(a=>!a.confirmed).length;
-    if(unanswered&&!confirmed){const el=document.querySelector('#dialog-content');el.innerHTML=`<span class="dialog-label">ANTES DE ENCERRAR</span><h2 id="dialog-title" class="dialog-title">Ainda há ${unanswered} ${unanswered===1?'questão sem resposta':'questões sem resposta'}.</h2><p class="dialog-description">Você pode continuar estudando ou encerrar a lista agora. As respostas já confirmadas permanecem no seu progresso.</p><div class="dialog-actions"><button class="primary-button" id="back-to-session">Continuar lista</button><button class="small-button" id="finish-anyway">Encerrar assim mesmo</button></div>`;$('#back-to-session',el).onclick=paintSession;$('#finish-anyway',el).onclick=()=>finishSession(true);return;}
-    updateSession(E.practice.finish(session,Date.now()));clearInterval(tick);tick=null;
-    const answered=Object.values(session.answers).filter(a=>a.confirmed);const correct=answered.filter(a=>a.correct).length;
-    const el=document.querySelector('#dialog-content');el.innerHTML=`<span class="dialog-label">MAIS UM PASSO NO SEU CAMINHO</span><h2 id="dialog-title" class="dialog-title">Sua prática, suas descobertas.</h2><p class="dialog-description">${esc(session.title)} · ${session.questionIds.length} questões autorais demonstrativas.</p><div class="session-results"><div><strong>${answered.length?pct(correct/answered.length):'—'}</strong><span>Acerto nas respondidas</span></div><div><strong>${correct}/${answered.length}</strong><span>Acertos / respondidas</span></div><div><strong>${session.questionIds.length-answered.length}</strong><span>Em branco</span></div></div><p class="dialog-description">Tempo de estudo: ${duration(E.clockElapsed(session.clock,Date.now()))}. Seus gráficos e metas já incluem as respostas desta lista.</p><div class="dialog-actions"><button class="primary-button" id="see-session-progress">Ver meu progresso ${icons('chart')}</button><button class="small-button" id="back-to-practice">Voltar para questões</button></div>`;
-    $('#see-session-progress',el).onclick=()=>{closeDialog();navigate('progresso');};$('#back-to-practice',el).onclick=()=>{closeDialog();navigate('questoes');};
+  /** Informações de um simulado (para cards, notas e menu lateral). */
+  function simulationInfo(id) {
+    const s = account.simulations.find(x => x.id === id);
+    if (!s) return null;
+    return { id: s.id, title: s.title, status: s.status, total: s.questionIds.length, answered: s.questionIds.filter(q => s.answers[q]?.selected).length, updatedAt: s.updatedAt, createdAt: s.createdAt, areaIds: s.sections.map(x => x.areaId) };
   }
-  document.querySelector('#dialog').addEventListener('close',()=>{if(!document.querySelector('#dialog').classList.contains('practice-dialog'))return;clearInterval(tick);tick=null;if(session?.status==='in_progress')updateSession(E.practice.pause(session,Date.now()));document.querySelector('#dialog').classList.remove('practice-dialog');session=null;if(!root.hidden&&(page==='questoes'||page==='progresso'))mount(page);});
-  addEventListener('pagehide',()=>{if(session?.status==='in_progress')updateSession(E.practice.pause(session,Date.now()));});
+  /** Atividade em andamento mais recente (lista ou simulado), para o atalho do menu. */
+  function resumeTarget() {
+    const p = account.practiceSessions.filter(x => x.status === 'in_progress').sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+    const q = account.simulations.filter(x => x.status === 'in_progress').sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+    const latest = [p, q].filter(Boolean).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+    if (!latest) return null;
+    return latest.kind === 'practice'
+      ? { label: 'Lista em andamento', title: latest.title, open: () => openSession(latest) }
+      : { label: 'Simulado em andamento', title: latest.title, open: () => openExam(latest) };
+  }
+  /** Listas e simulados não concluídos, do mais recente para o mais antigo. */
+  function pendingSessions() {
+    const lists = account.practiceSessions.filter(x => x.status === 'in_progress').map(x => ({ kind: 'practice', ...sessionInfo(x.id), updatedAt: x.updatedAt, createdAt: x.createdAt, areaIds: [...new Set(E.questionRepository.getMany(x.questionIds).map(q => q.areaId))] }));
+    const sims = account.simulations.filter(x => x.status === 'in_progress').map(x => ({ kind: 'simulation', ...simulationInfo(x.id) }));
+    return [...lists, ...sims].sort((a, b) => (b.updatedAt || b.createdAt).localeCompare(a.updatedAt || a.createdAt));
+  }
+  const streak = () => E.computeStreak(records(), Date.now());
+
+  /** Abre uma lista na tela de resolução em tela cheia. */
+  function openSession(value, options) { if (value) practiceScreen.open(value, options); }
+  function openById(kind, id) { if (kind === 'simulation') { const sim = account.simulations.find(x => x.id === id); if (!sim) return false; if (sim.status === 'completed') openSimulationResult(sim, { kicker: 'RESULTADO DO SIMULADO' }); else openExam(sim); return true; } const ps = account.practiceSessions.find(x => x.id === id); if (ps) openSession(ps); return !!ps; }
+
+  /** Cria e abre uma lista a partir de assuntos (usada pelas atividades do plano). */
+  function startTopics({ title, topicIds, areaId, count = 5, onComplete }) {
+    const topics = topicIds?.length ? topicIds : E.TOPICS.filter(t => E.SUBJECT_BY_ID[t.subjectId].areaId === areaId).map(t => t.id);
+    const filters = { ...E.EMPTY_FILTERS, topicIds: topics, count };
+    const ids = E.selectPracticeQuestions(filters, records(), Date.now(), account.onboarding.level);
+    return beginList(title, ids, 'custom', filters, onComplete);
+  }
+  /** Lista com as questões que você errou mais recentemente (até 10). */
+  function startReview({ onComplete } = {}) {
+    const latest = new Map();
+    records().filter(r => !r.correct).sort((a, b) => b.answeredAt - a.answeredAt).forEach(r => { if (!latest.has(r.questionId)) latest.set(r.questionId, r); });
+    const ids = [...latest.keys()].slice(0, 10);
+    if (!ids.length) { toast('Você ainda não tem erros para revisar. Que tal uma lista nova?'); return; }
+    beginList('Revisão dos seus erros', ids, 'retry', { ...E.EMPTY_FILTERS, count: ids.length }, onComplete);
+  }
+  /** Progresso de uma lista: título, situação e quantas questões já foram respondidas. */
+  function sessionInfo(id) {
+    const s = account.practiceSessions.find(x => x.id === id);
+    if (!s) return null;
+    return { id: s.id, title: s.title, status: s.status, total: s.questionIds.length, answered: s.questionIds.filter(q => s.answers[q]?.confirmed).length };
+  }
+  /** A lista em andamento mais recente (usada pelo card "Seu próximo passo"). */
+  function latestInProgress() {
+    const latest = account.practiceSessions.filter(x => x.status === 'in_progress').sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+    return latest ? sessionInfo(latest.id) : null;
+  }
+  function resumeById(id) { const s = account.practiceSessions.find(x => x.id === id); if (s) openSession(s); return !!s; }
+  /** Retoma a lista em andamento mais recente; devolve false se não houver. */
+  function resumeLatest() {
+    const latest = account.practiceSessions.filter(s => s.status === 'in_progress').sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+    if (!latest) return false;
+    openSession(latest);
+    return true;
+  }
 
   function renderPerformance() {
     const rs=records();const now=Date.now();const overall=E.summarize(rs);const series=E.buildSeries(rs,performance.period,now);const comparison=E.comparePeriods(rs,performance.period,now);const cfg=E.GRANULARITY_CONFIG[performance.period];const subjects=E.subjectStats(rs).filter(s=>s.answered).sort((a,b)=>b.accuracy-a.accuracy);const areas=E.areaStats(rs);const ranks=E.rankTopics(rs);const streak=E.computeStreak(rs,now);const calendar=E.activityCalendar(rs,now,20);const goals=account.goals.filter(g=>g.enabled).map(g=>E.goalProgress(g,rs,account,now));
@@ -147,9 +182,9 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
         ${panel('Acerto por matéria','Ordenado do maior para o menor acerto',subjectPerformance(subjects),'span-7',segmented('subject-view',performance.subjectView,[{value:'barras',label:'Barras'},{value:'tabela',label:'Tabela'}],'Visualização por matéria'))}
         ${panel('Assuntos','Pelo menos 4 respostas para identificar um padrão.',topicRankings(ranks),'span-5')}
         ${panel('Calendário de atividades','Questões respondidas por dia nas últimas 20 semanas.',calendarHTML(calendar),'span-8')}
-        <section class="streak-panel span-4"><span class="streak-icon">🔥</span><span>Sequência atual</span><strong>${streak.current} <small>${streak.current===1?'dia':'dias'}</small></strong><div><article><span>Melhor sequência</span><b>${streak.best} dias</b></article><article><span>Hoje</span><b>${streak.activeToday?'Estudou ✓':'Ainda dá tempo'}</b></article></div></section>
+        <section class="streak-panel span-4"><span class="streak-icon">${icons('flame')}</span><span>Sequência atual</span><strong>${streak.current} <small>${streak.current===1?'dia':'dias'}</small></strong><div><article><span>Melhor sequência</span><b>${streak.best} dias</b></article><article><span>Hoje</span><b>${streak.activeToday?'Estudou':'Ainda dá tempo'}</b></article></div></section>
         ${panel('Metas pessoais','Seu progresso acompanha as respostas e as sessões.',goalsHTML(goals),'span-7',`<button class="small-button" id="edit-goals">Editar metas ${icons('target')}</button>`)}
-        ${panel('Recomendações de revisão','Pontos de atenção, dificuldades e tempo sem revisar.',`<div class="review-recommendations">${recs(4).map(r=>`<button data-start-topic="${r.topicId}" style="--rec-color:${colors[r.areaId]}"><span><strong>${esc(r.topicName)}</strong><small>${esc(r.reason)}</small></span>${icons('arrow')}</button>`).join('')}</div>`,'span-5')}
+        ${panel('Recomendações de revisão','Pontos de atenção, dificuldades e tempo sem revisar.',`<div class="review-recommendations">${recs(4).map(r=>`<button data-start-topic="${r.topicId}" style="--rec-color:${colors[r.areaId]};--rec-ink:${inks[r.areaId]}"><span><strong>${esc(r.topicName)}</strong><small>${esc(r.reason)}</small></span>${icons('arrow')}</button>`).join('')}</div>`,'span-5')}
       </div></div>`;
     $$('[data-period]').forEach(b=>b.onclick=()=>{performance.period=b.dataset.period;renderPerformance();});
     $$('[data-subject-view]').forEach(b=>b.onclick=()=>{performance.subjectView=b.dataset.subjectView;renderPerformance();});
@@ -165,10 +200,11 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   function volumeChart(series) { const max=Math.max(1,...series.map(s=>s.answered));return `<div class="volume-chart" role="img" aria-label="Volume de questões por período. Consulte também a tabela abaixo.">${series.map(s=>`<div class="volume-column"><div class="volume-space"><div class="volume-bar" style="--bar-height:${s.answered/max*100}%" title="${esc(s.label)}: ${s.answered} questões"><span>${s.answered||''}</span></div></div><span>${esc(s.label)}</span></div>`).join('')}</div>${dataTable(series)}`; }
   function comparisonPanel(cmp) { return `<div class="comparison-groups">${[{label:'Taxa de acerto',cur:cmp.current.accuracy,prev:cmp.previous.accuracy,max:1,format:pct},{label:'Questões respondidas',cur:cmp.current.answered,prev:cmp.previous.answered,max:Math.max(1,cmp.current.answered,cmp.previous.answered),format:num}].map(row=>`<div><h3>${row.label}</h3><div class="comparison-row"><span>Atual</span>${bar(row.cur/row.max,'#2856b6',`${row.label} no período atual`)}<b>${row.format(row.cur)}</b></div><div class="comparison-row"><span>Anterior</span>${bar(row.prev/row.max,'#6db589',`${row.label} no período anterior`)}<b>${cmp.previous.answered?row.format(row.prev):'—'}</b></div></div>`).join('')}${!cmp.previous.answered?'<p class="field-hint">Sem atividades no período anterior para comparar.</p>':''}</div>`; }
   function distribution(areas,total) { let start=0;const gradient=areas.map(a=>{const end=start+(total?a.answered/total*100:0);const piece=`${colors[a.areaId]} ${start}% ${end}%`;start=end;return piece;}).join(',');return `<div class="distribution-layout"><div class="distribution-donut" style="background:${total?`conic-gradient(${gradient})`:'#edf0eb'}" aria-hidden="true"><div><strong>${num(total)}</strong><span>questões</span></div></div><ul class="distribution-legend">${areas.map(a=>`<li><i style="background:${colors[a.areaId]}"></i><span>${esc(E.AREA_BY_ID[a.areaId].name)}<small>${a.answered} respostas · ${pct(a.accuracy)} de acerto</small></span></li>`).join('')}</ul></div>`; }
-  function subjectPerformance(subjects) { if(performance.subjectView==='tabela')return `<div class="table-scroll"><table><caption>Desempenho por matéria</caption><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Tempo médio</th><th>Acerto</th></tr></thead><tbody>${subjects.map(s=>`<tr><th scope="row"><i class="area-color-dot" style="background:${colors[s.areaId]}"></i>${esc(s.name)}</th><td>${s.answered}</td><td>${s.correct}</td><td>${shortTime(s.avgTimeMs)}</td><td><strong>${pct(s.accuracy)}</strong></td></tr>`).join('')}</tbody></table></div>`;return `<div class="subject-performance">${subjects.map(s=>`<div><div><span><i class="area-color-dot" style="background:${colors[s.areaId]}"></i>${esc(s.name)}</span><span>${s.correct}/${s.answered} · <strong>${pct(s.accuracy)}</strong></span></div>${bar(s.accuracy,colors[s.areaId],`${s.name}: ${pct(s.accuracy)}`)}</div>`).join('')}</div>`; }
+  const subjectTile = s => `<span class="subject-tile" aria-hidden="true">${icons(SUBJECT_ICON[s.subjectId] || 'book')}</span>`;
+  function subjectPerformance(subjects) { if(performance.subjectView==='tabela')return `<div class="table-scroll"><table><caption>Desempenho por matéria</caption><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Tempo médio</th><th>Acerto</th></tr></thead><tbody>${subjects.map(s=>`<tr><th scope="row" style="--area-ink:${inks[s.areaId]};--area-bg:var(--${s.areaId}-bg)">${subjectTile(s)}${esc(s.name)}</th><td>${s.answered}</td><td>${s.correct}</td><td>${shortTime(s.avgTimeMs)}</td><td><strong>${pct(s.accuracy)}</strong></td></tr>`).join('')}</tbody></table></div>`;return `<ul class="subject-rows">${subjects.map(s=>`<li style="--area-ink:${inks[s.areaId]};--area-bg:var(--${s.areaId}-bg)">${subjectTile(s)}<div class="subject-row-main"><div class="subject-row-top"><strong>${esc(s.name)}</strong><span>${s.correct}/${s.answered} · <b>${pct(s.accuracy)}</b></span></div>${bar(s.accuracy,colors[s.areaId],`${s.name}: ${pct(s.accuracy)}`)}</div></li>`).join('')}</ul>`; }
   function topicRankings(ranks) { return [{title:'Maior dificuldade',items:ranks.weakest.slice(0,4),weak:true},{title:'Melhor desempenho',items:ranks.strongest.slice(0,4),weak:false}].map(group=>`<div class="ranking-group"><h3>${icons(group.weak?'target':'check')}${group.title}</h3>${group.items.map(t=>`<div><span>${esc(t.name)}<small>${t.answered} questões respondidas</small></span><strong>${pct(t.accuracy)}</strong>${group.weak?`<button class="text-button" data-start-topic="${t.topicId}">Praticar ${icons('arrow')}</button>`:''}</div>`).join('')||'<p class="field-hint">Responda mais questões para identificar.</p>'}</div>`).join(''); }
   function calendarHTML(columns) { const date=new Intl.DateTimeFormat('pt-BR',{day:'numeric',month:'long'});return `<div class="activity-calendar-scroll"><div class="activity-calendar">${columns.map(col=>`<div>${col.map(cell=>{const level=!cell.count?0:cell.count<6?1:cell.count<15?2:cell.count<30?3:4;const label=`${date.format(cell.date)}: ${cell.future?'data futura':`${cell.count} questões, ${cell.correct} acertos`}`;return `<button class="calendar-cell level-${level} ${cell.future?'future':''}" data-calendar-day="${cell.key}" title="${label}" aria-label="${label}" ${cell.future?'disabled':''}></button>`;}).join('')}</div>`).join('')}</div></div><div class="calendar-legend"><span>20 semanas de pequenos passos</span><span>Menos <i class="level-0"></i><i class="level-1"></i><i class="level-2"></i><i class="level-3"></i><i class="level-4"></i> Mais</span></div>`; }
   function goalsHTML(goals) { return goals.length?`<div class="personal-goals">${goals.map((p,i)=>{const meta=E.GOAL_META[p.goal.kind];return `<article><div class="goal-ring" style="--goal-progress:${p.progress*360}deg;--goal-color:${['#2856b6','#226b47','#914315','#9d2f40'][i%4]}" role="img" aria-label="${meta.title}: ${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}"><span>${p.pendingReason?'—':meta.format(p.current)}</span></div><h3>${meta.title}</h3><p>${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}</p></article>`;}).join('')}</div>`:'<p class="field-hint">Nenhuma meta ativa. Use “Editar metas” para definir seu próximo passo.</p>'; }
   function editGoals() { openDialog(`<span class="dialog-label">SEU RITMO, SUAS METAS</span><h2 id="dialog-title" class="dialog-title">Pequenos passos possíveis.</h2><p class="dialog-description">As metas são recalculadas com base nas suas práticas e no histórico demonstrativo.</p><form id="goals-form">${account.goals.map(g=>{const meta=E.GOAL_META[g.kind];return `<div class="goal-editor-row"><label class="goal-enable"><input type="checkbox" name="enabled-${g.kind}" ${g.enabled?'checked':''}><span><strong>${meta.title}</strong><small>${meta.description}</small></span></label><label class="goal-target">Meta em ${meta.unit}<input type="number" name="target-${g.kind}" value="${g.target}" min="${meta.min}" max="${meta.max}" step="${meta.step}" required></label></div>`;}).join('')}<button class="primary-button" type="submit">Salvar metas ${icons('check')}</button></form>`);document.querySelector('#goals-form').onsubmit=event=>{event.preventDefault();const data=new FormData(event.target);account.goals=account.goals.map(g=>({...g,enabled:data.has(`enabled-${g.kind}`),target:Number(data.get(`target-${g.kind}`))}));save();closeDialog();renderPerformance();toast('Metas atualizadas. Um caminho possível para você.');}; }
-  return { mount };
+  return { mount, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, streak, openById, records, account: () => account, save };
 }

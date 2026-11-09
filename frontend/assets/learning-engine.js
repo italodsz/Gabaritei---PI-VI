@@ -293,6 +293,9 @@ function createId(prefix) {
   const rand = Math.random().toString(36).slice(2, 8);
   return `${prefix}_${Date.now().toString(36)}${rand}`;
 }
+function freshSeed() {
+  return Date.now();
+}
 
 // legacy/src/data/fixtures/questions/builder.ts
 var AREA_OF_SUBJECT = {
@@ -3105,6 +3108,9 @@ function resumeClock(clock, now) {
   if (clock.runningSince !== null) return clock;
   return { ...clock, runningSince: now };
 }
+function clockRemaining(clock, durationMs, now) {
+  return Math.max(0, durationMs - clockElapsed(clock, now));
+}
 
 // legacy/src/lib/calculations/stats.ts
 var DAY = 864e5;
@@ -3839,6 +3845,7 @@ var FULL_DAY_DURATION = {
   2: 5 * 36e5
   // 5h
 };
+var SIMULATION_SIZES = [10, 20, 30, 45, 60, 90];
 var MINUTES_PER_QUESTION = 3;
 function simulationDuration(config) {
   if (config.mode === "official" && config.day) {
@@ -3955,6 +3962,10 @@ function createSimulationSession(input) {
     cursorElapsedMs: 0,
     timerHidden: input.timerHidden
   };
+}
+function questionNumber(session, index) {
+  const sec = session.sections.find((s) => index >= s.start && index < s.end);
+  return sec ? sec.firstNumber + (index - sec.start) : index + 1;
 }
 
 // legacy/src/data/seeds/accounts.ts
@@ -4360,15 +4371,219 @@ var practice = {
     return practice.pause(s, Math.max(lastSeen, s.clock.runningSince));
   }
 };
+function settleSimulation(s, now) {
+  const elapsed = Math.min(clockElapsed(s.clock, now), s.config.durationMs);
+  const delta = Math.max(0, elapsed - s.cursorElapsedMs);
+  const qid = s.questionIds[s.currentIndex];
+  const a = qid ? s.answers[qid] : void 0;
+  if (!a || delta === 0) return { ...s, cursorElapsedMs: elapsed };
+  return {
+    ...s,
+    cursorElapsedMs: elapsed,
+    answers: { ...s.answers, [qid]: { ...a, timeSpentMs: a.timeSpentMs + delta } }
+  };
+}
+var simulation = {
+  select(s, letter, now) {
+    if (s.status === "completed") return s;
+    const qid = s.questionIds[s.currentIndex];
+    const a = s.answers[qid];
+    if (!a) return s;
+    return {
+      ...s,
+      updatedAt: iso(now),
+      answers: { ...s.answers, [qid]: { ...a, selected: letter, answeredAt: letter ? iso(now) : null } }
+    };
+  },
+  goTo(s, index, now) {
+    if (index < 0 || index >= s.questionIds.length || index === s.currentIndex) return s;
+    return { ...settleSimulation(s, now), currentIndex: index, updatedAt: iso(now) };
+  },
+  toggleMark(s, questionId, now) {
+    const marked = s.marked.includes(questionId) ? s.marked.filter((m) => m !== questionId) : [...s.marked, questionId];
+    return { ...s, marked, updatedAt: iso(now) };
+  },
+  pause(s, now) {
+    if (s.clock.runningSince === null) return s;
+    const settled = settleSimulation(s, now);
+    const clock = pauseClock(settled.clock, now);
+    return { ...settled, clock: { ...clock, elapsedMs: Math.min(clock.elapsedMs, s.config.durationMs) }, updatedAt: iso(now) };
+  },
+  resume(s, now) {
+    if (s.clock.runningSince !== null || s.status === "completed") return s;
+    return { ...s, clock: resumeClock(s.clock, now), cursorElapsedMs: s.clock.elapsedMs, updatedAt: iso(now) };
+  },
+  finish(s, reason, now) {
+    if (s.status === "completed") return s;
+    const settled = settleSimulation(s, now);
+    const clock = pauseClock(settled.clock, now);
+    return {
+      ...settled,
+      clock: { ...clock, elapsedMs: Math.min(clock.elapsedMs, s.config.durationMs) },
+      status: "completed",
+      finishReason: reason,
+      completedAt: iso(now),
+      updatedAt: iso(now),
+      currentIndex: 0
+    };
+  },
+  setTimerHidden(s, hidden) {
+    return { ...s, timerHidden: hidden };
+  },
+  heartbeat(s, now) {
+    return { ...s, updatedAt: iso(now) };
+  },
+  recover(s, now) {
+    if (s.clock.runningSince === null) return s;
+    if (now - new Date(s.updatedAt).getTime() < 2e4) return s;
+    const lastSeen = Math.min(now, new Date(s.updatedAt).getTime() + 2e4);
+    return simulation.pause(s, Math.max(lastSeen, s.clock.runningSince));
+  },
+  remaining(s, now) {
+    return clockRemaining(s.clock, s.config.durationMs, now);
+  }
+};
+
+// legacy/src/lib/calculations/results.ts
+function topicBreakdown(entries) {
+  const map = /* @__PURE__ */ new Map();
+  for (const { q, correct } of entries) {
+    const v = map.get(q.topicId) ?? { total: 0, correct: 0 };
+    v.total++;
+    if (correct) v.correct++;
+    map.set(q.topicId, v);
+  }
+  return Array.from(map.entries()).map(([topicId, v]) => ({
+    topicId,
+    name: TOPIC_BY_ID[topicId]?.name ?? topicId,
+    total: v.total,
+    correct: v.correct,
+    accuracy: v.total ? v.correct / v.total : 0
+  })).sort((a, b) => a.accuracy - b.accuracy || b.total - a.total);
+}
+function practiceResult(session, now) {
+  const entries = session.questionIds.map((id) => {
+    const q = QUESTION_BY_ID[id];
+    const a = session.answers[id];
+    return q ? { q, answered: !!a?.confirmed, correct: !!a?.correct } : null;
+  }).filter((e) => e !== null);
+  const answered = entries.filter((e) => e.answered);
+  const correct = answered.filter((e) => e.correct).length;
+  const timeMs = clockElapsed(session.clock, now);
+  return {
+    total: entries.length,
+    answered: answered.length,
+    correct,
+    wrong: answered.length - correct,
+    unanswered: entries.length - answered.length,
+    accuracy: entries.length ? correct / entries.length : 0,
+    accuracyAnswered: answered.length ? correct / answered.length : 0,
+    timeMs,
+    avgTimeMs: answered.length ? answered.reduce((n, e) => n + (session.answers[e.q.id]?.timeSpentMs ?? 0), 0) / answered.length : 0,
+    byTopic: topicBreakdown(answered),
+    wrongIds: answered.filter((e) => !e.correct).map((e) => e.q.id)
+  };
+}
+function estimateDemoScore(accuracy) {
+  const clamped = Math.min(1, Math.max(0, accuracy));
+  return Math.round(320 + 530 * Math.pow(clamped, 1.15));
+}
+function simulationResult(session, now) {
+  const entries = session.questionIds.map((id) => ({ q: QUESTION_BY_ID[id], a: session.answers[id] })).filter((e) => !!e.q);
+  const rows = entries.map(({ q, a }) => ({
+    q,
+    answered: !!a?.selected,
+    correct: !!a?.selected && a.selected === q.correct
+  }));
+  const answered = rows.filter((r) => r.answered);
+  const correct = rows.filter((r) => r.correct).length;
+  const byArea = session.sections.map((sec) => {
+    const slice = rows.filter((r) => r.q.areaId === sec.areaId);
+    const c = slice.filter((r) => r.correct).length;
+    const acc2 = slice.length ? c / slice.length : 0;
+    return {
+      areaId: sec.areaId,
+      name: AREA_BY_ID[sec.areaId].shortName,
+      total: slice.length,
+      correct: c,
+      blank: slice.filter((r) => !r.answered).length,
+      accuracy: acc2,
+      estimatedScore: estimateDemoScore(acc2)
+    };
+  });
+  const timeMs = Math.min(clockElapsed(session.clock, now), session.config.durationMs);
+  const acc = rows.length ? correct / rows.length : 0;
+  return {
+    total: rows.length,
+    answered: answered.length,
+    correct,
+    wrong: answered.length - correct,
+    blank: rows.length - answered.length,
+    accuracy: acc,
+    timeMs,
+    avgTimeMs: answered.length ? timeMs / answered.length : 0,
+    byArea,
+    byTopic: topicBreakdown(rows),
+    estimatedScore: byArea.length ? Math.round(byArea.reduce((n, a) => n + a.estimatedScore, 0) / byArea.length) : estimateDemoScore(acc)
+  };
+}
+
+// learning-engine.ts
+function createSimulationFromQuestions(input) {
+  const qs = questionRepository.getMany(input.questionIds);
+  const order = AREAS.map((a) => a.id);
+  const sorted = [...qs].sort((a, b) => order.indexOf(a.areaId) - order.indexOf(b.areaId));
+  const sections = [];
+  const questionIds = [];
+  for (const areaId of order) {
+    const group = sorted.filter((q) => q.areaId === areaId);
+    if (!group.length) continue;
+    sections.push({ areaId, label: AREA_BY_ID[areaId].shortName, start: questionIds.length, end: questionIds.length + group.length, firstNumber: questionIds.length + 1 });
+    questionIds.push(...group.map((q) => q.id));
+  }
+  const iso2 = new Date(input.now).toISOString();
+  const config = {
+    mode: "custom",
+    edition: null,
+    day: null,
+    foreignLanguage: "ingles",
+    criteria: "balanced",
+    includesEssay: false,
+    ...input.config,
+    areaIds: sections.map((s) => s.areaId),
+    size: questionIds.length
+  };
+  return {
+    id: createId("simulado"),
+    kind: "simulation",
+    title: input.title,
+    createdAt: iso2,
+    updatedAt: iso2,
+    status: "in_progress",
+    completedAt: null,
+    finishReason: null,
+    config,
+    questionIds,
+    sections,
+    answers: Object.fromEntries(questionIds.map((qid) => [qid, { questionId: qid, selected: null, answeredAt: null, timeSpentMs: 0 }])),
+    marked: [],
+    currentIndex: 0,
+    clock: createClock(true, input.now),
+    cursorElapsedMs: 0,
+    timerHidden: !!input.timerHidden
+  };
+}
 export {
   AREAS,
   AREA_BY_ID,
   EMPTY_FILTERS,
   GOAL_META,
   GRANULARITY_CONFIG,
+  MINUTES_PER_QUESTION,
   PRACTICE_COUNTS,
   RECOMMENDATION_LABEL,
   REFERENCE_YEARS,
+  SIMULATION_SIZES,
   SUBJECTS,
   SUBJECT_BY_ID,
   TOPICS,
@@ -4386,16 +4601,30 @@ export {
   createDemoAccount,
   createEmptyAccount,
   createPracticeSession,
+  createRng,
+  createSimulationFromQuestions,
+  createSimulationSession,
+  distributeAcrossAreas,
+  estimateDemoScore,
   frequentSubjects,
+  freshSeed,
   goalProgress,
   groupSummary,
+  pickQuestions,
   practice,
+  practiceResult,
+  prioritizeQuestions,
+  questionNumber,
   questionRepository,
   rankTopics,
   recommendTopics,
   recordsThisMonth,
   recordsThisWeek,
   selectPracticeQuestions,
+  shuffle,
+  simulation,
+  simulationDuration,
+  simulationResult,
   startOfWeek,
   subjectStats,
   subjectsOfArea,

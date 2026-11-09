@@ -77,3 +77,29 @@ test('histórico, gráficos, distribuição e calendário compartilham totais co
   assert.equal(E.activityCalendar(records,now,20).flat().reduce((n,c)=>n+c.count,0),total.answered);
   for(const period of ['day','week','month']){const series=E.buildSeries(records,period,now);assert.equal(series.reduce((n,s)=>n+s.answered,0),E.comparePeriods(records,period,now).current.answered);for(const s of series){assert(s.accuracy===null||s.accuracy>=0&&s.accuracy<=1);if(!s.answered)assert.equal(s.accuracy,null);}}
 });
+
+test('simulado do protótipo: questões agrupadas por área, sem correção até finalizar, tempo esgotado encerra', () => {
+  const ids = [...E.questionRepository.query({ areaIds: ['matematica'] }).slice(0, 3), ...E.questionRepository.query({ areaIds: ['linguagens'] }).slice(0, 2)].map(q => q.id);
+  let s = E.createSimulationFromQuestions({ title: 'Teste', questionIds: ids, config: { durationMs: 60000 }, now });
+  assert.deepEqual(s.sections.map(x => x.areaId), ['linguagens', 'matematica']);
+  assert.equal(s.questionIds.length, 5);
+  assert.equal(s.status, 'in_progress');
+  s = E.simulation.select(s, 'A', now + 1000);
+  assert.equal(s.answers[s.questionIds[0]].selected, 'A');
+  assert.equal('correct' in s.answers[s.questionIds[0]], false, 'o simulado não guarda correção imediata');
+  assert.equal(E.simulation.remaining(s, now + 30000), 30000);
+  s = E.simulation.finish(s, 'timeout', now + 61000);
+  assert.equal(s.status, 'completed');
+  assert.equal(s.clock.elapsedMs, 60000);
+  const r = E.simulationResult(s, now + 61000);
+  assert.equal(r.total, 5);
+  assert.equal(r.blank, 4);
+});
+
+test('seleção por ano: cada ano de referência oferecido existe no acervo da área', () => {
+  for (const area of ['linguagens', 'humanas', 'natureza', 'matematica']) {
+    const years = E.REFERENCE_YEARS.filter(y => E.questionRepository.query({ areaIds: [area], years: [y] }).length);
+    assert(years.length > 0);
+    for (const y of years) assert(E.questionRepository.query({ areaIds: [area], years: [y] }).every(q => q.year === y && q.areaId === area));
+  }
+});

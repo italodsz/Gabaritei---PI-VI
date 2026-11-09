@@ -1,0 +1,102 @@
+/* Navegação no topo (a barra lateral retrátil foi removida a pedido).
+   No celular, os 5 itens ficam em colunas iguais para caber. */
+
+/* Celular: a navegação fica no topo, com 5 itens em colunas iguais
+   (ícone em cima, rótulo curto embaixo) para caber em telas estreitas. */
+@media (max-width: 760px) {
+  .topbar .main-nav {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2px;
+  }
+
+  .topbar .nav-item {
+    flex-direction: column;
+    gap: 4px;
+    min-height: 50px;
+    padding: 7px 2px 9px;
+    font-size: 9.5px;
+    white-space: nowrap;
+  }
+
+  .topbar .nav-item span {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .topbar .nav-item svg {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+/* Guias rápidas (bolinhas coloridas) dentro do topo, na ponta direita. */
+.quick-dots {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  padding-left: 20px;
+  border-left: 1px solid #ffffff1f;
+}
+.quick-dots .dock-button { width: 36px; height: 36px; }
+.quick-dots .dock-button:hover { transform: translateY(-2px); }
+.quick-dots .dock-button[aria-pressed="true"] { box-shadow: 0 0 0 3px #070807, 0 0 0 5px #fff; }
+.quick-dots [data-tooltip]::after { bottom: auto; top: calc(100% + 10px); transform: translate(-50%, -4px); z-index: 50; }
+.quick-dots [data-tooltip]:hover::after,
+.quick-dots [data-tooltip]:focus-visible::after { transform: translate(-50%, 0); }
+
+@media (max-width: 1200px) {
+  .quick-dots { gap: 5px; padding-left: 14px; }
+  .quick-dots .dock-button { width: 32px; height: 32px; }
+  .quick-dots .dock-button svg { width: 16px; height: 16px; }
+}
+@media (max-width: 1020px) and (min-width: 761px) {
+  .quick-dots { padding-left: 10px; gap: 4px; }
+  .quick-dots .dock-divider { display: none; }
+  .quick-dots .dock-button { width: 30px; height: 30px; }
+}
+@media (max-width: 760px) {
+  .topbar { grid-template-columns: 1fr auto auto; }
+  .topbar .profile-wrapper { grid-column: 2; grid-row: 1; }
+  .quick-dots { grid-column: 3; grid-row: 1; border: 0; padding: 0; gap: 4px; }
+  .quick-dots .dock-divider { display: none; }
+  .quick-dots .dock-button { width: 28px; height: 28px; }
+  .quick-dots .dock-button svg { width: 15px; height: 15px; }
+  .topbar .main-nav { grid-column: 1 / -1; }
+}
+
+/* Topo com menu + perfil + bolinhas: rótulos numa linha só e perfil mais enxuto. */
+.topbar .nav-item { white-space: nowrap; }
+@media (max-width: 1440px) and (min-width: 761px) {
+  .topbar { gap: 26px; }
+  .profile-text > span { display: none; }
+}
+@media (max-width: 1180px) and (min-width: 761px) {
+  .profile-text { display: none; }
+  .profile > svg { margin-left: 0; }
+}
+@media (max-width: 1020px) and (min-width: 761px) {
+  .topbar { gap: 14px; }
+  .topbar .nav-item { padding: 10px 11px; }
+  .topbar .nav-item span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+  .topbar .nav-item.active::after { bottom: 3px; }
+}
+/* A dica do último botão abre alinhada à direita, para não passar da borda da tela. */
+.quick-dots [data-tooltip]:last-child::after { left: auto; right: 0; transform: translateY(-4px); }
+.quick-dots [data-tooltip]:last-child:hover::after,
+.quick-dots [data-tooltip]:last-child:focus-visible::after { transform: none; }
+
+/* Barra superior sempre visível: fica presa no topo ao rolar a página. */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: #070807;
+}
+/* Elementos que também grudam ao rolar ficam abaixo da barra superior. */
+@media (min-width: 761px) {
+  .list-summary { top: 104px; }
+  .hist-start { top: 106px; }
+}

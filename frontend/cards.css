@@ -1,0 +1,165 @@
+/* Cards do mural no modelo do card "Seu próximo passo": fundo na cor da área,
+   rótulo em cima, título grande, botão de play, "Começar prática" e
+   detalhes decorativos da área no fundo (maiores que o √x original). */
+
+.activity-card[data-area="matematica"] { --card-bg: #a4b3ef; --card-ink: #2a3b74; --card-soft: #e1e6fa; --card-shadow: #2d3f7a47; }
+.activity-card[data-area="linguagens"] { --card-bg: #f6b49c; --card-ink: #763318; --card-soft: #fce6de; --card-shadow: #6b331c40; }
+.activity-card[data-area="natureza"]   { --card-bg: #a8ebb6; --card-ink: #286234; --card-soft: #e2f8e7; --card-shadow: #29563240; }
+.activity-card[data-area="humanas"]    { --card-bg: #f6e09c; --card-ink: #6b591a; --card-soft: #fcf5de; --card-shadow: #67571e38; }
+.activity-card[data-area="livre"]      { --card-bg: #c5c9c3; --card-ink: #474e45; --card-soft: #eaebe9; --card-shadow: #474e4538; }
+
+.activity-card.is-colored {
+  background: var(--card-bg);
+  color: var(--card-ink);
+  min-height: 208px;
+  padding: 24px 24px 20px;
+  box-shadow: 0 17px 25px -17px var(--card-shadow);
+  overflow: hidden;
+}
+.activity-card.is-colored:not(.featured):hover { transform: translateY(-3px); box-shadow: 0 20px 30px -16px var(--card-shadow); }
+
+.activity-card.is-colored .card-top-label,
+.activity-card.is-colored .card-description { color: var(--card-ink); }
+.activity-card.is-colored .card-top-label { font-weight: 600; letter-spacing: 1.2px; }
+.activity-card.is-colored h2 { color: #111411; max-width: 68%; }
+.activity-card.is-colored .card-description { max-width: 58%; opacity: .9; }
+
+/* Conteúdo acima dos detalhes de fundo. */
+.activity-card.is-colored .card-top-label,
+.activity-card.is-colored h2,
+.activity-card.is-colored .card-description,
+.activity-card.is-colored .card-actions { position: relative; z-index: 1; }
+
+.activity-card.is-colored .play-button { background: var(--card-soft); color: var(--card-ink); border-color: #ffffffc4; z-index: 1; }
+.activity-card.is-colored .play-button:hover { background: #fff; }
+.activity-card.is-colored .resume-button { background: #fff; color: #111411; }
+.activity-card.is-colored .resume-button:hover { box-shadow: 0 4px 12px var(--card-shadow); }
+.activity-card.is-colored .card-actions { padding-top: 30px; }
+.activity-card.is-colored .save-button,
+.activity-card.is-colored .complete-button { background: #ffffffa8; color: var(--card-ink); }
+.activity-card.is-colored .save-button:hover,
+.activity-card.is-colored .complete-button:hover { background: #fff; }
+.activity-card.is-colored .save-button[aria-pressed="true"] { background: var(--card-ink) !important; color: #fff; }
+.activity-card.is-colored .mini-avatar { border-color: var(--card-bg); }
+
+/* Detalhes de fundo (antes só o √x, com 27px). */
+.card-decoration {
+  position: absolute;
+  z-index: 0;
+  right: 28px;
+  top: 8px;
+  font-family: var(--display);
+  font-size: 46px;
+  line-height: 1;
+  color: #ffffffbd;
+  transform: rotate(12deg);
+  pointer-events: none;
+  user-select: none;
+}
+.card-decoration sub { font-size: .5em; vertical-align: -.15em; margin: 0 .03em; }
+.card-decoration.is-small {
+  right: 112px;
+  top: auto;
+  bottom: 70px;
+  font-size: 32px;
+  color: #ffffff8f;
+  transform: rotate(-12deg);
+}
+
+/* No modo grade (quando alguma atividade some), o card destacado continua levemente inclinado. */
+.learning-canvas.is-filtered .activity-card.featured { transform: rotate(2deg); min-height: 208px; }
+.learning-canvas.is-filtered .activity-card.featured:hover { transform: rotate(1deg) translateY(-3px); }
+.learning-canvas.is-filtered .activity-card.is-colored { min-height: 208px; }
+
+@media (max-width: 1200px) {
+  .card-decoration { font-size: 40px; right: 20px; }
+  .card-decoration.is-small { font-size: 28px; right: 90px; }
+}
+@media (max-width: 760px) {
+  .activity-card.is-colored { min-height: 215px; }
+  .card-decoration { font-size: 46px; right: 30px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .activity-card.is-colored:not(.featured):hover { transform: none; }
+}
+
+/* Concluídas (aparecem só com o filtro da guia rápida): mais apagadas e com o ✓ marcado. */
+.activity-card.is-colored.is-done { filter: saturate(.45); opacity: .82; }
+.activity-card.is-colored.is-done:hover { opacity: 1; filter: saturate(.7); }
+.activity-card.is-colored.is-done h2 { text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: #11141140; }
+.activity-card.is-colored .complete-button.done { background: var(--card-ink); color: #fff; }
+
+/* Trilha em duas colunas: a da direita começa abaixo dos contadores. Os
+   tracinhos entre as colunas são desenhados pelo app.js (drawTrail). */
+.learning-canvas[data-view="map"] .activities { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 53px; row-gap: 0; align-items: start; }
+.trail-col { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+.trail-col.is-right { padding-top: 116px; }
+.trail-col .activity-card { grid-column: auto; grid-row: auto; transform: none; width: 100%; margin: 0; }
+.trail-col .activity-card.featured { transform: rotate(3deg) translateX(-12px); width: calc(100% + 12px); }
+.trail-col .activity-card.featured:hover { transform: rotate(1deg) translate(-12px, -3px); }
+.learning-canvas[data-view="map"] .connections { width: 100%; }
+
+@media (max-width: 1200px) {
+  .learning-canvas[data-view="map"] .activities { column-gap: 31px; }
+}
+@media (min-width: 761px) and (max-width: 1020px) {
+  .learning-canvas[data-view="map"] .connections { display: block; }
+}
+@media (max-width: 760px) {
+  .learning-canvas[data-view="map"] .activities { display: flex; flex-direction: column; gap: 23px; }
+  .trail-col { display: contents; }
+  .trail-col.is-right { padding-top: 0; }
+  .trail-col .activity-card.featured { transform: rotate(2deg); width: calc(100% - 5px); margin: 5px auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trail-col .activity-card.featured { transform: none !important; }
+}
+
+/* Todos os cards retos (o destacado deixou de ser inclinado). */
+.activity-card.featured.is-colored,
+.trail-col .activity-card.featured,
+.learning-canvas.is-filtered .activity-card.featured { transform: none; width: 100%; }
+.activity-card.featured.is-colored:hover,
+.trail-col .activity-card.featured:hover { transform: translateY(-3px); }
+
+/* Selo do tipo (lista de questões ou simulado) ao lado do rótulo. */
+.activity-card.is-colored .card-head { position: relative; z-index: 1; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin-bottom: 10px; max-width: 70%; }
+.activity-card.is-colored .card-head .card-top-label { margin-bottom: 0; }
+.card-kind { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px 5px 8px; border-radius: 20px; background: #ffffffb8; color: var(--card-ink); font-size: 9px; font-weight: 650; letter-spacing: .2px; white-space: nowrap; }
+.card-kind svg { width: 13px; height: 13px; }
+
+/* Progresso: onde a atividade parou e quantas questões já foram respondidas. */
+.card-progress { position: relative; z-index: 1; display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 18px; }
+.card-progress-bar { flex: 1; height: 7px; border-radius: 7px; background: #ffffff8f; overflow: hidden; }
+.card-progress-bar > span { display: block; height: 100%; border-radius: inherit; background: var(--card-ink); }
+.card-progress-text { font-size: 10px; color: var(--card-ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.card-progress-text b { font-weight: 700; }
+.activity-card.is-colored .card-actions { margin-top: 0; padding-top: 14px; }
+
+@media (max-width: 760px) {
+  .trail-col .activity-card.featured,
+  .activity-card.featured.is-colored { transform: none; width: 100%; margin: 0; }
+  .activity-card.is-colored .card-head { max-width: 72%; }
+  .card-progress-text { font-size: 11px; }
+}
+
+/* Tracejados da trilha: a animação de desenho acontece só na primeira vez. */
+.connections.is-drawn path { animation: none; opacity: 1; stroke-dashoffset: 0; }
+
+/* Botão "⋯" dos cards e o menu de opções. */
+.activity-card.is-colored .card-menu-button { background: #ffffffa8; color: var(--card-ink); }
+.activity-card.is-colored .card-menu-button:hover,
+.activity-card.is-colored .card-menu-button[aria-expanded="true"] { background: #fff; }
+.featured .card-menu-button { margin-left: 6px; }
+.card-menu { position: fixed; z-index: 60; min-width: 220px; padding: 6px; border-radius: 16px; background: #fff; border: 1px solid #ecefe9; box-shadow: 0 14px 34px -10px #0003, 0 2px 6px #00000012; animation: card-menu-in .16s ease both; }
+.card-menu button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 12px; border-radius: 11px; background: none; color: #1e241d; font-size: 12px; text-align: left; }
+.card-menu button:hover, .card-menu button:focus-visible { background: #f2f4f0; outline: none; }
+.card-menu svg { width: 16px; height: 16px; color: #6b7368; }
+.card-menu .is-danger { color: #a02c1d; }
+.card-menu .is-danger svg { color: #a02c1d; }
+.card-menu .is-danger:hover, .card-menu .is-danger:focus-visible { background: #fbe9e5; }
+@keyframes card-menu-in { from { opacity: 0; transform: translateY(-4px) scale(.98); } }
+.danger-button { background: #a02c1d; }
+.danger-button:hover { background: #84220f; }
+.danger-button svg { width: 16px; height: 16px; }
+@media (prefers-reduced-motion: reduce) { .card-menu { animation: none; } }
