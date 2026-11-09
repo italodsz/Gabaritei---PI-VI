@@ -53,3 +53,13 @@
   .hist-note-btn { margin-left: 0; }
   .hist-qrow { flex-wrap: wrap; }
 }
+
+/* Indicador das abas do Histórico: uma cor por aba (a troca de cor é animada no JS). */
+.lg-tabs button[data-tab-group="hist"] { --tab-c: var(--lg-gold); --tab-soft: var(--lg-gold-soft); --tab-fg: var(--lg-gold-fg); }
+.lg-tabs button[data-tab-group="hist"][data-tab="atividades"] { --tab-c: #39a250; --tab-soft: #dcf3e1; --tab-fg: #2c703a; }
+.lg-tabs button[data-tab-group="hist"][data-tab="erradas"]    { --tab-c: #d64545; --tab-soft: #fbe1e1; --tab-fg: #a12f2f; }
+.lg-tabs button[data-tab-group="hist"][data-tab="favoritas"]  { --tab-c: #e4b324; --tab-soft: #fbf0cc; --tab-fg: #7b651c; }
+.lg-tabs button[data-tab-group="hist"][data-tab="revisar"]    { --tab-c: #7c5cd6; --tab-soft: #ebe5fb; --tab-fg: #5a3fb0; }
+.lg-tabs button[data-tab-group="hist"] .lg-tab-ind { background: var(--tab-c); }
+.lg-tabs button[data-tab-group="hist"][aria-selected="true"] .lg-count { background: var(--tab-soft); color: var(--tab-fg); }
+.lg-tabs button[data-tab-group="hist"][aria-selected="true"] svg.hi { color: var(--tab-c); }

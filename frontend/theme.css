@@ -1,0 +1,274 @@
+/* ==================================================================
+   Tema do Gabaritei — tokens semânticos e ajustes do modo noturno.
+
+   Camadas (todas centralizadas, nenhum componente verifica o tema):
+   1. Tokens --t-* (claro em :root, escuro em [data-theme="dark"]) usados
+      pelos componentes novos (Praticar, Desafio, Revisar, controles de tema).
+   2. theme-dark.css (gerado por build-theme.mjs): versão noturna de todas as
+      cores fixas dos CSS existentes.
+   3. Este arquivo: paletas escuras desenhadas à mão para os sistemas de
+      tokens que já existiam (--qs-*, --lg-*, áreas) e ajustes finos.
+   ================================================================== */
+
+:root {
+  --t-bg: #f8f9f8;
+  --t-surface: #ffffff;
+  --t-surface-2: #f5f6f3;
+  --t-surface-3: #eceee9;
+  --t-border: #eceee9;
+  --t-border-strong: #d7dbd4;
+  --t-text: #111411;
+  --t-text-muted: #586058;
+  --t-text-subtle: #8a9089;
+  --t-gold: #ddb54d;
+  --t-gold-strong: #a98220;
+  --t-gold-soft: #f5e9c4;
+  --t-sage: #86a58c;
+  --t-sage-strong: #41684b;
+  --t-sage-soft: #e0eae0;
+  --t-on-sage: #ffffff;
+  --t-danger: #b14e36;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  /* Grafite profundo, superfícies levemente diferenciadas */
+  --t-bg: #121413;
+  --t-surface: #1b1e1c;
+  --t-surface-2: #222624;
+  --t-surface-3: #2b302d;
+  --t-border: #2c312e;
+  --t-border-strong: #3f4641;
+  --t-text: #ecefe9;
+  --t-text-muted: #b6bdb4;
+  --t-text-subtle: #8b9289;
+  --t-gold: #e2bd5c;
+  --t-gold-strong: #e9c96f;
+  --t-gold-soft: #3a3220;
+  --t-sage: #8fb596;
+  --t-sage-strong: #9fcaa8;
+  --t-sage-soft: #213028;
+  --t-on-sage: #0f1a12;
+  --t-danger: #e58a75;
+
+  /* Base do app */
+  --paper: #161917;
+  --ink: #ecefe9;
+  --muted: #a3aaa1;
+
+  /* Áreas do ENEM: o destaque continua vivo; fundos viram tons escuros da cor */
+  --linguagens: #e0673a;
+  --humanas: #e8bd3c;
+  --natureza: #4cbf66;
+  --matematica: #6f88e8;
+  --linguagens-ink: #f4ab8f;
+  --humanas-ink: #f0d27a;
+  --natureza-ink: #93dca3;
+  --matematica-ink: #aab9f4;
+  --linguagens-bg: #3a2219;
+  --humanas-bg: #362d16;
+  --natureza-bg: #1c3222;
+  --matematica-bg: #1f2744;
+}
+
+/* Fundo da janela e moldura */
+html[data-theme="dark"] body { background: #0d0f0e; background-image: radial-gradient(ellipse at 50% 65%, #17201c 0, transparent 64%); }
+html[data-theme="dark"] .app-body,
+html[data-theme="dark"] .app-body::before { background: var(--paper); }
+
+/* ------------------------------------------------------------------ */
+/* Tela de questões (tokens --qs-*)                                    */
+/* ------------------------------------------------------------------ */
+html[data-theme="dark"] .focus-screen.qs-screen {
+  --qs-bg: #141615;
+  --qs-surface: #1c1f1d;
+  --qs-surface-2: #242826;
+  --qs-surface-3: #2e3330;
+  --qs-border: #2f3431;
+  --qs-border-strong: #4a514c;
+  --qs-fg: #eceee9;
+  --qs-fg-muted: #c3c8c0;
+  --qs-fg-subtle: #959c93;
+  --qs-primary: #eceee9;
+  --qs-primary-hover: #ffffff;
+  --qs-gold: #ef6b77;
+  --qs-gold-strong: #f08a93;
+  --qs-gold-soft: #3d1f23;
+  --qs-gold-fg: #f5a3aa;
+  --qs-sage-soft: #1d2a44;
+  --qs-sage-strong: #9db8f2;
+  --qs-success: #5fae78;
+  --qs-success-soft: #1b2e22;
+  --qs-danger: #e07a62;
+  --qs-danger-soft: #3a211b;
+  --qs-warning: #e2b44a;
+  --qs-warning-soft: #352c17;
+  --qs-overlay: rgb(0 0 0 / .6);
+  --qs-shadow-xs: 0 1px 2px rgb(0 0 0 / .3);
+  --qs-shadow-sm: 0 1px 2px rgb(0 0 0 / .3), 0 4px 12px -2px rgb(0 0 0 / .35);
+  --qs-shadow-md: 0 2px 4px rgb(0 0 0 / .3), 0 12px 28px -8px rgb(0 0 0 / .5);
+  --qs-shadow-lg: 0 4px 8px rgb(0 0 0 / .35), 0 24px 56px -16px rgb(0 0 0 / .65);
+}
+html[data-theme="dark"] .qs-btn-primary { color: #121413; }
+
+/* ------------------------------------------------------------------ */
+/* Componentes do front anterior (tokens --lg-*)                       */
+/* ------------------------------------------------------------------ */
+html[data-theme="dark"],
+html[data-theme="dark"] .lg-page.pf {
+  --lg-bg: #141615;
+  --lg-bg-deep: #101211;
+  --lg-surface: #1b1e1c;
+  --lg-surface-2: #232724;
+  --lg-surface-3: #2c312d;
+  --lg-overlay: rgb(0 0 0 / .6);
+  --lg-border: #2f3431;
+  --lg-border-strong: #454c47;
+  --lg-fg: #ebeee8;
+  --lg-fg-muted: #b9c0b7;
+  --lg-fg-subtle: #8d958b;
+  --lg-ink: #0f1110;
+  --lg-ink-3: #2a302c;
+  --lg-on-ink: #ebeee8;
+  --lg-on-ink-muted: #a7afa6;
+  --lg-primary: #ebeee8;
+  --lg-primary-hover: #ffffff;
+  --lg-on-primary: #141615;
+  --lg-gold: #e2bd5c;
+  --lg-gold-strong: #e9c96f;
+  --lg-gold-soft: #3a3220;
+  --lg-gold-fg: #f0d58a;
+  --lg-on-gold: #1b1a12;
+  --lg-sage: #8fb596;
+  --lg-sage-strong: #a6cfae;
+  --lg-sage-soft: #213028;
+  --lg-coral: #e8a28a;
+  --lg-coral-strong: #f2b8a3;
+  --lg-coral-soft: #3a241c;
+  --lg-success: #5fae78;
+  --lg-success-soft: #1b2e22;
+  --lg-danger: #e07a62;
+  --lg-danger-soft: #3a211b;
+  --lg-warning: #e2b44a;
+  --lg-warning-soft: #352c17;
+  --lg-focus: #e2bd5c;
+  --lg-linguagens: #e0673a; --lg-linguagens-strong: #f4ab8f; --lg-linguagens-soft: #3a2219;
+  --lg-humanas: #e8bd3c; --lg-humanas-strong: #f0d27a; --lg-humanas-soft: #362d16;
+  --lg-natureza: #4cbf66; --lg-natureza-strong: #93dca3; --lg-natureza-soft: #1c3222;
+  --lg-matematica: #6f88e8; --lg-matematica-strong: #aab9f4; --lg-matematica-soft: #1f2744;
+  --lg-shadow-xs: 0 1px 2px rgb(0 0 0 / .3);
+  --lg-shadow-sm: 0 1px 2px rgb(0 0 0 / .3), 0 4px 12px -2px rgb(0 0 0 / .35);
+  --lg-shadow-md: 0 2px 4px rgb(0 0 0 / .3), 0 12px 28px -8px rgb(0 0 0 / .5);
+  --lg-shadow-lg: 0 4px 8px rgb(0 0 0 / .35), 0 24px 56px -16px rgb(0 0 0 / .65);
+}
+
+/* ------------------------------------------------------------------ */
+/* Ajustes finos                                                        */
+/* ------------------------------------------------------------------ */
+/* Card "Recomendações para você": mesma aparência, só um contorno para destacar do fundo escuro. */
+html[data-theme="dark"] .ph-main { box-shadow: 0 0 0 1px #ffffff14, 0 24px 40px -28px #000; }
+html[data-theme="dark"] .sim-summary,
+html[data-theme="dark"] .off-summary { box-shadow: 0 0 0 1px #ffffff14, 0 24px 40px -26px #000; }
+
+/* Desafio: o card dourado fica um pouco mais sóbrio à noite; a tela ganha brilho dourado no topo. */
+html[data-theme="dark"] .ph-challenge { background: linear-gradient(135deg, #3a3018 0%, #5a4517 60%, #6b5016 100%); border-color: #e2bd5c40; color: #f6e6b8; }
+html[data-theme="dark"] .ph-challenge h3 { color: #fbefc9; }
+html[data-theme="dark"] .ph-challenge p { color: #e0d0a3; }
+html[data-theme="dark"] .ph-ch-kicker { color: #f2cf6b; }
+html[data-theme="dark"] .ph-ch-rules li { background: #00000033; color: #f6e6b8; }
+html[data-theme="dark"] .ph-ch-start { background: #f2cf6b; color: #241b03; }
+html[data-theme="dark"] .ph-ch-record { background: #141210; box-shadow: 0 0 0 1px #e2bd5c26; }
+html[data-theme="dark"] .ch-screen { background: radial-gradient(1200px 500px at 10% -10%, #2e2715 0%, transparent 60%), var(--qs-bg); }
+html[data-theme="dark"] .ch-side,
+html[data-theme="dark"] .ch-result-hero { background-color: #0e0d0a; box-shadow: 0 0 0 1px #e2bd5c22, 0 24px 40px -26px #000; }
+html[data-theme="dark"] .ch-best { background: #0e0d0a; box-shadow: 0 0 0 1px #e2bd5c26; }
+html[data-theme="dark"] .ch-actions .qs-btn-primary:not(:disabled),
+html[data-theme="dark"] .ch-result-actions .qs-btn-primary { background: #f2cf6b; color: #241b03; }
+html[data-theme="dark"] .ch-title span,
+html[data-theme="dark"] .ch-intro span { color: #e2bd5c; }
+
+/* Ilustrações: um pouco menos de brilho sobre os fundos escuros. */
+html[data-theme="dark"] .area-art,
+html[data-theme="dark"] .sim-hero-art,
+html[data-theme="dark"] .csc-art,
+html[data-theme="dark"] .empty-illustration,
+html[data-theme="dark"] .lg-illus { filter: brightness(.88) saturate(.92); }
+
+/* Card do Simulado personalizado: gradiente noturno lilás/azul/verde. */
+html[data-theme="dark"] .custom-sim-card { background: linear-gradient(118deg, #2c2342 0%, #1d2a3e 52%, #1b3326 100%); border-color: #ffffff14; color: #dcd4f5; }
+html[data-theme="dark"] .custom-sim-card::before { background: #ffffff0f; }
+html[data-theme="dark"] .csc-copy h2 { color: #f1ecff; }
+html[data-theme="dark"] .csc-text { color: #c4bddb; }
+html[data-theme="dark"] .csc-steps span { background: #ffffff12; color: #e3dcf7; }
+html[data-theme="dark"] .csc-steps b,
+html[data-theme="dark"] .csc-cta,
+html[data-theme="dark"] .csc-number { background: #b9a6f2; color: #1b1530; }
+html[data-theme="dark"] .csc-number svg.hi { color: #1b1530; }
+
+/* Gráfico de acerto: grade, eixos e tooltip com cores do tema. */
+html[data-theme="dark"] .acc-grid { stroke: #343a35; }
+html[data-theme="dark"] .acc-tick { fill: #959c93; }
+html[data-theme="dark"] .acc-line { stroke: #e2bd5c; }
+html[data-theme="dark"] .acc-active { fill: #e2bd5c; stroke: #1b1e1c; }
+html[data-theme="dark"] .acc-cursor { stroke: #4a514c; }
+html[data-theme="dark"] .acc-tip { background: #232724; border-color: #343a35; color: #ebeee8; box-shadow: 0 12px 28px -10px #000; }
+html[data-theme="dark"] .acc-tip-row { color: #b9c0b7; }
+html[data-theme="dark"] .acc-tip-row b { color: #ebeee8; }
+
+/* Scrollbars personalizadas e seleção de texto */
+html[data-theme="dark"] ::selection { background: #e2bd5c55; color: #fff; }
+
+/* ------------------------------------------------------------------ */
+/* Controle de tema                                                     */
+/* ------------------------------------------------------------------ */
+.theme-toggle { display: flex; align-items: center; gap: 12px; width: 100%; padding: 6px 8px; border-radius: 14px; color: var(--nav-muted, #a4a6a4); text-align: left; transition: background-color .2s, color .2s; }
+.theme-toggle:hover, .theme-toggle:focus-visible { background: var(--nav-raised, #ffffff10); color: #fff; }
+.theme-toggle-icon { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 12px; background: var(--nav-raised, #ffffff10); }
+.theme-toggle-icon svg { width: 18px; height: 18px; }
+.theme-toggle-label { font-size: 13px; font-weight: 600; white-space: nowrap; }
+.side-nav:not(.is-open) .theme-toggle-label { opacity: 0; }
+@media (max-width: 760px) { .theme-toggle { display: none; } }
+
+.theme-seg { display: inline-flex; gap: 4px; padding: 4px; border-radius: 16px; background: var(--t-surface-2); border: 1px solid var(--t-border); }
+.theme-seg button { position: relative; display: inline-flex; align-items: center; gap: 7px; padding: 9px 14px; border-radius: 12px; font-size: 13px; font-weight: 600; color: var(--t-text-muted); transition: color .2s; }
+.theme-seg button svg { width: 16px; height: 16px; position: relative; z-index: 1; }
+.theme-seg button span { position: relative; z-index: 1; }
+.theme-seg button[aria-checked="true"] { color: var(--t-text); }
+.theme-seg-ind { position: absolute; inset: 0; border-radius: inherit; background: var(--t-surface); box-shadow: 0 1px 2px #0000001a, 0 4px 10px -4px #00000026; }
+html[data-theme="dark"] .theme-seg-ind { background: var(--t-surface-3); box-shadow: 0 0 0 1px #ffffff10; }
+
+/* ------------------------------------------------------------------ */
+/* Transição entre temas                                                */
+/* ------------------------------------------------------------------ */
+::view-transition-old(root),
+::view-transition-new(root) { animation-duration: .38s; animation-timing-function: cubic-bezier(.22, 1, .36, 1); }
+html.theme-fade, html.theme-fade *, html.theme-fade *::before, html.theme-fade *::after {
+  transition: background-color .35s ease, color .35s ease, border-color .35s ease, fill .35s ease, stroke .35s ease !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+}
+
+.pf-theme-card { margin-top: 24px; }
+.pf-theme-card .theme-seg { margin-top: 4px; }
+
+/* Botões sem fundo próprio: no esquema escuro o navegador pintaria "ButtonFace" cinza. */
+:where(html[data-theme="dark"] button) { background-color: transparent; }
+.theme-toggle { background: transparent; }
+
+/* Cards do mural: detalhes decorativos de fundo mais discretos à noite. */
+html[data-theme="dark"] .card-decoration { color: rgb(255 255 255 / .16); }
+html[data-theme="dark"] .card-decoration.is-small { color: rgb(255 255 255 / .1); }
+
+/* Elementos preenchidos com o tom "ink" da área: no escuro o ink é claro, então o texto fica escuro. */
+html[data-theme="dark"] .area-number,
+html[data-theme="dark"] .area-cta,
+html[data-theme="dark"] .activity-card.is-colored .save-button[aria-pressed="true"],
+html[data-theme="dark"] .activity-card.is-colored .complete-button.done,
+html[data-theme="dark"] .focus-alt.is-selected .focus-letter { color: #141615 !important; }
+html[data-theme="dark"] .area-number { border-color: var(--paper); }
+html[data-theme="dark"] .sim-config .off-opt small { color: var(--c-ink); }
+
+/* Seletor Grade | Lista de Pendentes */
+html[data-theme="dark"] .view-switch .icon-button.selected { background: transparent; box-shadow: none; color: #141615; }
+html[data-theme="dark"] .view-ind { background: #e9ece6; }

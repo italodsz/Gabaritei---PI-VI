@@ -3,35 +3,53 @@
 // conquistas com medalhas, filtro e detalhe, e o card de metas pessoais de
 // features/performance/GoalsCard.tsx). Componentes em legacy-ui.js.
 import { animate, spring, duration, ease, countTo, reduced, snapshot, flipList } from './motion-kit.js';
+import { THEME_OPTIONS, getThemePref, setThemePref, onThemeChange } from './theme.js';
 import { esc, hi, pct, tile, cardHeader, card, badge, btn, seg, switchRow, progress, rerender, playBars, playReveal, animateSwitch } from './legacy-ui.js';
 
-const ACH_ICON = { footprints: 'Footprints', flame: 'Flame', target: 'Target', trophy: 'Trophy', mountain: 'Mountain', compass: 'Compass', crosshair: 'Crosshair', rotate: 'RotateCcw', sparkles: 'Sparkles', calendar: 'Calendar', medal: 'Medal', zap: 'Zap' };
+const ACH_ICON = { footprints: 'Footprints', flame: 'CalendarRange', target: 'Target', trophy: 'Trophy', mountain: 'Mountain', compass: 'Compass', crosshair: 'Crosshair', rotate: 'RotateCcw', sparkles: 'Sparkles', calendar: 'Calendar', medal: 'Medal', zap: 'Zap' };
 const TIER_LABEL = { bronze: 'Bronze', prata: 'Prata', ouro: 'Ouro' };
+// Cores de cada nível: aro (luz → sombra), face (centro → borda), ícone gravado e fita.
 const TIER = {
-  bronze: { from: 'var(--lg-medal-bronze-from)', to: 'var(--lg-medal-bronze-to)', ring: 'var(--lg-medal-bronze-ring)', ribbon: ['var(--lg-sage)', 'var(--lg-sage-strong)'] },
-  prata: { from: 'var(--lg-medal-prata-from)', to: 'var(--lg-medal-prata-to)', ring: 'var(--lg-medal-prata-ring)', ribbon: ['var(--lg-coral)', 'var(--lg-coral-strong)'] },
-  ouro: { from: 'var(--lg-medal-ouro-from)', to: 'var(--lg-medal-ouro-to)', ring: 'var(--lg-medal-ouro-ring)', ribbon: ['var(--lg-ink)', 'var(--lg-ink-3)'] },
+  bronze: { rim: ['#f3c29f', '#9a5332'], face: ['#f8d3b6', '#c47a4e'], ink: '#5b2b14', ribbon: ['#e0714a', '#a9442a'], glow: '#c47a4e' },
+  prata: { rim: ['#ffffff', '#8592a0'], face: ['#ffffff', '#b8c2cc'], ink: '#2f3a46', ribbon: ['#6584e6', '#3a54b4'], glow: '#9aa6b2' },
+  ouro: { rim: ['#ffe8a3', '#b07d12'], face: ['#fff4c8', '#e2ab2c'], ink: '#5a3f06', ribbon: ['#3c9a62', '#226a41'], glow: '#e2ab2c' },
+  locked: { rim: ['#f1f0ec', '#cfcdc6'], face: ['#fafaf8', '#e4e2dc'], ink: '#a3a39b', ribbon: ['#dcdad4', '#c5c3bc'], glow: 'transparent' },
 };
 const initials = name => name.trim().split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('') || '?';
 const dateLong = iso => new Date(iso).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
 let medalSeq = 0;
 
 /** Medalha ilustrada (SVG) com faixa, disco metálico e ícone da conquista. */
+/** Medalha ilustrada (SVG): fita dobrada, aro em relevo, face metálica e ícone gravado. */
 export function medalHTML(a, size = 56, { shine = false } = {}) {
   const id = `m${++medalSeq}`;
-  const t = TIER[a.tier];
   const locked = !a.unlocked;
-  return `<div class="pf-medal ${locked ? 'is-locked' : ''}" style="width:${size}px;height:${size * 1.18}px">
-    <svg viewBox="0 0 64 76" width="${size}" height="${size * 1.18}" aria-hidden="true">
-      <defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:${locked ? 'var(--lg-surface-3)' : t.from}"/><stop offset="1" style="stop-color:${locked ? 'var(--lg-border-strong)' : t.to}"/></linearGradient></defs>
-      <path d="M20 2 L30 2 L36 26 L26 30 Z" style="fill:${locked ? 'var(--lg-border-strong)' : t.ribbon[0]}"/>
-      <path d="M44 2 L34 2 L28 26 L38 30 Z" style="fill:${locked ? 'var(--lg-border)' : t.ribbon[1]}"/>
-      <circle cx="32" cy="46" r="26" fill="url(#${id})"/>
-      <circle cx="32" cy="46" r="20.5" fill="none" style="stroke:${locked ? 'var(--lg-surface-2)' : t.ring}" stroke-opacity=".85" stroke-width="1.6" stroke-dasharray="2 3"/>
-      <path d="M14 36 A 22 22 0 0 1 40 23" fill="none" style="stroke:#fff" stroke-opacity="${locked ? 0.15 : 0.45}" stroke-width="3" stroke-linecap="round"/>
+  const t = TIER[locked ? 'locked' : a.tier];
+  return `<div class="pf-medal ${locked ? 'is-locked' : `tier-${a.tier}`}" style="width:${size}px;height:${size * 1.25}px;--glow:${t.glow}">
+    <svg viewBox="0 0 64 80" aria-hidden="true">
+      <defs>
+        <linearGradient id="${id}r" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${t.rim[0]}"/><stop offset="1" stop-color="${t.rim[1]}"/></linearGradient>
+        <radialGradient id="${id}f" cx=".38" cy=".32" r=".75"><stop offset="0" stop-color="${t.face[0]}"/><stop offset="1" stop-color="${t.face[1]}"/></radialGradient>
+        <linearGradient id="${id}l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.ribbon[0]}"/><stop offset="1" stop-color="${t.ribbon[1]}"/></linearGradient>
+      </defs>
+      <!-- fita: duas tiras cruzadas com dobra sombreada -->
+      <path d="M17 2h11l9 30-9 4z" fill="url(#${id}l)"/>
+      <path d="M47 2H36l-9 30 9 4z" fill="${t.ribbon[1]}"/>
+      <path d="M36 2h-3l-6 24 3 1z" fill="#000" opacity=".12"/>
+      <!-- sombra projetada -->
+      <ellipse cx="32" cy="76" rx="15" ry="2.6" fill="#000" opacity="${locked ? 0.05 : 0.12}"/>
+      <!-- aro em relevo -->
+      <circle cx="32" cy="50" r="23" fill="url(#${id}r)"/>
+      <circle cx="32" cy="50" r="23" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1"/>
+      <!-- face -->
+      <circle cx="32" cy="50" r="18" fill="url(#${id}f)"/>
+      <circle cx="32" cy="50" r="18" fill="none" stroke="#000" stroke-opacity=".12" stroke-width="1"/>
+      <circle cx="32" cy="50" r="15.2" fill="none" stroke="${locked ? '#d3d1ca' : '#fff'}" stroke-opacity="${locked ? 1 : 0.55}" stroke-width=".9" stroke-dasharray="${locked ? '2.2 2.2' : '0'}"/>
+      <!-- brilho -->
+      ${locked ? '' : '<path d="M19.5 43a13.5 13.5 0 0 1 11-9" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="2.2" stroke-linecap="round"/>'}
     </svg>
-    <span class="pf-medal-icon" style="height:${size * 0.88}px;--s:${size * 0.3}px">${hi(locked ? 'Lock' : ACH_ICON[a.icon] || 'Medal')}</span>
-    ${shine && !locked ? `<span class="pf-medal-shine" style="top:${size * 0.3}px;height:${size * 0.88}px"><i></i></span>` : ''}
+    <span class="pf-medal-icon" style="top:${size * 0.78125 - size * 0.15}px;--s:${size * 0.3}px;color:${t.ink}">${hi(locked ? 'Lock' : ACH_ICON[a.icon] || 'Medal')}</span>
+    ${shine && !locked ? `<span class="pf-medal-shine" style="top:${size * 0.5}px;width:${size * 0.5625}px;height:${size * 0.5625}px;left:${size * 0.21875}px"><i></i></span>` : ''}
   </div>`;
 }
 
@@ -46,13 +64,13 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
     const now = Date.now();
     const rs = records();
     const summary = E.summarize(rs);
-    const streak = E.computeStreak(rs, now);
+    const studyDays = new Set(rs.map(r => new Date(r.answeredAt).toDateString())).size;
     const ach = E.evaluateAchievements({ records: rs, account: account(), now });
     const unlocked = ach.filter(a => a.unlocked);
     const stats = [
       { icon: 'CheckCircle2', label: 'Questões', value: summary.answered, fmt: 'n' },
       { icon: 'Target', label: 'Acerto', value: Math.round(summary.accuracy * 100), fmt: '%' },
-      { icon: 'Flame', label: 'Sequência', value: streak.current, fmt: 'd' },
+      { icon: 'CalendarDays', label: 'Dias de estudo', value: studyDays, fmt: 'n' },
       { icon: 'Trophy', label: 'Conquistas', value: unlocked.length, fmt: `/${ach.length}` },
     ];
     root.innerHTML = `<div class="lg-page pf"><div class="pf-grid" data-stagger="0.07">
@@ -74,8 +92,9 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
       ${card(`${cardHeader('Conquistas', `${unlocked.length} de ${ach.length} desbloqueadas`, tile('Trophy', 'gold'), seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' }))}
         <div class="pf-ach-bar">${progress(unlocked.length / ach.length, 'gold', { label: 'Conquistas desbloqueadas' })}</div>
         <div class="pf-ach" id="pf-ach">${achGrid(ach)}</div>`, { cls: 'pf-span-7' })}
-    </div>${goalsHTML()}</div>`;
+    </div>${goalsHTML()}${appearanceHTML()}</div>`;
     bind(ach);
+    bindAppearance();
     playReveal(root);
     playBars(root);
     $$('[data-count]').forEach(el => { el.dataset.value = '0'; const f = el.dataset.fmt; countTo(el, Number(el.dataset.count), { seconds: 0.9, format: n => (f === '%' ? `${Math.round(n)}%` : f === 'd' ? `${Math.round(n)}d` : f.startsWith('/') ? `${Math.round(n)}${f}` : Math.round(n).toLocaleString('pt-BR')) }); });
@@ -96,6 +115,36 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
       ${medalHTML(a, 56)}<p class="pf-ach-title">${esc(a.title)}</p>
       ${a.unlocked ? `<p class="pf-ach-sub">${TIER_LABEL[a.tier]} · ${a.unlockedAt ? new Date(a.unlockedAt).toLocaleDateString('pt-BR') : ''}</p>` : `<div class="pf-ach-prog">${progress(a.progress, 'ink', { thin: true })}<p class="pf-ach-sub">${a.current}/${a.target}</p></div>`}
     </button>`).join('');
+  }
+
+  /* Aparência: tema claro, escuro ou automático (preferência salva em gabaritei:tema:v1). */
+  function appearanceHTML() {
+    const pref = getThemePref();
+    return card(`${cardHeader('Aparência', 'O tema vale para todas as páginas e fica salvo neste navegador', tile('Eye', 'sage'))}
+      <div class="theme-seg" role="radiogroup" aria-label="Tema" id="pf-theme">${THEME_OPTIONS.map(o => `<button type="button" role="radio" aria-checked="${pref === o.value}" data-theme-pref="${o.value}">${pref === o.value ? '<i class="theme-seg-ind" data-ind="theme"></i>' : ''}<svg aria-hidden="true"><use href="#i-${o.icon}"/></svg><span>${o.label}</span></button>`).join('')}</div>
+      <p class="pf-hint" id="pf-theme-hint">${pref === 'auto' ? 'Automático: acompanha o modo claro ou escuro do seu sistema.' : 'Você também pode alternar pelo botão de tema no menu lateral.'}</p>`, { cls: 'pf-theme-card' });
+  }
+  let offTheme = null;
+  function bindAppearance() {
+    const paintSeg = pref => {
+      const box = root.querySelector('#pf-theme');
+      if (!box) return;
+      const old = box.querySelector('.theme-seg-ind');
+      const from = old?.getBoundingClientRect();
+      old?.remove();
+      box.querySelectorAll('[data-theme-pref]').forEach(b => b.setAttribute('aria-checked', String(b.dataset.themePref === pref)));
+      const target = box.querySelector(`[data-theme-pref="${pref}"]`);
+      const ind = document.createElement('i');
+      ind.className = 'theme-seg-ind';
+      target.prepend(ind);
+      // Indicador desliza até a nova opção (layout animation).
+      if (from && !reduced()) { const to = ind.getBoundingClientRect(); animate(ind, { x: [from.left - to.left, 0], width: [`${from.width}px`, `${to.width}px`] }, spring.layout); }
+      const hint = root.querySelector('#pf-theme-hint');
+      if (hint) hint.textContent = pref === 'auto' ? 'Automático: acompanha o modo claro ou escuro do seu sistema.' : 'Você também pode alternar pelo botão de tema no menu lateral.';
+    };
+    root.querySelectorAll('[data-theme-pref]').forEach(b => b.onclick = () => { if (b.getAttribute('aria-checked') === 'true') return; setThemePref(b.dataset.themePref); });
+    offTheme?.();
+    offTheme = onThemeChange(pref => paintSeg(pref));
   }
 
   /* Metas pessoais (GoalsCard.tsx) */

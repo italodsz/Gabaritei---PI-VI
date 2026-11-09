@@ -106,6 +106,9 @@ export function createHistoryPage({ E, root, toast, getAccount, save, records, n
     state.tab = tab; state.open = null;
     const wrong = wrongRecords();
     const panel = $('#hist-panel');
+    // Cor do indicador antes da troca: a nova cor é interpolada junto com o deslize.
+    const oldInd = root.querySelector('.lg-tab-ind');
+    const fromColor = oldInd ? getComputedStyle(oldInd).backgroundColor : null;
     // AnimatePresence mode="wait": sai subindo 6px e o novo entra descendo 10px.
     animate(panel, { opacity: [1, 0], y: [0, -6] }, { duration: duration.fast }).then(() => {
       rerender(root, () => {
@@ -114,6 +117,8 @@ export function createHistoryPage({ E, root, toast, getAccount, save, records, n
         panel.setAttribute('aria-labelledby', `tab-hist-${tab}`);
         bindAll(wrong);
       });
+      const ind = root.querySelector('.lg-tab-ind');
+      if (ind && fromColor && !reduced()) { const to = getComputedStyle(ind).backgroundColor; if (to !== fromColor) ind.animate([{ backgroundColor: fromColor }, { backgroundColor: to }], { duration: 420, easing: 'cubic-bezier(.22,1,.36,1)' }); }
       panel.style.transform = '';
       tabContentIn(panel);
       playBars(root); playReveal(panel); listEnter();

@@ -26,7 +26,7 @@ const LOGO = '<span class="qs-logo" aria-hidden="true"><svg viewBox="0 0 24 24">
 const EASE = { out: 'cubic-bezier(0.22, 1, 0.36, 1)', emphasized: 'cubic-bezier(0.2, 0, 0, 1)', in: 'cubic-bezier(0.4, 0, 1, 1)' };
 const SPRING = { snappy: 'cubic-bezier(0.3, 1.25, 0.5, 1)', soft: 'cubic-bezier(0.22, 1, 0.36, 1)', bouncy: 'cubic-bezier(0.34, 1.7, 0.5, 1)' };
 
-export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit, onProgress, onNewList, onHome = () => {}, onHistory = () => {}, onNewSimulation = () => {}, saveToNotes = () => {}, reviewTopic = () => {} }) {
+export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit, onProgress, onNewList, onHome = () => {}, onHistory = () => {}, onNewSimulation = () => {}, saveToNotes = () => {}, reviewTopic = () => {}, nextRecommended = () => null }) {
   const root = document.createElement('div');
   root.className = 'focus-screen';
   root.id = 'focus-screen';
@@ -223,7 +223,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const total = session.questionIds.length;
     const done = answeredCount();
     $('#qs-title').textContent = session.title;
-    $('#qs-sub').textContent = `Questão ${session.currentIndex + 1} de ${total} · ${done} respondidas`;
+    $('#qs-sub').textContent = session.review ? `Revisão · ${done} de ${total} revisadas · ${session.questionIds.filter(id => session.answers[id]?.correct).length} acertadas · ${total - session.questionIds.filter(id => session.answers[id]?.correct).length} pendentes` : session.continuous ? `Prática contínua · questão ${session.currentIndex + 1} · ${done} respondidas` : `Questão ${session.currentIndex + 1} de ${total} · ${done} respondidas`;
     const isRunning = running();
     const elapsed = clockText(E.clockElapsed(session.clock, Date.now()));
     $('#qs-timer-slot').innerHTML = session.timerVisible
@@ -262,6 +262,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       <span class="qs-badge">${esc(topic?.name ?? '')}${sub ? ` · ${esc(sub)}` : ''}</span>
       <span class="qs-badge is-outline is-sm qs-push">Questão demonstrativa · ref. ${q.year}</span>
       <span class="qs-badge is-outline is-sm">${DIFFICULTY[q.difficulty] ?? ''}</span>
+      ${session.continuous && session.reasons?.[q.id] ? `<span class="qs-badge is-reason">${icons('spark')}${esc(session.reasons[q.id])}</span>` : ''}
     </div>`;
   }
 
@@ -374,7 +375,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const total = session.questionIds.length;
     const done = answeredCount();
     const isLast = session.currentIndex === total - 1;
-    const allDone = done === total;
+    const allDone = done === total && !session.continuous;
     $('#qs-actions').innerHTML = `
       <button type="button" class="qs-btn qs-btn-ghost" id="qs-prev" ${session.currentIndex === 0 ? 'disabled' : ''}>${icons('chevron-left')}Anterior</button>
       <div class="qs-actions-right">${!a?.confirmed
@@ -382,7 +383,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
            <button type="button" class="qs-btn qs-btn-primary qs-btn-lg" id="qs-confirm" ${!a?.selected || !running() ? 'disabled' : ''}>${icons('check-circle')}Confirmar resposta</button>`
         : `<button type="button" class="qs-btn qs-btn-secondary" id="qs-similar">${icons('spark')}Semelhante</button>
            <button type="button" class="qs-btn qs-btn-secondary" id="qs-random">${icons('shuffle')}Aleatória</button>
-           <button type="button" class="qs-btn ${allDone ? 'qs-btn-accent' : 'qs-btn-primary'} qs-btn-lg" id="qs-next">${allDone ? 'Ver resultado' : isLast ? 'Próxima pendente' : 'Próxima questão'}${icons(allDone ? 'flag' : 'arrow')}</button>`}
+           <button type="button" class="qs-btn ${allDone ? 'qs-btn-accent' : 'qs-btn-primary'} qs-btn-lg" id="qs-next">${allDone ? 'Ver resultado' : isLast && !session.continuous ? 'Próxima pendente' : 'Próxima questão'}${icons(allDone ? 'flag' : 'arrow')}</button>`}
       </div>`;
     const on = (id, fn) => { const el = $(id); if (el) el.onclick = fn; };
     on('#qs-prev', () => go(session.currentIndex - 1));
@@ -615,6 +616,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const i = session.currentIndex;
     const done = answeredCount();
     const pending = session.questionIds.findIndex(id => !session.answers[id]?.confirmed);
+    if (session.continuous && i === total - 1 && done === total) { appendRecommended(); return; }
     if (i < total - 1) go(i + 1);
     else if (done === total) finish();
     else if (pending >= 0) go(pending);
@@ -656,6 +658,21 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     save();
     renderPanel('qs-fav');
     if (i < 0) toast('Adicionada às favoritas');
+  }
+
+  /** Prática contínua: busca a próxima questão recomendada e a coloca logo depois da atual. */
+  function appendRecommended() {
+    const pick = nextRecommended(session);
+    if (!pick) { toast('Você zerou as recomendações por agora. Finalize para ver o resultado.'); openFinish(); return; }
+    const before = session.currentIndex;
+    const inserted = E.practice.insertNext(session, pick.id, Date.now());
+    persist({ ...inserted, reasons: { ...(session.reasons || {}), [pick.id]: pick.reason } });
+    showExplanation = true;
+    lastCurrent = before;
+    const token = ++navToken;
+    renderHeader(); renderActions(); renderPanel();
+    animate($('#qs-article'), [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-36px)' }], { duration: 220, easing: EASE.in, fill: 'forwards' })
+      .then(() => { if (token === navToken && session) renderQuestion(1); });
   }
 
   function addSimilar(kind) {

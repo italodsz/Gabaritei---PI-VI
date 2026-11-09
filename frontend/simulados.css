@@ -175,3 +175,61 @@
 .exam-screen.ex-narrow .ex-panel { position: fixed; top: 0; bottom: 0; right: 0; z-index: 50; width: 340px; max-width: calc(100vw - 48px); background: var(--lg-bg); padding: 12px; }
 .exam-screen.ex-narrow .ex-panel-card { position: static; height: 100%; max-height: none; width: auto; }
 @media (max-width: 640px) { .ex-hide-sm { display: none !important; } .ex-article { padding: 20px; } .ex-top { padding: 0 12px; } .ex-body { padding: 18px 12px; } }
+
+/* ------------------------------------------------------------------ */
+/* Quantidade 45/90 e tempo automático (tela de configuração da área)   */
+/* ------------------------------------------------------------------ */
+.off-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.off-opt { position: relative; display: flex; flex-direction: column; gap: 3px; padding: 14px 16px; border-radius: 18px; background: #f5f6f3; text-align: left; color: #2c312c; transition: background-color .2s; }
+.off-opt:hover { background: #eef0ec; }
+.off-opt.is-on { background: #f1fbef; }
+.off-opt strong { position: relative; font-size: 13px; }
+.off-opt span:not(.off-opt-ring) { position: relative; font-size: 10px; color: #586058; }
+.off-opt small { position: relative; margin-top: 4px; font-size: 10px; font-weight: 650; color: #226b47; }
+.off-opt-ring { position: absolute; inset: 0; border-radius: inherit; border: 2px solid #39a250; box-shadow: 0 6px 16px -10px #226b47; pointer-events: none; }
+.off-seg { display: inline-flex; padding: 3px; border-radius: 14px; background: #f0f1ee; }
+.off-seg button { padding: 7px 16px; border-radius: 11px; font-size: 11px; color: #586058; transition: background-color .2s, color .2s; }
+.off-seg button.is-on { background: #fff; color: #111411; font-weight: 650; box-shadow: 0 2px 6px #0000001a; }
+.sim-config .off-opt.is-on { background: var(--c-bg); }
+.sim-config .off-opt small { color: var(--c-ink); }
+.sim-config .off-opt-ring { border-color: var(--c); box-shadow: 0 6px 16px -10px var(--c-ink); }
+.sim-foreign { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 14px; font-size: 11px; font-weight: 650; color: #2c312c; }
+.sim-foreign small { font-weight: 400; font-size: 10px; color: #8a9089; }
+.sim-time { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 4px 14px; padding: 16px 18px; border-radius: 18px; background: var(--c-bg); color: var(--c-ink); }
+.sim-time-icon { grid-row: span 2; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 14px; background: #ffffffb3; }
+.sim-time-icon svg { width: 20px; height: 20px; }
+.sim-time strong { display: block; font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: -.8px; color: #111411; font-variant-numeric: tabular-nums; }
+.sim-time small { font-size: 11px; }
+.sim-time-bar { grid-column: 2; height: 6px; border-radius: 6px; background: #ffffff9e; overflow: hidden; }
+.sim-time-bar i { display: block; height: 100%; border-radius: inherit; background: var(--c-ink); transform-origin: left; transform: scaleX(var(--w)); }
+.sim-time + .sim-toggle { margin-top: 14px; }
+@media (max-width: 620px) { .off-options { grid-template-columns: 1fr; } }
+
+/* ------------------------------------------------------------------ */
+/* Card de destaque: Simulado personalizado (linha própria)            */
+/* ------------------------------------------------------------------ */
+.custom-sim-card { --csc-ink: #3b2f6b; position: relative; isolation: isolate; display: flex; align-items: center; justify-content: space-between; gap: 24px; width: 100%; margin-top: 38px; padding: 30px 32px; border-radius: 26px; border: 1px solid #3b2f6b26; background: linear-gradient(118deg, #ecdcfd 0%, #dcebfd 52%, #d9f6e2 100%); color: var(--csc-ink); text-align: left; box-shadow: 0 3px 0 #ffffff6e inset; overflow: hidden; cursor: pointer; transition: transform .25s, box-shadow .25s; }
+.custom-sim-card::before { content: ''; position: absolute; z-index: -1; right: 40px; top: 50%; width: 230px; height: 200px; translate: 0 -50%; border-radius: 52% 48% 44% 56% / 55% 38% 62% 45%; background: #ffffff8c; transform: rotate(-9deg); }
+.custom-sim-card::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(125deg, #fff5, transparent 55%); pointer-events: none; }
+.custom-sim-card:hover { transform: translateY(-4px); box-shadow: 0 18px 30px -22px #3b2f6b, 0 3px 0 #ffffff70 inset; }
+.custom-sim-card:active { transform: translateY(-1px) scale(.995); }
+.custom-sim-card:focus-visible { outline: 3px solid #8b6ee0; outline-offset: 3px; }
+.csc-number { left: 26px; top: 14px; background: var(--csc-ink); width: 32px; height: 32px; position: absolute; }
+.csc-number svg.hi { --hi-size: 15px; color: #fff; }
+.csc-copy { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: flex-start; max-width: 560px; padding-top: 10px; }
+.csc-copy .area-kicker { margin-bottom: 10px; }
+.csc-copy h2 { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 500; font-size: 30px; letter-spacing: -.7px; margin: 0 0 8px; color: #1d1838; }
+.csc-text { font-size: 11px; line-height: 1.65; max-width: 470px; color: #3b3559; }
+.csc-steps { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+.csc-steps span { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px 5px 5px; border-radius: 20px; background: #ffffffb3; font-size: 10px; font-weight: 600; }
+.csc-steps b { display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--csc-ink); color: #fff; font-size: 9px; }
+.csc-cta { background: var(--csc-ink); margin-top: 16px; }
+.custom-sim-card:hover .csc-cta svg { translate: 3px 0; }
+.csc-art { position: relative; z-index: 1; flex-shrink: 0; width: 210px; height: 182px; margin-right: 12px; pointer-events: none; user-select: none; }
+.custom-sim-card + .area-grid { margin-top: 30px; }
+@media (max-width: 760px) {
+  .custom-sim-card { flex-direction: column-reverse; align-items: flex-start; padding: 26px 22px 22px; }
+  .csc-art { width: 150px; height: 130px; align-self: flex-end; margin: -10px 0 -20px; }
+  .custom-sim-card::before { right: 10px; top: 80px; width: 160px; height: 140px; }
+}
+@media (prefers-reduced-motion: reduce) { .custom-sim-card:hover { transform: none; } }

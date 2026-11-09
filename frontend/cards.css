@@ -163,3 +163,68 @@
 .danger-button:hover { background: #84220f; }
 .danger-button svg { width: 16px; height: 16px; }
 @media (prefers-reduced-motion: reduce) { .card-menu { animation: none; } }
+
+/* Play centralizado: triângulo simétrico no centro óptico do círculo (sem deslocamento extra). */
+.play-button svg { margin-left: 1px; }
+
+/* ------------------------------------------------------------------ */
+/* Praticar: hub de prática contínua                                   */
+/* ------------------------------------------------------------------ */
+.learning-canvas[data-view="practice"] .stats,
+.learning-canvas[data-view="practice"] .connections { display: none; }
+.learning-canvas[data-view="practice"] .activities { display: block; }
+.practice-hub { display: grid; gap: 18px; }
+.ph-main { position: relative; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 26px; padding: 30px; border-radius: 28px; background: #111411; color: #fff; overflow: hidden; box-shadow: 0 24px 40px -28px #000000b3; }
+.ph-main::before { content: ''; position: absolute; right: -90px; top: -110px; width: 320px; height: 320px; border-radius: 50%; background: radial-gradient(circle, #c4fcc333, transparent 70%); pointer-events: none; }
+.ph-main-copy { position: relative; display: flex; flex-direction: column; align-items: flex-start; }
+.ph-kicker { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 700; letter-spacing: 1.4px; color: #c4fcc3; }
+.ph-kicker svg { width: 13px; height: 13px; }
+.ph-main h2 { margin: 10px 0 8px; font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 500; font-size: 32px; letter-spacing: -.8px; color: #fff; }
+.ph-main p { font-size: 12px; line-height: 1.65; color: #c9cec8; max-width: 440px; }
+.ph-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+.ph-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 20px; background: #ffffff14; color: #dfe3de; font-size: 10px; }
+.ph-chip svg { width: 13px; height: 13px; color: #c4fcc3; }
+.ph-chip b { color: #fff; font-variant-numeric: tabular-nums; }
+.ph-start { margin-top: 22px; display: inline-flex; align-items: center; gap: 10px; height: 48px; padding: 0 22px 0 16px; border-radius: 18px; background: #c4fcc3; color: #111411; font-weight: 700; font-size: 14px; transition: box-shadow .2s, background-color .2s; }
+.ph-start:hover { background: #d6fdd5; box-shadow: 0 0 0 4px #c4fcc340; }
+.ph-start svg { width: 18px; height: 18px; fill: currentColor; stroke: none; }
+.ph-start small { margin-left: 6px; font-size: 11px; font-weight: 600; opacity: .65; }
+.ph-queue { position: relative; align-self: stretch; display: flex; flex-direction: column; padding: 18px; border-radius: 20px; background: #ffffff0d; border: 1px solid #ffffff17; }
+.ph-queue-label { font-size: 9px; font-weight: 700; letter-spacing: 1.4px; color: #a4aaa3; }
+.ph-queue ol { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.ph-queue li { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border-radius: 14px; background: #ffffff0a; }
+.ph-dot { flex-shrink: 0; width: 9px; height: 9px; margin-top: 4px; border-radius: 50%; background: var(--area-halo, #c4fcc3); }
+.ph-dot.area-linguagens { background: #f4a385; } .ph-dot.area-humanas { background: #f4d885; } .ph-dot.area-natureza { background: #93e6a5; } .ph-dot.area-matematica { background: #8fa1eb; }
+.ph-next-copy { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.ph-next-copy strong { font-size: 12px; font-weight: 600; color: #fff; }
+.ph-next-copy small { font-size: 10px; color: #a9afa8; }
+.ph-queue-foot { margin-top: auto; padding-top: 12px; font-size: 9px; color: #8a9089; }
+.ph-modes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.ph-mode { display: flex; align-items: flex-start; gap: 14px; padding: 20px; border-radius: 22px; background: #fff; border: 1.5px dashed #d7dbd4; }
+.ph-mode-icon { flex-shrink: 0; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 14px; background: #f0f1ee; color: #4b524a; }
+.ph-mode-icon svg { width: 19px; height: 19px; }
+.ph-mode > div { flex: 1; min-width: 0; }
+.ph-mode-tag { display: inline-block; padding: 3px 8px; border-radius: 10px; background: #fff3d1; color: #7a5a10; font-size: 9px; font-weight: 700; letter-spacing: .3px; }
+.ph-mode h3 { margin: 8px 0 4px; font-size: 16px; letter-spacing: -.3px; }
+.ph-mode p { font-size: 11px; line-height: 1.55; color: #6c726b; }
+.ph-mode-btn { flex-shrink: 0; align-self: center; padding: 8px 12px; border-radius: 14px; background: #f0f1ee; color: #8a9089; font-size: 11px; font-weight: 600; cursor: not-allowed; }
+@media (max-width: 1020px) { .ph-main { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .ph-modes { grid-template-columns: 1fr; } .ph-main { padding: 22px; } .ph-mode { flex-wrap: wrap; } }
+
+/* Motivo da recomendação, na tela de questões. */
+.qs-badge.is-reason { background: #effbe9; color: #226b47; border-color: transparent; }
+.qs-badge.is-reason svg { width: 12px; height: 12px; }
+
+/* ------------------------------------------------------------------ */
+/* Início × Pendentes (mesma área #plan-page)                          */
+/* ------------------------------------------------------------------ */
+/* Início: só os modos de prática — sem seletor de visualização e sem busca de atividades. */
+#plan-page[data-board="inicio"] .view-switch,
+#plan-page[data-board="inicio"] .heading-tools .search { display: none; }
+/* Pendentes: Grade | Lista com indicador que desliza entre os botões. */
+.view-switch { position: relative; }
+.view-switch .icon-button { position: relative; z-index: 1; }
+.view-switch .icon-button.selected { background: transparent; }
+.view-ind { position: absolute; z-index: 0; border-radius: 50%; background: #111411; pointer-events: none; }
+.view-switch .icon-button.selected { color: #fff; }
+.view-ind { box-shadow: 0 3px 9px #0002; }

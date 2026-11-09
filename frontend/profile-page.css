@@ -104,6 +104,88 @@
 @media (max-width: 1023px) { .pf-ach { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 640px) { .pf-fields { grid-template-columns: 1fr; } .pf-ach, .pf-goals, .pf-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .pf-id { min-width: 0; flex-basis: 100%; } }
 @media (prefers-reduced-motion: reduce) { .pf-medal-shine i { animation: none; } .pf-ach-item { transition: none; } }
-.pf-medal svg { width: 100%; height: 100%; }
+.pf-medal > svg { width: 100%; height: 100%; }
 .pf-ring svg { width: 88px; height: 88px; }
 .side-bottom .profile-wrapper.is-current .avatar { box-shadow: 0 0 0 2px var(--nav-bg), 0 0 0 4px var(--nav-accent); }
+
+/* Medalhas redesenhadas */
+.pf-medal { transition: transform .45s cubic-bezier(.34, 1.56, .64, 1), filter .3s; transform-origin: 50% 8%; }
+.pf-medal > svg { overflow: visible; }
+.pf-medal:not(.is-locked) svg { filter: drop-shadow(0 4px 6px color-mix(in srgb, var(--glow) 35%, transparent)); }
+.pf-medal.is-locked svg { opacity: 1; filter: none; }
+.pf-medal-icon { position: absolute; left: 0; right: 0; bottom: auto; height: calc(var(--s) * 1); display: grid; place-items: center; }
+.pf-medal-icon svg.hi { --hi-size: var(--s); }
+.pf-medal-icon svg.hi path { stroke-width: 1.8; }
+.pf-medal-shine { position: absolute; overflow: hidden; border-radius: 50%; pointer-events: none; }
+.pf-ach-item:hover .pf-medal:not(.is-locked) { transform: rotate(-7deg) scale(1.06); }
+/* Cards conforme o nível */
+.pf-ach-item.is-on { border-color: #ecd9b5; background: #fdf8ee; }
+.pf-ach-item.is-on:hover { background: #faf1de; }
+.pf-ach-item.is-on:has(.tier-bronze) { border-color: #f0d6c6; background: #fdf4ee; }
+.pf-ach-item.is-on:has(.tier-bronze):hover { background: #fbeadf; }
+.pf-ach-item.is-on:has(.tier-prata) { border-color: #d8dfe7; background: #f5f7fa; }
+.pf-ach-item.is-on:has(.tier-prata):hover { background: #ebeff4; }
+.pf-ach-item:not(.is-on) { border-style: dashed; border-color: #dcd8cd; background: #faf9f6; }
+.pf-ach-item:not(.is-on) .pf-ach-title { color: var(--lg-fg-muted); }
+@media (prefers-reduced-motion: reduce) { .pf-medal { transition: none; } }
+.pf-medal-icon svg.hi { width: var(--s); height: var(--s); }
+
+/* Paleta do Perfil alinhada ao restante do Gabaritei: em vez do grafite, dourado
+   e creme do front anterior, usa o fundo claro neutro, o painel verde-escuro com
+   detalhes em menta (como no resultado e no Histórico), o lilás do avatar do menu
+   e as cores atuais das áreas. Só vale dentro do Perfil (.lg-page.pf). */
+.lg-page.pf {
+  --lg-bg: #f8f9f8;
+  --lg-bg-deep: #eef1ec;
+  --lg-surface: #ffffff;
+  --lg-surface-2: #f2f4f0;
+  --lg-surface-3: #e6eae3;
+  --lg-border: #e6ebe2;
+  --lg-border-strong: #c9d3c3;
+  --lg-fg: #111312;
+  --lg-fg-muted: #4d554b;
+  --lg-fg-subtle: #737a71;
+  --lg-ink: #1e3023;
+  --lg-ink-3: #2c4433;
+  --lg-on-ink: #ffffff;
+  --lg-on-ink-muted: #c3d3bf;
+  --lg-ink-raised: rgb(255 255 255 / .07);
+  --lg-ink-raised-strong: rgb(255 255 255 / .12);
+  --lg-ink-line: rgb(255 255 255 / .12);
+  --lg-primary: #235c3c;
+  --lg-primary-hover: #16452b;
+  --lg-on-primary: #ffffff;
+  --lg-gold: #5fd47f;
+  --lg-gold-strong: #2f8a4c;
+  --lg-gold-soft: #dcf7e3;
+  --lg-gold-fg: #1f5a33;
+  --lg-on-gold: #10240f;
+  --lg-sage: #a6dbfb;
+  --lg-sage-strong: #1f5f8f;
+  --lg-sage-soft: #e0f1fd;
+  --lg-coral: #f0a3b0;
+  --lg-coral-strong: #9b3346;
+  --lg-coral-soft: #fde4e8;
+  --lg-success: #2f8a4c;
+  --lg-success-soft: #dcf7e3;
+  --lg-danger: #b3402f;
+  --lg-danger-soft: #fbe5df;
+  --lg-warning: #a5750f;
+  --lg-warning-soft: #fdf0cf;
+  --lg-focus: #2f8a4c;
+  --lg-linguagens: #be471c; --lg-linguagens-strong: #953c1a; --lg-linguagens-soft: #f9cdbd;
+  --lg-humanas: #e4b324; --lg-humanas-strong: #7b651c; --lg-humanas-soft: #f9eabd;
+  --lg-natureza: #39a250; --lg-natureza-strong: #2c703a; --lg-natureza-soft: #c5f2ce;
+  --lg-matematica: #3e5ac6; --lg-matematica-strong: #364ea6; --lg-matematica-soft: #c3cdf4;
+  --lg-shadow-xs: 0 1px 2px rgb(17 19 18 / .05);
+  --lg-shadow-sm: 0 1px 2px rgb(17 19 18 / .04), 0 4px 12px -2px rgb(17 19 18 / .06);
+  --lg-shadow-md: 0 2px 4px rgb(17 19 18 / .04), 0 12px 28px -8px rgb(17 19 18 / .12);
+  --lg-shadow-lg: 0 4px 8px rgb(17 19 18 / .05), 0 24px 56px -16px rgb(17 19 18 / .22);
+}
+/* Avatar no mesmo lilás do avatar do menu. */
+.lg-page.pf .pf-avatar { background: #edc5fb; color: #352b44; box-shadow: 0 0 0 4px rgb(255 255 255 / .12); }
+/* Conquistas bloqueadas: tracejado neutro (sem o bege antigo). */
+.lg-page.pf .pf-ach-item:not(.is-on) { border-color: #d9dfd5; background: #f9faf8; }
+/* Fundo da página e das metas no tom neutro do app (eram creme). */
+.legacy-ui:has(> .lg-page.pf) { background: #f8f9f8; }
+.lg-page.pf .pf-goal { background: #f2f4f0; }

@@ -23,8 +23,8 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
   const $ = s => root.querySelector(s);
   const $$ = s => [...root.querySelectorAll(s)];
   let mode = 'practice';
-  const practice = { tab: 'montar', subjectId: null, topicIds: [], subtopicIds: [], years: [], count: 10, timer: true, expanded: null, aiCount: 10 };
-  const sim = { tab: 'conteudo', subjectIds: [], topicIds: [], subtopicIds: [], years: [], size: 20, criteria: 'balanced', pace: 'padrao', timerVisible: true, expanded: null };
+  const practice = { tab: 'montar', subjectIds: [], topicIds: [], subtopicIds: [], years: [], count: 10, timer: true, expanded: null, aiCount: 10, openBlock: null, picker: false };
+  const sim = { tab: 'conteudo', subjectIds: [], topicIds: [], subtopicIds: [], years: [], size: 20, criteria: 'balanced', pace: 'padrao', timerVisible: true, expanded: null, openBlock: null, picker: false };
   let lastSummary = null;
   let initialised = false;
 
@@ -41,19 +41,20 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
   /* ---------------------------------------------------------------- */
   const stats = () => new Map(E.topicStats(records()).map(t => [t.topicId, t]));
   const recs = () => E.recommendTopics({ records: records(), difficultSubjects: account().onboarding.difficultSubjects, now: Date.now(), limit: 6 });
-  function practicePool() { return E.availableForFilters({ subjectId: practice.subjectId, topicIds: practice.topicIds, subtopicIds: practice.subtopicIds, years: practice.years, count: practice.count }); }
-  /** Simulado: união das matérias escolhidas (ou todas), respeitando assuntos, subtópicos e anos. */
-  function simPool() {
-    const subjects = sim.subjectIds.length ? sim.subjectIds : E.SUBJECTS.map(s => s.id);
+  /** União das matérias escolhidas (ou todas), respeitando assuntos, subtópicos e anos. */
+  function poolFor(st) {
+    const subjects = st.subjectIds.length ? st.subjectIds : E.SUBJECTS.map(x => x.id);
     const out = [];
     for (const sid of subjects) {
       const subject = E.SUBJECT_BY_ID[sid];
-      const topicIds = sim.topicIds.filter(t => subject.topics.some(x => x.id === t));
-      const subtopicIds = sim.subtopicIds.filter(st => topicIds.some(t => st.startsWith(`${t}.`)));
-      out.push(...E.questionRepository.query({ subjectId: sid, topicIds, subtopicIds, years: sim.years }));
+      const topicIds = st.topicIds.filter(t => subject.topics.some(x => x.id === t));
+      const subtopicIds = st.subtopicIds.filter(sub => topicIds.some(t => sub.startsWith(`${t}.`)));
+      out.push(...E.questionRepository.query({ subjectId: sid, topicIds, subtopicIds, years: st.years }));
     }
     return [...new Map(out.map(q => [q.id, q])).values()];
   }
+  const practicePool = () => poolFor(practice);
+  const simPool = () => poolFor(sim);
   const pace = () => PACES.find(p => p.value === sim.pace);
 
   /* ---------------------------------------------------------------- */
@@ -70,7 +71,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     enterSummary();
   }
   function headerHTML() {
-    if (mode === 'practice') return pageHeader('Prática', 'Monte sua lista de questões', 'Escolha matéria, assuntos e quantidade — ou deixe as recomendações decidirem por você.');
+    if (mode === 'practice') return pageHeader('Prática', 'Monte sua lista de questões', 'Adicione as matérias que quer estudar e, se quiser, escolha assuntos e subtópicos. Sem quantidade fixa: responda quantas quiser.');
     return `<button type="button" class="cfg-back" id="cfg-back" data-press>${hi('ArrowLeft')}Voltar às áreas</button>${pageHeader('Simulado personalizado', 'Monte seu simulado', 'Escolha matérias, assuntos, anos e o formato da prova. No simulado, a correção acontece só quando você finaliza.', `<span class="cfg-demo">${hi('Info')}Acervo demonstrativo: as questões são autorais, não provas oficiais.</span>`)}`;
   }
   function tabsHTML() {
@@ -91,62 +92,91 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
 
   /** Estado unificado das duas versões (lista e simulado). */
   const S = () => (mode === 'practice' ? practice : sim);
-  const selectedSubjects = () => (mode === 'practice' ? (practice.subjectId ? [practice.subjectId] : []) : sim.subjectIds);
+  const selectedSubjects = () => S().subjectIds;
 
-  function subjectsCard() {
-    const st = stats();
-    const groups = AREA_ORDER.map(areaId => {
-      const area = E.AREA_BY_ID[areaId];
-      return `<div><p class="lg-section-label cfg-area-label">${esc(area.shortName)}</p><div class="cfg-pills" role="${mode === 'practice' ? 'radiogroup' : 'group'}" aria-label="${esc(area.shortName)}">${E.subjectsOfArea(areaId).map(s => {
-        const on = selectedSubjects().includes(s.id);
-        const answered = st.size ? s.topics.reduce((n, t) => n + (st.get(t.id)?.answered ?? 0), 0) : 0;
-        return `<button type="button" class="cfg-pill ${on ? 'is-on' : ''}" role="${mode === 'practice' ? 'radio' : 'checkbox'}" aria-checked="${on}" data-subject="${s.id}" data-focus="subject-${s.id}" data-press="0.95">${on ? `<span class="cfg-pill-bg" ${mode === 'practice' ? 'data-indicator="subject-pill"' : ''}></span>` : ''}${hi(SUBJECT_ICON[s.id])}<span>${esc(s.name)}</span>${answered > 0 ? `<span class="cfg-pill-count">${answered}</span>` : ''}</button>`;
-      }).join('')}</div></div>`;
-    }).join('');
-    const desc = mode === 'practice' ? 'Selecione uma matéria ou deixe em branco para misturar todas.' : 'Selecione uma ou mais matérias. Sem seleção, o simulado mistura as quatro áreas.';
-    return card(`${cardHeader(mode === 'practice' ? '1. Matéria' : '1. Matérias e áreas', desc, tile('BookOpenCheck', 'gold'), mode === 'simulation' && sim.subjectIds.length ? btn('Limpar', { variant: 'ghost', size: 'sm', extra: { id: 'cfg-clear-subjects' } }) : '')}<div class="cfg-groups">${groups}</div>`);
+  /** Quantas questões uma matéria contribui com os filtros atuais. */
+  function subjectCount(sid) {
+    const st = S();
+    const subject = E.SUBJECT_BY_ID[sid];
+    const topicIds = st.topicIds.filter(t => subject.topics.some(x => x.id === t));
+    const subtopicIds = st.subtopicIds.filter(sub => topicIds.some(t => sub.startsWith(`${t}.`)));
+    return E.questionRepository.query({ subjectId: sid, topicIds, subtopicIds, years: st.years }).length;
   }
-
-  function topicsCard() {
+  function blockSummary(sid) {
+    const subject = E.SUBJECT_BY_ID[sid];
+    const chosen = S().topicIds.filter(t => subject.topics.some(x => x.id === t)).length;
+    const n = subjectCount(sid);
+    return `${chosen ? `${chosen} ${chosen === 1 ? 'assunto' : 'assuntos'}` : 'Todos os assuntos'} · ${n} ${n === 1 ? 'questão' : 'questões'}`;
+  }
+  function topicRowsHTML(subject) {
     const st = stats();
-    const subjects = selectedSubjects().map(id => E.SUBJECT_BY_ID[id]);
     const s = S();
-    let body;
-    if (!subjects.length) {
-      const weakest = E.rankTopics(records()).weakest.slice(0, 6);
-      body = `<div class="cfg-weak"><p>Ou comece pelos assuntos em que você tem mais dificuldade:</p>${weakest.length ? `<div class="cfg-chips">${weakest.map(t => chip(`${esc(t.name)} <span class="cfg-chip-n">${pct(t.accuracy)}</span>`, false, { 'data-weak': t.topicId }, { icon: `<span class="cfg-warn">${hi('AlertTriangle')}</span>` })).join('')}</div>` : '<p class="cfg-nodata">Ainda não há dados suficientes. Responda algumas questões para descobrir seus pontos de atenção.</p>'}</div>`;
-    } else {
-      body = subjects.map(subject => `${subjects.length > 1 ? `<p class="lg-section-label cfg-topic-subject">${esc(subject.name)}</p>` : ''}<ul class="cfg-topics">${subject.topics.map(topic => {
-        const on = s.topicIds.includes(topic.id);
-        const open = s.expanded === topic.id;
-        const t = st.get(topic.id);
-        const count = E.questionRepository.query({ topicIds: [topic.id], years: s.years }).length;
-        const weak = t && t.answered >= 4 && t.smoothed < 0.55;
-        return `<li data-topic-row="${topic.id}"><div class="cfg-topic">${checkbox(on, `<span class="cfg-topic-name">${esc(topic.name)}</span>`, { 'data-topic': topic.id, 'data-focus': `topic-${topic.id}` })}${weak ? badge('Maior dificuldade', 'coral', 'AlertTriangle', 'sm') : ''}<span class="cfg-topic-count">${count} ${count === 1 ? 'questão' : 'questões'}${t ? ` · ${pct(t.accuracy)} de acerto` : ''}</span>${topic.subtopics.length > 1 ? `<button type="button" class="cfg-expand" data-expand="${topic.id}" aria-expanded="${open}" aria-label="${open ? 'Ocultar' : 'Mostrar'} subtópicos de ${esc(topic.name)}"><span class="cfg-expand-chev" style="${open ? 'rotate:180deg' : ''}">${hi('ChevronDown')}</span></button>` : ''}</div>${open && topic.subtopics.length > 1 ? subtopicsHTML(topic) : ''}</li>`;
-      }).join('')}</ul>`).join('');
-    }
-    const desc = subjects.length === 1 ? `Marque um ou mais assuntos de ${esc(subjects[0].name)}. Sem marcação, todos entram.` : subjects.length > 1 ? 'Marque assuntos de cada matéria. Matérias sem marcação entram com todos os assuntos.' : 'Escolha uma matéria para ver os assuntos.';
-    return card(`${cardHeader('2. Assuntos e subtópicos', desc, tile('Layers', 'sage'))}${body}`);
+    return `<ul class="cfg-topics">${subject.topics.map(topic => {
+      const on = s.topicIds.includes(topic.id);
+      const open = s.expanded === topic.id;
+      const t = st.get(topic.id);
+      const count = E.questionRepository.query({ topicIds: [topic.id], years: s.years }).length;
+      const weak = t && t.answered >= 4 && t.smoothed < 0.55;
+      return `<li data-topic-row="${topic.id}"><div class="cfg-topic">${checkbox(on, `<span class="cfg-topic-name">${esc(topic.name)}</span>`, { 'data-topic': topic.id, 'data-focus': `topic-${topic.id}` })}${weak ? badge('Maior dificuldade', 'coral', 'AlertTriangle', 'sm') : ''}<span class="cfg-topic-count">${count} ${count === 1 ? 'questão' : 'questões'}${t ? ` · ${pct(t.accuracy)} de acerto` : ''}</span>${topic.subtopics.length > 1 ? `<button type="button" class="cfg-expand" data-expand="${topic.id}" aria-expanded="${open}" aria-label="${open ? 'Ocultar' : 'Mostrar'} subtópicos de ${esc(topic.name)}"><span class="cfg-expand-chev" style="${open ? 'rotate:180deg' : ''}">${hi('ChevronDown')}</span></button>` : ''}</div>${open && topic.subtopics.length > 1 ? subtopicsHTML(topic) : ''}</li>`;
+    }).join('')}</ul>`;
+  }
+  function blockHTML(sid) {
+    const subject = E.SUBJECT_BY_ID[sid];
+    const area = E.AREA_BY_ID[subject.areaId];
+    const open = S().openBlock === sid;
+    return `<section class="cfg-block ${open ? 'is-open' : ''}" data-block="${sid}" data-area="${subject.areaId}">
+      <header class="cfg-block-head">
+        <button type="button" class="cfg-block-toggle" data-block-toggle="${sid}" aria-expanded="${open}" aria-controls="cfg-block-body-${sid}">
+          ${tile(SUBJECT_ICON[sid], subject.areaId, 'sm')}
+          <span class="cfg-block-copy"><strong>${esc(subject.name)}</strong><small><span>${esc(area.shortName)}</span> · <span data-block-summary="${sid}">${blockSummary(sid)}</span></small></span>
+          <span class="cfg-block-chev" style="${open ? 'rotate:180deg' : ''}">${hi('ChevronDown')}</span>
+        </button>
+        <button type="button" class="cfg-block-remove" data-remove="${sid}" aria-label="Remover ${esc(subject.name)}" title="Remover matéria">${hi('X')}</button>
+      </header>
+      ${open ? `<div class="cfg-block-body" id="cfg-block-body-${sid}">${topicRowsHTML(subject)}</div>` : ''}
+    </section>`;
+  }
+  function pickerHTML() {
+    const chosen = S().subjectIds;
+    return `<div class="cfg-picker" id="cfg-picker" role="dialog" aria-label="Escolher matéria">
+      <div class="cfg-picker-head"><strong>Escolha uma matéria</strong><button type="button" class="cfg-picker-close" id="cfg-picker-close" aria-label="Fechar seletor">${hi('X')}</button></div>
+      <div class="cfg-picker-groups">${AREA_ORDER.map(areaId => `<div class="cfg-picker-group"><p class="lg-section-label">${esc(E.AREA_BY_ID[areaId].shortName)}</p><div class="cfg-picker-items">${E.subjectsOfArea(areaId).map(sub => {
+        const added = chosen.includes(sub.id);
+        const n = E.questionRepository.query({ subjectId: sub.id, years: S().years }).length;
+        return `<button type="button" class="cfg-pick ${added ? 'is-added' : ''}" data-pick="${sub.id}" data-area="${areaId}" ${added ? 'disabled aria-disabled="true"' : ''}>${tile(SUBJECT_ICON[sub.id], areaId, 'sm')}<span><strong>${esc(sub.name)}</strong><small>${added ? 'Já adicionada' : `${n} ${n === 1 ? 'questão' : 'questões'}`}</small></span>${added ? hi('Check') : hi('Plus')}</button>`;
+      }).join('')}</div></div>`).join('')}</div>
+    </div>`;
+  }
+  function blocksCard() {
+    const s = S();
+    const weakest = s.subjectIds.length ? [] : E.rankTopics(records()).weakest.slice(0, 6);
+    const desc = s.subjectIds.length
+      ? 'Abra uma matéria para escolher assuntos. Matérias sem assunto marcado entram inteiras.'
+      : (mode === 'practice' ? 'Sem matérias, a lista mistura todo o acervo.' : 'Sem matérias, o simulado mistura as quatro áreas.');
+    const emptyHTML = s.subjectIds.length ? '' : `<div class="cfg-empty-blocks"><p>Nenhuma matéria adicionada ainda.</p>${weakest.length ? `<div class="cfg-weak"><p>Ou comece pelos assuntos em que você tem mais dificuldade:</p><div class="cfg-chips">${weakest.map(t => chip(`${esc(t.name)} <span class="cfg-chip-n">${pct(t.accuracy)}</span>`, false, { 'data-weak': t.topicId }, { icon: `<span class="cfg-warn">${hi('AlertTriangle')}</span>` })).join('')}</div></div>` : ''}</div>`;
+    return card(`${cardHeader('1. Matérias e assuntos', desc, tile('BookOpenCheck', 'gold'), s.subjectIds.length ? btn('Limpar', { variant: 'ghost', size: 'sm', extra: { id: 'cfg-clear-subjects' } }) : '')}
+      <div class="cfg-blocks" id="cfg-blocks">${s.subjectIds.map(blockHTML).join('')}</div>${emptyHTML}
+      <div class="cfg-add-wrap"><button type="button" class="cfg-add" id="cfg-add" aria-expanded="${s.picker}" aria-controls="cfg-picker" data-press="0.97"><span class="cfg-add-plus">${hi('Plus')}</span>${s.subjectIds.length ? 'Adicionar outra matéria' : 'Adicionar matéria'}</button>${s.picker ? pickerHTML() : ''}</div>`, { cls: 'cfg-subjects-card' });
   }
   const subtopicsHTML = topic => `<div class="cfg-collapse"><div class="cfg-subs">${topic.subtopics.map(sub => chip(esc(sub.name), S().subtopicIds.includes(sub.id), { 'data-sub': sub.id, 'data-parent': topic.id, 'data-focus': `sub-${sub.id}` })).join('')}</div></div>`;
 
   function yearsBlock() {
     const s = S();
-    return `${cardHeader(mode === 'practice' ? '4. Ano de referência' : '3. Anos de referência', 'Filtro opcional. Sem seleção, todos os anos.', tile('CalendarRange', 'matematica'))}<div class="cfg-chips">${E.REFERENCE_YEARS.map(y => chip(String(y), s.years.includes(y), { 'data-year': y, 'data-focus': `year-${y}` }, { tone: 'ink' })).join('')}</div><p class="cfg-hint">No acervo demonstrativo, o ano é apenas uma etiqueta de referência — as questões não são provas oficiais.</p>`;
+    return `${cardHeader(mode === 'practice' ? '2. Ano de referência' : '2. Anos de referência', 'Filtro opcional. Sem seleção, todos os anos.', tile('CalendarRange', 'matematica'))}<div class="cfg-chips">${E.REFERENCE_YEARS.map(y => chip(String(y), s.years.includes(y), { 'data-year': y, 'data-focus': `year-${y}` }, { tone: 'ink' })).join('')}</div><p class="cfg-hint">No acervo demonstrativo, o ano é apenas uma etiqueta de referência — as questões não são provas oficiais.</p>`;
   }
 
   function buildHTML() {
     if (mode === 'practice') {
       return `<div class="lg-grid"><div class="lg-col-8 lg-stack" data-stagger="0.06">
-        ${subjectsCard()}${topicsCard()}
-        ${card(`<div class="cfg-two"><div>${cardHeader('3. Quantidade', 'Número de questões da lista.', tile('ListChecks', 'coral'))}${seg('count', practice.count, E.PRACTICE_COUNTS.map(c => ({ value: c, label: String(c) })), { aria: 'Quantidade de questões' })}</div><div>${yearsBlock()}</div></div>`)}
+        ${blocksCard()}
+        ${card(yearsBlock())}
       </div>${summaryHTML()}</div>`;
     }
     const content = sim.tab === 'conteudo'
-      ? `${subjectsCard()}${topicsCard()}${card(yearsBlock())}`
-      : `${card(`${cardHeader('4. Tamanho do simulado', 'Quantidade de questões da prova.', tile('ListChecks', 'coral'))}${seg('size', sim.size, E.SIMULATION_SIZES.map(c => ({ value: c, label: String(c) })), { aria: 'Tamanho do simulado' })}<p class="cfg-hint">As questões são agrupadas por área, na ordem da prova.</p>`)}
-         ${card(`${cardHeader('5. Critério de seleção', 'Como as questões são escolhidas entre as disponíveis.', tile('Shuffle', 'sage'))}<div class="cfg-criteria" role="radiogroup" aria-label="Critério de seleção">${CRITERIA.map(c => `<button type="button" role="radio" class="cfg-criterion ${sim.criteria === c.value ? 'is-on' : ''}" aria-checked="${sim.criteria === c.value}" data-criteria="${c.value}" data-focus="crit-${c.value}" data-press="0.98">${sim.criteria === c.value ? '<span class="cfg-criterion-ring" data-indicator="criteria"></span>' : ''}${tile(c.icon, sim.criteria === c.value ? 'gold' : 'neutral', 'sm')}<strong>${c.label}</strong><span>${c.text}</span></button>`).join('')}</div>`)}
-         ${card(`${cardHeader('6. Cronômetro', 'Tempo total da prova, em contagem regressiva.', tile('Hourglass', 'gold'))}${seg('pace', sim.pace, PACES.map(p => ({ value: p.value, label: p.label })), { aria: 'Ritmo do cronômetro' })}<p class="cfg-hint">${pace().hint}. Faltando 15 minutos, você recebe um aviso.</p><div class="cfg-switch">${switchRow('cfg-timer-visible', sim.timerVisible, 'Cronômetro visível', 'Você pode ocultá-lo durante a prova; o tempo continua contando.')}</div>`)}
+      ? `${blocksCard()}${card(yearsBlock())}`
+      : `${card(`${cardHeader('3. Tamanho do simulado', 'Quantidade de questões da prova.', tile('ListChecks', 'coral'))}${seg('size', sim.size, E.SIMULATION_SIZES.map(c => ({ value: c, label: String(c) })), { aria: 'Tamanho do simulado' })}<p class="cfg-hint">As questões são agrupadas por área, na ordem da prova.</p>`)}
+         ${card(`${cardHeader('4. Critério de seleção', 'Como as questões são escolhidas entre as disponíveis.', tile('Shuffle', 'sage'))}<div class="cfg-criteria" role="radiogroup" aria-label="Critério de seleção">${CRITERIA.map(c => `<button type="button" role="radio" class="cfg-criterion ${sim.criteria === c.value ? 'is-on' : ''}" aria-checked="${sim.criteria === c.value}" data-criteria="${c.value}" data-focus="crit-${c.value}" data-press="0.98">${sim.criteria === c.value ? '<span class="cfg-criterion-ring" data-indicator="criteria"></span>' : ''}${tile(c.icon, sim.criteria === c.value ? 'gold' : 'neutral', 'sm')}<strong>${c.label}</strong><span>${c.text}</span></button>`).join('')}</div>`)}
+         ${card(`${cardHeader('5. Cronômetro', 'Tempo total da prova, em contagem regressiva.', tile('Hourglass', 'gold'))}${seg('pace', sim.pace, PACES.map(p => ({ value: p.value, label: p.label })), { aria: 'Ritmo do cronômetro' })}<p class="cfg-hint">${pace().hint}. Faltando 15 minutos, você recebe um aviso.</p><div class="cfg-switch">${switchRow('cfg-timer-visible', sim.timerVisible, 'Cronômetro visível', 'Você pode ocultá-lo durante a prova; o tempo continua contando.')}</div>`)}
          ${card(`<div class="cfg-rules">${tile('Lock', 'ink', 'sm')}<div><strong>Regras do simulado</strong><ul><li>Sem correção imediata: o gabarito aparece só ao finalizar.</li><li>Questões em branco contam como erro.</li><li>Ao fim do tempo, a prova é encerrada automaticamente.</li><li>Pausar oculta as questões e para o relógio.</li></ul></div></div>`, { surface: 'muted' })}`;
     return `<div class="lg-grid"><div class="lg-col-8 lg-stack" data-stagger="0.06" id="cfg-tab-content">${content}</div>${summaryHTML()}</div>`;
   }
@@ -154,10 +184,10 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
   function summaryValues() {
     if (mode === 'practice') {
       const pool = practicePool();
-      const subject = practice.subjectId ? E.SUBJECT_BY_ID[practice.subjectId] : null;
+      const names = practice.subjectIds.map(id => E.SUBJECT_BY_ID[id].name);
       return {
-        count: Math.min(practice.count, pool.length), available: pool.length, wanted: practice.count,
-        rows: [['Matéria', subject?.name ?? 'Todas'], ['Assuntos', practice.topicIds.length ? practice.topicIds.map(t => E.TOPIC_BY_ID[t]?.name).join(', ') : 'Todos'], ...(practice.subtopicIds.length ? [['Subtópicos', `${practice.subtopicIds.length} selecionados`]] : []), ['Anos', practice.years.length ? [...practice.years].sort((a, b) => b - a).join(', ') : 'Todos'], ['Disponíveis', `${pool.length} no acervo`]],
+        count: pool.length, available: pool.length, wanted: pool.length,
+        rows: [['Matérias', names.length ? names.join(', ') : 'Todas'], ['Assuntos', practice.topicIds.length ? practice.topicIds.map(t => E.TOPIC_BY_ID[t]?.name).join(', ') : 'Todos'], ...(practice.subtopicIds.length ? [['Subtópicos', `${practice.subtopicIds.length} selecionados`]] : []), ['Anos', practice.years.length ? [...practice.years].sort((a, b) => b - a).join(', ') : 'Todos'], ['Quantidade', 'Livre: responda quantas quiser']],
       };
     }
     const pool = simPool();
@@ -182,7 +212,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     const warn = v.available < v.wanted ? (v.available === 0 ? 'Nenhuma questão com esses filtros. Remova algum filtro para continuar.' : `Há apenas ${v.available} questões com esses filtros. ${mode === 'practice' ? 'A lista' : 'O simulado'} terá ${v.available}.`) : '';
     return `<aside class="lg-col-4 lg-sticky cfg-summary" id="cfg-summary">${card(`
       <p class="cfg-sum-label">${mode === 'practice' ? 'Resumo da lista' : 'Resumo do simulado'}</p>
-      <p class="cfg-sum-count"><span id="cfg-count" data-value="${lastSummary?.count ?? v.count}">${lastSummary?.count ?? v.count}</span><span>questões</span></p>
+      <p class="cfg-sum-count"><span id="cfg-count" data-value="${lastSummary?.count ?? v.count}">${lastSummary?.count ?? v.count}</span><span>${mode === 'practice' ? 'questões disponíveis' : 'questões'}</span></p>
       <dl class="cfg-sum-rows">${v.rows.map(([k, val]) => `<div><dt>${k}</dt><dd><span data-row="${esc(k)}">${esc(val)}</span></dd></div>`).join('')}</dl>
       <div class="cfg-warn-box" id="cfg-warn" ${warn ? '' : 'hidden'}><p>${hi('AlertTriangle')}<span>${warn}</span></p></div>
       <div class="cfg-sum-switch">${mode === 'practice' ? switchRow('cfg-timer', practice.timer, 'Cronômetro visível', 'Você pode ocultá-lo durante a lista.') : `<p class="cfg-sum-note">${hi('Info')}Sem correção imediata. O resultado, com gabarito e explicações, aparece ao finalizar.</p>`}</div>
@@ -251,6 +281,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
       // Só o resumo muda (ex.: marcar um assunto): troca o painel lateral e anima as diferenças.
       const aside = $('#cfg-summary');
       if (aside) { aside.outerHTML = summaryHTML(); $('#cfg-summary').style.opacity = '1'; bind(); }
+      refreshBlockSummaries();
     }
     enterSummary();
   }
@@ -276,14 +307,96 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     if (icon && !reduced()) icon.animate([{ transform: 'rotate(0)', offset: 0 }, { transform: 'rotate(-8deg)', offset: 0.15 }, { transform: 'rotate(8deg)', offset: 0.3 }, { transform: 'rotate(0)', offset: 0.44 }, { transform: 'rotate(0)', offset: 1 }], { duration: 5400, iterations: Infinity });
   }
 
-  function toggleSubject(id) {
-    if (mode === 'practice') { practice.subjectId = practice.subjectId === id ? null : id; practice.topicIds = []; practice.subtopicIds = []; practice.expanded = null; }
-    else {
-      const on = sim.subjectIds.includes(id);
-      sim.subjectIds = on ? sim.subjectIds.filter(x => x !== id) : [...sim.subjectIds, id];
-      if (on) { const topics = E.SUBJECT_BY_ID[id].topics.map(t => t.id); sim.topicIds = sim.topicIds.filter(t => !topics.includes(t)); sim.subtopicIds = sim.subtopicIds.filter(st => !topics.some(t => st.startsWith(`${t}.`))); }
+  /* Seletor de matérias: abre e fecha com mola, sem redesenhar o painel. */
+  function openPicker() {
+    const s = S();
+    if (s.picker) return closePicker();
+    s.picker = true;
+    const wrap = root.querySelector('.cfg-add-wrap');
+    wrap.insertAdjacentHTML('beforeend', pickerHTML());
+    $('#cfg-add').setAttribute('aria-expanded', 'true');
+    const picker = $('#cfg-picker');
+    bindPicker();
+    animate(picker, { opacity: [0, 1], y: [-8, 0], scale: [0.97, 1] }, spring.soft);
+    picker.querySelectorAll('.cfg-pick').forEach((el, i) => animate(el, { opacity: [0, 1], y: [6, 0] }, { duration: duration.base, ease: ease.out, delay: 0.04 + Math.min(i, 12) * 0.018 }));
+    animate($('#cfg-add .cfg-add-plus'), { rotate: [0, 45] }, spring.snappy);
+    picker.querySelector('.cfg-pick:not([disabled])')?.focus({ preventScroll: true });
+  }
+  function closePicker({ instant = false } = {}) {
+    const s = S();
+    if (!s.picker) return Promise.resolve();
+    s.picker = false;
+    const picker = $('#cfg-picker');
+    $('#cfg-add')?.setAttribute('aria-expanded', 'false');
+    animate($('#cfg-add .cfg-add-plus'), { rotate: [45, 0] }, spring.snappy);
+    if (!picker) return Promise.resolve();
+    if (instant) { picker.remove(); return Promise.resolve(); }
+    return animate(picker, { opacity: [1, 0], y: [0, -6], scale: [1, 0.98] }, { duration: duration.micro, ease: ease.in }).then(() => picker.remove());
+  }
+  function bindPicker() {
+    $$('[data-pick]').forEach(b => b.onclick = () => addSubject(b.dataset.pick));
+    const close = $('#cfg-picker-close'); if (close) close.onclick = () => { closePicker(); $('#cfg-add')?.focus(); };
+  }
+  function addSubject(id) {
+    const s = S();
+    if (s.subjectIds.includes(id)) return;
+    s.subjectIds = [...s.subjectIds, id];
+    s.openBlock = id;
+    s.picker = false;
+    update();
+    const block = root.querySelector(`[data-block="${id}"]`);
+    if (block) {
+      animate(block, { opacity: [0, 1], y: [12, 0], scale: [0.98, 1] }, spring.soft);
+      block.scrollIntoView({ block: 'nearest', behavior: reduced() ? 'auto' : 'smooth' });
     }
-    update({ changedKey: `subject-${id}` });
+  }
+  function removeSubject(id) {
+    const s = S();
+    const block = root.querySelector(`[data-block="${id}"]`);
+    const done = () => {
+      s.subjectIds = s.subjectIds.filter(x => x !== id);
+      const topics = E.SUBJECT_BY_ID[id].topics.map(t => t.id);
+      s.topicIds = s.topicIds.filter(t => !topics.includes(t));
+      s.subtopicIds = s.subtopicIds.filter(st => !topics.some(t => st.startsWith(`${t}.`)));
+      if (s.openBlock === id) s.openBlock = null;
+      update();
+    };
+    if (!block || reduced()) return done();
+    block.style.overflow = 'hidden';
+    Promise.all([
+      animate(block, { opacity: [1, 0], x: [0, -16] }, { duration: duration.fast, ease: ease.in }),
+      animate(block, { height: [block.offsetHeight, 0], marginTop: [getComputedStyle(block).marginTop, '0px'] }, { ...spring.soft, delay: 0.08 }),
+    ]).then(done);
+  }
+  /** Abre um bloco (e fecha o anterior) com Collapse, sem redesenhar a lista. */
+  function toggleBlock(id) {
+    const s = S();
+    const prev = s.openBlock;
+    s.openBlock = prev === id ? null : id;
+    const closeBlock = bid => {
+      const block = root.querySelector(`[data-block="${bid}"]`);
+      if (!block) return;
+      block.classList.remove('is-open');
+      block.querySelector('[data-block-toggle]')?.setAttribute('aria-expanded', 'false');
+      rotateChevron(block.querySelector('.cfg-block-chev'), false);
+      const body = block.querySelector('.cfg-block-body');
+      if (body) collapse(body, false).then(() => body.remove());
+    };
+    if (prev) closeBlock(prev);
+    if (s.openBlock) {
+      const block = root.querySelector(`[data-block="${id}"]`);
+      if (!block) return;
+      block.classList.add('is-open');
+      block.querySelector('[data-block-toggle]').setAttribute('aria-expanded', 'true');
+      rotateChevron(block.querySelector('.cfg-block-chev'), true);
+      block.insertAdjacentHTML('beforeend', `<div class="cfg-block-body" id="cfg-block-body-${id}">${topicRowsHTML(E.SUBJECT_BY_ID[id])}</div>`);
+      bindTopics(block);
+      collapse(block.querySelector('.cfg-block-body'), true);
+    }
+  }
+  /** Atualiza o resumo de cada bloco (assuntos e questões) sem redesenhar. */
+  function refreshBlockSummaries() {
+    S().subjectIds.forEach(sid => { const el = root.querySelector(`[data-block-summary="${sid}"]`); if (el) el.textContent = blockSummary(sid); });
   }
   /** Subtópicos abrem com Collapse e chevron girando, sem redesenhar a lista. */
   function toggleExpand(topicId) {
@@ -317,28 +430,34 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     });
   }
 
+  function bindTopics(scope) {
+    scope.querySelectorAll('[data-topic]').forEach(input => input.onchange = () => {
+      const s = S(); const id = input.dataset.topic;
+      s.topicIds = input.checked ? [...new Set([...s.topicIds, id])] : s.topicIds.filter(t => t !== id);
+      if (!input.checked) s.subtopicIds = s.subtopicIds.filter(x => !x.startsWith(`${id}.`));
+      scope.querySelectorAll('.cfg-subs [data-parent]').forEach(c => { if (c.dataset.parent === id && !input.checked) c.setAttribute('aria-checked', 'false'); });
+      update({ panel: false });
+    });
+    scope.querySelectorAll('[data-expand]').forEach(b => b.onclick = () => toggleExpand(b.dataset.expand));
+    bindSubs(scope);
+  }
   function bind() {
     const back = $('#cfg-back'); if (back) back.onclick = onBack;
     $$('[data-tab-group="cfg"]').forEach(b => b.onclick = () => switchTab(b.dataset.tab));
     bindTabKeys(root, 'cfg', switchTab);
-    $$('[data-subject]').forEach(b => b.onclick = () => toggleSubject(b.dataset.subject));
-    const clr = $('#cfg-clear-subjects'); if (clr) clr.onclick = () => { sim.subjectIds = []; sim.topicIds = []; sim.subtopicIds = []; update(); };
+    const add = $('#cfg-add'); if (add) add.onclick = openPicker;
+    bindPicker();
+    $$('[data-remove]').forEach(b => b.onclick = () => removeSubject(b.dataset.remove));
+    $$('[data-block-toggle]').forEach(b => b.onclick = () => toggleBlock(b.dataset.blockToggle));
+    const clr = $('#cfg-clear-subjects'); if (clr) clr.onclick = () => { const s = S(); s.subjectIds = []; s.topicIds = []; s.subtopicIds = []; s.openBlock = null; update(); };
     $$('[data-weak]').forEach(b => b.onclick = () => {
       const t = E.TOPIC_BY_ID[b.dataset.weak];
       const s = S();
-      if (mode === 'practice') practice.subjectId = t.subjectId; else if (!sim.subjectIds.includes(t.subjectId)) sim.subjectIds = [...sim.subjectIds, t.subjectId];
-      s.topicIds = [t.id]; s.subtopicIds = []; s.expanded = t.id;
+      if (!s.subjectIds.includes(t.subjectId)) s.subjectIds = [...s.subjectIds, t.subjectId];
+      s.topicIds = [t.id]; s.subtopicIds = []; s.expanded = t.id; s.openBlock = t.subjectId;
       update();
     });
-    $$('[data-topic]').forEach(input => input.onchange = () => {
-      const s = S(); const id = input.dataset.topic;
-      s.topicIds = input.checked ? [...s.topicIds, id] : s.topicIds.filter(t => t !== id);
-      if (!input.checked) s.subtopicIds = s.subtopicIds.filter(x => !x.startsWith(`${id}.`));
-      $$('.cfg-subs [data-parent]').forEach(c => { if (c.dataset.parent === id && !input.checked) c.setAttribute('aria-checked', 'false'); });
-      update({ panel: false });
-    });
-    $$('[data-expand]').forEach(b => b.onclick = () => toggleExpand(b.dataset.expand));
-    bindSubs(root);
+    bindTopics(root);
     $$('[data-year]').forEach(b => b.onclick = () => { const s = S(); const y = Number(b.dataset.year); s.years = s.years.includes(y) ? s.years.filter(x => x !== y) : [...s.years, y]; update({ changedKey: `year-${y}` }); });
     $$('[data-seg]').forEach(b => b.onclick = () => {
       if (b.getAttribute('aria-checked') === 'true') return;
@@ -370,11 +489,12 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
   function start() {
     if (mode === 'practice') {
       const pool = practicePool();
-      const f = { subjectId: practice.subjectId, topicIds: [...practice.topicIds], subtopicIds: [...practice.subtopicIds], years: [...practice.years], count: Math.min(practice.count, pool.length) };
-      const ids = E.selectPracticeQuestions(f, records(), Date.now(), account().onboarding.level);
-      const subject = practice.subjectId ? E.SUBJECT_BY_ID[practice.subjectId] : null;
+      if (!pool.length) return;
+      const ids = E.pickQuestions(pool, pool.length, records(), E.createRng(Date.now()), account().onboarding.level).map(q => q.id);
+      const f = { subjectId: practice.subjectIds.length === 1 ? practice.subjectIds[0] : null, topicIds: [...practice.topicIds], subtopicIds: [...practice.subtopicIds], years: [...practice.years], count: ids.length };
       const names = practice.topicIds.map(t => E.TOPIC_BY_ID[t]?.name).filter(Boolean);
-      const title = names.length === 1 ? names[0] : subject ? (names.length ? `${subject.name} · ${names.length} assuntos` : subject.name) : 'Lista personalizada';
+      const subjects = practice.subjectIds.map(id => E.SUBJECT_BY_ID[id].name);
+      const title = names.length === 1 ? names[0] : subjects.length === 1 ? (names.length ? `${subjects[0]} · ${names.length} assuntos` : subjects[0]) : subjects.length > 1 ? `${subjects.length} matérias` : 'Lista livre';
       onStartPractice(title, ids, 'custom', f);
       return;
     }
@@ -396,6 +516,9 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     const title = names.length === 1 ? `Simulado personalizado · ${names[0]}` : names.length > 1 ? `Simulado personalizado · ${names.length} matérias` : `Simulado personalizado · ${chosen.length} questões`;
     onStartSimulation({ title, questionIds: chosen.map(q => q.id), durationMs: chosen.length * pace().perQuestion, timerHidden: !sim.timerVisible, criteria: sim.criteria });
   }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && S().picker && root.contains($('#cfg-picker'))) { closePicker(); $('#cfg-add')?.focus(); } });
+  document.addEventListener('mousedown', e => { if (!S().picker) return; const pk = $('#cfg-picker'); if (pk && !pk.contains(e.target) && !e.target.closest?.('#cfg-add')) closePicker(); });
 
   return { mount, config: () => ({ ...sim }) };
 }
