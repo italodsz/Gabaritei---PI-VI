@@ -4574,6 +4574,7 @@ function createSimulationFromQuestions(input) {
   };
 }
 export {
+  ACHIEVEMENT_DEFINITIONS,
   AREAS,
   AREA_BY_ID,
   EMPTY_FILTERS,
@@ -4606,6 +4607,7 @@ export {
   createSimulationSession,
   distributeAcrossAreas,
   estimateDemoScore,
+  evaluateAchievements,
   frequentSubjects,
   freshSeed,
   goalProgress,

@@ -510,7 +510,7 @@ function openAreaConfig(key, fromCard) {
 /* ------------------------------------------------------------------ */
 /* Navegação                                                           */
 /* ------------------------------------------------------------------ */
-const PAGE_NAMES = { plano: 'Meus estudos', questoes: 'Questões', simulados: 'Simulados', 'simulado-personalizado': 'Simulado personalizado', historico: 'Histórico', progresso: 'Progresso' };
+const PAGE_NAMES = { perfil: 'Perfil', plano: 'Meus estudos', questoes: 'Questões', simulados: 'Simulados', 'simulado-personalizado': 'Simulado personalizado', historico: 'Histórico', progresso: 'Progresso' };
 function navigate(page, { sub = null } = {}) {
   const changed = page !== state.page || sub;
   state.page = page;
@@ -519,6 +519,7 @@ function navigate(page, { sub = null } = {}) {
   $('#plan-page').hidden = page !== 'plano';
   $('#secondary-page').hidden = page === 'plano';
   sidebar.setActive(page === 'simulado-personalizado' ? 'simulados' : page);
+  $('.side-bottom .profile-wrapper')?.classList.toggle('is-current', page === 'perfil');
   document.title = `${PAGE_NAMES[page]} · Gabaritei`;
   if ($('#topbar-title')) $('#topbar-title').innerHTML = `Gabaritei <span aria-hidden="true">/</span> <strong>${PAGE_NAMES[page]}</strong>`;
   closeCardMenu();
@@ -573,12 +574,20 @@ function openRef(ref) {
 }
 function saveToNotes(ref, el) { notes.addRef(ref, el); }
 
-const learning = createLearningPages({ root: $('#secondary-page'), openDialog, closeDialog: () => dialog.close(), toast, navigate, icons: icon, saveToNotes: (ref, el) => saveToNotes(ref, el), onChange: () => { if (state.page === 'plano') render(); sidebar.renderBottom(); notes?.refresh(); } });
+const learning = createLearningPages({ root: $('#secondary-page'), openDialog, closeDialog: () => dialog.close(), toast, navigate, icons: icon, saveToNotes: (ref, el) => saveToNotes(ref, el), onProfileChange: p => paintProfile(p), onChange: () => { if (state.page === 'plano') render(); sidebar.renderBottom(); notes?.refresh(); } });
+/** Nome e iniciais do perfil no rodapé do menu lateral. */
+function paintProfile(p) {
+  const ini = p.name.trim().split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('');
+  $('#profile-button .avatar').textContent = ini || '?';
+  $('#profile-button .profile-text strong').textContent = p.nickname || p.name;
+}
+paintProfile(learning.account().profile);
+$('#open-profile').onclick = () => { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); sidebar.close(); navigate('perfil'); };
 const notes = createNotes({ panel: $('#notes-panel'), resolveRef, openRef, toast, hi });
 notes.render();
 bindPress();
 
 const [hashPage, hashSub] = location.hash.slice(1).split('/');
-if (['plano', 'questoes', 'simulados', 'simulado-personalizado', 'historico', 'progresso'].includes(hashPage) && hashPage !== 'plano') { state.page = ''; navigate(hashPage, { sub: hashPage === 'simulados' ? hashSub || null : null }); render(); }
+if (['plano', 'questoes', 'simulados', 'simulado-personalizado', 'historico', 'progresso', 'perfil'].includes(hashPage) && hashPage !== 'plano') { state.page = ''; navigate(hashPage, { sub: hashPage === 'simulados' ? hashSub || null : null }); render(); }
 else { state.page = 'plano'; navigate('plano'); sidebar.setActive('plano'); render({ enter: true }); }
 addEventListener('hashchange', () => { const [p, sub] = location.hash.slice(1).split('/'); if (PAGE_NAMES[p] && (p !== state.page || sub)) navigate(p, { sub: p === 'simulados' ? sub || null : null }); });

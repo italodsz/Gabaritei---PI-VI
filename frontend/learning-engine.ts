@@ -73,3 +73,6 @@ export function createSimulationFromQuestions(input: {
     timerHidden: !!input.timerHidden,
   };
 }
+
+// Perfil e conquistas (ProfilePage.tsx do front anterior).
+export { evaluateAchievements, ACHIEVEMENT_DEFINITIONS } from './legacy/src/lib/calculations/achievements';

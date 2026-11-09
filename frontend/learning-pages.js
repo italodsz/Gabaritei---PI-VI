@@ -2,6 +2,7 @@ import * as E from './assets/learning-engine.js';
 import { createPracticeScreen } from './practice-screen.js';
 import { createHistoryPage } from './history-page.js';
 import { createConfigStudio } from './config-studio.js';
+import { createProfilePage } from './profile-page.js';
 import { createExamScreen } from './exam-screen.js';
 import { hi } from './legacy-ui.js';
 import { pageEnter } from './motion-kit.js';
@@ -21,7 +22,7 @@ const storageKey = 'gabaritei:estudos:v1';
 /** Chave usada antes da renomeação; lida só para não perder o progresso já salvo. */
 const oldStorageKey = 'gabaritei:canvas-learning:v1';
 
-export function createLearningPages({ root, openDialog, closeDialog, toast, navigate, icons, onChange = () => {}, saveToNotes = () => {} }) {
+export function createLearningPages({ root, openDialog, closeDialog, toast, navigate, icons, onChange = () => {}, saveToNotes = () => {}, onProfileChange = () => {} }) {
   const $ = (s, parent = root) => parent.querySelector(s);
   const $$ = (s, parent = root) => [...parent.querySelectorAll(s)];
   let account;
@@ -50,6 +51,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     if (page === 'questoes') studio.mount('practice');
     else if (page === 'simulado-personalizado') studio.mount('simulation');
     else if (page === 'historico') history.render();
+    else if (page === 'perfil') profile.render();
     else renderPerformance();
   }
   function preserveRender(renderFn) { const focused = document.activeElement?.getAttribute('data-focus'); renderFn(); if (focused) $$('[data-focus]').find(el=>el.dataset.focus===focused)?.focus({preventScroll:true}); }
@@ -88,6 +90,8 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     practiceScreen.openResult(asList, { kicker: 'RESULTADO DO SIMULADO', review: options.review, simulation: sim });
   }
   const history = createHistoryPage({ E, root, icons, toast, save, records, navigate, beginList: (...args) => beginList(...args), openSession: (...args) => openSession(...args), openSimulationResult, openExam: sim => openExam(sim), saveToNotes, getAccount: () => account });
+
+  const profile = createProfilePage({ E, root, getAccount: () => account, save, records, toast, onProfileChange });
 
   /* Simulados: prova sem correção imediata (exam-screen.js). */
   const exam = createExamScreen({
