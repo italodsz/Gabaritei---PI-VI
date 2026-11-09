@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { PerfilClient } from "./perfil-client";
+import { ProfilePage } from "@/features/profile/ProfilePage";
 
 export const metadata: Metadata = { title: "Perfil" };
 
-export default function PerfilPage() {
-  return <PerfilClient />;
+export default function Page() {
+  return <ProfilePage />;
 }

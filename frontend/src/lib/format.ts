@@ -1,64 +1,120 @@
-/** Datas, números e unidades em pt-BR (seção 4 e 6 do prompt). */
+/** Formatação pt-BR centralizada. */
 
-const NBSP = " ";
-
-export function formatarData(iso: string): string {
-  return new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date(iso));
+export function formatNumber(value: number, decimals = 0): string {
+  return value.toLocaleString("pt-BR", {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
 }
 
-export function formatarDataHora(iso: string): string {
-  return new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short" }).format(
-    new Date(iso),
-  );
+/** Número com até `max` casas decimais, sem zeros desnecessários. */
+export function formatDecimal(value: number, max = 2): string {
+  return value.toLocaleString("pt-BR", { maximumFractionDigits: max });
 }
 
-export function formatarHora(iso: string): string {
-  return new Intl.DateTimeFormat("pt-BR", { timeStyle: "short" }).format(new Date(iso));
+export function formatMoney(value: number): string {
+  return `R$ ${formatNumber(value, 2)}`;
 }
 
-export function formatarNumero(valor: number): string {
-  return new Intl.NumberFormat("pt-BR").format(valor);
+export function formatPercent(ratio: number, decimals = 0): string {
+  return `${formatNumber(ratio * 100, decimals)}%`;
 }
 
-export function formatarPercentual(valor: number, fracao = 0): string {
-  const texto = new Intl.NumberFormat("pt-BR", {
-    maximumFractionDigits: fracao,
-    minimumFractionDigits: fracao,
-  }).format(valor);
-  return `${texto}${NBSP}%`;
+export function formatDuration(ms: number, opts: { compact?: boolean } = {}): string {
+  if (ms > 0 && ms < 60000) return `${Math.max(1, Math.round(ms / 1000))} s`;
+  const totalMinutes = Math.round(ms / 60000);
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  if (opts.compact) {
+    if (hours === 0) return `${minutes} min`;
+    return minutes === 0 ? `${hours} h` : `${hours} h ${minutes} min`;
+  }
+  if (hours === 0) return `${minutes} ${minutes === 1 ? "minuto" : "minutos"}`;
+  const h = `${hours} ${hours === 1 ? "hora" : "horas"}`;
+  return minutes === 0 ? h : `${h} e ${minutes} min`;
 }
 
-/** "2 h 49 min" ou "43 min" ou "38 s", com espaço sem quebra entre número e unidade. */
-export function formatarDuracao(segundosTotais: number): string {
-  const segundos = Math.max(0, Math.round(segundosTotais));
-  const h = Math.floor(segundos / 3600);
-  const min = Math.floor((segundos % 3600) / 60);
-  const s = segundos % 60;
-
-  if (h > 0) return `${h}${NBSP}h${NBSP}${min}${NBSP}min`;
-  if (min > 0) return `${min}${NBSP}min${s > 0 ? ` ${s}${NBSP}s` : ""}`;
-  return `${s}${NBSP}s`;
+/** Relógio hh:mm:ss ou mm:ss. */
+export function formatClock(ms: number): string {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
 }
 
-/** Para o Timer: "23:45" ou "1:02:03" */
-export function formatarCronometro(segundosTotais: number): string {
-  const segundos = Math.max(0, Math.round(segundosTotais));
-  const h = Math.floor(segundos / 3600);
-  const min = Math.floor((segundos % 3600) / 60);
-  const s = segundos % 60;
-  const mm = String(min).padStart(2, "0");
-  const ss = String(s).padStart(2, "0");
-  return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
+/** Tempo médio por questão, em formato curto (ex.: 2min 15s). */
+export function formatShortSeconds(ms: number): string {
+  const total = Math.round(ms / 1000);
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  if (m === 0) return `${s}s`;
+  return s === 0 ? `${m}min` : `${m}min ${s}s`;
 }
 
-export function comEspacoSemQuebra(numero: number | string, unidade: string): string {
-  return `${numero}${NBSP}${unidade}`;
+const dateFmt = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short" });
+const dateLongFmt = new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "long", year: "numeric" });
+const timeFmt = new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit" });
+const weekdayFmt = new Intl.DateTimeFormat("pt-BR", { weekday: "long" });
+
+export function formatDate(iso: string | number | Date): string {
+  return dateFmt.format(new Date(iso)).replace(".", "");
 }
 
-/** Trunca num espaço antes do limite (nunca no meio de uma palavra) e acrescenta "…". */
-export function truncarNaPalavra(texto: string, maxCaracteres: number): string {
-  if (texto.length <= maxCaracteres) return texto;
-  const cortado = texto.slice(0, maxCaracteres);
-  const ultimoEspaco = cortado.lastIndexOf(" ");
-  return `${(ultimoEspaco > 0 ? cortado.slice(0, ultimoEspaco) : cortado).trimEnd()}…`;
+export function formatDateLong(iso: string | number | Date): string {
+  return dateLongFmt.format(new Date(iso));
+}
+
+export function formatTime(iso: string | number | Date): string {
+  return timeFmt.format(new Date(iso));
+}
+
+export function formatWeekday(iso: string | number | Date): string {
+  return weekdayFmt.format(new Date(iso));
+}
+
+export function formatRelativeDay(iso: string | number | Date, now: number): string {
+  const d = startOfDay(new Date(iso)).getTime();
+  const today = startOfDay(new Date(now)).getTime();
+  const diff = Math.round((today - d) / 86400000);
+  if (diff === 0) return "Hoje";
+  if (diff === 1) return "Ontem";
+  if (diff > 1 && diff < 7) return `Há ${diff} dias`;
+  return formatDate(iso);
+}
+
+export function startOfDay(date: Date): Date {
+  const d = new Date(date);
+  d.setHours(0, 0, 0, 0);
+  return d;
+}
+
+export function dayKey(date: Date | number | string): string {
+  const d = new Date(date);
+  const m = (d.getMonth() + 1).toString().padStart(2, "0");
+  const day = d.getDate().toString().padStart(2, "0");
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
+export function pluralize(n: number, singular: string, plural: string): string {
+  return `${formatNumber(n)} ${n === 1 ? singular : plural}`;
+}
+
+export function firstName(name: string): string {
+  return name.trim().split(/\s+/)[0] ?? name;
+}
+
+export function initials(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return "?";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+export function normalizeText(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
 }

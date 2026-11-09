@@ -1,62 +1,40 @@
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Mono, IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
+import "@fontsource-variable/inter";
+import "@fontsource-variable/bricolage-grotesque";
 import "@/styles/globals.css";
-import { SCRIPT_TEMA_INICIAL } from "@/lib/hooks/use-tema";
-import { Providers } from "./providers";
-
-const serif = Source_Serif_4({
-  variable: "--font-source-serif-4",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const sans = IBM_Plex_Sans({
-  variable: "--font-ibm-plex-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
-});
-
-const mono = IBM_Plex_Mono({
-  variable: "--font-ibm-plex-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  display: "swap",
-});
+import { AppProviders } from "@/components/providers/AppProviders";
+import { STORAGE_KEY } from "@/stores/appStore";
+import { PALETTE_IDS, paletteCss } from "@/lib/theme/palettes";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Gabaritei",
-    template: "%s | Gabaritei",
-  },
-  description:
-    "Gabaritei: recomendação adaptativa de questões do ENEM, sempre dizendo o critério da recomendação.",
+  title: { default: "Gabaritei", template: "%s · Gabaritei" },
+  description: "Preparação para o ENEM com prática de questões, simulados e acompanhamento da sua evolução.",
+  icons: { icon: "/icon.svg" },
 };
 
+// EXCEÇÃO ao token/hex: a meta theme-color é lida pelo navegador antes do CSS carregar e não aceita var().
 export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  // themeColor é metadado lido pelo SO/navegador (cor da barra de endereço), fora da
-  // cascata CSS — não há como referenciar var(--paper) aqui. Os hex têm que continuar
-  // batendo com --paper claro/escuro em tokens.css manualmente se o token mudar.
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f4f2ec" }, // check-regras: ignore
-    { media: "(prefers-color-scheme: dark)", color: "#121714" }, // check-regras: ignore
+    { media: "(prefers-color-scheme: light)", color: "#F7F5EE" },
+    { media: "(prefers-color-scheme: dark)", color: "#141917" },
   ],
 };
 
+/** Aplica tema e preferência de movimento antes da pintura (evita flash). */
+const bootScript = `(function(){try{var s=JSON.parse(localStorage.getItem(${JSON.stringify(STORAGE_KEY)})||"{}");var d=(s.state&&s.state.device)||{};var t=d.theme||"system";var dark=t==="dark"||(t==="system"&&matchMedia("(prefers-color-scheme: dark)").matches);var r=document.documentElement;if(dark)r.classList.add("dark");r.dataset.motion=d.motion||"system";var p=d.palette;r.dataset.palette=${JSON.stringify(PALETTE_IDS)}.indexOf(p)>=0?p:"gabaritei";}catch(e){}})();`;
+
+/** Tokens das paletas alternativas, gerados a partir de lib/theme/palettes.ts. */
+const PALETTE_CSS = paletteCss();
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="pt-BR"
-      className={`${serif.variable} ${sans.variable} ${mono.variable}`}
-      suppressHydrationWarning
-    >
+    <html lang="pt-BR" suppressHydrationWarning data-motion="system" data-palette="gabaritei">
       <head>
-        <script dangerouslySetInnerHTML={{ __html: SCRIPT_TEMA_INICIAL }} />
+        <style id="gabaritei-palettes" dangerouslySetInnerHTML={{ __html: PALETTE_CSS }} />
+        <script dangerouslySetInnerHTML={{ __html: bootScript }} />
       </head>
-      <body className="font-sans antialiased">
-        <Providers>{children}</Providers>
+      <body className="min-h-dvh">
+        <AppProviders>{children}</AppProviders>
       </body>
     </html>
   );

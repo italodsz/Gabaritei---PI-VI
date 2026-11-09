@@ -36,11 +36,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# testes e2e / auditoria
-/playwright-report/
-/test-results/
-/docs/mock-gerado.json
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts

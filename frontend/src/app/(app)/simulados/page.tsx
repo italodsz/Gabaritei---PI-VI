@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { SimuladosClient } from "./simulados-client";
+import { SimulationsPage } from "@/features/simulations/SimulationsPage";
 
 export const metadata: Metadata = { title: "Simulados" };
 
-export default function SimuladosPage() {
-  return <SimuladosClient />;
+export default function Page() {
+  return <SimulationsPage />;
 }

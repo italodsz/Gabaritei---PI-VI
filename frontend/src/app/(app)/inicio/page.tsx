@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { InicioClient } from "./inicio-client";
+import { HomePage } from "@/features/home/HomePage";
 
 export const metadata: Metadata = { title: "Início" };
 
-export default function InicioPage() {
-  return <InicioClient />;
+export default function Page() {
+  return <HomePage />;
 }

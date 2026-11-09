@@ -1,183 +1,425 @@
 @import "tailwindcss";
-@import "./tokens.css";
 
-@theme {
-  /* cores: mapeiam para as variáveis de tokens.css, então bg-paper, text-ink etc. funcionam */
-  --color-paper: var(--paper);
-  --color-paper-2: var(--paper-2);
-  --color-card: var(--card);
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* -------------------------------------------------------------------------
+ * Gabaritei — design tokens
+ * Grafite estrutura a identidade, dourado sinaliza ação e conquista,
+ * sálvia e coral aparecem como apoio pontual.
+ * ---------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  /* Superfícies */
+  --bg: #f7f5ee;
+  --bg-deep: #efece2;
+  --surface: #fffefb;
+  --surface-2: #f3f0e7;
+  --surface-3: #e9e5d8;
+  --overlay: rgb(29 36 33 / 0.42);
+
+  /* Bordas */
+  --border: #e5e0d2;
+  --border-strong: #cdc6b3;
+
+  /* Texto */
+  --fg: #29332f;
+  --fg-muted: #57615b;
+  --fg-subtle: #7f877f;
+
+  /* Marca */
+  --ink: #29332f;
+  --ink-2: #34413b;
+  --ink-3: #43514a;
+  --on-ink: #f7f5ee;
+  --on-ink-muted: #b9c2bb;
+
+  --primary: #29332f;
+  --primary-hover: #34413b;
+  --on-primary: #f7f5ee;
+
+  --gold: #ddb54d;
+  --gold-strong: #b98f22;
+  --gold-soft: #f5e9c4;
+  --gold-fg: #7a5a10;
+  --on-gold: #29332f;
+
+  --sage: #86a58c;
+  --sage-strong: #41684b;
+  --sage-soft: #e0eae0;
+
+  --coral: #df967d;
+  --coral-strong: #9b4c33;
+  --coral-soft: #f8e1d7;
+
+  /* Estados */
+  --success: #3d7a50;
+  --success-soft: #dcebdc;
+  --danger: #b14e36;
+  --danger-soft: #f8dfd6;
+  --warning: #a77a12;
+  --warning-soft: #f6ebc9;
+  --focus: #c99a2e;
+
+  /* Áreas do ENEM */
+  --area-linguagens: #df967d;
+  --area-linguagens-strong: #b45f45;
+  --area-linguagens-soft: #f8e1d7;
+  --area-humanas: #ddb54d;
+  --area-humanas-strong: #9c7618;
+  --area-humanas-soft: #f5e9c4;
+  --area-natureza: #86a58c;
+  --area-natureza-strong: #4f7a5a;
+  --area-natureza-soft: #e0eae0;
+  --area-matematica: #7d9ca5;
+  --area-matematica-strong: #46697a;
+  --area-matematica-soft: #dfe8ea;
+
+  /* Camadas sobre superfícies grafite (ink é escuro em todas as paletas) */
+  --ink-raised: rgb(255 255 255 / 0.06);
+  --ink-raised-strong: rgb(255 255 255 / 0.1);
+  --ink-raised-hover: rgb(255 255 255 / 0.16);
+  --ink-line: rgb(255 255 255 / 0.1);
+  --ink-track: rgb(255 255 255 / 0.1);
+
+  /* Texto sobre cores de estado (sucesso/erro) */
+  --on-status: #ffffff;
+  /* Figuras das questões são SVGs claros: fundo fixo claro nos dois temas */
+  --figure-bg: #fffefb;
+  --knob: #ffffff;
+
+  /* Medalhas */
+  --medal-bronze-from: #e6a985;
+  --medal-bronze-to: #b76e4c;
+  --medal-bronze-ring: #f3cdb7;
+  --medal-prata-from: #e7ebe8;
+  --medal-prata-to: #9aa6a0;
+  --medal-prata-ring: #f6f8f7;
+  --medal-ouro-from: #f2d27a;
+  --medal-ouro-to: #c99a2e;
+  --medal-ouro-ring: #fae7b0;
+  --medal-shine: rgb(255 255 255 / 0.5);
+
+  /* Paleta de gráficos (validada para daltonismo — ordem fixa por área) */
+  --chart-linguagens: #b14d2c;
+  --chart-humanas: #d0a52a;
+  --chart-natureza: #3f8a5a;
+  --chart-matematica: #5a6fb0;
+  --chart-primary: #29332f;
+  --chart-accent: #a98220;
+  --chart-grid: #e9e5d8;
+  --chart-seq: #36684a;
+
+  /* Elevação */
+  --shadow-xs: 0 1px 2px rgb(41 51 47 / 0.05);
+  --shadow-sm: 0 1px 2px rgb(41 51 47 / 0.04), 0 4px 12px -2px rgb(41 51 47 / 0.06);
+  --shadow-md: 0 2px 4px rgb(41 51 47 / 0.04), 0 12px 28px -8px rgb(41 51 47 / 0.12);
+  --shadow-lg: 0 4px 8px rgb(41 51 47 / 0.05), 0 24px 56px -16px rgb(41 51 47 / 0.22);
+
+}
+
+.dark {
+  color-scheme: dark;
+
+  --bg: #141917;
+  --bg-deep: #101412;
+  --surface: #1c2320;
+  --surface-2: #232b27;
+  --surface-3: #2c3631;
+  --overlay: rgb(5 8 7 / 0.62);
+
+  --border: #2e3833;
+  --border-strong: #44514a;
+
+  --fg: #eeebe2;
+  --fg-muted: #a9b1ab;
+  --fg-subtle: #7d8780;
+
+  --ink: #26302c;
+  --ink-2: #2f3b35;
+  --ink-3: #3a4841;
+  --on-ink: #f7f5ee;
+  --on-ink-muted: #aab4ad;
+
+  --primary: #efe9d8;
+  --primary-hover: #fffaf0;
+  --on-primary: #1c2320;
+
+  --gold: #e0bb58;
+  --gold-strong: #ecca6e;
+  --gold-soft: #3a331d;
+  --gold-fg: #ecca6e;
+  --on-gold: #1c2320;
+
+  --sage: #8fb095;
+  --sage-strong: #a7c8ad;
+  --sage-soft: #24342a;
+
+  --coral: #e3a08a;
+  --coral-strong: #eeb29e;
+  --coral-soft: #3c2a24;
+
+  --success: #8cc49c;
+  --success-soft: #1f3326;
+  --danger: #ee9b84;
+  --danger-soft: #3e241d;
+  --warning: #e7c56b;
+  --warning-soft: #3a321b;
+  --focus: #e0bb58;
+
+  --area-linguagens: #e3a08a;
+  --area-linguagens-strong: #f0b5a2;
+  --area-linguagens-soft: #3c2a24;
+  --area-humanas: #e0bb58;
+  --area-humanas-strong: #ecca6e;
+  --area-humanas-soft: #3a331d;
+  --area-natureza: #8fb095;
+  --area-natureza-strong: #a7c8ad;
+  --area-natureza-soft: #24342a;
+  --area-matematica: #8eaeb8;
+  --area-matematica-strong: #a9c7d0;
+  --area-matematica-soft: #22313a;
+
+  --chart-linguagens: #bc502d;
+  --chart-humanas: #b48f22;
+  --chart-natureza: #2fa070;
+  --chart-matematica: #7a86da;
+  --chart-primary: #efe9d8;
+  --chart-accent: #e0bb58;
+  --chart-grid: #2a332f;
+  --chart-seq: #8cc49c;
+  --on-status: #101412;
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 12px -2px rgb(0 0 0 / 0.3);
+  --shadow-md: 0 2px 4px rgb(0 0 0 / 0.25), 0 12px 28px -8px rgb(0 0 0 / 0.45);
+  --shadow-lg: 0 4px 8px rgb(0 0 0 / 0.3), 0 24px 56px -16px rgb(0 0 0 / 0.6);
+
+}
+
+@theme inline {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-bg-deep: var(--bg-deep);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-overlay: var(--overlay);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
-  --color-rule: var(--rule);
-  --color-rule-strong: var(--rule-strong);
-  --color-forest: var(--forest);
-  --color-forest-hover: var(--forest-hover);
-  --color-forest-soft: var(--forest-soft);
-  --color-forest-ink: var(--forest-ink);
-  --color-on-forest: var(--on-forest);
-  --color-amber: var(--amber);
-  --color-amber-soft: var(--amber-soft);
-  --color-amber-ink: var(--amber-ink);
-  --color-err: var(--err);
-  --color-err-soft: var(--err-soft);
-  --color-on-err: var(--on-err);
-  --color-area-mt: var(--area-mt);
-  --color-area-mt-soft: var(--area-mt-soft);
-  --color-area-cn: var(--area-cn);
-  --color-area-cn-soft: var(--area-cn-soft);
-  --color-area-ch: var(--area-ch);
-  --color-area-ch-soft: var(--area-ch-soft);
-  --color-area-lc: var(--area-lc);
-  --color-area-lc-soft: var(--area-lc-soft);
+  --color-ink-3: var(--ink-3);
+  --color-on-ink: var(--on-ink);
+  --color-on-ink-muted: var(--on-ink-muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-on-primary: var(--on-primary);
+
+  --color-gold: var(--gold);
+  --color-gold-strong: var(--gold-strong);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-fg: var(--gold-fg);
+  --color-on-gold: var(--on-gold);
+  --color-sage: var(--sage);
+  --color-sage-strong: var(--sage-strong);
+  --color-sage-soft: var(--sage-soft);
+  --color-coral: var(--coral);
+  --color-coral-strong: var(--coral-strong);
+  --color-coral-soft: var(--coral-soft);
+
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
   --color-focus: var(--focus);
+  --color-ink-raised: var(--ink-raised);
+  --color-ink-raised-strong: var(--ink-raised-strong);
+  --color-ink-raised-hover: var(--ink-raised-hover);
+  --color-ink-line: var(--ink-line);
+  --color-on-status: var(--on-status);
+  --color-figure: var(--figure-bg);
+  --color-knob: var(--knob);
 
-  /* tipografia: seção 6 — Source Serif 4 (editorial), IBM Plex Sans (interface), IBM Plex Mono (dados técnicos) */
-  --font-serif: var(--font-source-serif-4), ui-serif, serif;
-  --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
-  /* Etapa V: fonte de título de tela e número grande, isolada à parte da marca/enunciado
-     (que continuam --font-serif direto) para o grupo poder trocar numa linha só. */
-  --font-display: var(--font-serif);
+  --color-linguagens: var(--area-linguagens);
+  --color-linguagens-strong: var(--area-linguagens-strong);
+  --color-linguagens-soft: var(--area-linguagens-soft);
+  --color-humanas: var(--area-humanas);
+  --color-humanas-strong: var(--area-humanas-strong);
+  --color-humanas-soft: var(--area-humanas-soft);
+  --color-natureza: var(--area-natureza);
+  --color-natureza-strong: var(--area-natureza-strong);
+  --color-natureza-soft: var(--area-natureza-soft);
+  --color-matematica: var(--area-matematica);
+  --color-matematica-strong: var(--area-matematica-strong);
+  --color-matematica-soft: var(--area-matematica-soft);
 
-  /* escala: 12, 14, 16, 18, 22, 28, 36 px (seção 6) */
-  --text-xs: 0.75rem;
-  --text-xs--line-height: 1.4;
-  --text-sm: 0.875rem;
-  --text-sm--line-height: 1.5;
-  --text-base: 1rem;
-  --text-base--line-height: 1.6;
-  --text-lg: 1.125rem; /* enunciado de questão */
-  --text-lg--line-height: 1.65;
-  --text-xl: 1.375rem;
-  --text-xl--line-height: 1.4;
-  --text-2xl: 1.75rem;
-  --text-2xl--line-height: 1.25;
-  --text-3xl: 2.25rem;
-  --text-3xl--line-height: 1.15;
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
 
-  /* raios: seção 6, aumentados na etapa V (item 3: painéis 16–20px, controles 12px) */
-  --radius-xs: 8px; /* folha, controles pequenos */
-  --radius-sm: 12px; /* botões, campos: "controles" */
-  --radius-md: 18px; /* painéis */
-  --radius-full: 999px; /* tags, bolhas do cartão-resposta */
+  --radius-card: 1.5rem;
+  --radius-panel: 2rem;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 @layer base {
-  * {
-    border-color: var(--rule);
-  }
-
   html {
-    -webkit-text-size-adjust: 100%;
-  }
-
-  body {
-    background-color: var(--paper);
-    color: var(--ink);
-    font-family: var(--font-sans);
-    font-size: var(--text-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     scrollbar-gutter: stable;
   }
 
-  h1,
-  h2,
-  h3 {
-    font-family: var(--font-display);
-    text-wrap: balance;
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01", "ss03";
+    transition: background-color 280ms var(--ease-out-soft), color 280ms var(--ease-out-soft);
   }
 
-  p {
-    text-wrap: pretty;
+  ::selection {
+    background: var(--gold-soft);
+    color: var(--fg);
   }
 
-  table,
-  .tabular-nums,
-  time,
-  [data-mono] {
-    font-variant-numeric: tabular-nums;
-  }
-
-  button,
-  [role="button"],
-  a,
-  input,
-  select,
-  textarea,
-  summary {
-    touch-action: manipulation;
-  }
-
-  /* Regra 13 (seção 2): nada de outline: none sem substituto. Anel de foco sempre visível. */
   :focus-visible {
     outline: 2px solid var(--focus);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 0.5rem;
   }
 
-  /* Exceção documentada, escopada só a h1[tabindex="-1"] (etapa V, item 8a): FocoNoH1
-     chama h1.focus() em toda troca de rota (seção 8, foco não é automático no App
-     Router). Um h1 não interativo com tabindex=-1 nunca é alcançado pelo Tab — a
-     heurística de :focus-visible do navegador, porém, não distingue "foco programático
-     sem clique do usuário" de "navegação por teclado de verdade" nesse caso, e mostra o
-     anel mesmo quando a troca de rota veio de um clique de mouse. Não relaxa a regra
-     geral acima: todo elemento de verdade interativo continua com o anel. */
-  h1[tabindex="-1"]:focus-visible {
-    outline: none; /* check-regras: ignore, exceção documentada acima */
+  /* Tailwind v4 zera o cursor: todo alvo clicável declara a mão */
+  :is(button, [role="button"], a[href], [role="option"], [role="tab"], [role="menuitem"], [role="radio"], [role="checkbox"], [role="switch"], summary, label[for]):not(:disabled) {
+    cursor: pointer;
   }
 
-  /* Regra 10/13: animar só transform e opacity, 120–180ms ease-out, some com reduced-motion. */
-  @media (prefers-reduced-motion: no-preference) {
-    .motion-safe-transition {
-      transition-property: transform, opacity;
-      transition-duration: 160ms;
-      transition-timing-function: ease-out;
-    }
+  button:disabled {
+    cursor: not-allowed;
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.001ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.001ms !important;
-      scroll-behavior: auto !important;
-    }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-strong) transparent;
   }
 }
 
 @layer utilities {
-  .skip-link {
-    position: absolute;
-    left: 1rem;
-    top: -3rem;
-    z-index: 50;
-    transition-property: transform, opacity;
-    transition-duration: 160ms;
+  .font-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
   }
 
-  .skip-link:focus-visible {
-    top: 1rem;
+
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
   }
 
-  .no-scrollbar-x {
-    overflow-x: auto;
+  .tabular {
+    font-variant-numeric: tabular-nums;
   }
 
-  /* Único momento orquestrado do design system (seção 6): bolhas do cartão-resposta
-     entram em sequência no resultado do simulado, até 900ms no total. */
-  @keyframes cartao-entrada {
-    from {
-      opacity: 0;
-      transform: translateY(4px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  .bg-dots {
+    background-image: radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.09) 1px, transparent 0);
+    background-size: 18px 18px;
   }
 
-  .cartao-entrada {
-    animation: cartao-entrada 200ms ease-out both;
+  .bg-grid-soft {
+    background-image: linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 32px 32px;
   }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Skeleton shimmer — desligado quando o movimento está reduzido */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.45), transparent);
+  animation: shimmer 1.6s var(--ease-in-out-soft) infinite;
+}
+.dark .skeleton::after {
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.05), transparent);
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html[data-motion="reduced"] .skeleton::after {
+  animation: none;
+  display: none;
+}
+
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-motion="system"] .skeleton::after {
+    animation: none;
+    display: none;
+  }
+}
+
+/* Recharts: tipografia e cursores coerentes com o tema */
+.recharts-text {
+  fill: var(--fg-subtle);
+  font-size: 12px;
+}
+.recharts-cartesian-grid line {
+  stroke: var(--chart-grid);
+}
+.recharts-surface:focus,
+.recharts-wrapper:focus,
+.recharts-sector:focus {
+  outline: none;
+}
+
+/* Transição suave ao trocar tema ou paleta (aplicada por ~450 ms pelo ThemeController) */
+html.palette-transition *,
+html.palette-transition *::before,
+html.palette-transition *::after {
+  transition-property: background-color, background, color, border-color, fill, stroke, box-shadow, outline-color !important;
+  transition-duration: 380ms !important;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1) !important;
 }

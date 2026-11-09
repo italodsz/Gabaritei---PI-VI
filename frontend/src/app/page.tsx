@@ -1,19 +1,17 @@
 "use client";
 
-import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { getApi } from "@/lib/api/client";
+import { useEffect } from "react";
+import { SplashScreen, resolveHome } from "@/components/layout/AuthGate";
+import { useAccount, useHydrated } from "@/hooks/useAccount";
 
-/** Sem landing page pública (seção 8): / redireciona para /inicio (logado) ou /entrar. */
-export default function RaizPage() {
+/** Ponto de entrada: decide entre autenticação, onboarding e Início. */
+export default function RootPage() {
+  const hydrated = useHydrated();
+  const account = useAccount();
   const router = useRouter();
-
   useEffect(() => {
-    getApi()
-      .obterUsuarioAtual()
-      .then((usuario) => router.replace(usuario ? "/inicio" : "/entrar"))
-      .catch(() => router.replace("/entrar"));
-  }, [router]);
-
-  return null;
+    if (hydrated) router.replace(resolveHome(account));
+  }, [hydrated, account, router]);
+  return <SplashScreen />;
 }
