@@ -1042,3 +1042,396 @@
 {"id": "gq_e512313d90dedbc3cfdbb5b6", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
 {"id": "gq_49428e06e42bf042d04865b7", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
 {"id": "gq_9487705694692cec75a8d194", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
+{"id": "gq_d14b3c594bc42ab8b2befc74", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_a19ef39cf60e207f92b79ff4", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_0d5c95b08f540bcceafafec1", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_2570158a8b7053e8e8293b6b", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": "QU5", "assunto": "Química atmosférica e ciclos", "obs": ""}
+{"id": "gq_5843d5654cb1bf9b2880a684", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_8de14d3766399516002aa9bf", "no": "FS1.gravitacao", "grande_tema": "FS1", "assunto": "Gravitação", "obs": ""}
+{"id": "gq_19ef17d2284c685f20563fc7", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_fcf26284036a8ee0b4caffcd", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_4c365d2e537a2ddeee5a123e", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_d574ea329034546110897255", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_5efe5eb57bdf1e9816805fdd", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
+{"id": "gq_18308f41c57317f231566df3", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_fb7e18a2b2ed3b459be3eb45", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_c784caa08bf7b85aa20ea2fa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_1a997d4f6be32afb87462ab5", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
+{"id": "gq_a5e6dfd245c260bb313c9853", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_23f08c13463322047535c93a", "no": "FS2.temperatura-termometria-e-dilatacao", "grande_tema": "FS2", "assunto": "Temperatura, termometria e dilatação", "obs": ""}
+{"id": "gq_8ae71bcc7f2f0afa936b8b3c", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
+{"id": "gq_87f9b63627255fce15f08f8a", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_5edb1bc4b34e1ef5187bf066", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_187c9baa044ad2fae4716141", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_dd31ab31784744eec99742eb", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
+{"id": "gq_04c3850ee8beb78ea5ccfe66", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_0fc6bf8ddaf7cbaad0f65109", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
+{"id": "gq_e78412e45fb538fdc12013f6", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_6de8301e46ab3ca097e37169", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_5a76fb5f85ad5d965a88ac01", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_d28afd72aca7b3af9bf2ce9b", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_e452b584abb5a8f72a782cb0", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_c8b12d252e8ad109f4828496", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_19d503efeacdbe303e396b1e", "no": "BI6.virus-bacterias-protozoarios-e-fungos", "grande_tema": "BI6", "assunto": "Vírus, bactérias, protozoários e fungos", "obs": ""}
+{"id": "gq_cfa18fb42ba9d3bfbd3e5b44", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_5105204bbdbb652e272d094b", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_bf2223ca1855db6b092402ac", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_1a6071e668433fbb5b679e70", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_e6613ff880f22772dc361378", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
+{"id": "gq_84a17bebbeab153702a3fa36", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
+{"id": "gq_ee11cdc8654bee2156000d6c", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_097d8b189ddd85168da49411", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_1ee3c04e8bbf97523b4f724c", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_3f9514b3459739bc44d94e99", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_2ca3b761937294502b3ac5b8", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_1b2e69550888950e463949cf", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_6d19dbc9413c7ae56b1d321a", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
+{"id": "gq_fce2344021c8991344b7b62f", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_0747036a6921f055e11c2265", "no": "BI2.mutacoes", "grande_tema": "BI2", "assunto": "Mutações", "obs": ""}
+{"id": "gq_54bc010a74162d9b6805e46a", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_3c544eb100c9acbfe8aa8713", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
+{"id": "gq_c5b97d1af952e7ba16c4cee0", "no": "BI6.classificacao-biologica-e-filogenia", "grande_tema": "BI6", "assunto": "Classificação biológica e filogenia", "obs": ""}
+{"id": "gq_0941ab4bab983b8ee13d387c", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_db7213114e21e3f971d4e2b1", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_50de727e5796ec112c1ef8ac", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_474aa62febd8fe645cbed1a4", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_a184d078e85de522169cbde5", "no": "QU5.combustiveis-e-biocombustiveis", "grande_tema": "QU5", "assunto": "Combustíveis e biocombustíveis", "obs": ""}
+{"id": "gq_3a9e81dfe26db477b8d911b2", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_da27657a28a20b0c6f151574", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_ef614a2eac4566cda7c87350", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_2c7efeeeacc89b3b175856be", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_db70a96be796d589b4085c46", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_295619e57ff025e2713454ff", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_f7a3aec2bd8d4c13cd8f15e0", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_7beac4501fb123e81a15c242", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_26c4c242457981eed7410755", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_fe6d7ca9dea47565a05f2d38", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_6f00a76ff72d0ed7ae48a290", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_234342e390543c7a5dfb1884", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_299abdf97befa638db84569d", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
+{"id": "gq_09b97394e706a57a96edb01c", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_133af67cdb8f123caeafedba", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
+{"id": "gq_209cde2bb15a6a31d88ffda0", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_1b755cf54867053a4b904c32", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_77c2a28db7f10ed76f3f82a9", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Cinemática", "obs": ""}
+{"id": "gq_fca4006d77d6cb5aa4835a2a", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_e24d97b2508c428dd6b163cd", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_976af575c15d817ea2e99e13", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_b1dc8283e7547b83ae439994", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_2984626371e35d5deea36090", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_96c8576189cd45e634f4ae65", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
+{"id": "gq_0e9722c0df0ec84766c7c5c4", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_3677db9a4644320a41a13354", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
+{"id": "gq_e5f364a155d4835989f87f89", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_9cc6d606320f8613cdb09f21", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
+{"id": "gq_77762cae055734d13799b131", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_4a4066b0af9de274c5247400", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_31d17e4ecae9edbb717f7886", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_4d17964f1ff251a502bc81f2", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_ff4eb0272f1e5534473f81b6", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": "QU5", "assunto": "Química atmosférica e ciclos", "obs": ""}
+{"id": "gq_34aa33aa967c62a73b3b4d6a", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
+{"id": "gq_f5a07910d3c18bb56a41b9cb", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
+{"id": "gq_8c22794127d2ce7d732b3568", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_b9d7bc9b1ed22d53ee637b5f", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
+{"id": "gq_d00900bbb3fe02010cfd9fc0", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_1450e0e40012bd30efe93d3c", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
+{"id": "gq_8d2178404d2511cb7cf03287", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_723d99a57e9aee4562c72e2c", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_5a5527120bb7c477466af56e", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_1f392d0fa3e94ee4a2316848", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
+{"id": "gq_1d4baedfd0e9ae104e3a32a6", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_eeb8288df11ab2d660fb6dba", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_86ad6d773620c22c55310be6", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
+{"id": "gq_3e0b438bdd4b990cc8846902", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_0cfc99c2c0eab1e97cc13999", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_089ad32f815570df92e7dd7b", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_2f420717d0197ea651d5dc42", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_749dd40512b29644fd8bb560", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_c1a37229adb2dc74606714dc", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
+{"id": "gq_3d8717ff34dbf4f4783b1609", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_c238dd7a1a70abc6db1e19fb", "no": "QU4.isomeria", "grande_tema": "QU4", "assunto": "Isomeria", "obs": ""}
+{"id": "gq_80249fc488d6ec983e86b4b0", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
+{"id": "gq_2e43b65b90c2d47a8e1921b5", "no": "BI3.origem-da-vida-e-das-celulas", "grande_tema": "BI3", "assunto": "Origem da vida e das células", "obs": ""}
+{"id": "gq_c8e2131324d537209c9c8fa8", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_b0e45cd0c1a74dcb4d3c6c22", "no": "QU5.combustiveis-e-biocombustiveis", "grande_tema": "QU5", "assunto": "Combustíveis e biocombustíveis", "obs": ""}
+{"id": "gq_859f03ba5dbad67c56cac393", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": "pêndulo"}
+{"id": "gq_0c3133387b73bfd6f6d9ce68", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
+{"id": "gq_11db4bffb8f2c8928cacd54c", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_8284bd7e2d8de9818510d286", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
+{"id": "gq_e6ec928af3bccf2f31f376c9", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_f805e63ba35321622d31c028", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_67e4b014673590a958126cb8", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": "QU5", "assunto": "Química atmosférica e ciclos", "obs": ""}
+{"id": "gq_0216c3bae2ea0727b4bae4f9", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_b2fdeffd5e64bd152e7f8bd9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
+{"id": "gq_0fd7a5d3fb61cb3ed9cab9db", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da molécula"}
+{"id": "gq_21182cbd4337e72c95ba8668", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_276d86d9d7b5467833778b12", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_f2131257c18a90457945f382", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
+{"id": "gq_1741507513810ca47a2e4fe4", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados do resíduo"}
+{"id": "gq_5e7637f0397776413dfc2cfa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_b7fcfb4a7d99554aca25396c", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
+{"id": "gq_129cb384d548f1d51453037b", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_aff6659ada5b6f8eeaa7ced7", "no": "BI2.mutacoes", "grande_tema": "BI2", "assunto": "Mutações", "obs": ""}
+{"id": "gq_54f9505b7854b294b9bf0ac1", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_6f1e2cb53a0b472dfb7c8056", "no": "FS1.gravitacao", "grande_tema": "FS1", "assunto": "Gravitação", "obs": ""}
+{"id": "gq_36c9d0632b262c08dc0e8fe0", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_f036b2e6240b75a0f6c8dfab", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
+{"id": "gq_cf082619bb5be56acd5c4dbe", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_6a1e1de50d142179d6e0c98a", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_19c07a7e1840858325768ec1", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
+{"id": "gq_ba218c4fdd060d7ec07e102a", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_2bc2a99b87067aebb836e2ac", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_b6bebf0daee898a0b855011a", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_d768e16ec4e59f90bc211b7e", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
+{"id": "gq_5c0b909df15b28ff8a7050ec", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
+{"id": "gq_933628892b1ebd36aadecb4a", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_5e50342a7e8c5ef97e083bd7", "no": "QU2.solubilidade-e-dispersoes", "grande_tema": "QU2", "assunto": "Solubilidade e dispersões", "obs": ""}
+{"id": "gq_6a13b28d3ff80a7b5e58bff3", "no": "QU4.funcoes-e-nomenclatura-organica", "grande_tema": "QU4", "assunto": "Funções e nomenclatura orgânica", "obs": ""}
+{"id": "gq_7bf0f7e97577b654ddd4ef2b", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_5be82aa6d5ad2a0ceb3e1a21", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_c23b44c7216b4e585b09eac5", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
+{"id": "gq_a3375c85393bd50db0360b4a", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_8cc95d44512365a01a9572fd", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_185dc5dabbc02f46cc865ce6", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_cf0426617ddf90a05b7d3450", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
+{"id": "gq_12097225915a9f6725de1661", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
+{"id": "gq_b0f3e847488b4406fcf28854", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_cee4d8ce685df45f5e2d9f22", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
+{"id": "gq_2c70818c02d33cfcfd9d513d", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_dd07f5028aa271213419944a", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_a7dcbdb907bf0da2672dd1f0", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_be0e75409568f353e2b82e78", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
+{"id": "gq_4b03dff79d3fdb9df705b780", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_bf9ab4008795fa3dabd1d72b", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_223da0d1bba21bfbf820a145", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_eb9453268a69429204393a65", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_8e4d06d9db1bcd7e31941247", "no": "BI5.reproducao-e-desenvolvimento", "grande_tema": "BI5", "assunto": "Reprodução e desenvolvimento", "obs": ""}
+{"id": "gq_3a601096ff7390248317d230", "no": "BI3.especiacao-adaptacoes-e-evolucao-humana", "grande_tema": "BI3", "assunto": "Especiação, adaptações e evolução humana", "obs": ""}
+{"id": "gq_14b417204258fde26eb6cef5", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_79b2a4fa1ac8cb10472fc083", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
+{"id": "gq_430a66de72a79cf2e4c04809", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
+{"id": "gq_c8032f42fa6a135678729dc1", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_c668695a285ab1377cfb03c2", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
+{"id": "gq_0c3d7b9ec17beddd4aa90222", "no": "BI5.excrecao-e-osmorregulacao", "grande_tema": "BI5", "assunto": "Excreção e osmorregulação", "obs": ""}
+{"id": "gq_b51898071deb6f81bc8218c3", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados da solução nutritiva"}
+{"id": "gq_73c93659d3a50645e692bb61", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_35c52cd1e456eee66dff8957", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
+{"id": "gq_f1a76ce1255a466cfd24c6f6", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
+{"id": "gq_898d86df2126aebcf4615358", "no": "BI4.sucessao-ecologica", "grande_tema": "BI4", "assunto": "Sucessão ecológica", "obs": ""}
+{"id": "gq_f8cc407a282c2dea5324bcf6", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
+{"id": "gq_6bb5b1963e8f53f4a2fb2dc7", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
+{"id": "gq_56ac7fdf2a91260c123878b5", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_6806d0905d6a6811828eb4cd", "no": "BI5.excrecao-e-osmorregulacao", "grande_tema": "BI5", "assunto": "Excreção e osmorregulação", "obs": ""}
+{"id": "gq_c1d6a53beabed42ce5f322db", "no": "QU2.solubilidade-e-dispersoes", "grande_tema": "QU2", "assunto": "Solubilidade e dispersões", "obs": ""}
+{"id": "gq_a27a967bc4e40ca38071a5c3", "no": "BI2.mutacoes", "grande_tema": "BI2", "assunto": "Mutações", "obs": ""}
+{"id": "gq_0c9cfa195a18a69b78418f1d", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
+{"id": "gq_b4d02d74eb08633d926c0f1d", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_282c6531b53d707e00655b2c", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_6cc66b9914cdded54b19e37a", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_a3e73d669727f5780a40e502", "no": "QU2.solubilidade-e-dispersoes", "grande_tema": "QU2", "assunto": "Solubilidade e dispersões", "obs": ""}
+{"id": "gq_a70256857acdd9328e426efc", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_b17a1634a004f3cc24238b4d", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_3c940361ecc9d1dac812c769", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
+{"id": "gq_f70ea1d034962f20a150122e", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_85c78c40966c6a5d4e4e747c", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_6eb9db1933e0fd534f33d41b", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_e7ca4801db573fb8badfe10f", "no": "QU5.combustiveis-e-biocombustiveis", "grande_tema": "QU5", "assunto": "Combustíveis e biocombustíveis", "obs": ""}
+{"id": "gq_e4bd04a43342d879c36f2eb9", "no": "QU2.solubilidade-e-dispersoes", "grande_tema": "QU2", "assunto": "Solubilidade e dispersões", "obs": ""}
+{"id": "gq_fda3e678e1a43391e5173c93", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_a1ed96ad97cc6ed683dbe305", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_2cd2cae522e1c58e0cc7535f", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
+{"id": "gq_032b91246c74959f382e2869", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_5aa2340247bf7c0f2e824bd2", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_d5e4d5c35c5150a0205ab4b4", "no": "FS4.eletrostatica", "grande_tema": "FS4", "assunto": "Eletrostática", "obs": ""}
+{"id": "gq_86169e090cc3816ca5cd4977", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_007b3b763f5813e99dfa1fa6", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
+{"id": "gq_e73640be9d16c87ef6866c02", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_d70f4b6082fba7d240724616", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_97fd2312c10ec07d9a5e81d0", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
+{"id": "gq_05c4b4c51364c2666472efe5", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_f993bc68785dd35ad95d58e6", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_b585baec341a6758e6476c40", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_8664484151b38bffeea00c2a", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_64740d1ba5e9c4ced6d1d79d", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_6dbafe5f89ce6726a8241543", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_1b1121b14f8836f1bdabd04a", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
+{"id": "gq_8158765ec0299e748d43f0ee", "no": "QU4.reacoes-organicas", "grande_tema": "QU4", "assunto": "Reações orgânicas", "obs": ""}
+{"id": "gq_6865a937ccc0caec8653a9cb", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_325cddcae85efef8414cc17a", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": "Sr substitui Ca (mesma família)"}
+{"id": "gq_449031f9993962fac62a60d9", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_2d95d1bc5fcfa7364da555b3", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam as entalpias"}
+{"id": "gq_d29caaf3081d64d7ae85d7b7", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_a827c6d461865cfebef3e7dd", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
+{"id": "gq_6b477906fb3ce091555b01e9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
+{"id": "gq_b84ebc89ed33009d89756cf8", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_b0a6bf7925781340ba05d981", "no": "BI3.origem-da-vida-e-das-celulas", "grande_tema": "BI3", "assunto": "Origem da vida e das células", "obs": ""}
+{"id": "gq_b4464e3507982bf103592fda", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_67ba6574b0ee8e8146b30b1c", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_28aa72c11a9689f0f613c7d8", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_4f33418465e9530fc54d183c", "no": "QU2.propriedades-coligativas-e-osmose", "grande_tema": "QU2", "assunto": "Propriedades coligativas e osmose", "obs": ""}
+{"id": "gq_44b88937117be88dadd2fcc9", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_9ea932dc3434f6c5fafa5646", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
+{"id": "gq_8f8e1571728849b1b3eb4eeb", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_fda22f0620675c5d856a19a8", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_c85fd6fd50d62e89c803e4a1", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Cinemática", "obs": ""}
+{"id": "gq_74ca68c04eae2a90964f8ef9", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_1b2f571174ef7e94b7e315d2", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_321efef8016d1aae11e8378e", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_b2ac3310e31d790284df7822", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_c6c666aa5dc4892761ef3932", "no": "BI6.virus-bacterias-protozoarios-e-fungos", "grande_tema": "BI6", "assunto": "Vírus, bactérias, protozoários e fungos", "obs": ""}
+{"id": "gq_a453a8dce58812b9bfa0b09c", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
+{"id": "gq_cc05d35c79085159e792b647", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
+{"id": "gq_118b990b8c3bbbc2600869db", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_74d4ab708a43f98d4acbac86", "no": "QU3.termoquimica", "grande_tema": "QU3", "assunto": "Termoquímica", "obs": ""}
+{"id": "gq_5a58cdf63c011a3ca9765da5", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
+{"id": "gq_23713c46f1dbb3f1a397fe75", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_db10c9ecabfc2aebee3d8ddd", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_d8dfdbea5928970b06ff01da", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_775640fd55995393effd6647", "no": "QU4.isomeria", "grande_tema": "QU4", "assunto": "Isomeria", "obs": ""}
+{"id": "gq_ac403d88530fba7d5a61a5df", "no": "QU3.termoquimica", "grande_tema": "QU3", "assunto": "Termoquímica", "obs": ""}
+{"id": "gq_c2cbec00805bc607697cd429", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
+{"id": "gq_3328c1d9fc3b6e01d0c910d8", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto de Haber"}
+{"id": "gq_56115c76c787e17e0aee4b44", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
+{"id": "gq_cde7c1297fb1dc89c9dc39f5", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
+{"id": "gq_d6045b4f0000be40d58ae32d", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
+{"id": "gq_f3e711f1ab9d926970364863", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_80e306cc6da9741467c8418f", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_ae3f4012d9ee1b14fdf9b192", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da forma de plantio"}
+{"id": "gq_aaaacb580e5e83df00400d21", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
+{"id": "gq_4460ad61a866ca08c40ab9f2", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
+{"id": "gq_4254ed5c841209de80eb09bb", "no": "BI2.genetica-de-populacoes", "grande_tema": "BI2", "assunto": "Genética de populações", "obs": "corredores ecológicos / fluxo gênico"}
+{"id": "gq_dadb4ccd018a54d8c7f38154", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
+{"id": "gq_adfbe75a1401304c635e0338", "no": "QU5.combustiveis-e-biocombustiveis", "grande_tema": "QU5", "assunto": "Combustíveis e biocombustíveis", "obs": ""}
+{"id": "gq_38e7fded17b33a2ed12cb88f", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
+{"id": "gq_16d0d5fc16aca45192c70924", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_0cb3abc1ca6e5a20188b5d77", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_2dc9c9311a9e06d583e2aba2", "no": "FS1.estatica-e-equilibrio", "grande_tema": "FS1", "assunto": "Estática e equilíbrio", "obs": ""}
+{"id": "gq_a7b9768d145651eced06f276", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_1eb03dd048ecd2a9d0f8168a", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_0eb1f8519041f5aa67c84dba", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
+{"id": "gq_170b0c891533e6e2252438cd", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_79904be289dc29f44df49407", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_73531de91af5128c82cf4948", "no": "BI6.virus-bacterias-protozoarios-e-fungos", "grande_tema": "BI6", "assunto": "Vírus, bactérias, protozoários e fungos", "obs": ""}
+{"id": "gq_f9409cec71bf425409b1f6e1", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
+{"id": "gq_ea35ef7cc89fe029ae4c2c65", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
+{"id": "gq_2320d619af93e3e2406736fe", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
+{"id": "gq_e474c2ad5509b1ec500e87e2", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_f731a5fba5386eadefa794ef", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_556924a2b32d787de7b89aa9", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_90883983193a710dc2afeeaf", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_4d0565792bd6e34b936859df", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas"}
+{"id": "gq_056098297d8b3e4f90f8f3c3", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_f3342c69dd384250776c3812", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_90162607aa1e3de2eb85d107", "no": "BI5.excrecao-e-osmorregulacao", "grande_tema": "BI5", "assunto": "Excreção e osmorregulação", "obs": ""}
+{"id": "gq_b2e2974da3ef7c98edc60454", "no": "QU3.termoquimica", "grande_tema": "QU3", "assunto": "Termoquímica", "obs": ""}
+{"id": "gq_7c30ef17bf1a19238b2cf543", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_d2975fa70862a0a5df2f0354", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_419310726558dac9515f17e7", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_c3ad5ec1f591615283e1dd4a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas"}
+{"id": "gq_46096b2ad3a7358cf2e0693a", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
+{"id": "gq_7c3a5bdb06b667d0a9047b8f", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_b1f233711963f2d5e4272e58", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
+{"id": "gq_c14cf56f1ae442a6025bc2f4", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_9e234b4e26a951c2cee61043", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_e2b9c174d83414e0cfdbba38", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_cdd04d8145703f8bb8275e23", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_f9b4d08852ae1e1e7881b904", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
+{"id": "gq_12463da220d22bf9333f3cc3", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_130ef6f102b546a2c7a8dd56", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_3bf3a897d51029bc48db059d", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
+{"id": "gq_a820295fd29ecbe956efd607", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
+{"id": "gq_16b88fc3a75f44618b3d9dda", "no": "BI4.sucessao-ecologica", "grande_tema": "BI4", "assunto": "Sucessão ecológica", "obs": ""}
+{"id": "gq_d58744d22fdb11f8f2ee63a6", "no": "FS4.eletrostatica", "grande_tema": "FS4", "assunto": "Eletrostática", "obs": ""}
+{"id": "gq_10ed12f474a7412c8fe6e75f", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_92fba6940e1d19d238ddb781", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_028e5b1c15e019673d9c5338", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
+{"id": "gq_d159b7f225d656f8d70dbaac", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_8e02cd343996be5334fc34c5", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_5a6a939d86041f5fbc50f593", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_9a1a342fc3e0955f2602bdfc", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_933a63620865cf907e7cbb3e", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_3125b571acbf235aa0404345", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
+{"id": "gq_e0b56f21b11320a46375711d", "no": "QU3.equilibrio-quimico-e-deslocamento", "grande_tema": "QU3", "assunto": "Equilíbrio químico e deslocamento", "obs": ""}
+{"id": "gq_0edb3211b99f47be0d621f5b", "no": "QU4.reacoes-organicas", "grande_tema": "QU4", "assunto": "Reações orgânicas", "obs": ""}
+{"id": "gq_474ae75a10c0127e03302a78", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
+{"id": "gq_b1aa7aba0a7ac1540a76046a", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
+{"id": "gq_c13077eda9243c73f722dd20", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": "duplicata de 13bb64be"}
+{"id": "gq_7aa17072b2effe6d2d2d1592", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_ac75ef29197193cdaa03a271", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_f30f20c4772b01cac22a146b", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": "duplicata parcial de 7aa17072 (só o comando)"}
+{"id": "gq_03056359760c5ae84cd34004", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_8d5d3088e9e80bf625e8e563", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_13bb64bec99e56e527624bb9", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
+{"id": "gq_1afb927bd9d1b657dc84cd78", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_0fb27a38af827ec02ac20659", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
+{"id": "gq_f054df53cf90205d85879f43", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
+{"id": "gq_02ebc8bc8c546bae47864b19", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": "meia-vida não nuclear"}
+{"id": "gq_baa74567860210dd2f608912", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
+{"id": "gq_1a9eede85da28baaa0132770", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_6051dec828d0634abc86be82", "no": "FS1.impulso-quantidade-de-movimento-e-colisoes", "grande_tema": "FS1", "assunto": "Impulso, quantidade de movimento e colisões", "obs": ""}
+{"id": "gq_c7763cd102dda20ce2ae86c8", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_6c6595adaf610fd8822d7ceb", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
+{"id": "gq_250e1bcdbc6ced8354b19eae", "no": "BI6.virus-bacterias-protozoarios-e-fungos", "grande_tema": "BI6", "assunto": "Vírus, bactérias, protozoários e fungos", "obs": ""}
+{"id": "gq_3befb607160c11785f8fea71", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_0508e3b3b01ee9e7a223a226", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_c3882f0ecb5dbf1090ee51cd", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_e4780cdd1b3f8933530c5133", "no": "FS1.gravitacao", "grande_tema": "FS1", "assunto": "Gravitação", "obs": ""}
+{"id": "gq_b7a622914984c36bda68529b", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_71015ec85defadfcef5ab114", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Cinemática", "obs": ""}
+{"id": "gq_f9ed2b9043bc1a36515733e5", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
+{"id": "gq_ad35dbc4f8d0aa688785867c", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_716ad1716b48f8aff078df73", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_46a29a126aba7bb79395d6a6", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
+{"id": "gq_74ddfd395eae9bcbee079ba9", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_a776a6e309ced788967b79af", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_2012dde05736d1d5887c54f8", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
+{"id": "gq_76be20d82057fec711f259c0", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_46b0636e6a4a955b38dc2da0", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_ffebaa962dd54ff21200bc10", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
+{"id": "gq_6210f85ab2e7331747fd7b15", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_e1014526491c0a66cf0eddad", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
+{"id": "gq_2c3bf838bb32aecdc23f9002", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_22f84e9817fc2ffe3f4fbbbd", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
+{"id": "gq_7404424a1bc5a826cc70e111", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_292f28dead645148d796798c", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
+{"id": "gq_de826d8e9b7afefe83d21f9f", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_8654aa0a3eeff9ca455e9f67", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
+{"id": "gq_374bd76761cf3f79b5401559", "no": "QU4.reacoes-organicas", "grande_tema": "QU4", "assunto": "Reações orgânicas", "obs": ""}
+{"id": "gq_9d007b6088e413c8668096fc", "no": "QU4.funcoes-e-nomenclatura-organica", "grande_tema": "QU4", "assunto": "Funções e nomenclatura orgânica", "obs": ""}
+{"id": "gq_da4879eadde48a351e753299", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
+{"id": "gq_6ef1ecc786be51ce3549e2d7", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_f5724267e2df743168543a7b", "no": "BI2.mutacoes", "grande_tema": "BI2", "assunto": "Mutações", "obs": ""}
+{"id": "gq_fd244e8b5faecad1a2a63317", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Cinemática", "obs": ""}
+{"id": "gq_24b1a2d74e302a040a978f0f", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
+{"id": "gq_cbc37301210949f56ff47490", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
+{"id": "gq_40172b48bb298d7706406848", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_f06b712eb71a2ff88e99db4a", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_62e3bcb24c0d877c1d958905", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_8ada41a9c7b503ed72dbb57b", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_7806edcd3e09ccfd442a8bec", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
+{"id": "gq_8fd4b6f624ad457ecdbbb55a", "no": "QU2.gases", "grande_tema": "QU2", "assunto": "Gases", "obs": ""}
+{"id": "gq_070c9ea8335bcf4efd378789", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_cca3bb0cbd69d678ae73be07", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
+{"id": "gq_8898a74860fa6a8d5ee93374", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_573be4c0214abb9a0cd30bee", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Cinemática", "obs": ""}
+{"id": "gq_85cff5aa1fbc7bd450ea61e6", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
+{"id": "gq_91554940f3345ee6474b93ec", "no": "BI5.reproducao-e-desenvolvimento", "grande_tema": "BI5", "assunto": "Reprodução e desenvolvimento", "obs": ""}
+{"id": "gq_6d98b3699759fa37725129c7", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
+{"id": "gq_b5e6c40a9549e942a4a26fdb", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_feb26a04e6772cee364d699e", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
+{"id": "gq_93cf9f73d610eb07534f8816", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_fb83a591a7f133c53142b3f5", "no": "QU4.funcoes-e-nomenclatura-organica", "grande_tema": "QU4", "assunto": "Funções e nomenclatura orgânica", "obs": ""}
+{"id": "gq_0845a884d0b9e1e64a6f8e87", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
+{"id": "gq_62ca52f06451d1006bcbc634", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_79fcf6bf11c88002d01701d9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
+{"id": "gq_053cef1eadda732d756e224f", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
+{"id": "gq_d5e603f54e81b07598b512a8", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
+{"id": "gq_2508f23f7c79edf4996c6ee2", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_e5675dffa0e9d7905a1feb60", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_17661f478f83207f8750992f", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
+{"id": "gq_48bcaa6932b14105bbda0540", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": "duplicata de 053cef1e"}
+{"id": "gq_31c35fbf745c475caaecd64f", "no": "BI6.virus-bacterias-protozoarios-e-fungos", "grande_tema": "BI6", "assunto": "Vírus, bactérias, protozoários e fungos", "obs": ""}
+{"id": "gq_fa73fd2e4b8f6bad7f2665c5", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_524d430e713f646ee5b29e6c", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
+{"id": "gq_197c36451e4b8268b292642b", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
+{"id": "gq_ef2fb843def8caa6d86c7867", "no": "BI4.sucessao-ecologica", "grande_tema": "BI4", "assunto": "Sucessão ecológica", "obs": ""}
