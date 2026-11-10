@@ -1,0 +1,39 @@
+{
+ "protocolo": "avaliacao_cega_5_arvore",
+ "data": "2026-11-10",
+ "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+ "vetores_qwen_sha256": "fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de",
+ "rotulos_sha256": "28621df9793dac0f11565e3909895207362be43469e482686f1fcd4e0b489cb6",
+ "semente": "gabaritei-avaliacao-cega-5-arvore-2026-11-10",
+ "metodos": {
+  "A": "oficial: rrf_qwen (RRF k=60 de TF-IDF + Qwen3-Embedding-8B 4 bits), top 3",
+  "B": "candidato: arvore (mesmo assunto primeiro; depois RRF de TF-IDF, Qwen e ordem da árvore v1.2; sem defeitos nem duplicatas), top 3"
+ },
+ "galeria": "treino elegível da mesma área, sem a família da referência",
+ "selecao": "teste elegível, excluindo toda questão citada em resultados/ ou nos pares de desenvolvimento e as famílias delas; 1 MT, 3 CN, 3 CH, 1 LC, ordenadas por sha256(semente+id)",
+ "pares": 40,
+ "avaliacao": "cada sugestão é avaliada uma vez; a nota vale para todo método que a sugeriu; Pendente não entra na conta",
+ "criterios_definidos_antes": {
+  "limiares": [
+   "nota 2 >= 50% das sugestões do método",
+   "nota 1 ou 2 >= 75%",
+   "nenhum bloco com duas ou mais notas 0"
+  ],
+  "decisao": [
+   "1. B vira oficial se a média dele superar a de A em 0,10 ou mais; abaixo disso, fica A (não depende de rótulos).",
+   "2. Se B virar oficial e cumprir os três limiares, é aprovado sem ressalvas; se não, é adotado com a limitação registrada por área."
+  ],
+  "leitura_por_area": "CN e CH (6 referências) mostram se a árvore corrige a falha de conceito; MT e LC (2) verificam que não piora"
+ },
+ "avaliador_requerido": "pessoa, sem consultar IA nem avaliações anteriores; preferencialmente Teles; guardar a ficha preenchida com nome e data",
+ "referencias": [
+  "gq_8cae068f337744571c8857d0",
+  "gq_197c36451e4b8268b292642b",
+  "gq_fa73fd2e4b8f6bad7f2665c5",
+  "gq_efab6baab9890c9f906a2097",
+  "gq_01082982260102fe149db7f4",
+  "gq_c5ec59b6381ba223af7fe5f6",
+  "gq_08ce1719ee80c4135186ac71",
+  "gq_3a7052752ba9dfded28cd1c0"
+ ]
+}
