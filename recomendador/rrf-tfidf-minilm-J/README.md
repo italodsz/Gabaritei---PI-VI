@@ -81,3 +81,26 @@ anterior (RRF + MiniLM) e 0,75 com reranker. Avaliação em escala por agente (3
 limiares de qualidade (50% de nota 2), sobretudo em Ciências da Natureza. O reranker
 (Qwen3-Reranker-4B) está documentado em `resultados/teste_reranker.md` e não foi adotado.
 Detalhes em `resultados/avaliacao_cega_4/` e `resultados/avaliacao_escala/`.
+
+## Candidato: modo `arvore` (10/11/2026)
+
+Usa a árvore curricular v1.2 e a classificação completa das 2.063 questões elegíveis
+(`classificador/dados/`: gabarito + classificação manual, conferida por amostra de 100).
+
+- Primeiro vêm as questões do **mesmo assunto**, na ordem do `rrf_qwen`.
+- Depois, o resto da área por RRF de três listas: TF-IDF, Qwen e a ordem da árvore
+  (mesmo grande tema, grande tema vizinho no tempo em História e Literatura, resto).
+- Ficam fora da galeria as questões com defeito e as duplicatas anotadas. A base não foi alterada.
+- Em língua estrangeira, só sugere questões na mesma língua (inglês ou espanhol).
+
+Validação (mesmos 44 pares): **40/44**, contra 39/44 do `rrf_qwen`. Variantes testadas: só o
+assunto primeiro e o resto por texto, 41/44; árvore estrita (assunto, depois grande tema, depois
+o resto), 36/44, porque empurra para baixo questões parecidas de outro grande tema.
+Com 44 pares de notas majoritariamente de IA, as três diferenças são pequenas.
+
+No top 5, a média de sugestões do mesmo assunto sobe de 1,4–2,3 (`rrf_qwen`) para 4,1–4,7 (`arvore`),
+conforme a área. Mesmo assunto não garante o mesmo conceito, e os rótulos têm cerca de 85–88% de acerto
+na amostra conferida.
+
+Ainda não é o oficial: falta avaliação cega humana. Catálogo em `catalogo/recomendacoes_arvore.json`
+(`python recomendador.py exportar --metodo arvore`), com `grande_tema`, `assunto` e `lingua` de cada questão.
