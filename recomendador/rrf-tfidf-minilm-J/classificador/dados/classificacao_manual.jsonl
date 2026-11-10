@@ -1435,3 +1435,282 @@
 {"id": "gq_524d430e713f646ee5b29e6c", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
 {"id": "gq_197c36451e4b8268b292642b", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
 {"id": "gq_ef2fb843def8caa6d86c7867", "no": "BI4.sucessao-ecologica", "grande_tema": "BI4", "assunto": "Sucessão ecológica", "obs": ""}
+{"id": "gq_2384e7b42188c9cf12051d99", "no": "MA5.semelhanca-de-triangulos", "grande_tema": "MA5", "assunto": "Semelhança de triângulos", "obs": ""}
+{"id": "gq_f217c3de314febc65c4fdf68", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_4d1832f28f09a7baaf2941b0", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_c5e047931469f3c856c125bc", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_0d283e64750fa04505e83572", "no": "MA5.figuras-poligonos-e-solidos", "grande_tema": "MA5", "assunto": "Figuras, polígonos e sólidos", "obs": ""}
+{"id": "gq_eac9bf950ffd5b42504b4550", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
+{"id": "gq_016bfa5ba73b07fbce5140f7", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_5481069e8fa84140bd3146c9", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_82ed0b7218ef826041981fa3", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_dc6ef4ffe7a3591b990d0ef4", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_8317571d5b118d859c7a5b14", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
+{"id": "gq_fa9bbeac51a5a80448c55b1a", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_c894fd59837c541b3ddccf25", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_2ab6da1746eec035cef2d6aa", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_9e8c14b1e1c601ea3adc7442", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_4d0b38482365e395e2594158", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_61f6208fb09d57acea1830da", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_fad1d7c9ab141247a427aac0", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_d23f2c813c22dd6e6fdcf405", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_640cc1764057f1216c2d8e7f", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_a8f9ea50b138b176ecdb4349", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_79f9c690ddb5588cf33b6beb", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_5514e91c283d074eb9400e0e", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_15b5397ccd672aa51e869787", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_678d24a1211987f5e3719625", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_463a8715dc8d0c5cbdd232a3", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_46dbed70600280ae24e9fbc9", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_30773598cedf07785ea6ebe2", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_4ae0a57a811f3a2ff3f4b9d4", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_7dce256c9dd3aa18c68dbcd6", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_025712705a9a3e2d8a1ba06f", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_69437f92b4f36a029b3d6463", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_1b9567825138025c9f3c6646", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_e59b2a63209a051f96c0cb4e", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_aed7992893498e4ffd4f8782", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_0bda5a203894e7ffaec49393", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_ec1a6582a30b2e4b2e383e80", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_d5cecc0e9fd6827b0e83c58f", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_524e578269a561cf91a4b44b", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_944ce331b39de277a5f96f41", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_cd52e779dff8133594ce031b", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_14a9cf0390730801132ae290", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_8dfaeb0c100c5c2012c13972", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_682e8a62d3c90b7dd5504fa2", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_9bb0cfd8e6911e651a36df95", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_ca707a2b743d1d4b04707dff", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_65ce791d478273d80b4c6ece", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
+{"id": "gq_db45952086dbc06b0a364284", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_95bb49bec47cdfcc08f76ed2", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_750e974f2dda3816d2aa5e5a", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_022e120835b41cf647f84643", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_e898766ae6adc513f38c0641", "no": "MA6.dispersao", "grande_tema": "MA6", "assunto": "Dispersão", "obs": ""}
+{"id": "gq_3d89fa70359f3dbe7d9e34a0", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_972ccf314fed60ebadc40f62", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_b6d3454ad14f71ca4765c1bb", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_2f62e0a3306693c4d24bf428", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_3a57b0a03d45cf8b7ea8f3e7", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_b07fc760af87eeb829c614a6", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_5ba34fab294bbc0eb14b04f5", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_e08a615b6d728e7dbfaf1b64", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_c044016badb3375f1450fca2", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_e39e5dbf0e1e458d46d51d6d", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_ee61f5140f53398a18ab4697", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_0163e3382e4ca8ea779e9a64", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_7208f687a00f38d2acc0f3a7", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_14561aefce51ecddf26b4262", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
+{"id": "gq_d8ae186d83b773b08c225eca", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_c4008b86c712073ca15a3320", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_1aa48d4fa57799f494bfffdd", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_092ecfc2eeb8650523b311dc", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_96a5a508a70b9673ddefc8d6", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_116665f908ed3c4ffb400bfd", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_60dfe261fbf87d569cedd705", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_d5197bd9047b17de16311b7f", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_a55770ac69a608b16e84a9f1", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_8b047debf548822cccd04726", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_911f7f7a8aca8533f60a497d", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a tabela de recipientes"}
+{"id": "gq_4e0c206a50c9ce9ec3a42da0", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_d154f05ea23ee9ccbeb316a3", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_f014ad039c76ee76f5d02c61", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_faae356a5c9d0c3dd73e2de5", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_7771c8aca51d390fe5d28ef4", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_d15e710ff619f4757c3b8279", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_6543eee55fc39686a78f538e", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_c8d54b4671dd1fac44db29f7", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o pedido do arquiteto"}
+{"id": "gq_158b644f10a84cbfd372b8f8", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_07e4e258374debabfbde17d5", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_cbd670744a6c75eb4b3dbc84", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_3c1c037a0ce8eafd92fe2764", "no": "MA4.funcao-exponencial", "grande_tema": "MA4", "assunto": "Função exponencial", "obs": ""}
+{"id": "gq_f1ebbe564deb1b0ff85af788", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_495779507cce0a6b2cf5852a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a estimativa de produção"}
+{"id": "gq_2f3d34d1eb42a9889693b9e0", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_b27d5de5f6e866344dccdd4a", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_c4a2ea8d064243be9bd54141", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_54b7dd4c1302a7ae0c98da40", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_3580afb7e65efb904095f5c7", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_4ac92e40157aa5a5d353222e", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_7fcd1974b03f4d879b7385e8", "no": "MA4.funcoes-trigonometricas-e-periodicidade", "grande_tema": "MA4", "assunto": "Funções trigonométricas e periodicidade", "obs": ""}
+{"id": "gq_324dafa963602c7836475947", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_ece93b6eb801b1fecbd2bc47", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_808c6275c937d23a5d104a78", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_98de48c8ed133e23d410bcf6", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_46f6172aa35cdfa2b320c95d", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_9395de46989a8867205e1703", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_e3fb121eee7fecf9fdc3ee8f", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_d59fc4e973766ac856c5713f", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_88c29df1918ee866f266d35f", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_31ee820537574fea2c780984", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_3c7e085f6ab9b3d776a5b653", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_c3fd0591106465d772df6852", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_5d5f51a40497323078d2af26", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
+{"id": "gq_ed0c87e56cc45bf79493a686", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_9b926cb85cdbd373a403fa18", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a função da temperatura da liga"}
+{"id": "gq_fe564035038e9652664d93f6", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_82dbfce34cb4057faff5c26b", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_433695ea3c45017ab3ce4391", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_3b93dc44460410faaba43591", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_eb993f5cdd989bf9c18c83b1", "no": "MA4.funcao-exponencial", "grande_tema": "MA4", "assunto": "Função exponencial", "obs": ""}
+{"id": "gq_3bee511ea594412a7f312ffd", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_7633e45bd4a1d6f57aa21923", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_0437fd70007cb21b6fc7c791", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_44bc34564d46be15d051f89e", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_74002c1bc43d6c462fa810a5", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_6ad2b6ab8a3719fc0652e464", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_e4e56199d8ac1b7f88ea48af", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_f6df49cfe4b92f14223d1b02", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_8e91b6efe3c85c3e307920e8", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_3a730941fa121ac7a5ec8d92", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_b65622a9de6bdee7bcd15228", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_4d59004a0d4461b9911457a4", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_88cdae3eb85ca6e58ffadc99", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_f1118fa159406fda9aa1e538", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_0d248e1dc6256d5d26694d12", "no": "MA5.figuras-poligonos-e-solidos", "grande_tema": "MA5", "assunto": "Figuras, polígonos e sólidos", "obs": ""}
+{"id": "gq_50d6a1460d6b317f1e8f0573", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
+{"id": "gq_85457879c4dea11686e036a2", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_77c0891a54c39c6bb357632a", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_41af12aeede1ee8ea10e5ee8", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_21d778afe1ebff9418ec26de", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_d30670ae6729af1dae2e9a8f", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_24b595ae5c861706a88bc2cc", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_bed2f439537f472b5d51a99f", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_3d9c301120dab9139e37849d", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_5be7c63ce7daa1c437aec2c6", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_fab9a882f8fc18767304c50c", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_4bee027e59db40908fcb7448", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_3d7335725aa56dbea169d6cf", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_ea684bcd1c7c9b9e224fccbc", "no": "MA4.graficos-e-dominio-de-funcoes", "grande_tema": "MA4", "assunto": "Gráficos e domínio de funções", "obs": ""}
+{"id": "gq_a55817032da8d3248493e0a0", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_8c6464d90d034b56886afdc7", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_2645b5bbd223b8b424387484", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_de15f5160658afe1ff1951aa", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_5a1ac92973b9a27752bab2f6", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_49c4b2d7e098ee42f40211f8", "no": "MA9.plano-cartesiano-distancia-e-reta", "grande_tema": "MA9", "assunto": "Plano cartesiano, distância e reta", "obs": ""}
+{"id": "gq_f7b44d30c78c5a08ca2ef6b5", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_5414c64827d40a13067f140f", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_d214ea233bf0bd48e79edf9b", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_045c06746ee6125f27dcb875", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_3570e9d33cd3b65fd96bcef9", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
+{"id": "gq_e87f4379db12c09699e51204", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
+{"id": "gq_4cc05eed0a971447a14e1a05", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_908dcea06b2ba064685de9f1", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_c51d9e7318fadbcdcf7773e5", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_7bb7e2f3c715cf7458662679", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_65bcc5dfac031420f627a989", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_27da05001f8a34c691493295", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
+{"id": "gq_c8b910e65f151a795f652bbf", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_acd24f251e0c00b61b36efed", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_396a57df6ea8bf72d46cd97d", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_c22de526d7febc4453922250", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_327b7a15b8218e591706cc1c", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_cfa9eafd1ffa020efdcae906", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_3cda3369619ae5d17855de4d", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
+{"id": "gq_ac14f463e5dbfdf21b308696", "no": "MA6.leitura-de-tabelas-e-graficos-estatisticos", "grande_tema": "MA6", "assunto": "Leitura de tabelas e gráficos estatísticos", "obs": ""}
+{"id": "gq_6b27da807b00334da7ceaa03", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_1be0ede8961d173d28e1aca0", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_a9646f73bab5d82f31e84c50", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_44c2689df823692096ced481", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_d3e740d7bedace3a6d1ca736", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_69bdc6d730717defbc4f2200", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_63abb69716ebeba164a92e7f", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_b51e158e57bebea72550ed83", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_cff23abdaff2b897ab65bcd5", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_cb2b56544f659c1235c4f9c6", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_cbb5f3c01a4de167f6142db9", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_4ab513e1cf610e69208ed0a4", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_4e22029f698c55d7b8a98dc6", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_7659f79e673e9cb4c9b2e95f", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
+{"id": "gq_77682233577d9240b3b48339", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_c458a902fecb5a8718c60bc3", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_dc6fb99bef33d7e6d9080795", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_dd80da831fa2eb40ea57a67e", "no": "MA5.figuras-poligonos-e-solidos", "grande_tema": "MA5", "assunto": "Figuras, polígonos e sólidos", "obs": ""}
+{"id": "gq_82467c0a48d7acbfb049511f", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_7351423f9e6caa1875fc309d", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_f2b00fda46dd68a31225fa5a", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_75f30f2d124ea41b60622fe3", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_ce3753cee1044ecdd9b7d20b", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_1d01ae0ed0be9b94404d75be", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_5bbf49289d96383386b8e22e", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_52cae146f5b4ed480b6be8f3", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_90b5837e7c0c1438c84382fc", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_fe0cf97c1b3f7b90f0f8f2c9", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_5dc816dc4f37249801d4d66b", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_f8afce811d58555e1e34de43", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_89be5103375938a2c01adc89", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_51e8cc1cf3a1dbdb39626726", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_47797006c0f4ddf3b3f3d333", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_77ca1326e3c03e1c4ed9aa54", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_43af5e0298b07a51facf3218", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": "duplicata de 47797006"}
+{"id": "gq_f70c3448ad1c48893e721d40", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_acdf87e65860d93b36e72dad", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_3a68eb09d9c1db1c900f3dbf", "no": "MA6.leitura-de-tabelas-e-graficos-estatisticos", "grande_tema": "MA6", "assunto": "Leitura de tabelas e gráficos estatísticos", "obs": ""}
+{"id": "gq_124081cde13c61445bdecc1a", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_95908191d0396c955e37e9b1", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_42e41e5dd1d195c77869bef0", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_36f04f02fa45161b19c60220", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
+{"id": "gq_ff45cc53c65a22fb9fb6c2b5", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_5df49012aedb736aa103ebd9", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_3ec6d8cc5c078041ac14f084", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_5789035b986046d3a41f7dee", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_5ee286b3a6bb12356cd757c3", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_8e78aa22a2ef064f58fd8a85", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_36b968d2e6bee4a96e476ee1", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_f8f72f54cff2ecccfac8b197", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": "duplicata de 124081cd"}
+{"id": "gq_3d8328071f3b59506ac187b6", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_996bcb4dd26f4209ae2b2cd3", "no": "MA7.analise-combinatoria", "grande_tema": "MA7", "assunto": "Análise combinatória", "obs": ""}
+{"id": "gq_5fc9cc5ab60559c3aa518e4c", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_27639c444b8702ecd01b9475", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_92c0413d63f941cc05356709", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_4a95f6b2a3dcfea16f196d7f", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_6b80392cb91d83d64335b670", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_0a743d5fdb70d03a1842dc30", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_669bb9b678dc41ec15e67c1c", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_55c248f29c7f6b162174c9d6", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_98b71afcfadc707111984efc", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_fee34bf6f6c2712a05a4ccab", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_7ccb699b6e4216b0cf99db8f", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_d5f6d60a0332514c537a0c66", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_a495bf153008031b1a420d7f", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_4ef1c1edb14e45b8512864fd", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_2d647f449c5e9d9fa5736ffe", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
+{"id": "gq_8db4e9d05a4cc5fc35063f57", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_cd7a0273e58bbf2953fa7a39", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_3988d9b88b334100337aa312", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_c12366a21e85fe76b07926e7", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
+{"id": "gq_0ff0ce934bfed327e5d8b63d", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_43f2256db888dff8b0eec792", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_78c7c3d4ef226f52b2ff39ec", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_a2fa97f9356f80acc4c3fac3", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_2922b1ea6de9d56cd2dd5312", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": "duplicata de 98b71afc"}
+{"id": "gq_e21312d2bf6fabef103eb061", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_fb25ccf866fab6af4a1400de", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_0af3e3035723e48729819dac", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_b8560589ddb6599b51bddc75", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_52354dffa0cf4a5a24a74a46", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": "duplicata de 8db4e9d0"}
+{"id": "gq_6ca876d2a904d164b348e699", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_47c769d519c73d25a05f055c", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_6827e4356415fc54a2ab1956", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_dd06c30fb8eca51dfe903158", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
+{"id": "gq_4348e157bc8fe3cbb16f21b6", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_64efa1ca93543d8cd3920a21", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_8cae068f337744571c8857d0", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_a691bb3047c6a701effb18bd", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_b35c5a63f8f2ffdc26a5b5ad", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_d44b2128b5cc27ae1028bb0d", "no": "MA6.medidas-de-tendencia-central", "grande_tema": "MA6", "assunto": "Medidas de tendência central", "obs": ""}
+{"id": "gq_bd2217ddefd66e55bc8d5247", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_5ed65d18a022d6ebe52e37b8", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_a02bc5486bcfd2667ad4f313", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
+{"id": "gq_95fef056babae892b6c89401", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
+{"id": "gq_0ca35992cee4d0404c69cc2c", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
+{"id": "gq_c19e7fd94ad5b75ee98226b4", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": "duplicata de 0ca35992"}
+{"id": "gq_fb716d169006cd4364901cfc", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
+{"id": "gq_a02fc61776eaf127dcae099d", "no": "MA4.funcao-afim", "grande_tema": "MA4", "assunto": "Função afim", "obs": ""}
+{"id": "gq_3c1e3d52230b8a3d986a6d8a", "no": "MA1.conjuntos-numericos-e-operacoes", "grande_tema": "MA1", "assunto": "Conjuntos numéricos e operações", "obs": ""}
+{"id": "gq_f5c0f49a6c40f3167dc366f2", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
+{"id": "gq_f7606ea21c774debe4cc0faf", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_1c48bad15d1efa53e7d01a6f", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
+{"id": "gq_837a844ed0ca7c39ff0303e9", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
+{"id": "gq_4129b868a478a5256968ca85", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
+{"id": "gq_f8fea79b8ddbb668d93d4a4a", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": "duplicata de a691bb30"}
