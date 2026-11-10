@@ -304,7 +304,7 @@
 {"id": "gq_0e64f597eee580a6e841b434", "no": "HG2.isla-e-bizancio", "grande_tema": "HG2", "assunto": "Islã e Bizâncio", "obs": ""}
 {"id": "gq_1100ada241f62157d3e81fc6", "no": "HG5.guerra-fria", "grande_tema": "HG5", "assunto": "Guerra Fria", "obs": ""}
 {"id": "gq_a483c283a963841d4c6700f5", "no": "FI1.filosofias-helenisticas", "grande_tema": "FI1", "assunto": "Filosofias helenísticas", "obs": ""}
-{"id": "gq_38eec9d5fe2b532d9d41b84e", "no": "HB3.proclamacao-e-ideario-republicano", "grande_tema": "HB3", "assunto": "Proclamação e ideário republicano", "obs": ""}
+{"id": "gq_38eec9d5fe2b532d9d41b84e", "no": "SO3.cultura-popular-e-religiosidade", "grande_tema": "SO3", "assunto": "Cultura popular e religiosidade", "obs": "corrigido na conferência da amostra (SO3.3)"}
 {"id": "gq_271e5bd89008dd80b4268b3d", "no": "FI5.contratualismo", "grande_tema": "FI5", "assunto": "Contratualismo", "obs": ""}
 {"id": "gq_61ea7f1972f055ee85c9e262", "no": "HG6.conquista-e-colonizacao", "grande_tema": "HG6", "assunto": "Conquista e colonização", "obs": ""}
 {"id": "gq_81b8f40361ec3b511a0e5859", "no": "GE2.solos", "grande_tema": "GE2", "assunto": "Solos", "obs": ""}
@@ -1204,7 +1204,7 @@
 {"id": "gq_4b03dff79d3fdb9df705b780", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
 {"id": "gq_bf9ab4008795fa3dabd1d72b", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
 {"id": "gq_223da0d1bba21bfbf820a145", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
-{"id": "gq_eb9453268a69429204393a65", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_eb9453268a69429204393a65", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido na conferência da amostra (FS3.1)"}
 {"id": "gq_8e4d06d9db1bcd7e31941247", "no": "BI5.reproducao-e-desenvolvimento", "grande_tema": "BI5", "assunto": "Reprodução e desenvolvimento", "obs": ""}
 {"id": "gq_3a601096ff7390248317d230", "no": "BI3.especiacao-adaptacoes-e-evolucao-humana", "grande_tema": "BI3", "assunto": "Especiação, adaptações e evolução humana", "obs": ""}
 {"id": "gq_14b417204258fde26eb6cef5", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
@@ -1615,7 +1615,7 @@
 {"id": "gq_d3e740d7bedace3a6d1ca736", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
 {"id": "gq_69bdc6d730717defbc4f2200", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
 {"id": "gq_63abb69716ebeba164a92e7f", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
-{"id": "gq_b51e158e57bebea72550ed83", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
+{"id": "gq_b51e158e57bebea72550ed83", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": "corrigido na conferência da amostra (MA2.4)"}
 {"id": "gq_cff23abdaff2b897ab65bcd5", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
 {"id": "gq_cb2b56544f659c1235c4f9c6", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
 {"id": "gq_cbb5f3c01a4de167f6142db9", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
