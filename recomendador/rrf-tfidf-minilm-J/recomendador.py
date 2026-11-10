@@ -49,7 +49,10 @@ def carregar_rotulos():
     for r in map(json.loads, (CLS / 'dados' / 'classificacao_manual.jsonl').open(encoding='utf-8')):
         obs = r.get('obs') or ''
         rot[r['id']] = {'no': r['no'], 'defeito': r['no'] is None, 'duplicata': 'duplicata de' in obs}
+    tit = json.loads((CLS / 'dados' / 'titulos_v1.json').read_text(encoding='utf-8'))['por_no']
     for v in rot.values():
+        t = tit.get(v['no'], {})
+        v['materia'], v['titulo'] = t.get('materia'), t.get('titulo')
         n = nos.get(v['no'])
         v['grande_tema'] = n['grande_tema'] if n else None
         v['assunto'] = n['assunto'] if n else None
@@ -143,10 +146,20 @@ class Indice:
                          and d['area'] == q['area'] and d['family'] != q['family']])
         tf = (self.X[pool] @ self.X[qi].T).toarray().ravel()
         mn = self.M[pool] @ self.M[qi]
+        if metodo == 'titulo':
+            # 100% dentro do título amplo (matéria + título); ordem = rrf_qwen
+            a = self.rot.get(q['id'], {})
+            if not a.get('titulo'):
+                return []
+            ok = [k for k, j in enumerate(pool) if self._serve(q, self.docs[j])
+                  and (self.rot[self.docs[j]['id']].get('materia'), self.rot[self.docs[j]['id']].get('titulo')) == (a['materia'], a['titulo'])]
+            pool = pool[ok]; tf = tf[ok]; mn = mn[ok]
+            if not len(pool):
+                return []
         if metodo == 'arvore':
             ok = [k for k, j in enumerate(pool) if self._serve(q, self.docs[j])]
             pool = pool[ok]; tf = tf[ok]; mn = mn[ok]
-        if metodo in ('qwen', 'rrf_qwen', 'arvore'):
+        if metodo in ('qwen', 'rrf_qwen', 'arvore', 'titulo'):
             if self.Q is None:
                 raise SystemExit(f'Vetores Qwen ausentes: coloque {QWEN_ARQUIVO} e ids.json em indice/qwen/.')
             qw = self.Q[pool] @ self.Q[qi]
@@ -158,7 +171,7 @@ class Indice:
             s = qw
         else:
             s = np.zeros(len(pool))
-            for v in ((tf, qw) if metodo in ('rrf_qwen', 'arvore') else (tf, mn)):
+            for v in ((tf, qw) if metodo in ('rrf_qwen', 'arvore', 'titulo') else (tf, mn)):
                 o = np.argsort(-v, kind='stable')
                 s[o] += 1 / (self.conf['rrf_k'] + np.arange(1, len(v) + 1))
         seen, out = set(), []
@@ -246,9 +259,9 @@ def exportar(top, metodo='rrf_qwen'):
         meta[d['id']] = {'area': r['area'], 'ano': r['year'], 'habilidade': r.get('skill'),
                          'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b, cortes[r['area']]),
                          'alerta_texto': al, 'alerta_grave': grave(al)}
-        if metodo == 'arvore':
+        if metodo in ('arvore', 'titulo'):
             rt = ix.rot.get(d['id'], {})
-            meta[d['id']].update({'grande_tema': rt.get('grande_tema'), 'assunto': rt.get('assunto'),
+            meta[d['id']].update({'materia': rt.get('materia'), 'titulo': rt.get('titulo'),'grande_tema': rt.get('grande_tema'), 'assunto': rt.get('assunto'),
                                   'lingua': r.get('language'), 'defeito': bool(rt.get('defeito')),
                                   'duplicata': bool(rt.get('duplicata'))})
     recs, mesmo_assunto = {}, {}
@@ -266,6 +279,9 @@ def exportar(top, metodo='rrf_qwen'):
         'ordem': 'cada lista vem da mais para a menos relevante; filtrar por nível sem reordenar',
         'cortes_nivel_por_area_tri_b': cortes,
         'alerta_grave': 'defeito de conteúdo conhecido (expoente, fórmula, equação, palavras coladas etc.); o app deve evitar sugerir',
+        **({'regra_titulo': 'só questões da mesma matéria e do mesmo título amplo (classificador/dados/titulos_v1.json), '
+                            'na ordem do rrf_qwen; sem defeitos nem duplicatas; língua estrangeira só na mesma língua; '
+                            'a lista pode ter menos que top quando o título é pequeno'} if metodo == 'titulo' else {}),
         **({'arvore': 'árvore curricular v1.2; rótulos em classificador/dados (gabarito + classificação manual)',
             'regra_arvore': 'primeiro as do mesmo assunto; depois RRF de TF-IDF, Qwen e ordem da árvore '
                             '(mesmo grande tema, grande tema vizinho no tempo, resto); sem defeitos nem duplicatas; '
@@ -282,7 +298,7 @@ if __name__ == '__main__':
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar', 'exportar'])
     ap.add_argument('--top', type=int, default=50)
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore', 'titulo'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':

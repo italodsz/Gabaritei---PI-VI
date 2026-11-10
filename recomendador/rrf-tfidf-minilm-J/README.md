@@ -104,3 +104,17 @@ na amostra conferida.
 
 Ainda não é o oficial: falta avaliação cega humana. Catálogo em `catalogo/recomendacoes_arvore.json`
 (`python recomendador.py exportar --metodo arvore`), com `grande_tema`, `assunto` e `lingua` de cada questão.
+
+## Candidato: modo `titulo` (10/11/2026)
+
+Decisão de produto: a recomendação é feita 100% dentro do **título amplo** da questão (mesma matéria e
+mesmo título), na ordem do `rrf_qwen`. Motivo: o ENEM quase não repete conceitos (ex.: só duas questões de
+efeito Doppler na base), então prometer "mesmo conceito" não é cumprível; "mesmo título" é.
+
+- 15 matérias e 67 títulos em `classificador/dados/titulos_v1.json`: são os grandes temas da árvore v1.2,
+  com grupos pequenos fundidos (História, Literatura até o Pré-Modernismo, Filosofia antiga e medieval, Artes)
+  e grandes divididos (Proporcionalidade, Geometria). Menor título: 7 questões; mediana de 34 sugestões por questão.
+- Sem defeitos nem duplicatas; língua estrangeira só na mesma língua.
+- Catálogo: `catalogo/recomendacoes_titulo.json` (`python recomendador.py exportar --metodo titulo`), com
+  `materia` e `titulo` em cada questão. As 23 questões sem rótulo (defeito) ficam sem sugestões.
+- Matéria e título são classificação nossa, não dado oficial do INEP. Ainda sem avaliação humana.
