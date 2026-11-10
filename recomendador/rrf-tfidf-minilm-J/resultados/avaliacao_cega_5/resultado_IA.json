@@ -14,7 +14,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": true,
-   "comentario": "Ref: razão entre densidades com frações. Sug: razão concentração/volume virando inequação. Mesmo conceito de razão definida, tarefa outra (modelar desigualdade). Alternativas com frações perdidas."
+   "comentario": "Ref: razão entre densidades com frações. Sug: razão concentração/volume virando inequação. Mesmo conceito de razão definida, tarefa outra (modelar desigualdade). Alternativas com frações perdidas.",
+   "conceito_0a10": 6,
+   "tarefa_0a10": 4,
+   "nota_0a10": 5.4
   },
   {
    "item": "S12",
@@ -26,7 +29,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: razão de razões. Sug: média de taxas e equação. Só a forma de razão em comum; o conhecimento cobrado é resolver equação."
+   "comentario": "Ref: razão de razões. Sug: média de taxas e equação. Só a forma de razão em comum; o conhecimento cobrado é resolver equação.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 2,
+   "nota_0a10": 1.8
   },
   {
    "item": "S13",
@@ -38,7 +44,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: razão de razões com frações. Sug: razão de distâncias proporcionais ao tempo. Proporcionalidade simples, sem composição de razões."
+   "comentario": "Ref: razão de razões com frações. Sug: razão de distâncias proporcionais ao tempo. Proporcionalidade simples, sem composição de razões.",
+   "conceito_0a10": 5,
+   "tarefa_0a10": 5,
+   "nota_0a10": 5.1
   },
   {
    "item": "S14",
@@ -50,7 +59,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": true,
-   "comentario": "Ref: comparar densidades (razão) a partir de frações das grandezas. Sug: o mesmo com massa e volume. Mesmo conceito e mesma tarefa. Fração 3/4 aparece como \"3 4\"."
+   "comentario": "Ref: comparar densidades (razão) a partir de frações das grandezas. Sug: o mesmo com massa e volume. Mesmo conceito e mesma tarefa. Fração 3/4 aparece como \"3 4\".",
+   "conceito_0a10": 9,
+   "tarefa_0a10": 9,
+   "nota_0a10": 9.3
   },
   {
    "item": "S15",
@@ -62,7 +74,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: relação entre densidades por frações. Sug: calcular uma densidade demográfica. Mesmo conceito, tarefa só de cálculo direto."
+   "comentario": "Ref: relação entre densidades por frações. Sug: calcular uma densidade demográfica. Mesmo conceito, tarefa só de cálculo direto.",
+   "conceito_0a10": 7,
+   "tarefa_0a10": 4,
+   "nota_0a10": 6.2
   },
   {
    "item": "S21",
@@ -74,7 +89,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: vacina induz resposta imune específica. Sug: vacina gera memória e resposta secundária. Mesmo conceito e tarefa (mecanismo da vacina)."
+   "comentario": "Ref: vacina induz resposta imune específica. Sug: vacina gera memória e resposta secundária. Mesmo conceito e tarefa (mecanismo da vacina).",
+   "conceito_0a10": 9,
+   "tarefa_0a10": 8,
+   "nota_0a10": 9.0
   },
   {
    "item": "S22",
@@ -86,7 +104,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: antígeno vacinal induz anticorpos. Sug: vacina estimula produção de anticorpos. Mesmo conceito e tarefa."
+   "comentario": "Ref: antígeno vacinal induz anticorpos. Sug: vacina estimula produção de anticorpos. Mesmo conceito e tarefa.",
+   "conceito_0a10": 9,
+   "tarefa_0a10": 9,
+   "nota_0a10": 9.3
   },
   {
    "item": "S23",
@@ -98,7 +119,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: vacina induz anticorpos. Sug: vacina deve induzir imunidade. Mesmo conceito e tarefa, cenário HIV."
+   "comentario": "Ref: vacina induz anticorpos. Sug: vacina deve induzir imunidade. Mesmo conceito e tarefa, cenário HIV.",
+   "conceito_0a10": 8,
+   "tarefa_0a10": 8,
+   "nota_0a10": 8.3
   },
   {
    "item": "S31",
@@ -110,7 +134,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: efeito Doppler. Sug: relação v = λf ao mudar a frequência da fonte. Conteúdo vizinho de ondas, conceito outro."
+   "comentario": "Ref: efeito Doppler. Sug: relação v = λf ao mudar a frequência da fonte. Conteúdo vizinho de ondas, conceito outro.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.0
   },
   {
    "item": "S32",
@@ -122,7 +149,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: Doppler e altura do som. Sug: timbre versus altura. Mesmo tema de qualidades do som, pergunta outra."
+   "comentario": "Ref: Doppler e altura do som. Sug: timbre versus altura. Mesmo tema de qualidades do som, pergunta outra.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 5,
+   "nota_0a10": 4.3
   },
   {
    "item": "S33",
@@ -134,7 +164,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: Doppler (fonte que se aproxima, frequência maior). Sug: eco do morcego com alvo se afastando, frequência menor. Mesmo conceito e tarefa."
+   "comentario": "Ref: Doppler (fonte que se aproxima, frequência maior). Sug: eco do morcego com alvo se afastando, frequência menor. Mesmo conceito e tarefa.",
+   "conceito_0a10": 9,
+   "tarefa_0a10": 8,
+   "nota_0a10": 9.0
   },
   {
    "item": "S34",
@@ -146,7 +179,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: Doppler. Sug: ressonância em tubo fechado. Só \"frequência do som\" em comum."
+   "comentario": "Ref: Doppler. Sug: ressonância em tubo fechado. Só \"frequência do som\" em comum.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 3,
+   "nota_0a10": 2.2
   },
   {
    "item": "S41",
@@ -158,7 +194,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: fibras rápidas com metabolismo anaeróbio. Sug: respiração anaeróbia com outros aceptores. Metabolismo vizinho, tarefa outra."
+   "comentario": "Ref: fibras rápidas com metabolismo anaeróbio. Sug: respiração anaeróbia com outros aceptores. Metabolismo vizinho, tarefa outra.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 3,
+   "nota_0a10": 3.6
   },
   {
    "item": "S42",
@@ -170,7 +209,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: tipo de fibra e metabolismo no desempenho. Sug: toxina que paralisa tecido muscular. Só o músculo em comum."
+   "comentario": "Ref: tipo de fibra e metabolismo no desempenho. Sug: toxina que paralisa tecido muscular. Só o músculo em comum.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 2,
+   "nota_0a10": 1.8
   },
   {
    "item": "S43",
@@ -182,7 +224,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: fibras e oferta de O2 no desempenho. Sug: EPO, transporte de O2 e ATP. Mesmo eixo O2–desempenho, mas sem tipo de fibra."
+   "comentario": "Ref: fibras e oferta de O2 no desempenho. Sug: EPO, transporte de O2 e ATP. Mesmo eixo O2–desempenho, mas sem tipo de fibra.",
+   "conceito_0a10": 6,
+   "tarefa_0a10": 5,
+   "nota_0a10": 5.8
   },
   {
    "item": "S44",
@@ -194,7 +239,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": true,
-   "comentario": "Ref: metabolismo aeróbio × anaeróbio nas fibras. Sug: etapa da fosforilação oxidativa. Conteúdo vizinho, pergunta outra. Marcador ## no texto."
+   "comentario": "Ref: metabolismo aeróbio × anaeróbio nas fibras. Sug: etapa da fosforilação oxidativa. Conteúdo vizinho, pergunta outra. Marcador ## no texto.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 3,
+   "nota_0a10": 3.6
   },
   {
    "item": "S45",
@@ -206,7 +254,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: metabolismo das fibras. Sug: desacoplador e produção de ATP. Conteúdo vizinho, pergunta outra."
+   "comentario": "Ref: metabolismo das fibras. Sug: desacoplador e produção de ATP. Conteúdo vizinho, pergunta outra.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 3,
+   "nota_0a10": 3.6
   },
   {
    "item": "S51",
@@ -218,7 +269,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: adaptação urbana ao clima com soluções baseadas na natureza. Sug: créditos de carbono e desigualdade. Só o tema clima."
+   "comentario": "Ref: adaptação urbana ao clima com soluções baseadas na natureza. Sug: créditos de carbono e desigualdade. Só o tema clima.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 3,
+   "nota_0a10": 2.2
   },
   {
    "item": "S52",
@@ -230,7 +284,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: adaptação urbana. Sug: conservação do Pantanal pelas nascentes. Só o tema ambiental."
+   "comentario": "Ref: adaptação urbana. Sug: conservação do Pantanal pelas nascentes. Só o tema ambiental.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 4,
+   "nota_0a10": 2.5
   },
   {
    "item": "S53",
@@ -242,7 +299,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: medida que atenua problema climático urbano. Sug: impacto do transporte e medida de redução. Mesma tarefa, conceito outro."
+   "comentario": "Ref: medida que atenua problema climático urbano. Sug: impacto do transporte e medida de redução. Mesma tarefa, conceito outro.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 7,
+   "nota_0a10": 4.3
   },
   {
    "item": "S54",
@@ -254,7 +314,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: adaptação às mudanças do clima. Sug: elevação do nível do mar em Kiribati. Mesmo tema, pergunta outra."
+   "comentario": "Ref: adaptação às mudanças do clima. Sug: elevação do nível do mar em Kiribati. Mesmo tema, pergunta outra.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.0
   },
   {
    "item": "S55",
@@ -266,7 +329,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: adaptação e vulnerabilidade urbana ao clima. Sug: vulnerabilidade climática de sociedades. Conceito vizinho, tarefa outra."
+   "comentario": "Ref: adaptação e vulnerabilidade urbana ao clima. Sug: vulnerabilidade climática de sociedades. Conceito vizinho, tarefa outra.",
+   "conceito_0a10": 5,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.7
   },
   {
    "item": "S56",
@@ -278,7 +344,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: áreas verdes atenuam calor e alagamento urbano. Sug: impermeabilização agrava ilha de calor. Mesmo conceito (superfície urbana e clima) e mesma tarefa."
+   "comentario": "Ref: áreas verdes atenuam calor e alagamento urbano. Sug: impermeabilização agrava ilha de calor. Mesmo conceito (superfície urbana e clima) e mesma tarefa.",
+   "conceito_0a10": 8,
+   "tarefa_0a10": 8,
+   "nota_0a10": 8.3
   },
   {
    "item": "S61",
@@ -290,7 +359,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: reivindicação de Wollstonecraft (valorizar o papel social da mulher). Sug: movimento feminista dos anos 1960. Mesmo tema, pergunta outra."
+   "comentario": "Ref: reivindicação de Wollstonecraft (valorizar o papel social da mulher). Sug: movimento feminista dos anos 1960. Mesmo tema, pergunta outra.",
+   "conceito_0a10": 5,
+   "tarefa_0a10": 6,
+   "nota_0a10": 5.4
   },
   {
    "item": "S62",
@@ -302,7 +374,10 @@
    "nota": null,
    "pendente": true,
    "texto_com_problema": true,
-   "comentario": "Pendente: falta o texto-base, só há a referência bibliográfica."
+   "comentario": "Pendente: falta o texto-base, só há a referência bibliográfica.",
+   "conceito_0a10": null,
+   "tarefa_0a10": null,
+   "nota_0a10": null
   },
   {
    "item": "S63",
@@ -314,7 +389,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: reivindicação feminina no século XVIII. Sug: mulheres leitoras no Segundo Reinado. Tema mulheres, conceito outro."
+   "comentario": "Ref: reivindicação feminina no século XVIII. Sug: mulheres leitoras no Segundo Reinado. Tema mulheres, conceito outro.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 5,
+   "nota_0a10": 3.6
   },
   {
    "item": "S64",
@@ -326,7 +404,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: valorização social da mulher. Sug: feminização precária do trabalho. Tema vizinho, pergunta outra."
+   "comentario": "Ref: valorização social da mulher. Sug: feminização precária do trabalho. Tema vizinho, pergunta outra.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.0
   },
   {
    "item": "S65",
@@ -338,7 +419,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: reivindicação feminina. Sug: cotas de gênero nas candidaturas. Tema vizinho, pergunta outra."
+   "comentario": "Ref: reivindicação feminina. Sug: cotas de gênero nas candidaturas. Tema vizinho, pergunta outra.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 4,
+   "nota_0a10": 3.2
   },
   {
    "item": "S66",
@@ -350,7 +434,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: reivindicação feminina. Sug: fatores do voto feminino de 1932. Tema vizinho, pergunta outra."
+   "comentario": "Ref: reivindicação feminina. Sug: fatores do voto feminino de 1932. Tema vizinho, pergunta outra.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 4,
+   "nota_0a10": 3.2
   },
   {
    "item": "S71",
@@ -362,7 +449,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: globalização pluraliza identidades e fortalece minorias. Sug: direitos culturais das minorias em Habermas. Conceito vizinho, tarefa outra."
+   "comentario": "Ref: globalização pluraliza identidades e fortalece minorias. Sug: direitos culturais das minorias em Habermas. Conceito vizinho, tarefa outra.",
+   "conceito_0a10": 5,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.7
   },
   {
    "item": "S72",
@@ -374,7 +464,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: globalização e identidades. Sug: identidade da culinária por assimilação. Tema identidade, conceito outro."
+   "comentario": "Ref: globalização e identidades. Sug: identidade da culinária por assimilação. Tema identidade, conceito outro.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 5,
+   "nota_0a10": 3.6
   },
   {
    "item": "S73",
@@ -386,7 +479,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: globalização e identidades. Sug: difusão cultural (Linton). Conteúdo vizinho de trocas culturais."
+   "comentario": "Ref: globalização e identidades. Sug: difusão cultural (Linton). Conteúdo vizinho de trocas culturais.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 5,
+   "nota_0a10": 4.3
   },
   {
    "item": "S74",
@@ -398,7 +494,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: pautas das minorias. Sug: MNU contra o mito da democracia racial. Ligação real com pautas de minorias, conceito outro."
+   "comentario": "Ref: pautas das minorias. Sug: MNU contra o mito da democracia racial. Ligação real com pautas de minorias, conceito outro.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 4,
+   "nota_0a10": 4.0
   },
   {
    "item": "S75",
@@ -410,7 +509,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: efeito da globalização nas identidades. Sug: tecnologias globais, contato cultural e educação. Conceito vizinho, conclusão outra."
+   "comentario": "Ref: efeito da globalização nas identidades. Sug: tecnologias globais, contato cultural e educação. Conceito vizinho, conclusão outra.",
+   "conceito_0a10": 6,
+   "tarefa_0a10": 5,
+   "nota_0a10": 5.8
   },
   {
    "item": "S76",
@@ -422,7 +524,10 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: globalização pluralizando identidades. Sug: Coroa proíbe a língua dos ciganos em 1718. Só \"identidade cultural\" em comum."
+   "comentario": "Ref: globalização pluralizando identidades. Sug: Coroa proíbe a língua dos ciganos em 1718. Só \"identidade cultural\" em comum.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 4,
+   "nota_0a10": 2.5
   },
   {
    "item": "S81",
@@ -434,7 +539,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: ironia machadiana sobre a alienação da elite. Sug: Senhora e a restrição à mulher. Mesma tarefa de ler crítica social no narrador, outro autor e conceito."
+   "comentario": "Ref: ironia machadiana sobre a alienação da elite. Sug: Senhora e a restrição à mulher. Mesma tarefa de ler crítica social no narrador, outro autor e conceito.",
+   "conceito_0a10": 4,
+   "tarefa_0a10": 7,
+   "nota_0a10": 5.0
   },
   {
    "item": "S82",
@@ -446,7 +554,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: ironia em Esaú e Jacó. Sug: concepção de leitura no mesmo livro. Mesma obra, conceito outro."
+   "comentario": "Ref: ironia em Esaú e Jacó. Sug: concepção de leitura no mesmo livro. Mesma obra, conceito outro.",
+   "conceito_0a10": 3,
+   "tarefa_0a10": 5,
+   "nota_0a10": 3.6
   },
   {
    "item": "S83",
@@ -458,7 +569,10 @@
    "nota": 2,
    "pendente": false,
    "texto_com_problema": true,
-   "comentario": "Ref: alvo da ironia machadiana em Esaú e Jacó. Sug: em que consiste a ironia em outro trecho. Mesmo conceito e tarefa. Marcador ##."
+   "comentario": "Ref: alvo da ironia machadiana em Esaú e Jacó. Sug: em que consiste a ironia em outro trecho. Mesmo conceito e tarefa. Marcador ##.",
+   "conceito_0a10": 9,
+   "tarefa_0a10": 9,
+   "nota_0a10": 9.3
   },
   {
    "item": "S84",
@@ -470,7 +584,10 @@
    "nota": 1,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: crítica social machadiana. Sug: condição da mulher no diálogo de um conto de Machado. Mesmo autor e leitura crítica, conceito outro."
+   "comentario": "Ref: crítica social machadiana. Sug: condição da mulher no diálogo de um conto de Machado. Mesmo autor e leitura crítica, conceito outro.",
+   "conceito_0a10": 5,
+   "tarefa_0a10": 7,
+   "nota_0a10": 5.7
   },
   {
    "item": "S85",
@@ -482,7 +599,11 @@
    "nota": 0,
    "pendente": false,
    "texto_com_problema": false,
-   "comentario": "Ref: ironia machadiana. Sug: contexto urbano e papéis femininos em Marques Rebelo. Só o gênero narrativo em comum."
+   "comentario": "Ref: ironia machadiana. Sug: contexto urbano e papéis femininos em Marques Rebelo. Só o gênero narrativo em comum.",
+   "conceito_0a10": 2,
+   "tarefa_0a10": 5,
+   "nota_0a10": 2.9
   }
- ]
+ ],
+ "modelo_0a10": "nota = -0,30 + 0,73·conceito + 0,34·tarefa (calibração de 10/11/2026, R² 0,85), limitada a 0–10; conceito e tarefa de 0 a 10 dados pela IA"
 }
