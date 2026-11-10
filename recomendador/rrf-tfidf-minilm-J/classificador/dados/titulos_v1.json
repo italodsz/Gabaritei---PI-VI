@@ -1,0 +1,1283 @@
+{
+ "versao": "titulos_v1",
+ "data": "2026-11-10",
+ "descricao": "Título amplo de cada assunto da árvore v1.2: é o grande tema, com grupos pequenos fundidos (História, Literatura, Filosofia antiga/medieval, Artes) e grandes divididos (Proporcionalidade, Geometria).",
+ "por_no": {
+  "HG1.grecia-antiga": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG1.roma-antiga": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG1.oriente-proximo-antigo": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG7.pre-historia-e-arte-rupestre-africana": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG7.reinos-e-sociedades-africanas": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG2.feudalismo": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG2.igreja-medieval": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG2.renascimento-comercial-e-urbano": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG2.isla-e-bizancio": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG2.memoria-e-usos-da-idade-media": {
+   "materia": "História",
+   "titulo": "Antiguidade e Idade Média"
+  },
+  "HG3.expansao-maritima-e-mercantilismo": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG3.renascimento-e-reformas": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG3.absolutismo": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG3.iluminismo": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG4.independencias-nas-americas": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG4.revolucao-francesa": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG4.revolucao-industrial-e-movimento-operario": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG4.liberalismo-socialismo-e-anarquismo": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG4.imperialismo-e-neocolonialismo": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.crise-de-1929-e-entreguerras": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.guerras-mundiais-e-totalitarismos": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.revolucoes-socialistas": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.guerra-fria": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.pos-guerra-fria-e-organismos-multilaterais": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.descolonizacao-da-africa-e-da-asia": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.revolucoes-e-ditaduras-latino-americanas": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.meios-de-comunicacao-e-politica": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.cultura-e-vanguardas-do-inicio-do-seculo": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG5.contracultura-e-movimentos-de-1968": {
+   "materia": "História",
+   "titulo": "Revoluções, século XIX e século XX"
+  },
+  "HG6.incas-astecas-e-maias": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG6.conquista-e-colonizacao": {
+   "materia": "História",
+   "titulo": "Idade Moderna e conquista da América"
+  },
+  "HG8.oficio-do-historiador-e-fontes": {
+   "materia": "História",
+   "titulo": "Teoria da história e historiografia"
+  },
+  "HG8.interpretacoes-do-brasil": {
+   "materia": "História",
+   "titulo": "Teoria da história e historiografia"
+  },
+  "HB1.colonizacao-e-economia-acucareira": {
+   "materia": "História",
+   "titulo": "Brasil Colônia"
+  },
+  "HB1.escravidao-colonial-e-resistencia": {
+   "materia": "História",
+   "titulo": "Brasil Colônia"
+  },
+  "HB1.povos-indigenas-e-colonizacao": {
+   "materia": "História",
+   "titulo": "Brasil Colônia"
+  },
+  "HB1.mineracao-e-interiorizacao": {
+   "materia": "História",
+   "titulo": "Brasil Colônia"
+  },
+  "HB1.revoltas-coloniais": {
+   "materia": "História",
+   "titulo": "Brasil Colônia"
+  },
+  "HB2.processo-de-independencia": {
+   "materia": "História",
+   "titulo": "Independência e Império"
+  },
+  "HB2.primeiro-reinado-e-revoltas-regenciais": {
+   "materia": "História",
+   "titulo": "Independência e Império"
+  },
+  "HB2.segundo-reinado": {
+   "materia": "História",
+   "titulo": "Independência e Império"
+  },
+  "HB2.guerra-do-paraguai": {
+   "materia": "História",
+   "titulo": "Independência e Império"
+  },
+  "HB2.escravidao-no-imperio-e-abolicao": {
+   "materia": "História",
+   "titulo": "Independência e Império"
+  },
+  "HB3.proclamacao-e-ideario-republicano": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB3.coronelismo-e-politica-oligarquica": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB3.revoltas-e-movimentos-sociais": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB3.tenentismo": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB3.urbanizacao-industrializacao-e-movimento-operario": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB4.revolucao-de-1930-e-constituicao-de-1934": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB4.estado-novo": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB4.trabalhismo-e-sindicalismo": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB4.economia-e-industrializacao-na-era-vargas": {
+   "materia": "História",
+   "titulo": "República até 1945"
+  },
+  "HB5.populismo-e-trabalhismo": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB5.desenvolvimentismo": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB5.reformas-de-base-e-polarizacao": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.golpe-de-1964-e-apoios": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.repressao": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.censura-e-cultura": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.economia-da-ditadura": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.resistencia": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB6.abertura-e-redemocratizacao": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB7.constituicao-de-1988-e-cidadania": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB7.movimentos-sociais-contemporaneos": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB7.direitos-humanos-e-memoria": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "HB7.neoliberalismo-e-economia-dos-anos-1990": {
+   "materia": "História",
+   "titulo": "Brasil de 1946 aos dias atuais"
+  },
+  "GE1.coordenadas-fusos-e-escalas": {
+   "materia": "Geografia",
+   "titulo": "Cartografia e representação do espaço"
+  },
+  "GE1.mapas-projecoes-e-geotecnologias": {
+   "materia": "Geografia",
+   "titulo": "Cartografia e representação do espaço"
+  },
+  "GE1.movimentos-da-terra-e-posicao-geografica": {
+   "materia": "Geografia",
+   "titulo": "Cartografia e representação do espaço"
+  },
+  "GE2.estrutura-geologica-e-relevo": {
+   "materia": "Geografia",
+   "titulo": "Geografia física e dinâmica natural"
+  },
+  "GE2.clima-e-fenomenos-atmosfericos": {
+   "materia": "Geografia",
+   "titulo": "Geografia física e dinâmica natural"
+  },
+  "GE2.solos": {
+   "materia": "Geografia",
+   "titulo": "Geografia física e dinâmica natural"
+  },
+  "GE2.hidrografia": {
+   "materia": "Geografia",
+   "titulo": "Geografia física e dinâmica natural"
+  },
+  "GE2.biomas-e-dominios-morfoclimaticos": {
+   "materia": "Geografia",
+   "titulo": "Geografia física e dinâmica natural"
+  },
+  "GE3.impactos-ambientais": {
+   "materia": "Geografia",
+   "titulo": "Questão ambiental e recursos"
+  },
+  "GE3.mudancas-climaticas-e-acordos-internacionais": {
+   "materia": "Geografia",
+   "titulo": "Questão ambiental e recursos"
+  },
+  "GE3.sustentabilidade-e-conservacao": {
+   "materia": "Geografia",
+   "titulo": "Questão ambiental e recursos"
+  },
+  "GE3.recursos-minerais-e-energeticos": {
+   "materia": "Geografia",
+   "titulo": "Questão ambiental e recursos"
+  },
+  "GE4.modernizacao-agricola-e-agronegocio": {
+   "materia": "Geografia",
+   "titulo": "Espaço agrário"
+  },
+  "GE4.estrutura-fundiaria-e-conflitos-no-campo": {
+   "materia": "Geografia",
+   "titulo": "Espaço agrário"
+  },
+  "GE4.agricultura-familiar-trabalho-e-povos-do-campo": {
+   "materia": "Geografia",
+   "titulo": "Espaço agrário"
+  },
+  "GE5.urbanizacao-no-brasil-e-no-mundo": {
+   "materia": "Geografia",
+   "titulo": "Espaço urbano"
+  },
+  "GE5.problemas-e-segregacao-urbana": {
+   "materia": "Geografia",
+   "titulo": "Espaço urbano"
+  },
+  "GE5.rede-e-hierarquia-urbana": {
+   "materia": "Geografia",
+   "titulo": "Espaço urbano"
+  },
+  "GE6.dinamica-demografica-e-indicadores-sociais": {
+   "materia": "Geografia",
+   "titulo": "População e migrações"
+  },
+  "GE6.migracoes-internas-e-internacionais": {
+   "materia": "Geografia",
+   "titulo": "População e migrações"
+  },
+  "GE7.industrializacao-e-modelos-produtivos": {
+   "materia": "Geografia",
+   "titulo": "Industrialização, economia e globalização"
+  },
+  "GE7.globalizacao-e-meio-tecnico-cientifico-informacional": {
+   "materia": "Geografia",
+   "titulo": "Industrialização, economia e globalização"
+  },
+  "GE7.transportes-e-logistica": {
+   "materia": "Geografia",
+   "titulo": "Industrialização, economia e globalização"
+  },
+  "GE7.blocos-economicos-e-comercio-internacional": {
+   "materia": "Geografia",
+   "titulo": "Industrialização, economia e globalização"
+  },
+  "GE8.ordem-mundial-e-organismos-internacionais": {
+   "materia": "Geografia",
+   "titulo": "Geopolítica, território e regionalização"
+  },
+  "GE8.conflitos-territoriais-e-etnicos": {
+   "materia": "Geografia",
+   "titulo": "Geopolítica, território e regionalização"
+  },
+  "GE8.territorio-brasileiro-e-regionalizacao": {
+   "materia": "Geografia",
+   "titulo": "Geopolítica, território e regionalização"
+  },
+  "FI1.mito-tragedia-e-origem-da-filosofia": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI1.pre-socraticos": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI1.socrates-e-sofistas": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI1.platao": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI1.filosofias-helenisticas": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI2.fe-e-razao": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia antiga e medieval"
+  },
+  "FI3.racionalismo": {
+   "materia": "Filosofia",
+   "titulo": "Teoria do conhecimento"
+  },
+  "FI3.empirismo": {
+   "materia": "Filosofia",
+   "titulo": "Teoria do conhecimento"
+  },
+  "FI3.kant-conhecimento-e-limites-da-razao": {
+   "materia": "Filosofia",
+   "titulo": "Teoria do conhecimento"
+  },
+  "FI3.ciencia-moderna-e-metodo": {
+   "materia": "Filosofia",
+   "titulo": "Teoria do conhecimento"
+  },
+  "FI4.fundamentos-da-moral-dever-e-autonomia": {
+   "materia": "Filosofia",
+   "titulo": "Ética"
+  },
+  "FI4.virtude-felicidade-e-vida-boa": {
+   "materia": "Filosofia",
+   "titulo": "Ética"
+  },
+  "FI4.utilitarismo-e-consequencias": {
+   "materia": "Filosofia",
+   "titulo": "Ética"
+  },
+  "FI4.etica-aplicada-e-alteridade": {
+   "materia": "Filosofia",
+   "titulo": "Ética"
+  },
+  "FI4.existencia-liberdade-e-critica-dos-valores": {
+   "materia": "Filosofia",
+   "titulo": "Ética"
+  },
+  "FI5.contratualismo": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia política"
+  },
+  "FI5.poder-e-estado-moderno": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia política"
+  },
+  "FI5.justica-democracia-e-cidadania": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia política"
+  },
+  "FI5.poder-disciplina-e-controle": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia política"
+  },
+  "FI6.escola-de-frankfurt-e-critica-da-cultura": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia contemporânea"
+  },
+  "FI6.linguagem-e-significado": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia contemporânea"
+  },
+  "FI6.filosofia-da-ciencia": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia contemporânea"
+  },
+  "FI6.estetica-e-filosofia-da-arte": {
+   "materia": "Filosofia",
+   "titulo": "Filosofia contemporânea"
+  },
+  "SO1.durkheim": {
+   "materia": "Sociologia",
+   "titulo": "Pensamento sociológico clássico"
+  },
+  "SO1.weber": {
+   "materia": "Sociologia",
+   "titulo": "Pensamento sociológico clássico"
+  },
+  "SO1.marx": {
+   "materia": "Sociologia",
+   "titulo": "Pensamento sociológico clássico"
+  },
+  "SO2.mundo-do-trabalho": {
+   "materia": "Sociologia",
+   "titulo": "Trabalho e economia"
+  },
+  "SO2.capitalismo-consumo-e-mercantilizacao": {
+   "materia": "Sociologia",
+   "titulo": "Trabalho e economia"
+  },
+  "SO3.socializacao-e-instituicoes-sociais": {
+   "materia": "Sociologia",
+   "titulo": "Cultura, identidade e socialização"
+  },
+  "SO3.cultura-identidade-e-diversidade": {
+   "materia": "Sociologia",
+   "titulo": "Cultura, identidade e socialização"
+  },
+  "SO3.cultura-popular-e-religiosidade": {
+   "materia": "Sociologia",
+   "titulo": "Cultura, identidade e socialização"
+  },
+  "SO3.industria-cultural-e-midia": {
+   "materia": "Sociologia",
+   "titulo": "Cultura, identidade e socialização"
+  },
+  "SO3.patrimonio-cultural-e-memoria": {
+   "materia": "Sociologia",
+   "titulo": "Cultura, identidade e socialização"
+  },
+  "SO4.desigualdade-social-e-estratificacao": {
+   "materia": "Sociologia",
+   "titulo": "Desigualdade, direitos e movimentos sociais"
+  },
+  "SO4.racismo-e-relacoes-etnico-raciais": {
+   "materia": "Sociologia",
+   "titulo": "Desigualdade, direitos e movimentos sociais"
+  },
+  "SO4.genero-e-sexualidade": {
+   "materia": "Sociologia",
+   "titulo": "Desigualdade, direitos e movimentos sociais"
+  },
+  "SO4.cidadania-direitos-e-politicas-publicas": {
+   "materia": "Sociologia",
+   "titulo": "Desigualdade, direitos e movimentos sociais"
+  },
+  "SO4.movimentos-sociais": {
+   "materia": "Sociologia",
+   "titulo": "Desigualdade, direitos e movimentos sociais"
+  },
+  "SO5.estado-poder-e-dominacao": {
+   "materia": "Sociologia",
+   "titulo": "Poder, Estado e política"
+  },
+  "SO5.participacao-e-representacao-politica": {
+   "materia": "Sociologia",
+   "titulo": "Poder, Estado e política"
+  },
+  "SO5.violencia-e-seguranca": {
+   "materia": "Sociologia",
+   "titulo": "Poder, Estado e política"
+  },
+  "LP1.tema-tese-e-informacao-central": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Leitura e interpretação"
+  },
+  "LP1.objetivo-e-finalidade-do-texto": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Leitura e interpretação"
+  },
+  "LP1.estrategias-argumentativas": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Leitura e interpretação"
+  },
+  "LP1.relacao-entre-textos": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Leitura e interpretação"
+  },
+  "LP1.leitura-de-textos-multimodais": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Leitura e interpretação"
+  },
+  "LP2.generos-textuais": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Gêneros e tipos textuais"
+  },
+  "LP2.tipos-textuais": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Gêneros e tipos textuais"
+  },
+  "LP3.funcoes-da-linguagem": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Funções da linguagem"
+  },
+  "LP4.variacao-regional-e-social": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Variação linguística"
+  },
+  "LP4.norma-padrao-e-adequacao": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Variação linguística"
+  },
+  "LP4.oralidade-e-escrita": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Variação linguística"
+  },
+  "LP5.coesao-referenciacao-e-conectores": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Construção do texto"
+  },
+  "LP5.coerencia-e-progressao-tematica": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Construção do texto"
+  },
+  "LP5.semantica-e-efeitos-expressivos": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Construção do texto"
+  },
+  "LP5.recursos-gramaticais-no-texto": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Construção do texto"
+  },
+  "LP5.formacao-de-palavras-e-neologismos": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Construção do texto"
+  },
+  "LP6.formacao-do-portugues-brasileiro": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Língua, história e identidade"
+  },
+  "LP6.patrimonio-e-diversidade-linguistica": {
+   "materia": "Língua Portuguesa",
+   "titulo": "Língua, história e identidade"
+  },
+  "LL1.quinhentismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL1.barroco": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL2.arcadismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL3.poesia-1a-geracao": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL3.poesia-2a-geracao": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL3.poesia-3a-geracao": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL3.prosa-romantica": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL4.machado-de-assis": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL4.naturalismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL5.parnasianismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL5.simbolismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL6.pre-modernismo": {
+   "materia": "Literatura",
+   "titulo": "Literatura até o Pré-Modernismo"
+  },
+  "LL7.vanguardas-e-semana-de-22": {
+   "materia": "Literatura",
+   "titulo": "Modernismo"
+  },
+  "LL7.1a-fase": {
+   "materia": "Literatura",
+   "titulo": "Modernismo"
+  },
+  "LL7.2a-fase-poesia-de-30": {
+   "materia": "Literatura",
+   "titulo": "Modernismo"
+  },
+  "LL7.2a-fase-romance-de-30": {
+   "materia": "Literatura",
+   "titulo": "Modernismo"
+  },
+  "LL7.3a-fase-geracao-de-45": {
+   "materia": "Literatura",
+   "titulo": "Modernismo"
+  },
+  "LL8.literatura-e-ditadura": {
+   "materia": "Literatura",
+   "titulo": "Literatura contemporânea"
+  },
+  "LL8.autoria-negra-e-periferica": {
+   "materia": "Literatura",
+   "titulo": "Literatura contemporânea"
+  },
+  "LL8.literatura-indigena": {
+   "materia": "Literatura",
+   "titulo": "Literatura contemporânea"
+  },
+  "LL8.literaturas-africanas-de-lingua-portuguesa": {
+   "materia": "Literatura",
+   "titulo": "Literatura contemporânea"
+  },
+  "LL8.representacao-e-identidade-na-literatura-contemporanea": {
+   "materia": "Literatura",
+   "titulo": "Literatura contemporânea"
+  },
+  "LL9.poema-e-eu-lirico": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "LL9.narrativa-e-narrador": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "LL9.teatro": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "LL9.cronica": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "LL9.intertextualidade-parodia-e-releitura": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "LL9.recursos-expressivos-e-construcao-literaria": {
+   "materia": "Literatura",
+   "titulo": "Gêneros e recursos literários"
+  },
+  "EF1.saude-sedentarismo-e-qualidade-de-vida": {
+   "materia": "Educação Física",
+   "titulo": "Corpo, saúde e atividade física"
+  },
+  "EF1.ginasticas-e-condicionamento-fisico": {
+   "materia": "Educação Física",
+   "titulo": "Corpo, saúde e atividade física"
+  },
+  "EF1.corpo-estetica-e-midia": {
+   "materia": "Educação Física",
+   "titulo": "Corpo, saúde e atividade física"
+  },
+  "EF1.linguagem-corporal-e-expressao": {
+   "materia": "Educação Física",
+   "titulo": "Corpo, saúde e atividade física"
+  },
+  "EF1.acesso-as-praticas-corporais": {
+   "materia": "Educação Física",
+   "titulo": "Corpo, saúde e atividade física"
+  },
+  "EF2.esporte-espetaculo-e-sociedade": {
+   "materia": "Educação Física",
+   "titulo": "Esporte"
+  },
+  "EF2.esporte-genero-e-inclusao": {
+   "materia": "Educação Física",
+   "titulo": "Esporte"
+  },
+  "EF2.esportes-de-aventura-na-natureza": {
+   "materia": "Educação Física",
+   "titulo": "Esporte"
+  },
+  "EF2.praticas-corporais-urbanas-e-jogos-eletronicos": {
+   "materia": "Educação Física",
+   "titulo": "Esporte"
+  },
+  "EF3.jogos-e-brincadeiras": {
+   "materia": "Educação Física",
+   "titulo": "Jogos, lutas e danças"
+  },
+  "EF3.lutas": {
+   "materia": "Educação Física",
+   "titulo": "Jogos, lutas e danças"
+  },
+  "EF3.dancas-como-pratica-corporal": {
+   "materia": "Educação Física",
+   "titulo": "Jogos, lutas e danças"
+  },
+  "AR1.elementos-e-procedimentos-das-artes-visuais": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR1.arte-moderna-e-vanguardas": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR1.arte-contemporanea": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR1.arte-colonial-e-patrimonio-artistico": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR1.fotografia-cinema-e-arte-digital": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR2.elementos-e-criacao-musical": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR2.musica-popular-brasileira": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR2.hibridismo-e-dialogo-musical": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR3.teatro": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR3.danca-como-linguagem-artistica": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR4.producoes-indigenas-afro-brasileiras-e-regionais": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "AR4.manifestacoes-populares-e-tradicoes": {
+   "materia": "Artes",
+   "titulo": "Artes"
+  },
+  "LE1.compreensao-e-inferencia": {
+   "materia": "Língua estrangeira (inglês ou espanhol)",
+   "titulo": "Leitura em língua estrangeira"
+  },
+  "LE1.finalidade-e-argumentacao": {
+   "materia": "Língua estrangeira (inglês ou espanhol)",
+   "titulo": "Leitura em língua estrangeira"
+  },
+  "LE1.recursos-linguisticos-e-efeitos-de-sentido": {
+   "materia": "Língua estrangeira (inglês ou espanhol)",
+   "titulo": "Leitura em língua estrangeira"
+  },
+  "LE1.lingua-cultura-e-identidade": {
+   "materia": "Língua estrangeira (inglês ou espanhol)",
+   "titulo": "Leitura em língua estrangeira"
+  },
+  "TC1.meios-de-comunicacao-e-suas-transformacoes": {
+   "materia": "Tecnologias da informação e comunicação",
+   "titulo": "Tecnologias, linguagens e comunicação"
+  },
+  "TC1.internet-e-redes-sociais": {
+   "materia": "Tecnologias da informação e comunicação",
+   "titulo": "Tecnologias, linguagens e comunicação"
+  },
+  "TC1.hipertexto-e-generos-digitais": {
+   "materia": "Tecnologias da informação e comunicação",
+   "titulo": "Tecnologias, linguagens e comunicação"
+  },
+  "TC1.inclusao-e-exclusao-digital": {
+   "materia": "Tecnologias da informação e comunicação",
+   "titulo": "Tecnologias, linguagens e comunicação"
+  },
+  "TC1.desinformacao-e-fake-news": {
+   "materia": "Tecnologias da informação e comunicação",
+   "titulo": "Tecnologias, linguagens e comunicação"
+  },
+  "FS1.cinematica": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.dinamica-e-leis-de-newton": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.energia-trabalho-e-potencia-mecanica": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.impulso-quantidade-de-movimento-e-colisoes": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.estatica-e-equilibrio": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.gravitacao": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS1.hidrostatica-e-pressao": {
+   "materia": "Física",
+   "titulo": "Mecânica"
+  },
+  "FS2.temperatura-termometria-e-dilatacao": {
+   "materia": "Física",
+   "titulo": "Termologia"
+  },
+  "FS2.calorimetria-e-mudancas-de-estado": {
+   "materia": "Física",
+   "titulo": "Termologia"
+  },
+  "FS2.transmissao-de-calor": {
+   "materia": "Física",
+   "titulo": "Termologia"
+  },
+  "FS2.termodinamica-e-maquinas-termicas": {
+   "materia": "Física",
+   "titulo": "Termologia"
+  },
+  "FS3.fenomenos-ondulatorios": {
+   "materia": "Física",
+   "titulo": "Ondulatória e óptica"
+  },
+  "FS3.som": {
+   "materia": "Física",
+   "titulo": "Ondulatória e óptica"
+  },
+  "FS3.ondas-eletromagneticas-e-espectro": {
+   "materia": "Física",
+   "titulo": "Ondulatória e óptica"
+  },
+  "FS3.optica-geometrica-e-visao": {
+   "materia": "Física",
+   "titulo": "Ondulatória e óptica"
+  },
+  "FS4.eletrostatica": {
+   "materia": "Física",
+   "titulo": "Eletricidade e magnetismo"
+  },
+  "FS4.circuitos-eletricos-e-consumo-de-energia": {
+   "materia": "Física",
+   "titulo": "Eletricidade e magnetismo"
+  },
+  "FS4.eletromagnetismo-e-inducao": {
+   "materia": "Física",
+   "titulo": "Eletricidade e magnetismo"
+  },
+  "FS5.fisica-nuclear-e-radioatividade": {
+   "materia": "Física",
+   "titulo": "Física moderna e energia"
+  },
+  "FS5.fisica-moderna": {
+   "materia": "Física",
+   "titulo": "Física moderna e energia"
+  },
+  "FS5.geracao-de-energia-e-impactos": {
+   "materia": "Física",
+   "titulo": "Física moderna e energia"
+  },
+  "QU1.propriedades-da-materia-e-separacao-de-misturas": {
+   "materia": "Química",
+   "titulo": "Matéria, estrutura e propriedades"
+  },
+  "QU1.modelos-atomicos-e-tabela-periodica": {
+   "materia": "Química",
+   "titulo": "Matéria, estrutura e propriedades"
+  },
+  "QU1.ligacoes-quimicas-e-interacoes-intermoleculares": {
+   "materia": "Química",
+   "titulo": "Matéria, estrutura e propriedades"
+  },
+  "QU1.funcoes-inorganicas": {
+   "materia": "Química",
+   "titulo": "Matéria, estrutura e propriedades"
+  },
+  "QU2.estequiometria": {
+   "materia": "Química",
+   "titulo": "Quantidades, gases e soluções"
+  },
+  "QU2.gases": {
+   "materia": "Química",
+   "titulo": "Quantidades, gases e soluções"
+  },
+  "QU2.solucoes-e-concentracao": {
+   "materia": "Química",
+   "titulo": "Quantidades, gases e soluções"
+  },
+  "QU2.solubilidade-e-dispersoes": {
+   "materia": "Química",
+   "titulo": "Quantidades, gases e soluções"
+  },
+  "QU2.propriedades-coligativas-e-osmose": {
+   "materia": "Química",
+   "titulo": "Quantidades, gases e soluções"
+  },
+  "QU3.termoquimica": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU3.cinetica-quimica": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU3.equilibrio-quimico-e-deslocamento": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU3.equilibrio-acido-base-e-ph": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU3.eletroquimica": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU3.transformacoes-nucleares-e-radioatividade": {
+   "materia": "Química",
+   "titulo": "Físico-química"
+  },
+  "QU4.funcoes-e-nomenclatura-organica": {
+   "materia": "Química",
+   "titulo": "Química orgânica"
+  },
+  "QU4.reacoes-organicas": {
+   "materia": "Química",
+   "titulo": "Química orgânica"
+  },
+  "QU4.isomeria": {
+   "materia": "Química",
+   "titulo": "Química orgânica"
+  },
+  "QU4.polimeros": {
+   "materia": "Química",
+   "titulo": "Química orgânica"
+  },
+  "QU4.biomoleculas": {
+   "materia": "Química",
+   "titulo": "Química orgânica"
+  },
+  "QU5.poluicao-e-tratamento-de-residuos": {
+   "materia": "Química",
+   "titulo": "Química ambiental e aplicada"
+  },
+  "QU5.quimica-atmosferica-e-ciclos": {
+   "materia": "Química",
+   "titulo": "Química ambiental e aplicada"
+  },
+  "QU5.combustiveis-e-biocombustiveis": {
+   "materia": "Química",
+   "titulo": "Química ambiental e aplicada"
+  },
+  "QU5.processos-industriais-e-obtencao-de-materiais": {
+   "materia": "Química",
+   "titulo": "Química ambiental e aplicada"
+  },
+  "BI1.composicao-quimica-e-atividade-enzimatica": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI1.celula-e-organelas": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI1.metabolismo-energetico": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI1.acidos-nucleicos-e-sintese-proteica": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI1.divisao-celular": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI1.diferenciacao-celular-e-tecidos": {
+   "materia": "Biologia",
+   "titulo": "Citologia e bioquímica"
+  },
+  "BI2.heranca-e-leis-de-mendel": {
+   "materia": "Biologia",
+   "titulo": "Genética e biotecnologia"
+  },
+  "BI2.mutacoes": {
+   "materia": "Biologia",
+   "titulo": "Genética e biotecnologia"
+  },
+  "BI2.genetica-de-populacoes": {
+   "materia": "Biologia",
+   "titulo": "Genética e biotecnologia"
+  },
+  "BI2.biotecnologia-e-engenharia-genetica": {
+   "materia": "Biologia",
+   "titulo": "Genética e biotecnologia"
+  },
+  "BI3.origem-da-vida-e-das-celulas": {
+   "materia": "Biologia",
+   "titulo": "Origem da vida e evolução"
+  },
+  "BI3.teorias-evolutivas-e-selecao-natural": {
+   "materia": "Biologia",
+   "titulo": "Origem da vida e evolução"
+  },
+  "BI3.especiacao-adaptacoes-e-evolucao-humana": {
+   "materia": "Biologia",
+   "titulo": "Origem da vida e evolução"
+  },
+  "BI4.relacoes-ecologicas": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.cadeias-alimentares-e-fluxo-de-energia": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.ciclos-biogeoquimicos": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.dinamica-de-populacoes": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.sucessao-ecologica": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.biomas-e-biodiversidade": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI4.impactos-ambientais-e-conservacao": {
+   "materia": "Biologia",
+   "titulo": "Ecologia"
+  },
+  "BI5.digestao-e-nutricao": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI5.circulacao-e-respiracao": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI5.excrecao-e-osmorregulacao": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI5.coordenacao-nervosa-e-endocrina": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI5.reproducao-e-desenvolvimento": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI5.imunologia-e-vacinas": {
+   "materia": "Biologia",
+   "titulo": "Fisiologia humana"
+  },
+  "BI6.classificacao-biologica-e-filogenia": {
+   "materia": "Biologia",
+   "titulo": "Diversidade dos seres vivos e saúde pública"
+  },
+  "BI6.virus-bacterias-protozoarios-e-fungos": {
+   "materia": "Biologia",
+   "titulo": "Diversidade dos seres vivos e saúde pública"
+  },
+  "BI6.doencas-prevencao-e-saude-publica": {
+   "materia": "Biologia",
+   "titulo": "Diversidade dos seres vivos e saúde pública"
+  },
+  "BI6.botanica": {
+   "materia": "Biologia",
+   "titulo": "Diversidade dos seres vivos e saúde pública"
+  },
+  "BI6.zoologia": {
+   "materia": "Biologia",
+   "titulo": "Diversidade dos seres vivos e saúde pública"
+  },
+  "MA1.conjuntos-numericos-e-operacoes": {
+   "materia": "Matemática",
+   "titulo": "Números e operações"
+  },
+  "MA1.multiplos-divisores-e-ciclos": {
+   "materia": "Matemática",
+   "titulo": "Números e operações"
+  },
+  "MA1.teoria-dos-conjuntos-e-diagramas": {
+   "materia": "Matemática",
+   "titulo": "Números e operações"
+  },
+  "MA2.razao-proporcao-e-regra-de-tres": {
+   "materia": "Matemática",
+   "titulo": "Razão e proporção"
+  },
+  "MA2.porcentagem": {
+   "materia": "Matemática",
+   "titulo": "Porcentagem e matemática financeira"
+  },
+  "MA2.escalas": {
+   "materia": "Matemática",
+   "titulo": "Grandezas, unidades e escalas"
+  },
+  "MA2.grandezas-unidades-e-conversoes": {
+   "materia": "Matemática",
+   "titulo": "Grandezas, unidades e escalas"
+  },
+  "MA3.juros-e-financiamentos": {
+   "materia": "Matemática",
+   "titulo": "Porcentagem e matemática financeira"
+  },
+  "MA4.equacoes-inequacoes-e-sistemas": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.funcao-afim": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.funcao-quadratica": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.funcao-exponencial": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.funcao-logaritmica": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.funcoes-trigonometricas-e-periodicidade": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.graficos-e-dominio-de-funcoes": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA4.sequencias-e-progressoes": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA5.angulos-paralelismo-e-simetria": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.geometria-plana-areas-e-perimetros": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.geometria-espacial-volumes-e-areas-de-superficie": {
+   "materia": "Matemática",
+   "titulo": "Geometria espacial"
+  },
+  "MA5.figuras-poligonos-e-solidos": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.semelhanca-de-triangulos": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.relacoes-metricas-e-pitagoras": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.trigonometria-no-triangulo": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA5.ampliacao-e-reducao": {
+   "materia": "Matemática",
+   "titulo": "Geometria plana e semelhança"
+  },
+  "MA9.plano-cartesiano-distancia-e-reta": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA9.circunferencia-no-plano": {
+   "materia": "Matemática",
+   "titulo": "Álgebra e funções"
+  },
+  "MA6.leitura-de-tabelas-e-graficos-estatisticos": {
+   "materia": "Matemática",
+   "titulo": "Estatística"
+  },
+  "MA6.medidas-de-tendencia-central": {
+   "materia": "Matemática",
+   "titulo": "Estatística"
+  },
+  "MA6.dispersao": {
+   "materia": "Matemática",
+   "titulo": "Estatística"
+  },
+  "MA7.analise-combinatoria": {
+   "materia": "Matemática",
+   "titulo": "Contagem e probabilidade"
+  },
+  "MA7.probabilidade": {
+   "materia": "Matemática",
+   "titulo": "Contagem e probabilidade"
+  }
+ }
+}
