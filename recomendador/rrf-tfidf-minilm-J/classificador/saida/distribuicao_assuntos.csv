@@ -1,0 +1,320 @@
+area,disciplina,grande_tema,assunto,questoes
+CH,HIS,HG1,Grécia antiga,9
+CH,HIS,HG1,Roma antiga,4
+CH,HIS,HG1,Oriente Próximo antigo,3
+CH,HIS,HG7,Pré-história e arte rupestre africana,3
+CH,HIS,HG7,Reinos e sociedades africanas,2
+CH,HIS,HG2,Feudalismo,0
+CH,HIS,HG2,Igreja medieval,6
+CH,HIS,HG2,Renascimento comercial e urbano,4
+CH,HIS,HG2,Islã e Bizâncio,1
+CH,HIS,HG2,Memória e usos da Idade Média,8
+CH,HIS,HG3,Expansão marítima e mercantilismo,4
+CH,HIS,HG3,Renascimento e Reformas,3
+CH,HIS,HG3,Absolutismo,1
+CH,HIS,HG3,Iluminismo,3
+CH,HIS,HG4,Independências nas Américas,2
+CH,HIS,HG4,Revolução Francesa,5
+CH,HIS,HG4,Revolução Industrial e movimento operário,4
+CH,HIS,HG4,"Liberalismo, socialismo e anarquismo",7
+CH,HIS,HG4,Imperialismo e neocolonialismo,9
+CH,HIS,HG5,Crise de 1929 e entreguerras,2
+CH,HIS,HG5,Guerras mundiais e totalitarismos,0
+CH,HIS,HG5,Revoluções socialistas,3
+CH,HIS,HG5,Guerra Fria,2
+CH,HIS,HG5,Pós-Guerra Fria e organismos multilaterais,5
+CH,HIS,HG5,Descolonização da África e da Ásia,2
+CH,HIS,HG5,Revoluções e ditaduras latino-americanas,2
+CH,HIS,HG5,Meios de comunicação e política,4
+CH,HIS,HG5,Cultura e vanguardas do início do século,4
+CH,HIS,HG5,Contracultura e movimentos de 1968,5
+CH,HIS,HG6,"Incas, astecas e maias",2
+CH,HIS,HG6,Conquista e colonização,5
+CH,HIS,HG8,Ofício do historiador e fontes,6
+CH,HIS,HG8,Interpretações do Brasil,1
+CH,HIS,HB1,Colonização e economia açucareira,3
+CH,HIS,HB1,Escravidão colonial e resistência,14
+CH,HIS,HB1,Povos indígenas e colonização,9
+CH,HIS,HB1,Mineração e interiorização,4
+CH,HIS,HB1,Revoltas coloniais,2
+CH,HIS,HB2,Processo de independência,8
+CH,HIS,HB2,Primeiro Reinado e revoltas regenciais,6
+CH,HIS,HB2,Segundo Reinado,7
+CH,HIS,HB2,Guerra do Paraguai,2
+CH,HIS,HB2,Escravidão no Império e abolição,11
+CH,HIS,HB3,Proclamação e ideário republicano,4
+CH,HIS,HB3,Coronelismo e política oligárquica,9
+CH,HIS,HB3,Revoltas e movimentos sociais,3
+CH,HIS,HB3,Tenentismo,0
+CH,HIS,HB3,"Urbanização, industrialização e movimento operário",0
+CH,HIS,HB4,Revolução de 1930 e Constituição de 1934,3
+CH,HIS,HB4,Estado Novo,7
+CH,HIS,HB4,Trabalhismo e sindicalismo,5
+CH,HIS,HB4,Economia e industrialização na Era Vargas,1
+CH,HIS,HB5,Populismo e trabalhismo,0
+CH,HIS,HB5,Desenvolvimentismo,1
+CH,HIS,HB5,Reformas de base e polarização,3
+CH,HIS,HB6,Golpe de 1964 e apoios,2
+CH,HIS,HB6,Repressão,5
+CH,HIS,HB6,Censura e cultura,1
+CH,HIS,HB6,Economia da ditadura,1
+CH,HIS,HB6,Resistência,0
+CH,HIS,HB6,Abertura e redemocratização,2
+CH,HIS,HB7,Constituição de 1988 e cidadania,4
+CH,HIS,HB7,Movimentos sociais contemporâneos,2
+CH,HIS,HB7,Direitos humanos e memória,4
+CH,HIS,HB7,Neoliberalismo e economia dos anos 1990,3
+CH,GEO,GE1,"Coordenadas, fusos e escalas",3
+CH,GEO,GE1,"Mapas, projeções e geotecnologias",5
+CH,GEO,GE1,Movimentos da Terra e posição geográfica,2
+CH,GEO,GE2,Estrutura geológica e relevo,9
+CH,GEO,GE2,Clima e fenômenos atmosféricos,6
+CH,GEO,GE2,Solos,4
+CH,GEO,GE2,Hidrografia,3
+CH,GEO,GE2,Biomas e domínios morfoclimáticos,1
+CH,GEO,GE3,Impactos ambientais,11
+CH,GEO,GE3,Mudanças climáticas e acordos internacionais,6
+CH,GEO,GE3,Sustentabilidade e conservação,15
+CH,GEO,GE3,Recursos minerais e energéticos,7
+CH,GEO,GE4,Modernização agrícola e agronegócio,10
+CH,GEO,GE4,Estrutura fundiária e conflitos no campo,12
+CH,GEO,GE4,"Agricultura familiar, trabalho e povos do campo",14
+CH,GEO,GE5,Urbanização no Brasil e no mundo,18
+CH,GEO,GE5,Problemas e segregação urbana,3
+CH,GEO,GE5,Rede e hierarquia urbana,6
+CH,GEO,GE6,Dinâmica demográfica e indicadores sociais,4
+CH,GEO,GE6,Migrações internas e internacionais,9
+CH,GEO,GE7,Industrialização e modelos produtivos,8
+CH,GEO,GE7,Globalização e meio técnico-científico-informacional,18
+CH,GEO,GE7,Transportes e logística,2
+CH,GEO,GE7,Blocos econômicos e comércio internacional,8
+CH,GEO,GE8,Ordem mundial e organismos internacionais,3
+CH,GEO,GE8,Conflitos territoriais e étnicos,6
+CH,GEO,GE8,Território brasileiro e regionalização,1
+CH,FIL,FI1,"Mito, tragédia e origem da filosofia",3
+CH,FIL,FI1,Pré-socráticos,6
+CH,FIL,FI1,Sócrates e sofistas,6
+CH,FIL,FI1,Platão,4
+CH,FIL,FI1,Filosofias helenísticas,4
+CH,FIL,FI2,Fé e razão,7
+CH,FIL,FI3,Racionalismo,10
+CH,FIL,FI3,Empirismo,2
+CH,FIL,FI3,Kant: conhecimento e limites da razão,2
+CH,FIL,FI3,Ciência moderna e método,5
+CH,FIL,FI4,"Fundamentos da moral, dever e autonomia",3
+CH,FIL,FI4,"Virtude, felicidade e vida boa",10
+CH,FIL,FI4,Utilitarismo e consequências,1
+CH,FIL,FI4,Ética aplicada e alteridade,7
+CH,FIL,FI4,"Existência, liberdade e crítica dos valores",5
+CH,FIL,FI5,Contratualismo,4
+CH,FIL,FI5,Poder e Estado moderno,9
+CH,FIL,FI5,"Justiça, democracia e cidadania",15
+CH,FIL,FI5,"Poder, disciplina e controle",7
+CH,FIL,FI6,Escola de Frankfurt e crítica da cultura,1
+CH,FIL,FI6,Linguagem e significado,3
+CH,FIL,FI6,Filosofia da ciência,1
+CH,FIL,FI6,Estética e filosofia da arte,3
+CH,SOC,SO1,Durkheim,1
+CH,SOC,SO1,Weber,1
+CH,SOC,SO1,Marx,3
+CH,SOC,SO2,Mundo do trabalho,21
+CH,SOC,SO2,"Capitalismo, consumo e mercantilização",13
+CH,SOC,SO3,Socialização e instituições sociais,4
+CH,SOC,SO3,"Cultura, identidade e diversidade",2
+CH,SOC,SO3,Cultura popular e religiosidade,8
+CH,SOC,SO3,Indústria cultural e mídia,6
+CH,SOC,SO3,Patrimônio cultural e memória,10
+CH,SOC,SO4,Desigualdade social e estratificação,5
+CH,SOC,SO4,Racismo e relações étnico-raciais,7
+CH,SOC,SO4,Gênero e sexualidade,3
+CH,SOC,SO4,"Cidadania, direitos e políticas públicas",8
+CH,SOC,SO4,Movimentos sociais,3
+CH,SOC,SO5,"Estado, poder e dominação",8
+CH,SOC,SO5,Participação e representação política,2
+CH,SOC,SO5,Violência e segurança,1
+LC,LP,LP1,"Tema, tese e informação central",8
+LC,LP,LP1,Objetivo e finalidade do texto,19
+LC,LP,LP1,Estratégias argumentativas,19
+LC,LP,LP1,Relação entre textos,6
+LC,LP,LP1,Leitura de textos multimodais,4
+LC,LP,LP2,Gêneros textuais,29
+LC,LP,LP2,Tipos textuais,3
+LC,LP,LP3,Funções da linguagem,21
+LC,LP,LP4,Variação regional e social,20
+LC,LP,LP4,Norma-padrão e adequação,27
+LC,LP,LP4,Oralidade e escrita,8
+LC,LP,LP5,Coesão: referenciação e conectores,10
+LC,LP,LP5,Coerência e progressão temática,7
+LC,LP,LP5,Semântica e efeitos expressivos,2
+LC,LP,LP5,Recursos gramaticais no texto,11
+LC,LP,LP5,Formação de palavras e neologismos,7
+LC,LP,LP6,Formação do português brasileiro,20
+LC,LP,LP6,Patrimônio e diversidade linguística,15
+LC,LIT,LL1,Quinhentismo,2
+LC,LIT,LL1,Barroco,1
+LC,LIT,LL2,Arcadismo,3
+LC,LIT,LL3,"Poesia, 1ª geração",0
+LC,LIT,LL3,"Poesia, 2ª geração",2
+LC,LIT,LL3,"Poesia, 3ª geração",1
+LC,LIT,LL3,Prosa romântica,3
+LC,LIT,LL4,Machado de Assis,12
+LC,LIT,LL4,Naturalismo,1
+LC,LIT,LL5,Parnasianismo,1
+LC,LIT,LL5,Simbolismo,3
+LC,LIT,LL6,Pré-Modernismo,3
+LC,LIT,LL7,Vanguardas e Semana de 22,0
+LC,LIT,LL7,1ª fase,8
+LC,LIT,LL7,"2ª fase, poesia de 30",5
+LC,LIT,LL7,"2ª fase, romance de 30",9
+LC,LIT,LL7,"3ª fase, geração de 45",10
+LC,LIT,LL8,Literatura e ditadura,14
+LC,LIT,LL8,Autoria negra e periférica,3
+LC,LIT,LL8,Literatura indígena,4
+LC,LIT,LL8,Literaturas africanas de língua portuguesa,0
+LC,LIT,LL8,Representação e identidade na literatura contemporânea,4
+LC,LIT,LL9,Poema e eu lírico,37
+LC,LIT,LL9,Narrativa e narrador,12
+LC,LIT,LL9,Teatro,2
+LC,LIT,LL9,Crônica,11
+LC,LIT,LL9,"Intertextualidade, paródia e releitura",4
+LC,LIT,LL9,Recursos expressivos e construção literária,14
+LC,EF,EF1,"Saúde, sedentarismo e qualidade de vida",18
+LC,EF,EF1,Ginásticas e condicionamento físico,1
+LC,EF,EF1,"Corpo, estética e mídia",7
+LC,EF,EF1,Linguagem corporal e expressão,3
+LC,EF,EF1,Acesso às práticas corporais,7
+LC,EF,EF2,"Esporte, espetáculo e sociedade",20
+LC,EF,EF2,"Esporte, gênero e inclusão",4
+LC,EF,EF2,Esportes de aventura na natureza,8
+LC,EF,EF2,Práticas corporais urbanas e jogos eletrônicos,4
+LC,EF,EF3,Jogos e brincadeiras,2
+LC,EF,EF3,Lutas,3
+LC,EF,EF3,Danças como prática corporal,11
+LC,ART,AR1,Elementos e procedimentos das artes visuais,4
+LC,ART,AR1,Arte moderna e vanguardas,2
+LC,ART,AR1,Arte contemporânea,4
+LC,ART,AR1,Arte colonial e patrimônio artístico,2
+LC,ART,AR1,"Fotografia, cinema e arte digital",3
+LC,ART,AR2,Elementos e criação musical,5
+LC,ART,AR2,Música popular brasileira,7
+LC,ART,AR2,Hibridismo e diálogo musical,8
+LC,ART,AR3,Teatro,3
+LC,ART,AR3,Dança como linguagem artística,0
+LC,ART,AR4,"Produções indígenas, afro-brasileiras e regionais",3
+LC,ART,AR4,Manifestações populares e tradições,7
+LC,LE,LE1,Compreensão e inferência,5
+LC,LE,LE1,Finalidade e argumentação,7
+LC,LE,LE1,Recursos linguísticos e efeitos de sentido,8
+LC,LE,LE1,"Língua, cultura e identidade",8
+LC,TEC,TC1,Meios de comunicação e suas transformações,1
+LC,TEC,TC1,Internet e redes sociais,27
+LC,TEC,TC1,Hipertexto e gêneros digitais,11
+LC,TEC,TC1,Inclusão e exclusão digital,9
+LC,TEC,TC1,Desinformação e fake news,7
+CN,FIS,FS1,Cinemática,5
+CN,FIS,FS1,Dinâmica e leis de Newton,6
+CN,FIS,FS1,"Energia, trabalho e potência mecânica",21
+CN,FIS,FS1,"Impulso, quantidade de movimento e colisões",5
+CN,FIS,FS1,Estática e equilíbrio,1
+CN,FIS,FS1,Gravitação,1
+CN,FIS,FS1,Hidrostática e pressão,6
+CN,FIS,FS2,"Temperatura, termometria e dilatação",6
+CN,FIS,FS2,Calorimetria e mudanças de estado,1
+CN,FIS,FS2,Transmissão de calor,14
+CN,FIS,FS2,Termodinâmica e máquinas térmicas,5
+CN,FIS,FS3,Fenômenos ondulatórios,9
+CN,FIS,FS3,Som,3
+CN,FIS,FS3,Ondas eletromagnéticas e espectro,7
+CN,FIS,FS3,Óptica geométrica e visão,7
+CN,FIS,FS4,Eletrostática,6
+CN,FIS,FS4,Circuitos elétricos e consumo de energia,10
+CN,FIS,FS4,Eletromagnetismo e indução,3
+CN,FIS,FS5,Física nuclear e radioatividade,5
+CN,FIS,FS5,Física moderna,0
+CN,FIS,FS5,Geração de energia e impactos,4
+CN,QUI,QU1,Propriedades da matéria e separação de misturas,20
+CN,QUI,QU1,Modelos atômicos e tabela periódica,6
+CN,QUI,QU1,Ligações químicas e interações intermoleculares,4
+CN,QUI,QU1,Funções inorgânicas,2
+CN,QUI,QU2,Estequiometria,20
+CN,QUI,QU2,Gases,0
+CN,QUI,QU2,Soluções e concentração,3
+CN,QUI,QU2,Solubilidade e dispersões,0
+CN,QUI,QU2,Propriedades coligativas e osmose,8
+CN,QUI,QU3,Termoquímica,2
+CN,QUI,QU3,Cinética química,3
+CN,QUI,QU3,Equilíbrio químico e deslocamento,2
+CN,QUI,QU3,Equilíbrio ácido-base e pH,19
+CN,QUI,QU3,Eletroquímica,1
+CN,QUI,QU3,Transformações nucleares e radioatividade,4
+CN,QUI,QU4,Funções e nomenclatura orgânica,3
+CN,QUI,QU4,Reações orgânicas,2
+CN,QUI,QU4,Isomeria,2
+CN,QUI,QU4,Polímeros,4
+CN,QUI,QU4,Biomoléculas,1
+CN,QUI,QU5,Poluição e tratamento de resíduos,10
+CN,QUI,QU5,Química atmosférica e ciclos,8
+CN,QUI,QU5,Combustíveis e biocombustíveis,5
+CN,QUI,QU5,Processos industriais e obtenção de materiais,3
+CN,BIO,BI1,Composição química e atividade enzimática,8
+CN,BIO,BI1,Célula e organelas,1
+CN,BIO,BI1,Metabolismo energético,20
+CN,BIO,BI1,Ácidos nucleicos e síntese proteica,3
+CN,BIO,BI1,Divisão celular,2
+CN,BIO,BI1,Diferenciação celular e tecidos,0
+CN,BIO,BI2,Herança e leis de Mendel,5
+CN,BIO,BI2,Mutações,0
+CN,BIO,BI2,Genética de populações,3
+CN,BIO,BI2,Biotecnologia e engenharia genética,20
+CN,BIO,BI3,Origem da vida e das células,8
+CN,BIO,BI3,Teorias evolutivas e seleção natural,4
+CN,BIO,BI3,"Especiação, adaptações e evolução humana",1
+CN,BIO,BI4,Relações ecológicas,7
+CN,BIO,BI4,Cadeias alimentares e fluxo de energia,5
+CN,BIO,BI4,Ciclos biogeoquímicos,15
+CN,BIO,BI4,Dinâmica de populações,2
+CN,BIO,BI4,Sucessão ecológica,2
+CN,BIO,BI4,Biomas e biodiversidade,5
+CN,BIO,BI4,Impactos ambientais e conservação,7
+CN,BIO,BI5,Digestão e nutrição,5
+CN,BIO,BI5,Circulação e respiração,5
+CN,BIO,BI5,Excreção e osmorregulação,1
+CN,BIO,BI5,Coordenação nervosa e endócrina,3
+CN,BIO,BI5,Reprodução e desenvolvimento,4
+CN,BIO,BI5,Imunologia e vacinas,8
+CN,BIO,BI6,Classificação biológica e filogenia,1
+CN,BIO,BI6,"Vírus, bactérias, protozoários e fungos",12
+CN,BIO,BI6,"Doenças, prevenção e saúde pública",8
+CN,BIO,BI6,Botânica,11
+CN,BIO,BI6,Zoologia,8
+MT,MAT,MA1,Conjuntos numéricos e operações,5
+MT,MAT,MA1,"Múltiplos, divisores e ciclos",8
+MT,MAT,MA1,Teoria dos conjuntos e diagramas,17
+MT,MAT,MA2,"Razão, proporção e regra de três",28
+MT,MAT,MA2,Porcentagem,20
+MT,MAT,MA2,Escalas,14
+MT,MAT,MA2,"Grandezas, unidades e conversões",29
+MT,MAT,MA3,Juros e financiamentos,21
+MT,MAT,MA4,"Equações, inequações e sistemas",12
+MT,MAT,MA4,Função afim,3
+MT,MAT,MA4,Função quadrática,13
+MT,MAT,MA4,Função exponencial,6
+MT,MAT,MA4,Função logarítmica,3
+MT,MAT,MA4,Funções trigonométricas e periodicidade,2
+MT,MAT,MA4,Gráficos e domínio de funções,1
+MT,MAT,MA4,Sequências e progressões,3
+MT,MAT,MA5,"Ângulos, paralelismo e simetria",0
+MT,MAT,MA5,Geometria plana: áreas e perímetros,0
+MT,MAT,MA5,Geometria espacial: volumes e áreas de superfície,24
+MT,MAT,MA5,"Figuras, polígonos e sólidos",4
+MT,MAT,MA5,Semelhança de triângulos,4
+MT,MAT,MA5,Relações métricas e Pitágoras,7
+MT,MAT,MA5,Trigonometria no triângulo,1
+MT,MAT,MA5,Ampliação e redução,27
+MT,MAT,MA9,"Plano cartesiano, distância e reta",9
+MT,MAT,MA9,Circunferência no plano,3
+MT,MAT,MA6,Leitura de tabelas e gráficos estatísticos,5
+MT,MAT,MA6,Medidas de tendência central,24
+MT,MAT,MA6,Dispersão,4
+MT,MAT,MA7,Análise combinatória,3
+MT,MAT,MA7,Probabilidade,25
