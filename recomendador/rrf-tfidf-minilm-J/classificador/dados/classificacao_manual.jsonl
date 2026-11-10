@@ -518,3 +518,527 @@
 {"id": "gq_4e705112babbdbd0ad2e8fc6", "no": "HG3.iluminismo", "grande_tema": "HG3", "assunto": "Iluminismo", "obs": ""}
 {"id": "gq_01082982260102fe149db7f4", "no": "GE3.mudancas-climaticas-e-acordos-internacionais", "grande_tema": "GE3", "assunto": "Mudanças climáticas e acordos internacionais", "obs": ""}
 {"id": "gq_13a98d99297e2daefdbd7489", "no": "FI4.virtude-felicidade-e-vida-boa", "grande_tema": "FI4", "assunto": "Virtude, felicidade e vida boa", "obs": ""}
+{"id": "gq_ecd47208536fc475aed05c84", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_a74b49522467bf2fd099db29", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_db91d5c9c8e8654828412e67", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_cdc4346f90dd7b164d751ff7", "no": "AR1.arte-moderna-e-vanguardas", "grande_tema": "AR1", "assunto": "Arte moderna e vanguardas", "obs": ""}
+{"id": "gq_fdf7989d6768cbe29ff853f6", "no": "AR3.teatro", "grande_tema": "AR3", "assunto": "Teatro", "obs": ""}
+{"id": "gq_3f3700a027a67196d08c0582", "no": "EF1.ginasticas-e-condicionamento-fisico", "grande_tema": "EF1", "assunto": "Ginásticas e condicionamento físico", "obs": ""}
+{"id": "gq_14413d402dc9dcc913aa3755", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_5c2997bb2efca7d6f0a247b5", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_b4c92a2d71ec0a4978435baa", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_ce148ba1806c3a604a3a70bf", "no": "TC1.inclusao-e-exclusao-digital", "grande_tema": "TC1", "assunto": "Inclusão e exclusão digital", "obs": ""}
+{"id": "gq_a8f564d333f019f081744b4a", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_f27b82f37cac47a7f51af2f8", "no": "AR3.teatro", "grande_tema": "AR3", "assunto": "Teatro", "obs": ""}
+{"id": "gq_374394b887880862fd05b2a6", "no": "EF3.dancas-como-pratica-corporal", "grande_tema": "EF3", "assunto": "Danças como prática corporal", "obs": ""}
+{"id": "gq_fe435cc75654f11bccb1973d", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_9425233c3800bc906cd6cdc2", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_8b88e120634e51ad501a7f6d", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_ddee71b001ea8738be29dd3e", "no": "LL7.2a-fase-romance-de-30", "grande_tema": "LL7", "assunto": "2ª fase, romance de 30", "obs": ""}
+{"id": "gq_1b4dc848112412acdee0dd33", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_f650359ffbc754b56ab81c5f", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_7e63dc415a42d188b7df8eab", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_2569f9722d06e25238e7f372", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_890eed7a719cb73cb7d0685a", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": ""}
+{"id": "gq_271fbbf7113b24203b6fb9a1", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_7de90f90733ceed86bf01d1a", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_2c575eaa2722c941f288dfc0", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_ab6b0576595c85f22ce3be37", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_4e236170b88ae5652df2a50a", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_515e637ced4e836716ccff2e", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_7fdd39d112d0fd219a50c426", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_75cc3b7f3ad0405317d1a2ea", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_27d0c990055e811feff38d4d", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_37b14ae6a7f51a4a9fdc59fd", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_b695ae2449c95b09160714d8", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_156adb20bc25a1eab9d404d3", "no": "TC1.desinformacao-e-fake-news", "grande_tema": "TC1", "assunto": "Desinformação e fake news", "obs": ""}
+{"id": "gq_67a4c372c1eb5240c50942c9", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_b5a5ba58b9011211c041f7bb", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_523af7be094d7898640d004a", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_fa62551a7ef2de4b9a636c9d", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
+{"id": "gq_edc1777a6a9b85bdca915cfd", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_b0c454801fea061b62bfffb6", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_af0a08e64784b28f0c7c87f7", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_64e23c7364e69ea4cdd2473f", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_829304232e9f91adc2afc7aa", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_dc3711da97611c6672abb866", "no": "AR1.arte-moderna-e-vanguardas", "grande_tema": "AR1", "assunto": "Arte moderna e vanguardas", "obs": ""}
+{"id": "gq_54501afc1ff4dc9f485fde67", "no": "AR1.arte-moderna-e-vanguardas", "grande_tema": "AR1", "assunto": "Arte moderna e vanguardas", "obs": ""}
+{"id": "gq_0ed989c5751527dfc7011773", "no": "EF3.dancas-como-pratica-corporal", "grande_tema": "EF3", "assunto": "Danças como prática corporal", "obs": ""}
+{"id": "gq_3b462fd3bfc9d2b2dd6ba6c6", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_9561c019d249b503a284b1ef", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_427ff6e92b7aa18f528ac66e", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_f068073b477ae3b56aeffd5d", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
+{"id": "gq_c1183a5e941c318c2198f741", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_7a4557b4a2405d800f76d050", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_3e2d1241681a9dd724330739", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
+{"id": "gq_b0d6c27aedcb7a4aeb4e3c59", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_51c55ff04cc7dfcf9040127f", "no": "LL7.3a-fase-geracao-de-45", "grande_tema": "LL7", "assunto": "3ª fase, geração de 45", "obs": ""}
+{"id": "gq_f4a21368888b80dcf0c831f3", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_9d31e73cad3477de9ad357bb", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
+{"id": "gq_73004790fa6f4d3f7c3793cc", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_85da616edc64f6927d0c06ed", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_232fe9092a3b6316844e338a", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_d92d78980d4e7e7dcd8db4bb", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_e23c89463089f002a75a985a", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_4eb6d7d6e4b313a8cab29567", "no": "EF3.dancas-como-pratica-corporal", "grande_tema": "EF3", "assunto": "Danças como prática corporal", "obs": ""}
+{"id": "gq_c99c0b947661c1047d69c05a", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_68e7f6701b78cb57f2d70820", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
+{"id": "gq_9c2ddb31e84b5a1f16f836e6", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_99e2caa88b0242e1d2aea262", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_c36717e93f8cd1a26162eb52", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_ef3372cc10d9413a05a3149d", "no": "LL5.simbolismo", "grande_tema": "LL5", "assunto": "Simbolismo", "obs": ""}
+{"id": "gq_43d55cc26595564a4ab3073e", "no": "EF3.lutas", "grande_tema": "EF3", "assunto": "Lutas", "obs": ""}
+{"id": "gq_4b463a2ab69341998e51de1c", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_6f9949f8e6c6126d4845cd4d", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_7e9fe5741839ee482260fbbe", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_337af03c87372fa616186fee", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_50350f4f6e2e0ce326cae52b", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_763c9d03353a11f46c05f366", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_eca69792b6150ce4281a03bc", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_794ca4dda57a703e24eb8167", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_9cb3cfa66fb6108cb4ece8e7", "no": "LL9.intertextualidade-parodia-e-releitura", "grande_tema": "LL9", "assunto": "Intertextualidade, paródia e releitura", "obs": ""}
+{"id": "gq_d6a261a6dea6d36c5026761b", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_949c27daed74b5117a164986", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_7247ecd615242ca2c8ed30b3", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_919c886edf83bf0828731108", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_352bde2b5e4de08103d393d8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_3a6ae9c664d766838c6c0076", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_ecbc52914a744315be8b05ca", "no": "EF1.linguagem-corporal-e-expressao", "grande_tema": "EF1", "assunto": "Linguagem corporal e expressão", "obs": ""}
+{"id": "gq_d7f0419a916415c036ed7954", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
+{"id": "gq_8ad3a4c54d56bba523c6c365", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_bdfa7a27023b1ee23989ade8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_07e8db03eecdef8691f1a48a", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_c79d38de3e66469f5f02620c", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_8ac9c1549bed2bc5c89aea3e", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_5d188bd68cd876372eb8e565", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
+{"id": "gq_158405b72ae0a0dd913a1ae6", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_b61fb3c485badb0d088a9ae9", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_9fa31021eddccc0c84ee5b3f", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_aaf03552b3ffe8a611b86f02", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_1a2a8e072f27f06bbf0abf7d", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_3e6410d23cf4be6054a9f4f7", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_21aa8bc706c9f71304bf21c4", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_d8096d6fac9800493bdaa48c", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_0e154edecc6b99bc8c82fb65", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_105377dffcb2c40450826bde", "no": "LL7.2a-fase-poesia-de-30", "grande_tema": "LL7", "assunto": "2ª fase, poesia de 30", "obs": ""}
+{"id": "gq_d4f986065279810032c9054f", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_e30217c41aa4559512cc069a", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_6fe94b841eee5d58a955c475", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
+{"id": "gq_aab69e32536bc739cb9207d0", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_18024eeb9de7462747efeb09", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_ebc62b375535c85882f3b2f4", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_e4b9dcab9fd8992c1dfca9ca", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_95ce0680db7c00767863aa3b", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_a0fd1ae2bba78d8fb803f44c", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_85b21974716d1251fa51fe5c", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_2ec18751651dab33b9cd3c46", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_ecc080f06fe98640ac3006f9", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_c104d85dc62f1180e563b61e", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
+{"id": "gq_89fe77316bcdd02bcdcc56ce", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_ee1a48631e44ca39d9500d83", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_fc0900dbe6d54dd557656ed3", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_9cf742c4e6542f6c4e51d16b", "no": "EF3.jogos-e-brincadeiras", "grande_tema": "EF3", "assunto": "Jogos e brincadeiras", "obs": ""}
+{"id": "gq_ef3a0e3deade42bb3b6f3ee5", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_683fe37c582c7e1f6535e174", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_46b97ab236de4d311de97358", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_2ed95440323af17578a1af1f", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_fab0fde08afb5665163e2d4d", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_9b9d75cc6129830e3c9dc93e", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_fe2e5418fc4a0d548f9f7894", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_0726e65478dbc484dd3a9856", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_eb46c78a5d4ff516adaf2f9d", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_4fc4b8b245b3cd14e513af2a", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_e44b2cb7c4750c41499c275c", "no": "LL7.2a-fase-poesia-de-30", "grande_tema": "LL7", "assunto": "2ª fase, poesia de 30", "obs": ""}
+{"id": "gq_acf7ff2cd0038d17909965ba", "no": "LL9.teatro", "grande_tema": "LL9", "assunto": "Teatro", "obs": ""}
+{"id": "gq_c03e4e60fe68f185b587fa5e", "no": "LL5.parnasianismo", "grande_tema": "LL5", "assunto": "Parnasianismo", "obs": ""}
+{"id": "gq_c7589e154e32615697407b28", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_fd31956bcf2c18f0eb88f70e", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_4c69acea321d22bdd41f0e31", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_a32d8c3d0a4a3b75d216f753", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_b321260d6e5f772cbd8fd5fd", "no": "EF3.lutas", "grande_tema": "EF3", "assunto": "Lutas", "obs": ""}
+{"id": "gq_90971c0a564d4d9427279466", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_a83a43aaf10bebc4d8babcdf", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_425cfd5cf2855f3de670f6b4", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
+{"id": "gq_e72a24fbe1892cb62bd9d71d", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_b57e24224cd2bc15af793227", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
+{"id": "gq_c77574a32d17fc2fe4a3b435", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_57b19727ae90bf6674cb0576", "no": "LL5.simbolismo", "grande_tema": "LL5", "assunto": "Simbolismo", "obs": ""}
+{"id": "gq_7b4f1e3fccdf41d29c8474f7", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_f7ee47539a2d6b5f47df2d96", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": ""}
+{"id": "gq_0102a1a8182b04e216f6844c", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
+{"id": "gq_ec6d6c9d73a4c7964fb3b98b", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_513324bec0c67c040c77c957", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_89c26d1ae4c0a7d8ecde4c49", "no": "AR4.manifestacoes-populares-e-tradicoes", "grande_tema": "AR4", "assunto": "Manifestações populares e tradições", "obs": ""}
+{"id": "gq_e346508f0750004452bcd027", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_56cb18e48508b468da0a9f48", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_32bb37fb797d3e4e13f941ef", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_478480970bac81a6bd6cddad", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_b2bd1eece6232f928f4ac150", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_4a9ca3dad76a0175788c9df9", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_1df95f61e76efe1d3a2212b2", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_3d6c4469a57edd1d2a956c02", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_66551b0d9859d5da95463bd7", "no": "AR2.elementos-e-criacao-musical", "grande_tema": "AR2", "assunto": "Elementos e criação musical", "obs": ""}
+{"id": "gq_4ed824fb64de3b86c9e0c26c", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_b714725fce3c54c3f214b09b", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_5410f4f605792f33855992af", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
+{"id": "gq_25f3f6bed16527e55f4db1a5", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_bea70f4be80b49170fa52775", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_aabbaffadec2050f122e7f3b", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_f9235abc48c5b4471ce2cec8", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_2fd04692e1754b3279f78565", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_5cd6c6a9a40268c8b9f008ad", "no": "LL7.3a-fase-geracao-de-45", "grande_tema": "LL7", "assunto": "3ª fase, geração de 45", "obs": ""}
+{"id": "gq_8f7a430e639f2bd2d1dc8774", "no": "AR2.elementos-e-criacao-musical", "grande_tema": "AR2", "assunto": "Elementos e criação musical", "obs": ""}
+{"id": "gq_13ff79a4165c2b5afdfb32fe", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_2f89145c461c1a312d2be6da", "no": "AR1.arte-colonial-e-patrimonio-artistico", "grande_tema": "AR1", "assunto": "Arte colonial e patrimônio artístico", "obs": ""}
+{"id": "gq_85844bb6eb4394a206ea43db", "no": "LL3.prosa-romantica", "grande_tema": "LL3", "assunto": "Prosa romântica", "obs": ""}
+{"id": "gq_553284df47796360ed759185", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_9107c5a16c918c546bc3f3e5", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_964c2d239f21d82e9a9e6e21", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_914351510dbbfec6d35fa371", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_c6e66dac110ddf7c724d2a8a", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
+{"id": "gq_04813d1226780faabd02070e", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
+{"id": "gq_7ea8be0c5a2014895c994bae", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_e4c65b23e2974e1dda2c437a", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_914df3aa85741338ef6a27d7", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_463530c0e014070a83b335de", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_0d0c6864de435e54e50b0ed1", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_1e62d2fb2896d1893504de1b", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_868c17fa86696d6f69e71d01", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
+{"id": "gq_57378b096f5767974c4e8f4c", "no": "AR3.danca-como-linguagem-artistica", "grande_tema": "AR3", "assunto": "Dança como linguagem artística", "obs": ""}
+{"id": "gq_137dd8f7ac04f05d0fbc7be8", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_6b2db519630b30e8e3d39537", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_bbf59404b062941d4d3db4f3", "no": "EF3.jogos-e-brincadeiras", "grande_tema": "EF3", "assunto": "Jogos e brincadeiras", "obs": ""}
+{"id": "gq_e02bf98e928f738826227eae", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_584ccf56bd021352e4b5f04e", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_64ab0c5be892c9a552e3e8a9", "no": "LL5.parnasianismo", "grande_tema": "LL5", "assunto": "Parnasianismo", "obs": ""}
+{"id": "gq_0775fd186b79d00c7ddf7115", "no": "LP5.formacao-de-palavras-e-neologismos", "grande_tema": "LP5", "assunto": "Formação de palavras e neologismos", "obs": ""}
+{"id": "gq_0d27f94f848e00265df6ef27", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_1009e2e9a8cf95ede358a9d7", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_7425dd106f7007777a8c1ae9", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_2696a27e32ced342fe0c9658", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_7abcfc6139d9cba1dfb7beeb", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_d7c58951eff90a50413783fd", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
+{"id": "gq_249bed410a14a8d3fb1ed7b4", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_47f3cdf35af90bd1b6fa5ae6", "no": "LL8.literatura-indigena", "grande_tema": "LL8", "assunto": "Literatura indígena", "obs": ""}
+{"id": "gq_91b6032718eec9ba9d2f2c37", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_0118224ed827c72243c67e8a", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_7b0d394bfba6403cbd590a10", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_31c493ff8f89128759d49d80", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_ef71025badbf53ef06c892d7", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_84dcf50472a02527daf476e7", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
+{"id": "gq_25129708ca1a7f427e1ae25d", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_f7cacfebbd96934326842ce5", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_be990e7c87a7c4def8175b1d", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_93ed94f6bac7170d9a525e6b", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_8deddf35c0c795dd63eee982", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
+{"id": "gq_0200078d0f2874322cabe77f", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_6c8f7b7b83643d98c51f5b6e", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_746e4bf99be0f22bcb7fa33d", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_c6f2a54931669fb9fa06acd1", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_25911cfe972fa08fd786974e", "no": "AR1.arte-contemporanea", "grande_tema": "AR1", "assunto": "Arte contemporânea", "obs": ""}
+{"id": "gq_6dea1dc5feab4bba07b9565f", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_96fc4c4b2f3ac24bcb2fa894", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_3756e9b8b10719e5667b21b7", "no": "LL7.2a-fase-poesia-de-30", "grande_tema": "LL7", "assunto": "2ª fase, poesia de 30", "obs": ""}
+{"id": "gq_f27201ad462a2d1e21903613", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_dc44053064d1852c0e43a6cc", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_2189952f4dae482de5a50619", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_4f26db722f639de287bd8efe", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
+{"id": "gq_d8687794f697af22358673bb", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_efd1979e72933b5012c5b61f", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_9f25831213e2626c188b2895", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_166b7b4621e01f06f9acba12", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_1e4dd7b7469c9b787dcac8ad", "no": "AR1.arte-contemporanea", "grande_tema": "AR1", "assunto": "Arte contemporânea", "obs": ""}
+{"id": "gq_7ae8591e438274091b6e2ecd", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_120426cfdfbda69fce87be3e", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
+{"id": "gq_20cb4d9dd61fd309e1c4e671", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_b3bbb241021497385ebdbe88", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_73804eb5b3ef6310835e8aa1", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_17bf21d3be405aa8cb65472b", "no": "EF1.linguagem-corporal-e-expressao", "grande_tema": "EF1", "assunto": "Linguagem corporal e expressão", "obs": ""}
+{"id": "gq_3621e24476265f788ad8db7c", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_ac047be5d1fb1e4a77102dc9", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
+{"id": "gq_4604e6ef3a0ba131d6cffdf6", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_94008134691e68f7d42dc39d", "no": "LL9.teatro", "grande_tema": "LL9", "assunto": "Teatro", "obs": ""}
+{"id": "gq_886c46379b8b66caa403a1f8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_adf80395dd7e0a79bb41b2c2", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_bfd5f2fed4b03daa8209f4bb", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_8e0114713f3eabcfc527a7ee", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_578208d155cd278f6dcf0703", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_edb8de830e13c92696374ab9", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_9df5389770ad1d080221dc31", "no": "EF3.jogos-e-brincadeiras", "grande_tema": "EF3", "assunto": "Jogos e brincadeiras", "obs": ""}
+{"id": "gq_ea4850684d06e81bb28a7e8c", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_990d1c2405f45a718c8b4517", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_d80155dfbcd4344e9fd6a36c", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
+{"id": "gq_3fdf80e576a2591be6969951", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_56bc6f2af6d5a7856dc1034c", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_53307cf3949d4df55afa8fa9", "no": "EF1.ginasticas-e-condicionamento-fisico", "grande_tema": "EF1", "assunto": "Ginásticas e condicionamento físico", "obs": ""}
+{"id": "gq_d4038a81937b6ea55a4b4647", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_0658fe9fe1366ab9ce76dbc1", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_ed0e9ee64423ebba1a1b35fd", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_d08e559413539bc196c3e910", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_d1306cf3a5c5a41a2725d602", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_ab856642e9d3adf905569ea2", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_6bf00ac1184373971f6d86ae", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_ecfcdf111eeb709e631b78c9", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_1b44f2e15aa9f3f203c8be4b", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_55f0900810efdeae316f933e", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_f534ede13f213b2e54f91c6d", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_f3917c74843b332896465f85", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_a74aa1c33cc4df55962bd3a3", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
+{"id": "gq_d581e536e2395cad6790437d", "no": "TC1.desinformacao-e-fake-news", "grande_tema": "TC1", "assunto": "Desinformação e fake news", "obs": ""}
+{"id": "gq_4b82798e0b02c6dccdc67e2c", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_506cfb0a63570857d9d22a43", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_fb5005058f2bbf8b6ba12546", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_134f2232bc553b8772ac81aa", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_6535088cfe6e93b63c42e2c7", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_b93674790093ec0f4cc47109", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_4d33277448796b4b5010f444", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_a352c05583f02a8085eaf6f0", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_6c24ec89a99c48b36f3fe949", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_fbcb64de68afc799cf595467", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_04ca7c6eab57303c3d91a967", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_d329bbd938cabea932708ccb", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_f0be4a1450888077db8e04c1", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_6b041be6504dddebf742dceb", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_a7be24c4a9895da684a5ef20", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_f601182e9a4ff65246def724", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_88c87f2e21a4c2bd81611ab1", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_ef820fae0052506c6584959a", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_c60ae2ccb4a6682c18da13d9", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_58bc501774eabe57c7a641e1", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_ef37d0b740330ce50de59eb5", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_f8fa33ead048dba39bd550da", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_af477c55d8ddf40eee7466d6", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_94c62216f2c97225682958d6", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_3a78b76c3898dc2bc79a7b20", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_bac0e49274f9d8194a8f5b9a", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_e0b337394830ba281e1a765c", "no": "LL9.teatro", "grande_tema": "LL9", "assunto": "Teatro", "obs": ""}
+{"id": "gq_f66ddd9aee3eb2b1215fffe6", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_a85c19d3dcb5e85bc441d31d", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_144242e1691d7cb7a334767d", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_b3e5a231f8c9e71790c9e4af", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_faf0b72d3ebd77ed64d5711f", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_6e23df44f646dfaf5e2d2798", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_c3cd3f0794f03ddd6555fc18", "no": "LP5.coerencia-e-progressao-tematica", "grande_tema": "LP5", "assunto": "Coerência e progressão temática", "obs": ""}
+{"id": "gq_31b409ee694fd71598e73146", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_eaea9a18bcd4509e2eca59ed", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_3874dc570b67ede62df33dd0", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_d79622f176bd7dc792191a48", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_deed38aa0342e3a935abcd55", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_0070b018ceb424e87bbeb131", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_9452c47ac32c68a1ea0f6ac7", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_983d059986c8560ebbe76fb2", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_ad1635f33f91f5828a7ea1fd", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_a4c043301b4a9204dadc2239", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_f16362131b3e6e385ba4c6fd", "no": "LL8.literatura-e-ditadura", "grande_tema": "LL8", "assunto": "Literatura e ditadura", "obs": ""}
+{"id": "gq_5ebb1d52b6e7439ed6dff1fd", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_05d8652be3b773c7b8d57dae", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_c003c6696494c5842daa7073", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_c94be5e1955bbb8644aaf59e", "no": "EF1.acesso-as-praticas-corporais", "grande_tema": "EF1", "assunto": "Acesso às práticas corporais", "obs": ""}
+{"id": "gq_89ceb4349f27cb091129e2ce", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_57c203ec630db6bbd866e902", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_baf8d7f296c4ad293d8c8fdb", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_2464d2ceae40b806bc85eaa1", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_f093e1f14397d16a2927730c", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_9988818330da10858d01f699", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_0392fb5bedae6bfa67160abb", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_ada615539ad5c77b5e072735", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_8d92a6be83842fc46071a607", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_e452bd978bcaa5c91e9ae8ab", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_545142fc546ef61a837b7888", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
+{"id": "gq_21d11607a4894374a47b779c", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_8714911d15504b04308743ac", "no": "LP5.coerencia-e-progressao-tematica", "grande_tema": "LP5", "assunto": "Coerência e progressão temática", "obs": ""}
+{"id": "gq_722f98956de605187dcd71c3", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_3a8e941fca843a6ab3919aff", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_f2dca74d4e6e5a806bd38991", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_10bf87534a92bdbe04530f85", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_0de7ea6073a995c9d9e5df9f", "no": "LL8.literatura-e-ditadura", "grande_tema": "LL8", "assunto": "Literatura e ditadura", "obs": ""}
+{"id": "gq_e591148a018a32a5927158f5", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_3ef0bfc85cb87e5e9e4aee0a", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
+{"id": "gq_9b89432144a65644ee1eebbe", "no": "LL8.autoria-negra-e-periferica", "grande_tema": "LL8", "assunto": "Autoria negra e periférica", "obs": ""}
+{"id": "gq_91df5991c3a01119a4870281", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_03020b27f4cb5b7c70b0d782", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
+{"id": "gq_1ca59f55cff5bdaf55bbab48", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_eb1146848399731fee032ff1", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_a9d3387b9c2dd0ca3bb058b0", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_2ed1ff647df96d67004508d4", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_51530afa018588610fcc5d19", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_4ee816f1d3fe6341a5734152", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_2e5092f7b33f0c6adb7e441a", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_1bf495a5eda4568d0ea676d2", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto-base"}
+{"id": "gq_d9d4c05605d4b5e230206a0a", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
+{"id": "gq_eef535e19f0f621b88d2a9d8", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_0f3ad43e7850cf359c3b419c", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_ca4012b8bcec3c28cb23c7a5", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_8a3c1e72bdb151eebc5357a9", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_165e77773ed8e66c2a4cd8b5", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
+{"id": "gq_ea5b83880b214e23196e4909", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_40a3d0617d5e602c7dbb75a4", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_4ea2abfa1ba1cbf075b6ff46", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_052838cedb3e492dc8125f80", "no": "LL7.vanguardas-e-semana-de-22", "grande_tema": "LL7", "assunto": "Vanguardas e Semana de 22", "obs": ""}
+{"id": "gq_612717bd359417674f1d2916", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_e900d46bce6293b49ff4672d", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_838d94012784ab10228ecc65", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_3734bba95054696088635474", "no": "LP2.tipos-textuais", "grande_tema": "LP2", "assunto": "Tipos textuais", "obs": ""}
+{"id": "gq_bf75374aeceec155160f4fc8", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": ""}
+{"id": "gq_6a33fbda7adcfc6b088b9e55", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
+{"id": "gq_3844bbbf2c4a38f18e28ddfc", "no": "TC1.inclusao-e-exclusao-digital", "grande_tema": "TC1", "assunto": "Inclusão e exclusão digital", "obs": ""}
+{"id": "gq_89964df1fed80974010034fd", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_7e3f2f5759f6704945fe5724", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_18ba3a5b784aa79be4635cd7", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_4599125407842dd1b8e94f3a", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
+{"id": "gq_be2ead7d34ae03e32cd3b11f", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_df2ee8934cff4e549cd4f60a", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_69f3e220fbe210d5a6600214", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_976ce20f9fa9c2fca18ea49e", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_df88318514624bbd57a79a30", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_c18d563a836f4bf39eaa3173", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_d394d268027de0e3caf9268a", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_e94fa74df2dd8fa101bbcadf", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_ae0196fd9be2e0af6b364228", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_44d082c29f4919760514a7e3", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_7de599403aa686620d28023a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: falta o texto-base (conto de Ivan Ângelo)"}
+{"id": "gq_17877598c8646d96aaf4dd21", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_7495c0819f5861180682f996", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_675258d646f65334abc6377d", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_8ccb39244be699557a85a053", "no": "LL7.3a-fase-geracao-de-45", "grande_tema": "LL7", "assunto": "3ª fase, geração de 45", "obs": ""}
+{"id": "gq_911eda306578f1f3f0ac40aa", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_64523262007adc8c86c33fef", "no": "LL8.literaturas-africanas-de-lingua-portuguesa", "grande_tema": "LL8", "assunto": "Literaturas africanas de língua portuguesa", "obs": ""}
+{"id": "gq_9632d58e7e929883740c5551", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_642d2a0f9a27f5acba14ade7", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_39462b7b91da22cb0bea6d8d", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_9f72427ca7f474dbf65abedd", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_33bead44dd28263ea3b98e85", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_791c9febff7c0040732f2775", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_acf5d212cc9ae8ac21b8be08", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_b8d9356c07ab978793cb1f2c", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_1e0de6069ee31e483fd0c559", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_8092173cf8576b0d5d7f28a1", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
+{"id": "gq_e6d1bb0ff9ed3425897ed6a3", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_be59a57ae369e4497141de78", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_07760a857ec4c0c5dd677432", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_a006a0e9221d6dd243fb7ecf", "no": "LP2.tipos-textuais", "grande_tema": "LP2", "assunto": "Tipos textuais", "obs": ""}
+{"id": "gq_3ee6283760fa076c70bef974", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_034a73673bbc4cc9a99d8217", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
+{"id": "gq_ad3e50542080a2f4cd68ca4e", "no": "EF3.lutas", "grande_tema": "EF3", "assunto": "Lutas", "obs": ""}
+{"id": "gq_77db9965ed1f91c2f9a1eb51", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_ea4d642a457a04c27d244c0c", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_ab7a953f3bbe24b6bcb9a7c5", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_f8cdbefbf6be2ab9481211a4", "no": "LP2.tipos-textuais", "grande_tema": "LP2", "assunto": "Tipos textuais", "obs": ""}
+{"id": "gq_c5de81131e685bc17fb7bfff", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_4dd10b1c6ad324c08f3e780f", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_9dfe9d66075912004dfadba0", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_c35fdc6a91a236fd7be9d77c", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_0dae049d67c46ae37bb3012d", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
+{"id": "gq_1ba84b5dccbb111be88b2b31", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_995e5ce9671614d91d7d06dc", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_c57aa586a22eb4d3859b90e8", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_8176e25eb9faa57200b26a1d", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_d5c6822f52288aaa1430b876", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_83b491bb38330367d67c9932", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_bd9a49587d976dd1255c8541", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_363380ef2f291b03cd6beaf6", "no": "TC1.desinformacao-e-fake-news", "grande_tema": "TC1", "assunto": "Desinformação e fake news", "obs": ""}
+{"id": "gq_4f19d6c7aec545ebf923d85b", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_e24b413ff8877d30366b9db2", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_28c7851aff39698217fd89ea", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_44b01579918f28b456d9bc55", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
+{"id": "gq_ddd700942d458e8db1b313b9", "no": "EF3.jogos-e-brincadeiras", "grande_tema": "EF3", "assunto": "Jogos e brincadeiras", "obs": ""}
+{"id": "gq_3699db7930678c32ec03832b", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_767d15101b808c27a2eb97bd", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_b75d10d45f58b2e9e8971a2b", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_707604bd2d451e0697d65b99", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_d6518a730498e67ca1b17c0c", "no": "AR3.danca-como-linguagem-artistica", "grande_tema": "AR3", "assunto": "Dança como linguagem artística", "obs": ""}
+{"id": "gq_3041d7a6add28122780cb427", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_fc50df73cf9ed6075f2ab315", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_8ee1caf6cc68438c3a04272f", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_1cefeb11d14231d52c7490e8", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_27c78afa9677224393ce9b3d", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_07e70b02a4ed5cae06ef1a40", "no": "LL8.literatura-e-ditadura", "grande_tema": "LL8", "assunto": "Literatura e ditadura", "obs": ""}
+{"id": "gq_1d891505613d31ee650d676c", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
+{"id": "gq_ce4958c225d949a55083c597", "no": "LL7.2a-fase-romance-de-30", "grande_tema": "LL7", "assunto": "2ª fase, romance de 30", "obs": ""}
+{"id": "gq_0b4bb43dfa695f14dc861308", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
+{"id": "gq_5c418842c62a02f83a63f1d3", "no": "TC1.inclusao-e-exclusao-digital", "grande_tema": "TC1", "assunto": "Inclusão e exclusão digital", "obs": ""}
+{"id": "gq_1cab571b74b797175e214d77", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_287155b76c47f63849e79012", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
+{"id": "gq_6a705c51185e3c6f2a22afd5", "no": "EF1.acesso-as-praticas-corporais", "grande_tema": "EF1", "assunto": "Acesso às práticas corporais", "obs": ""}
+{"id": "gq_c9c07509e4cebc13e8a6e022", "no": "AR1.fotografia-cinema-e-arte-digital", "grande_tema": "AR1", "assunto": "Fotografia, cinema e arte digital", "obs": ""}
+{"id": "gq_c24e72eda444b8939d2e4092", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_c45234dbaaa0ed29b047c562", "no": "LP2.tipos-textuais", "grande_tema": "LP2", "assunto": "Tipos textuais", "obs": ""}
+{"id": "gq_b291ab2ee7e8633e5c940955", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_5571293b9a4b9e4ac6750af3", "no": "LL7.2a-fase-romance-de-30", "grande_tema": "LL7", "assunto": "2ª fase, romance de 30", "obs": ""}
+{"id": "gq_1515614ca0e20bbdea9053fb", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_f229544e28a3dca6901be30f", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "inglês"}
+{"id": "gq_e65c3ae81fd2507ef61a35db", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_c2c7bca230eff020a223f2ab", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_b1102c405454aa94f81db9ac", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_a9fa6be790d4501b69cef238", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_8fbd9344496d4d63f45dabd3", "no": "EF2.esportes-de-aventura-na-natureza", "grande_tema": "EF2", "assunto": "Esportes de aventura na natureza", "obs": ""}
+{"id": "gq_293c5f112237ee0b5b2604ca", "no": "TC1.inclusao-e-exclusao-digital", "grande_tema": "TC1", "assunto": "Inclusão e exclusão digital", "obs": ""}
+{"id": "gq_38c2e5b5302bdcd0ca365f03", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_f8447fe07c69fd7ede32f521", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_8796b1582d37cd6742260f99", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_503f89f350892522add01c6b", "no": "LL3.prosa-romantica", "grande_tema": "LL3", "assunto": "Prosa romântica", "obs": ""}
+{"id": "gq_25f0e488e4cb017e04ec2752", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_69d6e9f2677e14eb83c3bae9", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
+{"id": "gq_72d3d53672d7d164ebc38b49", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_2c20d931235fcd7e3f6ab364", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_3289d19fc3512700468cf690", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_23d6f9f764ecfb6572e77956", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
+{"id": "gq_f2258023bacb06cba08af5ba", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_2c4cc0cb4d4c1021033e123d", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_e8eb6a75f626bdadd05e1964", "no": "TC1.desinformacao-e-fake-news", "grande_tema": "TC1", "assunto": "Desinformação e fake news", "obs": ""}
+{"id": "gq_b95e69c624d5e87ab3258f88", "no": "LP5.recursos-gramaticais-no-texto", "grande_tema": "LP5", "assunto": "Recursos gramaticais no texto", "obs": ""}
+{"id": "gq_711de2543acf2b15d172ef27", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_6685062e05916effaf248a05", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
+{"id": "gq_9bed162f684234d0b0592bf6", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_63c481f9806cd7b3634368e8", "no": "LL8.autoria-negra-e-periferica", "grande_tema": "LL8", "assunto": "Autoria negra e periférica", "obs": ""}
+{"id": "gq_1f350444706c42932f0185fa", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
+{"id": "gq_9573b58b42b0782a2f18152a", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_a5db4846e772b89511ca3c6d", "no": "LL8.autoria-negra-e-periferica", "grande_tema": "LL8", "assunto": "Autoria negra e periférica", "obs": ""}
+{"id": "gq_3b0962e6299f67bc7931b285", "no": "LL7.3a-fase-geracao-de-45", "grande_tema": "LL7", "assunto": "3ª fase, geração de 45", "obs": ""}
+{"id": "gq_36c18f7638bef60120b990b3", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_2824427a117816bfcd2a3f1d", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_ceb55020d2d4d690acdebc14", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_1cea5428d65076203a8b43c0", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_3e24d504f23eb663a20daf45", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_5c42141ca7e4f14c8aafd0d8", "no": "LL9.cronica", "grande_tema": "LL9", "assunto": "Crônica", "obs": ""}
+{"id": "gq_ea51515de3686395f2e1bc00", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_461c34e5bb828b251210352a", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_2c446af4206968983b214fe6", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
+{"id": "gq_38d3378a0ae8007bb8f2006e", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
+{"id": "gq_8606e22e68559aefb397b82a", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
+{"id": "gq_a55d53b0e2eb49c50c579d06", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_affdf0a8afee77d6ca2d96fb", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
+{"id": "gq_02eca864ce72152273abd733", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
+{"id": "gq_4726d00495fa709110261749", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_f056288b09afabb8fe812cd1", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_dcd463506e35a6fdd20c1e07", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_f893561df9ec8fce01ac928a", "no": "LL7.2a-fase-romance-de-30", "grande_tema": "LL7", "assunto": "2ª fase, romance de 30", "obs": ""}
+{"id": "gq_c0345cf88a5b4246b97961dc", "no": "EF1.acesso-as-praticas-corporais", "grande_tema": "EF1", "assunto": "Acesso às práticas corporais", "obs": ""}
+{"id": "gq_39d6f7af2c4b6f3fae000c2c", "no": "LP5.coerencia-e-progressao-tematica", "grande_tema": "LP5", "assunto": "Coerência e progressão temática", "obs": ""}
+{"id": "gq_3a7052752ba9dfded28cd1c0", "no": "LL4.machado-de-assis", "grande_tema": "LL4", "assunto": "Machado de Assis", "obs": ""}
+{"id": "gq_2c401eaed02247feb58f16e9", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
+{"id": "gq_4f7461bfa8d724c8268f7268", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_fd0ea1188ef645e6610b4bf8", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
+{"id": "gq_b840c9810ba5882765dc3bb2", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": "comando incompleto"}
+{"id": "gq_02252387c7fb9dcdff7de4ab", "no": "EF3.lutas", "grande_tema": "EF3", "assunto": "Lutas", "obs": ""}
+{"id": "gq_375ce58eb2ecbf1eb62fedd6", "no": "LL8.autoria-negra-e-periferica", "grande_tema": "LL8", "assunto": "Autoria negra e periférica", "obs": ""}
+{"id": "gq_2d80431a533f8383a5af7a83", "no": "LL3.prosa-romantica", "grande_tema": "LL3", "assunto": "Prosa romântica", "obs": ""}
+{"id": "gq_1c704d8e0026cd32089a67b9", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_1d8a6dbf08ec5d873b190c26", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
+{"id": "gq_47d21885570620bb451ef068", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
+{"id": "gq_73e4b6da5f7fa9d23614bd36", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
+{"id": "gq_771efc13e2462e3c0bd0c649", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
+{"id": "gq_a8c9242936dbbe2c908e9ef9", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_171d5bf39da346e85e70fed1", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
+{"id": "gq_b45d0287b41c6872a1774a82", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
+{"id": "gq_49a71af7fcd04a233c755853", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
+{"id": "gq_6c42f23e164e80da84813d53", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_40137da722c59a27e0a4b46f", "no": "TC1.inclusao-e-exclusao-digital", "grande_tema": "TC1", "assunto": "Inclusão e exclusão digital", "obs": ""}
+{"id": "gq_096992c648ba4e321a7990cc", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
+{"id": "gq_6aeacc24c299951b4cba1202", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
+{"id": "gq_cb39a8f8f5bcfece87b78e31", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_bd1613824d50d19ee9a6d589", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
+{"id": "gq_81da11fccece8b1b0a8f2291", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
+{"id": "gq_e512313d90dedbc3cfdbb5b6", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
+{"id": "gq_49428e06e42bf042d04865b7", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
+{"id": "gq_9487705694692cec75a8d194", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
