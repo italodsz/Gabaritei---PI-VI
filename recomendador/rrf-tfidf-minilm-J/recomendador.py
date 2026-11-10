@@ -5,7 +5,7 @@ Uso:
   python recomendador.py construir --recodificar                          # recalcula o MiniLM (precisa do modelo)
   python recomendador.py buscar --question-id gq_... [--metodo rrf_qwen|rrf|tfidf|minilm|qwen] [--k 5]   (padrão: rrf_qwen)
   python recomendador.py avaliar                                          # pares de desenvolvimento (validação)
-  python recomendador.py exportar [--top 50]                              # catálogo de recomendações para o app
+  python recomendador.py exportar [--top 50] [--metodo arvore]            # catálogo de recomendações para o app
 
 Regras: TF-IDF ajustado só no treino elegível; galeria = treino elegível; mesma área;
 exclui e deduplica a família de conteúdo; texto = enunciado + alternativas (sem gabarito,
@@ -28,6 +28,32 @@ QWEN_ARQUIVO = 'Qwen3-Embedding-8B-4bit__conceito.npy'
 QWEN_SHA256 = 'fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de'
 sys.path.insert(0, str(ROOT))
 import pipeline_baseline as bl
+
+
+CLS = ROOT / 'classificador'
+
+
+def carregar_rotulos():
+    """Rótulo final de cada questão na árvore v1.2: gabarito à mão, sobrescrito pela classificação
+    manual completa (classificador/dados/classificacao_manual.jsonl). Devolve {id: {...}}."""
+    arv = json.loads((CLS / 'dados' / 'arvore_v1.2.json').read_text(encoding='utf-8'))
+    nos = {n['id']: n for n in arv['nos']}
+    viz = {}
+    for cadeia in arv.get('vizinhanca_temporal', []):
+        for k, g in enumerate(cadeia):
+            viz[g] = set(cadeia[max(0, k - 1):k]) | set(cadeia[k + 1:k + 2])
+    rot = {}
+    for r in json.loads((CLS / 'saida' / 'classificacao.json').read_text(encoding='utf-8')):
+        rot[r['id']] = {'no': r['no'] if r['origem'] == 'gabarito' else None, 'defeito': r['origem'] == 'defeito',
+                        'duplicata': False}
+    for r in map(json.loads, (CLS / 'dados' / 'classificacao_manual.jsonl').open(encoding='utf-8')):
+        obs = r.get('obs') or ''
+        rot[r['id']] = {'no': r['no'], 'defeito': r['no'] is None, 'duplicata': 'duplicata de' in obs}
+    for v in rot.values():
+        n = nos.get(v['no'])
+        v['grande_tema'] = n['grande_tema'] if n else None
+        v['assunto'] = n['assunto'] if n else None
+    return rot, viz
 
 
 def sha(p):
@@ -95,6 +121,21 @@ class Indice:
             if json.loads((IDX / 'qwen' / 'ids.json').read_text()) != [d['id'] for d in self.docs]:
                 raise SystemExit('A ordem de indice/qwen/ids.json não bate com indice/documentos.json.')
             self.Q = np.load(qf)
+        self.rot, self.viz = carregar_rotulos()
+
+    def faixa(self, q, c):
+        """Proximidade pela árvore (régua da v1.2): 0 mesmo assunto, 1 mesmo grande tema,
+        2 grande tema vizinho no tempo (História e Literatura), 3 só a semelhança de texto."""
+        a, b = self.rot.get(q['id'], {}), self.rot.get(c['id'], {})
+        if not a.get('no') or not b.get('no'):
+            return 3
+        if a['no'] == b['no']:
+            return 0
+        if a['grande_tema'] == b['grande_tema']:
+            return 1
+        if b['grande_tema'] in self.viz.get(a['grande_tema'], ()):
+            return 2
+        return 3
 
     def ranking(self, qid, metodo='rrf', galeria='treino'):
         qi = self.pos[qid]; q = self.docs[qi]
@@ -102,7 +143,10 @@ class Indice:
                          and d['area'] == q['area'] and d['family'] != q['family']])
         tf = (self.X[pool] @ self.X[qi].T).toarray().ravel()
         mn = self.M[pool] @ self.M[qi]
-        if metodo in ('qwen', 'rrf_qwen'):
+        if metodo == 'arvore':
+            ok = [k for k, j in enumerate(pool) if self._serve(q, self.docs[j])]
+            pool = pool[ok]; tf = tf[ok]; mn = mn[ok]
+        if metodo in ('qwen', 'rrf_qwen', 'arvore'):
             if self.Q is None:
                 raise SystemExit(f'Vetores Qwen ausentes: coloque {QWEN_ARQUIVO} e ids.json em indice/qwen/.')
             qw = self.Q[pool] @ self.Q[qi]
@@ -114,15 +158,35 @@ class Indice:
             s = qw
         else:
             s = np.zeros(len(pool))
-            for v in ((tf, qw) if metodo == 'rrf_qwen' else (tf, mn)):
+            for v in ((tf, qw) if metodo in ('rrf_qwen', 'arvore') else (tf, mn)):
                 o = np.argsort(-v, kind='stable')
                 s[o] += 1 / (self.conf['rrf_k'] + np.arange(1, len(v) + 1))
         seen, out = set(), []
-        for j in np.argsort(-s, kind='stable'):
+        ordem = np.argsort(-s, kind='stable')
+        if metodo == 'arvore':
+            # 1) mesmo assunto primeiro; 2) o resto por RRF de três listas: TF-IDF, Qwen e a
+            # ordem da árvore (mesmo grande tema, depois vizinho no tempo, depois o resto).
+            fx = np.array([self.faixa(q, self.docs[j]) for j in pool])
+            arv = np.lexsort((-s, fx))
+            s = s.copy(); s[arv] += 1 / (self.conf['rrf_k'] + np.arange(1, len(arv) + 1))
+            ordem = np.lexsort((-s, fx != 0))
+        for j in ordem:
             d = self.docs[pool[j]]
             if d['family'] not in seen:
                 seen.add(d['family']); out.append((d['id'], float(s[j])))
         return out
+
+
+    def _serve(self, q, c):
+        """Candidato aceito no modo arvore: sem defeito, sem duplicata e, em língua estrangeira,
+        na mesma língua da questão de referência."""
+        r = self.rot.get(c['id'], {})
+        if r.get('defeito') or r.get('duplicata'):
+            return False
+        lq, lc = self.rows[q['id']].get('language'), self.rows[c['id']].get('language')
+        if lq in ('en', 'es') or lc in ('en', 'es'):
+            return lq == lc
+        return True
 
 
 def buscar(qid, metodo, k):
@@ -141,14 +205,14 @@ def avaliar():
     ix = Indice(); lab = collections.defaultdict(dict)
     for p in map(json.loads, (BASE / 'pares_desenvolvimento_compativeis.jsonl').open(encoding='utf-8')):
         lab[p['query_id']][p['candidate_id']] = p['human_grade']
-    metodos = ('tfidf', 'minilm', 'rrf') + (('qwen', 'rrf_qwen') if ix.Q is not None else ())
+    metodos = ('tfidf', 'minilm', 'rrf') + (('qwen', 'rrf_qwen', 'arvore') if ix.Q is not None else ())
     for metodo in metodos:
         ok = tot = 0
         for qid, L in lab.items():
             pos = {i: r for r, (i, _) in enumerate(ix.ranking(qid, metodo))}
             for a in L:
                 for b in L:
-                    if L[a] > L[b]:
+                    if L[a] > L[b] and a in pos and b in pos:
                         tot += 1; ok += pos[a] < pos[b]
         print(f'{metodo:7s} pares na ordem certa: {ok}/{tot} ({ok/tot:.0%})')
 
@@ -167,8 +231,8 @@ def nivel(b, cortes):
     if b is None: return None
     return 'facil' if b < cortes[0] else 'media' if b < cortes[1] else 'dificil'
 
-def exportar(top):
-    ix = Indice(); metodo = 'rrf_qwen'
+def exportar(top, metodo='rrf_qwen'):
+    ix = Indice()
     if ix.Q is None: raise SystemExit('Faltam os vetores Qwen em indice/qwen/.')
     cortes = tercis_por_area(ix)
     af = ROOT / 'catalogo' / 'alertas_texto.json'
@@ -182,11 +246,18 @@ def exportar(top):
         meta[d['id']] = {'area': r['area'], 'ano': r['year'], 'habilidade': r.get('skill'),
                          'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b, cortes[r['area']]),
                          'alerta_texto': al, 'alerta_grave': grave(al)}
-    recs = {}
+        if metodo == 'arvore':
+            rt = ix.rot.get(d['id'], {})
+            meta[d['id']].update({'grande_tema': rt.get('grande_tema'), 'assunto': rt.get('assunto'),
+                                  'lingua': r.get('language'), 'defeito': bool(rt.get('defeito')),
+                                  'duplicata': bool(rt.get('duplicata'))})
+    recs, mesmo_assunto = {}, {}
     for n, d in enumerate(ix.docs, 1):
         recs[d['id']] = [i for i, _ in ix.ranking(d['id'], metodo, galeria='todas')[:top]]
+        if metodo == 'arvore':
+            mesmo_assunto[d['id']] = sum(ix.faixa(d, ix.docs[ix.pos[i]]) == 0 for i in recs[d['id']])
         if n % 500 == 0: print(f'{n}/{len(ix.docs)}', flush=True)
-    out = ROOT / 'catalogo' / 'recomendacoes_rrf_qwen.json'
+    out = ROOT / 'catalogo' / f'recomendacoes_{metodo}.json'
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps({
         'versao': VERSAO, 'metodo': metodo, 'top': top,
@@ -195,6 +266,11 @@ def exportar(top):
         'ordem': 'cada lista vem da mais para a menos relevante; filtrar por nível sem reordenar',
         'cortes_nivel_por_area_tri_b': cortes,
         'alerta_grave': 'defeito de conteúdo conhecido (expoente, fórmula, equação, palavras coladas etc.); o app deve evitar sugerir',
+        **({'arvore': 'árvore curricular v1.2; rótulos em classificador/dados (gabarito + classificação manual)',
+            'regra_arvore': 'primeiro as do mesmo assunto; depois RRF de TF-IDF, Qwen e ordem da árvore '
+                            '(mesmo grande tema, grande tema vizinho no tempo, resto); sem defeitos nem duplicatas; '
+                            'língua estrangeira só na mesma língua',
+            'quantas_do_mesmo_assunto': mesmo_assunto} if metodo == 'arvore' else {}),
         'questoes': meta, 'recomendacoes': recs},
         ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(f'pronto: {out} | {len(recs)} questões × {top} sugestões | {out.stat().st_size/1e6:.1f} MB')
@@ -206,7 +282,7 @@ if __name__ == '__main__':
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar', 'exportar'])
     ap.add_argument('--top', type=int, default=50)
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':
@@ -218,6 +294,6 @@ if __name__ == '__main__':
             ap.error('buscar requer --question-id')
         buscar(a.question_id, a.metodo, a.k)
     elif a.comando == 'exportar':
-        exportar(a.top)
+        exportar(a.top, a.metodo)
     else:
         avaliar()

@@ -26,3 +26,11 @@ nível mais próximo.
 `alertas_texto.json` reúne os 181 defeitos conhecidos (131 só de `##`), vindos de uma busca
 automática e das avaliações cegas 1 e 2 e da avaliação em escala. É a lista de partida para
 corrigir a base.
+
+## Candidato: `recomendacoes_arvore.json`
+
+Mesma estrutura, gerado com `--metodo arvore` (ver README do recomendador). Cada questão traz também
+`grande_tema`, `assunto`, `lingua`, `defeito` e `duplicata`, e `quantas_do_mesmo_assunto` diz quantas
+das 50 sugestões são do mesmo assunto. Defeitos e duplicatas nunca aparecem como sugestão; em língua
+estrangeira, só aparecem questões da mesma língua. O app deve continuar a usar `recomendacoes_rrf_qwen.json`
+até a avaliação cega decidir a troca.
