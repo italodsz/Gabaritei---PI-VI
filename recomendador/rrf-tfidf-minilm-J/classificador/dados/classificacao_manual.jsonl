@@ -538,7 +538,7 @@
 {"id": "gq_1b4dc848112412acdee0dd33", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_f650359ffbc754b56ab81c5f", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
 {"id": "gq_7e63dc415a42d188b7df8eab", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
-{"id": "gq_2569f9722d06e25238e7f372", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
+{"id": "gq_2569f9722d06e25238e7f372", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": "corrigido na conferência da amostra (LP6.2)"}
 {"id": "gq_890eed7a719cb73cb7d0685a", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": ""}
 {"id": "gq_271fbbf7113b24203b6fb9a1", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
 {"id": "gq_7de90f90733ceed86bf01d1a", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
@@ -568,7 +568,7 @@
 {"id": "gq_9561c019d249b503a284b1ef", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
 {"id": "gq_427ff6e92b7aa18f528ac66e", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
 {"id": "gq_f068073b477ae3b56aeffd5d", "no": "LL6.pre-modernismo", "grande_tema": "LL6", "assunto": "Pré-Modernismo", "obs": ""}
-{"id": "gq_c1183a5e941c318c2198f741", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
+{"id": "gq_c1183a5e941c318c2198f741", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": "corrigido na conferência da amostra (LP1.1)"}
 {"id": "gq_7a4557b4a2405d800f76d050", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
 {"id": "gq_3e2d1241681a9dd724330739", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": ""}
 {"id": "gq_b0d6c27aedcb7a4aeb4e3c59", "no": "LP5.coesao-referenciacao-e-conectores", "grande_tema": "LP5", "assunto": "Coesão: referenciação e conectores", "obs": ""}
@@ -603,7 +603,7 @@
 {"id": "gq_919c886edf83bf0828731108", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
 {"id": "gq_352bde2b5e4de08103d393d8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
 {"id": "gq_3a6ae9c664d766838c6c0076", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
-{"id": "gq_ecbc52914a744315be8b05ca", "no": "EF1.linguagem-corporal-e-expressao", "grande_tema": "EF1", "assunto": "Linguagem corporal e expressão", "obs": ""}
+{"id": "gq_ecbc52914a744315be8b05ca", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": "corrigido na conferência da amostra (EF1.3)"}
 {"id": "gq_d7f0419a916415c036ed7954", "no": "LP4.oralidade-e-escrita", "grande_tema": "LP4", "assunto": "Oralidade e escrita", "obs": ""}
 {"id": "gq_8ad3a4c54d56bba523c6c365", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": ""}
 {"id": "gq_bdfa7a27023b1ee23989ade8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "espanhol"}
@@ -666,7 +666,7 @@
 {"id": "gq_7b4f1e3fccdf41d29c8474f7", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_f7ee47539a2d6b5f47df2d96", "no": "EF1.corpo-estetica-e-midia", "grande_tema": "EF1", "assunto": "Corpo, estética e mídia", "obs": ""}
 {"id": "gq_0102a1a8182b04e216f6844c", "no": "AR2.musica-popular-brasileira", "grande_tema": "AR2", "assunto": "Música popular brasileira", "obs": ""}
-{"id": "gq_ec6d6c9d73a4c7964fb3b98b", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_ec6d6c9d73a4c7964fb3b98b", "no": "TC1.hipertexto-e-generos-digitais", "grande_tema": "TC1", "assunto": "Hipertexto e gêneros digitais", "obs": "corrigido na conferência da amostra (TC1.3)"}
 {"id": "gq_513324bec0c67c040c77c957", "no": "LL7.1a-fase", "grande_tema": "LL7", "assunto": "1ª fase", "obs": ""}
 {"id": "gq_89c26d1ae4c0a7d8ecde4c49", "no": "AR4.manifestacoes-populares-e-tradicoes", "grande_tema": "AR4", "assunto": "Manifestações populares e tradições", "obs": ""}
 {"id": "gq_e346508f0750004452bcd027", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
@@ -703,7 +703,7 @@
 {"id": "gq_463530c0e014070a83b335de", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
 {"id": "gq_0d0c6864de435e54e50b0ed1", "no": "LP5.semantica-e-efeitos-expressivos", "grande_tema": "LP5", "assunto": "Semântica e efeitos expressivos", "obs": ""}
 {"id": "gq_1e62d2fb2896d1893504de1b", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
-{"id": "gq_868c17fa86696d6f69e71d01", "no": "LL4.naturalismo", "grande_tema": "LL4", "assunto": "Naturalismo", "obs": ""}
+{"id": "gq_868c17fa86696d6f69e71d01", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": "corrigido na conferência da amostra (LP1.4)"}
 {"id": "gq_57378b096f5767974c4e8f4c", "no": "AR3.danca-como-linguagem-artistica", "grande_tema": "AR3", "assunto": "Dança como linguagem artística", "obs": ""}
 {"id": "gq_137dd8f7ac04f05d0fbc7be8", "no": "LP6.patrimonio-e-diversidade-linguistica", "grande_tema": "LP6", "assunto": "Patrimônio e diversidade linguística", "obs": ""}
 {"id": "gq_6b2db519630b30e8e3d39537", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
@@ -738,7 +738,7 @@
 {"id": "gq_25911cfe972fa08fd786974e", "no": "AR1.arte-contemporanea", "grande_tema": "AR1", "assunto": "Arte contemporânea", "obs": ""}
 {"id": "gq_6dea1dc5feab4bba07b9565f", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
 {"id": "gq_96fc4c4b2f3ac24bcb2fa894", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
-{"id": "gq_3756e9b8b10719e5667b21b7", "no": "LL7.2a-fase-poesia-de-30", "grande_tema": "LL7", "assunto": "2ª fase, poesia de 30", "obs": ""}
+{"id": "gq_3756e9b8b10719e5667b21b7", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": "corrigido na conferência da amostra (LL9.1)"}
 {"id": "gq_f27201ad462a2d1e21903613", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
 {"id": "gq_dc44053064d1852c0e43a6cc", "no": "LP2.generos-textuais", "grande_tema": "LP2", "assunto": "Gêneros textuais", "obs": ""}
 {"id": "gq_2189952f4dae482de5a50619", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
@@ -999,7 +999,7 @@
 {"id": "gq_2824427a117816bfcd2a3f1d", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
 {"id": "gq_ceb55020d2d4d690acdebc14", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
 {"id": "gq_1cea5428d65076203a8b43c0", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
-{"id": "gq_3e24d504f23eb663a20daf45", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
+{"id": "gq_3e24d504f23eb663a20daf45", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": "corrigido na conferência da amostra (LL9.6)"}
 {"id": "gq_5c42141ca7e4f14c8aafd0d8", "no": "LL9.cronica", "grande_tema": "LL9", "assunto": "Crônica", "obs": ""}
 {"id": "gq_ea51515de3686395f2e1bc00", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
 {"id": "gq_461c34e5bb828b251210352a", "no": "EF2.esporte-espetaculo-e-sociedade", "grande_tema": "EF2", "assunto": "Esporte, espetáculo e sociedade", "obs": ""}
@@ -1028,7 +1028,7 @@
 {"id": "gq_47d21885570620bb451ef068", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
 {"id": "gq_73e4b6da5f7fa9d23614bd36", "no": "AR4.producoes-indigenas-afro-brasileiras-e-regionais", "grande_tema": "AR4", "assunto": "Produções indígenas, afro-brasileiras e regionais", "obs": ""}
 {"id": "gq_771efc13e2462e3c0bd0c649", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
-{"id": "gq_a8c9242936dbbe2c908e9ef9", "no": "LP1.objetivo-e-finalidade-do-texto", "grande_tema": "LP1", "assunto": "Objetivo e finalidade do texto", "obs": ""}
+{"id": "gq_a8c9242936dbbe2c908e9ef9", "no": "LP1.tema-tese-e-informacao-central", "grande_tema": "LP1", "assunto": "Tema, tese e informação central", "obs": "corrigido na conferência da amostra (LP1.1)"}
 {"id": "gq_171d5bf39da346e85e70fed1", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
 {"id": "gq_b45d0287b41c6872a1774a82", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
 {"id": "gq_49a71af7fcd04a233c755853", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
@@ -1056,7 +1056,7 @@
 {"id": "gq_18308f41c57317f231566df3", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
 {"id": "gq_fb7e18a2b2ed3b459be3eb45", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_c784caa08bf7b85aa20ea2fa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
-{"id": "gq_1a997d4f6be32afb87462ab5", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
+{"id": "gq_1a997d4f6be32afb87462ab5", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": "corrigido na conferência da amostra (FS4.2)"}
 {"id": "gq_a5e6dfd245c260bb313c9853", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
 {"id": "gq_23f08c13463322047535c93a", "no": "FS2.temperatura-termometria-e-dilatacao", "grande_tema": "FS2", "assunto": "Temperatura, termometria e dilatação", "obs": ""}
 {"id": "gq_8ae71bcc7f2f0afa936b8b3c", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
@@ -1318,7 +1318,7 @@
 {"id": "gq_e474c2ad5509b1ec500e87e2", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
 {"id": "gq_f731a5fba5386eadefa794ef", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
 {"id": "gq_556924a2b32d787de7b89aa9", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
-{"id": "gq_90883983193a710dc2afeeaf", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
+{"id": "gq_90883983193a710dc2afeeaf", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": "corrigido na conferência da amostra (QU5.1)"}
 {"id": "gq_4d0565792bd6e34b936859df", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas"}
 {"id": "gq_056098297d8b3e4f90f8f3c3", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
 {"id": "gq_f3342c69dd384250776c3812", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
@@ -1456,7 +1456,7 @@
 {"id": "gq_d23f2c813c22dd6e6fdcf405", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
 {"id": "gq_640cc1764057f1216c2d8e7f", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
 {"id": "gq_a8f9ea50b138b176ecdb4349", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
-{"id": "gq_79f9c690ddb5588cf33b6beb", "no": "MA4.sequencias-e-progressoes", "grande_tema": "MA4", "assunto": "Sequências e progressões", "obs": ""}
+{"id": "gq_79f9c690ddb5588cf33b6beb", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": "corrigido na conferência da amostra (MA4.1)"}
 {"id": "gq_5514e91c283d074eb9400e0e", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
 {"id": "gq_15b5397ccd672aa51e869787", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
 {"id": "gq_678d24a1211987f5e3719625", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
@@ -1677,7 +1677,7 @@
 {"id": "gq_2d647f449c5e9d9fa5736ffe", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
 {"id": "gq_8db4e9d05a4cc5fc35063f57", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
 {"id": "gq_cd7a0273e58bbf2953fa7a39", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
-{"id": "gq_3988d9b88b334100337aa312", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
+{"id": "gq_3988d9b88b334100337aa312", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": "corrigido na conferência da amostra (MA2.1)"}
 {"id": "gq_c12366a21e85fe76b07926e7", "no": "MA4.funcao-logaritmica", "grande_tema": "MA4", "assunto": "Função logarítmica", "obs": ""}
 {"id": "gq_0ff0ce934bfed327e5d8b63d", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
 {"id": "gq_43f2256db888dff8b0eec792", "no": "MA4.equacoes-inequacoes-e-sistemas", "grande_tema": "MA4", "assunto": "Equações, inequações e sistemas", "obs": ""}
