@@ -1,8 +1,9 @@
 # Classificação completa — resumo
 
 - Questões classificadas: 2041 (339 do gabarito + 1702 manuais)
-- Defeitos (sem como classificar): 14 manuais + 8 já marcados
+- Defeitos: 14 manuais + 8 já marcados
 - Duplicatas anotadas em obs: 9
+- Conferência por amostra (100 questões, coluna Cauê): 85 corretas, 9 erradas, 6 dúvidas; as 15 foram corrigidas conforme a revisão.
 
 ## Contagem por assunto
 
@@ -51,7 +52,7 @@
 | HB2.3 | Segundo Reinado | 10 |
 | HB2.4 | Guerra do Paraguai | 1 |
 | HB2.5 | Escravidão no Império e abolição | 9 |
-| HB3.1 | Proclamação e ideário republicano | 5 |
+| HB3.1 | Proclamação e ideário republicano | 4 |
 | HB3.2 | Coronelismo e política oligárquica | 5 |
 | HB3.3 | Revoltas e movimentos sociais | 4 |
 | HB3.4 | Tenentismo | 0 |
@@ -130,7 +131,7 @@
 | SO2.2 | Capitalismo, consumo e mercantilização | 7 |
 | SO3.1 | Socialização e instituições sociais | 6 |
 | SO3.2 | Cultura, identidade e diversidade | 6 |
-| SO3.3 | Cultura popular e religiosidade | 13 |
+| SO3.3 | Cultura popular e religiosidade | 14 |
 | SO3.4 | Indústria cultural e mídia | 7 |
 | SO3.5 | Patrimônio cultural e memória | 10 |
 | SO4.1 | Desigualdade social e estratificação | 4 |
@@ -141,10 +142,10 @@
 | SO5.1 | Estado, poder e dominação | 4 |
 | SO5.2 | Participação e representação política | 2 |
 | SO5.3 | Violência e segurança | 1 |
-| LP1.1 | Tema, tese e informação central | 7 |
-| LP1.2 | Objetivo e finalidade do texto | 22 |
-| LP1.3 | Estratégias argumentativas | 29 |
-| LP1.4 | Relação entre textos | 12 |
+| LP1.1 | Tema, tese e informação central | 9 |
+| LP1.2 | Objetivo e finalidade do texto | 21 |
+| LP1.3 | Estratégias argumentativas | 28 |
+| LP1.4 | Relação entre textos | 13 |
 | LP1.5 | Leitura de textos multimodais | 0 |
 | LP2.1 | Gêneros textuais | 24 |
 | LP2.2 | Tipos textuais | 4 |
@@ -157,8 +158,8 @@
 | LP5.3 | Semântica e efeitos expressivos | 13 |
 | LP5.4 | Recursos gramaticais no texto | 10 |
 | LP5.5 | Formação de palavras e neologismos | 2 |
-| LP6.1 | Formação do português brasileiro | 11 |
-| LP6.2 | Patrimônio e diversidade linguística | 15 |
+| LP6.1 | Formação do português brasileiro | 10 |
+| LP6.2 | Patrimônio e diversidade linguística | 16 |
 | LL1.1 | Quinhentismo | 0 |
 | LL1.2 | Barroco | 1 |
 | LL2.1 | Arcadismo | 1 |
@@ -167,13 +168,13 @@
 | LL3.3 | Poesia, 3ª geração | 0 |
 | LL3.4 | Prosa romântica | 3 |
 | LL4.1 | Machado de Assis | 9 |
-| LL4.2 | Naturalismo | 5 |
+| LL4.2 | Naturalismo | 4 |
 | LL5.1 | Parnasianismo | 2 |
 | LL5.2 | Simbolismo | 3 |
 | LL6.1 | Pré-Modernismo | 8 |
 | LL7.1 | Vanguardas e Semana de 22 | 1 |
 | LL7.2 | 1ª fase | 10 |
-| LL7.3 | 2ª fase, poesia de 30 | 6 |
+| LL7.3 | 2ª fase, poesia de 30 | 5 |
 | LL7.4 | 2ª fase, romance de 30 | 8 |
 | LL7.5 | 3ª fase, geração de 45 | 9 |
 | LL8.1 | Literatura e ditadura | 9 |
@@ -181,16 +182,16 @@
 | LL8.3 | Literatura indígena | 1 |
 | LL8.4 | Literaturas africanas de língua portuguesa | 1 |
 | LL8.5 | Representação e identidade na literatura contemporânea | 12 |
-| LL9.1 | Poema e eu lírico | 16 |
-| LL9.2 | Narrativa e narrador | 9 |
+| LL9.1 | Poema e eu lírico | 17 |
+| LL9.2 | Narrativa e narrador | 8 |
 | LL9.3 | Teatro | 3 |
 | LL9.4 | Crônica | 5 |
 | LL9.5 | Intertextualidade, paródia e releitura | 2 |
-| LL9.6 | Recursos expressivos e construção literária | 12 |
+| LL9.6 | Recursos expressivos e construção literária | 13 |
 | EF1.1 | Saúde, sedentarismo e qualidade de vida | 6 |
 | EF1.2 | Ginásticas e condicionamento físico | 2 |
-| EF1.3 | Corpo, estética e mídia | 4 |
-| EF1.4 | Linguagem corporal e expressão | 2 |
+| EF1.3 | Corpo, estética e mídia | 5 |
+| EF1.4 | Linguagem corporal e expressão | 1 |
 | EF1.5 | Acesso às práticas corporais | 3 |
 | EF2.1 | Esporte, espetáculo e sociedade | 13 |
 | EF2.2 | Esporte, gênero e inclusão | 6 |
@@ -216,13 +217,13 @@
 | LE1.3 | Recursos linguísticos e efeitos de sentido | 19 |
 | LE1.4 | Língua, cultura e identidade | 23 |
 | TC1.1 | Meios de comunicação e suas transformações | 15 |
-| TC1.2 | Internet e redes sociais | 19 |
-| TC1.3 | Hipertexto e gêneros digitais | 11 |
+| TC1.2 | Internet e redes sociais | 18 |
+| TC1.3 | Hipertexto e gêneros digitais | 12 |
 | TC1.4 | Inclusão e exclusão digital | 6 |
 | TC1.5 | Desinformação e fake news | 5 |
 | FS1.1 | Cinemática | 5 |
 | FS1.2 | Dinâmica e leis de Newton | 6 |
-| FS1.3 | Energia, trabalho e potência mecânica | 6 |
+| FS1.3 | Energia, trabalho e potência mecânica | 5 |
 | FS1.4 | Impulso, quantidade de movimento e colisões | 1 |
 | FS1.5 | Estática e equilíbrio | 1 |
 | FS1.6 | Gravitação | 3 |
@@ -231,12 +232,12 @@
 | FS2.2 | Calorimetria e mudanças de estado | 11 |
 | FS2.3 | Transmissão de calor | 7 |
 | FS2.4 | Termodinâmica e máquinas térmicas | 8 |
-| FS3.1 | Fenômenos ondulatórios | 8 |
+| FS3.1 | Fenômenos ondulatórios | 9 |
 | FS3.2 | Som | 6 |
 | FS3.3 | Ondas eletromagnéticas e espectro | 8 |
-| FS3.4 | Óptica geométrica e visão | 8 |
+| FS3.4 | Óptica geométrica e visão | 7 |
 | FS4.1 | Eletrostática | 3 |
-| FS4.2 | Circuitos elétricos e consumo de energia | 10 |
+| FS4.2 | Circuitos elétricos e consumo de energia | 11 |
 | FS4.3 | Eletromagnetismo e indução | 6 |
 | FS5.1 | Física nuclear e radioatividade | 5 |
 | FS5.2 | Física moderna | 0 |
@@ -261,7 +262,7 @@
 | QU4.3 | Isomeria | 2 |
 | QU4.4 | Polímeros | 4 |
 | QU4.5 | Biomoléculas | 0 |
-| QU5.1 | Poluição e tratamento de resíduos | 12 |
+| QU5.1 | Poluição e tratamento de resíduos | 13 |
 | QU5.2 | Química atmosférica e ciclos | 3 |
 | QU5.3 | Combustíveis e biocombustíveis | 4 |
 | QU5.4 | Processos industriais e obtenção de materiais | 0 |
@@ -284,7 +285,7 @@
 | BI4.4 | Dinâmica de populações | 0 |
 | BI4.5 | Sucessão ecológica | 3 |
 | BI4.6 | Biomas e biodiversidade | 6 |
-| BI4.7 | Impactos ambientais e conservação | 15 |
+| BI4.7 | Impactos ambientais e conservação | 14 |
 | BI5.1 | Digestão e nutrição | 6 |
 | BI5.2 | Circulação e respiração | 9 |
 | BI5.3 | Excreção e osmorregulação | 3 |
@@ -297,21 +298,21 @@
 | BI6.4 | Botânica | 11 |
 | BI6.5 | Zoologia | 9 |
 | MA1.1 | Conjuntos numéricos e operações | 13 |
-| MA1.2 | Múltiplos, divisores e ciclos | 11 |
+| MA1.2 | Múltiplos, divisores e ciclos | 10 |
 | MA1.3 | Teoria dos conjuntos e diagramas | 1 |
 | MA2.1 | Razão, proporção e regra de três | 50 |
 | MA2.2 | Porcentagem | 42 |
 | MA2.3 | Escalas | 9 |
-| MA2.4 | Grandezas, unidades e conversões | 28 |
+| MA2.4 | Grandezas, unidades e conversões | 29 |
 | MA3.1 | Juros e financiamentos | 6 |
-| MA4.1 | Equações, inequações e sistemas | 17 |
+| MA4.1 | Equações, inequações e sistemas | 18 |
 | MA4.2 | Função afim | 11 |
 | MA4.3 | Função quadrática | 7 |
 | MA4.4 | Função exponencial | 3 |
 | MA4.5 | Função logarítmica | 6 |
 | MA4.6 | Funções trigonométricas e periodicidade | 1 |
 | MA4.7 | Gráficos e domínio de funções | 1 |
-| MA4.8 | Sequências e progressões | 9 |
+| MA4.8 | Sequências e progressões | 8 |
 | MA5.1 | Ângulos, paralelismo e simetria | 0 |
 | MA5.2 | Geometria plana: áreas e perímetros | 11 |
 | MA5.3 | Geometria espacial: volumes e áreas de superfície | 23 |
