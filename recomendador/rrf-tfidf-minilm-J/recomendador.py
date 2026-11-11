@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent
 BASE, IDX = ROOT / 'base', ROOT / 'indice'
 VERSAO = 'italo-rrf-v1 (base de trabalho pós etapas 1-3)'
 QWEN_ARQUIVO = 'Qwen3-Embedding-8B-4bit__conceito.npy'
-QWEN_SHA256 = 'fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de'
+QWEN_SHA256 = '21e0e82b06d84c5be47506dd4136467f1f825b201e1940ce9c6a9c16bc2cfa3d'
 sys.path.insert(0, str(ROOT))
 import pipeline_baseline as bl
 
