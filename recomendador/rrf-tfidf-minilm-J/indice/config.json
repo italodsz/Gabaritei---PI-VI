@@ -55,7 +55,9 @@
   ],
   "rrf_k": 60,
   "fine_tuning_neural": false,
-  "qwen_vetores_desatualizados": [
+  "qwen_vetores_desatualizados": [],
+  "textos_corrigidos_em": "2026-11-11",
+  "qwen_atualizados_parcialmente": [
     "gq_664bb153cf3dec2fe8508e82",
     "gq_0fd7a5d3fb61cb3ed9cab9db",
     "gq_1741507513810ca47a2e4fe4",
@@ -78,6 +80,5 @@
     "gq_c43c6eeeacd38163e603b4a6",
     "gq_f062a01678195442e1966525",
     "gq_45d61e89cfd14d7ed685d8b4"
-  ],
-  "textos_corrigidos_em": "2026-11-11"
+  ]
 }
