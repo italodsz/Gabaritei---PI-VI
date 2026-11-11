@@ -25,11 +25,12 @@ ch.push(P('Como avaliar',{h:HeadingLevel.HEADING_1}));
 data.forEach(b=>{
   ch.push(new Paragraph({children:[new PageBreak()]}));
   ch.push(P(`Bloco ${b.bloco} — ${AREA[b.ref.area]}`,{h:HeadingLevel.HEADING_1}));
-  ch.push(P(`Título: ${b.titulo}`,{it:true}));
   ch.push(P('Questão de referência',{h:HeadingLevel.HEADING_2}));
+  ch.push(P(`Título: ${b.titulo}`,{bold:true}));
   ch.push(...questao(b.ref));
   b.sug.forEach((s,k)=>{
     ch.push(P(`Sugestão S${b.bloco}${k+1}`,{h:HeadingLevel.HEADING_2}));
+    ch.push(P(`Título: ${b.titulo}`,{bold:true}));
     ch.push(...questao(s));
     ch.push(P('Nota (0 a 10): ______     Pendente: (   )     Texto com problema: (   )     Já tinha visto: (   )',{bold:true}));
     ch.push(P('Comentário (opcional): ______________________________________________',{after:240}));
