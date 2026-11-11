@@ -1,0 +1,186 @@
+{
+ "avaliador": "IA (Claude), às cegas quanto ao método; a mesma IA construiu os dois métodos",
+ "metodos": {
+  "anterior": "titulo (filtro de título, ordem rrf_qwen)",
+  "novo": "titulo_area (receita por matéria)"
+ },
+ "todas": {
+  "anterior": {
+   "pares": 150,
+   "media": 6.23,
+   "media_1a": 6.92,
+   "pct_7mais": 43,
+   "pct_menos5": 20,
+   "refs_com_7mais": 38,
+   "refs": 50
+  },
+  "novo": {
+   "pares": 150,
+   "media": 6.6,
+   "media_1a": 7.38,
+   "pct_7mais": 52,
+   "pct_menos5": 11,
+   "refs_com_7mais": 41,
+   "refs": 50
+  }
+ },
+ "MT": {
+  "anterior": {
+   "pares": 39,
+   "media": 6.92,
+   "media_1a": 7.46,
+   "pct_7mais": 62,
+   "pct_menos5": 5,
+   "refs_com_7mais": 13,
+   "refs": 13
+  },
+  "novo": {
+   "pares": 39,
+   "media": 7.36,
+   "media_1a": 7.69,
+   "pct_7mais": 72,
+   "pct_menos5": 0,
+   "refs_com_7mais": 13,
+   "refs": 13
+  }
+ },
+ "CN": {
+  "anterior": {
+   "pares": 36,
+   "media": 5.61,
+   "media_1a": 6.5,
+   "pct_7mais": 36,
+   "pct_menos5": 42,
+   "refs_com_7mais": 7,
+   "refs": 12
+  },
+  "novo": {
+   "pares": 36,
+   "media": 6,
+   "media_1a": 7.42,
+   "pct_7mais": 42,
+   "pct_menos5": 25,
+   "refs_com_7mais": 8,
+   "refs": 12
+  }
+ },
+ "CH": {
+  "anterior": {
+   "pares": 39,
+   "media": 6,
+   "media_1a": 6.62,
+   "pct_7mais": 38,
+   "pct_menos5": 23,
+   "refs_com_7mais": 8,
+   "refs": 13
+  },
+  "novo": {
+   "pares": 39,
+   "media": 6.28,
+   "media_1a": 7.15,
+   "pct_7mais": 46,
+   "pct_menos5": 13,
+   "refs_com_7mais": 10,
+   "refs": 13
+  }
+ },
+ "LC": {
+  "anterior": {
+   "pares": 36,
+   "media": 6.33,
+   "media_1a": 7.08,
+   "pct_7mais": 36,
+   "pct_menos5": 11,
+   "refs_com_7mais": 10,
+   "refs": 12
+  },
+  "novo": {
+   "pares": 36,
+   "media": 6.72,
+   "media_1a": 7.25,
+   "pct_7mais": 47,
+   "pct_menos5": 6,
+   "refs_com_7mais": 10,
+   "refs": 12
+  }
+ },
+ "por_referencia": {
+  "novo_melhor": 24,
+  "igual": 17,
+  "novo_pior": 9
+ },
+ "diferenca_media_por_ref": {
+  "valor": 0.37,
+  "ic95": [
+   0.18,
+   0.59
+  ]
+ },
+ "trocas": {
+  "n": 47,
+  "media_entraram": 6.34,
+  "media_sairam": 5.15
+ },
+ "por_materia": {
+  "Artes": {
+   "anterior": 5.33,
+   "novo": 5,
+   "pares": 3
+  },
+  "Biologia": {
+   "anterior": 5.52,
+   "novo": 5.86,
+   "pares": 21
+  },
+  "Filosofia": {
+   "anterior": 7.33,
+   "novo": 7,
+   "pares": 6
+  },
+  "Física": {
+   "anterior": 4.5,
+   "novo": 5,
+   "pares": 6
+  },
+  "Geografia": {
+   "anterior": 5.89,
+   "novo": 6.22,
+   "pares": 18
+  },
+  "História": {
+   "anterior": 6.17,
+   "novo": 6.17,
+   "pares": 6
+  },
+  "Literatura": {
+   "anterior": 6.08,
+   "novo": 6.17,
+   "pares": 12
+  },
+  "Língua Portuguesa": {
+   "anterior": 6.67,
+   "novo": 7.44,
+   "pares": 18
+  },
+  "Matemática": {
+   "anterior": 6.92,
+   "novo": 7.36,
+   "pares": 39
+  },
+  "Química": {
+   "anterior": 6.56,
+   "novo": 7,
+   "pares": 9
+  },
+  "Sociologia": {
+   "anterior": 5.22,
+   "novo": 6,
+   "pares": 9
+  },
+  "Tecnologias da informação e comunicação": {
+   "anterior": 6.33,
+   "novo": 6.33,
+   "pares": 3
+  }
+ }
+}
