@@ -118,3 +118,20 @@ efeito Doppler na base), então prometer "mesmo conceito" não é cumprível; "m
 - Catálogo: `catalogo/recomendacoes_titulo.json` (`python recomendador.py exportar --metodo titulo`), com
   `materia` e `titulo` em cada questão. As 23 questões sem rótulo (defeito) ficam sem sugestões.
 - Matéria e título são classificação nossa, não dado oficial do INEP. Ainda sem avaliação humana.
+
+## Oficial desde 11/11/2026: modo `titulo_area`
+
+Mesmo filtro do modo `titulo` (só a mesma matéria e o mesmo título amplo, sem defeitos nem duplicatas,
+língua estrangeira na mesma língua), com a ordem dentro do título escolhida **por matéria**
+(`busca_por_area_v1.json`, sinais em `sinais.py`):
+- na maioria das matérias, só o sentido do texto (Qwen); a semelhança de palavras (TF-IDF) atrapalhava
+  dentro do título;
+- Filosofia: Qwen + bônus de mesmo autor; Literatura: mistura TF-IDF + Qwen + bônus de autor e época;
+  Tecnologias da informação: mistura atual.
+
+Escolha feita em treino e validação (`resultados/busca_por_area/`). Conferência: avaliação da IA às cegas
+em 50 referências novas do teste (`resultados/avaliacao_ia_50/`): média 6,23 (`titulo`) contra 6,60;
+1ª sugestão 6,92 contra 7,38; sugestões abaixo de 5 caem de 20% para 11%; diferença por referência
++0,37 (IC95 0,18 a 0,59). Limite: notas da IA, que construiu o método; falta avaliação humana.
+
+`buscar` e `exportar` usam `titulo_area` por padrão. Catálogo do app: `catalogo/recomendacoes_titulo_area.json`.

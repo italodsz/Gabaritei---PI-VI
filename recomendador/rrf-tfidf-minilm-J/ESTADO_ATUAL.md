@@ -1,3 +1,7 @@
+> **Atualização 11/11/2026:** o oficial agora é o modo `titulo_area` (filtro de matéria e título +
+> ordem por matéria). Catálogo do app: `catalogo/recomendacoes_titulo_area.json`. Detalhes no README
+> (seção "Oficial desde 11/11/2026") e em `DECISAO_FINAL.json`. O texto abaixo é o estado de 30/10.
+
 # Estado do recomendador — 30/10/2026
 
 ## O que está disponível

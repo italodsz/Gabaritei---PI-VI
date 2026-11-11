@@ -1,8 +1,28 @@
-# Catálogo de recomendações (RRF TF-IDF + Qwen)
+# Catálogo de recomendações
+
+## Oficial desde 11/11/2026: `recomendacoes_titulo_area.json`
+
+**É este o arquivo que o app deve ler** (antes era `recomendacoes_rrf_qwen.json`, que fica só como histórico).
+Gerado por `python recomendador.py exportar` (o padrão agora é `--metodo titulo_area`).
+
+O que muda para o app:
+- As sugestões são sempre da **mesma matéria e do mesmo título** da questão (ex.: Física › Ondulatória e
+  óptica). Cada questão em `questoes` traz `materia`, `titulo`, `grande_tema`, `assunto`, `lingua`,
+  `defeito` e `duplicata`, então dá para mostrar o título junto da sugestão.
+- As listas podem ter **menos de 50** sugestões (mediana 34), porque cada título é finito. Nenhuma lista
+  tem entre 1 e 4; **23 questões têm lista vazia** (sem rótulo por defeito de texto): nesses casos o app
+  deve mostrar "sem sugestões" ou cair para `recomendacoes_rrf_qwen.json`.
+- Defeitos e duplicatas nunca aparecem como sugestão; em inglês/espanhol, só a mesma língua.
+- O restante da estrutura (`questoes`, `recomendacoes`, `nivel`, `alerta_grave`, cortes por área) é igual
+  ao descrito abaixo.
+
+Por que trocou: ver `../DECISAO_FINAL.json` (campo `oficial`) e `../resultados/avaliacao_ia_50/`.
+
+## Formato (vale para todos os catálogos)
 
 `recomendacoes_rrf_qwen.json` tem, para cada uma das 2.063 questões elegíveis, as 50 sugestões
-do recomendador oficial (`rrf_qwen`), da mais para a menos relevante. Gerado por
-`python recomendador.py exportar`. É o arquivo que o app lê: não precisa rodar modelo nenhum.
+do recomendador `rrf_qwen` (oficial de 06/11 a 11/11/2026), da mais para a menos relevante. Gerado por
+`python recomendador.py exportar`. Nenhum catálogo exige rodar modelo no app.
 
 Estrutura:
 - `questoes`: para cada id, `area`, `ano`, `habilidade` (INEP), `tri_b` (dificuldade da TRI),
@@ -32,5 +52,4 @@ corrigir a base.
 Mesma estrutura, gerado com `--metodo arvore` (ver README do recomendador). Cada questão traz também
 `grande_tema`, `assunto`, `lingua`, `defeito` e `duplicata`, e `quantas_do_mesmo_assunto` diz quantas
 das 50 sugestões são do mesmo assunto. Defeitos e duplicatas nunca aparecem como sugestão; em língua
-estrangeira, só aparecem questões da mesma língua. O app deve continuar a usar `recomendacoes_rrf_qwen.json`
-até a avaliação cega decidir a troca.
+estrangeira, só aparecem questões da mesma língua. Não é o oficial.
