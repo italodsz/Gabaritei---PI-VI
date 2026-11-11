@@ -864,7 +864,7 @@
 {"id": "gq_51530afa018588610fcc5d19", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_4ee816f1d3fe6341a5734152", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
 {"id": "gq_2e5092f7b33f0c6adb7e441a", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
-{"id": "gq_1bf495a5eda4568d0ea676d2", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto-base"}
+{"id": "gq_1bf495a5eda4568d0ea676d2", "no": "LP2.generos-textuais", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto-base | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_d9d4c05605d4b5e230206a0a", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
 {"id": "gq_eef535e19f0f621b88d2a9d8", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
 {"id": "gq_0f3ad43e7850cf359c3b419c", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
@@ -896,7 +896,7 @@
 {"id": "gq_e94fa74df2dd8fa101bbcadf", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
 {"id": "gq_ae0196fd9be2e0af6b364228", "no": "LL9.poema-e-eu-lirico", "grande_tema": "LL9", "assunto": "Poema e eu lírico", "obs": ""}
 {"id": "gq_44d082c29f4919760514a7e3", "no": "LP1.relacao-entre-textos", "grande_tema": "LP1", "assunto": "Relação entre textos", "obs": ""}
-{"id": "gq_7de599403aa686620d28023a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: falta o texto-base (conto de Ivan Ângelo)"}
+{"id": "gq_7de599403aa686620d28023a", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": null, "assunto": null, "obs": "DEFEITO: falta o texto-base (conto de Ivan Ângelo) | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_17877598c8646d96aaf4dd21", "no": "LL9.narrativa-e-narrador", "grande_tema": "LL9", "assunto": "Narrativa e narrador", "obs": ""}
 {"id": "gq_7495c0819f5861180682f996", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
 {"id": "gq_675258d646f65334abc6377d", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
@@ -1163,11 +1163,11 @@
 {"id": "gq_67e4b014673590a958126cb8", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": "QU5", "assunto": "Química atmosférica e ciclos", "obs": ""}
 {"id": "gq_0216c3bae2ea0727b4bae4f9", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
 {"id": "gq_b2fdeffd5e64bd152e7f8bd9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
-{"id": "gq_0fd7a5d3fb61cb3ed9cab9db", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da molécula"}
+{"id": "gq_0fd7a5d3fb61cb3ed9cab9db", "no": "QU4.isomeria", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da molécula | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_21182cbd4337e72c95ba8668", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
 {"id": "gq_276d86d9d7b5467833778b12", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "movido para Interferência e ressonância 11/11"}
 {"id": "gq_f2131257c18a90457945f382", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
-{"id": "gq_1741507513810ca47a2e4fe4", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados do resíduo"}
+{"id": "gq_1741507513810ca47a2e4fe4", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados do resíduo | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_5e7637f0397776413dfc2cfa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
 {"id": "gq_b7fcfb4a7d99554aca25396c", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
 {"id": "gq_129cb384d548f1d51453037b", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
@@ -1213,7 +1213,7 @@
 {"id": "gq_c8032f42fa6a135678729dc1", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
 {"id": "gq_c668695a285ab1377cfb03c2", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
 {"id": "gq_0c3d7b9ec17beddd4aa90222", "no": "BI5.excrecao-e-osmorregulacao", "grande_tema": "BI5", "assunto": "Excreção e osmorregulação", "obs": ""}
-{"id": "gq_b51898071deb6f81bc8218c3", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados da solução nutritiva"}
+{"id": "gq_b51898071deb6f81bc8218c3", "no": "QU2.solucoes-e-concentracao", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados da solução nutritiva | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_73c93659d3a50645e692bb61", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
 {"id": "gq_35c52cd1e456eee66dff8957", "no": "FS2.transmissao-de-calor", "grande_tema": "FS2", "assunto": "Transmissão de calor", "obs": ""}
 {"id": "gq_f1a76ce1255a466cfd24c6f6", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
@@ -1259,7 +1259,7 @@
 {"id": "gq_6865a937ccc0caec8653a9cb", "no": "QU2.solucoes-e-concentracao", "grande_tema": "QU2", "assunto": "Soluções e concentração", "obs": ""}
 {"id": "gq_325cddcae85efef8414cc17a", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": "Sr substitui Ca (mesma família)"}
 {"id": "gq_449031f9993962fac62a60d9", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
-{"id": "gq_2d95d1bc5fcfa7364da555b3", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam as entalpias"}
+{"id": "gq_2d95d1bc5fcfa7364da555b3", "no": "QU3.termoquimica", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam as entalpias | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_d29caaf3081d64d7ae85d7b7", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
 {"id": "gq_a827c6d461865cfebef3e7dd", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
 {"id": "gq_6b477906fb3ce091555b01e9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
@@ -1290,13 +1290,13 @@
 {"id": "gq_775640fd55995393effd6647", "no": "QU4.isomeria", "grande_tema": "QU4", "assunto": "Isomeria", "obs": ""}
 {"id": "gq_ac403d88530fba7d5a61a5df", "no": "QU3.termoquimica", "grande_tema": "QU3", "assunto": "Termoquímica", "obs": ""}
 {"id": "gq_c2cbec00805bc607697cd429", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
-{"id": "gq_3328c1d9fc3b6e01d0c910d8", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto de Haber"}
+{"id": "gq_3328c1d9fc3b6e01d0c910d8", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto de Haber | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_56115c76c787e17e0aee4b44", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
 {"id": "gq_cde7c1297fb1dc89c9dc39f5", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
 {"id": "gq_d6045b4f0000be40d58ae32d", "no": "FS1.hidrostatica-e-pressao", "grande_tema": "FS1", "assunto": "Hidrostática e pressão", "obs": ""}
 {"id": "gq_f3e711f1ab9d926970364863", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
 {"id": "gq_80e306cc6da9741467c8418f", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
-{"id": "gq_ae3f4012d9ee1b14fdf9b192", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da forma de plantio"}
+{"id": "gq_ae3f4012d9ee1b14fdf9b192", "no": "BI6.botanica", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da forma de plantio | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_aaaacb580e5e83df00400d21", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
 {"id": "gq_4460ad61a866ca08c40ab9f2", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
 {"id": "gq_4254ed5c841209de80eb09bb", "no": "BI2.genetica-de-populacoes", "grande_tema": "BI2", "assunto": "Genética de populações", "obs": "corredores ecológicos / fluxo gênico"}
@@ -1319,7 +1319,7 @@
 {"id": "gq_f731a5fba5386eadefa794ef", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
 {"id": "gq_556924a2b32d787de7b89aa9", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
 {"id": "gq_90883983193a710dc2afeeaf", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": "corrigido na conferência da amostra (QU5.1)"}
-{"id": "gq_4d0565792bd6e34b936859df", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas"}
+{"id": "gq_4d0565792bd6e34b936859df", "no": "FS1.impulso-quantidade-de-movimento-e-colisoes", "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_056098297d8b3e4f90f8f3c3", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
 {"id": "gq_f3342c69dd384250776c3812", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_90162607aa1e3de2eb85d107", "no": "BI5.excrecao-e-osmorregulacao", "grande_tema": "BI5", "assunto": "Excreção e osmorregulação", "obs": ""}
@@ -1327,7 +1327,7 @@
 {"id": "gq_7c30ef17bf1a19238b2cf543", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
 {"id": "gq_d2975fa70862a0a5df2f0354", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
 {"id": "gq_419310726558dac9515f17e7", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
-{"id": "gq_c3ad5ec1f591615283e1dd4a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas"}
+{"id": "gq_c3ad5ec1f591615283e1dd4a", "no": "FS2.transmissao-de-calor", "grande_tema": null, "assunto": null, "obs": "DEFEITO: sem enunciado, só alternativas | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_46096b2ad3a7358cf2e0693a", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
 {"id": "gq_7c3a5bdb06b667d0a9047b8f", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
 {"id": "gq_b1f233711963f2d5e4272e58", "no": "QU3.cinetica-quimica", "grande_tema": "QU3", "assunto": "Cinética química", "obs": ""}
@@ -1511,7 +1511,7 @@
 {"id": "gq_d5197bd9047b17de16311b7f", "no": "MA5.ampliacao-e-reducao", "grande_tema": "MA5", "assunto": "Ampliação e redução", "obs": ""}
 {"id": "gq_a55770ac69a608b16e84a9f1", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
 {"id": "gq_8b047debf548822cccd04726", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
-{"id": "gq_911f7f7a8aca8533f60a497d", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a tabela de recipientes"}
+{"id": "gq_911f7f7a8aca8533f60a497d", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a tabela de recipientes | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_4e0c206a50c9ce9ec3a42da0", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
 {"id": "gq_d154f05ea23ee9ccbeb316a3", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
 {"id": "gq_f014ad039c76ee76f5d02c61", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
@@ -1519,13 +1519,13 @@
 {"id": "gq_7771c8aca51d390fe5d28ef4", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
 {"id": "gq_d15e710ff619f4757c3b8279", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
 {"id": "gq_6543eee55fc39686a78f538e", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
-{"id": "gq_c8d54b4671dd1fac44db29f7", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o pedido do arquiteto"}
+{"id": "gq_c8d54b4671dd1fac44db29f7", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o pedido do arquiteto | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_158b644f10a84cbfd372b8f8", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
 {"id": "gq_07e4e258374debabfbde17d5", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
 {"id": "gq_cbd670744a6c75eb4b3dbc84", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": ""}
 {"id": "gq_3c1c037a0ce8eafd92fe2764", "no": "MA4.funcao-exponencial", "grande_tema": "MA4", "assunto": "Função exponencial", "obs": ""}
 {"id": "gq_f1ebbe564deb1b0ff85af788", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
-{"id": "gq_495779507cce0a6b2cf5852a", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a estimativa de produção"}
+{"id": "gq_495779507cce0a6b2cf5852a", "no": "MA4.funcao-exponencial", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a estimativa de produção | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_2f3d34d1eb42a9889693b9e0", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
 {"id": "gq_b27d5de5f6e866344dccdd4a", "no": "MA5.geometria-espacial-volumes-e-areas-de-superficie", "grande_tema": "MA5", "assunto": "Geometria espacial: volumes e áreas de superfície", "obs": ""}
 {"id": "gq_c4a2ea8d064243be9bd54141", "no": "MA2.grandezas-unidades-e-conversoes", "grande_tema": "MA2", "assunto": "Grandezas, unidades e conversões", "obs": ""}
@@ -1547,7 +1547,7 @@
 {"id": "gq_c3fd0591106465d772df6852", "no": "MA7.probabilidade", "grande_tema": "MA7", "assunto": "Probabilidade", "obs": ""}
 {"id": "gq_5d5f51a40497323078d2af26", "no": "MA4.funcao-quadratica", "grande_tema": "MA4", "assunto": "Função quadrática", "obs": ""}
 {"id": "gq_ed0c87e56cc45bf79493a686", "no": "MA1.multiplos-divisores-e-ciclos", "grande_tema": "MA1", "assunto": "Múltiplos, divisores e ciclos", "obs": ""}
-{"id": "gq_9b926cb85cdbd373a403fa18", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a função da temperatura da liga"}
+{"id": "gq_9b926cb85cdbd373a403fa18", "no": "MA4.funcao-logaritmica", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a função da temperatura da liga | texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_fe564035038e9652664d93f6", "no": "MA2.razao-proporcao-e-regra-de-tres", "grande_tema": "MA2", "assunto": "Razão, proporção e regra de três", "obs": ""}
 {"id": "gq_82dbfce34cb4057faff5c26b", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
 {"id": "gq_433695ea3c45017ab3ce4391", "no": "MA2.porcentagem", "grande_tema": "MA2", "assunto": "Porcentagem", "obs": ""}
@@ -1714,3 +1714,11 @@
 {"id": "gq_837a844ed0ca7c39ff0303e9", "no": "MA2.escalas", "grande_tema": "MA2", "assunto": "Escalas", "obs": ""}
 {"id": "gq_4129b868a478a5256968ca85", "no": "MA3.juros-e-financiamentos", "grande_tema": "MA3", "assunto": "Juros e financiamentos", "obs": ""}
 {"id": "gq_f8fea79b8ddbb668d93d4a4a", "no": "MA5.geometria-plana-areas-e-perimetros", "grande_tema": "MA5", "assunto": "Geometria plana: áreas e perímetros", "obs": "duplicata de a691bb30"}
+{"id": "gq_664bb153cf3dec2fe8508e82", "no": "MA1.conjuntos-numericos-e-operacoes", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_cc5bcf4f585dcb69ecdb8deb", "no": "MA5.figuras-poligonos-e-solidos", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_5807ce85a0a8bcc838dfcb47", "no": "FS4.eletromagnetismo-e-inducao", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_d729403b0e500b7ef02bef0a", "no": "FI5.justica-democracia-e-cidadania", "obs": "texto oficial INEP aplicado e classificado 11/11 | duplicata de gq_b5d827ac61f9e4d37ce96739"}
+{"id": "gq_6a697545f71aa52dee715749", "no": "MA2.razao-proporcao-e-regra-de-tres", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_c43c6eeeacd38163e603b4a6", "no": "HB1.escravidao-colonial-e-resistencia", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_f062a01678195442e1966525", "no": "QU5.combustiveis-e-biocombustiveis", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_45d61e89cfd14d7ed685d8b4", "no": "MA6.medidas-de-tendencia-central", "obs": "texto oficial INEP aplicado e classificado 11/11"}
