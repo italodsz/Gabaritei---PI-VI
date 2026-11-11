@@ -146,8 +146,9 @@ class Indice:
                          and d['area'] == q['area'] and d['family'] != q['family']])
         tf = (self.X[pool] @ self.X[qi].T).toarray().ravel()
         mn = self.M[pool] @ self.M[qi]
-        if metodo == 'titulo':
-            # 100% dentro do título amplo (matéria + título); ordem = rrf_qwen
+        if metodo in ('titulo', 'titulo_area'):
+            # 100% dentro do título amplo (matéria + título); ordem = rrf_qwen (titulo) ou a
+            # receita da matéria em busca_por_area_v1.json (titulo_area)
             a = self.rot.get(q['id'], {})
             if not a.get('titulo'):
                 return []
@@ -159,11 +160,13 @@ class Indice:
         if metodo == 'arvore':
             ok = [k for k, j in enumerate(pool) if self._serve(q, self.docs[j])]
             pool = pool[ok]; tf = tf[ok]; mn = mn[ok]
-        if metodo in ('qwen', 'rrf_qwen', 'arvore', 'titulo'):
+        if metodo in ('qwen', 'rrf_qwen', 'arvore', 'titulo', 'titulo_area'):
             if self.Q is None:
                 raise SystemExit(f'Vetores Qwen ausentes: coloque {QWEN_ARQUIVO} e ids.json em indice/qwen/.')
             qw = self.Q[pool] @ self.Q[qi]
-        if metodo == 'tfidf':
+        if metodo == 'titulo_area':
+            s = self._ordem_por_area(qi, pool, tf, qw, a['materia'])
+        elif metodo == 'tfidf':
             s = tf
         elif metodo == 'minilm':
             s = mn
@@ -189,6 +192,23 @@ class Indice:
                 seen.add(d['family']); out.append((d['id'], float(s[j])))
         return out
 
+
+    def _ordem_por_area(self, qi, pool, tf, qw, materia):
+        if not hasattr(self, 'sinais'):
+            import sinais
+            self.sinais = sinais.Sinais(self)
+            self.area_cfg = json.loads((ROOT / 'busca_por_area_v1.json').read_text(encoding='utf-8'))
+        c = self.area_cfg['por_materia'].get(materia, self.area_cfg['padrao'])
+        K = self.conf['rrf_k']; s = np.zeros(len(pool))
+        for v, w in ((tf, c['palavras']), (qw, c['sentido'])):
+            if w:
+                o = np.argsort(-v, kind='stable'); s[o] += w / (K + np.arange(1, len(v) + 1))
+        base = s.copy() if c['palavras'] else qw
+        for peca, w in c['pecas'].items():
+            v = self.sinais.escore(peca, qi, pool)
+            if v.any():
+                o = np.lexsort((-base, -v)); s[o] += w / (K + np.arange(1, len(v) + 1))
+        return s
 
     def _serve(self, q, c):
         """Candidato aceito no modo arvore: sem defeito, sem duplicata e, em língua estrangeira,
@@ -298,7 +318,7 @@ if __name__ == '__main__':
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar', 'exportar'])
     ap.add_argument('--top', type=int, default=50)
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore', 'titulo'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore', 'titulo', 'titulo_area'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':
