@@ -27,7 +27,10 @@
   }
  },
  "assunto_primeiro": [
-  "Física"
+  "Física › Mecânica",
+  "Física › Termologia",
+  "Física › Física moderna e energia",
+  "Física › Eletricidade e magnetismo"
  ],
- "assunto_primeiro_nota": "11/11/2026: nessas matérias, as questões do mesmo assunto da árvore vêm primeiro e o resto do título completa a lista (resultados/assunto_primeiro)."
+ "assunto_primeiro_nota": "11/11/2026: nesses títulos, as questões do mesmo assunto da árvore vêm primeiro e o resto do título completa a lista. Ondulatória e óptica ficou de fora porque piorou (média -0,17). Ver resultados/assunto_primeiro."
 }
