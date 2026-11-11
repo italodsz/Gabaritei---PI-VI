@@ -1,0 +1,36 @@
+{
+ "protocolo": "avaliacao_cega_6_titulo",
+ "data": "2026-11-11",
+ "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+ "rotulos_sha256": "28621df9793dac0f11565e3909895207362be43469e482686f1fcd4e0b489cb6",
+ "titulos_sha256": "7e5fbf78691f59a8a2b263a0adcea0d0fc2c4f829bf817b8cefba92c0af81c76",
+ "semente": "gabaritei-avaliacao-cega-6-titulo-2026-11-11",
+ "metodos": {
+  "A": "titulo: só o mesmo título amplo, ordem por semelhança (rrf_qwen), top 3",
+  "B": "titulo com o mesmo assunto fino primeiro e depois semelhança, top 3"
+ },
+ "galeria": "base elegível inteira (como no app), mesma matéria e título, sem defeitos, duplicatas nem a família da referência",
+ "selecao": "teste elegível, fora de toda questão citada em resultados/ ou nos pares de desenvolvimento e das famílias delas; 2 por área, por sha256(semente+id)",
+ "pares": 28,
+ "escala": "nota de 0 a 10: quão boa é a sugestão como próxima questão de estudo para quem acabou de fazer a referência",
+ "criterios_definidos_antes": {
+  "aprovacao": [
+   "média geral do método >= 5,0",
+   "em pelo menos 5 dos 8 blocos, alguma das 3 sugestões com nota >= 7",
+   "no máximo 20% das sugestões com nota <= 2"
+  ],
+  "decisao": "B (assunto primeiro) só substitui A se a média de B superar a de A em 0,5 ou mais; senão fica A, que não depende do rótulo fino",
+  "observacao": "critérios propostos pelo Claude a partir da conversa de 10/11; Ítalo pode alterá-los antes de dar a primeira nota"
+ },
+ "avaliador_requerido": "Ítalo, sem consultar IA nem a chave",
+ "referencias": [
+  "gq_a691bb3047c6a701effb18bd",
+  "gq_dd06c30fb8eca51dfe903158",
+  "gq_053cef1eadda732d756e224f",
+  "gq_524d430e713f646ee5b29e6c",
+  "gq_746986170f6eea5627ab654f",
+  "gq_61348b10e3b14034f81a1fa9",
+  "gq_fe1ba2798f1f88c8db91e8da",
+  "gq_2cb91978a23460c6ef1b1f9a"
+ ]
+}
