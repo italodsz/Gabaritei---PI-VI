@@ -1146,7 +1146,7 @@
 {"id": "gq_0cfc99c2c0eab1e97cc13999", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
 {"id": "gq_089ad32f815570df92e7dd7b", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
 {"id": "gq_2f420717d0197ea651d5dc42", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
-{"id": "gq_749dd40512b29644fd8bb560", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_749dd40512b29644fd8bb560", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": "movido para Interferência e ressonância 11/11"}
 {"id": "gq_c1a37229adb2dc74606714dc", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
 {"id": "gq_3d8717ff34dbf4f4783b1609", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
 {"id": "gq_c238dd7a1a70abc6db1e19fb", "no": "QU4.isomeria", "grande_tema": "QU4", "assunto": "Isomeria", "obs": ""}
@@ -1165,7 +1165,7 @@
 {"id": "gq_b2fdeffd5e64bd152e7f8bd9", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
 {"id": "gq_0fd7a5d3fb61cb3ed9cab9db", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta a descrição da molécula"}
 {"id": "gq_21182cbd4337e72c95ba8668", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
-{"id": "gq_276d86d9d7b5467833778b12", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_276d86d9d7b5467833778b12", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "movido para Interferência e ressonância 11/11"}
 {"id": "gq_f2131257c18a90457945f382", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
 {"id": "gq_1741507513810ca47a2e4fe4", "no": null, "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, faltam os dados do resíduo"}
 {"id": "gq_5e7637f0397776413dfc2cfa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
@@ -1342,10 +1342,10 @@
 {"id": "gq_a820295fd29ecbe956efd607", "no": "QU4.polimeros", "grande_tema": "QU4", "assunto": "Polímeros", "obs": ""}
 {"id": "gq_16b88fc3a75f44618b3d9dda", "no": "BI4.sucessao-ecologica", "grande_tema": "BI4", "assunto": "Sucessão ecológica", "obs": ""}
 {"id": "gq_d58744d22fdb11f8f2ee63a6", "no": "FS4.eletrostatica", "grande_tema": "FS4", "assunto": "Eletrostática", "obs": ""}
-{"id": "gq_10ed12f474a7412c8fe6e75f", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_10ed12f474a7412c8fe6e75f", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "movido para Interferência e ressonância 11/11"}
 {"id": "gq_92fba6940e1d19d238ddb781", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
 {"id": "gq_028e5b1c15e019673d9c5338", "no": "QU3.equilibrio-acido-base-e-ph", "grande_tema": "QU3", "assunto": "Equilíbrio ácido-base e pH", "obs": ""}
-{"id": "gq_d159b7f225d656f8d70dbaac", "no": "FS3.som", "grande_tema": "FS3", "assunto": "Som", "obs": ""}
+{"id": "gq_d159b7f225d656f8d70dbaac", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Som", "obs": "movido para Interferência e ressonância 11/11"}
 {"id": "gq_8e02cd343996be5334fc34c5", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
 {"id": "gq_5a6a939d86041f5fbc50f593", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
 {"id": "gq_9a1a342fc3e0955f2602bdfc", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
@@ -1394,7 +1394,7 @@
 {"id": "gq_22f84e9817fc2ffe3f4fbbbd", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
 {"id": "gq_7404424a1bc5a826cc70e111", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
 {"id": "gq_292f28dead645148d796798c", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
-{"id": "gq_de826d8e9b7afefe83d21f9f", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido 11/11 (conferência de Física)"}
+{"id": "gq_de826d8e9b7afefe83d21f9f", "no": "FS3.interferencia-e-ressonancia", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido 11/11 (conferência de Física) | movido para Interferência e ressonância 11/11"}
 {"id": "gq_8654aa0a3eeff9ca455e9f67", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
 {"id": "gq_374bd76761cf3f79b5401559", "no": "QU4.reacoes-organicas", "grande_tema": "QU4", "assunto": "Reações orgânicas", "obs": ""}
 {"id": "gq_9d007b6088e413c8668096fc", "no": "QU4.funcoes-e-nomenclatura-organica", "grande_tema": "QU4", "assunto": "Funções e nomenclatura orgânica", "obs": ""}
