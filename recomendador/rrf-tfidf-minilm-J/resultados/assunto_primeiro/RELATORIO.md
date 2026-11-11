@@ -48,3 +48,19 @@
 A diferença foi de +0,35, com IC95 de 0,07 a 0,63. O método novo foi melhor em 11 blocos e pior em 5. **Isso passa no critério fixado antes do teste**, e o método foi **adotado em Física** (`busca_por_area_v1.json` → `assunto_primeiro`). O catálogo foi regenerado.
 
 **Ressalva:** a mudança na árvore foi feita depois de ver o resultado da rodada 1, usando as mesmas referências. Por isso o ganho pode estar um pouco inflado. O ideal é confirmar com referências novas, numa ficha humana ou numa nova rodada da IA.
+
+## Ajuste por título (11/11/2026)
+
+Pedido do Ítalo: manter o "assunto primeiro" onde ele ajudou e tirar onde atrapalhou. O resultado da rodada 2, separado pelo título amplo da referência, foi este:
+
+| Título | Referências | Diferença média | Decisão |
+|---|---|---|---|
+| Mecânica | 6 | +0,87 | mantém |
+| Termologia | 5 | +0,48 | mantém |
+| Física moderna e energia | 4 | +0,35 | mantém |
+| Eletricidade e magnetismo | 2 | +0,30 | mantém |
+| Ondulatória e óptica | 7 | −0,17 | **volta ao método atual** |
+
+A decisão foi tomada por título, e não por assunto, porque cada assunto tem só 1 ou 2 referências, poucas demais para decidir.
+
+Com essa configuração, a diferença geral passa a ser +0,40 (IC95 de 0,18 a 0,65): 9 blocos melhoram, 1 piora e o resto fica igual. A ressalva de antes continua valendo: o ajuste foi escolhido olhando as mesmas 24 referências, então o ganho real tende a ser um pouco menor. É preciso confirmar com referências novas.
