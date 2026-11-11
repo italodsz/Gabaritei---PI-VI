@@ -1109,7 +1109,7 @@
 {"id": "gq_6f00a76ff72d0ed7ae48a290", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
 {"id": "gq_234342e390543c7a5dfb1884", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_299abdf97befa638db84569d", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
-{"id": "gq_09b97394e706a57a96edb01c", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_09b97394e706a57a96edb01c", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_133af67cdb8f123caeafedba", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
 {"id": "gq_209cde2bb15a6a31d88ffda0", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
 {"id": "gq_1b755cf54867053a4b904c32", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
@@ -1131,7 +1131,7 @@
 {"id": "gq_ff4eb0272f1e5534473f81b6", "no": "QU5.quimica-atmosferica-e-ciclos", "grande_tema": "QU5", "assunto": "Química atmosférica e ciclos", "obs": ""}
 {"id": "gq_34aa33aa967c62a73b3b4d6a", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
 {"id": "gq_f5a07910d3c18bb56a41b9cb", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
-{"id": "gq_8c22794127d2ce7d732b3568", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": ""}
+{"id": "gq_8c22794127d2ce7d732b3568", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Biomas e biodiversidade", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_b9d7bc9b1ed22d53ee637b5f", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
 {"id": "gq_d00900bbb3fe02010cfd9fc0", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
 {"id": "gq_1450e0e40012bd30efe93d3c", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
@@ -1191,7 +1191,7 @@
 {"id": "gq_5be82aa6d5ad2a0ceb3e1a21", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
 {"id": "gq_c23b44c7216b4e585b09eac5", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
 {"id": "gq_a3375c85393bd50db0360b4a", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
-{"id": "gq_8cc95d44512365a01a9572fd", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_8cc95d44512365a01a9572fd", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI6", "assunto": "Botânica", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_185dc5dabbc02f46cc865ce6", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
 {"id": "gq_cf0426617ddf90a05b7d3450", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": ""}
 {"id": "gq_12097225915a9f6725de1661", "no": "FS1.energia-trabalho-e-potencia-mecanica", "grande_tema": "FS1", "assunto": "Energia, trabalho e potência mecânica", "obs": ""}
@@ -1208,7 +1208,7 @@
 {"id": "gq_8e4d06d9db1bcd7e31941247", "no": "BI5.reproducao-e-desenvolvimento", "grande_tema": "BI5", "assunto": "Reprodução e desenvolvimento", "obs": ""}
 {"id": "gq_3a601096ff7390248317d230", "no": "BI3.especiacao-adaptacoes-e-evolucao-humana", "grande_tema": "BI3", "assunto": "Especiação, adaptações e evolução humana", "obs": ""}
 {"id": "gq_14b417204258fde26eb6cef5", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
-{"id": "gq_79b2a4fa1ac8cb10472fc083", "no": "BI1.composicao-quimica-e-atividade-enzimatica", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": ""}
+{"id": "gq_79b2a4fa1ac8cb10472fc083", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI1", "assunto": "Composição química e atividade enzimática", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_430a66de72a79cf2e4c04809", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
 {"id": "gq_c8032f42fa6a135678729dc1", "no": "QU2.estequiometria", "grande_tema": "QU2", "assunto": "Estequiometria", "obs": ""}
 {"id": "gq_c668695a285ab1377cfb03c2", "no": "FS5.fisica-nuclear-e-radioatividade", "grande_tema": "FS5", "assunto": "Física nuclear e radioatividade", "obs": ""}
@@ -1286,7 +1286,7 @@
 {"id": "gq_5a58cdf63c011a3ca9765da5", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
 {"id": "gq_23713c46f1dbb3f1a397fe75", "no": "BI4.ciclos-biogeoquimicos", "grande_tema": "BI4", "assunto": "Ciclos biogeoquímicos", "obs": ""}
 {"id": "gq_db10c9ecabfc2aebee3d8ddd", "no": "FS4.eletromagnetismo-e-inducao", "grande_tema": "FS4", "assunto": "Eletromagnetismo e indução", "obs": ""}
-{"id": "gq_d8dfdbea5928970b06ff01da", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
+{"id": "gq_d8dfdbea5928970b06ff01da", "no": "BI4.biomas-e-biodiversidade", "grande_tema": "BI6", "assunto": "Zoologia", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_775640fd55995393effd6647", "no": "QU4.isomeria", "grande_tema": "QU4", "assunto": "Isomeria", "obs": ""}
 {"id": "gq_ac403d88530fba7d5a61a5df", "no": "QU3.termoquimica", "grande_tema": "QU3", "assunto": "Termoquímica", "obs": ""}
 {"id": "gq_c2cbec00805bc607697cd429", "no": "BI5.digestao-e-nutricao", "grande_tema": "BI5", "assunto": "Digestão e nutrição", "obs": ""}
@@ -1358,7 +1358,7 @@
 {"id": "gq_c13077eda9243c73f722dd20", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": "duplicata de 13bb64be"}
 {"id": "gq_7aa17072b2effe6d2d2d1592", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
 {"id": "gq_ac75ef29197193cdaa03a271", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": "movido para Cor e visão 11/11"}
-{"id": "gq_f30f20c4772b01cac22a146b", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": "duplicata parcial de 7aa17072 (só o comando)"}
+{"id": "gq_f30f20c4772b01cac22a146b", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": "duplicata parcial de 7aa17072 (só o comando) | duplicata de gq_7aa17072b2effe6d2d2d1592 (texto truncado, só o comando) 11/11"}
 {"id": "gq_03056359760c5ae84cd34004", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
 {"id": "gq_8d5d3088e9e80bf625e8e563", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
 {"id": "gq_13bb64bec99e56e527624bb9", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": ""}
@@ -1407,7 +1407,7 @@
 {"id": "gq_40172b48bb298d7706406848", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
 {"id": "gq_f06b712eb71a2ff88e99db4a", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
 {"id": "gq_62e3bcb24c0d877c1d958905", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
-{"id": "gq_8ada41a9c7b503ed72dbb57b", "no": "BI4.relacoes-ecologicas", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": ""}
+{"id": "gq_8ada41a9c7b503ed72dbb57b", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Relações ecológicas", "obs": "corrigido 11/11 (conferência de Biologia)"}
 {"id": "gq_7806edcd3e09ccfd442a8bec", "no": "BI1.divisao-celular", "grande_tema": "BI1", "assunto": "Divisão celular", "obs": ""}
 {"id": "gq_8fd4b6f624ad457ecdbbb55a", "no": "QU2.gases", "grande_tema": "QU2", "assunto": "Gases", "obs": ""}
 {"id": "gq_070c9ea8335bcf4efd378789", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
