@@ -1204,7 +1204,7 @@
 {"id": "gq_4b03dff79d3fdb9df705b780", "no": "QU1.ligacoes-quimicas-e-interacoes-intermoleculares", "grande_tema": "QU1", "assunto": "Ligações químicas e interações intermoleculares", "obs": ""}
 {"id": "gq_bf9ab4008795fa3dabd1d72b", "no": "BI1.acidos-nucleicos-e-sintese-proteica", "grande_tema": "BI1", "assunto": "Ácidos nucleicos e síntese proteica", "obs": ""}
 {"id": "gq_223da0d1bba21bfbf820a145", "no": "BI5.imunologia-e-vacinas", "grande_tema": "BI5", "assunto": "Imunologia e vacinas", "obs": ""}
-{"id": "gq_eb9453268a69429204393a65", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido na conferência da amostra (FS3.1)"}
+{"id": "gq_eb9453268a69429204393a65", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido na conferência da amostra (FS3.1) | corrigido 11/11 (conferência de Física)"}
 {"id": "gq_8e4d06d9db1bcd7e31941247", "no": "BI5.reproducao-e-desenvolvimento", "grande_tema": "BI5", "assunto": "Reprodução e desenvolvimento", "obs": ""}
 {"id": "gq_3a601096ff7390248317d230", "no": "BI3.especiacao-adaptacoes-e-evolucao-humana", "grande_tema": "BI3", "assunto": "Especiação, adaptações e evolução humana", "obs": ""}
 {"id": "gq_14b417204258fde26eb6cef5", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
@@ -1305,7 +1305,7 @@
 {"id": "gq_38e7fded17b33a2ed12cb88f", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
 {"id": "gq_16d0d5fc16aca45192c70924", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_0cb3abc1ca6e5a20188b5d77", "no": "BI6.doencas-prevencao-e-saude-publica", "grande_tema": "BI6", "assunto": "Doenças, prevenção e saúde pública", "obs": ""}
-{"id": "gq_2dc9c9311a9e06d583e2aba2", "no": "FS1.estatica-e-equilibrio", "grande_tema": "FS1", "assunto": "Estática e equilíbrio", "obs": ""}
+{"id": "gq_2dc9c9311a9e06d583e2aba2", "no": "FS1.cinematica", "grande_tema": "FS1", "assunto": "Estática e equilíbrio", "obs": "corrigido 11/11 (conferência de Física)"}
 {"id": "gq_a7b9768d145651eced06f276", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
 {"id": "gq_1eb03dd048ecd2a9d0f8168a", "no": "BI6.zoologia", "grande_tema": "BI6", "assunto": "Zoologia", "obs": ""}
 {"id": "gq_0eb1f8519041f5aa67c84dba", "no": "QU1.modelos-atomicos-e-tabela-periodica", "grande_tema": "QU1", "assunto": "Modelos atômicos e tabela periódica", "obs": ""}
@@ -1394,7 +1394,7 @@
 {"id": "gq_22f84e9817fc2ffe3f4fbbbd", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
 {"id": "gq_7404424a1bc5a826cc70e111", "no": "BI2.biotecnologia-e-engenharia-genetica", "grande_tema": "BI2", "assunto": "Biotecnologia e engenharia genética", "obs": ""}
 {"id": "gq_292f28dead645148d796798c", "no": "QU3.transformacoes-nucleares-e-radioatividade", "grande_tema": "QU3", "assunto": "Transformações nucleares e radioatividade", "obs": ""}
-{"id": "gq_de826d8e9b7afefe83d21f9f", "no": "FS3.fenomenos-ondulatorios", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": ""}
+{"id": "gq_de826d8e9b7afefe83d21f9f", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Fenômenos ondulatórios", "obs": "corrigido 11/11 (conferência de Física)"}
 {"id": "gq_8654aa0a3eeff9ca455e9f67", "no": "BI1.metabolismo-energetico", "grande_tema": "BI1", "assunto": "Metabolismo energético", "obs": ""}
 {"id": "gq_374bd76761cf3f79b5401559", "no": "QU4.reacoes-organicas", "grande_tema": "QU4", "assunto": "Reações orgânicas", "obs": ""}
 {"id": "gq_9d007b6088e413c8668096fc", "no": "QU4.funcoes-e-nomenclatura-organica", "grande_tema": "QU4", "assunto": "Funções e nomenclatura orgânica", "obs": ""}
