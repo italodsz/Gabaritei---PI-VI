@@ -64,3 +64,32 @@ Pedido do Ítalo: manter o "assunto primeiro" onde ele ajudou e tirar onde atrap
 A decisão foi tomada por título, e não por assunto, porque cada assunto tem só 1 ou 2 referências, poucas demais para decidir.
 
 Com essa configuração, a diferença geral passa a ser +0,40 (IC95 de 0,18 a 0,65): 9 blocos melhoram, 1 piora e o resto fica igual. A ressalva de antes continua valendo: o ajuste foi escolhido olhando as mesmas 24 referências, então o ganho real tende a ser um pouco menor. É preciso confirmar com referências novas.
+
+## Confirmação com referências novas (11/11/2026)
+
+**Como foi feito**
+- 20 referências de Física que nunca tinham sido usadas, todas dos 4 títulos em que o "assunto primeiro" está ligado.
+- 150 itens avaliados às cegas, com uma isca por bloco.
+- As notas foram registradas (`notas_IA_confirmacao.txt`, sha256) antes de a chave ser aberta.
+
+| | Atual | Assunto primeiro |
+|---|---|---|
+| Média das 5 primeiras | 5,92 | 6,38 |
+| 1ª sugestão | 7,75 | 8,00 |
+| Nota ≥ 7 | 42% | 49% |
+| Nota < 5 | 29% | 17% |
+
+**Resultado:** diferença de +0,46, com IC95 de 0,11 a 0,81. O "assunto primeiro" foi melhor em 11 blocos, pior em 3 e igual em 6. As iscas tiveram média 3,6.
+
+**Por título:**
+
+| Título | Diferença média |
+|---|---|
+| Termologia | +0,80 |
+| Mecânica | +0,40 |
+| Física moderna | +0,40 |
+| Eletricidade | +0,16 |
+
+Nenhum dos 4 títulos piorou na média.
+
+**Conclusão:** **o ganho se confirmou em referências novas**, e o "assunto primeiro" continua ligado nos 4 títulos.
