@@ -2556,9 +2556,20 @@
    "disciplina_nome": "Física",
    "grande_tema": "FS3",
    "grande_tema_nome": "Ondulatória e óptica",
-   "assunto": "Fenômenos ondulatórios",
-   "descricao": "reflexão, refração, difração, interferência, ressonância",
-   "fronteira": ""
+   "assunto": "Propagação, reflexão e refração de ondas",
+   "descricao": "propagação, v = λf, reflexão e refração de ondas, eco e sonar, natureza da luz",
+   "fronteira": "interferência e ressonância vão para FS3.interferencia-e-ressonancia (11/11/2026)"
+  },
+  {
+   "id": "FS3.interferencia-e-ressonancia",
+   "area": "CN",
+   "disciplina": "FIS",
+   "disciplina_nome": "Física",
+   "grande_tema": "FS3",
+   "grande_tema_nome": "Ondulatória e óptica",
+   "assunto": "Interferência e ressonância",
+   "descricao": "interferência construtiva e destrutiva, ondas de mesma frequência, ressonância, sintonia, tubos sonoros",
+   "fronteira": "criado em 11/11/2026 ao dividir Fenômenos ondulatórios"
   },
   {
    "id": "FS3.som",
