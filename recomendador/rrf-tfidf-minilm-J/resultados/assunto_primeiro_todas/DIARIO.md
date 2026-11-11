@@ -13,3 +13,4 @@
 - Sociologia: avaliada.
 - TIC: avaliada. Todas as 13 matérias avaliadas; notas registradas antes da chave.
 - Chave aberta. Passaram no critério: Língua Portuguesa (+0,42; IC95 0,08 a 0,83) e Química (+0,35; IC95 0,03 a 0,78). Inconclusivas: História e TIC. As demais não passaram. Próximo passo: confirmar LP e Química com 12 referências novas cada, mesmo critério.
+- Confirmação (12 referências novas por matéria): LP +0,13 (IC95 −0,05 a 0,40); Química +0,02 (IC95 −0,33 a 0,35). Pelo mesmo critério da rodada 1, nenhuma das duas se confirma, então o método **não foi ligado** em LP nem em Química. Somando as 24 referências: LP +0,28; Química +0,19.
