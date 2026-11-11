@@ -264,7 +264,7 @@ def nivel(b, cortes):
     if b is None: return None
     return 'facil' if b < cortes[0] else 'media' if b < cortes[1] else 'dificil'
 
-def exportar(top, metodo='rrf_qwen'):
+def exportar(top, metodo='titulo_area'):
     ix = Indice()
     if ix.Q is None: raise SystemExit('Faltam os vetores Qwen em indice/qwen/.')
     cortes = tercis_por_area(ix)
@@ -318,7 +318,7 @@ if __name__ == '__main__':
     ap.add_argument('comando', choices=['construir', 'buscar', 'avaliar', 'exportar'])
     ap.add_argument('--top', type=int, default=50)
     ap.add_argument('--minilm-de'); ap.add_argument('--recodificar', action='store_true')
-    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='rrf_qwen', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore', 'titulo', 'titulo_area'])
+    ap.add_argument('--question-id'); ap.add_argument('--metodo', default='titulo_area', choices=['rrf', 'tfidf', 'minilm', 'qwen', 'rrf_qwen', 'arvore', 'titulo', 'titulo_area'])
     ap.add_argument('--k', type=int, default=5)
     a = ap.parse_args()
     if a.comando == 'construir':

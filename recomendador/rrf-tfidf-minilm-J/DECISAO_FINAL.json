@@ -19,10 +19,10 @@
     "corrigir os problemas de texto (avaliações 1, 2, 4 e escala)",
     "pré-calcular as recomendações do catálogo para o app"
   ],
-  "status": "rrf_qwen oficial desde 06/11/2026 (avaliação cega 4, Teles: média 0,96 contra 0,79 do anterior); não cumpre os limiares, sobretudo em Ciências da Natureza",
+  "status": "titulo_area oficial desde 11/11/2026 (substitui rrf_qwen, oficial de 06/11 a 11/11)",
   "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json",
   "teste_reservado_aberto_na_escolha": false,
-  "atualizado_em": "2026-10-30",
+  "atualizado_em": "2026-11-11",
   "estado_detalhado": "ESTADO_ATUAL.md",
   "qwen": "adiado por decisão do usuário; não integra esta atualização",
   "escopo_atualizacao": "Documentação e registro das fontes posteriores; código, base e índices preservados. Não representa incorporação de um bundle posterior indisponível.",
@@ -46,5 +46,22 @@
     "status": "não adotado",
     "motivo": "ganho pequeno e não confirmado (Teles: −0,21; agente: +0,05, abaixo do limite de 0,10); ~15 h para o catálogo",
     "proximo_passo": "testar só em Ciências da Natureza"
-  }
+  },
+  "oficial": {
+    "metodo": "titulo_area",
+    "catalogo": "catalogo/recomendacoes_titulo_area.json",
+    "descricao": "só questões da mesma matéria e do mesmo título amplo (titulos_v1.json), sem defeitos nem duplicatas, língua estrangeira na mesma língua; ordem por matéria em busca_por_area_v1.json (sentido/Qwen na maioria; Literatura mistura + autor e época; Filosofia Qwen + autor; TIC mistura)",
+    "evidencias": [
+      "comparação direta (20 refs, IA): sem filtro 6,21; título 6,48; titulo_area 6,90 (resultados/comparacao_direta_titulo, resultados/busca_por_area)",
+      "avaliação IA de 50 refs novas: titulo 6,23 x titulo_area 6,60; 1ª sugestão 6,92 x 7,38; abaixo de 5: 20% x 11%; IC95 da diferença 0,18 a 0,59 (resultados/avaliacao_ia_50)",
+      "avaliação cega 6 (Ítalo) do filtro de título: média 8,47"
+    ],
+    "limites": [
+      "notas da IA, que construiu o método; falta avaliação humana do titulo_area",
+      "matéria e título são classificação nossa, não oficial do INEP",
+      "23 questões sem rótulo (defeito) ficam sem sugestões; mediana de 34 sugestões por questão (títulos pequenos têm menos de 50)"
+    ],
+    "adotado_em": "2026-11-11"
+  },
+  "oficial_06_11_a_11_11": "rrf_qwen: RRF (k=60) de TF-IDF + Qwen3-Embedding-8B, mesma área"
 }
