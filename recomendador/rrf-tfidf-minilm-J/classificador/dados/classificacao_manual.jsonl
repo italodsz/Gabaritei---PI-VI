@@ -909,7 +909,7 @@
 {"id": "gq_9f72427ca7f474dbf65abedd", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
 {"id": "gq_33bead44dd28263ea3b98e85", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
 {"id": "gq_791c9febff7c0040732f2775", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
-{"id": "gq_acf5d212cc9ae8ac21b8be08", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
+{"id": "gq_acf5d212cc9ae8ac21b8be08", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": "duplicata de gq_791c9febff7c0040732f2775 (mesma questão em outro caderno) 11/11"}
 {"id": "gq_b8d9356c07ab978793cb1f2c", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
 {"id": "gq_1e0de6069ee31e483fd0c559", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_8092173cf8576b0d5d7f28a1", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
@@ -1722,3 +1722,5 @@
 {"id": "gq_c43c6eeeacd38163e603b4a6", "no": "HB1.escravidao-colonial-e-resistencia", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_f062a01678195442e1966525", "no": "QU5.combustiveis-e-biocombustiveis", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_45d61e89cfd14d7ed685d8b4", "no": "MA6.medidas-de-tendencia-central", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_6813b543f8b69508659211c9", "no": "LP2.generos-textuais", "obs": "duplicata de gq_1bf495a5eda4568d0ea676d2 (mesma questão em outro caderno) 11/11"}
+{"id": "gq_b8f4ee587c7f1fd71498cc48", "no": "LL6.pre-modernismo", "obs": "duplicata de gq_034a73673bbc4cc9a99d8217 (mesma questão em outro caderno) 11/11"}

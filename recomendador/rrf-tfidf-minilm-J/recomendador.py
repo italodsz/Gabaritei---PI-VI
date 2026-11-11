@@ -165,6 +165,9 @@ class Indice:
                 raise SystemExit(f'Vetores Qwen ausentes: coloque {QWEN_ARQUIVO} e ids.json em indice/qwen/.')
             qw = self.Q[pool] @ self.Q[qi]
         if metodo == 'titulo_area':
+            # 11/11/2026: tira a mesma questão repetida em outro caderno (texto quase idêntico ao da referência)
+            ok = qw < 0.97
+            pool = pool[ok]; tf = tf[ok]; mn = mn[ok]; qw = qw[ok]
             s = self._ordem_por_area(qi, pool, tf, qw, a['materia'])
         elif metodo == 'tfidf':
             s = tf
