@@ -1278,6 +1278,10 @@
   "MA7.probabilidade": {
    "materia": "Matemática",
    "titulo": "Contagem e probabilidade"
+  },
+  "FS3.cor-e-visao": {
+   "materia": "Física",
+   "titulo": "Ondulatória e óptica"
   }
  }
 }

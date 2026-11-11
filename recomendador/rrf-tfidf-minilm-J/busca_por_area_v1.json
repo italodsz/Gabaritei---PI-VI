@@ -1,9 +1,33 @@
 {
  "descricao": "Ordem dentro do título, por matéria (modo titulo_area). Escolhida em 11/11/2026 só com treino e validação (resultados/busca_por_area/). palavras = peso do TF-IDF, sentido = peso do Qwen, pecas = bônus de sinais.py.",
- "padrao": {"palavras": 0, "sentido": 1, "pecas": {}},
+ "padrao": {
+  "palavras": 0,
+  "sentido": 1,
+  "pecas": {}
+ },
  "por_materia": {
-  "Literatura": {"palavras": 1, "sentido": 1, "pecas": {"nomes": 2}},
-  "Filosofia": {"palavras": 0, "sentido": 1, "pecas": {"nomes": 1}},
-  "Tecnologias da informação e comunicação": {"palavras": 1, "sentido": 1, "pecas": {}}
- }
+  "Literatura": {
+   "palavras": 1,
+   "sentido": 1,
+   "pecas": {
+    "nomes": 2
+   }
+  },
+  "Filosofia": {
+   "palavras": 0,
+   "sentido": 1,
+   "pecas": {
+    "nomes": 1
+   }
+  },
+  "Tecnologias da informação e comunicação": {
+   "palavras": 1,
+   "sentido": 1,
+   "pecas": {}
+  }
+ },
+ "assunto_primeiro": [
+  "Física"
+ ],
+ "assunto_primeiro_nota": "11/11/2026: nessas matérias, as questões do mesmo assunto da árvore vêm primeiro e o resto do título completa a lista (resultados/assunto_primeiro)."
 }

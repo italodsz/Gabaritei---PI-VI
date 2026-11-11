@@ -31,3 +31,20 @@
 - queda dos corpos (+1,8);
 - condução térmica (+1,8);
 - termodinâmica (+0,6 a +1,0).
+
+## Rodada 2: "Cor e visão" separado (11/11/2026)
+
+**O que mudou na árvore:** criei o assunto **Cor e visão** (`FS3.cor-e-visao`), que trata de cor dos objetos, filtros, cores complementares, cones e bastonetes. O antigo "Óptica geométrica e visão" passou a se chamar **Óptica geométrica** e ficou com espelhos, lentes e refração. Para o novo assunto foram movidas 5 questões: antocianinas, filtro da foto, cones com luz vermelha, retina e bastonetes.
+
+**Avaliação:** as referências são as mesmas 24. Todos os pares novos já tinham nota da rodada 1, dada às cegas, então nenhuma nota nova foi necessária.
+
+| | Atual | Assunto primeiro (rodada 2) |
+|---|---|---|
+| Média das 5 primeiras | 6,51 | 6,86 |
+| 1ª sugestão | 8,17 | 8,62 |
+| Nota ≥ 7 | 47% | 53% |
+| Nota < 5 | 19% | 12% |
+
+A diferença foi de +0,35, com IC95 de 0,07 a 0,63. O método novo foi melhor em 11 blocos e pior em 5. **Isso passa no critério fixado antes do teste**, e o método foi **adotado em Física** (`busca_por_area_v1.json` → `assunto_primeiro`). O catálogo foi regenerado.
+
+**Ressalva:** a mudança na árvore foi feita depois de ver o resultado da rodada 1, usando as mesmas referências. Por isso o ganho pode estar um pouco inflado. O ideal é confirmar com referências novas, numa ficha humana ou numa nova rodada da IA.

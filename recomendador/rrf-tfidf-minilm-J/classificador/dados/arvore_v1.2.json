@@ -2589,9 +2589,20 @@
    "disciplina_nome": "Física",
    "grande_tema": "FS3",
    "grande_tema_nome": "Ondulatória e óptica",
-   "assunto": "Óptica geométrica e visão",
-   "descricao": "espelhos, lentes, formação de imagens, instrumentos ópticos, cores, olho humano",
-   "fronteira": ""
+   "assunto": "Óptica geométrica",
+   "descricao": "espelhos, lentes, refração e reflexão da luz, formação de imagens, instrumentos ópticos, pupila e foco",
+   "fronteira": "cor dos objetos e células da retina vão para Cor e visão (FS3.cor-e-visao)"
+  },
+  {
+   "id": "FS3.cor-e-visao",
+   "area": "CN",
+   "disciplina": "FIS",
+   "disciplina_nome": "Física",
+   "grande_tema": "FS3",
+   "grande_tema_nome": "Ondulatória e óptica",
+   "assunto": "Cor e visão",
+   "descricao": "cor dos objetos, luz branca e filtros, cores complementares, cones e bastonetes, absorção de cores",
+   "fronteira": "criado em 11/11/2026 ao dividir Óptica geométrica e visão"
   },
   {
    "id": "FS4.eletrostatica",
