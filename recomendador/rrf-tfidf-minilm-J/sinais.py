@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pipeline_baseline as bl
 
-PECAS = ('comando', 'nomes', 'formato', 'genero', 'resposta')
+PECAS = ('comando', 'nomes', 'formato', 'genero', 'resposta', 'epoca', 'escala')
 _SUB = str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')
 
 
@@ -124,6 +124,53 @@ def resposta(q):
             return bl.clean(o.get('text') or '')
     return ''
 
+# ---- época (História): período histórico a partir de séculos, anos e termos de período ----
+_PER = [('antiguidade_grecia', r'gr[eé]ci|grego|atenas|esparta|p[oó]lis|helen'),
+        ('antiguidade_roma', r'\broma\b|roman|imp[eé]rio romano|rep[uú]blica romana|c[eé]sar'),
+        ('antiguidade_oriente', r'egit|mesopot[aâ]mi|fara[oó]|hebreu|fen[ií]ci|persa'),
+        ('medieval', r'idade m[eé]dia|medieva|feudal|feudo|vassal|servo|cruzad|igreja cat[oó]lica medieval|carol[ií]ngio|burgos'),
+        ('moderna', r'renascen|reforma protestante|lutero|absolutis|mercantilis|grandes navega|iluminis|ilustra[cç][aã]o'),
+        ('america_conquista', r'conquista da am[eé]rica|astec|inca|maia|ind[ií]genas? da am[eé]rica|colonizadores espanh'),
+        ('colonia', r'col[oô]nia|colonial|capitania|sesmaria|engenho|bandeirante|jesu[ií]ta|ciclo do ouro|minera[cç][aã]o colonial|inconfid'),
+        ('imperio', r'imp[eé]rio do brasil|d\. pedro|dom pedro|regência|regencia|segundo reinado|primeiro reinado|independ[eê]ncia do brasil|aboli[cç]|escravid[aã]o|lei [aá]urea'),
+        ('revolucoes_xviii_xix', r'revolu[cç][aã]o francesa|revolu[cç][aã]o industrial|napole[aã]o|liberalismo|socialismo|oper[aá]rio|imperialismo|neocolonial'),
+        ('republica_velha', r'rep[uú]blica velha|primeira rep[uú]blica|coronelis|caf[eé] com leite|canudos|contestado|revolta da vacina|tenentis'),
+        ('vargas', r'vargas|estado novo|era vargas|revolu[cç][aã]o de 1930|trabalhis|clt\b'),
+        ('guerras_mundiais', r'primeira guerra|segunda guerra|guerra mundial|nazis|fascis|holocausto|totalitar'),
+        ('guerra_fria', r'guerra fria|urss|sovi[eé]tic|socialismo real|muro de berlim|descoloniza'),
+        ('ditadura', r'ditadura|regime militar|golpe de 1964|ai-5|anistia|diretas j[aá]|redemocratiza'),
+        ('nova_republica', r'constitui[cç][aã]o de 1988|nova rep[uú]blica|impeachment|neoliberal')]
+
+def epoca(q):
+    t = bl.clean(q.get('question') or '') + ' . ' + ' '.join(bl.clean(o.get('text') or '') for o in q.get('options') or [])
+    tl = t.lower(); out = [n for n, rx in _PER if re.search(rx, tl)]
+    for m in re.finditer(r'[Ss]éculos?\s+([IVX]{1,5})', t):
+        out += ['sec_%d' % _romano(m.group(1))] * 2
+    sem = re.sub(r'(Acesso em|Disponível em)[^.]*\.', ' ', t)
+    sem = re.sub(r'[A-ZÀ-Ú][A-Za-zÀ-ú\.,;: ]{0,80}\b(19[0-9]{2}|20[0-9]{2})\b\s*(\(adaptado\)|\(fragmento\))?\.?\s*$', ' ', sem)
+    for m in re.finditer(r'\b(1[0-9]{3})\b', sem):
+        a = int(m.group(1))
+        if a < 1990: out += ['sec_%d' % (a // 100 + 1), 'dec_%d' % (a // 10)]
+    return ' '.join(out)
+
+# ---- escala (Geografia): Brasil x mundo, região e recorte ----
+_ESC = [('brasil', r'\bbrasil|brasileir|nacional\b|ibge'),
+        ('mundo', r'mundial|global|planeta|pa[ií]ses|internacional|continente'),
+        ('amazonia', r'amaz[oô]n|norte do pa[ií]s|floresta tropical'),
+        ('nordeste_semiarido', r'nordeste|semi[aá]rid|sert[aã]o|caatinga|seca\b'),
+        ('centro_oeste_cerrado', r'centro-oeste|cerrado|mato grosso|goi[aá]s|pantanal'),
+        ('sul_sudeste', r'sudeste|\bsul do|s[aã]o paulo|rio de janeiro|minas gerais|paran[aá]'),
+        ('africa', r'[aá]frica|saara|sahel'), ('europa', r'europ|uni[aã]o europeia'),
+        ('eua', r'estados unidos|norte-americ|eua\b'), ('asia', r'china|chin[eê]s|[aá]sia|jap[aã]o|[ií]ndia'),
+        ('america_latina', r'am[eé]rica latina|mercosul|argentin|chile|bol[ií]via|venezuel'),
+        ('oriente_medio', r'oriente m[eé]dio|[aá]rabe|s[ií]ria|israel|palestin|petr[oó]leo'),
+        ('urbano', r'cidade|urban|metr[oó]pol|periferi|favela'), ('rural', r'campo\b|rural|agr[aá]ri|agroneg|latif[uú]ndi'),
+        ('oceano_litoral', r'oceano|litor|costa\b|mar\b|marinh')]
+
+def escala(q):
+    t = (bl.clean(q.get('question') or '') + ' . ' + ' '.join(bl.clean(o.get('text') or '') for o in q.get('options') or [])).lower()
+    return ' '.join(n for n, rx in _ESC if re.search(rx, t))
+
 
 class Sinais:
     """Matrizes de cada peça para todos os documentos do índice (ajustadas só no treino)."""
@@ -137,6 +184,8 @@ class Sinais:
             'comando': mat([comando(q) for q in qs], ngram_range=(1, 2), min_df=2, sublinear_tf=True, strip_accents='unicode'),
             'nomes': mat([nomes(q) for q in qs], min_df=2, max_df=0.05, sublinear_tf=True, token_pattern=r'\S+', lowercase=False),
             'genero': mat([genero(q) for q in qs], token_pattern=r'\S+'),
+            'epoca': mat([epoca(q) for q in qs], token_pattern=r'\S+', sublinear_tf=True),
+            'escala': mat([escala(q) for q in qs], token_pattern=r'\S+'),
             'resposta': mat([resposta(q) for q in qs], ngram_range=(1, 2), sublinear_tf=True, strip_accents='unicode'),
         }
         self.fmt = np.array([formato(q) for q in qs])
