@@ -1,0 +1,132 @@
+{
+ "História": {
+  "n": 211,
+  "so_sentido": 49.9,
+  "w0.5": 50.9,
+  "w1": 49.8,
+  "w2": 45.8,
+  "por_titulo": {
+   "Idade Moderna e conquista da América": {
+    "n": 28,
+    "so_sentido": 57.1,
+    "w0.5": 56.0,
+    "w1": 54.8,
+    "w2": 41.7
+   },
+   "Antiguidade e Idade Média": {
+    "n": 29,
+    "so_sentido": 56.3,
+    "w0.5": 59.8,
+    "w1": 57.5,
+    "w2": 51.7
+   },
+   "Teoria da história e historiografia": {
+    "n": 9,
+    "so_sentido": 81.5,
+    "w0.5": 77.8,
+    "w1": 81.5,
+    "w2": 74.1
+   },
+   "Revoluções, século XIX e século XX": {
+    "n": 41,
+    "so_sentido": 45.5,
+    "w0.5": 45.5,
+    "w1": 43.9,
+    "w2": 43.9
+   },
+   "República até 1945": {
+    "n": 36,
+    "so_sentido": 52.8,
+    "w0.5": 56.5,
+    "w1": 56.5,
+    "w2": 50.0
+   },
+   "Independência e Império": {
+    "n": 29,
+    "so_sentido": 44.8,
+    "w0.5": 44.8,
+    "w1": 46.0,
+    "w2": 46.0
+   },
+   "Brasil de 1946 aos dias atuais": {
+    "n": 15,
+    "so_sentido": 20.0,
+    "w0.5": 26.7,
+    "w1": 22.2,
+    "w2": 24.4
+   },
+   "Brasil Colônia": {
+    "n": 24,
+    "so_sentido": 50.0,
+    "w0.5": 47.2,
+    "w1": 44.4,
+    "w2": 43.1
+   }
+  }
+ },
+ "Geografia": {
+  "n": 187,
+  "so_sentido": 68.6,
+  "w0.5": 64.5,
+  "w1": 58.6,
+  "w2": 53.7,
+  "por_titulo": {
+   "Geopolítica, território e regionalização": {
+    "n": 15,
+    "so_sentido": 64.4,
+    "w0.5": 68.9,
+    "w1": 68.9,
+    "w2": 71.1
+   },
+   "Espaço agrário": {
+    "n": 33,
+    "so_sentido": 61.6,
+    "w0.5": 61.6,
+    "w1": 49.5,
+    "w2": 44.4
+   },
+   "Espaço urbano": {
+    "n": 22,
+    "so_sentido": 60.6,
+    "w0.5": 59.1,
+    "w1": 60.6,
+    "w2": 59.1
+   },
+   "Industrialização, economia e globalização": {
+    "n": 34,
+    "so_sentido": 62.7,
+    "w0.5": 58.8,
+    "w1": 56.9,
+    "w2": 51.0
+   },
+   "População e migrações": {
+    "n": 15,
+    "so_sentido": 86.7,
+    "w0.5": 84.4,
+    "w1": 84.4,
+    "w2": 77.8
+   },
+   "Questão ambiental e recursos": {
+    "n": 42,
+    "so_sentido": 78.6,
+    "w0.5": 67.5,
+    "w1": 54.8,
+    "w2": 50.0
+   },
+   "Geografia física e dinâmica natural": {
+    "n": 21,
+    "so_sentido": 71.4,
+    "w0.5": 65.1,
+    "w1": 58.7,
+    "w2": 44.4
+   },
+   "Cartografia e representação do espaço": {
+    "n": 5,
+    "so_sentido": 53.3,
+    "w0.5": 46.7,
+    "w1": 46.7,
+    "w2": 53.3
+   }
+  }
+ }
+}

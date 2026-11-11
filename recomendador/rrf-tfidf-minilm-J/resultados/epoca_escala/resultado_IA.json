@@ -1,0 +1,67 @@
+{
+ "História": {
+  "atual": {
+   "pares": 24,
+   "media": 6.08,
+   "media_1a": 7.12,
+   "pct_7mais": 42,
+   "pct_menos5": 17
+  },
+  "novo": {
+   "pares": 24,
+   "media": 6.17,
+   "media_1a": 6.5,
+   "pct_7mais": 42,
+   "pct_menos5": 12
+  },
+  "comparacao": {
+   "refs": 8,
+   "melhor": 2,
+   "igual": 5,
+   "pior": 1,
+   "dif": 0.08,
+   "ic95": [
+    -0.08,
+    0.29
+   ]
+  },
+  "trocas": {
+   "n": 4,
+   "entraram": 5.25,
+   "sairam": 4.75
+  }
+ },
+ "Geografia": {
+  "atual": {
+   "pares": 36,
+   "media": 6.44,
+   "media_1a": 7.42,
+   "pct_7mais": 61,
+   "pct_menos5": 17
+  },
+  "novo": {
+   "pares": 36,
+   "media": 6.31,
+   "media_1a": 6.75,
+   "pct_7mais": 56,
+   "pct_menos5": 19
+  },
+  "comparacao": {
+   "refs": 12,
+   "melhor": 0,
+   "igual": 8,
+   "pior": 4,
+   "dif": -0.14,
+   "ic95": [
+    -0.28,
+    -0.03
+   ]
+  },
+  "trocas": {
+   "n": 5,
+   "entraram": 5.6,
+   "sairam": 6.6
+  }
+ },
+ "iscas_media": 5.08
+}
