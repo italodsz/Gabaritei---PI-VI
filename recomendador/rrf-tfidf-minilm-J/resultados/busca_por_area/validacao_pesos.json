@@ -2,6 +2,9 @@
  "Artes": {
   "n": 27,
   "atual": 33.3,
+  "qwen+resposta 0.5": 4.9,
+  "qwen+resposta 1": -1.2,
+  "qwen+resposta 2": -1.2,
   "rrf 1:2": 2.5,
   "rrf 1:4": 7.4,
   "só qwen": 7.4,
@@ -16,6 +19,9 @@
  "Biologia": {
   "n": 183,
   "atual": 62.8,
+  "qwen+resposta 0.5": 3.1,
+  "qwen+resposta 1": 0.9,
+  "qwen+resposta 2": -4.7,
   "rrf 1:2": 2.9,
   "rrf 1:4": 4.2,
   "só qwen": 5.5,
@@ -30,6 +36,9 @@
  "Educação Física": {
   "n": 47,
   "atual": 53.9,
+  "qwen+resposta 0.5": -5.0,
+  "qwen+resposta 1": -9.9,
+  "qwen+resposta 2": -14.9,
   "rrf 1:2": 0.7,
   "rrf 1:4": 0.0,
   "só qwen": 2.1,
@@ -44,6 +53,9 @@
  "Filosofia": {
   "n": 99,
   "atual": 67.0,
+  "qwen+resposta 0.5": 0.0,
+  "qwen+resposta 1": -4.7,
+  "qwen+resposta 2": -13.1,
   "rrf 1:2": 1.3,
   "rrf 1:4": 3.7,
   "só qwen": 5.4,
@@ -58,6 +70,9 @@
  "Física": {
   "n": 109,
   "atual": 61.5,
+  "qwen+resposta 0.5": 3.4,
+  "qwen+resposta 1": 0.9,
+  "qwen+resposta 2": -4.9,
   "rrf 1:2": 4.0,
   "rrf 1:4": 4.3,
   "só qwen": 2.4,
@@ -72,6 +87,9 @@
  "Geografia": {
   "n": 187,
   "atual": 62.9,
+  "qwen+resposta 0.5": 4.3,
+  "qwen+resposta 1": -0.5,
+  "qwen+resposta 2": -5.0,
   "rrf 1:2": 2.7,
   "rrf 1:4": 6.1,
   "só qwen": 5.7,
@@ -86,6 +104,9 @@
  "História": {
   "n": 211,
   "atual": 46.9,
+  "qwen+resposta 0.5": 1.1,
+  "qwen+resposta 1": -3.3,
+  "qwen+resposta 2": -11.4,
   "rrf 1:2": 2.4,
   "rrf 1:4": 1.7,
   "só qwen": 3.0,
@@ -100,6 +121,9 @@
  "Literatura": {
   "n": 127,
   "atual": 52.0,
+  "qwen+resposta 0.5": -6.8,
+  "qwen+resposta 1": -10.8,
+  "qwen+resposta 2": -18.1,
   "rrf 1:2": -1.6,
   "rrf 1:4": -4.2,
   "só qwen": -4.7,
@@ -114,6 +138,9 @@
  "Língua Portuguesa": {
   "n": 236,
   "atual": 66.2,
+  "qwen+resposta 0.5": 1.7,
+  "qwen+resposta 1": -1.3,
+  "qwen+resposta 2": -4.9,
   "rrf 1:2": 2.4,
   "rrf 1:4": 3.1,
   "só qwen": 4.5,
@@ -128,6 +155,9 @@
  "Língua estrangeira (inglês ou espanhol)": {
   "n": 85,
   "atual": 35.3,
+  "qwen+resposta 0.5": 8.2,
+  "qwen+resposta 1": 5.9,
+  "qwen+resposta 2": 2.7,
   "rrf 1:2": 0.4,
   "rrf 1:4": 3.5,
   "só qwen": 9.4,
@@ -142,6 +172,9 @@
  "Matemática": {
   "n": 285,
   "atual": 84.1,
+  "qwen+resposta 0.5": 2.8,
+  "qwen+resposta 1": 2.6,
+  "qwen+resposta 2": 2.2,
   "rrf 1:2": 1.1,
   "rrf 1:4": 2.1,
   "só qwen": 3.4,
@@ -156,6 +189,9 @@
  "Química": {
   "n": 113,
   "atual": 60.2,
+  "qwen+resposta 0.5": 5.0,
+  "qwen+resposta 1": 4.1,
+  "qwen+resposta 2": 0.6,
   "rrf 1:2": 3.5,
   "rrf 1:4": 4.1,
   "só qwen": 6.2,
@@ -170,6 +206,9 @@
  "Sociologia": {
   "n": 102,
   "atual": 63.7,
+  "qwen+resposta 0.5": -0.3,
+  "qwen+resposta 1": -5.9,
+  "qwen+resposta 2": -10.8,
   "rrf 1:2": 0.3,
   "rrf 1:4": 0.7,
   "só qwen": 0.3,
@@ -184,6 +223,9 @@
  "TODAS": {
   "n": 1864,
   "atual": 61.9,
+  "qwen+resposta 0.5": 1.7,
+  "qwen+resposta 1": -1.4,
+  "qwen+resposta 2": -6.0,
   "rrf 1:2": 1.7,
   "rrf 1:4": 2.6,
   "só qwen": 3.6,
@@ -198,6 +240,9 @@
  "Tecnologias da informação e comunicação": {
   "n": 53,
   "atual": 56.6,
+  "qwen+resposta 0.5": -6.3,
+  "qwen+resposta 1": -8.8,
+  "qwen+resposta 2": -14.5,
   "rrf 1:2": -2.5,
   "rrf 1:4": -1.3,
   "só qwen": -0.6,
