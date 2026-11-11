@@ -179,7 +179,7 @@ class Indice:
                 s[o] += 1 / (self.conf['rrf_k'] + np.arange(1, len(v) + 1))
         seen, out = set(), []
         ordem = np.argsort(-s, kind='stable')
-        if metodo == 'titulo_area' and a['materia'] in getattr(self, 'assunto_primeiro', ()):
+        if metodo == 'titulo_area' and a['materia'] in self._assunto_primeiro():
             # teste 11/11: mesmo assunto da árvore primeiro; o resto do título amplo completa a lista
             fora = np.array([self.rot[self.docs[j]['id']].get('no') != a['no'] for j in pool])
             ordem = np.lexsort((-s, fora))
@@ -196,6 +196,11 @@ class Indice:
                 seen.add(d['family']); out.append((d['id'], float(s[j])))
         return out
 
+
+    def _assunto_primeiro(self):
+        if hasattr(self, 'assunto_primeiro'):
+            return self.assunto_primeiro
+        return set(json.loads((ROOT / 'busca_por_area_v1.json').read_text(encoding='utf-8')).get('assunto_primeiro', []))
 
     def _ordem_por_area(self, qi, pool, tf, qw, materia):
         if not hasattr(self, 'sinais'):

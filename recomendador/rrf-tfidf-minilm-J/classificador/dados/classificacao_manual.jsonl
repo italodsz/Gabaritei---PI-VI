@@ -1057,7 +1057,7 @@
 {"id": "gq_fb7e18a2b2ed3b459be3eb45", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_c784caa08bf7b85aa20ea2fa", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
 {"id": "gq_1a997d4f6be32afb87462ab5", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": "corrigido na conferência da amostra (FS4.2)"}
-{"id": "gq_a5e6dfd245c260bb313c9853", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_a5e6dfd245c260bb313c9853", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_23f08c13463322047535c93a", "no": "FS2.temperatura-termometria-e-dilatacao", "grande_tema": "FS2", "assunto": "Temperatura, termometria e dilatação", "obs": ""}
 {"id": "gq_8ae71bcc7f2f0afa936b8b3c", "no": "BI2.heranca-e-leis-de-mendel", "grande_tema": "BI2", "assunto": "Herança e leis de Mendel", "obs": ""}
 {"id": "gq_87f9b63627255fce15f08f8a", "no": "BI4.impactos-ambientais-e-conservacao", "grande_tema": "BI4", "assunto": "Impactos ambientais e conservação", "obs": ""}
@@ -1156,7 +1156,7 @@
 {"id": "gq_b0e45cd0c1a74dcb4d3c6c22", "no": "QU5.combustiveis-e-biocombustiveis", "grande_tema": "QU5", "assunto": "Combustíveis e biocombustíveis", "obs": ""}
 {"id": "gq_859f03ba5dbad67c56cac393", "no": "FS1.dinamica-e-leis-de-newton", "grande_tema": "FS1", "assunto": "Dinâmica e leis de Newton", "obs": "pêndulo"}
 {"id": "gq_0c3133387b73bfd6f6d9ce68", "no": "FS2.termodinamica-e-maquinas-termicas", "grande_tema": "FS2", "assunto": "Termodinâmica e máquinas térmicas", "obs": ""}
-{"id": "gq_11db4bffb8f2c8928cacd54c", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_11db4bffb8f2c8928cacd54c", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_8284bd7e2d8de9818510d286", "no": "BI1.diferenciacao-celular-e-tecidos", "grande_tema": "BI1", "assunto": "Diferenciação celular e tecidos", "obs": ""}
 {"id": "gq_e6ec928af3bccf2f31f376c9", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
 {"id": "gq_f805e63ba35321622d31c028", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
@@ -1267,7 +1267,7 @@
 {"id": "gq_b0a6bf7925781340ba05d981", "no": "BI3.origem-da-vida-e-das-celulas", "grande_tema": "BI3", "assunto": "Origem da vida e das células", "obs": ""}
 {"id": "gq_b4464e3507982bf103592fda", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
 {"id": "gq_67ba6574b0ee8e8146b30b1c", "no": "FS4.circuitos-eletricos-e-consumo-de-energia", "grande_tema": "FS4", "assunto": "Circuitos elétricos e consumo de energia", "obs": ""}
-{"id": "gq_28aa72c11a9689f0f613c7d8", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_28aa72c11a9689f0f613c7d8", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_4f33418465e9530fc54d183c", "no": "QU2.propriedades-coligativas-e-osmose", "grande_tema": "QU2", "assunto": "Propriedades coligativas e osmose", "obs": ""}
 {"id": "gq_44b88937117be88dadd2fcc9", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
 {"id": "gq_9ea932dc3434f6c5fafa5646", "no": "BI4.cadeias-alimentares-e-fluxo-de-energia", "grande_tema": "BI4", "assunto": "Cadeias alimentares e fluxo de energia", "obs": ""}
@@ -1357,7 +1357,7 @@
 {"id": "gq_b1aa7aba0a7ac1540a76046a", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_c13077eda9243c73f722dd20", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": "duplicata de 13bb64be"}
 {"id": "gq_7aa17072b2effe6d2d2d1592", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
-{"id": "gq_ac75ef29197193cdaa03a271", "no": "FS3.ondas-eletromagneticas-e-espectro", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": ""}
+{"id": "gq_ac75ef29197193cdaa03a271", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_f30f20c4772b01cac22a146b", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": "duplicata parcial de 7aa17072 (só o comando)"}
 {"id": "gq_03056359760c5ae84cd34004", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
 {"id": "gq_8d5d3088e9e80bf625e8e563", "no": "BI5.circulacao-e-respiracao", "grande_tema": "BI5", "assunto": "Circulação e respiração", "obs": ""}
@@ -1385,7 +1385,7 @@
 {"id": "gq_74ddfd395eae9bcbee079ba9", "no": "FS5.geracao-de-energia-e-impactos", "grande_tema": "FS5", "assunto": "Geração de energia e impactos", "obs": ""}
 {"id": "gq_a776a6e309ced788967b79af", "no": "QU1.funcoes-inorganicas", "grande_tema": "QU1", "assunto": "Funções inorgânicas", "obs": ""}
 {"id": "gq_2012dde05736d1d5887c54f8", "no": "BI1.celula-e-organelas", "grande_tema": "BI1", "assunto": "Célula e organelas", "obs": ""}
-{"id": "gq_76be20d82057fec711f259c0", "no": "FS3.optica-geometrica-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": ""}
+{"id": "gq_76be20d82057fec711f259c0", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Óptica geométrica e visão", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_46b0636e6a4a955b38dc2da0", "no": "FS2.calorimetria-e-mudancas-de-estado", "grande_tema": "FS2", "assunto": "Calorimetria e mudanças de estado", "obs": ""}
 {"id": "gq_ffebaa962dd54ff21200bc10", "no": "QU3.eletroquimica", "grande_tema": "QU3", "assunto": "Eletroquímica", "obs": ""}
 {"id": "gq_6210f85ab2e7331747fd7b15", "no": "QU1.propriedades-da-materia-e-separacao-de-misturas", "grande_tema": "QU1", "assunto": "Propriedades da matéria e separação de misturas", "obs": ""}
