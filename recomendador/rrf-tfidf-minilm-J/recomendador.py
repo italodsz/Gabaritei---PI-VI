@@ -198,7 +198,7 @@ class Indice:
             import sinais
             self.sinais = sinais.Sinais(self)
             self.area_cfg = json.loads((ROOT / 'busca_por_area_v1.json').read_text(encoding='utf-8'))
-        c = self.area_cfg['por_materia'].get(materia, self.area_cfg['padrao'])
+        c = getattr(self, 'cfg_forcada', None) or self.area_cfg['por_materia'].get(materia, self.area_cfg['padrao'])
         K = self.conf['rrf_k']; s = np.zeros(len(pool))
         for v, w in ((tf, c['palavras']), (qw, c['sentido'])):
             if w:

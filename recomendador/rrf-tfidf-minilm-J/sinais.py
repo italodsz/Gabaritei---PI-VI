@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pipeline_baseline as bl
 
-PECAS = ('comando', 'nomes', 'formato', 'genero')
+PECAS = ('comando', 'nomes', 'formato', 'genero', 'resposta')
 _SUB = str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')
 
 
@@ -117,6 +117,14 @@ def genero(q):
     return ' '.join(n for n, rx in _GEN if re.search(rx, t))
 
 
+def resposta(q):
+    """Texto da alternativa correta (usa o gabarito: diz o conceito cobrado, ex. 'imperativo categórico')."""
+    for o in q.get('options') or []:
+        if o.get('label') == q.get('answer'):
+            return bl.clean(o.get('text') or '')
+    return ''
+
+
 class Sinais:
     """Matrizes de cada peça para todos os documentos do índice (ajustadas só no treino)."""
     def __init__(self, ix):
@@ -129,6 +137,7 @@ class Sinais:
             'comando': mat([comando(q) for q in qs], ngram_range=(1, 2), min_df=2, sublinear_tf=True, strip_accents='unicode'),
             'nomes': mat([nomes(q) for q in qs], min_df=2, max_df=0.05, sublinear_tf=True, token_pattern=r'\S+', lowercase=False),
             'genero': mat([genero(q) for q in qs], token_pattern=r'\S+'),
+            'resposta': mat([resposta(q) for q in qs], ngram_range=(1, 2), sublinear_tf=True, strip_accents='unicode'),
         }
         self.fmt = np.array([formato(q) for q in qs])
 

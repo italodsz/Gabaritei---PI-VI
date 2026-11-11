@@ -17,7 +17,7 @@ def top3(qi, wt, wq, pecas=(), wp=1.0, n=3):
         if v.any():
             o = np.lexsort((-b, -v)); s = s.copy(); s[o] += wp / (K + np.arange(1, len(v) + 1))
     return mesmo[np.argsort(-s, kind='stable')[:n]].mean()
-cfgs = {'rrf 1:1 (atual)': (1, 1), 'rrf 1:2': (1, 2), 'rrf 1:4': (1, 4), 'só qwen': (0, 1), 'só tfidf': (1, 0),
+cfgs = {'qwen+resposta 0.5': (0, 1, ('resposta',), .5), 'qwen+resposta 1': (0, 1, ('resposta',), 1), 'qwen+resposta 2': (0, 1, ('resposta',), 2), 'rrf 1:1 (atual)': (1, 1), 'rrf 1:2': (1, 2), 'rrf 1:4': (1, 4), 'só qwen': (0, 1), 'só tfidf': (1, 0),
         'qwen+comando 0.5': (0, 1, ('comando',), .5), 'qwen+nomes 0.5': (0, 1, ('nomes',), .5), 'qwen+nomes 1': (0, 1, ('nomes',), 1),
         'qwen+formato 0.5': (0, 1, ('formato',), .5), 'qwen+genero 0.5': (0, 1, ('genero',), .5), '1:2+nomes 1': (1, 2, ('nomes',), 1)}
 res = collections.defaultdict(lambda: collections.defaultdict(list))
