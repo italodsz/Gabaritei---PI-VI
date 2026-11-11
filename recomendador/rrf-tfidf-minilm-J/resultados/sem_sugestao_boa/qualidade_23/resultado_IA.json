@@ -1,0 +1,111 @@
+{
+ "media_top5": 6.48,
+ "primeira": 7.74,
+ "ge7": 56,
+ "abaixo5": 22,
+ "isca": 3.3,
+ "por_questao": {
+  "gq_0fd7a5d3fb61cb3ed9cab9db": [
+   "Química",
+   6.0
+  ],
+  "gq_1741507513810ca47a2e4fe4": [
+   "Química",
+   8.0
+  ],
+  "gq_911f7f7a8aca8533f60a497d": [
+   "Matemática",
+   7.4
+  ],
+  "gq_664bb153cf3dec2fe8508e82": [
+   "Matemática",
+   6.0
+  ],
+  "gq_b51898071deb6f81bc8218c3": [
+   "Química",
+   8.4
+  ],
+  "gq_c8d54b4671dd1fac44db29f7": [
+   "Matemática",
+   6.8
+  ],
+  "gq_495779507cce0a6b2cf5852a": [
+   "Matemática",
+   8.2
+  ],
+  "gq_cc5bcf4f585dcb69ecdb8deb": [
+   "Matemática",
+   6.0
+  ],
+  "gq_2d95d1bc5fcfa7364da555b3": [
+   "Química",
+   5.6
+  ],
+  "gq_5807ce85a0a8bcc838dfcb47": [
+   "Física",
+   6.4
+  ],
+  "gq_9b926cb85cdbd373a403fa18": [
+   "Matemática",
+   7.4
+  ],
+  "gq_d729403b0e500b7ef02bef0a": [
+   "Filosofia",
+   5.4
+  ],
+  "gq_1bf495a5eda4568d0ea676d2": [
+   "Língua Portuguesa",
+   6.8
+  ],
+  "gq_3328c1d9fc3b6e01d0c910d8": [
+   "Química",
+   4.4
+  ],
+  "gq_ae3f4012d9ee1b14fdf9b192": [
+   "Biologia",
+   4.4
+  ],
+  "gq_7de599403aa686620d28023a": [
+   "Literatura",
+   6.2
+  ],
+  "gq_c3ad5ec1f591615283e1dd4a": [
+   "Física",
+   7.8
+  ],
+  "gq_6a697545f71aa52dee715749": [
+   "Matemática",
+   7.4
+  ],
+  "gq_4d0565792bd6e34b936859df": [
+   "Física",
+   4.8
+  ],
+  "gq_c43c6eeeacd38163e603b4a6": [
+   "História",
+   5.8
+  ],
+  "gq_f062a01678195442e1966525": [
+   "Química",
+   6.0
+  ],
+  "gq_45d61e89cfd14d7ed685d8b4": [
+   "Matemática",
+   8.2
+  ],
+  "gq_1a3a6d4a138f7ba1fba29cef": [
+   "Literatura",
+   5.6
+  ]
+ },
+ "duplicatas_da_referencia_sugeridas": [
+  [
+   "Q12.1",
+   "gq_b5d827ac61f9e4d37ce96739"
+  ],
+  [
+   "Q13.6",
+   "gq_6813b543f8b69508659211c9"
+  ]
+ ]
+}
