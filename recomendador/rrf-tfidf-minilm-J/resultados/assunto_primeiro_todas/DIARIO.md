@@ -12,3 +12,4 @@
 - Química: avaliada.
 - Sociologia: avaliada.
 - TIC: avaliada. Todas as 13 matérias avaliadas; notas registradas antes da chave.
+- Chave aberta. Passaram no critério: Língua Portuguesa (+0,42; IC95 0,08 a 0,83) e Química (+0,35; IC95 0,03 a 0,78). Inconclusivas: História e TIC. As demais não passaram. Próximo passo: confirmar LP e Química com 12 referências novas cada, mesmo critério.
