@@ -1,0 +1,14 @@
+- Artes: avaliada (41 itens).
+- Biologia: avaliada.
+- Educação Física: avaliada.
+- Filosofia: avaliada.
+- Geografia: avaliada.
+- História: avaliada.
+- Literatura: avaliada.
+- Língua Portuguesa: avaliada.
+- Correção técnica (antes de abrir a chave): os códigos de Língua estrangeira colidiam com os de Literatura (os dois usavam 'L'); os de Língua estrangeira foram renomeados para 'LE'. Só o prefixo do código mudou.
+- Língua estrangeira: avaliada.
+- Matemática: avaliada (só 4 blocos tinham itens diferentes).
+- Química: avaliada.
+- Sociologia: avaliada.
+- TIC: avaliada. Todas as 13 matérias avaliadas; notas registradas antes da chave.
