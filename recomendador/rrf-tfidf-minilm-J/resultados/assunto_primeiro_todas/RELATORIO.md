@@ -81,3 +81,18 @@ O "assunto primeiro" muda essa ordem: as questões do **mesmo assunto da árvore
 - `notas_IA.txt` e `notas_IA_confirmacao.txt` (com sha256)
 - `chave_*.json`
 - `resultado_IA.json`, `resultado_confirmacao.json`
+
+## Atualização: teste largo em Língua Portuguesa e Química (11/11/2026)
+
+**Como foi feito:** 30 referências novas por matéria, com o mesmo procedimento e o mesmo critério, fixados antes das notas (`PROTOCOLO.md`). As notas estão em `notas_IA_largo.txt` (sha256) e o resultado em `resultado_largo.json`.
+
+| Matéria | Teste largo (30 referências) | Melhor / pior / igual | Todas as 54 referências | Decisão |
+|---|---|---|---|---|
+| Língua Portuguesa | +0,03 (IC95 −0,17 a 0,24) | 7 / 7 / 16 | +0,14 (−0,01 a 0,30) | ❌ não liga |
+| Química | +0,04 (IC95 −0,17 a 0,26) | 10 / 8 / 12 | +0,10 (−0,07 a 0,28) | ❌ não liga |
+
+**Por título, no teste largo:** nenhum título teve ganho consistente.
+- LP: "Língua, história e identidade" ficou em +0,70, mas com só 2 referências. Os outros títulos ficaram entre −0,16 e +0,11.
+- Química: todos os títulos ficaram entre −0,04 e +0,08.
+
+**Conclusão:** o ganho da primeira rodada (+0,42 em LP e +0,35 em Química) veio do acaso das 12 referências sorteadas. Com uma amostra maior, o efeito real fica perto de zero nas duas matérias. O "assunto primeiro" continua ligado **só na Física**.
