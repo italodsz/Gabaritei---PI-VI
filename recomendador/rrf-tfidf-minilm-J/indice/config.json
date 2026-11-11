@@ -1,6 +1,6 @@
 {
   "versao": "italo-rrf-v1 (base de trabalho pós etapas 1-3)",
-  "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "base_sha256": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760",
   "elegiveis": {
     "train": 1801,
     "validation": 136,
@@ -18,7 +18,7 @@
     "strip_accents": "unicode",
     "token_pattern": "(?u)\\b\\w+\\b"
   },
-  "tfidf_vocabulario": 45176,
+  "tfidf_vocabulario": 45595,
   "minilm": {
     "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
     "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
@@ -29,8 +29,55 @@
   },
   "minilm_origem": "reaproveitado da v2.1-rc1",
   "minilm_vetores_desatualizados": [
-    "gq_14561aefce51ecddf26b4262"
+    "gq_0fd7a5d3fb61cb3ed9cab9db",
+    "gq_14561aefce51ecddf26b4262",
+    "gq_1741507513810ca47a2e4fe4",
+    "gq_1bf495a5eda4568d0ea676d2",
+    "gq_2d95d1bc5fcfa7364da555b3",
+    "gq_3328c1d9fc3b6e01d0c910d8",
+    "gq_45d61e89cfd14d7ed685d8b4",
+    "gq_495779507cce0a6b2cf5852a",
+    "gq_4d0565792bd6e34b936859df",
+    "gq_5807ce85a0a8bcc838dfcb47",
+    "gq_664bb153cf3dec2fe8508e82",
+    "gq_6a697545f71aa52dee715749",
+    "gq_7de599403aa686620d28023a",
+    "gq_911f7f7a8aca8533f60a497d",
+    "gq_9b926cb85cdbd373a403fa18",
+    "gq_ae3f4012d9ee1b14fdf9b192",
+    "gq_b51898071deb6f81bc8218c3",
+    "gq_c3ad5ec1f591615283e1dd4a",
+    "gq_c43c6eeeacd38163e603b4a6",
+    "gq_c8d54b4671dd1fac44db29f7",
+    "gq_cc5bcf4f585dcb69ecdb8deb",
+    "gq_d729403b0e500b7ef02bef0a",
+    "gq_f062a01678195442e1966525"
   ],
   "rrf_k": 60,
-  "fine_tuning_neural": false
+  "fine_tuning_neural": false,
+  "qwen_vetores_desatualizados": [
+    "gq_664bb153cf3dec2fe8508e82",
+    "gq_0fd7a5d3fb61cb3ed9cab9db",
+    "gq_1741507513810ca47a2e4fe4",
+    "gq_911f7f7a8aca8533f60a497d",
+    "gq_b51898071deb6f81bc8218c3",
+    "gq_c8d54b4671dd1fac44db29f7",
+    "gq_495779507cce0a6b2cf5852a",
+    "gq_cc5bcf4f585dcb69ecdb8deb",
+    "gq_2d95d1bc5fcfa7364da555b3",
+    "gq_5807ce85a0a8bcc838dfcb47",
+    "gq_9b926cb85cdbd373a403fa18",
+    "gq_d729403b0e500b7ef02bef0a",
+    "gq_3328c1d9fc3b6e01d0c910d8",
+    "gq_ae3f4012d9ee1b14fdf9b192",
+    "gq_1bf495a5eda4568d0ea676d2",
+    "gq_4d0565792bd6e34b936859df",
+    "gq_c3ad5ec1f591615283e1dd4a",
+    "gq_7de599403aa686620d28023a",
+    "gq_6a697545f71aa52dee715749",
+    "gq_c43c6eeeacd38163e603b4a6",
+    "gq_f062a01678195442e1966525",
+    "gq_45d61e89cfd14d7ed685d8b4"
+  ],
+  "textos_corrigidos_em": "2026-11-11"
 }

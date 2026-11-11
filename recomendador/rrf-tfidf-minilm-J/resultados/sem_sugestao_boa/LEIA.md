@@ -23,3 +23,11 @@ não amostra aleatória.
 - 1 não é defeito: `gq_1a3a6d4a138f7ba1fba29cef` (ENEM 2009, caderno de Humanas, trecho de Lúcio Cardoso) foi
   classificada como Literatura › Modernismo. Como a busca exige a mesma área, ela não encontra nenhuma outra
   questão de Literatura em Humanas. É a "Literatura em Humanas" da contagem por matéria.
+
+## Correções aplicadas (11/11/2026)
+
+- **Textos:** o enunciado oficial do INEP (caderno azul) foi aplicado às 22 questões que estavam truncadas, em `base/questions.jsonl`. O texto antigo foi guardado em `question_truncada_original` e a fonte em `correcao_texto`. As alternativas da base foram mantidas, porque o gabarito depende da ordem delas, com duas exceções: na `gq_c43c6eee` foi retirado um "A " que sobrava no início da alternativa A, e na `gq_6a697545` as alternativas viraram I a V.
+- **Classificação:** as 22 foram classificadas na árvore (`classificacao_manual.jsonl`). A `gq_d729403b` (Kelsen/Bobbio) é duplicata da `gq_b5d827ac` e foi marcada como tal. Nela, as alternativas da base são de outra questão.
+- **Área:** a `gq_1a3a6d4a` (Lúcio Cardoso, Literatura) estava na área CH e foi movida para LC (`area_original` guarda o valor antigo).
+- **Índice:** o TF-IDF foi refeito com `atualizar_textos.py`. Os vetores Qwen e MiniLM dessas 22 questões ainda são os do texto truncado e estão listados em `indice/config.json` → `qwen_vetores_desatualizados`. Para atualizá-los, rode `python atualizar_qwen_parcial.py` no computador que tem o modelo Qwen e depois atualize `QWEN_SHA256`.
+- **Resultado:** o catálogo foi regenerado. As 23 questões agora têm sugestões (de 12 a 50 cada), e nenhuma questão da base fica mais com a lista vazia.
