@@ -1,0 +1,176 @@
+{
+ "todas": {
+  "titulo": {
+   "pares": 60,
+   "media": 6.48,
+   "media_1a": 7.47,
+   "pct_7mais": 50,
+   "pct_menos5": 18,
+   "refs_com_7mais": 18,
+   "refs": 20
+  },
+  "titulo_area": {
+   "pares": 60,
+   "media": 6.9,
+   "media_1a": 7.92,
+   "pct_7mais": 63,
+   "pct_menos5": 15,
+   "refs_com_7mais": 19,
+   "refs": 20
+  }
+ },
+ "refs_av6": {
+  "titulo": {
+   "pares": 24,
+   "media": 7.04,
+   "media_1a": 8.06,
+   "pct_7mais": 58,
+   "pct_menos5": 8,
+   "refs_com_7mais": 8,
+   "refs": 8
+  },
+  "titulo_area": {
+   "pares": 24,
+   "media": 7.21,
+   "media_1a": 8.06,
+   "pct_7mais": 67,
+   "pct_menos5": 8,
+   "refs_com_7mais": 8,
+   "refs": 8
+  }
+ },
+ "refs_novas": {
+  "titulo": {
+   "pares": 36,
+   "media": 6.11,
+   "media_1a": 7.08,
+   "pct_7mais": 44,
+   "pct_menos5": 25,
+   "refs_com_7mais": 10,
+   "refs": 12
+  },
+  "titulo_area": {
+   "pares": 36,
+   "media": 6.69,
+   "media_1a": 7.83,
+   "pct_7mais": 61,
+   "pct_menos5": 19,
+   "refs_com_7mais": 11,
+   "refs": 12
+  }
+ },
+ "MT": {
+  "titulo": {
+   "pares": 15,
+   "media": 6.33,
+   "media_1a": 8.2,
+   "pct_7mais": 33,
+   "pct_menos5": 20,
+   "refs_com_7mais": 4,
+   "refs": 5
+  },
+  "titulo_area": {
+   "pares": 15,
+   "media": 7.53,
+   "media_1a": 8.8,
+   "pct_7mais": 67,
+   "pct_menos5": 7,
+   "refs_com_7mais": 5,
+   "refs": 5
+  }
+ },
+ "CN": {
+  "titulo": {
+   "pares": 15,
+   "media": 6.1,
+   "media_1a": 7.2,
+   "pct_7mais": 47,
+   "pct_menos5": 27,
+   "refs_com_7mais": 5,
+   "refs": 5
+  },
+  "titulo_area": {
+   "pares": 15,
+   "media": 6.13,
+   "media_1a": 7.8,
+   "pct_7mais": 47,
+   "pct_menos5": 27,
+   "refs_com_7mais": 5,
+   "refs": 5
+  }
+ },
+ "CH": {
+  "titulo": {
+   "pares": 15,
+   "media": 7.03,
+   "media_1a": 7.2,
+   "pct_7mais": 60,
+   "pct_menos5": 7,
+   "refs_com_7mais": 5,
+   "refs": 5
+  },
+  "titulo_area": {
+   "pares": 15,
+   "media": 7.43,
+   "media_1a": 8,
+   "pct_7mais": 73,
+   "pct_menos5": 7,
+   "refs_com_7mais": 5,
+   "refs": 5
+  }
+ },
+ "LC": {
+  "titulo": {
+   "pares": 15,
+   "media": 6.47,
+   "media_1a": 7.3,
+   "pct_7mais": 60,
+   "pct_menos5": 20,
+   "refs_com_7mais": 4,
+   "refs": 5
+  },
+  "titulo_area": {
+   "pares": 15,
+   "media": 6.5,
+   "media_1a": 7.1,
+   "pct_7mais": 67,
+   "pct_menos5": 20,
+   "refs_com_7mais": 4,
+   "refs": 5
+  }
+ },
+ "por_ref": {
+  "melhor": 12,
+  "igual": 6,
+  "pior": 2,
+  "diferencas": {
+   "1": 0.0,
+   "2": 1.67,
+   "3": 0.0,
+   "4": -0.17,
+   "5": 0.67,
+   "6": 0.0,
+   "7": -1.0,
+   "8": 0.17,
+   "9": 0.33,
+   "10": 2,
+   "11": 2.0,
+   "12": 0,
+   "13": 0.33,
+   "14": 0.0,
+   "15": 0.33,
+   "16": 0.33,
+   "17": 0.67,
+   "18": 0,
+   "19": 0.67,
+   "20": 0.33
+  }
+ },
+ "trocas": {
+  "entraram": 6.79,
+  "sairam": 5.75,
+  "n": 24
+ },
+ "iscas_media": 5.3,
+ "aviso": "Notas da IA (autora do método), às cegas quanto ao método (novas misturadas com iscas). Referência anterior, sem filtro (rrf_qwen): média 6,21; 1ª posição 6,58."
+}

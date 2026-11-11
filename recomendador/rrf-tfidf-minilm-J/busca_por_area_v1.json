@@ -1,0 +1,9 @@
+{
+ "descricao": "Ordem dentro do título, por matéria (modo titulo_area). Escolhida em 11/11/2026 só com treino e validação (resultados/busca_por_area/). palavras = peso do TF-IDF, sentido = peso do Qwen, pecas = bônus de sinais.py.",
+ "padrao": {"palavras": 0, "sentido": 1, "pecas": {}},
+ "por_materia": {
+  "Literatura": {"palavras": 1, "sentido": 1, "pecas": {"nomes": 2}},
+  "Filosofia": {"palavras": 0, "sentido": 1, "pecas": {"nomes": 1}},
+  "Tecnologias da informação e comunicação": {"palavras": 1, "sentido": 1, "pecas": {}}
+ }
+}
