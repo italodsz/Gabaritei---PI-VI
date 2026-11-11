@@ -12,3 +12,9 @@
 - **Limite:** a classificação das matérias não foi conferida à mão antes do teste, como foi feito na Física.
 
 **Ajuste feito antes de qualquer nota:** a avaliação cobre só os itens que diferem entre as duas listas, mais a isca. Os itens comuns entram com o mesmo valor nas duas médias e se anulam. Por isso, a diferença por referência é calculada como (soma das notas só do novo − soma das notas só do atual) / 5, que dá exatamente o mesmo resultado. As médias absolutas não entram no relatório.
+
+## Teste largo de LP e Química (fixado antes das notas, 11/11/2026, 15:33)
+
+- **Referências:** 30 novas por matéria, sorteadas com a semente `gabaritei-ap-largo-2026-11-11`. Nenhuma das referências das rodadas anteriores entra.
+- **Procedimento:** o mesmo das rodadas anteriores. Só os itens que diferem entre as duas listas são avaliados, mais 1 isca por bloco. Avaliação às cegas, régua 2, notas registradas com sha256 antes de abrir a chave.
+- **Critério de decisão:** o mesmo de antes, aplicado às 30 referências novas. O método é ligado se a diferença média for de pelo menos +0,3 e o limite inferior do IC95 for maior que 0. O resultado somando todas as 54 referências entra no relatório só como informação.
