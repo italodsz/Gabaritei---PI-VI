@@ -8,21 +8,25 @@
   "rrf_qwen": "oficial de 06/11 a 11/11: mesma área, sem filtro de título, RRF TF-IDF + Qwen"
  },
  "galeria": "base elegível inteira",
- "pares": 56,
- "selecao": "nunca citadas em resultados/ nem nos pares de desenvolvimento (nem a família); teste primeiro, validação se faltar; 3 por área, matérias distintas na área quando possível (senão títulos distintos), ordem por sha256(semente+id)",
+ "pares": 62,
+ "selecao": "nunca citadas em resultados/ nem nos pares de desenvolvimento (nem a família); por área, as 3 matérias com mais questões (Matemática: 3 títulos distintos); dentro da matéria, teste antes de validação, ordem por sha256(semente+id); só referências em que os dois métodos diferem em pelo menos uma das 3 primeiras; se a matéria não tiver referência livre, passa para a próxima matéria; se ainda faltar, repete matéria com título diferente",
+ "materias_sem_referencia_livre": [
+  "Biologia",
+  "Biologia"
+ ],
  "origem_referencias": {
-  "gq_4348e157bc8fe3cbb16f21b6": "test",
   "gq_f7606ea21c774debe4cc0faf": "test",
   "gq_661b0e96f5996e4a09bae720": "test",
+  "gq_95fef056babae892b6c89401": "test",
   "gq_292f28dead645148d796798c": "validation",
   "gq_cbc37301210949f56ff47490": "validation",
   "gq_24b1a2d74e302a040a978f0f": "validation",
-  "gq_f6adcd80c9fb1a9aedd942da": "test",
-  "gq_5fd9ae64d39af66bdb783ffc": "test",
   "gq_ae75e5ed178b1437c8e7131a": "validation",
-  "gq_47d21885570620bb451ef068": "test",
-  "gq_771efc13e2462e3c0bd0c649": "test",
-  "gq_9487705694692cec75a8d194": "test"
+  "gq_83bd5c51ffa6d46ac90b8aaa": "validation",
+  "gq_5fd9ae64d39af66bdb783ffc": "test",
+  "gq_096992c648ba4e321a7990cc": "test",
+  "gq_171d5bf39da346e85e70fed1": "test",
+  "gq_4f7461bfa8d724c8268f7268": "test"
  },
  "exibicao": "o título aparece só na referência (nas sugestões entregaria o método); ordem das sugestões aleatória",
  "escala": "nota de 0 a 10: quão boa é a sugestão como próxima questão de estudo para quem acabou de fazer a referência",
@@ -37,17 +41,18 @@
  },
  "avaliador_requerido": "Ítalo (ou Teles), sem consultar IA nem a chave",
  "referencias": [
-  "gq_4348e157bc8fe3cbb16f21b6",
   "gq_f7606ea21c774debe4cc0faf",
   "gq_661b0e96f5996e4a09bae720",
+  "gq_95fef056babae892b6c89401",
   "gq_292f28dead645148d796798c",
   "gq_cbc37301210949f56ff47490",
   "gq_24b1a2d74e302a040a978f0f",
-  "gq_f6adcd80c9fb1a9aedd942da",
-  "gq_5fd9ae64d39af66bdb783ffc",
   "gq_ae75e5ed178b1437c8e7131a",
-  "gq_47d21885570620bb451ef068",
-  "gq_771efc13e2462e3c0bd0c649",
-  "gq_9487705694692cec75a8d194"
- ]
+  "gq_83bd5c51ffa6d46ac90b8aaa",
+  "gq_5fd9ae64d39af66bdb783ffc",
+  "gq_096992c648ba4e321a7990cc",
+  "gq_171d5bf39da346e85e70fed1",
+  "gq_4f7461bfa8d724c8268f7268"
+ ],
+ "notas_IA_previas": "notas_IA_previas.txt, dadas antes das notas humanas e sem abrir a chave; sha256 em notas_IA_previas.sha256"
 }

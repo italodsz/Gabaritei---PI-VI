@@ -14,15 +14,28 @@ usados = set(re.findall(r'gq_[0-9a-f]{24}', txt)); fam = {rows[i]['content_famil
 el = json.loads((REC / 'base/ids_elegiveis.json').read_text())
 ok = lambda i: i not in usados and rows[i]['content_family_id'] not in fam and rot[i]['no'] and not rot[i]['duplicata'] and not rot[i]['defeito']
 h = lambda i: hashlib.sha256((SEED + i).encode()).hexdigest()
-refs, origem = [], {}
+refs, origem, puladas = [], {}, []
+todos = el['train'] + el['validation'] + el['test']
+def discrimina(i):  # os dois métodos precisam diferir em pelo menos uma das 3 primeiras
+    a = [x for x, _ in ix.ranking(i, 'titulo_area', 'todas')[:3]]
+    b = [x for x, _ in ix.ranking(i, 'rrf_qwen', 'todas')[:3]]
+    return len(a) == 3 and set(a) != set(b)
 for area in ('MT', 'CN', 'CH', 'LC'):
+    cont = {}
+    for i in todos:
+        if rows[i]['area'] == area and rot[i].get('materia'): cont[rot[i]['materia']] = cont.get(rot[i]['materia'], 0) + 1
+    mats = sorted(cont, key=lambda m: -cont[m])
     esc = []
-    for distinta in ('materia', 'titulo'):
+    alvo = mats[:3] if len(mats) >= 3 else mats * 3
+    for m in alvo + mats[3:] + mats:
+        if len(esc) == 3: break
+        achou = False
         for sp in ('test', 'validation'):
-            cand = sorted([i for i in el[sp] if rows[i]['area'] == area and ok(i)], key=h)
-            for i in cand:
-                if len(esc) < 3 and i not in esc and rot[i][distinta] not in {rot[j][distinta] for j in esc} and ix.ranking(i, 'titulo_area', 'todas')[:3]:
-                    esc.append(i); origem[i] = sp
+            for i in sorted([i for i in el[sp] if rows[i]['area'] == area and rot[i]['materia'] == m and ok(i)], key=h):
+                if i in esc or rot[i]['titulo'] in {rot[j]['titulo'] for j in esc}: continue
+                if discrimina(i): esc.append(i); origem[i] = sp; achou = True; break
+            if achou: break
+        if not achou: puladas.append(m)
     refs += esc
 rng = random.Random(SEED); blocos, chave = [], []
 for bi, q in enumerate(refs, 1):
@@ -39,7 +52,7 @@ proto = {'protocolo': 'avaliacao_cega_7_titulo_area_x_rrf_qwen', 'data': '2026-1
  'metodos': {'titulo_area': 'oficial desde 11/11: mesma matéria e título, ordem por matéria (busca_por_area_v1.json)',
              'rrf_qwen': 'oficial de 06/11 a 11/11: mesma área, sem filtro de título, RRF TF-IDF + Qwen'},
  'galeria': 'base elegível inteira', 'pares': len(chave),
- 'selecao': 'nunca citadas em resultados/ nem nos pares de desenvolvimento (nem a família); teste primeiro, validação se faltar; 3 por área, matérias distintas na área quando possível (senão títulos distintos), ordem por sha256(semente+id)',
+ 'selecao': 'nunca citadas em resultados/ nem nos pares de desenvolvimento (nem a família); por área, as 3 matérias com mais questões (Matemática: 3 títulos distintos); dentro da matéria, teste antes de validação, ordem por sha256(semente+id); só referências em que os dois métodos diferem em pelo menos uma das 3 primeiras; se a matéria não tiver referência livre, passa para a próxima matéria; se ainda faltar, repete matéria com título diferente', 'materias_sem_referencia_livre': puladas,
  'origem_referencias': origem,
  'exibicao': 'o título aparece só na referência (nas sugestões entregaria o método); ordem das sugestões aleatória',
  'escala': 'nota de 0 a 10: quão boa é a sugestão como próxima questão de estudo para quem acabou de fazer a referência',
@@ -56,5 +69,5 @@ def q_(i):
         'opcoes': [[o['label'], o.get('text') or ''] for o in sorted(r['options'], key=lambda o: o['label'])], 'gabarito': r['answer']}
 json.dump([{'bloco': x['bloco'], 'titulo': f"{rot[x['referencia']]['materia']} › {rot[x['referencia']]['titulo']}", 'ref': q_(x['referencia']),
             'sug': [q_(i) for i in x['sugestoes']]} for x in blocos], open('conteudo.json', 'w'), ensure_ascii=False)
-print('refs', len(refs), origem.values().__repr__(), 'sugestões', len(chave), [len(x['sugestoes']) for x in blocos])
+print('puladas', puladas); print('refs', len(refs), origem.values().__repr__(), 'sugestões', len(chave), [len(x['sugestoes']) for x in blocos])
 print([f"{rows[q]['area']} {rot[q]['materia']} › {rot[q]['titulo']}" for q in refs])
