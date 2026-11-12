@@ -1,0 +1,17 @@
+- Artes: avaliada (41 itens).
+- Biologia: avaliada.
+- Educação Física: avaliada.
+- Filosofia: avaliada.
+- Geografia: avaliada.
+- História: avaliada.
+- Literatura: avaliada.
+- Língua Portuguesa: avaliada.
+- Correção técnica (antes de abrir a chave): os códigos de Língua estrangeira colidiam com os de Literatura (os dois usavam 'L'); os de Língua estrangeira foram renomeados para 'LE'. Só o prefixo do código mudou.
+- Língua estrangeira: avaliada.
+- Matemática: avaliada (só 4 blocos tinham itens diferentes).
+- Química: avaliada.
+- Sociologia: avaliada.
+- TIC: avaliada. Todas as 13 matérias avaliadas; notas registradas antes da chave.
+- Chave aberta. Passaram no critério: Língua Portuguesa (+0,42; IC95 0,08 a 0,83) e Química (+0,35; IC95 0,03 a 0,78). Inconclusivas: História e TIC. As demais não passaram. Próximo passo: confirmar LP e Química com 12 referências novas cada, mesmo critério.
+- Confirmação (12 referências novas por matéria): LP +0,13 (IC95 −0,05 a 0,40); Química +0,02 (IC95 −0,33 a 0,35). Pelo mesmo critério da rodada 1, nenhuma das duas se confirma, então o método **não foi ligado** em LP nem em Química. Somando as 24 referências: LP +0,28; Química +0,19.
+- Teste largo (30 referências novas por matéria): LP +0,03 (IC95 −0,17 a 0,24); Química +0,04 (IC95 −0,17 a 0,26). Somando todas as 54 referências: LP +0,14 (−0,01 a 0,30); Química +0,10 (−0,07 a 0,28). Nenhuma das duas liga. O ganho da primeira rodada foi acaso das 12 referências sorteadas.

@@ -1,0 +1,138 @@
+{
+ "todas": {
+  "titulo_area": {
+   "pares": 150,
+   "media": 6.6,
+   "media_1a": 7.38,
+   "pct_7mais": 52,
+   "pct_menos5": 11
+  },
+  "t1": {
+   "pares": 150,
+   "media": 6.59,
+   "media_1a": 7.26,
+   "pct_7mais": 54,
+   "pct_menos5": 17
+  },
+  "t2": {
+   "pares": 150,
+   "media": 6.55,
+   "media_1a": 7.46,
+   "pct_7mais": 51,
+   "pct_menos5": 13
+  }
+ },
+ "MT": {
+  "titulo_area": {
+   "pares": 39,
+   "media": 7.36,
+   "media_1a": 7.69,
+   "pct_7mais": 72,
+   "pct_menos5": 0
+  },
+  "t1": {
+   "pares": 39,
+   "media": 7.33,
+   "media_1a": 7.69,
+   "pct_7mais": 74,
+   "pct_menos5": 3
+  },
+  "t2": {
+   "pares": 39,
+   "media": 7.36,
+   "media_1a": 7.77,
+   "pct_7mais": 72,
+   "pct_menos5": 0
+  }
+ },
+ "CN": {
+  "titulo_area": {
+   "pares": 36,
+   "media": 6,
+   "media_1a": 7.42,
+   "pct_7mais": 42,
+   "pct_menos5": 25
+  },
+  "t1": {
+   "pares": 36,
+   "media": 6.08,
+   "media_1a": 7.33,
+   "pct_7mais": 42,
+   "pct_menos5": 22
+  },
+  "t2": {
+   "pares": 36,
+   "media": 5.92,
+   "media_1a": 7.25,
+   "pct_7mais": 42,
+   "pct_menos5": 28
+  }
+ },
+ "CH": {
+  "titulo_area": {
+   "pares": 39,
+   "media": 6.28,
+   "media_1a": 7.15,
+   "pct_7mais": 46,
+   "pct_menos5": 13
+  },
+  "t1": {
+   "pares": 39,
+   "media": 6,
+   "media_1a": 6.69,
+   "pct_7mais": 38,
+   "pct_menos5": 28
+  },
+  "t2": {
+   "pares": 39,
+   "media": 6.15,
+   "media_1a": 7.15,
+   "pct_7mais": 44,
+   "pct_menos5": 18
+  }
+ },
+ "LC": {
+  "titulo_area": {
+   "pares": 36,
+   "media": 6.72,
+   "media_1a": 7.25,
+   "pct_7mais": 47,
+   "pct_menos5": 6
+  },
+  "t1": {
+   "pares": 36,
+   "media": 6.92,
+   "media_1a": 7.33,
+   "pct_7mais": 61,
+   "pct_menos5": 14
+  },
+  "t2": {
+   "pares": 36,
+   "media": 6.72,
+   "media_1a": 7.67,
+   "pct_7mais": 47,
+   "pct_menos5": 8
+  }
+ },
+ "t1_vs_titulo_area": {
+  "melhor": 13,
+  "igual": 30,
+  "pior": 7,
+  "dif": -0.01,
+  "ic95": [
+   -0.24,
+   0.19
+  ]
+ },
+ "t2_vs_titulo_area": {
+  "melhor": 3,
+  "igual": 40,
+  "pior": 7,
+  "dif": -0.05,
+  "ic95": [
+   -0.13,
+   0.01
+  ]
+ },
+ "iscas_media": 5.21
+}

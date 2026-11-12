@@ -1,0 +1,73 @@
+{
+ "todas": {
+  "sem_filtro": {
+   "pares": 60,
+   "media": 6.21,
+   "media_1a": 6.58,
+   "pct_7mais": 47,
+   "pct_menos5": 17,
+   "refs_com_7mais": 16,
+   "refs": 20
+  },
+  "titulo": {
+   "pares": 60,
+   "media": 6.48,
+   "media_1a": 7.47,
+   "pct_7mais": 50,
+   "pct_menos5": 18,
+   "refs_com_7mais": 18,
+   "refs": 20
+  }
+ },
+ "refs_av6": {
+  "sem_filtro": {
+   "pares": 24,
+   "media": 6.6,
+   "media_1a": 6.81,
+   "pct_7mais": 50,
+   "pct_menos5": 4,
+   "refs_com_7mais": 6,
+   "refs": 8
+  },
+  "titulo": {
+   "pares": 24,
+   "media": 7.04,
+   "media_1a": 8.06,
+   "pct_7mais": 58,
+   "pct_menos5": 8,
+   "refs_com_7mais": 8,
+   "refs": 8
+  }
+ },
+ "refs_novas": {
+  "sem_filtro": {
+   "pares": 36,
+   "media": 5.94,
+   "media_1a": 6.42,
+   "pct_7mais": 44,
+   "pct_menos5": 25,
+   "refs_com_7mais": 10,
+   "refs": 12
+  },
+  "titulo": {
+   "pares": 36,
+   "media": 6.11,
+   "media_1a": 7.08,
+   "pct_7mais": 44,
+   "pct_menos5": 25,
+   "refs_com_7mais": 10,
+   "refs": 12
+  }
+ },
+ "pares_em_comum": 22,
+ "so_sem_filtro_media": 5.76,
+ "so_titulo_media": 6.2,
+ "por_ref": {
+  "titulo_melhor": 10,
+  "igual": 1,
+  "pior": 9,
+  "n": 20,
+  "sem_titulo": []
+ },
+ "aviso": "Notas dadas por IA (autora do metodo), as cegas quanto ao metodo; pares da avaliacao 6 reaproveitam a nota IA anterior."
+}

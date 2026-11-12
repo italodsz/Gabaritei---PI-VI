@@ -1,0 +1,129 @@
+{
+  "atualizado_em": "2026-10-30",
+  "status": "fontes_divergentes_nao_consolidar_como_avaliacao_humana_confirmada",
+  "escala": {
+    "0": "não relevante",
+    "1": "parcialmente relevante",
+    "2": "fortemente relevante"
+  },
+  "fontes": [
+    {
+      "arquivo": "Gabaritei — Histórico completo do recomendador.pdf",
+      "natureza": "síntese histórica fornecida pelo usuário; autoria humana relatada, não verificada nesta atualização",
+      "avaliadores_declarados": "Teles e Ítalo",
+      "notas_por_bloco": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "metricas_calculadas": {
+        "total": 24,
+        "nota_0": 11,
+        "nota_1": 10,
+        "nota_2": 3,
+        "relevancia_estrita": 0.125,
+        "relevancia_ampla": 0.5416666666666666
+      }
+    },
+    {
+      "arquivo": "Avaliacao_Cega_2_Gabaritei_CN_CH_Preenchida.docx",
+      "versao_consultada": "1",
+      "natureza": "análise assistida por IA; explicitamente não é avaliação cega humana independente",
+      "notas_por_bloco": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "metricas_calculadas": {
+        "total": 24,
+        "nota_0": 13,
+        "nota_1": 8,
+        "nota_2": 3,
+        "relevancia_estrita": 0.125,
+        "relevancia_ampla": 0.4583333333333333
+      }
+    }
+  ],
+  "ordem_blocos": "1 a 4: CN; 5 a 8: CH. Cada bloco contém sugestões 1, 2 e 3.",
+  "divergencias": [
+    "S61: histórico 0; DOCX IA 1",
+    "S62: histórico 1; DOCX IA 0",
+    "S82: histórico 1; DOCX IA 0",
+    "S83: histórico 1; DOCX IA 0"
+  ],
+  "observacao": "Não usar estas duas fontes como avaliações humanas independentes nem combinar suas notas. Solicitar a ficha humana original. Nenhuma chave de avaliação ainda pendente foi aberta ou adicionada."
+}

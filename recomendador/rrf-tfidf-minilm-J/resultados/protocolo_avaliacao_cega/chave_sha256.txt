@@ -1,0 +1,1 @@
+64a7462d77c7c3a5dad28f30b1a42140a060e2ca7e3c519b263ad6b4fa24ba24  chave_NAO_ABRIR.json

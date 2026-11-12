@@ -1,0 +1,31 @@
+{
+ "protocolo": "avaliacao_cega_rrf_v1",
+ "data": "2026-10-29",
+ "configuracao": "DECISAO_FINAL.json (RRF k=60, TF-IDF + MiniLM)",
+ "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+ "semente": "gabaritei-avaliacao-cega-2026-10-29",
+ "selecao": "2 referências por área do teste elegível, ordenadas por sha256(semente+id); exclui as 4 do piloto reservado",
+ "sugestoes_por_referencia": 3,
+ "pares": 24,
+ "criterios_definidos_antes": {
+  "proporcao_nota_2_min": 0.5,
+  "proporcao_nota_1_ou_2_min": 0.75,
+  "blocos_com_duas_ou_mais_notas_0_max": 0
+ },
+ "regras": [
+  "avaliador humano, sem consultar IA nem notas anteriores",
+  "pendente nao vira 0",
+  "nota de integridade separada da relevancia",
+  "dificuldade nao entra"
+ ],
+ "referencias": [
+  "gq_827cf6aa19a4738997addfed",
+  "gq_a02fc61776eaf127dcae099d",
+  "gq_2508f23f7c79edf4996c6ee2",
+  "gq_e5675dffa0e9d7905a1feb60",
+  "gq_c8e1e3cabcac5927ab05e32b",
+  "gq_c2eba58250864512a7e33964",
+  "gq_1c704d8e0026cd32089a67b9",
+  "gq_81da11fccece8b1b0a8f2291"
+ ]
+}

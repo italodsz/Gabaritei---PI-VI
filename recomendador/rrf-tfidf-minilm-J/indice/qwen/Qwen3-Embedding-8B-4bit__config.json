@@ -1,0 +1,10 @@
+{
+  "modelo": "Qwen/Qwen3-Embedding-8B",
+  "quantizado_4bit": true,
+  "max_tokens": 8192,
+  "instrucao_conceito": "Instruct: Dada uma questão do ENEM, represente o conceito central cobrado e a operação que o aluno precisa fazer para responder, ignorando o cenário e o tema de fundo do texto\nQuery: ",
+  "aplicada_a": "todas as questões (consultas e candidatas)",
+  "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "gerado_em": "2026-11-05, Windows 11, RTX 4060 Ti 8 GB, PyTorch 2.14.1+cu130; 404 s",
+  "observacao": "config original gravado com codificação do Windows (acentos corrompidos); este arquivo o substitui em UTF-8"
+}

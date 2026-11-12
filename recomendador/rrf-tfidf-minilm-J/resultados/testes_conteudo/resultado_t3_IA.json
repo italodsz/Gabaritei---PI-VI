@@ -1,0 +1,44 @@
+{
+ "titulo_area": {
+  "pares": 36,
+  "media": 6,
+  "media_1a": 7.42,
+  "pct_7mais": 42,
+  "pct_menos5": 25
+ },
+ "FQ": {
+  "pares": 36,
+  "media": 6.14,
+  "media_1a": 7.33,
+  "pct_7mais": 44,
+  "pct_menos5": 25
+ },
+ "F": {
+  "pares": 36,
+  "media": 5.86,
+  "media_1a": 6.83,
+  "pct_7mais": 44,
+  "pct_menos5": 33
+ },
+ "FQ_vs_titulo_area": {
+  "melhor": 4,
+  "igual": 7,
+  "pior": 1,
+  "dif": 0.14,
+  "ic95": [
+   -0.08,
+   0.36
+  ]
+ },
+ "F_vs_titulo_area": {
+  "melhor": 4,
+  "igual": 3,
+  "pior": 5,
+  "dif": -0.14,
+  "ic95": [
+   -0.42,
+   0.14
+  ]
+ },
+ "iscas_media": 4.33
+}

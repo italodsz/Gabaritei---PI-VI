@@ -1,0 +1,272 @@
+{
+ "nota, todos os pares": {
+  "tfidf": [
+   46,
+   230
+  ],
+  "qwen": [
+   72,
+   230
+  ],
+  "comando": [
+   56,
+   230
+  ],
+  "nomes": [
+   49,
+   230
+  ],
+  "formato": [
+   53,
+   230
+  ],
+  "genero": [
+   51,
+   230
+  ],
+  "mesmo_assunto": [
+   60,
+   230
+  ]
+ },
+ "nota, só dentro do título": {
+  "tfidf": [
+   43,
+   90
+  ],
+  "qwen": [
+   70,
+   90
+  ],
+  "comando": [
+   58,
+   90
+  ],
+  "nomes": [
+   50,
+   90
+  ],
+  "formato": [
+   54,
+   90
+  ],
+  "genero": [
+   54,
+   90
+  ],
+  "mesmo_assunto": [
+   62,
+   90
+  ]
+ },
+ "tarefa (av5)": {
+  "tfidf": [
+   null,
+   0
+  ],
+  "qwen": [
+   null,
+   0
+  ],
+  "comando": [
+   null,
+   0
+  ],
+  "nomes": [
+   null,
+   0
+  ],
+  "formato": [
+   null,
+   0
+  ],
+  "genero": [
+   null,
+   0
+  ],
+  "mesmo_assunto": [
+   null,
+   0
+  ]
+ },
+ "conceito (av5)": {
+  "tfidf": [
+   null,
+   0
+  ],
+  "qwen": [
+   null,
+   0
+  ],
+  "comando": [
+   null,
+   0
+  ],
+  "nomes": [
+   null,
+   0
+  ],
+  "formato": [
+   null,
+   0
+  ],
+  "genero": [
+   null,
+   0
+  ],
+  "mesmo_assunto": [
+   null,
+   0
+  ]
+ },
+ "nota do Ítalo (av6)": {
+  "tfidf": [
+   40,
+   15
+  ],
+  "qwen": [
+   73,
+   15
+  ],
+  "comando": [
+   40,
+   15
+  ],
+  "nomes": [
+   50,
+   15
+  ],
+  "formato": [
+   53,
+   15
+  ],
+  "genero": [
+   57,
+   15
+  ],
+  "mesmo_assunto": [
+   47,
+   15
+  ]
+ },
+ "nota dentro do título, MT": {
+  "tfidf": [
+   37,
+   19
+  ],
+  "qwen": [
+   84,
+   19
+  ],
+  "comando": [
+   47,
+   19
+  ],
+  "nomes": [
+   45,
+   19
+  ],
+  "formato": [
+   47,
+   19
+  ],
+  "genero": [
+   55,
+   19
+  ],
+  "mesmo_assunto": [
+   63,
+   19
+  ]
+ },
+ "nota dentro do título, CN": {
+  "tfidf": [
+   50,
+   26
+  ],
+  "qwen": [
+   77,
+   26
+  ],
+  "comando": [
+   62,
+   26
+  ],
+  "nomes": [
+   50,
+   26
+  ],
+  "formato": [
+   65,
+   26
+  ],
+  "genero": [
+   50,
+   26
+  ],
+  "mesmo_assunto": [
+   63,
+   26
+  ]
+ },
+ "nota dentro do título, CH": {
+  "tfidf": [
+   35,
+   23
+  ],
+  "qwen": [
+   43,
+   23
+  ],
+  "comando": [
+   74,
+   23
+  ],
+  "nomes": [
+   50,
+   23
+  ],
+  "formato": [
+   50,
+   23
+  ],
+  "genero": [
+   46,
+   23
+  ],
+  "mesmo_assunto": [
+   72,
+   23
+  ]
+ },
+ "nota dentro do título, LC": {
+  "tfidf": [
+   50,
+   22
+  ],
+  "qwen": [
+   77,
+   22
+  ],
+  "comando": [
+   45,
+   22
+  ],
+  "nomes": [
+   55,
+   22
+  ],
+  "formato": [
+   50,
+   22
+  ],
+  "genero": [
+   66,
+   22
+  ],
+  "mesmo_assunto": [
+   50,
+   22
+  ]
+ }
+}

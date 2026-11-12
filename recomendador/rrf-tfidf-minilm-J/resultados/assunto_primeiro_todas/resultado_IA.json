@@ -1,0 +1,639 @@
+{
+ "Artes": {
+  "refs": 12,
+  "diferenca": -0.02,
+  "ic95": [
+   -0.18,
+   0.13
+  ],
+  "melhor": 3,
+  "pior": 3,
+  "igual": 6,
+  "media_so_novo": 4.53,
+  "media_so_atual": 4.59,
+  "isca": 4.33,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Artes": [
+    -0.02,
+    [
+     0.0,
+     0.2,
+     -0.4,
+     0.0,
+     -0.6,
+     -0.2,
+     0.4,
+     0.0,
+     0.4,
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  }
+ },
+ "Biologia": {
+  "refs": 12,
+  "diferenca": -0.3,
+  "ic95": [
+   -1.05,
+   0.33
+  ],
+  "melhor": 4,
+  "pior": 6,
+  "igual": 2,
+  "media_so_novo": 4.04,
+  "media_so_atual": 4.83,
+  "isca": 4.7,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Diversidade dos seres vivos e saúde pública": [
+    -0.07,
+    [
+     -0.6,
+     -0.6,
+     1.0
+    ]
+   ],
+   "Ecologia": [
+    -0.13,
+    [
+     1.6,
+     0.0,
+     0.2,
+     -2.4,
+     0.0,
+     -0.2
+    ]
+   ],
+   "Fisiologia humana": [
+    -0.87,
+    [
+     -3.0,
+     0.6,
+     -0.2
+    ]
+   ]
+  }
+ },
+ "Educação Física": {
+  "refs": 12,
+  "diferenca": -0.12,
+  "ic95": [
+   -0.37,
+   0.18
+  ],
+  "melhor": 1,
+  "pior": 5,
+  "igual": 6,
+  "media_so_novo": 4.38,
+  "media_so_atual": 4.92,
+  "isca": 3.86,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Esporte": [
+    -0.17,
+    [
+     0.0,
+     0.0,
+     -0.4,
+     -0.6,
+     -0.6,
+     -0.8,
+     1.2
+    ]
+   ],
+   "Jogos, lutas e danças": [
+    0.0,
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Corpo, saúde e atividade física": [
+    -0.2,
+    [
+     -0.2
+    ]
+   ]
+  }
+ },
+ "Filosofia": {
+  "refs": 12,
+  "diferenca": -0.05,
+  "ic95": [
+   -0.57,
+   0.38
+  ],
+  "melhor": 6,
+  "pior": 3,
+  "igual": 3,
+  "media_so_novo": 5.46,
+  "media_so_atual": 5.69,
+  "isca": 5.0,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Ética": [
+    0.6,
+    [
+     0.4,
+     0.8,
+     0.6
+    ]
+   ],
+   "Filosofia contemporânea": [
+    0.0,
+    [
+     0.0
+    ]
+   ],
+   "Teoria do conhecimento": [
+    -0.3,
+    [
+     0.0,
+     -0.6
+    ]
+   ],
+   "Filosofia antiga e medieval": [
+    -0.33,
+    [
+     -1.8,
+     0.6,
+     0.2
+    ]
+   ],
+   "Filosofia política": [
+    -0.27,
+    [
+     0.0,
+     0.8,
+     -1.6
+    ]
+   ]
+  }
+ },
+ "Geografia": {
+  "refs": 12,
+  "diferenca": -0.15,
+  "ic95": [
+   -0.4,
+   0.13
+  ],
+  "melhor": 2,
+  "pior": 6,
+  "igual": 4,
+  "media_so_novo": 5.16,
+  "media_so_atual": 5.63,
+  "isca": 5.25,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Industrialização, economia e globalização": [
+    -0.3,
+    [
+     0.0,
+     -0.6
+    ]
+   ],
+   "População e migrações": [
+    0.0,
+    [
+     0.0
+    ]
+   ],
+   "Espaço urbano": [
+    0.2,
+    [
+     1.0,
+     -0.6
+    ]
+   ],
+   "Espaço agrário": [
+    -0.47,
+    [
+     -0.6,
+     0.0,
+     -0.8
+    ]
+   ],
+   "Geopolítica, território e regionalização": [
+    -0.2,
+    [
+     -0.2
+    ]
+   ],
+   "Questão ambiental e recursos": [
+    0.0,
+    [
+     0.2,
+     -0.2
+    ]
+   ],
+   "Geografia física e dinâmica natural": [
+    0.0,
+    [
+     0.0
+    ]
+   ]
+  }
+ },
+ "História": {
+  "refs": 12,
+  "diferenca": 0.07,
+  "ic95": [
+   -0.05,
+   0.22
+  ],
+  "melhor": 2,
+  "pior": 2,
+  "igual": 8,
+  "media_so_novo": 5.77,
+  "media_so_atual": 5.46,
+  "isca": 4.57,
+  "decisao": "inconclusivo",
+  "por_titulo": {
+   "República até 1945": [
+    -0.07,
+    [
+     0.0,
+     -0.2,
+     0.0
+    ]
+   ],
+   "Antiguidade e Idade Média": [
+    0.3,
+    [
+     0.0,
+     0.6
+    ]
+   ],
+   "Revoluções, século XIX e século XX": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "Idade Moderna e conquista da América": [
+    0.13,
+    [
+     0.6,
+     -0.2,
+     0.0
+    ]
+   ],
+   "Teoria da história e historiografia": [
+    0.0,
+    [
+     0.0
+    ]
+   ],
+   "Brasil de 1946 aos dias atuais": [
+    0.0,
+    [
+     0.0
+    ]
+   ]
+  }
+ },
+ "Literatura": {
+  "refs": 12,
+  "diferenca": -0.0,
+  "ic95": [
+   -0.27,
+   0.28
+  ],
+  "melhor": 4,
+  "pior": 6,
+  "igual": 2,
+  "media_so_novo": 5.42,
+  "media_so_atual": 5.42,
+  "isca": 5.25,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Gêneros e recursos literários": [
+    0.08,
+    [
+     0.4,
+     0.6,
+     -0.4,
+     0.4,
+     -0.6
+    ]
+   ],
+   "Literatura contemporânea": [
+    -0.24,
+    [
+     0.0,
+     -0.6,
+     -0.4,
+     -0.2,
+     0.0
+    ]
+   ],
+   "Modernismo": [
+    -0.2,
+    [
+     -0.2
+    ]
+   ],
+   "Literatura até o Pré-Modernismo": [
+    1.0,
+    [
+     1.0
+    ]
+   ]
+  }
+ },
+ "Língua Portuguesa": {
+  "refs": 12,
+  "diferenca": 0.42,
+  "ic95": [
+   0.08,
+   0.83
+  ],
+  "melhor": 4,
+  "pior": 0,
+  "igual": 8,
+  "media_so_novo": 7.5,
+  "media_so_atual": 5.94,
+  "isca": 6.6,
+  "decisao": "liga",
+  "por_titulo": {
+   "Leitura e interpretação": [
+    0.67,
+    [
+     0.0,
+     2.0,
+     0.0
+    ]
+   ],
+   "Variação linguística": [
+    0.8,
+    [
+     1.0,
+     1.4,
+     0.0
+    ]
+   ],
+   "Funções da linguagem": [
+    0.0,
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Gêneros e tipos textuais": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "Construção do texto": [
+    0.6,
+    [
+     0.6
+    ]
+   ]
+  }
+ },
+ "Língua estrangeira (inglês ou espanhol)": {
+  "refs": 12,
+  "diferenca": -0.27,
+  "ic95": [
+   -0.65,
+   0.22
+  ],
+  "melhor": 3,
+  "pior": 9,
+  "igual": 0,
+  "media_so_novo": 4.8,
+  "media_so_atual": 5.2,
+  "isca": 3.58,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Leitura em língua estrangeira": [
+    -0.27,
+    [
+     0.2,
+     1.8,
+     0.6,
+     -0.8,
+     -0.2,
+     -1.0,
+     -0.8,
+     -0.2,
+     -0.8,
+     -0.6,
+     -0.4,
+     -1.0
+    ]
+   ]
+  }
+ },
+ "Matemática": {
+  "refs": 12,
+  "diferenca": 0.0,
+  "ic95": [
+   -0.1,
+   0.1
+  ],
+  "melhor": 2,
+  "pior": 2,
+  "igual": 8,
+  "media_so_novo": 6.33,
+  "media_so_atual": 6.33,
+  "isca": 4.75,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Números e operações": [
+    0.0,
+    [
+     -0.4,
+     0.4
+    ]
+   ],
+   "Razão e proporção": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "Grandezas, unidades e escalas": [
+    0.05,
+    [
+     0.0,
+     0.2,
+     0.0,
+     0.0
+    ]
+   ],
+   "Estatística": [
+    0.0,
+    [
+     0.0
+    ]
+   ],
+   "Geometria plana e semelhança": [
+    -0.1,
+    [
+     -0.2,
+     0.0
+    ]
+   ],
+   "Porcentagem e matemática financeira": [
+    0.0,
+    [
+     0.0
+    ]
+   ]
+  }
+ },
+ "Química": {
+  "refs": 12,
+  "diferenca": 0.35,
+  "ic95": [
+   0.03,
+   0.78
+  ],
+  "melhor": 6,
+  "pior": 1,
+  "igual": 5,
+  "media_so_novo": 6.32,
+  "media_so_atual": 5.21,
+  "isca": 4.88,
+  "decisao": "liga",
+  "por_titulo": {
+   "Matéria, estrutura e propriedades": [
+    0.2,
+    [
+     -0.4,
+     0.8
+    ]
+   ],
+   "Química ambiental e aplicada": [
+    0.07,
+    [
+     0.0,
+     0.0,
+     0.2
+    ]
+   ],
+   "Físico-química": [
+    2.4,
+    [
+     2.4
+    ]
+   ],
+   "Quantidades, gases e soluções": [
+    0.2,
+    [
+     0.0,
+     0.4,
+     0.6,
+     0.0,
+     0.0
+    ]
+   ],
+   "Química orgânica": [
+    0.2,
+    [
+     0.2
+    ]
+   ]
+  }
+ },
+ "Sociologia": {
+  "refs": 12,
+  "diferenca": -0.22,
+  "ic95": [
+   -0.57,
+   0.17
+  ],
+  "melhor": 2,
+  "pior": 6,
+  "igual": 4,
+  "media_so_novo": 5.33,
+  "media_so_atual": 5.88,
+  "isca": 5.12,
+  "decisao": "não liga (piora ou empata)",
+  "por_titulo": {
+   "Desigualdade, direitos e movimentos sociais": [
+    -0.52,
+    [
+     -0.4,
+     -1.2,
+     -1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Cultura, identidade e socialização": [
+    -0.15,
+    [
+     -0.4,
+     -1.0,
+     -0.4,
+     1.2
+    ]
+   ],
+   "Trabalho e economia": [
+    0.0,
+    [
+     0.0
+    ]
+   ],
+   "Pensamento sociológico clássico": [
+    0.6,
+    [
+     0.6
+    ]
+   ],
+   "Poder, Estado e política": [
+    0.0,
+    [
+     0.0
+    ]
+   ]
+  }
+ },
+ "Tecnologias da informação e comunicação": {
+  "refs": 12,
+  "diferenca": 0.17,
+  "ic95": [
+   -0.23,
+   0.57
+  ],
+  "melhor": 7,
+  "pior": 5,
+  "igual": 0,
+  "media_so_novo": 5.62,
+  "media_so_atual": 5.21,
+  "isca": 4.5,
+  "decisao": "inconclusivo",
+  "por_titulo": {
+   "Tecnologias, linguagens e comunicação": [
+    0.17,
+    [
+     -0.2,
+     -0.8,
+     -0.6,
+     -0.6,
+     1.2,
+     0.6,
+     -0.8,
+     0.6,
+     0.4,
+     0.4,
+     1.2,
+     0.6
+    ]
+   ]
+  }
+ }
+}

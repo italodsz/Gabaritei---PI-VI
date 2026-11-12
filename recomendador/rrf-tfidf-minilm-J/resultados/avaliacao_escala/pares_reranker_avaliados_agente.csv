@@ -1,0 +1,855 @@
+﻿"par_id";"bloco";"area";"referencia";"sugestao";"nota";"pendente";"texto_com_problema";"comentario"
+"R01-C1";"1";"CN";"Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 graus Celsius e uma saída para água líquida em equilíbrio com o vapor a 100 graus Celsius. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.
+No processo de concentração do produto, é utilizada energia proveniente
+
+A) somente do calor latente de vaporização.
+B) somente do calor latente de condensação.
+C) do calor sensível e do calor latente de vaporização.
+D) do calor sensível e do calor latente de condensação.
+E) do calor latente de condensação e do calor latente de vaporização.
+
+Gabarito: D";"Durante a primeira fase do projeto de uma usina de geração de energia elétrica, os engenheiros da equipe de avaliação de impactos ambientais procuram saber se esse projeto está de acordo com as normas ambientais. A nova planta estará localizada à beira de um rio, cuja temperatura média da água é de 25 °C, e usará a sua água somente para refrigeração. O projeto pretende que a usina opere com 1,0 MW de potência elétrica e, em razão de restrições técnicas, o dobro dessa potência será dissipada por seu sistema de arrefecimento, na forma de calor. Para atender a resolução número 430, de 13 de maio de 2011, do Conselho Nacional do Meio Ambiente, com uma ampla margem de segurança, os engenheiros determinaram que a água só poderá ser devolvida ao rio com um aumento de temperatura de, no máximo, 3 °C em relação à temperatura da água do rio captada pelo sistema de arrefecimento. Considere o calor específico da água igual a 4 KJ/(Kg ºC).
+Para atender essa determinação, o valor mínimo do fluxo de água, em Kg/s, para a refrigeração da usina deve ser mais próximo de
+
+A) 42.
+B) 84.
+C) 167.
+D) 250.
+E) 500.
+
+Gabarito: C";"1";"não";"não";"Ref: identificar calor sensível e calor latente de condensação. Sug: calcular vazão pela potência térmica e pelo calor sensível. Compartilha calor sensível, mas exige cálculo de fluxo e não a identificação combinada de resfriamento e condensação."
+"R02-C1";"2";"CN";"Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCl2. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, fórmula CaCl2⋅2H2O.
+Considere a massa molar da água igual a 18 gramas por mol, e a massa molar do cloreto de cálcio anidro igual a 111 gramas por mol.
+Na hidratação da substância presente no antimofo, o ganho percentual, em massa, é mais próximo de
+
+A) 14%.
+B) 16%.
+C) 24%.
+D) 32%.
+E) 75%.
+
+Gabarito: D";"A produção de aço envolve o aquecimento do minério de ferro, junto com carvão (carbono) e ar atmosférico em uma série de reações de oxirredução. O produto é chamado de ferro-gusa e contém cerca de 3,3% de carbono. Uma forma de eliminar o excesso de carbono é a oxidação a partir do aquecimento do ferro-gusa com gás oxigênio puro. Os dois principais produtos formados são aço doce (liga de ferro com teor de 0,3% de carbono restante) e gás carbônico. As massas molares aproximadas dos elementos carbono e oxigênio são, respectivamente, 12 g/mol e 16 g/mol.
+
+LEE, J. D. Química Inorgânica não tão concisa. São Paulo: Edgard Blucher, 1999 (adaptado).
+
+Considerando que um forno foi alimentado com 2,5 toneladas de ferro-gusa, a massa de gás carbônico formada, em quilogramas, na produção de aço doce, é mais próxima de
+
+A) 28.
+B) 75.
+C) 175.
+D) 275.
+E) 303.
+
+Gabarito: D";"1";"não";"não";"Ref: calcular ganho percentual de massa pela estequiometria da hidratação. Sug: calcular massa de CO₂ pela composição percentual e estequiometria. Compartilha massas molares e relações de massa, mas pede massa de produto, não ganho percentual do hidrato."
+"R03-C1";"3";"CN";"## Efficacy of Selective Serotonin-Reuptake Inhibitors in Premenstrual Syndrome
+Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.
+A redução da produção desses hormônios nessa fase está relacionada com o(a)
+
+A) regressão do corpo lúteo ovariano.
+B) diminuição na produção de ocitocina.
+C) liberação do gameta feminino na ovulação.
+D) aumento nos níveis dos hormônios LH e FSH.
+E) elevação nos níveis sorológicos de adrenalina.
+
+Gabarito: A";"Portadores de diabetes insipidus reclamam da confusão feita pelos profissionais da saúde quanto aos dois tipos de diabetes: mellitus e insipidus. Enquanto o primeiro tipo está associado aos níveis ou à ação da insulina, o segundo não está ligado à deficiência desse hormônio. O diabetes insipidus é caracterizado por um distúrbio na produção ou no funcionamento do hormônio antidiurético (na sigla em inglês, ADH), secretado pela neuro-hipófise para controlar a reabsorção de água pelos túbulos renais.
+Tendo em vista o papel funcional do ADH, qual é um sintoma clássico de um paciente acometido por diabetes insipidus?
+
+A) Alta taxa de glicose no sangue.
+B) Aumento da pressão arterial.
+C) Ganho de massa corporal.
+D) Anemia crônica.
+E) Desidratação.
+
+Gabarito: E";"0";"não";"sim";"Ref: relacionar regressão do corpo lúteo à queda dos hormônios ovarianos. Sug: inferir desidratação pela deficiência da ação do ADH. O tema hormonal é comum, mas reabsorção renal de água não treina controle do ciclo ovariano. Texto: A referência contém marcadores '##' de formatação."
+"R04-C1";"4";"CN";"A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.
+A geração dessa energia tem como característica:
+
+A) Formar resíduos facilmente recicláveis.
+B) Promover o aumento do desmatamento.
+C) Contribuir para a produção de chuva ácida.
+D) Emitir gases tóxicos que são lançados no ambiente.
+E) Produzir calor sem o consumo de combustíveis fósseis.
+
+Gabarito: E";"Deseja-se instalar uma estação de geração de energia elétrica em um município localizado no interior de um pequeno vale cercado de altas montanhas de difícil acesso. A cidade é cruzada por um rio, que é fonte de água para consumo, irrigação das lavouras de subsistência e pesca. Na região, que possui pequena extensão territorial, a incidência solar é alta o ano todo. A estação em questão irá abastecer apenas o município apresentado.
+
+Qual forma de obtenção de energia, entre as apresentadas, é a mais indicada para ser implantada nesse município de modo a causar o menor impacto ambiental?
+
+A) Termoelétrica, pois é possível utilizar a água do rio no sistema de refrigeração.
+B) Eólica, pois a geografia do local é própria para a captação desse tipo de energia.
+C) Nuclear, pois o modo de resfriamento de seus sistemas não afetariam a população.
+D) Fotovoltaica, pois é possível aproveitar a energia solar que chega à superfície do local.
+E) Hidrelétrica, pois o rio que corta o município é suficiente para abastecer a usina construída.
+
+Gabarito: D";"1";"não";"não";"Ref: identificar geração nuclear de calor sem combustíveis fósseis. Sug: selecionar energia fotovoltaica pelas condições locais e impactos. Compartilha comparação de fontes energéticas, mas cobra adequação geográfica, não a característica nuclear."
+"R05-C1";"5";"CN";"Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana.
+As estratégias citadas eram utilizadas com o objetivo de
+
+A) tratar a diarreia.
+B) prevenir a anemia.
+C) evitar as verminoses.
+D) remediar o raquitismo.
+E) combater a febre amarela.
+
+Gabarito: B";"O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, não só para a planta, mas para muitos organismos como as bactérias responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes, com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO₃).
+BRADY, N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos. Porto Alegre: Bookman, 2013 (adaptado).
+Essa remediação promove no solo o(a)
+
+A) diminuição do pH, deixando-o fértil.
+B) solubilização do alumínio, ocorrendo sua lixiviação pela chuva.
+C) interação do íon cálcio com o íon alumínio, produzindo uma liga metálica.
+D) reação do carbonato de cálcio com os íons alumínio, formando alumínio metálico.
+E) aumento da sua alcalinidade, tornando os íons alumínio menos disponíveis.
+
+Gabarito: E";"0";"não";"não";"Ref: associar ingestão de ferro à prevenção da anemia. Sug: explicar redução da toxicidade do alumínio pela alcalinização do solo. Elementos minerais são contexto comum; química do solo não treina deficiência de ferro."
+"R06-C1";"6";"CN";"A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa de lipídios que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função específica atuando no mesmo compartimento celular de sempre.
+A imunização produzida por esse tipo de vacina é alcançada por meio da
+
+A) estimulação de leucócitos induzida pela capa lipídica contendo RNAm.
+B) atuação do RNAm como sequestrador do vírus para o meio extracelular.
+C) tradução do RNAm em proteína viral, desencadeando a resposta antigênica.
+D) competição entre o RNAm vacinal e o RNA viral pelos sítios dos ribossomos.
+E) incorporação do RNAm viral ao genoma do hospedeiro, gerando novo fenótipo.
+
+Gabarito: C";"## Estudo confirma eficácia do Método Wolbachia para dengue
+Os resultados de um ensaio clínico randomizado na Indonésia apontaram uma redução de 77 por cento dos casos de dengue nas áreas que receberam o mosquito Aedes aegypti infectado com a bactéria Wolbachia. Trata-se da mesma técnica utilizada no Brasil pelo Método Wolbachia, iniciativa conduzida pela Fundação Oswaldo Cruz — Fiocruz. Essa bactéria induz a redução da carga viral no mosquito e, consequentemente, o número de casos de dengue na área, sendo repassada por meio do cruzamento entre os insetos. Como essa bactéria é um organismo intracelular e o vírus também precisa entrar nas células para se reproduzir, ambos necessitarão de recursos comuns.
+Essa tecnologia utilizada no combate à dengue consiste na
+
+A) predação do vírus pela bactéria.
+B) esterilização de mosquitos infectados.
+C) alteração no genótipo do mosquito pela bactéria.
+D) competição do vírus e da bactéria no hospedeiro.
+E) inserção de material genético do vírus na bactéria.
+
+Gabarito: D";"0";"não";"sim";"Ref: relacionar tradução de RNAm em antígeno viral à imunização. Sug: reconhecer competição intracelular entre Wolbachia e vírus. Prevenção de viroses é contexto comum; competição no vetor não treina tradução nem resposta vacinal. Texto: A sugestão contém marcador '##' no título."
+"R07-C1";"7";"CN";"As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.
+Para se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de
+
+A) hexanal.
+B) hexan-1-ol.
+C) hexan-3-ol.
+D) hex-1-en-1-ol.
+E) ácido hexanoico.
+
+Gabarito: C";"As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.
+LE COUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado).
+As moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na
+
+A) fórmula estrutural.
+B) fórmula molecular.
+C) identificação dos tipos de ligação.
+D) contagem do número de carbonos.
+E) identificação dos grupos s funcionais.
+
+Gabarito: A";"1";"não";"sim";"Ref: selecionar álcool secundário cuja oxidação produz a cetona indicada. Sug: reconhecer diferença estrutural pela posição da hidroxila. Compartilha interpretação de nomenclatura e posição de função orgânica, mas não transformação oxidativa em cetona. Texto: Há um 's' intruso em 'grupos s funcionais'."
+"R07-C2";"7";"CN";"As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.
+Para se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de
+
+A) hexanal.
+B) hexan-1-ol.
+C) hexan-3-ol.
+D) hex-1-en-1-ol.
+E) ácido hexanoico.
+
+Gabarito: C";"A fórmula que se enquadra nas características da molécula investigada é
+
+A) CH3 –(CH)2 –CH(OH)–CO–NH–CH3.
+B) CH3 –(CH)2 –CH(CH3)–CO–NH–CH3.
+C) CH3 –(CH)2 –CH(CH3)–CO–NH2.
+D) CH3 –CH2 –CH(CH3)–CO–NH–CH3.
+E) C6 H5 –CH2 –CO–NH–CH3.
+
+Gabarito: B";"";"sim";"sim";"Ref: selecionar álcool secundário cuja oxidação produz a cetona indicada. Sug: não identificável sem as características da molécula investigada. Não é possível estabelecer o conhecimento exigido apenas pelas fórmulas das alternativas. Texto: Falta o enunciado que descreve a molécula; fórmulas como '(CH)2' também aparecem com notação potencialmente truncada."
+"R08-C1";"8";"CN";"Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 quilômetros por hora, para veículos leves, e 80 quilômetros por hora, para veículos de grande porte.
+Considere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.
+Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?
+
+A) 30
+B) 42
+C) 72
+D) 288
+E) 360
+
+Gabarito: B";"Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação. Considere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.
+
+Que distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?
+
+A) 2,90 m.
+B) 14,0 m.
+C) 14,5 m.
+D) 15,0 m.
+E) 17,4 m.
+
+Gabarito: E";"1";"não";"não";"Ref: calcular e comparar tempos de movimento uniforme incluindo paradas. Sug: calcular diferença de distâncias em aceleração e frenagem. Compartilha comparação cinemática de trajetos, mas exige movimento acelerado, não tempos a velocidade constante."
+"R08-C2";"8";"CN";"Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 quilômetros por hora, para veículos leves, e 80 quilômetros por hora, para veículos de grande porte.
+Considere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.
+Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?
+
+A) 30
+B) 42
+C) 72
+D) 288
+E) 360
+
+Gabarito: B";"O Brasil pode se transformar no primeiro país das Américas a entrar no seleto grupo das nações que dispõem de trens-bala. O Ministério dos Transportes prevê o lançamento do edital de licitação internacional para a construção da ferrovia de alta velocidade Rio-São Paulo. A viagem ligará os 403 quilômetros entre a Central do Brasil, no Rio, e a Estação da Luz, no centro da capital paulista, em uma hora e 25 minutos.
+
+Disponível em: http://oglobo.globo.com. Acesso em: 14 jul. 2009
+
+Devido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s²), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,
+
+A) 80 m.
+B) 430 m.
+C) 800 m.
+D) 1.600 m.
+E) 6.400 m.
+
+Gabarito: E";"1";"não";"não";"Ref: calcular e comparar tempos de movimento uniforme incluindo paradas. Sug: calcular raio mínimo pela velocidade e aceleração centrípeta. Utiliza a relação entre distância, tempo e velocidade, mas o alvo é curvatura com aceleração centrípeta."
+"R09-C1";"9";"CN";"Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.
+Em qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?
+
+A) Violeta.
+B) Azul.
+C) Verde.
+D) Vermelho.
+E) Infravermelho.
+
+Gabarito: A";"As notas musicais podem ser agrupadas de modo a formar um conjunto. Esse conjunto pode formar uma escala musical. Dentre as diversas escalas existentes, a mais difundida é a escala diatônica, que utiliza as notas denominadas dó, ré, mi, fá, sol, lá e si. Essas notas estão organizadas em ordem crescente de alturas, sendo a nota dó a mais baixa e a nota si a mais alta.
+Considerando uma mesma oitava, a nota si é a que tem menor
+
+A) amplitude.
+B) frequência.
+C) velocidade.
+D) intensidade.
+E) comprimento de onda.
+
+Gabarito: E";"1";"não";"não";"Ref: relacionar limite de difração ao menor comprimento de onda do espectro. Sug: relacionar maior altura musical ao menor comprimento de onda. Compartilha a relação entre frequência e comprimento de onda, mas cobra altura sonora, sem difração nem ordenação de cores."
+"R09-C2";"9";"CN";"Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.
+Em qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?
+
+A) Violeta.
+B) Azul.
+C) Verde.
+D) Vermelho.
+E) Infravermelho.
+
+Gabarito: A";"Alguns sistemas de segurança incluem detectores de movimento. Nesses sensores, existe uma substância que se polariza na presença de radiação eletromagnética de certa região de frequência, gerando uma tensão que pode ser amplificada e empregada para efeito de controle. Quando uma pessoa se aproxima do sistema, a radiação emitida por seu corpo é detectada por esse tipo de sensor.
+
+WENDLING, M. **Sensores**. Disponível em: www2.feg.unesp.br. Acesso em: 7 maio 2014 (adaptado).
+
+A radiação captada por esse detector encontra-se na região de frequência
+
+A) Da luz visível.
+B) Do ultravioleta.
+C) Do infravermelho.
+D) Das micro-ondas.
+E) Das ondas longas de rádio.
+
+Gabarito: C";"1";"não";"não";"Ref: relacionar limite de difração ao menor comprimento de onda do espectro. Sug: identificar infravermelho na radiação térmica humana. Compartilha regiões do espectro eletromagnético, mas cobra emissão corporal, não resolução limitada por difração."
+"R11-C1";"11";"CN";"## Um método simples para avaliar o teor de sacarose e CO2 em refrigerantes
+O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.
+Entre as duas versões apresentadas, o refrigerante comum possui
+
+A) maior densidade.
+B) menor viscosidade.
+C) maior volume de gás dissolvido.
+D) menor massa de solutos dissolvidos.
+E) maior temperatura de congelamento.
+
+Gabarito: A";"A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C12H22O11), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol-1, respectivamente.
+Qual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?
+
+A) 2,50 × 10⁻³ mol L⁻¹
+B) 6,25 × 10⁻² mol L⁻¹
+C) 1,25 × 10⁻¹ mol L⁻¹
+D) 2,50 × 10⁻¹ mol L⁻¹
+E) 5,00 × 10⁻¹ mol L⁻¹
+
+Gabarito: B";"1";"não";"sim";"Ref: comparar densidades de soluções pela massa de açúcar no mesmo volume. Sug: calcular concentração molar após sucessivas meias-vidas da sacarose. Compartilha concentração de soluto, mas exige cinética e cálculo de molaridade, não comparação de densidades. Texto: O expoente da unidade 'g mol-1' perdeu a formatação. A referência contém marcadores '##' de formatação."
+"R12-C1";"12";"CN";"Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.
+Essa adaptação confere a esse organismo a capacidade de obter primariamente
+
+A) ácidos nucleicos.
+B) carboidratos.
+C) proteínas.
+D) vitaminas.
+E) lipídios.
+
+Gabarito: B";"Pesquisadores conseguiram estimular a absorção de energia luminosa em plantas graças ao uso de nanotubos de carbono. Para isso, nanotubos de carbono “se inseriram” no interior dos cloroplastos por uma montagem espontânea, através das membranas dos cloroplastos. Pigmentos da planta absorvem as radiações luminosas, os elétrons são “excitados” e se deslocam no interior de membranas dos cloroplastos, e a planta utiliza em seguida essa energia elétrica para a fabricação de açúcares. Os nanotubos de carbono podem absorver comprimentos de onda habitualmente não utilizados pelos cloroplastos, e os pesquisadores tiveram a ideia de utilizá-los como “antenas”, estimulando a conversão de energia solar pelos cloroplastos, com o aumento do transporte de elétrons. Nanotubos de carbono incrementam a fotossíntese de plantas.
+
+Disponível em: http://lqes.iqm.unicamp.br. Acesso em: 14 nov. 2014 (adaptado).
+
+O aumento da eficiência fotossintética ocorreu pelo fato de os nanotubos de carbono promoverem diretamente a
+
+A) Utilização de água.
+B) Absorção de fótons.
+C) Formação de gás oxigênio.
+D) Proliferação dos cloroplastos.
+E) Captação de dióxido de carbono.
+
+Gabarito: B";"1";"não";"não";"Ref: identificar carboidratos como produtos da fotossíntese nos cloroplastos. Sug: identificar absorção de fótons como etapa diretamente ampliada na fotossíntese. Compartilha fotossíntese, mas cobra captação de luz, não identificação do produto orgânico."
+"R12-C2";"12";"CN";"Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.
+Essa adaptação confere a esse organismo a capacidade de obter primariamente
+
+A) ácidos nucleicos.
+B) carboidratos.
+C) proteínas.
+D) vitaminas.
+E) lipídios.
+
+Gabarito: B";"Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apolar e são insolúveis em água.
+Esses ácidos atuam no processo de modo a
+
+A) hidrolisar os lipídios.
+B) agir como detergentes.
+C) tornar os lipídios anfifílicos.
+D) promover a secreção de lipases.
+E) estimular o trânsito intestinal dos lipídios.
+
+Gabarito: B";"0";"não";"não";"Ref: identificar carboidratos como produtos da fotossíntese nos cloroplastos. Sug: reconhecer ação detergente dos ácidos biliares na emulsificação. Digestão de lipídios não treina produção fotossintética de carboidratos."
+"R13-C1";"13";"CH";"No Cerrado, o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio. De um lado, o capital impõe os conhecimentos biotecnológicos, como mecanismo de universalização de práticas agrícolas e de novas tecnologias, e de outro, o modelo capitalista subordina homens e mulheres à lógica do mercado. Assim, as águas, as sementes, os minerais, as terras (bens comuns) tornam-se propriedade privada. Além do mais, há outros fatores negativos, como a mecanização pesada, a “pragatização” dos seres humanos e não humanos, a violência simbólica, a superexploração, as chuvas de veneno e a violência contra a pessoa.
+Os elementos descritos no texto, a respeito da territorialização da produção, demonstram que há um
+
+A) cerco aos camponeses, inviabilizando a manutenção das condições para a vida.
+B) descaso aos latifundiários, impactando a plantação de alimentos para a exportação.
+C) desprezo ao assalariado, afetando o engajamento dos sindicatos para o trabalhador.
+D) desrespeito aos governantes, comprometendo a criação de empregos para o lavrador.
+E) assédio ao empresariado, dificultando o investimento de maquinários para a produção.
+
+Gabarito: A";"As grandes empresas seriam, certamente, representação de um exercício de poder, ante o grau de autonomia de ação de que dispõem. O que se pretende salientar é a ideia de enclave: plantas industriais que estabelecem relações escassas com o entorno, mas exercem grande influência na economia extralocal.
+DAVIDOVICH, F. Estado do Rio de Janeiro: o urbano metropolitano. Hipóteses e questões. GeoUERJ, n. 21, 2010.
+Que tipo de ação tomada por empresas reflete a forma de territorialização da produção industrial apresentada no texto?
+
+A) Criação de vilas operárias.
+B) Promoção de eventos comunitários.
+C) Recuperação de áreas degradadas.
+D) Incorporação de saberes tradicionais.
+E) Importação de mão de obra qualificada.
+
+Gabarito: E";"1";"não";"não";"Ref: identificar desestruturação da vida camponesa pela expansão capitalista no campo. Sug: reconhecer contratação externa como característica de enclave industrial. Compartilha territorialização empresarial e sua relação com o entorno, mas cobra enclave industrial, não cerco ao campesinato."
+"R14-C1";"14";"CH";"Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87 por cento das mulheres e meninas serão vítimas de abuso durante a vida.
+O texto evidencia situação representativa de
+
+A) afronta às estruturas sociais.
+B) desprezo aos valores religiosos.
+C) transgressão às normas morais.
+D) desrespeito à dignidade humana.
+E) oposição aos princípios hierárquicos.
+
+Gabarito: D";"As mulheres quebradeiras de coco-babaçu dos Estados do Maranhão, Piauí, Pará e Tocantins, na sua grande maioria, vivem numa situação de exclusão e subalternidade. O termo quebradeira de coco assume o caráter de identidade coletiva na medida em que as mulheres que sobrevivem dessa atividade e reconhecem sua posição e condição desvalorizada pela lógica da dominação, se organizam em movimentos de resistência e de luta pela conquista da terra, pela libertação dos babaçuais, pela autonomia do processo produtivo. Passam a atribuir significados ao seu trabalho e as suas experiências, tendo como principal referência sua condição preexistente de acesso e uso dos recursos naturais.
+
+ROCHA, M. R. T. A luta das mulheres quebradeiras de coco-babaçu, pela libertação do coco preso e pela posse da terra. In: **Anais do VII Congresso Latino-Americano de Sociologia Rural**, Quito, 2006 (adaptado).
+
+A organização do movimento das quebradeiras de coco de babaçu é resultante da
+
+A) Constante violência nos babaçuais na confluência de terras maranhenses, piauienses, paraenses e tocantinenses, região com elevado índice de homicídios.
+B) Falta de identidade coletiva das trabalhadoras, migrantes das cidades e com pouco vínculo histórico com as áreas rurais do interior do Tocantins, Pará, Maranhão e Piauí.
+C) Escassez de água nas regiões de veredas, ambientes naturais dos babaçus, causada pela construção de açudes particulares, impedindo o amplo acesso público aos recursos hídricos.
+D) Progressiva devastação das matas dos cocais, em função do avanço da sojicultura nos chapadões do Meio-Norte brasileiro.
+E) Dificuldade imposta pelos fazendeiros e posseiros no acesso aos babaçuais localizados no interior de suas propriedades.
+
+Gabarito: E";"1";"não";"não";"Ref: reconhecer violência contra mulheres como violação da dignidade humana. Sug: identificar restrição de acesso à terra como origem da organização das quebradeiras. Compartilha exclusão, dominação e luta por direitos, mas exige causa de mobilização fundiária, não reconhecimento da violência de gênero."
+"R14-C2";"14";"CH";"Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87 por cento das mulheres e meninas serão vítimas de abuso durante a vida.
+O texto evidencia situação representativa de
+
+A) afronta às estruturas sociais.
+B) desprezo aos valores religiosos.
+C) transgressão às normas morais.
+D) desrespeito à dignidade humana.
+E) oposição aos princípios hierárquicos.
+
+Gabarito: D";"SOMBRiO, M. M. O. Em busca pelo campo — Mulheres em expedições científicas no Brasil em meados do século XX. Cadernos Pagu, n. 48, 2016.
+No contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da
+
+A) afirmação da igualdade de gênero.
+B) transformação dos espaços de lazer.
+C) superação do pensamento patriarcal.
+D) incorporação das estratificações sociais.
+E) substituição das atividades domésticas.
+
+Gabarito: D";"";"sim";"sim";"Ref: reconhecer violência contra mulheres como violação da dignidade humana. Sug: não identificável sem o relato sobre mulheres no campo científico. O gabarito isolado não permite avaliar o conhecimento e a tarefa exigidos pelo texto ausente. Texto: Falta o texto-base referido no comando; há somente a referência bibliográfica."
+"R15-C1";"15";"CH";"## O moleque Ricardo
+José Lins do Rêgo
+O masseiro, a mulher, e quatro filhos, dormindo numa tapera de quatro paredes de caixão, coberta de zinco. A água do mangue, na maré cheia, ia dentro de casa. Os maruins de noite encalombavam o corpo dos meninos. O mangue tinha ocasião que fedia, e os urubus faziam ponto por ali atrás dos petiscos. Perto da rua lavavam couro de boi, pele de bode para o curtume de um espanhol. Morria peixe envenenado, e quando a maré secava, os urubus enchiam o papo, ciscavam a lama, passeando banzeiros pelas biqueiras dos mocambos no Recife.
+A aglomeração urbana representada no texto resulta em
+
+A) conservação do meio rural.
+B) crescimento da vegetação ciliar.
+C) interferência do espaço geográfico.
+D) equilíbrio do ambiente das cidades.
+E) controle da proliferação dos animais.
+
+Gabarito: C";"A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desaparecem; o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadorias; árvores são destruídas, praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação diária ao qual está submetida a cidade.
+CARLOS, A. F. A. A cidade. São Paulo: Contexto, 2011 (adaptado).
+No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da
+
+A) manutenção dos modos de convívio social.
+B) preservação da essência do espaço público.
+C) ampliação das normas de controle ambiental.
+D) flexibilização das regras de participação política.
+E) alteração da organização da paisagem geográfica.
+
+Gabarito: E";"2";"não";"sim";"Ref: inferir transformação socioambiental do espaço pela aglomeração urbana. Sug: relacionar mudanças da vida urbana à transformação da paisagem. Ambas exigem reconhecer a reorganização do espaço geográfico como processo associado às alterações socioambientais da cidade. Texto: A referência contém marcadores '##' de formatação."
+"R15-C2";"15";"CH";"## O moleque Ricardo
+José Lins do Rêgo
+O masseiro, a mulher, e quatro filhos, dormindo numa tapera de quatro paredes de caixão, coberta de zinco. A água do mangue, na maré cheia, ia dentro de casa. Os maruins de noite encalombavam o corpo dos meninos. O mangue tinha ocasião que fedia, e os urubus faziam ponto por ali atrás dos petiscos. Perto da rua lavavam couro de boi, pele de bode para o curtume de um espanhol. Morria peixe envenenado, e quando a maré secava, os urubus enchiam o papo, ciscavam a lama, passeando banzeiros pelas biqueiras dos mocambos no Recife.
+A aglomeração urbana representada no texto resulta em
+
+A) conservação do meio rural.
+B) crescimento da vegetação ciliar.
+C) interferência do espaço geográfico.
+D) equilíbrio do ambiente das cidades.
+E) controle da proliferação dos animais.
+
+Gabarito: C";"O processo de concentração urbana no Brasil em determinados locais teve momentos de maior intensidade e, ao que tudo indica, atualmente passa por uma desaceleração no ritmo de crescimento populacional nos grandes centros urbanos.
+
+BAENINGER, R. **Cidades e metrópoles**: a desaceleração no crescimento populacional e novos arranjos regionais. Disponível em: www.sbsociologia.com.br. Acesso em: 12 dez. 2012 (adaptado).
+
+Uma causa para o processo socioespacial mencionado no texto é o(a)
+
+A) Carência de matérias-primas.
+B) Degradação da rede rodoviária.
+C) Aumento do crescimento vegetativo.
+D) Centralização do poder político.
+E) Realocação da atividade industrial.
+
+Gabarito: E";"1";"não";"sim";"Ref: inferir transformação socioambiental do espaço pela aglomeração urbana. Sug: explicar desaceleração das metrópoles pela relocalização industrial. Compartilha dinâmica de urbanização, mas exige causa da desconcentração populacional, não efeitos sobre o espaço. Texto: A referência contém marcadores '##' de formatação."
+"R16-C1";"16";"CH";"## TEXTO 1
+Quarto de despejo: diário de uma favelada
+Carolina Maria de Jesus
+Como é horrivel ver um filho comer e perguntar: “Tem mais?” Esta palavra “tem mais” fica oscilando dentro do cerebro de uma mãe que olha as panela e não tem mais.
+## TEXTO 2
+A experiência de ver os filhos com fome na década de 1950, descrita por Carolina, é vivida no Brasil de 2021 por uma moradora de Petrolândia, em Pernambuco. “Eu trabalhava de ajudante de cabeleireira, mas a moça que tinha o salão fechou. Eu vinha me sustentando com o auxílio que tinha, mas agora eu não fui contemplada. Às vezes as pessoas me ajudam com alimentos para os meus filhos. De vez em quando, eu acho algum bico para fazer, mas é muito raro. Tem dias que não tenho nem o leite da minha bebê.”
+Considerando a realidade brasileira, os textos se aproximam ao apresentarem uma reflexão sobre o(a)
+
+A) recorrência da miséria.
+B) planejamento da saúde.
+C) superação da escassez.
+D) constância da economia.
+E) romantização da carência.
+
+Gabarito: A";"Em algumas línguas de Moçambique não existe a palavra ""pobre"". O indivíduo é pobre quando não tem parentes. A pobreza é a solidão, a ruptura das relações familiares que, na sociedade rural, servem de apoio à sobrevivência. Os consultores internacionais, especialistas em elaborar relatórios sobre a miséria, talvez não tenham em conta o impacto dramático da destruição dos laços familiares e das relações de entreajuda. Nações inteiras estão tornando-se ""órfãs"", e a mendicidade parece ser a única via de uma agonizante sobrevivência.
+COUTO, M. E se Obama fosse africano? & outras intervenções. Portugal: Caminho, 2009 (adaptado).
+Em uma leitura que extrapola a esfera econômica, o autor associa o acirramento da pobreza à
+
+A) afirmação das origens ancestrais.
+B) fragilização das redes de sociabilidade.
+C) padronização das políticas educacionais.
+D) fragmentação das propriedades agrícolas.
+E) globalização das tecnologias de comunicação.
+
+Gabarito: B";"1";"não";"sim";"Ref: comparar relatos para reconhecer persistência histórica da miséria. Sug: relacionar agravamento da pobreza à ruptura de redes familiares. Compartilha pobreza e vulnerabilidade social, mas cobra sua dimensão relacional, não sua recorrência entre épocas. Texto: A referência contém marcadores '##' de formatação."
+"R17-C1";"17";"CH";"## Quinta conversa: o homem visto de fora Maurice Merleau-Ponty
+Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou —, não poderia residir em nenhum fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele.
+No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por
+
+A) apresentar uma visão dualista.
+B) confirmar uma tese naturalista.
+C) demonstrar uma premissa realista.
+D) sustentar um argumento idealista.
+E) defender uma posição intencionalista.
+
+Gabarito: A";"Entretanto, nosso amigo Basso tem o ânimo alegre. Isso resulta da filosofia: estar alegre diante da morte, forte e contente qualquer que seja o estado do corpo, sem desfalecer, ainda que desfaleça.
+O excerto refere-se a uma carta de Sêneca na qual se apresenta como um bem fundamental da filosofia promover a
+
+A) valorização de disputas dialógicas.
+B) rejeição das convenções sociais.
+C) inspiração de natureza religiosa.
+D) exaltação do sofrimento.
+E) moderação das paixões.
+
+Gabarito: E";"0";"não";"sim";"Ref: reconhecer dualismo cartesiano em contraste com a experiência corporal. Sug: identificar moderação das paixões como função ética da filosofia estoica. Emoções e corpo aparecem nos textos, mas ética estoica não treina distinção ontológica entre mente e corpo. Texto: A referência contém marcadores '##' de formatação."
+"R17-C2";"17";"CH";"## Quinta conversa: o homem visto de fora Maurice Merleau-Ponty
+Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou —, não poderia residir em nenhum fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele.
+No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por
+
+A) apresentar uma visão dualista.
+B) confirmar uma tese naturalista.
+C) demonstrar uma premissa realista.
+D) sustentar um argumento idealista.
+E) defender uma posição intencionalista.
+
+Gabarito: A";"É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida.
+
+_SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado)._
+
+Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a):
+
+A) Dissolução do saber científico.
+B) Recuperação dos antigos juízos.
+C) Exaltação do pensamento clássico.
+D) Surgimento do conhecimento inabalável.
+E) Fortalecimento dos preconceitos religiosos.
+
+Gabarito: D";"0";"não";"sim";"Ref: reconhecer dualismo cartesiano em contraste com a experiência corporal. Sug: identificar dúvida radical como caminho para conhecimento inabalável. O vínculo é o autor; método epistemológico da dúvida não treina dualismo mente-corpo. Texto: A referência contém marcadores '##' de formatação."
+"R18-C1";"18";"CH";"## TEXTO 1
+O pessimista
+Gabriel García Márquez
+Gerineldo dorme porque já está conformado com o seu mundo. Porque já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros, despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.
+## TEXTO 2
+O ser e o nada: ensaio de ontologia fenomenológica
+Jean-Paul Sartre
+A situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca há mais nada senão as coisas). É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores — e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.
+A postura determinista adotada pelo personagem Gerineldo contrasta com a ideia existencialista contida no pensamento filosófico de Sartre porque
+
+A) evidencia a manifestação do inconsciente.
+B) nega a possibilidade de transcendência.
+C) contraria o conhecimento difuso.
+D) sustenta a fugacidade da vida.
+E) refuta a evolução biológica.
+
+Gabarito: B";"Em A morte de Ivan Ilitch, Tolstoi descreve com detalhes repulsivos o terror de encarar a morte iminente. Ilitch adoece depois de um pequeno acidente e logo compreende que se encaminha para o fim de modo impossível de parar. “Nas profundezas de seu coração, ele sabia estar morrendo, mas em vez de se acostumar com a ideia, simplesmente não o fazia e não conseguia compreendê-la"".
+KAZEZ, J. O peso das coisas: filosofia para o bem-viver. Rio de Janeiro: Tinta Negra, 2004.
+O texto descreve a experiência do personagem de Tolstoi diante de um aspecto incontornável de nossas vidas. Esse aspecto foi um tema central na tradição filosófica
+
+A) marxista, no contexto do materialismo histórico.
+B) logicista, no propósito de entendimento dos fatos.
+C) utilitarista, no sentido da racionalidade das ações.
+D) pós-modernista, na discussão da fluidez das relações.
+E) existencialista, na questão do reconhecimento de si.
+
+Gabarito: E";"1";"não";"sim";"Ref: contrapor determinismo à liberdade e transcendência da situação em Sartre. Sug: reconhecer existencialismo na consciência da própria finitude. Compartilha reflexão existencialista sobre a condição humana, mas cobra morte e reconhecimento de si, não liberdade perante a situação. Texto: A referência contém marcadores '##' de formatação."
+"R18-C2";"18";"CH";"## TEXTO 1
+O pessimista
+Gabriel García Márquez
+Gerineldo dorme porque já está conformado com o seu mundo. Porque já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros, despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.
+## TEXTO 2
+O ser e o nada: ensaio de ontologia fenomenológica
+Jean-Paul Sartre
+A situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca há mais nada senão as coisas). É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores — e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.
+A postura determinista adotada pelo personagem Gerineldo contrasta com a ideia existencialista contida no pensamento filosófico de Sartre porque
+
+A) evidencia a manifestação do inconsciente.
+B) nega a possibilidade de transcendência.
+C) contraria o conhecimento difuso.
+D) sustenta a fugacidade da vida.
+E) refuta a evolução biológica.
+
+Gabarito: B";"Ser ou não ser — eis a questão.
+Morrer — dormir — Dormir! Talvez sonhar. Aí está o obstáculo!
+Os sonhos que hão de vir no sono da morte
+Quando tivermos escapado ao tumulto vital
+Nos obriguam a hesitar: e é essa a reflexão
+Que dá à desventura uma vida tão longa.
+
+SHAKESPEARE, W. **Hamlet**. Porto Alegre: L&PM, 2007
+
+Este solilóquio pode ser considerado um precursor do existencialismo ao enfatizar a tensão entre
+
+A) Consciência de si e angústia humana.
+B) Inevitabilidade do destino e incerteza moral.
+C) Tragicidade da personagem e ordem do mundo.
+D) Racionalidade argumentativa e loucura iminente.
+E) Dependência paterna e impossibilidade de ação.
+
+Gabarito: A";"1";"não";"sim";"Ref: contrapor determinismo à liberdade e transcendência da situação em Sartre. Sug: identificar tensão entre consciência de si e angústia. Compartilha problemática existencialista do sujeito, mas cobra angústia e autoconsciência, não crítica ao determinismo. Texto: A referência contém marcadores '##' de formatação."
+"R20-C1";"20";"CH";"Do século 16 em diante, pelo menos nas classes mais altas, o garfo passou a ser usado como utensílio para comer, chegando através da Itália primeiramente à França e, em seguida, à Inglaterra e à Alemanha, depois de ter servido, durante algum tempo, apenas para retirar alimentos sólidos da travessa. Henrique Terceiro introduziu-o na França, trazendo-o provavelmente de Veneza. Seus cortesãos não foram pouco ridicularizados por essa maneira “afetada” de comer e, no princípio, não eram muito hábeis no uso do utensílio: pelo menos se dizia que metade da comida caía do garfo no caminho do prato à boca. Em data tão recente como o século 17, o garfo era ainda basicamente artigo de luxo, geralmente feito de prata ou ouro.
+O processo social relatado indica a formação de uma etiqueta que tem como princípio a
+
+A) distinção das classes sociais.
+B) valorização de hábitos de higiene.
+C) exaltação da cultura mediterrânea.
+D) consagração de tradições medievais.
+E) disseminação de produtos manufaturados.
+
+Gabarito: A";"A história do Primeiro de Maio de 1890 — na França e na Europa, o primeiro de todos os Primeiros de Maio — é, sob vários aspectos, exemplar. Resultante de um ato político deliberado, essa manifestação ilustra o lado voluntário da construção de uma classe — a classe operária — à qual os socialistas tentam dar uma unidade política e cultural através daquela pedagogia da festa cujo princípio, eficácia e limites há muito tempo tinham sido experimentados pela Revolução Francesa.
+Com base no texto, a fixação dessa data comemorativa tinha por objetivo
+
+A) valorizar um sentimento burguês.
+B) afirmar uma identidade coletiva.
+C) edificar uma memória nacional.
+D) criar uma comunidade cívica.
+E) definir uma tradição popular.
+
+Gabarito: B";"1";"não";"não";"Ref: identificar etiqueta como forma de distinção de classe. Sug: identificar comemoração como instrumento de construção da identidade operária. Compartilha função social das práticas culturais na constituição de classes, mas cobra unidade coletiva, não diferenciação hierárquica."
+"R24-C1";"24";"CH";"No cemitério, a sociedade religiosa encarregada do funeral, aterrorizada, apressou a cerimônia de tal forma que a mãe de Herzog perdeu o momento em que o caixão do filho começou a ser coberto pela terra. Quatro jornalistas que estavam presos no DOI chegaram para assistir ao sepultamento. Um se afastara, chorando. Dizia: Eles matam, eles matam! Não pergunte nada. Não podemos dizer nada. Eles matam mesmo. Falava-se baixo. Ouviram-se dois curtos discursos. O primeiro, da atriz Ruth Escobar: Até quando vamos suportar tanta violência? Até quando vamos continuar enterrando nossos mortos em silêncio? No segundo, Audálio Dantas recitou o Navio negreiro, de Castro Alves: Senhor Deus dos desgraçados / Dizei-me Vós, Senhor Deus / Se é mentira, se é verdade, / Tanto horror perante os céus.
+O acontecimento descrito no texto, ocorrido em meados dos anos 1970, atesta a seguinte característica do regime político-institucional vigente:
+
+A) Incorporação da estética popular para justificar o ideal de integração nacional.
+B) Afirmação da estratégia psicossocial para favorecer o objetivo de propaganda cívica.
+C) Institucionalização de mecanismos repressivos para eliminar os focos de resistência.
+D) Adoção de cerimoniais públicos para controlar as manifestações de grupos opositores.
+E) Estatização de meios de comunicação para selecionar a divulgação de atos governamentais.
+
+Gabarito: C";"A democracia que eles pretendem é a democracia dos privilégios, a democracia da intolerância e do ódio. A democracia que eles querem é para liquidar com a Petrobras, é a democracia dos monopólios, nacionais e internacionais, a democracia que pudesse lutar contra o povo. Ainda ontem eu afirmava que a democracia jamais poderia ser ameaçada pelo povo, quando o povo livremente vem para as praças - as praças que são do povo. Para as ruas - que são do povo.
+Disponível em: www.revistadehistoria.com.br/secao/artigos/discurso-de-joao-goulart-no-comicio-da-central. Acesso em: 29 out. 2015.
+Em um momento de radicalização política, a retórica no discurso do presidente João Goulart, proferido no comício da Central do Brasil, buscava justificar a necessidade de
+
+A) conter a abertura econômica para conseguir a adesão das elites.
+B) impedir a ingerência externa para garantir a conservação de direitos.
+C) regulamentar os meios de comunicação para coibir os partidos de oposição.
+D) aprovar os projetos reformistas para atender a mobilização de setores trabalhistas.
+E) incrementar o processo de desestatização para diminuir a pressão da opinião pública.
+
+Gabarito: D";"0";"não";"não";"Ref: reconhecer repressão institucional da ditadura contra a resistência. Sug: identificar defesa de reformas em discurso de João Goulart. A proximidade histórica não basta; justificar projetos reformistas não treina identificação da violência repressiva institucional."
+"R25-C1";"25";"LC";"“São tantas formas de matar um preto
+Que para alguns sua morte é justificada
+Devia tá fazendo coisa errada
+Se não era bandido, um dia ia ser
+Por ser PRETO sua morte é defendida
+O PRETO sempre merece morrer”.
+A estrofe acima é do poeta e educador social Baticum Proletário, que atua na periferia de Fortaleza, no Ceará, preparando jovens — em quase sua totalidade negros — para enfrentar as dificuldades impostas pelo racismo estrutural no país.
+É a partir da arte que Baticum consegue envolver a juventude em um projeto de fortalecimento dessa população ao promover batalhas de rimas, slams e saraus com temáticas que discutem os problemas sociais. Não por acaso, o tema mais explorado nas rimas, versos e prosas é a violência. De acordo com o mais recente Atlas da violência, em 2019, os negros representaram 77 por cento das vítimas de homicídios, quase 30 assassinatos por 100 mil habitantes, a maioria deles jovens.
+O Atlas revela ainda que um negro tem quase 2,7 vezes mais chance de ser morto do que um branco, o que justifica o movimento de resistência crescente no Brasil.
+O uso de citação e de dados estatísticos nesse texto tem o objetivo de
+
+A) ressaltar a importância da poesia para denunciar a morte de negros, que cresce a cada dia.
+B) destacar o crescimento exponencial da temática do preconceito na produção literária no Brasil.
+C) demonstrar o incremento no quantitativo de expressões artísticas na discussão de problemas sociais.
+D) evidenciar argumentos que reforçam a ideia de que os negros são vítimas em potencial da violência.
+E) salientar o aumento da participação de jovens nos movimentos de resistência na área da cultura.
+
+Gabarito: D";"O mundo das grandes inovações tecnológicas, dos avanços das pesquisas médicas e que já presenciou o envio de homens ao espaço é o mesmo lugar onde 1 bilhão de pessoas dormem e acordam com fome. A desnutrição ocupa o primeiro lugar no ranking dos 10 maiores riscos à saúde e mata mais do que a aids, a malária e a tuberculose combinadas. O equivalente às populações da Europa e da América do Norte, juntas, está de barriga vazia. E um futuro famélico aguarda a raça humana. Em 2050, apenas por razões ligadas às mudanças climáticas, o número de pessoas sem comida no prato vai aumentar em até 20%. Disponível em: www.correiobraziliense.com.br. Acesso em: 22 jan. 2012.
+Considerando a natureza do tema, a forma como está apresentado e o meio pelo qual é veiculado o texto, percebe-se que seu principal objetivo é
+
+A) divulgar dados estatísticos recentes sobre a fome no mundo e sobre as inovações tecnológicas.
+B) esclarecer questões científicas acerca dos danos causados pela fome e pela aids nos indivíduos.
+C) demonstrar que a fome, juntamente com as doenças endêmicas, também é um problema de saúde pública.
+D) convidar o leitor a engajar-se em alguma ação positiva contra a fome, a partir da divulgação de dados alarmantes.
+E) alertar sobre o problema da fome, apresentando-o como um contraste no mundo de tantos recursos tecnológicos.
+
+Gabarito: E";"1";"não";"não";"Ref: identificar citação e estatísticas como sustentação da tese sobre violência racial. Sug: inferir finalidade global de alerta sobre fome por contraste com avanços tecnológicos. Compartilha texto argumentativo com estatísticas sobre problema social, mas cobra finalidade global, não função específica das evidências."
+"R25-C2";"25";"LC";"“São tantas formas de matar um preto
+Que para alguns sua morte é justificada
+Devia tá fazendo coisa errada
+Se não era bandido, um dia ia ser
+Por ser PRETO sua morte é defendida
+O PRETO sempre merece morrer”.
+A estrofe acima é do poeta e educador social Baticum Proletário, que atua na periferia de Fortaleza, no Ceará, preparando jovens — em quase sua totalidade negros — para enfrentar as dificuldades impostas pelo racismo estrutural no país.
+É a partir da arte que Baticum consegue envolver a juventude em um projeto de fortalecimento dessa população ao promover batalhas de rimas, slams e saraus com temáticas que discutem os problemas sociais. Não por acaso, o tema mais explorado nas rimas, versos e prosas é a violência. De acordo com o mais recente Atlas da violência, em 2019, os negros representaram 77 por cento das vítimas de homicídios, quase 30 assassinatos por 100 mil habitantes, a maioria deles jovens.
+O Atlas revela ainda que um negro tem quase 2,7 vezes mais chance de ser morto do que um branco, o que justifica o movimento de resistência crescente no Brasil.
+O uso de citação e de dados estatísticos nesse texto tem o objetivo de
+
+A) ressaltar a importância da poesia para denunciar a morte de negros, que cresce a cada dia.
+B) destacar o crescimento exponencial da temática do preconceito na produção literária no Brasil.
+C) demonstrar o incremento no quantitativo de expressões artísticas na discussão de problemas sociais.
+D) evidenciar argumentos que reforçam a ideia de que os negros são vítimas em potencial da violência.
+E) salientar o aumento da participação de jovens nos movimentos de resistência na área da cultura.
+
+Gabarito: D";"**Yaô**
+
+Aqui có no terreiro
+Pelú adié
+Faz inveja pra gente
+Que não tem mulher
+
+No jacutá de preto velho
+Há uma festa de yaô
+
+Ôi tem nêga de Ogum
+De Oxalá, de lemanjá
+
+Mucama de Oxossi é caçador
+Ora viva Nanã
+Nanã Buruku
+
+Yô yôo
+Yô yôoo
+
+No terreiro de preto velho iaiá
+Vamos saravá (a quem meu pai?)
+Xangô!
+
+VIANA, G. **Agó, Pixinguinha! 100 Anos**. Som Livre, 1997.
+
+A canção _Yaô_ foi composta na década de 1930 por Pixinguinha, em parceria com Gastão Viana, que escreveu a letra. O texto mistura o português com o iorubá, língua usada por africanos escravizados trazidos para o Brasil.
+
+Ao fazer uso do iorubá nessa composição, o autor
+
+A) Promove uma crítica bem-humorada às religiões afrobrasileiras, destacando diversos orixás.
+B) Ressalta uma mostra da marca da cultura africana, que se mantém viva na produção musical brasileira.
+C) Evidencia a superioridade da cultura africana e seu caráter de resistência à dominação do branco.
+D) Deixa à mostra a separação racial e cultural que caracteriza a constituição do povo brasileiro.
+E) Expressa os rituais africanos com maior autenticidade, respeitando as referências originais.
+
+Gabarito: B";"0";"não";"não";"Ref: identificar citação e estatísticas como sustentação da tese sobre violência racial. Sug: reconhecer permanência da cultura africana pelo uso de iorubá na canção. Cultura negra é tema comum; patrimônio linguístico-musical não treina função de evidências argumentativas."
+"R27-C1";"27";"LC";"Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.
+Ouso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)
+
+A) perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica.
+B) propósito do editor, chamando a atenção para o rigor normativo nos textos da revista.
+C) exclusividade na seleção temática, direcionada para a área das ciências humanas.
+D) identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros.
+E) padrão editorial dos artigos, organizados em torno de uma proposta de design inovador.
+
+Gabarito: D";"**Câncer 21/06 a 21/07**
+
+O eclipse em seu signo vai desencadear mudanças na sua autoestima e no seu modo de agir. O corpo indicará onde você falha – se anda engolindo sapos, a área gástrica se ressentirá. este novo ciclo exige uma “desintoxicação”. Seja comedida em suas ações, já que precisará de energia para se recompor. Há preocupação com a família, e a comunicação entre os irmãos trava. Lembre-se: palavra preciosa é palavra dita na hora certa. Isso ajuda também na vida amorosa, que será testada. Melhor conter as expectativas e ter calma, avaliando as próprias carências de modo maduro. Sentirá vontade de intimidade com os assuntos da alma.
+
+**Revista Cláudia.** No 7, ano 48, jul. 2009.
+
+O reconhecimento dos diferentes gêneros textuais, seu contexto de uso, sua função social específica, seu objetivo comunicativo e seu formato mais comum relacionam-se aos conhecimentos construídos socioculturalmente. A análise dos elementos constitutivos desse texto demonstra que sua função é
+
+A) Vender um produto anunciado.
+B) Informar sobre astronomia.
+C) Ensinar os cuidados com a saúde.
+D) Expor a opinião de leitores em um jornal.
+E) Aconselhar sobre amor, família, saúde, trabalho.
+
+Gabarito: E";"0";"não";"sim";"Ref: interpretar colchetes invertidos como símbolo de abertura editorial às ideias. Sug: reconhecer aconselhamento como função do gênero horóscopo. Publicação em revista é embalagem comum; função do horóscopo não treina ressignificação de sinal gráfico. Texto: Na referência, 'O uso' aparece colado como 'Ouso'."
+"R27-C2";"27";"LC";"Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.
+Ouso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)
+
+A) perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica.
+B) propósito do editor, chamando a atenção para o rigor normativo nos textos da revista.
+C) exclusividade na seleção temática, direcionada para a área das ciências humanas.
+D) identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros.
+E) padrão editorial dos artigos, organizados em torno de uma proposta de design inovador.
+
+Gabarito: D";"Esaú e Jacó Ora, aí está justamente a epígrafe do livro, se eu lhe quisesse pôr alguma, e não me ocorresse outra. Não é somente um meio de completar as pessoas da narração com as ideias que deixarem, mas ainda um par de lunetas para que o leitor do livro penetre o que for menos claro ou totalmente escuro. Por outro lado, há proveito em irem as pessoas da minha história colaborando nela, ajudando o autor, por uma lei de solidariedade, espécie de troca de serviços, entre o enxadrista e os seus trebelhos. Se aceitas a comparação, distinguirás o rei e a dama, o bispo e o cavalo, sem que o cavalo possa fazer de torre, nem a torre de peão. Há ainda a diferença da cor, branca e preta, mas esta não tira o poder da marcha de cada peça, e afinal umas e outras podem ganhar a partida, e assim vai o mundo. ASSIS, M. Obra completa. Rio de Janeiro: Nova Aguilar, 1964 (fragmento).
+O fragmento do romance Esaú e Jacó mostra como o narrador concebe a leitura de um texto literário. Com base nesse trecho, tal leitura deve levar em conta
+
+A) o leitor como peça fundamental na construção dos sentidos.
+B) a luneta como objeto que permite ler melhor.
+C) o autor como único criador de significados.
+D) o caráter de entretenimento da literatura.
+E) a solidariedade de outros autores.
+
+Gabarito: A";"1";"não";"sim";"Ref: interpretar colchetes invertidos como símbolo de abertura editorial às ideias. Sug: inferir participação do leitor na construção do sentido literário. Compartilha reflexão sobre leitura e construção de sentidos, mas cobra papel do leitor, não função simbólica de sinal gráfico. Texto: Na referência, 'O uso' aparece colado como 'Ouso'."
+"R27-C3";"27";"LC";"Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.
+Ouso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)
+
+A) perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica.
+B) propósito do editor, chamando a atenção para o rigor normativo nos textos da revista.
+C) exclusividade na seleção temática, direcionada para a área das ciências humanas.
+D) identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros.
+E) padrão editorial dos artigos, organizados em torno de uma proposta de design inovador.
+
+Gabarito: D";"## Ser cronista
+### Clarice Lispector
+Sei que não sou, mas tenho meditado ligeiramente no assunto.
+Crônica é um relato? É uma conversa? É um resumo de um estado de espírito? Não sei, pois antes de começar a escrever para o Jornal do Brasil, eu só tinha escrito romances e contos.
+E também sem perceber, à medida que escrevia para aqui, ia me tornando pessoal demais, correndo o risco de em breve publicar minha vida passada e presente, o que não pretendo. Outra coisa notei: basta eu saber que estou escrevendo para o jornal, isto é, para algo aberto facilmente por todo o mundo, e não para um livro, que só é aberto por quem realmente quer, para que, sem mesmo sentir, o modo de escrever se transforme. Não é que me desagrade mudar, pelo contrário. Mas queria que fossem mudanças mais profundas e interiores que não viessem a se refletir no escrever. Mas mudar só porque isso é uma coluna ou uma crônica? Ser mais leve só porque o leitor assim o quer? Divertir? Fazer passar uns minutos de leitura? E outra coisa: nos meus livros quero profundamente a comunicação profunda comigo e com o leitor. Aqui no jornal apenas falo com o leitor e agrada-me que ele fique agradado. Vou dizer a verdade: não estou contente.
+No texto, ao refletir sobre a atividade de cronista, a autora questiona características do gênero crônica, como
+
+A) relação distanciada entre os interlocutores.
+B) articulação de vários núcleos narrativos.
+C) brevidade no tratamento da temática.
+D) descrição minuciosa dos personagens.
+E) público leitor exclusivo.
+
+Gabarito: C";"1";"não";"sim";"Ref: interpretar colchetes invertidos como símbolo de abertura editorial às ideias. Sug: reconhecer brevidade como característica questionada da crônica. Compartilha reflexão sobre escrita, suporte e interlocução, mas cobra traço do gênero, não efeito simbólico dos colchetes. Texto: A sugestão contém marcadores '##' e '###' nos títulos. Na referência, 'O uso' aparece colado como 'Ouso'."
+"R28-C1";"28";"LC";"O mais antigo grupo de rap indígena do país, Brô MCs, surgiu em 2009, na aldeia Jaguapiru, em Dourados, Mato Grosso do Sul. Os integrantes conheceram o rap pelo rádio, ouvindo um programa que apresentava cantores e grupos brasileiros desse gênero musical. O Brô MCs conseguiu influenciar outros a fazerem rap e a lutarem pelas causas indígenas. Um dos nomes do movimento, Kunumí MC, é um jovem de 16 anos, da aldeia Krukutu, em São Paulo. O adolescente enxerga o rap como uma cultura da defesa e começou a fazer rimas quando percebeu que a poesia, pela qual sempre se interessou, podia virar música. Nas letras que cria, inspiradas tanto pelo rap quanto pelos ritmos indígenas, tenta incluir sempre assuntos aos quais acha importante dar voz, principalmente, a questão da demarcação de terras.
+O movimento rap dos povos originários do Brasil revela o(a)
+
+A) fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena.
+B) contraposição das temáticas socioambientais indígenas às questões urbanas.
+C) rejeição da indústria radiofônica às músicas indígenas.
+D) distanciamento da realidade social indígena.
+E) estímulo ao estudo da poesia indígena.
+
+Gabarito: A";"O hip hop tem sua filosofia própria, com valores construídos pela condição das experiências vividas nas periferias de muitas cidades. Colocando-se como um contraponto à miséria, às drogas, ao crime e à violência, o hip hop busca interpretar a realidade social. Seu objetivo é justamente encontrar saídas e fornecer uma alternativa à população excluída. SOUZA, J.; FIALHO, V. M.; ARALDI, J. Hip hop: da rua para a escola. Porto Alegre: Sulina, 2008.
+As autoras abordam no texto um movimento cultural que também tem características reconhecidas
+
+A) nos traços e formas que representam personagens de olhos desproporcionalmente maiores e expressivos, conhecidos como mangá.
+B) nas formas de se vestir e de cortar os cabelos com objetivos contestadores à ordem social, próprios do movimento punk.
+C) nas frases e dizeres de qualquer espécie, rabiscados sobre fachadas de edifícios, que marcam a pichação.
+D) nos movimentos leves e sincronizados com os pés que deslocam o dançarino, denominado moonwalk.
+E) nas declamações rápidas e ritmadas de um texto, com alturas aproximadas, características do rap.
+
+Gabarito: E";"1";"não";"não";"Ref: reconhecer fusão de manifestações urbanas e tradições indígenas na música. Sug: identificar recitação rápida e ritmada como manifestação do hip-hop. Compartilha o gênero rap e sua inserção cultural, mas cobra característica formal, não fusão entre culturas."
+"R30-C1";"30";"LC";"Maio foi colorido de amarelo, e o foi porque mundialmente amarelo é a cor convencionada para as advertências. No trânsito, essas advertências têm sido fatais. A estimativa, caso nada seja feito, é a de que se atinjam assustadoras 2,4 milhões de mortes no trânsito em 2030 em todo o mundo.
+A pressa constante, o sentimento de invencibilidade, a certeza de invulnerabilidade, a necessidade de poder, a falta de civilidade, a certeza de impunidade, a ausência de solidariedade, a inexistência de compaixão e o desrespeito por si próprio são circunstâncias reais que, não raro, concorrem para o comportamento violento no trânsito.
+O Maio Amarelo, que preconiza a atenção pela vida, é uma das iniciativas nesse sentido. E é precisamente a atenção pela vida que está esquecida. Essa atenção, por certo, requer menos pressa, mais civilidade, limites assegurados, consciência de vulnerabilidade, solidariedade, compaixão e respeito por si e pelo outro. Reafirmar e praticar esses princípios e valores talvez seja um caminho mais seguro e menos violento, que garanta a vida e não celebre a morte.
+Considerando os procedimentos argumentativos utilizados, infere-se que o objetivo desse texto é
+
+A) enumerar as causas determinantes da violência no trânsito.
+B) contextualizar a campanha de advertência no cenário mundial.
+C) divulgar dados numéricos alarmantes sobre acidentes de trânsito.
+D) sensibilizar o público para a importância de uma direção responsável.
+E) restringir os problemas da violência no trânsito a aspectos emocionais.
+
+Gabarito: D";"Conecte-se Estabeleça relações com as pessoas a sua volta. Os relacionamentos são a base da vida diária e investir tempo neles enriquecerá seu dia e garantirá apoio quando precisar. As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima — entre família e amigos — tem mais chance de desenvolver uma doença mental. Seja ativo Caminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem — o importante é cada pessoa achar a atividade que lhe dá prazer e que é adequada a seus limites. Estudos de longo prazo sugerem que a prática de uma atividade física previne o declínio das capacidades mentais e protege contra a ansiedade e a depressão. Preste atenção Seja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa e garantir que você viva o presente. Uma pesquisa mostrou que pessoas treinadas a prestar atenção em seus sentimentos durante oito a 12 semanas apresentaram melhora no bem-estar por anos. Continue aprendendo Tente algo novo, matricule- se em um curso, faça uma nova tarefa no trabalho. Tente consertar algo em casa. Aprenda a tocar um instrumento ou a cozinhar. Escolha um desafio que você vai gostar de perseguir. Os estudos sugerem que o bem-estar está ligado a ter metas — desde que elas sejam estabelecidas pelos próprios indivíduos e tenham a ver com seus valores pessoais. Doe-se Agradeça a alguém, ajude um amigo ou um estranho. Sorria, faça trabalho voluntário, junte- se à associação do bairro. Olhe para fora, além de olhar para dentro de si. Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas. As pesquisas mostram que as pessoas que têm um interesse maior pelo outro tendem a se considerar mais felizes. Disponível em: www.revistaepoca.globo.com. Acesso em: 27 fev. 2012.
+Ao interagirmos socialmente, é comum deixarmos claro nosso posicionamento a respeito do assunto discutido. Para isso, muitas vezes, recorremos a determinadas estratégias argumentativas, dentre as quais se encontra o argumento de autoridade. Considerando o texto em suas cinco partes, constata-se que há o emprego de argumento de autoridade no trecho:
+
+A) “Seja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa”.
+B) “As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima [...] tem mais chances de desenvolver uma doença mental.”
+C) “Caminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem”.
+D) “Tente algo novo, matricule-se em um curso [...] Escolha um desafio que você vai gostar de perseguir.”
+E) “Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas.”
+
+Gabarito: B";"1";"não";"sim";"Ref: inferir finalidade persuasiva de conscientizar para conduta responsável. Sug: identificar referência a pesquisas como argumento de autoridade. Compartilha leitura de argumentação persuasiva, mas exige classificar um recurso local, não inferir objetivo global. Texto: Títulos e parágrafos estão corridos, e há separações indevidas em 'matricule- se' e 'junte- se'."
+"R31-C1";"31";"MT";"Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão V de x é igual a, abre parêntese, x ao quadrado sobre 4, fecha parêntese, menos 10 vezes x mais 105, em que os valores de x representam os dias do mês, variando de 1 a 30.
+Um dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V0 arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real.
+• Ótimo: V0 maior ou igual a 24.
+• Bom: 20 menor ou igual a V0 menor que 24.
+• Normal: 10 menor ou igual a V0 menor que 20.
+• Ruim: 4 menor ou igual a V0 menor que 10.
+• Péssimo: V0 menor que 4.
+No caso analisado, qual seria a classificação do desempenho da empresa?
+
+A) Ótimo.
+B) Bom.
+C) Normal.
+D) Ruim.
+E) Péssimo.
+
+Gabarito: D";"O saldo de contratações no mercado formal no setor varejista da região metropolitana de São Paulo registrou alta. Comparando as contratações deste setor no mês de fevereiro com as de janeiro deste ano, houve incremento de 4 300 vagas no setor, totalizando 880 605 trabalhadores com carteira assinada.
+
+Disponível em: http://www.folha.uol.com.br. Acesso em: 26 abr. 2010 (adaptado).
+
+Considerando-se que y e x representam, respectivamente, as quantidades de trabalhadores no setor varejista e os meses, janeiro sendo o primeiro, fevereiro, o segundo, e assim por diante, a expressão algébrica que relaciona essas quantidades nesses meses é
+
+A) Y = 4 300x
+B) Y = 884 905x
+C) Y = 872 005 + 4 300x
+D) Y = 876 305 + 4 300x
+E) Y = 880 605 + 4 300x
+
+Gabarito: C";"1";"não";"não";"Ref: calcular mínimo de função quadrática e classificar o valor em faixas. Sug: construir função afim pelo crescimento mensal e valor conhecido. Compartilha relações funcionais algébricas, mas exige modelagem linear, sem mínimo quadrático."
+"R32-C1";"32";"MT";"Em primeiro de junho, um canil que cria 98 cães tem, em estoque, a quantidade exata de ração para fornecer, diariamente, 1 000 gramas para cada animal durante 30 dias. No início do décimo primeiro dia o canil recebeu dois novos cães. Com isso, a quantidade de ração diária por animal teve que ser recalculada para que o restante de ração em estoque fosse suficiente para alimentar a todos até o fim do mês, garantindo, para cada cão, uma mesma porção diária da ração.
+Qual a quantidade de ração, em grama, que deverá ser dada diariamente para cada cão, do dia 11 de junho até o final desse mês?
+
+A) 306
+B) 500
+C) 510
+D) 653
+E) 980
+
+Gabarito: E";"Uma confecção possuía 36 funcionários, alcançando uma produtividade de 5 400 camisetas por dia, com uma jornada de trabalho diária dos funcionários de 6 horas. Entretanto, com o lançamento da nova coleção e de uma nova campanha de marketing, o número de encomendas cresceu de forma acentuada, aumentando a demanda diária para 21 600 camisetas. Buscando atender essa nova demanda, a empresa aumentou o quadro de funcionários para 96. Ainda assim, a carga horária de trabalho necessita ser ajustada.
+Qual deve ser a nova jornada de trabalho diária dos funcionários para que a empresa consiga atender a demanda?
+
+A) 1 hora e 30 minutos.
+B) 2 horas e 15 minutos.
+C) 9 horas.
+D) 16 horas.
+E) 24 horas.
+
+Gabarito: C";"2";"não";"não";"Ref: recalcular porção individual pela quantidade total e pelo número de consumidores. Sug: recalcular jornada por trabalhador pela produção-alvo e pelo número de funcionários. Ambas exigem obter uma nova quantidade por participante, ajustando-a inversamente ao tamanho do grupo e proporcionalmente ao total a atender."
+"R35-C1";"35";"MT";"A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar 220 reais nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a 4 reais a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre.
+O desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo
+
+A) (5,0 ; 5,5).
+B) (8,0 ; 8,5).
+C) (11,5 ; 12,5).
+D) (19,5 ; 20,5).
+E) (3,5 ; 4,0).
+
+Gabarito: A";"Em uma loja, o preço promocional de uma geladeira é de 1 000 reais para pagamento somente em dinheiro. Seu preço normal, fora da promoção, é 10 por cento maior. Para pagamento feito com o cartão de crédito da loja, é dado um desconto de 2 por cento sobre o preço normal.
+Uma cliente decidiu comprar essa geladeira, optando pelo pagamento com o cartão de crédito da loja. Ela calculou que o valor a ser pago seria o preço promocional acrescido de 8 por cento. Ao ser informada pela loja do valor a pagar, segundo sua opção, percebeu uma diferença entre seu cálculo e o valor que lhe foi apresentado.
+O valor apresentado pela loja, comparado ao valor calculado pela cliente, foi
+
+A) 2 reais menor.
+B) 100 reais menor.
+C) 200 reais menor.
+D) 42 reais maior.
+E) 80 reais maior.
+
+Gabarito: A";"1";"não";"não";"Ref: calcular compra proporcional e desconto percentual necessário ao orçamento. Sug: comparar aplicação sucessiva de percentuais com subtração indevida de taxas. Compartilha porcentagens em preços, mas cobra efeito de bases sucessivas, não desconto necessário para compra orçada."
+"R36-C1";"36";"MT";"Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90 por cento da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.
+Nessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por
+
+A) C = 0,9q.
+B) C = 0,1q.
+C) C = 1 - 0,1q.
+D) C = 1 - 0,9q.
+E) C = q - 10.
+
+Gabarito: A";"Uma indústria fabrica um único tipo de produto e sempre vende tudo o que produz. O custo total para fabricar uma quantidade q de produtos é dado por uma função, simbolizada por C, enquanto o faturamento que a empresa obtém com a venda da quantidade q também é uma função, simbolizada por F. O lucro total (L) obtido pela venda da quantidade q de produtos é dado pela expressão L = F – C .
+Considerando-se as funções F = 5 q e C = 2 q + 12 como faturamento e custo, qual a quantidade mínima de produtos que a indústria terá de fabricar para não ter prejuízo?
+
+A) 0
+B) 1
+C) 3
+D) 4
+E) 5
+
+Gabarito: D";"1";"não";"não";"Ref: traduzir porcentagem de quantidade em expressão algébrica proporcional. Sug: resolver desigualdade de lucro a partir de funções de custo e receita. Compartilha relações algébricas entre grandezas, mas exige subtrair funções e resolver limite de lucro, não modelar porcentagem."
