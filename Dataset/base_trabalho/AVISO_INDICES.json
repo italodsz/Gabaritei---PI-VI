@@ -10,8 +10,9 @@
     "textos_truncados_restaurados",
     "pendencias_lote1_liberadas",
     "pendencias_lote2_pdf_oficial",
-    "titulos_markdown_em_negrito"
+    "titulos_markdown_em_negrito",
+    "defeitos_texto_lote3_pdf_oficial"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce"
+  "derivative_dataset_sha256": "f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624"
 }

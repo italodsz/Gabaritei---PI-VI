@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.078 elegíveis
-para recomendação por texto (1.821 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.080 elegíveis
+para recomendação por texto (1.823 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
+f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
+Versão de 12/11/2026 (títulos em negrito): 09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
 Versão de 12/11/2026 (pendências, lote 2): 09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
 Versão de 12/11/2026 (pendências, lote 1): c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
 Versão de 12/11/2026 (textos truncados): 4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd.
@@ -93,7 +94,6 @@ qualidade/alteracoes_pendencias_lote2_2026-11-12.json.
 - 2019 q146 fica fora: alternativas e gráfico transcritos da prova, mas o gabarito oficial (A, só o
   dia 1) não bate com a leitura do gráfico, em que o dia 12 (40 °C e 20%) também atende ao alerta
   laranja. Precisa de conferência humana.
-- 2015 q4 (segunda aplicação) continua pendente: não está no caderno azul da aplicação regular.
 
 Efeito na lista de elegíveis: 2.059 para 2.078 (treino 1.802 para 1.821).
 
@@ -103,11 +103,41 @@ Os títulos marcados com `##` ou `###` (172 marcas em 169 questões, 131 delas e
 `**negrito**`, o mesmo padrão já usado em outras 498 questões. Nenhuma palavra mudou: antes e
 depois em qualidade/alteracoes_titulos_markdown_2026-11-12.json. A lista de elegíveis não muda.
 
+## Defeitos de texto, lote 3 (12/11/2026)
+
+49 registros conferidos com os PDFs oficiais do INEP (caderno azul; aplicação regular e, quando a
+questão é da 2ª aplicação, a prova da 2ª aplicação). 46 foram corrigidos, 2 voltaram para a
+recomendação e 3 ficaram sem mudança. Gabarito, TRI, co_item, área e split não mudaram. Antes e
+depois, com a página da prova e a conferência, em
+qualidade/alteracoes_defeitos_texto_lote3_2026-11-12.json.
+
+- Erros de digitação e de cópia: "contnua", "adaplado", "Acessoem", "mihões", "todos o aparelhos",
+  "Puertal", "descontamento", "decoagulação", "estudants", "grupos s funcionais" e outros.
+- Fórmulas, expoentes e cargas: 10^-4, mol^-1, g cm^-3, m s^-1, Na⁺ e HCO3⁻, ²³⁵U, Na2CO3,
+  frações e expoentes das alternativas de matemática.
+- Versos e estrofes refeitos pela prova: 2018 q10, 2019 q7, 2021 q11; títulos e parágrafos da
+  2015 q108 (2ª aplicação); trecho corrompido de "Negrinha" (2010 q129) restaurado.
+- Conteúdo que faltava: Texto II da 2019 q26 (infográfico transcrito), equação da 2020 q120, fontes
+  da 2023 q49 e q79.
+- Alternativas diferentes das da prova, trocadas pelas da prova: 2020 q96 (alternativa E) e
+  2020 q120 (todas). O gabarito oficial continua o mesmo e bate com a conta.
+- 2021 q119 (questão 120 do caderno azul): a base tinha o comando de outra pergunta (antocianinas);
+  comando, textos e figuras restaurados. A dúvida de gabarito desaparece: a resposta oficial (A)
+  é a certa para a pergunta da prova.
+- Liberadas: 2015 q104 (poema concreto; a disposição da prova é a mesma da base) e 2015 q4
+  (2ª aplicação; imagem das geleiras descrita).
+- Sem mudança: 2010 q32 ("garantido-lhes" está assim na prova), 2011 q164 ("kW por hora" é do
+  próprio enunciado) e 2015 q104 (texto igual ao da prova).
+
+Efeito na lista de elegíveis: 2.078 para 2.080 (treino 1.821 para 1.823).
+
 ## Problemas conhecidos (próxima revisão)
 
 - 2018 q125 e q126 têm textos trocados entre si e com uma questão de genética que não tem
   registro próprio; as duas já estão fora da recomendação.
 - 2021 q8 está com o texto de outras questões (fora da recomendação).
 - Faltam na base as questões 5 de espanhol de 2018 e de 2021.
-- 12 questões com fórmulas achatadas (expoentes, frações e índices viraram números soltos).
+- Outras questões com fórmulas achatadas, fora das 49 conferidas.
+- 33 questões com marcadores de supressão escapados (`\[…\]`).
+- 2019 q146: gabarito oficial (A) diverge da leitura do gráfico; precisa de conferência humana.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
