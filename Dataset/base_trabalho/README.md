@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.997 questões; 2.110 elegíveis
-para recomendação por texto (1.853 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.089 questões; 2.202 elegíveis
+para recomendação por texto (1.945 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
+c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f.
+Versão de 12/11/2026 (faltantes 2018/2021): ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
 Versão de 12/11/2026 (espanhol): 06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
 Versão de 12/11/2026 (lote 5): c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
 Versão de 12/11/2026 (lote 4): 7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
@@ -188,9 +189,24 @@ qualidade/questoes_faltantes_2018_2021_adicionadas_2026-11-12.json.
 
 Efeito: 2.978 para 2.997 questões; elegíveis de 2.091 para 2.110 (todas no treino).
 
+## Questões faltantes de 2009 a 2024 adicionadas (12/11/2026)
+
+Cruzamento da base com os microdados do INEP (ITENS_PROVA de 2009 a 2024, sem 2018 e 2021) mostrou 120
+questões válidas sem registro. Foram adicionadas 92 (2009: 4; 2010: 4; 2011: 17; 2012: 11; 2013: 7;
+2014: 8; 2015: 4; 2016: 3; 2019: 6; 2020: 11; 2022: 6; 2023: 5; 2024: 6), com texto transcrito da prova
+oficial (caderno azul) e gráficos, figuras e fórmulas descritos em texto entre colchetes. co_item,
+gabarito, habilidade e TRI vêm dos microdados; cada gabarito foi conferido resolvendo a questão.
+Em 2011 (Ciências Humanas, caderno branco) e em 2022 a 2024 (cadernos laranja) a posição registrada é a
+do caderno usado pela base; a posição correspondente no caderno azul está no arquivo de qualidade.
+Ficaram de fora 21 questões cujas alternativas são só desenhos (circuitos, estruturas químicas,
+projeções etc.) e 6 cujo texto-base é letra de canção ou poema contemporâneo. Lista completa em
+qualidade/questoes_faltantes_2009_2024_adicionadas_2026-11-12.json.
+
+Efeito: 2.997 para 3.089 questões; elegíveis de 2.110 para 2.202 (todas no treino).
+
 ## Problemas conhecidos (próxima revisão)
 
-- 5 questões de 2018/2021 só com alternativas em desenho ainda não estão na base.
-- Faltam questões dos outros anos (2009–2024), a conferir com os microdados.
+- 26 questões só com alternativas em desenho (5 de 2018/2021 e 21 de outros anos) e 6 com letra de
+  canção ou poema ainda não estão na base.
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
