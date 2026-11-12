@@ -5,7 +5,8 @@ e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 qu
 para recomendação por texto (1.821 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
+09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
+Versão de 12/11/2026 (pendências, lote 2): 09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
 Versão de 12/11/2026 (pendências, lote 1): c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
 Versão de 12/11/2026 (textos truncados): 4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd.
 Versão de 11/11/2026: d9c80533bbda575375eb2697d5923bd54406fe99faa1d0a02dfa7c550b41a8bb.
@@ -95,6 +96,12 @@ qualidade/alteracoes_pendencias_lote2_2026-11-12.json.
 - 2015 q4 (segunda aplicação) continua pendente: não está no caderno azul da aplicação regular.
 
 Efeito na lista de elegíveis: 2.059 para 2.078 (treino 1.802 para 1.821).
+
+## Títulos em Markdown (12/11/2026)
+
+Os títulos marcados com `##` ou `###` (172 marcas em 169 questões, 131 delas elegíveis) passaram a
+`**negrito**`, o mesmo padrão já usado em outras 498 questões. Nenhuma palavra mudou: antes e
+depois em qualidade/alteracoes_titulos_markdown_2026-11-12.json. A lista de elegíveis não muda.
 
 ## Problemas conhecidos (próxima revisão)
 

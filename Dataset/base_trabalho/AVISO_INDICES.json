@@ -9,8 +9,9 @@
     "galeria_e_conjuntos_de_avaliacao_alterados",
     "textos_truncados_restaurados",
     "pendencias_lote1_liberadas",
-    "pendencias_lote2_pdf_oficial"
+    "pendencias_lote2_pdf_oficial",
+    "titulos_markdown_em_negrito"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c"
+  "derivative_dataset_sha256": "09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce"
 }
