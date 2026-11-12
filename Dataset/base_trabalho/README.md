@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.978 questões; 2.091 elegíveis
-para recomendação por texto (1.834 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.997 questões; 2.110 elegíveis
+para recomendação por texto (1.853 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
+ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
+Versão de 12/11/2026 (espanhol): 06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
 Versão de 12/11/2026 (lote 5): c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
 Versão de 12/11/2026 (lote 4): 7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
 Versão de 12/11/2026 (defeitos de texto, lote 3): f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
@@ -175,9 +176,21 @@ qualidade/questoes_espanhol_adicionadas_2026-11-12.json.
 
 Efeito: 2.971 para 2.978 questões; elegíveis de 2.084 para 2.091 (todas no treino).
 
+## Questões faltantes de 2018 e 2021 adicionadas (12/11/2026)
+
+19 questões em português que nunca tinham entrado na base: 2018 q56, q91, q92, q117, q127 (pólen de
+pequizeiros), q128, q165, q173, q175, q178; 2021 q36, q88, q105, q107, q125, q161, q162, q165, q177.
+Texto transcrito da prova oficial (caderno azul); gráficos e quadros descritos em texto entre colchetes.
+co_item, gabarito, habilidade e TRI dos microdados do INEP; cada gabarito conferido resolvendo a questão.
+Ficaram de fora 5 questões cujas alternativas são só desenhos (2018 q95 e q159; 2021 q102, q126 e q137)
+e as 5 anuladas pelo INEP (2018 q163; 2021 q24, q43, q118 e q138). Detalhes em
+qualidade/questoes_faltantes_2018_2021_adicionadas_2026-11-12.json.
+
+Efeito: 2.978 para 2.997 questões; elegíveis de 2.091 para 2.110 (todas no treino).
+
 ## Problemas conhecidos (próxima revisão)
 
-- A questão de genética (pólen de pequizeiros) que estava no registro da 2018 q126 não tem registro
-  próprio na base.
+- 5 questões de 2018/2021 só com alternativas em desenho ainda não estão na base.
+- Faltam questões dos outros anos (2009–2024), a conferir com os microdados.
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
