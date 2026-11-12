@@ -17,8 +17,9 @@
     "espanhol_faltantes_adicionadas",
     "faltantes_2018_2021_adicionadas",
     "faltantes_2009_2024_adicionadas",
-    "versoes_adaptadas_removidas"
+    "versoes_adaptadas_removidas",
+    "descricoes_tardelli_incorporadas_e_6_questoes_novas"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089"
+  "derivative_dataset_sha256": "f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd"
 }

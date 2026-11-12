@@ -1,11 +1,13 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.080 questões; 2.202 elegíveis
-para recomendação por texto (1.945 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.440 elegíveis
+para recomendação por texto (2.094 treino, 173 validação, 173 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089.
+f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
+Versão de 12/11/2026 (descrições do Tardelli, revisão das não casadas): f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd.
+Versão de 12/11/2026 (versões adaptadas removidas): 8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089.
 Versão de 12/11/2026 (faltantes 2009–2024): c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f.
 Versão de 12/11/2026 (faltantes 2018/2021): ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
 Versão de 12/11/2026 (espanhol): 06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
@@ -214,9 +216,49 @@ qualidade/versoes_adaptadas_removidas_2026-11-12.json.
 
 Efeito: 3.089 para 3.080 questões; elegíveis inalteradas (2.202).
 
+## Descrições do Tardelli incorporadas (12/11/2026)
+
+Fonte: tardellirs/enem-audiodescricao (977 descrições de 2019 a 2025, extraídas dos cadernos ledor do
+INEP; pacote baixado em 12/11/2026, revisão 6fdfa6e3b96579549e31b2138f956d9644be58c1).
+
+1. **Casamento com a base.** Só a aplicação regular de 2019 a 2024. Pelo texto do enunciado dentro do mesmo
+   ano (e, em 2022 a 2024, também pela posição, que coincide com a numeração do Tardelli em 100% dos casos),
+   sempre conferido pelo gabarito: 293 de 295 casamentos automáticos com gabarito igual; os 2 restantes
+   são de inglês/espanhol, em que o Tardelli não traz gabarito.
+2. **232 questões liberadas.** A descrição entra no texto da questão, entre colchetes (`[Descrição do
+   gráfico: ...]`), no lugar do marcador `[[placeholder]]`/`[IMAGEM: ...]`; sem marcador, entra antes da linha
+   de crédito (`Disponível em`) ou, se não houver, no início. A regra aplicada a cada questão está em
+   `quality_review.image_description_rule`. Status `image_described_by_inep_ledor_tardelli`. Por ano: 2019: 36,
+   2020: 33, 2021: 37, 2022: 37, 2023: 39, 2024: 50.
+3. **Descrições de IA removidas.** As 137 descrições do candido-ai/enem-ocr (97 questões de 2019 a 2021) foram
+   retiradas de `descriptions`: contra o Tardelli a similaridade mediana é 0,22 e nenhuma passa de 0,8; em
+   exemplos conferidos, a IA descrevia outra imagem. Os textos removidos estão no log.
+4. **Maritaca conferida.** Em 105 de 116 questões as descrições da Maritaca e do Tardelli têm similaridade de pelo
+   menos 0,95. Nas 11 restantes o Tardelli é de 1,2 a 2,8 vezes maior: a Maritaca descreveu só uma das figuras.
+   As descrições da Maritaca continuam em `descriptions` (`used_in_question_text: false`) com
+   `similarity_with_tardelli`.
+5. **Rótulo ledor corrigido.** 12 questões de 2024 (posições 2, 3, 4, 12, 16, 18, 23, 27, 69, 72, 78, 91) têm
+   `ledor=false` na própria Maritaca; a origem dessas descrições passou de `ledor_INEP_declarado_pelo_publicador`
+   para `maritaca_descricao_sem_ledor_confirmado`. Em 11 delas o texto agora usa a descrição do Tardelli.
+6. **Revisão das 33 não casadas** (ver `qualidade/revisao_nao_casadas_tardelli_2026-11-12.json`): 13 aceitas por
+   posição/alternativas e gabarito, 2 já elegíveis, 4 itens anulados pelo INEP (2022 q92, q112, q177; 2023 q138),
+   8 sem correspondente na base (itens exclusivos do caderno adaptado de 2019 a 2021) e 6 questões novas.
+7. **6 questões novas** (alternativas em figura, antes pendentes): 2022 q128 e q131; 2024 q93, q122, q128 e
+   q180. Texto e descrição de cada alternativa vêm do Tardelli; gabarito, habilidade e TRI do INEP (o gabarito
+   do INEP é igual ao do Tardelli nas seis).
+
+As descrições do Tardelli seguem a leitura do caderno ledor: unidades e símbolos por extenso ("miligrama
+por litro", "abre parêntese"). As imagens em si não estão no repositório (só o hash, em `assets`); as imagens
+do pacote ficam fora do git.
+
+Efeito: 3.080 para 3.086 questões; elegíveis de 2.202 para 2.440 (232 já na base mais 6 novas). Os conjuntos
+de validação e teste cresceram (134 para 173 e 123 para 173), então resultados anteriores e posteriores não
+são comparáveis diretamente.
+
 ## Problemas conhecidos (próxima revisão)
 
-- 26 questões só com alternativas em desenho (5 de 2018/2021 e 21 de outros anos) e 6 com letra de
+- 20 questões só com alternativas em desenho (5 de 2018/2021 e 15 de outros anos) e 6 com letra de
   canção ou poema ainda não estão na base.
+- 646 questões continuam fora da recomendação por texto por depender de imagem: 607 de 2009 a 2018 (sem descrição
+  profissional; o Tardelli só cobre 2019 a 2025), 36 de 2019 a 2021 e 3 de 2023/2024 sem correspondente no Tardelli.
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
-- Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.

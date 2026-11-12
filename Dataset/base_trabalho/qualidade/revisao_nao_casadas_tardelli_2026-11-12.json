@@ -1,0 +1,482 @@
+{
+  "resumo": {
+    "decisoes": {
+      "aceita": 13,
+      "ja_elegivel": 2,
+      "anulada_inep": 4,
+      "registro_novo": 6,
+      "sem_correspondente": 8
+    },
+    "aplicadas_13": 13,
+    "registros_novos": 6,
+    "parent_sha256": "f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd",
+    "novo_sha256": "f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd"
+  },
+  "decisoes": [
+    {
+      "tardelli": "2019|regular|1|9|17",
+      "decisao": "sem_correspondente",
+      "motivo": "campanha em português europeu; a base não tem esse texto (a posição 10 tem gabarito igual por coincidência, mas é outra questão); item exclusivo do caderno ledor"
+    },
+    {
+      "tardelli": "2019|regular|2|11|107",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2019|regular|2|11|141",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2020|regular|1|9|47",
+      "decisao": "aceita",
+      "motivo": "alternativas idênticas e gabarito D iguais ao da posição 51 da base"
+    },
+    {
+      "tardelli": "2020|regular|2|11|136",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2021|regular|1|9|15",
+      "decisao": "aceita",
+      "motivo": "alternativas (0,84 contra 0,21 do segundo) e gabarito A iguais ao da posição 33 da base"
+    },
+    {
+      "tardelli": "2021|regular|1|9|16",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2021|regular|2|11|114",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2021|regular|2|11|127",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2021|regular|2|11|170",
+      "decisao": "ja_elegivel",
+      "motivo": "corresponde à posição 143 da base (gabarito D), já elegível; não alterada"
+    },
+    {
+      "tardelli": "2021|regular|2|11|178",
+      "decisao": "sem_correspondente",
+      "motivo": "texto não encontrado na base; a base tem todos os itens do caderno azul de 2019 e 2020 (conferido contra o CSV do INEP), então o item parece exclusivo do caderno adaptado/ledor"
+    },
+    {
+      "tardelli": "2022|regular|1|9|1",
+      "decisao": "aceita",
+      "motivo": "versão em inglês da questão 1; o Tardelli não traz gabarito para esta questão; casamento pelo texto (0,83) e pela posição"
+    },
+    {
+      "tardelli": "2022|regular|1|9|44",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2022|regular|1|9|5",
+      "decisao": "ja_elegivel",
+      "motivo": "versão em inglês da questão 5, já elegível na base; não alterada (Tardelli sem gabarito)"
+    },
+    {
+      "tardelli": "2022|regular|1|9|59",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2022|regular|1|9|75",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2022|regular|1|9|90",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2022|regular|2|11|112",
+      "decisao": "anulada_inep",
+      "motivo": "item 141605 abandonado pelo INEP (Bilog não converge); não entra na base"
+    },
+    {
+      "tardelli": "2022|regular|2|11|128",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    },
+    {
+      "tardelli": "2022|regular|2|11|131",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    },
+    {
+      "tardelli": "2022|regular|2|11|177",
+      "decisao": "anulada_inep",
+      "motivo": "item 89637 abandonado pelo INEP (Convergência); não entra na base"
+    },
+    {
+      "tardelli": "2022|regular|2|11|92",
+      "decisao": "anulada_inep",
+      "motivo": "item 75845 abandonado pelo INEP (BLG não rodou); não entra na base"
+    },
+    {
+      "tardelli": "2023|regular|1|9|29",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|1|9|3",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|1|9|4",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|1|9|59",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|1|9|66",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|1|9|86",
+      "decisao": "aceita",
+      "motivo": "mesma posição na base (a numeração do Tardelli coincide com a da base em 2022-2024), gabarito igual e alternativas idênticas"
+    },
+    {
+      "tardelli": "2023|regular|2|11|138",
+      "decisao": "anulada_inep",
+      "motivo": "item 14887 abandonado pelo INEP (Exclusão pedagógica); não entra na base"
+    },
+    {
+      "tardelli": "2024|regular|2|11|122",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    },
+    {
+      "tardelli": "2024|regular|2|11|128",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    },
+    {
+      "tardelli": "2024|regular|2|11|180",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    },
+    {
+      "tardelli": "2024|regular|2|11|93",
+      "decisao": "registro_novo",
+      "motivo": "item válido do INEP (IN_ITEM_ABAN=0) que a base não tinha por ter alternativas em figura; criado a partir do enunciado e das descrições do Tardelli; gabarito do INEP igual ao do Tardelli"
+    }
+  ],
+  "aplicadas": [
+    {
+      "id": "gq_01b5eaca21b50f3a342fdf87",
+      "year": 2022,
+      "position": 1,
+      "language": "en",
+      "tardelli": "2022|regular|1|9|1",
+      "identificacao": "posicao_e_texto_gabarito_do_Tardelli_ausente",
+      "regra": "substitui_marcador_varias_figuras",
+      "n_figuras": 2,
+      "question_before": "[[placeholder]]\nNessa tirinha, o comportamento da mulher expressa",
+      "question_after": "[Descrição da imagem: Tirinha apresentada em quatro quadrinhos. O primeiro quadrinho apresenta um castelo localizado no alto de uma colina, cercado por floresta e montanhas. O sol está baixo. Duas pessoas conversam dentro dele. Uma delas diz: “Now that you are my bride, you will never leave this castle!”. A outra exclama: “Wow! Your library is amazing!”. No segundo quadrinho, apresentados de forma estilizada, estão um homem grandalhão usando chapéu e segurando um bastão, e uma mulher com os cabelos presos em rabo de cavalo e usando um vestido. Ele fala: “Beyond the castle is a high wall with no gate, and beyond that is a deep, dark forest with no path”. A mulher, que está retirando um livro de uma estante alta e repleta de livros, comenta: “I suppose it’s my library too, now we’re married”. No terceiro quadrinho, o homem ergue o dedo indicador e diz: “The forest is crawling with ravenous wolves, malignant birds and the spirits of long-dead travellers.”. A mulher passa por ele carregando três livros e exclama: “So many books! I can’t believe my luck!”. No último quadrinho, o homem, que está transformado em um ser com asas e patas e voando em direção contrária à da mulher, fala: “When the sun sets, I transform into a wild beast and soar into the night, seized by a terrible bloodlust!”. A mulher está sentada em um banco ao lado de dois livros. Ela segura um terceiro livro nas mãos à frente do rosto enquanto fala: “Ok. I’ll stay here and read. See you in the morning.”.]\n[Descrição da imagem: Cartaz intitulado Maternidades en tiempos de pandemia. Apresenta seis quadros. O primeiro do lado esquerdo apresenta uma mulher, uma criança e um carrinho de bebê. O primeiro do lado direito, contém a frase: “Maternar nunca ha sido fácil; es agotador y desgastante. El cierre de escuelas y guarderías por covid-19 incrementó el trabajo.”. O segundo quadro à esquerda apresenta o texto: “La maternidad está romantizada. No todas viven las mismas condiciones, pero aún así las madres ponen lo mejor de si para sobrellevarlo.”. O segundo quadro à direita: “Porque en este sistema no hay lugar para la queja, se da por sentado que las mujeres están hechas para asumir la crianza a pesar de las pocas o nulas herramientas que el Estado o la sociedad les da para ejercer la maternidad.”. No quinto quadro, acima do desenho de homens, mulheres, crianças e bebês reunidos lado a lado, está a seguinte frase, em destaque: “Para maternar se necesita una tribu, la crianza no debería vivirse en soledad.”. No sexto quadro, há o logotipo “MURIG (Mujeres en Red para la Igualdad de Género)”, representado pelo desenho estilizado de quatro mulheres dançando, lado a lado.]\nNessa tirinha, o comportamento da mulher expressa"
+    },
+    {
+      "id": "gq_7d74fbcf4f90b977e3be4b7f",
+      "year": 2022,
+      "position": 44,
+      "language": "pt",
+      "tardelli": "2022|regular|1|9|44",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nO texto sobre os chamados nativos digitais traz informações com a função de",
+      "question_after": "[Descrição da imagem: Texto intitulado Manual de Orientação: o primeiro guia prático da Sociedade Brasileira de Pediatria para ajudar pais e pediatras no desafio de educar nativos digitais. Na sequência, entre duas linhas pontilhadas e onduladas, está escrito: “Trabalho de base”. Logo abaixo, acompanhadas de imagens, há três colunas com informações de acordo com três faixas etárias de crianças. “Até 2 anos: A criança não deve ser exposta passivamente às telas — TV, tablet, celular etc.—, principalmente durante as refeições e até 2 horas antes de dormir.”. “De 2 a 5 anos: O tempo de exposição às telas deve ser limitado a 1 hora por dia. Crianças dessa faixa etária devem ser mais protegidas da violência virtual, pois não sabem separar fantasia de realidade.”. “Até 10 anos: Devem ter acesso controlado a computadores e dispositivos móveis. Crianças de até 10 anos não devem usar TV ou computador no próprio quarto.”.]\nO texto sobre os chamados nativos digitais traz informações com a função de"
+    },
+    {
+      "id": "gq_d380df37c15e52784158af3d",
+      "year": 2022,
+      "position": 59,
+      "language": "pt",
+      "tardelli": "2022|regular|1|9|59",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nUma característica regional que justifica o maior potencial anual médio para o aproveitamento da energia solar é a reduzida",
+      "question_after": "[Descrição da imagem: Mapa do Brasil intitulado Radiação solar global horizontal — média anual apresenta manchas que mensuram a gradação de quilowatt-hora por metro quadrado e mostra a menor gradação na Amazônia e na região litorânea, gradação média na região central e a maior gradação no interior da Região Nordeste, norte de Minas Gerais, Goiás e sul do Tocantins.]\nUma característica regional que justifica o maior potencial anual médio para o aproveitamento da energia solar é a reduzida"
+    },
+    {
+      "id": "gq_14bd3f4795a565ff7e2446ed",
+      "year": 2022,
+      "position": 75,
+      "language": "pt",
+      "tardelli": "2022|regular|1|9|75",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nO ápice da ilustração se traduz por uma conduta social caracterizada pela",
+      "question_after": "[Descrição da imagem: Infográfico apresenta uma espiral ascendente na seguinte sequência: LUA DE MEL, TENSÃO, AGRESSÃO, LUA DE MEL, TENSÃO, AGRESSÃO, numa incidência recorrente, até LUA DE MEL, TENSÃO e MORTE. A legenda da ilustração apresenta as seguintes informações: LUA DE MEL: carinho, paixão, presentes, promessas, reconciliação, liberdade; TENSÃO: insulto, humilhação, intimidação, gritos, ameaça, controle, isolamento, medo, conflitos, descumprimento de promessa; AGRESSÃO: empurrão, beliscão, puxão de cabelo, sufocamento, arremesso de objetos, tapa, chute, espancamento.]\nO ápice da ilustração se traduz por uma conduta social caracterizada pela"
+    },
+    {
+      "id": "gq_e50020b4f5c0d5824364a001",
+      "year": 2022,
+      "position": 90,
+      "language": "pt",
+      "tardelli": "2022|regular|1|9|90",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nA intensificação da ocupação urbana demonstrada afeta de forma imediata o(a)",
+      "question_after": "[Descrição da imagem: Infográfico distribuído em quatro quadros com os seguintes dados: Quadro 1: Figura de uma paisagem com árvores, arbustos e vegetação rasteira, denominada “Cobertura natural do solo”, apresenta as seguintes setas: da superfície do solo para cima, denominada “Evapotranspiração: 40 por cento”; acima do solo para a esquerda, denominada “Escoamento superficial: 10 por cento”; abaixo do solo para a esquerda, denominada “Infiltração subsuperficial: 25 por cento”; da superfície do solo para baixo, denominada “Percolação profunda: 25 por cento”. Quadro 2: Figura de uma paisagem com árvores, arbustos, vegetação rasteira e uma casa, denominada “10 por cento a 20 por cento de superfície impermeável”, apresenta as seguintes setas: da superfície do solo para cima, denominada “Evapotranspiração: 38 por cento”; acima do solo para a esquerda, denominada “Escoamento superficial: 20 por cento”; abaixo do solo para a esquerda, denominada “Infiltração subsuperficial: 21 por cento”; da superfície do solo para baixo, denominada “Percolação profunda: 21 por cento”.]\nA intensificação da ocupação urbana demonstrada afeta de forma imediata o(a)"
+    },
+    {
+      "id": "gq_bdddf3dcae68404b076f8cfe",
+      "year": 2023,
+      "position": 3,
+      "language": "en",
+      "tardelli": "2023|regular|1|9|3",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nEsse cartaz de campanha sugere que",
+      "question_after": "[Descrição do cartaz: Foto de parte de um lixão, com a frase \"Food for thought\" escrita entre sacos de lixo e restos de alimentos. Abaixo da foto, o texto: \"The average American tosses 300 pounds of food each year, making food the number one contributor to America's landfills. Eat your leftlovers and keep your perishables in the fridge - the Earth is counting on it\".]\nEsse cartaz de campanha sugere que"
+    },
+    {
+      "id": "gq_7f3d5f52be33c12b0ab35085",
+      "year": 2023,
+      "position": 4,
+      "language": "en",
+      "tardelli": "2023|regular|1|9|4",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nAo retratar o ambiente de trabalho em um escritório, esse cartum tem por objetivo",
+      "question_after": "[Descrição do cartum: Em um escritório, dois homens circulam segurando papéis e pastas, outros conversam em pares e um está trabalhando em um computador. Todos têm as mesmas feições e características físicas, e usam ternos, gravatas e sapatos iguais. Abaixo da imagem, o texto: \"Oh, you'll love working here. Nobody treats you any differently just because of your age, race, or gender\".]\nAo retratar o ambiente de trabalho em um escritório, esse cartum tem por objetivo"
+    },
+    {
+      "id": "gq_16049b16603e7c9d7ca44a7a",
+      "year": 2023,
+      "position": 29,
+      "language": "pt",
+      "tardelli": "2023|regular|1|9|29",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nEsse anúncio publicitário, veiculado durante o contexto da pandemia de covid-19, tem por finalidade",
+      "question_after": "[Descrição da peça publicitária: À esquerda da imagem, há três mulheres: uma asiática, uma negra e uma branca. Elas estão de máscaras que cobrem nariz e boca e olham para frente com expressão de confiança. Acima delas, está escrito: \"Hashtag Juntas Somos Mais Fortes - Disque 180.\" À direita da imagem, há o texto: \"A Defensoria não para! Eu uso máscara mas não me calo! Em tempos de isolamento social por conta da pandemia de covid-19, a Defensoria Pública alerta para o aumento da violência contra a mulher! Não se cale! Denuncie!\".]\nEsse anúncio publicitário, veiculado durante o contexto da pandemia de covid-19, tem por finalidade"
+    },
+    {
+      "id": "gq_5972b4f98b5ab23d0354c7e7",
+      "year": 2023,
+      "position": 59,
+      "language": "pt",
+      "tardelli": "2023|regular|1|9|59",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nA charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela",
+      "question_after": "[Descrição da charge: A charge, da artista Laerte, apresenta três quadrinhos de uma mulher sentada no chão segurando uma lâmpada mágica do Gênio. No primeiro quadrinho, a mulher pede para a lâmpada: “Eu queria poder.”. No segundo quadrinho, a lâmpada questiona: “Força? Visão de raio X? Telecinese? Telepatia?”. No terceiro quadrinho, a mulher responde: “Poder político.”.]\nA charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela"
+    },
+    {
+      "id": "gq_b8ad06001c64c10eec3afb66",
+      "year": 2023,
+      "position": 66,
+      "language": "pt",
+      "tardelli": "2023|regular|1|9|66",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nQual medida é capaz de minimizar as mudanças apresentadas nas simulações?",
+      "question_after": "[Descrição do infográfico: O infográfico representa simulações em duas sequências de mapas-múndi. A primeira sequência de mapas, intitulada Simulação de mudança da temperatura média anual em relação ao período pré-industrial em três cenários de aquecimento global, é constituída de três mapas-múndi, que apresentam variação da média do aquecimento global em 1,5 grau, 2 graus e 4 graus Celsius. Há uma escala de tonalidade indicando o aumento de temperatura, que varia de 0 a 7 graus Celsius, evidenciando um aumento da temperatura em regiões da Terra nos três cenários apresentados, especialmente nas regiões polares. A segunda sequência de mapas, intitulada Simulação de mudança da pluviosidade média anual em relação ao período pré-industrial em três cenários de aquecimento global, é constituída de três mapas-múndi, que apresentam variação da média do aquecimento global em 1,5 grau, 2 graus e 4 graus Celsius. Há uma escala de variação em percentual das chuvas, que começa em menos 40 por cento (mais seco) até mais 40 por cento (mais úmido), indicando uma diminuição das chuvas, principalmente nas médias latitudes, e um aumento das chuvas, especialmente nas altas latitudes e em porções da Zona Equatorial da Terra.]\nQual medida é capaz de minimizar as mudanças apresentadas nas simulações?"
+    },
+    {
+      "id": "gq_b1f226005378c605ab73aec6",
+      "year": 2023,
+      "position": 86,
+      "language": "pt",
+      "tardelli": "2023|regular|1|9|86",
+      "identificacao": "posicao_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[[placeholder]]\nQual fator foi determinante para a mudança do indicador apresentado no gráfico?",
+      "question_after": "[Descrição do gráfico: Intitulado Taxa de fecundidade no Brasil, o gráfico de barras verticais indica o número de filhos por mulher, a cada década, de 1960 até 2050. Há um recorte no gráfico destacando que, nas décadas de 1960 até 2020, o número de filhos por mulher diminuiu de 6,3 para 1,5.]\nQual fator foi determinante para a mudança do indicador apresentado no gráfico?"
+    },
+    {
+      "id": "gq_f9dd1e4c518e111604164934",
+      "year": 2020,
+      "position": 51,
+      "language": "pt",
+      "tardelli": "2020|regular|1|9|47",
+      "identificacao": "alternativas_identicas_e_gabarito",
+      "regra": "substitui_marcador",
+      "n_figuras": 1,
+      "question_before": "[IMAGEM: Zona de pastoreio e cultura do algodão e cereais do agreste (1963)]\nANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963.\nA dinâmica produtiva apresentada na imagem tem como estratégia central a",
+      "question_after": "[Descrição da imagem: Representação que trata da zona de pastoreio e cultura do algodão e cereais do agreste (1963). A figura ilustra os meses do ano em três eixos referentes às culturas do feijão, do milho e do algodão, indicando para cada cultura as convenções de pastoreio, plantio e limpa, crescimento, colheita de feijão, colheita de milho verde, colheita de milho seco e colheita de algodão, apresentando os seguintes dados: O pastoreio ocorre em janeiro e fevereiro na cultura do feijão, em janeiro e fevereiro na cultura do milho e em janeiro e fevereiro na cultura do algodão.]\nANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963.\nA dinâmica produtiva apresentada na imagem tem como estratégia central a"
+    },
+    {
+      "id": "gq_ff7ad93943becbdb0a71f121",
+      "year": 2021,
+      "position": 33,
+      "language": "pt",
+      "tardelli": "2021|regular|1|9|15",
+      "identificacao": "alternativas_e_gabarito",
+      "regra": "insere_no_inicio",
+      "n_figuras": 1,
+      "question_before": "O que assegura o reconhecimento desse texto em quadrinhos como prefácio é o(a)",
+      "question_after": "[Descrição da imagem: História em seis quadrinhos. Quadrinho 1: Uma jovem, em meio a vários livros, está com o rosto imerso em um livro e lê: “A pesquisa foi o primeiro passo na produção deste livro”. Ao lado dela, uma senhora próxima a outros livros, diz: “Deixa de drama, a maior parte do material está on-line.”. Quadrinho 2: Observada por uma mulher, a jovem está concentrada na tela de um notebook, ao lado, o texto: “Seguida da seleção das informações e da elaboração de um roteiro.”. Quadrinho 3: A jovem, com um pincel na mão, diz a uma mulher: “Não olhe ainda!”. Acima da jovem, o texto: “O desenho feito à tinta”. Quadrinho 4: Duas mãos seguram mouses e um cursor aponta para um desenho, acima do qual está o texto: “E depois editado e colorizado digitalmente.”. Ao lado, a jovem observa um outro desenho, enquanto uma mulher aponta para o desenho colorizado. Quadrinho 5: A jovem, observada por uma senhora, parece ter caído ao chão, tem as pernas para cima e faz um sinal de “joinha” com o polegar. Acima delas, o texto: “Depois de todo o trabalho, este livro só precisa de mais uma coisa:” Quadrinho 6: Um homem e uma mulher seguram, juntos, o livro. Ao lado, o texto: “ser lido.”.]\nO que assegura o reconhecimento desse texto em quadrinhos como prefácio é o(a)"
+    }
+  ],
+  "registros_novos": [
+    {
+      "id": "gq_6abc00287d3be81277b217ac",
+      "year": 2022,
+      "position": 128,
+      "co_item": "81969",
+      "answer": "A",
+      "skill": "21"
+    },
+    {
+      "id": "gq_26d9c95cb276ef63bb3d9e37",
+      "year": 2022,
+      "position": 131,
+      "co_item": "111558",
+      "answer": "D",
+      "skill": "21"
+    },
+    {
+      "id": "gq_74bbe9f6c30c1abda6a261f6",
+      "year": 2024,
+      "position": 93,
+      "co_item": "141775",
+      "answer": "B",
+      "skill": "13"
+    },
+    {
+      "id": "gq_0d3ce57c3b9af45f5057bcb2",
+      "year": 2024,
+      "position": 122,
+      "co_item": "141621",
+      "answer": "A",
+      "skill": "20"
+    },
+    {
+      "id": "gq_ccc0ea12c1944c9baad5d6b4",
+      "year": 2024,
+      "position": 128,
+      "co_item": "68866",
+      "answer": "E",
+      "skill": "21"
+    },
+    {
+      "id": "gq_f3750e5faffeb8a8f9703298",
+      "year": 2024,
+      "position": 180,
+      "co_item": "141550",
+      "answer": "B",
+      "skill": "15"
+    }
+  ],
+  "descricoes_de_ia_removidas": [
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "7ead6d13286ba1d0497768328c2e2168008c9c92fc035a11e53c34892a094125",
+        "association_basis": "same_ocr_record",
+        "id": "desc_a2a435bc8fdb34fcde436681",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 0,
+        "text": "A imagem é uma tira de quadrinhos em preto e branco, composta por dois personagens sentados em uma mesa cheia de livros e papéis espalhados. O personagem à esquerda está segurando um livro aberto à sua frente, com a cabeça parcialmente coberta pelo livro, sugerindo que está lendo ou estudando. O personagem à direita está lendo um livro, com a cabeça inclinada para baixo.\n\nHá dois balões de fala na imagem. O balão do personagem à esquerda diz: \"A PESQUISA FOI O PRIMEIRO PASSO NA PRODUÇÃO DESTE LIVRO\". O balão do personagem à direita responde: \"DEIXA DE DRAMA, A MAIOR PARTE DO MATERIAL ESTÁ ON-LINE.\"\n\nA cena sugere uma conversa sobre o processo de pesquisa e produção de um livro, destacando a diferença entre o uso de materiais físicos e digitais. A mesa está cheia de livros empilhados e papéis, indicando um ambiente de estudo ou trabalho acadêmico."
+      }
+    },
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "a1d412952e5e49c5f38478696f25e3bda196402952b15a9c0f7c7bb1a05346bf",
+        "association_basis": "same_ocr_record",
+        "id": "desc_fa8ce45dbd3e429bc2873ffe",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 1,
+        "text": "O elemento visual é uma ilustração em preto e branco que mostra duas pessoas sentadas lado a lado em uma mesa, ambas olhando para a tela de um laptop que está à sua frente. A pessoa à esquerda está com o braço apoiado na mesa, enquanto a pessoa à direita está com o braço direito levantado, com o punho fechado, como se estivesse explicando ou enfatizando algo. Acima das duas pessoas, há um texto escrito em letras maiúsculas que diz: \"SEGUIDA DA SELEÇÃO DAS INFORMAÇÕES E DA ELABORAÇÃO DE UM ROTEIRO\". A imagem sugere um momento de trabalho colaborativo, possivelmente relacionado à organização e planejamento de um roteiro, após a etapa de seleção das informações."
+      }
+    },
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "7cb80d09a80fba003f9121140e43ccf51b82cb57d8eb463f7e8465f43b4e848f",
+        "association_basis": "same_ocr_record",
+        "id": "desc_954df2e8166fc65ed3ed4784",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 2,
+        "text": "A imagem é uma tira de quadrinhos em preto e branco, dividida em dois quadros.\n\nNo primeiro quadro, há uma pessoa sentada em frente a um notebook, com o braço esquerdo apoiado na mesa e a mão direita levantada, apontando para a tela. Acima dessa pessoa, há um texto escrito em letras maiúsculas que diz: \"SEGUIDA DA SELEÇÃO DAS INFORMAÇÕES E DA ELABORAÇÃO DE UM ROTEIRO\".\n\nNo segundo quadro, aparecem duas pessoas. Uma delas está segurando um pincel e fazendo um desenho, enquanto a outra está ao lado, com a mão direita levantada em um gesto de \"pare\" ou \"não\". A pessoa que está desenhando diz: \"O DESENHO FEITO À TINTA\". A outra pessoa responde: \"NÃO OLHA AINDA!\".\n\nA cena sugere um processo criativo, onde primeiro se selecionam informações e elabora-se um roteiro, e depois se faz um desenho à tinta, com um pedido para não olhar ainda, indicando que o trabalho está em andamento."
+      }
+    },
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "887eb4494a05bede664b7a556ba1ce4f0b7491616f038b3b8e08141492c012f8",
+        "association_basis": "same_ocr_record",
+        "id": "desc_e06e0d01742ab74c39ebd94d",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 3,
+        "text": "A imagem é uma ilustração em preto e branco que mostra duas pessoas. A pessoa à esquerda está de costas, com o braço direito levantado, segurando um pincel ou caneta, aparentemente prestes a fazer um desenho. Acima dessa pessoa, há um balão de fala com o texto: \"O DESENHO FEITO À TINTA\". A pessoa à direita está de frente, com a mão esquerda apoiada no ombro da pessoa à esquerda, e tem um balão de fala que diz: \"NÃO OLHA AINDA!\". A expressão das pessoas não é visível em detalhes, mas a cena sugere que a pessoa à direita está pedindo para a outra não olhar o desenho antes de estar pronto."
+      }
+    },
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "e83fce851f4557799b470ec3edb55c1b54b7974c5828cc49f4f7a1955ea84acc",
+        "association_basis": "same_ocr_record",
+        "id": "desc_8f1089a3a3f44d08be7b1010",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 4,
+        "text": "A imagem é uma tira de quadrinhos em preto e branco, com um texto explicativo no canto superior esquerdo que diz: \"E DEPOIS EDITADO E COLORIZADO DIGITALMENTE.\"\n\nNa parte central da imagem, há duas pessoas vistas de costas, uma com cabelo cacheado e outra com cabelo curto e óculos, ambas com os braços levantados, apontando para três telas ou quadros que estão à sua frente.\n\nÀ esquerda, uma mão segura um controle remoto apontado para uma tela pequena que mostra uma cena com duas pessoas e um objeto, possivelmente um copo. No centro, uma tela maior exibe uma cena com uma pessoa subindo uma escada. À direita, outra tela mostra uma cena com várias pessoas sentadas em uma mesa, possivelmente em uma reunião ou discussão.\n\nA imagem sugere um processo de edição e colorização digital de imagens ou vídeos, ilustrando diferentes etapas ou cenas sendo manipuladas digitalmente."
+      }
+    },
+    {
+      "question_id": "gq_ff7ad93943becbdb0a71f121",
+      "description": {
+        "asset_id": "08005fcc9af0d9a8c2bca2654f143a333305152d3799e917f6443a13d392ae38",
+        "association_basis": "same_ocr_record",
+        "id": "desc_9b968011a439b64cd556ac09",
+        "origin": "VLM_generated_unreviewed",
+        "question_id": "gq_ff7ad93943becbdb0a71f121",
+        "reviewed": false,
+        "source": "candido-ai/enem-ocr",
+        "source_id": "enem_2021_q33",
+        "source_index": 5,
+        "text": "A imagem é uma tira de quadrinhos em preto e branco, dividida em duas partes.\n\nNa primeira parte, à esquerda, há uma personagem de pé, vestindo uma roupa simples, com uma expressão serena. Ela está falando e o balão de fala contém o texto: \"DEPOIS DE TODO TRABALHO, ESTE LIVRO SÓ PRECISA DE MAIS UMA COISA:\".\n\nNa segunda parte, à direita, aparecem duas pessoas sentadas lado a lado, lendo um livro. O texto ao lado delas diz: \"SER LIDO.\".\n\nA mensagem da tira sugere que, após o esforço de criar um livro, o que falta para que ele cumpra sua função é ser efetivamente lido pelas pessoas."
+      }
+    }
+  ]
+}
