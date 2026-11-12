@@ -19,8 +19,9 @@
     "faltantes_2009_2024_adicionadas",
     "versoes_adaptadas_removidas",
     "descricoes_tardelli_incorporadas_e_6_questoes_novas",
-    "descricoes_maritaca_incorporadas_3_questoes"
+    "descricoes_maritaca_incorporadas_3_questoes",
+    "descricoes_proprias_substituidas_ou_retiradas_73_questoes_fora_do_recomendador"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6"
+  "derivative_dataset_sha256": "369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65"
 }

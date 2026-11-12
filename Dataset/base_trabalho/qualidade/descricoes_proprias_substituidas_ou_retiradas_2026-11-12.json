@@ -1,0 +1,616 @@
+{
+  "resumo": {
+    "trocadas_para_tardelli": 24,
+    "retiradas_do_recomendador": 73,
+    "parent_sha256": "4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6",
+    "novo_sha256": "369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65"
+  },
+  "trocadas": [
+    {
+      "id": "gq_a546e9bba7fc2ad9aa860aa2",
+      "ano": 2019,
+      "posicao": 5,
+      "chave_tardelli": "2019|regular|1|9|3",
+      "descricoes_proprias_removidas": [
+        "[Cartum: numa sala de aula, com o quadro escrito “Back to school!”, os alunos estão sentados com livros impressos. Um estudante, segurando um livro, pergunta ao colega: “Psst! How do you turn this thing on?”]"
+      ]
+    },
+    {
+      "id": "gq_44d082c29f4919760514a7e3",
+      "ano": 2019,
+      "posicao": 26,
+      "chave_tardelli": "2019|regular|1|9|39",
+      "descricoes_proprias_removidas": [
+        "[Infográfico “DIREITO DOS IDOSOS”, com a ilustração de uma idosa lendo numa poltrona.]"
+      ]
+    },
+    {
+      "id": "gq_6ce3cc06bdc1aa102518fab1",
+      "ano": 2019,
+      "posicao": 139,
+      "chave_tardelli": "2019|regular|2|11|177",
+      "descricoes_proprias_removidas": []
+    },
+    {
+      "id": "gq_b7c03f494150195b6dfaca85",
+      "ano": 2019,
+      "posicao": 146,
+      "chave_tardelli": "2019|regular|2|11|142",
+      "descricoes_proprias_removidas": [
+        "[Gráfico com a previsão para 15 dias, temperatura (°C) em linha contínua e umidade relativa do ar (%) em linha pontilhada, na mesma escala de 0 a 60. Temperatura por dia, do dia 1 ao 15: cerca de 6, 10, 10, 14, 15, 21, 20, 27, 27, 31, 32, 40, 42, 30, 28. Umidade por dia: cerca de 35, 13, 22, 25, 30, 24, 30, 32, 40, 42, 47, 20, 40, 33, 40.]"
+      ]
+    },
+    {
+      "id": "gq_066314bf1f8f941709b79096",
+      "ano": 2019,
+      "posicao": 169,
+      "chave_tardelli": "2019|regular|2|11|164",
+      "descricoes_proprias_removidas": [
+        "[Gráfico no plano cartesiano, em km: usuário P na origem (0, 0); usuários Q em (3, 7), R em (6, 7) e S em (5, 3); bares I em (5, 6), II em (4, 5), III em (5, 5), IV em (4, 6) e V em (3, 4).]"
+      ]
+    },
+    {
+      "id": "gq_f2397084cdb1812161183ab0",
+      "ano": 2019,
+      "posicao": 172,
+      "chave_tardelli": "2019|regular|2|11|167",
+      "descricoes_proprias_removidas": [
+        "[Gráfico de unidades vendidas por mês: julho 700, agosto 2 500, setembro 2 500, outubro 2 800 e novembro 2 700.]"
+      ]
+    },
+    {
+      "id": "gq_ff4804ffa37905e4b882d5f6",
+      "ano": 2020,
+      "posicao": 65,
+      "chave_tardelli": "2020|regular|1|9|89",
+      "descricoes_proprias_removidas": [
+        "[Mapa do Brasil com a Região Centro-Oeste destacada e as rodovias federais que a cortam: as longitudinais BR-163, BR-158 e BR-153, que ligam o Centro-Oeste ao Norte e ao Sudeste; a diagonal BR-364, que vai do Sudeste ao Acre passando pelo Centro-Oeste; e a radial BR-070, que liga Brasília ao Mato Grosso.]"
+      ]
+    },
+    {
+      "id": "gq_3e9228800beb443e6658478c",
+      "ano": 2020,
+      "posicao": 148,
+      "chave_tardelli": "2020|regular|2|11|175",
+      "descricoes_proprias_removidas": [
+        "[Gráfico de colunas — Jovens em atividade entre 15 e 29 anos (%): somente estuda 21,6; trabalha e estuda 13,6; somente trabalha 45,2; não trabalha nem estuda 19,6.]"
+      ]
+    },
+    {
+      "id": "gq_a9f084a58b8771b966d8a3a6",
+      "ano": 2020,
+      "posicao": 164,
+      "chave_tardelli": "2020|regular|2|11|157",
+      "descricoes_proprias_removidas": [
+        "[Gráfico do ruído (decibéis) ao longo das 24 horas do dia, com uma linha horizontal em 55 dB. A curva fica acima de 55 dB das 2 h às 5 h, das 6 h às 9 h, das 11 h às 14 h, das 16 h às 17 h e das 19 h às 22 h; nos outros horários, fica abaixo.]"
+      ]
+    },
+    {
+      "id": "gq_fc1bce39e7e2a7b36b9015d3",
+      "ano": 2021,
+      "posicao": 5,
+      "chave_tardelli": "2021|regular|1|9|3",
+      "descricoes_proprias_removidas": [
+        "[Charge: dois homens sentados a uma mesa de bar; um deles lê o jornal. Ao lado, uma lista de palavras: guerra, crisis, inseguridad, miseria, violencia, lujo obsceno. Um dos homens exclama: “¡Por Dios! ¿Qué le ha pasado al mundo?”. O outro responde: “Nosotros.”]"
+      ]
+    },
+    {
+      "id": "gq_3e6d9dd553fdb6652af9e59e",
+      "ano": 2021,
+      "posicao": 36,
+      "chave_tardelli": "2021|regular|1|9|23",
+      "descricoes_proprias_removidas": [
+        "[Imagem: obra em forma de máscara, feita com a parte de um galão de plástico recortado, que forma o rosto, e muitas tiras de tecido e plástico penduradas em volta, como cabelos.]"
+      ]
+    },
+    {
+      "id": "gq_c43c6eeeacd38163e603b4a6",
+      "ano": 2021,
+      "posicao": 90,
+      "chave_tardelli": "2021|regular|1|9|47",
+      "descricoes_proprias_removidas": [
+        "[imagem: escravizados carregando barris na cabeça]"
+      ]
+    },
+    {
+      "id": "gq_432594550fb101ecf2b84758",
+      "ano": 2021,
+      "posicao": 125,
+      "chave_tardelli": "2021|regular|2|11|107",
+      "descricoes_proprias_removidas": [
+        "[Tirinha em quatro quadros: um menino e um tigre descem um morro num carrinho. Um diz: “Tá quente hoje, né?”; o outro: “É mesmo.” “Mas o que me incomoda mesmo é a umidade.” “Você não gosta de umidade?” “Não mesmo.” “Então, salta correndo.” No último quadro, o carrinho segue em direção a um lago.]"
+      ]
+    },
+    {
+      "id": "gq_3681ead3247d0be2b0e0ef8b",
+      "ano": 2021,
+      "posicao": 144,
+      "chave_tardelli": "2021|regular|2|11|171",
+      "descricoes_proprias_removidas": [
+        "[Gráfico de colunas — frequência de ocorrência por idade (ano): 9 anos, 6 alunos; 18 anos, 12 alunos; 27 anos, 9 alunos.]"
+      ]
+    },
+    {
+      "id": "gq_fc526b5097b4884d97d86535",
+      "ano": 2021,
+      "posicao": 149,
+      "chave_tardelli": "2021|regular|2|11|165",
+      "descricoes_proprias_removidas": [
+        "[Gráfico de receitas (linha contínua) e despesas (linha tracejada), em milhão de real: janeiro, receita 10 e despesa 5; fevereiro, 20 e 10; março, 15 e 10; abril, 20 e 15; maio, 28 e 25.]"
+      ]
+    },
+    {
+      "id": "gq_181cb605a66bd0c375f2db3d",
+      "ano": 2021,
+      "posicao": 150,
+      "chave_tardelli": "2021|regular|2|11|166",
+      "descricoes_proprias_removidas": [
+        "[Gráfico de linha — volume de vendas (em milhão) por ano: 2005, 236; 2006, 294; 2007, 370; 2008, 465; 2009, 519,2.]"
+      ]
+    },
+    {
+      "id": "gq_28035a9c08a952fc478c56b4",
+      "ano": 2021,
+      "posicao": 151,
+      "chave_tardelli": "2021|regular|2|11|167",
+      "descricoes_proprias_removidas": [
+        "[Histograma — Distribuição dos preços, número de imóveis por faixa: ]"
+      ]
+    },
+    {
+      "id": "gq_00e710074e833f4dbeacfbd9",
+      "ano": 2021,
+      "posicao": 177,
+      "chave_tardelli": "2021|regular|2|11|137",
+      "descricoes_proprias_removidas": [
+        "[Conta armada: 10 + 10 = 100]"
+      ]
+    },
+    {
+      "id": "gq_63e99375ed1cccf9c08d3f28",
+      "ano": 2022,
+      "posicao": 122,
+      "chave_tardelli": "2022|regular|2|11|122",
+      "descricoes_proprias_removidas": [
+        "[Penicilamina: HS–C(CH₃)₂–CH(NH₂)–COOH]"
+      ]
+    },
+    {
+      "id": "gq_f576bfa937226065d2f49d7f",
+      "ano": 2022,
+      "posicao": 123,
+      "chave_tardelli": "2022|regular|2|11|123",
+      "descricoes_proprias_removidas": [
+        "[Figura: muleta vertical apoiada no piso, com a força F aplicada no topo, para baixo, e o centro de massa CM no meio.]",
+        "[Em todas as alternativas, a muleta está inclinada, com a ponta apoiada no piso à esquerda e o topo à direita.]"
+      ]
+    },
+    {
+      "id": "gq_b2eb3f12a6eb46f39552a7fe",
+      "ano": 2023,
+      "posicao": 2,
+      "chave_tardelli": "2023|regular|1|9|2",
+      "descricoes_proprias_removidas": [
+        "[Cartaz do filme *Como estrellas en la tierra*: um menino cercado de pontos de interrogação e das frases “¿Qué me pasa?”, “¿Por qué me cuesta tanto estudiar?”, “¿Por qué me cuesta tanto concentrarme?” e “¿Por qué no consigo aprender como los demás?”.]"
+      ]
+    },
+    {
+      "id": "gq_ed8f107e030f24a1bce9ff47",
+      "ano": 2023,
+      "posicao": 98,
+      "chave_tardelli": "2023|regular|2|11|98",
+      "descricoes_proprias_removidas": [
+        "[Em todos os gráficos, P (Pa) no eixo vertical e T (K) no eixo horizontal, com T < T₀; a seta indica o sentido do processo.]"
+      ]
+    },
+    {
+      "id": "gq_58b650bdbca9ccc020898c8c",
+      "ano": 2023,
+      "posicao": 147,
+      "chave_tardelli": "2023|regular|2|11|147",
+      "descricoes_proprias_removidas": []
+    },
+    {
+      "id": "gq_cbb55dd3f9b3112e7a7e1f69",
+      "ano": 2024,
+      "posicao": 106,
+      "chave_tardelli": "2024|regular|2|11|106",
+      "descricoes_proprias_removidas": [
+        "[Esquema: duas câmaras ligadas por um fio externo e separadas por uma membrana; no ânodo, com o biofilme bacteriano, ocorre CH₃COO⁻ (aq) + 2 H₂O (l) → 2 CO₂ (g) + 7 H⁺ (aq) + 8 e⁻; no cátodo, 4 H⁺ (aq) + O₂ (g) + 4 e⁻ → 2 H₂O (l).]"
+      ]
+    }
+  ],
+  "retiradas": [
+    {
+      "id": "gq_da47eaff3afcfbb52a53df9d",
+      "ano": 2015,
+      "posicao": 4
+    },
+    {
+      "id": "gq_2feb9bf66d0e63fb49e391d0",
+      "ano": 2018,
+      "posicao": 67
+    },
+    {
+      "id": "gq_d729403b0e500b7ef02bef0a",
+      "ano": 2018,
+      "posicao": 88
+    },
+    {
+      "id": "gq_68c6ab27c7d69e5f45f44a56",
+      "ano": 2018,
+      "posicao": 74
+    },
+    {
+      "id": "gq_d950898128349ade91c2f8f9",
+      "ano": 2018,
+      "posicao": 108
+    },
+    {
+      "id": "gq_6f65aba73a261b1f76ecf795",
+      "ano": 2018,
+      "posicao": 126
+    },
+    {
+      "id": "gq_94b61f556593a5e43d64eebb",
+      "ano": 2018,
+      "posicao": 125
+    },
+    {
+      "id": "gq_b41bc92f3a7cb1e306d0a529",
+      "ano": 2020,
+      "posicao": 129
+    },
+    {
+      "id": "gq_0ce5fd505c584ea4d64913b3",
+      "ano": 2020,
+      "posicao": 130
+    },
+    {
+      "id": "gq_ac75ef29197193cdaa03a271",
+      "ano": 2021,
+      "posicao": 119
+    },
+    {
+      "id": "gq_ed8c30e36499fda6877594ce",
+      "ano": 2022,
+      "posicao": 67
+    },
+    {
+      "id": "gq_914a44086aa0829a5ccc83ac",
+      "ano": 2018,
+      "posicao": 56
+    },
+    {
+      "id": "gq_7da2da104abc973c43fcc9e6",
+      "ano": 2018,
+      "posicao": 91
+    },
+    {
+      "id": "gq_861f612742832f3234cbdaab",
+      "ano": 2018,
+      "posicao": 117
+    },
+    {
+      "id": "gq_af3be6736f91210ef50b9438",
+      "ano": 2018,
+      "posicao": 127
+    },
+    {
+      "id": "gq_578e44a2ef26769cc3b28e5b",
+      "ano": 2018,
+      "posicao": 128
+    },
+    {
+      "id": "gq_2952bf24b1b206ebd78157a2",
+      "ano": 2018,
+      "posicao": 173
+    },
+    {
+      "id": "gq_bec8c844e548afe0679db66e",
+      "ano": 2021,
+      "posicao": 105
+    },
+    {
+      "id": "gq_94294eb1a664a46bbd9feea5",
+      "ano": 2021,
+      "posicao": 161
+    },
+    {
+      "id": "gq_dfde1d00de3886cb28d50ec6",
+      "ano": 2021,
+      "posicao": 162
+    },
+    {
+      "id": "gq_b3f4d87713428ec3fdf624df",
+      "ano": 2009,
+      "posicao": 21
+    },
+    {
+      "id": "gq_00896049b2235e7e862c95e0",
+      "ano": 2009,
+      "posicao": 36
+    },
+    {
+      "id": "gq_c0b480924539887ca513696b",
+      "ano": 2009,
+      "posicao": 85
+    },
+    {
+      "id": "gq_c2d8812b0051ba78940a1381",
+      "ano": 2009,
+      "posicao": 91
+    },
+    {
+      "id": "gq_18a7f399d7f4bff113312dbd",
+      "ano": 2010,
+      "posicao": 80
+    },
+    {
+      "id": "gq_731faf4214e9c5d93cfcdbe8",
+      "ano": 2010,
+      "posicao": 100
+    },
+    {
+      "id": "gq_c8b16cb4984579b47c899489",
+      "ano": 2010,
+      "posicao": 136
+    },
+    {
+      "id": "gq_921fc6f579c28ce62746e27a",
+      "ano": 2010,
+      "posicao": 142
+    },
+    {
+      "id": "gq_b92a52afc2699dd9f45be661",
+      "ano": 2011,
+      "posicao": 2
+    },
+    {
+      "id": "gq_5eec6b910f9d0ca402ff2887",
+      "ano": 2011,
+      "posicao": 5
+    },
+    {
+      "id": "gq_1d4a1eaafb76bc2b0f39ffe1",
+      "ano": 2011,
+      "posicao": 9
+    },
+    {
+      "id": "gq_0ff08a841d3f5740ef8053c9",
+      "ano": 2011,
+      "posicao": 14
+    },
+    {
+      "id": "gq_748778361e9bce2c40b907e6",
+      "ano": 2011,
+      "posicao": 21
+    },
+    {
+      "id": "gq_321aa964361dae0708bc3a8a",
+      "ano": 2011,
+      "posicao": 30
+    },
+    {
+      "id": "gq_83fff1f073b8eb46b45647a8",
+      "ano": 2011,
+      "posicao": 38
+    },
+    {
+      "id": "gq_30e56f9f06a8fad6729297b1",
+      "ano": 2011,
+      "posicao": 41
+    },
+    {
+      "id": "gq_335aa51b09a3113eb745cf99",
+      "ano": 2011,
+      "posicao": 45
+    },
+    {
+      "id": "gq_a733bd9c6cd3db9ce74a4287",
+      "ano": 2011,
+      "posicao": 92
+    },
+    {
+      "id": "gq_346b053005a2893adc160ee1",
+      "ano": 2011,
+      "posicao": 93
+    },
+    {
+      "id": "gq_089e7eda122884dc8585a19d",
+      "ano": 2011,
+      "posicao": 95
+    },
+    {
+      "id": "gq_a1213466c0d50dbc31b55811",
+      "ano": 2011,
+      "posicao": 178
+    },
+    {
+      "id": "gq_e3d62a5745e2f1835dae3dd5",
+      "ano": 2012,
+      "posicao": 55
+    },
+    {
+      "id": "gq_dc92828e842397d94b1eacc1",
+      "ano": 2012,
+      "posicao": 60
+    },
+    {
+      "id": "gq_837892a93022f0b7882f094d",
+      "ano": 2012,
+      "posicao": 78
+    },
+    {
+      "id": "gq_4cfacd24b30fa3dcd1c7ebbd",
+      "ano": 2012,
+      "posicao": 94
+    },
+    {
+      "id": "gq_62eb37a1644eb521e687b450",
+      "ano": 2012,
+      "posicao": 143
+    },
+    {
+      "id": "gq_e6dae0cd121d58488b569d18",
+      "ano": 2012,
+      "posicao": 153
+    },
+    {
+      "id": "gq_09a616100c79b71833d80198",
+      "ano": 2012,
+      "posicao": 156
+    },
+    {
+      "id": "gq_71e38ba1fff5e01a679d57ae",
+      "ano": 2012,
+      "posicao": 165
+    },
+    {
+      "id": "gq_14ca08364f3707143324e105",
+      "ano": 2012,
+      "posicao": 169
+    },
+    {
+      "id": "gq_ac50e97b35136669a3859f37",
+      "ano": 2012,
+      "posicao": 170
+    },
+    {
+      "id": "gq_dbbaf77b9ef8f6c144d190a0",
+      "ano": 2013,
+      "posicao": 55
+    },
+    {
+      "id": "gq_73c534b782fc2e2610570df7",
+      "ano": 2013,
+      "posicao": 68
+    },
+    {
+      "id": "gq_6861aecbf7b92f2a79e3f439",
+      "ano": 2013,
+      "posicao": 87
+    },
+    {
+      "id": "gq_5dd1a8e18337501c65b51f29",
+      "ano": 2013,
+      "posicao": 154
+    },
+    {
+      "id": "gq_c597c6afbb5012dc05e3c503",
+      "ano": 2013,
+      "posicao": 180
+    },
+    {
+      "id": "gq_a96ca8be1dd55c6691d0a3ae",
+      "ano": 2014,
+      "posicao": 16
+    },
+    {
+      "id": "gq_9891c93576936b1ab5b3be59",
+      "ano": 2014,
+      "posicao": 64
+    },
+    {
+      "id": "gq_95804fb2fdca58da2e5b6754",
+      "ano": 2014,
+      "posicao": 65
+    },
+    {
+      "id": "gq_71f8afb24d50a05187412796",
+      "ano": 2014,
+      "posicao": 67
+    },
+    {
+      "id": "gq_615b74765bca08f315258e87",
+      "ano": 2014,
+      "posicao": 143
+    },
+    {
+      "id": "gq_bbfdeee97f023efa5a0f22d0",
+      "ano": 2014,
+      "posicao": 144
+    },
+    {
+      "id": "gq_7aa75934e38b9910d8c18d55",
+      "ano": 2014,
+      "posicao": 148
+    },
+    {
+      "id": "gq_f58f7b4e8b9613cd1367f38c",
+      "ano": 2014,
+      "posicao": 165
+    },
+    {
+      "id": "gq_daba4aec0766bad92c1dc582",
+      "ano": 2015,
+      "posicao": 48
+    },
+    {
+      "id": "gq_80a8025c0712318fd6207738",
+      "ano": 2015,
+      "posicao": 154
+    },
+    {
+      "id": "gq_a7b99d7a4540157ef02a4361",
+      "ano": 2015,
+      "posicao": 176
+    },
+    {
+      "id": "gq_d42bd75c0b75753a582712f7",
+      "ano": 2020,
+      "posicao": 113
+    },
+    {
+      "id": "gq_2bd7046d14a2e96ca69a34df",
+      "ano": 2020,
+      "posicao": 166
+    },
+    {
+      "id": "gq_494bed1c40362c00cc855bce",
+      "ano": 2020,
+      "posicao": 171
+    },
+    {
+      "id": "gq_0f24c47587ef06ebb6ab4ca1",
+      "ano": 2022,
+      "posicao": 1
+    },
+    {
+      "id": "gq_2d27c6c2b5fe50507d7d473a",
+      "ano": 2022,
+      "posicao": 5
+    },
+    {
+      "id": "gq_3cb1d0e81bf1540cab958e8a",
+      "ano": 2023,
+      "posicao": 164
+    }
+  ],
+  "nao_trocadas_motivo": [
+    {
+      "id": "gq_bec8c844e548afe0679db66e",
+      "motivo": "alternativas continuam com descrição própria (Tardelli não descreve cada alternativa)"
+    },
+    {
+      "id": "gq_94294eb1a664a46bbd9feea5",
+      "motivo": "ordem das alternativas não confirmada"
+    },
+    {
+      "id": "gq_dfde1d00de3886cb28d50ec6",
+      "motivo": "ordem das alternativas não confirmada"
+    },
+    {
+      "id": "gq_0f24c47587ef06ebb6ab4ca1",
+      "motivo": "idioma: o Tardelli casou com a versão em inglês"
+    },
+    {
+      "id": "gq_2d27c6c2b5fe50507d7d473a",
+      "motivo": "idioma: o Tardelli casou com a versão em inglês"
+    },
+    {
+      "id": "gq_3cb1d0e81bf1540cab958e8a",
+      "motivo": "alternativas continuam com descrição própria (Tardelli não descreve cada alternativa)"
+    }
+  ]
+}

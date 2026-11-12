@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.443 elegíveis
-para recomendação por texto (2.094 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.370 elegíveis
+para recomendação por texto (2.021 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6.
+369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65.
+Versão de 12/11/2026 (descrições próprias retiradas): 4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6.
 Versão de 12/11/2026 (descrições do Tardelli): f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
 Versão de 12/11/2026 (descrições do Tardelli, 1ª parte): f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd.
 Versão de 12/11/2026 (versões adaptadas removidas): 8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089.
@@ -265,6 +266,17 @@ Maritaca marca como `ledor=false`; a descrição transcreve a carta e é coerent
 está anotado no registro. Log em qualidade/descricoes_maritaca_incorporadas_2026-11-12.json.
 
 Efeito: elegíveis de 2.440 para 2.443 (validação 175, teste 174).
+
+## Descrições próprias substituídas ou retiradas (12/11/2026)
+Regra adotada: o recomendador só usa descrição de imagem vinda de fonte confiável (audiodescrição do ledor INEP
+via Tardelli, ou Maritaca). Das 97 questões elegíveis que ainda tinham descrição de figura escrita por nós (IA):
+- 24 tiveram a descrição própria trocada pela do Tardelli (casamento por texto e gabarito conferidos);
+- 73 saíram do recomendador (continuam na base, com quality_review.status = figure_description_not_from_reliable_source,
+  text_experiment_eligible = false e ready_text = false), pois não há descrição confiável: 2009–2015 e 2018 (sem fonte),
+  parte de 2020–2023, e casos em que o Tardelli não descreve cada alternativa (2021 pos. 105/161/162, 2023 pos. 164)
+  ou casou com a versão em inglês (2022 pos. 1 e 5).
+Tabelas, quadros e fórmulas escritas como texto continuam como estão (são transcrição, não descrição de imagem).
+Efeito: elegíveis de 2.443 para 2.370 (treino 2.021, validação 175, teste 174). Log: qualidade/descricoes_proprias_substituidas_ou_retiradas_2026-11-12.json.
 
 ## Problemas conhecidos (próxima revisão)
 
