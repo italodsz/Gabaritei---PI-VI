@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.083 elegíveis
-para recomendação por texto (1.826 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.084 elegíveis
+para recomendação por texto (1.827 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
+c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
+Versão de 12/11/2026 (lote 4): 7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
 Versão de 12/11/2026 (defeitos de texto, lote 3): f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
 Versão de 12/11/2026 (títulos em negrito): 09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
 Versão de 12/11/2026 (pendências, lote 2): 09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
@@ -148,11 +149,24 @@ Antes e depois em qualidade/alteracoes_lote4_2026-11-12.json. Gabarito, TRI, co_
 
 Efeito na lista de elegíveis: 2.080 para 2.083 (treino 1.823 para 1.826).
 
+## Lote 5 (12/11/2026)
+
+Antes e depois em qualidade/alteracoes_lote5_2026-11-12.json. Gabarito, TRI, co_item e split não mudaram.
+
+- 2021 q8 (LC) remontada pela prova: o registro tinha o título da questão 9 e alternativas de outra
+  questão; agora tem o texto do documentário *O menino que fez um museu*, o comando e as
+  alternativas da prova (gabarito C). Volta para a recomendação.
+- Fórmulas achatadas encontradas por busca automática nas elegíveis: 2009 q30 e q38, 2015 q157,
+  2016 q151 e q163 (2ª aplicação), 2018 q114 (equação da glicose), 2019 q137, 2020 q128, 2022 q126.
+  As de 2009 e 2016 não foram conferidas na prova (conversão de notação sem ambiguidade).
+
+Efeito na lista de elegíveis: 2.083 para 2.084 (treino 1.826 para 1.827).
+
 ## Problemas conhecidos (próxima revisão)
 
 - A questão de genética (pólen de pequizeiros) que estava no registro da 2018 q126 não tem registro
   próprio na base.
-- 2021 q8 está com o texto de outras questões (fora da recomendação).
-- Faltam na base as questões 5 de espanhol de 2018 e de 2021.
-- Outras questões com fórmulas achatadas, fora das 49 conferidas.
+- Faltam na base 7 questões de espanhol: 2018 q2 e q5 e 2021 q1 a q5 (precisam dos dados do INEP:
+  co_item, gabarito, habilidade e TRI).
+- A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
