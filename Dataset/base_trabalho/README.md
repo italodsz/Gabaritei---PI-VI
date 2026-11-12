@@ -191,7 +191,7 @@ Efeito: 2.978 para 2.997 questões; elegíveis de 2.091 para 2.110 (todas no tre
 
 ## Questões faltantes de 2009 a 2024 adicionadas (12/11/2026)
 
-Cruzamento da base com os microdados do INEP (ITENS_PROVA de 2009 a 2024, sem 2018 e 2021) mostrou 120
+Cruzamento da base com os microdados do INEP (ITENS_PROVA de 2009 a 2024, sem 2018 e 2021) mostrou 119
 questões válidas sem registro. Foram adicionadas 92 (2009: 4; 2010: 4; 2011: 17; 2012: 11; 2013: 7;
 2014: 8; 2015: 4; 2016: 3; 2019: 6; 2020: 11; 2022: 6; 2023: 5; 2024: 6), com texto transcrito da prova
 oficial (caderno azul) e gráficos, figuras e fórmulas descritos em texto entre colchetes. co_item,
