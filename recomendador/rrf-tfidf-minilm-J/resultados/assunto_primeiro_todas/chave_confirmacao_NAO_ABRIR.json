@@ -1,0 +1,1764 @@
+{
+ "referencias": {
+  "Língua Portuguesa": [
+   "gq_3e6410d23cf4be6054a9f4f7",
+   "gq_39d6f7af2c4b6f3fae000c2c",
+   "gq_37b14ae6a7f51a4a9fdc59fd",
+   "gq_81da11fccece8b1b0a8f2291",
+   "gq_1b4dc848112412acdee0dd33",
+   "gq_d4038a81937b6ea55a4b4647",
+   "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "gq_2824427a117816bfcd2a3f1d",
+   "gq_5c2997bb2efca7d6f0a247b5",
+   "gq_707c7c50ebe05950df85e97a",
+   "gq_2e5092f7b33f0c6adb7e441a",
+   "gq_96fc4c4b2f3ac24bcb2fa894"
+  ],
+  "Química": [
+   "gq_6865a937ccc0caec8653a9cb",
+   "gq_b2e2974da3ef7c98edc60454",
+   "gq_3f9514b3459739bc44d94e99",
+   "gq_1f392d0fa3e94ee4a2316848",
+   "gq_6fde306576368f624d027e52",
+   "gq_b1f233711963f2d5e4272e58",
+   "gq_92fba6940e1d19d238ddb781",
+   "gq_c238dd7a1a70abc6db1e19fb",
+   "gq_23abfb8dfcfee852c9032e50",
+   "gq_185dc5dabbc02f46cc865ce6",
+   "gq_ac403d88530fba7d5a61a5df",
+   "gq_6b897fba9428374974fabfd9"
+  ]
+ },
+ "itens": [
+  {
+   "item": "CP1.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_f9235abc48c5b4471ce2cec8",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP1.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_9107c5a16c918c546bc3f3e5",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP1.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_13ff79a4165c2b5afdfb32fe",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP1.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_fe2e5418fc4a0d548f9f7894",
+   "atual": 4,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP1.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_6b041be6504dddebf742dceb",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP1.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_5410f4f605792f33855992af",
+   "atual": 2,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP1.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_4f19d6c7aec545ebf923d85b",
+   "atual": 5,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP1.8",
+   "materia": "Língua Portuguesa",
+   "bloco": 1,
+   "referencia": "gq_3e6410d23cf4be6054a9f4f7",
+   "candidata": "gq_83b491bb38330367d67c9932",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP2.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_8714911d15504b04308743ac",
+   "atual": null,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP2.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_9f25831213e2626c188b2895",
+   "atual": 2,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP2.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_9dd00797ea18825a94d22152",
+   "atual": 1,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP2.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_c3cd3f0794f03ddd6555fc18",
+   "atual": 4,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP2.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_90971c0a564d4d9427279466",
+   "atual": 3,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP2.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_e4b9dcab9fd8992c1dfca9ca",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP2.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 2,
+   "referencia": "gq_39d6f7af2c4b6f3fae000c2c",
+   "candidata": "gq_746e4bf99be0f22bcb7fa33d",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP3.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_3ccd8c2c06f1ab25d41a6fff",
+   "atual": 4,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP3.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_44d082c29f4919760514a7e3",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP3.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_3e6410d23cf4be6054a9f4f7",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP3.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_4a9ca3dad76a0175788c9df9",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP3.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_e23c89463089f002a75a985a",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP3.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_dcd463506e35a6fdd20c1e07",
+   "atual": 2,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP3.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_f9235abc48c5b4471ce2cec8",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP3.8",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_675258d646f65334abc6377d",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP3.9",
+   "materia": "Língua Portuguesa",
+   "bloco": 3,
+   "referencia": "gq_37b14ae6a7f51a4a9fdc59fd",
+   "candidata": "gq_c1183a5e941c318c2198f741",
+   "atual": 1,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP4.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_2e5092f7b33f0c6adb7e441a",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP4.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_b2bd1eece6232f928f4ac150",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP4.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_46441bcf8827fce0a73b3d6a",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP4.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_0658fe9fe1366ab9ce76dbc1",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP4.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_2824427a117816bfcd2a3f1d",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP4.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_158405b72ae0a0dd913a1ae6",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP4.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 4,
+   "referencia": "gq_81da11fccece8b1b0a8f2291",
+   "candidata": "gq_7ae8591e438274091b6e2ecd",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP5.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_7b4f1e3fccdf41d29c8474f7",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP5.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_edc1777a6a9b85bdca915cfd",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP5.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_158405b72ae0a0dd913a1ae6",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP5.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_8b64a1d34319e1bd791e4b50",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP5.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_914df3aa85741338ef6a27d7",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP5.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 5,
+   "referencia": "gq_1b4dc848112412acdee0dd33",
+   "candidata": "gq_642d2a0f9a27f5acba14ade7",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP6.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_5c2997bb2efca7d6f0a247b5",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP6.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_914351510dbbfec6d35fa371",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP6.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_fb5005058f2bbf8b6ba12546",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP6.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_1361838f1b3ac00092956ae6",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP6.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_e02bf98e928f738826227eae",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP6.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_d8c02cce222dd99d13df1df7",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP6.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_ef3a0e3deade42bb3b6f3ee5",
+   "atual": 1,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP6.8",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "atual": 4,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP6.9",
+   "materia": "Língua Portuguesa",
+   "bloco": 6,
+   "referencia": "gq_d4038a81937b6ea55a4b4647",
+   "candidata": "gq_75cc3b7f3ad0405317d1a2ea",
+   "atual": 2,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP7.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_bfd5f2fed4b03daa8209f4bb",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP7.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_2c20d931235fcd7e3f6ab364",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP7.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_ee1a48631e44ca39d9500d83",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP7.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_6813b543f8b69508659211c9",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP7.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_91b6032718eec9ba9d2f2c37",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP7.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 7,
+   "referencia": "gq_ab7a953f3bbe24b6bcb9a7c5",
+   "candidata": "gq_3f28557252a0be7fea5eb623",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP8.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_81da11fccece8b1b0a8f2291",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP8.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_0658fe9fe1366ab9ce76dbc1",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP8.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_46441bcf8827fce0a73b3d6a",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP8.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_b2bd1eece6232f928f4ac150",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP8.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_463530c0e014070a83b335de",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP8.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 8,
+   "referencia": "gq_2824427a117816bfcd2a3f1d",
+   "candidata": "gq_a74b49522467bf2fd099db29",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP9.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_4b82798e0b02c6dccdc67e2c",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP9.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_f9235abc48c5b4471ce2cec8",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP9.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_44d082c29f4919760514a7e3",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP9.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_e02bf98e928f738826227eae",
+   "atual": 2,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP9.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_7b0d394bfba6403cbd590a10",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP9.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_ef3a0e3deade42bb3b6f3ee5",
+   "atual": null,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP9.7",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_e23c89463089f002a75a985a",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP9.8",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_a26ffc54e66cc9654d29fda1",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP9.9",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_b4c92a2d71ec0a4978435baa",
+   "atual": 1,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP9.10",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_36c18f7638bef60120b990b3",
+   "atual": null,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP9.11",
+   "materia": "Língua Portuguesa",
+   "bloco": 9,
+   "referencia": "gq_5c2997bb2efca7d6f0a247b5",
+   "candidata": "gq_914351510dbbfec6d35fa371",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CP10.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_964c2d239f21d82e9a9e6e21",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP10.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_f8b056061beeff8a7a3ef1f4",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP10.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_722f98956de605187dcd71c3",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP10.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_c18d563a836f4bf39eaa3173",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP10.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_07760a857ec4c0c5dd677432",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP10.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 10,
+   "referencia": "gq_707c7c50ebe05950df85e97a",
+   "candidata": "gq_0d27f94f848e00265df6ef27",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP11.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_0658fe9fe1366ab9ce76dbc1",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP11.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_46441bcf8827fce0a73b3d6a",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP11.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_f598657a0b6de35b91502ed2",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CP11.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_b2bd1eece6232f928f4ac150",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP11.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_81da11fccece8b1b0a8f2291",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP11.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 11,
+   "referencia": "gq_2e5092f7b33f0c6adb7e441a",
+   "candidata": "gq_f4a21368888b80dcf0c831f3",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP12.1",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_f3917c74843b332896465f85",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CP12.2",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_7fdd39d112d0fd219a50c426",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CP12.3",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_914351510dbbfec6d35fa371",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CP12.4",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_a26ffc54e66cc9654d29fda1",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CP12.5",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_e02bf98e928f738826227eae",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CP12.6",
+   "materia": "Língua Portuguesa",
+   "bloco": 12,
+   "referencia": "gq_96fc4c4b2f3ac24bcb2fa894",
+   "candidata": "gq_b93674790093ec0f4cc47109",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ1.1",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_5a5527120bb7c477466af56e",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ1.2",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_5edb1bc4b34e1ef5187bf066",
+   "atual": 5,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ1.3",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_ba218c4fdd060d7ec07e102a",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ1.4",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_8d1577813d12340292e50c98",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ1.5",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_d5e603f54e81b07598b512a8",
+   "atual": 3,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ1.6",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_86169e090cc3816ca5cd4977",
+   "atual": 2,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ1.7",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_524d430e713f646ee5b29e6c",
+   "atual": 1,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ1.8",
+   "materia": "Química",
+   "bloco": 1,
+   "referencia": "gq_6865a937ccc0caec8653a9cb",
+   "candidata": "gq_933a63620865cf907e7cbb3e",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ2.1",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_6c6595adaf610fd8822d7ceb",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ2.2",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_ac403d88530fba7d5a61a5df",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ2.3",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_282c6531b53d707e00655b2c",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ2.4",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_74d4ab708a43f98d4acbac86",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ2.5",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_449031f9993962fac62a60d9",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ2.6",
+   "materia": "Química",
+   "bloco": 2,
+   "referencia": "gq_b2e2974da3ef7c98edc60454",
+   "candidata": "gq_b1f233711963f2d5e4272e58",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ3.1",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_5e7637f0397776413dfc2cfa",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ3.2",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_ad35dbc4f8d0aa688785867c",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ3.3",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_c784caa08bf7b85aa20ea2fa",
+   "atual": 5,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ3.4",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_a776a6e309ced788967b79af",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ3.5",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_b84ebc89ed33009d89756cf8",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ3.6",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_b2ac3310e31d790284df7822",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ3.7",
+   "materia": "Química",
+   "bloco": 3,
+   "referencia": "gq_3f9514b3459739bc44d94e99",
+   "candidata": "gq_b6bebf0daee898a0b855011a",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ4.1",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_1b1121b14f8836f1bdabd04a",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ4.2",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_ffebaa962dd54ff21200bc10",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ4.3",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_4460ad61a866ca08c40ab9f2",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ4.4",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_e6613ff880f22772dc361378",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ4.5",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_c546e88d7c0bcbbfece307cf",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ4.6",
+   "materia": "Química",
+   "bloco": 4,
+   "referencia": "gq_1f392d0fa3e94ee4a2316848",
+   "candidata": "gq_e4d23ee40c5b87dd64a1153f",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ5.1",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_5aa2340247bf7c0f2e824bd2",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ5.2",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_b6bebf0daee898a0b855011a",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ5.3",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_325cddcae85efef8414cc17a",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ5.4",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_5e7637f0397776413dfc2cfa",
+   "atual": 2,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ5.5",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_0eb1f8519041f5aa67c84dba",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ5.6",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_2320d619af93e3e2406736fe",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ5.7",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_b84ebc89ed33009d89756cf8",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ5.8",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_cc05d35c79085159e792b647",
+   "atual": null,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ5.9",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_b2ac3310e31d790284df7822",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ5.10",
+   "materia": "Química",
+   "bloco": 5,
+   "referencia": "gq_6fde306576368f624d027e52",
+   "candidata": "gq_aaaacb580e5e83df00400d21",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ6.1",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_02ebc8bc8c546bae47864b19",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ6.2",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_a453a8dce58812b9bfa0b09c",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ6.3",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_6c6595adaf610fd8822d7ceb",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ6.4",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_f9ed2b9043bc1a36515733e5",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ6.5",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_da4879eadde48a351e753299",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ6.6",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_ac403d88530fba7d5a61a5df",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ6.7",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_3bf3a897d51029bc48db059d",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ6.8",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_cde7c1297fb1dc89c9dc39f5",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ6.9",
+   "materia": "Química",
+   "bloco": 6,
+   "referencia": "gq_b1f233711963f2d5e4272e58",
+   "candidata": "gq_292f28dead645148d796798c",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ7.1",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_c3882f0ecb5dbf1090ee51cd",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ7.2",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_de4577587e81cacf2b6f08b0",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ7.3",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_6a1e1de50d142179d6e0c98a",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ7.4",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_85cff5aa1fbc7bd450ea61e6",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ7.5",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_44b88937117be88dadd2fcc9",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ7.6",
+   "materia": "Química",
+   "bloco": 7,
+   "referencia": "gq_92fba6940e1d19d238ddb781",
+   "candidata": "gq_209cde2bb15a6a31d88ffda0",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ8.1",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_fb83a591a7f133c53142b3f5",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ8.2",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_775640fd55995393effd6647",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ8.3",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_2e7e817f73005023ee4f566b",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ8.4",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_8158765ec0299e748d43f0ee",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ8.5",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_6a13b28d3ff80a7b5e58bff3",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ8.6",
+   "materia": "Química",
+   "bloco": 8,
+   "referencia": "gq_c238dd7a1a70abc6db1e19fb",
+   "candidata": "gq_374bd76761cf3f79b5401559",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ9.1",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_524d430e713f646ee5b29e6c",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ9.2",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_e78412e45fb538fdc12013f6",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ9.3",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_21182cbd4337e72c95ba8668",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ9.4",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_3e0b438bdd4b990cc8846902",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ9.5",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_933a63620865cf907e7cbb3e",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ9.6",
+   "materia": "Química",
+   "bloco": 9,
+   "referencia": "gq_23abfb8dfcfee852c9032e50",
+   "candidata": "gq_2508f23f7c79edf4996c6ee2",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ10.1",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_130ef6f102b546a2c7a8dd56",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ10.2",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_de4577587e81cacf2b6f08b0",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ10.3",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_1d4baedfd0e9ae104e3a32a6",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ10.4",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_6210f85ab2e7331747fd7b15",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ10.5",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_6b897fba9428374974fabfd9",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ10.6",
+   "materia": "Química",
+   "bloco": 10,
+   "referencia": "gq_185dc5dabbc02f46cc865ce6",
+   "candidata": "gq_44b88937117be88dadd2fcc9",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ11.1",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_b1f233711963f2d5e4272e58",
+   "atual": 3,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ11.2",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_74d4ab708a43f98d4acbac86",
+   "atual": 2,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ11.3",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_a453a8dce58812b9bfa0b09c",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ11.4",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_b2e2974da3ef7c98edc60454",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ11.5",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_6c6595adaf610fd8822d7ceb",
+   "atual": 4,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ11.6",
+   "materia": "Química",
+   "bloco": 11,
+   "referencia": "gq_ac403d88530fba7d5a61a5df",
+   "candidata": "gq_449031f9993962fac62a60d9",
+   "atual": 5,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ12.1",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_6fde306576368f624d027e52",
+   "atual": 5,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ12.2",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_130ef6f102b546a2c7a8dd56",
+   "atual": 1,
+   "novo": 1,
+   "isca": false
+  },
+  {
+   "item": "CQ12.3",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_b6bebf0daee898a0b855011a",
+   "atual": null,
+   "novo": 3,
+   "isca": false
+  },
+  {
+   "item": "CQ12.4",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_4b03dff79d3fdb9df705b780",
+   "atual": 2,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ12.5",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_5454334012fc51b9cbe8505e",
+   "atual": 4,
+   "novo": null,
+   "isca": false
+  },
+  {
+   "item": "CQ12.6",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_d70f4b6082fba7d240724616",
+   "atual": null,
+   "novo": 4,
+   "isca": false
+  },
+  {
+   "item": "CQ12.7",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_de4577587e81cacf2b6f08b0",
+   "atual": null,
+   "novo": 5,
+   "isca": false
+  },
+  {
+   "item": "CQ12.8",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_1d4baedfd0e9ae104e3a32a6",
+   "atual": null,
+   "novo": null,
+   "isca": true
+  },
+  {
+   "item": "CQ12.9",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_185dc5dabbc02f46cc865ce6",
+   "atual": null,
+   "novo": 2,
+   "isca": false
+  },
+  {
+   "item": "CQ12.10",
+   "materia": "Química",
+   "bloco": 12,
+   "referencia": "gq_6b897fba9428374974fabfd9",
+   "candidata": "gq_f7a3aec2bd8d4c13cd8f15e0",
+   "atual": 3,
+   "novo": null,
+   "isca": false
+  }
+ ]
+}

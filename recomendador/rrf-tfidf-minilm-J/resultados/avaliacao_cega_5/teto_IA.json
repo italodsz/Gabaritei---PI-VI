@@ -1,0 +1,168 @@
+{
+ "descricao": "Teto: melhores candidatas (nota IA 0-10, leitura de texto truncado) entre as 10 (blocos 1,2,3,5,8) ou 30 (blocos 4,6,7) primeiras de rrf_qwen e arvore na galeria completa; as demais do pool ficaram abaixo de 5",
+ "avaliados": 142,
+ "melhores": [
+  {
+   "bloco": 1,
+   "referencia": "gq_8cae068f337744571c8857d0",
+   "candidata": "gq_5df49012aedb736aa103ebd9",
+   "nota_0a10_IA": 7.9,
+   "split": "train",
+   "pos_rrf_qwen": 9,
+   "pos_arvore": 5
+  },
+  {
+   "bloco": 1,
+   "referencia": "gq_8cae068f337744571c8857d0",
+   "candidata": "gq_cb2b56544f659c1235c4f9c6",
+   "nota_0a10_IA": 6.1,
+   "split": "train",
+   "pos_rrf_qwen": 10,
+   "pos_arvore": 58
+  },
+  {
+   "bloco": 1,
+   "referencia": "gq_8cae068f337744571c8857d0",
+   "candidata": "gq_d154f05ea23ee9ccbeb316a3",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 19,
+   "pos_arvore": 7
+  },
+  {
+   "bloco": 1,
+   "referencia": "gq_8cae068f337744571c8857d0",
+   "candidata": "gq_21d778afe1ebff9418ec26de",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 24,
+   "pos_arvore": 8
+  },
+  {
+   "bloco": 2,
+   "referencia": "gq_197c36451e4b8268b292642b",
+   "candidata": "gq_93cf9f73d610eb07534f8816",
+   "nota_0a10_IA": 8.3,
+   "split": "validation",
+   "pos_rrf_qwen": 2,
+   "pos_arvore": 2
+  },
+  {
+   "bloco": 2,
+   "referencia": "gq_197c36451e4b8268b292642b",
+   "candidata": "gq_eeb8288df11ab2d660fb6dba",
+   "nota_0a10_IA": 6.9,
+   "split": "train",
+   "pos_rrf_qwen": 17,
+   "pos_arvore": 8
+  },
+  {
+   "bloco": 2,
+   "referencia": "gq_197c36451e4b8268b292642b",
+   "candidata": "gq_c8b12d252e8ad109f4828496",
+   "nota_0a10_IA": 6.9,
+   "split": "train",
+   "pos_rrf_qwen": 7,
+   "pos_arvore": 6
+  },
+  {
+   "bloco": 3,
+   "referencia": "gq_fa73fd2e4b8f6bad7f2665c5",
+   "candidata": "gq_6eb9db1933e0fd534f33d41b",
+   "nota_0a10_IA": 4.7,
+   "split": "train",
+   "pos_rrf_qwen": 13,
+   "pos_arvore": 4
+  },
+  {
+   "bloco": 3,
+   "referencia": "gq_fa73fd2e4b8f6bad7f2665c5",
+   "candidata": "gq_c8e2131324d537209c9c8fa8",
+   "nota_0a10_IA": 4.7,
+   "split": "train",
+   "pos_rrf_qwen": 16,
+   "pos_arvore": 5
+  },
+  {
+   "bloco": 4,
+   "referencia": "gq_efab6baab9890c9f906a2097",
+   "candidata": "gq_8654aa0a3eeff9ca455e9f67",
+   "nota_0a10_IA": 9.0,
+   "split": "validation",
+   "pos_rrf_qwen": 1,
+   "pos_arvore": 1
+  },
+  {
+   "bloco": 4,
+   "referencia": "gq_efab6baab9890c9f906a2097",
+   "candidata": "gq_8bb856ef8435de178d57b310",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 5,
+   "pos_arvore": 14
+  },
+  {
+   "bloco": 6,
+   "referencia": "gq_c5ec59b6381ba223af7fe5f6",
+   "candidata": "gq_d0b90b1244b012b1d99bd09a",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 24,
+   "pos_arvore": 6
+  },
+  {
+   "bloco": 6,
+   "referencia": "gq_c5ec59b6381ba223af7fe5f6",
+   "candidata": "gq_ed8c30e36499fda6877594ce",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 6,
+   "pos_arvore": 16
+  },
+  {
+   "bloco": 7,
+   "referencia": "gq_08ce1719ee80c4135186ac71",
+   "candidata": "gq_33615e3aecb736b01aa5fc49",
+   "nota_0a10_IA": 5.8,
+   "split": "train",
+   "pos_rrf_qwen": 27,
+   "pos_arvore": 40
+  },
+  {
+   "bloco": 7,
+   "referencia": "gq_08ce1719ee80c4135186ac71",
+   "candidata": "gq_7577d93ba4e3a9a8709d140e",
+   "nota_0a10_IA": 5.1,
+   "split": "test",
+   "pos_rrf_qwen": 76,
+   "pos_arvore": 25
+  },
+  {
+   "bloco": 8,
+   "referencia": "gq_3a7052752ba9dfded28cd1c0",
+   "candidata": "gq_a83a43aaf10bebc4d8babcdf",
+   "nota_0a10_IA": 9.3,
+   "split": "train",
+   "pos_rrf_qwen": 12,
+   "pos_arvore": 5
+  },
+  {
+   "bloco": 8,
+   "referencia": "gq_3a7052752ba9dfded28cd1c0",
+   "candidata": "gq_27c78afa9677224393ce9b3d",
+   "nota_0a10_IA": 8.3,
+   "split": "train",
+   "pos_rrf_qwen": 79,
+   "pos_arvore": 8
+  },
+  {
+   "bloco": 8,
+   "referencia": "gq_3a7052752ba9dfded28cd1c0",
+   "candidata": "gq_e919750a17b207c8e8890a2a",
+   "nota_0a10_IA": 6.1,
+   "split": "train",
+   "pos_rrf_qwen": 10,
+   "pos_arvore": 4
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+0|adaptação vegetal clima árido perda de água paleoclima biomas|inferir característica adaptativa
+1|nanotecnologia partículas atravessam membrana celular risco biológico|justificar cautela tecnologia
+2|imunidade vacina HIV proteção vírus|identificar função da vacina
+3|genótipo fenótipo ambiente luz clonagem|distinguir genótipo e fenótipo em experimento
+4|ciclo do carbono combustíveis fósseis CO2 atmosfera efeito estufa|identificar consequência ambiental
+5|biotecnologia DNA recombinante insulina|identificar consequência aplicação biotecnologia
+6|fotossíntese respiração fluxo de energia sol|concluir relação energética
+7|termorregulação sudorese sistema nervoso homeostase|identificar sistema fisiológico
+8|conservação ambiental impacto de rodovias estudo de impacto|propor solução ambiental
+9|visão cones bastonetes cor luz|prever percepção de cor
+10|DNA mitocondrial herança materna genética forense|escolher método genético
+11|impacto ambiental manguezal efluentes produtividade primária luz|prever perturbação ecológica
+12|concentração em massa porcentagem mistura destilação cálculo|calcular concentração
+13|cárie bactérias fermentação açúcar ácido saúde bucal|identificar causa doença
+14|ritmo circadiano relógio biológico luz|concluir efeito fisiológico
+15|impacto ambiental petróleo interdependência seres vivos ecossistema|interpretar implicação ecológica
+16|estequiometria combustão balanceamento coeficientes octano|interpretar equação química
+17|ciclo do carbono decomposição matéria orgânica folhas|classificar processo em ciclo biogeoquímico
+18|vacina soro antibiótico imunidade ativa passiva|escolher tratamento adequado
+19|controle de vetor dengue mosquito transgênico|explicar mecanismo de controle de doença
+20|bactérias reprodução assexuada infecção|identificar característica de microrganismo
+21|rotação de culturas fixação de nitrogênio leguminosas solo|explicar benefício agrícola
+22|ondas eletromagnéticas reflexão ionosfera rádio|identificar fenômeno ondulatório
+23|respiração anaeróbia aceptor de elétrons metabolismo energético|identificar substância metabólica
+24|osmose salinidade absorção de água plantas seca fisiológica|explicar fenômeno osmótico
+25|ciclo do fósforo nutrientes solo reciclagem|propor solução ambiental
+26|relações alimentares herbivoria especificidade lagartas plantas|interpretar relação ecológica
+27|epigenética expressão gênica câncer metilação|identificar mecanismo genético
+28|dengue vetor mosquito prevenção larvas água parada|propor medida profilática
+29|classificação taxonômica reino animal|identificar categoria taxonômica
+30|relações ecológicas predatismo mimetismo vaga-lumes|classificar relação ecológica
+31|sangue hemácias transporte de oxigênio soro antiofídico|identificar função fisiológica
+32|ciclo do nitrogênio algas resíduos nitrogenados equilíbrio ecológico|explicar benefício ecológico
+33|DNA replicação semiconservativa experimento|interpretar experimento clássico
+34|vacina anticorpos imunidade ativa gripe|explicar ação da vacina
+35|decomposição anaeróbia metano bactérias lixão|identificar origem de gás
+36|osmose desidratação microrganismos cal|identificar processo celular
+37|biotecnologia genoma sintético bactéria engenharia genética|avaliar importância de inovação
+38|ondas som luz atenuação sonar|comparar propagação de ondas
+39|vacina memória imunológica resposta secundária HPV|explicar efeito da vacina
+40|ciclo do nitrogênio contaminação nitrato água vinhaça|prever impacto ambiental
+41|controle biológico parasitoide praga|identificar técnica de controle
+42|nicho ecológico hábitos de espécie|classificar conceito ecológico
+43|refração luz água ar|explicar fenômeno óptico
+44|fermentação alcoólica leveduras CO2 pão|identificar produto metabólico
+45|doença de Chagas desmatamento vetor barbeiro|relacionar ação humana e doença
+46|fluxo de energia teias tróficas luz extinção|explicar consequência ecológica
+47|espécies invasoras hibridação introdução de espécies|prever impacto ecológico
+48|estequiometria combustão butano massa CO2 cálculo|calcular massa de reagente
+49|biorremediação microrganismos metabolismo poluente|identificar requisito biológico
+50|expressão gênica regulação metabólitos secundários plantas|explicar variação de expressão
+51|ondas frequência comprimento de onda velocidade|prever grandeza ondulatória
+52|osmose solução hipertônica concentração mol/L célula|prever transporte de água
+53|adaptação vegetal cerrado seca fogo|identificar estrutura adaptativa
+54|cálculo mol massa molar dose mg/kg|calcular quantidade de matéria
+55|leptospirose saneamento doença bacteriana|diagnosticar doença por sintomas
+56|transgênico expressão gênica tradução RNA mensageiro|explicar manifestação de característica
+57|radiação eletromagnética frequência ultravioleta lâmpada|explicar propriedade da radiação
+58|espécies invasoras ausência de predadores crescimento populacional|explicar vantagem populacional
+59|produtividade primária produtores algas manguezal|identificar grupo trófico
+60|biotecnologia transgênicos organelas mitocôndria cloroplasto|identificar organela
+61|efeito estufa matéria orgânica solo sequestro de carbono|propor prática ambiental
+62|digestão absorção vilosidades intestinais|explicar função de estrutura
+63|cálculo número de átomos constante de Avogadro massa molar|calcular quantidade de partículas
+64|competição interespecífica nicho espécies exóticas represa|explicar relação ecológica
+65|concentração dose volume solução cálculo medicamento|calcular volume de solução
+66|vacina imunização história Jenner prevenção|identificar contribuição científica
+67|estequiometria massa CO2 porcentagem carbono cálculo|calcular massa de produto
+68|rubéola vacinação transmissão doença viral|explicar estratégia de vacinação
+69|decomposição respiração consumo de O2 fotossíntese floresta|prever concentração de gás
+70|ondas eletromagnéticas frequência interferência|identificar propriedade ondulatória
+71|DNA mitocondrial herança materna genética forense|identificar parentesco genético
+72|isomeria óptica enantiômeros quiralidade fármaco|explicar efeito de isômeros
+73|nutrição proteínas aminoácidos essenciais|identificar nutriente
+74|som frequência altura nota musical|identificar propriedade ondulatória
+75|cores luz filtros composição de cores|escolher filtro de cor
+76|células-tronco diferenciação celular|explicar potencial celular
+77|refração índice de refração ângulo normal|prever comportamento do raio
+78|radiação infravermelho espectro eletromagnético frequência|identificar faixa de radiação
+79|competição relação ecológica bactérias fungo|identificar relação ecológica
+80|enzimas digestivas protease pH digestão|planejar experimento enzimático
+81|estequiometria rendimento massa produto cálculo|calcular massa de produto
+82|ressonância frequência ondas rádio|identificar fenômeno ondulatório
+83|polímeros biodegradação decompositores carboidratos|explicar degradação de material
+84|diferenciação celular expressão gênica genoma|explicar diferenciação
+85|sangue plaquetas coagulação dengue hemorrágica|relacionar sintoma e componente do sangue
+86|cariótipo aneuploidia alteração cromossômica|classificar alteração genética
+87|herança autossômica recessiva probabilidade heredograma|calcular probabilidade genética
+88|pele queimadura primeiros socorros desidratação|escolher procedimento
+89|cadeia alimentar espécie exótica consumidores desequilíbrio|identificar nível trófico afetado
+90|enzimas digestivas pepsina estômago pH digestão|identificar órgão digestivo
+91|concentração molar mol/L massa molar cálculo|calcular concentração
+92|ciclo do nitrogênio cadeias tróficas matéria orgânica|explicar obtenção de nutriente
+93|nutrição sódio hipertensão saúde|identificar doença associada
+94|coloides solvatação interações intermoleculares|explicar desestabilização
+95|aminas basicidade sais função orgânica|identificar propriedade química
+96|ciclos biogeoquímicos oxigênio|identificar elemento comum
+97|controle biológico parasitoides inseticidas|identificar benefício ambiental
+98|bioindicador cadeia trófica produtores algas contaminação|escolher organismo indicador
+99|anfíbios adaptação pele permeável água|identificar característica fisiológica
+100|adaptação vegetal escassez de água caatinga|identificar fator ambiental
+101|som timbre forma de onda|identificar propriedade ondulatória
+102|tecido muscular toxina botulínica contração|identificar tecido afetado
+103|radiação eletromagnética frequência cor temperatura|identificar propriedade da radiação
+104|reprodução assexuada clonagem estaquia|relacionar técnica e base genética
+105|biotecnologia DNA recombinante insulina bactéria|explicar mecanismo de transgenia
+106|HIV retrovírus transcriptase reversa DNA RNA|explicar função enzimática viral
+107|vacina variabilidade antigênica vírus dengue febre amarela|explicar ausência de vacina
+108|refração miragem óptica|identificar fenômeno óptico
+109|embriologia zigoto células fetais desenvolvimento|identificar princípio biológico
+110|fotossíntese luz poluição de rios corantes|prever impacto ecológico inicial
+111|biorremediação enzimas degradação petróleo|identificar requisito biológico
+112|estequiometria massa produto metal cálculo|calcular massa de produto
+113|excreção rins urina concentração desidratação|prever resposta fisiológica
+114|esquistossomose hospedeiro intermediário caramujo controle|identificar doença controlada
+115|sucessão ecológica sistemas agroflorestais matéria orgânica solo|explicar recuperação ambiental
+116|divisão celular mitose microtúbulos câncer|identificar processo celular afetado
+117|hormônio antidiurético ADH rins reabsorção de água|prever sintoma fisiológico
+118|solubilidade polaridade apolar água|explicar ineficácia de solvente
+119|mutação células gaméticas radiação hereditariedade|explicar origem de doença genética
+120|grupos sanguíneos ABO Rh herança genótipo|determinar genótipo dos pais
+121|mitocôndria organela endossimbiose|identificar organela
+122|ondas som eco Doppler frequência intensidade|prever alteração de onda
+123|separação de misturas solubilidade turbidez|escolher procedimento de laboratório
+124|DNA bases nitrogenadas pareamento Chargaff|calcular quantidade de nucleotídeos
+125|malária protozoário ciclo hemácias|explicar sintoma de doença
+126|som frequência comprimento de onda altura nota|relacionar grandezas ondulatórias
+127|adaptação vegetal manguezal salinidade bioma|identificar bioma
+128|solubilidade precipitação análise química metais|explicar erro de análise
+129|concentração em massa porcentagem solução cálculo|calcular massa de soluto
+130|polímeros biodegradação microrganismos sacolas|identificar característica de material
+131|organelas mitocôndria endereçamento de proteínas ciclo de Krebs|identificar organela
+132|fixação de nitrogênio leguminosas adubação verde fertilizantes|explicar benefício agrícola
+133|controle biológico dengue bactéria vetor|identificar conceito de controle
+134|adaptação vegetal cerrado solo fogo|identificar estrutura adaptativa
+135|bactérias antibióticos tratamento de doença|escolher tratamento adequado
+136|relações alimentares hematofagia anticoagulante adaptação|relacionar adaptação e aplicação
+137|ciclo do carbono fotossíntese produtores cadeia alimentar|identificar nível trófico
+138|reação de hidrólise ésteres lipídios membrana|classificar reação química
+139|cálculo concentração mg/L massa proporção|calcular massa de soluto
+140|mudanças climáticas adaptação mitigação|identificar estratégia ambiental
+141|meiose permutação recombinação genética variabilidade|explicar origem da variabilidade
+142|nutrição proteínas nitrogênio assimilação CO2|prever efeito nutricional
+143|osmose desidratação conservação de alimentos sal|explicar processo celular
+144|visão cones cor retina|prever efeito na percepção de cor
+145|osmose reversa pressão osmótica dessalinização|explicar condição física de processo
+146|bioacumulação cadeia trófica mercúrio topo da cadeia|explicar acúmulo de poluente
+147|coagulação plaquetas hemofilia sangue|identificar doença relacionada
+148|adaptação vegetal epífitas bromélias Mata Atlântica água|identificar adaptação
+149|terapia celular transfusão de sangue|identificar técnica médica
+150|impacto ambiental barragens migração reprodutiva peixes|explicar impacto ecológico
+151|antibióticos bactérias estrutura celular bacteriana|explicar mecanismo de fármaco
+152|fotossíntese absorção de luz cloroplastos|identificar etapa da fotossíntese
+153|herança ligada ao X inativação do X gêmeas|explicar diferença fenotípica
+154|ciclo do nitrogênio nitratação fertilizantes|identificar etapa do ciclo
+155|adaptação animal deserto excreção concentrada|identificar característica adaptativa
+156|isomeria fórmula estrutural moléculas sinalizadoras|comparar estruturas químicas
+157|digestão lipídios bile emulsificação|explicar função digestiva
+158|ciclo celular p53 câncer mutação|prever consequência celular
+159|ondas frequência velocidade comprimento cálculo|calcular frequência
+160|desenvolvimento de insetos metamorfose nichos|explicar vantagem evolutiva
+161|polinização reprodução vegetal vento adaptação|identificar estratégia evolutiva
+162|corredores ecológicos fluxo gênico fragmentação|explicar estratégia de conservação
+163|código genético trincas aminoácidos|definir conceito genético
+164|metabolismo hormônios glucagon glicogênio glicemia|prever resposta hormonal
+165|leishmaniose vetor inseto controle|identificar doença controlada
+166|controle biológico agricultura orgânica predadores|identificar técnica de controle
+167|comportamento animal tropismo luz|classificar comportamento
+168|difusão transporte gradiente de concentração|identificar processo de transporte
+169|vacina esquistossomose prevenção|identificar vantagem da vacina
+170|relações ecológicas competição dispersão de sementes|classificar relação ecológica
+171|retrovírus antirretrovirais tratamento|identificar avanço tecnológico
+172|bioacumulação radioatividade tecido ósseo|identificar tecido de acúmulo
+173|evolução das plantas tubo polínico conquista do ambiente terrestre|identificar novidade evolutiva
+174|natureza da luz modelo ondulatório corpuscular história|identificar concepção científica
+175|eritropoetina hemácias transporte de oxigênio doping|relacionar hormônio e função
+176|respiração celular mitocôndria ATP cadeia respiratória|explicar efeito metabólico
+177|excreção rim ureia hemodiálise|identificar função renal
+178|refração olho visão pupila|explicar fenômeno óptico
+179|ciclo do carbono nitrogênio reciclagem matéria orgânica solo|explicar benefício ambiental
+180|ciclo do carbono combustíveis fósseis petróleo|identificar ciclo afetado
+181|artrópodes exoesqueleto adaptação ambiente terrestre|identificar característica adaptativa
+182|fragmentação de hábitats corredores ecológicos conservação|propor medida de conservação
+183|imunoterapia câncer luz infravermelha técnica|nomear técnica
+184|transgenia biotecnologia plantas|classificar técnica
+185|polímeros biodegradáveis tempo de degradação|explicar vantagem de material
+186|polímeros celulose revestimento fármaco pH estômago|explicar finalidade de material
+187|sucessão ecológica plantas pioneiras solo|explicar função ecológica
+188|ondas interferência som ruído|identificar fenômeno ondulatório
+189|ondas estacionárias ressonância tubo sonoro frequência cálculo|calcular frequência
+190|adaptação aves penas cera impermeabilização|identificar característica adaptativa
+191|estequiometria massa etanol CO2 cálculo|calcular massa de reagente
+192|saponificação óleo sabão reação orgânica|classificar reação química
+193|sistema nervoso reflexo medula|identificar estrutura nervosa
+194|estequiometria fermentação rendimento volume etanol cálculo|calcular volume de produto
+195|hormônios vegetais auxinas estaquia propagação|identificar efeito hormonal
+196|cor absorção de luz espectro visível pigmentos|identificar faixa do espectro
+197|endogamia doenças genéticas recessivas mapeamento genético|escolher procedimento biotecnológico
+198|hormônios vegetais auxinas raízes estaquia|identificar efeito hormonal
+199|reprodução angiospermas dupla fecundação endosperma|identificar função de tecido
+200|dispersão de sementes extinção interação ecológica|explicar impacto ecológico
+201|circulação fetal coração comparação vertebrados|relacionar sistema circulatório
+202|fermentação metabolismo anaeróbio subprodutos|identificar processo metabólico
+203|herança autossômica recessiva doença hereditária|classificar padrão de herança
+204|bioacumulação cadeia trófica topo poluentes|identificar organismo com maior acúmulo
+205|vetores doenças tropicais profilaxia|propor medida profilática
+206|imunidade antígeno resposta imune câncer|identificar mecanismo imunológico
+207|antimicrobianos fungos bactérias mecanismo de ação|escolher fármaco adequado
+208|espécies exóticas invasoras biodiversidade|explicar impacto ecológico
+209|controle biológico dengue Wolbachia competição|identificar mecanismo de controle
+210|eritropoetina hemácias transporte de oxigênio doping|relacionar hormônio e função
+211|respiração celular fosforilação oxidativa ATP mitocôndria|identificar etapa metabólica
+212|osmose meio hipotônico vacúolo célula vegetal|prever observação experimental
+213|visão bastonetes luz fótons intensidade|prever capacidade visual
+214|terapia gênica expressão gênica vírus vetor|explicar mecanismo de terapia
+215|coagulação biotecnologia proteína recombinante trombos|identificar aplicação de fármaco
+216|PCR transcrição reversa cDNA vírus de RNA|explicar etapa de técnica molecular
+217|fecundação acrossomo espermatozoide enzimas|identificar etapa da fecundação
+218|ondas eletromagnéticas frequência interferência|identificar condição ondulatória
+219|músculos fibras vermelhas metabolismo aeróbio aves|relacionar tecido e função
+220|funções orgânicas oxidação de álcoois cetonas|identificar reagente de reação orgânica
+221|hidrocarbonetos cadeias ramificadas nomenclatura combustível|identificar composto orgânico
+222|cálculo porcentagem em massa hidratação massa molar|calcular variação de massa
+223|aneuploidia trissomia meiose síndrome de Down|prever genótipos de zigotos
+224|ondas eletromagnéticas intensidade potência área cálculo|calcular intensidade
+225|evolução das plantas tubo polínico fecundação ambiente terrestre|identificar novidade evolutiva
+226|nutrição ferro anemia|identificar finalidade nutricional
+227|hormônios vegetais etileno amadurecimento|identificar causa fisiológica
+228|polinização abelhas conservação alimento|explicar benefício ecológico
+229|divisão celular cromossomos micronúcleos mutação|identificar origem de estrutura
+230|fotossíntese cloroplastos lesmas-do-mar nutrição|identificar produto metabólico
+231|transporte vegetal floema seiva elaborada|explicar consequência fisiológica
+232|gases equação de estado pressão temperatura cálculo|calcular pressão
+233|leishmaniose transmissão vetor sangue|identificar via de transmissão
+234|ondas comprimento de onda luz laser espectro|identificar faixa do espectro
+235|ciclo menstrual hormônios corpo lúteo|explicar variação hormonal
+236|biorremediação plantas acúmulo de metais|prever destino de poluente
+237|vacina RNA mensageiro tradução proteína resposta imune|explicar mecanismo da vacina
+238|química orgânica definição compostos de carbono|identificar conceito químico
+239|digestão estômago ácido clorídrico reação química|identificar órgão do processo
+240|artrópodes exoesqueleto muda crescimento|identificar mecanismo de crescimento
+241|comportamento animal reprodução anfíbios comunicação|identificar função de comportamento
+242|enzimas desnaturação temperatura metabolismo de açúcar|explicar efeito sobre enzima
+243|tuberculose transmissão aérea prevenção bactéria|propor medida profilática
+244|concentração mg/mL massa molar cálculo soro|calcular massa de soluto
+245|estequiometria mol massa metano etanol energia cálculo|calcular massa de reagente
+246|músculos fibras brancas metabolismo anaeróbio esforço|relacionar tecido e desempenho
+247|radiação raios X absorção materiais densos|explicar propriedade da radiação
+248|RT-PCR transcrição reversa expressão gênica|explicar finalidade de técnica molecular
+249|tuberculose transmissão aérea prevenção bactéria|propor medida profilática
+250|retrovírus linfócitos proliferação câncer|prever consequência de infecção
+251|ondas efeito Doppler frequência som radar|prever alteração de frequência
+252|estequiometria proporção massa reciclagem alumínio cálculo|calcular massa de matéria-prima
+253|vacina anticorpos antígeno proteína viral|explicar ação da vacina
+254|bioacumulação poluentes lipossolúveis tecido adiposo|identificar tecido de acúmulo
+255|sucessão ecológica sistemas agroflorestais recuperação|identificar processo ecológico

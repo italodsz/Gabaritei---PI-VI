@@ -1,0 +1,67 @@
+{
+  "texto": "enunciado + alternativas (pipeline_baseline.question_text)",
+  "galeria": "treino elegível da base de trabalho (1.801)",
+  "filtros": [
+    "mesma área",
+    "exclui e deduplica família de conteúdo"
+  ],
+  "escolhida_na": "validação, 44 comparações de pares com nota (majoritariamente notas de IA)",
+  "resultado_validacao": "34/44 pares na ordem certa",
+  "alternativas_rejeitadas": [
+    "TF-IDF só (30/44)",
+    "MiniLM só (24/44)",
+    "normalizações RSLP, prefixo, caracteres (33-34/44)",
+    "reordenações por habilidade, subtópico, operação/modo, comando, combinação (28-35/44; critério não atingido)"
+  ],
+  "teste_reservado_aberto": true,
+  "pendencias": [
+    "calibrar o agente com 50 pares avaliados por Ítalo",
+    "corrigir os problemas de texto (avaliações 1, 2, 4 e escala)",
+    "pré-calcular as recomendações do catálogo para o app"
+  ],
+  "status": "titulo_area oficial desde 11/11/2026 (substitui rrf_qwen, oficial de 06/11 a 11/11)",
+  "avaliacao_cega": "aprovada no limite (12/24 nota 2, 21/24 nota 1 ou 2, nenhum bloco com dois zeros); avaliador: Ítalo; ver resultados/avaliacao_cega_v1.json",
+  "teste_reservado_aberto_na_escolha": false,
+  "atualizado_em": "2026-11-11",
+  "estado_detalhado": "ESTADO_ATUAL.md",
+  "qwen": "adiado por decisão do usuário; não integra esta atualização",
+  "escopo_atualizacao": "Documentação e registro das fontes posteriores; código, base e índices preservados. Não representa incorporação de um bundle posterior indisponível.",
+  "candidato_qwen": {
+    "metodo": "rrf_qwen",
+    "descricao": "RRF (k=60) de TF-IDF + Qwen3-Embedding-8B 4 bits com instrução \"conceito\"",
+    "validacao": "39/44 pares na ordem certa (oficial: 34/44)",
+    "vetores": "indice/qwen/Qwen3-Embedding-8B-4bit__conceito.npy",
+    "sha256_vetores": "fc20a3c6b052d25942614457df3517988fd3bba36a90715b713bdf75708642de",
+    "status": "adotado como oficial em 06/11/2026",
+    "detalhes": "resultados/teste_qwen3.md"
+  },
+  "oficial_ate_06_11": "RRF (k=60) de TF-IDF + MiniLM em blocos, sem normalização extra e sem reordenação",
+  "configuracao": "rrf_qwen: RRF (k=60) de TF-IDF (1-2 gramas) + Qwen3-Embedding-8B 4 bits com instrução \"conceito\"",
+  "evidencias_rrf_qwen": {
+    "validacao_44_pares": "39/44 (anterior 34/44)",
+    "avaliacao_cega_4_teles": "0,96 × 0,79 (A) × 0,75 (C)",
+    "avaliacao_escala_agente": "0,87 × 0,62 (A) × 0,92 (C)"
+  },
+  "reranker": {
+    "status": "não adotado",
+    "motivo": "ganho pequeno e não confirmado (Teles: −0,21; agente: +0,05, abaixo do limite de 0,10); ~15 h para o catálogo",
+    "proximo_passo": "testar só em Ciências da Natureza"
+  },
+  "oficial": {
+    "metodo": "titulo_area",
+    "catalogo": "catalogo/recomendacoes_titulo_area.json",
+    "descricao": "só questões da mesma matéria e do mesmo título amplo (titulos_v1.json), sem defeitos nem duplicatas, língua estrangeira na mesma língua; ordem por matéria em busca_por_area_v1.json (sentido/Qwen na maioria; Literatura mistura + autor e época; Filosofia Qwen + autor; TIC mistura)",
+    "evidencias": [
+      "comparação direta (20 refs, IA): sem filtro 6,21; título 6,48; titulo_area 6,90 (resultados/comparacao_direta_titulo, resultados/busca_por_area)",
+      "avaliação IA de 50 refs novas: titulo 6,23 x titulo_area 6,60; 1ª sugestão 6,92 x 7,38; abaixo de 5: 20% x 11%; IC95 da diferença 0,18 a 0,59 (resultados/avaliacao_ia_50)",
+      "avaliação cega 6 (Ítalo) do filtro de título: média 8,47"
+    ],
+    "limites": [
+      "notas da IA, que construiu o método; falta avaliação humana do titulo_area",
+      "matéria e título são classificação nossa, não oficial do INEP",
+      "23 questões sem rótulo (defeito) ficam sem sugestões; mediana de 34 sugestões por questão (títulos pequenos têm menos de 50)"
+    ],
+    "adotado_em": "2026-11-11"
+  },
+  "oficial_06_11_a_11_11": "rrf_qwen: RRF (k=60) de TF-IDF + Qwen3-Embedding-8B, mesma área"
+}

@@ -1,0 +1,96 @@
+{
+ "pares": 502,
+ "ruins": 127,
+ "corr": 0.69,
+ "auc": 0.87,
+ "por_area": {
+  "MT": {
+   "pares": 99,
+   "ruins": 9,
+   "corr": 0.69,
+   "auc": 0.91
+  },
+  "CN": {
+   "pares": 121,
+   "ruins": 57,
+   "corr": 0.77,
+   "auc": 0.87
+  },
+  "CH": {
+   "pares": 179,
+   "ruins": 44,
+   "corr": 0.7,
+   "auc": 0.86
+  },
+  "LC": {
+   "pares": 103,
+   "ruins": 17,
+   "corr": 0.4,
+   "auc": 0.75
+  }
+ },
+ "cortes": [
+  {
+   "corte": 0.555,
+   "abaixo": 51,
+   "pct_ruins_abaixo": 80,
+   "pct_ruins_acima": 19,
+   "ruins_pegos": 32
+  },
+  {
+   "corte": 0.592,
+   "abaixo": 101,
+   "pct_ruins_abaixo": 68,
+   "pct_ruins_acima": 14,
+   "ruins_pegos": 54
+  },
+  {
+   "corte": 0.622,
+   "abaixo": 151,
+   "pct_ruins_abaixo": 61,
+   "pct_ruins_acima": 10,
+   "ruins_pegos": 72
+  },
+  {
+   "corte": 0.649,
+   "abaixo": 201,
+   "pct_ruins_abaixo": 53,
+   "pct_ruins_acima": 7,
+   "ruins_pegos": 84
+  },
+  {
+   "corte": 0.673,
+   "abaixo": 251,
+   "pct_ruins_abaixo": 46,
+   "pct_ruins_acima": 4,
+   "ruins_pegos": 91
+  }
+ ],
+ "catalogo": [
+  {
+   "corte": 0.555,
+   "pct_questoes_1a_abaixo": 0.6,
+   "pct_questoes_3a_abaixo": 3.2
+  },
+  {
+   "corte": 0.592,
+   "pct_questoes_1a_abaixo": 2.0,
+   "pct_questoes_3a_abaixo": 8.6
+  },
+  {
+   "corte": 0.622,
+   "pct_questoes_1a_abaixo": 5.7,
+   "pct_questoes_3a_abaixo": 18.2
+  },
+  {
+   "corte": 0.649,
+   "pct_questoes_1a_abaixo": 10.7,
+   "pct_questoes_3a_abaixo": 30.2
+  },
+  {
+   "corte": 0.673,
+   "pct_questoes_1a_abaixo": 18.6,
+   "pct_questoes_3a_abaixo": 44.2
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "Língua Portuguesa": {
+  "diferenca": 0.13,
+  "ic95": [
+   -0.05,
+   0.4
+  ],
+  "melhor": 3,
+  "pior": 2,
+  "igual": 7,
+  "confirma": true
+ },
+ "Química": {
+  "diferenca": 0.02,
+  "ic95": [
+   -0.33,
+   0.35
+  ],
+  "melhor": 3,
+  "pior": 2,
+  "igual": 7,
+  "confirma": true
+ }
+}
