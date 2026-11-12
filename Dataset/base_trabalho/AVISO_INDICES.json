@@ -8,8 +8,9 @@
     "alternativas_e_tabelas_corrigidas",
     "galeria_e_conjuntos_de_avaliacao_alterados",
     "textos_truncados_restaurados",
-    "pendencias_lote1_liberadas"
+    "pendencias_lote1_liberadas",
+    "pendencias_lote2_pdf_oficial"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906"
+  "derivative_dataset_sha256": "09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c"
 }

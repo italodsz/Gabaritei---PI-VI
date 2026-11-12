@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.059 elegíveis
-para recomendação por texto (1.802 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.078 elegíveis
+para recomendação por texto (1.821 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
+09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
+Versão de 12/11/2026 (pendências, lote 1): c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
 Versão de 12/11/2026 (textos truncados): 4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd.
 Versão de 11/11/2026: d9c80533bbda575375eb2697d5923bd54406fe99faa1d0a02dfa7c550b41a8bb.
 Versão de 29/10/2026: 22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5.
@@ -73,13 +74,33 @@ foi conferida resolvendo a questão: a resposta bate com o gabarito oficial. Gab
 
 Efeito na lista de elegíveis: 2.052 para 2.059 (treino 1.796 para 1.802, teste 122 para 123).
 
+## Pendências, lote 2 (12/11/2026)
+
+20 questões conferidas com os PDFs oficiais do INEP (caderno azul, aplicação regular, impresso).
+19 voltam para a recomendação; 1 fica fora. Gabarito, TRI, co_item, área e split não mudaram.
+Antes e depois, com o PDF, a página e a conta de conferência, em
+qualidade/alteracoes_pendencias_lote2_2026-11-12.json.
+
+- Gráficos, mapas, figuras e matrizes que faltavam foram transcritos entre colchetes no enunciado,
+  com os valores lidos na prova: 2018 q67, q74, q88, q108, q136; 2019 q169, q172; 2020 q65 (CH),
+  q129, q130, q148, q164; 2021 q144, q149, q150, q151, q157.
+- Alternativas diferentes das da prova azul foram trocadas pelas da prova: 2018 q108 (gráficos
+  descritos), 2020 q164, 2021 q144 e 2021 q151 (comando e alternativas de outra versão da questão).
+- 2018 co_item 88520: o registro passa a ter o texto certo (silvicultura × extrativismo vegetal).
+- 2021 q163: expoentes das unidades restaurados (kg·m^-1·s^-2).
+- 2022 catalase: texto e quadro iguais aos da prova azul (questão 120 do caderno 7); desbloqueada.
+- 2019 q146 fica fora: alternativas e gráfico transcritos da prova, mas o gabarito oficial (A, só o
+  dia 1) não bate com a leitura do gráfico, em que o dia 12 (40 °C e 20%) também atende ao alerta
+  laranja. Precisa de conferência humana.
+- 2015 q4 (segunda aplicação) continua pendente: não está no caderno azul da aplicação regular.
+
+Efeito na lista de elegíveis: 2.059 para 2.078 (treino 1.802 para 1.821).
+
 ## Problemas conhecidos (próxima revisão)
 
 - 2018 q125 e q126 têm textos trocados entre si e com uma questão de genética que não tem
   registro próprio; as duas já estão fora da recomendação.
 - 2021 q8 está com o texto de outras questões (fora da recomendação).
-- 2018 co_item 88520: falta o texto da questão das alternativas sobre madeira de reflorestamento
-  (fora da recomendação).
 - Faltam na base as questões 5 de espanhol de 2018 e de 2021.
 - 12 questões com fórmulas achatadas (expoentes, frações e índices viraram números soltos).
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
