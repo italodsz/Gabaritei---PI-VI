@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.370 elegíveis
-para recomendação por texto (2.021 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.563 elegíveis
+para recomendação por texto (2.214 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65.
+fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b.
+Versão de 12/11/2026 (descrições do ledor 2009–2018): 369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65.
 Versão de 12/11/2026 (descrições próprias retiradas): 4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6.
 Versão de 12/11/2026 (descrições do Tardelli): f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
 Versão de 12/11/2026 (descrições do Tardelli, 1ª parte): f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd.
@@ -278,11 +279,26 @@ via Tardelli, ou Maritaca). Das 97 questões elegíveis que ainda tinham descri�
 Tabelas, quadros e fórmulas escritas como texto continuam como estão (são transcrição, não descrição de imagem).
 Efeito: elegíveis de 2.443 para 2.370 (treino 2.021, validação 175, teste 174). Log: qualidade/descricoes_proprias_substituidas_ou_retiradas_2026-11-12.json.
 
+## Descrições do caderno do ledor 2009–2018 incorporadas (12/11/2026)
+O INEP publica o caderno do ledor (prova adaptada, com a descrição das figuras) de 2009, 2011, 2012, 2013, 2016,
+2017 e 2018 (e de 2015 só na reaplicação PPL; 2010 e 2014 não têm). Os PDFs foram baixados do site do INEP
+(pacote_ledor_2009_2018, fora do git). As descrições estão em caixas cinza no PDF; cada caixa vira um bloco
+entre colchetes na questão, e a questão de cada bloco do ledor foi achada pelo texto e pelas alternativas
+(similaridade de trigramas ≥ 0,60 e folga ≥ 0,15 sobre a segunda melhor).
+- 193 questões liberadas (2011: 13; 2012: 31; 2013: 29; 2016: 38; 2017: 45; 2018: 37), todas do treino.
+- Onde a questão tinha descrição própria (IA) entre colchetes, ela foi substituída; onde não tinha, o bloco entrou
+  no lugar do marcador de imagem, logo após o parágrafo anterior no ledor, ou antes do crédito/início.
+- Ficaram de fora as questões cuja figura tem mais imagens que descrições no ledor (14) e as que o ledor não casou.
+- Descrições dos anos 2009–2011 não vêm em caixa (o ledor reescreve o enunciado sem a figura); não foram usadas.
+- O caderno do ledor não traz gabarito para 2009–2016; os blocos foram casados só pelo texto e pelas alternativas.
+Efeito: elegíveis de 2.370 para 2.563 (treino 2.214, validação 175, teste 174). Log: qualidade/descricoes_ledor_2009_2018_incorporadas_2026-11-12.json.
+
 ## Problemas conhecidos (próxima revisão)
 
 - 20 questões só com alternativas em desenho (5 de 2018/2021 e 15 de outros anos) e 6 com letra de
   canção ou poema ainda não estão na base.
-- 643 questões continuam fora da recomendação por texto por depender de imagem: 607 de 2009 a 2018 (sem descrição
-  profissional; o Tardelli só cobre 2019 a 2025 e a Maritaca só 2022 a 2024) e 36 de 2019 a 2021 sem
-  correspondente no Tardelli.
+- 523 questões continuam fora da recomendação por texto (449 por depender de imagem sem descrição confiável, 70 com
+  descrição própria retirada e 4 com imagem obrigatória): 2009 a 2015 quase todas (sem caderno do ledor em 2010 e
+  2014; em 2009–2011 o ledor reescreve o enunciado), 2016 a 2018 (as que o ledor não casou) e 2019 a 2023 (as que
+  o Tardelli e a Maritaca não cobrem).
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
