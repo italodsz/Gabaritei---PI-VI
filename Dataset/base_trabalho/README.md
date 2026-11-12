@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.089 questões; 2.202 elegíveis
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.080 questões; 2.202 elegíveis
 para recomendação por texto (1.945 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f.
+8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089.
+Versão de 12/11/2026 (faltantes 2009–2024): c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f.
 Versão de 12/11/2026 (faltantes 2018/2021): ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
 Versão de 12/11/2026 (espanhol): 06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
 Versão de 12/11/2026 (lote 5): c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
@@ -34,8 +35,8 @@ qualidade/alteracoes_revisao_2026-11-11.json.
    (2018 q34, 2020 q175, 2021 q120 e 2021 q135).
 2. Questões duplicadas (9 pares de 2022 a 2024): a versão da prova adaptada (caderno laranja /
    leitor de tela) tinha enunciado, alternativas e gabarito idênticos aos da prova comum. Foi
-   mantida a versão da prova comum; a adaptada continua na base, fora da lista de elegíveis, com
-   quality_review.duplicate_of apontando para a comum.
+   mantida a versão da prova comum; a adaptada foi removida da base em 12/11/2026 (ver seção
+   "Versões adaptadas removidas").
 3. Alternativas e tabelas (8 registros): alternativas corrigidas pela prova em 2018 q169 (o
    gabarito C apontava para o texto errado), 2019 q169, 2020 q65 e 2021 q150; cabeçalho de 4
    tabelas de 2022 e 2024 sem as sobras "Unnamed"/"nan", sem alterar nenhum valor.
@@ -203,6 +204,15 @@ projeções etc.) e 6 cujo texto-base é letra de canção ou poema contemporân
 qualidade/questoes_faltantes_2009_2024_adicionadas_2026-11-12.json.
 
 Efeito: 2.997 para 3.089 questões; elegíveis de 2.110 para 2.202 (todas no treino).
+
+## Versões adaptadas removidas (12/11/2026)
+
+Removidas 9 questões que eram versões adaptadas (caderno para candidatos com necessidades específicas) de
+questões já presentes na versão padrão: 2022 MT q152, q154, q173; 2023 MT q146, q163; 2024 CN q115 e
+MT q168, q173, q178. Nenhuma estava na lista de elegíveis. Lista em
+qualidade/versoes_adaptadas_removidas_2026-11-12.json.
+
+Efeito: 3.089 para 3.080 questões; elegíveis inalteradas (2.202).
 
 ## Problemas conhecidos (próxima revisão)
 

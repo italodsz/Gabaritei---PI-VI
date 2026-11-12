@@ -16,8 +16,9 @@
     "lote5_formulas_2021q8",
     "espanhol_faltantes_adicionadas",
     "faltantes_2018_2021_adicionadas",
-    "faltantes_2009_2024_adicionadas"
+    "faltantes_2009_2024_adicionadas",
+    "versoes_adaptadas_removidas"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f"
+  "derivative_dataset_sha256": "8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089"
 }
