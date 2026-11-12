@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.084 elegíveis
-para recomendação por texto (1.827 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.978 questões; 2.091 elegíveis
+para recomendação por texto (1.834 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
+06d44ebaf465a73c5f39912c7f9cbf16a6708ddf3db08a930c0fab3dcb49856f.
+Versão de 12/11/2026 (lote 5): c2ddda4715cd127a0f2c8afb9bdf4ca838b093433a0020a70d2a374a0077204e.
 Versão de 12/11/2026 (lote 4): 7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
 Versão de 12/11/2026 (defeitos de texto, lote 3): f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
 Versão de 12/11/2026 (títulos em negrito): 09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
@@ -162,11 +163,21 @@ Antes e depois em qualidade/alteracoes_lote5_2026-11-12.json. Gabarito, TRI, co_
 
 Efeito na lista de elegíveis: 2.083 para 2.084 (treino 1.826 para 1.827).
 
+## Questões de espanhol adicionadas (12/11/2026)
+
+7 questões de espanhol que nunca tinham entrado na base: 2018 q2 e q5 e 2021 q1 a q5 (1º dia, caderno 1
+azul, aplicação regular). Texto e alternativas transcritos da prova oficial; co_item, gabarito,
+habilidade e parâmetros da TRI tirados dos microdados do INEP (ITENS_PROVA_2018.csv e
+ITENS_PROVA_2021.csv, TP_LINGUA = 1). Cada gabarito foi conferido resolvendo a questão. A charge da
+2021 q5 está descrita em texto (a imagem não está na base). Os 3 registros de espanhol de 2018 que já
+existiam (q1, q3 e q4) conferem com os microdados. Detalhes em
+qualidade/questoes_espanhol_adicionadas_2026-11-12.json.
+
+Efeito: 2.971 para 2.978 questões; elegíveis de 2.084 para 2.091 (todas no treino).
+
 ## Problemas conhecidos (próxima revisão)
 
 - A questão de genética (pólen de pequizeiros) que estava no registro da 2018 q126 não tem registro
   próprio na base.
-- Faltam na base 7 questões de espanhol: 2018 q2 e q5 e 2021 q1 a q5 (precisam dos dados do INEP:
-  co_item, gabarito, habilidade e TRI).
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.
