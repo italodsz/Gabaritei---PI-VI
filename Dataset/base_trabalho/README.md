@@ -1,12 +1,13 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.440 elegíveis
-para recomendação por texto (2.094 treino, 173 validação, 173 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.443 elegíveis
+para recomendação por texto (2.094 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
-Versão de 12/11/2026 (descrições do Tardelli, revisão das não casadas): f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd.
+4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6.
+Versão de 12/11/2026 (descrições do Tardelli): f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
+Versão de 12/11/2026 (descrições do Tardelli, 1ª parte): f23e2b67810eb569a56e85f3641022f70a84ca2cc9842eb942359035f20c66dd.
 Versão de 12/11/2026 (versões adaptadas removidas): 8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089.
 Versão de 12/11/2026 (faltantes 2009–2024): c689261e892c9e07cec054b4b2ba53c9e43d5bee52a33655e0820db94608624f.
 Versão de 12/11/2026 (faltantes 2018/2021): ac096a18cd8786892027d78b327e5a4fc79f75ec1f5a2626723207fdb1ce9034.
@@ -255,10 +256,21 @@ Efeito: 3.080 para 3.086 questões; elegíveis de 2.202 para 2.440 (232 já na b
 de validação e teste cresceram (134 para 173 e 123 para 173), então resultados anteriores e posteriores não
 são comparáveis diretamente.
 
+## Descrições da Maritaca incorporadas (12/11/2026)
+
+Três questões sem cobertura do Tardelli já tinham descrição da Maritaca na base: 2023 posições 7 e 54 e 2024
+posição 4 (inglês). O gabarito da Maritaca é igual ao da base nas três. A descrição entra no texto no lugar do
+`[[placeholder]]` (status `image_described_by_maritaca`). A de 2024 posição 4 vem de item que a própria
+Maritaca marca como `ledor=false`; a descrição transcreve a carta e é coerente com o gabarito oficial, o que
+está anotado no registro. Log em qualidade/descricoes_maritaca_incorporadas_2026-11-12.json.
+
+Efeito: elegíveis de 2.440 para 2.443 (validação 175, teste 174).
+
 ## Problemas conhecidos (próxima revisão)
 
 - 20 questões só com alternativas em desenho (5 de 2018/2021 e 15 de outros anos) e 6 com letra de
   canção ou poema ainda não estão na base.
-- 646 questões continuam fora da recomendação por texto por depender de imagem: 607 de 2009 a 2018 (sem descrição
-  profissional; o Tardelli só cobre 2019 a 2025), 36 de 2019 a 2021 e 3 de 2023/2024 sem correspondente no Tardelli.
+- 643 questões continuam fora da recomendação por texto por depender de imagem: 607 de 2009 a 2018 (sem descrição
+  profissional; o Tardelli só cobre 2019 a 2025 e a Maritaca só 2022 a 2024) e 36 de 2019 a 2021 sem
+  correspondente no Tardelli.
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.
