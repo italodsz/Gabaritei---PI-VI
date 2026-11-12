@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.080 elegíveis
-para recomendação por texto (1.823 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.083 elegíveis
+para recomendação por texto (1.826 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
+7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6.
+Versão de 12/11/2026 (defeitos de texto, lote 3): f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624.
 Versão de 12/11/2026 (títulos em negrito): 09aacb125efe4a50b714dca581ce341798d0ce25a5a366a8d962d3675b6c82ce.
 Versão de 12/11/2026 (pendências, lote 2): 09531345ba96aa3ab04dc07a8fe3590f93b735d95ba091cd98618ea108e51a3c.
 Versão de 12/11/2026 (pendências, lote 1): c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
@@ -131,13 +132,27 @@ qualidade/alteracoes_defeitos_texto_lote3_2026-11-12.json.
 
 Efeito na lista de elegíveis: 2.078 para 2.080 (treino 1.821 para 1.823).
 
+## Lote 4 (12/11/2026)
+
+Antes e depois em qualidade/alteracoes_lote4_2026-11-12.json. Gabarito, TRI, co_item e split não mudaram.
+
+- Marcadores de supressão escapados (`\[…\]`) passaram a `[…]` em 34 questões (33 elegíveis); nenhuma
+  palavra mudou.
+- 2019 q146 liberada: o gabarito oficial (A, só o dia 1) está certo. No dia 12 a temperatura é
+  exatamente 40 °C, e "variar entre 35 °C e 40 °C" não inclui o 40; o dia 13 falha pela umidade.
+- 2018 q125 e q126 (CN) remontadas pela prova (2º dia, caderno 7 azul, p. 12). O registro 125 tinha as
+  alternativas certas e o comando da 126; o 126 tinha o texto de uma questão de genética de outra
+  prova. Agora: q125 com o prisma e a figura descrita (o diagrama do prisma, que estava nos arquivos
+  da q126, passou para a q125); q126 com o texto dos tensoativos e as cinco fórmulas estruturais
+  descritas. As duas voltam para a recomendação.
+
+Efeito na lista de elegíveis: 2.080 para 2.083 (treino 1.823 para 1.826).
+
 ## Problemas conhecidos (próxima revisão)
 
-- 2018 q125 e q126 têm textos trocados entre si e com uma questão de genética que não tem
-  registro próprio; as duas já estão fora da recomendação.
+- A questão de genética (pólen de pequizeiros) que estava no registro da 2018 q126 não tem registro
+  próprio na base.
 - 2021 q8 está com o texto de outras questões (fora da recomendação).
 - Faltam na base as questões 5 de espanhol de 2018 e de 2021.
 - Outras questões com fórmulas achatadas, fora das 49 conferidas.
-- 33 questões com marcadores de supressão escapados (`\[…\]`).
-- 2019 q146: gabarito oficial (A) diverge da leitura do gráfico; precisa de conferência humana.
 - Lote das questões com imagem que têm descrição na base tardellirs/enem-audiodescricao.

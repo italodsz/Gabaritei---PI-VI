@@ -11,8 +11,9 @@
     "pendencias_lote1_liberadas",
     "pendencias_lote2_pdf_oficial",
     "titulos_markdown_em_negrito",
-    "defeitos_texto_lote3_pdf_oficial"
+    "defeitos_texto_lote3_pdf_oficial",
+    "lote4_colchetes_2019q146_2018q125q126"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "f6b907c94b268f9e11c5b0991708fa6b30a33c127acf78e276dd9fa33c39d624"
+  "derivative_dataset_sha256": "7fda16152615b25f51c48d392babb491b47ad44fef3c608ad0253b2deda87be6"
 }
