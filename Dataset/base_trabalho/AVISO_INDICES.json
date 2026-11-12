@@ -6,8 +6,9 @@
     "conteudo_trocado_corrigido",
     "duplicados_da_prova_adaptada_retirados",
     "alternativas_e_tabelas_corrigidas",
-    "galeria_e_conjuntos_de_avaliacao_alterados"
+    "galeria_e_conjuntos_de_avaliacao_alterados",
+    "textos_truncados_restaurados"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "d9c80533bbda575375eb2697d5923bd54406fe99faa1d0a02dfa7c550b41a8bb"
+  "derivative_dataset_sha256": "4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd"
 }
