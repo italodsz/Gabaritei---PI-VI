@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.052 elegíveis
-para recomendação por texto (1.796 treino, 134 validação, 122 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 2.971 questões; 2.059 elegíveis
+para recomendação por texto (1.802 treino, 134 validação, 123 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd.
+c323cd16f59049687ad41d2e48ed64e18a12b379288f50c94fee8dc5bd019906.
+Versão de 12/11/2026 (textos truncados): 4d1ea0244821dcf627a0560e905dc45010b1bebd479542a9507a44c9ae321ecd.
 Versão de 11/11/2026: d9c80533bbda575375eb2697d5923bd54406fe99faa1d0a02dfa7c550b41a8bb.
 Versão de 29/10/2026: 22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5.
 É a base usada pelo recomendador oficial, no branch recomendador
@@ -56,6 +57,21 @@ de cada registro, com a fonte e a conferência, em qualidade/alteracoes_textos_t
    mas está na prova de Ciências Humanas, e a área segue o INEP.
 
 Efeito na lista de elegíveis: 2.054 para 2.052 (treino 1.798 para 1.796).
+
+## Pendências, lote 1 (12/11/2026)
+
+7 questões que estavam fora da recomendação por pendência se resolvem pelo próprio texto. Cada uma
+foi conferida resolvendo a questão: a resposta bate com o gabarito oficial. Gabarito, TRI, co_item,
+área e split não mudaram. Antes e depois em qualidade/alteracoes_pendencias_lote1_2026-11-12.json.
+
+- 2014 q139 e 2015 q168 (MT): frações achatadas ("1 8") reescritas como 1/8.
+- 2016 q180 (MT): texto de fonte secundária, coerente com o gabarito; liberada.
+- 2018 q129 (CN): o texto basta; espaço que faltava na alternativa E.
+- 2020 q155 (MT): alternativas 2^(-99) no lugar da notação LaTeX.
+- 2020 q160 (MT): problema só de texto; liberada.
+- 2024 q164 (MT): alternativas escritas para ledor ("fração, numerador…") reescritas como 7!/(3! × 4!).
+
+Efeito na lista de elegíveis: 2.052 para 2.059 (treino 1.796 para 1.802, teste 122 para 123).
 
 ## Problemas conhecidos (próxima revisão)
 
