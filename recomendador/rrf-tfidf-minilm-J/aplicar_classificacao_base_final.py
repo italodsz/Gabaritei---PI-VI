@@ -8,7 +8,9 @@ R = Path(__file__).resolve().parent
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('area', choices=['MT','CN','CH','LC']); a = ap.parse_args()
     out = R/'resultados/base_final'
-    rows = json.loads((out/f'pendentes_{a.area}.json').read_text(encoding='utf-8'))
+    source = {q['id']:q for q in map(json.loads,(R/'base/questions.jsonl').read_text(encoding='utf-8').splitlines())}
+    ids = json.loads((out/'auditoria_base.json').read_text(encoding='utf-8'))['sem_rotulo_ids']
+    rows = [source[i] for i in ids if source[i]['area'] == a.area]
     nos = {n['id']:n for n in json.loads((R/'classificador/dados/arvore_v1.2.json').read_text(encoding='utf-8'))['nos']}
     dest = R/'classificador/dados/classificacao_manual.jsonl'
     existing = {q['id'] for q in map(json.loads, dest.read_text(encoding='utf-8').splitlines())}

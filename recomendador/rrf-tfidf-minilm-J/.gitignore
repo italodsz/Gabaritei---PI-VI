@@ -2,3 +2,4 @@
 __pycache__/
 indice/qwen/*sem_instrucao*
 indice/reranker_cache/
+resultados/base_final/pendentes_*.json
