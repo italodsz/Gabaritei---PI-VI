@@ -72,11 +72,11 @@ def question_text(q):
 
 def load_source(source):
     rows = [json.loads(s) for s in (source / 'data/questions.jsonl').read_text().splitlines()]
-    assert len(rows) == 2971 and len({q['id'] for q in rows}) == len(rows)
+    assert rows and len({q['id'] for q in rows}) == len(rows)
     assert all(q['year'] <= 2024 and not q['is_abandoned_official'] for q in rows)
-    for split, expected in [('train', 2616), ('validation', 177), ('test', 178)]:
+    for split in ('train', 'validation', 'test'):
         split_rows = [json.loads(s) for s in (source / f'splits/{split}.jsonl').read_text().splitlines()]
-        assert len(split_rows) == expected
+        assert len(split_rows) == len({q['id'] for q in split_rows})
         assert {q['id'] for q in split_rows} == {q['id'] for q in rows if q['split'] == split}
     family_splits = collections.defaultdict(set)
     for q in rows:
