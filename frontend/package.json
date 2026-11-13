@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "build:engine": "node build-engine.mjs", "test:learning": "node learning-checks.mjs" },
-  "devDependencies": { "esbuild": "0.28.2" }
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build:engine": "node build-engine.mjs",
+    "test:learning": "node learning-checks.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
 }

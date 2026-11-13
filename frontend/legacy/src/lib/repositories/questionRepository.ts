@@ -1,7 +1,16 @@
 import type { AreaId, Question, SubjectId } from "@/types";
-import { QUESTION_BANK, QUESTION_BY_ID } from "@/data/fixtures/questions";
 import { SUBJECT_BY_ID, TOPIC_BY_ID } from "@/data/fixtures/taxonomy";
 import { normalizeText } from "@/lib/format";
+
+export const QUESTION_BANK: Question[] = [];
+export const QUESTION_BY_ID: Record<string, Question> = {};
+
+/** O acervo vem exclusivamente do back-end, sem recorrer aos exemplos autorais. */
+export function installQuestions(questions: Question[]): void {
+  QUESTION_BANK.splice(0, QUESTION_BANK.length, ...questions);
+  for (const key of Object.keys(QUESTION_BY_ID)) delete QUESTION_BY_ID[key];
+  Object.assign(QUESTION_BY_ID, Object.fromEntries(questions.map(q => [q.id, q])));
+}
 
 export interface QuestionQuery {
   areaIds?: AreaId[];
@@ -53,7 +62,7 @@ export const localQuestionRepository: QuestionRepository = {
     const out: Question[] = [];
     for (const q of QUESTION_BANK) {
       const hay = normalizeText(
-        [q.prompt, ...(q.support?.paragraphs ?? []), q.skill, TOPIC_BY_ID[q.topicId]?.name, SUBJECT_BY_ID[q.subjectId].name].join(" "),
+        [q.prompt, ...(q.descriptions ?? []), ...(q.support?.paragraphs ?? []), q.skill, TOPIC_BY_ID[q.topicId]?.name, SUBJECT_BY_ID[q.subjectId].name].join(" "),
       );
       if (hay.includes(needle)) out.push(q);
       if (out.length >= limit) break;

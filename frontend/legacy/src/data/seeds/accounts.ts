@@ -8,7 +8,7 @@ import type {
   SubjectId,
 } from "@/types";
 import { LETTERS } from "@/types";
-import { QUESTION_BANK, QUESTION_BY_ID } from "@/data/fixtures/questions";
+import { QUESTION_BANK, QUESTION_BY_ID } from "@/lib/repositories/questionRepository";
 import { SUBJECTS, TOPIC_BY_ID } from "@/data/fixtures/taxonomy";
 import { DEFAULT_GOALS } from "@/lib/calculations/goals";
 import { collectAnswerRecords } from "@/lib/calculations/records";
@@ -67,6 +67,8 @@ const STRENGTH: Record<SubjectId, number> = {
   ingles: 0.74,
   espanhol: 0.64,
   artes: 0.64,
+  'educacao-fisica': 0.64,
+  tecnologias: 0.64,
   historia: 0.68,
   geografia: 0.63,
   filosofia: 0.58,

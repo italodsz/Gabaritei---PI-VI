@@ -1,5 +1,5 @@
 import type { AlternativeLetter, PracticeSession, SimulationSession } from "@/types";
-import { QUESTION_BY_ID } from "@/data/fixtures/questions";
+import { QUESTION_BY_ID } from "@/lib/repositories/questionRepository";
 import { clockElapsed, clockRemaining, pauseClock, resumeClock } from "./clock";
 
 /**

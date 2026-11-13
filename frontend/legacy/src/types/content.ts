@@ -12,6 +12,8 @@ export type SubjectId =
   | "ingles"
   | "espanhol"
   | "artes"
+  | "educacao-fisica"
+  | "tecnologias"
   | "historia"
   | "geografia"
   | "filosofia"
@@ -97,6 +99,11 @@ export interface Question {
   alternatives: Alternative[];
   correct: AlternativeLetter;
   explanation: string;
+  descriptions?: string[];
+  familyId?: string;
+  sourcePosition?: number | null;
+  difficultyKnown?: boolean;
+  warning?: string | null;
   /** Questões de língua estrangeira (Dia 1, 1–5). */
   foreignLanguage?: "ingles" | "espanhol";
 }

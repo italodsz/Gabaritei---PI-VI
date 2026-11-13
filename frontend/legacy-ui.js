@@ -6,7 +6,7 @@ import { animate, spring, duration, ease, captureIndicators, playIndicators, pop
 
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export const hi = name => `<svg class="hi" aria-hidden="true"><use href="assets/legacy-icons.svg#h-${name}"/></svg>`;
-export const SUBJECT_ICON = { portugues: 'PenLine', literatura: 'BookOpen', ingles: 'Languages', espanhol: 'Languages', artes: 'Palette', historia: 'ScrollText', geografia: 'Globe', filosofia: 'Brain', sociologia: 'Users', fisica: 'Atom', quimica: 'FlaskConical', biologia: 'Leaf', matematica: 'Sigma' };
+export const SUBJECT_ICON = { portugues: 'PenLine', literatura: 'BookOpen', ingles: 'Languages', espanhol: 'Languages', artes: 'Palette', 'educacao-fisica': 'Target', tecnologias: 'Layers', historia: 'ScrollText', geografia: 'Globe', filosofia: 'Brain', sociologia: 'Users', fisica: 'Atom', quimica: 'FlaskConical', biologia: 'Leaf', matematica: 'Sigma' };
 export const pct = v => `${Math.round((v || 0) * 100)}%`;
 const attrs = obj => Object.entries(obj || {}).filter(([, v]) => v !== undefined && v !== false && v !== null).map(([k, v]) => (v === true ? k : `${k}="${esc(v)}"`)).join(' ');
 

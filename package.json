@@ -1,0 +1,12 @@
+{
+  "name": "gabaritei",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node backend/server.mjs",
+    "dev": "node backend/server.mjs",
+    "test": "node --test backend/*.test.mjs frontend/learning-checks.mjs",
+    "build:engine": "npm --prefix frontend run build:engine"
+  }
+}

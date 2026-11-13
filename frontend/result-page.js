@@ -5,6 +5,7 @@
 // desempenho por área e a nota estimada ILUSTRATIVA (não é TRI).
 import { animate, spring, duration, ease, countTo, collapse, reduced } from './motion-kit.js';
 import { esc, hi, pct, SUBJECT_ICON, tile, cardHeader, card, badge, btn, progress, playBars, rotateChevron } from './legacy-ui.js';
+import { questionTextHTML, descriptionsHTML } from './question-text.js';
 
 const DIFFICULTY = { facil: 'Fácil', media: 'Média', dificil: 'Difícil' };
 const clock = ms => { const t = Math.max(0, Math.floor(ms / 1000)); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; const p = n => String(n).padStart(2, '0'); return h ? `${h}:${p(m)}:${p(s)}` : `${p(m)}:${p(s)}`; };
@@ -52,7 +53,7 @@ export function resultHTML(E, session, { simulation = null } = {}) {
           <div class="rs-actions">${r.wrongIds.length ? btn(`Refazer ${r.wrongIds.length} ${r.wrongIds.length === 1 ? 'erro' : 'erros'}`, { variant: 'accent', icon: 'RotateCcw', extra: { id: 'rs-retry' } }) : ''}${btn(simulation ? 'Novo simulado' : 'Nova lista', { variant: 'on-ink', icon: 'Plus', extra: { id: 'rs-new' } })}${btn('Início', { variant: 'on-ink', icon: 'House', extra: { id: 'rs-home' } })}${btn('Salvar nas notas', { variant: 'on-ink', icon: 'NotebookPen', extra: { id: 'rs-note' } })}</div></div>
       </div>`, { surface: 'ink', padded: 'lg', cls: 'rs-span-12 rs-hero-card' })}
       ${stats.map(s => card(`${tile(s.icon, s.tone, 'lg')}<div><p class="rs-stat-label">${s.label}</p><p class="rs-stat-value" data-count="${s.value}">${s.value}</p></div>`, { cls: 'rs-span-3 rs-stat' })).join('')}
-      ${sim ? card(`${cardHeader('Desempenho por área', 'Nota estimada ilustrativa (300–850): não reproduz a TRI do ENEM.')}<ul class="rs-areas">${sim.byArea.map((a, i) => `<li>${tile(['BookOpen', 'Globe', 'Leaf', 'Sigma'][['linguagens', 'humanas', 'natureza', 'matematica'].indexOf(a.areaId)] || 'BookOpen', a.areaId, 'sm')}<div><div><span>${esc(a.name)}</span><span>${a.correct}/${a.total}${a.blank ? ` · ${a.blank} em branco` : ''} · <strong>${pct(a.accuracy)}</strong></span></div>${progress(a.accuracy, a.areaId, { delay: 0.2 + i * 0.08 })}</div><b class="rs-score">${a.estimatedScore}<small>pts*</small></b></li>`).join('')}</ul>`, { cls: 'rs-span-12' }) : ''}
+      ${sim ? card(`${cardHeader('Desempenho por área', 'Acertos nas questões respondidas. Não há cálculo de nota TRI.')}<ul class="rs-areas">${sim.byArea.map((a, i) => `<li>${tile(['BookOpen', 'Globe', 'Leaf', 'Sigma'][['linguagens', 'humanas', 'natureza', 'matematica'].indexOf(a.areaId)] || 'BookOpen', a.areaId, 'sm')}<div><div><span>${esc(a.name)}</span><span>${a.correct}/${a.total}${a.blank ? ` · ${a.blank} em branco` : ''} · <strong>${pct(a.accuracy)}</strong></span></div>${progress(a.accuracy, a.areaId, { delay: 0.2 + i * 0.08 })}</div></li>`).join('')}</ul>`, { cls: 'rs-span-12' }) : ''}
       ${card(`${cardHeader('Desempenho por assunto', 'Ordenado do menor para o maior acerto')}${topics}`, { cls: 'rs-span-7' })}
       ${card(`${cardHeader('Tempo e revisão')}<div class="rs-time"><div>${hi('Clock')}<p>Tempo utilizado</p><strong>${clock(sim ? sim.timeMs : r.timeMs)}</strong></div><div>${hi('Gauge')}<p>Média por questão</p><strong>${shortSeconds(sim ? sim.avgTimeMs : r.avgTimeMs)}</strong></div></div>
         <p class="rs-sub">Recomendações de revisão</p><ul class="rs-recs">${weak.map(t => `<li><button type="button" data-rs-topic="${esc(t.topicId)}">${hi('RotateCcw')}<span>Praticar mais <strong>${esc(t.name)}</strong></span>${hi('ArrowRight')}</button></li>`).join('')}${r.byTopic.length && r.byTopic.every(t => t.accuracy >= 0.7) ? '<li class="rs-ok">Nenhum assunto abaixo de 70% nesta lista. Excelente consistência!</li>' : ''}</ul>`, { cls: 'rs-span-5' })}
@@ -112,10 +113,10 @@ function reviewBody(E, session, qid) {
   const subject = E.SUBJECT_BY_ID[q.subjectId];
   const topic = E.TOPIC_BY_ID[q.topicId];
   return `<div class="rs-q-body"><div class="rs-q-inner">
-    <div class="lg-qmeta"><span class="lg-badge tone-${q.areaId}">${hi(SUBJECT_ICON[q.subjectId] || 'BookOpen')}<span>${esc(subject.name)}</span></span><span class="lg-badge"><span>${esc(topic?.name ?? '')}</span></span><span class="lg-badge tone-outline is-sm lg-push"><span>Questão demonstrativa · ref. ${q.year}</span></span><span class="lg-badge tone-outline is-sm"><span>${DIFFICULTY[q.difficulty] ?? ''}</span></span></div>
-    <div class="rs-q-text">${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</div>` : ''}${q.image ? `<figure class="qs-figure"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}"></figure>` : ''}<p class="qs-prompt">${esc(q.prompt)}</p></div>
+    <div class="lg-qmeta"><span class="lg-badge tone-${q.areaId}">${hi(SUBJECT_ICON[q.subjectId] || 'BookOpen')}<span>${esc(subject.name)}</span></span><span class="lg-badge"><span>${esc(topic?.name ?? '')}</span></span><span class="lg-badge tone-outline is-sm lg-push"><span>ENEM ${q.year}</span></span><span class="lg-badge tone-outline is-sm"><span>${q.difficultyKnown === false ? 'Dificuldade não informada' : DIFFICULTY[q.difficulty] ?? ''}</span></span></div>
+    <div class="rs-q-text"><div class="qs-prompt">${questionTextHTML(q.prompt)}</div>${descriptionsHTML(q.descriptions)}</div>
     <ul class="rs-alts">${q.alternatives.map(alt => { const correct = alt.letter === q.correct; const mine = a?.confirmed && a.selected === alt.letter; return `<li class="${correct ? 'is-correct' : mine ? 'is-wrong' : 'is-dim'}"><span>${correct ? hi('Check') : mine ? hi('X') : alt.letter}</span><p>${esc(alt.text)}</p>${correct ? `<em>${mine ? 'Sua resposta · correta' : 'Correta'}</em>` : mine ? '<em>Sua resposta</em>' : ''}</li>`; }).join('')}</ul>
-    <div class="rs-explain"><p>Explicação</p>${esc(q.explanation)}</div>
+    <div class="rs-explain"><p>Gabarito oficial</p>${esc(q.explanation)}</div>
   </div></div>`;
 }
 

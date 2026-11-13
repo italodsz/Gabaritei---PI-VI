@@ -3,6 +3,8 @@
 // atalhos, tela de pausa e animações (mesmos tempos e curvas do Motion de antes).
 // Só o ícone da marca mudou. Toda mudança de estado passa pelos reducers do motor.
 import { resultHTML as legacyResultHTML, bindResultPage } from './result-page.js';
+import { recomendarQuestao, conferirResposta } from './acervo-api.js';
+import { questionTextHTML, descriptionsHTML } from './question-text.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pct = value => `${Math.round((value || 0) * 100)}%`;
@@ -38,6 +40,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
   document.body.append(root);
 
   let session = null;
+  let confirming = false;
+  let adding = false;
   let view = 'question';
   let showExplanation = true;
   let focusMode = false;
@@ -260,8 +264,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       <span class="qs-num">${session.currentIndex + 1}.</span>
       <span class="qs-badge is-area" style="--area-ink:var(--${q.areaId}-ink);--area-bg:var(--${q.areaId}-bg)">${icons(SUBJECT_ICON[q.subjectId] || 'book')}${esc(subject.name)}</span>
       <span class="qs-badge">${esc(topic?.name ?? '')}${sub ? ` · ${esc(sub)}` : ''}</span>
-      <span class="qs-badge is-outline is-sm qs-push">Questão demonstrativa · ref. ${q.year}</span>
-      <span class="qs-badge is-outline is-sm">${DIFFICULTY[q.difficulty] ?? ''}</span>
+      <span class="qs-badge is-outline is-sm qs-push">ENEM ${q.year}${q.sourcePosition ? ` · questão ${q.sourcePosition}` : ''}</span>
+      <span class="qs-badge is-outline is-sm">${q.difficultyKnown === false ? 'Dificuldade não informada' : DIFFICULTY[q.difficulty] ?? ''}</span>
     </div>`;
   }
 
@@ -269,7 +273,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     return `<div class="qs-text ${focusMode ? 'is-large' : ''}">
       ${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}${q.support.credit ? `<p class="qs-credit">${esc(q.support.credit)}</p>` : ''}</div>` : ''}
       ${q.image ? `<figure class="qs-figure"><button type="button" class="qs-figure-btn" id="qs-zoom" aria-label="Ampliar imagem: ${esc(q.image.alt)}"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}"><span class="qs-figure-hint">${icons('expand')}Ampliar</span></button>${q.image.caption ? `<figcaption>${esc(q.image.caption)}</figcaption>` : ''}</figure>` : ''}
-      <p class="qs-prompt">${esc(q.prompt)}</p>
+      <div class="qs-prompt">${questionTextHTML(q.prompt)}</div>
+      ${descriptionsHTML(q.descriptions)}
     </div>`;
   }
 
@@ -341,8 +346,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     box.innerHTML = `<div class="qs-feedback ${a.correct ? 'is-correct' : 'is-wrong'}" id="qs-feedback-card">
       <div class="qs-feedback-head">
         <span class="qs-feedback-icon">${icons(a.correct ? 'check-circle' : 'x-circle')}</span>
-        <div class="qs-feedback-copy"><p class="qs-feedback-title">${a.correct ? 'Resposta correta!' : 'Resposta incorreta'}</p><p class="qs-feedback-text">${a.correct ? 'Muito bem. Confira a explicação para fixar o raciocínio.' : `A alternativa correta é a ${q.correct}. Veja a explicação abaixo.`}</p></div>
-        <button type="button" class="qs-explain-toggle" id="qs-explain" aria-expanded="${showExplanation}">${icons('lightbulb')} <span>${showExplanation ? 'Ocultar explicação' : 'Ver explicação'}</span></button>
+        <div class="qs-feedback-copy"><p class="qs-feedback-title">${a.correct ? 'Resposta correta!' : 'Resposta incorreta'}</p><p class="qs-feedback-text">Gabarito oficial: alternativa ${q.correct}.</p></div>
+        <button type="button" class="qs-explain-toggle" id="qs-explain" aria-expanded="${showExplanation}">${icons('lightbulb')} <span>${showExplanation ? 'Ocultar gabarito' : 'Ver gabarito'}</span></button>
       </div>
       <div class="qs-collapse ${showExplanation ? 'is-open' : ''}" id="qs-collapse"><div class="qs-collapse-inner"><div class="qs-explanation">
         <p class="qs-explanation-text">${esc(q.explanation)}</p>
@@ -353,7 +358,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       showExplanation = !showExplanation;
       $('#qs-collapse').classList.toggle('is-open', showExplanation);
       $('#qs-explain').setAttribute('aria-expanded', String(showExplanation));
-      $('#qs-explain span').textContent = showExplanation ? 'Ocultar explicação' : 'Ver explicação';
+      $('#qs-explain span').textContent = showExplanation ? 'Ocultar gabarito' : 'Ver gabarito';
     };
     if (animateIn) {
       const card = $('#qs-feedback-card');
@@ -597,17 +602,26 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     renderActions();
   }
 
-  function confirm() {
-    if (!session || !running()) return;
+  async function confirm() {
+    if (!session || !running() || confirming) return;
     const a = session.answers[current().id];
     if (!a?.selected || a.confirmed) return;
-    persist(E.practice.confirm(session, Date.now()));
-    showExplanation = true;
-    updateAlts({ reveal: true });
-    renderFeedback(true);
-    renderActions();
-    renderHeader();
-    renderPanel();
+    const id = session.id, qid = current().id, selected = a.selected;
+    confirming = true;
+    try {
+      const result = await conferirResposta(qid, selected);
+      if (!session || session.id !== id || current().id !== qid || session.answers[qid].selected !== selected || !running()) return;
+      current().correct = result.answer;
+      current().explanation = result.explanation;
+      persist(E.practice.confirm(session, Date.now()));
+      showExplanation = true;
+      updateAlts({ reveal: true });
+      renderFeedback(true);
+      renderActions();
+      renderHeader();
+      renderPanel();
+    } catch { toast('Não foi possível conferir a resposta. Tente novamente.'); }
+    finally { confirming = false; }
   }
 
   function next() {
@@ -658,17 +672,31 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (i < 0) toast('Adicionada às favoritas');
   }
 
-  function addSimilar(kind) {
+  async function addSimilar(kind) {
+    if (!session || adding || readOnly) return;
     const q = current();
+    const sessionId = session.id;
     const used = new Set(session.questionIds);
     const fresh = list => list.filter(item => !used.has(item.id));
-    let pool = fresh(E.questionRepository.query(kind === 'similar' ? { topicIds: [q.topicId] } : { subjectId: q.subjectId }));
-    if (kind === 'similar' && !pool.length) pool = fresh(E.questionRepository.query({ subjectId: q.subjectId }));
+    let pool;
+    adding = true;
+    try {
+      if (kind === 'similar') {
+        const exclude = [...new Set([...session.questionIds, ...E.collectAnswerRecords(account()).map(r => r.questionId)])];
+        const result = await recomendarQuestao(q.id, exclude, 1);
+        pool = E.questionRepository.getMany(result.ids);
+      } else {
+        const families = new Set(E.questionRepository.getMany([...used]).map(item => item.familyId));
+        pool = fresh(E.questionRepository.query({ subjectId: q.subjectId, areaIds: [q.areaId], foreignLanguage: q.foreignLanguage || 'none' })).filter(item => !families.has(item.familyId));
+      }
+    } catch { toast('Não foi possível buscar uma questão. Confira a conexão e tente novamente.'); return; }
+    finally { adding = false; }
+    if (!session || session.id !== sessionId || current().id !== q.id || !running()) return;
     if (!pool.length) { toast('Sem novas questões: você já incluiu todas as questões disponíveis deste assunto.'); return; }
     const seen = new Set(E.collectAnswerRecords(account()).map(r => r.questionId));
     const unseen = pool.filter(item => !seen.has(item.id));
     const from = unseen.length ? unseen : pool;
-    const pick = from[Math.floor(Math.random() * from.length)];
+    const pick = kind === 'similar' ? from[0] : from[Math.floor(Math.random() * from.length)];
     const before = session.currentIndex;
     persist(E.practice.insertNext(session, pick.id, Date.now()));
     showExplanation = true;

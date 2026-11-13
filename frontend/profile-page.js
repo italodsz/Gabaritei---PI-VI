@@ -63,7 +63,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
           <div class="pf-meta">${p.school ? `<span>${hi('School')}${esc(p.school)}</span>` : ''}${p.city ? `<span>${hi('MapPin')}${esc(p.city)}</span>` : ''}<span>${hi('CalendarDays')}Desde ${dateLong(p.createdAt)}</span></div></div>
         <div class="pf-stats">${stats.map(s => `<div>${hi(s.icon)}<p data-count="${s.value}" data-fmt="${s.fmt}">${s.value}</p><small>${s.label}</small></div>`).join('')}</div>
       </div>`, { surface: 'ink', padded: 'lg', cls: 'pf-span-12 pf-hero-card' })}
-      ${card(`${cardHeader('Informações pessoais', 'Visíveis apenas para você nesta demonstração')}
+      ${card(`${cardHeader('Informações pessoais', 'Guardadas apenas neste navegador')}
         <form id="pf-form" novalidate><div class="pf-fields">
           ${field('name', 'Nome', p.name, { error: state.error })}${field('nickname', 'Apelido', p.nickname, { placeholder: 'Como prefere ser chamado' })}
           ${field('school', 'Escola', p.school, { optional: true })}${field('city', 'Cidade', p.city, { optional: true })}</div>

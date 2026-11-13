@@ -3,6 +3,20 @@ import { createSidebar } from './sidebar.js';
 import { createNotes } from './notes.js';
 import { animate, spring, duration, ease, cssEase, reduced, pageEnter, bindPress } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
+import { carregarAcervo } from './acervo-api.js';
+
+try {
+  const info = await carregarAcervo();
+  document.documentElement.dataset.acervo = 'oficial';
+  globalThis.__gabariteiAcervo = info;
+  document.querySelector('#profile-menu p').textContent = 'Questões oficiais do ENEM. Seu progresso fica neste navegador.';
+  document.querySelector('#reset-demo').textContent = 'Restaurar plano inicial';
+  document.querySelector('.canvas-caption > span:last-child').textContent = 'Questões oficiais do ENEM';
+} catch (error) {
+  document.body.innerHTML = '<main style="max-width:36rem;margin:12vh auto;padding:2rem;font-family:system-ui"><h1>Não foi possível carregar as questões.</h1><p>Confira se o Gabaritei está aberto pelo servidor local e tente novamente.</p><button onclick="location.reload()">Tentar novamente</button></main>';
+  console.error(error);
+  throw error;
+}
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
@@ -22,7 +36,7 @@ const initial = () => [
   { id: 'ecology', title: 'Ecologia e ambiente', description: 'Conecte os seres vivos, o ambiente e as suas relações.', area: 'Natureza', icon: 'leaf', done: false, saved: false, createdAt: iso(seedNow - 96 * HOUR), updatedAt: iso(seedNow - 20 * HOUR) },
   { id: 'percentage', title: 'Porcentagem no cotidiano', description: 'Resolva situações com descontos e proporções.', area: 'Matemática', icon: 'calculator', done: false, saved: false, createdAt: iso(seedNow - 72 * HOUR), updatedAt: iso(seedNow - 72 * HOUR) },
   { id: 'humanities-sim', title: 'Simulado de Humanas', description: 'Dez questões de Ciências Humanas, com correção ao finalizar.', area: 'Humanas', kind: 'simulado', icon: 'clock', done: false, saved: true, createdAt: iso(seedNow - 48 * HOUR), updatedAt: iso(seedNow - 48 * HOUR) },
-];
+].map(item => ({ ...item, done: false }));
 const studyAreas = [
   { key: 'linguagens', area: 'Linguagens', title: 'Linguagens, Códigos', fullName: 'Linguagens, Códigos e suas Tecnologias', subjects: 'LEITURA · EXPRESSÃO · CULTURA', text: 'Textos, sentidos e novas formas de ver o mundo.', id: 'reading', art: 'linguagens' },
   { key: 'natureza', area: 'Natureza', title: 'Ciências da Natureza', fullName: 'Ciências da Natureza e suas Tecnologias', subjects: 'BIOLOGIA · FÍSICA · QUÍMICA', text: 'Descubra as conexões entre a vida e a ciência.', id: 'ecology', art: 'natureza' },
@@ -34,7 +48,7 @@ const AREA_NAME_BY_KEY = Object.fromEntries(studyAreas.map(a => [a.key, a.area])
 
 let activities = initial();
 try {
-  const stored = JSON.parse(localStorage.getItem('gabaritei:plano:v1') ?? localStorage.getItem('gabaritei:canvas-prototype:v1'));
+  const stored = JSON.parse(localStorage.getItem('gabaritei:plano:oficial:v1'));
   if (stored && Array.isArray(stored.activities) && stored.activities.every(a => typeof a.id === 'string' && typeof a.title === 'string' && typeof a.description === 'string' && typeof a.area === 'string')) {
     // Migração: o card "Continue de onde parou" virou derivado das listas em andamento;
     // atividades antigas ganham datas de criação/atualização.
@@ -42,7 +56,7 @@ try {
   }
 } catch { /* O protótipo também funciona sem armazenamento. */ }
 const state = { page: 'plano', view: 'map', showDone: false, saved: false, zoom: 1, simArea: null, simView: 'areas' };
-function persist() { try { localStorage.setItem('gabaritei:plano:v1', JSON.stringify({ activities })); } catch { /* Estado mantido nesta sessão. */ } }
+function persist() { try { localStorage.setItem('gabaritei:plano:oficial:v1', JSON.stringify({ activities })); } catch { /* Estado mantido nesta sessão. */ } }
 const touch = a => { a.updatedAt = new Date().toISOString(); };
 let toastTimeout;
 function toast(message) { $('#toast').textContent = message; $('#toast').classList.add('visible'); clearTimeout(toastTimeout); toastTimeout = setTimeout(() => $('#toast').classList.remove('visible'), 3200); }
@@ -53,11 +67,11 @@ const AREA_LABEL = { matematica: 'MATEMÁTICA', linguagens: 'LINGUAGENS', nature
 const PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4a1.7 1.7 0 0 1 2.5-1.5l12 7.4a2 2 0 0 1 0 3.2l-12 7.4A1.7 1.7 0 0 1 7 19Z"/></svg>';
 const KIND = { lista: { icon: 'list', label: 'Lista de questões' }, simulado: { icon: 'clock', label: 'Simulado' } };
 const ACTIVITY_LISTS = {
-  functions: { topicIds: ['mat-funcoes'] },
-  percentage: { topicIds: ['mat-porcentagem', 'mat-proporcao'] },
-  reading: { topicIds: ['por-interpretacao', 'por-generos', 'por-funcoes'] },
-  ecology: { topicIds: ['bio-ecologia', 'qui-ambiental', 'geo-ambiental'] },
-  humanities: { topicIds: ['geo-natureza', 'geo-cartografia'] },
+  functions: { topicIds: ['matematica-algebra-e-funcoes'] },
+  percentage: { topicIds: ['matematica-porcentagem-e-matematica-financeira', 'matematica-razao-e-proporcao'] },
+  reading: { topicIds: ['portugues-leitura-e-interpretacao', 'portugues-generos-e-tipos-textuais', 'portugues-funcoes-da-linguagem'] },
+  ecology: { topicIds: ['biologia-ecologia', 'quimica-quimica-ambiental-e-aplicada', 'geografia-questao-ambiental-e-recursos'] },
+  humanities: { topicIds: ['geografia-geografia-fisica-e-dinamica-natural', 'geografia-cartografia-e-representacao-do-espaco'] },
 };
 const AREA_IDS = { Linguagens: 'linguagens', Natureza: 'natureza', Humanas: 'humanas', Matemática: 'matematica' };
 const listFor = a => (a.kind === 'simulado' ? { areaId: AREA_IDS[a.area] ?? 'matematica', count: 10 } : { count: 5, ...(ACTIVITY_LISTS[a.id] ?? { areaId: AREA_IDS[a.area] ?? 'matematica' }) });
@@ -402,7 +416,7 @@ $('#saved-button').onclick = () => { navigate('plano'); state.saved = !state.sav
 $('#notifications').onclick = () => { navigate('plano'); const p = $('#notes-panel'); p.scrollIntoView({ behavior: reduced() ? 'instant' : 'smooth', block: 'nearest' }); animate(p, { backgroundColor: ['#e3f3df', '#efefef'] }, { duration: 0.9 }); p.querySelector('.nb-text')?.focus(); };
 $('#profile-button').onclick = () => { const menu = $('#profile-menu'); menu.hidden = !menu.hidden; $('#profile-button').setAttribute('aria-expanded', !menu.hidden); if (!menu.hidden) animate(menu, { opacity: [0, 1], y: [-6, 0], scale: [0.97, 1] }, { duration: duration.fast, ease: ease.out }); };
 document.addEventListener('click', event => { if (!event.target.closest('.profile-wrapper')) { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); } });
-$('#reset-demo').onclick = () => { activities = initial(); persist(); notes.reset(); clearFilters(); navigate('plano'); $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); toast('Demonstração restaurada. Tudo pronto para recomeçar.'); };
+$('#reset-demo').onclick = () => { activities = initial(); persist(); notes.reset(); clearFilters(); navigate('plano'); $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); toast('Plano inicial restaurado. Seu histórico de respostas foi mantido.'); };
 // Botão "Criar": recurso futuro, sem ação. Só mostra o aviso.
 $('#create-soon').addEventListener('click', e => { e.preventDefault(); const b = e.currentTarget; if (!reduced()) animate(b, { x: [0, -4, 4, -2, 0] }, { duration: 0.36, ease: ease.out }); toast('Em breve: criar listas, simulados e objetivos. Ainda indisponível neste protótipo.'); });
 $('#add-button').onclick = () => { openDialog(`<span class="dialog-label">SEU PLANO, DO SEU JEITO</span><h2 id="dialog-title" class="dialog-title">O que vamos estudar?</h2><p class="dialog-description">Adicione um assunto ao seu mural. Você pode reorganizar a visualização pela barra lateral.</p><form id="activity-form"><label class="dialog-field">Assunto<input name="title" placeholder="Ex.: Equações do segundo grau" maxlength="70" required></label><label class="dialog-field">Área<select name="area">${studyAreas.map(area => `<option value="${area.area}">${area.fullName}</option>`).join('')}</select></label><label class="dialog-field">Tipo<select name="kind"><option value="lista">Lista de questões (5 questões do assunto)</option><option value="simulado">Simulado (10 questões da área, correção ao finalizar)</option></select></label><label class="dialog-field">Sua intenção para esse estudo<textarea name="description" placeholder="O que você quer entender melhor?" maxlength="160" required></textarea></label><button class="primary-button" type="submit">Adicionar ao meu plano ${icon('plus')}</button></form>`); $('#activity-form').onsubmit = event => { event.preventDefault(); const data = new FormData(event.target); const title = data.get('title').trim(), description = data.get('description').trim(); if (!title || !description) return; const now = new Date().toISOString(); activities.push({ id: crypto.randomUUID(), title, description, area: data.get('area') || 'Estudo livre', kind: data.get('kind') === 'simulado' ? 'simulado' : 'lista', icon: 'book', done: false, saved: false, createdAt: now, updatedAt: now }); persist(); navigate('plano'); clearFilters(); dialog.close(); toast('Novo assunto adicionado. Seu plano ganhou mais um caminho.'); }; };
@@ -463,7 +477,7 @@ function renderSimulados({ direction = 0 } = {}) {
     <div class="sim-layout"><div class="sim-steps">
       <section class="sim-step" data-step><header><span class="sim-step-n">1</span><div><h2>Edição de referência</h2><p>Só aparecem os anos que existem no acervo desta área.</p></div></header>
         <div class="sim-years" role="radiogroup" aria-label="Ano de referência"><button type="button" role="radio" aria-checked="${c.year === null}" data-year="" class="${c.year === null ? 'is-on' : ''}"><strong>Todos</strong><small>${simAvailable(area.key)} questões</small></button>${years.map(({ y, n }) => `<button type="button" role="radio" aria-checked="${c.year === y}" data-year="${y}" class="${c.year === y ? 'is-on' : ''}"><strong>${y}</strong><small>${n} ${n === 1 ? 'questão' : 'questões'}</small></button>`).join('')}</div>
-        <p class="sim-note">${icon('spark')} Acervo demonstrativo: o ano é uma etiqueta de referência das questões autorais, não uma prova oficial do Inep.</p></section>
+        <p class="sim-note">${icon('spark')} Questões oficiais do ENEM. O ano corresponde à edição da prova; o treino reúne as questões disponíveis na base.</p></section>
       <section class="sim-step" data-step><header><span class="sim-step-n">2</span><div><h2>Quantidade de questões</h2><p>${available} disponíveis com o filtro atual.</p></div></header>
         <div class="sim-sizes" role="radiogroup" aria-label="Quantidade de questões">${sizes.map(n => `<button type="button" role="radio" aria-checked="${c.size === n}" data-size="${n}" class="${c.size === n ? 'is-on' : ''}" ${n > available ? 'disabled' : ''}>${n}</button>`).join('')}</div>
         ${c.size > available ? `<p class="sim-warn">${icon('bell')} Com esse ano há apenas ${available} questões; o simulado terá ${available}.</p>` : ''}</section>

@@ -4,6 +4,7 @@
 // subtópicos, anos, resumo lateral) e as opções próprias de prova (tamanho,
 // critério de seleção, cronômetro regressivo; correção só ao finalizar).
 import { animate, spring, duration, ease, tabContentIn, collapse, countTo, reduced } from './motion-kit.js';
+import { recomendarQuestao } from './acervo-api.js';
 import { esc, hi, pct, SUBJECT_ICON, pageHeader, tile, cardHeader, card, badge, chip, btn, seg, tabs, switchRow, checkbox, progress, rerender, playBars, playReveal, rotateChevron, animateSwitch, bindTabKeys } from './legacy-ui.js';
 
 const AREA_ORDER = ['linguagens', 'humanas', 'natureza', 'matematica'];
@@ -71,13 +72,13 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
   }
   function headerHTML() {
     if (mode === 'practice') return pageHeader('Prática', 'Monte sua lista de questões', 'Escolha matéria, assuntos e quantidade — ou deixe as recomendações decidirem por você.');
-    return `<button type="button" class="cfg-back" id="cfg-back" data-press>${hi('ArrowLeft')}Voltar às áreas</button>${pageHeader('Simulado personalizado', 'Monte seu simulado', 'Escolha matérias, assuntos, anos e o formato da prova. No simulado, a correção acontece só quando você finaliza.', `<span class="cfg-demo">${hi('Info')}Acervo demonstrativo: as questões são autorais, não provas oficiais.</span>`)}`;
+    return `<button type="button" class="cfg-back" id="cfg-back" data-press>${hi('ArrowLeft')}Voltar às áreas</button>${pageHeader('Simulado personalizado', 'Monte seu simulado', 'Escolha matérias, assuntos, anos e o formato da prova. No simulado, a correção acontece só quando você finaliza.', `<span class="cfg-demo">${hi('Info')}Questões oficiais do ENEM · Progresso salvo neste navegador</span>`)}`;
   }
   function tabsHTML() {
     if (mode === 'practice') return tabs('cfg', practice.tab, [
       { value: 'montar', label: 'Montar lista', icon: 'Settings2' },
       { value: 'recomendadas', label: 'Recomendadas', icon: 'Brain', count: recs().length },
-      { value: 'ia', label: 'IA escolhe por mim', icon: 'Wand2' },
+      { value: 'ia', label: 'Seleção automática', icon: 'Wand2' },
     ]);
     return tabs('cfg', sim.tab, [
       { value: 'conteudo', label: 'Conteúdo', icon: 'Settings2' },
@@ -132,7 +133,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
 
   function yearsBlock() {
     const s = S();
-    return `${cardHeader(mode === 'practice' ? '4. Ano de referência' : '3. Anos de referência', 'Filtro opcional. Sem seleção, todos os anos.', tile('CalendarRange', 'matematica'))}<div class="cfg-chips">${E.REFERENCE_YEARS.map(y => chip(String(y), s.years.includes(y), { 'data-year': y, 'data-focus': `year-${y}` }, { tone: 'ink' })).join('')}</div><p class="cfg-hint">No acervo demonstrativo, o ano é apenas uma etiqueta de referência — as questões não são provas oficiais.</p>`;
+    return `${cardHeader(mode === 'practice' ? '4. Ano da prova' : '3. Anos da prova', 'Filtro opcional. Sem seleção, todos os anos.', tile('CalendarRange', 'matematica'))}<div class="cfg-chips">${E.REFERENCE_YEARS.map(y => chip(String(y), s.years.includes(y), { 'data-year': y, 'data-focus': `year-${y}` }, { tone: 'ink' })).join('')}</div><p class="cfg-hint">O ano corresponde à edição oficial do ENEM.</p>`;
   }
 
   function buildHTML() {
@@ -211,7 +212,9 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
 
   function recsHTML() {
     const list = recs();
-    return `<div class="cfg-recs" data-stagger="0.06">${list.map(rec => card(`<div class="cfg-rec-top">${tile(SUBJECT_ICON[rec.subjectId], rec.areaId, 'lg')}${badge(esc(E.RECOMMENDATION_LABEL[rec.kind]), rec.kind === 'desempenho' ? 'coral' : rec.kind === 'dificuldade' ? 'gold' : rec.kind === 'revisao' ? 'sage' : 'neutral')}</div>
+    const latest = [...records()].sort((a, b) => b.answeredAt - a.answeredAt).find(r => E.questionRepository.getById(r.questionId));
+    const official = card(`${cardHeader('Continue com questões semelhantes', latest ? 'Sugestões do recomendador a partir da sua última questão respondida.' : 'Responda uma questão para receber uma lista de sugestões semelhantes.', tile('Sparkles', 'sage'))}${latest ? btn('Praticar semelhantes', { variant: 'accent', extra: { id: 'cfg-official-recs', 'data-question': latest.questionId } }) : ''}`);
+    return `${official}<h2>Assuntos para explorar e revisar</h2><div class="cfg-recs" data-stagger="0.06">${list.map(rec => card(`<div class="cfg-rec-top">${tile(SUBJECT_ICON[rec.subjectId], rec.areaId, 'lg')}${badge(esc(E.RECOMMENDATION_LABEL[rec.kind]), rec.kind === 'desempenho' ? 'coral' : rec.kind === 'dificuldade' ? 'gold' : rec.kind === 'revisao' ? 'sage' : 'neutral')}</div>
       <p class="cfg-rec-subject">${esc(rec.subjectName)}</p><h3 class="cfg-rec-title">${esc(rec.topicName)}</h3><p class="cfg-rec-reason">${esc(rec.reason)}</p>
       ${rec.accuracy !== null ? `<div class="cfg-rec-acc"><div><span>Seu acerto</span><b>${pct(rec.accuracy)}</b></div>${progress(rec.accuracy, rec.accuracy < 0.5 ? 'coral' : 'sage', { thin: true })}</div>` : ''}
       <div class="cfg-rec-foot"><span>${rec.available} questões disponíveis</span><span class="cfg-rec-go">Praticar ${Math.min(account().study.defaultQuestionCount, rec.available)} ${hi('ArrowRight')}</span></div>`, { tag: 'button', cls: 'is-interactive cfg-rec', extra: { 'data-rec': rec.topicId, type: 'button' } })).join('')}</div>
@@ -227,7 +230,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
         <p class="cfg-ai-q">Quantas questões?</p>
         <div class="cfg-ai-seg" role="radiogroup" aria-label="Quantidade">${E.PRACTICE_COUNTS.map(c => `<button type="button" role="radio" aria-checked="${practice.aiCount === c}" data-ai="${c}" data-focus="ai-${c}">${practice.aiCount === c ? '<span data-indicator="ai-count"></span>' : ''}<b>${c}</b></button>`).join('')}</div>
         <div class="cfg-ai-actions">${btn('Gerar e começar', { variant: 'accent', size: 'lg', icon: 'Wand2', extra: { id: 'cfg-ai-start' } })}</div>
-        <p class="cfg-ai-note">Demonstração local: a seleção usa regras simples no próprio navegador, sem modelos de IA ou serviços externos.</p>
+        <p class="cfg-ai-note">Esta seleção distribui as questões por assunto. Para continuar a partir de uma questão respondida, use as sugestões de questões semelhantes.</p>
       </div>`, { surface: 'ink', padded: 'lg', cls: 'lg-col-7 cfg-ai-card' })}
       ${card(`${cardHeader('Como a lista seria composta', esc(preview.summary), tile('Shuffle', 'sage'))}<ul class="cfg-ai-list">${preview.topics.map((t, i) => { const n = preview.questionIds.filter(id => E.questionRepository.getById(id)?.topicId === t.topicId).length; return `<li data-ai-row style="--i:${i}"><div><span><strong>${esc(t.topicName)}</strong> · ${esc(t.subjectName)}</span><b>${n} q.</b></div>${progress(practice.aiCount ? n / practice.aiCount : 0, t.areaId, { thin: true, delay: 0.1 + i * 0.06 })}<p>${esc(E.RECOMMENDATION_LABEL[t.kind])}</p></li>`; }).join('')}</ul><p class="cfg-ai-foot">${hi('Timer')} Prioriza questões inéditas e, depois, as que você errou.</p>`, { cls: 'lg-col-5' })}
     </div>`;
@@ -356,6 +359,17 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     const st = $('#cfg-start'); if (st) st.onclick = start;
     const nt = $('#cfg-note'); if (nt) nt.onclick = e => saveToNotes({ kind: 'custom-sim' }, e.currentTarget);
     $$('[data-rec]').forEach(b => b.onclick = () => startRec(b.dataset.rec));
+    const official = $('#cfg-official-recs');
+    if (official) official.onclick = async () => {
+      official.disabled = true;
+      try {
+        const exclude = [...new Set(records().map(r => r.questionId))];
+        const result = await recomendarQuestao(official.dataset.question, exclude, account().study.defaultQuestionCount);
+        if (!result.ids.length) { toast(result.reason); return; }
+        onStartPractice('Questões semelhantes', result.ids, 'recommended', { ...E.EMPTY_FILTERS, count: result.ids.length });
+      } catch { toast('Não foi possível buscar as recomendações. Tente novamente.'); }
+      finally { official.disabled = false; }
+    };
     $$('[data-ai]').forEach(b => b.onclick = () => { if (practice.aiCount === Number(b.dataset.ai)) return; practice.aiCount = Number(b.dataset.ai); update(); aiEnter(); });
     const ais = $('#cfg-ai-start'); if (ais) ais.onclick = (() => { const sel = E.buildAutoSelection(account(), records(), practice.aiCount, Date.now(), Date.now()); onStartPractice('Seleção automática', sel.questionIds, 'auto', { ...E.EMPTY_FILTERS, count: sel.questionIds.length }); });
   }

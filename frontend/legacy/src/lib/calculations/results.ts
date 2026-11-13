@@ -1,6 +1,6 @@
 import type { AreaId, PracticeSession, Question, SimulationSession } from "@/types";
 import { AREA_BY_ID, TOPIC_BY_ID } from "@/data/fixtures/taxonomy";
-import { QUESTION_BY_ID } from "@/data/fixtures/questions";
+import { QUESTION_BY_ID } from "@/lib/repositories/questionRepository";
 import { clockElapsed } from "@/lib/sessions/clock";
 
 export interface TopicResult {

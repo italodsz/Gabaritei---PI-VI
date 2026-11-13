@@ -1,5 +1,5 @@
 import type { AccountData } from "@/types";
-import { QUESTION_BY_ID } from "@/data/fixtures/questions";
+import { QUESTION_BY_ID } from "@/lib/repositories/questionRepository";
 import type { AnswerRecord } from "./records";
 import { computeStreak } from "./stats";
 import { dayKey } from "@/lib/format";

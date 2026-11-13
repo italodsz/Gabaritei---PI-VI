@@ -1,5 +1,5 @@
 import type { AccountData, AreaId, Question, SubjectId } from "@/types";
-import { QUESTION_BY_ID } from "@/data/fixtures/questions";
+import { QUESTION_BY_ID } from "@/lib/repositories/questionRepository";
 
 /**
  * Registro de resposta corrigida. É derivado das sessões — a única fonte

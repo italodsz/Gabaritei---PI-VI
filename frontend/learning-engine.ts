@@ -1,7 +1,9 @@
 // Reaproveita as regras e o acervo do front-end anterior, sem seus componentes visuais.
 export { AREAS, AREA_BY_ID, SUBJECTS, SUBJECT_BY_ID, TOPICS, TOPIC_BY_ID, REFERENCE_YEARS, subjectsOfArea } from './legacy/src/data/fixtures/taxonomy';
 export { questionRepository } from './legacy/src/lib/repositories/questionRepository';
-export { createDemoAccount, createEmptyAccount } from './legacy/src/data/seeds/accounts';
+export { createEmptyAccount } from './legacy/src/data/seeds/accounts';
+export { installQuestions } from './legacy/src/lib/repositories/questionRepository';
+export { installTaxonomy } from './legacy/src/data/fixtures/taxonomy';
 export { collectAnswerRecords } from './legacy/src/lib/calculations/records';
 export * from './legacy/src/lib/calculations/stats';
 export { goalProgress, GOAL_META } from './legacy/src/lib/calculations/goals';

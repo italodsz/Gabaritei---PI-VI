@@ -268,3 +268,16 @@ export const ENEM_EDITIONS: number[] = Array.from({ length: 2025 - 2009 + 1 }, (
 
 /** Anos de referência usados como filtro no acervo demonstrativo. */
 export const REFERENCE_YEARS: number[] = [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018];
+
+/** Atualiza as referências compartilhadas antes de montar as telas. */
+export function installTaxonomy(subjects: Subject[], years: number[]): void {
+  SUBJECTS.splice(0, SUBJECTS.length, ...subjects);
+  TOPICS.splice(0, TOPICS.length, ...subjects.flatMap(s => s.topics));
+  for (const target of [SUBJECT_BY_ID, TOPIC_BY_ID, SUBTOPIC_NAME]) {
+    for (const key of Object.keys(target)) delete (target as Record<string, unknown>)[key];
+  }
+  Object.assign(SUBJECT_BY_ID, Object.fromEntries(SUBJECTS.map(s => [s.id, s])));
+  Object.assign(TOPIC_BY_ID, Object.fromEntries(TOPICS.map(t => [t.id, t])));
+  Object.assign(SUBTOPIC_NAME, Object.fromEntries(TOPICS.flatMap(t => t.subtopics.map(s => [s.id, s.name]))));
+  REFERENCE_YEARS.splice(0, REFERENCE_YEARS.length, ...years);
+}

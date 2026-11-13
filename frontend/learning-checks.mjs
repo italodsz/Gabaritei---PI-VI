@@ -1,16 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import * as E from './assets/learning-engine.js';
+import { carregarAcervo } from '../backend/acervo.mjs';
+
+const acervo = await carregarAcervo();
+E.installTaxonomy(acervo.bootstrap.subjects, acervo.bootstrap.years);
+E.installQuestions(acervo.questions);
 
 const now = new Date(2026,10,9,12,0,0).getTime();
-const demo = E.createDemoAccount(now);
+const demo = E.createEmptyAccount({id:'teste-local',kind:'new',name:'Teste',email:'',now});
 const records = E.collectAnswerRecords(demo);
 
-test('acervo anterior: 254 questões distintas, cinco alternativas e gabarito válido', () => {
+test('acervo oficial: 2.657 questões liberadas, cinco alternativas e gabarito válido', () => {
   const bank = E.questionRepository.all();
-  assert.equal(bank.length,254);
+  assert.equal(bank.length,2657);
   assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);
-  for(const q of bank){assert.equal(q.alternatives.length,5);assert(q.alternatives.some(a=>a.letter===q.correct));assert.equal(q.origin,'demonstrativa');}
+  for(const q of bank){assert.equal(q.alternatives.length,5);assert(q.alternatives.some(a=>a.letter===q.correct));assert.equal(q.origin,'oficial');assert(E.TOPIC_BY_ID[q.topicId]);assert(E.SUBJECT_BY_ID[q.subjectId]);}
 });
 
 test('listas respeitam matéria, assunto, subtópico, ano e limite disponível', () => {
