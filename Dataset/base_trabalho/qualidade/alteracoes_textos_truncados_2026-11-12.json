@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "gq_664bb153cf3dec2fe8508e82",
+    "year": 2011,
+    "area": "MT",
+    "co_item": "71649",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Para colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa.\n\nNessa condição, o dono da oficina deverá comprar o pistão de diâmetro",
+    "after_question": "O dono de uma oficina mecânica precisa de um pistão das partes de um motor, de 68 mm de diâmetro, para o conserto de um carro. Para conseguir um, esse dono vai até um ferro velho e lá encontra pistões com diâmetros iguais a 68,21 mm; 68,102 mm; 68,001 mm; 68,02 mm e 68,012 mm. Para colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa. Nessa condição, o dono da oficina deverá comprar o pistão de diâmetro",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "68,21 mm."
+      },
+      {
+        "label": "B",
+        "text": "68,102 mm."
+      },
+      {
+        "label": "C",
+        "text": "68,02 mm."
+      },
+      {
+        "label": "D",
+        "text": "68,012 mm."
+      },
+      {
+        "label": "E",
+        "text": "68,001 mm."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "68,21 mm."
+      },
+      {
+        "label": "B",
+        "text": "68,102 mm."
+      },
+      {
+        "label": "C",
+        "text": "68,02 mm."
+      },
+      {
+        "label": "D",
+        "text": "68,012 mm."
+      },
+      {
+        "label": "E",
+        "text": "68,001 mm."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "E",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf (questão 136). Conferido resolvendo a questão: 68,001 mm é o mais próximo de 68 mm (E)."
+  },
+  {
+    "id": "gq_0fd7a5d3fb61cb3ed9cab9db",
+    "year": 2014,
+    "area": "CN",
+    "co_item": "44477",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "A fórmula que se enquadra nas características da molécula investigada é",
+    "after_question": "O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas características de cada substância descoberta. Um laboratório investiga moléculas quirais cuja cadeia carbônica seja insaturada, heterogênea e ramificada. A fórmula que se enquadra nas características da molécula investigada é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "CH3 –(CH)2 –CH(OH)–CO–NH–CH3."
+      },
+      {
+        "label": "B",
+        "text": "CH3 –(CH)2 –CH(CH3)–CO–NH–CH3."
+      },
+      {
+        "label": "C",
+        "text": "CH3 –(CH)2 –CH(CH3)–CO–NH2."
+      },
+      {
+        "label": "D",
+        "text": "CH3 –CH2 –CH(CH3)–CO–NH–CH3."
+      },
+      {
+        "label": "E",
+        "text": "C6 H5 –CH2 –CO–NH–CH3."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "CH3 –(CH)2 –CH(OH)–CO–NH–CH3."
+      },
+      {
+        "label": "B",
+        "text": "CH3 –(CH)2 –CH(CH3)–CO–NH–CH3."
+      },
+      {
+        "label": "C",
+        "text": "CH3 –(CH)2 –CH(CH3)–CO–NH2."
+      },
+      {
+        "label": "D",
+        "text": "CH3 –CH2 –CH(CH3)–CO–NH–CH3."
+      },
+      {
+        "label": "E",
+        "text": "C6 H5 –CH2 –CO–NH–CH3."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf (questão 77). Conferido resolvendo a questão: cadeia quiral, insaturada, heterogênea e ramificada (B)."
+  },
+  {
+    "id": "gq_1741507513810ca47a2e4fe4",
+    "year": 2014,
+    "area": "CN",
+    "co_item": "66279",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
+    "after_question": "Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0. Um resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a 1,0 × 10^-10 mol/L. Para atender a legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: CH3COOH, Na2SO4, CH3OH, K2CO3 e NH4Cl. Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "CH3COOH"
+      },
+      {
+        "label": "B",
+        "text": "Na2SO4"
+      },
+      {
+        "label": "C",
+        "text": "CH3OH"
+      },
+      {
+        "label": "D",
+        "text": "K2CO3"
+      },
+      {
+        "label": "E",
+        "text": "NH4Cl"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "CH3COOH"
+      },
+      {
+        "label": "B",
+        "text": "Na2SO4"
+      },
+      {
+        "label": "C",
+        "text": "CH3OH"
+      },
+      {
+        "label": "D",
+        "text": "K2CO3"
+      },
+      {
+        "label": "E",
+        "text": "NH4Cl"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf (questão 70). Conferido resolvendo a questão: [OH-] = 10^-10 → pH 4; precisa de base: K2CO3 (D)."
+  },
+  {
+    "id": "gq_911f7f7a8aca8533f60a497d",
+    "year": 2014,
+    "area": "MT",
+    "co_item": "41283",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "O secretário de saúde comprará recipientes de um mesmo tipo, de modo a instalar 20 deles em cada escola, abastecidos com álcool em gel na sua capacidade máxima, de forma a utilizar todo o gel dos galões de uma só vez.\n\nQue tipo de recipiente o secretário de saúde deve comprar?",
+    "after_question": "Durante uma epidemia de uma gripe viral, o secretário de saúde de um município comprou 16 galões de álcool em gel, com 4 litros de capacidade cada um, para distribuir igualmente em recipientes para 10 escolas públicas do município. O fornecedor dispõe à venda diversos tipos de recipientes, com suas respectivas capacidades listadas: • Recipiente I: 0,125 litro • Recipiente II: 0,250 litro • Recipiente III: 0,320 litro • Recipiente IV: 0,500 litro • Recipiente V: 0,800 litro O secretário de saúde comprará recipientes de um mesmo tipo, de modo a instalar 20 deles em cada escola, abastecidos com álcool em gel na sua capacidade máxima, de forma a utilizar todo o gel dos galões de uma só vez. Que tipo de recipiente o secretário de saúde deve comprar?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf (questão 174). Conferido resolvendo a questão: 64 L / 10 escolas / 20 recipientes = 0,32 L (III, C)."
+  },
+  {
+    "id": "gq_b51898071deb6f81bc8218c3",
+    "year": 2015,
+    "area": "CN",
+    "co_item": "82032",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Qual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?",
+    "after_question": "A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais. Suponha que um produtor de rúcula hidropônica precise ajustar a concentração do íon nitrato (NO3^-) para 0,009 mol/L em um tanque de 5 000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L. As massas molares dos elementos N, O e Ca são iguais a 14 g/mol, 16 g/mol e 40 g/mol, respectivamente. Qual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "26"
+      },
+      {
+        "label": "B",
+        "text": "41"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "51"
+      },
+      {
+        "label": "E",
+        "text": "82"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "26"
+      },
+      {
+        "label": "B",
+        "text": "41"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "51"
+      },
+      {
+        "label": "E",
+        "text": "82"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf (questão 55). Conferido resolvendo a questão: 45 mol NO3- → 22,5 mol Ca(NO3)2 = 3 690 g / 90 g/L ≈ 41 L (B)."
+  },
+  {
+    "id": "gq_c8d54b4671dd1fac44db29f7",
+    "year": 2015,
+    "area": "MT",
+    "co_item": "15876",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Atendendo o pedido do arquiteto, o carpinteiro deverá produzir",
+    "after_question": "Um arquiteto está reformando uma casa. De modo a contribuir com o meio ambiente, decide reaproveitar tábuas de madeira retiradas da casa. Ele dispõe de 40 tábuas de 540 cm, 30 de 810 cm e 10 de 1 080 cm, todas de mesma largura e espessura. Ele pediu a um carpinteiro que cortasse as tábuas em pedaços de mesmo comprimento, sem deixar sobras, e de modo que as novas peças ficassem com o maior tamanho possível, mas de comprimento menor que 2 m. Atendendo o pedido do arquiteto, o carpinteiro deverá produzir",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "105 peças."
+      },
+      {
+        "label": "B",
+        "text": "120 peças."
+      },
+      {
+        "label": "C",
+        "text": "210 peças."
+      },
+      {
+        "label": "D",
+        "text": "243 peças."
+      },
+      {
+        "label": "E",
+        "text": "420 peças."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "105 peças."
+      },
+      {
+        "label": "B",
+        "text": "120 peças."
+      },
+      {
+        "label": "C",
+        "text": "210 peças."
+      },
+      {
+        "label": "D",
+        "text": "243 peças."
+      },
+      {
+        "label": "E",
+        "text": "420 peças."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "E",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf (questão 162). Conferido resolvendo a questão: MDC 270 → peças de 135 cm; 160 + 180 + 80 = 420 (E)."
+  },
+  {
+    "id": "gq_495779507cce0a6b2cf5852a",
+    "year": 2015,
+    "area": "MT",
+    "co_item": "27281",
+    "changed_fields": [
+      "options",
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Se a estimativa for alcançada, qual é a expressão que determina o número de unidades produzidas P em função de t, para t ≥ 1?",
+    "after_question": "O acréscimo de tecnologias no sistema produtivo industrial tem por objetivo reduzir custos e aumentar a produtividade. No primeiro ano de funcionamento, uma indústria fabricou 8 000 unidades de um determinado produto. No ano seguinte, investiu em tecnologia adquirindo novas máquinas e aumentou a produção em 50%. Estima-se que esse aumento percentual se repita nos próximos anos, garantindo um crescimento anual de 50%. Considere P a quantidade anual de produtos fabricados no ano t de funcionamento da indústria. Se a estimativa for alcançada, qual é a expressão que determina o número de unidades produzidas P em função de t, para t ≥ 1?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "P(t) = 0,5 · t-1 + 8 000"
+      },
+      {
+        "label": "B",
+        "text": "P(t) = 50 · t-1 + 8 000"
+      },
+      {
+        "label": "C",
+        "text": "P(t) = 4 000 · t-1 + 8 000"
+      },
+      {
+        "label": "D",
+        "text": "P(t) = 8 000 · (0,5)t - 1"
+      },
+      {
+        "label": "E",
+        "text": "P(t) = 8 000 · (1,5)t - 1"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "P(t) = 0,5 · t^(-1) + 8 000"
+      },
+      {
+        "label": "B",
+        "text": "P(t) = 50 · t^(-1) + 8 000"
+      },
+      {
+        "label": "C",
+        "text": "P(t) = 4 000 · t^(-1) + 8 000"
+      },
+      {
+        "label": "D",
+        "text": "P(t) = 8 000 · (0,5)^(t - 1)"
+      },
+      {
+        "label": "E",
+        "text": "P(t) = 8 000 · (1,5)^(t - 1)"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "E",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf (questão 152). Conferido resolvendo a questão: crescimento de 50% ao ano: 8 000·1,5^(t-1) (E)."
+  },
+  {
+    "id": "gq_cc5bcf4f585dcb69ecdb8deb",
+    "year": 2015,
+    "area": "MT",
+    "co_item": "28646",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Com base nas informações, qual é a quantidade de cores que serão utilizadas na pintura das faces do troféu?",
+    "after_question": "Para o modelo de um troféu foi escolhido um poliedro P, obtido a partir de cortes nos vértices de um cubo. Com um corte plano em cada um dos cantos do cubo, retira-se o canto, que é um tetraedro de arestas menores do que metade da aresta do cubo. Cada face do poliedro P, então, é pintada usando uma cor distinta das demais faces. Com base nas informações, qual é a quantidade de cores que serão utilizadas na pintura das faces do troféu?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      },
+      {
+        "label": "E",
+        "text": "30"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      },
+      {
+        "label": "E",
+        "text": "30"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf (questão 149). Conferido resolvendo a questão: 6 faces do cubo + 8 cortes = 14 faces (C)."
+  },
+  {
+    "id": "gq_2d95d1bc5fcfa7364da555b3",
+    "year": 2016,
+    "area": "CN",
+    "co_item": "87728",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "A variação de entalpia do processo de trimerização, em kcal, para a formação de um mol de benzeno é mais próxima de",
+    "after_question": "O benzeno, um importante solvente para a indústria química, é obtido industrialmente pela destilação do petróleo. Contudo, também pode ser sintetizado pela trimerização do acetileno catalisada por ferro metálico sob altas temperaturas, conforme a equação química: 3 C2H2(g) → C6H6(l) A energia envolvida nesse processo pode ser calculada indiretamente pela variação de entalpia das reações de combustão das substâncias participantes, nas mesmas condições experimentais: I. C2H2(g) + 5/2 O2(g) → 2 CO2(g) + H2O(l)   ΔH°c = −310 kcal/mol II. C6H6(l) + 15/2 O2(g) → 6 CO2(g) + 3 H2O(l)   ΔH°c = −780 kcal/mol A variação de entalpia do processo de trimerização, em kcal, para a formação de um mol de benzeno é mais próxima de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "-1090."
+      },
+      {
+        "label": "B",
+        "text": "-150."
+      },
+      {
+        "label": "C",
+        "text": "-50."
+      },
+      {
+        "label": "D",
+        "text": "+157."
+      },
+      {
+        "label": "E",
+        "text": "+470."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "-1090."
+      },
+      {
+        "label": "B",
+        "text": "-150."
+      },
+      {
+        "label": "C",
+        "text": "-50."
+      },
+      {
+        "label": "D",
+        "text": "+157."
+      },
+      {
+        "label": "E",
+        "text": "+470."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf (questão 50). Conferido resolvendo a questão: 3(−310) − (−780) = −150 kcal (B)."
+  },
+  {
+    "id": "gq_5807ce85a0a8bcc838dfcb47",
+    "year": 2016,
+    "area": "CN",
+    "co_item": "97272",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "A elevação de temperatura descrita ocorre porque",
+    "after_question": "A magnetohipertermia é um procedimento terapêutico que se baseia na elevação da temperatura das células de uma região específica do corpo que estejam afetadas por um tumor. Nesse tipo de tratamento, nanopartículas magnéticas são fagocitadas pelas células tumorais, e um campo magnético alternado externo é utilizado para promover a agitação das nanopartículas e consequente aquecimento da célula. A elevação de temperatura descrita ocorre porque",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "O campo magnético gerado pela oscilação das nanopartículas é absorvido pelo tumor."
+      },
+      {
+        "label": "B",
+        "text": "O campo magnético alternado faz as nanopartículas girarem, transferindo calor por atrito."
+      },
+      {
+        "label": "C",
+        "text": "As nanopartículas interagem magneticamente com as células do corpo, transferindo calor."
+      },
+      {
+        "label": "D",
+        "text": "O campo magnético alternado fornece calor para as nanopartículas que o transfere às células do corpo."
+      },
+      {
+        "label": "E",
+        "text": "As nanopartículas são aceleradas em um único sentido em razão da interação com o campo magnético, fazendo-as colidir com as células e transferir calor."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "O campo magnético gerado pela oscilação das nanopartículas é absorvido pelo tumor."
+      },
+      {
+        "label": "B",
+        "text": "O campo magnético alternado faz as nanopartículas girarem, transferindo calor por atrito."
+      },
+      {
+        "label": "C",
+        "text": "As nanopartículas interagem magneticamente com as células do corpo, transferindo calor."
+      },
+      {
+        "label": "D",
+        "text": "O campo magnético alternado fornece calor para as nanopartículas que o transfere às células do corpo."
+      },
+      {
+        "label": "E",
+        "text": "As nanopartículas são aceleradas em um único sentido em razão da interação com o campo magnético, fazendo-as colidir com as células e transferir calor."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf (questão 88). Conferido resolvendo a questão: rotação das nanopartículas, calor por atrito (B)."
+  },
+  {
+    "id": "gq_9b926cb85cdbd373a403fa18",
+    "year": 2016,
+    "area": "MT",
+    "co_item": "10052",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Use 0,477 como aproximação para log10 3 e 1,041 como aproximação para log10 11.\nO tempo decorrido, em hora, até que a liga atinja 30℃ é mais próximo de",
+    "after_question": "Uma liga metálica sai do forno a uma temperatura de 3 000 °C e diminui 1% de sua temperatura a cada 30 min. Use 0,477 como aproximação para log10(3) e 1,041 como aproximação para log10(11). O tempo decorrido, em hora, até que a liga atinja 30 °C é mais próximo de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      },
+      {
+        "label": "D",
+        "text": "200"
+      },
+      {
+        "label": "E",
+        "text": "400"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      },
+      {
+        "label": "D",
+        "text": "200"
+      },
+      {
+        "label": "E",
+        "text": "400"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD7.pdf (questão 160). Conferido resolvendo a questão: 0,99^n = 0,01 → n = 400 meias-horas = 200 h (D)."
+  },
+  {
+    "id": "gq_3328c1d9fc3b6e01d0c910d8",
+    "year": 2018,
+    "area": "CN",
+    "co_item": "62289",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?",
+    "after_question": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH3). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que: “Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo. Economias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado. Isso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam. Desde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.” HABER, F. The Synthesis of Ammonia from its Elements . Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado). De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "O esgotamento das reservas de salitre no Chile."
+      },
+      {
+        "label": "B",
+        "text": "O aumento da exploração agrícola em regiões distantes dos centros consumidores."
+      },
+      {
+        "label": "C",
+        "text": "A impossibilidade de as plantas absorverem o nitrogênio na forma simples."
+      },
+      {
+        "label": "D",
+        "text": "A transferência dos produtos agrícolas para locais distantes de onde foram cultivados."
+      },
+      {
+        "label": "E",
+        "text": "A necessidade de suprir o solo com nitrogênio ligado para aumentar a produção de alimentos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "O esgotamento das reservas de salitre no Chile."
+      },
+      {
+        "label": "B",
+        "text": "O aumento da exploração agrícola em regiões distantes dos centros consumidores."
+      },
+      {
+        "label": "C",
+        "text": "A impossibilidade de as plantas absorverem o nitrogênio na forma simples."
+      },
+      {
+        "label": "D",
+        "text": "A transferência dos produtos agrícolas para locais distantes de onde foram cultivados."
+      },
+      {
+        "label": "E",
+        "text": "A necessidade de suprir o solo com nitrogênio ligado para aumentar a produção de alimentos."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf (questão 135). Conferido resolvendo a questão: produtos levados para longe do local de cultivo (D)."
+  },
+  {
+    "id": "gq_ae3f4012d9ee1b14fdf9b192",
+    "year": 2018,
+    "area": "CN",
+    "co_item": "88496",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Um dos benefícios dessa forma de plantio é a",
+    "after_question": "O cruzamento de duas espécies da família das Anonáceas, a cherimoia ( Annona cherimola ) com a fruta-pinha ( Annona squamosa ), resultou em uma planta híbrida denominada de atemoia. Recomenda-se que o seu plantio seja por meio de enxertia. Um dos benefícios dessa forma de plantio é a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "ampliação da variabilidade genética."
+      },
+      {
+        "label": "B",
+        "text": "produção de frutos das duas espécies."
+      },
+      {
+        "label": "C",
+        "text": "manutenção do genótipo da planta híbrida."
+      },
+      {
+        "label": "D",
+        "text": "reprodução de clones das plantas parentais."
+      },
+      {
+        "label": "E",
+        "text": "modificação do genoma decorrente da transgenia."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "ampliação da variabilidade genética."
+      },
+      {
+        "label": "B",
+        "text": "produção de frutos das duas espécies."
+      },
+      {
+        "label": "C",
+        "text": "manutenção do genótipo da planta híbrida."
+      },
+      {
+        "label": "D",
+        "text": "reprodução de clones das plantas parentais."
+      },
+      {
+        "label": "E",
+        "text": "modificação do genoma decorrente da transgenia."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf (questão 107). Conferido resolvendo a questão: enxertia mantém o genótipo do híbrido (C)."
+  },
+  {
+    "id": "gq_c3ad5ec1f591615283e1dd4a",
+    "year": 2019,
+    "area": "CN",
+    "co_item": "117999",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "A Aquecer a casa e os corpos.\nB Evitar a entrada do frio na casa e nos corpos.\nC Minimizar a perda de calor pela casa e pelos corpos.\nD Diminuir a entrada do frio na casa e aquecer os corpos.\nE Aquecer a casa e reduzir a perda de calor pelos corpos.",
+    "after_question": "Em 1962, um jingle (vinheta musical) criado por Heitor Carillo fez tanto sucesso que extrapolou as fronteiras do rádio e chegou à televisão ilustrado por um desenho animado. Nele, uma pessoa respondia ao fantasma que batia em sua porta, personificando o “frio”, que não o deixaria entrar, pois não abriria a porta e compraria lãs e cobertores para aquecer sua casa. Apesar de memorável, tal comercial televisivo continha incorreções a respeito de conceitos físicos relativos à calorimetria. DUARTE, M. Jingle é a alma do negócio: livro revela os bastidores das músicas de propagandas. Disponível em: https://guiadoscuriosos.uol.com.br. Acesso em: 24 abr. 2019 (adaptado). Para solucionar essas incorreções, deve-se associar à porta e aos cobertores, respectivamente, as funções de:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Aquecer a casa e os corpos."
+      },
+      {
+        "label": "B",
+        "text": "Evitar a entrada do frio na casa e nos corpos."
+      },
+      {
+        "label": "C",
+        "text": "Minimizar a perda de calor pela casa e pelos corpos."
+      },
+      {
+        "label": "D",
+        "text": "Diminuir a entrada do frio na casa e aquecer os corpos."
+      },
+      {
+        "label": "E",
+        "text": "Aquecer a casa e reduzir a perda de calor pelos corpos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Aquecer a casa e os corpos."
+      },
+      {
+        "label": "B",
+        "text": "Evitar a entrada do frio na casa e nos corpos."
+      },
+      {
+        "label": "C",
+        "text": "Minimizar a perda de calor pela casa e pelos corpos."
+      },
+      {
+        "label": "D",
+        "text": "Diminuir a entrada do frio na casa e aquecer os corpos."
+      },
+      {
+        "label": "E",
+        "text": "Aquecer a casa e reduzir a perda de calor pelos corpos."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf (questão 94). Conferido resolvendo a questão: porta e cobertores minimizam a perda de calor (C)."
+  },
+  {
+    "id": "gq_7de599403aa686620d28023a",
+    "year": 2019,
+    "area": "LC",
+    "co_item": "118256",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Menina\nÂNGELO, I. Menina. In: A face horrível. São Paulo: Lazuli, 2017.\nEscrita na década de 1960, a narrativa põe em evidência uma dramaticidade centrada na",
+    "after_question": "Menina A máquina de costura avançava decidida sobre o pano. Que bonita que a mãe era, com os alfinetes na boca. Gostava de olhá-la calada, estudando seus gestos, enquanto recortava retalhos de pano com a tesoura. Interrompia às vezes seu trabalho, era quando a mãe precisava da tesoura. Admirava o jeito decidido da mãe ao cortar pano, não hesitava nunca, nem errava. A mãe sabia tanto! Tita chamava-a de ( ) como quem diz ( ). Tentava não pensar as palavras, mas sabia que na mesma hora da tentativa tinha-as pensado. Oh, tudo era tão difícil. A mãe saberia o que ela queria perguntar-lhe intensamente agora quase com fome depressa depressa antes de morrer, tanto que não se conteve e — Mamãe, o que é desquitada? — atirou rápida com uma voz sem timbre. Tudo ficou suspenso, se alguém gritasse o mundo acabava ou Deus aparecia — sentia Ana Lúcia. Era muito forte aquele instante, forte demais para uma menina, a mãe parada com a tesoura no ar, tudo sem solução podendo desabar a qualquer pensamento, a máquina avançando desgovernada sobre o vestido de seda brilhante espalhando luz luz luz. ÂNGELO, I. Menina. In: A face horrível . São Paulo: Lazuli, 2017. Escrita na década de 1960, a narrativa põe em evidência uma dramaticidade centrada na",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "insinuação da lacuna familiar gerada pela ausência da figura paterna."
+      },
+      {
+        "label": "B",
+        "text": "associação entre a angústia da menina e a reação intempestiva da mãe."
+      },
+      {
+        "label": "C",
+        "text": "relação conflituosa entre o trabalho doméstico e a emancipação feminina."
+      },
+      {
+        "label": "D",
+        "text": "representação de estigmas sociais modulados pela perspectiva da criança."
+      },
+      {
+        "label": "E",
+        "text": "expressão de dúvidas existenciais intensificadas pela percepção do abandono."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "insinuação da lacuna familiar gerada pela ausência da figura paterna."
+      },
+      {
+        "label": "B",
+        "text": "associação entre a angústia da menina e a reação intempestiva da mãe."
+      },
+      {
+        "label": "C",
+        "text": "relação conflituosa entre o trabalho doméstico e a emancipação feminina."
+      },
+      {
+        "label": "D",
+        "text": "representação de estigmas sociais modulados pela perspectiva da criança."
+      },
+      {
+        "label": "E",
+        "text": "expressão de dúvidas existenciais intensificadas pela percepção do abandono."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf (questão 21). Conferido resolvendo a questão: estigma social (desquitada) visto pela criança (D)."
+  },
+  {
+    "id": "gq_c43c6eeeacd38163e603b4a6",
+    "year": 2021,
+    "area": "CH",
+    "co_item": "125656",
+    "changed_fields": [
+      "options",
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "TEXTO I\nTEXTO II\nA valorização do trabalho braçal.\nB reiteração das hierarquias sociais.\nC sacralização das atividades laborais.\nD superação das exclusões econômicas.\nE ressignificação das heranças religiosas.\nKARASCH, M. C. A vida dos escravos no Rio de Janeiro, 1808-1850. Rio de Janeiro: Cia. das Letras, 2000.",
+    "after_question": "TEXTO I [imagem: escravizados carregando barris na cabeça] EIGENHEER, E. M. Lixo: a limpeza urbana através dos tempos. Porto Alegre: Gráfica Palloti, 2009. TEXTO II A repugnante tarefa de carregar lixo e os dejetos da casa para as praças e praias era geralmente destinada ao único escravo da família ou ao de menor status ou valor. Todas as noites, depois das dez horas, os escravos conhecidos popularmente como “tigres” levavam tubos ou barris de excremento e lixo sobre a cabeça pelas ruas do Rio. KARASCH, M. C. A vida dos escravos no Rio de Janeiro, 1808-1850. Rio de Janeiro: Cia. das Letras, 2000. A ação representada na imagem e descrita no texto evidencia uma prática do cotidiano nas cidades no Brasil nos séculos XVIII e XIX caracterizada pela",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A valorização do trabalho braçal."
+      },
+      {
+        "label": "B",
+        "text": "reiteração das hierarquias sociais."
+      },
+      {
+        "label": "C",
+        "text": "sacralização das atividades laborais."
+      },
+      {
+        "label": "D",
+        "text": "superação das exclusões econômicas."
+      },
+      {
+        "label": "E",
+        "text": "ressignificação das heranças religiosas."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "valorização do trabalho braçal."
+      },
+      {
+        "label": "B",
+        "text": "reiteração das hierarquias sociais."
+      },
+      {
+        "label": "C",
+        "text": "sacralização das atividades laborais."
+      },
+      {
+        "label": "D",
+        "text": "superação das exclusões econômicas."
+      },
+      {
+        "label": "E",
+        "text": "ressignificação das heranças religiosas."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf (questão 90). Conferido resolvendo a questão: trabalho dos 'tigres' reitera hierarquias sociais (B)."
+  },
+  {
+    "id": "gq_f062a01678195442e1966525",
+    "year": 2021,
+    "area": "CN",
+    "co_item": "98020",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "O biocombustível a que se refere o texto é o",
+    "after_question": "Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o potencial poluidor dos resíduos dessa agroindústria, uma vez que, comparativamente ao esgoto doméstico, os dejetos suínos são 200 vezes mais poluentes. Sendo assim, a utilização desses resíduos como matéria-prima na obtenção de combustíveis é uma alternativa que permite diversificar a matriz energética nacional, ao mesmo tempo em que parte dos recursos hídricos do país são preservados. BECK, A. M. Resíduos suínos como alternativa energética sustentável. XXVII Encontro Nacional de Engenharia de Produção. Anais ENEGEP, Foz do Iguaçu, 2007 (adaptado). O biocombustível a que se refere o texto é o",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "etanol."
+      },
+      {
+        "label": "B",
+        "text": "biogás."
+      },
+      {
+        "label": "C",
+        "text": "butano."
+      },
+      {
+        "label": "D",
+        "text": "metanol."
+      },
+      {
+        "label": "E",
+        "text": "biodiesel."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "etanol."
+      },
+      {
+        "label": "B",
+        "text": "biogás."
+      },
+      {
+        "label": "C",
+        "text": "butano."
+      },
+      {
+        "label": "D",
+        "text": "metanol."
+      },
+      {
+        "label": "E",
+        "text": "biodiesel."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf (questão 117). Conferido resolvendo a questão: dejetos suínos → biogás (B)."
+  },
+  {
+    "id": "gq_45d61e89cfd14d7ed685d8b4",
+    "year": 2021,
+    "area": "MT",
+    "co_item": "30751",
+    "changed_fields": [
+      "question",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Segundo esse pesquisador, o número anual típico de terremotos de magnitude maior ou igual a 7 é",
+    "after_question": "O quadro apresenta o número de terremotos de magnitude maior ou igual a 7, na escala Richter, ocorridos em nosso planeta nos anos de 2000 a 2011. Ano: 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011. Terremotos: 15 | 16 | 13 | 15 | 16 | 11 | 11 | 18 | 12 | 17 | 24 | 20. Disponível em: https://earthquake.usgs.gov/earthquakes/browse/m7-world.php. Acesso em: 13 ago. 2012 (adaptado). Um pesquisador acredita que a mediana representa bem o número anual típico de terremotos em um período. Segundo esse pesquisador, o número anual típico de terremotos de magnitude maior ou igual a 7 é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "11."
+      },
+      {
+        "label": "B",
+        "text": "15."
+      },
+      {
+        "label": "C",
+        "text": "15,5."
+      },
+      {
+        "label": "D",
+        "text": "15,7."
+      },
+      {
+        "label": "E",
+        "text": "17,5."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "11."
+      },
+      {
+        "label": "B",
+        "text": "15."
+      },
+      {
+        "label": "C",
+        "text": "15,5."
+      },
+      {
+        "label": "D",
+        "text": "15,7."
+      },
+      {
+        "label": "E",
+        "text": "17,5."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf (questão 148). Conferido resolvendo a questão: mediana de 12 anos = (15 + 16)/2 = 15,5 (C)."
+  },
+  {
+    "id": "gq_6a697545f71aa52dee715749",
+    "year": 2019,
+    "area": "MT",
+    "co_item": "78445",
+    "changed_fields": [
+      "options",
+      "question",
+      "ready_text",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "Segundo o acordo, qual município receberá o investimento extra?",
+    "after_question": "A taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do município (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população urbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião entre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de urbanização receberá um investimento extra em infraestrutura. [gráficos de barras: população urbana e população rural dos municípios I a V] Segundo o acordo, qual município receberá o investimento extra?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      },
+      {
+        "label": "E",
+        "text": "E"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "Texto oficial restaurado de https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf (questão 174). Fica fora da recomendação por texto: depende de dois gráficos de barras (valores não transcritos)."
+  },
+  {
+    "id": "gq_d729403b0e500b7ef02bef0a",
+    "year": 2018,
+    "area": "CH",
+    "co_item": "88520",
+    "changed_fields": [
+      "question",
+      "ready_text",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "As metáforas utilizadas no texto referem-se a uma concepção de democracia fundamentada no(a)",
+    "after_question": "[TEXTO-BASE PENDENTE: o comando e as alternativas deste registro são de questões diferentes; ver qualidade/] As metáforas utilizadas no texto referem-se a uma concepção de democracia fundamentada no(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A conservação do bioma nativo."
+      },
+      {
+        "label": "B",
+        "text": "B estagnação do setor primário."
+      },
+      {
+        "label": "C",
+        "text": "C utilização de madeira de reflorestamento."
+      },
+      {
+        "label": "D",
+        "text": "D redução da produção de móveis."
+      },
+      {
+        "label": "E",
+        "text": "E retração da indústria alimentícia."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "A conservação do bioma nativo."
+      },
+      {
+        "label": "B",
+        "text": "B estagnação do setor primário."
+      },
+      {
+        "label": "C",
+        "text": "C utilização de madeira de reflorestamento."
+      },
+      {
+        "label": "D",
+        "text": "D redução da produção de móveis."
+      },
+      {
+        "label": "E",
+        "text": "E retração da indústria alimentícia."
+      }
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "C",
+    "answer_preserved": true,
+    "notes": "O registro (2018, co_item 88520, posição 88) tem o comando da questão de Kelsen/Bobbio, mas alternativas e gabarito (C, 'utilização de madeira de reflorestamento') de outra questão. A questão de Kelsen já existe completa e correta em gq_b5d827ac61f9e4d37ce96739 (gabarito E). Falta o texto da questão a que pertencem as alternativas e o gabarito deste registro; conferir no PDF 2018_PV_impresso_D1_CD1.pdf."
+  },
+  {
+    "id": "gq_1a3a6d4a138f7ba1fba29cef",
+    "year": 2009,
+    "area": "CH",
+    "co_item": "58520",
+    "changed_fields": [],
+    "notes": "Proposta de mudar a área de CH para LC (questão de Literatura, Lúcio Cardoso) NÃO aplicada: a questão está na posição 69 da prova de Ciências Humanas de 2009, e a área segue o INEP."
+  }
+]

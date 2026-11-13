@@ -1,0 +1,592 @@
+[
+  {
+    "id": "gq_1a997d4f6be32afb87462ab5",
+    "year": 2009,
+    "area": "CN",
+    "position": 30,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\n\nConsiderando que o calor específico da água é igual a 4,19 J g-1 °C-1, aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
+    "after_question": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\n\nConsiderando que o calor específico da água é igual a 4,19 J g^-1 °C^-1, aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A quantidade de gasolina consumida é igual para os dois casos."
+      },
+      {
+        "label": "B",
+        "text": "A quantidade de gasolina consumida pelo gerador é duas vezes maior que a consumida na combustão."
+      },
+      {
+        "label": "C",
+        "text": "A quantidade de gasolina consumida pelo gerador é duas vezes menor que a consumida na combustão."
+      },
+      {
+        "label": "D",
+        "text": "A quantidade de gasolina consumida pelo gerador é sete vezes maior que a consumida na combustão."
+      },
+      {
+        "label": "E",
+        "text": "A quantidade de gasolina consumida pelo gerador é sete vezes menor que a consumida na combustão."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "A quantidade de gasolina consumida é igual para os dois casos."
+      },
+      {
+        "label": "B",
+        "text": "A quantidade de gasolina consumida pelo gerador é duas vezes maior que a consumida na combustão."
+      },
+      {
+        "label": "C",
+        "text": "A quantidade de gasolina consumida pelo gerador é duas vezes menor que a consumida na combustão."
+      },
+      {
+        "label": "D",
+        "text": "A quantidade de gasolina consumida pelo gerador é sete vezes maior que a consumida na combustão."
+      },
+      {
+        "label": "E",
+        "text": "A quantidade de gasolina consumida pelo gerador é sete vezes menor que a consumida na combustão."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "expoentes das unidades restaurados; conversão de notação sem ambiguidade (prova de 2009 não conferida)"
+  },
+  {
+    "id": "gq_23f08c13463322047535c93a",
+    "year": 2009,
+    "area": "CN",
+    "position": 38,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por R$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a R$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\n\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10-3 ºC-1, desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
+    "after_question": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por R$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a R$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\n\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1 × 10^-3 °C^-1, desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "R$ 500,00 e R$ 1.000,00."
+      },
+      {
+        "label": "B",
+        "text": "R$ 1.050,00 e R$ 1.250,00."
+      },
+      {
+        "label": "C",
+        "text": "R$ 4.000,00 e R$ 5.000,00."
+      },
+      {
+        "label": "D",
+        "text": "R$ 6.000,00 e R$ 6.900,00."
+      },
+      {
+        "label": "E",
+        "text": "R$ 7.000,00 e R$ 7.950,00."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "R$ 500,00 e R$ 1.000,00."
+      },
+      {
+        "label": "B",
+        "text": "R$ 1.050,00 e R$ 1.250,00."
+      },
+      {
+        "label": "C",
+        "text": "R$ 4.000,00 e R$ 5.000,00."
+      },
+      {
+        "label": "D",
+        "text": "R$ 6.000,00 e R$ 6.900,00."
+      },
+      {
+        "label": "E",
+        "text": "R$ 7.000,00 e R$ 7.950,00."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "expoentes restaurados; conversão de notação sem ambiguidade (prova de 2009 não conferida)"
+  },
+  {
+    "id": "gq_c4a2ea8d064243be9bd54141",
+    "year": 2015,
+    "area": "MT",
+    "position": 157,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "As exportações de soja do Brasil totalizaram 4,129 milhões de toneladas no mês de julho de 2012, e registraram um aumento em relação ao mês de julho de 2011, embora tenha havido uma baixa em relação ao mês de maio de 2012.\n\nDisponível em: www.noticiasagricolas.com.br. Acesso em: 2 ago. 2012.\n\nA quantidade, em quilogramas, de soja exportada pelo Brasil no mês de julho de 2012 foi de",
+    "after_question": "As exportações de soja do Brasil totalizaram 4,129 milhões de toneladas no mês de julho de 2012, e registraram um aumento em relação ao mês de julho de 2011, embora tenha havido uma baixa em relação ao mês de maio de 2012.\n\nDisponível em: www.noticiasagricolas.com.br. Acesso em: 2 ago. 2012.\n\nA quantidade, em quilogramas, de soja exportada pelo Brasil no mês de julho de 2012 foi de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "4,129 x 10³"
+      },
+      {
+        "label": "B",
+        "text": "4,129 x 106"
+      },
+      {
+        "label": "C",
+        "text": "4,129 x 109"
+      },
+      {
+        "label": "D",
+        "text": "4,129 x 1012"
+      },
+      {
+        "label": "E",
+        "text": "4,129 x 1015"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "4,129 × 10^3"
+      },
+      {
+        "label": "B",
+        "text": "4,129 × 10^6"
+      },
+      {
+        "label": "C",
+        "text": "4,129 × 10^9"
+      },
+      {
+        "label": "D",
+        "text": "4,129 × 10^12"
+      },
+      {
+        "label": "E",
+        "text": "4,129 × 10^15"
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "expoentes das alternativas restaurados pela prova (2015, 2º dia)"
+  },
+  {
+    "id": "gq_3a730941fa121ac7a5ec8d92",
+    "year": 2016,
+    "area": "MT",
+    "position": 151,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Nas construções prediais são utilizados tubos de diferentes medidas para a instalação da rede de água. Essas medidas são conhecidas pelo seu diâmetro, muitas vezes medido em polegada. Alguns desses tubos, com medidas em polegada, são os tubos de 1 2 , 3 8 e 5 4\nColocando os valores dessas medidas em ordem crescente, encontramos",
+    "after_question": "Nas construções prediais são utilizados tubos de diferentes medidas para a instalação da rede de água. Essas medidas são conhecidas pelo seu diâmetro, muitas vezes medido em polegada. Alguns desses tubos, com medidas em polegada, são os tubos de 1/2, 3/8 e 5/4\nColocando os valores dessas medidas em ordem crescente, encontramos",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1 2 , 3 8 , 5 4"
+      },
+      {
+        "label": "B",
+        "text": "1 2 , 5 4 , 3 8"
+      },
+      {
+        "label": "C",
+        "text": "3 8 , 1 2 , 5 4"
+      },
+      {
+        "label": "D",
+        "text": "3 8 , 5 4 , 1 2"
+      },
+      {
+        "label": "E",
+        "text": "5 4 , 1 2 , 3 8"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1/2, 3/8, 5/4"
+      },
+      {
+        "label": "B",
+        "text": "1/2, 5/4, 3/8"
+      },
+      {
+        "label": "C",
+        "text": "3/8, 1/2, 5/4"
+      },
+      {
+        "label": "D",
+        "text": "3/8, 5/4, 1/2"
+      },
+      {
+        "label": "E",
+        "text": "5/4, 1/2, 3/8"
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "frações de polegada restauradas; 3/8 < 1/2 < 5/4 (C) (2ª aplicação de 2016, prova não conferida)"
+  },
+  {
+    "id": "gq_74002c1bc43d6c462fa810a5",
+    "year": 2016,
+    "area": "MT",
+    "position": 163,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Até novembro de 2011, não havia uma lei específica que punisse fraude em concursos públicos. Isso dificultava o enquadramento dos fraudadores em algum artigo específico do Código Penal, fazendo com que eles escapassem da Justiça mais facilmente. Entretanto, com o sancionamento da Lei 12.550/11, é considerado crime utilizar ou divulgar indevidamente o conteúdo sigiloso de concurso público, com pena de reclusão de 12 a 48 meses (1 a 4 anos). Caso esse crime seja cometido por um funcionário público, a pena sofrerá um aumento de 1 3 . Disponível em: www.planalto.gov.br. Acesso em: 15 ago. 2012.\nSe um funcionário público for condenado por fraudar um concurso público, sua pena de reclusão poderá variar de",
+    "after_question": "Até novembro de 2011, não havia uma lei específica que punisse fraude em concursos públicos. Isso dificultava o enquadramento dos fraudadores em algum artigo específico do Código Penal, fazendo com que eles escapassem da Justiça mais facilmente. Entretanto, com o sancionamento da Lei 12.550/11, é considerado crime utilizar ou divulgar indevidamente o conteúdo sigiloso de concurso público, com pena de reclusão de 12 a 48 meses (1 a 4 anos). Caso esse crime seja cometido por um funcionário público, a pena sofrerá um aumento de 1/3. Disponível em: www.planalto.gov.br. Acesso em: 15 ago. 2012.\nSe um funcionário público for condenado por fraudar um concurso público, sua pena de reclusão poderá variar de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "4 a 16 meses."
+      },
+      {
+        "label": "B",
+        "text": "16 a 52 meses."
+      },
+      {
+        "label": "C",
+        "text": "16 a 64 meses."
+      },
+      {
+        "label": "D",
+        "text": "24 a 60 meses."
+      },
+      {
+        "label": "E",
+        "text": "28 a 64 meses."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "4 a 16 meses."
+      },
+      {
+        "label": "B",
+        "text": "16 a 52 meses."
+      },
+      {
+        "label": "C",
+        "text": "16 a 64 meses."
+      },
+      {
+        "label": "D",
+        "text": "24 a 60 meses."
+      },
+      {
+        "label": "E",
+        "text": "28 a 64 meses."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "fração restaurada (aumento de um terço da pena); 2ª aplicação de 2016, prova não conferida"
+  },
+  {
+    "id": "gq_ac403d88530fba7d5a61a5df",
+    "year": 2018,
+    "area": "CN",
+    "position": 114,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nCO (s) + 6 O (g) —→ 6 CO (g) + 6HO () ∆ H= −2 800 kJ C\nConsidere as massas molares (em g mol-1): H = 1; C = 12; O = 16.\nLIMA, L. M.; FRAGA, C.A. M.; BARREIRO, E. J. Química na saúde. São Paulo: Sociedade Brasileira de Química, 2010 (adaptado).\nNa oxidação de 1,0 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de",
+    "after_question": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nC6H12O6 (s) + 6 O2 (g) → 6 CO2 (g) + 6 H2O (l)   ΔcH = −2 800 kJ\nConsidere as massas molares (em g mol^-1): H = 1; C = 12; O = 16.\nLIMA, L. M.; FRAGA, C.A. M.; BARREIRO, E. J. Química na saúde. São Paulo: Sociedade Brasileira de Química, 2010 (adaptado).\nNa oxidação de 1,0 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "6,2."
+      },
+      {
+        "label": "B",
+        "text": "15,6."
+      },
+      {
+        "label": "C",
+        "text": "70,0."
+      },
+      {
+        "label": "D",
+        "text": "622,2."
+      },
+      {
+        "label": "E",
+        "text": "1 120,0."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "6,2."
+      },
+      {
+        "label": "B",
+        "text": "15,6."
+      },
+      {
+        "label": "C",
+        "text": "70,0."
+      },
+      {
+        "label": "D",
+        "text": "622,2."
+      },
+      {
+        "label": "E",
+        "text": "1 120,0."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "equação química restaurada pela prova (2018, 2º dia, p. 8); 2 800 kJ ÷ 180 g × 40% ≈ 6,2 kJ (A)"
+  },
+  {
+    "id": "gq_27da05001f8a34c691493295",
+    "year": 2019,
+    "area": "MT",
+    "position": 137,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada.Em solo ácido (ou seja, compH 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = - log1oX, em que x é a concentração de íon hidrogênio (H+).\n\nPara produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+    "after_question": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada.Em solo ácido (ou seja, compH 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = - log1oX, em que x é a concentração de íon hidrogênio (H+).\n\nPara produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "qualquer valor acima de 10-8."
+      },
+      {
+        "label": "B",
+        "text": "qualquer valor positivo inferior a 10-7."
+      },
+      {
+        "label": "C",
+        "text": "valores maiores que 7 e menores que 8."
+      },
+      {
+        "label": "D",
+        "text": "valores maiores que 70 e menores que 80."
+      },
+      {
+        "label": "E",
+        "text": "valores maiores que 10-8 e menores que 10-7."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "qualquer valor acima de 10^-8."
+      },
+      {
+        "label": "B",
+        "text": "qualquer valor positivo inferior a 10^-7."
+      },
+      {
+        "label": "C",
+        "text": "valores maiores que 7 e menores que 8."
+      },
+      {
+        "label": "D",
+        "text": "valores maiores que 70 e menores que 80."
+      },
+      {
+        "label": "E",
+        "text": "valores maiores que 10^-8 e menores que 10^-7."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "expoentes restaurados (2019, 2º dia: 10^-8 e 10^-7)"
+  },
+  {
+    "id": "gq_12463da220d22bf9333f3cc3",
+    "year": 2020,
+    "area": "CN",
+    "position": 128,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg-1 K-1 e a densidade 1 kg L-1.\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
+    "after_question": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg^-1 K^-1 e a densidade 1 kg L^-1.\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "4,0 °C"
+      },
+      {
+        "label": "B",
+        "text": "3,6 °C"
+      },
+      {
+        "label": "C",
+        "text": "0,9 °C"
+      },
+      {
+        "label": "D",
+        "text": "0,6 °C"
+      },
+      {
+        "label": "E",
+        "text": "0,3 °C"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "4,0 °C"
+      },
+      {
+        "label": "B",
+        "text": "3,6 °C"
+      },
+      {
+        "label": "C",
+        "text": "0,9 °C"
+      },
+      {
+        "label": "D",
+        "text": "0,6 °C"
+      },
+      {
+        "label": "E",
+        "text": "0,3 °C"
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "expoentes das unidades restaurados (2020, 2º dia, p. 13)"
+  },
+  {
+    "id": "gq_ad614881a8747828f2ab3d50",
+    "year": 2021,
+    "area": "LC",
+    "position": 8,
+    "changed": true,
+    "released": true,
+    "status_before": "outside_text_scope",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A volta do marido pródigo\n—Bem. Já sabe, não é? Só ganha meio dia. [...]",
+    "after_question": "O documentário *O menino que fez um museu*, direção de Sérgio Utsch, produção independente de brasileiros e britânicos, gravado no Nordeste em 2016, mais precisamente no distrito Dom Quintino, zona rural do Crato, foi premiado em Londres, pela *Foreign Press Association* (FPA), a associação de correspondentes estrangeiros mais antiga do mundo, fundada em 1888.\nDe acordo com o diretor, *O menino que fez um museu* foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas. O documentário conta a história de um Brasil profundo, desconhecido até mesmo por muitos brasileiros. É apresentado com o carisma de Pedro Lucas Feitosa, 11 anos.\nQuando tinha 10 anos, Pedro Lucas criou o Museu de Luiz Gonzaga, que fica no distrito de Dom Quintino. A ideia surgiu após uma visita que o garoto fez, em 2013, quando tinha 8 anos, ao Museu do Gonzagão, em Exu, Pernambuco. Pedro decidiu criar o próprio lugar de exposição para homenagear o rei e o local escolhido foi a casa da sua bisavó já falecida, que fica ao lado da casa dele, na rua Alto de Antena.\nDisponível em: www.opovo.com.br. Acesso em: 18 abr. 2018.\nNo segundo parágrafo, uma citação afirma que o documentário “foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas”. No texto, esse recurso expressa uma estratégia argumentativa que reforça a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "rapõe características da escrita e da fala."
+      },
+      {
+        "label": "B",
+        "text": "ironiza a comunicação fora da norma-padrão."
+      },
+      {
+        "label": "C",
+        "text": "substitui regionalismos por registros formais."
+      },
+      {
+        "label": "D",
+        "text": "valoriza o uso de variedades populares."
+      },
+      {
+        "label": "E",
+        "text": "defende novas regras gramaticais."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "originalidade da iniciativa de homenagem à vida e à obra de Luiz Gonzaga."
+      },
+      {
+        "label": "B",
+        "text": "falta de concorrentes ao prêmio de uma das associações mais antigas do mundo."
+      },
+      {
+        "label": "C",
+        "text": "proeza da premiação de uma história ambientada no interior do Nordeste brasileiro."
+      },
+      {
+        "label": "D",
+        "text": "escassez de investimentos para a produção cinematográfica independente no país."
+      },
+      {
+        "label": "E",
+        "text": "importância da parceria entre brasileiros e britânicos para a realização das filmagens."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "o registro tinha o título da questão 9 e as alternativas de outra questão; texto, comando e alternativas restaurados pela prova (2021, 1º dia, questão 8, p. 7); a citação destaca o feito de um documentário do interior nordestino entre os finalistas (C)"
+  },
+  {
+    "id": "gq_6c6595adaf610fd8822d7ceb",
+    "year": 2022,
+    "area": "CN",
+    "position": 126,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\n| Amostra de cana-de-açúcar | RB72 | RB84 | RB92 | SP79 | SP80 |\n|:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------|\n| Concentração inicial de sacarose (g L−1) | 13,0 | 18,0 | 16,0 | 14,0 | 17,0 |\n| Concentração de microrganismos (mg L−1) | 0,7 | 0,8 | 0,6 | 0,5 | 0,9 |\n\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50 por cento da concentração de sacarose nesse tempo, para cada 1,0 miligrama por litro de microrganismos presentes na cana-de-açúcar.\nQual tipo de cana-de-açúcar deve ser escolhido?",
+    "after_question": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\n| Amostra de cana-de-açúcar | RB72 | RB84 | RB92 | SP79 | SP80 |\n|:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------|\n| Concentração inicial de sacarose (g L^-1) | 13,0 | 18,0 | 16,0 | 14,0 | 17,0 |\n| Concentração de microrganismos (mg L^-1) | 0,7 | 0,8 | 0,6 | 0,5 | 0,9 |\n\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50 por cento da concentração de sacarose nesse tempo, para cada 1,0 miligrama por litro de microrganismos presentes na cana-de-açúcar.\nQual tipo de cana-de-açúcar deve ser escolhido?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "RB72"
+      },
+      {
+        "label": "B",
+        "text": "RB84"
+      },
+      {
+        "label": "C",
+        "text": "RB92"
+      },
+      {
+        "label": "D",
+        "text": "SP79"
+      },
+      {
+        "label": "E",
+        "text": "SP80"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "RB72"
+      },
+      {
+        "label": "B",
+        "text": "RB84"
+      },
+      {
+        "label": "C",
+        "text": "RB92"
+      },
+      {
+        "label": "D",
+        "text": "SP79"
+      },
+      {
+        "label": "E",
+        "text": "SP80"
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "expoentes das unidades no padrão da base (2022, 2º dia)"
+  }
+]

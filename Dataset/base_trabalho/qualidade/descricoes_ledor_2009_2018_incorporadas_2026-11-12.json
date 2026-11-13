@@ -1,0 +1,1754 @@
+{
+  "resumo": {
+    "questoes_liberadas": 193,
+    "parent_sha256": "369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65",
+    "novo_sha256": "fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b",
+    "por_ano": {
+      "2011": 13,
+      "2012": 31,
+      "2013": 29,
+      "2016": 38,
+      "2017": 45,
+      "2018": 37
+    }
+  },
+  "liberadas": [
+    {
+      "id": "gq_e0bc1f28733354081adee521",
+      "ano": 2011,
+      "posicao": 67,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q67",
+      "similaridade": 0.707,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_bd11f3de0f651638eb909a1c",
+      "ano": 2011,
+      "posicao": 54,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q56",
+      "similaridade": 0.875,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e29950e54abc2d9cb7c76a6f",
+      "ano": 2011,
+      "posicao": 84,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q85",
+      "similaridade": 0.86,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_6a6f24a85ce04183798e6a32",
+      "ano": 2011,
+      "posicao": 49,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q46",
+      "similaridade": 0.845,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b9a0606277fee1de7ac1d886",
+      "ano": 2011,
+      "posicao": 90,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q88",
+      "similaridade": 0.74,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_55fa7d9e7b99ea8a986ae8bf",
+      "ano": 2011,
+      "posicao": 62,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q60",
+      "similaridade": 0.875,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0df24dbc526c5b6c2995d6f9",
+      "ano": 2011,
+      "posicao": 50,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q49",
+      "similaridade": 0.76,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_8e272a8ad234d1fffaf9ea20",
+      "ano": 2011,
+      "posicao": 86,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q83",
+      "similaridade": 0.897,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0946515301da0df273190e4f",
+      "ano": 2011,
+      "posicao": 77,
+      "caderno_ledor": "2011/dia1_caderno3_branco_ledor.pdf q81",
+      "similaridade": 0.863,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_aa9ac67e46d6e5c5debdb8bb",
+      "ano": 2011,
+      "posicao": 157,
+      "caderno_ledor": "2011/dia2_caderno6_cinza_ledor.pdf q155",
+      "similaridade": 0.8,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_95f80322590e830fff59becb",
+      "ano": 2011,
+      "posicao": 158,
+      "caderno_ledor": "2011/dia2_caderno6_cinza_ledor.pdf q156",
+      "similaridade": 0.75,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_5793c8540e7f5418892c3d09",
+      "ano": 2011,
+      "posicao": 154,
+      "caderno_ledor": "2011/dia2_caderno6_cinza_ledor.pdf q153",
+      "similaridade": 0.633,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_22b049c90245da6181f0c22e",
+      "ano": 2011,
+      "posicao": 149,
+      "caderno_ledor": "2011/dia2_caderno6_cinza_ledor.pdf q150",
+      "similaridade": 0.759,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_1026019e6fbbbf25f265ad5c",
+      "ano": 2012,
+      "posicao": 12,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q19",
+      "similaridade": 0.755,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_6fe675eccd347c498f695cf2",
+      "ano": 2012,
+      "posicao": 22,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q22",
+      "similaridade": 0.81,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_4eba1cd10cacac8f70b99572",
+      "ano": 2012,
+      "posicao": 8,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q4",
+      "similaridade": 0.704,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_266887b911b8409a41da87fa",
+      "ano": 2012,
+      "posicao": 45,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q35",
+      "similaridade": 0.857,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_399ee4011d5d2e28870e57d4",
+      "ano": 2012,
+      "posicao": 4,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q18",
+      "similaridade": 0.715,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e3e6e69455d2d374a71616eb",
+      "ano": 2012,
+      "posicao": 19,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q14",
+      "similaridade": 0.738,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_20bd95418708547fd7cec73c",
+      "ano": 2012,
+      "posicao": 80,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q90",
+      "similaridade": 0.727,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_48c803778bf48614c02f974f",
+      "ano": 2012,
+      "posicao": 85,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q83",
+      "similaridade": 0.857,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_24b2f40936a307463a696b2e",
+      "ano": 2012,
+      "posicao": 58,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q69",
+      "similaridade": 0.788,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_34e1a12b7ad6aaba5e1ab393",
+      "ano": 2012,
+      "posicao": 53,
+      "caderno_ledor": "2012/dia1_caderno3_branco_ledor.pdf q49",
+      "similaridade": 0.837,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_fc4d3223ca16f3f08eab76ef",
+      "ano": 2012,
+      "posicao": 109,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q110",
+      "similaridade": 0.804,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_e4fa614914f263d94e3d435b",
+      "ano": 2012,
+      "posicao": 106,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q100",
+      "similaridade": 0.671,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_bbd4789fa41c8aa7442e7d64",
+      "ano": 2012,
+      "posicao": 114,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q102",
+      "similaridade": 0.707,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_37328ac33d68331f209d6584",
+      "ano": 2012,
+      "posicao": 107,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q101",
+      "similaridade": 0.865,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_98b759a3749f7ef32c60c1bf",
+      "ano": 2012,
+      "posicao": 96,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q96",
+      "similaridade": 0.701,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b5d6bced4c8ccd4f0b97d222",
+      "ano": 2012,
+      "posicao": 103,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q123",
+      "similaridade": 0.811,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a2d583a697b45bfce90d968e",
+      "ano": 2012,
+      "posicao": 133,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q133",
+      "similaridade": 0.724,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_76b5c95fea73f78eaa0f78e5",
+      "ano": 2012,
+      "posicao": 122,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q118",
+      "similaridade": 0.649,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a33ffe5c1fbb2620004040bd",
+      "ano": 2012,
+      "posicao": 97,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q97",
+      "similaridade": 0.7,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_960e6b6d468dd2b8ed72d3d2",
+      "ano": 2012,
+      "posicao": 116,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q104",
+      "similaridade": 0.826,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_14f5a2e028d6c6bea8fa23f0",
+      "ano": 2012,
+      "posicao": 131,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q128",
+      "similaridade": 0.764,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_fc65d4d1323579aa9c132726",
+      "ano": 2012,
+      "posicao": 172,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q173",
+      "similaridade": 0.806,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_6e91814da28ec7481b964efa",
+      "ano": 2012,
+      "posicao": 139,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q156",
+      "similaridade": 0.771,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a2ccb4d5a1f6e2421adb3fbc",
+      "ano": 2012,
+      "posicao": 163,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q179",
+      "similaridade": 0.708,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_813c38086fda6f033f6a0cb3",
+      "ano": 2012,
+      "posicao": 148,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q136",
+      "similaridade": 0.727,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_902ae70d1fafd252bb0723fc",
+      "ano": 2012,
+      "posicao": 151,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q139",
+      "similaridade": 0.636,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2e5ec648b996f32378a1c60a",
+      "ano": 2012,
+      "posicao": 158,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q150",
+      "similaridade": 0.862,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3b54a8ea2f3e1b660f799b47",
+      "ano": 2012,
+      "posicao": 159,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q151",
+      "similaridade": 0.722,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_4e8aed74d97dea89e7d78780",
+      "ano": 2012,
+      "posicao": 154,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q164",
+      "similaridade": 0.762,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ac172c8e65604a4f61e81894",
+      "ano": 2013,
+      "posicao": 133,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q121",
+      "similaridade": 0.902,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c953583df8ce72b781754ac2",
+      "ano": 2013,
+      "posicao": 131,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q128",
+      "similaridade": 0.807,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2c352b4ce3f0de384021a391",
+      "ano": 2013,
+      "posicao": 119,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q106",
+      "similaridade": 0.885,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_8517308ad840775baf507c96",
+      "ano": 2013,
+      "posicao": 127,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q118",
+      "similaridade": 0.814,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_7e80678310985db5d3373655",
+      "ano": 2013,
+      "posicao": 109,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q99",
+      "similaridade": 0.658,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_da120d002a812ba56904e21e",
+      "ano": 2013,
+      "posicao": 103,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q135",
+      "similaridade": 0.747,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c2c86fcf405f107efebedfdf",
+      "ano": 2013,
+      "posicao": 96,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q96",
+      "similaridade": 0.618,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ceec746ce6968349932baab3",
+      "ano": 2013,
+      "posicao": 114,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q112",
+      "similaridade": 0.931,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_af925267ddc6e12fc3486a7a",
+      "ano": 2013,
+      "posicao": 128,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q119",
+      "similaridade": 0.908,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2611db1199e7b03e871206dd",
+      "ano": 2013,
+      "posicao": 135,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q123",
+      "similaridade": 0.744,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_c20cc658da871dd4ae7117a6",
+      "ano": 2013,
+      "posicao": 120,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q107",
+      "similaridade": 0.884,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_269ed9f3cc030e8edfdcd553",
+      "ano": 2013,
+      "posicao": 169,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q173",
+      "similaridade": 0.861,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0c6c6e3f100203586e974ae3",
+      "ano": 2013,
+      "posicao": 136,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q144",
+      "similaridade": 0.735,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b576e9fbcd5c148281f95a6b",
+      "ano": 2013,
+      "posicao": 141,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q175",
+      "similaridade": 0.6,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_18d9e12f40a3c5e0ee07681d",
+      "ano": 2013,
+      "posicao": 149,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q141",
+      "similaridade": 0.607,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c9b1cbbd6488af1324707a91",
+      "ano": 2013,
+      "posicao": 174,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q170",
+      "similaridade": 0.787,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_253a836560b63b261e400b16",
+      "ano": 2013,
+      "posicao": 142,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q176",
+      "similaridade": 0.684,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ec50449c7a73c5cd92024dc6",
+      "ano": 2013,
+      "posicao": 137,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q145",
+      "similaridade": 0.786,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3aa626d3db3f2998ee5ed1d9",
+      "ano": 2013,
+      "posicao": 147,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q139",
+      "similaridade": 0.667,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f7f75d6d6545999c38f48665",
+      "ano": 2013,
+      "posicao": 175,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q178",
+      "similaridade": 0.676,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_dd0c39e797c9c13ac7271fb4",
+      "ano": 2013,
+      "posicao": 143,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q177",
+      "similaridade": 0.6,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f6bfb042b1e67117f55d4d96",
+      "ano": 2013,
+      "posicao": 165,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q157",
+      "similaridade": 0.667,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a32f5c18cecada99136a4b6f",
+      "ano": 2013,
+      "posicao": 178,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q159",
+      "similaridade": 0.608,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_31ebd16339a4476b997b9957",
+      "ano": 2013,
+      "posicao": 157,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q153",
+      "similaridade": 0.618,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0562fe8f0f9f5340d1f3d3a9",
+      "ano": 2013,
+      "posicao": 146,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q138",
+      "similaridade": 0.732,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d6130e35d8e076f34c1e6b56",
+      "ano": 2013,
+      "posicao": 140,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q174",
+      "similaridade": 0.96,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a3de9f8815944cc6dbf2dded",
+      "ano": 2013,
+      "posicao": 145,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q137",
+      "similaridade": 0.645,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_911162421ce7ddc9c68c8d08",
+      "ano": 2013,
+      "posicao": 177,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q180",
+      "similaridade": 0.739,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0144ddd7b94097bc0944e030",
+      "ano": 2013,
+      "posicao": 144,
+      "caderno_ledor": "2013/dia2_caderno6_cinza_ledor.pdf q136",
+      "similaridade": 0.645,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_25137b1f3ade9b73bb3bcac1",
+      "ano": 2016,
+      "posicao": 83,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q27",
+      "similaridade": 0.6,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d4b81020b225a403b2b4c49f",
+      "ano": 2016,
+      "posicao": 67,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q3",
+      "similaridade": 0.694,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c7f0af3510952d3c3ee5df94",
+      "ano": 2016,
+      "posicao": 71,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q12",
+      "similaridade": 0.717,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ae45d3a16a7b443de53ddb8c",
+      "ano": 2016,
+      "posicao": 81,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q18",
+      "similaridade": 0.697,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_5df5fff24e1ff67e59360d31",
+      "ano": 2016,
+      "posicao": 78,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q21",
+      "similaridade": 0.804,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_89bff65f5273fd950c49e17c",
+      "ano": 2016,
+      "posicao": 88,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q9",
+      "similaridade": 0.675,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_bf51708241c390a305bbaa33",
+      "ano": 2016,
+      "posicao": 56,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q30",
+      "similaridade": 0.661,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e3c95cb5e8f305538649994d",
+      "ano": 2016,
+      "posicao": 48,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q42",
+      "similaridade": 0.731,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3ff7962f5ab1e817f1d225a6",
+      "ano": 2016,
+      "posicao": 90,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q6",
+      "similaridade": 0.718,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_52785c6f2fba69678f4c8f88",
+      "ano": 2016,
+      "posicao": 61,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q45",
+      "similaridade": 0.676,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_cdc9da9fd3d6cf2f6b5ad6ef",
+      "ano": 2016,
+      "posicao": 52,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q39",
+      "similaridade": 0.7,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e6563607cd0f764a73f185cb",
+      "ano": 2016,
+      "posicao": 103,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q80",
+      "similaridade": 0.659,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_fc455323e339f26516bd40a0",
+      "ano": 2016,
+      "posicao": 98,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q81",
+      "similaridade": 0.725,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_fef9fdfa5584f266b6e809ce",
+      "ano": 2016,
+      "posicao": 122,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q58",
+      "similaridade": 0.856,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_4747d022d86bf3bb075b7929",
+      "ano": 2016,
+      "posicao": 104,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q68",
+      "similaridade": 0.784,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_cad780116da5d2a9c1eff8e6",
+      "ano": 2016,
+      "posicao": 117,
+      "caderno_ledor": "2016/2016_PV_impresso_D1_CD3_ledor.pdf q65",
+      "similaridade": 0.746,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_604f9be77a4f92ed080e6b70",
+      "ano": 2016,
+      "posicao": 42,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q100",
+      "similaridade": 0.74,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c02a39083c23f6c8a519527d",
+      "ano": 2016,
+      "posicao": 24,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q124",
+      "similaridade": 0.888,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_14c2592d4097333508b0bf48",
+      "ano": 2016,
+      "posicao": 15,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q133",
+      "similaridade": 0.724,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_774799119fffe8ae61b5b6dc",
+      "ano": 2016,
+      "posicao": 19,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q112",
+      "similaridade": 0.744,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_335e97bc3d09118b0651e71d",
+      "ano": 2016,
+      "posicao": 136,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q142",
+      "similaridade": 0.733,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a48fe7e058b364d4116ed42d",
+      "ano": 2016,
+      "posicao": 143,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q158",
+      "similaridade": 0.8,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_392cfa46ee41b4b4dab3da65",
+      "ano": 2016,
+      "posicao": 170,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q164",
+      "similaridade": 0.808,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2a73f3482b45945ed4102d2f",
+      "ano": 2016,
+      "posicao": 142,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q157",
+      "similaridade": 0.936,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2a4efed5ab49b71c6de16080",
+      "ano": 2016,
+      "posicao": 161,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q169",
+      "similaridade": 0.792,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d39aa6677f5ba6c5a6441df2",
+      "ano": 2016,
+      "posicao": 157,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q138",
+      "similaridade": 0.793,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_9387692056c79a68b575d719",
+      "ano": 2016,
+      "posicao": 164,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q161",
+      "similaridade": 0.682,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_bf52212730c2135d8981c140",
+      "ano": 2016,
+      "posicao": 149,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q178",
+      "similaridade": 0.843,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_25666cc44702bef2e7c70bfc",
+      "ano": 2016,
+      "posicao": 153,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q140",
+      "similaridade": 0.778,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_1d09b34c198e97e160fc8f83",
+      "ano": 2016,
+      "posicao": 176,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q150",
+      "similaridade": 0.7,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b2cddf1e9b8afc98f1b8308b",
+      "ano": 2016,
+      "posicao": 144,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q159",
+      "similaridade": 0.893,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a7dc87ca8099d6d7fc112e11",
+      "ano": 2016,
+      "posicao": 162,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q177",
+      "similaridade": 0.769,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_12e162828def78a8723430c5",
+      "ano": 2016,
+      "posicao": 171,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q165",
+      "similaridade": 0.727,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_60e2adbbf55237e8af2281cf",
+      "ano": 2016,
+      "posicao": 158,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q166",
+      "similaridade": 0.694,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_07d9d76e81010dc398e96054",
+      "ano": 2016,
+      "posicao": 173,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q153",
+      "similaridade": 0.833,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e872589847f907b1f3d81c80",
+      "ano": 2016,
+      "posicao": 166,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q163",
+      "similaridade": 0.69,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_62f65d32755efb120fb96f1c",
+      "ano": 2016,
+      "posicao": 169,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q156",
+      "similaridade": 0.764,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_1b62c44114ab91ca6529f750",
+      "ano": 2016,
+      "posicao": 151,
+      "caderno_ledor": "2016/2016_PV_impresso_D2_CD6_ledor.pdf q180",
+      "similaridade": 0.82,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2a54829954e1bac1b8fd1c04",
+      "ano": 2017,
+      "posicao": 45,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q90",
+      "similaridade": 0.804,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_64dd3182294e3fae873c2cf8",
+      "ano": 2017,
+      "posicao": 6,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q51",
+      "similaridade": 0.888,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_87917e96589bb4952b752400",
+      "ano": 2017,
+      "posicao": 26,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q71",
+      "similaridade": 0.737,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_aa55b02e49d8c0a234a3afb1",
+      "ano": 2017,
+      "posicao": 44,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q128",
+      "similaridade": 0.762,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_bfc1a9e965cb4313059491d2",
+      "ano": 2017,
+      "posicao": 1,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q106",
+      "similaridade": 0.846,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_08e58c3e0c3fa5dc8d361c78",
+      "ano": 2017,
+      "posicao": 32,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q114",
+      "similaridade": 0.772,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e13944944390dc67122dee75",
+      "ano": 2017,
+      "posicao": 5,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q104",
+      "similaridade": 0.814,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_32fef015bc3a4184fb4f1bf2",
+      "ano": 2017,
+      "posicao": 8,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q92",
+      "similaridade": 0.86,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_66faa094a0b340ec12252869",
+      "ano": 2017,
+      "posicao": 23,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q95",
+      "similaridade": 0.854,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3b0b972234dbd20deaf7fc04",
+      "ano": 2017,
+      "posicao": 20,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q111",
+      "similaridade": 0.841,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_883ed6b1781f1ea6f48e8fc0",
+      "ano": 2017,
+      "posicao": 26,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q98",
+      "similaridade": 0.885,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_730c7be1329c0521fb7e60a5",
+      "ano": 2017,
+      "posicao": 29,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q120",
+      "similaridade": 0.694,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_a882cacb71757f6080977585",
+      "ano": 2017,
+      "posicao": 15,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q103",
+      "similaridade": 0.919,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_7f50c2ce9353a4f0f8e134e4",
+      "ano": 2017,
+      "posicao": 9,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q93",
+      "similaridade": 0.895,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3f3b37faafe3854d6895f1a0",
+      "ano": 2017,
+      "posicao": 28,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q119",
+      "similaridade": 0.884,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_84d833d37e0a1eac779535ff",
+      "ano": 2017,
+      "posicao": 39,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q34",
+      "similaridade": 0.81,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_57be083f77e28f7838fe50de",
+      "ano": 2017,
+      "posicao": 42,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q37",
+      "similaridade": 0.8,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_386cd9b52fe937e3d88fc298",
+      "ano": 2017,
+      "posicao": 41,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q36",
+      "similaridade": 0.845,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ed9350ffca90cf7f0e21dfb5",
+      "ano": 2017,
+      "posicao": 21,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q16",
+      "similaridade": 0.859,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_65c805d8b6bf5209518f78c6",
+      "ano": 2017,
+      "posicao": 16,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q11",
+      "similaridade": 0.754,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f7d50202ae03e582fe3aa796",
+      "ano": 2017,
+      "posicao": 48,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q43",
+      "similaridade": 0.832,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d3313a54e911f6cecc1e2755",
+      "ano": 2017,
+      "posicao": 33,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q28",
+      "similaridade": 0.82,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d9dd74d71b0e30532b142ec2",
+      "ano": 2017,
+      "posicao": 46,
+      "caderno_ledor": "2017/2017_PV_impresso_D1_CD9.pdf q41",
+      "similaridade": 0.678,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0a06ec32739be740cbe86034",
+      "ano": 2017,
+      "posicao": 3,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q146",
+      "similaridade": 0.762,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_fadc5c89e357c79d8157e2c1",
+      "ano": 2017,
+      "posicao": 18,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q157",
+      "similaridade": 0.845,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_53406905a67600694cec91a4",
+      "ano": 2017,
+      "posicao": 12,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q153",
+      "similaridade": 0.857,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_20bdd5b7c3097a561b733c7f",
+      "ano": 2017,
+      "posicao": 32,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q180",
+      "similaridade": 0.679,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_1f314714b516f2e18ffb9696",
+      "ano": 2017,
+      "posicao": 34,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q177",
+      "similaridade": 0.778,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_bc83dffbfd2a4f52dd72ee14",
+      "ano": 2017,
+      "posicao": 43,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q141",
+      "similaridade": 0.6,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2c5abf439018aad4a9384faa",
+      "ano": 2017,
+      "posicao": 26,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q168",
+      "similaridade": 0.854,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_56158cd90d7d8e0e0b1ac1bc",
+      "ano": 2017,
+      "posicao": 20,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q159",
+      "similaridade": 0.848,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_34c4af6c5178f4ab8f452412",
+      "ano": 2017,
+      "posicao": 13,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q154",
+      "similaridade": 0.7,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_0c996eb84c5e926eb15fc6b2",
+      "ano": 2017,
+      "posicao": 25,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q167",
+      "similaridade": 0.901,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d6b7ed7be3907b27098d66f6",
+      "ano": 2017,
+      "posicao": 4,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q136",
+      "similaridade": 0.862,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_9d1e594c74413e1cf2a002b6",
+      "ano": 2017,
+      "posicao": 35,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q174",
+      "similaridade": 0.757,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b79126d8d8af6ef76b44458d",
+      "ano": 2017,
+      "posicao": 8,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q149",
+      "similaridade": 0.916,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_228f58d179dbbc3b998a3080",
+      "ano": 2017,
+      "posicao": 21,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q163",
+      "similaridade": 0.887,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_0fc4e3bd46c944b3bb1f8f06",
+      "ano": 2017,
+      "posicao": 14,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q155",
+      "similaridade": 0.926,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ec3734e81fafaaad7701f1b2",
+      "ano": 2017,
+      "posicao": 10,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q151",
+      "similaridade": 0.88,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ee97aabad08cc8229d62ce95",
+      "ano": 2017,
+      "posicao": 36,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q175",
+      "similaridade": 0.808,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_180efc80f94ce526c0459723",
+      "ano": 2017,
+      "posicao": 37,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q173",
+      "similaridade": 0.7,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_683b37c936de0eeb761759ee",
+      "ano": 2017,
+      "posicao": 15,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q147",
+      "similaridade": 0.829,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_aa958b2b47fdff6b2a3f48ed",
+      "ano": 2017,
+      "posicao": 42,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q140",
+      "similaridade": 0.914,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_87820dce4eef3e47d0d1ff92",
+      "ano": 2017,
+      "posicao": 30,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q178",
+      "similaridade": 0.843,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_908d6a072caad80bfe4c794d",
+      "ano": 2017,
+      "posicao": 16,
+      "caderno_ledor": "2017/2017_PV_impresso_D2_CD11.pdf q148",
+      "similaridade": 0.872,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_2d3689216227433bf8130849",
+      "ano": 2018,
+      "posicao": 63,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q63",
+      "similaridade": 0.737,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_2424487995a74a48539181b9",
+      "ano": 2018,
+      "posicao": 87,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q87",
+      "similaridade": 0.76,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_68c6ab27c7d69e5f45f44a56",
+      "ano": 2018,
+      "posicao": 74,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q74",
+      "similaridade": 0.626,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_722a88114e6a6d6e17f30ee1",
+      "ano": 2018,
+      "posicao": 131,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q98",
+      "similaridade": 0.907,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_3fe8b92f903495487c1d668d",
+      "ano": 2018,
+      "posicao": 93,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q125",
+      "similaridade": 0.714,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f2ef2970f503c9eaab741caf",
+      "ano": 2018,
+      "posicao": 130,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q97",
+      "similaridade": 0.785,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_73d5eb001b6e4bdb481595f9",
+      "ano": 2018,
+      "posicao": 115,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q109",
+      "similaridade": 0.87,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_1c8ce32fb9706cfe90edc60d",
+      "ano": 2018,
+      "posicao": 112,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q106",
+      "similaridade": 0.879,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e0291e3816a4aadb83a3b263",
+      "ano": 2018,
+      "posicao": 123,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q134",
+      "similaridade": 0.829,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_194cbc46d095d4450c465c0f",
+      "ano": 2018,
+      "posicao": 13,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q13",
+      "similaridade": 0.86,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c2cade67399fd90f0ac9d431",
+      "ano": 2018,
+      "posicao": 32,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q32",
+      "similaridade": 0.853,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_17ffccb2bc0e13371c22693c",
+      "ano": 2018,
+      "posicao": 29,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q29",
+      "similaridade": 0.736,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_352f61b8a550e8b5c0247ab8",
+      "ano": 2018,
+      "posicao": 19,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q19",
+      "similaridade": 0.759,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_cafc84e2c113b541be5e3434",
+      "ano": 2018,
+      "posicao": 7,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q7",
+      "similaridade": 0.855,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_b44a45a519203b2dacf9a4aa",
+      "ano": 2018,
+      "posicao": 22,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q22",
+      "similaridade": 0.847,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_e8e7529b0fea182dfcd344d9",
+      "ano": 2018,
+      "posicao": 11,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q11",
+      "similaridade": 0.743,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_6eff9093153f2c835745c902",
+      "ano": 2018,
+      "posicao": 41,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q41",
+      "similaridade": 0.812,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_30436d49daceb70c3220bd49",
+      "ano": 2018,
+      "posicao": 28,
+      "caderno_ledor": "2018/2018_PV_impresso_D1_CD9.pdf q28",
+      "similaridade": 0.812,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_70bbbea6b12679d94dfa8e28",
+      "ano": 2018,
+      "posicao": 153,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q179",
+      "similaridade": 0.91,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_dffeebfd15ccb26b2b646fd1",
+      "ano": 2018,
+      "posicao": 145,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q154",
+      "similaridade": 0.862,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_dc616200f8229abbc6a00107",
+      "ano": 2018,
+      "posicao": 177,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q167",
+      "similaridade": 0.905,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f1258929ca2fd14138bd2b93",
+      "ano": 2018,
+      "posicao": 176,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q173",
+      "similaridade": 0.942,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_e6450489fd91fbc6d61b01f6",
+      "ano": 2018,
+      "posicao": 142,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q151",
+      "similaridade": 0.822,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_c78c09816a0371b9895aefbb",
+      "ano": 2018,
+      "posicao": 170,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q145",
+      "similaridade": 0.796,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_3e92552b806864785fc2402e",
+      "ano": 2018,
+      "posicao": 140,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q158",
+      "similaridade": 0.857,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_8d199224040996a3185da714",
+      "ano": 2018,
+      "posicao": 152,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q178",
+      "similaridade": 0.72,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_7bce5fa8f81d7c39700b6978",
+      "ano": 2018,
+      "posicao": 147,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q137",
+      "similaridade": 0.863,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_82ad7538c0d6097eee645992",
+      "ano": 2018,
+      "posicao": 179,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q169",
+      "similaridade": 0.773,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_a458b578f493864ddad6fa43",
+      "ano": 2018,
+      "posicao": 172,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q156",
+      "similaridade": 0.948,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_f74ac0073008884af3c6c02c",
+      "ano": 2018,
+      "posicao": 154,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q180",
+      "similaridade": 0.854,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ea1346fdb590ff3ff1783217",
+      "ano": 2018,
+      "posicao": 144,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q153",
+      "similaridade": 0.916,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_201c1d3d948a07c720ae929f",
+      "ano": 2018,
+      "posicao": 160,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q147",
+      "similaridade": 0.94,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_49e02d15d073c464f0588987",
+      "ano": 2018,
+      "posicao": 168,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q143",
+      "similaridade": 0.824,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_83f43d1ccec7f83051c7c1d6",
+      "ano": 2018,
+      "posicao": 149,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q175",
+      "similaridade": 0.697,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 2
+    },
+    {
+      "id": "gq_fa8cd8812a2c9e8bb56132e0",
+      "ano": 2018,
+      "posicao": 155,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q139",
+      "similaridade": 0.853,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_f0a5f112e61a646d327839ae",
+      "ano": 2018,
+      "posicao": 171,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q155",
+      "similaridade": 0.742,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_d9f11d43647b9caa03c99e7b",
+      "ano": 2018,
+      "posicao": 139,
+      "caderno_ledor": "2018/2018_PV_impresso_D2_CD11.pdf q157",
+      "similaridade": 0.786,
+      "regra": "insere_antes_do_credito_ou_no_inicio",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_62eb37a1644eb521e687b450",
+      "ano": 2012,
+      "posicao": 143,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q172",
+      "similaridade": 0.726,
+      "regra": "substitui_descricao_propria",
+      "n_descricoes": 1
+    },
+    {
+      "id": "gq_ac50e97b35136669a3859f37",
+      "ano": 2012,
+      "posicao": 170,
+      "caderno_ledor": "2012/dia2_caderno6_cinza_ledor.pdf q167",
+      "similaridade": 0.711,
+      "regra": "insere_apos_paragrafo",
+      "n_descricoes": 1
+    }
+  ]
+}

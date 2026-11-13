@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "gq_2feb9bf66d0e63fb49e391d0",
+    "year": 2018,
+    "area": "CH",
+    "position": 67,
+    "pdf": "2018_PV_impresso_D1_CD1.pdf",
+    "page": 25,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a .",
+    "after_question": "[Gráfico: precipitações (mm), em barras, nas primeiras horas: cerca de 58 mm entre 0 h e 1 h, 63 mm entre 1 h e 2 h e 35 mm entre 2 h e 3 h. Duas curvas mostram a vazão dos rios ao longo de 16 horas. A vazão em áreas urbanizadas sobe rápido, chega ao pico de cerca de 90 entre 2 h e 3 h e cai até perto de zero por volta de 12 h. A vazão em áreas não urbanizadas sobe devagar, tem pico menor, de cerca de 70, por volta de 6 h, e diminui lentamente até cerca de 15 h.]\nDisponível em: www.biologiasur.org. Acesso em: 4 jul. 2015 (adaptado).\nA dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "redução do volume dos rios."
+      },
+      {
+        "label": "B",
+        "text": "expansão do lençol freático."
+      },
+      {
+        "label": "C",
+        "text": "diminuição do índice de chuvas."
+      },
+      {
+        "label": "D",
+        "text": "retração do nível dos reservatórios."
+      },
+      {
+        "label": "E",
+        "text": "ampliação do escoamento superficial."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "redução do volume dos rios."
+      },
+      {
+        "label": "B",
+        "text": "expansão do lençol freático."
+      },
+      {
+        "label": "C",
+        "text": "diminuição do índice de chuvas."
+      },
+      {
+        "label": "D",
+        "text": "retração do nível dos reservatórios."
+      },
+      {
+        "label": "E",
+        "text": "ampliação do escoamento superficial."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "released": true,
+    "check": "pico de vazão maior e mais cedo na área urbanizada → mais escoamento superficial (E)"
+  },
+  {
+    "id": "gq_68c6ab27c7d69e5f45f44a56",
+    "year": 2018,
+    "area": "CH",
+    "position": 74,
+    "pdf": "2018_PV_impresso_D1_CD1.pdf",
+    "page": 27,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Aprendendo, no lar e nas escolas, o culto da Pátria, trazeis para a vida prática todas as probabilidades de êxito. Só o amor constrói e, amando o Brasil, forçosamente o conduzireis aos mais altos destinos entre as Nações, realizando os desejos de engrandecimento aninhados em cada coração brasileiro.\" Essa imagem foi impressa em cartilha escolar durante a vigência do Estado Novo com o intuito de",
+    "after_question": "[Imagem: ilustração de cartilha escolar em que um homem adulto de terno, sorridente, segura com carinho o rosto de uma menina, ao lado de um menino vestido de marinheiro. No canto, a mensagem:] “Crianças! Aprendendo, no lar e nas escolas, o culto da Pátria, trazeis para a vida prática todas as probabilidades de êxito. Só o amor constrói e, amando o Brasil, forçosamente o conduzireis aos mais altos destinos entre as Nações, realizando os desejos de engrandecimento aninhados em cada coração brasileiro.”\nDisponível em: http://cpdoc.fgv.br. Acesso em: 6 dez. 2017.\nEssa imagem foi impressa em cartilha escolar durante a vigência do Estado Novo com o intuito de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "destacar a sabedoria inata do líder governamental."
+      },
+      {
+        "label": "B",
+        "text": "atender a necessidade familiar de obediência infantil."
+      },
+      {
+        "label": "C",
+        "text": "promover o desenvolvimento consistente das atitudes solidárias."
+      },
+      {
+        "label": "D",
+        "text": "conquistar a aprovação política por meio do apelo carismático."
+      },
+      {
+        "label": "E",
+        "text": "estimular o interesse acadêmico por meio de exercícios intelectuais."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "destacar a sabedoria inata do líder governamental."
+      },
+      {
+        "label": "B",
+        "text": "atender a necessidade familiar de obediência infantil."
+      },
+      {
+        "label": "C",
+        "text": "promover o desenvolvimento consistente das atitudes solidárias."
+      },
+      {
+        "label": "D",
+        "text": "conquistar a aprovação política por meio do apelo carismático."
+      },
+      {
+        "label": "E",
+        "text": "estimular o interesse acadêmico por meio de exercícios intelectuais."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "released": true,
+    "check": "propaganda do Estado Novo com a figura afetuosa do líder → apelo carismático (D)"
+  },
+  {
+    "id": "gq_d729403b0e500b7ef02bef0a",
+    "year": 2018,
+    "area": "CH",
+    "position": 88,
+    "pdf": "2018_PV_impresso_D1_CD1.pdf",
+    "page": 31,
+    "status_before": "content_mismatch_pending_official_text",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "[TEXTO-BASE PENDENTE: o comando e as alternativas deste registro são de questões diferentes; ver qualidade/] As metáforas utilizadas no texto referem-se a uma concepção de democracia fundamentada no(a)",
+    "after_question": "[Gráfico de linhas: participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014. Em 1996, o extrativismo vegetal tinha cerca de 59% e a silvicultura cerca de 41%. As curvas ficam próximas, perto de 50%, de 1998 a 2002. A partir de 2003, a silvicultura sobe para cerca de 63% e chega a cerca de 78% em 2014, enquanto o extrativismo vegetal cai para cerca de 38% em 2003 e para cerca de 22% em 2014.]\nIBGE. Produção da extração vegetal e da silvicultura. Rio de Janeiro: IBGE, 2014 (adaptado).\nConsiderando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A conservação do bioma nativo."
+      },
+      {
+        "label": "B",
+        "text": "B estagnação do setor primário."
+      },
+      {
+        "label": "C",
+        "text": "C utilização de madeira de reflorestamento."
+      },
+      {
+        "label": "D",
+        "text": "D redução da produção de móveis."
+      },
+      {
+        "label": "E",
+        "text": "E retração da indústria alimentícia."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "conservação do bioma nativo."
+      },
+      {
+        "label": "B",
+        "text": "estagnação do setor primário."
+      },
+      {
+        "label": "C",
+        "text": "utilização de madeira de reflorestamento."
+      },
+      {
+        "label": "D",
+        "text": "redução da produção de móveis."
+      },
+      {
+        "label": "E",
+        "text": "retração da indústria alimentícia."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "released": true,
+    "check": "silvicultura (floresta plantada) cresce e o extrativismo cai → madeira de reflorestamento (C)"
+  },
+  {
+    "id": "gq_d950898128349ade91c2f8f9",
+    "year": 2018,
+    "area": "CN",
+    "position": 108,
+    "pdf": "2018_PV_impresso_D2_CD7.pdf",
+    "page": 7,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente. Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i². O gráfico da resistência elétrica (R) do resistor em função da corrente (i) é .",
+    "after_question": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente.\n[Gráfico tensão (V) × corrente (A): curva crescente, levemente curvada para cima, que parte de (0, 0) e chega a cerca de 119 V em 7 A.]\nApós a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i².\nO gráfico da resistência elétrica (R) do resistor em função da corrente (i) é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      },
+      {
+        "label": "E",
+        "text": "E"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Gráfico de R constante, igual a 10 Ω, para i de 0 a 7 A."
+      },
+      {
+        "label": "B",
+        "text": "Gráfico de R constante, igual a cerca de 16,5 Ω, para i de 0 a 7 A."
+      },
+      {
+        "label": "C",
+        "text": "Reta crescente que parte de R = 0 em i = 0 e chega a R = 7 Ω em i = 7 A."
+      },
+      {
+        "label": "D",
+        "text": "Reta crescente que parte de R = 10 Ω em i = 0 e chega a R = 17 Ω em i = 7 A."
+      },
+      {
+        "label": "E",
+        "text": "Curva crescente, curvada para cima, que parte de R = 10 Ω em i = 0 e chega a cerca de 59 Ω em i = 7 A."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "released": true,
+    "check": "R = V/i = 10 + i → reta de 10 Ω a 17 Ω (D)"
+  },
+  {
+    "id": "gq_a21f8892a7a8fab01811bb06",
+    "year": 2018,
+    "area": "MT",
+    "position": 136,
+    "pdf": "2018_PV_impresso_D2_CD7.pdf",
+    "page": 16,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [a_ij], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento a_ij corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos a_ii = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise: Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+    "after_question": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [a_ij], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento a_ij corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos a_ii = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise:\nA =\n| 0 2 0 2 2 |\n| 0 0 2 1 0 |\n| 1 2 0 1 1 |\n| 0 2 2 0 0 |\n| 3 0 1 1 0 |\nCom base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1."
+      },
+      {
+        "label": "B",
+        "text": "2."
+      },
+      {
+        "label": "C",
+        "text": "3."
+      },
+      {
+        "label": "D",
+        "text": "4."
+      },
+      {
+        "label": "E",
+        "text": "5."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1."
+      },
+      {
+        "label": "B",
+        "text": "2."
+      },
+      {
+        "label": "C",
+        "text": "3."
+      },
+      {
+        "label": "D",
+        "text": "4."
+      },
+      {
+        "label": "E",
+        "text": "5."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "released": true,
+    "check": "somas das linhas: 6, 3, 5, 4, 5 → banco 1 (A)"
+  },
+  {
+    "id": "gq_b7c03f494150195b6dfaca85",
+    "year": 2019,
+    "area": "MT",
+    "position": 146,
+    "pdf": "2019_PV_impresso_D2_CD7.pdf",
+    "page": 20,
+    "status_before": "hold_for_source_review",
+    "status_after": "official_key_vs_figure_to_review",
+    "before_question": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:\nAlerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%;\nAlerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;\nAlerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%.\nUm resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.\nDecorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:\nDia 1: alerta cinza;\nDia 12: alerta laranja;\nDia 13: alerta vermelho.\nEm qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
+    "after_question": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:\nAlerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%;\nAlerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;\nAlerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%.\nUm resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.\n[Gráfico com a previsão para 15 dias, temperatura (°C) em linha contínua e umidade relativa do ar (%) em linha pontilhada, na mesma escala de 0 a 60. Temperatura por dia, do dia 1 ao 15: cerca de 6, 10, 10, 14, 15, 21, 20, 27, 27, 31, 32, 40, 42, 30, 28. Umidade por dia: cerca de 35, 13, 22, 25, 30, 24, 30, 32, 40, 42, 47, 20, 40, 33, 40.]\nDecorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:\nDia 1: alerta cinza;\nDia 12: alerta laranja;\nDia 13: alerta vermelho.\nEm qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Apenas no dia 1."
+      },
+      {
+        "label": "B",
+        "text": "Apenas no dia 12."
+      },
+      {
+        "label": "C",
+        "text": "Apenas no dia 13."
+      },
+      {
+        "label": "D",
+        "text": "Apenas nos dias 1 e 12."
+      },
+      {
+        "label": "E",
+        "text": "Apenas nos dias 12 e 13."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "1 e 12"
+      },
+      {
+        "label": "D",
+        "text": "1 e 13"
+      },
+      {
+        "label": "E",
+        "text": "1, 12 e 13"
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "released": false,
+    "check": "gabarito oficial A (só o dia 1), mas pelo gráfico o dia 12 (40 °C e 20%) também atende ao alerta laranja, o que daria C. Fica fora até alguém conferir"
+  },
+  {
+    "id": "gq_066314bf1f8f941709b79096",
+    "year": 2019,
+    "area": "MT",
+    "position": 169,
+    "pdf": "2019_PV_impresso_D2_CD7.pdf",
+    "page": 26,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência. Caso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.\n\nO usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários. O gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km.\n\nCom base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?",
+    "after_question": "Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência. Caso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.\n\nO usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários. O gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km.\n\n[Gráfico no plano cartesiano, em km: usuário P na origem (0, 0); usuários Q em (3, 7), R em (6, 7) e S em (5, 3); bares I em (5, 6), II em (4, 5), III em (5, 5), IV em (4, 6) e V em (3, 4).]\n\nCom base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "released": true,
+    "check": "bar I: 2,2 km de Q, 1,4 km de R e 3 km de S, dentro de todos os raios e do de P (A)"
+  },
+  {
+    "id": "gq_f2397084cdb1812161183ab0",
+    "year": 2019,
+    "area": "MT",
+    "position": 172,
+    "pdf": "2019_PV_impresso_D2_CD7.pdf",
+    "page": 27,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O gráfico a seguir mostra a evolução mensal das vendas de certo produto de julho a novembro de 2011.\nSabe-se que o mês de julho foi o pior momento da empresa em 2011 e que o número de unidades vendidas desse produto em dezembro de 2011 foi igual à média aritmética do número de unidades vendidas nos meses de julho a novembro do mesmo ano.\nO gerente de vendas disse, em uma reunião da diretoria, que, se essa redução no número de unidades vendidas de novembro para dezembro de 2011 se mantivesse constante nos meses subsequentes, as vendas só voltariam a ficar piores que julho de 2011 apenas no final de 2012.\nO diretor financeiro rebateu imediatamente esse argumento mostrando que, mantida a tendência, isso aconteceria já em",
+    "after_question": "O gráfico a seguir mostra a evolução mensal das vendas de certo produto de julho a novembro de 2011.\n[Gráfico de unidades vendidas por mês: julho 700, agosto 2 500, setembro 2 500, outubro 2 800 e novembro 2 700.]\nSabe-se que o mês de julho foi o pior momento da empresa em 2011 e que o número de unidades vendidas desse produto em dezembro de 2011 foi igual à média aritmética do número de unidades vendidas nos meses de julho a novembro do mesmo ano.\nO gerente de vendas disse, em uma reunião da diretoria, que, se essa redução no número de unidades vendidas de novembro para dezembro de 2011 se mantivesse constante nos meses subsequentes, as vendas só voltariam a ficar piores que julho de 2011 apenas no final de 2012.\nO diretor financeiro rebateu imediatamente esse argumento mostrando que, mantida a tendência, isso aconteceria já em",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "janeiro."
+      },
+      {
+        "label": "B",
+        "text": "fevereiro."
+      },
+      {
+        "label": "C",
+        "text": "março."
+      },
+      {
+        "label": "D",
+        "text": "abril."
+      },
+      {
+        "label": "E",
+        "text": "maio."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "janeiro."
+      },
+      {
+        "label": "B",
+        "text": "fevereiro."
+      },
+      {
+        "label": "C",
+        "text": "março."
+      },
+      {
+        "label": "D",
+        "text": "abril."
+      },
+      {
+        "label": "E",
+        "text": "maio."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "released": true,
+    "check": "dezembro = 11 200/5 = 2 240, queda de 460 por mês → jan 1 780, fev 1 320, mar 860, abr 400 < 700 (D)"
+  },
+  {
+    "id": "gq_ff4804ffa37905e4b882d5f6",
+    "year": 2020,
+    "area": "CH",
+    "position": 65,
+    "pdf": "2020_PV_impresso_D1_CD1.pdf",
+    "page": 25,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)",
+    "after_question": "[Mapa do Brasil com a Região Centro-Oeste destacada e as rodovias federais que a cortam: as longitudinais BR-163, BR-158 e BR-153, que ligam o Centro-Oeste ao Norte e ao Sudeste; a diagonal BR-364, que vai do Sudeste ao Acre passando pelo Centro-Oeste; e a radial BR-070, que liga Brasília ao Mato Grosso.]\nO conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.\nLIMA, R. C.; PENNA, N. A. A logística de transportes do agronegócio em Mato Grosso (Brasil). Confins, n. 26, fev. 2016.\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "alteração da matriz econômica."
+      },
+      {
+        "label": "B",
+        "text": "substituição do modal hidroviário."
+      },
+      {
+        "label": "C",
+        "text": "retração do contingente demográfico."
+      },
+      {
+        "label": "D",
+        "text": "projeção do escoamento produtivo."
+      },
+      {
+        "label": "E",
+        "text": "estagnação de lavouras policultoras."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "alteração da matriz econômica."
+      },
+      {
+        "label": "B",
+        "text": "substituição do modal hidroviário."
+      },
+      {
+        "label": "C",
+        "text": "retração do contingente demográfico."
+      },
+      {
+        "label": "D",
+        "text": "projeção do escoamento produtivo."
+      },
+      {
+        "label": "E",
+        "text": "estagnação de lavouras policultoras."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "released": true,
+    "check": "rodovias que escoam a produção do agronegócio do Centro-Oeste (D)"
+  },
+  {
+    "id": "gq_b41bc92f3a7cb1e306d0a529",
+    "year": 2020,
+    "area": "CN",
+    "position": 129,
+    "pdf": "2020_PV_impresso_D2_CD7.pdf",
+    "page": 13,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Em uma pesquisa estão sendo testados cinco quimioterápicos quanto à sua capacidade antitumoral. No entanto, para o tratamento de pacientes, sabe-se que é necessário verificar também o quanto cada composto agride células normais. Para o experimento, partiu-se de cultivos de células tumorais (colunas escuras na figura) e células normais (colunas claras) com o mesmo número de células iniciais. Dois grupos-controle não receberam quimioterápicos: controle de células tumorais (CT) e de células normais (CN). As colunas I, II, III, IV e V correspondem aos grupos tratados com os cinco compostos. O número de células viáveis após os tratamentos está representado pelas colunas.\nQual quimioterápico deve ser escolhido para tratamento desse tipo de tumor?",
+    "after_question": "Em uma pesquisa estão sendo testados cinco quimioterápicos quanto à sua capacidade antitumoral. No entanto, para o tratamento de pacientes, sabe-se que é necessário verificar também o quanto cada composto agride células normais. Para o experimento, partiu-se de cultivos de células tumorais (colunas escuras na figura) e células normais (colunas claras) com o mesmo número de células iniciais. Dois grupos-controle não receberam quimioterápicos: controle de células tumorais (CT) e de células normais (CN). As colunas I, II, III, IV e V correspondem aos grupos tratados com os cinco compostos. O número de células viáveis após os tratamentos está representado pelas colunas.\n[Gráfico de colunas, número de células viáveis (milhão). Células tumorais: CT 36, I 30, II 15, III 10, IV 50, V 36. Células normais: CN 21, I 21, II 28, III 9, IV 35, V 21.]\nQual quimioterápico deve ser escolhido para tratamento desse tipo de tumor?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "III"
+      },
+      {
+        "label": "D",
+        "text": "IV"
+      },
+      {
+        "label": "E",
+        "text": "V"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "released": true,
+    "check": "II reduz as tumorais a 15 sem reduzir as normais (28 ≥ 21); III também mata as normais (B)"
+  },
+  {
+    "id": "gq_0ce5fd505c584ea4d64913b3",
+    "year": 2020,
+    "area": "CN",
+    "position": 130,
+    "pdf": "2020_PV_impresso_D2_CD7.pdf",
+    "page": 14,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.\nSAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).\nPara verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato, cinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar na caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura e a afere em cada recipiente.\nEm qual dos recipientes a água terá maior temperatura ao final do experimento?",
+    "after_question": "Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.\nSAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).\nPara verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato, cinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar na caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura e a afere em cada recipiente.\n[Figura: a luz solar entra numa caixa isolada e opaca, atravessa um prisma e se decompõe sobre cinco recipientes lado a lado, A, B, C, D e E. O espectro visível cai sobre os recipientes de B a E, com o vermelho junto a B e o violeta junto a E; o recipiente A fica além da extremidade vermelha do espectro visível.]\nEm qual dos recipientes a água terá maior temperatura ao final do experimento?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      },
+      {
+        "label": "E",
+        "text": "E"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      },
+      {
+        "label": "E",
+        "text": "E"
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "released": true,
+    "check": "A recebe o infravermelho, que é o que mais aquece (A)"
+  },
+  {
+    "id": "gq_3e9228800beb443e6658478c",
+    "year": 2020,
+    "area": "MT",
+    "position": 148,
+    "pdf": "2020_PV_impresso_D2_CD7.pdf",
+    "page": 20,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A Pesquisa Nacional por Amostra de Domicílios (Pnad) é uma pesquisa feita anualmente pelo IBGE, exceto nos anos em que há Censo. Em um ano, foram entrevistados 363 mil jovens para fazer um levantamento sobre suas atividades profissionais e/ou acadêmicas. Os resultados da pesquisa estão indicados no gráfico.\nDe acordo com as informações dadas, o número de jovens entrevistados que trabalha é",
+    "after_question": "A Pesquisa Nacional por Amostra de Domicílios (Pnad) é uma pesquisa feita anualmente pelo IBGE, exceto nos anos em que há Censo. Em um ano, foram entrevistados 363 mil jovens para fazer um levantamento sobre suas atividades profissionais e/ou acadêmicas. Os resultados da pesquisa estão indicados no gráfico.\n[Gráfico de colunas — Jovens em atividade entre 15 e 29 anos (%): somente estuda 21,6; trabalha e estuda 13,6; somente trabalha 45,2; não trabalha nem estuda 19,6.]\nDisponível em: http://noticias.uol.com.br. Acesso em: 20 ago. 2014.\nDe acordo com as informações dadas, o número de jovens entrevistados que trabalha é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "114 708."
+      },
+      {
+        "label": "B",
+        "text": "164 076."
+      },
+      {
+        "label": "C",
+        "text": "213 444."
+      },
+      {
+        "label": "D",
+        "text": "284 592."
+      },
+      {
+        "label": "E",
+        "text": "291 582."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "114 708."
+      },
+      {
+        "label": "B",
+        "text": "164 076."
+      },
+      {
+        "label": "C",
+        "text": "213 444."
+      },
+      {
+        "label": "D",
+        "text": "284 592."
+      },
+      {
+        "label": "E",
+        "text": "291 582."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "released": true,
+    "check": "(13,6% + 45,2%) × 363 000 = 213 444 (C)"
+  },
+  {
+    "id": "gq_a9f084a58b8771b966d8a3a6",
+    "year": 2020,
+    "area": "MT",
+    "position": 164,
+    "pdf": "2020_PV_impresso_D2_CD7.pdf",
+    "page": 24,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A exposição a barulhos excessivos, como os que percebemos em geral em trânsitos intensos, casas noturnas e espetáculos musicais, podem provocar insônia, estresse, infarto, perda de audição, entre outras enfermidades. De acordo com a Organização Mundial da Saúde, todo e qualquer som que ultrapasse os 55 decibéis (unidade de intensidade do som) já pode ser considerado nocivo para a saúde. O gráfico foi elaborado a partir da medição do ruído produzido, durante um dia, em um canteiro de obras.\nNesse dia, durante quantas horas o ruído esteve acima de 55 decibéis?",
+    "after_question": "A exposição a barulhos excessivos, como os que percebemos em geral em trânsitos intensos, casas noturnas e espetáculos musicais, podem provocar insônia, estresse, infarto, perda de audição, entre outras enfermidades. De acordo com a Organização Mundial da Saúde, todo e qualquer som que ultrapasse os 55 decibéis (unidade de intensidade do som) já pode ser considerado nocivo para a saúde. O gráfico foi elaborado a partir da medição do ruído produzido, durante um dia, em um canteiro de obras.\n[Gráfico do ruído (decibéis) ao longo das 24 horas do dia, com uma linha horizontal em 55 dB. A curva fica acima de 55 dB das 2 h às 5 h, das 6 h às 9 h, das 11 h às 14 h, das 16 h às 17 h e das 19 h às 22 h; nos outros horários, fica abaixo.]\nDisponível em: www.revistaencontro.com.br. Acesso em: 12 ago. 2020 (adaptado).\nNesse dia, durante quantas horas o ruído esteve acima de 55 decibéis?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      },
+      {
+        "label": "E",
+        "text": "E"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      },
+      {
+        "label": "E",
+        "text": "13"
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "released": true,
+    "check": "3 + 3 + 3 + 1 + 3 = 13 h (E)"
+  },
+  {
+    "id": "gq_3681ead3247d0be2b0e0ef8b",
+    "year": 2021,
+    "area": "MT",
+    "position": 144,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 20,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Uma pessoa realizou uma pesquisa com alguns alunos de uma escola, coletando suas idades, e organizou esses dados no gráfico.\nQual é a média das idades, em ano, desses alunos?",
+    "after_question": "Uma pessoa realizou uma pesquisa com alguns alunos de uma escola, coletando suas idades, e organizou esses dados no gráfico.\n[Gráfico de colunas — frequência de ocorrência por idade (ano): 9 anos, 6 alunos; 18 anos, 12 alunos; 27 anos, 9 alunos.]\nQual é a média das idades, em ano, desses alunos?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      },
+      {
+        "label": "E",
+        "text": "14"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "19"
+      },
+      {
+        "label": "E",
+        "text": "27"
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "released": true,
+    "check": "(9×6 + 18×12 + 27×9)/27 = 513/27 = 19 (D); as alternativas da base (10 a 14) não eram as da prova azul"
+  },
+  {
+    "id": "gq_fc526b5097b4884d97d86535",
+    "year": 2021,
+    "area": "MT",
+    "position": 149,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 22,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano. A previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio. Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
+    "after_question": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano. [Gráfico de receitas (linha contínua) e despesas (linha tracejada), em milhão de real: janeiro, receita 10 e despesa 5; fevereiro, 20 e 10; março, 15 e 10; abril, 20 e 15; maio, 28 e 25.]\nA previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio. Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "janeiro."
+      },
+      {
+        "label": "B",
+        "text": "fevereiro."
+      },
+      {
+        "label": "C",
+        "text": "março."
+      },
+      {
+        "label": "D",
+        "text": "abril."
+      },
+      {
+        "label": "E",
+        "text": "maio."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "janeiro."
+      },
+      {
+        "label": "B",
+        "text": "fevereiro."
+      },
+      {
+        "label": "C",
+        "text": "março."
+      },
+      {
+        "label": "D",
+        "text": "abril."
+      },
+      {
+        "label": "E",
+        "text": "maio."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "released": true,
+    "check": "lucros 5, 10, 5, 5, 3 → maior em fevereiro (B)"
+  },
+  {
+    "id": "gq_181cb605a66bd0c375f2db3d",
+    "year": 2021,
+    "area": "MT",
+    "position": 150,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 22,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores. Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.\nNo período de 2005 a 2009, o aumento percentual no volume de vendas foi de",
+    "after_question": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores. Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.\n[Gráfico de linha — volume de vendas (em milhão) por ano: 2005, 236; 2006, 294; 2007, 370; 2008, 465; 2009, 519,2.]\nVeja, 10 fev. 2010 (adaptado).\nNo período de 2005 a 2009, o aumento percentual no volume de vendas foi de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "45,4."
+      },
+      {
+        "label": "B",
+        "text": "54,5."
+      },
+      {
+        "label": "C",
+        "text": "120."
+      },
+      {
+        "label": "D",
+        "text": "220."
+      },
+      {
+        "label": "E",
+        "text": "283,2."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "45,4."
+      },
+      {
+        "label": "B",
+        "text": "54,5."
+      },
+      {
+        "label": "C",
+        "text": "120."
+      },
+      {
+        "label": "D",
+        "text": "220."
+      },
+      {
+        "label": "E",
+        "text": "283,2."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "released": true,
+    "check": "519,2/236 = 2,2 → aumento de 120% (C)"
+  },
+  {
+    "id": "gq_28035a9c08a952fc478c56b4",
+    "year": 2021,
+    "area": "MT",
+    "position": 151,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 22,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.\nO gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1300].\nA mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
+    "after_question": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.\nO gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300].\nA mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.\n[Histograma — Distribuição dos preços, número de imóveis por faixa: ]300, 400], 5; ]400, 500], 10; ]500, 600], 5; ]600, 700], 15; ]700, 800], 20; ]800, 900], 15; ]900, 1 000], 15; ]1 000, 1 100], 10; ]1 100, 1 200], 5; ]1 200, 1 300], 5.]\nCom base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "A distribuição dos preços é simétrica em relação à média."
+      },
+      {
+        "label": "B",
+        "text": "A maioria dos apartamentos custa menos de 550 mil reais."
+      },
+      {
+        "label": "C",
+        "text": "A mediana dos preços é superior a 550 mil reais."
+      },
+      {
+        "label": "D",
+        "text": "A média dos preços é inferior a 550 mil reais."
+      },
+      {
+        "label": "E",
+        "text": "A moda dos preços está na faixa ]400, 500]."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "600."
+      },
+      {
+        "label": "B",
+        "text": "700."
+      },
+      {
+        "label": "C",
+        "text": "800."
+      },
+      {
+        "label": "D",
+        "text": "900."
+      },
+      {
+        "label": "E",
+        "text": "1 000."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "released": true,
+    "check": "acumulado: 5, 15, 20, 35, 55 até 800 → 55/105 ≥ 50% (C); a base tinha o comando e as alternativas de outra versão da questão"
+  },
+  {
+    "id": "gq_43e6f770bf8bf7f4f5b4d5a0",
+    "year": 2021,
+    "area": "MT",
+    "position": 157,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 25,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Uma construtora, pretendendo investir na construção de imóveis em uma metrópole com cinco grandes regiões, fez uma pesquisa sobre a quantidade de famílias que mudaram de uma região para outra, de modo a determinar qual região foi o destino do maior fluxo de famílias, sem levar em consideração o número de famílias que deixaram a região. Os valores da pesquisa estão dispostos em uma matriz A = [aj], i, j {1, 2, 3, 4, 5}, em que o elemento ajj corresponde ao total de famílias (em dezena) que se mudaram da região i para a região j durante um certo período, e o elemento a;é considerado nulo, uma vez que somente são consideradas mudanças entre regiões distintas. A seguir, está apresentada a matriz com os dados da pesquisa.\n\nQual região foi selecionada para o investimento da construtora?",
+    "after_question": "Uma construtora, pretendendo investir na construção de imóveis em uma metrópole com cinco grandes regiões, fez uma pesquisa sobre a quantidade de famílias que mudaram de uma região para outra, de modo a determinar qual região foi o destino do maior fluxo de famílias, sem levar em consideração o número de famílias que deixaram a região. Os valores da pesquisa estão dispostos em uma matriz A = [a_ij], i, j ∈ {1, 2, 3, 4, 5}, em que o elemento a_ij corresponde ao total de famílias (em dezena) que se mudaram da região i para a região j durante um certo período, e o elemento a_ii é considerado nulo, uma vez que somente são consideradas mudanças entre regiões distintas. A seguir, está apresentada a matriz com os dados da pesquisa.\nA =\n| 0 4 2 2 5 |\n| 0 0 6 2 3 |\n| 2 2 0 3 0 |\n| 1 0 2 0 4 |\n| 1 2 0 4 0 |\nQual região foi selecionada para o investimento da construtora?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      },
+      {
+        "label": "E",
+        "text": "5"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      },
+      {
+        "label": "E",
+        "text": "5"
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "released": true,
+    "check": "somas das colunas (destinos): 4, 8, 10, 9, 12 → região 5 (E)"
+  },
+  {
+    "id": "gq_b770eb1acfc54b170e822aec",
+    "year": 2021,
+    "area": "MT",
+    "position": 163,
+    "pdf": "2021_PV_impresso_D2_CD7.pdf",
+    "page": 28,
+    "status_before": "additional_math_notation_hold",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por metro cúbico), com uma constante de proporcionalidade adimensional.\nNessa relação, a unidade de medida adequada para o módulo volumétrico é",
+    "after_question": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por metro cúbico), com uma constante de proporcionalidade adimensional.\nNessa relação, a unidade de medida adequada para o módulo volumétrico é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "kg·m-2.s-1"
+      },
+      {
+        "label": "B",
+        "text": "kg·m-1.s-²"
+      },
+      {
+        "label": "C",
+        "text": "kg·m-5.s²"
+      },
+      {
+        "label": "D",
+        "text": "kg-1.m1.s²"
+      },
+      {
+        "label": "E",
+        "text": "kg-1.m{.s-²"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "kg·m^-2·s^-1"
+      },
+      {
+        "label": "B",
+        "text": "kg·m^-1·s^-2"
+      },
+      {
+        "label": "C",
+        "text": "kg·m^-5·s^2"
+      },
+      {
+        "label": "D",
+        "text": "kg^-1·m^1·s^2"
+      },
+      {
+        "label": "E",
+        "text": "kg^-1·m^5·s^-2"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "released": true,
+    "check": "(kg/m³)·(m/s)² = kg·m^-1·s^-2 (B)"
+  },
+  {
+    "id": "gq_29b02702604175cb29267886",
+    "year": 2022,
+    "area": "CN",
+    "position": 106,
+    "pdf": "2022_PV_impresso_D2_CD7.pdf (questão 120 do caderno azul)",
+    "page": 12,
+    "status_before": "normalized_from_indexed_primary_pending_visual",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H2O2), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro.\n| Ensaio | Temperatura (°C) | Decomposição de H2O2 (10^-12 mol/min) |\n|---:|---:|---:|\n| 1 | 10 | 8,0 |\n| 2 | 15 | 10,5 |\n| 3 | 20 | 9,5 |\n| 4 | 25 | 5,0 |\n| 5 | 30 | 3,6 |\n| 6 | 35 | 3,1 |\nOs diferentes resultados dos ensaios justificam-se pelo(a)",
+    "after_question": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H2O2), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro.\n| Ensaio | Temperatura (°C) | Decomposição de H2O2 (10^-12 mol/min) |\n|---:|---:|---:|\n| 1 | 10 | 8,0 |\n| 2 | 15 | 10,5 |\n| 3 | 20 | 9,5 |\n| 4 | 25 | 5,0 |\n| 5 | 30 | 3,6 |\n| 6 | 35 | 3,1 |\nOs diferentes resultados dos ensaios justificam-se pelo(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "variação do pH do meio."
+      },
+      {
+        "label": "B",
+        "text": "aumento da energia de ativação."
+      },
+      {
+        "label": "C",
+        "text": "consumo da enzima durante o ensaio."
+      },
+      {
+        "label": "D",
+        "text": "diminuição da concentração do substrato."
+      },
+      {
+        "label": "E",
+        "text": "modificação da estrutura tridimensional da enzima."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "variação do pH do meio."
+      },
+      {
+        "label": "B",
+        "text": "aumento da energia de ativação."
+      },
+      {
+        "label": "C",
+        "text": "consumo da enzima durante o ensaio."
+      },
+      {
+        "label": "D",
+        "text": "diminuição da concentração do substrato."
+      },
+      {
+        "label": "E",
+        "text": "modificação da estrutura tridimensional da enzima."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "released": true,
+    "check": "texto e quadro iguais aos da prova (10^-12 mol/min); acima do ótimo a enzima desnatura (E)"
+  }
+]

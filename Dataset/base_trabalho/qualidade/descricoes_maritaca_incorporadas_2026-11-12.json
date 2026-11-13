@@ -1,0 +1,37 @@
+{
+  "resumo": {
+    "aplicadas": 3,
+    "parent_sha256": "f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd",
+    "novo_sha256": "4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6",
+    "motivo": "questões de 2023 e 2024 sem cobertura do Tardelli que já tinham descrição da Maritaca"
+  },
+  "aplicadas": [
+    {
+      "id": "gq_8c4ab907919dd95ef10db854",
+      "year": 2023,
+      "position": 54,
+      "language": "pt",
+      "answer": "C",
+      "question_before": "[[placeholder]]\nFotografia da avó bordada\nA definição de Sertão descrita no bordado associa esse recorte espacial a",
+      "question_after": "[Descrição da fotografia: Tecido bordado em linhas coloridas com a estampa de uma senhora no centro da imagem. A estampa está rodeada pelo desenho de um recorte espacial do Sertão e, abaixo, no tecido, está escrita a seguinte definição: “Sertão é a avó bordando caminhos com linhas coloridas”.]\nFotografia da avó bordada\nA definição de Sertão descrita no bordado associa esse recorte espacial a"
+    },
+    {
+      "id": "gq_5cf40c451292d91086d613e0",
+      "year": 2023,
+      "position": 7,
+      "language": "pt",
+      "answer": "A",
+      "question_before": "[[placeholder]]\nEssa campanha publicitária do Ministério da Saúde visa",
+      "question_after": "[Descrição da campanha publicitária: Foto de uma mulher, com semblante satisfeito, amamentando seu bebê. Sob o título Por que é tão importante amamentar?, o seguinte texto: “O bebê recebe os anticorpos da mãe para proteção contra diversas doenças, como diarreia e infecções, principalmente respiratórias. Diminui o risco de asma, diabetes e obesidade em crianças. É um ótimo exercício para o desenvolvimento da face do bebê e para o crescimento de dentes fortes e bonitos. Desenvolve a fala e uma boa respiração”.]\nEssa campanha publicitária do Ministério da Saúde visa"
+    },
+    {
+      "id": "gq_9f46f85bb2eef71f48156f9b",
+      "year": 2024,
+      "position": 4,
+      "language": "en",
+      "answer": "E",
+      "question_before": "[[placeholder]]A carta da editora Stephanie Allen-Nichols à escritora Alice Walker tem o propósito de",
+      "question_after": "[Descrição da carta: No cabeçalho, o logo e os dados da editora “The Viking Press Inc.”, com endereço em Nova Iorque. O conteúdo digitado da carta é o seguinte: “March 9th, 1981. Miss Walker, While your piece ‘The Color Purple’presents a compelling and thoroughly moving narrative, we were bothered by your decision to end every sentence with an exclamation point. As a reader, this was extremely jarring. I am afraid, for this reason, we are forced to make the difficult decision to pass on your manuscript. Best of luck, Stephanie Allen-Nichols”.]\nA carta da editora Stephanie Allen-Nichols à escritora Alice Walker tem o propósito de"
+    }
+  ]
+}

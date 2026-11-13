@@ -1,0 +1,30 @@
+{
+  "vectors_included": false,
+  "parent_vectors_valid_for_this_derivative": false,
+  "refit_before_comparing": true,
+  "reasons": [
+    "conteudo_trocado_corrigido",
+    "duplicados_da_prova_adaptada_retirados",
+    "alternativas_e_tabelas_corrigidas",
+    "galeria_e_conjuntos_de_avaliacao_alterados",
+    "textos_truncados_restaurados",
+    "pendencias_lote1_liberadas",
+    "pendencias_lote2_pdf_oficial",
+    "titulos_markdown_em_negrito",
+    "defeitos_texto_lote3_pdf_oficial",
+    "lote4_colchetes_2019q146_2018q125q126",
+    "lote5_formulas_2021q8",
+    "espanhol_faltantes_adicionadas",
+    "faltantes_2018_2021_adicionadas",
+    "faltantes_2009_2024_adicionadas",
+    "versoes_adaptadas_removidas",
+    "descricoes_tardelli_incorporadas_e_6_questoes_novas",
+    "descricoes_maritaca_incorporadas_3_questoes",
+    "descricoes_proprias_substituidas_ou_retiradas_73_questoes_fora_do_recomendador",
+    "descricoes_ledor_INEP_2009_2018_incorporadas_193_questoes",
+    "mescla_13_11_descricoes_em_campo_separado_ledor_completo_168_e_3_alternativas_2018"
+  ],
+  "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "derivative_dataset_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "recommender_text_change_required": "pipeline_baseline.question_text deve juntar descriptions[*].text com use_for_recommender == true; senão as 424 questões com imagem perdem a descrição na busca"
+}

@@ -1,0 +1,1754 @@
+[
+  {
+    "id": "gq_f2dca74d4e6e5a806bd38991",
+    "year": 2018,
+    "area": "LC",
+    "position": 5,
+    "language": "en",
+    "co_item": "85387",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Mayo\n15\nQue mañana no sea otro nombre de hoy\nEn el año 2011, miles de jóvenes, despojados de sus casas y de sus empleos, ocuparon las plazas y las calles de varias ciudades de España.\nY la indignación se difundió. La buena salud resultó más contagiosa que las pestes, y las voces de los indignados atravesaron las fronteras dibujadas en los mapas. Así resonaron en el mundo:\nNos dijeron \"a la puta calle!\", y aquí estamos.\nApaga la tele y enciende la calle.\nLa llaman crisis, pero es estafa.\nNo falta dinero: sobran ladrones.\nLos mercados gobiernan. Yo no los voté.\nEllos toman decisiones por nosotros, sin nosotros.\nSe alquila esclavo económico.\nEstoy buscando mis derechos. ¿Alguien los ha visto?\nSi no nos dejan soñar, no los dejaremos dormir.\nGALEANO, E. Los hijos de los días. Buenos Aires: Siglo Veintiuno, 2012.\nAo elencar algumas frases proferidas durante protestos na Espanha, o enunciador transcreve, de forma direta, as reivindicações dos manifestantes para",
+    "after_question": "1984 (excerpt) ‘Is it your opinion, Winston, that the past has real existence?’ [...] O'Brien smiled faintly. ‘I will put it more precisely. Does the past exist concretely, in space? Is there somewhere or other a place, a world of solid objects, where the past is still happening?’ ‘No.’ ‘Then where does the past exist, if at all?’ ‘In records. It is written down.’ ‘In records. And — —?’ ‘In the mind. In human memories.’ ‘In memory. Very well, then. We, the Party, control all records, and we control all memories. Then we control the past, do we not?’\nORWELL, G. Nineteen Eighty-Four. New York: Signet Classics, 1977.\nO romance 1984 descreve os perigos de um Estado totalitário. A ideia evidenciada nessa passagem é que o controle do Estado se dá por meio do(a)",
+    "before_options": [
+      "provocá-los de forma velada.",
+      "dar voz ao movimento popular.",
+      "fomentar o engajamento do leitor.",
+      "favorecer o diálogo entre governo e sociedade.",
+      "instaurar dúvidas sobre a legitimidade da causa."
+    ],
+    "after_options": [
+      "boicote a ideais libertários.",
+      "veto ao culto das tradições.",
+      "poder sobre memórias e registros.",
+      "censura a produções orais e escritas.",
+      "manipulação de pensamentos individuais."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro (ingles, gabarito C) tinha a questao 5 de ESPANHOL ('Mayo 15', gabarito B). A questao 5 de espanhol de 2018 nao existe na base.",
+      "texto_base_inserido: Texto do proprio projeto (unificado-K/zenodo), conferido com o PDF oficial; alternativa E sem a sobra 'TECNOLOGIAS'."
+    ]
+  },
+  {
+    "id": "gq_1bf495a5eda4568d0ea676d2",
+    "year": 2018,
+    "area": "LC",
+    "position": 34,
+    "language": "pt",
+    "co_item": "112150",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Os gêneros textuais podem ser caracterizados, dentre outros fatores, por seus objetivos. Esse fragmento é um(a)",
+    "after_question": "[TEXTO-BASE PENDENTE: colar do PDF oficial ENEM 2018, 1º dia, caderno 1 azul (2018_PV_impresso_D1_CD1.pdf), página 15: as duas imagens: TEXTO I (escultura 'Estrutura vertical dupla', de N. Grimberg) e TEXTO II (urna cerimonial marajoara)]\nAs duas imagens são produções que têm a cerâmica como matéria-prima. A obra Estrutura vertical dupla se distingue da urna funerária marajoara ao",
+    "before_options": [
+      "reportagem, pois busca convencer o interlocutor da tese defendida ao longo do texto.",
+      "resumo, pois promove o contato rápido do leitor com uma informação desconhecida.",
+      "sinopse, pois sintetiza as informações relevantes de uma obra de modo impessoal.",
+      "instrução, pois ensina algo por meio de explicações sobre uma obra específica.",
+      "resenha, pois apresenta uma produção intelectual de forma crítica."
+    ],
+    "after_options": [
+      "evidenciar a simetria na disposição das peças.",
+      "materializar a técnica sem função utilitária.",
+      "abandonar a regularidade na composição.",
+      "anular possibilidades de leituras afetivas.",
+      "integrar o suporte em sua constituição."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha uma copia da pergunta da questao 33."
+    ]
+  },
+  {
+    "id": "gq_908dcea06b2ba064685de9f1",
+    "year": 2018,
+    "area": "MT",
+    "position": 169,
+    "language": "pt",
+    "co_item": "111557",
+    "changed_fields": [
+      "options",
+      "working_revision"
+    ],
+    "before_question": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X.\nOs valores possíveis para X são, apenas,",
+    "after_question": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X.\nOs valores possíveis para X são, apenas,",
+    "before_options": [
+      "X> 1 500.",
+      "X < 3 000.",
+      "1 500 < X < 3 000.",
+      "2 250 < X < 3 000.",
+      "E) 2 250 < X < 3 000."
+    ],
+    "after_options": [
+      "X > 1 500.",
+      "X < 3 000.",
+      "1 500 < X < 2 250.",
+      "1 500 < X < 3 000.",
+      "2 250 < X < 3 000."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "alternativas_corrigidas_pela_prova: Prova 2018 2o dia q169 (texto enviado pelo Italo): alternativas estavam deslocadas, faltava a C correta e D/E repetidas. Gabarito C confere; enunciado identico."
+    ]
+  },
+  {
+    "id": "gq_4d0565792bd6e34b936859df",
+    "year": 2019,
+    "area": "CN",
+    "position": 111,
+    "language": "pt",
+    "co_item": "97169",
+    "changed_fields": [
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Questão 111\nA 2\nB 5\nC 10\nD 20\nE 50",
+    "after_question": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo. Suponha que a aceleração gravitacional seja 10 m s^-2 e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
+    "before_options": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "50"
+    ],
+    "after_options": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "50"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "enunciado_recuperado: Enunciado ausente na base (so 'Questao 111'); alternativas e gabarito ja estavam certos."
+    ]
+  },
+  {
+    "id": "gq_eef535e19f0f621b88d2a9d8",
+    "year": 2019,
+    "area": "LC",
+    "position": 3,
+    "language": "en",
+    "co_item": "23564",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Que hay de cierto en la fábula de la cigarra y la hormiga\nCuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina, la hormiga algo que llevarse a la boca. Esta le ofreció granos de arroz acompañados de una moraleja: más vale prevenir que lamentar. ¿Merecen su fama de previsoras y afanosas las hormigas? Sin duda. Las hormigas cortadoras de hojas (Attacephalotes), por ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín de hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven.\nEn cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano “cantando\" — un sonido que producen con unas membranas llamadas timbales — y encaramados a un árbol, de cuya savia se alimentan.\nDisponível em: www.muyinteresante.es. Acesso em: 31 out. 2012 (adaptado).\nA fábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para",
+    "after_question": "In this life Sitting on a park bench Thinking about a friend of mine He was only twenty-three Gone before he had his time. It came without a warning Didnꞌt want his friends to see him cry He knew the day was dawning And I didnꞌt have a chance to say goodbye.\nMADONNA. Erotica. Estados Unidos: Maverick, 1992.\nA canção, muitas vezes, é uma forma de manifestar sentimentos e emoções da vida cotidiana. Por exemplo, o sofrimento retratado nessa canção foi causado",
+    "before_options": [
+      "apresentar ao leitor um ensinamento moral.",
+      "reforçar o estereótipo associado às cigarras.",
+      "descrever o comportamento dos insetos na natureza.",
+      "expor a superioridade das formigas em relação às cigarras.",
+      "descrever a relação social entre formigas e cigarras na natureza."
+    ],
+    "after_options": [
+      "pela morte precoce de um amigo jovem.",
+      "pelo término de um relacionamento amoroso.",
+      "pela mudança de um amigo para outro país.",
+      "pelo fim de uma amizade de mais de vinte anos.",
+      "pela traição por parte de pessoa próxima."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro de ingles tinha a questao 3 de espanhol (que ja existe em gq_ea5b8388...).",
+      "texto_base_inserido: Texto do proprio projeto (unificado-K/zenodo), identico ao PDF oficial."
+    ]
+  },
+  {
+    "id": "gq_8a3c1e72bdb151eebc5357a9",
+    "year": 2019,
+    "area": "LC",
+    "position": 4,
+    "language": "en",
+    "co_item": "31954",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Empanada\nOvera en bayo claro, vaquilla echada, eres del vino tinto la camarada.\n[...]\nVienes llena de pino, cebolla y carne, con pasas, huevo duro, y aliño de hambre.\nCon el primer mordisco por una oreja, se abre tu boca ardiente como sorpresa.\nTe la lleno de pebre quedas picante si te beso muy fuerte, no me reclames.\nBusco, loco, en tu vientre, delicia oscura, la traición exquisita de tu aceituna.\n[...]\nY repite el ataque por andanadas: Nadie queda con hambre si hay empanadas.\nANTRIX, J. Disponível em: http://versado-en-la-cocina.blogspot.com. Acesso em: 8 dez. 2018 (fragmento).\nA gastronomia é uma das formas de expressão cultural de um povo. Nesse poema, ao personificar as empanadas, o escritor chileno Antrix",
+    "after_question": "If children live with criticism, they learn to condemn. If children live with fear, they learn to be apprehensive. If children live with pity, they learn to feel sorry for themselves. If children live with ridicule, they learn to feel shy. If children live with tolerance, they learn patience. If children live with praise, they learn appreciation. If children live with acceptance, they learn to love. If children live with approval, they learn to like themselves. If children live with recognition, they learn it is good to have a goal. If children live with sharing, they learn generosity. If children live with fairness, they learn justice. If children live with kindness and consideration, they learn respect. If children live with friendliness, they learn the world is a nice place in which to live. Acesso em: 30 jul. 2012.\nNOLTE, D. L. Disponível em: www.americanfamilytraditions.com. Acesso em: 30 jul. 2012.\nValores culturais de um povo revelam sua forma de ser, agir e pensar. Na concepção da autora, as diferentes formas de educar crianças nos Estados Unidos confirmam que as crianças",
+    "before_options": [
+      "enaltece esse prato da culinária hispânica.",
+      "descreve algumas etapas de preparação dessa receita.",
+      "destaca a importância do vinho na alimentação hispânica.",
+      "resgata o papel histórico desse alimento em tempos de fome.",
+      "evidencia a relevância de alguns condimentos na cozinha hispânica."
+    ],
+    "after_options": [
+      "temem quem as amedronta.",
+      "aprendem com o que vivem.",
+      "amam aqueles que as aceitam.",
+      "são gentis quando respeitadas.",
+      "ridicularizam quem as intimida."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro de ingles tinha a questao 4 de espanhol (que ja existe em gq_df883185...).",
+      "texto_base_inserido: Texto do proprio projeto (unificado-K/zenodo); acrescentada a linha da fonte que faltava."
+    ]
+  },
+  {
+    "id": "gq_ea5b83880b214e23196e4909",
+    "year": 2019,
+    "area": "LC",
+    "position": 3,
+    "language": "es",
+    "co_item": "39016",
+    "changed_fields": [
+      "question"
+    ],
+    "before_question": "Que hay de cierto en la fábula de la cigarra y la hormiga Cuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina, la hormiga algo que llevarse a la boca. Esta le ofreció granos de arroz acompañados de una moraleja: más vale prevenir que lamentar. ¿Merecen su fama de previsoras y afanosas las hormigas? Sin duda. Las hormigas cortadoras de hojas (Atta cephalotes), por ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín de hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven.\nEn cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano “cantando” — un sonido que producen con unas membranas llamadas timbales — y encaramados a un árbol, de cuya savia se alimentan.\nfábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para",
+    "after_question": "Que hay de cierto en la fábula de la cigarra y la hormiga Cuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina, la hormiga algo que llevarse a la boca. Esta le ofreció granos de arroz acompañados de una moraleja: más vale prevenir que lamentar. ¿Merecen su fama de previsoras y afanosas las hormigas? Sin duda. Las hormigas cortadoras de hojas (Atta cephalotes), por ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín de hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven.\nEn cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano “cantando” — un sonido que producen con unas membranas llamadas timbales — y encaramados a un árbol, de cuya savia se alimentan.\nDisponível em: www.muyinteresante.es. Acesso em: 31 out. 2012 (adaptado).\nA fábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para",
+    "before_options": [
+      "apresentar ao leitor um ensinamento moral.",
+      "reforçar o estereótipo associado às cigarras.",
+      "descrever o comportamento dos insetos na natureza.",
+      "expor a superioridade das formigas em relação às cigarras.",
+      "descrever a relação social entre formigas e cigarras na natureza."
+    ],
+    "after_options": [
+      "apresentar ao leitor um ensinamento moral.",
+      "reforçar o estereótipo associado às cigarras.",
+      "descrever o comportamento dos insetos na natureza.",
+      "expor a superioridade das formigas em relação às cigarras.",
+      "descrever a relação social entre formigas e cigarras na natureza."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "ajuste_pequeno_conferido_na_prova: linha da fonte acrescentada; \"A\" que faltava no inicio da pergunta"
+    ]
+  },
+  {
+    "id": "gq_40a3d0617d5e602c7dbb75a4",
+    "year": 2019,
+    "area": "LC",
+    "position": 2,
+    "language": "en",
+    "co_item": "54110",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Millennials: Así es la generación que ya no recuerda cómo era el mundo sin Internet\nAlgunos los llaman generación Y, otros \"Millennials”, generación del milenio o incluso \"Echo Boomers\".\nNacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet.\nSon idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo a una edad temprana, de estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras.\nLa generación Y se compone de este tipo de personas que quieren todo a la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.\nDisponível em: https://actualidad.rt.com. Acesso em: 4 dez. 2018.\nO texto aponta características e interesses da \"Geração Y\". Nele, a expressão dejar su huella refere-se a um dos desejos dessa geração, que é o de",
+    "after_question": "LETTER TO THE EDITOR: Sugar fear-mongering unhelpful By The Washington Times Tuesday, June 25, 2013 In his recent piece “Is obesity a disease?” (Web, June 19), Dr. Peter Lind refers to high-fructose corn syrup and other “manufactured sugars” as “poison” that will “guarantee storage of fat in the body.” Current scientific research strongly indicates that obesity results from excessive calorie intake combined with a sedentary lifestyle. The fact is Americans are consuming more total calories now than ever before. According to the U.S. Department of Agriculture, our total per-capita daily caloric intake increased by 22 percent from 2,076 calories per day in 1970 to 2,534 calories per day in 2010 — an additional 458 calories, only 34 of which come from increased added sugar intake. A vast majority of these calories come from increased fats and flour/ cereals. Surprisingly, the amount of caloric sweeteners (i.e. sugar, high-fructose, corn syrup, honey, etc.). Americans consume has actually decreased over the past decade. We need to continue to study the obesity epidemic to see what more can be done, but demonizing one specific ingredient accomplishes nothing and raises unnecessary fears that get in the way of real solutions. JAMES M. RIPPE Shrewsbury, Mass.\nDisponível em: www.washingtontimes.com. Acesso em: 29 jul. 2013 (adaptado).\nAo abordar o assunto “obesidade”, em uma seção de jornal, o autor",
+    "before_options": [
+      "conhecer diferentes lugares.",
+      "fazer a diferença no mundo.",
+      "aproveitar todas as oportunidades.",
+      "obter uma formação acadêmica de excelência.",
+      "conquistar boas colocações no mundo do trabalho."
+    ],
+    "after_options": [
+      "defende o consumo liberado de açúcar.",
+      "aponta a gordura como o grande vilão da saúde.",
+      "demonstra acreditar que a obesidade não é preocupante.",
+      "indica a necessidade de mais pesquisas sobre o assunto.",
+      "enfatiza a redução de ingestão de calorias pelos americanos."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro de ingles tinha a questao 2 de espanhol (que ja existe em gq_e94fa74d...).",
+      "texto_base_inserido: Texto do proprio projeto (unificado-K/zenodo); acrescentada a linha da fonte que faltava."
+    ]
+  },
+  {
+    "id": "gq_df88318514624bbd57a79a30",
+    "year": 2019,
+    "area": "LC",
+    "position": 4,
+    "language": "es",
+    "co_item": "118167",
+    "changed_fields": [
+      "question"
+    ],
+    "before_question": "Empanada Overa en bayo claro, vaquilla echada, eres del vino tinto la camarada.\n[...] Vienes llena de pino, cebolla y carne, con pasas, huevo duro, y aliño de hambre. Con el primer mordisco por una oreja, se abre tu boca ardiente como sorpresa. Te la lleno de pebre quedas picante si te beso muy fuerte, no me reclames. Busco, loco, en tu vientre, delicia oscura, la traición exquisita de tu aceituna.\n[...] Y repite el ataque por andanadas: Nadie queda con hambre si hay empanadas.\nAcesso em: 8 dez. 2018 (fragmento).\nA gastronomia é uma das formas de expressão cultural de um povo. Nesse poema, ao personificar as empanadas, o escritor chileno Antrix",
+    "after_question": "Empanada Overa en bayo claro, vaquilla echada, eres del vino tinto la camarada.\n[...] Vienes llena de pino, cebolla y carne, con pasas, huevo duro, y aliño de hambre. Con el primer mordisco por una oreja, se abre tu boca ardiente como sorpresa. Te la lleno de pebre quedas picante si te beso muy fuerte, no me reclames. Busco, loco, en tu vientre, delicia oscura, la traición exquisita de tu aceituna.\n[...] Y repite el ataque por andanadas: Nadie queda con hambre si hay empanadas.\nANTRIX, J. Disponível em: http://versado-en-la-cocina.blogspot.com. Acesso em: 8 dez. 2018 (fragmento).\nA gastronomia é uma das formas de expressão cultural de um povo. Nesse poema, ao personificar as empanadas, o escritor chileno Antrix",
+    "before_options": [
+      "enaltece esse prato da culinária hispânica.",
+      "descreve algumas etapas de preparação dessa receita.",
+      "destaca a importância do vinho na alimentação hispânica.",
+      "resgata o papel histórico desse alimento em tempos de fome.",
+      "evidencia a relevância de alguns condimentos na cozinha hispânica."
+    ],
+    "after_options": [
+      "enaltece esse prato da culinária hispânica.",
+      "descreve algumas etapas de preparação dessa receita.",
+      "destaca a importância do vinho na alimentação hispânica.",
+      "resgata o papel histórico desse alimento em tempos de fome.",
+      "evidencia a relevância de alguns condimentos na cozinha hispânica."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "ajuste_pequeno_conferido_na_prova: linha da fonte completada"
+    ]
+  },
+  {
+    "id": "gq_e94fa74df2dd8fa101bbcadf",
+    "year": 2019,
+    "area": "LC",
+    "position": 2,
+    "language": "es",
+    "co_item": "118222",
+    "changed_fields": [
+      "question"
+    ],
+    "before_question": "Millennials: Así es la generación que ya no recuerda cómo era el mundo sin Internet Algunos los llaman generación Y, otros “Millennials”, generación del milenio o incluso “Echo Boomers”.\nNacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet.\nSon idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo a una edad temprana, de estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras.\nLa generación Y se compone de este tipo de personas que quieren todo a la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.\nO texto aponta características e interesses da “Geração Y”. Nele, a expressão dejar su huella refere-se a um dos desejos dessa geração, que é o de",
+    "after_question": "Millennials: Así es la generación que ya no recuerda cómo era el mundo sin Internet Algunos los llaman generación Y, otros “Millennials”, generación del milenio o incluso “Echo Boomers”.\nNacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet.\nSon idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo a una edad temprana, de estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras.\nLa generación Y se compone de este tipo de personas que quieren todo a la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.\nDisponível em: https://actualidad.rt.com. Acesso em: 4 dez. 2018.\nO texto aponta características e interesses da “Geração Y”. Nele, a expressão dejar su huella refere-se a um dos desejos dessa geração, que é o de",
+    "before_options": [
+      "conhecer diferentes lugares.",
+      "fazer a diferença no mundo.",
+      "aproveitar todas as oportunidades.",
+      "obter uma formação acadêmica de excelência.",
+      "conquistar boas colocações no mundo do trabalho."
+    ],
+    "after_options": [
+      "conhecer diferentes lugares.",
+      "fazer a diferença no mundo.",
+      "aproveitar todas as oportunidades.",
+      "obter uma formação acadêmica de excelência.",
+      "conquistar boas colocações no mundo do trabalho."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "ajuste_pequeno_conferido_na_prova: linha da fonte acrescentada"
+    ]
+  },
+  {
+    "id": "gq_73446c599b38413315a0dd2b",
+    "year": 2019,
+    "area": "MT",
+    "position": 167,
+    "language": "pt",
+    "co_item": "31184",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "é a arte do origami (ori = dobrar; kami = papel), que tem um significado altamente simbólico no Japão. A base do origami é o conhecimento do mundo por base do tato. Uma jovem resolveu construir um cisne usando a técnica do origami, utilizando uma folha de papel de 18 cm por 12 cm. Assim, começou por dobrar a folha conforme a figura. Após essa primeira dobradura, a medida do segmento AE é",
+    "after_question": "Os alunos de uma turma escolar foram divididos em dois grupos. Um grupo jogaria basquete, enquanto o outro jogaria futebol. Sabe-se que o grupo de basquete é formado pelos alunos mais altos da classe e tem uma pessoa a mais do que o grupo de futebol. A tabela seguinte apresenta informações sobre as alturas dos alunos da turma.\n| Média | Mediana | Moda |\n|---:|---:|---:|\n| 1,65 | 1,67 | 1,70 |\nOs alunos P, J, F e M medem, respectivamente, 1,65 m, 1,66 m, 1,67 m e 1,68 m, e as suas alturas não são iguais a de nenhum outro colega da sala.\nSegundo essas informações, argumenta-se que os alunos P, J, F e M jogaram, respectivamente,",
+    "before_options": [
+      "2√22 cm.",
+      "6√3 cm.",
+      "12 cm.",
+      "6√5 cm.",
+      "12√2 cm."
+    ],
+    "after_options": [
+      "basquete, basquete, basquete, basquete.",
+      "futebol, basquete, basquete, basquete.",
+      "futebol, futebol, basquete, basquete.",
+      "futebol, futebol, futebol, basquete.",
+      "futebol, futebol, futebol, futebol."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha a questao do origami (166). Imagem do origami removida deste registro."
+    ]
+  },
+  {
+    "id": "gq_066314bf1f8f941709b79096",
+    "year": 2019,
+    "area": "MT",
+    "position": 169,
+    "language": "pt",
+    "co_item": "117818",
+    "changed_fields": [
+      "options",
+      "working_revision"
+    ],
+    "before_question": "Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência. Caso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.\n\nO usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários. O gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km.\n\nCom base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?",
+    "after_question": "Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência. Caso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.\n\nO usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários. O gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km.\n\nCom base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?",
+    "before_options": [
+      "A) II",
+      "B) I",
+      "C) III",
+      "D) IV",
+      "E) V"
+    ],
+    "after_options": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "alternativas_corrigidas_pela_prova: PDF oficial 2019 2o dia azul, q169: alternativas A e B estavam trocadas e com a letra repetida; gabarito A confere."
+    ]
+  },
+  {
+    "id": "gq_ff4804ffa37905e4b882d5f6",
+    "year": 2020,
+    "area": "CH",
+    "position": 65,
+    "language": "pt",
+    "co_item": "111792",
+    "changed_fields": [
+      "options",
+      "working_revision"
+    ],
+    "before_question": "O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)",
+    "after_question": "O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)",
+    "before_options": [
+      "es. © Enxugamento da carga fiscal individual e da contribuição tributária empresarial.",
+      "Reformulação do acesso ao ensino superior e do financiamento científico nacional.",
+      "Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário.",
+      "atendimento às necessidades de circulação impostas pelo agronegócio.",
+      "E) Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário."
+    ],
+    "after_options": [
+      "alteração da matriz econômica.",
+      "substituição do modal hidroviário.",
+      "retração do contingente demográfico.",
+      "projeção do escoamento produtivo.",
+      "estagnação de lavouras policultoras."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "alternativas_corrigidas_pela_prova: PDF oficial 2020 1o dia azul, q65: as 5 alternativas eram de outra(s) questao(oes); gabarito D confere."
+    ]
+  },
+  {
+    "id": "gq_f9dd1e4c518e111604164934",
+    "year": 2020,
+    "area": "CH",
+    "position": 51,
+    "language": "pt",
+    "co_item": "111924",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "As metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas.\nMOURA, R. Arranjos urbano-regionais no Brasil: especificidades e reprodução de padrões. Disponível em: www.ub.edu. Acesso em: 11 fev. 2015.\nO resultado do processo geográfico descrito foi o(a)",
+    "after_question": "[IMAGEM: Zona de pastoreio e cultura do algodão e cereais do agreste (1963)]\nANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963.\nA dinâmica produtiva apresentada na imagem tem como estratégia central a",
+    "before_options": [
+      "valorização da escala local.",
+      "crescimento das áreas periféricas.",
+      "densificação do transporte ferroviário.",
+      "predomínio do planejamento estadual.",
+      "inibição de consórcios intermunicipais."
+    ],
+    "after_options": [
+      "separação pelo tipo de solo.",
+      "exportação da colheita sazonal.",
+      "priorização da tecnologia moderna.",
+      "adequação pelo tempo da natureza.",
+      "intensificação da atividade pecuária."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 1,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha um pedaco da questao 50. Ha descricao do Tardelli para esta imagem.",
+      "imagem_e_descricao_tardelli: "
+    ]
+  },
+  {
+    "id": "gq_451384e4480834ae2e9ab56f",
+    "year": 2020,
+    "area": "CN",
+    "position": 119,
+    "language": "pt",
+    "co_item": "83684",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": null,
+    "after_question": "Pesquisadores coletaram amostras de água de um rio em pontos diferentes, distantes alguns quilômetros um do outro. Ao longo do rio, há locais de águas limpas, como também locais que recebem descarga de esgoto de área urbana, e locais onde há decomposição ativa com ausência de peixes. Os pesquisadores analisaram dois parâmetros: oxigênio dissolvido (OD) e demanda bioquímica de oxigênio (DBO) em cada ponto de coleta de água, obtendo o gráfico:\n[IMAGEM: gráfico de OD e DBO nos pontos de amostragem 1 a 5]\nValores limites permitidos para águas doces destinadas ao abastecimento para o consumo humano após tratamento convencional, segundo Resolução Conama n. 357/2005: OD ≥ 5 mg L^-1 e DBO ≤ 5 mg L^-1.\nO OD é proveniente da atmosfera e da fotossíntese que ocorre no curso-d’água e sua concentração é função das variáveis físicas, químicas e bioquímicas locais. A DBO é a quantidade de oxigênio consumido por microrganismos em condições aeróbicas para degradar uma determinada quantidade de matéria orgânica, durante um período de tempo, numa temperatura de incubação específica.\nDisponível em: www.programaaguaazul.rn.gov.br. Acesso em: 16 ago. 2014 (adaptado).\nQual ponto de amostragem da água do rio está mais próximo ao local em que o rio recebe despejo de esgoto?",
+    "before_options": [],
+    "after_options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 1,
+    "notes": [
+      "registro_vazio_preenchido: Registro estava vazio. Ha descricao do Tardelli para o grafico.",
+      "imagem_e_descricao_tardelli: ",
+      "texto_base_inserido: Texto colado pelo Italo (identico a prova) + linha Conama do INEP."
+    ]
+  },
+  {
+    "id": "gq_acf5d212cc9ae8ac21b8be08",
+    "year": 2020,
+    "area": "LC",
+    "position": 44,
+    "language": "pt",
+    "co_item": "35684",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Ade britânica de medicina St. George usou um software para definir quem deveria ser entrevistado. Ao reproduzir a forma como os funcionários faziam essa escolha, o programa eliminou, de cara, 60 de 2 000 candidatos. Só por causa do sexo ou da origem racial, numa dedução baseada em sobrenome e local de nascimento. Um estudo sobre o caso foi publicado em 1988, mas, 25 anos depois, outra pesquisa apontou que esse tipo de discriminação segue firme. O exemplo recente envolve o buscador do Google: ao digitar nomes comuns entre negros dos EUA, a chance de os anúncios automáticos oferecerem checagem de antecedentes criminais pode aumentar 25%. E pode piorar com a pergunta \"detido?\" logo após a palavra procurada.\nDisponível em: https://tab.uol.com.br. Acesso em: 11 ago. 2017 (adaptado).\nO texto permite o desnudamento da sociedade ao relacionar as tecnologias de informação e comunicação com o(a)",
+    "after_question": "[IMAGEM: campanha publicitária sobre adoção]\nDisponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018.\nNessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia de que",
+    "before_options": [
+      "agilidade dos softwares.",
+      "passar dos anos.",
+      "linguagem.",
+      "preconceito.",
+      "educação."
+    ],
+    "after_options": [
+      "a família que adota é mais feliz.",
+      "a adoção tardia é muito positiva.",
+      "as famílias preferem adotar bebês.",
+      "a adoção de adolescentes é mais simples.",
+      "os filhos adotivos são companheiros dos pais."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 1,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha uma copia da questao 43. Ha descricao do Tardelli para esta imagem.",
+      "imagem_e_descricao_tardelli: "
+    ]
+  },
+  {
+    "id": "gq_b8f4ee587c7f1fd71498cc48",
+    "year": 2020,
+    "area": "LC",
+    "position": 12,
+    "language": "pt",
+    "co_item": "112112",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "antásticas da natureza morta...Os aflitivos pássaros noturnos gemiam agouros com pios fúnebres. Maria quis fugir, mas os membros cansados não acudiam aosímpetos do medo e deixavam-na prostrada em uma angústia desesperada.\nARANHA, J. P. G. Canaã. São Paulo: Ática, 1997.\n\nNo trecho, o narrador mobiliza recursos de linguagem que geram uma expressividade centrada na percepção da",
+    "after_question": "TEXTO I\nÉ pau, é pedra, é o fim do caminho\nÉ um resto de toco, é um pouco sozinho\nÉ um caco de vidro, é a vida, é o sol\nÉ a noite, é a morte, é o laço, é o anzol\nÉ peroba-do-campo, é o nó da madeira\nCaingá, candeia, é o matita-pereira\nTOM JOBIM. Águas de março. O Tom de Jobim e o tal de João Bosco (disco de bolso). Salvador: Zen Produtora, 1972 (fragmento).\nTEXTO II\nA inspiração súbita e certeira do compositor serve ainda de exemplo do lema antigo: nada vem do nada. Para ninguém, nem mesmo para Tom Jobim. Duas fontes são razoavelmente conhecidas. A primeira é o poema O caçador de esmeraldas, do mestre parnasiano Olavo Bilac: “Foi em março, ao findar da chuva, quase à entrada/ do outono, quando a terra em sede requeimada/ bebera longamente as águas da estação [...]”. E a outra é um ponto de macumba, gravado com sucesso por J. B. Carvalho, do Conjunto Tupi: “É pau, é pedra, é seixo miúdo, roda a baiana por cima de tudo”. Combinar Olavo Bilac e macumba já seria bom; mas o que se vê em Águas de março vai muito além: tudo se transforma numa outra coisa e numa outra música, que recompõem o mundo para nós.\nNESTROVSKI, A. O samba mais bonito do mundo. In: Três canções de Tom Jobim. São Paulo: Cosac Naify, 2004.\nAo situar a composição no panorama cultural brasileiro, o Texto II destaca o(a)",
+    "before_options": [
+      "relação entre a natureza opressiva e o desejo de libertação da personagem.",
+      "confluência entre o estado emocional da personagem e a configuração da paisagem.",
+      "prevalência do mundo natural em relação à fragilidade humana.",
+      "depreciação do sentido da vida diante da consciência da morte iminente.",
+      "instabilidade psicológica da personagem face à realidade hostil."
+    ],
+    "after_options": [
+      "diálogo que a letra da canção estabelece com diferentes tradições da cultura nacional.",
+      "singularidade com que o compositor converte referências eruditas em populares.",
+      "caráter inovador com que o compositor concebe o processo de criação artística.",
+      "relativização que a letra da canção promove na concepção tradicional de originalidade.",
+      "resgate que a letra da canção promove de obras pouco conhecidas pelo público no país."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha uma copia da questao 11 (Canaa).",
+      "texto_base_inserido: Texto colado pelo Italo a partir do PDF oficial, conferido palavra por palavra."
+    ]
+  },
+  {
+    "id": "gq_cd208a6831b562665f7fb89a",
+    "year": 2020,
+    "area": "MT",
+    "position": 175,
+    "language": "pt",
+    "co_item": "49630",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": null,
+    "after_question": "Um administrador resolve estudar o lucro de sua empresa e, para isso, traça o gráfico da receita e do custo de produção de seus itens, em real, em função da quantidade de itens produzidos.\n[IMAGEM: gráfico da receita e do custo, PDF oficial ENEM 2020, 2º dia, caderno 7 azul (2020_PV_impresso_D2_CD7.pdf), página 29]\nO lucro é determinado pela diferença: Receita – Custo.\nO gráfico que representa o lucro dessa empresa, em função da quantidade de itens produzidos, é",
+    "before_options": [],
+    "after_options": [
+      "[IMAGEM: gráfico A]",
+      "[IMAGEM: gráfico B]",
+      "[IMAGEM: gráfico C]",
+      "[IMAGEM: gráfico D]",
+      "[IMAGEM: gráfico E]"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "registro_vazio_preenchido: Registro estava vazio. Alternativas sao graficos (imagens)."
+    ]
+  },
+  {
+    "id": "gq_5eee19a44efcd4afa4e47b54",
+    "year": 2021,
+    "area": "CN",
+    "position": 135,
+    "language": "pt",
+    "co_item": "46813",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "working_revision"
+    ],
+    "before_question": "O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.\nROCHA FILHO, R. C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola, n. 12, 2000 (adaptado).\nUm exemplo desse polímero é representado pela estrutura",
+    "after_question": "O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.\nROCHA FILHO, R. C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola, n. 12, 2000 (adaptado).\nUm exemplo desse polímero é representado pela estrutura",
+    "before_options": [
+      "aumento da dissociação da água.",
+      "aumento da densidade da água e do álcool.",
+      "mudança do volume dos materiais por dilatação.",
+      "aumento da concentração de álcool durante a medida.",
+      "alteração das propriedades químicas da mistura álcool e água."
+    ],
+    "after_options": [
+      "[IMAGEM: estrutura química da alternativa A]",
+      "[IMAGEM: estrutura química da alternativa B]",
+      "[IMAGEM: estrutura química da alternativa C]",
+      "[IMAGEM: estrutura química da alternativa D]",
+      "[IMAGEM: estrutura química da alternativa E]"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 5,
+    "assets_after": 5,
+    "notes": [
+      "alternativas_trocadas_substituidas: Enunciado certo; alternativas eram as da questao 134. As 5 imagens das estruturas ja estao nos assets deste registro."
+    ]
+  },
+  {
+    "id": "gq_c13077eda9243c73f722dd20",
+    "year": 2021,
+    "area": "CN",
+    "position": 121,
+    "language": "pt",
+    "co_item": "78726",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade (enfermos que vão a óbito) pode chegar a 90%. Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1%.\nSegundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
+    "after_question": "Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade (enfermos que vão a óbito) pode chegar a 90%. Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1%.\nDisponível em: www.who.int. Acesso em: 1 fev. 2017 (adaptado).\nSegundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
+    "before_options": [
+      "A Ebola, pois o maior período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "B Dengue, pois o menor período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "C Ebola, cuja alta letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução.",
+      "D Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.",
+      "E Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro."
+    ],
+    "after_options": [
+      "Ebola, pois o maior período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "Dengue, pois o menor período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "Ebola, cuja alta letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução.",
+      "Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.",
+      "Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "E",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "letra_duplicada_removida: Alternativas comecavam com a letra repetida ('A A ...').",
+      "ajuste_pequeno_conferido_na_prova: linha da fonte acrescentada"
+    ]
+  },
+  {
+    "id": "gq_7aa17072b2effe6d2d2d1592",
+    "year": 2021,
+    "area": "CN",
+    "position": 122,
+    "language": "pt",
+    "co_item": "82265",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule.\nA utilização de auxinas no método de estaquia das roseiras contribui para",
+    "after_question": "A imagem apresenta as etapas do funcionamento de uma estação individual para tratamento do esgoto residencial.\n[IMAGEM: 'Como funciona a estação individual' (etapas 1 a 6), PDF oficial ENEM 2021, 2º dia, caderno 7 azul (2021_PV_impresso_D2_CD7.pdf), página 12]\nTAVARES, K. Estações de tratamento de esgoto individuais permitem a reutilização da água. Disponível em: https://extra.globo.com. Acesso em: 18 nov. 2014 (adaptado).\nEm qual etapa decanta-se o lodo a ser separado do esgoto residencial?",
+    "before_options": [
+      "floração da planta.",
+      "produção de gemas laterais.",
+      "formação de folhas maiores.",
+      "formação de raízes adventícias.",
+      "produção de compostos energéticos."
+    ],
+    "after_options": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 1,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha o texto da estaquia (questao 123). Ha descricao do Tardelli para esta imagem.",
+      "imagem_e_descricao_tardelli: "
+    ]
+  },
+  {
+    "id": "gq_f30f20c4772b01cac22a146b",
+    "year": 2021,
+    "area": "CN",
+    "position": 123,
+    "language": "pt",
+    "co_item": "85525",
+    "changed_fields": [
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "A utilização de auxinas no método de estaquia das roseiras contribui para",
+    "after_question": "O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule.\nA utilização de auxinas no método de estaquia das roseiras contribui para",
+    "before_options": [
+      "floração da planta.",
+      "produção de gemas laterais.",
+      "formação de folhas maiores.",
+      "formação de raízes adventícias.",
+      "produção de compostos energéticos."
+    ],
+    "after_options": [
+      "floração da planta.",
+      "produção de gemas laterais.",
+      "formação de folhas maiores.",
+      "formação de raízes adventícias.",
+      "produção de compostos energéticos."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "enunciado_completado: Faltava o paragrafo de apoio, que estava no registro da questao 122 (gq_7aa17072...)."
+    ]
+  },
+  {
+    "id": "gq_13bb64bec99e56e527624bb9",
+    "year": 2021,
+    "area": "CN",
+    "position": 120,
+    "language": "pt",
+    "co_item": "111544",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade (enfermos que vão a óbito) pode chegar a 90%. Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1%.\nSegundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
+    "after_question": "[TEXTO-BASE PENDENTE: colar do PDF oficial ENEM 2021, 2º dia, caderno 7 azul (2021_PV_impresso_D2_CD7.pdf), página 11: o texto sobre a cor das folhas no outono e as figuras 'Espectro de absorcao na regiao do visivel' e 'Cores complementares']\nDisponível em: https://vidauniversoydemas.wordpress.com. Acesso em: 6 dez. 2017 (adaptado).\nEm qual faixa do espectro visível os carotenos absorvem majoritariamente?",
+    "before_options": [
+      "Ebola, pois o maior período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "Dengue, pois o menor período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "Ebola, cuja alta letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução.",
+      "Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.",
+      "Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro."
+    ],
+    "after_options": [
+      "Entre o violeta e o azul.",
+      "Entre o azul e o verde.",
+      "Entre o verde e o amarelo.",
+      "Entre o amarelo e o laranja.",
+      "Entre o laranja e o vermelho."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha uma copia da questao 121 (ebola). Nao achei descricao do Tardelli."
+    ]
+  },
+  {
+    "id": "gq_86f9c5da9294b5a37a8f46a2",
+    "year": 2021,
+    "area": "LC",
+    "position": 5,
+    "language": "en",
+    "co_item": "63712",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "ERLICH. Disponivel em: https://mansunides.org. Acesso em: 5 dez. 2018.\nA charge evoca uma situação de assombro frente a uma realidade que assola as sociedades contemporâneas. Seu efeito humorístico reside na crítica diante do(a)",
+    "after_question": "Exterior: Between The Museums — Day\nCELINE\nAmericans always think Europe is perfect. But such beauty and history can be really oppressive. It reduces the individual to nothing. It just reminds you all the time you are just a little speck in a long history, where in America you feel like you could be making history. That's why I like Los Angeles because it is so...\nJESSE\nUgly?\nCELINE\nNo, I was going to say “neutral”. It's like looking at a blank canvas. I think people go to places like Venice on their honeymoon to make sure they are not going to fight for the first two weeks of their marriage because they'll be too busy looking around at all the beautiful things. That's what people call a romantic place - somewhere where the prettiness will contain your primary violent instinct.\nA real good honeymoon spot would be like somewhere in New Jersey.\nKRIZAN, K.; LINKLATER, R. Before Sunrise: screenplay. New York: Vintage Books, 2005.\nConsiderando-se o olhar dos personagens, esse trecho do roteiro de um filme permite reconhecer que a avaliação sobre um lugar depende do(a)",
+    "before_options": [
+      "A constatação do ser humano como o responsável pela condição caótica do mundo.",
+      "B apelo à religiosidade diante das dificuldades enfrentadas pela humanidade.",
+      "indignação dos trabalhadores em face das injustiças sociais.",
+      "D veiculação de informações trágicas pelos telejornais.",
+      "E manipulação das notícias difundidas pelas mídias."
+    ],
+    "after_options": [
+      "beleza do próprio local.",
+      "perspectiva do visitante.",
+      "contexto histórico do local.",
+      "tempo de permanência no local.",
+      "finalidade da viagem do visitante."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro (ingles, gabarito B) tinha a questao 5 de ESPANHOL (charge '¡Por Dios!', gabarito A). Charge removida deste registro. A questao 5 de espanhol de 2021 nao existe na base.",
+      "texto_base_inserido: Texto colado pelo Italo, conferido com a prova (OCR da pagina); removido um ponto sobrando antes de CELINE."
+    ]
+  },
+  {
+    "id": "gq_8f74eb56983ec8d47a4098da",
+    "year": 2021,
+    "area": "LC",
+    "position": 9,
+    "language": "pt",
+    "co_item": "86462",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Ao criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que",
+    "after_question": "A volta do marido pródigo\n— Bom dia, seu Marrinha! Como passou de ontem?\n— Bem. Já sabe, não é? Só ganha meio dia. [...]\nLá além, Generoso cotuca Tercino:\n— [...] Vai em festa, dorme que-horas, e, quando chega, ainda é todo enfeitado e salamistrão!…\n— Que é que hei de fazer, seu Marrinha... Amanheci com uma nevralgia... Fiquei com cisma de apanhar friagem...\n— Hum...\n— Mas o senhor vai ver como eu toco o meu serviço e ainda faço este povo trabalhar...\n[…]\nPintão suou para desprender um pedrouço, e teve de pular para trás, para que a laje lhe não esmagasse um pé. Pragueja:\n— Quem não tem brio engorda!\n— É... Esse sujeito só é isso, e mais isso... — opina Sidu.\n— Também, tudo p'ra ele sai bom, e no fim dá certo... — diz Correia, suspirando e retomando o enxadão. — “P'ra uns, as vacas morrem ... p'ra outros até boi pega a parir...”.\nSeu Marra já concordou:\n— Está bem, seu Laio, por hoje, como foi por doença, eu aponto o dia todo. Que é a última vez!... E agora, deixa de conversa fiada e vai pegando a ferramenta!\nROSA, J. G. Sagarana. Rio de Janeiro: José Olympio, 1967.\nEsse texto tem importância singular como patrimônio linguístico para a preservação da cultura nacional devido",
+    "before_options": [
+      "contrapõe características da escrita e da fala.",
+      "ironiza a comunicação fora da norma-padrão.",
+      "substitui regionalismos por registros formais.",
+      "valoriza o uso de variedades populares.",
+      "defende novas regras gramaticais."
+    ],
+    "after_options": [
+      "à menção a enfermidades que indicam falta de cuidado pessoal.",
+      "à referência a profissões já extintas que caracterizam a vida no campo.",
+      "aos nomes de personagens que acentuam aspectos de sua personalidade.",
+      "ao emprego de ditados populares que resgatam memórias e saberes coletivos.",
+      "às descrições de costumes regionais que desmistificam crenças e superstições."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha a pergunta da questao 7. A 'imagem' era um recorte da pagina, removida.",
+      "texto_base_inserido: Texto colado pelo Italo, com acentos e sinais corrigidos conforme a prova (OCR da pagina)."
+    ]
+  },
+  {
+    "id": "gq_e24b413ff8877d30366b9db2",
+    "year": 2021,
+    "area": "LC",
+    "position": 1,
+    "language": "en",
+    "co_item": "111852",
+    "changed_fields": [
+      "options",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Ao descrever o processo de formação da Inglaterra, o autor do poema recorre a características de outro gênero textual para evidenciar\nA the British (serves 60 million)\nTake some Picts, Celts and Silures And let them settle,\nThen overrun them with Roman conquerors.\nRemove the Romans after approximately 400 years\nAdd lots of Norman French to some\nAngles, Saxons, Jutes and Vikings, then stir vigorously. [...]\nSprinkle some fresh Indians, Malaysians, Bosnians, Iraqis and Bangladeshis together with some\nAfghans, Spanish, Turkish, Kurdish, Japanese\nThen add to the melting pot. Leave the ingredients to simmer.\nAs they mix and blend allow their languages to flourish Binding them together with English.\nAllow time to be cool.\nAdd some unity, understanding, and respect for the future Serve with justice And enjoy.\nNote: All the ingredients are equally important. Treating one ingredient better than another will leave a bitter unpleasant taste.\nWarning: An unequal spread of justice will damage the people and cause pain. Give justice and equality to all.",
+    "after_question": "We are now a nation obsessed with the cult of celebrity. Celebrities have replaced the classic notion of the hero. But instead of being respected for talent, courage or intelligence, it is money, style and image the deciding factors in what commands respect. Image is everything. Their image is painstakingly constructed by a multitude of different image consultants to carve out the most profitable celebrity they can. Then society is right behind them, believing in everything that celebrity believes in. Companies know that people will buy a product if a celebrity has it too. It is as if the person buying the product feels that they now have some kind of connection with the celebrity and that some of their perceived happiness will now be passed onto the consumer. So to look at it one way, the cult of celebrity is really nothing more than a sophisticated marketing scheme. Celebrities though cannot be blamed for all negative aspects of society. In reality society is to blame. We are the people who seemed to have lost the ability to think for ourselves. I suppose it's easier to be told what to think, rather than challenging what we are told. The reason we are swamped by celebrity is because there is a demand for it.\nDisponível em: www.pitlanemagazine.com. Acesso em: 7 dez. 2017 (adaptado).\nO texto, que aborda questões referentes ao tema do culto à celebridade, tem o objetivo de",
+    "before_options": [
+      "a riqueza da mistura cultural.",
+      "um legado de origem geográfica.",
+      "um impacto de natureza histórica.",
+      "um problema de estratificação social.",
+      "a questão da intolerância linguística."
+    ],
+    "after_options": [
+      "destacar os méritos das celebridades.",
+      "criticar o consumismo das celebridades.",
+      "ressaltar a necessidade de reflexão dos fãs.",
+      "culpar as celebridades pela obsessão dos fãs.",
+      "valorizar o marketing pessoal das celebridades."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha a pergunta da questao 2 junto com o poema da 2.",
+      "texto_base_inserido: Texto colado pelo Italo, conferido com a prova (OCR da pagina); alternativas C e D ja estavam corretas no registro.",
+      "ajuste_pequeno_conferido_na_prova: endereco da fonte corrigido (pitlanemagazine)"
+    ]
+  },
+  {
+    "id": "gq_b75d10d45f58b2e9e8971a2b",
+    "year": 2021,
+    "area": "LC",
+    "position": 2,
+    "language": "en",
+    "co_item": "118292",
+    "changed_fields": [
+      "question"
+    ],
+    "before_question": "The British (serves 60 million)\nTake some Picts, Celts and Silures And let them settle,\nThen overrun them with Roman conquerors.\nRemove the Romans after approximately 400 years\nAdd lots of Norman French to some\nAngles, Saxons, Jutes and Vikings, then stir vigorously. [...]\nSprinkle some fresh Indians, Malaysians, Bosnians, Iraqis and Bangladeshis together with some\nAfghans, Spanish, Turkish, Kurdish, Japanese\nThen add to the melting pot. Leave the ingredients to simmer.\nAs they mix and blend allow their languages to flourish Binding them together with English.\nAllow time to be cool.\nAdd some unity, understanding, and respect for the future Serve with justice And enjoy.\nNote: All the ingredients are equally important. Treating one ingredient better than another will leave a bitter unpleasant taste.\nWarning: An unequal spread of justice will damage the people and cause pain. Give justice and equality to all.\nDisponivel em: www.benjaminzephaniah.com. Acesso em: 12 dez. 2018 (fragmento).\nAo descrever o processo de formação da Inglaterra, o autor do poema recorre a características de outro gênero textual para evidenciar",
+    "after_question": "The British (serves 60 million)\nTake some Picts, Celts and Silures And let them settle,\nThen overrun them with Roman conquerors.\nRemove the Romans after approximately 400 years\nAdd lots of Norman French to some\nAngles, Saxons, Jutes and Vikings, then stir vigorously. [...]\nSprinkle some fresh Indians, Malaysians, Bosnians, Iraqis and Bangladeshis together with some\nAfghans, Spanish, Turkish, Kurdish, Japanese\nAnd Palestinians\nThen add to the melting pot. Leave the ingredients to simmer.\nAs they mix and blend allow their languages to flourish Binding them together with English.\nAllow time to be cool.\nAdd some unity, understanding, and respect for the future Serve with justice And enjoy.\nNote: All the ingredients are equally important. Treating one ingredient better than another will leave a bitter unpleasant taste.\nWarning: An unequal spread of justice will damage the people and cause pain. Give justice and equality to all.\nDisponivel em: www.benjaminzephaniah.com. Acesso em: 12 dez. 2018 (fragmento).\nAo descrever o processo de formação da Inglaterra, o autor do poema recorre a características de outro gênero textual para evidenciar",
+    "before_options": [
+      "a riqueza da mistura cultural.",
+      "um legado de origem geográfica.",
+      "um impacto de natureza histórica.",
+      "um problema de estratificação social.",
+      "a questão da intolerância linguística."
+    ],
+    "after_options": [
+      "a riqueza da mistura cultural.",
+      "um legado de origem geográfica.",
+      "um impacto de natureza histórica.",
+      "um problema de estratificação social.",
+      "a questão da intolerância linguística."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "ajuste_pequeno_conferido_na_prova: verso que faltava no poema (conferido na prova)"
+    ]
+  },
+  {
+    "id": "gq_fc6a141832a20dfa3c212af9",
+    "year": 2021,
+    "area": "LC",
+    "position": 7,
+    "language": "pt",
+    "co_item": "120165",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "A draga\nA gente não sabia se aquela draga tinha nascido ali, no Porto, como um pé de árvore ou uma duna.\n— E que fosse uma casa de peixes?\nMeia dúzia de loucos e bêbados moravam dentro dela, enraizados em suas ferragens.\nDos viventes da draga era um o meu amigo Mário-pega-sapo.\n[...]\nQuando Mário morreu, um literato oficial, em necrológio caprichado, chamou-o de Mário-Captura-Sapo! Ai que dor!\nAo literato cujo fazia-lhe nojo a forma coloquial.\nQueria captura em vez de pega para não macular (sic) a língua nacional lá dele...\n[...]\nDa velha draga\nAbrigo de vagabundos e de bêbados, restaram as expressões: estar na draga, viver na draga por estar sem dinheiro, viver na miséria\nQue ora ofereço ao filólogo Aurélio Buarque de Hollanda\nPara que as registre em seus léxicos\nPois que o povo já as registrou.\nBARROS, M. Gramática expositiva do chão: poesia quase toda. Rio de Janeiro: Civilização Brasileira, 1990 (fragmento).\nAo criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que",
+    "after_question": "A draga\nA gente não sabia se aquela draga tinha nascido ali, no Porto, como um pé de árvore ou uma duna.\n— E que fosse uma casa de peixes?\nMeia dúzia de loucos e bêbados moravam dentro dela, enraizados em suas ferragens.\nDos viventes da draga era um o meu amigo Mário-pega-sapo.\n[...]\nQuando Mário morreu, um literato oficial, em necrológio caprichado, chamou-o de Mário-Captura-Sapo! Ai que dor!\nAo literato cujo fazia-lhe nojo a forma coloquial.\nQueria captura em vez de pega para não macular (sic) a língua nacional lá dele...\n[...]\nDa velha draga\nAbrigo de vagabundos e de bêbados, restaram as expressões: estar na draga, viver na draga por estar sem dinheiro, viver na miséria\nQue ora ofereço ao filólogo Aurélio Buarque de Hollanda\nPara que as registre em seus léxicos\nPois que o povo já as registrou.\nBARROS, M. Gramática expositiva do chão: poesia quase toda. Rio de Janeiro: Civilização Brasileira, 1990 (fragmento).\nAo criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que",
+    "before_options": [
+      "contrapõe características da escrita e da fala.",
+      "ironiza a comunicação fora da norma-padrão.",
+      "substitui regionalismos por registros formais.",
+      "valoriza o uso de variedades populares.",
+      "defende novas regras gramaticais."
+    ],
+    "after_options": [
+      "contrapõe características da escrita e da fala.",
+      "ironiza a comunicação fora da norma-padrão.",
+      "substitui regionalismos por registros formais.",
+      "valoriza o uso de variedades populares.",
+      "defende novas regras gramaticais."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": true,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 0,
+    "notes": [
+      "imagem_espuria_removida: Texto ja estava certo; a 'imagem' era um recorte da pagina com as questoes 8 e 9, nao uma figura da questao 7."
+    ]
+  },
+  {
+    "id": "gq_181cb605a66bd0c375f2db3d",
+    "year": 2021,
+    "area": "MT",
+    "position": 150,
+    "language": "pt",
+    "co_item": "15454",
+    "changed_fields": [
+      "options",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores. Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.\nNo período de 2005 a 2009, o aumento percentual no volume de vendas foi de .",
+    "after_question": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores. Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.\nNo período de 2005 a 2009, o aumento percentual no volume de vendas foi de",
+    "before_options": [
+      "A) 10%.",
+      "B) 20%.",
+      "C) 25%.",
+      "D) 40%.",
+      "E) 50%."
+    ],
+    "after_options": [
+      "45,4.",
+      "54,5.",
+      "120.",
+      "220.",
+      "283,2."
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "alternativas_corrigidas_pela_prova: PDF oficial 2021 2o dia azul, q150: as 5 alternativas estavam erradas; enunciado sem o ponto solto; gabarito C confere."
+    ]
+  },
+  {
+    "id": "gq_255575334af0f47478c33646",
+    "year": 2021,
+    "area": "MT",
+    "position": 156,
+    "language": "pt",
+    "co_item": "67990",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Considere a ausência de quaisquer forças dissipativas. A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é",
+    "after_question": "Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t)= ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T. A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é Considere a ausência de quaisquer forças dissipativas.",
+    "before_options": [
+      "-3 cos (2t)",
+      "-3 sen (2t)",
+      "3 cos (2t)",
+      "-6 cos (2t)",
+      "6 sen (2t)"
+    ],
+    "after_options": [
+      "-3 cos (2t)",
+      "-3 sen (2t)",
+      "3 cos (2t)",
+      "-6 cos (2t)",
+      "6 sen (2t)"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 1,
+    "notes": [
+      "enunciado_completado: Faltava o comeco do enunciado (estava no registro 155). A imagem do registro tem so a mola; falta o grafico. Ha descricao do Tardelli.",
+      "imagem_e_descricao_tardelli: "
+    ]
+  },
+  {
+    "id": "gq_d55918f39156e55a64e99ea1",
+    "year": 2021,
+    "area": "MT",
+    "position": 155,
+    "language": "pt",
+    "co_item": "117675",
+    "changed_fields": [
+      "assets",
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t)= ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T. A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é Considere a ausência de quaisquer forças dissipativas.",
+    "after_question": "Um atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça. Atualmente, os preços dos produtos para essa refeição são:\n| Refeição | Frango (kg) | Batata-doce (kg) | Hortaliças (unidade) |\n|---|---:|---:|---:|\n| | R$ 12,50 | R$ 5,00 | R$ 2,00 |\nEm relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros preços não serão alterados. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça. Portanto, terá que reduzir a quantidade de frango.\nQual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?",
+    "before_options": [
+      "-3 cos (2t)",
+      "-3 sen (2t)",
+      "3 cos (2t)",
+      "-6 cos (2t)",
+      "6 sen (2t)"
+    ],
+    "after_options": [
+      "12,5",
+      "28,0",
+      "30,0",
+      "50,0",
+      "70,0"
+    ],
+    "before_ready_text": false,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 1,
+    "assets_after": 0,
+    "notes": [
+      "conteudo_trocado_substituido: Registro tinha a questao da mola (156). Figura da mola removida deste registro (continua no 156)."
+    ]
+  },
+  {
+    "id": "gq_6c6595adaf610fd8822d7ceb",
+    "year": 2022,
+    "area": "CN",
+    "position": 126,
+    "language": "pt",
+    "co_item": "31381",
+    "changed_fields": [
+      "question",
+      "working_revision"
+    ],
+    "before_question": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\n| Unnamed: 0 | Amostra de cana-de-açúcar | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 |\n|:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------|\n| nan | RB72 | RB84 | RB92 | SP79 | SP80 |\n| Concentração inicial de sacarose (g L−1) | 13,0 | 18,0 | 16,0 | 14,0 | 17,0 |\n| Concentração de microrganismos (mg L−1) | 0,7 | 0,8 | 0,6 | 0,5 | 0,9 |\n\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50 por cento da concentração de sacarose nesse tempo, para cada 1,0 miligrama por litro de microrganismos presentes na cana-de-açúcar.\nQual tipo de cana-de-açúcar deve ser escolhido?",
+    "after_question": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\n| Amostra de cana-de-açúcar | RB72 | RB84 | RB92 | SP79 | SP80 |\n|:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------|\n| Concentração inicial de sacarose (g L−1) | 13,0 | 18,0 | 16,0 | 14,0 | 17,0 |\n| Concentração de microrganismos (mg L−1) | 0,7 | 0,8 | 0,6 | 0,5 | 0,9 |\n\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50 por cento da concentração de sacarose nesse tempo, para cada 1,0 miligrama por litro de microrganismos presentes na cana-de-açúcar.\nQual tipo de cana-de-açúcar deve ser escolhido?",
+    "before_options": [
+      "RB72",
+      "RB84",
+      "RB92",
+      "SP79",
+      "SP80"
+    ],
+    "after_options": [
+      "RB72",
+      "RB84",
+      "RB92",
+      "SP79",
+      "SP80"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "tabela_cabecalho_arrumado: Sobra tecnica (Unnamed/nan) removida do cabecalho; nenhum valor da tabela foi alterado."
+    ]
+  },
+  {
+    "id": "gq_0508e3b3b01ee9e7a223a226",
+    "year": 2022,
+    "area": "CN",
+    "position": 108,
+    "language": "pt",
+    "co_item": "78377",
+    "changed_fields": [
+      "question",
+      "working_revision"
+    ],
+    "before_question": "O manual de uma ducha elétrica informa que seus três níveis de aquecimento (morno, quente e superquente) apresentam as seguintes variações de temperatura da água em função de sua vazão:\n\n| Vazão (L/min) | delta T(°C) | Unnamed: 2 | Unnamed: 3 |\n|-----------------------:|:----------|:-------------|:-------------|\n| nan | Morno | Quente | Superquente |\n| 3 | 10 | 20 | 30 |\n| 6 | 5 | 10 | 15 |\n\nUtiliza-se um disjuntor para proteger o circuito dessa ducha contra sobrecargas elétricas em qualquer nível de aquecimento. Por padrão, o disjuntor é especificado pela corrente nominal igual ao múltiplo de 5 ampères imediatamente superior à corrente máxima do circuito. Considere que a ducha deve ser ligada em 220 volts e que toda a energia é dissipada através da resistência do chuveiro e convertida em energia térmica transferida para a água, que apresenta calor específico de 4,2 joules por grama por grau Celsius e densidade de 1 000 gramas por litro.\nO disjuntor adequado para a proteção dessa ducha é especificado por:",
+    "after_question": "O manual de uma ducha elétrica informa que seus três níveis de aquecimento (morno, quente e superquente) apresentam as seguintes variações de temperatura da água em função de sua vazão:\n\n| Vazão (L/min) | delta T(°C) Morno | delta T(°C) Quente | delta T(°C) Superquente |\n|-----------------------:|:----------|:-------------|:-------------|\n| 3 | 10 | 20 | 30 |\n| 6 | 5 | 10 | 15 |\n\nUtiliza-se um disjuntor para proteger o circuito dessa ducha contra sobrecargas elétricas em qualquer nível de aquecimento. Por padrão, o disjuntor é especificado pela corrente nominal igual ao múltiplo de 5 ampères imediatamente superior à corrente máxima do circuito. Considere que a ducha deve ser ligada em 220 volts e que toda a energia é dissipada através da resistência do chuveiro e convertida em energia térmica transferida para a água, que apresenta calor específico de 4,2 joules por grama por grau Celsius e densidade de 1 000 gramas por litro.\nO disjuntor adequado para a proteção dessa ducha é especificado por:",
+    "before_options": [
+      "60 ampères",
+      "30 ampères",
+      "20 ampères",
+      "10 ampères",
+      "5 ampères"
+    ],
+    "after_options": [
+      "60 ampères",
+      "30 ampères",
+      "20 ampères",
+      "10 ampères",
+      "5 ampères"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "tabela_cabecalho_arrumado: Sobra tecnica (Unnamed/nan) removida do cabecalho; nenhum valor da tabela foi alterado."
+    ]
+  },
+  {
+    "id": "gq_46b0636e6a4a955b38dc2da0",
+    "year": 2022,
+    "area": "CN",
+    "position": 114,
+    "language": "pt",
+    "co_item": "141545",
+    "changed_fields": [
+      "question",
+      "working_revision"
+    ],
+    "before_question": "## Mudanças climáticas e ilhas de calor urbanas\nA variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados:\n\n| Unnamed: 0 | Densidade (kg/m3) | Calor específico (J/g°C) |\n|:-------------|:--------------------------|:-------------------------------------|\n| Água | 1 000 | 4,2 |\n| Concreto | 2 500 | 0,8 |\n\nA razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de",
+    "after_question": "## Mudanças climáticas e ilhas de calor urbanas\nA variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados:\n\n|  | Densidade (kg/m3) | Calor específico (J/g°C) |\n|:-------------|:--------------------------|:-------------------------------------|\n| Água | 1 000 | 4,2 |\n| Concreto | 2 500 | 0,8 |\n\nA razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de",
+    "before_options": [
+      "1,0.",
+      "2,1.",
+      "2,5.",
+      "5,3.",
+      "13,1."
+    ],
+    "after_options": [
+      "1,0.",
+      "2,1.",
+      "2,5.",
+      "5,3.",
+      "13,1."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "tabela_cabecalho_arrumado: Sobra tecnica (Unnamed/nan) removida do cabecalho; nenhum valor da tabela foi alterado."
+    ]
+  },
+  {
+    "id": "gq_43af5e0298b07a51facf3218",
+    "year": 2022,
+    "area": "MT",
+    "position": 154,
+    "language": "pt",
+    "co_item": "10992",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "As empresas de capital aberto listadas na Bolsa de Valores de São Paulo (Bovespa) que melhor remuneram seus acionistas na distribuição dos lucros costumam pagar 25 por cento de seus lucros líquidos trimestrais como dividendos aos acionistas. Uma empresa de capital social listada na Bolsa de Valores de São Paulo (Bovespa) divulgou resumidamente no quadro abaixo o seguinte resultado:\n\n| | |\n|----------------------------|-------------------|\n| Receitas líquidas | R$ 422 000 000,00 |\n| Lucro bruto | R$ 76 000 000,00 |\n| Lucro líquido | R$ 28 000 000,00 |\n| Lucro líquido por ação | R$ 0,28 |\n\nQuanto receberá de dividendos um acionista que tem 1 400 ações desta empresa?",
+    "after_question": "As empresas de capital aberto listadas na Bolsa de Valores de São Paulo (Bovespa) que melhor remuneram seus acionistas na distribuição dos lucros costumam pagar 25 por cento de seus lucros líquidos trimestrais como dividendos aos acionistas. Uma empresa de capital social listada na Bolsa de Valores de São Paulo (Bovespa) divulgou resumidamente no quadro abaixo o seguinte resultado:\n\n| | |\n|----------------------------|-------------------|\n| Receitas líquidas | R$ 422 000 000,00 |\n| Lucro bruto | R$ 76 000 000,00 |\n| Lucro líquido | R$ 28 000 000,00 |\n| Lucro líquido por ação | R$ 0,28 |\n\nQuanto receberá de dividendos um acionista que tem 1 400 ações desta empresa?",
+    "before_options": [
+      "98 reais",
+      "392 reais",
+      "20 mil reais",
+      "7 mihões de reais",
+      "9 bilhões e 800 milhões de reais"
+    ],
+    "after_options": [
+      "98 reais",
+      "392 reais",
+      "20 mil reais",
+      "7 mihões de reais",
+      "9 bilhões e 800 milhões de reais"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_5ee286b3a6bb12356cd757c3",
+    "year": 2022,
+    "area": "MT",
+    "position": 173,
+    "language": "pt",
+    "co_item": "68538",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Um casal deseja recarregar seu cartão bancário pré-pago, para realizar uma viagem ao exterior. Eles recarregarão esse cartão com 3 000 dólares, em uma única transação. A unidade monetária do país onde reside o casal é o zed e a taxa cambial é de 2,20 zeds por dólar. É cobrado um imposto de 3 por cento sobre o valor pago, em zed, pela recarga, além de uma quantia fixa de 40 zeds pela transação bancária.\nQual o valor mínimo, em zed, que esse casal deve possuir para recarregar o cartão?",
+    "after_question": "Um casal deseja recarregar seu cartão bancário pré-pago, para realizar uma viagem ao exterior. Eles recarregarão esse cartão com 3 000 dólares, em uma única transação. A unidade monetária do país onde reside o casal é o zed e a taxa cambial é de 2,20 zeds por dólar. É cobrado um imposto de 3 por cento sobre o valor pago, em zed, pela recarga, além de uma quantia fixa de 40 zeds pela transação bancária.\nQual o valor mínimo, em zed, que esse casal deve possuir para recarregar o cartão?",
+    "before_options": [
+      "6 640,00",
+      "6 690,00",
+      "6 730,00",
+      "6 838,00",
+      "6 886,00"
+    ],
+    "after_options": [
+      "6 640,00",
+      "6 690,00",
+      "6 730,00",
+      "6 838,00",
+      "6 886,00"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_f8f72f54cff2ecccfac8b197",
+    "year": 2022,
+    "area": "MT",
+    "position": 152,
+    "language": "pt",
+    "co_item": "86438",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Quarenta mudas de flores devem ser plantadas no contorno de um canteiro circular de 2,2 metros de diâmetro, com um espaçamento padrão de 12 centímetros entre mudas. Fazendo-se os cálculos, chegou-se à conclusão de que não havia mudas suficientes e optou-se, então, por alterar o espaçamento padrão.\nUse 3 como aproximação para pi.\nEm quantos centímetros deve ser aumentado o espaçamento padrão entre as mudas?",
+    "after_question": "Quarenta mudas de flores devem ser plantadas no contorno de um canteiro circular de 2,2 metros de diâmetro, com um espaçamento padrão de 12 centímetros entre mudas. Fazendo-se os cálculos, chegou-se à conclusão de que não havia mudas suficientes e optou-se, então, por alterar o espaçamento padrão.\nUse 3 como aproximação para pi.\nEm quantos centímetros deve ser aumentado o espaçamento padrão entre as mudas?",
+    "before_options": [
+      "4,50",
+      "6,15",
+      "9,07",
+      "21,00",
+      "24,30"
+    ],
+    "after_options": [
+      "4,50",
+      "6,15",
+      "9,07",
+      "21,00",
+      "24,30"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_98b71afcfadc707111984efc",
+    "year": 2023,
+    "area": "MT",
+    "position": 146,
+    "language": "pt",
+    "co_item": "14435",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Lucas precisa estacionar o carro pelo período de 40 minutos, e sua irmã Clara também precisa estacionar o carro pelo período de 6 horas. O estacionamento Verde cobra 5 reais por hora de permanência. O estacionamento Amarelo cobra 6 reais por 4 horas de permanência e mais 2,50 reais por hora ou fração de hora ultrapassada. O estacionamento Preto cobra 7 reais por 3 horas de permanência e mais 1 real por hora ou fração de hora ultrapassada.\nOs estacionamentos mais econômicos para Lucas e Clara, respectivamente, são",
+    "after_question": "Lucas precisa estacionar o carro pelo período de 40 minutos, e sua irmã Clara também precisa estacionar o carro pelo período de 6 horas. O estacionamento Verde cobra 5 reais por hora de permanência. O estacionamento Amarelo cobra 6 reais por 4 horas de permanência e mais 2,50 reais por hora ou fração de hora ultrapassada. O estacionamento Preto cobra 7 reais por 3 horas de permanência e mais 1 real por hora ou fração de hora ultrapassada.\nOs estacionamentos mais econômicos para Lucas e Clara, respectivamente, são",
+    "before_options": [
+      "Verde e Preto.",
+      "Verde e Amarelo.",
+      "Amarelo e Amarelo.",
+      "Preto e Preto.",
+      "Verde e Verde."
+    ],
+    "after_options": [
+      "Verde e Preto.",
+      "Verde e Amarelo.",
+      "Amarelo e Amarelo.",
+      "Preto e Preto.",
+      "Verde e Verde."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_52354dffa0cf4a5a24a74a46",
+    "year": 2023,
+    "area": "MT",
+    "position": 163,
+    "language": "pt",
+    "co_item": "141552",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Em primeiro de junho, um canil que cria 98 cães tem, em estoque, a quantidade exata de ração para fornecer, diariamente, 1 000 gramas para cada animal durante 30 dias. No início do décimo primeiro dia o canil recebeu dois novos cães. Com isso, a quantidade de ração diária por animal teve que ser recalculada para que o restante de ração em estoque fosse suficiente para alimentar a todos até o fim do mês, garantindo, para cada cão, uma mesma porção diária da ração.\nQual a quantidade de ração, em grama, que deverá ser dada diariamente para cada cão, do dia 11 de junho até o final desse mês?",
+    "after_question": "Em primeiro de junho, um canil que cria 98 cães tem, em estoque, a quantidade exata de ração para fornecer, diariamente, 1 000 gramas para cada animal durante 30 dias. No início do décimo primeiro dia o canil recebeu dois novos cães. Com isso, a quantidade de ração diária por animal teve que ser recalculada para que o restante de ração em estoque fosse suficiente para alimentar a todos até o fim do mês, garantindo, para cada cão, uma mesma porção diária da ração.\nQual a quantidade de ração, em grama, que deverá ser dada diariamente para cada cão, do dia 11 de junho até o final desse mês?",
+    "before_options": [
+      "306",
+      "500",
+      "510",
+      "653",
+      "980"
+    ],
+    "after_options": [
+      "306",
+      "500",
+      "510",
+      "653",
+      "980"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "E",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_053cef1eadda732d756e224f",
+    "year": 2024,
+    "area": "CN",
+    "position": 115,
+    "language": "pt",
+    "co_item": "96042",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "A tuberculose é uma doença infecciosa causada pela bactéria Mycobacterium tuberculosis. O principal reservatório é o homem, e a sua transmissão ocorre principalmente pela inalação de aerossóis. No Brasil, a doença representa um sério problema de saúde pública e, muitas vezes, está ligada às precárias condições socioeconômicas e sanitárias. Para prevenir a doença, é essencial a adoção de medidas dirigidas ao homem e ao ambiente.\nQue práticas são eficazes para evitar essa doença?",
+    "after_question": "A tuberculose é uma doença infecciosa causada pela bactéria Mycobacterium tuberculosis. O principal reservatório é o homem, e a sua transmissão ocorre principalmente pela inalação de aerossóis. No Brasil, a doença representa um sério problema de saúde pública e, muitas vezes, está ligada às precárias condições socioeconômicas e sanitárias. Para prevenir a doença, é essencial a adoção de medidas dirigidas ao homem e ao ambiente.\nQue práticas são eficazes para evitar essa doença?",
+    "before_options": [
+      "Utilizar seringas descartáveis e realizar a coleta de lixo com frequência.",
+      "Tratar pessoas doentes e melhorar a ventilação nos ambientes fechados.",
+      "Proteger a boca ao tossir e usar telas em portas e janelas nas moradias.",
+      "Vacinar crianças recém-nascidas e dar destino adequado ao esgoto domiciliar.",
+      "Monitorar os contatos que convivem com o doente e melhorar a qualidade da água."
+    ],
+    "after_options": [
+      "Utilizar seringas descartáveis e realizar a coleta de lixo com frequência.",
+      "Tratar pessoas doentes e melhorar a ventilação nos ambientes fechados.",
+      "Proteger a boca ao tossir e usar telas em portas e janelas nas moradias.",
+      "Vacinar crianças recém-nascidas e dar destino adequado ao esgoto domiciliar.",
+      "Monitorar os contatos que convivem com o doente e melhorar a qualidade da água."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "B",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_a691bb3047c6a701effb18bd",
+    "year": 2024,
+    "area": "MT",
+    "position": 168,
+    "language": "pt",
+    "co_item": "43095",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Na construção de uma varanda retangular, com 5 metros de largura e 6 metros de comprimento, decidiu-se usar dois tipos de pedras para revestir o piso. Uma das pedras é quadrada, com 1 metro de lado, e a outra é retangular, com 0,25 metro de largura e 0,50 metro de comprimento. Serão utilizadas 10 pedras quadradas para decorar parte do piso, e o restante da área será revestida com pedras retangulares. A pedra do tipo retangular é vendida somente em caixas de 30 unidades.\nQuantas caixas da pedra retangular deverão ser compradas?",
+    "after_question": "Na construção de uma varanda retangular, com 5 metros de largura e 6 metros de comprimento, decidiu-se usar dois tipos de pedras para revestir o piso. Uma das pedras é quadrada, com 1 metro de lado, e a outra é retangular, com 0,25 metro de largura e 0,50 metro de comprimento. Serão utilizadas 10 pedras quadradas para decorar parte do piso, e o restante da área será revestida com pedras retangulares. A pedra do tipo retangular é vendida somente em caixas de 30 unidades.\nQuantas caixas da pedra retangular deverão ser compradas?",
+    "before_options": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "11"
+    ],
+    "after_options": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "11"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "C",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_0ca35992cee4d0404c69cc2c",
+    "year": 2024,
+    "area": "MT",
+    "position": 173,
+    "language": "pt",
+    "co_item": "95755",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Um comprador assinou um contrato com uma construtora adquirindo um imóvel, ainda na fase de lançamento da construção, cujo valor total, em reais, era de 420 000 reais, pagando o equivalente a 35 por cento desse valor, sem quaisquer outros ônus até a data de entrega das chaves. Nesse contrato existia uma cláusula prévia que, no caso de desistência da compra, quando da entrega das chaves, o comprador poderia cancelar o contrato e a construtora pagaria a ele 75 por cento do valor que ele já havia pago inicialmente, a título de devolução. Suponha que em função de problemas inesperados, o comprador desistiu da aquisição do imóvel, cancelando o contrato de compra no momento da entrega das chaves.\nQual o valor, em real, que o comprador recebeu da construtora como devolução?",
+    "after_question": "Um comprador assinou um contrato com uma construtora adquirindo um imóvel, ainda na fase de lançamento da construção, cujo valor total, em reais, era de 420 000 reais, pagando o equivalente a 35 por cento desse valor, sem quaisquer outros ônus até a data de entrega das chaves. Nesse contrato existia uma cláusula prévia que, no caso de desistência da compra, quando da entrega das chaves, o comprador poderia cancelar o contrato e a construtora pagaria a ele 75 por cento do valor que ele já havia pago inicialmente, a título de devolução. Suponha que em função de problemas inesperados, o comprador desistiu da aquisição do imóvel, cancelando o contrato de compra no momento da entrega das chaves.\nQual o valor, em real, que o comprador recebeu da construtora como devolução?",
+    "before_options": [
+      "110250",
+      "147000",
+      "168000",
+      "257250",
+      "315000"
+    ],
+    "after_options": [
+      "110250",
+      "147000",
+      "168000",
+      "257250",
+      "315000"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  },
+  {
+    "id": "gq_3c1e3d52230b8a3d986a6d8a",
+    "year": 2024,
+    "area": "MT",
+    "position": 151,
+    "language": "pt",
+    "co_item": "117723",
+    "changed_fields": [
+      "question",
+      "working_revision"
+    ],
+    "before_question": "Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele sempre compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas 1 e 2.\n\n| Lojas | Preços dos componentes (R$) | Unnamed: 2 |\n|:---------|:-------------------------------|:-------------|\n| nan | X | Y |\n| I | 3,00 | 1,00 |\n| II | 2,00 | 4,00 |\n\nEle confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.\nO artesão efetuará a compra na loja",
+    "after_question": "Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele sempre compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas 1 e 2.\n\n| Lojas | Preço do componente X (R$) | Preço do componente Y (R$) |\n|:---------|:-------------------------------|:-------------|\n| I | 3,00 | 1,00 |\n| II | 2,00 | 4,00 |\n\nEle confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.\nO artesão efetuará a compra na loja",
+    "before_options": [
+      "1, pois o valor é 7 reais.",
+      "1, pois o valor é 4 reais.",
+      "2, pois o valor é 6 reais.",
+      "1, pois anuncia o componente com o menor preço.",
+      "2, pois o componente X, que é o mais utilizado, tem menor preço."
+    ],
+    "after_options": [
+      "1, pois o valor é 7 reais.",
+      "1, pois o valor é 4 reais.",
+      "2, pois o valor é 6 reais.",
+      "1, pois anuncia o componente com o menor preço.",
+      "2, pois o componente X, que é o mais utilizado, tem menor preço."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer": "A",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "tabela_cabecalho_arrumado: Sobra tecnica (Unnamed/nan) removida do cabecalho; nenhum valor da tabela foi alterado."
+    ]
+  },
+  {
+    "id": "gq_837a844ed0ca7c39ff0303e9",
+    "year": 2024,
+    "area": "MT",
+    "position": 178,
+    "language": "pt",
+    "co_item": "125978",
+    "changed_fields": [
+      "quality_review",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_question": "Um professor de desenho, apresentou uma peça de 45 centímetros de comprimento e solicitou aos alunos reproduzir no papel o objeto, onde as medidas devem ser proporcionais às medidas reais, e o comprimento deste desenho tem que ser de 9 centímetros.\nA escala utilizada para realizar esse desenho é",
+    "after_question": "Um professor de desenho, apresentou uma peça de 45 centímetros de comprimento e solicitou aos alunos reproduzir no papel o objeto, onde as medidas devem ser proporcionais às medidas reais, e o comprimento deste desenho tem que ser de 9 centímetros.\nA escala utilizada para realizar esse desenho é",
+    "before_options": [
+      "50 para 1.",
+      "1 para 36.",
+      "1 para 45.",
+      "1 para 5.",
+      "1 para 54."
+    ],
+    "after_options": [
+      "50 para 1.",
+      "1 para 36.",
+      "1 para 45.",
+      "1 para 5.",
+      "1 para 54."
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer": "D",
+    "answer_preserved": true,
+    "answer_checked_against_official_key": true,
+    "assets_before": 0,
+    "assets_after": 0,
+    "notes": [
+      "duplicado_retirado_do_recomendador: Versao da prova adaptada (caderno laranja/leitor de tela) com texto, alternativas e gabarito identicos aos da prova comum. Codigo de item e TRI proprios no INEP. Registro mantido, so fora da lista de elegiveis."
+    ]
+  }
+]
