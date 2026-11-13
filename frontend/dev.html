@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#162822">
+  <title>Laboratório do recomendador · Gabaritei</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23162822'/%3E%3Cpath d='m11 20 6 6 13-14' fill='none' stroke='%23c6fac9' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/dev.css">
+  <script type="module" src="/dev.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">Pular para o laboratório</a>
+  <header class="topbar"><a class="brand" href="/">G<span>✓</span></a><span class="divider"></span><strong>Gabaritei <span class="muted">/ laboratório</span></strong><span class="dev-badge">DEV LOCAL</span><a class="back" href="/">Voltar ao aplicativo ↗</a></header>
+  <main>
+    <div class="page-heading"><div><p class="eyebrow">OBSERVAR · RESPONDER · CONFERIR</p><h1>Por dentro da recomendação.</h1><p>Das questões aos escores. Investigue o resultado e registre o que precisa melhorar.</p></div><div id="runtime" class="runtime" role="status">Conectando ao acervo…</div></div>
+    <div id="fatal" class="message error" role="alert" hidden></div>
+    <div id="metrics" class="metrics" aria-label="Resumo do acervo"></div>
+    <nav class="tabs" aria-label="Seções do laboratório"><button type="button" data-tab="explore" aria-pressed="true">01 <span>Explorar questões</span></button><button type="button" data-tab="stats" aria-pressed="false">02 <span>Estatísticas da base</span></button><button type="button" data-tab="session" aria-pressed="false">03 <span>Minha sessão dev</span><b id="session-count">0</b></button><button type="button" id="export-all" class="export">Exportar sessão ↓</button></nav>
+    <section id="explore" class="tab-panel">
+      <div class="explorer-grid" id="workspace">
+        <aside class="browser panel"><div class="panel-heading"><div><p class="eyebrow">ACERVO</p><h2>Escolha uma questão</h2></div><span id="found-count" class="counter">—</span></div>
+          <form id="search-form"><label class="search-label" for="question-search">Buscar no acervo</label><div class="search"><input id="question-search" placeholder="ID, assunto ou trecho do enunciado" autocomplete="off"><button aria-label="Buscar questões">⌕</button></div>
+            <div class="filters"><label>Área<select id="area"><option value="">Todas</option><option value="LC">Linguagens</option><option value="CH">Humanas</option><option value="CN">Natureza</option><option value="MT">Matemática</option></select></label><label>Conjunto<select id="split"><option value="validation">Validação · 2023</option><option value="train">Treino · IDs da base</option><option value="">Todos · leitura</option><option value="test">Teste reservado · leitura</option></select></label><label>Matéria<select id="subject"><option value="">Todas</option></select></label><label>Situação<select id="status"><option value="liberada">Liberadas</option><option value="defeito">Com defeito</option><option value="duplicata">Duplicatas</option><option value="fora">Fora das elegíveis</option><option value="todas">Todas</option></select></label><label>Ano<select id="year"><option value="">Todos</option></select></label></div>
+          </form><div class="list-tools"><span id="list-range">Carregando…</span><button id="random" type="button">↻ Sortear do filtro</button></div><div id="question-list" class="question-list" aria-live="polite"></div><div class="pagination"><button id="prev-page" type="button">← Anterior</button><span id="page-label">1</span><button id="next-page" type="button">Próxima →</button></div>
+        </aside>
+        <div class="investigation"><article id="question" class="panel question-panel"><div class="placeholder"><span>↖</span><h2>Selecione uma questão</h2><p>Você poderá responder, abrir os metadados e inspecionar o ranking real.</p></div></article>
+          <section class="panel diagnostic-panel" aria-labelledby="diagnostic-title"><div class="panel-heading"><div><p class="eyebrow">MÉTODO OFICIAL · TITULO_AREA</p><h2 id="diagnostic-title">O caminho até a sugestão</h2></div><button id="run-diagnostic" class="primary" type="button" disabled>Inspecionar escores ↗</button></div><p class="context-note">Diagnóstico: candidatos do treino. O catálogo do app usa todos os elegíveis, por isso posições e escores podem diferir. O teste de 2024 fica reservado.</p><div id="diagnostic" aria-live="polite"><p class="empty-inline">Selecione uma questão de treino ou validação para começar.</p></div></section>
+        </div>
+      </div>
+    </section>
+    <section id="stats" class="tab-panel" hidden></section>
+    <section id="session" class="tab-panel" hidden></section>
+    <footer>Dados reais, parâmetros preservados. Avaliações dev ficam somente neste navegador. <a href="/api/health" target="_blank" rel="noopener">Estado da API ↗</a></footer>
+  </main>
+  <dialog id="compare"><div id="compare-content"></div><button class="close-dialog" aria-label="Fechar comparação" type="button">×</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

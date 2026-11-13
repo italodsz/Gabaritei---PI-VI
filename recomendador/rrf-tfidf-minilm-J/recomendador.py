@@ -47,7 +47,7 @@ def carregar_rotulos():
     for r in json.loads((CLS / 'saida' / 'classificacao.json').read_text(encoding='utf-8')):
         rot[r['id']] = {'no': r['no'] if r['origem'] == 'gabarito' else None, 'defeito': r['origem'] == 'defeito',
                         'duplicata': False}
-    for r in map(json.loads, (CLS / 'dados' / 'classificacao_manual.jsonl').open(encoding='utf-8')):
+    for r in map(json.loads, (CLS / 'dados' / 'classificacao_manual.jsonl').read_text(encoding='utf-8').splitlines()):
         obs = r.get('obs') or ''
         rot[r['id']] = {'no': r['no'], 'defeito': r['no'] is None, 'duplicata': 'duplicata de' in obs}
     tit = json.loads((CLS / 'dados' / 'titulos_v1.json').read_text(encoding='utf-8'))['por_no']
@@ -65,7 +65,8 @@ def sha(p):
 
 
 def carregar():
-    rows = {q['id']: q for q in map(json.loads, (BASE / 'questions.jsonl').open(encoding='utf-8'))}
+    with (BASE / 'questions.jsonl').open(encoding='utf-8') as source:
+        rows = {q['id']: q for q in map(json.loads, source)}
     el = json.loads((BASE / 'ids_elegiveis.json').read_text())
     return rows, el
 

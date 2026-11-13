@@ -48,8 +48,14 @@ oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
 
 ## Desenvolvimento e verificações
 
+O [laboratório dev](DEV_LABORATORIO.md) está em **http://127.0.0.1:4173/dev**:
+responda questões, inspecione escores e filtros, compare sugestões e exporte
+avaliações separadas do progresso do estudante. A inspeção numérica usa Python
+em CPU sobre os vetores existentes; as estatísticas continuam disponíveis sem ele.
+
 ```powershell
 npm test
+npm run test:dev-model    # teste numérico com o ambiente Python do recomendador
 # Somente para alterar os módulos TypeScript do motor:
 cd frontend
 npm ci

@@ -7,6 +7,7 @@
     "start": "node backend/server.mjs",
     "dev": "node backend/server.mjs",
     "test": "node --test backend/*.test.mjs frontend/learning-checks.mjs",
+    "test:dev-model": "node backend/check-dev-model.mjs",
     "build:engine": "npm --prefix frontend run build:engine"
   }
 }

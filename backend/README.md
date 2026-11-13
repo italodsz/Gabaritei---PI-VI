@@ -39,3 +39,17 @@ assuntos com base no gabarito ou em rótulos automáticos do dataset.
 
 Testes: `npm test` na raiz. O teste HTTP usa uma porta temporária e verifica a base
 real, filtros, ordem do catálogo, exclusões, bloqueios, gabaritos e rotas inválidas.
+
+## Laboratório local
+
+`/dev` abre o painel descrito em [DEV_LABORATORIO.md](../DEV_LABORATORIO.md).
+`GET /api/dev/resumo`, `GET /api/dev/questoes` e `GET /api/dev/questoes/gq_...`
+oferecem estatísticas e inspeção da fonte. `POST /api/dev/diagnostico` recebe
+`{"questionId":"gq_...","limit":20,"exclude":[]}` e consulta o método oficial
+com galeria de treino, por um processo Python iniciado sob demanda. O limite é 50;
+os IDs reservados de teste são recusados. Não aceita pesos nem modelos alternativos.
+
+O Python reutiliza os índices, sem CUDA. Configure `GABARITEI_PYTHON` se o ambiente
+existente não for localizado. Falhas são explícitas (503); o app por catálogo e as
+estatísticas não dependem da disponibilidade desse diagnóstico. O processo é
+encerrado com o servidor. Teste numérico: `npm run test:dev-model`.

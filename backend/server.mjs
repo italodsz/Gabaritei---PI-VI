@@ -3,6 +3,8 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { resolve, extname, sep } from 'node:path';
 import { carregarAcervo } from './acervo.mjs';
+import { DevWorker } from './dev-worker.mjs';
+import { criarDadosDev } from './dev-data.mjs';
 
 const frontend = fileURLToPath(new URL('../frontend/', import.meta.url));
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
@@ -15,11 +17,36 @@ async function body(req) {
 }
 
 export function criarServidor(acervo) {
-  return createServer(async (req, res) => {
+  const worker = new DevWorker();
+  let devData;
+  const dev = () => devData ||= criarDadosDev(acervo).catch(error => { devData = null; throw error; });
+  const server = createServer(async (req, res) => {
     try {
       const url = new URL(req.url, 'http://localhost');
       const pathname = decodeURIComponent(url.pathname);
       if (pathname.startsWith('/api/')) {
+        if (pathname.startsWith('/api/dev/')) {
+          const data = await dev();
+          if (req.method === 'GET' && pathname === '/api/dev/resumo') return send(res, 200, { ...data.summary, worker: worker.status() });
+          if (req.method === 'GET' && pathname === '/api/dev/questoes') return send(res, 200, data.list({
+            area: url.searchParams.get('area') || '', subject: url.searchParams.get('materia') || '', year: url.searchParams.get('ano') || '',
+            status: url.searchParams.get('status') ?? 'liberada', split: url.searchParams.get('split') || '', search: url.searchParams.get('busca') || '',
+            offset: integer(url.searchParams.get('inicio'), 0, acervo.rows.size), limit: integer(url.searchParams.get('limite'), 20, 100),
+          }));
+          const detail = pathname.match(/^\/api\/dev\/questoes\/(gq_[a-f0-9]+)$/);
+          if (req.method === 'GET' && detail) { const q = data.detail(detail[1]); return send(res, q ? 200 : 404, q || { error: 'Questão não encontrada.' }); }
+          if (req.method === 'POST' && pathname === '/api/dev/diagnostico') {
+            const input = await body(req);
+            const q = typeof input?.questionId === 'string' ? data.detail(input.questionId) : null;
+            if (!q) return send(res, 404, { error: 'Questão não encontrada.' });
+            if (!q.canAnalyze) return send(res, 422, { error: q.analysisRestriction });
+            const exclude = input.exclude ?? [];
+            if (!Array.isArray(exclude) || exclude.length > 5000 || exclude.some(i => typeof i !== 'string')) return send(res, 400, { error: 'Lista de exclusão inválida.' });
+            const result = await worker.diagnose({ questionId: q.id, limit: integer(input.limit, 20, 50), exclude });
+            return send(res, 200, result);
+          }
+          return send(res, 404, { error: 'Rota de desenvolvimento não encontrada.' });
+        }
         if (req.method === 'GET' && pathname === '/api/health') return send(res, 200, { status: 'ok', ...acervo.info });
         if (req.method === 'GET' && pathname === '/api/bootstrap') return send(res, 200, acervo.bootstrap);
         if (req.method === 'GET' && pathname === '/api/questoes') {
@@ -55,7 +82,7 @@ export function criarServidor(acervo) {
         return send(res, 404, { error: 'Rota não encontrada.' });
       }
       if (!['GET', 'HEAD'].includes(req.method)) return send(res, 405, { error: 'Método não permitido.' });
-      const path = resolve(frontend, '.' + (pathname === '/' ? '/index.html' : pathname));
+      const path = resolve(frontend, '.' + (pathname === '/' ? '/index.html' : ['/dev', '/dev/'].includes(pathname) ? '/dev.html' : pathname));
       if (!path.startsWith(frontend.endsWith(sep) ? frontend : frontend + sep) || !types[extname(path)] || pathname.includes('/node_modules/')) return send(res, 404, { error: 'Arquivo não encontrado.' });
       const contents = await readFile(path);
       res.writeHead(200, { 'Content-Type': types[extname(path)], 'Cache-Control': 'no-cache', 'X-Content-Type-Options': 'nosniff' });
@@ -66,6 +93,8 @@ export function criarServidor(acervo) {
       send(res, status, { error: status === 500 ? 'Não foi possível concluir a solicitação.' : error.message });
     }
   });
+  server.on('close', () => worker.close());
+  return server;
 }
 
 export async function iniciar() {

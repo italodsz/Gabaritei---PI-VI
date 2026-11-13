@@ -90,7 +90,7 @@ export async function carregarAcervo() {
     eligible: ids.length, available: questions.length, blocked: excluded.length, emptyRecommendationLists: ids.filter(id => !catalogo.recomendacoes[id].length).length,
     splits: Object.fromEntries(Object.entries(splits).map(([key, value]) => [key, value.length])), database: false };
   return {
-    info, questions, byId, catalogo,
+    info, questions, byId, catalogo, rows, ids, splits,
     bootstrap: { info, subjects: subjectList, years: [...new Set(questions.map(q => q.year))].sort((a, b) => b - a), questions },
     recommendations(id, exclude = [], limit = 5) {
       if (!catalogo.questoes[id]) return null;
