@@ -1,11 +1,12 @@
 # Base de trabalho (versão atual)
 É a v2.1-rc1 (no branch wardrobe, pasta Dataset/experimento_v2_1_rc1) com a fórmula da questão
 gq_14561aefce51ecddf26b4262 corrigida, a questão gq_29b02702604175cb29267886 bloqueada
-e as revisões de 11/11 e 12/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.563 elegíveis
-para recomendação por texto (2.214 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
+e as revisões de 11/11, 12/11 e 13/11/2026 descritas abaixo (ver qualidade/). 3.086 questões; 2.731 elegíveis
+para recomendação por texto (2.382 treino, 175 validação, 174 teste), listadas em ids_elegiveis.json.
 Não inclui vetores: os índices precisam ser refeitos (ver AVISO_INDICES.json).
 SHA-256 de data/questions.jsonl:
-fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b.
+6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f.
+Versão de 12/11/2026 (antes da mescla de 13/11): fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b.
 Versão de 12/11/2026 (descrições do ledor 2009–2018): 369c948c15be29d1b270a8d5ce218c2c2e97ffd64cfcabf0db1ebcb158923d65.
 Versão de 12/11/2026 (descrições próprias retiradas): 4049931c386c18db42336773dea31b97298af9bbcc64bb88ea7a57522c3c92a6.
 Versão de 12/11/2026 (descrições do Tardelli): f8d42fa77d5ab756e416ec75bbb5fd5950270b12915231a3e25a5c2c9995b6dd.
@@ -293,12 +294,48 @@ entre colchetes na questão, e a questão de cada bloco do ledor foi achada pelo
 - O caderno do ledor não traz gabarito para 2009–2016; os blocos foram casados só pelo texto e pelas alternativas.
 Efeito: elegíveis de 2.370 para 2.563 (treino 2.214, validação 175, teste 174). Log: qualidade/descricoes_ledor_2009_2018_incorporadas_2026-11-12.json.
 
+## Mescla de 13/11/2026: descrições em campo separado e caderno do ledor completo
+
+Decisão do grupo: **o aluno vê a imagem e o enunciado; a descrição da imagem serve só para o recomendador.**
+Antes e depois de cada registro em qualidade/mescla_campo_descricoes_e_ledor_2026-11-13.json. Gabarito, TRI,
+co_item, área, split, idioma, posição e imagens não mudaram em nenhuma questão.
+
+1. **Descrições fora do enunciado (424 questões com imagem).** As descrições do Tardelli, da Maritaca e do caderno do
+   ledor que estavam no texto da questão, entre colchetes, saíram do enunciado e ficaram só em `descriptions`, com
+   `used_in_question_text: false` e `use_for_recommender: true`. Onde a descrição tinha ocupado o lugar de um marcador
+   de imagem (`[[placeholder]]`, `[imagem]`, `[IMAGEM: ...]`), o marcador voltou.
+2. **Questões sem imagem na base continuam com a descrição no enunciado (34 + 4).** Sem arquivo de imagem, a descrição é
+   o único jeito de o aluno ver a figura (`quality_review.image_description_location`). Inclui 2018 MT q168: a única
+   imagem da base é a das alternativas, então o gráfico continua descrito no enunciado.
+3. **Caderno do ledor, texto completo (+168 questões liberadas).** Questões de 2009, 2011, 2012, 2013, 2016, 2017 e 2018
+   que o casamento por caixas cinza não pegou (em 2009–2011 o ledor reescreve o enunciado em vez de usar caixa; em
+   outras, o INEP tirou a figura ou havia mais figuras que caixas). Casamento pelo texto e pelas 5 alternativas, uma
+   questão do ledor para uma da base, mesmo ano, área e língua; as 188 questões que os dois casamentos pegaram foram
+   ligadas à mesma questão do ledor em 100% dos casos. A descrição guarda o texto completo da questão no ledor, sem as
+   alternativas (`text_scope`), em `descriptions` com `use_for_recommender: true`; fórmulas e tabelas que a extração
+   achatou foram arrumadas à mão pela página do PDF. Por ano: 2009: 55; 2011: 36; 2012: 16; 2013: 11; 2016: 18;
+   2017: 17; 2018: 15. Conferência humana por amostra.
+4. **2018 sem imagem na base, agora com o ledor no enunciado:** LC q34 (cerâmicas: o aviso "TEXTO-BASE PENDENTE" saiu
+   e entraram as descrições do Texto I e do Texto II), CH q67 e CN q108 (descrição própria trocada pela do ledor; na
+   CN q108 as alternativas, que são gráficos, passaram a ter a descrição do ledor).
+5. **2018 MT q160, q168 e q177: alternativas corrigidas pela prova azul** (2018_PV_impresso_D2_CD7.pdf, páginas 25, 27
+   e 31). A base tinha alternativas de outras questões; o gabarito (D, B e D) bate com a conta nas alternativas certas
+   (320; 63,0%; 40). A q168 ganhou o comando que faltava ("Qual teria sido a cobertura dessa campanha no ano de 2014?").
+
+**Atenção, recomendador:** `pipeline_baseline.question_text` usa só enunciado e alternativas. Para as descrições
+entrarem na busca, ela precisa juntar o texto das `descriptions` com `use_for_recommender: true` (ver
+AVISO_INDICES.json). Sem essa mudança, as questões do item 1 perdem a descrição na busca.
+
+Efeito na lista de elegíveis: 2.563 para 2.731 (treino 2.214 para 2.382; validação e teste sem mudança).
+
 ## Problemas conhecidos (próxima revisão)
 
 - 20 questões só com alternativas em desenho (5 de 2018/2021 e 15 de outros anos) e 6 com letra de
   canção ou poema ainda não estão na base.
-- 523 questões continuam fora da recomendação por texto (449 por depender de imagem sem descrição confiável, 70 com
-  descrição própria retirada e 4 com imagem obrigatória): 2009 a 2015 quase todas (sem caderno do ledor em 2010 e
-  2014; em 2009–2011 o ledor reescreve o enunciado), 2016 a 2018 (as que o ledor não casou) e 2019 a 2023 (as que
-  o Tardelli e a Maritaca não cobrem).
+- 355 questões continuam fora da recomendação por texto (284 por depender de imagem sem descrição confiável, 68 com
+  descrição própria retirada e 3 com imagem obrigatória). Por ano: 2010: 64; 2014: 71; 2015: 57 (sem caderno do
+  ledor da aplicação regular); 2013: 32 (o caderno do ledor do 1º dia publicado é o da 2ª aplicação); 2009, 2011,
+  2012, 2016, 2017 e 2018: 82 (o INEP trocou a questão no caderno do ledor ou não houve casamento seguro);
+  2019 a 2023: 49 (fora do Tardelli e da Maritaca).
+- Em 2024 q72 os dois mapas de satélite têm um só marcador de imagem (a descrição única do Tardelli os juntou).
 - A busca automática por fórmulas achatadas não pega todos os formatos; pode haver outras.

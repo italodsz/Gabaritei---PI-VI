@@ -21,8 +21,10 @@
     "descricoes_tardelli_incorporadas_e_6_questoes_novas",
     "descricoes_maritaca_incorporadas_3_questoes",
     "descricoes_proprias_substituidas_ou_retiradas_73_questoes_fora_do_recomendador",
-    "descricoes_ledor_INEP_2009_2018_incorporadas_193_questoes"
+    "descricoes_ledor_INEP_2009_2018_incorporadas_193_questoes",
+    "mescla_13_11_descricoes_em_campo_separado_ledor_completo_168_e_3_alternativas_2018"
   ],
   "source_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "derivative_dataset_sha256": "fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b"
+  "derivative_dataset_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "recommender_text_change_required": "pipeline_baseline.question_text deve juntar descriptions[*].text com use_for_recommender == true; senão as 424 questões com imagem perdem a descrição na busca"
 }
