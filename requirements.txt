@@ -1,0 +1,2 @@
+numpy>=1.26,<3
+SQLAlchemy>=2.0,<3

@@ -1,33 +1,40 @@
-# Gabaritei
+# Recomendador de questões por dificuldade
 
-Plataforma de estudos para o ENEM com recomendação de questões por dificuldade e desempenho do aluno.
+Versão para testar o recomendador do Gabaritei no terminal. Inclui o catálogo pronto das quatro áreas do ENEM e salva um perfil separado por usuário e área.
 
-## Estrutura
+## Começar no Windows
 
-- `backend/`: API FastAPI, persistência, importação do catálogo e recomendador por área.
-- `frontend/`: interface Next.js e camada de API tipada; o modo de demonstração usa dados mockados.
-- `Dataset/base_trabalho/`: dataset, critérios de qualidade e divisões de treino, validação e teste.
+1. Instale **Python 3.11 ou superior** e habilite a opção de adicionar o Python ao PATH.
+2. Baixe esta branch pelo botão **Code → Download ZIP** e extraia a pasta, ou clone o repositório nesta branch.
+3. Abra **`testar.cmd`** com dois cliques.
+4. Informe seu usuário, escolha a área e responda com **A, B, C, D ou E**.
 
-## Executar
+Na primeira execução, o iniciador cria `.venv` e instala as duas dependências automaticamente. Essa etapa precisa de internet; as questões e o perfil ficam locais. O gabarito aparece depois da resposta.
 
-As instruções de instalação e uso da API estão no [README do backend](backend/README.md).
+## Comandos durante o teste
 
-Para iniciar a interface:
+| Comando | Ação |
+|---|---|
+| `status` ou `perfil` | Mostra o progresso e o nível estimado por área. |
+| `area` | Troca entre Matemática, Linguagens, Humanas e Natureza. |
+| `auto` | Usa a estratégia automática. |
+| `continuar` | Solicita exploração quando o automático pausa por falta de questões adequadas. A probabilidade prevista continua visível. |
+| `nivel facil`, `nivel media`, `nivel dificil` | Escolhe a dificuldade manualmente. |
+| `erros` e `rever ID` | Lista erros e abre uma questão anterior para revisão. |
+| `pular` | Pula sem contar como erro. |
+| `sair` | Encerra e salva o progresso. |
 
-```sh
-cd frontend
-npm ci
-npm run dev
-```
+Use o mesmo usuário nas próximas execuções para continuar. Os perfis e registros ficam em `dados_usuario/`, que não é enviado ao Git. Para zerar, feche o programa e apague essa pasta.
 
-O frontend usa sua camada mock por padrão. A integração HTTP deve respeitar o contrato descrito nos arquivos do frontend; a presença dos dois projetos neste repositório não implica paridade completa entre seus contratos.
+## Arquivos do projeto
 
-## Recomendação
+- `testar.cmd`: atalho para o usuário.
+- `iniciar.py`: preparação do ambiente e inicialização.
+- `requirements.txt`: NumPy e SQLAlchemy.
+- `recomendador/`: algoritmo, terminal, persistência, configuração e catálogo pronto.
 
-O backend oferece escolha manual de dificuldade, diagnóstico e recomendação automática. A estimativa de proficiência é separada para Matemática, Linguagens, Ciências Humanas e Ciências da Natureza.
+Não é necessário iniciar uma API, instalar Node.js ou preparar o dataset. O catálogo e os cortes já estão incluídos; o manifesto registra sua procedência e verifica a integridade dos arquivos.
 
-O modelo adaptativo permanece experimental: a comparabilidade das escalas e a constante dos parâmetros TRI ainda precisam de validação. Taxa de acerto do aluno, precisão de previsão e ganho de aprendizagem são medidas diferentes.
+O nível e as chances de acerto são estimativas experimentais, não uma nota do ENEM. Acurácia de previsão de resposta e ganho de aprendizagem são avaliações diferentes.
 
-## Desenvolvimento
-
-Os testes automatizados do código permanecem no projeto. Dados de alunos, bancos locais, relatórios de sessões, ambientes virtuais e saídas geradas não fazem parte do versionamento.
+Em outros sistemas, execute `python iniciar.py`. Para conferir a instalação sem responder questões, use `python iniciar.py --verificar`.
