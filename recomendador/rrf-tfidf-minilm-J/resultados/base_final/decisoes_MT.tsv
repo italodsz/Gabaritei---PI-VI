@@ -1,0 +1,283 @@
+0	MA6.medidas-de-tendencia-central	Mediana separa os dois grupos por altura.
+1	MA2.porcentagem	Redução percentual do frango para compensar o aumento da batata.
+2	MA2.razao-proporcao-e-regra-de-tres	Largura inversamente proporcional à altura para manter volume.
+3	MA2.porcentagem	Razão entre pagantes e não pagantes.
+4	MA7.probabilidade	Retiradas com reposição e soma dos valores.
+5	MA4.sequencias-e-progressoes	Progressão geométrica dos lados dos quadrados.
+6	MA2.razao-proporcao-e-regra-de-tres	Consumo proporcional à distância na ida e volta.
+7	MA6.leitura-de-tabelas-e-graficos-estatisticos	Leitura e soma de linhas da matriz de transferências; árvore sem nó próprio de matrizes.
+8	NULL	Defeito: descrição só localiza P e omite bares e usuários Q, R e S necessários ao cálculo das distâncias.
+9	NULL	Defeito: descrição do gráfico não informa os valores mensais necessários à média e projeção.
+10	MA2.porcentagem	Porcentagens de jovens que trabalham.
+11	MA4.graficos-e-dominio-de-funcoes	Leitura de intervalos acima do limiar na curva de ruído.
+12	MA6.medidas-de-tendencia-central	Média ponderada pelas frequências.
+13	MA6.leitura-de-tabelas-e-graficos-estatisticos	Comparação dos lucros mensais.
+14	MA2.porcentagem	Aumento percentual de vendas entre dois anos.
+15	MA6.medidas-de-tendencia-central	Posição da mediana na distribuição por faixas de preço.
+16	MA6.leitura-de-tabelas-e-graficos-estatisticos	Soma das colunas da matriz de fluxos familiares.
+17	MA2.grandezas-unidades-e-conversoes	Análise dimensional do módulo volumétrico.
+18	MA6.leitura-de-tabelas-e-graficos-estatisticos	Leitura de temperatura e umidade sob condições simultâneas.
+19	MA7.analise-combinatoria	Escolhas de veículos em estandes distintos.
+20	MA4.equacoes-inequacoes-e-sistemas	Igualdade do preço nas três quantidades de parcelas.
+21	MA4.equacoes-inequacoes-e-sistemas	Sistema relacionando alunos, bilhetes e porcentagem.
+22	MA2.razao-proporcao-e-regra-de-tres	Consumo em litros por distância e inversão para km/L.
+23	MA1.conjuntos-numericos-e-operacoes	Adição e representação em base binária.
+24	MA5.relacoes-metricas-e-pitagoras	Diagonal do quadrado inscrito e raio mínimo.
+25	MA2.razao-proporcao-e-regra-de-tres	Proporcionalidade entre potências de área e massa.
+26	MA4.funcao-quadratica	Raízes e altura da parábola para calcular a área frontal.
+27	MA7.analise-combinatoria	Senhas com posições e caracteres distintos.
+28	MA4.funcao-afim	Função afim por partes na tarifação progressiva.
+29	MA7.analise-combinatoria	Contagem de ocorrências de algarismo nos números dos quartos.
+30	MA2.razao-proporcao-e-regra-de-tres	Inversão da razão de consumo L/100km para km/L.
+31	MA7.analise-combinatoria	Anagramas com repetição e alternância entre vogais e consoantes.
+32	MA2.razao-proporcao-e-regra-de-tres	Repartição proporcional do capital entre sócios.
+33	MA4.funcao-afim	Volume acumulado por trechos com vazão constante.
+34	MA5.relacoes-metricas-e-pitagoras	Hipotenusa da dobra no retângulo.
+35	NULL	Defeito: quadro informa somente os 52 dias com zero garrafas fora da especificação; faltam os outros oito dias.
+36	NULL	Defeito: falta o comando de conversão após o quadro de unidades.
+37	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume da laje a partir de área composta e espessura.
+38	NULL	Defeito: gráfico descrito sem valores por atividade física.
+39	MA4.funcoes-trigonometricas-e-periodicidade	Frequência do seno e instantes em que o pistão atinge a altura.
+40	NULL	Defeito: enunciado sem condições da escolha e quadro sem câmbios ou gastos.
+41	NULL	Defeito: quadro não contém os intervalos que associam magnitude à descrição do terremoto.
+42	NULL	Defeito: planta não associa os cômodos numerados às potências das lâmpadas.
+43	NULL	Defeito: gráfico de vendas sem os dados por dia e produto.
+44	MA4.sequencias-e-progressoes	Projeção pela redução absoluta constante dos acidentes.
+45	MA2.escalas	Maior escala linear que cabe na caixa respeitando as folgas.
+46	NULL	Defeito: tabela sem nomes/idades e alternativas corrompidas.
+47	MA4.sequencias-e-progressoes	Incremento constante do tempo de estudo a cada quatro anos.
+48	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume deslocado pelas bolinhas submersas.
+49	NULL	Defeito: quadro não informa velocidades por dia de ônibus e bicicleta.
+50	NULL	Defeito: gráficos não fornecem números de peças nem horas trabalhadas.
+51	NULL	Defeito: quadro de preços, distâncias e fretes sem valores.
+52	MA6.medidas-de-tendencia-central	Média ponderada para escolher empresa; alternativa K parece transcrição de T mas não é a vencedora.
+53	NULL	Defeito: falta o comando e três alternativas foram reduzidas a fragmentos; não se sabe a quantidade ou razão solicitada.
+54	NULL	Defeito: dados transcritos implicam redução de 94 reais em 400, ou 23,5%, ausente das alternativas.
+55	MA2.razao-proporcao-e-regra-de-tres	Proporções dos módulos da bandeira e tecido limitante.
+56	NULL	Defeito: aumentos sucessivos dão fator 1,265 e base dobrada implica y=0,6325x, expressão ausente das alternativas.
+57	NULL	Defeito: tabela de carbono 14 dos cinco fósseis sem valores.
+58	NULL	Defeito: comando pede phi ao cubo, igual a 2phi+1, ausente das alternativas; a descrição sugere que faltava calcular a sétima potência.
+59	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume do tronco de cone da caneca.
+60	NULL	Defeito: falta a medida numérica da altura da peça da Figura 2.
+61	MA6.medidas-de-tendencia-central	Média ponderada e distribuição percentual por faixa etária.
+62	MA4.funcoes-trigonometricas-e-periodicidade	Amplitude, fase e período da função cosseno.
+63	NULL	Defeito: só há preços da Farmácia 1, faltam os das duas outras.
+64	MA6.leitura-de-tabelas-e-graficos-estatisticos	Frequência de letras e deslocamento na cifra de César.
+65	MA2.porcentagem	Intervalo percentual da frequência cardíaca máxima.
+66	MA2.razao-proporcao-e-regra-de-tres	Razão médicos por mil habitantes após projeção das quantidades.
+67	MA6.medidas-de-tendencia-central	Comparação das médias de vendas nas franquias.
+68	MA6.medidas-de-tendencia-central	Média mensal ponderada pelos meses e faixa de comissão.
+69	MA4.equacoes-inequacoes-e-sistemas	Combinação linear das massas de itens da bagagem.
+70	MA2.escalas	Escala linear da réplica do castelo.
+71	MA5.trigonometria-no-triangulo	Tangente do ângulo de paralaxe e distância astronômica.
+72	MA5.angulos-paralelismo-e-simetria	Orientação e mudanças de direção nos cruzamentos.
+73	MA5.ampliacao-e-reducao	Área da varanda e quadrado da escala linear.
+74	MA6.medidas-de-tendencia-central	Mediana dos lucros positivos mensais.
+75	MA2.razao-proporcao-e-regra-de-tres	Comparação das razões aluguel/valor de mercado.
+76	MA4.equacoes-inequacoes-e-sistemas	Limite de distância e quantidade inteira de fileiras.
+77	MA4.funcao-quadratica	Vértice da parábola e altura máxima do saque.
+78	MA6.medidas-de-tendencia-central	Projeção por relação de médias entre anos consecutivos.
+79	MA4.graficos-e-dominio-de-funcoes	Cruzamentos da curva de temperatura com T=2 e T=-2.
+80	MA4.funcao-afim	Extrapolação linear das vendas dos dois setores.
+81	MA9.plano-cartesiano-distancia-e-reta	Ponto que minimiza soma de distâncias por reflexão no eixo.
+82	MA4.funcao-afim	Altura máxima da água por trechos no tanque com divisórias.
+83	NULL	Defeito: falta o capital inicial; alternativas pedem montantes que não podem ser determinados apenas com as taxas.
+84	MA2.razao-proporcao-e-regra-de-tres	Comparação do preço por kWh.
+85	MA6.medidas-de-tendencia-central	Média dos percentuais anuais de medalhistas.
+86	NULL	Defeito: não informa a faixa normal do IAC para interpretar o valor calculado.
+87	MA1.conjuntos-numericos-e-operacoes	Representação da distância em notação científica.
+88	MA7.probabilidade	Probabilidade condicional entre visitantes que opinaram.
+89	MA6.leitura-de-tabelas-e-graficos-estatisticos	Comparação das reclamações recebidas e resolvidas.
+90	MA6.leitura-de-tabelas-e-graficos-estatisticos	Máximo e mínimo dos dados mensais de vendas.
+91	MA6.leitura-de-tabelas-e-graficos-estatisticos	Leitura da redução da extensão de gelo ao longo dos anos.
+92	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume deslocado e elevação do nível no tanque.
+93	NULL	Defeito: faltam definição dos tipos A/B e regra de dimensionamento das unidades.
+94	MA4.equacoes-inequacoes-e-sistemas	Intervalo de alturas alcançáveis pelo cadeirante.
+95	MA7.probabilidade	Comparação de chances por combinações de números nas cartelas.
+96	MA5.trigonometria-no-triangulo	Tangente do ângulo de inclinação e área da base.
+97	MA5.relacoes-metricas-e-pitagoras	Raio circunscrito ao triângulo equilátero dos centros e espaçador.
+98	NULL	Defeito: faltam a regra de projeção e os dados após 2015, embora a pergunta peça total até 2021; a hipótese de PA não está declarada.
+99	MA5.ampliacao-e-reducao	Ampliação de área pelo quadrado da razão entre escalas.
+100	NULL	Defeito: falta a definição do critério de eficiência que combina lactação, produção e intervalo entre partos.
+101	NULL	Defeito: faltam critérios da nota anterior; interpretar soma das duas notas por avaliador produz diferença de 2,33 pontos, ausente das alternativas.
+102	NULL	Defeito: não informa comprimento de cada rolo nem número de fios da cerca.
+103	MA9.plano-cartesiano-distancia-e-reta	Ponto equidistante das antenas no plano cartesiano.
+104	NULL	Defeito: não informa a escala real das quadras nem a duração/percursos do programa.
+105	NULL	Defeito: faltam materiais/cores e regras para formar as joias.
+106	MA5.geometria-plana-areas-e-perimetros	Acomodação de quatro círculos em bandeja quadrada.
+107	NULL	Defeito: faltam raio externo e condições para dimensionar a ilha.
+108	MA7.probabilidade	Produto das chances dos dois sorteados terem comprado em fevereiro.
+109	NULL	Defeito: falta a regra de escolha dos tipos de grãos.
+110	NULL	Defeito: falta legenda de reservado/disponível e a razão 17/70 não consta das alternativas; a inversão da legenda daria 53/70, sem poder confirmar.
+111	MA6.leitura-de-tabelas-e-graficos-estatisticos	Identificação de Israel entre os países abaixo da média.
+112	MA6.leitura-de-tabelas-e-graficos-estatisticos	Diferença entre o maior e o menor crescimento industrial.
+113	NULL	Defeito: falta capacidade do caminhão e se a carga inclui um ou três silos.
+114	NULL	Defeito: faltam as condições pedidas pelo filho para comparar os terrenos.
+115	MA6.medidas-de-tendencia-central	Moda da ocupação acumulada do elevador.
+116	MA9.plano-cartesiano-distancia-e-reta	Distâncias por ruas ortogonais entre três destinos.
+117	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume retido pelas divisórias após vazamento.
+118	NULL	Defeito: falta a meta de lucro/média exigida para o gerente continuar no cargo.
+119	NULL	Defeito: faltam capacidade do tanque e consumo por quilômetro.
+120	NULL	Defeito: falta a definição do objetivo de encontro dos projéteis.
+121	MA6.medidas-de-tendencia-central	Média dos casos confirmados e divisão das regiões pela média.
+122	MA4.graficos-e-dominio-de-funcoes	Diferença entre vazões de entrada e saída constante.
+123	MA6.medidas-de-tendencia-central	Lucro mais próximo da média dos sete meses.
+124	NULL	Defeito: faltam os limites de temperatura e chuva necessários para o plantio.
+125	MA2.porcentagem	Aumento da população das capitais nordestinas.
+126	MA4.funcao-afim	Extrapolação linear do nível do reservatório.
+127	NULL	Defeito: falta a definição do parâmetro nutricional a ser contado.
+128	MA9.plano-cartesiano-distancia-e-reta	Distância entre pontos e semicircunferência para comparar tempos.
+129	MA5.geometria-plana-areas-e-perimetros	Áreas de triângulos e trapézio na curva de Lorenz.
+130	MA2.porcentagem	Aumento percentual de altura a partir da curva p50.
+131	MA4.funcoes-trigonometricas-e-periodicidade	Razão entre seno de 30 graus e valor máximo.
+132	MA5.relacoes-metricas-e-pitagoras	Altura do empilhamento de círculos tangentes.
+133	MA2.porcentagem	Profundidade inferida da redução de dez por cento.
+134	NULL	Defeito: faltam o raio do melão e a medida desejada da seção de apoio.
+135	MA2.porcentagem	Taxas relativas de crescimento do tempo de acesso.
+136	MA7.analise-combinatoria	Pares de jogadores em torneio todos contra todos.
+137	MA4.funcao-quadratica	Área máxima do retângulo de perímetro fixo.
+138	MA6.medidas-de-tendencia-central	Médias das notas e aprovação.
+139	MA5.figuras-poligonos-e-solidos	Identificação do prisma triangular reto.
+140	NULL	Defeito: descrição não informa as adjacências das seis regiões para contar as colorações.
+141	MA4.graficos-e-dominio-de-funcoes	Intervalo em que velocidade é zero.
+142	MA6.leitura-de-tabelas-e-graficos-estatisticos	Leitura das escalas do termômetro.
+143	MA7.analise-combinatoria	Distribuições de dez carrinhos em quatro cores com todas presentes.
+144	MA5.trigonometria-no-triangulo	Lei dos cossenos no compasso com ângulo de 120 graus.
+145	MA7.probabilidade	Comparação de risco no Campo Minado.
+146	NULL	Defeito: falta a fórmula que liga erro, sigma e tamanho amostral.
+147	MA5.geometria-plana-areas-e-perimetros	Comprimento das circunferências por tempo de rotação.
+148	MA4.graficos-e-dominio-de-funcoes	Igualdade dos volumes em gráficos com escalas diferentes.
+149	NULL	Defeito: descrição não informa de que lado do ponto fixo ficou a tela nem orientação do peixe; não determina sentido e ângulo de giro.
+150	NULL	Defeito: falta o número esperado de clientes para escolher o formato da senha.
+151	MA2.razao-proporcao-e-regra-de-tres	Distorção das razões de alturas ao truncar eixo vertical.
+152	MA6.medidas-de-tendencia-central	Média ponderada pelos créditos e nota mínima.
+153	MA5.geometria-plana-areas-e-perimetros	Área da coroa circular obtida pela corda tangente.
+154	MA6.medidas-de-tendencia-central	Média ponderada dos acidentes por trabalhador.
+155	MA2.porcentagem	Percentual total vacinado a partir dos grupos.
+156	MA7.probabilidade	Escolha da maior probabilidade entre saltos que superam a nota líder.
+157	MA2.razao-proporcao-e-regra-de-tres	Proporcionalidade direta à massa e inversa ao quadrado do raio.
+158	MA4.funcoes-trigonometricas-e-periodicidade	Altura da roda-gigante: amplitude e deslocamento vertical do seno.
+159	MA5.geometria-espacial-volumes-e-areas-de-superficie	Acomodação de potes cilíndricos em caixas.
+160	MA9.plano-cartesiano-distancia-e-reta	Desigualdades que descrevem região triangular no plano.
+161	MA2.porcentagem	Reduções percentuais sucessivas da taxa de LDL.
+162	MA5.relacoes-metricas-e-pitagoras	Hipotenusas sucessivas em triângulos isósceles.
+163	MA6.medidas-de-tendencia-central	Pontuação ponderada pelas frequências dos rankings no método Borda.
+164	MA7.probabilidade	Probabilidade de posição na zona de combate e tamanho mínimo do tabuleiro.
+165	MA2.razao-proporcao-e-regra-de-tres	Tempo de serviço por passageiro e tamanho da fila.
+166	MA6.medidas-de-tendencia-central	Média dos valores representados em pictograma.
+167	MA4.funcao-afim	Interpolação linear da cobertura de vacinação.
+168	MA2.porcentagem	Inclinação percentual e diferença de nível da garagem.
+169	MA5.figuras-poligonos-e-solidos	Classificação de triângulo por lados e ângulos.
+170	MA5.angulos-paralelismo-e-simetria	Composição de rotações da câmera.
+171	NULL	Defeito: separação angular descrita é 2pi/3, mas todas as alternativas usam arcos 2pi vezes raio, inconsistentes com as posições indicadas.
+172	MA2.razao-proporcao-e-regra-de-tres	Expressão de proporcionalidade da resistência da viga.
+173	MA4.funcao-quadratica	Energia proporcional ao quadrado da corrente elétrica.
+174	MA4.funcao-afim	Modelo linear da elevação da água por bolas adicionadas.
+175	MA1.conjuntos-numericos-e-operacoes	Operações com frações das durações musicais.
+176	MA4.funcoes-trigonometricas-e-periodicidade	Arco e projeção pelo cosseno no eixo horizontal.
+177	MA5.trigonometria-no-triangulo	Partilha por setores e área triangular de João.
+178	MA5.geometria-plana-areas-e-perimetros	Áreas das seções trapezoidais e vazão proporcional.
+179	MA2.razao-proporcao-e-regra-de-tres	Tempo pelo comprimento do percurso e velocidade.
+180	MA4.funcao-exponencial	Estimativa populacional em modelo exponencial.
+181	MA7.probabilidade	Frequência relativa de idosos nos países desenvolvidos.
+182	MA2.razao-proporcao-e-regra-de-tres	Proporção entre produtividade e passageiros com frota constante.
+183	MA5.ampliacao-e-reducao	Efeito da alteração do lado na área do quadrado.
+184	MA6.leitura-de-tabelas-e-graficos-estatisticos	Associação sem proporcionalidade entre tabagismo e câncer.
+185	MA2.porcentagem	Crescimento da população ativa e conversão de milhares.
+186	MA4.graficos-e-dominio-de-funcoes	Taxa média de variação entre produção e emissão.
+187	MA4.sequencias-e-progressoes	Diárias decrescentes em progressão aritmética e soma do pacote.
+188	MA6.medidas-de-tendencia-central	Diferença entre médias de investimentos.
+189	MA2.escalas	Dimensões lineares do avião na escala e margens.
+190	MA6.medidas-de-tendencia-central	Mediana das cotações.
+191	MA2.grandezas-unidades-e-conversoes	Conversão de área de km2 para campos de futebol.
+192	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume dos troncos de pirâmide e retirada do topo.
+193	MA2.razao-proporcao-e-regra-de-tres	Projeção proporcional das receitas e despesas de importação/exportação.
+194	MA1.conjuntos-numericos-e-operacoes	Valor posicional dos algarismos no medidor.
+195	MA5.geometria-plana-areas-e-perimetros	Comprimento das raias com diferentes raios.
+196	MA7.probabilidade	Frequência relativa dos vacinados com doença crônica.
+197	MA5.figuras-poligonos-e-solidos	Percurso em esquema de vértices e conexões; árvore sem nó próprio de grafos.
+198	MA5.figuras-poligonos-e-solidos	Sólidos descartados por cortes planos no cubo.
+199	MA6.leitura-de-tabelas-e-graficos-estatisticos	Intervalo de queda da participação do agronegócio.
+200	MA7.probabilidade	Regiões que satisfazem limite de temperatura.
+201	MA6.medidas-de-tendencia-central	Média, mediana e moda das temperaturas.
+202	MA3.juros-e-financiamentos	Comparação de rentabilidades compostas por período.
+203	MA5.geometria-plana-areas-e-perimetros	Maior área entre terrenos com perímetro limitado.
+204	MA2.grandezas-unidades-e-conversoes	Conversão de milímetros e centímetros em metros.
+205	MA2.porcentagem	Número de respostas negativas na enquete.
+206	MA4.funcao-logaritmica	Inversão da escala de magnitude sísmica.
+207	MA7.probabilidade	Soma das frequências das faixas de velocidade de internet.
+208	MA9.plano-cartesiano-distancia-e-reta	Ponto da reta a distância limitada do hospital.
+209	MA2.razao-proporcao-e-regra-de-tres	Cálculo e classificação do IMC por massa e altura.
+210	MA6.leitura-de-tabelas-e-graficos-estatisticos	Leitura de temperatura e luminosidade nas classes estelares.
+211	MA5.geometria-plana-areas-e-perimetros	Expressão da área perdida após encolhimento.
+212	MA2.porcentagem	Reduções percentuais sucessivas da glicose.
+213	MA4.funcao-afim	Interseção das funções de oferta e demanda.
+214	MA6.medidas-de-tendencia-central	Mediana dos números mensais de emprego.
+215	MA6.leitura-de-tabelas-e-graficos-estatisticos	Total semanal das horas de atividades escolares.
+216	MA6.medidas-de-tendencia-central	Médias de receitas das empresas.
+217	MA6.leitura-de-tabelas-e-graficos-estatisticos	Comparação de ganhos por compra e venda de ações.
+218	MA2.escalas	Alturas reais a partir de desenhos com escalas distintas.
+219	MA7.probabilidade	Probabilidade total da cor após transferência entre urnas.
+220	MA5.semelhanca-de-triangulos	Altura do cruzamento dos cabos entre postes.
+221	MA6.medidas-de-tendencia-central	Mediana das diárias distribuídas por frequência.
+222	MA6.leitura-de-tabelas-e-graficos-estatisticos	Tarifas por faixa de massa e custo total da postagem.
+223	MA7.analise-combinatoria	Razão entre números de senhas nos dois alfabetos.
+224	MA4.funcao-quadratica	Tempo até temperatura limite do forno.
+225	MA7.probabilidade	Probabilidade total de defeito nas duas máquinas.
+226	MA6.medidas-de-tendencia-central	Lucro médio por ano de existência da empresa.
+227	MA4.funcao-quadratica	Vértice da parábola no eixo e altura do líquido.
+228	MA1.conjuntos-numericos-e-operacoes	Notação posicional no ábaco.
+229	MA2.razao-proporcao-e-regra-de-tres	Custo proporcional à área e inverso ao quadrado da distância.
+230	MA6.dispersao	Regularidade das pesagens pelo desvio padrão.
+231	MA2.grandezas-unidades-e-conversoes	Conversão de pés em metros.
+232	MA4.funcao-afim	Vazões obtidas pelas inclinações do gráfico de volume.
+233	MA7.analise-combinatoria	Escolha de pares excluindo dois canhotos.
+234	MA4.funcao-logaritmica	Razão das energias pela diferença na escala Richter.
+235	MA2.porcentagem	Altura como percentual da largura do pneu.
+236	MA5.relacoes-metricas-e-pitagoras	Comparação de diâmetros e dimensões inscritas das peças.
+237	MA6.medidas-de-tendencia-central	Mediana das taxas mensais de desemprego.
+238	MA5.geometria-plana-areas-e-perimetros	Área mínima da bandeja para taças com borda mais larga.
+239	MA1.conjuntos-numericos-e-operacoes	Comparação de somas dos custos dos percursos.
+240	MA1.conjuntos-numericos-e-operacoes	Distância entre números decimais e valor de referência.
+241	MA7.probabilidade	Distribuição binomial de semáforos verdes.
+242	MA2.razao-proporcao-e-regra-de-tres	Razão de dentes e número de voltas por pedalada.
+243	MA4.funcoes-trigonometricas-e-periodicidade	Amplitude e período do modelo de pressão arterial.
+244	MA3.juros-e-financiamentos	Número mínimo de prestações no financiamento composto.
+245	MA2.escalas	Distância real pela escala do mapa.
+246	MA5.trigonometria-no-triangulo	Altura da hélice pela tangente no retângulo planificado.
+247	NULL	Defeito: enunciado fala em raio x/1 e área 3/16; descrição do ledor fala em raio x/3 e área 1/16; dados conflitantes.
+248	MA5.geometria-plana-areas-e-perimetros	Diferença de áreas entre quadrados da piscina e entorno.
+249	MA1.conjuntos-numericos-e-operacoes	Representação de números por adição de unidades e pares.
+250	MA4.sequencias-e-progressoes	Progressão aritmética dos vértices e somas do triângulo mágico.
+251	MA5.geometria-espacial-volumes-e-areas-de-superficie	Superfícies da escada a revestir.
+252	MA2.porcentagem	Percentual de pontos com massa abaixo e altura acima das médias.
+253	MA2.razao-proporcao-e-regra-de-tres	Vazão por variação de altura e área da base.
+254	MA5.geometria-espacial-volumes-e-areas-de-superficie	Volume de tronco perfurado e massa da madeira.
+255	MA4.sequencias-e-progressoes	Progressão geométrica de intensidade com a profundidade.
+256	MA6.medidas-de-tendencia-central	Comparação de média, moda e mediana por frequências.
+257	MA2.escalas	Escala da altitude na tela do instrumento.
+258	MA5.trigonometria-no-triangulo	Lei dos cossenos e comparação das áreas dos círculos.
+259	MA5.angulos-paralelismo-e-simetria	Ângulos inscritos no mesmo arco de circunferência.
+260	MA5.figuras-poligonos-e-solidos	Identificação de setor circular escondido pela torre.
+261	MA9.plano-cartesiano-distancia-e-reta	Localização em linhas e colunas pelo deslocamento orientado.
+262	MA4.graficos-e-dominio-de-funcoes	Soma dos intervalos com sinal de internet nulo.
+263	MA5.trigonometria-no-triangulo	Comprimento dos cabos pelo seno do ângulo.
+264	MA6.leitura-de-tabelas-e-graficos-estatisticos	Comparação das duas coordenadas de valor em cada instante.
+265	MA7.analise-combinatoria	Combinações para equipes com pelo menos três cardiologistas.
+266	MA4.funcao-exponencial	Parâmetros do decaimento da temperatura.
+267	MA7.analise-combinatoria	Arranjos de algarismos e letras sem repetição.
+268	MA6.leitura-de-tabelas-e-graficos-estatisticos	Ordenação dos saldos de exportação menos importação.
+269	MA5.geometria-espacial-volumes-e-areas-de-superficie	Comparação dos volumes de cilindros com mesma folha lateral.
+270	MA2.razao-proporcao-e-regra-de-tres	Custo por área tratada e promoção da máscara.
+271	MA5.relacoes-metricas-e-pitagoras	Raio da circunferência circunscrita ao triângulo equilátero.
+272	MA1.conjuntos-numericos-e-operacoes	Subtração e arredondamento de números mistos.
+273	MA7.probabilidade	Probabilidades totais das faixas etárias ponderadas pelos setores.
+274	MA1.conjuntos-numericos-e-operacoes	Equivalência de frações, números mistos e decimais.
+275	MA4.equacoes-inequacoes-e-sistemas	Número inteiro de colunas sob restrição dos vãos e custo total.
+276	MA5.figuras-poligonos-e-solidos	Sólido de revolução do trapézio retângulo.
+277	MA2.razao-proporcao-e-regra-de-tres	Encontro dos ônibus e fração do percurso coberta por câmera.
+278	MA7.probabilidade	Tentativas sem reposição para descobrir cifra.
+279	MA2.razao-proporcao-e-regra-de-tres	Ampliação mínima do microscópio e conversão de unidades.
+280	MA5.geometria-plana-areas-e-perimetros	Comparação de áreas de setores circulares dos sensores.
+281	MA4.funcao-afim	Extrapolação pela reta de tendência das receitas.
+282	MA4.graficos-e-dominio-de-funcoes	Composição de duas funções por trechos e máximo no intervalo.
