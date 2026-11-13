@@ -23,9 +23,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 ROOT = Path(__file__).resolve().parent
 BASE, IDX = ROOT / 'base', ROOT / 'indice'
-VERSAO = 'italo-rrf-v1 (base de trabalho pós etapas 1-3)'
+VERSAO = 'italo-titulo-area-base-final-2026-11-13'
 QWEN_ARQUIVO = 'Qwen3-Embedding-8B-4bit__conceito.npy'
-QWEN_SHA256 = '21e0e82b06d84c5be47506dd4136467f1f825b201e1940ce9c6a9c16bc2cfa3d'
+QWEN_SHA256 = '10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5'
 sys.path.insert(0, str(ROOT))
 import pipeline_baseline as bl
 
@@ -250,7 +250,7 @@ def avaliar():
     ix = Indice(); lab = collections.defaultdict(dict)
     for p in map(json.loads, (BASE / 'pares_desenvolvimento_compativeis.jsonl').open(encoding='utf-8')):
         lab[p['query_id']][p['candidate_id']] = p['human_grade']
-    metodos = ('tfidf', 'minilm', 'rrf') + (('qwen', 'rrf_qwen', 'arvore') if ix.Q is not None else ())
+    metodos = ('tfidf', 'minilm', 'rrf') + (('qwen', 'rrf_qwen', 'arvore', 'titulo', 'titulo_area') if ix.Q is not None else ())
     for metodo in metodos:
         ok = tot = 0
         for qid, L in lab.items():
@@ -259,7 +259,8 @@ def avaliar():
                 for b in L:
                     if L[a] > L[b] and a in pos and b in pos:
                         tot += 1; ok += pos[a] < pos[b]
-        print(f'{metodo:7s} pares na ordem certa: {ok}/{tot} ({ok/tot:.0%})')
+        taxa = f'{ok/tot:.0%}' if tot else 'sem comparações compatíveis'
+        print(f'{metodo:11s} pares na ordem certa: {ok}/{tot} ({taxa})')
 
 
 # Faixas de dificuldade: tercis do parâmetro b (TRI do INEP) calculados POR ÁREA nas questões
@@ -291,7 +292,7 @@ def exportar(top, metodo='titulo_area'):
         meta[d['id']] = {'area': r['area'], 'ano': r['year'], 'habilidade': r.get('skill'),
                          'tri_b': None if b is None else round(float(b), 4), 'nivel': nivel(b, cortes[r['area']]),
                          'alerta_texto': al, 'alerta_grave': grave(al)}
-        if metodo in ('arvore', 'titulo'):
+        if metodo in ('arvore', 'titulo', 'titulo_area'):
             rt = ix.rot.get(d['id'], {})
             meta[d['id']].update({'materia': rt.get('materia'), 'titulo': rt.get('titulo'),'grande_tema': rt.get('grande_tema'), 'assunto': rt.get('assunto'),
                                   'lingua': r.get('language'), 'defeito': bool(rt.get('defeito')),

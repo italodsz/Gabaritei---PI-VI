@@ -1,0 +1,23 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pacotes": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1+cu130",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.22.1",
+    "bitsandbytes": "0.50.2"
+  },
+  "qwen_lote": 2,
+  "sha256": {
+    "indice/config.json": "4bd73ba1a0d67448fb346a2b029539767b0977411e420b7b95caffa40b76d3fc",
+    "indice/documentos.json": "29da8d5d334f1929dd45a0540cc73f7b5345eac496725a14a0b40a3c2b5114e6",
+    "indice/tfidf.joblib": "3f909a0fb5af5f848bab0cfb2c7ba07df7790a85087e4cbbec0e7564f5d94b28",
+    "indice/tfidf.npz": "78d2abad2067ce1c4cd9cea9f869032244765d564e71b04e95a8c75440d5a3a2",
+    "indice/minilm.npy": "82be80dfa8c3d7f9babe2a138100a221aff073a6fabcb0bca707f7860ba6f2a1",
+    "indice/qwen/ids.json": "98f830433a05c9aa9fc9445d17c8e693346281f222332b2cf3539ef70012ada1",
+    "indice/qwen/Qwen3-Embedding-8B-4bit__conceito.npy": "10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5",
+    "indice/qwen/Qwen3-Embedding-8B-4bit__config.json": "af95904f9fa771914a9a9f808d17c058cd8b7b52cc5774b5e68fba3ecda1db92"
+  }
+}
