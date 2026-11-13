@@ -41,6 +41,7 @@ from .catalogo import Catalogo
 from .config import BACKEND_DIR, carregar_config, versao_politica
 from .db import criar_engine, criar_fabrica
 from .metricas import metricas_binarias
+from .midia import abrir_figuras
 from .recomendacao import Pedido
 from .servico import ErroServico, Servico
 
@@ -473,6 +474,7 @@ class TerminalTeste:
         self.recommended = recommended
         question = self.current["questao"]
         self.item = self.cat.itens[question["questao_id"]]
+        self.figuras_abertas = not self.item.midias
         self.before = self.profile()
         self.started = time.monotonic()
         width = max(55, min(110, shutil.get_terminal_size((90, 30)).columns - 2))
@@ -494,6 +496,8 @@ class TerminalTeste:
         self.write("")
         for alt in question["alternativas"]:
             self.write(textwrap.fill(f"{alt['letra']}) {plain(alt['texto'])}", width=width, subsequent_indent="   "))
+        if self.item.midias:
+            self.write("\nEsta questao possui figuras. Digite imagem para abri-las antes de responder, ou pular.")
         if self.assistido:
             wrong = next(a for a in "ABCDE" if a != self.item.gabarito)
             self.write(f"\nGABARITO DO CATALOGO: {self.item.gabarito} | exemplo de alternativa errada: {wrong}")
@@ -584,7 +588,20 @@ class TerminalTeste:
                 while True:
                     choice = self.read("Sua escolha: ").strip().lower()
                     allowed = ("acertar", "errar", "pular") if self.assistido else ("pular",)
+                    if choice == 'imagem' and self.item.midias:
+                        try:
+                            self.figuras_abertas = abrir_figuras(self.cat, self.item, self.folder)
+                            self.write('Figuras abertas. Volte aqui e responda com A-E.' if self.figuras_abertas
+                                       else 'Nao foi possivel abrir as figuras; use pular se nao conseguir visualiza-las.')
+                            self.log('figuras_solicitadas', questao_id=self.item.id, abertas=self.figuras_abertas)
+                        except (OSError, RuntimeError) as exc:
+                            self.figuras_abertas = False
+                            self.write(f'Nao foi possivel abrir as figuras: {exc}. Use pular para nao contar como erro.')
+                        continue
                     if choice in allowed or choice.upper() in "ABCDE" and len(choice) == 1:
+                        if choice != 'pular' and not self.figuras_abertas:
+                            self.write('Abra as figuras com imagem antes de responder, ou use pular.')
+                            continue
                         self.submit(choice, mode)
                         break
                     if not self.assistido and self.extra_action(choice):

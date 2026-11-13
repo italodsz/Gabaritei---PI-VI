@@ -235,6 +235,7 @@ class Servico:
         for qid, g in s.execute(q):
             ids.add(qid)
             grupos.add(g)
+        grupos.update(self.cat.normalizar_grupo(g) for g in tuple(grupos))
         estados, ests = self._perfil_atual(s, aluno_id)
         # estatisticas por habilidade: so primeiras tentativas sem ajuda, nao puladas; a chave inclui a area (MT:H21)
         stats = defaultdict(lambda: [0, 0, 0, 0.0, 0])  # n, acertos, n_com_previsao, soma_p, acertos_com_previsao
@@ -464,13 +465,14 @@ class Servico:
                 if outra:
                     raise ErroServico(409, "chave de idempotencia ja usada em outra apresentacao")
             agora_ = self.relogio()
+            grupos_equivalentes = self.cat.grupos_equivalentes(ap.grupo_conteudo)
             ja_respondeu = s.scalars(
                 select(Tentativa.id).join(Apresentacao, Apresentacao.id == Tentativa.apresentacao_id)
                 .where(Tentativa.aluno_id == ap.aluno_id, Tentativa.pulada.is_(False),
-                       Apresentacao.grupo_conteudo == ap.grupo_conteudo)).first() is not None
+                       Apresentacao.grupo_conteudo.in_(grupos_equivalentes))).first() is not None
             exposto = ap.gabarito_exposto or s.scalars(
                 select(ExposicaoGabarito.id).where(ExposicaoGabarito.aluno_id == ap.aluno_id,
-                                                   ExposicaoGabarito.grupo_conteudo == ap.grupo_conteudo)).first() is not None
+                                                   ExposicaoGabarito.grupo_conteudo.in_(grupos_equivalentes))).first() is not None
             dica = bool(usou_dica or ap.usou_dica)
             tipo = classificar_tentativa(ja_respondeu, exposto, dica)
             na_escala = item_na_escala_adaptativa(vi.formato, vi.tipo_aplicacao, False, self.cfg["irt"])

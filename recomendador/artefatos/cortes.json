@@ -8,31 +8,31 @@
   "cortes": {
     "CH": {
       "c1": 0.814577,
-      "c2": 1.447713,
-      "n": 573
+      "c2": 1.438677,
+      "n": 588
     },
     "CN": {
-      "c1": 0.94236,
-      "c2": 1.609903,
-      "n": 372
+      "c1": 0.9479,
+      "c2": 1.61285,
+      "n": 409
     },
     "LC": {
-      "c1": 0.536787,
-      "c2": 1.114723,
-      "n": 533
+      "c1": 0.53622,
+      "c2": 1.10667,
+      "n": 574
     },
     "MT": {
-      "c1": 1.6446,
-      "c2": 2.35816,
-      "n": 262
+      "c1": 1.65374,
+      "c2": 2.378643,
+      "n": 303
     }
   },
-  "dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "dataset_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
   "triagem_versao": "triagem-v1",
-  "ids_ajuste_sha256": "c718f0d9ae88ac029f6f330ea05b6b04a1772a6b8f5aec7e316a291a40cf15b0",
+  "ids_ajuste_sha256": "b5e78bda2cce0e6dedc1edb48ef1ebc7af8c31b60e2e34ef6644c5391be53837",
   "splits_usados": [
     "train"
   ],
   "aviso": "Categorias operacionais do catalogo; nao sao categorias oficiais do Inep.",
-  "versao": "cortes-e6739b83d908"
+  "versao": "cortes-d3858b13b2a1"
 }

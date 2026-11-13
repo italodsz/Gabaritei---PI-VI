@@ -1,9 +1,19 @@
 {
-  "dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-  "release": "v2.1-rc1",
-  "cortes_versao": "cortes-e6739b83d908",
+  "dataset_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "release": "base_trabalho_2026-11-13",
+  "cortes_versao": "cortes-d3858b13b2a1",
   "triagem_versao": "triagem-v1",
-  "politica_versao": "dificuldade-v1.0.0+8238f3c4c5",
-  "catalogo_sha256": "1459555d5098c2755d288fdd34991720197d0789b3ba11501740338d70b2d9da",
-  "gerado_em": "2026-11-11T15:32:36.801117+00:00"
+  "politica_versao": "dificuldade-v1.4.0+140a313d33",
+  "gerado_em": "2026-11-13T18:04:21.328494+00:00",
+  "fonte": {
+    "repositorio": "italodsz/Gabaritei---PI-VI",
+    "branch": "dataset",
+    "commit": "e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d"
+  },
+  "formato_catalogo": 2,
+  "releases_origem": {
+    "v2.1-rc1": 2962,
+    "base_trabalho_2026-11-12": 124
+  },
+  "catalogo_sha256": "82657b48075ac5ec982874707e33d5ab80b815dc6527116e45c19de4b73d259f"
 }

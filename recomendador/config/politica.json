@@ -1,13 +1,14 @@
 {
-  "politica_versao": "dificuldade-v1.3.2",
+  "politica_versao": "dificuldade-v1.4.0",
   "descricao": "Recomendador por dificuldade (modo nivel), adaptativo estrito experimental (3PL + EAP por area) e modo automatico com estrategias explicitas (diagnostico inicial/direcionado, reforco, adaptativo).",
   "dataset": {
     "caminho_relativo": "../Dataset/base_trabalho",
-    "sha256_esperado": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
-    "release_esperado": "v2.1-rc1"
+    "sha256_esperado": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+    "release_esperado": "base_trabalho_2026-11-13",
+    "releases_origem_aceitos": ["v2.1-rc1", "base_trabalho_2026-11-12"]
   },
   "qualidade": {
-    "usar_alerta_grave_catalogo_conteudo": true,
+    "usar_alerta_grave_catalogo_conteudo": false,
     "catalogo_conteudo": "data/externo/recomendacoes_titulo_area.json",
     "catalogo_conteudo_procedencia": {
       "branch": "origin/recomendador",

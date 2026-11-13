@@ -11,6 +11,11 @@ Versão para testar o recomendador do Gabaritei no terminal. Inclui o catálogo 
 
 Na primeira execução, o iniciador prepara um ambiente Python e instala as duas dependências automaticamente. Essa etapa precisa de internet; as questões e o perfil ficam locais. O gabarito aparece depois da resposta.
 
+O catálogo foi atualizado para a base de 13/11/2026, commit [`e6712a8`](https://github.com/italodsz/Gabaritei---PI-VI/commit/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d).
+Das 3.086 questões de origem, 2.130 estão disponíveis neste pacote após os filtros de conteúdo, arquivos de imagem e parâmetros TRI. Há 586 questões elegíveis na origem cujas imagens não foram incluídas no repositório; elas não são oferecidas ao aluno. As demais exclusões seguem a triagem TRI.
+
+Quatro questões disponíveis precisam de figuras. Nesses casos, digite `imagem`: as figuras locais abrem no navegador e você volta ao CMD para responder. Se não conseguir visualizar, use `pular`, sem contar como erro. As descrições reservadas à busca ficam separadas do enunciado e do gabarito.
+
 ## Comandos durante o teste
 
 | Comando | Ação |
@@ -22,6 +27,7 @@ Na primeira execução, o iniciador prepara um ambiente Python e instala as duas
 | `nivel facil`, `nivel media`, `nivel dificil` | Escolhe a dificuldade manualmente. |
 | `erros` e `rever ID` | Lista erros e abre uma questão anterior para revisão. |
 | `pular` | Pula sem contar como erro. |
+| `imagem` | Abre as figuras da questão atual, quando houver. |
 | `sair` | Encerra e salva o progresso. |
 
 Use o mesmo usuário nas próximas execuções para continuar. No Windows, o ambiente e os perfis ficam em `%LOCALAPPDATA%\GabariteiRecomendador`, fora do repositório. Para zerar o progresso, feche o programa e apague apenas a subpasta `dados_usuario` desse local. A variável `GABARITEI_LOCAL` permite escolher outro local.
@@ -38,3 +44,13 @@ Não é necessário iniciar uma API, instalar Node.js ou preparar o dataset. O c
 O nível e as chances de acerto são estimativas experimentais, não uma nota do ENEM. Acurácia de previsão de resposta e ganho de aprendizagem são avaliações diferentes.
 
 Em outros sistemas, execute `python recomendador/iniciar.py` a partir da raiz. Para conferir a instalação sem responder questões, use `python recomendador/iniciar.py --verificar`.
+
+## Atualização do catálogo
+
+O módulo `gabaritei_rec.importacao` valida a estrutura da base, os splits, o SHA-256, a elegibilidade e as imagens, e calcula os cortes apenas nos itens de treino aprovados. O SHA-256 esperado e as releases de origem aceitas ficam em `config/politica.json`. Para gerar um catálogo em outra pasta, execute a partir de `recomendador/`, com as dependências instaladas:
+
+```text
+python -m gabaritei_rec.importacao --dataset "CAMINHO/base_trabalho" --saida "CAMINHO/catalogo_novo" --anterior "artefatos/catalogo.json" --commit COMMIT_DA_BASE
+```
+
+As versões de questão incluem texto, gabarito e parâmetros. O histórico mantém os dados da versão efetivamente respondida; atualizar o catálogo não reavalia respostas antigas nem sobrescreve seus parâmetros. Grupos de conteúdo preservam o bloqueio de questões já vistas.
