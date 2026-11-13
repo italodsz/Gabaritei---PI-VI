@@ -186,11 +186,12 @@ class Sinais:
             'genero': mat([genero(q) for q in qs], token_pattern=r'\S+'),
             'epoca': mat([epoca(q) for q in qs], token_pattern=r'\S+', sublinear_tf=True),
             'escala': mat([escala(q) for q in qs], token_pattern=r'\S+'),
-            'resposta': mat([resposta(q) for q in qs], ngram_range=(1, 2), sublinear_tf=True, strip_accents='unicode'),
         }
         self.fmt = np.array([formato(q) for q in qs])
 
     def escore(self, peca, qi, pool):
+        if peca == 'resposta':
+            raise ValueError('O recomendador não usa gabarito como sinal de busca.')
         if peca == 'formato':
             return (self.fmt[pool] == self.fmt[qi]).astype(float) if self.fmt[qi] != 'sem_texto' else np.zeros(len(pool))
         M = self.M[peca]

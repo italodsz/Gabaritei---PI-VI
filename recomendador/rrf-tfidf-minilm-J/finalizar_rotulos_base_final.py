@@ -45,7 +45,8 @@ def main():
         if q['id'] in revised: q['revisao'] = revised[q['id']]['obs']; q['no_depois'] = revised[q['id']]['no']
     (OUT/'revisao_antigas.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2),encoding='utf-8')
     rot,_ = rc.carregar_rotulos(); rng = random.Random(20261113)
-    groups = {a:json.loads((OUT/f'pendentes_{a}.json').read_text(encoding='utf-8')) for a in ('MT','CN','CH','LC')}
+    ids = json.loads((OUT/'auditoria_base.json').read_text(encoding='utf-8'))['sem_rotulo_ids']
+    groups = {a:[rows[i] for i in ids if rows[i]['area']==a] for a in ('MT','CN','CH','LC')}
     exact = {a:100*len(q)/681 for a,q in groups.items()}; sizes={a:int(n) for a,n in exact.items()}
     for a in sorted(groups,key=lambda a:-(exact[a]-sizes[a]))[:100-sum(sizes.values())]: sizes[a]+=1
     sample=[]

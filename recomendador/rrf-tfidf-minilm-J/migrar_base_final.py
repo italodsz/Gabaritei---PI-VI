@@ -14,16 +14,18 @@ def git_bytes(path, rev='origin/recomendador'):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    old = [json.loads(l) for l in (R/'base/questions.jsonl').read_text(encoding='utf-8').splitlines()]
+    prefix = 'recomendador/rrf-tfidf-minilm-J/'
+    baseline = 'a7b5b8c'
+    old = [json.loads(l) for l in git_bytes(prefix+'base/questions.jsonl', baseline).decode('utf-8').splitlines()]
     for name, source in [('questions.jsonl', 'data/questions.jsonl'), ('ids_elegiveis.json', 'ids_elegiveis.json')]:
         (R/'base'/name).write_bytes(git_bytes('Dataset/base_trabalho/'+source, 'e6712a8'))
     assert hashlib.sha256((R/'base/questions.jsonl').read_bytes()).hexdigest() == SHA
     rows = [json.loads(l) for l in (R/'base/questions.jsonl').read_text(encoding='utf-8').splitlines()]
     new = {q['id']: q for q in rows}
     el = json.loads((R/'base/ids_elegiveis.json').read_text(encoding='utf-8'))
-    rot = {q['id']: q for q in map(json.loads, (R/'classificador/dados/classificacao_manual.jsonl').read_text(encoding='utf-8').splitlines())}
+    rot = {q['id']: q for q in map(json.loads, git_bytes(prefix+'classificador/dados/classificacao_manual.jsonl', baseline).decode('utf-8').splitlines())}
     # Rótulos do gabarito também são efetivos no carregador oficial.
-    for q in json.loads((R/'classificador/saida/classificacao.json').read_text(encoding='utf-8')):
+    for q in json.loads(git_bytes(prefix+'classificador/saida/classificacao.json', baseline)):
         if q['origem'] == 'gabarito': rot.setdefault(q['id'], q)
     missing = [new[i] for split in el.values() for i in split if i not in rot]
     for area in ('MT','CN','CH','LC'):
