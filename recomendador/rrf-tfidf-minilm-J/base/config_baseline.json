@@ -28,16 +28,16 @@
     "cpu_threads": 4
   },
   "policy": {
-    "fit_scope": "train_without_assets_only",
-    "primary_gallery": "train_without_assets_only",
-    "primary_query_scope": "validation_without_assets_only",
+    "fit_scope": "train_eligible_only",
+    "primary_gallery": "train_eligible",
+    "primary_query_scope": "validation_eligible",
     "test_ranking_executed": false,
-    "include_descriptions": false,
+    "include_descriptions": "only_use_for_recommender_true",
     "include_answer_or_metadata_in_text": false,
     "include_all_option_texts": true,
     "same_content_family_excluded": true,
     "deduplicate_results_by_content_family": true,
-    "visual_vectors": "text_only_secondary_not_primary_gallery"
+    "visual_vectors": "eligible_text_with_approved_source_descriptions"
   },
   "demo_queries": [
     {
