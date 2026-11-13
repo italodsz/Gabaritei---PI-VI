@@ -1,0 +1,40 @@
+{
+  "versao": "italo-titulo-area-base-final-2026-11-13",
+  "base_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "elegiveis": {
+    "train": 2382,
+    "validation": 175,
+    "test": 174
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "max_features": 50000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b\\w+\\b"
+  },
+  "tfidf_vocabulario": 50000,
+  "minilm": {
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "batch_size": 24,
+    "chunk_overlap": 32,
+    "aggregation": "mean_of_unit_chunk_embeddings_then_l2",
+    "cpu_threads": 4
+  },
+  "minilm_origem": "recodificado",
+  "minilm_vetores_desatualizados": [],
+  "rrf_k": 60,
+  "fine_tuning_neural": false,
+  "dataset_commit": "e6712a8",
+  "recomendador_origem": "a7b5b8c",
+  "indices_refeitos_em": "2026-11-13",
+  "qwen_sha256": "10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5",
+  "qwen_vetores_desatualizados": [],
+  "texto": "enunciado + descriptions com use_for_recommender true + alternativas"
+}
