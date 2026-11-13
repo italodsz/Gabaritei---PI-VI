@@ -86,6 +86,16 @@ uma avaliação ou leitura dos pacotes refeita agora. A amostra humana de 100 e 
 Para estatísticas, leitura e resposta, basta Node.js 22+. Para escores, é preciso
 Python com numpy, scipy, scikit-learn, joblib e threadpoolctl. O servidor procura
 o ambiente `.venv` do projeto e o ambiente existente do recomendador no clone local.
+Em outra máquina, com Python 3.12, crie `.venv` na raiz e instale as versões do
+ambiente numérico registradas em `backend/requirements-dev.txt`:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r backend\requirements-dev.txt
+```
+
+Em Linux/macOS, use `.venv/bin/python` no segundo comando. A instalação é apenas
+para o diagnóstico por vetores; o restante do aplicativo continua usando Node.js.
 Também é possível indicar o executável explicitamente antes de iniciar:
 
 ```powershell

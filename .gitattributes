@@ -1,0 +1,11 @@
+# Estes arquivos têm hashes registrados: preservar seus bytes no checkout.
+Dataset/base_trabalho/data/questions.jsonl -text
+Dataset/base_trabalho/ids_elegiveis.json -text
+Dataset/base_trabalho/splits/*.jsonl -text
+recomendador/rrf-tfidf-minilm-J/base/* -text
+recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json -text
+recomendador/rrf-tfidf-minilm-J/indice/** -text
+
+*.npy binary
+*.npz binary
+*.joblib binary

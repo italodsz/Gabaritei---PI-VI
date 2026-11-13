@@ -17,6 +17,36 @@ o servidor usa os módulos do Node e o motor do navegador já está compilado.
 Também funciona `cd frontend` seguido de `npm run dev`.
 Para outra porta: `$env:PORT=4174; npm start`. Para encerrar: Ctrl+C.
 
+## Em outra máquina
+
+Instale Node.js 22 ou superior. Para baixar a versão integrada:
+
+```powershell
+git clone --branch main https://github.com/italodsz/Gabaritei---PI-VI.git
+cd Gabaritei---PI-VI
+npm start
+```
+
+Se já tiver o repositório, entre na branch `main` e use `git pull --ff-only origin main`.
+Dataset, catálogo, vetores e front-end compilado já estão no GitHub.
+O `.gitattributes` preserva os bytes dos arquivos com hash, inclusive quando o Git
+da outra máquina estiver configurado para converter fins de linha no Windows.
+
+Para os **escores ao vivo do laboratório dev**, prepare também Python 3.12, a versão
+usada neste projeto. Na raiz, crie um ambiente separado e instale as dependências:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r backend\requirements-dev.txt
+npm run test:dev-model
+npm start
+```
+
+No Linux/macOS, use `.venv/bin/python` no comando de instalação. O servidor detecta
+esse ambiente automaticamente. Não precisa de GPU, CUDA ou baixar o Qwen para ler
+os vetores existentes. As notas e o histórico ficam no navegador de cada máquina;
+para levar as avaliações dev, use **Exportar sessão** no laboratório.
+
 ## Demonstrar o fluxo
 
 1. Abra **Questões**, escolha uma matéria, assunto e ano e clique em **Começar lista**.
