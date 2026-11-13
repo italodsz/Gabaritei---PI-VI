@@ -1,0 +1,36 @@
+{
+  "novas": {
+    "MT": 283,
+    "CN": 170,
+    "CH": 63,
+    "LC": 165
+  },
+  "amostra_semente": 20261113,
+  "amostra_por_area": {
+    "MT": 42,
+    "CN": 25,
+    "CH": 9,
+    "LC": 24
+  },
+  "defeitos_novos": {
+    "MT": 46,
+    "CN": 11,
+    "CH": 1,
+    "LC": 7
+  },
+  "revisoes_antigas": 244,
+  "rotulos_antigos_alterados": [
+    "gq_1bf495a5eda4568d0ea676d2",
+    "gq_40a3d0617d5e602c7dbb75a4",
+    "gq_7aa17072b2effe6d2d2d1592",
+    "gq_8a3c1e72bdb151eebc5357a9",
+    "gq_acf5d212cc9ae8ac21b8be08",
+    "gq_b8f4ee587c7f1fd71498cc48",
+    "gq_e24b413ff8877d30366b9db2",
+    "gq_eef535e19f0f621b88d2a9d8",
+    "gq_f2dca74d4e6e5a806bd38991",
+    "gq_f9dd1e4c518e111604164934",
+    "gq_6a697545f71aa52dee715749"
+  ],
+  "sem_rotulo": 0
+}

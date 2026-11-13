@@ -375,7 +375,7 @@
 {"id": "gq_00cf7d32938fee64bfc3f997", "no": "HB1.revoltas-coloniais", "grande_tema": "HB1", "assunto": "Revoltas coloniais", "obs": ""}
 {"id": "gq_4bfa59fec81ac706e1fee7a0", "no": "SO4.genero-e-sexualidade", "grande_tema": "SO4", "assunto": "Gênero e sexualidade", "obs": ""}
 {"id": "gq_76c8babc2d03b8748f2243ac", "no": "FI3.racionalismo", "grande_tema": "FI3", "assunto": "Racionalismo", "obs": "solipsismo, sem nó ideal"}
-{"id": "gq_f9dd1e4c518e111604164934", "no": "GE5.urbanizacao-no-brasil-e-no-mundo", "grande_tema": "GE5", "assunto": "Urbanização no Brasil e no mundo", "obs": ""}
+{"id": "gq_f9dd1e4c518e111604164934", "no": "GE4.agricultura-familiar-trabalho-e-povos-do-campo", "grande_tema": "GE4", "assunto": "Agricultura familiar, trabalho e povos do campo", "obs": "Revisão base final 13/11/2026: Texto substituído: calendário de culturas e pastoreio adaptado aos ciclos naturais. Descrição do gráfico é parcial; encaminhar à conferência."}
 {"id": "gq_78aa3f08a12239165608bef1", "no": "FI3.empirismo", "grande_tema": "FI3", "assunto": "Empirismo", "obs": "fenomenologia, sem nó ideal"}
 {"id": "gq_b033c061c3239cb4014f1c1e", "no": "HG4.imperialismo-e-neocolonialismo", "grande_tema": "HG4", "assunto": "Imperialismo e neocolonialismo", "obs": ""}
 {"id": "gq_edd3ce57e55a188e4af63882", "no": "GE8.ordem-mundial-e-organismos-internacionais", "grande_tema": "GE8", "assunto": "Ordem mundial e organismos internacionais", "obs": ""}
@@ -849,7 +849,7 @@
 {"id": "gq_8714911d15504b04308743ac", "no": "LP5.coerencia-e-progressao-tematica", "grande_tema": "LP5", "assunto": "Coerência e progressão temática", "obs": ""}
 {"id": "gq_722f98956de605187dcd71c3", "no": "LP3.funcoes-da-linguagem", "grande_tema": "LP3", "assunto": "Funções da linguagem", "obs": ""}
 {"id": "gq_3a8e941fca843a6ab3919aff", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
-{"id": "gq_f2dca74d4e6e5a806bd38991", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_f2dca74d4e6e5a806bd38991", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "Revisão base final 13/11/2026: Texto substituído: controle de memórias e registros no romance 1984."}
 {"id": "gq_10bf87534a92bdbe04530f85", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "inglês"}
 {"id": "gq_0de7ea6073a995c9d9e5df9f", "no": "LL8.literatura-e-ditadura", "grande_tema": "LL8", "assunto": "Literatura e ditadura", "obs": ""}
 {"id": "gq_e591148a018a32a5927158f5", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
@@ -864,15 +864,15 @@
 {"id": "gq_51530afa018588610fcc5d19", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_4ee816f1d3fe6341a5734152", "no": "LL8.representacao-e-identidade-na-literatura-contemporanea", "grande_tema": "LL8", "assunto": "Representação e identidade na literatura contemporânea", "obs": ""}
 {"id": "gq_2e5092f7b33f0c6adb7e441a", "no": "LP4.variacao-regional-e-social", "grande_tema": "LP4", "assunto": "Variação regional e social", "obs": ""}
-{"id": "gq_1bf495a5eda4568d0ea676d2", "no": "LP2.generos-textuais", "grande_tema": null, "assunto": null, "obs": "DEFEITO: só o comando, falta o texto-base | texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_1bf495a5eda4568d0ea676d2", "no": "AR1.elementos-e-procedimentos-das-artes-visuais", "grande_tema": "AR1", "assunto": "Elementos e procedimentos das artes visuais", "obs": "Revisão base final 13/11/2026: Texto substituído: cerâmicas e função utilitária, não resenha literária."}
 {"id": "gq_d9d4c05605d4b5e230206a0a", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": ""}
-{"id": "gq_eef535e19f0f621b88d2a9d8", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
+{"id": "gq_eef535e19f0f621b88d2a9d8", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "Revisão base final 13/11/2026: Texto substituído: perda precoce de amigo na canção In this life."}
 {"id": "gq_0f3ad43e7850cf359c3b419c", "no": "LP6.formacao-do-portugues-brasileiro", "grande_tema": "LP6", "assunto": "Formação do português brasileiro", "obs": ""}
 {"id": "gq_ca4012b8bcec3c28cb23c7a5", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
-{"id": "gq_8a3c1e72bdb151eebc5357a9", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "espanhol"}
+{"id": "gq_8a3c1e72bdb151eebc5357a9", "no": "LE1.compreensao-e-inferencia", "grande_tema": "LE1", "assunto": "Compreensão e inferência", "obs": "Revisão base final 13/11/2026: Texto substituído: crianças aprendem com o ambiente em que vivem."}
 {"id": "gq_165e77773ed8e66c2a4cd8b5", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
 {"id": "gq_ea5b83880b214e23196e4909", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
-{"id": "gq_40a3d0617d5e602c7dbb75a4", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "espanhol"}
+{"id": "gq_40a3d0617d5e602c7dbb75a4", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "Revisão base final 13/11/2026: Texto substituído: carta em inglês sobre pesquisas de obesidade."}
 {"id": "gq_4ea2abfa1ba1cbf075b6ff46", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
 {"id": "gq_052838cedb3e492dc8125f80", "no": "LL7.vanguardas-e-semana-de-22", "grande_tema": "LL7", "assunto": "Vanguardas e Semana de 22", "obs": ""}
 {"id": "gq_612717bd359417674f1d2916", "no": "TC1.meios-de-comunicacao-e-suas-transformacoes", "grande_tema": "TC1", "assunto": "Meios de comunicação e suas transformações", "obs": ""}
@@ -909,7 +909,7 @@
 {"id": "gq_9f72427ca7f474dbf65abedd", "no": "LL9.recursos-expressivos-e-construcao-literaria", "grande_tema": "LL9", "assunto": "Recursos expressivos e construção literária", "obs": ""}
 {"id": "gq_33bead44dd28263ea3b98e85", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "espanhol"}
 {"id": "gq_791c9febff7c0040732f2775", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": ""}
-{"id": "gq_acf5d212cc9ae8ac21b8be08", "no": "TC1.internet-e-redes-sociais", "grande_tema": "TC1", "assunto": "Internet e redes sociais", "obs": "duplicata de gq_791c9febff7c0040732f2775 (mesma questão em outro caderno) 11/11"}
+{"id": "gq_acf5d212cc9ae8ac21b8be08", "no": "LP1.leitura-de-textos-multimodais", "grande_tema": "LP1", "assunto": "Leitura de textos multimodais", "obs": "Revisão base final 13/11/2026: Texto substituído: imagem e texto na campanha de adoção tardia."}
 {"id": "gq_b8d9356c07ab978793cb1f2c", "no": "EF2.esporte-genero-e-inclusao", "grande_tema": "EF2", "assunto": "Esporte, gênero e inclusão", "obs": ""}
 {"id": "gq_1e0de6069ee31e483fd0c559", "no": "LP4.norma-padrao-e-adequacao", "grande_tema": "LP4", "assunto": "Norma-padrão e adequação", "obs": ""}
 {"id": "gq_8092173cf8576b0d5d7f28a1", "no": "EF1.saude-sedentarismo-e-qualidade-de-vida", "grande_tema": "EF1", "assunto": "Saúde, sedentarismo e qualidade de vida", "obs": ""}
@@ -938,7 +938,7 @@
 {"id": "gq_bd9a49587d976dd1255c8541", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
 {"id": "gq_363380ef2f291b03cd6beaf6", "no": "TC1.desinformacao-e-fake-news", "grande_tema": "TC1", "assunto": "Desinformação e fake news", "obs": ""}
 {"id": "gq_4f19d6c7aec545ebf923d85b", "no": "LP1.estrategias-argumentativas", "grande_tema": "LP1", "assunto": "Estratégias argumentativas", "obs": ""}
-{"id": "gq_e24b413ff8877d30366b9db2", "no": "LE1.lingua-cultura-e-identidade", "grande_tema": "LE1", "assunto": "Língua, cultura e identidade", "obs": "inglês"}
+{"id": "gq_e24b413ff8877d30366b9db2", "no": "LE1.finalidade-e-argumentacao", "grande_tema": "LE1", "assunto": "Finalidade e argumentação", "obs": "Revisão base final 13/11/2026: Texto substituído: crítica ao culto a celebridades e necessidade de reflexão dos fãs."}
 {"id": "gq_28c7851aff39698217fd89ea", "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido", "grande_tema": "LE1", "assunto": "Recursos linguísticos e efeitos de sentido", "obs": "inglês"}
 {"id": "gq_44b01579918f28b456d9bc55", "no": "EF2.praticas-corporais-urbanas-e-jogos-eletronicos", "grande_tema": "EF2", "assunto": "Práticas corporais urbanas e jogos eletrônicos", "obs": ""}
 {"id": "gq_ddd700942d458e8db1b313b9", "no": "EF3.jogos-e-brincadeiras", "grande_tema": "EF3", "assunto": "Jogos e brincadeiras", "obs": ""}
@@ -1356,7 +1356,7 @@
 {"id": "gq_474ae75a10c0127e03302a78", "no": "BI5.coordenacao-nervosa-e-endocrina", "grande_tema": "BI5", "assunto": "Coordenação nervosa e endócrina", "obs": ""}
 {"id": "gq_b1aa7aba0a7ac1540a76046a", "no": "QU5.poluicao-e-tratamento-de-residuos", "grande_tema": "QU5", "assunto": "Poluição e tratamento de resíduos", "obs": ""}
 {"id": "gq_c13077eda9243c73f722dd20", "no": "BI3.teorias-evolutivas-e-selecao-natural", "grande_tema": "BI3", "assunto": "Teorias evolutivas e seleção natural", "obs": "duplicata de 13bb64be"}
-{"id": "gq_7aa17072b2effe6d2d2d1592", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
+{"id": "gq_7aa17072b2effe6d2d2d1592", "no": null, "grande_tema": null, "assunto": null, "obs": "Revisão base final 13/11/2026: Defeito: texto substituído por tratamento de esgoto, mas descrição não informa o conteúdo das etapas numeradas."}
 {"id": "gq_ac75ef29197193cdaa03a271", "no": "FS3.cor-e-visao", "grande_tema": "FS3", "assunto": "Ondas eletromagnéticas e espectro", "obs": "movido para Cor e visão 11/11"}
 {"id": "gq_f30f20c4772b01cac22a146b", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": "duplicata parcial de 7aa17072 (só o comando) | duplicata de gq_7aa17072b2effe6d2d2d1592 (texto truncado, só o comando) 11/11"}
 {"id": "gq_03056359760c5ae84cd34004", "no": "BI6.botanica", "grande_tema": "BI6", "assunto": "Botânica", "obs": ""}
@@ -1718,12 +1718,12 @@
 {"id": "gq_cc5bcf4f585dcb69ecdb8deb", "no": "MA5.figuras-poligonos-e-solidos", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_5807ce85a0a8bcc838dfcb47", "no": "FS4.eletromagnetismo-e-inducao", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_d729403b0e500b7ef02bef0a", "no": "FI5.justica-democracia-e-cidadania", "obs": "texto oficial INEP aplicado e classificado 11/11 | duplicata de gq_b5d827ac61f9e4d37ce96739"}
-{"id": "gq_6a697545f71aa52dee715749", "no": "MA2.razao-proporcao-e-regra-de-tres", "obs": "texto oficial INEP aplicado e classificado 11/11"}
+{"id": "gq_6a697545f71aa52dee715749", "no": null, "grande_tema": null, "assunto": null, "obs": "Revisão base final 13/11/2026: Defeito: faltam os valores das populações urbana e rural dos cinco municípios nos gráficos."}
 {"id": "gq_c43c6eeeacd38163e603b4a6", "no": "HB1.escravidao-colonial-e-resistencia", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_f062a01678195442e1966525", "no": "QU5.combustiveis-e-biocombustiveis", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_45d61e89cfd14d7ed685d8b4", "no": "MA6.medidas-de-tendencia-central", "obs": "texto oficial INEP aplicado e classificado 11/11"}
 {"id": "gq_6813b543f8b69508659211c9", "no": "LP2.generos-textuais", "obs": "duplicata de gq_1bf495a5eda4568d0ea676d2 (mesma questão em outro caderno) 11/11"}
-{"id": "gq_b8f4ee587c7f1fd71498cc48", "no": "LL6.pre-modernismo", "obs": "duplicata de gq_034a73673bbc4cc9a99d8217 (mesma questão em outro caderno) 11/11"}
+{"id": "gq_b8f4ee587c7f1fd71498cc48", "no": "AR2.hibridismo-e-dialogo-musical", "grande_tema": "AR2", "assunto": "Hibridismo e diálogo musical", "obs": "Revisão base final 13/11/2026: Texto substituído: Águas de março combina referências de Bilac e ponto de macumba."}
 {"id": "gq_ff4804ffa37905e4b882d5f6", "no": "GE7.transportes-e-logistica", "grande_tema": "GE7", "assunto": "Transportes e logística", "obs": "Escoamento da produção do agronegócio pelas rodovias."}
 {"id": "gq_7907be0dfd7be49cd74cf08f", "no": "HG2.igreja-medieval", "grande_tema": "HG2", "assunto": "Igreja medieval", "obs": "Ascetismo cristão medieval: sujeição do corpo ao espírito."}
 {"id": "gq_b4b51a218b7c0261f89a02d0", "no": "HB3.coronelismo-e-politica-oligarquica", "grande_tema": "HB3", "assunto": "Coronelismo e política oligárquica", "obs": "Limites e conflitos da aliança entre oligarquias estaduais."}
