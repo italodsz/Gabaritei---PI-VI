@@ -1,0 +1,170 @@
+0	FS3.cor-e-visao	Sensibilidade dos pigmentos visuais e discriminação de cores.
+1	BI1.composicao-quimica-e-atividade-enzimatica	Temperatura e estrutura tridimensional da catalase; conferir divergência com README do dataset que diz que este ID foi bloqueado.
+2	QU3.termoquimica	Energia de combustão por massa e conversão em volume.
+3	FS1.energia-trabalho-e-potencia-mecanica	Potência como taxa de variação de energia cinética.
+4	FS2.calorimetria-e-mudancas-de-estado	Evaporação do suor em ambiente úmido; descrição sucinta mas comando suficiente.
+5	QU2.estequiometria	Proporção molar na reação do peróxido com permanganato.
+6	QU3.equilibrio-acido-base-e-ph	Ionização do ácido hipocloroso e efeito do pH.
+7	BI4.sucessao-ecologica	Estratégia pioneira e recolonização da área desmatada.
+8	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Forças intermoleculares e ebulição das frações de petróleo.
+9	QU1.funcoes-inorganicas	Identificação do HCl por propriedades ácidas e reação com carbonato.
+10	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Hidrofobicidade e imiscibilidade dos componentes do petróleo.
+11	QU3.equilibrio-acido-base-e-ph	Estado de protonação dos grupos por comparação de pH e pKa.
+12	FS1.estatica-e-equilibrio	Pontos de aplicação e direções das forças sobre a muleta.
+13	FS2.termodinamica-e-maquinas-termicas	Resfriamento isocórico do gás no pneu; fronteira física explícita na árvore.
+14	NULL	Defeito: as cinco alternativas com equações da CCM estão truncadas antes dos produtos, impedindo distinguir a reação global.
+15	FS1.cinematica	Comparação entre velocidades angulares e sentido de rotação.
+16	QU4.reacoes-organicas	Transesterificação do PET e identificação do metanol.
+17	NULL	Defeito: descrição anuncia quadro de potenciais padrão mas não fornece semirreações nem valores necessários à escolha do metal.
+18	QU3.eletroquimica	Identificação de oxirredução nas duas reações do biochip.
+19	FS1.hidrostatica-e-pressao	Capilaridade e ascensão do etanol nos poros do papel.
+20	FS3.cor-e-visao	Mistura de cores e resposta dos cones na protanopia.
+21	NULL	Defeito: tabela nutricional sem valores energéticos; falta dado para calcular a temperatura final.
+22	NULL	Defeito: tabela de acidez mínima apenas anunciada, sem valores por fruta; não permite identificar a polpa.
+23	FS4.eletromagnetismo-e-inducao	Força magnética e frequência ciclotrônica na trajetória helicoidal.
+24	FS4.circuitos-eletricos-e-consumo-de-energia	Associação de resistores e queda de tensão no cabo.
+25	FS1.cinematica	Movimento uniforme, distância percorrida e intervalo entre fotografias.
+26	QU3.eletroquimica	Oxidação do zinco no ânodo da bateria alcalina.
+27	FS1.energia-trabalho-e-potencia-mecanica	Conversão da energia potencial em rotação no disco de Maxwell; a descrição recupera a fração achatada no enunciado.
+28	NULL	Defeito: descrição interrompida em sendo, sem explicar os estados D1 e D2 necessários para escolher a alternativa.
+29	QU1.propriedades-da-materia-e-separacao-de-misturas	Separação por flutuação com base na densidade, não conhecimento da parasitose.
+30	NULL	Defeito: descrição do quadro não traz os procedimentos das subetapas, necessários para distinguir extração de lavagem.
+31	QU5.poluicao-e-tratamento-de-residuos	DBO e oxigênio dissolvido como indicadores da carga de esgoto.
+32	FS4.eletrostatica	Transferência de elétrons na eletrização por atrito.
+33	FS4.circuitos-eletricos-e-consumo-de-energia	Divisor de tensão com resistores em série.
+34	NULL	Defeito: falta o comando após a apresentação dos ésteres; alternativas de aromas sem critério de seleção.
+35	NULL	Defeito: alternativas A e D idênticas, ambas com f1 maior que f2 e velocidades iguais; não há resposta única.
+36	BI2.mutacoes	Mutação que antecipa o códon de parada da tradução.
+37	QU3.eletroquimica	Variação do número de oxidação do cobre no ciclo.
+38	BI3.teorias-evolutivas-e-selecao-natural	Seleção natural de comportamentos miméticos; imagem truncada mas texto explicita os três mimetismos.
+39	QU3.equilibrio-acido-base-e-ph	Titulação ácido-base para quantificar ácido acetilsalicílico.
+40	QU3.eletroquimica	Potenciais de redução e associação de pilhas em série.
+41	NULL	Defeito: R proporcional a L/A dá ordem II, III, I, IV com os dados transcritos, ausente das alternativas; não foi corrigido o dataset.
+42	FS1.gravitacao	Identificação de planeta por distância astronômica e densidade.
+43	QU3.equilibrio-acido-base-e-ph	Correção do pH com base que também repõe potássio; fórmulas de distratores têm notação incompleta, mas nomes e critério estão legíveis.
+44	FS2.temperatura-termometria-e-dilatacao	Dilatação térmica e calibração do alcoolômetro.
+45	FS2.transmissao-de-calor	Irradiação solar e convecção da brisa urbana.
+46	QU3.equilibrio-acido-base-e-ph	Protonação da amônia em solo ácido.
+47	FS1.gravitacao	Geometria Terra-Sol e sazonalidade da insolação; assunto de astronomia dentro da área CN, sem mudar a área oficial.
+48	QU2.estequiometria	Proporção da neutralização e concentração mássica por titulação.
+49	BI5.coordenacao-nervosa-e-endocrina	Testosterona e caracteres sexuais masculinos dos anfíbios.
+50	FS3.optica-geometrica-e-visao	Refração da luz pelas garrafas com água.
+51	QU3.cinetica-quimica	Íon hidrogênio como catalisador da hidrólise.
+52	BI2.heranca-e-leis-de-mendel	Inativação do X e expressividade variável da herança ligada ao sexo.
+53	QU4.funcoes-e-nomenclatura-organica	Anel benzênico como unidade estrutural dos aromáticos.
+54	QU3.eletroquimica	Oxidação de compostos orgânicos no tratamento do TCE.
+55	FS4.circuitos-eletricos-e-consumo-de-energia	Associação de baterias e corrente do choque pela lei de Ohm.
+56	FS4.eletromagnetismo-e-inducao	Campo ao redor de fio retilíneo e orientação das bússolas.
+57	BI2.heranca-e-leis-de-mendel	Cruzamento e heredogramas para daltonismo ligado ao X.
+58	FS1.dinamica-e-leis-de-newton	Forças de contato e desaceleração no impacto com o chão.
+59	FS4.eletrostatica	Blindagem e campo nulo no interior do condutor oco.
+60	FS3.ondas-eletromagneticas-e-espectro	Discriminação de alvos pelas bandas de refletância espectral.
+61	QU1.propriedades-da-materia-e-separacao-de-misturas	Densidade de ligas e composição percentual; estético parece erro por eutético, mas não impede o cálculo.
+62	FS3.fenomenos-ondulatorios	Difração da luz na fenda e do som em obstáculo.
+63	BI5.circulacao-e-respiracao	Hemograma e função das plaquetas na coagulação.
+64	QU5.quimica-atmosferica-e-ciclos	Metano da digestão de ruminantes e efeito estufa.
+65	QU2.estequiometria	Razão molar C:N:P e determinação do nutriente limitante.
+66	QU3.termoquimica	Emissão de CO2 por energia produzida na combustão.
+67	FS1.energia-trabalho-e-potencia-mecanica	Transformações de energia no salto com vara.
+68	FS1.dinamica-e-leis-de-newton	Força peso constante produz aceleração na queda da régua.
+69	BI6.doencas-prevencao-e-saude-publica	Obesidade como fator de risco de diabetes.
+70	BI6.botanica	Estruturas reprodutivas vegetais e diversidade genética.
+71	QU4.reacoes-organicas	Identificação dos reagentes na esterificação.
+72	QU5.quimica-atmosferica-e-ciclos	Substituição de CFC por propelentes que não atacam ozônio; descrição da equação muito corrompida, mas texto e alternativas permitem identificar o conceito.
+73	QU2.estequiometria	Rendimento molar e reagente limitante na obtenção de metanol.
+74	BI1.metabolismo-energetico	Hidrólise do amido fornece substratos à fermentação por leveduras.
+75	FS1.impulso-quantidade-de-movimento-e-colisoes	Colisão inelástica no trilho de ar e conservação da quantidade de movimento.
+76	FS4.circuitos-eletricos-e-consumo-de-energia	Resistências equivalentes no circuito de grafite.
+77	QU1.propriedades-da-materia-e-separacao-de-misturas	Extração dos óleos por arraste de vapor.
+78	QU4.reacoes-organicas	Produtos da ozonólise de alceno substituído.
+79	QU2.solucoes-e-concentracao	Dose de pesticidas por massa corporal e comparação com DL50.
+80	QU2.estequiometria	Massa de reagente e rendimento na síntese de AAS.
+81	QU3.eletroquimica	Eletrólise aquosa e liberação de hidrogênio no cátodo.
+82	BI6.classificacao-biologica-e-filogenia	Classificação por ancestralidade molecular em três domínios.
+83	QU1.propriedades-da-materia-e-separacao-de-misturas	Extração, filtração e destilação para isolar óleo da linhaça.
+84	FS4.circuitos-eletricos-e-consumo-de-energia	Circuito misto e corrente limite no ramo do fusível.
+85	BI1.celula-e-organelas	Mobilidade das proteínas no mosaico fluido da membrana.
+86	QU3.equilibrio-acido-base-e-ph	Extração do lapachol por ionização ácido-base.
+87	FS5.geracao-de-energia-e-impactos	Integração de fontes e armazenamento da energia em hidrogênio.
+88	FS1.impulso-quantidade-de-movimento-e-colisoes	Redução da força de impacto pela distribuição temporal da desaceleração.
+89	BI4.impactos-ambientais-e-conservacao	Permeabilidade do solo em pavimento com áreas gramadas.
+90	FS1.energia-trabalho-e-potencia-mecanica	Energia elástica e velocidade de lançamento.
+91	QU3.eletroquimica	Identificação do cátodo de uma pilha por potenciais e materiais.
+92	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Hibridação sp2 e geometria trigonal plana do grafeno.
+93	FS4.circuitos-eletricos-e-consumo-de-energia	Cálculo da potência elétrica pelo produto tensão-corrente.
+94	FS4.circuitos-eletricos-e-consumo-de-energia	Resistência equivalente da tela resistiva.
+95	BI1.metabolismo-energetico	Fotossíntese converte energia eletromagnética em química.
+96	QU1.modelos-atomicos-e-tabela-periodica	Composição nuclear e isótopos; erro factual no enunciado: antimônio tem 51 prótons, não 50. O gráfico permite a operação, mas requer conferência do dataset.
+97	FS2.calorimetria-e-mudancas-de-estado	Temperatura e saturação do vapor na umidade relativa.
+98	FS2.termodinamica-e-maquinas-termicas	Ciclo do refrigerador e transferência não espontânea de calor.
+99	FS5.geracao-de-energia-e-impactos	Eficiência global de geração, transmissão e iluminação.
+100	FS4.circuitos-eletricos-e-consumo-de-energia	Soma das potências de aparelhos e iluminação dimensionada pela área.
+101	BI5.digestao-e-nutricao	Tempo de metabolização do álcool para diferentes dosagens.
+102	QU3.equilibrio-acido-base-e-ph	Hidrólise do sabão e eficiência em meio básico.
+103	NULL	Defeito: a série fornecida diz ir de maior a menor força redutora, mas lista Au, Pt, Ag antes de Cu e depois Pb, Ni, Zn; a direção escrita está invertida e contradiz a purificação.
+104	BI1.acidos-nucleicos-e-sintese-proteica	Fluxo de informação genética e variantes proteicas.
+105	FS2.termodinamica-e-maquinas-termicas	Dimensionamento da refrigeração e corrente de alimentação do ar-condicionado.
+106	FS2.termodinamica-e-maquinas-termicas	Aproveitamento de calor residual de usina térmica.
+107	FS4.eletrostatica	Eletrorrepulsão e aplicação da iontoforese na administração de fármacos.
+108	BI6.doencas-prevencao-e-saude-publica	Sensibilidade e especificidade de testes diagnósticos na profilaxia.
+109	BI4.sucessao-ecologica	Espécies pioneiras e tolerância à luminosidade no reflorestamento.
+110	FS2.calorimetria-e-mudancas-de-estado	Calor sensível, potência solar e área coletora necessária.
+111	QU3.termoquimica	Comparação da energia de combustão por mol de dióxido de carbono.
+112	FS4.circuitos-eletricos-e-consumo-de-energia	Correntes nos ramos e brilho de lâmpadas idênticas.
+113	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Ligações de hidrogênio e retenção de água por umectantes.
+114	FS1.hidrostatica-e-pressao	Empuxo medido por dinamômetro e densidade da água.
+115	FS4.circuitos-eletricos-e-consumo-de-energia	Relação entre tensão, potência e resistência do chuveiro.
+116	FS4.circuitos-eletricos-e-consumo-de-energia	Fechamento do circuito pelos dois contatos da lâmpada.
+117	QU4.reacoes-organicas	Formação de amida pela reação de amina com carboxila.
+118	QU3.equilibrio-quimico-e-deslocamento	Deslocamento do equilíbrio de solubilidade da hidroxiapatita em meio ácido.
+119	BI4.cadeias-alimentares-e-fluxo-de-energia	Identificação dos níveis tróficos na cadeia frutas-homem-tigre-abutres.
+120	FS3.cor-e-visao	Cor complementar à banda de absorção do visível.
+121	QU3.eletroquimica	Metais de sacrifício e proteção do alumínio contra oxidação.
+122	QU3.equilibrio-acido-base-e-ph	Neutralização de aminas com materiais ácidos.
+123	QU4.reacoes-organicas	Substituição nucleofílica formando um éter.
+124	FS4.circuitos-eletricos-e-consumo-de-energia	Correntes nos pontos do circuito de lâmpadas em paralelo.
+125	FS1.estatica-e-equilibrio	Associação de polias e vantagem mecânica para vencer o atrito.
+126	QU5.combustiveis-e-biocombustiveis	Biodigestor e aproveitamento do biogás das fezes.
+127	FS1.cinematica	Transmissão de frequência entre engrenagens.
+128	FS2.calorimetria-e-mudancas-de-estado	Potência térmica, vazão e elevação de temperatura na ducha.
+129	FS3.interferencia-e-ressonancia	Diferença de caminhos e interferência destrutiva no trombone de Quincke.
+130	FS4.circuitos-eletricos-e-consumo-de-energia	Resistência obtida do gráfico de corrente versus tensão.
+131	FS4.circuitos-eletricos-e-consumo-de-energia	Resistência não ôhmica calculada por V/i.
+132	FS1.estatica-e-equilibrio	Braços de alavanca e forças potente e resistente.
+133	FS3.interferencia-e-ressonancia	Oposição de fase e interferência destrutiva dos alto-falantes.
+134	QU1.funcoes-inorganicas	Identificação da amônia por propriedades tóxicas e corrosivas.
+135	BI1.metabolismo-energetico	Fotossíntese e remoção de carbono atmosférico.
+136	FS3.fenomenos-ondulatorios	Velocidade de propagação a partir dos ecos nas interfaces.
+137	QU5.poluicao-e-tratamento-de-residuos	Biodegradabilidade do detergente e cadeia carbônica normal.
+138	FS4.circuitos-eletricos-e-consumo-de-energia	Efeito da queima de lâmpada em associação mista.
+139	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Caráter iônico das ligações por diferença de eletronegatividade.
+140	FS3.som	Atenuação da amplitude sonora com a distância.
+141	BI4.ciclos-biogeoquimicos	Amonificação por decompositores no ciclo do nitrogênio.
+142	BI1.composicao-quimica-e-atividade-enzimatica	Acúmulo de composto apolar nos lipídios do leite; fronteira lipossolubilidade da árvore.
+143	FS1.estatica-e-equilibrio	Vantagem mecânica de polia móvel em aparelhos de musculação.
+144	QU1.ligacoes-quimicas-e-interacoes-intermoleculares	Caráter iônico e solubilidade plasmática do cloridrato do fármaco.
+145	FS1.dinamica-e-leis-de-newton	Tração e atrito na aceleração e frenagem de carga.
+146	BI1.metabolismo-energetico	Bloqueio da cadeia respiratória pelo cianeto e acúmulo de NADH.
+147	FS2.termodinamica-e-maquinas-termicas	Trabalho na expansão do ciclo Otto; descrição chama adiabáticas de isotermas, mas quadro e comando preservam o processo correto.
+148	FS2.transmissao-de-calor	Circulação convectiva no aquecedor solar.
+149	FS1.energia-trabalho-e-potencia-mecanica	Absorção de energia cinética na deformação do veículo.
+150	BI1.metabolismo-energetico	Metabolismos aeróbio, anaeróbio e facultativo em tubos de cultura.
+151	QU1.modelos-atomicos-e-tabela-periodica	Transições eletrônicas na fosforescência.
+152	QU1.propriedades-da-materia-e-separacao-de-misturas	Filtração do precipitado de hidróxido de magnésio.
+153	QU3.equilibrio-acido-base-e-ph	Grupo doador de próton na teoria de Brönsted-Lowry.
+154	FS1.estatica-e-equilibrio	Redistribuição de massa para balanceamento da roda.
+155	QU3.equilibrio-quimico-e-deslocamento	pH e deslocamento da mineralização/desmineralização dentária.
+156	BI1.celula-e-organelas	Microfilamentos, forma celular e movimento ameboide.
+157	QU4.funcoes-e-nomenclatura-organica	Identificação da carboxila comum aos dois compostos.
+158	BI4.impactos-ambientais-e-conservacao	Fitoextração e remoção de mercúrio da cadeia alimentar.
+159	QU5.quimica-atmosferica-e-ciclos	Composição de gases emitidos por motores em função da mistura ar-combustível.
+160	FS4.eletrostatica	Separação de cargas na interface grafeno-água e diferença de potencial.
+161	BI3.especiacao-adaptacoes-e-evolucao-humana	Mimetismo como adaptação antipredação das falsas-corais.
+162	FS1.cinematica	Composição de velocidades do nadador e da correnteza.
+163	QU3.eletroquimica	Comparação das oxidações nos ciclos do nitrogênio e carbono.
+164	FS3.optica-geometrica-e-visao	Imagem real formada por dois espelhos côncavos.
+165	FS2.calorimetria-e-mudancas-de-estado	Temperatura do iglu e solidificação da água.
+166	NULL	Defeito: texto não informa a posição ordenada dos pontos A-E em relação a Q/R e às lâmpadas; descrição só diz representação do circuito descrito, sem recuperar essas conexões necessárias.
+167	FS3.som	Intensidade sonora, ruído de fundo e inteligibilidade da fala.
+168	BI6.zoologia	Padrões reprodutivos dos grupos de mamíferos e nutrição embrionária.
+169	BI6.doencas-prevencao-e-saude-publica	Risco de arboviroses pela perda de predadores aquáticos dos vetores.
