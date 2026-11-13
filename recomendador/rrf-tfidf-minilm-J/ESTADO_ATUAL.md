@@ -1,3 +1,9 @@
+> **Atualização 13/11/2026 — base final:** 3.086 registros e 2.731 elegíveis
+> (2.382 treino, 175 validação, 174 teste), dataset e6712a8.
+> SHA-256: `6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f`.
+> Migração e conferências: [RELATORIO_BASE_FINAL.md](RELATORIO_BASE_FINAL.md).
+> O método continua sendo titulo_area; os trechos abaixo são registros históricos.
+
 > **Atualização 11/11/2026:** o oficial agora é o modo `titulo_area` (filtro de matéria e título +
 > ordem por matéria). Catálogo do app: `catalogo/recomendacoes_titulo_area.json`. Detalhes no README
 > (seção "Oficial desde 11/11/2026") e em `DECISAO_FINAL.json`. O texto abaixo é o estado de 30/10.
