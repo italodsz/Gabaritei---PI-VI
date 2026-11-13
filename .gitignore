@@ -1,0 +1,47 @@
+# Configuracao local e credenciais
+.env
+.env.*
+!.env.example
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencias e caches locais
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+*.log
+
+# Bancos e dados de usuarios
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+/backend/resultados/
+/backend/data/interacoes/*
+!/backend/data/interacoes/.gitkeep
+
+# Catalogo gerado localmente; cortes, manifesto e auditoria continuam versionados
+/backend/artefatos/catalogo.json
+
+# Saidas de desenvolvimento e verificacoes visuais
+.next/
+*.tsbuildinfo
+playwright-report/
+test-results/
+/frontend/e2e/capturas/

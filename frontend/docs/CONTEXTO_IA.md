@@ -2,7 +2,7 @@
 
 Este documento existe porque você (a IA lendo isto) não consegue ver o frontend rodando. Tudo que você precisa saber sobre o que foi decidido, por quê, e como o código está organizado, está aqui. Leia isto inteiro antes de mexer em qualquer coisa.
 
-Repositório de trabalho: `C:\Users\Darkz\Desktop\gabaritei-web` (Windows), git inicializado localmente. O remote de verdade (GitHub) é outro clone, em `C:\Users\Darkz\Documents\GitHub\Gabaritei---PI-VI`, dentro da subpasta `frontend/` — é um repositório de equipe (`github.com/italodsz/Gabaritei---PI-VI`, hoje público) que também guarda outras partes do projeto (dataset/pipeline do ENEM, numa branch separada `dataset-pipeline`). Depois de mexer em `gabaritei-web`, sincronize pra `Gabaritei---PI-VI/frontend/` antes de commitar/dar push por lá — os dois não são o mesmo working tree.
+O frontend fica em `frontend/`, dentro deste repositório, junto de `backend/` e `Dataset/`. Execute os comandos da interface a partir de `frontend/` e revise as alterações pela raiz do repositório antes de commitar. Os caminhos de instalação e a organização de clones locais são definidos por cada desenvolvedor.
 
 Os dois documentos-fonte que geraram tudo isto:
 - `docs/FRONTEND_PROMPT.md` — a especificação completa da Fase 1 (o prompt original, em português, ~710 linhas). É a autoridade máxima: qualquer dúvida sobre "deveria ser assim?" se resolve lendo lá, não adivinhando.

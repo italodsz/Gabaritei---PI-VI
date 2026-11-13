@@ -1,0 +1,872 @@
+{
+  "gerado_em": "2026-11-11T15:32:36.801117+00:00",
+  "dataset": {
+    "caminho": "C:\\Users\\joao.pedro\\Desktop\\recomendador dificuldade\\Gabaritei---PI-VI\\Dataset\\base_trabalho",
+    "release": "v2.1-rc1",
+    "sha256_arquivos": {
+      "questions": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+      "elegiveis": "00766d3cb76ed586839f19033e0ab4cc0029bb3173e912f33142ee3876669105",
+      "train": "b432fb4c866a7092a6672916f131bc68bd0f426d7fb8bbebf7e64cfdfe48400b",
+      "validation": "8594bb01f2fc95946068e9f549f95f64d760c60afc4c7fc8795ed34b106e3fa8",
+      "test": "2441dc1cc07a50a61126db4498afd978cd0a2e0dd073b979cf6f600874c364f1",
+      "bloqueios": "4e38fa7b437bbdb84c9e27442f8e027daadc1239ac115340c4c6bfbb11f2f720",
+      "aviso_indices": "31e29f9fe109fdc293010416ebf62035426bd86ae44ffdb1c67e709fdd0712c5"
+    },
+    "sha256_bytes_locais": {
+      "questions": "5af91db95eda68ae96a02187f223691d210c2a0e20100c50d2cb6122473d5e39",
+      "elegiveis": "700ee02f51fa525bbc60b401fd1e7b869e1ae6683cc80829c3f13c8f6d651515",
+      "train": "8e489e13ed21df745306335c87e6ce42a88fa19a3b6c4e48e76678d1015404e1",
+      "validation": "17f3409ef70b00ccc3c83e29fd2b519564efe6de74466199e4630e7ea33bc430",
+      "test": "c20688d0a94e9e4b20a67e359dcb092e5557511aaa42c43bdb933b9a80a89310",
+      "bloqueios": "48e36976bf6013a14c57607fd8eb252c4707e129c1f8be2bde2dc46afbb26ee7",
+      "aviso_indices": "49e1a37bd454432cee8e107692f39ff9616c3d98af5252d91d3e355db99ef861"
+    }
+  },
+  "contagens": {
+    "catalogo": 2971,
+    "por_split": {
+      "train": 2616,
+      "validation": 177,
+      "test": 178
+    },
+    "elegiveis": {
+      "train": 1801,
+      "validation": 136,
+      "test": 126
+    },
+    "bloqueados": 1,
+    "por_area_lingua": {
+      "CH:pt": 766,
+      "CN:pt": 708,
+      "LC:pt": 687,
+      "MT:pt": 696,
+      "LC:es": 48,
+      "LC:en": 66
+    },
+    "disponiveis_para_oferta": 2013,
+    "disponiveis_com_faixa": 1998,
+    "motivos_indisponivel": {
+      "fora_da_lista_elegivel": 908,
+      "ready_text_falso": 908,
+      "midia_ausente": 880,
+      "alerta_grave_texto": 50,
+      "schema_invalido": 2,
+      "bloqueado": 1
+    },
+    "elegiveis_indisponiveis": {
+      "alerta_grave_texto": 50
+    },
+    "habilidade_ausente_disponiveis": 159,
+    "habilidades_distintas_area_skill": 120
+  },
+  "checagens": [
+    {
+      "checagem": "sha256_questions_confere",
+      "status": "ok",
+      "detalhe": {
+        "obtido_lf": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+        "obtido_bytes_locais": "5af91db95eda68ae96a02187f223691d210c2a0e20100c50d2cb6122473d5e39",
+        "esperado": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+        "nota": "Hash calculado sobre o conteudo com finais de linha LF. O checkout local pode ter CRLF (git core.autocrlf=true); o arquivo nao e alterado."
+      }
+    },
+    {
+      "checagem": "ids_unicos",
+      "status": "ok",
+      "detalhe": {
+        "duplicados": []
+      }
+    },
+    {
+      "checagem": "release_unico_esperado",
+      "status": "ok",
+      "detalhe": {
+        "v2.1-rc1": 2971
+      }
+    },
+    {
+      "checagem": "split_train_registros_iguais_ao_catalogo",
+      "status": "ok",
+      "detalhe": {
+        "n": 2616
+      }
+    },
+    {
+      "checagem": "split_train_campo_split_consistente",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "split_validation_registros_iguais_ao_catalogo",
+      "status": "ok",
+      "detalhe": {
+        "n": 177
+      }
+    },
+    {
+      "checagem": "split_validation_campo_split_consistente",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "split_test_registros_iguais_ao_catalogo",
+      "status": "ok",
+      "detalhe": {
+        "n": 178
+      }
+    },
+    {
+      "checagem": "split_test_campo_split_consistente",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "splits_disjuntos_por_id",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "splits_cobrem_catalogo",
+      "status": "ok",
+      "detalhe": {
+        "n_catalogo": 2971
+      }
+    },
+    {
+      "checagem": "split_temporal_por_ano",
+      "status": "ok",
+      "detalhe": {
+        "regra": "treino<=2022, validacao=2023, teste=2024"
+      }
+    },
+    {
+      "checagem": "elegiveis_existem_no_catalogo",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "elegiveis_no_split_declarado",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "elegiveis_tem_ready_text",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "bloqueados_fora_dos_elegiveis",
+      "status": "ok",
+      "detalhe": {
+        "bloqueados": [
+          "gq_29b02702604175cb29267886"
+        ]
+      }
+    },
+    {
+      "checagem": "ready_text_sem_estar_elegivel",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "aviso_indices_hash_derivado_confere",
+      "status": "ok",
+      "detalhe": {
+        "vectors_included": false,
+        "refit_before_comparing": true
+      }
+    },
+    {
+      "checagem": "schema_valido_nos_elegiveis",
+      "status": "ok",
+      "detalhe": {}
+    },
+    {
+      "checagem": "schema_valido_no_catalogo_total",
+      "status": "aviso",
+      "detalhe": {
+        "itens_com_erro": 2,
+        "tipos": {
+          "enunciado_vazio": 2,
+          "alternativas_ausentes": 2
+        }
+      }
+    },
+    {
+      "checagem": "midia_disponivel_nos_elegiveis",
+      "status": "ok",
+      "detalhe": null
+    },
+    {
+      "checagem": "ready_multimodal_com_midia_ausente",
+      "status": "aviso",
+      "detalhe": {
+        "itens_ready_multimodal_sem_arquivo": 880,
+        "nota": "ready_multimodal nao garante arquivos; esses itens nao sao oferecidos."
+      }
+    },
+    {
+      "checagem": "catalogo_conteudo_mesmo_corpus",
+      "status": "ok",
+      "detalhe": {
+        "base_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+      }
+    },
+    {
+      "checagem": "catalogo_conteudo_sha_procedencia",
+      "status": "ok",
+      "detalhe": {
+        "sha256": "a9c911c370c64ba18583a2702606ebe6a4ab8a5317ee665f604bed0c5b5a544a"
+      }
+    },
+    {
+      "checagem": "grupos_de_conteudo_nao_cruzam_splits_elegiveis",
+      "status": "ok",
+      "detalhe": {
+        "grupos": []
+      }
+    }
+  ],
+  "triagem_tri": {
+    "regras": {
+      "versao": "triagem-v1",
+      "descricao": "Regras definidas antes do calculo dos cortes, sem consultar validacao/teste. Valores originais preservados.",
+      "a_minimo": 0.3,
+      "b_alto": 3.0,
+      "a_minimo_quando_b_alto": 0.5,
+      "b_abs_sinalizar": 4.0,
+      "iqr_multiplicador_sinalizar": 1.5,
+      "decisao_excluidos": "fora_dos_cortes_fora_do_modo_nivel_e_adaptativo"
+    },
+    "excluidos": [
+      {
+        "id": "gq_cdc4346f90dd7b164d751ff7",
+        "area": "LC",
+        "split": "train",
+        "tri": {
+          "a": 0.17448,
+          "b": 1.72689,
+          "c": 0.03047
+        },
+        "motivos": [
+          "discriminacao_muito_baixa"
+        ]
+      },
+      {
+        "id": "gq_1913dfee169d1efadf52cfca",
+        "area": "CH",
+        "split": "train",
+        "tri": {
+          "a": 0.2097,
+          "b": 7.3295,
+          "c": 0.0435
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_57b19727ae90bf6674cb0576",
+        "area": "LC",
+        "split": "train",
+        "tri": {
+          "a": 0.30081,
+          "b": 4.17509,
+          "c": 0.20994
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_cf15f16c076fceccbc04a730",
+        "area": "CN",
+        "split": "train",
+        "tri": {
+          "a": 0.01929,
+          "b": 61.05459,
+          "c": 0.21513
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_64ab0c5be892c9a552e3e8a9",
+        "area": "LC",
+        "split": "train",
+        "tri": {
+          "a": 0.25565,
+          "b": 8.28479,
+          "c": 0.09336
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_5d5f51a40497323078d2af26",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.32005,
+          "b": 6.3679,
+          "c": 0.15202
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_8d92a6be83842fc46071a607",
+        "area": "LC",
+        "split": "train",
+        "tri": {
+          "a": 0.49981,
+          "b": 3.32746,
+          "c": 0.04951
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_c51d9e7318fadbcdcf7773e5",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.24681,
+          "b": 3.47775,
+          "c": 0.02647
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_e2f5c8e6168fc710b38be957",
+        "area": "CN",
+        "split": "train",
+        "tri": {
+          "a": 0.38139,
+          "b": 3.36471,
+          "c": 0.06869
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_63abb69716ebeba164a92e7f",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.1828,
+          "b": 12.4166,
+          "c": 0.11617
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_2bfcce13287daa55e2bb19f0",
+        "area": "CN",
+        "split": "train",
+        "tri": {
+          "a": 0.29544,
+          "b": 3.80025,
+          "c": 0.02691
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_5bbf49289d96383386b8e22e",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.38226,
+          "b": 4.96788,
+          "c": 0.08061
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_5fc9cc5ab60559c3aa518e4c",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.24441,
+          "b": 4.65334,
+          "c": 0.03228
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_0a743d5fdb70d03a1842dc30",
+        "area": "MT",
+        "split": "train",
+        "tri": {
+          "a": 0.48694,
+          "b": 4.48651,
+          "c": 0.14739
+        },
+        "motivos": [
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      },
+      {
+        "id": "gq_3e25bf1d5bf4b645a2ec4316",
+        "area": "CH",
+        "split": "test",
+        "tri": {
+          "a": 0.20704,
+          "b": 11.14224,
+          "c": 0.17137
+        },
+        "motivos": [
+          "discriminacao_muito_baixa",
+          "dificuldade_alta_com_discriminacao_baixa"
+        ]
+      }
+    ],
+    "n_excluidos": 15,
+    "sinais_informativos": {
+      "b_outlier_iqr_area": 45,
+      "b_extremo": 17,
+      "c_outlier_iqr_area": 24,
+      "a_outlier_iqr_area": 27
+    },
+    "nota": "Valores originais preservados; excluidos ficam sem faixa e fora dos modos nivel/adaptativo."
+  },
+  "cortes": {
+    "metodo": "tercis_por_area_treino_aprovado",
+    "quantis": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "regra_fronteira": "facil: b <= c1; media: c1 < b <= c2; dificil: b > c2",
+    "cortes": {
+      "CH": {
+        "c1": 0.814577,
+        "c2": 1.447713,
+        "n": 573
+      },
+      "CN": {
+        "c1": 0.94236,
+        "c2": 1.609903,
+        "n": 372
+      },
+      "LC": {
+        "c1": 0.536787,
+        "c2": 1.114723,
+        "n": 533
+      },
+      "MT": {
+        "c1": 1.6446,
+        "c2": 2.35816,
+        "n": 262
+      }
+    },
+    "dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+    "triagem_versao": "triagem-v1",
+    "ids_ajuste_sha256": "c718f0d9ae88ac029f6f330ea05b6b04a1772a6b8f5aec7e316a291a40cf15b0",
+    "splits_usados": [
+      "train"
+    ],
+    "aviso": "Categorias operacionais do catalogo; nao sao categorias oficiais do Inep.",
+    "versao": "cortes-e6739b83d908"
+  },
+  "distribuicao_faixas_por_split": {
+    "train": {
+      "CH:media": 191,
+      "CH:facil": 191,
+      "CH:dificil": 191,
+      "CN:dificil": 124,
+      "CN:media": 124,
+      "CN:facil": 124,
+      "LC:facil": 178,
+      "LC:dificil": 178,
+      "LC:media": 177,
+      "MT:facil": 88,
+      "MT:dificil": 87,
+      "MT:media": 87
+    },
+    "validation": {
+      "CH:media": 8,
+      "CH:facil": 22,
+      "CH:dificil": 7,
+      "CN:dificil": 13,
+      "CN:facil": 8,
+      "CN:media": 11,
+      "LC:media": 11,
+      "LC:dificil": 11,
+      "LC:facil": 16,
+      "MT:facil": 13,
+      "MT:media": 5,
+      "MT:dificil": 8
+    },
+    "test": {
+      "CH:media": 13,
+      "CH:facil": 23,
+      "CH:dificil": 5,
+      "CN:facil": 4,
+      "CN:media": 10,
+      "CN:dificil": 4,
+      "LC:dificil": 7,
+      "LC:media": 11,
+      "LC:facil": 19,
+      "MT:media": 8,
+      "MT:facil": 15,
+      "MT:dificil": 6
+    }
+  },
+  "duplicacoes": {
+    "unioes_por_criterio": {
+      "texto": 1,
+      "content_family": 9,
+      "jaccard": 11
+    },
+    "pares_jaccard_acima_limite": 20,
+    "exemplos_pares_jaccard": [
+      [
+        "gq_e24b413ff8877d30366b9db2",
+        "gq_b75d10d45f58b2e9e8971a2b",
+        0.9091
+      ],
+      [
+        "gq_40a3d0617d5e602c7dbb75a4",
+        "gq_e94fa74df2dd8fa101bbcadf",
+        0.9215
+      ],
+      [
+        "gq_fe435cc75654f11bccb1973d",
+        "gq_9425233c3800bc906cd6cdc2",
+        0.8488
+      ],
+      [
+        "gq_8db4e9d05a4cc5fc35063f57",
+        "gq_52354dffa0cf4a5a24a74a46",
+        1.0
+      ],
+      [
+        "gq_791c9febff7c0040732f2775",
+        "gq_acf5d212cc9ae8ac21b8be08",
+        0.9125
+      ],
+      [
+        "gq_37b14ae6a7f51a4a9fdc59fd",
+        "gq_c1183a5e941c318c2198f741",
+        0.8797
+      ],
+      [
+        "gq_053cef1eadda732d756e224f",
+        "gq_48bcaa6932b14105bbda0540",
+        1.0
+      ],
+      [
+        "gq_5c2997bb2efca7d6f0a247b5",
+        "gq_b4c92a2d71ec0a4978435baa",
+        0.89
+      ],
+      [
+        "gq_0ca35992cee4d0404c69cc2c",
+        "gq_c19e7fd94ad5b75ee98226b4",
+        1.0
+      ],
+      [
+        "gq_c13077eda9243c73f722dd20",
+        "gq_13bb64bec99e56e527624bb9",
+        1.0
+      ],
+      [
+        "gq_a691bb3047c6a701effb18bd",
+        "gq_f8fea79b8ddbb668d93d4a4a",
+        1.0
+      ],
+      [
+        "gq_7bf7be06e6894ebb79320761",
+        "gq_73446c599b38413315a0dd2b",
+        0.8214
+      ],
+      [
+        "gq_ce80aec0fe6d2202ef2b938a",
+        "gq_0d794654e0cbfdab70b4ec49",
+        0.8078
+      ],
+      [
+        "gq_8a3c1e72bdb151eebc5357a9",
+        "gq_df88318514624bbd57a79a30",
+        0.877
+      ],
+      [
+        "gq_eef535e19f0f621b88d2a9d8",
+        "gq_ea5b83880b214e23196e4909",
+        0.9065
+      ],
+      [
+        "gq_47797006c0f4ddf3b3f3d333",
+        "gq_43af5e0298b07a51facf3218",
+        1.0
+      ],
+      [
+        "gq_124081cde13c61445bdecc1a",
+        "gq_f8f72f54cff2ecccfac8b197",
+        1.0
+      ],
+      [
+        "gq_86b172192f0c30fba99c888c",
+        "gq_5ee286b3a6bb12356cd757c3",
+        1.0
+      ],
+      [
+        "gq_76c81aa648d9bc46c79faa8f",
+        "gq_837a844ed0ca7c39ff0303e9",
+        1.0
+      ],
+      [
+        "gq_98b71afcfadc707111984efc",
+        "gq_2922b1ea6de9d56cd2dd5312",
+        1.0
+      ]
+    ],
+    "grupos_multiplos": 21,
+    "itens_em_grupos_multiplos": 42,
+    "limitacao": "Triagem lexical: nao detecta parafrases, equivalencias matematicas nem conteudo visual."
+  },
+  "pares_familia_conteudo_elegiveis": [
+    [
+      {
+        "id": "gq_86b172192f0c30fba99c888c",
+        "formato": "standard",
+        "b": 2.45135,
+        "split": "train"
+      },
+      {
+        "id": "gq_5ee286b3a6bb12356cd757c3",
+        "formato": "adapted_accessible",
+        "b": 2.35816,
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "id": "gq_47797006c0f4ddf3b3f3d333",
+        "formato": "standard",
+        "b": 2.43206,
+        "split": "train"
+      },
+      {
+        "id": "gq_43af5e0298b07a51facf3218",
+        "formato": "adapted_accessible",
+        "b": 2.784,
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "id": "gq_124081cde13c61445bdecc1a",
+        "formato": "standard",
+        "b": 1.77699,
+        "split": "train"
+      },
+      {
+        "id": "gq_f8f72f54cff2ecccfac8b197",
+        "formato": "adapted_accessible",
+        "b": 2.0354,
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "id": "gq_98b71afcfadc707111984efc",
+        "formato": "adapted_accessible",
+        "b": 1.63495,
+        "split": "validation"
+      },
+      {
+        "id": "gq_2922b1ea6de9d56cd2dd5312",
+        "formato": "standard",
+        "b": 2.57722,
+        "split": "validation"
+      }
+    ],
+    [
+      {
+        "id": "gq_8db4e9d05a4cc5fc35063f57",
+        "formato": "standard",
+        "b": 1.34475,
+        "split": "validation"
+      },
+      {
+        "id": "gq_52354dffa0cf4a5a24a74a46",
+        "formato": "adapted_accessible",
+        "b": 1.50258,
+        "split": "validation"
+      }
+    ],
+    [
+      {
+        "id": "gq_053cef1eadda732d756e224f",
+        "formato": "adapted_accessible",
+        "b": 0.67676,
+        "split": "test"
+      },
+      {
+        "id": "gq_48bcaa6932b14105bbda0540",
+        "formato": "standard",
+        "b": 2.2259,
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "id": "gq_76c81aa648d9bc46c79faa8f",
+        "formato": "standard",
+        "b": 2.29841,
+        "split": "test"
+      },
+      {
+        "id": "gq_837a844ed0ca7c39ff0303e9",
+        "formato": "adapted_accessible",
+        "b": 0.79725,
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "id": "gq_a691bb3047c6a701effb18bd",
+        "formato": "adapted_accessible",
+        "b": 1.37853,
+        "split": "test"
+      },
+      {
+        "id": "gq_f8fea79b8ddbb668d93d4a4a",
+        "formato": "standard",
+        "b": 1.63004,
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "id": "gq_0ca35992cee4d0404c69cc2c",
+        "formato": "adapted_accessible",
+        "b": 1.15028,
+        "split": "test"
+      },
+      {
+        "id": "gq_c19e7fd94ad5b75ee98226b4",
+        "formato": "standard",
+        "b": 1.25923,
+        "split": "test"
+      }
+    ]
+  ],
+  "escala": {
+    "medianas_b_por_area_formato_tipo": {
+      "CH|standard|regular": {
+        "n": 471,
+        "mediana_b": 1.1374
+      },
+      "CH|standard|second_application": {
+        "n": 67,
+        "mediana_b": 1.0152
+      },
+      "CH|adapted_accessible|regular": {
+        "n": 115,
+        "mediana_b": 0.7915
+      },
+      "CN|standard|regular": {
+        "n": 297,
+        "mediana_b": 1.2842
+      },
+      "CN|standard|second_application": {
+        "n": 53,
+        "mediana_b": 1.2256
+      },
+      "CN|adapted_accessible|regular": {
+        "n": 75,
+        "mediana_b": 1.4236
+      },
+      "LC|standard|regular": {
+        "n": 445,
+        "mediana_b": 0.8067
+      },
+      "LC|standard|second_application": {
+        "n": 56,
+        "mediana_b": 0.5658
+      },
+      "LC|adapted_accessible|regular": {
+        "n": 111,
+        "mediana_b": 0.638
+      },
+      "MT|standard|regular": {
+        "n": 207,
+        "mediana_b": 1.9529
+      },
+      "MT|standard|second_application": {
+        "n": 35,
+        "mediana_b": 1.7973
+      },
+      "MT|adapted_accessible|regular": {
+        "n": 81,
+        "mediana_b": 1.9392
+      }
+    },
+    "D_confirmado": false,
+    "escala_comparavel_verificada": false,
+    "nota": "Origem declarada dos parametros: tabela de itens do Inep (evidence_id). A documentacao local nao informa D nem comprova equalizacao entre anos/formatos; pares da mesma familia de conteudo em formato padrao x adaptado tem b diferentes. Adaptativo restrito a grupos de escala configurados e marcado como experimental."
+  },
+  "midia": {
+    "ready_multimodal_sem_arquivo": 880,
+    "itens_com_midia_necessaria": 880
+  },
+  "catalogo_conteudo": {
+    "usado": true,
+    "sha256": "a9c911c370c64ba18583a2702606ebe6a4ab8a5317ee665f604bed0c5b5a544a",
+    "metodo": "titulo_area",
+    "procedencia": {
+      "branch": "origin/recomendador",
+      "commit": "390d78677698e9997b45a80fbe12b46dabc44520",
+      "caminho": "recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json",
+      "sha256": "a9c911c370c64ba18583a2702606ebe6a4ab8a5317ee665f604bed0c5b5a544a"
+    },
+    "itens_alerta_grave": 50
+  },
+  "aviso_indices": {
+    "vectors_included": false,
+    "parent_vectors_valid_for_this_derivative": false,
+    "refit_before_comparing": true,
+    "reasons": [
+      "formula_alterada",
+      "cabecalho_alterado",
+      "galeria_de_treino_reduzida_em_1"
+    ],
+    "source_dataset_sha256": "b1c52e5b77ada4106f4bec18d4672dc3eabe4f98665102a66c06cd0eb2887790",
+    "derivative_dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+  },
+  "pedagogia": {
+    "nota": "Topicos de pedagogy gerados por regras sem revisao humana; usados apenas como sinal fraco de diversidade.",
+    "status": {
+      "rule_generated_unreviewed": 2971
+    }
+  },
+  "interacoes_reais": {
+    "encontradas": false,
+    "nota": "Nenhum historico de respostas de alunos no dataset nem nos branches do repositorio."
+  },
+  "resultado": "aprovado"
+}

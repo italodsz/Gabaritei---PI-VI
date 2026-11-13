@@ -1,0 +1,38 @@
+{
+  "metodo": "tercis_por_area_treino_aprovado",
+  "quantis": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "regra_fronteira": "facil: b <= c1; media: c1 < b <= c2; dificil: b > c2",
+  "cortes": {
+    "CH": {
+      "c1": 0.814577,
+      "c2": 1.447713,
+      "n": 573
+    },
+    "CN": {
+      "c1": 0.94236,
+      "c2": 1.609903,
+      "n": 372
+    },
+    "LC": {
+      "c1": 0.536787,
+      "c2": 1.114723,
+      "n": 533
+    },
+    "MT": {
+      "c1": 1.6446,
+      "c2": 2.35816,
+      "n": 262
+    }
+  },
+  "dataset_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "triagem_versao": "triagem-v1",
+  "ids_ajuste_sha256": "c718f0d9ae88ac029f6f330ea05b6b04a1772a6b8f5aec7e316a291a40cf15b0",
+  "splits_usados": [
+    "train"
+  ],
+  "aviso": "Categorias operacionais do catalogo; nao sao categorias oficiais do Inep.",
+  "versao": "cortes-e6739b83d908"
+}

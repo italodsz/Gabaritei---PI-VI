@@ -1,0 +1,146 @@
+{
+  "politica_versao": "dificuldade-v1.3.2",
+  "descricao": "Recomendador por dificuldade (modo nivel), adaptativo estrito experimental (3PL + EAP por area) e modo automatico com estrategias explicitas (diagnostico inicial/direcionado, reforco, adaptativo).",
+  "dataset": {
+    "caminho_relativo": "../Dataset/base_trabalho",
+    "sha256_esperado": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+    "release_esperado": "v2.1-rc1"
+  },
+  "qualidade": {
+    "usar_alerta_grave_catalogo_conteudo": true,
+    "catalogo_conteudo": "data/externo/recomendacoes_titulo_area.json",
+    "catalogo_conteudo_procedencia": {
+      "branch": "origin/recomendador",
+      "commit": "390d78677698e9997b45a80fbe12b46dabc44520",
+      "caminho": "recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json",
+      "sha256": "a9c911c370c64ba18583a2702606ebe6a4ab8a5317ee665f604bed0c5b5a544a"
+    },
+    "jaccard_trigramas_limite": 0.8,
+    "jaccard_df_max_shingle": 40
+  },
+  "triagem_tri": {
+    "versao": "triagem-v1",
+    "descricao": "Regras definidas antes do calculo dos cortes, sem consultar validacao/teste. Valores originais preservados.",
+    "a_minimo": 0.3,
+    "b_alto": 3.0,
+    "a_minimo_quando_b_alto": 0.5,
+    "b_abs_sinalizar": 4.0,
+    "iqr_multiplicador_sinalizar": 1.5,
+    "decisao_excluidos": "fora_dos_cortes_fora_do_modo_nivel_e_adaptativo"
+  },
+  "dificuldade": {
+    "metodo": "tercis_por_area_treino_aprovado",
+    "quantis": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "interpolacao_numpy": "linear",
+    "regra_fronteira": "facil: b <= c1; media: c1 < b <= c2; dificil: b > c2"
+  },
+  "irt": {
+    "modelo": "3PL",
+    "D_confirmado": false,
+    "D_hipoteses": [
+      1.0,
+      1.7
+    ],
+    "D_experimental": 1.0,
+    "nota_D": "A documentacao local nao informa a constante D usada na calibracao do Inep. O modo adaptativo fica EXPERIMENTAL e so roda com aceite explicito.",
+    "escala_comparavel_verificada": false,
+    "grupos_escala_adaptativo": [
+      {
+        "application_format": "standard",
+        "application_type": "regular"
+      }
+    ],
+    "grade_theta": {
+      "min": -6.0,
+      "max": 6.0,
+      "passo": 0.05
+    },
+    "prior": {
+      "media": 0.0,
+      "dp": 1.0
+    },
+    "eps_probabilidade": 1e-09
+  },
+  "perfil": {
+    "min_respostas_validas": 10,
+    "dp_max_suficiente": 0.6,
+    "pesos": {
+      "primeira_sem_ajuda": 1.0,
+      "primeira_com_dica": 0.0,
+      "repeticao": 0.0,
+      "apos_exposicao_gabarito": 0.0
+    }
+  },
+  "recomendacao": {
+    "quantidade_max": 20,
+    "janela_recente_dias": 30,
+    "faixa_prob_alvo": [
+      0.65,
+      0.8
+    ],
+    "nota_faixa": "Hipotese inicial de desafio; nao e garantia de aprendizagem. Sujeita a validacao com dados reais.",
+    "permitir_relaxar_faixa": false,
+    "penalidade_mesma_habilidade": 0.5,
+    "penalidade_mesmo_ano": 0.15,
+    "penalidade_mesmo_topico_regra": 0.1,
+    "peso_exposicao_global": 0.05,
+    "jitter": 0.3,
+    "revisao_min_respostas_habilidade": 3,
+    "revisao_acuracia_max": 0.5,
+    "bonus_revisao": 1.0,
+    "diagnostico_faixas": [
+      "facil",
+      "media",
+      "dificil"
+    ]
+  },
+  "automatico": {
+    "descricao": "Politica automatica com alternativas explicitas. Nao altera posterior, dp, limites do perfil nem historico; nao relaxa filtros de qualidade, bloqueios, area, lingua, formato, grupo de escala, exposicao recente ou unicidade de grupo.",
+    "cobertura_inicial_ate_n": 3,
+    "reforco": {
+      "criterio": "desempenho observado x probabilidades previstas antes de cada resposta; erros sao eventos esperados e a contagem de erros sozinha nao aciona reforco",
+      "janela_recente": 10,
+      "min_respostas_com_previsao": 6,
+      "z_limite": 2.0,
+      "passo_ajuste": 0.025,
+      "ajuste_max": 0.05,
+      "ativar_se_ja_foi_suficiente": false,
+      "nota": "Erros sao esperados; nao ha reforco nem rebaixamento por contagem fixa de erros. Perfil que volta a ficar incerto usa diagnostico direcionado ao perfil atual. z_limite e um limiar operacional, nao um teste estatistico confirmatorio."
+    },
+    "diagnostico_direcionado": {
+      "criterio": "informacao_mutua_resposta_theta_no_posterior",
+      "prob_min_acessivel": 0.35,
+      "prob_max_acessivel": 0.85,
+      "peso_acessibilidade": 0.5
+    },
+    "adequacao": {
+      "prob_minima_apos_cobertura": 0.35,
+      "sondagem_diagnostica": {
+        "prob_minima": 0.30,
+        "ganho_informacao_minimo_nats": 0.01,
+        "max_consecutivas": 3
+      },
+      "nota": "Limiar operacional experimental para o modo automatico apos o diagnostico inicial. Quando nao ha itens suficientemente acessiveis, retorna limitacao de catalogo; nao altera theta, incerteza nem o nivel manual."
+    },
+    "peso_informacao": 0.2,
+    "jitter": 0.15,
+    "alternativa_fora_da_faixa": {
+      "ativa": true,
+      "criterio": "menor_distancia_ate_a_faixa_alvo",
+      "nota": "Itens fora da faixa sao marcados na_faixa_alvo=false e a probabilidade estimada real e informada."
+    },
+    "revisao_automatica": {
+      "ativa": true,
+      "min_respostas": 3,
+      "min_erros": 2,
+      "acuracia_max": 0.5,
+      "bonus": 0.6,
+      "nao_priorizar_se_nas_ultimas": 2,
+      "tentativas_consideradas": "primeira_sem_ajuda, mesma area; com previsao registrada, so prioriza se os acertos ficaram abaixo do previsto",
+      "margem_acertos_abaixo_do_previsto": 1.0
+    }
+  }
+}
