@@ -1,19 +1,20 @@
 # Catálogo de recomendações
 
-> **Situação em 11/11/2026:** nenhum app ou backend usa estes arquivos ainda. São listas de sugestões
+> **Situação em 13/11/2026:** nenhum app ou backend usa estes arquivos ainda. São listas de sugestões
 > calculadas de antemão e guardadas aqui, à espera da integração (o backend aguarda aprovação).
 > Também não existe recomendador por dificuldade: o campo `nivel` é só uma informação guardada, não é usado
 > por nenhum método.
 
 ## Catálogo do método oficial: `recomendacoes_titulo_area.json`
 
-Gerado por `python recomendador.py exportar` (padrão `--metodo titulo_area`). Para cada uma das 2.063
+Gerado por `python recomendador.py exportar` (padrão `--metodo titulo_area`). Para cada uma das 2.731
 questões elegíveis, guarda até 50 sugestões, da mais para a menos parecida.
 
 - As sugestões são sempre da **mesma matéria e do mesmo título** da questão (ex.: Física › Ondulatória e
   óptica). Matéria e título são classificação nossa (árvore v1.2), não dado do INEP.
-- As listas podem ter **menos de 50** sugestões (mediana 34), porque cada título é finito. Nenhuma lista
-  tem entre 1 e 4; **23 questões têm lista vazia** (sem rótulo por defeito de texto).
+- As listas podem ter **menos de 50** sugestões (mediana 45), porque cada título é finito.
+  A menor lista não vazia tem 7 sugestões; **68 questões têm lista vazia** (67 bloqueadas
+  por defeito de texto e uma sem candidato compatível após os filtros).
 - Nunca aparecem como sugestão: a própria questão, outra da mesma família, questões com defeito e
   duplicatas. Em inglês/espanhol, só questões da mesma língua.
 
@@ -34,14 +35,17 @@ A galeria inclui todas as questões elegíveis (treino, validação e teste); na
 ## Sugestão para quando houver integração (ainda não implementado)
 
 Uma forma simples de usar o catálogo: pegar a lista da questão que o aluno acabou de fazer, tirar as que
-ele já respondeu e as de `alerta_grave`, e mostrar as primeiras, junto com a matéria e o título. Para as 23
+ele já respondeu e as de `alerta_grave`, e mostrar as primeiras, junto com a matéria e o título. Para as 68
 questões sem lista, mostrar "sem sugestões". Usar `nivel` para filtrar por dificuldade é uma possibilidade
 futura, ainda não decidida nem avaliada.
 
 ## Outros arquivos
 
-- `alertas_texto.json`: os 181 defeitos de texto conhecidos (131 só de `##`), vindos de uma busca
-  automática, das avaliações cegas 1 e 2 e da avaliação em escala. É a lista de partida para corrigir a base.
+- `alertas_texto.json`: 67 bloqueios por defeito e duas ressalvas da prova original. Os alertas antigos
+  corrigidos foram removidos; histórico em `../resultados/base_final/auditoria_alertas.json`.
 - `recomendacoes_rrf_qwen.json`: catálogo do método `rrf_qwen` (oficial de 06/11 a 11/11/2026), mesma
   área sem filtro de título. Só histórico.
 - `recomendacoes_arvore.json` e `recomendacoes_titulo.json`: candidatos testados e não adotados.
+
+Base final do dataset: e6712a8. SHA-256 `6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f`.
+Conferências, limitações e validação em [RELATORIO_BASE_FINAL.md](../RELATORIO_BASE_FINAL.md).
