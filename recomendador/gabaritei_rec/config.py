@@ -20,11 +20,8 @@ def carregar_config(caminho: Path | None = None) -> dict[str, Any]:
 
 
 def sha256_arquivo(caminho: Path) -> str:
-    h = hashlib.sha256()
-    with open(caminho, "rb") as f:
-        for bloco in iter(lambda: f.read(1 << 20), b""):
-            h.update(bloco)
-    return h.hexdigest()
+    """Verifica o conteudo sem depender da conversao LF/CRLF feita pelo Git no Windows."""
+    return hashlib.sha256(caminho.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 

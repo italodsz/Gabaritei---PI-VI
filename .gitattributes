@@ -1,4 +1,0 @@
-* text=auto eol=lf
-*.cmd text eol=crlf
-# O manifesto verifica os bytes exatos do catalogo; nao converter as quebras de linha.
-recomendador/artefatos/*.json -text

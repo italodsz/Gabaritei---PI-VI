@@ -3,7 +3,9 @@ setlocal
 chcp 65001 >nul
 cd /d "%~dp0"
 title Gabaritei - Recomendador de questoes
-if exist ".venv\Scripts\python.exe" goto ambiente
+set "GABARITEI_PASTA=%LOCALAPPDATA%\GabariteiRecomendador"
+if defined GABARITEI_LOCAL set "GABARITEI_PASTA=%GABARITEI_LOCAL%"
+if exist "%GABARITEI_PASTA%\ambiente\Scripts\python.exe" goto ambiente
 py -3 -c "import sys; sys.exit(not (sys.version_info >= (3, 11)))" >nul 2>&1
 if not errorlevel 1 goto launcher
 python -c "import sys; sys.exit(not (sys.version_info >= (3, 11)))" >nul 2>&1
@@ -13,15 +15,15 @@ echo Durante a instalacao, habilite a opcao de adicionar o Python ao PATH.
 set "RESULTADO=1"
 goto fim
 :launcher
-py -3 -X utf8 iniciar.py %*
+py -3 -X utf8 recomendador\iniciar.py %*
 set "RESULTADO=%ERRORLEVEL%"
 goto fim
 :python
-python -X utf8 iniciar.py %*
+python -X utf8 recomendador\iniciar.py %*
 set "RESULTADO=%ERRORLEVEL%"
 goto fim
 :ambiente
-".venv\Scripts\python.exe" -X utf8 iniciar.py %*
+"%GABARITEI_PASTA%\ambiente\Scripts\python.exe" -X utf8 recomendador\iniciar.py %*
 set "RESULTADO=%ERRORLEVEL%"
 :fim
 echo.
