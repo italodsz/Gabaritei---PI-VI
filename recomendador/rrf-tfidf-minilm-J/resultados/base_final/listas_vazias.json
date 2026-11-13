@@ -1,0 +1,478 @@
+[
+  {
+    "id": "gq_1a3a6d4a138f7ba1fba29cef",
+    "motivo": "sem candidato compatível no título/língua após filtros",
+    "area": "CH",
+    "materia": "Literatura",
+    "titulo": "Modernismo"
+  },
+  {
+    "id": "gq_066314bf1f8f941709b79096",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_f2397084cdb1812161183ab0",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_cbb55dd3f9b3112e7a7e1f69",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_8c3dd89367ad77eb5f8fc5eb",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_faa9bf59096effb09398f714",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d8f951c886ba559c421adfb1",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_44864ae8288d10ca8375e50f",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_e1d1171610f41b07cc98c7b5",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_79378440f3251fba5cc80a8f",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_cb78a5a8f9c6ff825d204f61",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_6a697545f71aa52dee715749",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d22c86d9e498d00d302ca7b8",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_832befa032a6052798229be6",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_fd39fa56e738ebbd4f3ee49e",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_59a7688f3055cf9a9bcfde53",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_4499f615e6f0ac5563c820d0",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_0e84a2a6222e75083487a195",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_da70749013f7eaf5c4fb5205",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_2cc961a9113dd6b2427a8a95",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_f6d46bf2121de8a0b1e19ac0",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_8d27607bc1dd7eab710dc3a2",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_4c5b346895231c61e9b6370d",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_b667f3461d7c1edfb2d8be3e",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_674cc68b021264b8b8fe0a39",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_c07463f439897310019233b4",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d98826f00c663b2acc7338b8",
+    "motivo": "defeito de texto",
+    "area": "CH",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_551d3a7110c9d57ad8a0703c",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_889f9373563ffc0e945ad206",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_7aa17072b2effe6d2d2d1592",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_0e9844dc6b666c515f1f3e1b",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_96332204d78f9b567d129b92",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_94feaee05215e6f6e55db65a",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_19318f4c86b781130b977ea9",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_01b5eaca21b50f3a342fdf87",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_aa9ac67e46d6e5c5debdb8bb",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_22b049c90245da6181f0c22e",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_3b54a8ea2f3e1b660f799b47",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_ac172c8e65604a4f61e81894",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_ceec746ce6968349932baab3",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_18d9e12f40a3c5e0ee07681d",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_253a836560b63b261e400b16",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_ec50449c7a73c5cd92024dc6",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_3aa626d3db3f2998ee5ed1d9",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_dd0c39e797c9c13ac7271fb4",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_f6bfb042b1e67117f55d4d96",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_31ebd16339a4476b997b9957",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d6130e35d8e076f34c1e6b56",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_a3de9f8815944cc6dbf2dded",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_335e97bc3d09118b0651e71d",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_a48fe7e058b364d4116ed42d",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d39aa6677f5ba6c5a6441df2",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_9387692056c79a68b575d719",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_bf52212730c2135d8981c140",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_a7dc87ca8099d6d7fc112e11",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_07d9d76e81010dc398e96054",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_20bdd5b7c3097a561b733c7f",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_0c996eb84c5e926eb15fc6b2",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_ec3734e81fafaaad7701f1b2",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_683b37c936de0eeb761759ee",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_aa958b2b47fdff6b2a3f48ed",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_352f61b8a550e8b5c0247ab8",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_d9f11d43647b9caa03c99e7b",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_9e66a5acdc8b2e0900f82bc7",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_f1e1e9d8e2a64163cf0ee4ca",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_293e60681da8ab07e671f163",
+    "motivo": "defeito de texto",
+    "area": "LC",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_0a4199e81f3d147cd10c624f",
+    "motivo": "defeito de texto",
+    "area": "MT",
+    "materia": null,
+    "titulo": null
+  },
+  {
+    "id": "gq_30b06ffed3341abc13b9d0c2",
+    "motivo": "defeito de texto",
+    "area": "CN",
+    "materia": null,
+    "titulo": null
+  }
+]

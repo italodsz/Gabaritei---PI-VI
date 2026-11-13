@@ -1,0 +1,36 @@
+{
+  "questoes": 2731,
+  "elegiveis": {
+    "train": 2382,
+    "validation": 175,
+    "test": 174
+  },
+  "listas_vazias": 68,
+  "motivos_vazias": {
+    "sem candidato compatível no título/língua após filtros": 1,
+    "defeito de texto": 67
+  },
+  "mediana_tamanho": 45.0,
+  "minimo_nao_vazio": 7,
+  "sem_rotulo": 0,
+  "defeitos": 67,
+  "duplicatas": 7,
+  "tfidf_fit_so_treino_verificado": true,
+  "ids_vetores_alinhados": true,
+  "qwen_sha256": "10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5",
+  "pares_afetados": 13,
+  "semente_comparacao": 20261113,
+  "testes_de_configuracao_no_teste": false,
+  "normas_vetores": {
+    "minilm": {
+      "minimo": 0.9999998211860657,
+      "maximo": 1.0000001192092896,
+      "tolerancia_absoluta": 2e-05
+    },
+    "qwen": {
+      "minimo": 0.9963662624359131,
+      "maximo": 1.003902554512024,
+      "tolerancia_absoluta": 0.005
+    }
+  }
+}
