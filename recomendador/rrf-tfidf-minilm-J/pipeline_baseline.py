@@ -67,7 +67,10 @@ def clean(text):
 def question_text(q):
     # Deliberately never read answer, skill, TRI, area or generated pedagogy here.
     options = sorted(q['options'], key=lambda x: x['label'])
-    return '\n'.join([clean(q['question'])] + [clean(o.get('text', '')) for o in options]).strip()
+    descriptions = [clean(d.get('text', '')) for d in q.get('descriptions', [])
+                    if d.get('use_for_recommender') is True]
+    return '\n'.join([clean(q['question'])] + descriptions
+                     + [clean(o.get('text', '')) for o in options]).strip()
 
 
 def load_source(source):

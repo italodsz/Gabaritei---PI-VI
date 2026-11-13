@@ -32,7 +32,19 @@ não deve ser executado como atualização incremental.
 ## Andamento
 
 - Base copiada e conferida.
-- Texto, classificação, índices, catálogo e comparação: em execução.
+- Texto atualizado: enunciado, descrições com flag booleana true na ordem original,
+  alternativas ordenadas pelo rótulo; todas as partes passam por clean.
+- Teste reproduzível: verificar_texto_base_final.py. Exemplos completos de Tardelli,
+  Maritaca, ledor e questão sem imagem em resultados/base_final/exemplos_texto.md.
+- Auditoria dos consumidores: recomendador.py, gerar_vetores_qwen.py,
+  atualizar_qwen_parcial.py e os três scripts do classificador chamam question_text.
+  sinais.py contém extratores especializados: comando (última frase e alternativas),
+  formato (alternativas), nomes, gênero, época e escala. Foram preservados para não
+  mudar os pesos/sinais do método congelado nesta migração; as descrições entram
+  integralmente nas representações principais TF-IDF, MiniLM e Qwen.
+  resposta lê o gabarito, mas é sinal experimental já existente, fora da receita
+  oficial; question_text não acessa esse campo.
+- Classificação, índices, catálogo e comparação: em execução.
 - 681 elegíveis sem rótulo: 283 MT, 170 CN, 63 CH e 165 LC.
 - 165 descrições elegíveis ao recomendador têm text_scope de texto completo
   reescrito do caderno do ledor, sem alternativas; são incluídas conforme solicitado.
