@@ -4,9 +4,14 @@ Autor: Ítalo. **Recomendador de trabalho do Gabaritei; não validado para todas
 
 Estado e limitações atualizados: [ESTADO_ATUAL.md](ESTADO_ATUAL.md).
 
-Combina TF-IDF e MiniLM em blocos por fusão de posições (RRF, k = 60) sobre a base de
-trabalho das etapas 1 a 3 (2.971 questões; 2.063 elegíveis: 1.801 treino, 136 validação,
-126 teste). A galeria é o treino elegível; filtros de mesma área e família de conteúdo.
+Atualização de 13/11/2026: usa a base final do dataset (e6712a8), com 3.086 questões
+e 2.731 elegíveis: 2.382 treino, 175 validação e 174 teste.
+SHA-256: `6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f`.
+O texto de busca inclui as descrições explicitamente marcadas para o recomendador.
+O método oficial continua sendo `titulo_area`, com os mesmos filtros e pesos.
+TF-IDF ajustado só no treino; catálogo com galeria de todos os elegíveis.
+Migração, defeitos e validação: [RELATORIO_BASE_FINAL.md](RELATORIO_BASE_FINAL.md).
+Os resultados nas seções históricas abaixo se referem à base anterior.
 
 ## Rodar
 
@@ -24,11 +29,11 @@ O índice já está em `indice/`. Para reconstruí-lo:
 
 Ver `DECISAO_FINAL.json`. Testes de melhoria em `resultados/`.
 
-## Pendência
+## Recodificação da base final
 
-O vetor MiniLM da V01 (gq_14561aefce51ecddf26b4262) ainda é o da v2.1-rc1, de antes da
-correção da fórmula. Está listado em `indice/config.json`. Rode `construir --recodificar`
-num computador com acesso ao HuggingFace para eliminar isso.
+O MiniLM foi recodificado integralmente, incluindo a V01
+(`gq_14561aefce51ecddf26b4262`). Não há vetores MiniLM pendentes.
+Os rótulos novos e as descrições ainda precisam da conferência humana por amostra.
 
 ## Resultado na validação (45 pares com nota, 44 comparações)
 

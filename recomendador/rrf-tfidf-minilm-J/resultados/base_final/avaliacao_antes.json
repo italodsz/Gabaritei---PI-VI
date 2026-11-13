@@ -1,0 +1,42 @@
+{
+  "tfidf": {
+    "certos": 30,
+    "comparacoes": 44,
+    "taxa": 0.6818181818181818
+  },
+  "minilm": {
+    "certos": 24,
+    "comparacoes": 44,
+    "taxa": 0.5454545454545454
+  },
+  "rrf": {
+    "certos": 33,
+    "comparacoes": 44,
+    "taxa": 0.75
+  },
+  "qwen": {
+    "certos": 39,
+    "comparacoes": 44,
+    "taxa": 0.8863636363636364
+  },
+  "rrf_qwen": {
+    "certos": 39,
+    "comparacoes": 44,
+    "taxa": 0.8863636363636364
+  },
+  "arvore": {
+    "certos": 40,
+    "comparacoes": 44,
+    "taxa": 0.9090909090909091
+  },
+  "titulo": {
+    "certos": 9,
+    "comparacoes": 10,
+    "taxa": 0.9
+  },
+  "titulo_area": {
+    "certos": 8,
+    "comparacoes": 10,
+    "taxa": 0.8
+  }
+}
