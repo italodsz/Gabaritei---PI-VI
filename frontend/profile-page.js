@@ -3,6 +3,7 @@
 // conquistas com medalhas, filtro e detalhe, e o card de metas pessoais de
 // features/performance/GoalsCard.tsx). Componentes em legacy-ui.js.
 import { animate, spring, duration, ease, countTo, reduced, snapshot, flipList } from './motion-kit.js';
+import * as Dif from './dificuldade-cliente.js';
 import { esc, hi, pct, tile, cardHeader, card, badge, btn, seg, switchRow, progress, rerender, playBars, playReveal, animateSwitch } from './legacy-ui.js';
 
 const ACH_ICON = { footprints: 'Footprints', flame: 'Flame', target: 'Target', trophy: 'Trophy', mountain: 'Mountain', compass: 'Compass', crosshair: 'Crosshair', rotate: 'RotateCcw', sparkles: 'Sparkles', calendar: 'Calendar', medal: 'Medal', zap: 'Zap' };
@@ -63,6 +64,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
           <div class="pf-meta">${p.school ? `<span>${hi('School')}${esc(p.school)}</span>` : ''}${p.city ? `<span>${hi('MapPin')}${esc(p.city)}</span>` : ''}<span>${hi('CalendarDays')}Desde ${dateLong(p.createdAt)}</span></div></div>
         <div class="pf-stats">${stats.map(s => `<div>${hi(s.icon)}<p data-count="${s.value}" data-fmt="${s.fmt}">${s.value}</p><small>${s.label}</small></div>`).join('')}</div>
       </div>`, { surface: 'ink', padded: 'lg', cls: 'pf-span-12 pf-hero-card' })}
+      ${triHTML()}
       ${card(`${cardHeader('Informações pessoais', 'Guardadas apenas neste navegador')}
         <form id="pf-form" novalidate><div class="pf-fields">
           ${field('name', 'Nome', p.name, { error: state.error })}${field('nickname', 'Apelido', p.nickname, { placeholder: 'Como prefere ser chamado' })}
@@ -83,6 +85,37 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
     $$('.pf-ach-item').forEach((el, i) => animate(el, { opacity: [0, 1], scale: [0.85, 1] }, { ...spring.soft, delay: i * 0.03 }));
     $$('.pf-goal').forEach((el, i) => animate(el, { opacity: [0, 1], y: [10, 0] }, { duration: duration.slow, ease: ease.out, delay: 0.1 + i * 0.07 }));
     $$('.pf-ring-arc').forEach(arc => { if (!reduced()) arc.animate([{ strokeDashoffset: arc.dataset.full }, { strokeDashoffset: arc.dataset.target }], { duration: 900, easing: 'cubic-bezier(0.2,0,0,1)', fill: 'both' }); });
+  }
+
+
+  /** Nota estimada pela TRI (parâmetros oficiais do INEP; tabela θ→nota ajustada nos microdados do ENEM). */
+  function triHTML() {
+    const r = Dif.resumo();
+    if (!r) return '';
+    const NOMES = { LC: 'Linguagens', CH: 'Ciências Humanas', CN: 'Ciências da Natureza', MT: 'Matemática' };
+    const ORDEM = ['LC', 'CH', 'CN', 'MT'];
+    const linha = area => {
+      const s = r.resumos.find(x => x.area === area);
+      const pts = r.historico.filter(h => h.area === area).slice(-12);
+      const valor = s.status === 'calibrando' ? `<span class="pf-tri-cal">Calibrando: responda mais ${s.faltam} ${s.faltam === 1 ? 'questão' : 'questões'}</span>`
+        : s.status === 'abaixo-500' ? '<strong>abaixo de 500</strong>'
+        : `<strong>≈ ${s.nota}</strong><span>entre ${s.min} e ${s.max}</span>`;
+      return `<li class="pf-tri-row"><span class="pf-tri-area">${NOMES[area]}</span><span class="pf-tri-val">${valor}</span>${sparkline(pts, NOMES[area])}</li>`;
+    };
+    const ag = r.agregados;
+    const chips = [['Média geral', ag.geral], ['Exatas', ag.exatas], ['Humanas', ag.humanas]].map(([k, v]) => `<span class="pf-tri-chip"><small>${k}</small><b>${v ?? '—'}</b></span>`).join('');
+    return card(`${cardHeader('Nota estimada (TRI)', 'Estimativa pelas suas respostas no Gabaritei, na escala do ENEM. Não é a nota oficial.', tile('Target', 'gold'))}
+      <div class="pf-tri-chips">${chips}</div>
+      <ul class="pf-tri">${ORDEM.map(linha).join('')}</ul>
+      <p class="pf-hint">A faixa mostra a incerteza e fica mais estreita conforme você responde. Questões repetidas ou com apoio não entram no cálculo.</p>`, { cls: 'pf-span-12' });
+  }
+
+  function sparkline(pts, nome) {
+    if (pts.length < 2) return '<span class="pf-tri-spark is-empty" aria-hidden="true"></span>';
+    const W = 120, H = 30, vs = pts.map(p => p.nota), lo = Math.min(...vs) - 10, hi_ = Math.max(...vs) + 10;
+    const x = i => (i / (pts.length - 1)) * (W - 4) + 2, y = v => H - 3 - ((v - lo) / (hi_ - lo || 1)) * (H - 6);
+    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(p.nota).toFixed(1)}`).join('');
+    return `<svg class="pf-tri-spark" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Evolução da nota estimada em ${esc(nome)}: de ${vs[0]} para ${vs.at(-1)}"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="${x(pts.length - 1)}" cy="${y(vs.at(-1))}" r="2.5" fill="currentColor"/></svg>`;
   }
 
   function field(name, label, value, { optional = false, placeholder = '', error = null } = {}) {

@@ -16,4 +16,4 @@ export async function carregarAcervo() {
 }
 
 export const recomendarQuestao = (id, exclude = [], limit = 5) => request(`/api/questoes/${encodeURIComponent(id)}/recomendacoes`, { method: 'POST', body: JSON.stringify({ exclude, limit }) });
-export const conferirResposta = (id, selected) => request(`/api/questoes/${encodeURIComponent(id)}/responder`, { method: 'POST', body: JSON.stringify({ selected }) });
+export const conferirResposta = (id, selected, extra = {}) => request(`/api/questoes/${encodeURIComponent(id)}/responder`, { method: 'POST', body: JSON.stringify({ selected, ...extra }) });

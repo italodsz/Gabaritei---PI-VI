@@ -1,5 +1,6 @@
 import { espelhar, usuarioAtual } from './conta.js';
-import * as E from './assets/learning-engine.js';
+import * as Engine from './assets/learning-engine.js';
+import * as Dif from './dificuldade-cliente.js';
 import { createPracticeScreen } from './practice-screen.js';
 import { createHistoryPage } from './history-page.js';
 import { createConfigStudio } from './config-studio.js';
@@ -8,6 +9,8 @@ import { createExamScreen } from './exam-screen.js';
 import { hi } from './legacy-ui.js';
 import { pageEnter } from './motion-kit.js';
 
+/** Motor de estudos com o recomendador de dificuldade (Montar lista e Seleção automática). */
+const E = Dif.comDificuldade(Engine);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pct = value => `${Math.round((value || 0) * 100)}%`;
 const num = value => new Intl.NumberFormat('pt-BR').format(value);
@@ -57,7 +60,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   function preserveRender(renderFn) { const focused = document.activeElement?.getAttribute('data-focus'); renderFn(); if (focused) $$('[data-focus]').find(el=>el.dataset.focus===focused)?.focus({preventScroll:true}); }
 
   function startTopic(id) { const t=E.TOPIC_BY_ID[id];if(!t)return;const f={...E.EMPTY_FILTERS,subjectId:t.subjectId,topicIds:[id],count:account.study.defaultQuestionCount};const ids=E.selectPracticeQuestions(f,records(),Date.now(),account.onboarding.level);beginList(t.name,ids,'recommended',f); }
-  function beginList(title,ids,mode,filters,onComplete) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return null;}const created=E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:account.study.practiceTimer,now:Date.now()});account.practiceSessions.push(created);save();openSession(created,{onComplete});return created; }
+  function beginList(title,ids,mode,filters,onComplete) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return null;}const created=E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:account.study.practiceTimer,now:Date.now()});created.previsto=Dif.previsto(ids,E.questionRepository);account.practiceSessions.push(created);save();openSession(created,{onComplete});return created; }
 
   const studio = createConfigStudio({
     E, root, account: () => account, records, save, toast, saveToNotes,
@@ -97,7 +100,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const exam = createExamScreen({
     E, hi, toast, save, getAccount: () => account,
     onExit: () => { if (!root.hidden && ['historico', 'simulado-personalizado'].includes(page)) mount(page, { enter: false }); onChange(); },
-    onFinished: sim => { openSimulationResult(sim, { kicker: 'RESULTADO DO SIMULADO' }); onChange(); },
+    onFinished: sim => { Dif.registrarSimulado(sim, E.questionRepository, E.collectAnswerRecords({ practiceSessions: account.practiceSessions, simulations: account.simulations.filter(s => s.id !== sim.id) })); openSimulationResult(sim, { kicker: 'RESULTADO DO SIMULADO' }); onChange(); },
   });
   function openExam(sim) { if (sim) exam.open(sim); }
   /** Cria um simulado com as questões escolhidas e abre a prova. */

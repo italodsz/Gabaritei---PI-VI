@@ -6,6 +6,7 @@
 import { animate, spring, duration, ease, countTo, collapse, reduced } from './motion-kit.js';
 import { esc, hi, pct, SUBJECT_ICON, tile, cardHeader, card, badge, btn, progress, playBars, rotateChevron } from './legacy-ui.js';
 import { questionTextHTML, descriptionsHTML } from './question-text.js';
+import * as Dif from './dificuldade-cliente.js';
 
 const DIFFICULTY = { facil: 'Fácil', media: 'Média', dificil: 'Difícil' };
 const clock = ms => { const t = Math.max(0, Math.floor(ms / 1000)); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; const p = n => String(n).padStart(2, '0'); return h ? `${h}:${p(m)}:${p(s)}` : `${p(m)}:${p(s)}`; };
@@ -18,6 +19,7 @@ function verdict(acc) {
   if (acc >= 0.4) return { title: 'Continue praticando', text: 'Cada erro revisado vira acerto na prova. Vamos revisar?' };
   return { title: 'Hora de revisar a base', text: 'Releia as explicações com calma e tente novamente em seguida.' };
 }
+
 
 export function resultHTML(E, session, { simulation = null } = {}) {
   const r = E.practiceResult(session, Date.now());
@@ -48,7 +50,7 @@ export function resultHTML(E, session, { simulation = null } = {}) {
           <div class="rs-ring" role="img" aria-label="Acerto de ${pct(acc)}"><svg width="168" height="168" viewBox="0 0 168 168"><circle cx="84" cy="84" r="${R}" fill="none" stroke="var(--lg-ink-raised-strong)" stroke-width="14"/><circle id="rs-ring-arc" cx="84" cy="84" r="${R}" fill="none" stroke="var(--lg-gold)" stroke-width="14" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C * (1 - acc)}" data-full="${C}" data-target="${C * (1 - acc)}" transform="rotate(-90 84 84)" style="${acc === 0 ? 'opacity:0' : ''}"/></svg>
             <div class="rs-ring-label"><p><span id="rs-acc" data-to="${Math.round(acc * 100)}">${Math.round(acc * 100)}%</span></p><small>de acerto</small></div></div></div>
         <div class="rs-hero-copy"><p class="rs-kicker">${simulation ? (inProgress ? 'Simulado em andamento' : 'Simulado finalizado') : inProgress ? 'Resultado parcial' : 'Lista concluída'}</p>
-          <h1>${v.title}</h1><p class="rs-verdict">${v.text}</p>
+          <h1>${v.title}</h1><p class="rs-verdict">${v.text}</p>${simulation ? '' : esperadoHTML(session)}
           <p class="rs-meta">${esc(session.title)} · ${dateLong(session.completedAt ?? session.updatedAt)} às ${time(session.completedAt ?? session.updatedAt)}</p>
           <div class="rs-actions">${r.wrongIds.length ? btn(`Refazer ${r.wrongIds.length} ${r.wrongIds.length === 1 ? 'erro' : 'erros'}`, { variant: 'accent', icon: 'RotateCcw', extra: { id: 'rs-retry' } }) : ''}${btn(simulation ? 'Novo simulado' : 'Nova lista', { variant: 'on-ink', icon: 'Plus', extra: { id: 'rs-new' } })}${btn('Início', { variant: 'on-ink', icon: 'House', extra: { id: 'rs-home' } })}${btn('Salvar nas notas', { variant: 'on-ink', icon: 'NotebookPen', extra: { id: 'rs-note' } })}</div></div>
       </div>`, { surface: 'ink', padded: 'lg', cls: 'rs-span-12 rs-hero-card' })}
@@ -137,4 +139,13 @@ function burst(host) {
       { transform: `translate(${Math.cos(angle) * dist}px,${Math.sin(angle) * dist}px) scale(.6) rotate(${Math.random() * 260 - 130}deg)`, opacity: 0 },
     ], { duration: 950, delay: 120 + Math.random() * 80, easing: 'cubic-bezier(.16,1,.3,1)', fill: 'both' }).finished.then(() => p.remove());
   }
+}
+
+/** Acertos contra o esperado pela TRI para o nível do aluno (chances calculadas quando a lista foi criada). */
+function esperadoHTML(session) {
+  const e = Dif.esperado(session);
+  if (!e) return '';
+  const fmt = v => v.toLocaleString('pt-BR', { maximumFractionDigits: 1 });
+  const acima = e.acertos >= e.esperado + 0.5, abaixo = e.acertos <= e.esperado - 0.5;
+  return `<p class="rs-esperado ${acima ? 'is-acima' : abaixo ? 'is-abaixo' : ''}">Você acertou ${e.acertos} de ${e.n}; para o seu nível, o esperado era ${fmt(e.esperado)}. ${acima ? 'Acima do esperado.' : abaixo ? 'Abaixo do esperado desta vez: cada erro mostra o próximo passo.' : 'Dentro do esperado.'}</p>`;
 }

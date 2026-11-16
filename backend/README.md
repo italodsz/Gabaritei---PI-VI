@@ -28,6 +28,10 @@ o catálogo, repita a auditoria e registre ali os novos hashes e commits de orig
 | GET/PUT | `/api/eu/estudos` · `/plano` · `/notas` | Dados do usuário. PUT recebe `{data, baseRevisao}`; 409 se a revisão mudou |
 | POST/DELETE | `/api/eu/senha` · `/api/eu` | Trocar senha (encerra as outras sessões); excluir conta e todos os dados |
 | GET | `/api/eu/exportar` | Todos os dados do usuário em JSON |
+| GET | `/api/dificuldade/config` | Configuração do recomendador de dificuldade |
+| GET/PUT | `/api/eu/perfil-tri` | Nota TRI estimada por área, histórico; PUT sobe o perfil feito sem login |
+| POST | `/api/eu/perfil-tri/respostas` | Respostas de simulado para o perfil TRI |
+| POST | `/api/recomendar` | Modos `semelhante`, `conjunto`, `aleatorio`, com ou sem dificuldade ([docs](../docs/recomendador-dificuldade.md)) |
 
 Recomendações por POST recebem `{"exclude":["gq_..."],"limit":10}`. Excluem também
 as famílias dos IDs informados. Lista vazia retorna uma justificativa, sem trocar

@@ -5,6 +5,7 @@
 // critério de seleção, cronômetro regressivo; correção só ao finalizar).
 import { animate, spring, duration, ease, tabContentIn, collapse, countTo, reduced } from './motion-kit.js';
 import { recomendarQuestao } from './acervo-api.js';
+import * as Dif from './dificuldade-cliente.js';
 import { esc, hi, pct, SUBJECT_ICON, pageHeader, tile, cardHeader, card, badge, chip, btn, seg, tabs, switchRow, checkbox, progress, rerender, playBars, playReveal, rotateChevron, animateSwitch, bindTabKeys } from './legacy-ui.js';
 
 const AREA_ORDER = ['linguagens', 'humanas', 'natureza', 'matematica'];
@@ -186,7 +187,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
       <p class="cfg-sum-count"><span id="cfg-count" data-value="${lastSummary?.count ?? v.count}">${lastSummary?.count ?? v.count}</span><span>questões</span></p>
       <dl class="cfg-sum-rows">${v.rows.map(([k, val]) => `<div><dt>${k}</dt><dd><span data-row="${esc(k)}">${esc(val)}</span></dd></div>`).join('')}</dl>
       <div class="cfg-warn-box" id="cfg-warn" ${warn ? '' : 'hidden'}><p>${hi('AlertTriangle')}<span>${warn}</span></p></div>
-      <div class="cfg-sum-switch">${mode === 'practice' ? switchRow('cfg-timer', practice.timer, 'Cronômetro visível', 'Você pode ocultá-lo durante a lista.') : `<p class="cfg-sum-note">${hi('Info')}Sem correção imediata. O resultado, com gabarito e explicações, aparece ao finalizar.</p>`}</div>
+      ${mode === 'practice' && Dif.pronto() ? `<div class="cfg-desafio"><p class="cfg-sum-label">Desafio</p>${seg('desafio', Dif.desafio(), [{ value: 'leve', label: 'Leve' }, { value: 'ponto', label: 'No ponto' }, { value: 'puxado', label: 'Puxado' }], { aria: 'Nível de desafio das questões', size: 'sm', full: true })}<p class="cfg-hint">${{ leve: 'Prefere questões com cerca de 85% de chance de acerto.', ponto: 'Prefere questões com cerca de 75% de chance de acerto.', puxado: 'Prefere questões com cerca de 65% de chance de acerto.' }[Dif.desafio()]} Quando não há questões assim no tema, vêm as mais acessíveis.</p></div>` : ''}<div class="cfg-sum-switch">${mode === 'practice' ? switchRow('cfg-timer', practice.timer, 'Cronômetro visível', 'Você pode ocultá-lo durante a lista.') : `<p class="cfg-sum-note">${hi('Info')}Sem correção imediata. O resultado, com gabarito e explicações, aparece ao finalizar.</p>`}</div>
       ${btn(mode === 'practice' ? 'Começar lista' : 'Começar simulado', { variant: 'accent', size: 'lg', icon: 'Play', full: true, cls: 'cfg-start', extra: { id: 'cfg-start', ...(v.available ? {} : { disabled: true }) } })}
       ${mode === 'simulation' ? `<button type="button" class="cfg-save-note" id="cfg-note">${hi('NotebookPen')}Guardar esta configuração nas notas</button>` : ''}`, { padded: 'lg' })}</aside>`;
   }
@@ -349,6 +350,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
       if (b.dataset.seg === 'count') practice.count = Number(v);
       if (b.dataset.seg === 'size') sim.size = Number(v);
       if (b.dataset.seg === 'pace') sim.pace = v;
+      if (b.dataset.seg === 'desafio') Dif.definirDesafio(v, save);
       update();
     });
     $$('[data-criteria]').forEach(b => b.onclick = () => { if (sim.criteria === b.dataset.criteria) return; sim.criteria = b.dataset.criteria; update(); });

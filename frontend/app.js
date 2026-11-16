@@ -6,10 +6,12 @@ import { hi } from './legacy-ui.js';
 import { carregarAcervo } from './acervo-api.js';
 import { iniciarConta, espelhar } from './conta.js';
 import { montarConta } from './conta-ui.js';
+import { iniciarDificuldade } from './dificuldade-cliente.js';
 
 try {
   const info = await carregarAcervo();
   await iniciarConta();
+  await iniciarDificuldade({ account: () => learning.account() });
   document.documentElement.dataset.acervo = 'oficial';
   globalThis.__gabariteiAcervo = info;
   document.querySelector('#reset-demo').textContent = 'Restaurar plano inicial';

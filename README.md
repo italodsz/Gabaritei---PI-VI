@@ -4,6 +4,8 @@ Aplicativo de estudos para o ENEM com o front-end conectado ao acervo real e ao
 recomendador oficial `titulo_area`. Esta é a versão integrada para execução local,
 com banco de dados SQLite (contas opcionais). Sem entrar, o progresso fica só no navegador;
 entrando, ele é guardado no servidor. Detalhes em [docs/banco-de-dados.md](docs/banco-de-dados.md).
+O recomendador de dificuldade (nota TRI estimada e um toque de dificuldade nas listas) está descrito em
+[docs/recomendador-dificuldade.md](docs/recomendador-dificuldade.md).
 
 ## Abrir no Windows
 

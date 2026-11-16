@@ -4,6 +4,7 @@
 // Só o ícone da marca mudou. Toda mudança de estado passa pelos reducers do motor.
 import { resultHTML as legacyResultHTML, bindResultPage } from './result-page.js';
 import { recomendarQuestao, conferirResposta } from './acervo-api.js';
+import * as Dif from './dificuldade-cliente.js';
 import { questionTextHTML, descriptionsHTML } from './question-text.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -42,6 +43,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
   let session = null;
   let confirming = false;
   let adding = false;
+  const mostradaEm = new Map(); // questão -> instante em que apareceu (tempo de resposta para o TRI)
   let view = 'question';
   let showExplanation = true;
   let focusMode = false;
@@ -266,7 +268,15 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       <span class="qs-badge">${esc(topic?.name ?? '')}${sub ? ` · ${esc(sub)}` : ''}</span>
       <span class="qs-badge is-outline is-sm qs-push">ENEM ${q.year}${q.sourcePosition ? ` · questão ${q.sourcePosition}` : ''}</span>
       <span class="qs-badge is-outline is-sm">${q.difficultyKnown === false ? 'Dificuldade não informada' : DIFFICULTY[q.difficulty] ?? ''}</span>
+      ${chanceBadge(q)}
     </div>`;
+  }
+
+  /** Chance estimada de acerto pela TRI (parâmetros oficiais do INEP e o seu histórico nesta área). */
+  function chanceBadge(q) {
+    const p = session.previsto?.[q.id] ?? Dif.chanceDe(q);
+    if (!Number.isFinite(p)) return '';
+    return `<span class="qs-badge is-outline is-sm qs-chance" title="Estimativa pela TRI com os parâmetros oficiais do INEP e as suas respostas nesta área. Não é a nota oficial.">Chance estimada ${Math.round(p * 100)}%</span>`;
   }
 
   function bodyHTML(q) {
@@ -287,12 +297,15 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
         <div class="${focusMode ? '' : 'qs-gap'}">${bodyHTML(q)}</div>
         <div class="qs-alts" role="radiogroup" aria-label="Alternativas">${q.alternatives.map(a => `<button type="button" class="qs-alt ${focusMode ? 'is-large' : ''}" role="radio" data-letter="${a.letter}"><span class="qs-alt-letter"><span class="qs-alt-glyph">${a.letter}</span></span><span class="qs-alt-text">${esc(a.text)}</span><span class="qs-alt-tag" id="alt-state-${a.letter}"></span></button>`).join('')}</div>
       </div>
+      <div id="qs-apoio"></div>
       <div id="qs-feedback"></div>
     </article>`;
     $$('.qs-alt').forEach(b => b.onclick = () => select(b.dataset.letter));
     const zoom = $('#qs-zoom');
     if (zoom) zoom.onclick = () => openLightbox(q.image);
+    if (!session.answers[q.id]?.confirmed && !mostradaEm.has(q.id)) mostradaEm.set(q.id, Date.now());
     updateAlts({ initial: true });
+    renderApoio();
     renderFeedback(false);
     const article = $('#qs-article');
     if (enter && dir) animate(article, [{ opacity: 0, transform: `translateX(${dir * 48}px)` }, { opacity: 1, transform: 'none' }], { duration: 360, easing: EASE.emphasized });
@@ -309,8 +322,12 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const a = session.answers[q.id];
     const revealed = !!a?.confirmed;
     const disabled = revealed || !running();
+    const eliminadas = session.apoio?.[q.id] || [];
     $$('.qs-alt').forEach(btn => {
       const letter = btn.dataset.letter;
+      const eliminada = eliminadas.includes(letter) && !(revealed && letter === q.correct);
+      btn.classList.toggle('is-eliminated', eliminada);
+      if (eliminada) btn.setAttribute('aria-label', `Alternativa ${letter} eliminada pelo apoio`); else btn.removeAttribute('aria-label');
       const isSel = a?.selected === letter;
       const isCorrect = revealed && letter === q.correct;
       const isWrong = revealed && isSel && !isCorrect;
@@ -319,7 +336,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       const prev = btn.dataset.state;
       btn.dataset.state = state;
       btn.classList.toggle('is-dim', dim);
-      btn.disabled = disabled;
+      btn.disabled = disabled || eliminada;
       btn.setAttribute('aria-checked', String(isSel));
       if (isCorrect) btn.setAttribute('aria-describedby', `alt-state-${letter}`); else btn.removeAttribute('aria-describedby');
       const glyph = btn.querySelector('.qs-alt-glyph');
@@ -336,6 +353,25 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       if (reveal && isCorrect) animate(btn, [{ transform: 'scale(1)' }, { transform: 'scale(1.035)' }, { transform: 'scale(1)' }], { duration: 380, easing: EASE.out, fill: 'none' });
       if (!initial && prev !== state && !reveal) { /* troca de borda/fundo é transição de CSS (200 ms) */ }
     });
+  }
+
+  /** Apoio: eliminar 2 alternativas erradas nas questões com chance estimada abaixo de 45%. Não conta para a nota. */
+  function renderApoio() {
+    const box = $('#qs-apoio'); if (!box) return;
+    const q = current(), a = session.answers[q.id];
+    const usado = !!session.apoio?.[q.id];
+    if (readOnly || focusMode || a?.confirmed || !running() || (!usado && !Dif.apoioDisponivel(q))) { box.innerHTML = ''; return; }
+    box.innerHTML = usado
+      ? `<p class="qs-apoio-nota">${icons('lightbulb')}Apoio usado: 2 alternativas eliminadas. Esta resposta não entra no cálculo da sua nota estimada.</p>`
+      : `<button type="button" class="qs-apoio-btn" id="qs-apoio-btn">${icons('spark')}Eliminar 2 alternativas</button><span class="qs-apoio-dica">Questão difícil para o seu nível agora. O apoio não conta para a nota estimada.</span>`;
+    const b = $('#qs-apoio-btn');
+    if (b) b.onclick = () => {
+      const letras = Dif.eliminar(q, `${session.id}:${q.id}`);
+      const sel = session.answers[q.id]?.selected;
+      persist({ ...session, apoio: { ...(session.apoio || {}), [q.id]: letras } });
+      if (sel && letras.includes(sel)) persist(E.practice.select(session, null, Date.now()));
+      updateAlts(); renderApoio(); renderActions();
+    };
   }
 
   function renderFeedback(animateIn) {
@@ -609,7 +645,12 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const id = session.id, qid = current().id, selected = a.selected;
     confirming = true;
     try {
-      const result = await conferirResposta(qid, selected);
+      const q = current();
+      const primeira = !E.collectAnswerRecords(account()).some(r => r.questionId === qid);
+      const apoio = !!session.apoio?.[qid];
+      const tempoMs = mostradaEm.has(qid) ? Date.now() - mostradaEm.get(qid) : undefined;
+      const result = await conferirResposta(qid, selected, { tempoMs, apoio, primeira, desafio: Dif.desafio() });
+      Dif.registrarResposta(q, result.correct, { apoio, tempoMs, primeira, tri: result.tri });
       if (!session || session.id !== id || current().id !== qid || session.answers[qid].selected !== selected || !running()) return;
       current().correct = result.answer;
       current().explanation = result.explanation;
@@ -617,6 +658,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       showExplanation = true;
       updateAlts({ reveal: true });
       renderFeedback(true);
+      renderApoio();
       renderActions();
       renderHeader();
       renderPanel();
@@ -683,8 +725,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     try {
       if (kind === 'similar') {
         const exclude = [...new Set([...session.questionIds, ...E.collectAnswerRecords(account()).map(r => r.questionId)])];
-        const result = await recomendarQuestao(q.id, exclude, 1);
-        pool = E.questionRepository.getMany(result.ids);
+        const result = await recomendarQuestao(q.id, exclude, 20);
+        pool = E.questionRepository.getMany(Dif.ordenarSemelhantes(result.ids, E.questionRepository));
       } else {
         const families = new Set(E.questionRepository.getMany([...used]).map(item => item.familyId));
         pool = fresh(E.questionRepository.query({ subjectId: q.subjectId, areaIds: [q.areaId], foreignLanguage: q.foreignLanguage || 'none' })).filter(item => !families.has(item.familyId));
@@ -699,6 +741,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const pick = kind === 'similar' ? from[0] : from[Math.floor(Math.random() * from.length)];
     const before = session.currentIndex;
     persist(E.practice.insertNext(session, pick.id, Date.now()));
+    persist({ ...session, previsto: { ...(session.previsto || {}), ...Dif.previsto([pick.id], E.questionRepository) } });
     showExplanation = true;
     lastCurrent = before;
     const token = ++navToken;
@@ -771,6 +814,15 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     </header>`;
   }
 
+  /** Acertos contra o esperado pela TRI para o nível do aluno (chances calculadas quando a lista foi criada). */
+  function esperadoHTML() {
+    const e = Dif.esperado(session);
+    if (!e) return '';
+    const fmt = v => v.toLocaleString('pt-BR', { maximumFractionDigits: 1 });
+    const acima = e.acertos >= e.esperado + 0.5, abaixo = e.acertos <= e.esperado - 0.5;
+    return `<p class="focus-esperado ${acima ? 'is-acima' : abaixo ? 'is-abaixo' : ''}">Você acertou ${e.acertos} de ${e.n}; para o seu nível, o esperado era ${fmt(e.esperado)}. ${acima ? 'Acima do esperado.' : abaixo ? 'Abaixo do esperado desta vez.' : 'Dentro do esperado.'}</p>`;
+  }
+
   function resultHTML() {
     const ids = session.questionIds;
     const answers = ids.map(id => session.answers[id]);
@@ -813,7 +865,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     <main class="focus-result" id="focus-main" tabindex="-1">
       <section class="focus-result-hero">
         <div class="focus-ring" style="--value:${accuracy * 360}deg" role="img" aria-label="${pct(accuracy)} de acerto nas respondidas"><span>${answered.length ? pct(accuracy) : '—'}</span></div>
-        <div><span class="focus-kicker">ACERTO NAS RESPONDIDAS</span><h2>${message}</h2><p>${esc(session.title)} · ${ids.length} ${ids.length === 1 ? 'questão' : 'questões'}. Seus gráficos e metas já incluem estas respostas.</p>
+        <div><span class="focus-kicker">ACERTO NAS RESPONDIDAS</span><h2>${message}</h2>${esperadoHTML()}<p>${esc(session.title)} · ${ids.length} ${ids.length === 1 ? 'questão' : 'questões'}. Seus gráficos e metas já incluem estas respostas.</p>
           <div class="focus-result-actions">
             ${wrong ? `<button class="focus-primary" id="result-retry">${icons('arrow')}Refazer erros (${wrong})</button>` : ''}
             <button class="${wrong ? 'focus-secondary' : 'focus-primary'}" id="result-new">Nova lista</button>
