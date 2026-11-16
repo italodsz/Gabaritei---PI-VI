@@ -27,7 +27,7 @@ O servidor atende o front-end e a API no mesmo endereço e somente no computador
 - Enunciados mostram tabelas, negrito e descrições aprovadas com HTML de origem escapado.
 - Não há resolução comentada das questões: o feedback informa o gabarito e essa limitação.
 
-## Progresso local
+## Progresso local e conta
 
 Práticas, simulados, favoritas, revisão, metas e perfil usam
 `gabaritei:estudos:oficial:v1`. O plano usa `gabaritei:plano:oficial:v1`.
@@ -35,8 +35,12 @@ As chaves anteriores do protótipo são preservadas e não entram no histórico 
 Notas continuam em seu armazenamento próprio. Sem armazenamento, o estado fica em
 memória e o aplicativo avisa que as práticas duram apenas aquela sessão.
 
-Sem banco de dados, login ou sincronização entre navegadores. Limpar os dados do
-site apaga o progresso local. O perfil é um espaço local; não representa autenticação.
+Sem login, nada sai do navegador: limpar os dados do site apaga o progresso. Com login
+(menu do perfil → **Entrar ou criar conta**), `conta.js` envia estudos, plano e notas ao
+banco do servidor (com atraso de 0,7 s e nova tentativa se estiver sem conexão) e o
+`localStorage` vira cache. Ao entrar, o servidor vence; o que havia só neste navegador sobe na
+primeira vez e, se o servidor já tinha dados, uma cópia fica em `gabaritei:antes-do-login:v1`.
+Ao sair, o cache local é apagado.
 
 ## Alterar o motor
 

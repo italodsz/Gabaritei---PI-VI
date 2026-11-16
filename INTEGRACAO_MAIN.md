@@ -22,7 +22,8 @@ SHA-256 Qwen: `10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5`
 
 O back-end Node lê os arquivos, verifica os hashes da base e do catálogo e valida
 os IDs e as restrições das sugestões. Serve a API e o front-end no mesmo endereço.
-Não há banco, configuração de MySQL, login, criação de contas ou serviço externo.
+Na integração de 13/11 não havia banco, login ou contas. **Atualização de 16/11/2026:** foi
+acrescentado um banco SQLite (`node:sqlite`) com contas opcionais; ver `docs/banco-de-dados.md`.
 O acervo é carregado na memória do servidor; a prática fica no armazenamento do navegador.
 
 São 3.086 registros, 2.731 elegíveis e 2.657 disponíveis na prática. Os 67 defeitos
@@ -72,8 +73,8 @@ Catalase: o dado já estava correto; corrigiu-se apenas o topo desatualizado do 
 Lúcio Cardoso: a questão de Literatura em CH mantém a área oficial de 2009 e a lista
 de sugestões vazia. Não se alterou o dado para contornar o filtro do recomendador.
 
-Sem banco, o progresso não sincroniza entre dispositivos e se perde ao limpar os
-dados do site. A API de estudo inclui gabaritos para permitir a revisão e os
+Sem login, o progresso não sincroniza entre dispositivos e se perde ao limpar os
+dados do site (com login, ele fica no banco; ver `docs/banco-de-dados.md`). A API de estudo inclui gabaritos para permitir a revisão e os
 simulados locais; não foi construída como uma plataforma de avaliação sigilosa.
-O uso é local. Autenticação, persistência no servidor e implantação pública ficam
-para outra etapa.
+O uso é local. Autenticação básica e persistência no servidor existem desde 16/11/2026;
+implantação pública (HTTPS, e-mail de recuperação de senha, backups) fica para outra etapa.

@@ -4,12 +4,14 @@ import { createNotes } from './notes.js';
 import { animate, spring, duration, ease, cssEase, reduced, pageEnter, bindPress } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
 import { carregarAcervo } from './acervo-api.js';
+import { iniciarConta, espelhar } from './conta.js';
+import { montarConta } from './conta-ui.js';
 
 try {
   const info = await carregarAcervo();
+  await iniciarConta();
   document.documentElement.dataset.acervo = 'oficial';
   globalThis.__gabariteiAcervo = info;
-  document.querySelector('#profile-menu p').textContent = 'Questões oficiais do ENEM. Seu progresso fica neste navegador.';
   document.querySelector('#reset-demo').textContent = 'Restaurar plano inicial';
   document.querySelector('.canvas-caption > span:last-child').textContent = 'Questões oficiais do ENEM';
 } catch (error) {
@@ -56,7 +58,7 @@ try {
   }
 } catch { /* O protótipo também funciona sem armazenamento. */ }
 const state = { page: 'plano', view: 'map', showDone: false, saved: false, zoom: 1, simArea: null, simView: 'areas' };
-function persist() { try { localStorage.setItem('gabaritei:plano:oficial:v1', JSON.stringify({ activities })); } catch { /* Estado mantido nesta sessão. */ } }
+function persist() { try { localStorage.setItem('gabaritei:plano:oficial:v1', JSON.stringify({ activities })); } catch { /* Estado mantido nesta sessão. */ } espelhar('plano', { activities }); }
 const touch = a => { a.updatedAt = new Date().toISOString(); };
 let toastTimeout;
 function toast(message) { $('#toast').textContent = message; $('#toast').classList.add('visible'); clearTimeout(toastTimeout); toastTimeout = setTimeout(() => $('#toast').classList.remove('visible'), 3200); }
@@ -598,6 +600,7 @@ function paintProfile(p) {
 paintProfile(learning.account().profile);
 $('#open-profile').onclick = () => { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); sidebar.close(); navigate('perfil'); };
 const notes = createNotes({ panel: $('#notes-panel'), resolveRef, openRef, toast, hi });
+montarConta({ menu: $('#profile-menu'), openDialog, closeDialog: () => dialog.close(), toast });
 notes.render();
 bindPress();
 

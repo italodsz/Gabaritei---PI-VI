@@ -3,6 +3,7 @@
 // (referência a uma atividade). Textos e atalhos convivem livremente e podem
 // ser reordenados. Arrastar um card para cá NÃO move o card: cria apenas um
 // atalho { kind, id } para o item original. Persistência em localStorage.
+import { espelhar } from './conta.js';
 import { animate, spring, duration, ease, reduced, snapshot, flipList } from './motion-kit.js';
 
 const STORAGE_KEY = 'gabaritei:notas:v1';
@@ -72,7 +73,7 @@ export function createNotes({ panel, resolveRef, openRef, toast, hi }) {
       { id: uid(), type: 'text', html: '<span style="color: rgb(62, 90, 198);">Antes do simulado:</span><ul><li>rever cadeias alimentares</li><li>refazer as questões erradas</li></ul>' },
     ];
   }
-  const persist = () => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ blocks, updatedAt: new Date().toISOString() })); } catch { /* mantém em memória */ } flashSaved(); };
+  const persist = () => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ blocks, updatedAt: new Date().toISOString() })); } catch { /* mantém em memória */ } espelhar('notas', { blocks }); flashSaved(); };
   const persistSoon = () => { clearTimeout(saveTimer); saveTimer = setTimeout(persist, 300); };
   function ensureTrailingText() {
     if (!blocks.length || blocks[blocks.length - 1].type !== 'text') blocks.push({ id: uid(), type: 'text', html: '' });

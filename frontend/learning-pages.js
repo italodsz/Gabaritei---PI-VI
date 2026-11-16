@@ -1,3 +1,4 @@
+import { espelhar, usuarioAtual } from './conta.js';
 import * as E from './assets/learning-engine.js';
 import { createPracticeScreen } from './practice-screen.js';
 import { createHistoryPage } from './history-page.js';
@@ -26,10 +27,10 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const $$ = (s, parent = root) => [...parent.querySelectorAll(s)];
   let account;
   try { const saved = JSON.parse(localStorage.getItem(storageKey)); if (saved && Array.isArray(saved.practiceSessions) && Array.isArray(saved.simulations) && Array.isArray(saved.goals) && saved.onboarding && saved.study && saved.profile) account = saved; } catch { /* Funciona sem armazenamento. */ }
-  if (!account) account = E.createEmptyAccount({ id: 'estudante-local', kind: 'new', name: 'Ítalo', email: '', now: Date.now() });
+  if (!account) account = E.createEmptyAccount({ id: usuarioAtual()?.id ?? 'estudante-local', kind: usuarioAtual() ? 'registered' : 'new', name: usuarioAtual()?.nome ?? 'Ítalo', email: usuarioAtual()?.email ?? '', now: Date.now() });
   account.practiceSessions = account.practiceSessions.map(s => s.status === 'in_progress' ? E.practice.pause(E.practice.recover(s,Date.now()),Date.now()) : s);
   let memoryNotice = false;
-  function save() { try { localStorage.setItem(storageKey, JSON.stringify(account)); } catch { if (!memoryNotice) { memoryNotice = true; toast('Armazenamento indisponível: suas práticas ficam nesta sessão.'); } } }
+  function save() { espelhar('estudos', account); try { localStorage.setItem(storageKey, JSON.stringify(account)); } catch { if (!memoryNotice) { memoryNotice = true; toast('Armazenamento indisponível: suas práticas ficam nesta sessão.'); } } }
   const records = () => E.collectAnswerRecords(account);
   const settings = { tab:'montar', subjectId:null, topicIds:[], subtopicIds:[], years:[], count:account.study.defaultQuestionCount, timer:account.study.practiceTimer, expanded:null, area:null, aiCount:account.study.defaultQuestionCount };
   const performance = { period:'day', subjectView:'barras' };

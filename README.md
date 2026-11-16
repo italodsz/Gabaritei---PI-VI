@@ -2,11 +2,12 @@
 
 Aplicativo de estudos para o ENEM com o front-end conectado ao acervo real e ao
 recomendador oficial `titulo_area`. Esta é a versão integrada para execução local,
-sem banco de dados e sem cadastro.
+com banco de dados SQLite (contas opcionais). Sem entrar, o progresso fica só no navegador;
+entrando, ele é guardado no servidor. Detalhes em [docs/banco-de-dados.md](docs/banco-de-dados.md).
 
 ## Abrir no Windows
 
-Requer Node.js 22 ou superior. Na raiz do projeto:
+Requer Node.js 22.13 ou superior (o banco usa o módulo `node:sqlite`, sem pacotes extras). Na raiz do projeto:
 
 ```powershell
 npm start
