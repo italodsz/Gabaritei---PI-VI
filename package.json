@@ -2,7 +2,7 @@
   "name": "gabaritei",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": { "node": ">=22.13" },
   "scripts": {
     "start": "node backend/server.mjs",
     "dev": "node backend/server.mjs",

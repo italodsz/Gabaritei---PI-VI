@@ -3,20 +3,21 @@ import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { carregarAcervo, DATASET_SHA256 } from './acervo.mjs';
 import { criarServidor } from './server.mjs';
+import { abrirBanco } from './db.mjs';
 
 const acervo = await carregarAcervo();
-const server = criarServidor(acervo).listen(0, '127.0.0.1');
+const server = criarServidor(acervo, { db: abrirBanco(':memory:') }).listen(0, '127.0.0.1');
 await once(server, 'listening');
 const base = `http://127.0.0.1:${server.address().port}`;
 after(() => new Promise(resolve => { server.close(resolve); server.closeIdleConnections(); }));
 const get = async path => { const r = await fetch(base + path); return { status: r.status, data: await r.json() }; };
 const post = async (path, data) => { const r = await fetch(base + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }); return { status: r.status, data: await r.json() }; };
 
-test('base final e catálogo carregam alinhados, sem banco e sem questões bloqueadas na prática', async () => {
+test('base final e catálogo carregam alinhados, banco SQLite ativo e sem questões bloqueadas na prática', async () => {
   const { status, data } = await get('/api/health');
   assert.equal(status, 200); assert.equal(data.sha256, DATASET_SHA256);
   assert.equal(data.total, 3086); assert.equal(data.eligible, 2731); assert.equal(data.available, 2657);
-  assert.equal(data.emptyRecommendationLists, 68); assert.equal(data.database, false);
+  assert.equal(data.emptyRecommendationLists, 68); assert.equal(data.database, 'sqlite');
   const bootstrap = (await get('/api/bootstrap')).data;
   assert.equal(bootstrap.questions.length, 2657);
   for (const q of bootstrap.questions) {

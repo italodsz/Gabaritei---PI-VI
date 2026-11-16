@@ -3,11 +3,12 @@ import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { carregarAcervo } from './acervo.mjs';
 import { criarServidor } from './server.mjs';
+import { abrirBanco } from './db.mjs';
 import { DevWorker } from './dev-worker.mjs';
 import { emptySession, sessionStats, saveReview, exportCSV, removeLatestRecord, restoreRecord } from '../frontend/dev-session.js';
 
 const acervo = await carregarAcervo();
-const server = criarServidor(acervo).listen(0,'127.0.0.1');
+const server = criarServidor(acervo, { db: abrirBanco(':memory:') }).listen(0,'127.0.0.1');
 await once(server,'listening');
 const base=`http://127.0.0.1:${server.address().port}`;
 after(()=>new Promise(resolve=>{server.close(resolve);server.closeIdleConnections();}));

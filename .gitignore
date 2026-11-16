@@ -7,3 +7,9 @@ __pycache__/
 !.env.example
 *.log
 recomendador/rrf-tfidf-minilm-J/indice/qwen/*__sem_instrucao.npy
+
+# Banco de dados local
+backend/dados/
+*.db
+*.db-wal
+*.db-shm
