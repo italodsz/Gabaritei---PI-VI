@@ -8,6 +8,7 @@ import { criarDadosDev } from './dev-data.mjs';
 import { abrirBanco } from './db.mjs';
 import { repositorio } from './repositorio.mjs';
 import { criarRotasConta } from './rotas-conta.mjs';
+import { criarDificuldade } from './rotas-dificuldade.mjs';
 import { origemPermitida } from './auth.mjs';
 
 const frontend = fileURLToPath(new URL('../frontend/', import.meta.url));
@@ -21,7 +22,9 @@ async function body(req, max = 256_000) {
 }
 
 export function criarServidor(acervo, { db = abrirBanco(), seguro = process.env.GABARITEI_COOKIE_SEGURO === '1' } = {}) {
-  const contas = criarRotasConta(repositorio(db), { seguro });
+  const repo = repositorio(db);
+  const contas = criarRotasConta(repo, { seguro });
+  const dificuldade = criarDificuldade({ db, repo, acervo });
   const worker = new DevWorker();
   let devData;
   const dev = () => devData ||= criarDadosDev(acervo).catch(error => { devData = null; throw error; });
@@ -32,6 +35,7 @@ export function criarServidor(acervo, { db = abrirBanco(), seguro = process.env.
       if (pathname.startsWith('/api/')) {
         if (!['GET', 'HEAD'].includes(req.method) && !origemPermitida(req)) return send(res, 403, { error: 'Origem não permitida.' });
         if (await contas({ req, res, pathname, send, body })) return;
+        if (await dificuldade.tratar({ req, res, pathname, send, body })) return;
         if (pathname.startsWith('/api/dev/')) {
           const data = await dev();
           if (req.method === 'GET' && pathname === '/api/dev/resumo') return send(res, 200, { ...data.summary, worker: worker.status() });
@@ -83,7 +87,10 @@ export function criarServidor(acervo, { db = abrirBanco(), seguro = process.env.
             const question = acervo.byId.get(id), input = await body(req);
             if (!question) return send(res, 422, { error: 'Questão bloqueada para prática.' });
             if (!/^[A-E]$/.test(input?.selected)) return send(res, 400, { error: 'Escolha uma alternativa de A a E.' });
-            return send(res, 200, { questionId: id, selected: input.selected, correct: input.selected === question.correct, answer: question.correct, explanation: question.explanation, persisted: false });
+            const correct = input.selected === question.correct;
+            const u = dificuldade.usuario(req);
+            const tri = u ? dificuldade.registrar(u.id, question, { alternativa: input.selected, correta: correct, tempoMs: Number(input.tempoMs), apoio: input.apoio === true, origem: 'pratica', primeiraCliente: input.primeira !== false, desafio: input.desafio }) : null;
+            return send(res, 200, { questionId: id, selected: input.selected, correct, answer: question.correct, explanation: question.explanation, persisted: !!tri, tri });
           }
         }
         return send(res, 404, { error: 'Rota não encontrada.' });

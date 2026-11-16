@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { triar } from '../frontend/dificuldade.js';
 
 export const PROJECT_ROOT = fileURLToPath(new URL('../', import.meta.url));
 export const DATASET_SHA256 = '6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f';
@@ -23,6 +24,7 @@ const text = value => String(value ?? '').replace(/\\n/g, '\n').replace(/\r\n/g,
 const json = async path => JSON.parse(await readFile(new URL(path, directory), 'utf8'));
 
 export async function carregarAcervo() {
+  const cfgDificuldade = await json('backend/config/dificuldade_v1.json');
   const bytes = await readFile(new URL('Dataset/base_trabalho/data/questions.jsonl', directory));
   const sha256 = createHash('sha256').update(bytes).digest('hex');
   if (sha256 !== DATASET_SHA256) throw new Error('Dataset diferente do registrado: atualize e confira o catálogo antes de iniciar.');
@@ -67,6 +69,8 @@ export async function carregarAcervo() {
       ...(q.language === 'en' || q.language === 'es' ? { foreignLanguage: q.language === 'en' ? 'ingles' : 'espanhol' } : {}),
       familyId: q.content_family_id, sourcePosition: q.official_reference?.position ?? null,
       sourceArea: q.area, warning: m.alerta_texto || null,
+      // parâmetros TRI oficiais só quando passam na triagem e são da prova regular de formato padrão
+      tri: q.application_format === 'standard' && q.application_type === 'regular' ? triar(q.tri, cfgDificuldade) : null,
     });
   }
   const byId = new Map(questions.map(q => [q.id, q]));
