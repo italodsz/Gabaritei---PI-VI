@@ -1,5 +1,5 @@
 {
- "versao": "dificuldade-v1",
+ "versao": "dificuldade-v1.1",
  "descricao": "Recomendador de dificuldade do Gabaritei: TRI 3PL com os parâmetros oficiais do INEP, θ dinâmico por área (EAP em grade) e ordenação leve junto do titulo_area. Números de docs/recomendador-dificuldade.md.",
  "D": 1.0,
  "grade": {
@@ -41,8 +41,8 @@
  "meta_alcancavel_posicao": 3,
  "semelhante": {
   "candidatas": 20,
-  "base": 0.7,
-  "peso": 0.3
+  "base": 0.5,
+  "peso": 0.5
  },
  "lista": {
   "revisao_fracao": 0.2,
@@ -57,6 +57,7 @@
  "nota": {
   "min_respostas": 15,
   "dp_faixa_estreita": 0.4,
+  "faixa_z": 1.28,
   "arredondar": 10
  },
  "prior": {

@@ -58,6 +58,9 @@ test('semelhante: a dificuldade só mexe pouco na ordem do titulo_area', () => {
   const ord = T.ordenarSemelhantes(ids, id => (['q5', 'q6', 'q7'].includes(id) ? 0.75 : 0.2), 0.75, cfg);
   assert.equal(ord[0], 'q0');
   assert.ok(ord.indexOf('q5') < 5 && ord.indexOf('q5') >= 1);
+  const troca = T.ordenarSemelhantes(ids, id => (id === 'q0' ? 0.05 : 0.75), 0.75, cfg);
+  assert.equal(troca[0], 'q1', 'a 2ª pode subir quando a 1ª está muito fora do alvo');
+  assert.ok(T.ordenarSemelhantes(ids, id => (['q8', 'q9', 'q10'].includes(id) ? 0.75 : 0.05), 0.75, cfg).indexOf('q8') > 0, 'uma questão distante na lista nunca vira a 1ª');
   const semChance = T.ordenarSemelhantes(ids, () => null, 0.75, cfg);
   assert.deepEqual(semChance, ids);
 });

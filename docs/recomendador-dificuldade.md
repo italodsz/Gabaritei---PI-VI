@@ -18,7 +18,7 @@ recomendador de dificuldade”. Configuração: `backend/config/dificuldade_v1.j
   aluno possa mudar de nível.
 - **Nota exibida:** a média do θ passa por uma tabela θ → nota ajustada nos microdados de 2023. Com 45
   respostas, a nota recalculada de 2024 erra em média 0,9 a 1,9 ponto. O app mostra uma faixa
-  (±1 desvio), só a partir de 15 respostas válidas na área, e “abaixo de 500” quando a faixa inteira
+  (±1,28 desvio, cerca de 80%), só a partir de 15 respostas válidas na área, e “abaixo de 500” quando a faixa inteira
   fica abaixo disso.
 
 **O que conta para o θ:** só a primeira tentativa, sem apoio, com pelo menos 8 segundos, em questão
@@ -29,7 +29,7 @@ triada. Prática tem peso 0,8 e simulado 1,0. O motivo de cada resposta que não
 
 | Lugar | Efeito |
 |---|---|
-| Semelhante e Recomendadas | ajuste suave nas 20 primeiras do `titulo_area`: score = R × (0,7 + 0,3·A). Na prática a ordem quase não muda |
+| Semelhante e Recomendadas | ajuste suave nas 20 primeiras do `titulo_area`: score = R × (0,5 + 0,5·A). Troca a primeira sugestão em 5 a 9% dos casos, sempre por uma das 2 ou 3 seguintes |
 | Montar lista, Seleção automática, listas do plano | escolhe do conjunto já filtrado pela adequação ao alvo, com até 20% de revisão de erros antigos (≥ 3 dias), e começa pela mais acessível. A Seleção automática mantém os assuntos escolhidos pelo app e só reordena |
 | Simulados | nada na escolha; as respostas atualizam o θ com peso de prova |
 

@@ -44,13 +44,14 @@ test('nível leve pede questões mais fáceis que o puxado', () => {
 test('semelhante: a dificuldade muda pouco a posição escolhida na lista do titulo_area', () => {
   const p = T.perfilInicial('CN', cfg, { nota: 600 });
   const refs = acervo.questions.filter(q => q.sourceArea === 'CN' && acervo.catalogo.recomendacoes[q.id].length >= 20).slice(0, 200);
-  let soma = 0;
+  let soma = 0, mudou = 0;
   for (const r of refs) {
     const base = acervo.recommendations(r.id, [], 50);
     const ord = T.ordenarSemelhantes(base, id => { const it = acervo.byId.get(id)?.tri; return it ? T.chance(p, it, cfg) : null; }, 0.75, cfg);
-    soma += base.indexOf(ord[0]);
+    soma += base.indexOf(ord[0]); mudou += ord[0] !== base[0];
   }
   assert.ok(soma / refs.length < 0.5, `posição média ${(soma / refs.length).toFixed(2)}`);
+  assert.ok(mudou > 0 && mudou / refs.length < 0.15, `trocou a 1ª em ${mudou} de ${refs.length}`);
 });
 
 test('apoio de eliminar 2 alternativas aumenta a chance real nas questões difíceis', () => {

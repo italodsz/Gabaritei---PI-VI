@@ -135,7 +135,7 @@ export function resumoNota(perfil, cfg) {
   const { area, n } = perfil;
   if (n < alvo.min_respostas) return { area, status: 'calibrando', n, faltam: alvo.min_respostas - (n || 0) };
   const { media, dp } = momentos(perfil, cfg), r = v => Math.round(v / alvo.arredondar) * alvo.arredondar;
-  const nota = r(notaDeTheta(area, media, cfg)), min = r(notaDeTheta(area, media - dp, cfg)), max = r(notaDeTheta(area, media + dp, cfg));
+  const z = alvo.faixa_z ?? 1, nota = r(notaDeTheta(area, media, cfg)), min = r(notaDeTheta(area, media - z * dp, cfg)), max = r(notaDeTheta(area, media + z * dp, cfg));
   if (max < 500) return { area, status: 'abaixo-500', n, nota, min, max, dp };
   return { area, status: dp <= alvo.dp_faixa_estreita ? 'estreita' : 'larga', n, nota, min, max, dp };
 }
