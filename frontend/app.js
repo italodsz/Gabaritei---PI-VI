@@ -205,61 +205,72 @@ const RECO_SOURCES = [
   ['ineditas', 'Inéditas relevantes', 'spark'],
 ];
 function practiceHubHTML() {
-  const o = learning.recommendationOverview();
-  const chips = RECO_SOURCES.filter(([k]) => o.counts[k]).map(([k, label, ic]) => `<span class="ph-chip">${icon(ic)}<b>${Math.min(o.counts[k], 99)}${o.counts[k] > 99 ? '+' : ''}</b>${label}</span>`).join('');
-  const next = o.next.map((q, i) => `<li style="--i:${i}"><span class="ph-dot area-${q.areaId}"></span><span class="ph-next-copy"><strong>${escape(q.subject)} · ${escape(q.topic)}</strong><small>${escape(q.reason)}</small></span></li>`).join('');
-  const cta = o.active ? `Continuar praticando <small>${o.active.answered} respondidas</small>` : 'Começar a praticar';
-  return `<section class="practice-hub" aria-label="Praticar">
-    <article class="ph-main">
-      <div class="ph-main-copy">
-        <span class="ph-kicker">${icon('spark')} PRÁTICA CONTÍNUA</span>
-        <h2>Recomendações para você</h2>
-        <p>Sem escolher matéria nem quantidade: as questões chegam uma depois da outra, priorizando o que mais ajuda agora. Pare quando quiser e continue de onde parou.</p>
-        <div class="ph-chips">${chips || '<span class="ph-chip">Responda algumas questões para personalizar a fila.</span>'}</div>
-        <button type="button" class="ph-start" id="ph-start" data-press="0.97">${icon('play')}<span>${cta}</span></button>
-      </div>
-      <div class="ph-queue"><span class="ph-queue-label">PRÓXIMAS NA FILA</span><ol>${next || '<li><span class="ph-next-copy"><small>Nenhuma questão disponível.</small></span></li>'}</ol><small class="ph-queue-foot">${o.total} questões na fila · regras locais de demonstração</small></div>
-    </article>
-    <div class="ph-modes">${challengeCardHTML()}${reviewCardHTML()}</div>
-  </section>`;
+  return `<section class="practice-hub" aria-label="Modos de prática">${recoColumnHTML()}${challengeColumnHTML()}${reviewColumnHTML()}</section>`;
 }
-/** Card do Desafio de acertos: recorde pessoal e últimas tentativas. */
-function challengeCardHTML() {
+/**
+ * Estrutura comum dos três blocos: cenário ilustrado com rótulo, título e texto;
+ * painel claro com os números; e o botão principal, igual nos três (só texto).
+ */
+const hubColumn = ({ mode, tone, scene, kicker, title, text, panel, cta, id }) => `<article class="ph-col ph-col--${tone}" data-mode="${mode}">
+    <div class="ph-scene" style="--scene:url('assets/${scene}')">
+      <span class="ph-pill">${kicker}</span>
+      <h2>${title}</h2>
+      <p class="ph-col-text">${text}</p>
+    </div>
+    <div class="ph-panel">${panel}</div>
+    <button type="button" class="ph-col-cta" id="${id}" data-press="0.97">${cta}</button>
+  </article>`;
+const plural = (n, um, varios) => (n === 1 ? um : varios);
+/** Prática contínua: tamanho da fila e os dois principais motivos. */
+function recoColumnHTML() {
+  const o = learning.recommendationOverview();
+  const tags = RECO_SOURCES.filter(([k]) => o.counts[k]).sort((a, b) => o.counts[b[0]] - o.counts[a[0]]).slice(0, 2)
+    .map(([k, label]) => `<span class="ph-tag"><b>${Math.min(o.counts[k], 99)}${o.counts[k] > 99 ? '+' : ''}</b>${label}</span>`).join('');
+  return hubColumn({
+    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'PRÁTICA CONTÍNUA', id: 'ph-start',
+    title: 'Prática sob medida',
+    text: 'Questões escolhidas para você, uma depois da outra.',
+    panel: `<div class="ph-stat"><strong data-count="${o.total}">${o.total}</strong><span>questões na fila</span></div>
+      ${tags ? `<div class="ph-tags">${tags}</div>` : '<p class="ph-note">Responda algumas questões para personalizar a fila.</p>'}
+      ${o.active ? `<p class="ph-note">${o.active.answered} ${plural(o.active.answered, 'respondida', 'respondidas')} na prática atual</p>` : ''}`,
+    cta: o.active ? 'Continuar praticando' : 'Começar a praticar',
+  });
+}
+/** Desafio de acertos: recorde, últimas tentativas e as regras. */
+function challengeColumnHTML() {
   const st = learning.challengeStore();
-  const last = st.attempts.at(-1);
   const recent = st.attempts.slice(-8);
   const max = Math.max(1, ...recent.map(a => a.streak));
-  return `<article class="ph-mode ph-challenge" data-mode="desafio">
-    <div class="ph-ch-copy">
-      <span class="ph-ch-kicker">${hi('Zap')} DESAFIO DE ACERTOS</span>
-      <h3>Até onde você chega?</h3>
-      <p>Questões de todas as áreas, uma por vez. Errou ou o tempo acabou, o desafio termina.</p>
-      <ul class="ph-ch-rules"><li>${hi('Timer')}03:40 por questão</li><li>${hi('Lock')}Sem pausa nem pulo</li></ul>
-      <button type="button" class="ph-ch-start" id="ph-challenge" data-press="0.97">${hi('Play')}Começar desafio</button>
-    </div>
-    <div class="ph-ch-record" aria-label="Recorde pessoal: ${st.best} acertos seguidos">
-      <span>${hi('Trophy')}RECORDE</span><strong>${st.best}</strong><small>${st.best === 1 ? 'acerto seguido' : 'acertos seguidos'}</small>
-      ${recent.length ? `<div class="ph-ch-bars" aria-hidden="true">${recent.map(a => `<i style="--h:${Math.max(0.08, a.streak / max)}"></i>`).join('')}</div><em>Última: ${last.streak}</em>` : '<em>Nenhuma tentativa ainda</em>'}
-    </div>
-  </article>`;
+  return hubColumn({
+    mode: 'desafio', tone: 'chal', scene: 'hub-desafio.svg', kicker: 'DESAFIO DE ACERTOS', id: 'ph-challenge',
+    title: 'Até onde você chega?',
+    text: 'Acerte em sequência e supere sua melhor marca.',
+    panel: `<div class="ph-stat"><strong data-count="${st.best}">${st.best}</strong><span>recorde · ${plural(st.best, 'acerto seguido', 'acertos seguidos')}</span></div>
+      <div class="ph-attempts"><span class="ph-label">ÚLTIMAS TENTATIVAS</span>${recent.length ? `<div class="ph-bars" aria-hidden="true">${recent.map((a, i) => `<i class="${i === recent.length - 1 ? 'is-last' : ''}" style="--h:${Math.max(0.06, a.streak / max)}"></i>`).join('')}</div><small>Última: ${recent.at(-1).streak} ${plural(recent.at(-1).streak, 'acerto', 'acertos')}</small>` : '<small>Nenhuma tentativa ainda.</small>'}</div>
+      <div class="ph-tags"><span class="ph-tag">03:40 por questão</span><span class="ph-tag">Sem pausa nem pulo</span></div>`,
+    cta: 'Começar desafio',
+  });
 }
-/** Card do Revisar: erros ainda não superados. */
-function reviewCardHTML() {
+/** Revisão: erros ainda não superados (ou o estado vazio). */
+function reviewColumnHTML() {
   const o = learning.reviewOverview();
-  if (!o.pending && !o.active) return `<article class="ph-mode ph-review is-empty" data-mode="revisar">
-    <span class="ph-rv-icon">${hi('CheckCircle2')}</span>
-    <div><span class="ph-rv-kicker">REVISAR</span><h3>Tudo revisado por enquanto!</h3><p>Nenhuma questão errada pendente. Quando errar alguma, ela aparece aqui até você acertá-la.</p>
-    <button type="button" class="ph-rv-start" id="ph-other" data-press="0.97">${hi('Sparkles')}Iniciar outra prática</button></div>
-  </article>`;
   const a = o.active;
+  if (!o.pending && !a) return hubColumn({
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-other',
+    title: 'Tudo revisado por enquanto!',
+    text: 'Nenhuma questão errada pendente.',
+    panel: '<p class="ph-note">Quando errar alguma questão, ela aparece aqui até você acertá-la.</p>',
+    cta: 'Iniciar outra prática',
+  });
   const pct = a ? a.reviewed / Math.max(1, a.total) : 0;
-  return `<article class="ph-mode ph-review" data-mode="revisar">
-    <div class="ph-rv-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} de ${a.total} revisadas` : `${o.pending} pendentes`}"><strong>${a ? a.reviewed : o.pending}</strong><small>${a ? `de ${a.total}` : 'pendentes'}</small></div>
-    <div><span class="ph-rv-kicker">REVISAR</span><h3>Erros para superar</h3>
-      <p>${o.pending} ${o.pending === 1 ? 'questão errada continua pendente' : 'questões erradas continuam pendentes'}. Cada uma sai da fila quando você acertá-la.</p>
-      ${a ? `<div class="ph-rv-stats"><span><b>${a.initial}</b> no início</span><span><b>${a.reviewed}</b> revisadas</span><span><b>${a.correct}</b> acertadas</span></div>` : ''}
-      <button type="button" class="ph-rv-start" id="ph-review" data-press="0.97">${hi('RotateCcw')}${a ? 'Continuar revisão' : 'Revisar agora'}</button></div>
-  </article>`;
+  return hubColumn({
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-review',
+    title: 'Erros para superar',
+    text: 'Refaça o que errou até acertar. Sem pressa.',
+    panel: `<div class="ph-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} de ${a.total} revisadas` : `${o.pending} pendentes`}"><strong>${a ? a.reviewed : o.pending}</strong><small>${a ? `de ${a.total} revisadas` : plural(o.pending, 'pendente', 'pendentes')}</small></div>
+      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span><span class="ph-tag"><b>${o.pending}</b>na fila</span>` : '<span class="ph-tag">Sem cronômetro</span><span class="ph-tag">Com correção e explicação</span>'}</div>`,
+    cta: a ? 'Continuar revisão' : 'Revisar agora',
+  });
 }
 function bindPracticeHub() {
   $('#ph-start')?.addEventListener('click', () => learning.startRecommended());
@@ -269,15 +280,14 @@ function bindPracticeHub() {
 }
 function enterPracticeHub() {
   if (reduced()) return;
-  animate($('.ph-main'), { opacity: [0, 1], y: [16, 0], scale: [0.985, 1] }, spring.soft);
-  $$('.ph-queue li').forEach((li, i) => animate(li, { opacity: [0, 1], x: [12, 0] }, { ...spring.soft, delay: 0.12 + i * 0.06 }));
-  $$('.ph-chip').forEach((c, i) => animate(c, { opacity: [0, 1], y: [6, 0] }, { ...spring.snappy, delay: 0.08 + i * 0.04 }));
-  $$('.ph-mode').forEach((m, i) => animate(m, { opacity: [0, 1], y: [14, 0] }, { ...spring.soft, delay: 0.18 + i * 0.07 }));
-  $$('.ph-ch-bars i').forEach((b, i) => b.animate([{ transform: 'scaleY(0)' }, { transform: 'scaleY(var(--h))' }], { duration: 600, delay: 350 + i * 50, easing: cssEase.out, fill: 'backwards' }));
-  const ring = $('.ph-rv-ring');
+  // As três colunas entram juntas, em cascata curta; depois os dados de cada uma.
+  $$('.ph-col').forEach((c, i) => animate(c, { opacity: [0, 1], y: [18, 0], scale: [0.985, 1] }, { ...spring.soft, delay: i * 0.07 }));
+  $$('.ph-col .ph-tag').forEach((t, i) => animate(t, { opacity: [0, 1], y: [6, 0] }, { ...spring.snappy, delay: 0.18 + i * 0.03 }));
+  $$('.ph-scene').forEach((sc, i) => sc.animate([{ backgroundPosition: 'center 12px' }, { backgroundPosition: 'center 0px' }], { duration: 900, delay: i * 70, easing: cssEase.out, fill: 'backwards' }));
+  $$('.ph-bars i').forEach((b, i) => b.animate([{ transform: 'scaleY(0)' }, { transform: 'scaleY(var(--h))' }], { duration: 600, delay: 300 + i * 45, easing: cssEase.out, fill: 'backwards' }));
+  const ring = $('.ph-ring');
   if (ring) { const p = ring.style.getPropertyValue('--p'); ring.animate([{ '--p': 0 }, { '--p': p }], { duration: 900, delay: 250, easing: cssEase.out, fill: 'backwards' }); }
-  const rec = $('.ph-ch-record strong');
-  if (rec) countTo(rec, Number(rec.textContent), { from: 0, seconds: 0.8 });
+  $$('.ph-stat strong[data-count]').forEach(el => countTo(el, Number(el.dataset.count), { from: 0, seconds: 0.8 }));
 }
 /* ------------------------------------------------------------------ */
 /* Entrada coordenada: cards, depois os tracejados                      */

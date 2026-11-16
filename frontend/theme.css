@@ -166,18 +166,10 @@ html[data-theme="dark"] .lg-page.pf {
 /* Ajustes finos                                                        */
 /* ------------------------------------------------------------------ */
 /* Card "Recomendações para você": mesma aparência, só um contorno para destacar do fundo escuro. */
-html[data-theme="dark"] .ph-main { box-shadow: 0 0 0 1px #ffffff14, 0 24px 40px -28px #000; }
 html[data-theme="dark"] .sim-summary,
 html[data-theme="dark"] .off-summary { box-shadow: 0 0 0 1px #ffffff14, 0 24px 40px -26px #000; }
 
 /* Desafio: o card dourado fica um pouco mais sóbrio à noite; a tela ganha brilho dourado no topo. */
-html[data-theme="dark"] .ph-challenge { background: linear-gradient(135deg, #3a3018 0%, #5a4517 60%, #6b5016 100%); border-color: #e2bd5c40; color: #f6e6b8; }
-html[data-theme="dark"] .ph-challenge h3 { color: #fbefc9; }
-html[data-theme="dark"] .ph-challenge p { color: #e0d0a3; }
-html[data-theme="dark"] .ph-ch-kicker { color: #f2cf6b; }
-html[data-theme="dark"] .ph-ch-rules li { background: #00000033; color: #f6e6b8; }
-html[data-theme="dark"] .ph-ch-start { background: #f2cf6b; color: #241b03; }
-html[data-theme="dark"] .ph-ch-record { background: #141210; box-shadow: 0 0 0 1px #e2bd5c26; }
 html[data-theme="dark"] .ch-screen { background: radial-gradient(1200px 500px at 10% -10%, #2e2715 0%, transparent 60%), var(--qs-bg); }
 html[data-theme="dark"] .ch-side,
 html[data-theme="dark"] .ch-result-hero { background-color: #0e0d0a; box-shadow: 0 0 0 1px #e2bd5c22, 0 24px 40px -26px #000; }
@@ -272,3 +264,58 @@ html[data-theme="dark"] .sim-config .off-opt small { color: var(--c-ink); }
 /* Seletor Grade | Lista de Pendentes */
 html[data-theme="dark"] .view-switch .icon-button.selected { background: transparent; box-shadow: none; color: #141615; }
 html[data-theme="dark"] .view-ind { background: #e9ece6; }
+
+/* Botão de destaque (Começar lista, Continuar, Refazer erros…) no verde-menta do
+   app, o mesmo do "Iniciar simulado" e do menu lateral, nos dois temas. */
+.lg-btn-accent,
+html[data-theme="dark"] .lg-btn-accent { background: #c4fcc3; color: #111411 !important; box-shadow: 0 1px 2px rgb(17 20 17 / .06), 0 6px 14px -8px rgb(63 120 60 / .45); }
+.lg-btn-accent:hover:not(:disabled),
+html[data-theme="dark"] .lg-btn-accent:hover:not(:disabled) { background: #b2f5b1; filter: none; box-shadow: 0 0 0 4px rgb(196 252 195 / .35), 0 8px 18px -8px rgb(63 120 60 / .5); }
+.lg-btn-accent:disabled { background: var(--lg-surface-3); color: var(--lg-fg-subtle) !important; box-shadow: none; }
+
+/* Fundo neutro igual ao de "Meus estudos" (#f8f9f8) também em Questões,
+   Histórico, Simulados, Progresso, resultado e prova: troca os tons creme/bege
+   herdados do front anterior pelos neutros do app (só no tema claro). */
+:root:not([data-theme="dark"]) {
+  --lg-bg: #f8f9f8;
+  --lg-bg-deep: #eef0ec;
+  --lg-surface: #ffffff;
+  --lg-surface-2: #f3f4f1;
+  --lg-surface-3: #e8eae5;
+  --lg-border: #e6e8e3;
+  --lg-border-strong: #cfd4cc;
+  --lg-overlay: rgb(17 20 17 / .42);
+}
+:root:not([data-theme="dark"]) .hist-detail { background: rgb(243 244 241 / .5); }
+:root:not([data-theme="dark"]) .rs-q-head:hover { background: rgb(243 244 241 / .6); }
+:root:not([data-theme="dark"]) .rs-top { background: rgb(248 249 248 / .9); }
+:root:not([data-theme="dark"]) .ex-pause { background: rgb(248 249 248 / .78); }
+:root:not([data-theme="dark"]) .ex-text .qs-figure img { background: #ffffff; }
+:root:not([data-theme="dark"]) .acc-grid { stroke: #e8eae5; }
+:root:not([data-theme="dark"]) .personal-goals article { background: #f3f4f1; }
+:root:not([data-theme="dark"]) .goal-ring { background: conic-gradient(#ddb54d var(--goal-progress), #e8eae5 0); }
+:root:not([data-theme="dark"]) .personal-goals .is-done .goal-ring { background: conic-gradient(#86a58c var(--goal-progress), #e8eae5 0); }
+:root:not([data-theme="dark"]) .review-recommendations button { border-color: #e6e8e3; }
+:root:not([data-theme="dark"]) .review-recommendations button:hover { background: #f3f4f1; }
+
+/* Gráfico "Evolução da taxa de acerto" no verde do app. */
+:root { --acc-c: #3f9a52; }
+html[data-theme="dark"] { --acc-c: #8fdc9a; }
+.acc-line, html[data-theme="dark"] .acc-line { stroke: var(--acc-c); }
+.acc-active, html[data-theme="dark"] .acc-active { fill: var(--acc-c); }
+.acc-tip-row i, html[data-theme="dark"] .acc-tip-row i { background: var(--acc-c); }
+:root:not([data-theme="dark"]) .acc-cursor { stroke: #d3d8cf; }
+:root:not([data-theme="dark"]) .acc-tip { border-color: #e6e8e3; }
+
+
+/* Início: os três blocos à noite — cenário escurecido e painel em vidro escuro. */
+html[data-theme="dark"] .ph-col { --col-panel-solid: #1c1f1d; --col-panel: #14161599; --col-panel-line: #ffffff14; --col-ink: #eef1ec; --col-text: #b9c0b7; --col-soft: #ffffff12; border-color: #ffffff12; box-shadow: 0 20px 34px -24px #000; }
+html[data-theme="dark"] .ph-col--reco { --col-bg: #16261b; --col-accent-text: #a8e2b5; }
+html[data-theme="dark"] .ph-col--chal { --col-bg: #2a2412; --col-accent-text: #f2d27a; }
+html[data-theme="dark"] .ph-col--rev { --col-bg: #211c34; --col-accent-text: #cfc2fa; }
+html[data-theme="dark"] .ph-scene::before { filter: brightness(.62) saturate(.9); }
+html[data-theme="dark"] .ph-col--chal .ph-scene h2,
+html[data-theme="dark"] .ph-col--rev .ph-scene h2 { color: #fff; }
+html[data-theme="dark"] .ph-col--chal .ph-col-text,
+html[data-theme="dark"] .ph-col--rev .ph-col-text { color: #f1ecff; }
+html[data-theme="dark"] .ph-pill { background: #00000052; color: #fff; border-color: #ffffff26; }

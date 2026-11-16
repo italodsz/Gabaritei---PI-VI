@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf3d2"/><stop offset=".6" stop-color="#f9dc93"/><stop offset="1" stop-color="#f1c463"/></linearGradient>
+    <radialGradient id="sun" cx="62%" cy="58%" r="45%"><stop offset="0" stop-color="#fffbe6"/><stop offset=".35" stop-color="#ffefb7" stop-opacity=".8"/><stop offset="1" stop-color="#ffefb7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eac173"/><stop offset="1" stop-color="#e0ad55"/></linearGradient>
+    <linearGradient id="peak" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c98d33"/><stop offset="1" stop-color="#8f5d1c"/></linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d79b3f"/><stop offset="1" stop-color="#b8792a"/></linearGradient>
+    <linearGradient id="flag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cf55"/><stop offset="1" stop-color="#d99a1b"/></linearGradient>
+  </defs>
+  <rect width="320" height="210" fill="url(#sky)"/>
+  <rect width="320" height="210" fill="url(#sun)"/>
+  <!-- nuvens -->
+  <g fill="#fffaf0" opacity=".75"><ellipse cx="60" cy="58" rx="34" ry="8"/><ellipse cx="82" cy="52" rx="18" ry="7"/><ellipse cx="260" cy="40" rx="26" ry="6"/></g>
+  <!-- colinas distantes -->
+  <path d="M0 150 C40 130 70 138 110 128 C150 118 180 136 210 130 C250 122 290 132 320 124 V210 H0Z" fill="url(#far)" opacity=".8"/>
+  <!-- pico com bandeira -->
+  <path d="M184 210 L254 134 L272 148 L286 140 L320 176 V210Z" fill="url(#peak)"/>
+  <path d="M254 134 L262 146 L256 144 L250 152 L244 146Z" fill="#fbe8b4" opacity=".7"/>
+  <path d="M254 134 L286 140 L320 176 V210 H276 C282 182 268 160 254 134Z" fill="#6f4612" opacity=".25"/>
+  <g transform="translate(252 92) scale(.78)">
+    <rect x="0" y="0" width="3" height="58" rx="1.5" fill="#6b4410"/>
+    <circle cx="1.5" cy="-2" r="3.5" fill="#e3a52b"/>
+    <path d="M3 4 H38 V36 L30 44 L20 36 L10 44 L3 36Z" fill="url(#flag)"/>
+    <path d="M3 4 H38 V9 H3Z" fill="#b97a10" opacity=".5"/>
+    <path d="M20 14 l3 6 l6 1 l-4.5 4 l1.2 6 l-5.7 -3 l-5.7 3 l1.2 -6 l-4.5 -4 l6 -1z" fill="#fff4cf" opacity=".9"/>
+  </g>
+  <!-- primeiro plano -->
+  <path d="M0 184 C46 168 96 174 140 182 C180 190 210 178 240 184 C276 192 300 186 320 190 V210 H0Z" fill="url(#near)"/>
+  <g fill="#9c6420" opacity=".55"><path d="M24 210 C30 194 44 190 52 192 C46 202 36 208 24 210Z"/><path d="M292 210 C296 198 306 194 314 196 C310 204 302 208 292 210Z"/></g>
+  <g fill="#ffffff" opacity=".7"><circle cx="120" cy="34" r="1.3"/><circle cx="176" cy="26" r="1"/><circle cx="206" cy="70" r="1.2"/></g>
+</svg>

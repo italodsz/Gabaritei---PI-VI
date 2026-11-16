@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f7d4c"/><stop offset=".55" stop-color="#6fae6c"/><stop offset="1" stop-color="#a9d79a"/></linearGradient>
+    <radialGradient id="sun" cx="78%" cy="18%" r="40%"><stop offset="0" stop-color="#f7f3c4" stop-opacity=".9"/><stop offset="1" stop-color="#f7f3c4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d9a62"/><stop offset="1" stop-color="#4b8653"/></linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3e7a47"/><stop offset="1" stop-color="#2f6439"/></linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c5e35"/><stop offset="1" stop-color="#1f4a28"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9dcae"/><stop offset="1" stop-color="#d7c48a"/></linearGradient>
+  </defs>
+  <rect width="320" height="210" fill="url(#sky)"/>
+  <rect width="320" height="210" fill="url(#sun)"/>
+  <circle cx="250" cy="40" r="15" fill="#f6f1c8" opacity=".9"/>
+  <!-- montanhas -->
+  <path d="M0 120 L40 92 L70 104 L118 62 L160 96 L196 70 L238 100 L280 58 L320 86 V210 H0Z" fill="url(#far)" opacity=".85"/>
+  <path d="M280 58 L292 70 L284 70 L276 78 L268 70Z" fill="#e9f3dd" opacity=".55"/>
+  <path d="M118 62 L128 72 L120 71 L113 77 L108 70Z" fill="#e9f3dd" opacity=".45"/>
+  <path d="M0 146 C40 120 80 128 120 138 C170 150 210 118 260 122 C290 124 306 132 320 128 V210 H0Z" fill="url(#mid)"/>
+  <!-- caminho -->
+  <path d="M206 210 C214 184 252 176 246 160 C240 146 214 148 222 136" fill="none" stroke="url(#path)" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+  <path d="M0 176 C50 160 110 170 160 178 C210 186 250 168 320 172 V210 H0Z" fill="url(#near)"/>
+  <!-- árvores -->
+  <g fill="#1d4426"><path d="M262 150 l9 -26 l9 26z"/><path d="M276 154 l7 -20 l7 20z"/><path d="M40 168 l8 -24 l8 24z"/><path d="M54 170 l6 -18 l6 18z"/></g>
+  <g fill="#2f6b3a"><rect x="270" y="149" width="2" height="6"/><rect x="47" y="167" width="2" height="5"/></g>
+  <!-- livro aberto sobre a pedra -->
+  <path d="M232 192 C246 182 296 182 312 192 L312 210 L232 210Z" fill="#6f7d63"/>
+  <g transform="translate(240 168)">
+    <path d="M0 14 C14 8 26 8 36 13 L36 30 C26 25 14 25 0 31Z" fill="#fbf6e6"/>
+    <path d="M36 13 C46 8 58 8 72 14 L72 31 C58 25 46 25 36 30Z" fill="#f2ead0"/>
+    <path d="M36 13 L36 30" stroke="#c9b98a" stroke-width="1"/>
+    <path d="M6 17 C14 14 22 14 30 16 M6 21 C14 18 22 18 30 20 M42 16 C50 14 58 14 66 17 M42 20 C50 18 58 18 66 21" stroke="#c9b98a" stroke-width=".8" fill="none"/>
+    <path d="M0 31 C14 25 26 25 36 30 C46 25 58 25 72 31 L72 34 C58 28 46 28 36 33 C26 28 14 28 0 34Z" fill="#8a5a2f"/>
+  </g>
+  <!-- folhas -->
+  <g fill="#7cbf6d" opacity=".9"><path d="M8 210 C10 192 22 184 30 182 C28 194 20 204 8 210Z"/><path d="M20 210 C26 196 40 192 48 194 C42 204 32 208 20 210Z"/></g>
+  <g fill="#ffffff" opacity=".5"><circle cx="70" cy="40" r="1.4"/><circle cx="150" cy="30" r="1"/><circle cx="196" cy="48" r="1.2"/></g>
+</svg>
