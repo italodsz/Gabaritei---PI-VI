@@ -9,7 +9,7 @@ const EXPANDED = 256;
 const OPEN_DELAY = 90;   // ms com o cursor parado sobre o menu antes de abrir
 const CLOSE_DELAY = 260; // ms depois que o cursor sai, antes de recolher
 
-export function createSidebar({ onNavigate, getResume, getStreak, icons }) {
+export function createSidebar({ onNavigate, getResume, icons }) {
   const nav = document.getElementById('side-nav');
   const surface = document.getElementById('side-surface');
   const indicator = document.getElementById('side-active');
@@ -72,6 +72,7 @@ export function createSidebar({ onNavigate, getResume, getStreak, icons }) {
     const target = items.find(a => a.dataset.page === page);
     if (!target) { indicator.style.opacity = '0'; return; }
     const y = target.offsetTop;
+    indicator.style.height = `${target.offsetHeight}px`;
     if (indicatorY === null || reduced()) {
       indicator.style.translate = `0 ${y}px`;
       indicator.style.opacity = '1';

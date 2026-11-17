@@ -103,7 +103,7 @@ svg.hi { width: var(--hi-size); height: var(--hi-size); fill: none; stroke: none
 .side-nav.is-open .side-label { opacity: 1; transform: none; pointer-events: auto; transition: opacity .2s .06s, transform .2s .06s; }
 
 .side-bottom { margin-top: auto; display: flex; flex-direction: column; gap: 12px; padding: 16px; }
-.side-resume, .side-streak {
+.side-resume {
   position: relative;
   display: flex;
   align-items: center;
@@ -125,16 +125,9 @@ svg.hi { width: var(--hi-size); height: var(--hi-size); fill: none; stroke: none
 .side-resume-icon { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 12px; background: var(--nav-accent); color: #111411; }
 .side-resume-icon svg { width: 16px; height: 16px; }
 .side-resume-icon svg path { fill: currentColor; }
-.side-resume .side-label, .side-streak .side-label { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.side-resume .side-label { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .side-resume small { font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; color: var(--nav-accent); }
-.side-resume strong, .side-streak strong { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
-.side-streak { background: transparent; box-shadow: none; padding: 8px 12px; }
-.side-nav.is-open .side-streak { background: var(--nav-raised); }
-.side-streak-icon { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 12px; background: rgb(223 150 125 / .2); color: #df967d; }
-.side-streak-icon.is-idle { background: var(--nav-raised); color: var(--nav-muted); }
-.side-streak span.side-streak-count { position: absolute; left: 12px; bottom: -1px; width: 36px; text-align: center; font-size: 11px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.side-nav.is-open .side-streak-count { opacity: 0; }
-.side-streak small { font-size: 12px; color: var(--nav-muted); }
+.side-resume strong { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
 
 /* ------------------------------------------------------------------ */
 /* Topo enxuto (perfil e guias rápidas; a navegação mudou para o menu)  */
@@ -270,3 +263,23 @@ svg.hi { width: var(--hi-size); height: var(--hi-size); fill: none; stroke: none
 .profile-menu .profile-link { display: block; width: 100%; margin: 12px 0 8px; background: #111411; color: #fff; font-weight: 600; }
 .profile-menu .profile-link:hover { background: #2a2d2a; }
 .profile-menu #reset-demo { display: block; width: 100%; }
+
+/* A área de interação acompanha a superfície expandida. */
+@media (min-width: 761px) {
+  .side-nav.is-open { width: var(--rail-open); }
+  .side-surface { overflow-x: clip; overflow-y: auto; }
+  .side-brand, .side-section, .side-items, .side-bottom { flex-shrink: 0; }
+  .side-items .side-item { flex-shrink: 0; }
+  .side-items { overflow: visible; }
+  .side-bottom .quick-dots { padding-left: 8px; }
+  .side-bottom .profile { width: 100%; }
+  .side-bottom .profile-text { min-width: 0; }
+  .side-bottom .profile-text > span { overflow: hidden; text-overflow: ellipsis; }
+  .side-bottom .profile > svg { flex-shrink: 0; margin-left: auto; }
+  .side-bottom .profile-menu { left: 0; bottom: calc(100% + 12px); width: 100%; }
+  .side-nav:not(.is-open) .profile-menu { width: 220px; }
+  .side-bottom .theme-toggle { flex-shrink: 0; }
+}
+
+/* O seletor de tema já tem rótulo próprio. */
+.side-bottom .theme-toggle::after { display: none; }

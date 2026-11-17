@@ -1,7 +1,7 @@
 import { createLearningPages } from './learning-pages.js';
 import { createSidebar } from './sidebar.js';
 import { createNotes } from './notes.js';
-import { animate, spring, duration, ease, cssEase, reduced, pageEnter, bindPress } from './motion-kit.js';
+import { animate, spring, duration, ease, cssEase, reduced, pageEnter, bindPress, collapse, countTo, snapshot, flipList } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
 import { carregarAcervo } from './acervo-api.js';
 import { iniciarConta, espelhar } from './conta.js';
@@ -21,6 +21,7 @@ try {
   console.error(error);
   throw error;
 }
+import { getThemePref, setThemePref, currentTheme, onThemeChange } from './theme.js';
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
@@ -37,10 +38,18 @@ const seedNow = Date.now();
 const initial = () => [
   { id: 'functions', title: 'Funções e gráficos', description: 'Pratique a leitura de gráficos e as relações entre grandezas.', area: 'Matemática', icon: 'plus', done: true, saved: false, createdAt: iso(seedNow - 140 * HOUR), updatedAt: iso(seedNow - 30 * HOUR) },
   { id: 'reading', title: 'Interpretação de texto', description: 'Explore sentidos, argumentos e estratégias de leitura.', area: 'Linguagens', icon: 'book', done: true, saved: false, createdAt: iso(seedNow - 120 * HOUR), updatedAt: iso(seedNow - 50 * HOUR) },
-  { id: 'ecology', title: 'Ecologia e ambiente', description: 'Conecte os seres vivos, o ambiente e as suas relações.', area: 'Natureza', icon: 'leaf', done: false, saved: false, createdAt: iso(seedNow - 96 * HOUR), updatedAt: iso(seedNow - 20 * HOUR) },
-  { id: 'percentage', title: 'Porcentagem no cotidiano', description: 'Resolva situações com descontos e proporções.', area: 'Matemática', icon: 'calculator', done: false, saved: false, createdAt: iso(seedNow - 72 * HOUR), updatedAt: iso(seedNow - 72 * HOUR) },
-  { id: 'humanities-sim', title: 'Simulado de Humanas', description: 'Dez questões de Ciências Humanas, com correção ao finalizar.', area: 'Humanas', kind: 'simulado', icon: 'clock', done: false, saved: true, createdAt: iso(seedNow - 48 * HOUR), updatedAt: iso(seedNow - 48 * HOUR) },
+  { id: 'ecology', title: 'Ecologia e ambiente', description: 'Conecte os seres vivos, o ambiente e as suas relações.', area: 'Natureza', icon: 'leaf', done: false, saved: false, createdAt: iso(seedNow - 76 * HOUR), updatedAt: iso(seedNow - 28 * HOUR) },
+  { id: 'percentage', title: 'Porcentagem no cotidiano', description: 'Resolva situações com descontos e proporções.', area: 'Matemática', icon: 'calculator', done: false, saved: false, createdAt: iso(seedNow - 92 * HOUR), updatedAt: iso(seedNow - 44 * HOUR) },
+  { id: 'humanities-sim', title: 'Simulado de Humanas', description: 'Dez questões de Ciências Humanas, com correção ao finalizar.', area: 'Humanas', kind: 'simulado', icon: 'clock', done: false, saved: true, createdAt: iso(seedNow - 98 * HOUR), updatedAt: iso(seedNow - 50 * HOUR) },
+  { id: 'colonia', title: 'Brasil Colônia e Império', description: 'Ciclos econômicos, sociedade colonial e a chegada da corte.', area: 'Humanas', icon: 'book', done: false, saved: false, createdAt: iso(seedNow - 80 * HOUR), updatedAt: iso(seedNow - 32 * HOUR) },
+  { id: 'sim-matematica', title: 'Simulado de Matemática', description: 'Dez questões de Matemática, com tempo de prova e nota ao final.', area: 'Matemática', kind: 'simulado', icon: 'clock', done: false, saved: false, createdAt: iso(seedNow - 68 * HOUR), updatedAt: iso(seedNow - 20 * HOUR) },
+  { id: 'english', title: 'Leitura em inglês', description: 'Textos curtos com foco em vocabulário e na ideia principal.', area: 'Linguagens', icon: 'book', done: false, saved: true, createdAt: iso(seedNow - 72 * HOUR), updatedAt: iso(seedNow - 24 * HOUR) },
+  { id: 'physics-energy', title: 'Energia e eletricidade', description: 'Potência, consumo e circuitos do dia a dia.', area: 'Natureza', icon: 'leaf', done: false, saved: false, createdAt: iso(seedNow - 108 * HOUR), updatedAt: iso(seedNow - 60 * HOUR) },
+  { id: 'sim-natureza', title: 'Simulado de Natureza', description: 'Biologia, Física e Química em uma prova de dez questões.', area: 'Natureza', kind: 'simulado', icon: 'clock', done: false, saved: false, createdAt: iso(seedNow - 86 * HOUR), updatedAt: iso(seedNow - 38 * HOUR) },
+  { id: 'sim-linguagens', title: 'Simulado de Linguagens', description: 'Português, literatura e língua estrangeira em dez questões.', area: 'Linguagens', kind: 'simulado', icon: 'clock', done: true, saved: false, createdAt: iso(seedNow - 160 * HOUR), updatedAt: iso(seedNow - 90 * HOUR) },
 ].map(item => ({ ...item, done: false }));
+/** Versão dos cards de demonstração: quem já tem dados salvos recebe os cards novos uma única vez. */
+const DEMO_SEED = 2;
 const studyAreas = [
   { key: 'linguagens', area: 'Linguagens', title: 'Linguagens, Códigos', fullName: 'Linguagens, Códigos e suas Tecnologias', subjects: 'LEITURA · EXPRESSÃO · CULTURA', text: 'Textos, sentidos e novas formas de ver o mundo.', id: 'reading', art: 'linguagens' },
   { key: 'natureza', area: 'Natureza', title: 'Ciências da Natureza', fullName: 'Ciências da Natureza e suas Tecnologias', subjects: 'BIOLOGIA · FÍSICA · QUÍMICA', text: 'Descubra as conexões entre a vida e a ciência.', id: 'ecology', art: 'natureza' },
@@ -51,16 +60,26 @@ const areaKey = name => studyAreas.find(area => area.area === name)?.key || 'liv
 const AREA_NAME_BY_KEY = Object.fromEntries(studyAreas.map(a => [a.key, a.area]));
 
 let activities = initial();
+let demoSeedUpdated = false;
 try {
   const stored = JSON.parse(localStorage.getItem('gabaritei:plano:oficial:v1'));
   if (stored && Array.isArray(stored.activities) && stored.activities.every(a => typeof a.id === 'string' && typeof a.title === 'string' && typeof a.description === 'string' && typeof a.area === 'string')) {
     // Migração: o card "Continue de onde parou" virou derivado das listas em andamento;
     // atividades antigas ganham datas de criação/atualização.
     activities = stored.activities.filter(a => !a.featured).map((a, i) => ({ ...a, createdAt: a.createdAt ?? iso(seedNow - (200 - i) * HOUR), updatedAt: a.updatedAt ?? a.createdAt ?? iso(seedNow - (200 - i) * HOUR) }));
+    if ((stored.seed ?? 1) < DEMO_SEED) {
+      const have = new Set(activities.map(a => a.id));
+      activities.push(...initial().filter(a => !have.has(a.id)));
+      demoSeedUpdated = true;
+    }
   }
 } catch { /* O protótipo também funciona sem armazenamento. */ }
-const state = { page: 'plano', view: 'map', showDone: false, saved: false, zoom: 1, simArea: null, simView: 'areas' };
-function persist() { try { localStorage.setItem('gabaritei:plano:oficial:v1', JSON.stringify({ activities })); } catch { /* Estado mantido nesta sessão. */ } espelhar('plano', { activities }); }
+if (demoSeedUpdated) persist(); // grava a versão para não reacrescentar cards excluídos
+const PEND_VIEW_KEY = 'gabaritei:pendentes-view:v1';
+const state = { page: 'plano', view: (() => { try { return localStorage.getItem(PEND_VIEW_KEY) === 'list' ? 'list' : 'map'; } catch { return 'map'; } })(), showDone: false, saved: false, zoom: 1, simArea: null, simView: 'areas' };
+/** Início e Pendentes usam a mesma área (#plan-page): mural, notas e guias rápidas. */
+const onBoard = () => state.page === 'plano' || state.page === 'pendentes';
+function persist() { try { localStorage.setItem('gabaritei:plano:oficial:v1', JSON.stringify({ activities, seed: DEMO_SEED })); } catch { /* Estado mantido nesta sessão. */ } espelhar('plano', { activities, seed: DEMO_SEED }); }
 const touch = a => { a.updatedAt = new Date().toISOString(); };
 let toastTimeout;
 function toast(message) { $('#toast').textContent = message; $('#toast').classList.add('visible'); clearTimeout(toastTimeout); toastTimeout = setTimeout(() => $('#toast').classList.remove('visible'), 3200); }
@@ -68,7 +87,7 @@ function toast(message) { $('#toast').textContent = message; $('#toast').classLi
 // Detalhes de fundo de cada área (texto decorativo em branco translúcido).
 const CARD_DECOR = { matematica: ['√x', 'π'], linguagens: ['Aa', '¶'], natureza: ['H<sub>2</sub>O', 'Δ'], humanas: ['XIX', '§'], livre: ['Aa', '?'] };
 const AREA_LABEL = { matematica: 'MATEMÁTICA', linguagens: 'LINGUAGENS', natureza: 'NATUREZA', humanas: 'HUMANAS', livre: 'ESTUDO LIVRE' };
-const PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4a1.7 1.7 0 0 1 2.5-1.5l12 7.4a2 2 0 0 1 0 3.2l-12 7.4A1.7 1.7 0 0 1 7 19Z"/></svg>';
+const PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 5.2C8.2 4.4 9.1 3.9 9.8 4.4L19.3 10.9C20 11.4 20 12.6 19.3 13.1L9.8 19.6C9.1 20.1 8.2 19.6 8.2 18.8Z"/></svg>';
 const KIND = { lista: { icon: 'list', label: 'Lista de questões' }, simulado: { icon: 'clock', label: 'Simulado' } };
 const ACTIVITY_LISTS = {
   functions: { topicIds: ['matematica-algebra-e-funcoes'] },
@@ -76,6 +95,9 @@ const ACTIVITY_LISTS = {
   reading: { topicIds: ['portugues-leitura-e-interpretacao', 'portugues-generos-e-tipos-textuais', 'portugues-funcoes-da-linguagem'] },
   ecology: { topicIds: ['biologia-ecologia', 'quimica-quimica-ambiental-e-aplicada', 'geografia-questao-ambiental-e-recursos'] },
   humanities: { topicIds: ['geografia-geografia-fisica-e-dinamica-natural', 'geografia-cartografia-e-representacao-do-espaco'] },
+  colonia: { topicIds: ['historia-brasil-colonia', 'historia-independencia-e-imperio'] },
+  english: { topicIds: ['ingles-leitura-em-lingua-estrangeira'] },
+  'physics-energy': { topicIds: ['fisica-fisica-moderna-e-energia', 'fisica-eletricidade-e-magnetismo'] },
 };
 const AREA_IDS = { Linguagens: 'linguagens', Natureza: 'natureza', Humanas: 'humanas', Matemática: 'matematica' };
 const listFor = a => (a.kind === 'simulado' ? { areaId: AREA_IDS[a.area] ?? 'matematica', count: 10 } : { count: 5, ...(ACTIVITY_LISTS[a.id] ?? { areaId: AREA_IDS[a.area] ?? 'matematica' }) });
@@ -85,6 +107,8 @@ function getActivity(id) { return activities.find(item => item.id === id) || (id
 /* Pendências: atividades + listas e simulados em andamento            */
 /* ------------------------------------------------------------------ */
 /** Une atividades do plano e sessões em andamento num único formato de card. */
+/** Sessão aberta (fora do plano) em que ainda não se respondeu nada. */
+const untouched = it => (it.source !== 'activity' && !it.done && (it.answered ?? 0) === 0 ? 1 : 0);
 function studyItems() {
   const linked = new Set(activities.flatMap(a => [a.sessionId, a.simId]).filter(Boolean));
   const fromActivities = activities.map(a => {
@@ -106,8 +130,14 @@ function visibleItems() {
   return studyItems()
     // A lista principal mostra só pendências; "Concluídas" mostra só as concluídas, à parte.
     .filter(it => (state.showDone ? it.done : !it.done) && (!state.saved || it.saved) && norm(`${it.title} ${it.description} ${it.area}`).includes(query))
+    // Pendentes: só listas e simulados já começados e ainda não terminados.
+
     // Da atividade mais recente para a mais antiga (atualização, com criação como reserva).
-    .sort((a, b) => b.date.localeCompare(a.date));
+    // Listas e simulados abertos sem nenhuma resposta ("0 de N") vão para o fim, para não
+    // empurrar as atividades do plano para baixo.
+    // Grade e Lista: mesma lista e mesma ordem. Em andamento primeiro (mais recente no topo),
+    // depois as ainda não começadas; sessões abertas sem resposta ficam por último.
+    .sort((a, b) => (b.inProgress ? 1 : 0) - (a.inProgress ? 1 : 0) || untouched(a) - untouched(b) || b.date.localeCompare(a.date));
 }
 
 /* ------------------------------------------------------------------ */
@@ -150,14 +180,18 @@ function render({ enter = false } = {}) {
   $('#done-count').textContent = all.filter(it => it.done).length;
   $('#upcoming-count').textContent = pendingCount;
   const canvas = $('#learning-canvas');
-  canvas.dataset.view = state.view;
+  const practicing = state.page === 'plano';
+  canvas.dataset.view = practicing ? 'practice' : state.view;
   canvas.style.setProperty('--zoom', state.zoom);
-  $('#empty-state').hidden = items.length > 0;
-  $('#empty-state h2').textContent = state.showDone ? 'Nada concluído por aqui' : $('#search').value ? 'Nenhum assunto por aqui' : 'Tudo em dia!';
-  $('#empty-state p').textContent = state.showDone ? 'Conclua uma lista ou simulado para vê-lo aqui.' : $('#search').value ? 'Experimente outra palavra ou limpe os filtros.' : 'Nenhuma atividade pendente. Que tal montar uma nova lista?';
+  $('#empty-state').hidden = practicing || items.length > 0;
+  $('#empty-state h2').textContent = state.showDone ? 'Nada concluído por aqui' : $('#search').value ? 'Nenhum assunto por aqui' : 'Nada pendente por aqui';
+  $('#empty-state p').textContent = state.showDone ? 'Conclua uma lista ou simulado para vê-lo aqui.' : $('#search').value ? 'Experimente outra palavra ou limpe os filtros.' : 'Listas e simulados que você começar e ainda não terminar aparecem aqui. Para praticar agora, volte ao Início.';
   const banner = state.showDone ? '<div class="done-banner"><span>Mostrando só as atividades <b>concluídas</b>, separadas das pendências.</span><button type="button" id="back-to-pending">Voltar às pendências</button></div>' : '';
   const featuredFirst = !state.showDone;
-  if (state.view === 'map') {
+  if (practicing) {
+    $('#activities').innerHTML = practiceHubHTML();
+    bindPracticeHub();
+  } else if (state.view === 'map') {
     const left = [], right = [];
     items.forEach((it, i) => (i % 2 === 0 ? left : right).push(cardHTML(it, i, featuredFirst && i === 0)));
     $('#activities').innerHTML = `${banner}<div class="trail-col">${left.join('')}</div><div class="trail-col is-right">${right.join('')}</div>`;
@@ -165,15 +199,113 @@ function render({ enter = false } = {}) {
     $('#activities').innerHTML = banner + items.map((it, i) => cardHTML(it, i, featuredFirst && i === 0)).join('');
   }
   $('#back-to-pending')?.addEventListener('click', () => { state.showDone = false; render({ enter: true }); });
-  $('#filter-button').setAttribute('aria-pressed', state.showDone);
-  $('#saved-button').setAttribute('aria-pressed', state.saved);
+  $('#filter-button')?.setAttribute('aria-pressed', state.showDone);
+  $('#saved-button')?.setAttribute('aria-pressed', state.saved);
+  paintViewSwitch();
   $$('[data-view]').filter(el => el.tagName === 'BUTTON').forEach(button => { button.classList.toggle('selected', button.dataset.view === state.view); button.setAttribute('aria-pressed', button.dataset.view === state.view); });
   observeCards();
-  if (enter || firstPaint) { firstPaint = false; enterCards(); } else drawTrail({ instant: true });
+  if (practicing) { firstPaint = false; drawTrail({ instant: true }); if (enter) enterPracticeHub(); }
+  else if (enter || firstPaint) { firstPaint = false; enterCards(); } else drawTrail({ instant: true });
   notes?.refresh();
   sidebar?.renderBottom();
 }
 
+/* ------------------------------------------------------------------ */
+/* Praticar: hub de prática contínua                                   */
+/* ------------------------------------------------------------------ */
+const RECO_SOURCES = [
+  ['marcadas', 'Marcadas para revisar', 'bookmark'],
+  ['erradas', 'Erradas da última vez', 'x-circle'],
+  ['pendentes', 'Pendentes em listas', 'clock'],
+  ['dificuldade', 'Assuntos com dificuldade', 'target'],
+  ['revisao', 'Revisão espaçada', 'history'],
+  ['ineditas', 'Inéditas relevantes', 'spark'],
+];
+function practiceHubHTML() {
+  return `<section class="practice-hub" aria-label="Modos de prática">${recoColumnHTML()}${challengeColumnHTML()}${reviewColumnHTML()}</section>`;
+}
+/**
+ * Estrutura comum dos três blocos: cenário ilustrado com rótulo, título e texto;
+ * painel claro com os números; e o botão principal, igual nos três (só texto).
+ */
+const hubColumn = ({ mode, tone, scene, kicker, title, text, panel, cta, id }) => `<article class="ph-col ph-col--${tone}" data-mode="${mode}">
+    <div class="ph-scene" style="--scene:url('assets/${scene}')">
+      <span class="ph-pill">${kicker}</span>
+      <h2>${title}</h2>
+      <p class="ph-col-text">${text}</p>
+    </div>
+    <div class="ph-panel">${panel}</div>
+    <button type="button" class="ph-col-cta" id="${id}" data-press="0.97">${cta}</button>
+  </article>`;
+const plural = (n, um, varios) => (n === 1 ? um : varios);
+/** Prática contínua: tamanho da fila e os dois principais motivos. */
+function recoColumnHTML() {
+  const o = learning.recommendationOverview();
+  const tags = RECO_SOURCES.filter(([k]) => o.counts[k]).sort((a, b) => o.counts[b[0]] - o.counts[a[0]]).slice(0, 2)
+    .map(([k, label]) => `<span class="ph-tag"><b>${Math.min(o.counts[k], 99)}${o.counts[k] > 99 ? '+' : ''}</b>${label}</span>`).join('');
+  return hubColumn({
+    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'PRÁTICA CONTÍNUA', id: 'ph-start',
+    title: 'Prática sob medida',
+    text: 'Questões escolhidas para você, uma depois da outra.',
+    panel: `<div class="ph-stat"><strong data-count="${o.total}">${o.total}</strong><span>questões na fila</span></div>
+      ${tags ? `<div class="ph-tags">${tags}</div>` : '<p class="ph-note">Responda algumas questões para personalizar a fila.</p>'}
+      ${o.active ? `<p class="ph-note">${o.active.answered} ${plural(o.active.answered, 'respondida', 'respondidas')} na prática atual</p>` : ''}`,
+    cta: o.active ? 'Continuar praticando' : 'Começar a praticar',
+  });
+}
+/** Desafio de acertos: recorde, últimas tentativas e as regras. */
+function challengeColumnHTML() {
+  const st = learning.challengeStore();
+  const recent = st.attempts.slice(-8);
+  const max = Math.max(1, ...recent.map(a => a.streak));
+  return hubColumn({
+    mode: 'desafio', tone: 'chal', scene: 'hub-desafio.svg', kicker: 'DESAFIO DE ACERTOS', id: 'ph-challenge',
+    title: 'Até onde você chega?',
+    text: 'Acerte em sequência e supere sua melhor marca.',
+    panel: `<div class="ph-stat"><strong data-count="${st.best}">${st.best}</strong><span>recorde · ${plural(st.best, 'acerto seguido', 'acertos seguidos')}</span></div>
+      <div class="ph-attempts"><span class="ph-label">ÚLTIMAS TENTATIVAS</span>${recent.length ? `<div class="ph-bars" aria-hidden="true">${recent.map((a, i) => `<i class="${i === recent.length - 1 ? 'is-last' : ''}" style="--h:${Math.max(0.06, a.streak / max)}"></i>`).join('')}</div><small>Última: ${recent.at(-1).streak} ${plural(recent.at(-1).streak, 'acerto', 'acertos')}</small>` : '<small>Nenhuma tentativa ainda.</small>'}</div>
+      <div class="ph-tags"><span class="ph-tag">03:40 por questão</span><span class="ph-tag">Sem pausa nem pulo</span></div>`,
+    cta: 'Começar desafio',
+  });
+}
+/** Revisão: erros ainda não superados (ou o estado vazio). */
+function reviewColumnHTML() {
+  const o = learning.reviewOverview();
+  const a = o.active;
+  if (!o.pending && !a) return hubColumn({
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-other',
+    title: 'Tudo revisado por enquanto!',
+    text: 'Nenhuma questão errada pendente.',
+    panel: '<p class="ph-note">Quando errar alguma questão, ela aparece aqui até você acertá-la.</p>',
+    cta: 'Iniciar outra prática',
+  });
+  const pct = a ? a.reviewed / Math.max(1, a.total) : 0;
+  return hubColumn({
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-review',
+    title: 'Erros para superar',
+    text: 'Refaça o que errou até acertar. Sem pressa.',
+    panel: `<div class="ph-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} de ${a.total} revisadas` : `${o.pending} pendentes`}"><strong>${a ? a.reviewed : o.pending}</strong><small>${a ? `de ${a.total} revisadas` : plural(o.pending, 'pendente', 'pendentes')}</small></div>
+      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span><span class="ph-tag"><b>${o.pending}</b>na fila</span>` : '<span class="ph-tag">Sem cronômetro</span><span class="ph-tag">Com correção e explicação</span>'}</div>`,
+    cta: a ? 'Continuar revisão' : 'Revisar agora',
+  });
+}
+function bindPracticeHub() {
+  $('#ph-start')?.addEventListener('click', () => learning.startRecommended());
+  $('#ph-challenge')?.addEventListener('click', () => learning.startChallenge());
+  $('#ph-review')?.addEventListener('click', () => learning.startReviewMode());
+  $('#ph-other')?.addEventListener('click', () => learning.startRecommended());
+}
+function enterPracticeHub() {
+  if (reduced()) return;
+  // As três colunas entram juntas, em cascata curta; depois os dados de cada uma.
+  $$('.ph-col').forEach((c, i) => animate(c, { opacity: [0, 1], y: [18, 0], scale: [0.985, 1] }, { ...spring.soft, delay: i * 0.07 }));
+  $$('.ph-col .ph-tag').forEach((t, i) => animate(t, { opacity: [0, 1], y: [6, 0] }, { ...spring.snappy, delay: 0.18 + i * 0.03 }));
+  $$('.ph-scene').forEach((sc, i) => sc.animate([{ backgroundPosition: 'center 12px' }, { backgroundPosition: 'center 0px' }], { duration: 900, delay: i * 70, easing: cssEase.out, fill: 'backwards' }));
+  $$('.ph-bars i').forEach((b, i) => b.animate([{ transform: 'scaleY(0)' }, { transform: 'scaleY(var(--h))' }], { duration: 600, delay: 300 + i * 45, easing: cssEase.out, fill: 'backwards' }));
+  const ring = $('.ph-ring');
+  if (ring) { const p = ring.style.getPropertyValue('--p'); ring.animate([{ '--p': 0 }, { '--p': p }], { duration: 900, delay: 250, easing: cssEase.out, fill: 'backwards' }); }
+  $$('.ph-stat strong[data-count]').forEach(el => countTo(el, Number(el.dataset.count), { from: 0, seconds: 0.8 }));
+}
 /* ------------------------------------------------------------------ */
 /* Entrada coordenada: cards, depois os tracejados                      */
 /* ------------------------------------------------------------------ */
@@ -204,7 +336,7 @@ function enterCards() {
 function drawTrail({ hidden = false, animateIn = false, instant = false } = {}) {
   const canvas = $('#learning-canvas');
   const svg = canvas?.querySelector('.connections');
-  if (!svg || state.page !== 'plano') return;
+  if (!svg || state.page !== 'pendentes') return;
   const cols = [...canvas.querySelectorAll('.trail-col')];
   if (state.view !== 'map' || cols.length < 2 || matchMedia('(max-width: 760px)').matches) { svg.innerHTML = ''; return; }
   const act = $('#activities');
@@ -255,7 +387,7 @@ let trailFrame;
 let trailDrawn = false;
 const redrawTrail = () => { cancelAnimationFrame(trailFrame); trailFrame = requestAnimationFrame(() => drawTrail(trailDrawn ? { instant: true } : { hidden: true })); };
 // Redesenha quando o tamanho do mural ou de qualquer card muda (fontes, zoom, janela, conteúdo).
-const trailObserver = new ResizeObserver(() => { if (state.page === 'plano') redrawTrail(); });
+const trailObserver = new ResizeObserver(() => { if (state.page === 'pendentes') redrawTrail(); });
 function observeCards() {
   trailObserver.disconnect();
   trailObserver.observe($('#learning-canvas'));
@@ -408,46 +540,64 @@ $('#activities').addEventListener('click', event => {
 $('#search').addEventListener('input', () => render());
 function clearFilters() { $('#search').value = ''; state.showDone = false; state.saved = false; render({ enter: true }); }
 $('#clear-search').onclick = clearFilters;
-$$('button[data-view]').forEach(button => button.onclick = () => { if (state.view === button.dataset.view) return; state.view = button.dataset.view; render({ enter: true }); });
-$('#zoom-in').onclick = () => { state.zoom = Math.min(1.08, +(state.zoom + .04).toFixed(2)); render(); toast(`Visualização: ${Math.round(state.zoom * 100)}%`); };
-$('#zoom-out').onclick = () => { state.zoom = Math.max(.84, +(state.zoom - .04).toFixed(2)); render(); toast(`Visualização: ${Math.round(state.zoom * 100)}%`); };
+/** Indicador da visualização escolhida (Grade | Lista), que desliza entre os botões. */
+function paintViewSwitch() {
+  const sw = $('.view-switch');
+  if (!sw) return;
+  const btn = sw.querySelector(`button[data-view="${state.view}"]`);
+  let ind = sw.querySelector('.view-ind');
+  if (!ind) { ind = document.createElement('span'); ind.className = 'view-ind'; ind.setAttribute('aria-hidden', 'true'); sw.prepend(ind); }
+  if (!btn) return;
+  const from = ind.dataset.pos ? ind.dataset.pos.split(',').map(Number) : null;
+  const top = btn.offsetTop, left = btn.offsetLeft;
+  if (!btn.offsetWidth) return; // página oculta: posiciona na próxima pintura
+  ind.style.top = `${top}px`;
+  ind.style.left = `${left}px`;
+  ind.style.width = `${btn.offsetWidth}px`;
+  ind.style.height = `${btn.offsetHeight}px`;
+  ind.dataset.pos = `${left},${top}`;
+  if (from && (from[0] !== left || from[1] !== top) && !reduced()) animate(ind, { x: [from[0] - left, 0], y: [from[1] - top, 0] }, spring.layout);
+}
+// Mudança de layout (janela, celular): reposiciona o indicador sem animar.
+addEventListener('resize', () => { const ind = $('.view-ind'); if (ind) delete ind.dataset.pos; paintViewSwitch(); });
+$$('button[data-view]').forEach(button => button.onclick = () => {
+  if (state.view === button.dataset.view) return;
+  state.view = button.dataset.view;
+  try { localStorage.setItem(PEND_VIEW_KEY, state.view); } catch { /* sem armazenamento */ }
+  // As mesmas atividades mudam de arranjo: os cards deslizam da posição antiga (FLIP).
+  const before = snapshot($('#activities'), '.activity-card', 'data-key');
+  render();
+  if (reduced()) return;
+  flipList($('#activities'), before);
+  $$('.activity-card', $('#activities')).forEach((c, i) => { if (!before.has(c.dataset.key)) c.animate([{ opacity: 0, translate: '0 12px' }, { opacity: 1, translate: '0 0' }], { duration: 380, delay: i * 30, easing: cssEase.out, fill: 'backwards' }); });
+  if (state.view === 'map') { trailDrawn = false; setTimeout(() => { trailDrawn = true; drawTrail({ animateIn: true }); }, 420); }
+});
 // O zoom anima por CSS (transform .35s); os tracejados acompanham até o fim.
 $('#activities').addEventListener('transitionend', e => { if (e.target.id === 'activities') redrawTrail(); });
 $('#activities').addEventListener('transitionrun', e => { if (e.target.id !== 'activities') return; const svg = $('#learning-canvas .connections'); if (svg) svg.style.opacity = '0'; setTimeout(() => { redrawTrail(); requestAnimationFrame(() => svg?.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 200, fill: 'forwards' }).finished.then(() => { svg.style.opacity = ''; })); }, 360); });
-$('#dock-map').onclick = () => { navigate('plano'); state.view = 'map'; clearFilters(); };
-$('#filter-button').onclick = () => { navigate('plano'); state.showDone = !state.showDone; render({ enter: true }); toast(state.showDone ? 'Mostrando só as concluídas, separadas das pendências.' : 'Mostrando só o que falta fazer.'); };
-$('#saved-button').onclick = () => { navigate('plano'); state.saved = !state.saved; render({ enter: true }); toast(state.saved ? 'Mostrando atividades salvas.' : 'Mostrando todas as atividades.'); };
-$('#notifications').onclick = () => { navigate('plano'); const p = $('#notes-panel'); p.scrollIntoView({ behavior: reduced() ? 'instant' : 'smooth', block: 'nearest' }); animate(p, { backgroundColor: ['#e3f3df', '#efefef'] }, { duration: 0.9 }); p.querySelector('.nb-text')?.focus(); };
 $('#profile-button').onclick = () => { const menu = $('#profile-menu'); menu.hidden = !menu.hidden; $('#profile-button').setAttribute('aria-expanded', !menu.hidden); if (!menu.hidden) animate(menu, { opacity: [0, 1], y: [-6, 0], scale: [0.97, 1] }, { duration: duration.fast, ease: ease.out }); };
 document.addEventListener('click', event => { if (!event.target.closest('.profile-wrapper')) { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); } });
 $('#reset-demo').onclick = () => { activities = initial(); persist(); notes.reset(); clearFilters(); navigate('plano'); $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); toast('Plano inicial restaurado. Seu histórico de respostas foi mantido.'); };
 // Botão "Criar": recurso futuro, sem ação. Só mostra o aviso.
 $('#create-soon').addEventListener('click', e => { e.preventDefault(); const b = e.currentTarget; if (!reduced()) animate(b, { x: [0, -4, 4, -2, 0] }, { duration: 0.36, ease: ease.out }); toast('Em breve: criar listas, simulados e objetivos. Ainda indisponível neste protótipo.'); });
-$('#add-button').onclick = () => { openDialog(`<span class="dialog-label">SEU PLANO, DO SEU JEITO</span><h2 id="dialog-title" class="dialog-title">O que vamos estudar?</h2><p class="dialog-description">Adicione um assunto ao seu mural. Você pode reorganizar a visualização pela barra lateral.</p><form id="activity-form"><label class="dialog-field">Assunto<input name="title" placeholder="Ex.: Equações do segundo grau" maxlength="70" required></label><label class="dialog-field">Área<select name="area">${studyAreas.map(area => `<option value="${area.area}">${area.fullName}</option>`).join('')}</select></label><label class="dialog-field">Tipo<select name="kind"><option value="lista">Lista de questões (5 questões do assunto)</option><option value="simulado">Simulado (10 questões da área, correção ao finalizar)</option></select></label><label class="dialog-field">Sua intenção para esse estudo<textarea name="description" placeholder="O que você quer entender melhor?" maxlength="160" required></textarea></label><button class="primary-button" type="submit">Adicionar ao meu plano ${icon('plus')}</button></form>`); $('#activity-form').onsubmit = event => { event.preventDefault(); const data = new FormData(event.target); const title = data.get('title').trim(), description = data.get('description').trim(); if (!title || !description) return; const now = new Date().toISOString(); activities.push({ id: crypto.randomUUID(), title, description, area: data.get('area') || 'Estudo livre', kind: data.get('kind') === 'simulado' ? 'simulado' : 'lista', icon: 'book', done: false, saved: false, createdAt: now, updatedAt: now }); persist(); navigate('plano'); clearFilters(); dialog.close(); toast('Novo assunto adicionado. Seu plano ganhou mais um caminho.'); }; };
+$('#add-button').onclick = () => { openDialog(`<span class="dialog-label">SEU PLANO, DO SEU JEITO</span><h2 id="dialog-title" class="dialog-title">O que vamos estudar?</h2><p class="dialog-description">Adicione um assunto ao seu mural. Você pode reorganizar a visualização pela barra lateral.</p><form id="activity-form"><label class="dialog-field">Assunto<input name="title" placeholder="Ex.: Equações do segundo grau" maxlength="70" required></label><label class="dialog-field">Área<select name="area">${studyAreas.map(area => `<option value="${area.area}">${area.fullName}</option>`).join('')}</select></label><label class="dialog-field">Tipo<select name="kind"><option value="lista">Lista de questões (5 questões do assunto)</option><option value="simulado">Simulado (10 questões da área, correção ao finalizar)</option></select></label><label class="dialog-field">Sua intenção para esse estudo<textarea name="description" placeholder="O que você quer entender melhor?" maxlength="160" required></textarea></label><button class="primary-button" type="submit">Adicionar ao meu plano ${icon('plus')}</button></form>`); $('#activity-form').onsubmit = event => { event.preventDefault(); const data = new FormData(event.target); const title = data.get('title').trim(), description = data.get('description').trim(); if (!title || !description) return; const now = new Date().toISOString(); activities.push({ id: crypto.randomUUID(), title, description, area: data.get('area') || 'Estudo livre', kind: data.get('kind') === 'simulado' ? 'simulado' : 'lista', icon: 'book', done: false, saved: false, createdAt: now, updatedAt: now }); persist(); navigate('pendentes'); clearFilters(); dialog.close(); toast('Novo assunto adicionado. Seu plano ganhou mais um caminho.'); }; };
 let timerRemaining = 25 * 60;
 let timerEnd = null;
 let timerInterval = null;
 const timerText = () => `${String(Math.floor(timerRemaining / 60)).padStart(2, '0')}:${String(timerRemaining % 60).padStart(2, '0')}`;
 function updateTimer() { if (timerEnd) timerRemaining = Math.max(0, Math.ceil((timerEnd - Date.now()) / 1000)); if ($('#timer-value')) $('#timer-value').textContent = timerText(); if (timerEnd && timerRemaining === 0) { clearInterval(timerInterval); timerInterval = null; timerEnd = null; if ($('#timer-start')) $('#timer-start').textContent = 'Foco concluído'; toast('Seu tempo de foco terminou. Hora de respirar um pouco.'); } }
-$('#focus-button').onclick = () => { updateTimer(); openDialog(`<span class="dialog-label">UMA COISA DE CADA VEZ</span><h2 id="dialog-title" class="dialog-title">Seu momento de foco.</h2><p class="dialog-description">Escolha um tempo, deixe as distrações de lado e dê o próximo passo.</p><div class="timer-modes"><button data-minutes="15">15 min</button><button data-minutes="25" class="active">25 min</button><button data-minutes="45">45 min</button></div><div class="timer-face" id="timer-value" role="timer" aria-label="Tempo restante">${timerText()}</div><div class="dialog-actions" style="justify-content:center"><button class="primary-button" id="timer-start">${timerEnd ? 'Pausar' : 'Começar'}</button><button class="small-button" id="timer-reset">Reiniciar</button></div>`); let minutes = 25; $$('[data-minutes]', dialog).forEach(button => { button.classList.toggle('active', !timerEnd && Number(button.dataset.minutes) === Math.ceil(timerRemaining / 60)); button.onclick = () => { minutes = Number(button.dataset.minutes); clearInterval(timerInterval); timerInterval = null; timerEnd = null; timerRemaining = minutes * 60; $$('[data-minutes]', dialog).forEach(b => b.classList.toggle('active', b === button)); updateTimer(); $('#timer-start').textContent = 'Começar'; }; }); $('#timer-start').onclick = () => { if (timerEnd) { updateTimer(); timerEnd = null; clearInterval(timerInterval); timerInterval = null; $('#timer-start').textContent = 'Continuar'; } else { if (!timerRemaining) timerRemaining = minutes * 60; timerEnd = Date.now() + timerRemaining * 1000; timerInterval = setInterval(updateTimer, 250); $('#timer-start').textContent = 'Pausar'; } }; $('#timer-reset').onclick = () => { clearInterval(timerInterval); timerInterval = null; timerEnd = null; timerRemaining = minutes * 60; updateTimer(); $('#timer-start').textContent = 'Começar'; }; };
 
 /* ------------------------------------------------------------------ */
 /* Simulados: áreas → configuração (ano, tamanho, tempo) → prova         */
 /* ------------------------------------------------------------------ */
-const SIM_PACES = [
-  { value: 'enem', label: 'Ritmo ENEM', perQuestion: 220000, hint: '≈ 3min40s por questão' },
-  { value: 'padrao', label: 'Padrão', perQuestion: 180000, hint: '3 min por questão' },
-  { value: 'rapido', label: 'Rápido', perQuestion: 120000, hint: '2 min por questão' },
-];
 const simChoices = {}; // contexto preservado por área ao voltar
-const durationText = ms => { const m = Math.round(ms / 60000); return m >= 60 ? `${Math.floor(m / 60)}h${m % 60 ? ` ${String(m % 60).padStart(2, '0')}min` : ''}` : `${m} min`; };
 function areaCards() {
   return `<div class="area-grid">${studyAreas.map((area, index) => `<button class="area-card area-${area.key}" data-sim-area="${area.key}" data-note-ref='${escape(JSON.stringify({ kind: 'sim-area', id: area.key }))}' aria-label="Configurar simulado: ${area.fullName}">
     <span class="area-number">${String(index + 1).padStart(2, '0')}</span>
     <span class="area-kicker">${area.subjects}</span>
-    <span class="area-copy"><h2><span class="area-title">${area.title}</span> <span class="area-suffix">e suas Tecnologias</span></h2><span class="area-description">${area.text}</span><span class="area-meta">Simulado por área <span>·</span> ${simAvailable(area.key)} questões no acervo</span><span class="area-cta">Configurar simulado ${icon('arrow')}</span></span>
+    <span class="area-copy"><h2><span class="area-title">${area.title}</span> <span class="area-suffix">e suas Tecnologias</span></h2><span class="area-description">${area.text}</span><span class="area-meta">Dia ${E().AREA_BY_ID[area.key].day} do ENEM <span>·</span> 45 ou 90 questões</span><span class="area-cta">Configurar simulado ${icon('arrow')}</span></span>
     <img class="area-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false">
-  </button>`).join('')}</div><p class="area-demo-note">${icon('spark')} Escolha a área para configurar ano de referência, tamanho e tempo antes de começar. Arraste um card para Minhas notas para guardar um atalho.</p>`;
+  </button>`).join('')}</div><p class="area-demo-note">${icon('spark')} Escolha a área para definir a edição e se a prova terá 45 questões (só a área) ou 90 (o dia completo). Arraste um card para Minhas notas para guardar um atalho.</p>`;
 }
 const E = () => window.__gabaritei.E;
 const simAvailable = (areaKey, year = null) => E().questionRepository.query({ areaIds: [areaKey], ...(year ? { years: [year] } : {}) }).length;
@@ -457,58 +607,122 @@ function renderSimulados({ direction = 0 } = {}) {
   page.classList.remove('learning-page', 'legacy-ui');
   page.dataset.sim = state.simView;
   if (state.simView === 'areas') {
-    page.innerHTML = `<div class="sim-head"><div><div class="eyebrow">SE PREPARAR TAMBÉM É EXPERIMENTAR</div><h1>Um treino no seu ritmo.</h1><p class="secondary-description">Escolha uma das quatro áreas do ENEM. Antes de começar, você define o ano de referência, o tamanho e o tempo da prova.</p></div>
-      <button type="button" class="custom-sim-btn" id="custom-sim" data-press="0.96"><span class="custom-sim-icon">${hi('SlidersHorizontal')}</span><span class="custom-sim-copy"><strong>Simulado personalizado</strong><small>Matérias, assuntos, anos e tempo</small></span><span class="custom-sim-arrow">${hi('ArrowRight')}</span></button></div>${areaCards()}`;
-    $('#custom-sim').onclick = () => navigate('simulado-personalizado');
+    page.innerHTML = `<div class="sim-head"><div><div class="eyebrow">SE PREPARAR TAMBÉM É EXPERIMENTAR</div><h1>Um treino no seu ritmo.</h1><p class="secondary-description">Escolha uma das quatro áreas para fazer a prova no formato do ENEM, ou monte um simulado do seu jeito.</p></div></div>
+      ${customSimCardHTML()}${areaCards()}`;
+    bindCustomSimCard();
     $$('[data-sim-area]', page).forEach(b => b.onclick = () => openAreaConfig(b.dataset.simArea, b));
     if (direction) slideIn(page, direction);
-    else $$('.area-card', page).forEach((c, i) => c.animate([{ opacity: 0, translate: '0 14px' }, { opacity: 1, translate: '0 0' }], { duration: 480, delay: 60 + i * 60, easing: cssEase.out, fill: 'backwards' }));
-    animate($('#custom-sim'), { opacity: [0, 1], x: [16, 0] }, { ...spring.soft, delay: 0.12 });
+    else {
+      $$('.area-card', page).forEach((c, i) => c.animate([{ opacity: 0, translate: '0 14px' }, { opacity: 1, translate: '0 0' }], { duration: 480, delay: 160 + i * 60, easing: cssEase.out, fill: 'backwards' }));
+    }
     return;
   }
   const area = studyAreas.find(a => a.key === state.simArea);
-  const c = simChoices[area.key] ??= { year: null, size: 10, pace: 'padrao', timerVisible: true };
+  const info = E().AREA_BY_ID[area.key];
+  const day = info.day;
+  const c = simChoices[area.key] ??= { year: null, size: 45, foreign: 'ingles', timerVisible: true };
+  if (![45, 90].includes(c.size)) c.size = 45;
+  const full = c.size === 90;
+  const partner = dayAreas(day).find(a => a.key !== area.key);
+  const included = full ? dayAreas(day) : [area];
   const years = E().REFERENCE_YEARS.map(y => ({ y, n: simAvailable(area.key, y) })).filter(x => x.n > 0);
-  const available = simAvailable(area.key, c.year);
-  const sizes = [5, 10, 15, 20, 30, 45];
-  const size = Math.min(c.size, available);
-  const pace = SIM_PACES.find(p => p.value === c.pace);
-  const subjects = E().subjectsOfArea(area.key).map(s => ({ name: s.name, n: E().questionRepository.query({ subjectId: s.id, ...(c.year ? { years: [c.year] } : {}) }).length })).filter(s => s.n);
-  const maxN = Math.max(1, ...subjects.map(s => s.n));
-  page.innerHTML = `<div class="sim-config area-${area.key}">
+  const msOf = size => E().simulationDuration({ mode: 'official', day, size });
+  const ms = msOf(c.size);
+  const numbering = full ? (day === 1 ? '1 a 90' : '91 a 180') : info.officialRange.join(' a ');
+  const fromEdition = c.year ? included.reduce((n, a) => n + simAvailable(a.key, c.year), 0) : null;
+  const showForeign = included.some(a => a.key === 'linguagens');
+  const subjects = included.flatMap(a => E().subjectsOfArea(a.key)).map(sb => ({ name: sb.name, n: E().questionRepository.query({ subjectId: sb.id, ...(c.year ? { years: [c.year] } : {}) }).length })).filter(sb => sb.n);
+  const maxN = Math.max(1, ...subjects.map(sb => sb.n));
+  const shortName = a => a.title.replace(', Códigos', '');
+  const before = page.dataset.sim === 'config' && page.querySelector('.sim-config')?.dataset.area === area.key
+    ? { ring: $('.off-opt-ring')?.getBoundingClientRect(), q: $('#sim-count')?.textContent, t: $('#sim-time')?.textContent, scroll: page.scrollTop } : null;
+  page.innerHTML = `<div class="sim-config area-${area.key}" data-area="${area.key}">
     <button type="button" class="sim-back" id="sim-back" data-press="0.96">${icon('arrow-left')}Voltar às quatro áreas</button>
-    <section class="sim-hero"><div class="sim-hero-copy"><span class="area-kicker">${area.subjects}</span><h1>Simulado de ${area.title}<span> e suas Tecnologias</span></h1><p>Prova no formato do ENEM, com cronômetro regressivo e correção só ao finalizar.</p></div><img class="sim-hero-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false"></section>
+    <section class="sim-hero"><div class="sim-hero-copy"><span class="area-kicker">${area.subjects} · DIA ${day} DO ENEM</span><h1>Simulado de ${area.title}<span> e suas Tecnologias</span></h1><p>Prova no formato do ENEM, com numeração oficial, cronômetro regressivo e correção só ao finalizar.</p></div><img class="sim-hero-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false"></section>
     <div class="sim-layout"><div class="sim-steps">
-      <section class="sim-step" data-step><header><span class="sim-step-n">1</span><div><h2>Edição de referência</h2><p>Só aparecem os anos que existem no acervo desta área.</p></div></header>
-        <div class="sim-years" role="radiogroup" aria-label="Ano de referência"><button type="button" role="radio" aria-checked="${c.year === null}" data-year="" class="${c.year === null ? 'is-on' : ''}"><strong>Todos</strong><small>${simAvailable(area.key)} questões</small></button>${years.map(({ y, n }) => `<button type="button" role="radio" aria-checked="${c.year === y}" data-year="${y}" class="${c.year === y ? 'is-on' : ''}"><strong>${y}</strong><small>${n} ${n === 1 ? 'questão' : 'questões'}</small></button>`).join('')}</div>
-        <p class="sim-note">${icon('spark')} Questões oficiais do ENEM. O ano corresponde à edição da prova; o treino reúne as questões disponíveis na base.</p></section>
-      <section class="sim-step" data-step><header><span class="sim-step-n">2</span><div><h2>Quantidade de questões</h2><p>${available} disponíveis com o filtro atual.</p></div></header>
-        <div class="sim-sizes" role="radiogroup" aria-label="Quantidade de questões">${sizes.map(n => `<button type="button" role="radio" aria-checked="${c.size === n}" data-size="${n}" class="${c.size === n ? 'is-on' : ''}" ${n > available ? 'disabled' : ''}>${n}</button>`).join('')}</div>
-        ${c.size > available ? `<p class="sim-warn">${icon('bell')} Com esse ano há apenas ${available} questões; o simulado terá ${available}.</p>` : ''}</section>
-      <section class="sim-step" data-step><header><span class="sim-step-n">3</span><div><h2>Tempo de prova</h2><p>${pace.hint}. Aviso quando faltarem 15 minutos.</p></div></header>
-        <div class="sim-sizes is-pace" role="radiogroup" aria-label="Ritmo do cronômetro">${SIM_PACES.map(p => `<button type="button" role="radio" aria-checked="${c.pace === p.value}" data-pace="${p.value}" class="${c.pace === p.value ? 'is-on' : ''}">${p.label}</button>`).join('')}</div>
+      <section class="sim-step" data-step><header><span class="sim-step-n">1</span><div><h2>Edição do ENEM</h2><p>Todas as edições que existem no acervo desta área.</p></div></header>
+        <div class="sim-years" role="radiogroup" aria-label="Edição do ENEM"><button type="button" role="radio" aria-checked="${c.year === null}" data-year="" class="${c.year === null ? 'is-on' : ''}"><strong>Todas</strong><small>${simAvailable(area.key)} questões</small></button>${years.map(({ y, n }) => `<button type="button" role="radio" aria-checked="${c.year === y}" data-year="${y}" class="${c.year === y ? 'is-on' : ''}"><strong>${y}</strong><small>${n} ${n === 1 ? 'questão' : 'questões'}</small></button>`).join('')}</div>
+        <p class="sim-note">${icon('spark')} Questões oficiais do ENEM${c.year ? `. Há ${fromEdition} questões de ${c.year} para esta prova; elas entram primeiro e o restante vem de outras edições` : ''}.</p></section>
+      <section class="sim-step" data-step><header><span class="sim-step-n">2</span><div><h2>Quantidade de questões</h2><p>Como no ENEM: só a área ou o dia completo.</p></div></header>
+        <div class="off-options" role="radiogroup" aria-label="Quantidade de questões">
+          <button type="button" role="radio" class="off-opt ${full ? '' : 'is-on'}" aria-checked="${!full}" data-size="45" data-press="0.98">${full ? '' : '<span class="off-opt-ring"></span>'}<strong>45 questões</strong><span>Apenas ${shortName(area)}</span><small>Questões ${info.officialRange.join(' a ')} · ${hoursText(msOf(45))}</small></button>
+          <button type="button" role="radio" class="off-opt ${full ? 'is-on' : ''}" aria-checked="${full}" data-size="90" data-press="0.98">${full ? '<span class="off-opt-ring"></span>' : ''}<strong>90 questões</strong><span>Prova completa do Dia ${day}: ${shortName(dayAreas(day)[0])} e ${shortName(dayAreas(day)[1])}</span><small>Questões ${day === 1 ? '1 a 90' : '91 a 180'} · ${hoursText(msOf(90))}</small></button>
+        </div>
+        ${showForeign ? `<div class="sim-foreign"><span>Língua estrangeira</span><div class="off-seg" role="radiogroup" aria-label="Língua estrangeira">${[['ingles', 'Inglês'], ['espanhol', 'Espanhol']].map(([v, l]) => `<button type="button" role="radio" class="${c.foreign === v ? 'is-on' : ''}" aria-checked="${c.foreign === v}" data-foreign="${v}">${l}</button>`).join('')}</div><small>Questões 1 a 5 de Linguagens.</small></div>` : ''}</section>
+      <section class="sim-step" data-step><header><span class="sim-step-n">3</span><div><h2>Tempo de prova</h2><p>Ajustado automaticamente: ${full ? 'tempo oficial do Dia ' + day : 'metade do tempo da prova completa do Dia ' + day}. Aviso quando faltarem 15 minutos.</p></div></header>
+        <div class="sim-time" aria-live="polite"><span class="sim-time-icon">${icon('clock')}</span><div><strong id="sim-time-big">${hoursText(ms)}</strong><small>${full ? `90 questões · Dia ${day} completo` : `45 questões · metade de ${hoursText(msOf(90))}`}</small></div><div class="sim-time-bar" aria-hidden="true"><i style="--w:${c.size / 90}"></i></div></div>
         <label class="sim-toggle"><input type="checkbox" id="sim-timer-visible" ${c.timerVisible ? 'checked' : ''}><span><strong>Cronômetro visível</strong><small>O tempo continua contando mesmo oculto.</small></span></label></section>
     </div>
-    <aside class="sim-summary" id="sim-summary"><span class="sim-summary-label">SEU SIMULADO</span><div class="sim-summary-count"><strong id="sim-count">${size}</strong><span>questões</span></div>
-      <dl><div><dt>Área</dt><dd>${area.fullName}</dd></div><div><dt>Edição</dt><dd>${c.year ?? 'Todos os anos'}</dd></div><div><dt>Duração</dt><dd>${size ? durationText(size * pace.perQuestion) : '—'}</dd></div><div><dt>Correção</dt><dd>Ao finalizar a prova</dd></div><div><dt>Disponíveis</dt><dd>${available} no acervo</dd></div></dl>
-      <div class="sim-mix"><span>Matérias no acervo filtrado</span>${subjects.map(s => `<div><span>${escape(s.name)}</span><i><i style="--w:${s.n / maxN}"></i></i><b>${s.n}</b></div>`).join('')}</div>
-      <button type="button" class="sim-start" id="sim-start" ${size ? '' : 'disabled'} data-press="0.97">Iniciar simulado ${icon('arrow')}</button>
+    <aside class="sim-summary" id="sim-summary"><span class="sim-summary-label">SEU SIMULADO</span><div class="sim-summary-count"><strong id="sim-count">${c.size}</strong><span>questões</span></div>
+      <dl><div><dt>${included.length > 1 ? 'Áreas' : 'Área'}</dt><dd>${included.map(a => a.fullName).join(' + ')}</dd></div><div><dt>Dia</dt><dd>Dia ${day}</dd></div><div><dt>Numeração</dt><dd>Questões ${numbering}</dd></div><div><dt>Edição</dt><dd>${c.year ?? 'Todas as edições'}</dd></div><div><dt>Duração</dt><dd id="sim-time">${hoursText(ms)}</dd></div><div><dt>Correção</dt><dd>Ao finalizar a prova</dd></div>${day === 1 && full ? '<div><dt>Redação</dt><dd>Prova à parte, não incluída aqui</dd></div>' : ''}</dl>
+      <div class="sim-mix"><span>Matérias no acervo${c.year ? ` de ${c.year}` : ''}</span>${subjects.map(sb => `<div><span>${escape(sb.name)}</span><i><i style="--w:${sb.n / maxN}"></i></i><b>${sb.n}</b></div>`).join('')}</div>
+      <button type="button" class="sim-start" id="sim-start" data-press="0.97">Iniciar simulado ${icon('arrow')}</button>
       <p class="sim-fine">Nada começa antes de você confirmar. Você pode pausar e continuar depois.</p></aside></div>
   </div>`;
   const rerender = () => { const sc = page.scrollTop; renderSimulados(); page.scrollTop = sc; };
   $('#sim-back').onclick = () => { history.replaceState(null, '', '#simulados'); state.simView = 'areas'; renderSimulados({ direction: -1 }); };
   $$('[data-year]', page).forEach(b => b.onclick = () => { c.year = b.dataset.year ? Number(b.dataset.year) : null; rerender(); });
-  $$('[data-size]', page).forEach(b => b.onclick = () => { c.size = Number(b.dataset.size); rerender(); });
-  $$('[data-pace]', page).forEach(b => b.onclick = () => { c.pace = b.dataset.pace; rerender(); });
+  $$('[data-size]', page).forEach(b => b.onclick = () => { const n = Number(b.dataset.size); if (n === c.size) return; c.size = n; rerender(); });
+  $$('[data-foreign]', page).forEach(b => b.onclick = () => { c.foreign = b.dataset.foreign; rerender(); });
   $('#sim-timer-visible').onchange = e => { c.timerVisible = e.target.checked; };
-  $('#sim-start').onclick = () => {
-    const pool = E().questionRepository.query({ areaIds: [area.key], ...(c.year ? { years: [c.year] } : {}) });
-    const ids = E().pickQuestions(pool, size, learning.records(), E().createRng(Date.now())).map(q => q.id);
-    learning.startSimulation({ title: `Simulado · ${area.title}${c.year ? ` · ref. ${c.year}` : ''}`, questionIds: ids, durationMs: ids.length * pace.perQuestion, timerHidden: !c.timerVisible, edition: c.year });
-  };
+  $('#sim-start').onclick = () => learning.startOfficial({ day, areaId: full ? null : area.key, foreignLanguage: c.foreign, timerHidden: !c.timerVisible, edition: c.year });
   if (direction) slideIn(page, direction);
-  page.querySelectorAll('.sim-mix i > i').forEach((bar, i) => bar.animate([{ transform: 'scaleX(0)' }, { transform: `scaleX(${bar.style.getPropertyValue('--w')})` }], { duration: 750, delay: i * 50, easing: cssEase.emphasized, fill: 'both' }));
+  if (before) {
+    page.scrollTop = before.scroll;
+    // Motion: o anel da opção desliza entre 45 e 90 e os números do tempo/quantidade trocam suavemente.
+    const ring = $('.off-opt-ring');
+    if (ring && before.ring) { const now = ring.getBoundingClientRect(); if (Math.abs(before.ring.left - now.left) + Math.abs(before.ring.top - now.top) > 1) animate(ring, { x: [before.ring.left - now.left, 0], y: [before.ring.top - now.top, 0] }, spring.layout); }
+    if (before.q !== $('#sim-count').textContent) animate($('#sim-count'), { opacity: [0, 1], y: [10, 0] }, spring.snappy);
+    if (before.t !== $('#sim-time').textContent) {
+      animate($('#sim-time'), { opacity: [0, 1], y: [8, 0] }, spring.snappy);
+      animate($('#sim-time-big'), { opacity: [0, 1], y: [12, 0], scale: [0.96, 1] }, spring.soft);
+      const bar = $('.sim-time-bar i'); const w = Number(bar.style.getPropertyValue('--w'));
+      bar.animate([{ transform: `scaleX(${w === 1 ? 0.5 : 1})` }, { transform: `scaleX(${w})` }], { duration: 520, easing: cssEase.emphasized, fill: 'both' });
+    }
+  } else {
+    page.querySelectorAll('.sim-mix i > i').forEach((bar, i) => bar.animate([{ transform: 'scaleX(0)' }, { transform: `scaleX(${bar.style.getPropertyValue('--w')})` }], { duration: 750, delay: i * 50, easing: cssEase.emphasized, fill: 'both' }));
+  }
 }
+/** 5h30, 2h45, 5h… (formato curto usado no ENEM). */
+const hoursText = ms => { const m = Math.round(ms / 60000); const h = Math.floor(m / 60), r = m % 60; return h ? `${h}h${r ? String(r).padStart(2, '0') : ''}` : `${r} min`; };
+const dayAreas = day => studyAreas.filter(a => E().AREA_BY_ID[a.key].day === day);
+
+/* ------------------------------------------------------------------ */
+/* Card de destaque: Simulado personalizado                           */
+/* ------------------------------------------------------------------ */
+function customSimCardHTML() {
+  return `<button type="button" class="custom-sim-card" id="custom-sim" data-note-ref='${escape(JSON.stringify({ kind: 'custom-sim' }))}' aria-label="Montar um simulado personalizado">
+    <span class="area-number csc-number" aria-hidden="true">${hi('SlidersHorizontal')}</span>
+    <span class="csc-copy">
+      <span class="area-kicker">MATÉRIAS · ASSUNTOS · ANOS · TEMPO</span>
+      <h2>Simulado personalizado</h2>
+      <span class="csc-text">Escolha matérias e assuntos, o tamanho da prova, o critério de seleção das questões e o ritmo do cronômetro. Como no ENEM, a correção aparece só ao finalizar.</span>
+      <span class="csc-steps" aria-hidden="true"><span><b>1</b>Conteúdo</span><span><b>2</b>Formato</span><span><b>3</b>Começar</span></span>
+      <span class="area-cta csc-cta">Personalizar simulado ${icon('arrow')}</span>
+    </span>
+    <img class="csc-art" src="assets/sim-personalizado.svg" alt="" width="220" height="190" draggable="false">
+  </button>`;
+}
+function bindCustomSimCard() {
+  const cardEl = $('#custom-sim');
+  if (!cardEl) return;
+  const art = cardEl.querySelector('.csc-art');
+  animate(cardEl, { opacity: [0, 1], y: [16, 0], scale: [0.985, 1] }, { ...spring.soft, delay: 0.1 });
+  if (art && !reduced()) {
+    animate(art, { opacity: [0, 1], y: [10, 0], rotate: [-4, 0] }, { ...spring.bouncy, delay: 0.25 });
+    // Movimento leve e contínuo da ilustração (para quando o usuário prefere menos movimento).
+    art.animate([{ translate: '0 0', rotate: '0deg' }, { translate: '0 -5px', rotate: '-1.5deg' }, { translate: '0 0', rotate: '0deg' }], { duration: 5200, iterations: Infinity, easing: cssEase.inOut, delay: 900 });
+  }
+  cardEl.addEventListener('pointerenter', () => animate(art, { scale: [1, 1.05] }, spring.soft));
+  cardEl.addEventListener('pointerleave', () => animate(art, { scale: [1.05, 1] }, spring.soft));
+  cardEl.onclick = () => {
+    if (reduced()) { navigate('simulado-personalizado'); return; }
+    // Transição: os outros blocos somem e o card cresce de leve antes de abrir a configuração.
+    $$('.area-card, .sim-head, .area-demo-note', $('#secondary-page')).forEach(el => el.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 160, fill: 'forwards', easing: cssEase.in }));
+    cardEl.animate([{ opacity: 1, scale: '1' }, { opacity: 0, scale: '1.025' }], { duration: 220, fill: 'forwards', easing: cssEase.in }).finished.then(() => navigate('simulado-personalizado'));
+  };
+}
+
 function slideIn(page, direction) {
   const kids = [...page.firstElementChild.children];
   kids.forEach((el, i) => el.animate([{ opacity: 0, translate: `${direction * 36}px 0` }, { opacity: 1, translate: '0 0' }], { duration: 360, delay: i * 50, easing: cssEase.emphasized, fill: 'backwards' }));
@@ -528,33 +742,41 @@ function openAreaConfig(key, fromCard) {
 /* ------------------------------------------------------------------ */
 /* Navegação                                                           */
 /* ------------------------------------------------------------------ */
-const PAGE_NAMES = { perfil: 'Perfil', plano: 'Meus estudos', questoes: 'Questões', simulados: 'Simulados', 'simulado-personalizado': 'Simulado personalizado', historico: 'Histórico', progresso: 'Progresso' };
+const PAGE_NAMES = { perfil: 'Perfil', plano: 'Meus estudos', pendentes: 'Pendentes', questoes: 'Questões', simulados: 'Simulados', 'simulado-personalizado': 'Simulado personalizado', historico: 'Histórico', progresso: 'Progresso' };
 function navigate(page, { sub = null } = {}) {
   const changed = page !== state.page || sub;
   state.page = page;
   if (page === 'simulados') { state.simView = sub ? 'config' : 'areas'; if (sub) state.simArea = sub; }
   history.replaceState(null, '', `#${page}${page === 'simulados' && sub ? `/${sub}` : ''}`);
-  $('#plan-page').hidden = page !== 'plano';
-  $('#secondary-page').hidden = page === 'plano';
+  const board = page === 'plano' || page === 'pendentes';
+  $('#plan-page').hidden = !board;
+  $('#secondary-page').hidden = board;
+  if (board) paintBoardHeading(page);
   sidebar.setActive(page === 'simulado-personalizado' ? 'simulados' : page);
   $('.side-bottom .profile-wrapper')?.classList.toggle('is-current', page === 'perfil');
   document.title = `${PAGE_NAMES[page]} · Gabaritei`;
   if ($('#topbar-title')) $('#topbar-title').innerHTML = `Gabaritei <span aria-hidden="true">/</span> <strong>${PAGE_NAMES[page]}</strong>`;
   closeCardMenu();
-  if (page === 'plano') { if (changed) render({ enter: true }); return; }
+  if (board) { if (changed) { scrollTo({ top: 0 }); render({ enter: true }); if (!reduced()) pageEnter($('#plan-page .page-heading')); } return; }
   scrollTo({ top: 0 });
   const secondary = $('#secondary-page');
   if (page === 'simulados') renderSimulados();
   else learning.mount(page);
   if (changed && !reduced() && page !== 'simulados') pageEnter(secondary.firstElementChild);
 }
+/** Cabeçalho da área compartilhada: Início (prática) ou Pendentes (Grade | Lista). */
+function paintBoardHeading(page) {
+  const pend = page === 'pendentes';
+  $('#plan-page').dataset.board = pend ? 'pendentes' : 'inicio';
+  $('#plan-page .eyebrow').textContent = pend ? 'CONTINUE DE ONDE PAROU' : 'UM POUCO MELHOR, TODOS OS DIAS';
+  $('#page-title').textContent = pend ? 'Pendentes' : 'Meus estudos';
+}
 const sidebar = createSidebar({
   onNavigate: page => navigate(page),
   getResume: () => learning.resumeTarget(),
-  getStreak: () => learning.streak(),
   icons: hi,
 });
-document.addEventListener('keydown', event => { const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName) || document.activeElement?.isContentEditable; if (event.key === '/' && !typing && !dialog.open) { event.preventDefault(); navigate('plano'); $('#search').focus(); } if (event.key === 'Escape') { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); } });
+document.addEventListener('keydown', event => { const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName) || document.activeElement?.isContentEditable; if (event.key === '/' && !typing && !dialog.open) { event.preventDefault(); navigate('pendentes'); $('#search').focus(); } if (event.key === 'Escape') { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); } });
 
 /* ------------------------------------------------------------------ */
 /* Minhas notas: resolver e abrir atalhos                              */
@@ -592,7 +814,7 @@ function openRef(ref) {
 }
 function saveToNotes(ref, el) { notes.addRef(ref, el); }
 
-const learning = createLearningPages({ root: $('#secondary-page'), openDialog, closeDialog: () => dialog.close(), toast, navigate, icons: icon, saveToNotes: (ref, el) => saveToNotes(ref, el), onProfileChange: p => paintProfile(p), onChange: () => { if (state.page === 'plano') render(); sidebar.renderBottom(); notes?.refresh(); } });
+const learning = createLearningPages({ root: $('#secondary-page'), openDialog, closeDialog: () => dialog.close(), toast, navigate, icons: icon, saveToNotes: (ref, el) => saveToNotes(ref, el), onProfileChange: p => paintProfile(p), onChange: () => { if (onBoard()) render(); sidebar.renderBottom(); notes?.refresh(); } });
 /** Nome e iniciais do perfil no rodapé do menu lateral. */
 function paintProfile(p) {
   const ini = p.name.trim().split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('');
@@ -607,6 +829,27 @@ notes.render();
 bindPress();
 
 const [hashPage, hashSub] = location.hash.slice(1).split('/');
-if (['plano', 'questoes', 'simulados', 'simulado-personalizado', 'historico', 'progresso', 'perfil'].includes(hashPage) && hashPage !== 'plano') { state.page = ''; navigate(hashPage, { sub: hashPage === 'simulados' ? hashSub || null : null }); render(); }
+if (['plano', 'pendentes', 'questoes', 'simulados', 'simulado-personalizado', 'historico', 'progresso', 'perfil'].includes(hashPage) && hashPage !== 'plano') { state.page = ''; navigate(hashPage, { sub: hashPage === 'simulados' ? hashSub || null : null }); render(); }
 else { state.page = 'plano'; navigate('plano'); sidebar.setActive('plano'); render({ enter: true }); }
 addEventListener('hashchange', () => { const [p, sub] = location.hash.slice(1).split('/'); if (PAGE_NAMES[p] && (p !== state.page || sub)) navigate(p, { sub: p === 'simulados' ? sub || null : null }); });
+
+/* ------------------------------------------------------------------ */
+/* Atalho de tema no menu lateral                                      */
+/* ------------------------------------------------------------------ */
+function paintThemeToggle(theme = currentTheme()) {
+  const btn = $('#theme-toggle');
+  if (!btn) return;
+  const pref = getThemePref();
+  const dark = theme === 'dark';
+  const name = pref === 'auto' ? `automático (${dark ? 'escuro' : 'claro'})` : dark ? 'escuro' : 'claro';
+  btn.querySelector('use').setAttribute('href', dark ? '#i-moon' : '#i-sun');
+  btn.querySelector('.theme-toggle-label').textContent = `Tema ${name}`;
+  btn.setAttribute('aria-label', `Tema ${name}. Alternar para ${dark ? 'claro' : 'escuro'}`);
+  btn.dataset.tooltip = dark ? 'Tema escuro' : 'Tema claro';
+}
+$('#theme-toggle')?.addEventListener('click', () => {
+  setThemePref(currentTheme() === 'dark' ? 'light' : 'dark');
+  if (!reduced()) animate($('#theme-toggle .theme-toggle-icon svg'), { rotate: [-90, 0], scale: [0.6, 1] }, spring.bouncy);
+});
+onThemeChange((pref, theme) => paintThemeToggle(theme));
+paintThemeToggle();

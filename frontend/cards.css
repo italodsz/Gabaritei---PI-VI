@@ -163,3 +163,29 @@
 .danger-button:hover { background: #84220f; }
 .danger-button svg { width: 16px; height: 16px; }
 @media (prefers-reduced-motion: reduce) { .card-menu { animation: none; } }
+
+/* Play centralizado: triângulo simétrico no centro óptico do círculo (sem deslocamento extra). */
+.play-button svg { margin-left: 1px; }
+
+/* Início: os modos de prática ocupam a área do mural (estilos em challenge.css). */
+.learning-canvas[data-view="practice"] .stats,
+.learning-canvas[data-view="practice"] .connections { display: none; }
+.learning-canvas[data-view="practice"] .activities { display: block; }
+
+/* Motivo da recomendação, na tela de questões. */
+.qs-badge.is-reason { background: #effbe9; color: #226b47; border-color: transparent; }
+.qs-badge.is-reason svg { width: 12px; height: 12px; }
+
+/* ------------------------------------------------------------------ */
+/* Início × Pendentes (mesma área #plan-page)                          */
+/* ------------------------------------------------------------------ */
+/* Início: só os modos de prática — sem seletor de visualização e sem busca de atividades. */
+#plan-page[data-board="inicio"] .view-switch,
+#plan-page[data-board="inicio"] .heading-tools .search { display: none; }
+/* Pendentes: Grade | Lista com indicador que desliza entre os botões. */
+.view-switch { position: relative; }
+.view-switch .icon-button { position: relative; z-index: 1; }
+.view-switch .icon-button.selected { background: transparent; }
+.view-ind { position: absolute; z-index: 0; border-radius: 50%; background: #111411; pointer-events: none; }
+.view-switch .icon-button.selected { color: #fff; }
+.view-ind { box-shadow: 0 3px 9px #0002; }

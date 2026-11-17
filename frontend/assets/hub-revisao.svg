@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3edff"/><stop offset=".6" stop-color="#ddd0fb"/><stop offset="1" stop-color="#c9b6f5"/></linearGradient>
+    <radialGradient id="light" cx="76%" cy="58%" r="42%"><stop offset="0" stop-color="#fff6d6" stop-opacity=".95"/><stop offset=".45" stop-color="#fdeec0" stop-opacity=".45"/><stop offset="1" stop-color="#fdeec0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a48ae6"/><stop offset="1" stop-color="#8366d4"/></linearGradient>
+    <linearGradient id="lamp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7b5fd0"/><stop offset="1" stop-color="#4c3596"/></linearGradient>
+  </defs>
+  <rect width="320" height="210" fill="url(#sky)"/>
+  <!-- folhas ao fundo -->
+  <g fill="#b9a2ef" opacity=".7">
+    <path d="M10 210 C6 176 22 150 44 140 C44 168 32 192 10 210Z"/>
+    <path d="M30 210 C34 184 52 168 70 166 C64 188 50 202 30 210Z"/>
+    <path d="M300 96 C296 74 306 58 320 52 V104 C312 104 304 100 300 96Z"/>
+  </g>
+  <rect width="320" height="210" fill="url(#light)"/>
+  <!-- luminária -->
+  <g transform="translate(236 76) scale(.74)">
+    <path d="M58 150 L58 74 L22 34" fill="none" stroke="#4c3596" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="58" cy="74" r="5" fill="#6b4fc4"/>
+    <path d="M2 30 L30 6 C38 0 50 10 44 20 L24 46 Z" fill="url(#lamp)"/>
+    <ellipse cx="13" cy="39" rx="12" ry="5" transform="rotate(-38 13 39)" fill="#fff3c4"/>
+    <ellipse cx="46" cy="152" rx="24" ry="5" fill="#4c3596"/>
+  </g>
+  <!-- pilha de livros -->
+  <g transform="translate(206 132) scale(.92)">
+    <rect x="0" y="40" width="96" height="20" rx="4" fill="#5c43b3"/>
+    <rect x="4" y="44" width="88" height="3" fill="#efe7ff" opacity=".7"/>
+    <rect x="10" y="22" width="82" height="19" rx="4" fill="#8a6fe0"/>
+    <rect x="14" y="26" width="74" height="3" fill="#f6f1ff" opacity=".7"/>
+    <rect x="2" y="4" width="78" height="19" rx="4" fill="#6d52c6"/>
+    <rect x="6" y="8" width="70" height="3" fill="#efe7ff" opacity=".7"/>
+    <path d="M60 4 L60 -6 L66 -2 L72 -6 L72 4Z" fill="#f2c94c"/>
+  </g>
+  <!-- prateleira / mesa -->
+  <path d="M120 188 H320 V210 H112Z" fill="url(#shelf)"/>
+  <path d="M120 188 H320 V192 H118Z" fill="#c4b2f3"/>
+  <g fill="#ffffff" opacity=".85"><circle cx="40" cy="30" r="1.4"/><circle cx="120" cy="22" r="1"/><circle cx="170" cy="48" r="1.2"/><circle cx="90" cy="60" r="1"/></g>
+</svg>
