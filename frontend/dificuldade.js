@@ -213,3 +213,27 @@ export function contaParaTheta({ it, primeira, apoio, tempoMs, origem }, cfg) {
   if (Number.isFinite(tempoMs) && tempoMs < cfg.tempo_minimo_ms) return { conta: false, motivo: 'resposta_muito_rapida' };
   return { conta: true, peso: origem === 'simulado' ? cfg.peso.simulado : cfg.peso.pratica };
 }
+
+/* --------------------------- aprendizado do sistema --------------------------- */
+// Além do θ de cada aluno, o sistema aprende com as respostas de todos: se numa área os alunos
+// acertam sistematicamente mais (ou menos) do que o modelo previu, a chance prevista é corrigida
+// por um deslocamento δ em logit. δ é estimado por máxima verossimilhança com prior N(0, dp²),
+// que encolhe para zero quando há poucas respostas, e é limitado a ±limite.
+const sig = x => 1 / (1 + Math.exp(-x));
+export const ajustarChance = (p, delta) => (Number.isFinite(p) && delta ? sig(logit(p) + delta) : p);
+
+/** eventos: [{ p: chance prevista sem ajuste, y: 0|1 }]. Devolve { delta, n, ativo }. */
+export function estimarAjuste(eventos, cfg) {
+  const a = cfg.aprendizado_sistema, n = eventos.length;
+  if (n < a.min_eventos) return { delta: 0, n, ativo: false };
+  const L = eventos.map(e => logit(e.p));
+  let d = 0;
+  for (let it = 0; it < 30; it++) {
+    let g = -d / a.dp_prior ** 2, h = -1 / a.dp_prior ** 2;
+    for (let i = 0; i < n; i++) { const p = sig(L[i] + d); g += eventos[i].y - p; h -= p * (1 - p); }
+    const passo = g / h; d -= passo;
+    if (Math.abs(passo) < 1e-6) break;
+  }
+  d = Math.max(-a.limite, Math.min(a.limite, d));
+  return { delta: Math.round(d * 1000) / 1000, n, ativo: true };
+}

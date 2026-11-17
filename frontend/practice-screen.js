@@ -4,6 +4,7 @@
 // Só o ícone da marca mudou. Toda mudança de estado passa pelos reducers do motor.
 import { resultHTML as legacyResultHTML, bindResultPage } from './result-page.js';
 import { recomendarQuestao, conferirResposta } from './acervo-api.js';
+import { aprendizadoHTML } from './aprendizado-ui.js';
 import * as Dif from './dificuldade-cliente.js';
 import { questionTextHTML, descriptionsHTML } from './question-text.js';
 
@@ -391,6 +392,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
         <p class="qs-skill">${icons('spark')}<span><strong>Habilidade avaliada:</strong> ${esc(q.skill)}</span></p>
       </div></div></div>
     </div>`;
+    const reg = Dif.aprendizadoDe(q.id);
+    if (reg && reg.tipo === 'resposta' && Dif.mostrarAprendizado()) box.insertAdjacentHTML('beforeend', aprendizadoHTML(reg));
     $('#qs-explain').onclick = () => {
       showExplanation = !showExplanation;
       $('#qs-collapse').classList.toggle('is-open', showExplanation);
@@ -717,12 +720,17 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
   }
 
   /** Prática contínua: busca a próxima questão recomendada e a coloca logo depois da atual. */
-  function appendRecommended() {
-    const pick = nextRecommended(session);
+  async function appendRecommended() {
+    if (adding) return;
+    const sessionId = session.id;
+    adding = true;
+    let pick;
+    try { pick = await nextRecommended(session); } catch { pick = null; } finally { adding = false; }
+    if (!session || session.id !== sessionId) return;
     if (!pick) { toast('Você zerou as recomendações por agora. Finalize para ver o resultado.'); openFinish(); return; }
     const before = session.currentIndex;
     const inserted = E.practice.insertNext(session, pick.id, Date.now());
-    persist({ ...inserted, reasons: { ...(session.reasons || {}), [pick.id]: pick.reason } });
+    persist({ ...inserted, reasons: { ...(session.reasons || {}), [pick.id]: pick.reason }, previsto: { ...(session.previsto || {}), ...Dif.previsto([pick.id], E.questionRepository) } });
     showExplanation = true;
     lastCurrent = before;
     const token = ++navToken;

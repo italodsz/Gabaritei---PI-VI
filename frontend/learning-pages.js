@@ -7,6 +7,7 @@ import { createConfigStudio } from './config-studio.js';
 import { createProfilePage } from './profile-page.js';
 import { createExamScreen } from './exam-screen.js';
 import { createChallengeScreen } from './challenge-screen.js';
+import * as SobMedida from './sob-medida.js';
 import { hi } from './legacy-ui.js';
 import { pageEnter } from './motion-kit.js';
 
@@ -79,7 +80,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     onHome: () => navigate('plano'),
     onHistory: () => navigate('historico'),
     saveToNotes: (ref, el) => saveToNotes(ref, el),
-    nextRecommended: current => recommendationQueue({ exclude: new Set(current.questionIds), offset: current.questionIds.length })[0] ?? null,
+    nextRecommended: current => (current.sobMedida ? SobMedida.proxima(current, { E, records: records() }) : recommendationQueue({ exclude: new Set(current.questionIds), offset: current.questionIds.length })[0] ?? null),
     reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.selectPracticeQuestions({ ...E.EMPTY_FILTERS, topicIds: [topicId], count: account.study.defaultQuestionCount }, records(), E.freshSeed(), account.onboarding.level); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
   });
   /** Desafio de acertos: tela própria, sem pausa nem retomada. */
@@ -269,6 +270,32 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
       total: queue.length,
       active: active ? { id: active.id, answered, updatedAt: active.updatedAt } : null,
     };
+  }
+  /* ---------------------------------------------------------------- */
+  /* Prática sob medida: ponto de partida escolhido + recomendação sem fim */
+  /* ---------------------------------------------------------------- */
+  const sobMedidaAtiva = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.sobMedida).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+  function sobMedidaOverview() {
+    const a = sobMedidaAtiva();
+    const todas = account.practiceSessions.filter(x => x.sobMedida);
+    const respondidas = todas.reduce((n, x) => n + x.questionIds.filter(id => x.answers[id]?.confirmed).length, 0);
+    return { respondidas, praticas: todas.length, active: a ? { id: a.id, answered: a.questionIds.filter(id => a.answers[id]?.confirmed).length, rotulo: SobMedida.rotulo(a.sobMedida, E) } : null };
+  }
+  /** Retoma a prática sob medida aberta; com novo=true (ou sem nenhuma aberta) pede o ponto de partida. */
+  function startSobMedida({ novo = false } = {}) {
+    const ativa = sobMedidaAtiva();
+    if (ativa && !novo) { openSession(ativa); return ativa; }
+    SobMedida.abrirEscolha({ E, openDialog, closeDialog, icons, onEscolher: escolha => {
+      const first = SobMedida.primeira(escolha, { E, records: records() });
+      if (!first) { toast('Não há questões para esse ponto de partida.'); return; }
+      if (ativa) { account.practiceSessions = account.practiceSessions.map(x => x.id === ativa.id ? E.practice.finish(x, Date.now()) : x); }
+      const created = { ...E.createPracticeSession({ title: SobMedida.TITULO, questionIds: [first.id], mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: 1 }, timerVisible: account.study.practiceTimer, now: Date.now() }), continuous: true, sobMedida: escolha, reasons: { [first.id]: first.reason } };
+      created.previsto = Dif.previsto([first.id], E.questionRepository);
+      account.practiceSessions.push(created);
+      save();
+      openSession(created);
+    } });
+    return null;
   }
   /** Abre a prática contínua: retoma a que estiver aberta ou começa uma nova. */
   function startRecommended() {
@@ -533,5 +560,5 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   }
   function goalsHTML(goals) { return goals.length?`<div class="personal-goals">${goals.map((p,i)=>{const meta=E.GOAL_META[p.goal.kind];return `<article class="${p.done?'is-done':''}"><div class="goal-ring" style="--goal-progress:${Math.min(1,p.progress)*360}deg" role="img" aria-label="${meta.title}: ${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}"><span>${p.done?icons('check-circle'):p.pendingReason?'—':meta.format(p.current)}</span></div><h3>${meta.title}</h3><p>${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}</p></article>`;}).join('')}</div>`:'<p class="field-hint">Nenhuma meta ativa. Use “Editar metas” para definir seu próximo passo.</p>'; }
   function editGoals() { openDialog(`<span class="dialog-label">SEU RITMO, SUAS METAS</span><h2 id="dialog-title" class="dialog-title">Pequenos passos possíveis.</h2><p class="dialog-description">As metas são recalculadas com base nas suas práticas realizadas aqui.</p><form id="goals-form">${account.goals.map(g=>{const meta=E.GOAL_META[g.kind];return `<div class="goal-editor-row"><label class="goal-enable"><input type="checkbox" name="enabled-${g.kind}" ${g.enabled?'checked':''}><span><strong>${meta.title}</strong><small>${meta.description}</small></span></label><label class="goal-target">Meta em ${meta.unit}<input type="number" name="target-${g.kind}" value="${g.target}" min="${meta.min}" max="${meta.max}" step="${meta.step}" required></label></div>`;}).join('')}<button class="primary-button" type="submit">Salvar metas ${icons('check')}</button></form>`);document.querySelector('#goals-form').onsubmit=event=>{event.preventDefault();const data=new FormData(event.target);account.goals=account.goals.map(g=>({...g,enabled:data.has(`enabled-${g.kind}`),target:Number(data.get(`target-${g.kind}`))}));save();closeDialog();renderPerformance();toast('Metas atualizadas. Um caminho possível para você.');}; }
-  return { mount, startOfficial, startRecommended, recommendationOverview, startChallenge: () => challenge.start(), challengeStore: () => challenge.store(), reviewOverview, startReviewMode, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, openById, records, account: () => account, save };
+  return { mount, startOfficial, startRecommended, startSobMedida, sobMedidaOverview, recommendationOverview, startChallenge: () => challenge.start(), challengeStore: () => challenge.store(), reviewOverview, startReviewMode, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, openById, records, account: () => account, save };
 }

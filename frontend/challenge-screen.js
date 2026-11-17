@@ -2,7 +2,10 @@
  * Desafio de acertos ("Até onde você chega?").
  *
  * Regras:
- * - questões automáticas de qualquer área, sem repetir dentro da tentativa;
+ * - escada de dificuldade: começa pelas questões mais fáceis do acervo e sobe a cada acerto,
+ *   pela dificuldade oficial do item (parâmetro b da TRI), sem depender do nível do aluno;
+ *   as áreas se alternam e nada se repete dentro da tentativa;
+ * - as respostas também alimentam o perfil TRI (o recomendador aprende com o desafio);
  * - 03:40 por questão (330 min ÷ 90 questões do Dia 1), sem acumular sobra;
  * - sem pular, pausar, voltar ou retomar: errar ou esgotar o tempo encerra;
  * - o prazo é um timestamp absoluto, então trocar de aba não para o relógio;
@@ -11,6 +14,8 @@
  */
 import { animate, spring, reduced, countTo } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
+import { conferirResposta } from './acervo-api.js';
+import * as Dif from './dificuldade-cliente.js';
 
 export const CHALLENGE_LIMIT_MS = 220000; // 03:40
 const STORE = 'gabaritei:desafio:v1';
@@ -50,14 +55,38 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
   /* ------------------------------------------------------------ */
   /* Tentativa                                                     */
   /* ------------------------------------------------------------ */
+  /* Escada: questões com parâmetros TRI ordenadas pela dificuldade oficial (b). Cada questão
+     recebe o seu percentil de dificuldade (0 = a mais fácil do acervo, 1 = a mais difícil). */
+  let escadaCache = null;
+  function escada() {
+    if (escadaCache) return escadaCache;
+    const itens = E.questionRepository.query({}).filter(q => Number.isFinite(q.tri?.b) && !Dif.temAlerta(q)).sort((a, b) => a.tri.b - b.tri.b);
+    escadaCache = itens.map((q, i) => ({ q, pct: itens.length > 1 ? i / (itens.length - 1) : 0 }));
+    return escadaCache;
+  }
+  /** Percentil alvo do degrau k (0, 1, 2…): sobe ~4,5 pontos por acerto, até 97%. */
+  const alvoDoDegrau = k => Math.min(0.97, 0.03 + 0.045 * k);
+  const NIVEIS = [[0.25, 'Fácil'], [0.5, 'Média'], [0.75, 'Difícil'], [1.01, 'Muito difícil']];
+  const nivelDe = pct => NIVEIS.find(([lim]) => pct < lim)[1];
   function nextQuestion() {
-    const pool = E.questionRepository.query({}).filter(q => !run.used.has(q.id));
-    if (!pool.length) return null;
-    // Variedade: evita repetir a área da questão anterior quando possível.
+    const lista = escada().filter(x => !run.used.has(x.q.id));
+    if (!lista.length) return null;
+    const alvo = alvoDoDegrau(run.items.length);
     const lastArea = run.items.at(-1) && E.questionRepository.getById(run.items.at(-1).id)?.areaId;
-    const other = pool.filter(q => q.areaId !== lastArea);
-    const from = other.length ? other : pool;
-    return from[Math.floor(Math.random() * from.length)];
+    // janela em volta do alvo; alarga até achar questões (preferindo outra área que a anterior)
+    for (const janela of [0.03, 0.06, 0.12, 1]) {
+      const perto = lista.filter(x => Math.abs(x.pct - alvo) <= janela);
+      const outra = perto.filter(x => x.q.areaId !== lastArea);
+      const from = outra.length ? outra : perto;
+      if (from.length) { const x = from[Math.floor(Math.random() * from.length)]; run.nivel = x.pct; return x.q; }
+    }
+    return null;
+  }
+  function pintarNivel() {
+    const el = $('#ch-level'); if (!el || run?.nivel == null) return;
+    el.querySelector('b').textContent = nivelDe(run.nivel);
+    el.querySelector('small').textContent = `degrau ${run.items.length} · mais difícil que ${Math.round(run.nivel * 100)}% do acervo`;
+    el.style.setProperty('--w', Math.max(0.04, run.nivel));
   }
   function persistActive() {
     const store = readChallengeStore();
@@ -130,6 +159,7 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
     if (!q) { finish('acervo'); return; }
     run.used.add(q.id);
     run.current = q;
+    queueMicrotask(pintarNivel);
     run.selected = null;
     $('#ch-stage').innerHTML = questionHTML(q);
     $$('.qs-alt').forEach(b => b.onclick = () => select(b.dataset.letter));
@@ -142,6 +172,7 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
       run.deadline = run.shownAt + CHALLENGE_LIMIT_MS;
       run.items.push({ id: q.id, selected: null, correct: null, timeMs: 0, answeredAt: null });
       persistActive();
+      pintarNivel();
       locked = false;
       startTick();
     };
@@ -175,6 +206,11 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
     item.answeredAt = now;
     run.deadline = 0;
     persistActive();
+    // O desafio também ensina o recomendador: a resposta é conferida no servidor e entra no perfil TRI.
+    const primeira = !E.collectAnswerRecords(getAccount()).some(r => r.questionId === q.id);
+    conferirResposta(q.id, item.selected, { tempoMs: item.timeMs, apoio: false, primeira, desafio: Dif.desafio() })
+      .then(r => Dif.registrarResposta(q, r.correct, { tempoMs: item.timeMs, primeira, tri: r.tri, origem: 'pratica' }))
+      .catch(() => { /* sem conexão: o desafio continua; só o perfil deixa de ser atualizado */ });
     reveal(q, run.selected);
     if (item.correct) celebrate().then(() => run && present());
     else setTimeout(() => finish('erro'), reduced() ? 300 : 1500);
@@ -340,8 +376,9 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
         <aside class="ch-side">
           <div class="ch-score" aria-live="polite"><strong id="ch-streak">0</strong><span id="ch-streak-label">acertos seguidos</span></div>
           <div class="ch-timer" id="ch-timer" role="timer"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="ch-timer-track" cx="60" cy="60" r="52"/><circle class="ch-timer-ring" cx="60" cy="60" r="52" pathLength="1"/></svg><strong>03:40</strong><small>por questão</small></div>
+          <div class="ch-level" id="ch-level" aria-live="polite"><span>Dificuldade</span><b>Fácil</b><i aria-hidden="true"></i><small>degrau 1</small></div>
           <div class="ch-trail" id="ch-trail" aria-hidden="true"></div>
-          <ul class="ch-rules"><li>${hi('Timer')}03:40 por questão, sem acumular</li><li>${hi('XCircle')}Errou ou o tempo acabou: fim</li><li>${hi('Lock')}Sem pular, pausar ou voltar</li></ul>
+          <ul class="ch-rules"><li>${hi('TrendingUp')}A dificuldade sobe a cada acerto</li><li>${hi('Timer')}03:40 por questão, sem acumular</li><li>${hi('XCircle')}Errou ou o tempo acabou: fim</li><li>${hi('Lock')}Sem pular, pausar ou voltar</li></ul>
         </aside>
         <main class="ch-main"><div id="ch-stage"></div>
           <div class="ch-actions"><button type="button" class="qs-btn qs-btn-primary qs-btn-lg" id="ch-confirm" disabled>${hi('CheckCircle2')}Confirmar resposta</button><small>A confirmação é definitiva.</small></div>

@@ -51,6 +51,19 @@ export function criarDificuldade({ db, repo, acervo, cfg = CONFIG }) {
     return T.perfilInicial(area, cfg);
   }
 
+  /* ----------------------- aprendizado do sistema ----------------------- */
+  // δ por área estimado com as respostas válidas de todos os alunos com conta (sem apoio).
+  // Recalculado a cada 10 respostas novas; a chance prevista guardada no banco é sempre a sem ajuste.
+  let ajusteCache = null, novasDesdeAjuste = 0;
+  function ajustes() {
+    if (ajusteCache && novasDesdeAjuste < 10) return ajusteCache;
+    const rows = q('SELECT area, chance_prevista p, correta y FROM resposta_evento WHERE chance_prevista IS NOT NULL AND apoio=0 AND conta=1').all();
+    ajusteCache = { atualizadoEm: new Date().toISOString(), porArea: Object.fromEntries(T.AREAS.map(a => [a, T.estimarAjuste(rows.filter(r => r.area === a), cfg)])) };
+    novasDesdeAjuste = 0;
+    return ajusteCache;
+  }
+  const deltaDe = area => ajustes().porArea[area]?.delta || 0;
+
   /* ----------------------------- respostas ----------------------------- */
   /** Registra uma resposta conferida pelo servidor e atualiza o θ. Devolve o perfil da área ou null sem login. */
   function registrar(uid, question, { alternativa, correta, tempoMs, apoio, origem = 'pratica', primeiraCliente = true, desafio }) {
@@ -69,6 +82,7 @@ export function criarDificuldade({ db, repo, acervo, cfg = CONFIG }) {
          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`).run(randomUUID(), uid, question.id, area, alternativa ?? null, correta ? 1 : 0, Number.isFinite(tempoMs) ? Math.round(tempoMs) : null,
         primeira ? 1 : 0, apoio ? 1 : 0, origem, prevista, media, dp, atual.pstar, regra.conta ? 1 : 0, regra.motivo ?? null, cfg.versao, new Date().toISOString());
       if (novo !== atual) salvarPerfil(uid, novo);
+      novasDesdeAjuste++;
       return { area, perfil: novo, conta: regra.conta, motivo: regra.motivo ?? null, chancePrevista: prevista, resumo: T.resumoNota(novo, cfg) };
     });
   }
@@ -83,7 +97,7 @@ export function criarDificuldade({ db, repo, acervo, cfg = CONFIG }) {
     const meta = T.metaDe(input.desafio, cfg);
     const meus = uid ? perfis(uid) : null;
     const perfilDe = area => (meus ? meus[area] : perfilDoCorpo(area, input.perfis?.[area]));
-    const chanceDe = id => { const qq = acervo.byId.get(id), it = qq?.tri; return it ? T.chance(perfilDe(areaDe(qq)), it, cfg) : null; };
+    const chanceDe = id => { const qq = acervo.byId.get(id), it = qq?.tri; return it ? T.ajustarChance(T.chance(perfilDe(areaDe(qq)), it, cfg), deltaDe(areaDe(qq))) : null; };
     const historico = new Map((Array.isArray(input.historico) ? input.historico : []).filter(h => h && typeof h.id === 'string').map(h => [h.id, h]));
     const estado = id => { const h = historico.get(id); if (!h) return 'inedita'; if (h.correta) return 'acertou'; return Date.now() - Date.parse(h.em || 0) >= cfg.lista.revisao_dias * 864e5 ? 'revisao' : 'errou'; };
     let ids;
@@ -115,7 +129,7 @@ export function criarDificuldade({ db, repo, acervo, cfg = CONFIG }) {
   /* ----------------------------- rotas ----------------------------- */
   async function tratar({ req, res, pathname, send, body }) {
     const m = req.method;
-    if (m === 'GET' && pathname === '/api/dificuldade/config') { send(res, 200, { ...cfg, sha256: CONFIG_SHA256 }); return true; }
+    if (m === 'GET' && pathname === '/api/dificuldade/config') { send(res, 200, { ...cfg, sha256: CONFIG_SHA256, ajuste: ajustes() }); return true; }
     if (pathname === '/api/eu/perfil-tri') {
       const u = usuario(req);
       if (m === 'GET') { send(res, 200, u ? visao(u.id) : { usuario: null }); return true; }
@@ -157,7 +171,12 @@ export function criarDificuldade({ db, repo, acervo, cfg = CONFIG }) {
     for (const f of faixas) if (f.n) { f.prevista = +(f.prevista / f.n).toFixed(3); f.observada = +(f.observada / f.n).toFixed(3); }
     const total = q('SELECT COUNT(*) n, SUM(conta) contam, COUNT(DISTINCT usuario_id) usuarios FROM resposta_evento').get();
     const motivos = q('SELECT motivo, COUNT(*) n FROM resposta_evento WHERE conta=0 GROUP BY motivo').all();
-    return { versao: cfg.versao, sha256: CONFIG_SHA256, eventos: total.n, contamParaTheta: total.contam ?? 0, usuarios: total.usuarios, motivosNaoConta: motivos, calibracao: faixas.filter(f => f.n) };
+    const porArea = T.AREAS.map(a => {
+      const r = q('SELECT COUNT(*) n, SUM(conta) contam, AVG(CASE WHEN conta=1 AND apoio=0 THEN correta END) acerto, AVG(CASE WHEN conta=1 AND apoio=0 THEN chance_prevista END) prevista FROM resposta_evento WHERE area=?').get(a);
+      return { area: a, respostas: r.n, contam: r.contam ?? 0, acertoObservado: r.acerto, chanceMediaPrevista: r.prevista, ajuste: ajustes().porArea[a] };
+    });
+    const recentes = q('SELECT e.criada_em em, e.area, e.questao_id questao, e.correta, e.conta, e.motivo, e.chance_prevista p, e.theta_media theta, e.pstar, e.origem FROM resposta_evento e ORDER BY e.criada_em DESC LIMIT 25').all();
+    return { versao: cfg.versao, sha256: CONFIG_SHA256, eventos: total.n, contamParaTheta: total.contam ?? 0, usuarios: total.usuarios, motivosNaoConta: motivos, calibracao: faixas.filter(f => f.n), aprendizadoSistema: { ...ajustes(), config: cfg.aprendizado_sistema, porArea }, recentes };
   }
 
   return { tratar, registrar, usuario, visao, recomendar };

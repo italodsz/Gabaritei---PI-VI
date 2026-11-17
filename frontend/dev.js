@@ -1,4 +1,5 @@
 import { questionTextHTML, descriptionsHTML } from './question-text.js';
+import { criarAoVivo } from './dev-ao-vivo.js';
 import { SESSION_KEY, emptySession, sessionStats, saveReview, exportCSV, removeLatestRecord, restoreRecord } from './dev-session.js';
 
 const $ = selector => document.querySelector(selector);
@@ -31,8 +32,9 @@ function provenance() {
 function updateSessionCount() { $('#session-count').textContent=number(session.answers.length+session.reviews.length); }
 function setTab(tab) {
   for(const button of document.querySelectorAll('[data-tab]'))button.setAttribute('aria-pressed',String(button.dataset.tab===tab));
-  for(const id of ['explore','stats','session'])$('#'+id).hidden=id!==tab;
+  for(const id of ['explore','stats','live','session'])$('#'+id).hidden=id!==tab;
   if(tab==='stats')renderStats();if(tab==='session')renderSession();
+  if(tab==='live')aoVivo().mostrar();else if(liveView)liveView.esconder();
   history.replaceState(null,'',`/dev#${tab}`);
 }
 const filters=()=>({area:$('#area').value,materia:$('#subject').value,ano:$('#year').value,split:$('#split').value,status:$('#status').value,busca:$('#question-search').value.trim()});
@@ -154,6 +156,8 @@ async function compare(id) {
   }catch(error){$('#compare-content').innerHTML=`<p class="message error">${esc(error.message)}</p>`;}
 }
 
+let liveView=null;
+const aoVivo=()=>liveView||=criarAoVivo({root:$('#live'),summary:state.summary,abrirQuestao:id=>{setTab('explore');loadQuestion(id);}});
 $('#compare .close-dialog').onclick=()=>$('#compare').close();
 $('#compare').addEventListener('click',e=>{if(e.target===$('#compare')){const r=$('#compare').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('#compare').close();}});
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
@@ -170,6 +174,6 @@ try {
   $('#subject').innerHTML='<option value="">Todas</option>'+s.distributions.subject.map(r=>`<option>${esc(r.label)}</option>`).join('');
   $('#year').innerHTML='<option value="">Todos</option>'+s.distributions.year.sort((a,b)=>Number(b.label)-Number(a.label)).map(r=>`<option>${esc(r.label)}</option>`).join('');
   updateSessionCount();await loadList();
-  const tab=location.hash.slice(1);setTab(['explore','stats','session'].includes(tab)?tab:'explore');
+  const tab=location.hash.slice(1);setTab(['explore','stats','live','session'].includes(tab)?tab:'explore');
   if(!tab||tab==='explore')loadQuestion(s.defaultQuestionId);
 }catch(error){$('#fatal').hidden=false;$('#fatal').textContent=`Não foi possível abrir o laboratório: ${error.message}`;$('#runtime').textContent='API indisponível';}

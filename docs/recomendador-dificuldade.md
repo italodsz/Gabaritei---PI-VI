@@ -47,7 +47,37 @@ percentuais e fica entre 64% e 71% na zona viável. Abaixo de ~550–650 pontos 
 questões do ENEM são difíceis demais para 75%; para esses alunos valem a meta alcançável, o apoio, a
 revisão de erros e o progresso contra o esperado.
 
-## Modos (para os modos futuros)
+## Tela de início: os três modos
+
+| Modo | Como escolhe as questões |
+|---|---|
+| **Até onde você chega?** (esquerda) | Escada de dificuldade: começa pelas questões mais fáceis do acervo e sobe ~4,5 pontos de percentil a cada acerto, pela dificuldade oficial do item (parâmetro *b* da TRI), sem depender do nível do aluno. Alterna as áreas. Errou ou o tempo acabou, fim. As respostas também entram no perfil TRI. |
+| **Prática sob medida** (meio, modo padrão) | O aluno escolhe o ponto de partida: uma questão (busca no enunciado), um tema ou aleatório (todas as áreas ou uma). Depois, sem fim: a próxima é a parecida com a última pelo `titulo_area`, sem as já respondidas, com o ajuste suave da dificuldade entre as 20 primeiras. Se a última não tem parecidas novas, tenta as anteriores; depois o mesmo assunto e a mesma matéria pela dificuldade. Cada questão mostra o motivo da escolha. |
+| **Revisão** (direita) | Refazer as questões erradas até acertar. |
+
+## Aprendizado contínuo
+
+O recomendador aprende em dois níveis:
+
+1. **Aluno, a cada resposta.** O θ da área é atualizado (distribuição posterior completa) e o controlador
+   ajusta a meta pelas últimas 15 respostas. Com login, no servidor (`resposta_evento`, `perfil_tri`);
+   sem login, no navegador. Depois de cada resposta, a tela da questão mostra o card **O que o
+   recomendador aprendeu**: o que ele previa, θ e incerteza antes → depois, a nota, a chance da mesma
+   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no laboratório.
+2. **Sistema, com as respostas de todos os alunos com conta.** Para cada área, um deslocamento δ em
+   logit corrige a chance prevista quando os alunos acertam sistematicamente mais (ou menos) do que o
+   modelo do INEP previu. Estimado por máxima verossimilhança com prior N(0; 0,3²), só a partir de 30
+   respostas válidas na área, limitado a ±0,6 e recalculado a cada 10 respostas novas
+   (`estimarAjuste` em `dificuldade.js`). A chance guardada no banco é sempre a sem ajuste.
+
+O `titulo_area` não muda com as respostas: é o conhecimento fixo de quais questões são parecidas.
+
+O laboratório (`/dev`, aba **Recomendadores ao vivo**) mostra o perfil TRI atual, a linha do tempo do
+que foi aprendido a cada resposta (e de cada escolha da próxima questão, com as 5 primeiras do
+`titulo_area` e suas chances), o aprendizado do sistema por área e a calibração previsto × observado.
+Atualiza sozinho enquanto o app é usado em outra aba.
+
+## Modos da API (para os modos futuros)
 
 `POST /api/recomendar` recebe `modo` e `usarDificuldade`:
 

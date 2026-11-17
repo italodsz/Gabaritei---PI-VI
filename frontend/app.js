@@ -213,16 +213,8 @@ function render({ enter = false } = {}) {
 /* ------------------------------------------------------------------ */
 /* Praticar: hub de prática contínua                                   */
 /* ------------------------------------------------------------------ */
-const RECO_SOURCES = [
-  ['marcadas', 'Marcadas para revisar', 'bookmark'],
-  ['erradas', 'Erradas da última vez', 'x-circle'],
-  ['pendentes', 'Pendentes em listas', 'clock'],
-  ['dificuldade', 'Assuntos com dificuldade', 'target'],
-  ['revisao', 'Revisão espaçada', 'history'],
-  ['ineditas', 'Inéditas relevantes', 'spark'],
-];
 function practiceHubHTML() {
-  return `<section class="practice-hub" aria-label="Modos de prática">${recoColumnHTML()}${challengeColumnHTML()}${reviewColumnHTML()}</section>`;
+  return `<section class="practice-hub" aria-label="Modos de prática">${challengeColumnHTML()}${recoColumnHTML()}${reviewColumnHTML()}</section>`;
 }
 /**
  * Estrutura comum dos três blocos: cenário ilustrado com rótulo, título e texto;
@@ -238,19 +230,21 @@ const hubColumn = ({ mode, tone, scene, kicker, title, text, panel, cta, id }) =
     <button type="button" class="ph-col-cta" id="${id}" data-press="0.97">${cta}</button>
   </article>`;
 const plural = (n, um, varios) => (n === 1 ? um : varios);
-/** Prática contínua: tamanho da fila e os dois principais motivos. */
+/** Prática sob medida: escolhe o ponto de partida e segue com o titulo_area + dificuldade. */
 function recoColumnHTML() {
-  const o = learning.recommendationOverview();
-  const tags = RECO_SOURCES.filter(([k]) => o.counts[k]).sort((a, b) => o.counts[b[0]] - o.counts[a[0]]).slice(0, 2)
-    .map(([k, label]) => `<span class="ph-tag"><b>${Math.min(o.counts[k], 99)}${o.counts[k] > 99 ? '+' : ''}</b>${label}</span>`).join('');
+  const o = learning.sobMedidaOverview();
   return hubColumn({
-    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'PRÁTICA CONTÍNUA', id: 'ph-start',
+    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'MODO PADRÃO · SEM FIM', id: 'ph-start',
     title: 'Prática sob medida',
-    text: 'Questões escolhidas para você, uma depois da outra.',
-    panel: `<div class="ph-stat"><strong data-count="${o.total}">${o.total}</strong><span>questões na fila</span></div>
-      ${tags ? `<div class="ph-tags">${tags}</div>` : '<p class="ph-note">Responda algumas questões para personalizar a fila.</p>'}
-      ${o.active ? `<p class="ph-note">${o.active.answered} ${plural(o.active.answered, 'respondida', 'respondidas')} na prática atual</p>` : ''}`,
-    cta: o.active ? 'Continuar praticando' : 'Começar a praticar',
+    text: 'Escolha por onde começar. Depois, cada questão é parecida com a anterior e do seu nível.',
+    panel: o.active
+      ? `<div class="ph-stat"><strong data-count="${o.active.answered}">${o.active.answered}</strong><span>${plural(o.active.answered, 'respondida', 'respondidas')} na prática atual</span></div>
+        <p class="ph-note">Começou ${escape(o.active.rotulo)}.</p>
+        <div class="ph-tags"><button type="button" class="ph-tag ph-tag-btn" id="ph-new">Começar outra</button></div>`
+      : `<div class="ph-stat"><strong data-count="${o.respondidas}">${o.respondidas}</strong><span>${plural(o.respondidas, 'questão respondida', 'questões respondidas')} neste modo</span></div>
+        <div class="ph-tags"><span class="ph-tag">Uma questão</span><span class="ph-tag">Um tema</span><span class="ph-tag">Aleatório</span></div>
+        <p class="ph-note">Recomendação: titulo_area + nível de dificuldade.</p>`,
+    cta: o.active ? 'Continuar praticando' : 'Escolher por onde começar',
   });
 }
 /** Desafio de acertos: recorde, últimas tentativas e as regras. */
@@ -261,10 +255,10 @@ function challengeColumnHTML() {
   return hubColumn({
     mode: 'desafio', tone: 'chal', scene: 'hub-desafio.svg', kicker: 'DESAFIO DE ACERTOS', id: 'ph-challenge',
     title: 'Até onde você chega?',
-    text: 'Acerte em sequência e supere sua melhor marca.',
+    text: 'Começa fácil e a dificuldade sobe a cada acerto. Até onde você vai?',
     panel: `<div class="ph-stat"><strong data-count="${st.best}">${st.best}</strong><span>recorde · ${plural(st.best, 'acerto seguido', 'acertos seguidos')}</span></div>
       <div class="ph-attempts"><span class="ph-label">ÚLTIMAS TENTATIVAS</span>${recent.length ? `<div class="ph-bars" aria-hidden="true">${recent.map((a, i) => `<i class="${i === recent.length - 1 ? 'is-last' : ''}" style="--h:${Math.max(0.06, a.streak / max)}"></i>`).join('')}</div><small>Última: ${recent.at(-1).streak} ${plural(recent.at(-1).streak, 'acerto', 'acertos')}</small>` : '<small>Nenhuma tentativa ainda.</small>'}</div>
-      <div class="ph-tags"><span class="ph-tag">03:40 por questão</span><span class="ph-tag">Sem pausa nem pulo</span></div>`,
+      <div class="ph-tags"><span class="ph-tag">Dificuldade crescente</span><span class="ph-tag">03:40 por questão</span></div>`,
     cta: 'Começar desafio',
   });
 }
@@ -290,10 +284,11 @@ function reviewColumnHTML() {
   });
 }
 function bindPracticeHub() {
-  $('#ph-start')?.addEventListener('click', () => learning.startRecommended());
+  $('#ph-start')?.addEventListener('click', () => learning.startSobMedida());
+  $('#ph-new')?.addEventListener('click', () => learning.startSobMedida({ novo: true }));
   $('#ph-challenge')?.addEventListener('click', () => learning.startChallenge());
   $('#ph-review')?.addEventListener('click', () => learning.startReviewMode());
-  $('#ph-other')?.addEventListener('click', () => learning.startRecommended());
+  $('#ph-other')?.addEventListener('click', () => learning.startSobMedida());
 }
 function enterPracticeHub() {
   if (reduced()) return;

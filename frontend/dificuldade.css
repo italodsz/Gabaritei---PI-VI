@@ -32,3 +32,50 @@
 @media(max-width:640px){.pf-tri-row{grid-template-columns:1fr auto}.pf-tri-spark{display:none}}
 .rs-esperado{margin:8px 0 0;font-size:14px;font-weight:600;color:var(--lg-on-ink,#fff);opacity:.92}
 .rs-esperado.is-acima{color:#a8e6b6;opacity:1}
+/* O que o recomendador aprendeu (depois de cada resposta) */
+.apz{margin-top:14px;border:1px solid var(--lg-border,#e3e7df);border-radius:18px;background:var(--lg-surface,#fff);padding:14px 16px}
+.apz-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px}
+.apz-head strong{font-size:13px;letter-spacing:.01em}
+.apz-area{margin-left:auto;font-size:12px;color:var(--lg-fg-muted,#5c6658)}
+.apz-dot{width:9px;height:9px;border-radius:50%;background:#9aa39a;flex-shrink:0}
+.apz-dot.is-up{background:#3c9a62}.apz-dot.is-down{background:#d0644a}.apz-dot.is-off{background:#b8b8ae}
+.apz-leitura{margin:8px 0 0;font-size:13.5px;line-height:1.5;color:var(--lg-fg,#1b201b)}
+.apz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px;margin:12px 0 0}
+.apz-grid div{background:var(--lg-surface-2,#f4f5f1);border-radius:12px;padding:9px 11px;display:grid;gap:2px}
+.apz-grid dt{font-size:11px;color:var(--lg-fg-muted,#5c6658)}
+.apz-grid dd{margin:0;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+.apz-grid small{font-size:11px;color:var(--lg-fg-muted,#5c6658)}
+.apz-prox{margin:10px 0 0;font-size:12.5px;color:var(--lg-fg-muted,#5c6658)}
+.apz-prox b{color:var(--lg-fg,#1b201b)}
+/* Desafio: medidor da escada de dificuldade (no painel escuro do desafio) */
+.ch-level{display:grid;grid-template-columns:1fr auto;gap:5px 8px;align-items:baseline;padding:12px 14px;border-radius:16px;background:rgb(255 255 255 / .06);border:1px solid rgb(255 255 255 / .1);color:#f3ecd6}
+.ch-level span{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgb(243 236 214 / .6)}
+.ch-level b{font-size:14px;text-align:right;color:#f0d27a}
+.ch-level i{grid-column:1/-1;height:7px;border-radius:99px;background:rgb(255 255 255 / .1);position:relative;overflow:hidden}
+.ch-level i::after{content:"";position:absolute;inset:0 auto 0 0;width:calc(var(--w,.04)*100%);border-radius:inherit;background:linear-gradient(90deg,#9cc58a,#ddb54d,#d0644a);transition:width .5s cubic-bezier(.22,1,.36,1)}
+.ch-level small{grid-column:1/-1;font-size:11px;color:rgb(243 236 214 / .65)}
+/* Prática sob medida: janela do ponto de partida */
+dialog.is-wide{width:min(720px,calc(100% - 36px))}
+.sm-tabs{display:flex;gap:6px;padding:4px;border-radius:14px;background:#eef1ea;margin-bottom:16px}
+.sm-tabs button{flex:1;padding:10px 12px;border-radius:11px;font-size:12px;font-weight:600;color:#55624f}
+.sm-tabs button.is-on{background:#fff;color:#101510;box-shadow:0 1px 3px #0001}
+.sm-search{display:grid;gap:6px;font-size:11px;color:#717c6c}
+.sm-search input{padding:12px 14px;border:1px solid #dce2d6;border-radius:12px;background:#fff;font-size:13px}
+.sm-list{display:grid;gap:8px;max-height:46vh;overflow:auto;margin-top:12px;padding-right:2px}
+.sm-q{display:grid;gap:4px;text-align:left;padding:12px 14px;border:1px solid #e2e7de;border-radius:14px;background:#fff;transition:border-color .2s,background .2s}
+.sm-q:hover,.sm-q:focus-visible{border-color:#97c881;background:#f6fbf2}
+.sm-q-top{display:flex;gap:6px;align-items:baseline;font-size:11px;color:#55624f}
+.sm-q-top b{color:#101510;font-size:12px}
+.sm-q-top em{margin-left:auto;font-style:normal;font-weight:700;color:#2c703a;font-variant-numeric:tabular-nums}
+.sm-q-txt{font-size:12px;line-height:1.5;color:#3b4537}
+.sm-chips{display:flex;flex-wrap:wrap;gap:6px}
+.sm-chip{padding:7px 12px;border-radius:999px;background:#eef1ea;font-size:12px;color:#34452e}
+.sm-chip.is-on{background:#101510;color:#fff}
+.sm-sub{font-size:12px;color:#717c6c;margin:14px 0 4px}
+.sm-hint{font-size:12px;color:#8a9585;padding:8px 2px}
+.ph-tag-btn{cursor:pointer;border:0}
+.ph-tag-btn:hover{filter:brightness(.95)}
+html[data-theme="dark"] .sm-tabs{background:#232a22}html[data-theme="dark"] .sm-tabs button.is-on{background:#313a2f;color:#f2f5ef}
+html[data-theme="dark"] .sm-q,html[data-theme="dark"] .sm-search input{background:#1d231c;border-color:#343d32;color:#e8ece5}
+html[data-theme="dark"] .sm-q-top b,html[data-theme="dark"] .sm-q-txt{color:#e8ece5}
+html[data-theme="dark"] .sm-chip{background:#232a22;color:#d5ddd1}html[data-theme="dark"] .sm-chip.is-on{background:#e8ece5;color:#101510}

@@ -68,7 +68,7 @@ export async function carregarAcervo() {
       correct: q.answer, explanation: `Gabarito oficial: alternativa ${q.answer}. Resolução comentada ainda não disponível.`,
       ...(q.language === 'en' || q.language === 'es' ? { foreignLanguage: q.language === 'en' ? 'ingles' : 'espanhol' } : {}),
       familyId: q.content_family_id, sourcePosition: q.official_reference?.position ?? null,
-      sourceArea: q.area, warning: m.alerta_texto || null,
+      sourceArea: q.area, warning: (Array.isArray(m.alerta_texto) ? m.alerta_texto.length > 0 : !!m.alerta_texto) ? m.alerta_texto : null,
       // parâmetros TRI oficiais só quando passam na triagem e são da prova regular de formato padrão
       tri: q.application_format === 'standard' && q.application_type === 'regular' ? triar(q.tri, cfgDificuldade) : null,
     });

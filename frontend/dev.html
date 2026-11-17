@@ -16,7 +16,7 @@
     <div class="page-heading"><div><p class="eyebrow">OBSERVAR · RESPONDER · CONFERIR</p><h1>Por dentro da recomendação.</h1><p>Das questões aos escores. Investigue o resultado e registre o que precisa melhorar.</p></div><div id="runtime" class="runtime" role="status">Conectando ao acervo…</div></div>
     <div id="fatal" class="message error" role="alert" hidden></div>
     <div id="metrics" class="metrics" aria-label="Resumo do acervo"></div>
-    <nav class="tabs" aria-label="Seções do laboratório"><button type="button" data-tab="explore" aria-pressed="true">01 <span>Explorar questões</span></button><button type="button" data-tab="stats" aria-pressed="false">02 <span>Estatísticas da base</span></button><button type="button" data-tab="session" aria-pressed="false">03 <span>Minha sessão dev</span><b id="session-count">0</b></button><button type="button" id="export-all" class="export">Exportar sessão ↓</button></nav>
+    <nav class="tabs" aria-label="Seções do laboratório"><button type="button" data-tab="explore" aria-pressed="true">01 <span>Explorar questões</span></button><button type="button" data-tab="stats" aria-pressed="false">02 <span>Estatísticas da base</span></button><button type="button" data-tab="live" aria-pressed="false">03 <span>Recomendadores ao vivo</span></button><button type="button" data-tab="session" aria-pressed="false">04 <span>Minha sessão dev</span><b id="session-count">0</b></button><button type="button" id="export-all" class="export">Exportar sessão ↓</button></nav>
     <section id="explore" class="tab-panel">
       <div class="explorer-grid" id="workspace">
         <aside class="browser panel"><div class="panel-heading"><div><p class="eyebrow">ACERVO</p><h2>Escolha uma questão</h2></div><span id="found-count" class="counter">—</span></div>
@@ -30,6 +30,7 @@
       </div>
     </section>
     <section id="stats" class="tab-panel" hidden></section>
+    <section id="live" class="tab-panel" hidden></section>
     <section id="session" class="tab-panel" hidden></section>
     <footer>Dados reais, parâmetros preservados. Avaliações dev ficam somente neste navegador. <a href="/api/health" target="_blank" rel="noopener">Estado da API ↗</a></footer>
   </main>

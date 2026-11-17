@@ -94,3 +94,19 @@ test('apoio e regras do que conta para θ', () => {
   assert.equal(T.contaParaTheta({ it, primeira: true, tempoMs: 3000 }, cfg).motivo, 'resposta_muito_rapida');
   assert.equal(T.contaParaTheta({ it: null, primeira: true }, cfg).motivo, 'parametros_fora_da_triagem');
 });
+
+test('aprendizado do sistema: δ corrige a calibração da área e encolhe com poucos dados', () => {
+  let s = 7; const rnd = () => { s = (s * 1103515245 + 12345) % 2147483648; return s / 2147483648; };
+  const sig = x => 1 / (1 + Math.exp(-x)), lg = p => Math.log(p / (1 - p));
+  // alunos acertam mais do que o previsto: verdade = previsto deslocado +0,4 em logit
+  const ev = Array.from({ length: 3000 }, () => { const p = 0.15 + 0.7 * rnd(); return { p, y: rnd() < sig(lg(p) + 0.4) ? 1 : 0 }; });
+  const a = T.estimarAjuste(ev, cfg);
+  assert.ok(a.ativo && Math.abs(a.delta - 0.4) < 0.1, `δ = ${a.delta}`);
+  assert.equal(T.estimarAjuste(ev.slice(0, 10), cfg).ativo, false, 'abaixo do mínimo não ajusta');
+  const pouco = T.estimarAjuste(ev.slice(0, 40), cfg).delta;
+  assert.ok(Math.abs(pouco) <= cfg.aprendizado_sistema.limite);
+  assert.ok(T.ajustarChance(0.5, 0.4) > 0.59 && T.ajustarChance(0.5, 0) === 0.5);
+  // calibrado: δ perto de zero
+  const ok = Array.from({ length: 3000 }, () => { const p = 0.15 + 0.7 * rnd(); return { p, y: rnd() < p ? 1 : 0 }; });
+  assert.ok(Math.abs(T.estimarAjuste(ok, cfg).delta) < 0.1);
+});

@@ -8,6 +8,8 @@ const CHAVE = 'gabaritei:perfil-tri:v1';
 const INEP = { matematica: 'MT', natureza: 'CN', humanas: 'CH', linguagens: 'LC' };
 let cfg = null, perfis = null, historico = [], getAccount = () => null, ouvintes = new Set();
 
+/** Alerta de texto da questão (o acervo manda lista vazia quando não há). */
+export const temAlerta = q => (Array.isArray(q?.warning) ? q.warning.length > 0 : !!q?.warning);
 export const areaDe = q => q?.sourceArea || INEP[q?.areaId];
 export const pronto = () => !!cfg && !!perfis;
 export const config = () => cfg;
@@ -50,8 +52,11 @@ const perfilDe = area => perfis?.[area] ?? (cfg ? T.perfilInicial(area, cfg) : n
 export function chanceDe(q) {
   if (!pronto() || !q?.tri) return null;
   const p = perfilDe(areaDe(q));
-  return p ? T.chance(T.alargar(p, Date.now(), cfg), q.tri, cfg) : null;
+  return p ? T.ajustarChance(T.chance(T.alargar(p, Date.now(), cfg), q.tri, cfg), deltaDe(areaDe(q))) : null;
 }
+/** δ da área aprendido com as respostas de todos os alunos (0 enquanto há poucos dados). */
+export const deltaDe = area => cfg?.ajuste?.porArea?.[area]?.delta || 0;
+export const ajusteSistema = () => cfg?.ajuste ?? null;
 export const apoioDisponivel = q => pronto() && T.apoioDisponivel(chanceDe(q), cfg);
 export const eliminar = (q, semente) => T.eliminarAlternativas(q.alternatives.map(a => a.letter), q.correct, semente, cfg);
 
@@ -79,7 +84,7 @@ function estados(records) {
 export function montarLista(questoes, n, records, rng = Math.random) {
   const estado = estados(records), areas = new Set(questoes.map(areaDe));
   const alvo = areas.size === 1 ? (perfilDe([...areas][0])?.pstar ?? metaBase()) : metaBase();
-  return T.montarLista(questoes.map(q => ({ id: q.id, p: chanceDe(q), estado: estado(q.id), alerta: !!q.warning })), n, alvo, cfg, rng);
+  return T.montarLista(questoes.map(q => ({ id: q.id, p: chanceDe(q), estado: estado(q.id), alerta: temAlerta(q) })), n, alvo, cfg, rng);
 }
 
 /** Ordena questões da mais adequada à menos adequada para o desafio do aluno (meta de cada área).
@@ -92,9 +97,9 @@ export function porAdequacao(questoes) {
   for (const [a, qs] of porArea) {
     const p = perfilDe(a);
     if (!p) { qs.forEach(q => nota.set(q.id, 0.5)); continue; }
-    const larg = T.alargar(p, agora, cfg), ps = qs.map(q => (q.tri ? T.chance(larg, q.tri, cfg) : null));
+    const larg = T.alargar(p, agora, cfg), ps = qs.map(q => (q.tri ? T.ajustarChance(T.chance(larg, q.tri, cfg), deltaDe(a)) : null));
     const alvo = T.metaAlcancavel(p.pstar ?? metaBase(), ps.filter(Number.isFinite), cfg);
-    qs.forEach((q, i) => nota.set(q.id, (Number.isFinite(ps[i]) ? T.adequacao(ps[i], alvo, cfg) : 0.5) * (q.warning ? cfg.penalidade_alerta : 1)));
+    qs.forEach((q, i) => nota.set(q.id, (Number.isFinite(ps[i]) ? T.adequacao(ps[i], alvo, cfg) : 0.5) * (temAlerta(q) ? cfg.penalidade_alerta : 1)));
   }
   return [...questoes].sort((x, y) => nota.get(y.id) - nota.get(x.id));
 }
@@ -131,18 +136,61 @@ function registrarHistorico(area) {
   historico = historico.filter(h => !(h.area === area && h.dia === dia)).concat({ area, dia, nota: r.nota, nota_min: r.min, nota_max: r.max, n: r.n });
 }
 
-/** Depois de conferir uma resposta. tri = o que o servidor devolveu (com login). */
+/* ----------------------------- aprendizado ----------------------------- */
+// Cada resposta vira um registro do que o recomendador aprendeu: θ, nota, faixa e meta antes e
+// depois, a chance que ele tinha previsto e o motivo quando a resposta não entra no cálculo.
+// Fica neste navegador (últimos 200) e alimenta o card da questão e o laboratório (/dev).
+const CHAVE_APRENDIZADO = 'gabaritei:aprendizado:v1';
+export const MOTIVOS = {
+  parametros_fora_da_triagem: 'a questão não tem parâmetros TRI confiáveis do INEP',
+  repeticao: 'você já tinha respondido esta questão antes',
+  com_apoio: 'você usou o apoio (2 alternativas eliminadas)',
+  resposta_muito_rapida: 'a resposta veio em menos de 8 segundos',
+};
+let feed = [];
+// Relido a cada uso: o laboratório (outra aba) acompanha o app ao vivo.
+const lerFeed = () => { try { const v = JSON.parse(localStorage.getItem(CHAVE_APRENDIZADO)); if (Array.isArray(v)) feed = v; } catch { /* sem armazenamento: fica em memória */ } return feed; };
+export const aprendizados = () => lerFeed().slice();
+const CHAVE_MOSTRAR = 'gabaritei:mostrar-aprendizado';
+export const mostrarAprendizado = () => { try { return localStorage.getItem(CHAVE_MOSTRAR) !== '0'; } catch { return true; } };
+export const definirMostrarAprendizado = v => { try { localStorage.setItem(CHAVE_MOSTRAR, v ? '1' : '0'); } catch { /* ignora */ } avisar(); };
+export const aprendizadoDe = id => [...lerFeed()].reverse().find(x => x.questaoId === id) ?? null;
+function foto(p) {
+  if (!p) return null;
+  const { media, dp } = T.momentos(p, cfg), r = T.resumoNota(p, cfg);
+  return { theta: +media.toFixed(3), dp: +dp.toFixed(3), nota: Math.round(T.notaDeTheta(p.area, media, cfg)), faixa: r.min != null ? [r.min, r.max] : null, status: r.status, n: p.n || 0, pstar: p.pstar ?? metaBase() };
+}
+function anotar(reg) {
+  feed = [...lerFeed(), reg].slice(-200);
+  try { localStorage.setItem(CHAVE_APRENDIZADO, JSON.stringify(feed)); } catch { /* sem armazenamento */ }
+}
+/** Também registra uma decisão do recomendador (ex.: por que a próxima questão foi escolhida). */
+export function anotarDecisao(d) { anotar({ tipo: 'decisao', em: new Date().toISOString(), ...d }); avisar(); }
+
+/** Depois de conferir uma resposta. tri = o que o servidor devolveu (com login). Devolve o aprendizado. */
 export function registrarResposta(q, correta, { apoio = false, tempoMs, primeira = true, origem = 'pratica', tri = null } = {}) {
-  if (!pronto()) return;
+  if (!pronto()) return null;
   const area = areaDe(q);
-  if (!T.AREAS.includes(area)) return;
-  if (tri?.perfil) { perfis[area] = tri.perfil; registrarHistorico(area); avisar(); return; }
-  if (usuarioAtual()) return; // com login sem resposta do servidor: o servidor continua sendo a fonte
+  if (!T.AREAS.includes(area)) return null;
+  const antesP = perfis[area], chanceAntes = chanceDe(q);
   const regra = T.contaParaTheta({ it: q.tri, primeira, apoio, tempoMs, origem }, cfg);
-  let p = perfis[area];
-  if (regra.conta) p = T.atualizar(p, q.tri, correta, cfg, { agoraMs: Date.now(), peso: regra.peso });
-  if (origem === 'pratica' && !apoio) p = T.registrarAcerto(p, correta, cfg, metaBase());
-  perfis[area] = p; registrarHistorico(area); gravarLocal(); avisar();
+  let p = antesP, conta = regra.conta, motivo = regra.motivo ?? null;
+  if (tri?.perfil) { p = tri.perfil; conta = tri.conta; motivo = tri.motivo ?? null; }
+  else if (usuarioAtual()) return null; // com login sem resposta do servidor: o servidor continua sendo a fonte
+  else {
+    if (regra.conta) p = T.atualizar(p, q.tri, correta, cfg, { agoraMs: Date.now(), peso: regra.peso });
+    if (origem === 'pratica' && !apoio) p = T.registrarAcerto(p, correta, cfg, metaBase());
+  }
+  perfis[area] = p; registrarHistorico(area); gravarLocal();
+  const reg = {
+    tipo: 'resposta', em: new Date().toISOString(), questaoId: q.id, area, acertou: !!correta, origem, apoio,
+    tempoMs: Number.isFinite(tempoMs) ? Math.round(tempoMs) : null, b: q.tri?.b ?? null,
+    chanceAntes: Number.isFinite(chanceAntes) ? +chanceAntes.toFixed(3) : null, chanceDepois: Number.isFinite(chanceDe(q)) ? +chanceDe(q).toFixed(3) : null,
+    conta, motivo, peso: conta ? (origem === 'simulado' ? cfg.peso.simulado : cfg.peso.pratica) : 0,
+    delta: deltaDe(area), antes: foto(antesP), depois: foto(p), servidor: !!tri?.perfil,
+  };
+  anotar(reg); avisar();
+  return reg;
 }
 
 /** Respostas de um simulado finalizado (peso de prova). */
@@ -152,7 +200,12 @@ export async function registrarSimulado(sim, repo, recordsAntes) {
   const respostas = sim.questionIds.map(id => ({ id, a: sim.answers[id] })).filter(x => x.a?.selected).map(x => ({ questaoId: x.id, alternativa: x.a.selected, tempoMs: x.a.timeSpentMs }));
   if (!respostas.length) return;
   if (usuarioAtual()) {
-    try { const v = await api('POST', '/api/eu/perfil-tri/respostas', { respostas }); perfis = v.perfis; historico = v.historico || historico; avisar(); } catch (e) { console.warn('Não foi possível registrar o simulado no perfil TRI.', e.message); }
+    try {
+      const antes = Object.fromEntries(T.AREAS.map(a => [a, foto(perfis[a])]));
+      const v = await api('POST', '/api/eu/perfil-tri/respostas', { respostas }); perfis = v.perfis; historico = v.historico || historico;
+      anotar({ tipo: 'simulado', em: new Date().toISOString(), respostas: respostas.length, areas: Object.fromEntries(T.AREAS.map(a => [a, { antes: antes[a], depois: foto(perfis[a]) }])) });
+      avisar();
+    } catch (e) { console.warn('Não foi possível registrar o simulado no perfil TRI.', e.message); }
     return;
   }
   for (const r of respostas) { const q = repo.getById(r.questaoId); if (q) registrarResposta(q, r.alternativa === q.correct, { origem: 'simulado', tempoMs: r.tempoMs, primeira: !vistas.has(q.id) }); }
