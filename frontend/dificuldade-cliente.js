@@ -82,6 +82,23 @@ export function montarLista(questoes, n, records, rng = Math.random) {
   return T.montarLista(questoes.map(q => ({ id: q.id, p: chanceDe(q), estado: estado(q.id), alerta: !!q.warning })), n, alvo, cfg, rng);
 }
 
+/** Ordena questões da mais adequada à menos adequada para o desafio do aluno (meta de cada área).
+ *  Usada nas fontes da prática contínua. Sem perfil carregado, devolve a ordem recebida. */
+export function porAdequacao(questoes) {
+  if (!pronto() || questoes.length < 2) return questoes;
+  const agora = Date.now(), porArea = new Map();
+  for (const q of questoes) { const a = areaDe(q); if (!porArea.has(a)) porArea.set(a, []); porArea.get(a).push(q); }
+  const nota = new Map();
+  for (const [a, qs] of porArea) {
+    const p = perfilDe(a);
+    if (!p) { qs.forEach(q => nota.set(q.id, 0.5)); continue; }
+    const larg = T.alargar(p, agora, cfg), ps = qs.map(q => (q.tri ? T.chance(larg, q.tri, cfg) : null));
+    const alvo = T.metaAlcancavel(p.pstar ?? metaBase(), ps.filter(Number.isFinite), cfg);
+    qs.forEach((q, i) => nota.set(q.id, (Number.isFinite(ps[i]) ? T.adequacao(ps[i], alvo, cfg) : 0.5) * (q.warning ? cfg.penalidade_alerta : 1)));
+  }
+  return [...questoes].sort((x, y) => nota.get(y.id) - nota.get(x.id));
+}
+
 /** Envolve o motor de estudos: Montar lista e Seleção automática passam a considerar a dificuldade. */
 export function comDificuldade(E) {
   return {

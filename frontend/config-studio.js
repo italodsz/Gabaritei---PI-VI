@@ -506,7 +506,9 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     if (mode === 'practice') {
       const pool = practicePool();
       if (!pool.length) return;
-      const ids = E.pickQuestions(pool, pool.length, records(), E.createRng(Date.now()), account().onboarding.level).map(q => q.id);
+      const rng = E.createRng(Date.now());
+      // Com o perfil TRI pronto, a ordem segue o desafio escolhido (começa pelas mais acessíveis).
+      const ids = Dif.pronto() ? Dif.montarLista(pool, pool.length, records(), rng) : E.pickQuestions(pool, pool.length, records(), rng, account().onboarding.level).map(q => q.id);
       const f = { subjectId: practice.subjectIds.length === 1 ? practice.subjectIds[0] : null, topicIds: [...practice.topicIds], subtopicIds: [...practice.subtopicIds], years: [...practice.years], count: ids.length };
       const names = practice.topicIds.map(t => E.TOPIC_BY_ID[t]?.name).filter(Boolean);
       const subjects = practice.subjectIds.map(id => E.SUBJECT_BY_ID[id].name);

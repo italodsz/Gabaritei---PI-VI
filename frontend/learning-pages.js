@@ -80,7 +80,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     onHistory: () => navigate('historico'),
     saveToNotes: (ref, el) => saveToNotes(ref, el),
     nextRecommended: current => recommendationQueue({ exclude: new Set(current.questionIds), offset: current.questionIds.length })[0] ?? null,
-    reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.pickQuestions(E.questionRepository.query({ topicIds: [topicId] }), account.study.defaultQuestionCount, records(), E.createRng(E.freshSeed()), account.onboarding.level).map(q => q.id); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
+    reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.selectPracticeQuestions({ ...E.EMPTY_FILTERS, topicIds: [topicId], count: account.study.defaultQuestionCount }, records(), E.freshSeed(), account.onboarding.level); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
   });
   /** Desafio de acertos: tela própria, sem pausa nem retomada. */
   const challenge = createChallengeScreen({ E, getAccount: () => account, save, onExit: () => { if (!root.hidden && ['questoes', 'progresso', 'historico'].includes(page)) mount(page, { enter: false }); onChange(); } });
@@ -229,13 +229,14 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
       const label = r.kind === 'revisao' ? `Hora de revisar ${t?.name ?? 'este assunto'}` : r.kind === 'desempenho' ? `Reforço em ${t?.name ?? 'um assunto difícil'}` : r.kind === 'dificuldade' ? `Matéria que você marcou como difícil` : `Assunto novo: ${t?.name ?? ''}`;
       const pool = E.questionRepository.query({ topicIds: [r.topicId] }).filter(q => ok(q.id));
       const fresh = pool.filter(q => !seen.has(q.id));
-      return (fresh.length ? fresh : pool).slice(0, 2).map(q => ({ id: q.id, reason: label, source: 'dificuldade' }));
+      return Dif.porAdequacao(fresh.length ? fresh : pool).slice(0, 2).map(q => ({ id: q.id, reason: label, source: 'dificuldade' }));
     });
     const spaced = [...latest.values()].filter(r => r.correct && now - r.answeredAt > 14 * DAY && ok(r.questionId))
       .sort((a, b) => a.answeredAt - b.answeredAt).map(r => ({ id: r.questionId, reason: `Revisão espaçada: acertou há ${Math.floor((now - r.answeredAt) / DAY)} dias`, source: 'revisao' }));
     const hard = new Set(account.onboarding.difficultSubjects || []);
-    const unseen = E.questionRepository.query({}).filter(q => !seen.has(q.id) && ok(q.id))
-      .sort((a, b) => (hard.has(b.subjectId) ? 1 : 0) - (hard.has(a.subjectId) ? 1 : 0) || a.id.localeCompare(b.id))
+    // ordem pela adequação ao desafio; a ordenação estável mantém as matérias difíceis na frente
+    const unseen = Dif.porAdequacao(E.questionRepository.query({}).filter(q => !seen.has(q.id) && ok(q.id)))
+      .sort((a, b) => (hard.has(b.subjectId) ? 1 : 0) - (hard.has(a.subjectId) ? 1 : 0))
       .map(q => ({ id: q.id, reason: hard.has(q.subjectId) ? 'Inédita de uma matéria que pede atenção' : 'Questão inédita para você', source: 'ineditas' }));
     return { marked, wrong, pending, topics, spaced, unseen };
   }

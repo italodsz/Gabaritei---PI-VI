@@ -735,29 +735,32 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (!session || adding || readOnly) return;
     const q = current();
     const sessionId = session.id;
-    const used = new Set(session.questionIds);
-    const fresh = list => list.filter(item => !used.has(item.id));
+    // Bloqueadas: já respondidas (aqui ou antes) e as que já ficaram para trás nesta lista.
+    // As pendentes mais à frente podem ser escolhidas: nesse caso, sobem para logo após a atual.
+    const blocked = new Set([
+      ...E.collectAnswerRecords(account()).map(r => r.questionId),
+      ...session.questionIds.filter((id, i) => i <= session.currentIndex || session.answers[id]?.confirmed),
+    ]);
+    const fresh = list => list.filter(item => !blocked.has(item.id));
     let pool;
     adding = true;
     try {
       if (kind === 'similar') {
-        const exclude = [...new Set([...session.questionIds, ...E.collectAnswerRecords(account()).map(r => r.questionId)])];
-        const result = await recomendarQuestao(q.id, exclude, 20);
+        const result = await recomendarQuestao(q.id, [...blocked], 20);
         pool = E.questionRepository.getMany(Dif.ordenarSemelhantes(result.ids, E.questionRepository));
       } else {
-        const families = new Set(E.questionRepository.getMany([...used]).map(item => item.familyId));
+        const families = new Set(E.questionRepository.getMany([...blocked].filter(id => E.questionRepository.getById(id))).map(item => item.familyId));
         pool = fresh(E.questionRepository.query({ subjectId: q.subjectId, areaIds: [q.areaId], foreignLanguage: q.foreignLanguage || 'none' })).filter(item => !families.has(item.familyId));
       }
     } catch { toast('Não foi possível buscar uma questão. Confira a conexão e tente novamente.'); return; }
     finally { adding = false; }
     if (!session || session.id !== sessionId || current().id !== q.id || !running()) return;
-    if (!pool.length) { toast('Sem novas questões: você já incluiu todas as questões disponíveis deste assunto.'); return; }
-    const seen = new Set(E.collectAnswerRecords(account()).map(r => r.questionId));
-    const unseen = pool.filter(item => !seen.has(item.id));
-    const from = unseen.length ? unseen : pool;
-    const pick = kind === 'similar' ? from[0] : from[Math.floor(Math.random() * from.length)];
+    if (!pool.length) { toast('Sem novas questões: você já respondeu todas as questões disponíveis deste assunto.'); return; }
+    const pick = kind === 'similar' ? pool[0] : pool[Math.floor(Math.random() * pool.length)];
     const before = session.currentIndex;
-    persist(E.practice.insertNext(session, pick.id, Date.now()));
+    const jaNaLista = session.questionIds.includes(pick.id);
+    const base = jaNaLista ? { ...session, questionIds: session.questionIds.filter(id => id !== pick.id) } : session;
+    persist(E.practice.insertNext(base, pick.id, Date.now()));
     persist({ ...session, previsto: { ...(session.previsto || {}), ...Dif.previsto([pick.id], E.questionRepository) } });
     showExplanation = true;
     lastCurrent = before;
@@ -765,7 +768,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     renderHeader(); renderActions(); renderPanel();
     animate($('#qs-article'), [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-36px)' }], { duration: 220, easing: EASE.in, fill: 'forwards' })
       .then(() => { if (token === navToken && session) renderQuestion(1); });
-    toast(kind === 'similar' ? 'Questão semelhante adicionada. Ela entrou logo após a atual na sua lista.' : 'Nova questão adicionada. Ela entrou logo após a atual na sua lista.');
+    const nome = kind === 'similar' ? 'Questão semelhante' : 'Nova questão';
+    toast(jaNaLista ? `${nome} da sua lista: ela veio para logo após a atual.` : `${nome} adicionada. Ela entrou logo após a atual na sua lista.`);
   }
 
   function finish() {
