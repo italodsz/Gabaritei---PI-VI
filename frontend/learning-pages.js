@@ -62,11 +62,11 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   function preserveRender(renderFn) { const focused = document.activeElement?.getAttribute('data-focus'); renderFn(); if (focused) $$('[data-focus]').find(el=>el.dataset.focus===focused)?.focus({preventScroll:true}); }
 
   function startTopic(id) { const t=E.TOPIC_BY_ID[id];if(!t)return;const f={...E.EMPTY_FILTERS,subjectId:t.subjectId,topicIds:[id],count:account.study.defaultQuestionCount};const ids=E.selectPracticeQuestions(f,records(),Date.now(),account.onboarding.level);beginList(t.name,ids,'recommended',f); }
-  function beginList(title,ids,mode,filters,onComplete) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return null;}const created=E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:account.study.practiceTimer,now:Date.now()});created.previsto=Dif.previsto(ids,E.questionRepository);account.practiceSessions.push(created);save();openSession(created,{onComplete});return created; }
+  function beginList(title,ids,mode,filters,onComplete,extra={}) { if(!ids.length){toast('Nenhuma questão disponível com esses filtros.');return null;}const created={...E.createPracticeSession({title,questionIds:ids,mode,filters,timerVisible:account.study.practiceTimer,now:Date.now()}),...extra};created.previsto=Dif.previsto(ids,E.questionRepository);account.practiceSessions.push(created);save();openSession(created,{onComplete});return created; }
 
   const studio = createConfigStudio({
     E, root, account: () => account, records, save, toast, saveToNotes,
-    onStartPractice: (title, ids, mode, filters) => beginList(title, ids, mode, filters),
+    onStartPractice: (title, ids, mode, filters, extra) => beginList(title, ids, mode, filters, undefined, extra),
     onStartSimulation: input => startSimulation(input),
     onBack: () => navigate('simulados'),
   });

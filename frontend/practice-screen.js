@@ -5,6 +5,7 @@
 import { resultHTML as legacyResultHTML, bindResultPage } from './result-page.js';
 import { recomendarQuestao, conferirResposta } from './acervo-api.js';
 import { aprendizadoHTML } from './aprendizado-ui.js';
+import * as Livre from './lista-livre.js';
 import * as Dif from './dificuldade-cliente.js';
 import { questionTextHTML, descriptionsHTML } from './question-text.js';
 
@@ -226,11 +227,19 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
   /* Cabeçalho                                                         */
   /* ---------------------------------------------------------------- */
 
+  /** Lista livre: quantas questões do filtro ainda não entraram (cache pelo tamanho da lista). */
+  let restCache = { id: null, n: -1, valor: 0 };
+  function livreRestantes() {
+    if (!session?.livre) return 0;
+    if (restCache.id !== session.id || restCache.n !== session.questionIds.length) restCache = { id: session.id, n: session.questionIds.length, valor: Livre.restantes(E, session).length };
+    return restCache.valor;
+  }
+  const temMais = () => !!session?.livre && livreRestantes() > 0;
   function renderHeader() {
     const total = session.questionIds.length;
     const done = answeredCount();
     $('#qs-title').textContent = session.title;
-    $('#qs-sub').textContent = session.review ? `Revisão · ${done} de ${total} revisadas · ${session.questionIds.filter(id => session.answers[id]?.correct).length} acertadas · ${total - session.questionIds.filter(id => session.answers[id]?.correct).length} pendentes` : session.continuous ? `Prática contínua · questão ${session.currentIndex + 1} · ${done} respondidas` : `Questão ${session.currentIndex + 1} de ${total} · ${done} respondidas`;
+    $('#qs-sub').textContent = session.review ? `Revisão · ${done} de ${total} revisadas · ${session.questionIds.filter(id => session.answers[id]?.correct).length} acertadas · ${total - session.questionIds.filter(id => session.answers[id]?.correct).length} pendentes` : session.continuous ? `Prática contínua · questão ${session.currentIndex + 1} · ${done} respondidas` : session.livre ? `Lista livre · questão ${session.currentIndex + 1} de ${total} · ${done} respondidas${temMais() ? ` · mais ${livreRestantes()} no filtro, chegam de ${Livre.LOTE} em ${Livre.LOTE}` : ''}` : `Questão ${session.currentIndex + 1} de ${total} · ${done} respondidas`;
     const isRunning = running();
     const elapsed = clockText(E.clockElapsed(session.clock, Date.now()));
     $('#qs-timer-slot').innerHTML = session.timerVisible
@@ -419,7 +428,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const total = session.questionIds.length;
     const done = answeredCount();
     const isLast = session.currentIndex === total - 1;
-    const allDone = done === total && !session.continuous;
+    const allDone = done === total && !session.continuous && !temMais();
     $('#qs-actions').innerHTML = `
       <button type="button" class="qs-btn qs-btn-ghost" id="qs-prev" ${session.currentIndex === 0 ? 'disabled' : ''}>${icons('chevron-left')}Anterior</button>
       <div class="qs-actions-right">${!a?.confirmed
@@ -427,7 +436,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
            <button type="button" class="qs-btn qs-btn-primary qs-btn-lg" id="qs-confirm" ${!a?.selected || !running() ? 'disabled' : ''}>${icons('check-circle')}Confirmar resposta</button>`
         : `<button type="button" class="qs-btn qs-btn-secondary" id="qs-similar">${icons('spark')}Semelhante</button>
            <button type="button" class="qs-btn qs-btn-secondary" id="qs-random">${icons('shuffle')}Aleatória</button>
-           <button type="button" class="qs-btn ${allDone ? 'qs-btn-accent' : 'qs-btn-primary'} qs-btn-lg" id="qs-next">${allDone ? 'Ver resultado' : isLast && !session.continuous ? 'Próxima pendente' : 'Próxima questão'}${icons(allDone ? 'flag' : 'arrow')}</button>`}
+           <button type="button" class="qs-btn ${allDone ? 'qs-btn-accent' : 'qs-btn-primary'} qs-btn-lg" id="qs-next">${allDone ? 'Ver resultado' : isLast && !session.continuous && !(temMais() && done === total) ? 'Próxima pendente' : 'Próxima questão'}${icons(allDone ? 'flag' : 'arrow')}</button>`}
       </div>`;
     const on = (id, fn) => { const el = $(id); if (el) el.onclick = fn; };
     on('#qs-prev', () => go(session.currentIndex - 1));
@@ -676,6 +685,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const done = answeredCount();
     const pending = session.questionIds.findIndex(id => !session.answers[id]?.confirmed);
     if (session.continuous && i === total - 1 && done === total) { appendRecommended(); return; }
+    if (session.livre && i === total - 1 && done === total && temMais()) { appendLote(); return; }
     if (i < total - 1) go(i + 1);
     else if (done === total) finish();
     else if (pending >= 0) go(pending);
@@ -720,6 +730,18 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
   }
 
   /** Prática contínua: busca a próxima questão recomendada e a coloca logo depois da atual. */
+  /** Lista livre: chegou ao fim do lote, entra o próximo (pela dificuldade) e segue para a próxima questão. */
+  function appendLote() {
+    const novos = Livre.proximoLote(E, session, E.collectAnswerRecords(account()), account().onboarding.level);
+    if (!novos.length) { finish(); return; }
+    const vazio = id => [id, { questionId: id, selected: null, confirmed: false, correct: null, answeredAt: null, timeSpentMs: 0 }];
+    persist({ ...session, questionIds: [...session.questionIds, ...novos], answers: { ...session.answers, ...Object.fromEntries(novos.map(vazio)) },
+      filters: { ...session.filters, count: session.questionIds.length + novos.length },
+      previsto: { ...(session.previsto || {}), ...Dif.previsto(novos, E.questionRepository) }, updatedAt: new Date().toISOString() });
+    toast(`Mais ${novos.length} questões entraram na lista.`);
+    go(session.currentIndex + 1);
+  }
+
   async function appendRecommended() {
     if (adding) return;
     const sessionId = session.id;

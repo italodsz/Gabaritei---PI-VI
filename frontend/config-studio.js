@@ -6,6 +6,7 @@
 import { animate, spring, duration, ease, tabContentIn, collapse, countTo, reduced } from './motion-kit.js';
 import { recomendarQuestao } from './acervo-api.js';
 import * as Dif from './dificuldade-cliente.js';
+import * as Livre from './lista-livre.js';
 import { esc, hi, pct, SUBJECT_ICON, pageHeader, tile, cardHeader, card, badge, chip, btn, seg, tabs, switchRow, checkbox, progress, rerender, playBars, playReveal, rotateChevron, animateSwitch, bindTabKeys } from './legacy-ui.js';
 
 const AREA_ORDER = ['linguagens', 'humanas', 'natureza', 'matematica'];
@@ -506,14 +507,14 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     if (mode === 'practice') {
       const pool = practicePool();
       if (!pool.length) return;
-      const rng = E.createRng(Date.now());
-      // Com o perfil TRI pronto, a ordem segue o desafio escolhido (começa pelas mais acessíveis).
-      const ids = Dif.pronto() ? Dif.montarLista(pool, pool.length, records(), rng) : E.pickQuestions(pool, pool.length, records(), rng, account().onboarding.level).map(q => q.id);
+      // Lista livre: começa com um lote (pela dificuldade) e ganha o próximo ao chegar no fim.
+      const ids = Livre.primeiroLote(E, pool, records(), account().onboarding.level);
+      const livre = { subjectIds: [...practice.subjectIds], topicIds: [...practice.topicIds], subtopicIds: [...practice.subtopicIds], years: [...practice.years] };
       const f = { subjectId: practice.subjectIds.length === 1 ? practice.subjectIds[0] : null, topicIds: [...practice.topicIds], subtopicIds: [...practice.subtopicIds], years: [...practice.years], count: ids.length };
       const names = practice.topicIds.map(t => E.TOPIC_BY_ID[t]?.name).filter(Boolean);
       const subjects = practice.subjectIds.map(id => E.SUBJECT_BY_ID[id].name);
       const title = names.length === 1 ? names[0] : subjects.length === 1 ? (names.length ? `${subjects[0]} · ${names.length} assuntos` : subjects[0]) : subjects.length > 1 ? `${subjects.length} matérias` : 'Lista livre';
-      onStartPractice(title, ids, 'custom', f);
+      onStartPractice(title, ids, 'custom', f, { livre });
       return;
     }
     const pool = simPool();
