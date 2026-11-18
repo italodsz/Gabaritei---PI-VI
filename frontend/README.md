@@ -58,4 +58,4 @@ O bundle `assets/learning-engine.js` é versionado. Não inclui o banco de quest
 fictícias. As fontes antigas de fixtures permanecem como referência, sem uso no app.
 Os testes completos da API e do motor ficam na raiz: `npm test`.
 
-Fontes e limites da integração: [INTEGRACAO_MAIN.md](../INTEGRACAO_MAIN.md).
+Fontes e limites da integração: [docs/integracao-main.md](../docs/integracao-main.md).

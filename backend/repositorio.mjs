@@ -16,7 +16,7 @@ const letra = (v, nome) => { if (v === null || v === undefined) return null; if 
 const lista = (v, max, nome) => { if (!Array.isArray(v) || v.length > max) throw erro(400, `Lista inválida: ${nome}.`); return v; };
 const ids = (v, max, nome) => lista(v, max, nome).map(i => str(i, 80, nome));
 
-export const LIMITE = { sessoes: 3000, simulados: 500, questoesPorLista: 500, favoritas: 5000, atividades: 500, blocos: 1000, html: 100_000 };
+export const LIMITE = { sessoes: 3000, simulados: 500, questoesPorLista: 3000, favoritas: 5000, atividades: 500, blocos: 1000, html: 100_000 };
 
 /* ------------------------------ usuários ------------------------------ */
 export function repositorio(db) {

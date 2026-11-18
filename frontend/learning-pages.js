@@ -80,7 +80,8 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     onHome: () => navigate('plano'),
     onHistory: () => navigate('historico'),
     saveToNotes: (ref, el) => saveToNotes(ref, el),
-    nextRecommended: current => (current.sobMedida ? SobMedida.proxima(current, { E, records: records() }) : recommendationQueue({ exclude: new Set(current.questionIds), offset: current.questionIds.length })[0] ?? null),
+    // Toda prática contínua segue o recomendador da prática sob medida (titulo_area + dificuldade).
+    nextRecommended: current => SobMedida.proxima(current, { E, records: records() }),
     reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.selectPracticeQuestions({ ...E.EMPTY_FILTERS, topicIds: [topicId], count: account.study.defaultQuestionCount }, records(), E.freshSeed(), account.onboarding.level); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
   });
   /** Desafio de acertos: tela própria, sem pausa nem retomada. */
@@ -199,87 +200,14 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     return created;
   }
   /* ---------------------------------------------------------------- */
-  /* Praticar · Recomendações para você (regras locais de demonstração) */
-  /* ---------------------------------------------------------------- */
-  const DAY = 86400000;
-  const RECO_TITLE = 'Recomendações para você';
-  /**
-   * Fila de recomendações montada só com dados locais. Cada fonte tem uma
-   * prioridade; a fila intercala as fontes (uma de cada, em ordem) para a
-   * prática não virar um bloco só de erros ou só de um assunto.
-   *  1. marcadas para revisar  2. erradas da última vez  3. pendentes em listas abertas
-   *  4. assuntos com dificuldade/sem contato  5. revisão espaçada (acertou há 14+ dias)
-   *  6. inéditas das matérias que você apontou como difíceis (depois, de qualquer matéria)
-   */
-  function recommendationSources({ exclude = new Set() } = {}) {
-    const now = Date.now();
-    const rs = records();
-    const latest = new Map();
-    rs.slice().sort((a, b) => b.answeredAt - a.answeredAt).forEach(r => { if (!latest.has(r.questionId)) latest.set(r.questionId, r); });
-    const recent = id => { const r = latest.get(id); return r && now - r.answeredAt < 10 * 60000; };
-    const exists = id => !!E.questionRepository.getById(id);
-    const ok = id => exists(id) && !exclude.has(id) && !recent(id);
-    const seen = new Set(latest.keys());
-    const marked = account.reviewMarks.filter(ok).map(id => ({ id, reason: 'Você marcou para revisar', source: 'marcadas' }));
-    const wrong = [...latest.values()].filter(r => !r.correct && ok(r.questionId)).map(r => ({ id: r.questionId, reason: 'Você errou da última vez', source: 'erradas' }));
-    const pending = account.practiceSessions.filter(x => x.status === 'in_progress' && !x.continuous)
-      .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
-      .flatMap(x => x.questionIds.filter(id => !x.answers[id]?.confirmed && ok(id)).map(id => ({ id, reason: `Ficou pendente em “${x.title}”`, source: 'pendentes' })));
-    const topics = recs(6).flatMap(r => {
-      const t = E.TOPIC_BY_ID[r.topicId];
-      const label = r.kind === 'revisao' ? `Hora de revisar ${t?.name ?? 'este assunto'}` : r.kind === 'desempenho' ? `Reforço em ${t?.name ?? 'um assunto difícil'}` : r.kind === 'dificuldade' ? `Matéria que você marcou como difícil` : `Assunto novo: ${t?.name ?? ''}`;
-      const pool = E.questionRepository.query({ topicIds: [r.topicId] }).filter(q => ok(q.id));
-      const fresh = pool.filter(q => !seen.has(q.id));
-      return Dif.porAdequacao(fresh.length ? fresh : pool).slice(0, 2).map(q => ({ id: q.id, reason: label, source: 'dificuldade' }));
-    });
-    const spaced = [...latest.values()].filter(r => r.correct && now - r.answeredAt > 14 * DAY && ok(r.questionId))
-      .sort((a, b) => a.answeredAt - b.answeredAt).map(r => ({ id: r.questionId, reason: `Revisão espaçada: acertou há ${Math.floor((now - r.answeredAt) / DAY)} dias`, source: 'revisao' }));
-    const hard = new Set(account.onboarding.difficultSubjects || []);
-    // ordem pela adequação ao desafio; a ordenação estável mantém as matérias difíceis na frente
-    const unseen = Dif.porAdequacao(E.questionRepository.query({}).filter(q => !seen.has(q.id) && ok(q.id)))
-      .sort((a, b) => (hard.has(b.subjectId) ? 1 : 0) - (hard.has(a.subjectId) ? 1 : 0))
-      .map(q => ({ id: q.id, reason: hard.has(q.subjectId) ? 'Inédita de uma matéria que pede atenção' : 'Questão inédita para você', source: 'ineditas' }));
-    return { marked, wrong, pending, topics, spaced, unseen };
-  }
-  function recommendationQueue(options = {}) {
-    const src = recommendationSources(options);
-    // `offset` gira a ordem das fontes: na prática contínua, cada nova questão vem da próxima fonte.
-    const all = [src.marked, src.wrong, src.pending, src.topics, src.spaced, src.unseen];
-    const k = (options.offset ?? 0) % all.length;
-    const lists = [...all.slice(k), ...all.slice(0, k)].map(l => l.slice());
-    const out = [], used = new Set();
-    while (lists.some(l => l.length)) {
-      for (const l of lists) {
-        while (l.length && used.has(l[0].id)) l.shift();
-        const item = l.shift();
-        if (item) { used.add(item.id); out.push(item); }
-      }
-      if (out.length > 400) break;
-    }
-    return out;
-  }
-  /** Resumo para o hub Praticar: quantas questões vêm de cada fonte e as próximas da fila. */
-  function recommendationOverview() {
-    const src = recommendationSources();
-    const queue = recommendationQueue();
-    const active = account.practiceSessions.filter(x => x.status === 'in_progress' && x.continuous).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
-    const answered = active ? active.questionIds.filter(id => active.answers[id]?.confirmed).length : 0;
-    return {
-      counts: { marcadas: src.marked.length, erradas: src.wrong.length, pendentes: src.pending.length, dificuldade: src.topics.length, revisao: src.spaced.length, ineditas: src.unseen.length },
-      next: queue.slice(0, 4).map(item => { const q = E.questionRepository.getById(item.id); return { ...item, subject: E.SUBJECT_BY_ID[q.subjectId]?.name, topic: E.TOPIC_BY_ID[q.topicId]?.name, areaId: q.areaId }; }),
-      total: queue.length,
-      active: active ? { id: active.id, answered, updatedAt: active.updatedAt } : null,
-    };
-  }
-  /* ---------------------------------------------------------------- */
   /* Prática sob medida: ponto de partida escolhido + recomendação sem fim */
   /* ---------------------------------------------------------------- */
-  const sobMedidaAtiva = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.sobMedida).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+  const sobMedidaAtiva = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.continuous).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
   function sobMedidaOverview() {
     const a = sobMedidaAtiva();
-    const todas = account.practiceSessions.filter(x => x.sobMedida);
+    const todas = account.practiceSessions.filter(x => x.continuous);
     const respondidas = todas.reduce((n, x) => n + x.questionIds.filter(id => x.answers[id]?.confirmed).length, 0);
-    return { respondidas, praticas: todas.length, active: a ? { id: a.id, answered: a.questionIds.filter(id => a.answers[id]?.confirmed).length, rotulo: SobMedida.rotulo(a.sobMedida, E) } : null };
+    return { respondidas, praticas: todas.length, active: a ? { id: a.id, answered: a.questionIds.filter(id => a.answers[id]?.confirmed).length, rotulo: SobMedida.rotulo(a.sobMedida ?? { modo: 'aleatorio' }, E) } : null };
   }
   /** Retoma a prática sob medida aberta; com novo=true (ou sem nenhuma aberta) pede o ponto de partida. */
   function startSobMedida({ novo = false } = {}) {
@@ -296,18 +224,6 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
       openSession(created);
     } });
     return null;
-  }
-  /** Abre a prática contínua: retoma a que estiver aberta ou começa uma nova. */
-  function startRecommended() {
-    const active = account.practiceSessions.filter(x => x.status === 'in_progress' && x.continuous).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
-    if (active) { openSession(active); return active; }
-    const first = recommendationQueue()[0];
-    if (!first) { toast('Nenhuma questão para recomendar agora.'); return null; }
-    const created = { ...E.createPracticeSession({ title: RECO_TITLE, questionIds: [first.id], mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: 1 }, timerVisible: account.study.practiceTimer, now: Date.now() }), continuous: true, reasons: { [first.id]: first.reason } };
-    account.practiceSessions.push(created);
-    save();
-    openSession(created);
-    return created;
   }
   /** Informações de um simulado (para cards, notas e menu lateral). */
   function simulationInfo(id) {
@@ -560,5 +476,5 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   }
   function goalsHTML(goals) { return goals.length?`<div class="personal-goals">${goals.map((p,i)=>{const meta=E.GOAL_META[p.goal.kind];return `<article class="${p.done?'is-done':''}"><div class="goal-ring" style="--goal-progress:${Math.min(1,p.progress)*360}deg" role="img" aria-label="${meta.title}: ${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}"><span>${p.done?icons('check-circle'):p.pendingReason?'—':meta.format(p.current)}</span></div><h3>${meta.title}</h3><p>${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}</p></article>`;}).join('')}</div>`:'<p class="field-hint">Nenhuma meta ativa. Use “Editar metas” para definir seu próximo passo.</p>'; }
   function editGoals() { openDialog(`<span class="dialog-label">SEU RITMO, SUAS METAS</span><h2 id="dialog-title" class="dialog-title">Pequenos passos possíveis.</h2><p class="dialog-description">As metas são recalculadas com base nas suas práticas realizadas aqui.</p><form id="goals-form">${account.goals.map(g=>{const meta=E.GOAL_META[g.kind];return `<div class="goal-editor-row"><label class="goal-enable"><input type="checkbox" name="enabled-${g.kind}" ${g.enabled?'checked':''}><span><strong>${meta.title}</strong><small>${meta.description}</small></span></label><label class="goal-target">Meta em ${meta.unit}<input type="number" name="target-${g.kind}" value="${g.target}" min="${meta.min}" max="${meta.max}" step="${meta.step}" required></label></div>`;}).join('')}<button class="primary-button" type="submit">Salvar metas ${icons('check')}</button></form>`);document.querySelector('#goals-form').onsubmit=event=>{event.preventDefault();const data=new FormData(event.target);account.goals=account.goals.map(g=>({...g,enabled:data.has(`enabled-${g.kind}`),target:Number(data.get(`target-${g.kind}`))}));save();closeDialog();renderPerformance();toast('Metas atualizadas. Um caminho possível para você.');}; }
-  return { mount, startOfficial, startRecommended, startSobMedida, sobMedidaOverview, recommendationOverview, startChallenge: () => challenge.start(), challengeStore: () => challenge.store(), reviewOverview, startReviewMode, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, openById, records, account: () => account, save };
+  return { mount, startOfficial, startSobMedida, sobMedidaOverview, startChallenge: () => challenge.start(), challengeStore: () => challenge.store(), reviewOverview, startReviewMode, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, openById, records, account: () => account, save };
 }

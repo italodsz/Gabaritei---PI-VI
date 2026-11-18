@@ -59,7 +59,7 @@ ela não é apresentada como uma execução do Qwen por usuário.
 - A validação de desenvolvimento do recomendador continua 8/10 para `titulo_area`
   e 41/44 para `rrf_qwen`; não houve nova escolha de modelo, pesos ou filtros.
 
-Captura da resolução de uma lista do recomendador: [demonstração integrada](docs/demonstracao-integrada.png).
+Captura da resolução de uma lista do recomendador: [demonstração integrada](demonstracao-integrada.png).
 
 ## Pendências preservadas
 

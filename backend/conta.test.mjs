@@ -111,7 +111,7 @@ test('estudos: valida o conteúdo antes de gravar e não grava pela metade', asy
   assert.equal((await c.put('/api/eu/estudos', { data: ruim })).status, 400);
   const repetido = conta(); repetido.simulations.push({ ...repetido.simulations[0] });
   assert.equal((await c.put('/api/eu/estudos', { data: repetido })).status, 400);
-  const lixo = conta(); lixo.practiceSessions[0].questionIds = Array.from({ length: 501 }, (_, i) => 'gq_' + i);
+  const lixo = conta(); lixo.practiceSessions[0].questionIds = Array.from({ length: 3001 }, (_, i) => 'gq_' + i);
   assert.equal((await c.put('/api/eu/estudos', { data: lixo })).status, 400);
   assert.deepEqual((await c.get('/api/eu/estudos')).data, antes);
 });
@@ -162,4 +162,16 @@ test('trocar senha encerra as outras sessões; excluir conta apaga tudo', async 
   assert.equal(db.prepare("SELECT COUNT(*) n FROM usuario WHERE email='aluno7@exemplo.com'").get().n, 0);
   assert.equal(db.prepare('SELECT COUNT(*) n FROM atividade_plano').get().n, 0);
   assert.equal((await a.get('/api/eu')).data.usuario, null);
+});
+
+test('lista longa (prática sob medida ou lista livre com mais de 500 respostas) continua sincronizando', async () => {
+  const c = cliente();
+  assert.equal((await c.post('/api/auth/registrar', cadastro(77))).status, 201);
+  const d = conta(), s = d.practiceSessions[0];
+  s.id = 'p-longa'; d.simulations[0].id = 's-longa';
+  s.questionIds = Array.from({ length: 800 }, (_, i) => `gq_${i.toString(16).padStart(6, '0')}`);
+  s.answers = Object.fromEntries(s.questionIds.map(id => [id, { questionId: id, selected: 'A', confirmed: true, correct: true, answeredAt: '2026-11-02T10:05:00.000Z', timeSpentMs: 9000 }]));
+  const r = await c.put('/api/eu/estudos', { data: d });
+  assert.equal(r.status, 200, JSON.stringify(r.data));
+  assert.equal(Object.keys((await c.get('/api/eu/estudos')).data.data.practiceSessions[0].answers).length, 800);
 });

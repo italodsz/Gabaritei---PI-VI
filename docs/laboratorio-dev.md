@@ -4,7 +4,7 @@ Abra **http://127.0.0.1:4173/dev**, com o projeto iniciado por `npm start`.
 O menu do perfil do aplicativo também tem o link **Laboratório do recomendador**.
 É uma tela de desenvolvimento local, separada da prática do estudante.
 
-Captura: [ranking e valores reais](docs/laboratorio-dev.png).
+Captura: [ranking e valores reais](laboratorio-dev.png).
 
 ## Explorar e responder
 

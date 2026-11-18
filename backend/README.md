@@ -3,7 +3,7 @@
 Node.js 22.13+, sem dependências de execução. O banco é SQLite pelo módulo `node:sqlite`
 (arquivo em `backend/dados/gabaritei.db`, ou onde `GABARITEI_DB` apontar; ver [docs/banco-de-dados.md](../docs/banco-de-dados.md)). Inicie pela raiz
 com `npm start`. A API e o front-end ficam no mesmo endereço, `http://127.0.0.1:4173`.
-O servidor escuta somente no computador local.
+O servidor escuta somente no computador local; `HOST=0.0.0.0` publica em todas as interfaces (para hospedar).
 
 Lê o dataset congelado em `Dataset/base_trabalho/` e o catálogo oficial em
 `recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json`.
@@ -11,6 +11,20 @@ Ao iniciar, confere o SHA-256, os IDs e os filtros das sugestões. A API não ca
 os modelos nem muda a ordem do catálogo.
 Os hashes congelados ficam em `acervo.mjs`. Ao publicar outra base ou reexportar
 o catálogo, repita a auditoria e registre ali os novos hashes e commits de origem.
+
+## Arquivos
+
+| Arquivo | Papel |
+|---|---|
+| `server.mjs` | Cria o servidor, aplica a checagem de origem e encaminha para as rotas; serve o front-end |
+| `http.mjs` | Utilidades: resposta JSON, leitura do corpo, inteiros e lista de exclusão |
+| `rotas-questoes.mjs` | Acervo: saúde, bootstrap, busca, questão, sugestões do `titulo_area`, conferir resposta |
+| `rotas-conta.mjs` · `auth.mjs` | Cadastro, login, sessão por cookie, limite de tentativas, dados do usuário |
+| `rotas-dificuldade.mjs` | Recomendador de dificuldade: perfil TRI, eventos, `/api/recomendar`, aprendizado do sistema |
+| `rotas-dev.mjs` · `dev-data.mjs` · `dev-worker.mjs` | Laboratório `/dev` e o diagnóstico ao vivo em Python |
+| `acervo.mjs` | Carrega e confere a base e o catálogo congelados (hashes) |
+| `db.mjs` · `repositorio.mjs` | Banco SQLite, migrações e leitura/gravação dos dados do usuário |
+| `config/dificuldade_v1.json` | Todos os parâmetros do recomendador de dificuldade |
 
 ## Rotas
 
@@ -36,14 +50,14 @@ o catálogo, repita a auditoria e registre ali os novos hashes e commits de orig
 Recomendações por POST recebem `{"exclude":["gq_..."],"limit":10}`. Excluem também
 as famílias dos IDs informados. Lista vazia retorna uma justificativa, sem trocar
 de matéria, título, área ou idioma nem completar com sorteio.
-Correção recebe `{"selected":"A"}` e retorna `correct`, `answer`, `explanation`
-e `persisted:false`. Não há resolução comentada: a mensagem informa essa ausência.
+Correção recebe `{"selected":"A"}` (e, opcionalmente, `tempoMs`, `apoio`, `primeira`, `desafio`) e retorna
+`correct`, `answer`, `explanation` e, com login, `tri` (o que o perfil TRI aprendeu) com `persisted:true`. Não há resolução comentada: a mensagem informa essa ausência.
 
 O bootstrap inclui gabaritos para a correção local dos simulados e da revisão.
 Esta aplicação local de estudos não é um ambiente de provas com sigilo de respostas.
 Sem login, respostas, sessões, favoritas, notas e metas ficam só no navegador. Com login
 (`/api/auth/*`), o front-end envia esses dados para `/api/eu/*` e o servidor os guarda no banco;
-`persisted:false` em `/responder` continua valendo, porque a gravação é feita pelo estado de estudos.
+o histórico de práticas vem pelo estado de estudos; `/responder` grava só o evento do perfil TRI.
 
 As descrições servidas são somente as marcadas `use_for_recommender: true`.
 Os filtros de matéria/título vêm da classificação do recomendador, sem inferir
@@ -54,7 +68,7 @@ real, filtros, ordem do catálogo, exclusões, bloqueios, gabaritos e rotas inv�
 
 ## Laboratório local
 
-`/dev` abre o painel descrito em [DEV_LABORATORIO.md](../DEV_LABORATORIO.md).
+`/dev` abre o painel descrito em [docs/laboratorio-dev.md](../docs/laboratorio-dev.md).
 `GET /api/dev/resumo`, `GET /api/dev/questoes` e `GET /api/dev/questoes/gq_...`
 oferecem estatísticas e inspeção da fonte. `POST /api/dev/diagnostico` recebe
 `{"questionId":"gq_...","limit":20,"exclude":[]}` e consulta o método oficial

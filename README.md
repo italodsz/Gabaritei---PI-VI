@@ -52,17 +52,18 @@ para levar as avaliações dev, use **Exportar sessão** no laboratório.
 
 ## Demonstrar o fluxo
 
-1. Abra **Questões**, escolha uma matéria, assunto e ano e clique em **Começar lista**.
-2. Marque uma alternativa e clique em **Confirmar resposta**. O back-end confere o
-   gabarito oficial. As tabelas e descrições da base aparecem junto do enunciado.
-3. Clique em **Semelhante**: a próxima questão vem do catálogo oficial, na ordem
-   já calculada. Não há sorteio para completar listas de semelhantes.
-4. Em **Questões → Recomendadas → Praticar semelhantes**, abra uma lista a partir
-   da última questão respondida.
-5. Confira **Histórico** e **Progresso**. Recarregue a página e retome a lista.
-   Seus registros ficam apenas neste navegador.
-6. Em **Simulados**, monte um treino por área e ano ou um simulado personalizado.
-   O gabarito aparece ao finalizar; o resultado mostra acertos, sem estimar nota TRI.
+1. **Início → Prática sob medida** (modo padrão): escolha por onde começar (uma questão, um tema
+   ou aleatório). Cada próxima questão é a parecida com a anterior pelo `titulo_area`, com o
+   ajuste do recomendador de dificuldade; o motivo aparece em cima da questão.
+2. Depois de confirmar uma resposta, o card **O que o recomendador aprendeu** mostra a chance que
+   ele previa, o nível (θ) e a nota estimada antes e depois.
+3. **Início → Até onde você chega?**: escada de dificuldade (começa fácil e sobe a cada acerto).
+4. **Questões → Montar lista**: filtros por matéria, assunto e ano; a lista livre carrega de 20 em 20
+   pela dificuldade. **Semelhante** traz a próxima do catálogo oficial.
+5. **Simulados**: por área (formato do dia do ENEM) ou personalizado; o gabarito aparece ao finalizar.
+6. **Entrar ou criar conta** (menu do perfil): o progresso e o perfil TRI passam a ficar no banco.
+7. **/dev → Recomendadores ao vivo**: perfil TRI, linha do tempo do aprendizado, decisões do
+   `titulo_area` + dificuldade e calibração (atualiza sozinho com o app aberto em outra aba).
 
 ## Base e recomendador
 
@@ -81,7 +82,7 @@ oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
 
 ## Desenvolvimento e verificações
 
-O [laboratório dev](DEV_LABORATORIO.md) está em **http://127.0.0.1:4173/dev**:
+O [laboratório dev](docs/laboratorio-dev.md) está em **http://127.0.0.1:4173/dev**:
 responda questões, inspecione escores e filtros, compare sugestões e exporte
 avaliações separadas do progresso do estudante. A inspeção numérica usa Python
 em CPU sobre os vetores existentes; as estatísticas continuam disponíveis sem ele.
@@ -95,6 +96,7 @@ npm ci
 npm run build:engine
 ```
 
-Detalhes e limites: [INTEGRACAO_MAIN.md](INTEGRACAO_MAIN.md),
+Detalhes e limites: [docs/integracao-main.md](docs/integracao-main.md),
 [back-end](backend/README.md), [front-end](frontend/README.md) e
+[revisão do código](docs/revisao-codigo.md) e
 [relatório da base final](recomendador/rrf-tfidf-minilm-J/RELATORIO_BASE_FINAL.md).
