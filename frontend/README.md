@@ -1,14 +1,14 @@
 # Front-end integrado
 
-O front-end da main usa questões oficiais do ENEM fornecidas pelo back-end local.
+O front-end integrado usa questões oficiais do ENEM fornecidas pelo back-end local.
 O visual, a navegação, os simulados, as notas e as telas de histórico e progresso
 foram preservados; o acervo fictício e o histórico demonstrativo não são carregados.
 
 ## Abrir
 
-Requer Node.js 22+. Na raiz: `npm start`; ou, nesta pasta: `npm run dev`.
-Abra http://127.0.0.1:4173. Não é necessário instalar pacotes para executar.
-O servidor atende o front-end e a API no mesmo endereço e somente no computador local.
+Depois de configurar o [ambiente Python](../README.md#rodar-localmente), rode
+`.venv/bin/python -m backend` na raiz e abra http://127.0.0.1:4173.
+O servidor atende o front-end e a API no mesmo endereço.
 
 ## Fluxos conectados
 
@@ -25,6 +25,7 @@ O servidor atende o front-end e a API no mesmo endereço e somente no computador
 - Simulados por área/ano e personalizados usam o mesmo acervo real, mostram a correção
   ao finalizar e calculam os acertos, sem apresentar nota TRI ilustrativa.
 - Enunciados mostram tabelas, negrito e descrições aprovadas com HTML de origem escapado.
+  Figuras são exibidas quando os arquivos foram baixados e conferidos pelo servidor.
 - Não há resolução comentada das questões: o feedback informa o gabarito e essa limitação.
 
 ## Progresso local e conta

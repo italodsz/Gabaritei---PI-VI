@@ -8,6 +8,9 @@ __pycache__/
 *.log
 recomendador/rrf-tfidf-minilm-J/indice/qwen/*__sem_instrucao.npy
 
+# Imagens recuperadas das fontes
+Dataset/base_trabalho/media/*
+
 # Banco de dados local
 backend/dados/
 *.db

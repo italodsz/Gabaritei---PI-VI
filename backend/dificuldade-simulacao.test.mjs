@@ -2,11 +2,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { carregarAcervo } from './acervo.mjs';
+import { carregarAcervo } from './testdata/acervo.mjs';
 import * as T from '../frontend/dificuldade.js';
 
 const cfg = JSON.parse(readFileSync(new URL('./config/dificuldade_v1.json', import.meta.url)));
-const acervo = await carregarAcervo();
+const acervo = carregarAcervo();
 let s = 42; const rnd = () => ((s = (Math.imul(s, 1664525) + 1013904223) >>> 0) / 2 ** 32);
 
 function lista(area, notaReal, { listas = 12, tam = 10, desafio = 'ponto', usar = true } = {}) {
@@ -46,7 +46,7 @@ test('semelhante: a dificuldade muda pouco a posição escolhida na lista do tit
   const refs = acervo.questions.filter(q => q.sourceArea === 'CN' && acervo.catalogo.recomendacoes[q.id].length >= 20).slice(0, 200);
   let soma = 0, mudou = 0;
   for (const r of refs) {
-    const base = acervo.recommendations(r.id, [], 50);
+    const base = acervo.catalogo.recomendacoes[r.id].slice(0, 50);
     const ord = T.ordenarSemelhantes(base, id => { const it = acervo.byId.get(id)?.tri; return it ? T.chance(p, it, cfg) : null; }, 0.75, cfg);
     soma += base.indexOf(ord[0]); mudou += ord[0] !== base[0];
   }

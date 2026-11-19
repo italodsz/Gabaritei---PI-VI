@@ -7,48 +7,44 @@ entrando, ele é guardado no servidor. Detalhes em [docs/banco-de-dados.md](docs
 O recomendador de dificuldade (nota TRI estimada e um toque de dificuldade nas listas) está descrito em
 [docs/recomendador-dificuldade.md](docs/recomendador-dificuldade.md).
 
-## Abrir no Windows
+## Rodar localmente
 
-Requer Node.js 22.13 ou superior (o banco usa o módulo `node:sqlite`, sem pacotes extras). Na raiz do projeto:
+Requer Python 3.12. Para baixar a versão integrada:
 
-```powershell
-npm start
-```
-
-Abra **http://127.0.0.1:4173**. Não é necessário instalar pacotes para executar:
-o servidor usa os módulos do Node e o motor do navegador já está compilado.
-Também funciona `cd frontend` seguido de `npm run dev`.
-Para outra porta: `$env:PORT=4174; npm start`. Para encerrar: Ctrl+C.
-
-## Em outra máquina
-
-Instale Node.js 22 ou superior. Para baixar a versão integrada:
-
-```powershell
-git clone --branch main https://github.com/italodsz/Gabaritei---PI-VI.git
+```sh
+git clone --branch integracao-front https://github.com/italodsz/Gabaritei---PI-VI.git
 cd Gabaritei---PI-VI
-npm start
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m backend
 ```
 
-Se já tiver o repositório, entre na branch `main` e use `git pull --ff-only origin main`.
-Dataset, catálogo, vetores e front-end compilado já estão no GitHub.
-O `.gitattributes` preserva os bytes dos arquivos com hash, inclusive quando o Git
-da outra máquina estiver configurado para converter fins de linha no Windows.
+No Windows, crie o ambiente com `py -3.12 -m venv .venv` e use
+`.venv\Scripts\python.exe` no lugar de `.venv/bin/python`.
 
-Para os **escores ao vivo do laboratório dev**, prepare também Python 3.12, a versão
-usada neste projeto. Na raiz, crie um ambiente separado e instale as dependências:
+Abra **http://127.0.0.1:4173**. A documentação interativa está em **/docs**.
+Para mudar a porta, use a variável `PORT`. Para encerrar, pressione Ctrl+C.
+Os comandos `npm start` na raiz e `npm run dev` em `frontend/` também iniciam o FastAPI
+depois que o ambiente Python estiver pronto.
 
-```powershell
-python -m venv .venv
-.venv\Scripts\python.exe -m pip install -r backend\requirements-dev.txt
-npm run test:dev-model
-npm start
+O SQLite continua em `backend/dados/gabaritei.db` por padrão. O servidor lê o mesmo
+banco da versão Node, com as contas, senhas, sessões e progresso existentes.
+
+## Imagens das questões
+
+O servidor exibe as imagens verificadas que estiverem em `Dataset/base_trabalho/media/`.
+As descrições aprovadas continuam disponíveis mesmo quando uma imagem falta. Para baixar
+as imagens para uso local, com a API parada:
+
+```sh
+.venv/bin/python -m pip install pyarrow
+.venv/bin/python -m backend.baixar_imagens
 ```
 
-No Linux/macOS, use `.venv/bin/python` no comando de instalação. O servidor detecta
-esse ambiente automaticamente. Não precisa de GPU, CUDA ou baixar o Qwen para ler
-os vetores existentes. As notas e o histórico ficam no navegador de cada máquina;
-para levar as avaliações dev, use **Exportar sessão** no laboratório.
+O script consulta as fontes, confere SHA-256 e tamanho, e registra ausências em
+`backend/dados/relatorio-imagens.json`. Se faltar algum arquivo, o script retorna
+código 1. Reinicie o servidor após baixar. As imagens novas ficam fora do Git.
+A base registra revisão de licença pendente para redistribuição pública.
 
 ## Demonstrar o fluxo
 
@@ -75,7 +71,7 @@ para levar as avaliações dev, use **Exportar sessão** no laboratório.
 - Catálogo: até 50 sugestões, mediana 45, 68 listas vazias. Uma questão de Literatura
   pertence oficialmente à prova de CH de 2009 e não tem outra do mesmo título nessa área.
 - O servidor confere o SHA-256 da base e a compatibilidade das sugestões ao iniciar.
-- Para abrir o aplicativo, não é preciso Python, CUDA, baixar modelos ou recalcular vetores.
+- O FastAPI e o laboratório usam os índices já calculados, em CPU.
 
 O histórico fictício do protótipo não entra nesta versão. O progresso com questões
 oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
@@ -85,11 +81,11 @@ oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
 O [laboratório dev](docs/laboratorio-dev.md) está em **http://127.0.0.1:4173/dev**:
 responda questões, inspecione escores e filtros, compare sugestões e exporte
 avaliações separadas do progresso do estudante. A inspeção numérica usa Python
-em CPU sobre os vetores existentes; as estatísticas continuam disponíveis sem ele.
+em CPU sobre os vetores existentes, carregados na primeira consulta de diagnóstico.
 
 ```powershell
-npm test
-npm run test:dev-model    # teste numérico com o ambiente Python do recomendador
+.venv/bin/python -m pytest
+npm test                 # testes do navegador e paridade TRI com JavaScript
 # Somente para alterar os módulos TypeScript do motor:
 cd frontend
 npm ci

@@ -1,7 +1,7 @@
 """Compara diagnósticos aos rankings reais e cobre as receitas oficiais."""
 import unittest
 import numpy as np
-from recomendador_debug import Laboratorio
+from backend.recomendador_debug import Laboratorio
 
 
 class TestDiagnostico(unittest.TestCase):

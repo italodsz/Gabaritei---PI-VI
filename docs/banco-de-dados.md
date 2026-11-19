@@ -1,9 +1,9 @@
 # Banco de dados
 
-SQLite pelo módulo embutido `node:sqlite` (Node 22.13+), sem pacotes extras. O arquivo fica em
-`backend/dados/gabaritei.db` (ignorado pelo Git); `GABARITEI_DB=/caminho/arquivo.db` muda o local e
-`GABARITEI_DB=:memory:` cria um banco descartável. O Node mostra um aviso "ExperimentalWarning: SQLite"
-ao iniciar; é esperado nessa versão do módulo.
+FastAPI acessa o SQLite via SQLAlchemy. O arquivo fica em `backend/dados/gabaritei.db`
+(ignorado pelo Git). `GABARITEI_DB=/caminho/arquivo.db` muda o local e
+`GABARITEI_DB=:memory:` cria um banco descartável. O esquema e o formato das
+senhas e dos tokens continuam compatíveis com o banco criado pelo servidor Node.
 
 O banco guarda **contas e progresso dos alunos**. O acervo de questões e o catálogo do recomendador continuam
 sendo arquivos congelados, conferidos por SHA-256: não vão para o banco.
@@ -55,16 +55,17 @@ publicada**: acrescente uma nova.
 
 ## Backup e limpeza
 
-Com o servidor parado, copie `backend/dados/gabaritei.db` (e os arquivos `-wal`/`-shm`, se existirem). Para começar do
-zero, apague a pasta `backend/dados/`.
+Com o servidor parado, copie `backend/dados/gabaritei.db` (e os arquivos `-wal`/`-shm`, se existirem).
+Para usar um banco novo, aponte `GABARITEI_DB` para outro arquivo.
 
 ## Trocar de banco depois
 
-Todo SQL está em `backend/db.mjs` e `backend/repositorio.mjs`. Para MySQL ou PostgreSQL, reimplemente esses dois arquivos
-com o mesmo conjunto de métodos; as rotas, o front-end e os testes (`backend/conta.test.mjs`) não mudam.
+As migrações ficam em `backend/migracoes/`. As consultas de conta, estudos e TRI
+estão em `backend/contas.py`, `backend/repositorio.py` e `backend/dificuldade.py`.
+Uma futura migração para PostgreSQL precisaria adaptar as conexões, as migrações,
+as transações e as consultas específicas do SQLite.
 
 ## Testes
 
-`npm test` inclui `backend/conta.test.mjs`: migrações, cadastro/login/saída, cookie, força bruta, origem, ida e volta exata
-dos estudos (com campos extras), concorrência (409), isolamento entre usuários, plano, notas, limpeza de HTML, troca de
-senha e exclusão de conta.
+`.venv/bin/python -m pytest` cobre migrações, login e leitura de dados legados,
+sincronização com revisão (409), plano, notas, troca de senha e exclusão de conta.

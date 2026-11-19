@@ -109,7 +109,8 @@ Sem login, o mesmo cálculo roda no navegador (`frontend/dificuldade.js`) e o pe
 
 - `frontend/dificuldade.js`: motor (puro, usado pelo navegador e pelo servidor).
 - `frontend/dificuldade-cliente.js`: ligação com as telas.
-- `backend/rotas-dificuldade.mjs`: rotas, perfis e eventos.
+- `backend/dificuldade.py`: rotas, perfis e eventos.
+- `backend/tri.py`: motor NumPy, conferido com `frontend/dificuldade.js`.
 - `backend/config/dificuldade_v1.json`: todos os números. Mudou um número? Crie `dificuldade_v2.json`.
 - `backend/testdata/microdados_2024_amostra.json`: amostra dos microdados do ENEM 2024 (só acertos,
   parâmetros e nota oficial) usada nos testes.

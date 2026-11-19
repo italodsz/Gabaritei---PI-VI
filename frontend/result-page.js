@@ -5,7 +5,7 @@
 // desempenho por área e a nota estimada ILUSTRATIVA (não é TRI).
 import { animate, spring, duration, ease, countTo, collapse, reduced } from './motion-kit.js';
 import { esc, hi, pct, SUBJECT_ICON, tile, cardHeader, card, badge, btn, progress, playBars, rotateChevron } from './legacy-ui.js';
-import { questionTextHTML, descriptionsHTML } from './question-text.js';
+import { questionTextHTML, questionMediaHTML } from './question-text.js';
 import * as Dif from './dificuldade-cliente.js';
 
 const DIFFICULTY = { facil: 'Fácil', media: 'Média', dificil: 'Difícil' };
@@ -116,7 +116,7 @@ function reviewBody(E, session, qid) {
   const topic = E.TOPIC_BY_ID[q.topicId];
   return `<div class="rs-q-body"><div class="rs-q-inner">
     <div class="lg-qmeta"><span class="lg-badge tone-${q.areaId}">${hi(SUBJECT_ICON[q.subjectId] || 'BookOpen')}<span>${esc(subject.name)}</span></span><span class="lg-badge"><span>${esc(topic?.name ?? '')}</span></span><span class="lg-badge tone-outline is-sm lg-push"><span>ENEM ${q.year}</span></span><span class="lg-badge tone-outline is-sm"><span>${q.difficultyKnown === false ? 'Dificuldade não informada' : DIFFICULTY[q.difficulty] ?? ''}</span></span></div>
-    <div class="rs-q-text"><div class="qs-prompt">${questionTextHTML(q.prompt)}</div>${descriptionsHTML(q.descriptions)}</div>
+    <div class="rs-q-text"><div class="qs-prompt">${questionTextHTML(q.prompt)}</div>${questionMediaHTML(q)}</div>
     <ul class="rs-alts">${q.alternatives.map(alt => { const correct = alt.letter === q.correct; const mine = a?.confirmed && a.selected === alt.letter; return `<li class="${correct ? 'is-correct' : mine ? 'is-wrong' : 'is-dim'}"><span>${correct ? hi('Check') : mine ? hi('X') : alt.letter}</span><p>${esc(alt.text)}</p>${correct ? `<em>${mine ? 'Sua resposta · correta' : 'Correta'}</em>` : mine ? '<em>Sua resposta</em>' : ''}</li>`; }).join('')}</ul>
     <div class="rs-explain"><p>Gabarito oficial</p>${esc(q.explanation)}</div>
   </div></div>`;

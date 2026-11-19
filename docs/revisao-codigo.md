@@ -1,5 +1,8 @@
 # Revisão do código — 18/11/2026
 
+Este documento registra o estado anterior à migração. O servidor atual está
+documentado em [backend/README.md](../backend/README.md).
+
 Revisão da branch `integracao-front`, com foco em organização e correção: backend (Node), front-end
 e os dois recomendadores no app. Inclui a avaliação de trocar o backend por FastAPI.
 

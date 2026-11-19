@@ -15,6 +15,7 @@
 import { animate, spring, reduced, countTo } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
 import { conferirResposta } from './acervo-api.js';
+import { questionTextHTML, questionMediaHTML } from './question-text.js';
 import * as Dif from './dificuldade-cliente.js';
 
 export const CHALLENGE_LIMIT_MS = 220000; // 03:40
@@ -392,7 +393,7 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
     const n = run.items.length + 1;
     return `<article class="qs-card ch-card" id="ch-article">
       <div class="qs-meta"><span class="qs-num">${n}.</span><span class="qs-badge is-area" style="--area-ink:var(--${q.areaId}-ink);--area-bg:var(--${q.areaId}-bg)">${esc(subject?.name)}</span><span class="qs-badge">${esc(topic?.name ?? '')}</span><span class="qs-badge is-outline is-sm qs-push">ENEM ${q.year}${q.sourcePosition ? ` · questão ${q.sourcePosition}` : ''}</span></div>
-      <div class="qs-gap"><div class="qs-text">${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}${q.support.credit ? `<p class="qs-credit">${esc(q.support.credit)}</p>` : ''}</div>` : ''}${q.image ? `<figure class="qs-figure"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}"></figure>` : ''}<p class="qs-prompt">${esc(q.prompt)}</p></div></div>
+      <div class="qs-gap"><div class="qs-text">${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}${q.support.credit ? `<p class="qs-credit">${esc(q.support.credit)}</p>` : ''}</div>` : ''}${q.image ? `<figure class="qs-figure"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}"></figure>` : ''}<div class="qs-prompt">${questionTextHTML(q.prompt)}</div>${questionMediaHTML(q)}</div></div>
       <div class="qs-alts" role="radiogroup" aria-label="Alternativas">${q.alternatives.map(a => `<button type="button" class="qs-alt" role="radio" aria-checked="false" data-state="idle" data-letter="${a.letter}"><span class="qs-alt-letter"><span class="qs-alt-glyph">${a.letter}</span></span><span class="qs-alt-text">${esc(a.text)}</span></button>`).join('')}</div>
     </article>`;
   }

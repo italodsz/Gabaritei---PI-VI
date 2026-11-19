@@ -193,7 +193,7 @@ export function createExamScreen({ E, hi, toast, getAccount, save, onExit, onFin
         ${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}${q.support.credit ? `<p class="qs-credit">${esc(q.support.credit)}</p>` : ''}</div>` : ''}
         ${q.image ? `<figure class="qs-figure"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}">${q.image.caption ? `<figcaption>${esc(q.image.caption)}</figcaption>` : ''}</figure>` : ''}
         <div class="qs-prompt">${questionTextHTML(q.prompt)}</div>
-        ${descriptionsHTML(q.descriptions)}
+        ${questionMediaHTML(q)}
       </div>
       <div class="ex-alts" role="radiogroup" aria-label="Alternativas">${q.alternatives.map(alt => `<button type="button" class="ex-alt ${a?.selected === alt.letter ? 'is-selected' : ''}" role="radio" aria-checked="${a?.selected === alt.letter}" data-letter="${alt.letter}" ${running() ? '' : 'disabled'}><span class="ex-alt-letter">${alt.letter}</span><span class="ex-alt-text">${esc(alt.text)}</span></button>`).join('')}</div>
     </article>`;
@@ -390,4 +390,4 @@ export function createExamScreen({ E, hi, toast, getAccount, save, onExit, onFin
 
   return { open, isOpen: () => !root.hidden };
 }
-import { questionTextHTML, descriptionsHTML } from './question-text.js';
+import { questionTextHTML, questionMediaHTML } from './question-text.js';

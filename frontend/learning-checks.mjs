@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import * as E from './assets/learning-engine.js';
-import { carregarAcervo } from '../backend/acervo.mjs';
+import { carregarAcervo } from '../backend/testdata/acervo.mjs';
 
-const acervo = await carregarAcervo();
+const acervo = carregarAcervo();
 E.installTaxonomy(acervo.bootstrap.subjects, acervo.bootstrap.years);
 E.installQuestions(acervo.questions);
 

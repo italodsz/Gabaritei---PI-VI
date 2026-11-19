@@ -1,37 +1,33 @@
 # Back-end local
 
-Node.js 22.13+, sem dependências de execução. O banco é SQLite pelo módulo `node:sqlite`
-(arquivo em `backend/dados/gabaritei.db`, ou onde `GABARITEI_DB` apontar; ver [docs/banco-de-dados.md](../docs/banco-de-dados.md)). Inicie pela raiz
-com `npm start`. A API e o front-end ficam no mesmo endereço, `http://127.0.0.1:4173`.
-O servidor escuta somente no computador local; `HOST=0.0.0.0` publica em todas as interfaces (para hospedar).
+FastAPI em Python 3.12, com SQLite via SQLAlchemy. Depois de configurar o
+[ambiente](../README.md#rodar-localmente), inicie com `.venv/bin/python -m backend`.
+O front-end e a API ficam em `http://127.0.0.1:4173` por padrão. A documentação
+interativa da API fica em `/docs`. A variável `GABARITEI_DB` muda o caminho do banco.
 
-Lê o dataset congelado em `Dataset/base_trabalho/` e o catálogo oficial em
-`recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json`.
-Ao iniciar, confere o SHA-256, os IDs e os filtros das sugestões. A API não carrega
-os modelos nem muda a ordem do catálogo.
-Os hashes congelados ficam em `acervo.mjs`. Ao publicar outra base ou reexportar
-o catálogo, repita a auditoria e registre ali os novos hashes e commits de origem.
+O servidor confere o SHA-256, os IDs e os filtros da base e do catálogo em
+`recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json` ao iniciar.
+Os hashes congelados ficam em `acervo.py`.
 
 ## Arquivos
 
 | Arquivo | Papel |
 |---|---|
-| `server.mjs` | Cria o servidor, aplica a checagem de origem e encaminha para as rotas; serve o front-end |
-| `http.mjs` | Utilidades: resposta JSON, leitura do corpo, inteiros e lista de exclusão |
-| `rotas-questoes.mjs` | Acervo: saúde, bootstrap, busca, questão, sugestões do `titulo_area`, conferir resposta |
-| `rotas-conta.mjs` · `auth.mjs` | Cadastro, login, sessão por cookie, limite de tentativas, dados do usuário |
-| `rotas-dificuldade.mjs` | Recomendador de dificuldade: perfil TRI, eventos, `/api/recomendar`, aprendizado do sistema |
-| `rotas-dev.mjs` · `dev-data.mjs` · `dev-worker.mjs` | Laboratório `/dev` e o diagnóstico ao vivo em Python |
-| `acervo.mjs` | Carrega e confere a base e o catálogo congelados (hashes) |
-| `db.mjs` · `repositorio.mjs` | Banco SQLite, migrações e leitura/gravação dos dados do usuário |
-| `config/dificuldade_v1.json` | Todos os parâmetros do recomendador de dificuldade |
+| `app.py` · `common.py` | API, arquivos do front-end e checagem de origem |
+| `acervo.py` · `media.py` | Base, catálogo e imagens conferidas por hash |
+| `contas.py` · `auth.py` | Cadastro, sessão, dados pessoais e senhas |
+| `db.py` · `repositorio.py` | Migrações SQLite e dados de estudos, plano e notas |
+| `dificuldade.py` · `tri.py` | Perfis TRI, eventos e recomendação adaptativa |
+| `config/dificuldade_v1.json` | Parâmetros comuns ao servidor e ao navegador |
+| `dev.py` · `recomendador_debug.py` | Estatísticas do catálogo e diagnóstico com os índices oficiais |
 
 ## Rotas
 
 | Método | Caminho | Resultado |
 |---|---|---|
 | GET | `/api/health` | Estado, origem, contagens, SHA-256 e `database: "sqlite"` |
-| GET | `/api/bootstrap` | Questões liberadas, matérias, títulos, assuntos e anos para as telas |
+| GET | `/api/bootstrap` | Questões liberadas, imagens verificadas, matérias, títulos, assuntos e anos |
+| GET | `/media/{nome}` | Imagem conhecida e verificada, quando disponível localmente |
 | GET | `/api/questoes` | Busca paginada; parâmetros `area`, `materia`, `ano`, `busca`, `inicio`, `limite` |
 | GET | `/api/questoes/gq_...` | Uma questão liberada; 422 se bloqueada |
 | GET/POST | `/api/questoes/gq_.../recomendacoes` | IDs e questões na ordem oficial; até 50 |
@@ -63,19 +59,15 @@ As descrições servidas são somente as marcadas `use_for_recommender: true`.
 Os filtros de matéria/título vêm da classificação do recomendador, sem inferir
 assuntos com base no gabarito ou em rótulos automáticos do dataset.
 
-Testes: `npm test` na raiz. O teste HTTP usa uma porta temporária e verifica a base
-real, filtros, ordem do catálogo, exclusões, bloqueios, gabaritos e rotas inválidas.
+Testes da API: `.venv/bin/python -m pytest` na raiz. A paridade do motor TRI
+com JavaScript e os testes do front-end rodam com `npm test`.
 
 ## Laboratório local
 
 `/dev` abre o painel descrito em [docs/laboratorio-dev.md](../docs/laboratorio-dev.md).
 `GET /api/dev/resumo`, `GET /api/dev/questoes` e `GET /api/dev/questoes/gq_...`
-oferecem estatísticas e inspeção da fonte. `POST /api/dev/diagnostico` recebe
+oferecem estatísticas e inspeção da fonte. `GET /api/dev/dificuldade` traz a
+calibração TRI. `POST /api/dev/diagnostico` recebe
 `{"questionId":"gq_...","limit":20,"exclude":[]}` e consulta o método oficial
-com galeria de treino, por um processo Python iniciado sob demanda. O limite é 50;
-os IDs reservados de teste são recusados. Não aceita pesos nem modelos alternativos.
-
-O Python reutiliza os índices, sem CUDA. Configure `GABARITEI_PYTHON` se o ambiente
-existente não for localizado. Falhas são explícitas (503); o app por catálogo e as
-estatísticas não dependem da disponibilidade desse diagnóstico. O processo é
-encerrado com o servidor. Teste numérico: `npm run test:dev-model`.
+com galeria de treino diretamente em Python. O limite é 50 e a partição de
+teste de 2024 fica reservada. Os índices são carregados na primeira consulta.

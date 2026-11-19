@@ -1,5 +1,4 @@
-"""Diagnóstico somente de leitura dos índices existentes. Protocolo JSON por linha."""
-import contextlib
+"""Diagnóstico somente de leitura dos índices existentes."""
 import json
 import sys
 import time
@@ -8,12 +7,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / 'recomendador/rrf-tfidf-minilm-J'
 sys.path.insert(0, str(ROOT))
 
-with contextlib.redirect_stdout(sys.stderr):
-    import numpy as np
-    from threadpoolctl import threadpool_limits
-    import recomendador as rc
-    import pipeline_baseline as bl
-    THREADS = threadpool_limits(limits=2)
+import numpy as np
+from threadpoolctl import threadpool_limits
+import recomendador as rc
+import pipeline_baseline as bl
+
+THREADS = threadpool_limits(limits=2)
 
 
 class IndiceObservado(rc.Indice):
@@ -124,22 +123,3 @@ class Laboratorio:
                 'indexLoadMs': self.load_ms, 'durationMs': (time.perf_counter()-start)*1000,
                 'baseSha256': ix.conf['base_sha256'], 'qwenSha256': rc.QWEN_SHA256,
                 'note': 'Diagnóstico ao vivo sobre os vetores existentes, sem gerar embeddings. A galeria é só o treino; o catálogo do app usa todos os elegíveis. RRF não é probabilidade. Acerto/erro não altera a receita.'}
-
-
-def main():
-    with contextlib.redirect_stdout(sys.stderr):
-        lab = Laboratorio()
-    print(json.dumps({'event': 'ready', 'loadMs': lab.load_ms}), flush=True)
-    for line in sys.stdin:
-        request = {}
-        try:
-            request = json.loads(line)
-            with contextlib.redirect_stdout(sys.stderr):
-                result = lab.diagnostico(request['questionId'], request.get('limit', 20), request.get('exclude', []))
-            response = {'id': request['id'], 'ok': True, 'result': result}
-        except Exception as error:
-            response = {'id': request.get('id'), 'ok': False, 'error': str(error)}
-        print(json.dumps(response, ensure_ascii=False, allow_nan=False), flush=True)
-
-
-if __name__ == '__main__': main()

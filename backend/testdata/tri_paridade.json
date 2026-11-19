@@ -1,0 +1,62 @@
+{
+  "agoraMs": 1795100000000,
+  "dias": 90,
+  "item": {
+    "a": 1.7,
+    "b": 0.65,
+    "c": 0.18
+  },
+  "respostas": [
+    true,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true
+  ],
+  "candidatos": [
+    {
+      "id": "a",
+      "p": 0.8,
+      "estado": "inedita"
+    },
+    {
+      "id": "b",
+      "p": 0.7,
+      "estado": "inedita",
+      "alerta": true
+    },
+    {
+      "id": "c",
+      "p": 0.75,
+      "estado": "revisao"
+    },
+    {
+      "id": "d",
+      "p": null,
+      "estado": "inedita"
+    },
+    {
+      "id": "e",
+      "p": 0.84,
+      "estado": "inedita"
+    },
+    {
+      "id": "f",
+      "p": 0.62,
+      "estado": "errou"
+    }
+  ]
+}

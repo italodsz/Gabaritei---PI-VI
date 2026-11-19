@@ -7,7 +7,7 @@ import { recomendarQuestao, conferirResposta } from './acervo-api.js';
 import { aprendizadoHTML } from './aprendizado-ui.js';
 import * as Livre from './lista-livre.js';
 import * as Dif from './dificuldade-cliente.js';
-import { questionTextHTML, descriptionsHTML } from './question-text.js';
+import { questionTextHTML, questionMediaHTML } from './question-text.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pct = value => `${Math.round((value || 0) * 100)}%`;
@@ -295,7 +295,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       ${q.support ? `<div class="qs-support">${q.support.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}${q.support.credit ? `<p class="qs-credit">${esc(q.support.credit)}</p>` : ''}</div>` : ''}
       ${q.image ? `<figure class="qs-figure"><button type="button" class="qs-figure-btn" id="qs-zoom" aria-label="Ampliar imagem: ${esc(q.image.alt)}"><img src="${esc(q.image.src)}" alt="${esc(q.image.alt)}" width="${q.image.width}" height="${q.image.height}"><span class="qs-figure-hint">${icons('expand')}Ampliar</span></button>${q.image.caption ? `<figcaption>${esc(q.image.caption)}</figcaption>` : ''}</figure>` : ''}
       <div class="qs-prompt">${questionTextHTML(q.prompt)}</div>
-      ${descriptionsHTML(q.descriptions)}
+      ${questionMediaHTML(q)}
     </div>`;
   }
 
@@ -906,7 +906,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       const st = statusOf(id);
       const chip = { acertou: 'Acertou', errou: 'Errou', marcada: 'Em branco', pendente: 'Em branco' }[st];
       return `<details class="focus-review is-${st}"><summary><span class="focus-review-number">${i + 1}</span><span class="focus-review-title"><strong>${esc(E.TOPIC_BY_ID[q.topicId]?.name ?? '')}</strong><small>${esc(E.SUBJECT_BY_ID[q.subjectId].name)}</small></span><span class="focus-chip is-${st}">${chip}</span>${icons('chevron')}</summary>
-        <div class="focus-review-body"><p class="focus-review-prompt">${esc(q.prompt)}</p>
+        <div class="focus-review-body"><div class="focus-review-prompt">${questionTextHTML(q.prompt)}</div>${questionMediaHTML(q)}
         <ul>${q.alternatives.map(alt => `<li class="${alt.letter === q.correct ? 'is-correct' : a?.confirmed && a.selected === alt.letter ? 'is-wrong' : ''}"><span>${alt.letter}</span>${esc(alt.text)}</li>`).join('')}</ul>
         <p class="focus-review-answer">${a?.confirmed ? `Sua resposta: <strong>${a.selected}</strong> · Gabarito: <strong>${q.correct}</strong>` : `Não respondida · Gabarito: <strong>${q.correct}</strong>`}</p>
         <p>${esc(q.explanation)}</p></div></details>`;

@@ -273,6 +273,9 @@
 .qs-source-description { margin: 1.25rem 0; padding: 1rem 1.25rem; border: 1px solid #d4d8d0; border-radius: 12px; background: #f5f6f1; line-height: 1.65; }
 .qs-source-description strong { font-size: .8rem; color: #4b5548; }
 .qs-source-description p { margin: .5rem 0 0; }
+.qs-source-image { margin: 1rem 0; }
+.qs-source-image a { display: block; cursor: zoom-in; }
+.qs-source-image img { display: block; width: auto; max-width: 100%; height: auto; margin-inline: auto; }
 .qs-prompt { font-weight: 400; white-space: normal; }
 .qs-prompt > p { margin: 0 0 1em; }
 .qs-table-wrap { width: 100%; overflow-x: auto; margin: 1.25rem 0; }

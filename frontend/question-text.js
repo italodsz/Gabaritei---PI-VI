@@ -27,3 +27,13 @@ export function questionTextHTML(value) {
 export function descriptionsHTML(descriptions = []) {
   return descriptions.map(d => `<div class="qs-source-description"><strong>Descrição fornecida na base</strong>${questionTextHTML(d)}</div>`).join('');
 }
+
+export function questionMediaHTML({ images = [], descriptions = [] }) {
+  const figures = images.filter(({ src, width, height }) =>
+    /^\/media\/[a-f0-9]{64}\.(?:png|jpg|bmp)$/.test(src) && Number.isInteger(width) && width > 0
+    && Number.isInteger(height) && height > 0);
+  return figures.map(({ src, width, height }, index) => {
+    const alt = figures.length === 1 ? 'Imagem da questão' : `Imagem ${index + 1} da questão`;
+    return `<figure class="qs-figure qs-source-image"><a href="${src}" target="_blank" rel="noopener" aria-label="Abrir ${alt.toLowerCase()}"><img src="${src}" width="${width}" height="${height}" alt="${alt}" loading="lazy" decoding="async"></a></figure>`;
+  }).join('') + descriptionsHTML(descriptions);
+}

@@ -1,6 +1,6 @@
 # Laboratório do recomendador
 
-Abra **http://127.0.0.1:4173/dev**, com o projeto iniciado por `npm start`.
+Abra **http://127.0.0.1:4173/dev**, com o projeto iniciado por `.venv/bin/python -m backend`.
 O menu do perfil do aplicativo também tem o link **Laboratório do recomendador**.
 É uma tela de desenvolvimento local, separada da prática do estudante.
 
@@ -23,8 +23,8 @@ Acertar ou errar **não muda a receita**: o recomendador atual busca semelhantes
 A consulta chama o próprio `Indice.ranking(..., 'titulo_area', 'treino')` e observa
 `_ordem_por_area`. Não altera filtros, pesos, vetores ou rótulos. Usa os arquivos
 TF-IDF, MiniLM e Qwen existentes em CPU; não carrega o modelo, não baixa pesos e
-não gera novos embeddings. O processo Python é aberto somente ao pedir escores
-e reutiliza os índices e sinais nas consultas seguintes.
+não gera novos embeddings. O FastAPI carrega os índices na primeira consulta
+de escores e os reutiliza nas consultas seguintes.
 
 Cada sugestão mostra os produtos escalares reais de TF-IDF, Qwen e MiniLM,
 suas posições por sinal, o escore RRF, a posição no catálogo publicado e, quando
@@ -83,35 +83,16 @@ uma avaliação ou leitura dos pacotes refeita agora. A amostra humana de 100 e 
 
 ## Ambiente e verificações
 
-Para estatísticas, leitura e resposta, basta Node.js 22+. Para escores, é preciso
-Python com numpy, scipy, scikit-learn, joblib e threadpoolctl. O servidor procura
-o ambiente `.venv` do projeto e o ambiente existente do recomendador no clone local.
-Em outra máquina, com Python 3.12, crie `.venv` na raiz e instale as versões do
-ambiente numérico registradas em `backend/requirements-dev.txt`:
+O FastAPI carrega os índices de forma direta na primeira consulta de diagnóstico.
+Use o mesmo ambiente Python do aplicativo, com as versões de `requirements.txt`.
+As estatísticas e a leitura de questões continuam disponíveis se os índices
+do diagnóstico não carregarem. A consulta dos vetores funciona em CPU.
 
-```powershell
-python -m venv .venv
-.venv\Scripts\python.exe -m pip install -r backend\requirements-dev.txt
+```sh
+.venv/bin/python -m pytest backend/test_recomendador_debug.py tests/test_dev_api.py
+npm test
 ```
 
-Em Linux/macOS, use `.venv/bin/python` no segundo comando. A instalação é apenas
-para o diagnóstico por vetores; o restante do aplicativo continua usando Node.js.
-Também é possível indicar o executável explicitamente antes de iniciar:
-
-```powershell
-$env:GABARITEI_PYTHON = 'C:\caminho\do\ambiente\Scripts\python.exe'
-npm start
-```
-
-Se o ambiente faltar, o painel informa a falha e mantém o resto disponível,
-sem inventar valores ou trocar de modelo. Não exige torch, bitsandbytes ou CUDA
-para consultar os vetores já calculados.
-
-```powershell
-npm test                 # API, sessão dev e motor do app
-npm run test:dev-model   # Python real: cinco receitas/prioridades + API HTTP completa
-```
-
-Os testes numéricos conferem os IDs, a ordem, os escores e suas somas para Matemática,
-Literatura, Filosofia, Tecnologias e Física, além de exclusões, listas vazias e recusa
-do teste reservado. O teste HTTP atravessa Node → Python → índices, sem simular escores.
+Os testes conferem IDs, ordem, escores e a contribuição dos critérios para
+Matemática, Literatura, Filosofia, Tecnologias e Física, além de exclusões,
+listas vazias e recusa do teste reservado. A API também é testada com os índices reais.

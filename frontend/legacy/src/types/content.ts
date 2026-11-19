@@ -94,6 +94,7 @@ export interface Question {
   skill: string;
   support?: SupportText;
   image?: QuestionImage;
+  images?: Pick<QuestionImage, "src" | "width" | "height">[];
   /** Comando da questão. */
   prompt: string;
   alternatives: Alternative[];
