@@ -40,6 +40,31 @@ guardados como texto (`gq_...`) sem chave estrangeira, porque o acervo não est�
 Migrações ficam em `backend/db.mjs` (`MIGRACOES`) e rodam ao iniciar, uma única vez cada. **Nunca edite uma migração já
 publicada**: acrescente uma nova.
 
+## Integridade (migração 0003) e MER
+
+A migração `0003_integridade` (20/11/2026) passou para o banco regras que antes só o código
+garantia, sem mudar nomes nem ordem das colunas:
+
+- `perfil_tri.versao_config` e `resposta_evento.versao_config` são chaves estrangeiras para
+  `config_dificuldade` (versões antigas sem registro entram como `sha256 = 'desconhecido'`);
+- campos lógicos aceitam só 0 ou 1; chances e metas ficam entre 0 e 1; tempos não podem ser negativos;
+- em `resposta_evento`, `conta = 1` não tem motivo e `conta = 0` exige um motivo conhecido;
+- em `nota_bloco`, bloco `text` tem `html` e nenhuma referência; bloco `ref` tem tipo e id da referência;
+- área validada também em `perfil_tri_historico`; índices novos para o painel (`resposta_evento(area, conta, apoio)`),
+  para respostas de simulado por questão e para a limpeza de sessões vencidas.
+
+Testes: `tests/test_integridade.py` (dados antigos preservados, chaves conferidas, regras recusando dados inválidos e
+exclusão em cascata).
+
+O modelo entidade-relacionamento está em `docs/mer/`:
+
+| Arquivo | Para quê |
+|---|---|
+| `gabaritei.dbml` | MER completo com descrições e regras; cole em https://dbdiagram.io para o diagrama editável |
+| `gabaritei.mmd` | o mesmo em Mermaid (o GitHub desenha sozinho) |
+| `gabaritei-mer.png` | MER físico completo, com todas as colunas |
+| `gabaritei-visao-geral.png` / `.svg` / `.dot` | visão conceitual por grupo, com as entidades em arquivo |
+
 ## Segurança
 
 - Senha: scrypt (N=16384, r=8, p=1) com sal próprio; mínimo de 8 caracteres.

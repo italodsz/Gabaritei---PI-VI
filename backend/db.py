@@ -11,7 +11,7 @@ from sqlalchemy.pool import QueuePool
 from .common import ROOT
 
 PADRAO = ROOT / "backend/dados/gabaritei.db"
-MIGRACOES = ("0001_inicial", "0002_dificuldade")
+MIGRACOES = ("0001_inicial", "0002_dificuldade", "0003_integridade")
 
 
 def _conexao_sqlite(conexao, _):
