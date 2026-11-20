@@ -1,0 +1,3 @@
+python -B -m experiments.fase_02_finalizar_candidata ../base-oficial/Dataset/base_trabalho
+Nenhuma candidata qualificada. Avaliação de 2024 preservada.
+exit=0

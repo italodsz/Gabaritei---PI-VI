@@ -1,0 +1,42 @@
+[
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/README.md",
+    "sha256": "cf44ac931d8d8ec5f24168ae8e6a063a27b70825736aaec3c2f5c1ec2ac885c5"
+  },
+  {
+    "path": "data/questions.jsonl",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/data/questions.jsonl",
+    "sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f"
+  },
+  {
+    "path": "ids_elegiveis.json",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/ids_elegiveis.json",
+    "sha256": "149542777dcc7ef67f36eada9812a9b8e1513839ffe1674f43a004e8f566aca7"
+  },
+  {
+    "path": "AVISO_INDICES.json",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/AVISO_INDICES.json",
+    "sha256": "3ec69029e327b3e81f7e04930d729e42a22f206992fabef79d1ff6358d661707"
+  },
+  {
+    "path": "splits/train.jsonl",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/splits/train.jsonl",
+    "sha256": "af4527b8f867e54b6a19d8e94a149dccf7a8b5a150e2e4d117a4fc1cbd6a2548"
+  },
+  {
+    "path": "splits/validation.jsonl",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/splits/validation.jsonl",
+    "sha256": "808e2d9d0317f38f78820a64da8557b25ef37a9d25485bc90d29519f85d3dcfe"
+  },
+  {
+    "path": "splits/test.jsonl",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/splits/test.jsonl",
+    "sha256": "63018590d613c46243c798e728803a1fe5029ed2516a71e9ed237fe88d81f55a"
+  },
+  {
+    "path": "qualidade/bloqueios.json",
+    "url": "https://raw.githubusercontent.com/italodsz/Gabaritei---PI-VI/e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d/Dataset/base_trabalho/qualidade/bloqueios.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+]

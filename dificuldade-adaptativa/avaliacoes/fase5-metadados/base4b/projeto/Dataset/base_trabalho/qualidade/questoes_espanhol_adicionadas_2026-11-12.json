@@ -1,0 +1,107 @@
+[
+  {
+    "id": "gq_4651571ec9e0c878b082d3eb",
+    "year": 2018,
+    "position": 2,
+    "co_item": "88480",
+    "answer": "B",
+    "skill": "5",
+    "tri": {
+      "a": 1.16779,
+      "b": 1.53947,
+      "c": 0.11223
+    },
+    "pdf": "2018_PV_impresso_D1_CD1.pdf",
+    "page": 3
+  },
+  {
+    "id": "gq_385c4f4a43337c4d39239b6a",
+    "year": 2018,
+    "position": 5,
+    "co_item": "59531",
+    "answer": "B",
+    "skill": "7",
+    "tri": {
+      "a": 1.17987,
+      "b": 0.18899,
+      "c": 0.05644
+    },
+    "pdf": "2018_PV_impresso_D1_CD1.pdf",
+    "page": 4
+  },
+  {
+    "id": "gq_6f0801b6bdef6ad71d973ceb",
+    "year": 2021,
+    "position": 1,
+    "co_item": "112042",
+    "answer": "C",
+    "skill": "7",
+    "tri": {
+      "a": 2.00076,
+      "b": 0.26863,
+      "c": 0.0789
+    },
+    "pdf": "2021_PV_impresso_D1_CD1.pdf",
+    "page": 4
+  },
+  {
+    "id": "gq_c618140e5bdcc299f173cd8e",
+    "year": 2021,
+    "position": 2,
+    "co_item": "89505",
+    "answer": "A",
+    "skill": "8",
+    "tri": {
+      "a": 1.49099,
+      "b": 1.12765,
+      "c": 0.17633
+    },
+    "pdf": "2021_PV_impresso_D1_CD1.pdf",
+    "page": 4
+  },
+  {
+    "id": "gq_fab61d47affe20a96ffa0245",
+    "year": 2021,
+    "position": 3,
+    "co_item": "117572",
+    "answer": "E",
+    "skill": "5",
+    "tri": {
+      "a": 2.02578,
+      "b": 1.05526,
+      "c": 0.05391
+    },
+    "pdf": "2021_PV_impresso_D1_CD1.pdf",
+    "page": 5
+  },
+  {
+    "id": "gq_1f2023d72c956bb74e795e03",
+    "year": 2021,
+    "position": 4,
+    "co_item": "85244",
+    "answer": "A",
+    "skill": "5",
+    "tri": {
+      "a": 3.01335,
+      "b": 0.18654,
+      "c": 0.26635
+    },
+    "pdf": "2021_PV_impresso_D1_CD1.pdf",
+    "page": 5
+  },
+  {
+    "id": "gq_fc1bce39e7e2a7b36b9015d3",
+    "year": 2021,
+    "position": 5,
+    "co_item": "118223",
+    "answer": "A",
+    "skill": "6",
+    "tri": {
+      "a": 2.81886,
+      "b": -0.37712,
+      "c": 0.19554
+    },
+    "pdf": "2021_PV_impresso_D1_CD1.pdf",
+    "page": 5
+  }
+]

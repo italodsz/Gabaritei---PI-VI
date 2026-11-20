@@ -1,0 +1,136 @@
+[
+  {
+    "query_id": "gq_7806edcd3e09ccfd442a8bec",
+    "candidate_id": "gq_8ae71bcc7f2f0afa936b8b3c",
+    "alteracoes": [
+      {
+        "id": "gq_7806edcd3e09ccfd442a8bec",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_7806edcd3e09ccfd442a8bec",
+    "candidate_id": "gq_dadb4ccd018a54d8c7f38154",
+    "alteracoes": [
+      {
+        "id": "gq_7806edcd3e09ccfd442a8bec",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_7806edcd3e09ccfd442a8bec",
+    "candidate_id": "gq_2e43b65b90c2d47a8e1921b5",
+    "alteracoes": [
+      {
+        "id": "gq_7806edcd3e09ccfd442a8bec",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_7806edcd3e09ccfd442a8bec",
+    "candidate_id": "gq_8e4d06d9db1bcd7e31941247",
+    "alteracoes": [
+      {
+        "id": "gq_7806edcd3e09ccfd442a8bec",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_7806edcd3e09ccfd442a8bec",
+    "candidate_id": "gq_b7fcfb4a7d99554aca25396c",
+    "alteracoes": [
+      {
+        "id": "gq_7806edcd3e09ccfd442a8bec",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_e11e1596cccb599186cb7603",
+    "candidate_id": "gq_f0be4a1450888077db8e04c1",
+    "alteracoes": [
+      {
+        "id": "gq_e11e1596cccb599186cb7603",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_e11e1596cccb599186cb7603",
+    "candidate_id": "gq_0de7ea6073a995c9d9e5df9f",
+    "alteracoes": [
+      {
+        "id": "gq_e11e1596cccb599186cb7603",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_e11e1596cccb599186cb7603",
+    "candidate_id": "gq_c2c7bca230eff020a223f2ab",
+    "alteracoes": [
+      {
+        "id": "gq_e11e1596cccb599186cb7603",
+        "situacao": "texto alterado"
+      },
+      {
+        "id": "gq_c2c7bca230eff020a223f2ab",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_e11e1596cccb599186cb7603",
+    "candidate_id": "gq_c003c6696494c5842daa7073",
+    "alteracoes": [
+      {
+        "id": "gq_e11e1596cccb599186cb7603",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_e11e1596cccb599186cb7603",
+    "candidate_id": "gq_7a4557b4a2405d800f76d050",
+    "alteracoes": [
+      {
+        "id": "gq_e11e1596cccb599186cb7603",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_4726d00495fa709110261749",
+    "candidate_id": "gq_6f9949f8e6c6126d4845cd4d",
+    "alteracoes": [
+      {
+        "id": "gq_4726d00495fa709110261749",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_4726d00495fa709110261749",
+    "candidate_id": "gq_271fbbf7113b24203b6fb9a1",
+    "alteracoes": [
+      {
+        "id": "gq_4726d00495fa709110261749",
+        "situacao": "texto alterado"
+      }
+    ]
+  },
+  {
+    "query_id": "gq_4726d00495fa709110261749",
+    "candidate_id": "gq_b4e490161f2bd6a339155a10",
+    "alteracoes": [
+      {
+        "id": "gq_4726d00495fa709110261749",
+        "situacao": "texto alterado"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "requires_original_pseudonym_key": false,
+  "source_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "status": "aprovado",
+  "steps": [
+    {
+      "command": [
+        "reproduzir_dados.py",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\assistments.csv",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\Gabaritei_BKT04_Repro_Source_Only"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_dados.log",
+      "seconds": 9.418008399999962
+    },
+    {
+      "command": [
+        "reproduzir_treino.py",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\Gabaritei_BKT04_Repro_Source_Only"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_treino.log",
+      "seconds": 9.520039600000018
+    },
+    {
+      "command": [
+        "-m",
+        "bkt04.elegibilidade"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_elegibilidade.log",
+      "seconds": 0.09172480000052019
+    },
+    {
+      "command": [
+        "comparar.py",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\Gabaritei_BKT04_Repro_Source_Only"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_estatistica.log",
+      "seconds": 2.4243696000003183
+    },
+    {
+      "command": [
+        "comparar_politicas.py",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\Gabaritei_BKT04_Repro_Source_Only"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_politicas.log",
+      "seconds": 0.8617871999995259
+    },
+    {
+      "command": [
+        "testar.py"
+      ],
+      "exit_code": 0,
+      "log": "evidence/logs/pipeline_testes.log",
+      "seconds": 3.5617745000008654
+    }
+  ],
+  "utc": "2026-11-11T18:02:42.102609+00:00"
+}

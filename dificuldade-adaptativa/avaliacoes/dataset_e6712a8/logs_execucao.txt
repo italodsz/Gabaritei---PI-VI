@@ -1,0 +1,100 @@
+{
+  "revision": "e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d",
+  "sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "total": 3086,
+  "por_area": {
+    "CH": 780,
+    "CN": 744,
+    "LC": 835,
+    "MT": 727
+  },
+  "elegiveis": {
+    "train": 2382,
+    "validation": 175,
+    "test": 174
+  },
+  "elegiveis_total": 2731,
+  "fora_elegiveis": 355,
+  "tri_completa": 3086,
+  "tri_b_finito": 3086,
+  "sem_habilidade": 195,
+  "sem_assunto_predito": 682,
+  "revisao_pedagogica": {
+    "rule_generated_unreviewed": 2962,
+    "absent": 124
+  },
+  "descricoes": 1152,
+  "questoes_com_descricoes": 759,
+  "descricoes_habilitadas": 629,
+  "questoes_descricoes_habilitadas": 588,
+  "fontes_descricoes": {
+    "candido-ai/enem-ocr": 290,
+    "inep_caderno_ledor_2009": 55,
+    "inep_caderno_ledor_2011": 49,
+    "inep_caderno_ledor_2012": 49,
+    "inep_caderno_ledor_2013": 41,
+    "inep_caderno_ledor_2016": 59,
+    "inep_caderno_ledor_2017": 68,
+    "inep_caderno_ledor_2018": 57,
+    "tardellirs/enem-audiodescricao": 342,
+    "enem.dev/enem-api cross-checked against official INEP caderno": 8,
+    "maritaca-ai/enem": 134
+  },
+  "comparacao_anterior": {
+    "total_anterior": 3086,
+    "adicionadas": 0,
+    "removidas": 0,
+    "alteradas": 626,
+    "campos_alterados": {
+      "descriptions": 624,
+      "quality_review": 626,
+      "question": 427,
+      "ready_text": 168,
+      "options": 4
+    },
+    "elegiveis_antes": 2563,
+    "elegiveis_adicionadas": 168,
+    "elegiveis_removidas": 0,
+    "tri_alterada": 0
+  },
+  "comparacao_base_recomendador_antiga": {
+    "total": 2971,
+    "novos_ids": 124,
+    "ids_removidos": 9
+  },
+  "splits": {
+    "train": {
+      "arquivo_total": 2737,
+      "elegiveis": 2382,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    },
+    "validation": {
+      "arquivo_total": 175,
+      "elegiveis": 175,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    },
+    "test": {
+      "arquivo_total": 174,
+      "elegiveis": 174,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    }
+  },
+  "checks": {
+    "ids_unicos": true,
+    "sha256_igual_aviso": true,
+    "elegiveis_existem": true,
+    "elegiveis_sem_repeticao": true,
+    "opcoes_e_gabaritos": true,
+    "tri_completa_todos": true,
+    "dominio_tri_a_c": true,
+    "splits_coerentes": true
+  },
+  "ids_opcoes_invalidas": [],
+  "ids_tri_invalidos": []
+}

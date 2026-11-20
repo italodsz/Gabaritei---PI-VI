@@ -1,0 +1,135 @@
+{
+  "total": 2971,
+  "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "sha256_catalogo_lf": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "sha256_matriz": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1",
+  "sha256_tabelas_inep": {
+    "ITENS_PROVA_2009.csv": "7d9dde49c641782b12d8a1097a497df673d81f79e86bed1856c0f0f3568c42aa",
+    "ITENS_PROVA_2010.csv": "bf297cad3e15d28979c229827cc6233ab23d593ab17067bc97353441cdbbfa18",
+    "ITENS_PROVA_2011.csv": "17311f673302921c3fc0453c0019eb4c5c46c7adc8070888c1b1a443b3a590f6",
+    "ITENS_PROVA_2012.csv": "8d171b0de7d5766b247d1b5e08bb2afa381c2af3690f8f55e258f2614248a677",
+    "ITENS_PROVA_2013.csv": "87f8353454cb47653c457f41814e5a569d6a7c5e3fda4d1dc8e0ea9d3cf67e58",
+    "ITENS_PROVA_2014.csv": "d584838cc6683c8990b371cf5d94586640609c1606ea62aa32d4b87b842c1f6e",
+    "ITENS_PROVA_2015.csv": "c3c3a9a98d33ffc513c767b373d1f82d2ebd5d6431147c1bb2ba76ba63fbe392",
+    "ITENS_PROVA_2016.csv": "9043f322d31c30c31637ee946f86f50759311c87405f532f9d34c20cc4163406",
+    "ITENS_PROVA_2017.csv": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f",
+    "ITENS_PROVA_2018.csv": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+    "ITENS_PROVA_2019.csv": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
+    "ITENS_PROVA_2020.csv": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
+    "ITENS_PROVA_2021.csv": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
+    "ITENS_PROVA_2022.csv": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
+    "ITENS_PROVA_2023.csv": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+    "ITENS_PROVA_2024.csv": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de"
+  },
+  "documentos_oficiais": 64,
+  "pares_caderno_gabarito": 32,
+  "coincidencias_textuais_com_caderno": 180,
+  "classes": {
+    "CONDICIONAL": 2822,
+    "SO_EXIBICAO": 71,
+    "EXIBICAO_E_ADAPTATIVO": 41,
+    "BLOQUEADA": 37
+  },
+  "prontas_exibicao": 112,
+  "prontas_adaptativo": 41,
+  "novas_prontas_vs_14": 98,
+  "anteriores_mantidas": 14,
+  "itens_revistos_visualmente_nesta_rodada": 8,
+  "recortes_de_apoio_reabertos": 2,
+  "midia_referenciada_ausente": 878,
+  "pendencias_curtas_prioridade_1": 69,
+  "notas": {
+    "0": 0,
+    "1": 0,
+    "2": 48,
+    "3": 2729,
+    "4": 82,
+    "5": 103,
+    "6": 9
+  },
+  "nota_x_decisao": {
+    "0": {},
+    "1": {},
+    "2": {
+      "BLOQUEADA": 21,
+      "CONDICIONAL": 27
+    },
+    "3": {
+      "CONDICIONAL": 2726,
+      "BLOQUEADA": 3
+    },
+    "4": {
+      "CONDICIONAL": 69,
+      "BLOQUEADA": 13
+    },
+    "5": {
+      "SO_EXIBICAO": 63,
+      "EXIBICAO_E_ADAPTATIVO": 40
+    },
+    "6": {
+      "SO_EXIBICAO": 8,
+      "EXIBICAO_E_ADAPTATIVO": 1
+    }
+  },
+  "criterios": {
+    "C1": {
+      "PASSOU": 194,
+      "PENDENTE": 2771,
+      "FALHOU": 6
+    },
+    "C2": {
+      "PASSOU": 2970,
+      "PENDENTE": 0,
+      "FALHOU": 1
+    },
+    "C3": {
+      "PASSOU": 112,
+      "PENDENTE": 2842,
+      "FALHOU": 17
+    },
+    "C4": {
+      "PASSOU": 2924,
+      "PENDENTE": 29,
+      "FALHOU": 18
+    },
+    "C5": {
+      "PASSOU": 9,
+      "PENDENTE": 2961,
+      "FALHOU": 1
+    },
+    "C6": {
+      "PASSOU": 2971,
+      "PENDENTE": 0,
+      "FALHOU": 0
+    }
+  },
+  "prontas_por_area": {
+    "CN": 40,
+    "CH": 33,
+    "LC": 15,
+    "MT": 24
+  },
+  "adaptativo_por_area": {
+    "CH": 32,
+    "CN": 9
+  },
+  "escalas_locais": {
+    "2018/451/CH": 20,
+    "2020/567/CH": 12,
+    "2020/597/CN": 9
+  },
+  "causas_impeditivas": {
+    "C1": {
+      "enunciado ou alternativas essenciais ausentes ou truncados": 6
+    },
+    "C2": {
+      "conflito entre posição/gabarito do registro e o texto localizado no caderno": 1
+    },
+    "C3": {
+      "material indispensável ausente ou incompatível": 17
+    },
+    "C4": {
+      "variante reservada para evitar duplicação": 18
+    }
+  }
+}

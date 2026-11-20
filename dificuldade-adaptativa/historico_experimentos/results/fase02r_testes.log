@@ -1,0 +1,10 @@
+python -B -m unittest discover -s tests -p test_fase_02_revisada.py -v
+test_hybrid_features_ignore_tri_and_skill (test_fase_02_revisada.RevisedPhaseTwoTests.test_hybrid_features_ignore_tri_and_skill) ... ok
+test_ordinal_prediction_and_error_metrics (test_fase_02_revisada.RevisedPhaseTwoTests.test_ordinal_prediction_and_error_metrics) ... ok
+test_paired_interval_same_predictions (test_fase_02_revisada.RevisedPhaseTwoTests.test_paired_interval_same_predictions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.015s
+
+OK
+exit=0

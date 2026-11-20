@@ -1,0 +1,125 @@
+[
+  {
+    "name": "ambiente_sem_dependencias",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\venv\\Scripts\\python.exe",
+      "-c",
+      "import sys,sqlite3,importlib.util,json; print(json.dumps({\"python\":sys.version,\"sqlite\":sqlite3.sqlite_version,\"numpy_disponivel\":importlib.util.find_spec(\"numpy\") is not None,\"scipy_disponivel\":importlib.util.find_spec(\"scipy\") is not None,\"pip_disponivel\":importlib.util.find_spec(\"pip\") is not None}))"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:33.222429+00:00",
+    "seconds": 0.18203280000125233,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/ambiente_sem_dependencias.log"
+  },
+  {
+    "name": "testes_funcionais_limpo",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\venv\\Scripts\\python.exe",
+      "-B",
+      "testar.py",
+      "--groups",
+      "A,D,F",
+      "--out",
+      "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\evidence\\entrega\\funcionais.json"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:33.404972+00:00",
+    "seconds": 1.1119177999989915,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/testes_funcionais_limpo.log"
+  },
+  {
+    "name": "exemplo_enem_limpo",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\venv\\Scripts\\python.exe",
+      "-B",
+      "exemplo_enem.py",
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\exemplo_enem"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:34.517301+00:00",
+    "seconds": 0.24803629999951227,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/exemplo_enem_limpo.log"
+  },
+  {
+    "name": "demo_bkt_externo_limpo",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\venv\\Scripts\\python.exe",
+      "-B",
+      "demo.py",
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\demo_externo"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:34.766597+00:00",
+    "seconds": 0.24512309999954596,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/demo_bkt_externo_limpo.log"
+  },
+  {
+    "name": "testes_sem_dados",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_BKT04_AmbienteLimpo\\Scripts\\python.exe",
+      "-B",
+      "testar.py",
+      "--out",
+      "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\evidence\\entrega\\sem_dados.json"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:35.012811+00:00",
+    "seconds": 1.3519995999995444,
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "log": "evidence/entrega/testes_sem_dados.log"
+  },
+  {
+    "name": "testes_com_dados_reais_preparados",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_BKT04_AmbienteLimpo\\Scripts\\python.exe",
+      "-B",
+      "testar.py",
+      "--out",
+      "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\evidence\\entrega\\com_dados.json"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:36.365411+00:00",
+    "seconds": 3.799305700000332,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/testes_com_dados_reais_preparados.log"
+  },
+  {
+    "name": "testes_candidata_historica",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_BKT04_AmbienteLimpo\\Scripts\\python.exe",
+      "-B",
+      "correcao_adaptativa/teste_offline_bkt_margem/test_catalogo_bkt.py"
+    ],
+    "cwd": "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_Entrega_Final_Validacao\\candidata_historica",
+    "utc": "2026-11-11T19:17:40.185706+00:00",
+    "seconds": 0.6694377999992867,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/testes_candidata_historica.log"
+  },
+  {
+    "name": "deduplicacao_importacao",
+    "command": [
+      "C:\\Users\\Darkz\\AppData\\Local\\Temp\\Gabaritei_BKT04_AmbienteLimpo\\Scripts\\python.exe",
+      "-B",
+      "-c",
+      "import sys; from pathlib import Path; sys.path.insert(0,str(Path(\"vendor/fase02\").resolve())); sys.path.insert(0,str(Path(\"vendor\").resolve())); import bkt.dados; print(\"Loader original e preparação compartilhada importados sem cópia aninhada.\")"
+    ],
+    "cwd": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H",
+    "utc": "2026-11-11T19:17:40.855499+00:00",
+    "seconds": 0.15274259999932838,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "evidence/entrega/deduplicacao_importacao.log"
+  }
+]

@@ -1,0 +1,1635 @@
+{
+  "nll_tolerance": 1e-08,
+  "original_estimator_sha256": "1eb87a6588b58022b8263bd3d5fd4ca0c7d1dd7374639f1fce7493e8dd204415",
+  "parameter_tolerance": 0.0001,
+  "pseudonym_mode": "deterministic_alternative",
+  "rows": [
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 11,
+      "converged": true,
+      "original": {
+        "G": 0.39178383409221307,
+        "L0": 0.3833894566159996,
+        "S": 0.20537148186919674,
+        "T": 0.22471323582617217
+      },
+      "original_log_likelihood": -618.4774669815893,
+      "original_nll": 0.6336859292844153,
+      "reproduced": {
+        "G": 0.39178383409221307,
+        "L0": 0.3833894566159996,
+        "S": 0.20537148186919674,
+        "T": 0.22471323582617217
+      },
+      "reproduced_log_likelihood": -618.4774669815893,
+      "reproduced_nll": 0.6336859292844153,
+      "skill_id": "101",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 19,
+      "converged": true,
+      "original": {
+        "G": 0.10148786010250749,
+        "L0": 0.6986919634949679,
+        "S": 0.19615933839118813,
+        "T": 0.28124167597569705
+      },
+      "original_log_likelihood": -1560.503364751967,
+      "original_nll": 0.5553392757124438,
+      "reproduced": {
+        "G": 0.10148786010250749,
+        "L0": 0.6986919634949679,
+        "S": 0.19615933839118813,
+        "T": 0.28124167597569705
+      },
+      "reproduced_log_likelihood": -1560.503364751967,
+      "reproduced_nll": 0.5553392757124438,
+      "skill_id": "11",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 12,
+      "converged": true,
+      "original": {
+        "G": 0.15057833894714745,
+        "L0": 0.7200858392385447,
+        "S": 0.2757635789934574,
+        "T": 0.03090638725426708
+      },
+      "original_log_likelihood": -654.0634267733578,
+      "original_nll": 0.6443974648013377,
+      "reproduced": {
+        "G": 0.15057833894714745,
+        "L0": 0.7200858392385447,
+        "S": 0.2757635789934574,
+        "T": 0.03090638725426708
+      },
+      "reproduced_log_likelihood": -654.0634267733578,
+      "reproduced_nll": 0.6443974648013377,
+      "skill_id": "13",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 14,
+      "converged": true,
+      "original": {
+        "G": 0.0001,
+        "L0": 0.9311027989521261,
+        "S": 0.1352250675319653,
+        "T": 0.3391113764777409
+      },
+      "original_log_likelihood": -275.0452685023687,
+      "original_nll": 0.47016285214080117,
+      "reproduced": {
+        "G": 0.0001,
+        "L0": 0.9311027989521261,
+        "S": 0.1352250675319653,
+        "T": 0.3391113764777409
+      },
+      "reproduced_log_likelihood": -275.0452685023687,
+      "reproduced_nll": 0.47016285214080117,
+      "skill_id": "16",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 1,
+      "converged": true,
+      "original": {
+        "G": 0.2336625433753676,
+        "L0": 0.6316876535621029,
+        "S": 0.2630809098894035,
+        "T": 0.04634154575499745
+      },
+      "original_log_likelihood": -1578.6832194143415,
+      "original_nll": 0.6329924696929998,
+      "reproduced": {
+        "G": 0.2336625433753676,
+        "L0": 0.6316876535621029,
+        "S": 0.2630809098894035,
+        "T": 0.04634154575499745
+      },
+      "reproduced_log_likelihood": -1578.6832194143415,
+      "reproduced_nll": 0.6329924696929998,
+      "skill_id": "17",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 2,
+      "converged": true,
+      "original": {
+        "G": 0.17617855719199402,
+        "L0": 0.8661150411571433,
+        "S": 0.17151956698312582,
+        "T": 0.11117916595321885
+      },
+      "original_log_likelihood": -2206.382094285669,
+      "original_nll": 0.50814880107915,
+      "reproduced": {
+        "G": 0.17617855719199402,
+        "L0": 0.8661150411571433,
+        "S": 0.17151956698312582,
+        "T": 0.11117916595321885
+      },
+      "reproduced_log_likelihood": -2206.382094285669,
+      "reproduced_nll": 0.50814880107915,
+      "skill_id": "18",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 15,
+      "converged": true,
+      "original": {
+        "G": 0.10543830460952192,
+        "L0": 0.8810854432020228,
+        "S": 0.2178866484763558,
+        "T": 0.07331659809101143
+      },
+      "original_log_likelihood": -607.3762957566978,
+      "original_nll": 0.5801110752212969,
+      "reproduced": {
+        "G": 0.10543830460952192,
+        "L0": 0.8810854432020228,
+        "S": 0.2178866484763558,
+        "T": 0.07331659809101143
+      },
+      "reproduced_log_likelihood": -607.3762957566978,
+      "reproduced_nll": 0.5801110752212969,
+      "skill_id": "25",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 11,
+      "converged": true,
+      "original": {
+        "G": 0.4369731500083916,
+        "L0": 0.6416544851710221,
+        "S": 0.29113706640693715,
+        "T": 0.015844703043856358
+      },
+      "original_log_likelihood": -3065.3538613771752,
+      "original_nll": 0.6488894710789956,
+      "reproduced": {
+        "G": 0.4369731500083916,
+        "L0": 0.6416544851710221,
+        "S": 0.29113706640693715,
+        "T": 0.015844703043856358
+      },
+      "reproduced_log_likelihood": -3065.3538613771752,
+      "reproduced_nll": 0.6488894710789956,
+      "skill_id": "27",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 3,
+      "converged": true,
+      "original": {
+        "G": 0.3780871478853137,
+        "L0": 0.7567914861432167,
+        "S": 0.07721288676084856,
+        "T": 0.10615976822520956
+      },
+      "original_log_likelihood": -634.8718882322471,
+      "original_nll": 0.46957979898834845,
+      "reproduced": {
+        "G": 0.3780871478853137,
+        "L0": 0.7567914861432167,
+        "S": 0.07721288676084856,
+        "T": 0.10615976822520956
+      },
+      "reproduced_log_likelihood": -634.8718882322471,
+      "reproduced_nll": 0.46957979898834845,
+      "skill_id": "276",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 0,
+      "converged": true,
+      "original": {
+        "G": 0.38215130617683163,
+        "L0": 0.6918497944452825,
+        "S": 0.19551690592269305,
+        "T": 0.011451324972252246
+      },
+      "original_log_likelihood": -5324.087564209337,
+      "original_nll": 0.6127388150776081,
+      "reproduced": {
+        "G": 0.38215130617683163,
+        "L0": 0.6918497944452825,
+        "S": 0.19551690592269305,
+        "T": 0.011451324972252246
+      },
+      "reproduced_log_likelihood": -5324.087564209337,
+      "reproduced_nll": 0.6127388150776081,
+      "skill_id": "277",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 15,
+      "converged": true,
+      "original": {
+        "G": 0.13453746682595158,
+        "L0": 0.6733116080271698,
+        "S": 0.1741713121425898,
+        "T": 0.07196826437017426
+      },
+      "original_log_likelihood": -1585.3740270157252,
+      "original_nll": 0.5480034659577343,
+      "reproduced": {
+        "G": 0.13453746682595158,
+        "L0": 0.6733116080271698,
+        "S": 0.1741713121425898,
+        "T": 0.07196826437017426
+      },
+      "reproduced_log_likelihood": -1585.3740270157252,
+      "reproduced_nll": 0.5480034659577343,
+      "skill_id": "278",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 2,
+      "converged": true,
+      "original": {
+        "G": 0.2063605049130983,
+        "L0": 0.8860363377094771,
+        "S": 0.14005789541789448,
+        "T": 0.0776729730538971
+      },
+      "original_log_likelihood": -2216.5183133216487,
+      "original_nll": 0.46139015681133405,
+      "reproduced": {
+        "G": 0.2063605049130983,
+        "L0": 0.8860363377094771,
+        "S": 0.14005789541789448,
+        "T": 0.0776729730538971
+      },
+      "reproduced_log_likelihood": -2216.5183133216487,
+      "reproduced_nll": 0.46139015681133405,
+      "skill_id": "279",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 5,
+      "converged": true,
+      "original": {
+        "G": 0.10886925093017695,
+        "L0": 0.7738360577197712,
+        "S": 0.19809395518447978,
+        "T": 0.08009005921387137
+      },
+      "original_log_likelihood": -4153.591269792579,
+      "original_nll": 0.5362932562676022,
+      "reproduced": {
+        "G": 0.10886925093017695,
+        "L0": 0.7738360577197712,
+        "S": 0.19809395518447978,
+        "T": 0.08009005921387137
+      },
+      "reproduced_log_likelihood": -4153.591269792579,
+      "reproduced_nll": 0.5362932562676022,
+      "skill_id": "280",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 6,
+      "converged": true,
+      "original": {
+        "G": 0.03161377076591673,
+        "L0": 0.6828444933037202,
+        "S": 0.2911020158555067,
+        "T": 0.23591133241582996
+      },
+      "original_log_likelihood": -366.30458019130117,
+      "original_nll": 0.6293893130434728,
+      "reproduced": {
+        "G": 0.03161377076591673,
+        "L0": 0.6828444933037202,
+        "S": 0.2911020158555067,
+        "T": 0.23591133241582996
+      },
+      "reproduced_log_likelihood": -366.30458019130117,
+      "reproduced_nll": 0.6293893130434728,
+      "skill_id": "294",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 19,
+      "converged": true,
+      "original": {
+        "G": 0.09831654505953744,
+        "L0": 0.6684986052265439,
+        "S": 0.297486223399818,
+        "T": 0.33587019382115496
+      },
+      "original_log_likelihood": -452.1397502523423,
+      "original_nll": 0.6571798695528231,
+      "reproduced": {
+        "G": 0.09831654505953744,
+        "L0": 0.6684986052265439,
+        "S": 0.297486223399818,
+        "T": 0.33587019382115496
+      },
+      "reproduced_log_likelihood": -452.1397502523423,
+      "reproduced_nll": 0.6571798695528231,
+      "skill_id": "297",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 2,
+      "converged": true,
+      "original": {
+        "G": 0.03166382044462531,
+        "L0": 0.5875986782929102,
+        "S": 0.2996596790759652,
+        "T": 0.2836632016227518
+      },
+      "original_log_likelihood": -668.9942545140377,
+      "original_nll": 0.6347194065598081,
+      "reproduced": {
+        "G": 0.03166382044462531,
+        "L0": 0.5875986782929102,
+        "S": 0.2996596790759652,
+        "T": 0.2836632016227518
+      },
+      "reproduced_log_likelihood": -668.9942545140377,
+      "reproduced_nll": 0.6347194065598081,
+      "skill_id": "301",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 0,
+      "converged": true,
+      "original": {
+        "G": 0.18712338833707848,
+        "L0": 0.6258743548936055,
+        "S": 0.30915548496518447,
+        "T": 0.198380488942758
+      },
+      "original_log_likelihood": -644.055771117372,
+      "original_nll": 0.6674153068573804,
+      "reproduced": {
+        "G": 0.18712338833707848,
+        "L0": 0.6258743548936055,
+        "S": 0.30915548496518447,
+        "T": 0.198380488942758
+      },
+      "reproduced_log_likelihood": -644.055771117372,
+      "reproduced_nll": 0.6674153068573804,
+      "skill_id": "303",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 10,
+      "converged": true,
+      "original": {
+        "G": 0.21919202027861295,
+        "L0": 0.973098571894473,
+        "S": 0.11897624314452822,
+        "T": 0.0001
+      },
+      "original_log_likelihood": -244.34408271729774,
+      "original_nll": 0.4052140675245402,
+      "reproduced": {
+        "G": 0.21919202027861295,
+        "L0": 0.973098571894473,
+        "S": 0.11897624314452822,
+        "T": 0.0001
+      },
+      "reproduced_log_likelihood": -244.34408271729774,
+      "reproduced_nll": 0.4052140675245402,
+      "skill_id": "307",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 16,
+      "converged": true,
+      "original": {
+        "G": 0.5024513817424849,
+        "L0": 0.0001,
+        "S": 0.12290022308740463,
+        "T": 0.12670326408332735
+      },
+      "original_log_likelihood": -379.1071071369531,
+      "original_nll": 0.667442090029847,
+      "reproduced": {
+        "G": 0.5024513817424849,
+        "L0": 0.0001,
+        "S": 0.12290022308740463,
+        "T": 0.12670326408332735
+      },
+      "reproduced_log_likelihood": -379.1071071369531,
+      "reproduced_nll": 0.667442090029847,
+      "skill_id": "308",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 4,
+      "converged": true,
+      "original": {
+        "G": 0.04511063880464339,
+        "L0": 0.9156056228740767,
+        "S": 0.2506379534803457,
+        "T": 0.08257440568067925
+      },
+      "original_log_likelihood": -911.4878612516469,
+      "original_nll": 0.5854128845546865,
+      "reproduced": {
+        "G": 0.04511063880464339,
+        "L0": 0.9156056228740767,
+        "S": 0.2506379534803457,
+        "T": 0.08257440568067925
+      },
+      "reproduced_log_likelihood": -911.4878612516469,
+      "reproduced_nll": 0.5854128845546865,
+      "skill_id": "309",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 5,
+      "converged": true,
+      "original": {
+        "G": 0.2569504815126621,
+        "L0": 0.5494752085177749,
+        "S": 0.2295833421967353,
+        "T": 0.17888151414333908
+      },
+      "original_log_likelihood": -1465.3322368502506,
+      "original_nll": 0.6313365949376349,
+      "reproduced": {
+        "G": 0.2569504815126621,
+        "L0": 0.5494752085177749,
+        "S": 0.2295833421967353,
+        "T": 0.17888151414333908
+      },
+      "reproduced_log_likelihood": -1465.3322368502506,
+      "reproduced_nll": 0.6313365949376349,
+      "skill_id": "310",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 14,
+      "converged": true,
+      "original": {
+        "G": 0.2822296069317649,
+        "L0": 0.6528564842702754,
+        "S": 0.25605403406918653,
+        "T": 0.03438446296856178
+      },
+      "original_log_likelihood": -7635.724902599574,
+      "original_nll": 0.6073596009067431,
+      "reproduced": {
+        "G": 0.2822296069317649,
+        "L0": 0.6528564842702754,
+        "S": 0.25605403406918653,
+        "T": 0.03438446296856178
+      },
+      "reproduced_log_likelihood": -7635.724902599574,
+      "reproduced_nll": 0.6073596009067431,
+      "skill_id": "311",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 3,
+      "converged": true,
+      "original": {
+        "G": 0.25653938643172186,
+        "L0": 0.44770425153410837,
+        "S": 0.22141724924595507,
+        "T": 0.09345916981535704
+      },
+      "original_log_likelihood": -2132.849679405932,
+      "original_nll": 0.6127117723085125,
+      "reproduced": {
+        "G": 0.25653938643172186,
+        "L0": 0.44770425153410837,
+        "S": 0.22141724924595507,
+        "T": 0.09345916981535704
+      },
+      "reproduced_log_likelihood": -2132.849679405932,
+      "reproduced_nll": 0.6127117723085125,
+      "skill_id": "312",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 14,
+      "converged": true,
+      "original": {
+        "G": 0.0001,
+        "L0": 0.9023050386997918,
+        "S": 0.3840108323906377,
+        "T": 0.10767800290289319
+      },
+      "original_log_likelihood": -509.83476577634934,
+      "original_nll": 0.6478205410118797,
+      "reproduced": {
+        "G": 0.0001,
+        "L0": 0.9023050386997918,
+        "S": 0.3840108323906377,
+        "T": 0.10767800290289319
+      },
+      "reproduced_log_likelihood": -509.83476577634934,
+      "reproduced_nll": 0.6478205410118797,
+      "skill_id": "322",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 16,
+      "converged": true,
+      "original": {
+        "G": 0.0001,
+        "L0": 0.8129257636547013,
+        "S": 0.07515228155259249,
+        "T": 0.9785473667197285
+      },
+      "original_log_likelihood": -219.47918858418853,
+      "original_nll": 0.3266059353931377,
+      "reproduced": {
+        "G": 0.0001,
+        "L0": 0.8129257636547013,
+        "S": 0.07515228155259249,
+        "T": 0.9785473667197285
+      },
+      "reproduced_log_likelihood": -219.47918858418853,
+      "reproduced_nll": 0.3266059353931377,
+      "skill_id": "323",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 15,
+      "converged": true,
+      "original": {
+        "G": 0.09268856762279233,
+        "L0": 0.4608046152031327,
+        "S": 0.4076873454665801,
+        "T": 0.1494219754497011
+      },
+      "original_log_likelihood": -915.1235157634495,
+      "original_nll": 0.6350614266227963,
+      "reproduced": {
+        "G": 0.09268856762279233,
+        "L0": 0.4608046152031327,
+        "S": 0.4076873454665801,
+        "T": 0.1494219754497011
+      },
+      "reproduced_log_likelihood": -915.1235157634495,
+      "reproduced_nll": 0.6350614266227963,
+      "skill_id": "325",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 11,
+      "converged": true,
+      "original": {
+        "G": 0.36412075547333206,
+        "L0": 0.5609191572538615,
+        "S": 0.12674070445381955,
+        "T": 0.05285429364807577
+      },
+      "original_log_likelihood": -861.5489258173787,
+      "original_nll": 0.6229565624131445,
+      "reproduced": {
+        "G": 0.36412075547333206,
+        "L0": 0.5609191572538615,
+        "S": 0.12674070445381955,
+        "T": 0.05285429364807577
+      },
+      "reproduced_log_likelihood": -861.5489258173787,
+      "reproduced_nll": 0.6229565624131445,
+      "skill_id": "368",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 19,
+      "converged": true,
+      "original": {
+        "G": 0.07763492833987522,
+        "L0": 0.9519095370448417,
+        "S": 0.2796762782697265,
+        "T": 0.10058131989120522
+      },
+      "original_log_likelihood": -521.0930371777299,
+      "original_nll": 0.6059221362531744,
+      "reproduced": {
+        "G": 0.07763492833987522,
+        "L0": 0.9519095370448417,
+        "S": 0.2796762782697265,
+        "T": 0.10058131989120522
+      },
+      "reproduced_log_likelihood": -521.0930371777299,
+      "reproduced_nll": 0.6059221362531744,
+      "skill_id": "39",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 16,
+      "converged": true,
+      "original": {
+        "G": 0.22149103877656767,
+        "L0": 0.7179778168007691,
+        "S": 0.22696466812241414,
+        "T": 0.24166995500766247
+      },
+      "original_log_likelihood": -764.1103355240647,
+      "original_nll": 0.584629177906706,
+      "reproduced": {
+        "G": 0.22149103877656767,
+        "L0": 0.7179778168007691,
+        "S": 0.22696466812241414,
+        "T": 0.24166995500766247
+      },
+      "reproduced_log_likelihood": -764.1103355240647,
+      "reproduced_nll": 0.584629177906706,
+      "skill_id": "4",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 17,
+      "converged": true,
+      "original": {
+        "G": 0.2122862299679375,
+        "L0": 0.927307327639296,
+        "S": 0.28297047011347903,
+        "T": 0.16509221747207806
+      },
+      "original_log_likelihood": -799.9113328581112,
+      "original_nll": 0.6115530067722563,
+      "reproduced": {
+        "G": 0.2122862299679375,
+        "L0": 0.927307327639296,
+        "S": 0.28297047011347903,
+        "T": 0.16509221747207806
+      },
+      "reproduced_log_likelihood": -799.9113328581112,
+      "reproduced_nll": 0.6115530067722563,
+      "skill_id": "40",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 7,
+      "converged": true,
+      "original": {
+        "G": 0.3244226192916956,
+        "L0": 0.726428813859314,
+        "S": 0.20840556729717186,
+        "T": 0.0715884933062363
+      },
+      "original_log_likelihood": -1839.2153355880077,
+      "original_nll": 0.5697693109008698,
+      "reproduced": {
+        "G": 0.3244226192916956,
+        "L0": 0.726428813859314,
+        "S": 0.20840556729717186,
+        "T": 0.0715884933062363
+      },
+      "reproduced_log_likelihood": -1839.2153355880077,
+      "reproduced_nll": 0.5697693109008698,
+      "skill_id": "46",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 1,
+      "converged": true,
+      "original": {
+        "G": 0.40623807023306585,
+        "L0": 0.6488095397909353,
+        "S": 0.20930111035549423,
+        "T": 0.014221342475701412
+      },
+      "original_log_likelihood": -8083.327405998996,
+      "original_nll": 0.6115856401603236,
+      "reproduced": {
+        "G": 0.40623807023306585,
+        "L0": 0.6488095397909353,
+        "S": 0.20930111035549423,
+        "T": 0.014221342475701412
+      },
+      "reproduced_log_likelihood": -8083.327405998996,
+      "reproduced_nll": 0.6115856401603236,
+      "skill_id": "47",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 1,
+      "converged": true,
+      "original": {
+        "G": 0.39358333000071866,
+        "L0": 0.7777324606180882,
+        "S": 0.11420856593796844,
+        "T": 0.06133237088975592
+      },
+      "original_log_likelihood": -1815.8442929020762,
+      "original_nll": 0.5167456724251782,
+      "reproduced": {
+        "G": 0.39358333000071866,
+        "L0": 0.7777324606180882,
+        "S": 0.11420856593796844,
+        "T": 0.06133237088975592
+      },
+      "reproduced_log_likelihood": -1815.8442929020762,
+      "reproduced_nll": 0.5167456724251782,
+      "skill_id": "49",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 7,
+      "converged": true,
+      "original": {
+        "G": 0.5252253464336972,
+        "L0": 0.7051179035917796,
+        "S": 0.05164401030638838,
+        "T": 0.07019466983832805
+      },
+      "original_log_likelihood": -1800.7184511097712,
+      "original_nll": 0.42711538214178635,
+      "reproduced": {
+        "G": 0.5252253464336972,
+        "L0": 0.7051179035917796,
+        "S": 0.05164401030638838,
+        "T": 0.07019466983832805
+      },
+      "reproduced_log_likelihood": -1800.7184511097712,
+      "reproduced_nll": 0.42711538214178635,
+      "skill_id": "50",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 11,
+      "converged": true,
+      "original": {
+        "G": 0.7566187649399212,
+        "L0": 0.5278201000921906,
+        "S": 0.015581683123656495,
+        "T": 0.06471289045911223
+      },
+      "original_log_likelihood": -517.8365691382687,
+      "original_nll": 0.3667397798429665,
+      "reproduced": {
+        "G": 0.7566187649399212,
+        "L0": 0.5278201000921906,
+        "S": 0.015581683123656495,
+        "T": 0.06471289045911223
+      },
+      "reproduced_log_likelihood": -517.8365691382687,
+      "reproduced_nll": 0.3667397798429665,
+      "skill_id": "51",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 14,
+      "converged": true,
+      "original": {
+        "G": 0.11868055217682302,
+        "L0": 0.7175081720467766,
+        "S": 0.16894568468466137,
+        "T": 0.38997094626083123
+      },
+      "original_log_likelihood": -358.7868645967294,
+      "original_nll": 0.5536834330196442,
+      "reproduced": {
+        "G": 0.11868055217682302,
+        "L0": 0.7175081720467766,
+        "S": 0.16894568468466137,
+        "T": 0.38997094626083123
+      },
+      "reproduced_log_likelihood": -358.7868645967294,
+      "reproduced_nll": 0.5536834330196442,
+      "skill_id": "54",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 15,
+      "converged": true,
+      "original": {
+        "G": 0.5223581801037803,
+        "L0": 0.7071860840857329,
+        "S": 0.08264990998208677,
+        "T": 0.10678523444064707
+      },
+      "original_log_likelihood": -547.756226457242,
+      "original_nll": 0.4226514093034274,
+      "reproduced": {
+        "G": 0.5223581801037803,
+        "L0": 0.7071860840857329,
+        "S": 0.08264990998208677,
+        "T": 0.10678523444064707
+      },
+      "reproduced_log_likelihood": -547.756226457242,
+      "reproduced_nll": 0.4226514093034274,
+      "skill_id": "58",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 18,
+      "converged": true,
+      "original": {
+        "G": 0.1798619397957518,
+        "L0": 0.6202678574136409,
+        "S": 0.1559235576381219,
+        "T": 0.21898117521801183
+      },
+      "original_log_likelihood": -1545.9451745467202,
+      "original_nll": 0.5560953865275972,
+      "reproduced": {
+        "G": 0.1798619397957518,
+        "L0": 0.6202678574136409,
+        "S": 0.1559235576381219,
+        "T": 0.21898117521801183
+      },
+      "reproduced_log_likelihood": -1545.9451745467202,
+      "reproduced_nll": 0.5560953865275972,
+      "skill_id": "61",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 18,
+      "converged": true,
+      "original": {
+        "G": 0.10050652454596683,
+        "L0": 0.5161138510000985,
+        "S": 0.2462831529376109,
+        "T": 0.2723566830879819
+      },
+      "original_log_likelihood": -1408.5163626592625,
+      "original_nll": 0.6039950097166649,
+      "reproduced": {
+        "G": 0.10050652454596683,
+        "L0": 0.5161138510000985,
+        "S": 0.2462831529376109,
+        "T": 0.2723566830879819
+      },
+      "reproduced_log_likelihood": -1408.5163626592625,
+      "reproduced_nll": 0.6039950097166649,
+      "skill_id": "65",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 5,
+      "converged": true,
+      "original": {
+        "G": 0.3126506615196813,
+        "L0": 0.6001906699533216,
+        "S": 0.21500051122383082,
+        "T": 0.14951265907268876
+      },
+      "original_log_likelihood": -2308.339258506941,
+      "original_nll": 0.6065000679208988,
+      "reproduced": {
+        "G": 0.3126506615196813,
+        "L0": 0.6001906699533216,
+        "S": 0.21500051122383082,
+        "T": 0.14951265907268876
+      },
+      "reproduced_log_likelihood": -2308.339258506941,
+      "reproduced_nll": 0.6065000679208988,
+      "skill_id": "67",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 19,
+      "converged": true,
+      "original": {
+        "G": 0.01647428307748643,
+        "L0": 0.6562862293980793,
+        "S": 0.24757679145004188,
+        "T": 0.30449950891971755
+      },
+      "original_log_likelihood": -1742.9397544137755,
+      "original_nll": 0.6058184756391295,
+      "reproduced": {
+        "G": 0.01647428307748643,
+        "L0": 0.6562862293980793,
+        "S": 0.24757679145004188,
+        "T": 0.30449950891971755
+      },
+      "reproduced_log_likelihood": -1742.9397544137755,
+      "reproduced_nll": 0.6058184756391295,
+      "skill_id": "70",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 0,
+      "converged": true,
+      "original": {
+        "G": 0.4077453498502154,
+        "L0": 0.8078185364736652,
+        "S": 0.10293442877982631,
+        "T": 0.09969380156642998
+      },
+      "original_log_likelihood": -771.3407905920824,
+      "original_nll": 0.42923805820371863,
+      "reproduced": {
+        "G": 0.4077453498502154,
+        "L0": 0.8078185364736652,
+        "S": 0.10293442877982631,
+        "T": 0.09969380156642998
+      },
+      "reproduced_log_likelihood": -771.3407905920824,
+      "reproduced_nll": 0.42923805820371863,
+      "skill_id": "75",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 13,
+      "converged": true,
+      "original": {
+        "G": 0.044673879473125226,
+        "L0": 0.40203307760625867,
+        "S": 0.3675115733539071,
+        "T": 0.13343170813851798
+      },
+      "original_log_likelihood": -1264.597825220792,
+      "original_nll": 0.581691731932287,
+      "reproduced": {
+        "G": 0.044673879473125226,
+        "L0": 0.40203307760625867,
+        "S": 0.3675115733539071,
+        "T": 0.13343170813851798
+      },
+      "reproduced_log_likelihood": -1264.597825220792,
+      "reproduced_nll": 0.581691731932287,
+      "skill_id": "76",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 5,
+      "converged": true,
+      "original": {
+        "G": 0.06549929489738739,
+        "L0": 0.43516119612603593,
+        "S": 0.18920718958196314,
+        "T": 0.13651929255338624
+      },
+      "original_log_likelihood": -2227.401580602688,
+      "original_nll": 0.5303337096673068,
+      "reproduced": {
+        "G": 0.06549929489738739,
+        "L0": 0.43516119612603593,
+        "S": 0.18920718958196314,
+        "T": 0.13651929255338624
+      },
+      "reproduced_log_likelihood": -2227.401580602688,
+      "reproduced_nll": 0.5303337096673068,
+      "skill_id": "77",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 13,
+      "converged": true,
+      "original": {
+        "G": 0.42291488389648596,
+        "L0": 0.4943686515577881,
+        "S": 0.1364037309614864,
+        "T": 0.03437144935197255
+      },
+      "original_log_likelihood": -3356.299770911618,
+      "original_nll": 0.5971001193580534,
+      "reproduced": {
+        "G": 0.42291488389648596,
+        "L0": 0.4943686515577881,
+        "S": 0.1364037309614864,
+        "T": 0.03437144935197255
+      },
+      "reproduced_log_likelihood": -3356.299770911618,
+      "reproduced_nll": 0.5971001193580534,
+      "skill_id": "79",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 13,
+      "converged": true,
+      "original": {
+        "G": 0.4244186791136833,
+        "L0": 0.605676520631209,
+        "S": 0.05217312494909974,
+        "T": 0.4264764757682952
+      },
+      "original_log_likelihood": -472.97706794576425,
+      "original_nll": 0.35995210650362575,
+      "reproduced": {
+        "G": 0.4244186791136833,
+        "L0": 0.605676520631209,
+        "S": 0.05217312494909974,
+        "T": 0.4264764757682952
+      },
+      "reproduced_log_likelihood": -472.97706794576425,
+      "reproduced_nll": 0.35995210650362575,
+      "skill_id": "8",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 0,
+      "converged": true,
+      "original": {
+        "G": 0.15973797619301008,
+        "L0": 0.6715717932312836,
+        "S": 0.35711336441776675,
+        "T": 0.09547139595859697
+      },
+      "original_log_likelihood": -1455.536526497984,
+      "original_nll": 0.6619083794897608,
+      "reproduced": {
+        "G": 0.15973797619301008,
+        "L0": 0.6715717932312836,
+        "S": 0.35711336441776675,
+        "T": 0.09547139595859697
+      },
+      "reproduced_log_likelihood": -1455.536526497984,
+      "reproduced_nll": 0.6619083794897608,
+      "skill_id": "81",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 6,
+      "converged": true,
+      "original": {
+        "G": 0.27332398156264975,
+        "L0": 0.588281404024076,
+        "S": 0.10097154090917787,
+        "T": 0.26123901921678855
+      },
+      "original_log_likelihood": -585.7598858032952,
+      "original_nll": 0.4697352732985527,
+      "reproduced": {
+        "G": 0.27332398156264975,
+        "L0": 0.588281404024076,
+        "S": 0.10097154090917787,
+        "T": 0.26123901921678855
+      },
+      "reproduced_log_likelihood": -585.7598858032952,
+      "reproduced_nll": 0.4697352732985527,
+      "skill_id": "82",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 13,
+      "converged": true,
+      "original": {
+        "G": 0.2153493729272622,
+        "L0": 0.3221991131363953,
+        "S": 0.2052632640577144,
+        "T": 0.19002658697640912
+      },
+      "original_log_likelihood": -1145.5641006443857,
+      "original_nll": 0.5865663597769512,
+      "reproduced": {
+        "G": 0.2153493729272622,
+        "L0": 0.3221991131363953,
+        "S": 0.2052632640577144,
+        "T": 0.19002658697640912
+      },
+      "reproduced_log_likelihood": -1145.5641006443857,
+      "reproduced_nll": 0.5865663597769512,
+      "skill_id": "83",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 13,
+      "converged": true,
+      "original": {
+        "G": 0.580100059174217,
+        "L0": 0.00010000000000000007,
+        "S": 0.09050880831583523,
+        "T": 0.5191137298217029
+      },
+      "original_log_likelihood": -218.0648491593032,
+      "original_nll": 0.4562026133039816,
+      "reproduced": {
+        "G": 0.580100059174217,
+        "L0": 0.00010000000000000007,
+        "S": 0.09050880831583523,
+        "T": 0.5191137298217029
+      },
+      "reproduced_log_likelihood": -218.0648491593032,
+      "reproduced_nll": 0.4562026133039816,
+      "skill_id": "84",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 3,
+      "converged": true,
+      "original": {
+        "G": 0.3788616791750971,
+        "L0": 0.8454601708888022,
+        "S": 0.06897718025470341,
+        "T": 0.09944604046122198
+      },
+      "original_log_likelihood": -805.2326233745546,
+      "original_nll": 0.3871310689300743,
+      "reproduced": {
+        "G": 0.3788616791750971,
+        "L0": 0.8454601708888022,
+        "S": 0.06897718025470341,
+        "T": 0.09944604046122198
+      },
+      "reproduced_log_likelihood": -805.2326233745546,
+      "reproduced_nll": 0.3871310689300743,
+      "skill_id": "85",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 15,
+      "converged": true,
+      "original": {
+        "G": 0.08211808824656198,
+        "L0": 0.9105533221739851,
+        "S": 0.18190999083666246,
+        "T": 0.1736375303997586
+      },
+      "original_log_likelihood": -1041.5010816707368,
+      "original_nll": 0.5128021081589054,
+      "reproduced": {
+        "G": 0.08211808824656198,
+        "L0": 0.9105533221739851,
+        "S": 0.18190999083666246,
+        "T": 0.1736375303997586
+      },
+      "reproduced_log_likelihood": -1041.5010816707368,
+      "reproduced_nll": 0.5128021081589054,
+      "skill_id": "86",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 5,
+      "converged": true,
+      "original": {
+        "G": 0.00010000000000001792,
+        "L0": 0.9545172204743948,
+        "S": 0.29775820513530815,
+        "T": 0.17667799982383842
+      },
+      "original_log_likelihood": -288.1331714357301,
+      "original_nll": 0.6250177254571152,
+      "reproduced": {
+        "G": 0.00010000000000001792,
+        "L0": 0.9545172204743948,
+        "S": 0.29775820513530815,
+        "T": 0.17667799982383842
+      },
+      "reproduced_log_likelihood": -288.1331714357301,
+      "reproduced_nll": 0.6250177254571152,
+      "skill_id": "91",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 0,
+      "converged": true,
+      "original": {
+        "G": 0.10073592903350412,
+        "L0": 0.7874732956843107,
+        "S": 0.3788361754673423,
+        "T": 0.02527210268950124
+      },
+      "original_log_likelihood": -572.7034325237024,
+      "original_nll": 0.6363371472485583,
+      "reproduced": {
+        "G": 0.10073592903350412,
+        "L0": 0.7874732956843107,
+        "S": 0.3788361754673423,
+        "T": 0.02527210268950124
+      },
+      "reproduced_log_likelihood": -572.7034325237024,
+      "reproduced_nll": 0.6363371472485583,
+      "skill_id": "92",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 7,
+      "converged": true,
+      "original": {
+        "G": 0.06534853179143839,
+        "L0": 0.9107574725892847,
+        "S": 0.3022675838040387,
+        "T": 0.032570902437092056
+      },
+      "original_log_likelihood": -683.3321947175806,
+      "original_nll": 0.615060481293952,
+      "reproduced": {
+        "G": 0.06534853179143839,
+        "L0": 0.9107574725892847,
+        "S": 0.3022675838040387,
+        "T": 0.032570902437092056
+      },
+      "reproduced_log_likelihood": -683.3321947175806,
+      "reproduced_nll": 0.615060481293952,
+      "skill_id": "94",
+      "status": "exato"
+    },
+    {
+      "absolute_difference": {
+        "G": 0.0,
+        "L0": 0.0,
+        "S": 0.0,
+        "T": 0.0
+      },
+      "attempted_runs": 20,
+      "best_initialization": 14,
+      "converged": true,
+      "original": {
+        "G": 0.06018882650111029,
+        "L0": 0.9152182402724545,
+        "S": 0.27086243158227835,
+        "T": 0.17479976252236057
+      },
+      "original_log_likelihood": -357.4236201559763,
+      "original_nll": 0.6216062959234371,
+      "reproduced": {
+        "G": 0.06018882650111029,
+        "L0": 0.9152182402724545,
+        "S": 0.27086243158227835,
+        "T": 0.17479976252236057
+      },
+      "reproduced_log_likelihood": -357.4236201559763,
+      "reproduced_nll": 0.6216062959234371,
+      "skill_id": "96",
+      "status": "exato"
+    }
+  ],
+  "skills": 56,
+  "test_used_for_fit": false,
+  "utc": "2026-11-11T18:02:35.119898+00:00"
+}

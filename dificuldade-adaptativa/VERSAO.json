@@ -1,0 +1,12 @@
+{
+  "version": "2026.11.13-r1",
+  "status": "PREPARADO_LOCALMENTE_NAO_PUBLICADO",
+  "branch_destino": "dificuldade-adaptativa",
+  "commit_remoto_conferido": "e00f20c0d534a2bdd1a845d71cb791a16e3f4212",
+  "dataset_mais_recente": "e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d",
+  "runtime": "modulo-bkt-H preservado; não integrado ao dataset novo",
+  "tipo_versao": "versão da entrega, não novo modelo treinado",
+  "fase_2": "em revisão, sem homologação",
+  "git_write_executed": false,
+  "estrutura": "pastas diretamente em dificuldade-adaptativa; sem pasta intermediária de entrega"
+}

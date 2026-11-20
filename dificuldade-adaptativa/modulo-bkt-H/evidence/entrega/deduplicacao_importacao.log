@@ -1,0 +1,7 @@
+UTC: 2026-11-11T19:17:40.855499+00:00
+CWD: C:\Users\Darkz\Downloads\Gabaritei_Dificuldade_Adaptativa_Entrega\dificuldade-adaptativa\modulo-bkt-H
+COMMAND: C:\Users\Darkz\AppData\Local\Temp\Gabaritei_BKT04_AmbienteLimpo\Scripts\python.exe -B -c "import sys; from pathlib import Path; sys.path.insert(0,str(Path(\"vendor/fase02\").resolve())); sys.path.insert(0,str(Path(\"vendor\").resolve())); import bkt.dados; print(\"Loader original e preparação compartilhada importados sem cópia aninhada.\")"
+
+Loader original e preparação compartilhada importados sem cópia aninhada.
+
+Exit code: 0

@@ -1,0 +1,2 @@
+taxa -0.01800411522633745 [-0.023576817558299042, -0.012688614540466395]
+{'manter': {'accuracy': 0.3333, 'inadequate_challenge': 0.677, 'coverage': 0.5556}, 'taxa': {'accuracy': 0.3422, 'inadequate_challenge': 0.6667, 'coverage': 0.5556}, 'bkt': {'accuracy': 0.3394, 'inadequate_challenge': 0.6683, 'coverage': 0.5556}, 'sgd': {'accuracy': 0.3212, 'inadequate_challenge': 0.6833, 'coverage': 0.5556}, 'hibrido': {'accuracy': 0.3242, 'inadequate_challenge': 0.6811, 'coverage': 0.5556}, 'elo': {'accuracy': 0.3343, 'inadequate_challenge': 0.6777, 'coverage': 0.5556}}

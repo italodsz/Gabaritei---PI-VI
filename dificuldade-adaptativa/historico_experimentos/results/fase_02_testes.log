@@ -1,0 +1,33 @@
+python -B -m unittest discover -s tests -p test_fase_02.py -v
+test_delivered_pipeline_is_loadable (test_fase_02.PhaseTwoTests.test_delivered_pipeline_is_loadable) ... <frozen importlib._bootstrap>:491: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+<frozen importlib._bootstrap>:491: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 26676.89it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14415.16it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ok
+test_fit_and_roundtrip_on_text_without_student_or_tri_fields (test_fase_02.PhaseTwoTests.test_fit_and_roundtrip_on_text_without_student_or_tri_fields) ... ok
+test_official_splits_and_targets (test_fase_02.PhaseTwoTests.test_official_splits_and_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 11.076s
+
+OK
+<sys>:0: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+exit=0 seconds=13.9358005

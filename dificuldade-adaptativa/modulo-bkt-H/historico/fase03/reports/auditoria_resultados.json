@@ -1,0 +1,38 @@
+{
+  "events_read_back": 29948,
+  "human_external_review": "pendente",
+  "metric_absolute_errors": {
+    "bkt": {
+      "accuracy": 0.0,
+      "auc_roc": 0.0,
+      "brier": 1.6653345369377348e-16,
+      "ece": 1.519617764955683e-15,
+      "log_loss": 1.3322676295501878e-15
+    },
+    "historico_suavizado": {
+      "accuracy": 0.0,
+      "auc_roc": 0.0,
+      "brier": 8.326672684688674e-17,
+      "ece": 7.216449660063518e-16,
+      "log_loss": 1.1102230246251565e-16
+    },
+    "taxa_global": {
+      "accuracy": 0.0,
+      "auc_roc": 0.0,
+      "brier": 4.163336342344337e-15,
+      "ece": 1.7123108486671867e-13,
+      "log_loss": 8.881784197001252e-16
+    },
+    "taxa_habilidade": {
+      "accuracy": 0.0,
+      "auc_roc": 0.0,
+      "brier": 7.771561172376096e-16,
+      "ece": 2.645453300864631e-15,
+      "log_loss": 4.6629367034256575e-15
+    }
+  },
+  "model_hash_preserved": true,
+  "protocol_before_first_test_open": true,
+  "status": "aprovado",
+  "students": 585
+}

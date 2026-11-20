@@ -1,0 +1,50 @@
+[
+  {
+    "id": "gq_14561aefce51ecddf26b4262",
+    "year": 2013,
+    "co_item": "43299",
+    "before_question": "Em setembro de 1987, Goiânia foi palco do maior acidente radioativo ocorrido no Brasil, quando uma amostra de césio-137, removida de um aparelho de radioterapia abandonado, foi manipulada inadvertidamente por parte da população. A meia-vida de um material radioativo é o tempo necessário para que a massa desse material se reduza à metade. A meia-vida do césio-137 é 30 anos e a quantidade restante de massa de um material radioativo, após t anos, é calculada pela expressão M = A × 2 , 7 k t , onde A é a massa inicial e k é uma constante negativa. Considere 0,3 como aproximação para log 10 2 .\nQual o tempo necessário, em anos, para que uma quantidade de massa do césio-137 se reduza a 10% da quantidade inicial?",
+    "after_question": "Em setembro de 1987, Goiânia foi palco do maior acidente radioativo ocorrido no Brasil, quando uma amostra de césio-137, removida de um aparelho de radioterapia abandonado, foi manipulada inadvertidamente por parte da população. A meia-vida de um material radioativo é o tempo necessário para que a massa desse material se reduza à metade. A meia-vida do césio-137 é 30 anos e a quantidade restante de massa de um material radioativo, após t anos, é calculada pela expressão M(t) = A × (2,7)^(k × t) , onde A é a massa inicial e k é uma constante negativa. Considere 0,3 como aproximação para log_10(2) .\nQual o tempo necessário, em anos, para que uma quantidade de massa do césio-137 se reduza a 10% da quantidade inicial?",
+    "changed_fields": [
+      "quality_review",
+      "question",
+      "working_revision"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": true,
+    "answer_preserved": true,
+    "options_preserved": true,
+    "human_grade_not_created": true,
+    "source": {
+      "parent": "v2.1-rc1",
+      "date": "2026-10-29",
+      "patch": "formula_e_notacao_logaritmo",
+      "source_level": "copia_institucional_IFPB_anotada; bytes_originais_INEP_indisponiveis"
+    }
+  },
+  {
+    "id": "gq_29b02702604175cb29267886",
+    "year": 2022,
+    "co_item": "96244",
+    "before_question": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H2O2), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro.\n| Ensaio | Temperatura (°C) | Resultado |\n|----------:|--------------------:|:---------------------------------------------|\n| nan | nan | Decomposição de H2O2 (10^⁻12 mol/min) |\n| 1 | 10 | 8,0 |\n| 2 | 15 | 10,5 |\n| 3 | 20 | 9,5 |\n| 4 | 25 | 5,0 |\n| 5 | 30 | 3,6 |\n| 6 | 35 | 3,1 |\nOs diferentes resultados dos ensaios justificam-se pelo(a)",
+    "after_question": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H2O2), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro.\n| Ensaio | Temperatura (°C) | Decomposição de H2O2 (10^-12 mol/min) |\n|---:|---:|---:|\n| 1 | 10 | 8,0 |\n| 2 | 15 | 10,5 |\n| 3 | 20 | 9,5 |\n| 4 | 25 | 5,0 |\n| 5 | 30 | 3,6 |\n| 6 | 35 | 3,1 |\nOs diferentes resultados dos ensaios justificam-se pelo(a)",
+    "changed_fields": [
+      "quality_review",
+      "question",
+      "ready_text",
+      "working_revision"
+    ],
+    "before_ready_text": true,
+    "after_ready_text": false,
+    "answer_preserved": true,
+    "options_preserved": true,
+    "human_grade_not_created": true,
+    "source": {
+      "parent": "v2.1-rc1",
+      "date": "2026-10-29",
+      "patch": "normalizacao_cabecalho_sem_alterar_valores",
+      "source_level": "texto_indexado_caderno_oficial_INEP",
+      "hold_reason": "PDF_original_nao_baixado; inspecao_visual_pendente"
+    }
+  }
+]

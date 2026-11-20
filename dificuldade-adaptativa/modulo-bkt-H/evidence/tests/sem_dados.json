@@ -1,0 +1,415 @@
+{
+  "counts": {
+    "aprovado": 31,
+    "bloqueado": 13
+  },
+  "errors": 0,
+  "exit_code": 2,
+  "failures": 0,
+  "groups": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "tests": [
+    {
+      "detail": null,
+      "seconds": 0.00023239999973156955,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_correct",
+      "utc": "2026-11-11T18:12:53.135397+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00016340000001946464,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_error",
+      "utc": "2026-11-11T18:12:53.135874+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012449999940145062,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_cooldown",
+      "utc": "2026-11-11T18:12:53.136156+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00014079999982641311,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_determinism_and_reset",
+      "utc": "2026-11-11T18:12:53.136383+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00019489999976940453,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_future_does_not_change_prediction",
+      "utc": "2026-11-11T18:12:53.136696+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00011810000069090165,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_insufficient_data_abstains",
+      "utc": "2026-11-11T18:12:53.137028+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.004091499999958614,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_limits_and_invalid",
+      "utc": "2026-11-11T18:12:53.137244+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00013039999976172112,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_prediction_before_response",
+      "utc": "2026-11-11T18:12:53.141502+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012540000079752645,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_stock_and_choice",
+      "utc": "2026-11-11T18:12:53.141769+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.00011660000018309802,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_keyless_event_and_sequence_equivalence",
+      "utc": "2026-11-11T18:12:53.142008+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.00010819999988598283,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_student_isolation",
+      "utc": "2026-11-11T18:12:53.142227+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 9.88000001598266e-05,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_train_only_skill_selection",
+      "utc": "2026-11-11T18:12:53.142433+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 9.229999977833359e-05,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_verified_source",
+      "utc": "2026-11-11T18:12:53.142619+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.0001084000004993868,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_all_skills_really_exported",
+      "utc": "2026-11-11T18:12:53.142806+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00010660000043571927,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_convergence_and_initializations",
+      "utc": "2026-11-11T18:12:53.143009+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00012010000045847846,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_original_tolerances",
+      "utc": "2026-11-11T18:12:53.143200+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00010259999999107094,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_parameter_constraints",
+      "utc": "2026-11-11T18:12:53.143406+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03898620000018127,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_blocked_skills_use_fallback",
+      "utc": "2026-11-11T18:12:53.143601+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.09358359999987442,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_concurrency_same_attempt",
+      "utc": "2026-11-11T18:12:53.182838+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010431200000311946,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_confirmed_frontend_contract_adapter",
+      "utc": "2026-11-11T18:12:53.276709+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.032754900000327325,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cooldown_counts_responses_not_order_id_distance",
+      "utc": "2026-11-11T18:12:53.287369+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.009946700000000419,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_student_collision_rejected",
+      "utc": "2026-11-11T18:12:53.320400+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.021583300000202144,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_user_accept_rejected",
+      "utc": "2026-11-11T18:12:53.330570+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0272224999998798,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_decline_preserves_choice",
+      "utc": "2026-11-11T18:12:53.352390+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.02290480000010575,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_explicit_acceptance_and_replay",
+      "utc": "2026-11-11T18:12:53.379869+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010468999999829975,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency",
+      "utc": "2026-11-11T18:12:53.403018+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010695900000428082,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency_conflict",
+      "utc": "2026-11-11T18:12:53.413715+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.007115299999895797,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_inputs_leave_no_state",
+      "utc": "2026-11-11T18:12:53.424635+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00794080000014219,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_model_rejected_before_state",
+      "utc": "2026-11-11T18:12:53.431981+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.01566949999960343,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_isolation_namespace",
+      "utc": "2026-11-11T18:12:53.440149+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03177799999957642,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_legacy_state_migration_retains_offer_count",
+      "utc": "2026-11-11T18:12:53.456049+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.04073610000068584,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_manual_choice_is_preserved",
+      "utc": "2026-11-11T18:12:53.488053+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.013671899999280868,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_model_version_isolates_state",
+      "utc": "2026-11-11T18:12:53.529002+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010627199999362347,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_order_guard",
+      "utc": "2026-11-11T18:12:53.542880+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.009488400000009278,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_server_attempt_id_independent_from_client_key",
+      "utc": "2026-11-11T18:12:53.553797+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.021991399999933492,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_stale_offer_rejected",
+      "utc": "2026-11-11T18:12:53.563538+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.013760699999693315,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_state_persists_restart",
+      "utc": "2026-11-11T18:12:53.585738+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010135100000297825,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_transaction_rolls_back",
+      "utc": "2026-11-11T18:12:53.599697+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.008577199999308505,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_unknown_skill_uses_fallback",
+      "utc": "2026-11-11T18:12:53.610084+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00017489999936515233,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_aligned_observations",
+      "utc": "2026-11-11T18:12:53.618917+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.0001542999998491723,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_extreme_groups",
+      "utc": "2026-11-11T18:12:53.619217+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00013440000020636944,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_independent_loss_readback",
+      "utc": "2026-11-11T18:12:53.619479+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00018399999953544466,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_student_bootstrap_replay",
+      "utc": "2026-11-11T18:12:53.619709+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00013829999988956843,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_validation_policy_does_not_claim_learning",
+      "utc": "2026-11-11T18:12:53.620021+00:00"
+    }
+  ],
+  "tests_collected": 44
+}

@@ -1,0 +1,17 @@
+Python: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+Plataforma: Windows-11-10.0.26200-SP0
+Comando: python calcular_metricas.py
+Integridade das fontes: OK. Linhas por consulta: 956
+humana_1 RRF_MiniLM n= 8 P@3= 0.5 Recall-pool@3= 1.0 nDCG-linear-pool@3= 0.9646
+humana_4 RRF_MiniLM n= 8 P@3= 0.25 Recall-pool@3= 0.7 nDCG-linear-pool@3= 0.6628
+humana_4 RRF_Qwen n= 8 P@3= 0.3333 Recall-pool@3= 0.8 nDCG-linear-pool@3= 0.7119
+humana_4 RRF_Qwen_reranker n= 8 P@3= 0.25 Recall-pool@3= 0.6333 nDCG-linear-pool@3= 0.6146
+humana_6 titulo_semelhanca n= 8 P@3= 1.0 Recall-pool@3= 0.875 nDCG-linear-pool@3= 0.984
+humana_6 titulo_assunto_primeiro n= 8 P@3= 1.0 Recall-pool@3= 0.875 nDCG-linear-pool@3= 0.9806
+IA_50 anterior n= 50 P@3= 0.4333 Recall-pool@3= 0.7423 nDCG-linear-pool@3= 0.9085
+IA_50 novo n= 50 P@3= 0.52 Recall-pool@3= 0.9171 nDCG-linear-pool@3= 0.9662
+humana_7_catalogos_11_comuns titulo_area n= 11 P@3= 0.7576 Recall-pool@3= 0.7394 nDCG-linear-pool@3= 0.9508
+humana_7_catalogos_11_comuns rrf_qwen n= 11 P@3= 0.6061 Recall-pool@3= 0.6152 nDCG-linear-pool@3= 0.8158
+Avalia��o7: cobertura dos top3 dos cat�logos Counter({('rrf_qwen', 3): 12, ('titulo_area', 3): 11, ('titulo_area', 2): 1})
+
+Exit code: 0

@@ -1,0 +1,273 @@
+{
+  "fixture": "10 respostas sintéticas; não mede aprendizagem",
+  "actual_app_connection": false,
+  "area_scope": "MT isolada de CN/CH/LC",
+  "diagnostic": "dez eventos ilustram diagnóstico; seleção de itens e encerramento do diagnóstico ainda são responsabilidade futura do backend",
+  "trace": [
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-1",
+      "event_order": 1,
+      "mastery_before": null,
+      "predicted_correct": 0.5,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 1,
+      "recommendation": {
+        "suggested": null,
+        "reason": "dados_insuficientes",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.707851+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-2",
+      "event_order": 2,
+      "mastery_before": null,
+      "predicted_correct": 0.6666666666666666,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 2,
+      "recommendation": {
+        "suggested": null,
+        "reason": "dados_insuficientes",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.711724+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-3",
+      "event_order": 3,
+      "mastery_before": null,
+      "predicted_correct": 0.75,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 3,
+      "recommendation": {
+        "suggested": null,
+        "reason": "dados_insuficientes",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.715837+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-4",
+      "event_order": 4,
+      "mastery_before": null,
+      "predicted_correct": 0.8,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 4,
+      "recommendation": {
+        "suggested": null,
+        "reason": "dados_insuficientes",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.719561+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-5",
+      "event_order": 5,
+      "mastery_before": null,
+      "predicted_correct": 0.8333333333333334,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 5,
+      "recommendation": {
+        "suggested": "dificil",
+        "reason": "sugestao_exige_aceite",
+        "choice": "media",
+        "offer_id": "75e28da9-65ef-45aa-9358-6353397948bc"
+      },
+      "recorded_utc": "2026-11-11T19:17:34.723249+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-6",
+      "event_order": 6,
+      "mastery_before": null,
+      "predicted_correct": 0.8571428571428571,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 6,
+      "recommendation": {
+        "suggested": null,
+        "reason": "aguardar_intervalo",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.727135+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-7",
+      "event_order": 7,
+      "mastery_before": null,
+      "predicted_correct": 0.875,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 7,
+      "recommendation": {
+        "suggested": null,
+        "reason": "aguardar_intervalo",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.730928+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-8",
+      "event_order": 8,
+      "mastery_before": null,
+      "predicted_correct": 0.8888888888888888,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 8,
+      "recommendation": {
+        "suggested": null,
+        "reason": "aguardar_intervalo",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.735061+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-9",
+      "event_order": 9,
+      "mastery_before": null,
+      "predicted_correct": 0.9,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 9,
+      "recommendation": {
+        "suggested": null,
+        "reason": "aguardar_intervalo",
+        "choice": "media",
+        "offer_id": null
+      },
+      "recorded_utc": "2026-11-11T19:17:34.738793+00:00"
+    },
+    {
+      "student_id": "demo-enem",
+      "skill_namespace": "enem:MT",
+      "skill_id": "area",
+      "attempt_id": "resposta-10",
+      "event_order": 10,
+      "mastery_before": null,
+      "predicted_correct": 0.9090909090909091,
+      "mastery_posterior": null,
+      "mastery_updated": null,
+      "model_version": "bkt04-30361ce78521b2773929e5d0",
+      "eligibility": "fallback_required",
+      "eligibility_reasons": [
+        "mapeamento_ENEM_nao_validado"
+      ],
+      "strategy": "historico_suavizado",
+      "evidence_count": 10,
+      "recommendation": {
+        "suggested": "dificil",
+        "reason": "sugestao_exige_aceite",
+        "choice": "media",
+        "offer_id": "9f8a106c-7746-4fe0-bb67-020d207476be"
+      },
+      "recorded_utc": "2026-11-11T19:17:34.742438+00:00"
+    }
+  ],
+  "explicit_acceptance": {
+    "offer_id": "9f8a106c-7746-4fe0-bb67-020d207476be",
+    "accepted": true,
+    "choice": "dificil",
+    "student_id": "demo-enem"
+  },
+  "item_example": {
+    "level": "media",
+    "area": "MT",
+    "tri_b": 1.2,
+    "scale_id": "escala-demo",
+    "cutoffs_version": "historico_global",
+    "intervals": "b<=low; low<b<=high; b>high",
+    "is_student_mastery": false
+  }
+}

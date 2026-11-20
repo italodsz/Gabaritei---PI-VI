@@ -1,0 +1,11 @@
+test_canonical_and_difficulty_scope (test_operacional.OperationalTests.test_canonical_and_difficulty_scope) ... ok
+test_difficulty_keeps_small_or_tied_cohort_out (test_operacional.OperationalTests.test_difficulty_keeps_small_or_tied_cohort_out) ... ok
+test_partition_exhaustive (test_operacional.OperationalTests.test_partition_exhaustive) ... ok
+test_presentation_has_content_official_answer_and_files (test_operacional.OperationalTests.test_presentation_has_content_official_answer_and_files) ... ok
+test_rubric_and_gates (test_operacional.OperationalTests.test_rubric_and_gates) ... ok
+test_visual_repairs_and_existing_recoveries (test_operacional.OperationalTests.test_visual_repairs_and_existing_recoveries) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.407s
+
+OK

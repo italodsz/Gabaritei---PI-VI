@@ -1,0 +1,11 @@
+{
+  "epochs": [
+    0.5122506629770552,
+    0.4448169433801618
+  ],
+  "seconds": 31.378753299999516,
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "peak_allocated_bytes": 709329408,
+  "checkpoint_sha256": "729163f236228bafac9cf27b4a3ca154442e7697714621253967f581e5ef5aaf"
+}

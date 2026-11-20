@@ -1,0 +1,73 @@
+{
+  "config": {
+    "eligibility": {
+      "boundary_allowed": false,
+      "historical_categories": [
+        "A",
+        "B"
+      ],
+      "max_G_exclusive": 0.5,
+      "max_S_exclusive": 0.5,
+      "max_predictive_width": 0.1,
+      "max_skill_ece": 0.1,
+      "wide_parameter_allowed": false
+    },
+    "policies": {
+      "cooldowns": [
+        3,
+        5
+      ],
+      "initial_level": "media",
+      "levels": [
+        "facil",
+        "media",
+        "dificil"
+      ],
+      "margin": 0.05,
+      "minimum_observations": [
+        5,
+        10
+      ],
+      "objective_limit": "stability of suggestions only; no observed outcomes for recommended levels",
+      "selection_rule": "minimize reversals per evaluated opportunity, then changes, then prefer minimum_observations=5, cooldown=3, thresholds=0.35/0.75; reject configurations with response coverage below 0.5",
+      "selection_split": "validacao",
+      "student_acceptance_in_replay": "fixed preference, no automatic acceptance",
+      "threshold_pairs": [
+        [
+          0.35,
+          0.75
+        ],
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    "scope": "reprodução e análise posterior à avaliação original",
+    "statistics": {
+      "comparison": "BKT menos histórico suavizado",
+      "extreme_groups": {
+        "high": 0.9,
+        "low": 0.1
+      },
+      "interval": "percentile_2.5_97.5",
+      "replicates": 2000,
+      "seed": 20261111,
+      "unit": "student"
+    },
+    "version": "missao04_1.0"
+  },
+  "file_hashes": {
+    "bkt04/elegibilidade.py": "aa1a02a735e61615b8167233ba250861fdc05af3c7693922496166e3a1be0b26",
+    "bkt04/inferencia.py": "3e7bcd46dd9834618e8c768221496447148cc20862084597a5ca22b44aa8facf",
+    "bkt04/politica.py": "3f127b6eb1298f32e10f780e36fedc27fbd20ab024f19b46afeb7553ceea8834",
+    "comparar.py": "c8ec2292688b88dcf37b74a3cf59e0b631902476213848262d21c1a05869eaf6",
+    "comparar_politicas.py": "4b02a8d60d9b73312b46a7ac27ea2bddfe5533328dfabed39423dfd734eee535",
+    "config/experimento.json": "af73fb762bf032fe7cd52c10a4cfd1e37b66729aef7e149371674ad93090cc5a",
+    "references/identidade_logica.json": "34e062fd93a80c777b53312e533e860615edbe0e07339f8ce9d7b1f89e762a34",
+    "references/parametros_por_habilidade.json": "f219a3b2e2e5604e428fbe3d96bc823041fe208aa76c4722fa9b05d18106df05"
+  },
+  "status": "análise posterior ao teste original",
+  "timestamp_limit": "registro local não demonstra externamente a cronologia das Fases01–03",
+  "utc": "2026-11-11T17:53:58.678602+00:00"
+}

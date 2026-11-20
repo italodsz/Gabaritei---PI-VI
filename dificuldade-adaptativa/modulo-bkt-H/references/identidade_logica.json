@@ -1,0 +1,17 @@
+{
+  "events_sort": "source_row",
+  "file_sha256": {
+    "estudantes.jsonl": "4ea21a6d1c2bb1433430730d00ea4163c4138059201d3fa57aa5608ab3838046",
+    "eventos_teste.jsonl": "8b1d47b60597a76035337593a511aca621b51ce901e9fb0887e0f2aaba5c3e44",
+    "eventos_treino.jsonl": "97e0a8caf800f86012671aa5d50b09a01116802c322984e7cd2a37867c757caf",
+    "eventos_validacao.jsonl": "19b51e78c31b76e1c8084be022ffd129a09458da9344cb9dde2c86e793ed3bba",
+    "exclusoes.csv": "a40bf78e8eae0016872f31e9b4b3c3978ea75ff468f50fadb380645188088bcb",
+    "sequencias_teste.jsonl": "0c6b11289e3f4a40f818e152412cb00416b0ed40318b6d8d13cab67312a66e66",
+    "sequencias_treino.jsonl": "5e1d2156fd5fff13c27713d0c96e58f4e10a07616acb56dae9052de29dcb3432",
+    "sequencias_validacao.jsonl": "996bfd50025a58b2c206ad6fec4b4ffb32021d261f629defac19cb40ad129056"
+  },
+  "identity": "minimum_retained_global_order_per_student",
+  "sequences_sort": "numeric_skill_id, first_event_order",
+  "students": 4003,
+  "version": "canonical_1.0"
+}

@@ -1,0 +1,58 @@
+test_blocked_skills_use_fallback (test_engine.Engine.test_blocked_skills_use_fallback) ... ok
+test_concurrency_same_attempt (test_engine.Engine.test_concurrency_same_attempt) ... ERROR
+test_confirmed_frontend_contract_adapter (test_engine.Engine.test_confirmed_frontend_contract_adapter) ... C:\Python314\Lib\json\decoder.py:361: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x0000018C8C11F880>
+  obj, end = self.scan_once(s, idx)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_cross_student_collision_rejected (test_engine.Engine.test_cross_student_collision_rejected) ... ok
+test_cross_user_accept_rejected (test_engine.Engine.test_cross_user_accept_rejected) ... ok
+test_decline_preserves_choice (test_engine.Engine.test_decline_preserves_choice) ... ok
+test_explicit_acceptance_and_replay (test_engine.Engine.test_explicit_acceptance_and_replay) ... ok
+test_idempotency (test_engine.Engine.test_idempotency) ... ok
+test_idempotency_conflict (test_engine.Engine.test_idempotency_conflict) ... ok
+test_invalid_inputs_leave_no_state (test_engine.Engine.test_invalid_inputs_leave_no_state) ... ok
+test_isolation_namespace (test_engine.Engine.test_isolation_namespace) ... ok
+test_manual_choice_is_preserved (test_engine.Engine.test_manual_choice_is_preserved) ... ok
+test_model_version_isolates_state (test_engine.Engine.test_model_version_isolates_state) ... ok
+test_order_guard (test_engine.Engine.test_order_guard) ... ok
+test_stale_offer_rejected (test_engine.Engine.test_stale_offer_rejected) ... ok
+test_state_persists_restart (test_engine.Engine.test_state_persists_restart) ... ok
+test_transaction_rolls_back (test_engine.Engine.test_transaction_rolls_back) ... ok
+test_unknown_skill_uses_fallback (test_engine.Engine.test_unknown_skill_uses_fallback) ... ok
+
+======================================================================
+ERROR: test_concurrency_same_attempt (test_engine.Engine.test_concurrency_same_attempt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python314\Lib\shutil.py", line 701, in _rmtree_unsafe
+    os.unlink(fullname)
+    ~~~~~~~~~^^^^^^^^^^
+PermissionError: [WinError 32] O arquivo já está sendo usado por outro processo: 'C:\\Users\\Darkz\\AppData\\Local\\Temp\\tmpj3z1td56\\state.sqlite'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Darkz\Downloads\Gabaritei_BKT_Missao04_Integracao_Auditada\tests\D_integracao\test_engine.py", line 25, in tearDown
+    self.tmp.cleanup()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\tempfile.py", line 975, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\tempfile.py", line 955, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 852, in rmtree
+    _rmtree_impl(path, dir_fd, onexc)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 705, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\tempfile.py", line 930, in onexc
+    _os.unlink(path)
+    ~~~~~~~~~~^^^^^^
+PermissionError: [WinError 32] O arquivo já está sendo usado por outro processo: 'C:\\Users\\Darkz\\AppData\\Local\\Temp\\tmpj3z1td56\\state.sqlite'
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.571s
+
+FAILED (errors=1)

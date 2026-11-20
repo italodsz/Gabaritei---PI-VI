@@ -1,0 +1,130 @@
+{
+  "revision": "e6712a8a6b4bffffadbe75bd4e8d520ec7628e4d",
+  "sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "total": 3086,
+  "por_ano": {
+    "2009": 174,
+    "2010": 170,
+    "2011": 181,
+    "2012": 183,
+    "2013": 181,
+    "2014": 180,
+    "2015": 288,
+    "2016": 290,
+    "2017": 179,
+    "2018": 182,
+    "2019": 180,
+    "2020": 179,
+    "2021": 178,
+    "2022": 177,
+    "2023": 180,
+    "2024": 184
+  },
+  "por_area": {
+    "CH": 780,
+    "CN": 744,
+    "LC": 835,
+    "MT": 727
+  },
+  "elegiveis": {
+    "train": 2382,
+    "validation": 175,
+    "test": 174
+  },
+  "elegiveis_total": 2731,
+  "fora_elegiveis": 355,
+  "tri_completa": 3086,
+  "tri_b_finito": 3086,
+  "sem_habilidade": 195,
+  "sem_assunto_predito": 682,
+  "revisao_pedagogica": {
+    "rule_generated_unreviewed": 2962,
+    "absent": 124
+  },
+  "descricoes": 1152,
+  "questoes_com_descricoes": 759,
+  "descricoes_habilitadas": 629,
+  "questoes_descricoes_habilitadas": 588,
+  "fontes_descricoes": {
+    "candido-ai/enem-ocr": 290,
+    "inep_caderno_ledor_2009": 55,
+    "inep_caderno_ledor_2011": 49,
+    "inep_caderno_ledor_2012": 49,
+    "inep_caderno_ledor_2013": 41,
+    "inep_caderno_ledor_2016": 59,
+    "inep_caderno_ledor_2017": 68,
+    "inep_caderno_ledor_2018": 57,
+    "tardellirs/enem-audiodescricao": 342,
+    "enem.dev/enem-api cross-checked against official INEP caderno": 8,
+    "maritaca-ai/enem": 134
+  },
+  "exemplo_descricao": {
+    "asset_id": "c37e89717611582d78b9b8b08124cd3585a68b0564eba05735fb77967b7b4d56",
+    "association_basis": "year_position_answer_plus_text_jaccard",
+    "id": "desc_f8a36b10f44fc16d3089078c",
+    "origin": "VLM_generated_unreviewed",
+    "question_id": "gq_595bc1f917aef926877b9cd3",
+    "reviewed": false,
+    "source": "candido-ai/enem-ocr",
+    "source_index": 0,
+    "text": "O elemento visual é um mapa dividido em duas partes principais: um mapa maior da região sudeste e centro-oeste do Brasil e um detalhe ampliado de uma área específica do mapa maior, localizada na parte sul.\n\nNo mapa maior, há três tipos de áreas demarcadas com diferentes padrões de sombreamento e linhas:\n\n1. Uma linha contínua representa a \"Fronteira do Tratado de Tordesilhas (1494)\". Essa linha atravessa o mapa verticalmente, separando áreas à esquerda e à direita.\n\n2. Uma área sombreada com linhas horizontais representa o \"Território português conforme o Tratado de Tordesilhas\".\n\n3. Uma área sombreada em cinza escuro representa o \"Território português com base no Tratado de Madri (1750)\".\n\n4. Uma linha tracejada representa a \"Fronteira do Tratado de San Ildefonso (1778)\".\n\nNo mapa maior, estão indicados vários rios e cidades importantes, como:\n\n- Rios: R. Negro, R. Japurá, R. Solimões, R. Madeira, R. Guaporé, R. Paraguai, R. Uruguai, R. Paraná.\n- Cidades: Belém, São Luís, Recife, Salvador, Vitória, Rio de Janeiro, São Paulo, Cuiabá, Vila Rica, Laguna, Porto Belo.\n\nNa parte inferior do mapa maior, há um retângulo que destaca a região sul do Brasil, onde está localizada a cidade de Laguna, próxima à costa.\n\nO mapa menor, que é um zoom da área destacada no retângulo do mapa maior, mostra com mais detalhes a região próxima a Laguna, incluindo os rios Paraná e Uruguai. Nessa ampliação, a área sombreada em cinza escuro está delimitada por uma linha pontilhada, indicando uma fronteira ou limite específico dentro dessa região.\n\nNo canto superior direito do mapa maior, há uma escala gráfica que indica distâncias de 0 a 1000 km e de 0 a 500 milhas, permitindo a medição aproximada das distâncias no mapa.\n\nEm resumo, o mapa ilustra as mudanças territoriais do Brasil com base em diferentes tratados históricos (Tordesilhas, Madri e San Ildefonso), mostrando como as fronteiras e territórios portugueses foram alterados ao longo do tempo, com destaque para a região sul do país.",
+    "text_jaccard": 0.729412
+  },
+  "comparacao_anterior": {
+    "total_anterior": 3086,
+    "adicionadas": 0,
+    "removidas": 0,
+    "alteradas": 626,
+    "campos_alterados": {
+      "descriptions": 624,
+      "quality_review": 626,
+      "question": 427,
+      "ready_text": 168,
+      "options": 4
+    },
+    "elegiveis_antes": 2563,
+    "elegiveis_adicionadas": 168,
+    "elegiveis_removidas": 0,
+    "tri_alterada": 0
+  },
+  "comparacao_base_recomendador_antiga": {
+    "total": 2971,
+    "novos_ids": 124,
+    "ids_removidos": 9
+  },
+  "splits": {
+    "train": {
+      "arquivo_total": 2737,
+      "elegiveis": 2382,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    },
+    "validation": {
+      "arquivo_total": 175,
+      "elegiveis": 175,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    },
+    "test": {
+      "arquivo_total": 174,
+      "elegiveis": 174,
+      "elegiveis_ausentes_arquivo": 0,
+      "divergencias_com_base": 0,
+      "split_incorreto": 0
+    }
+  },
+  "checks": {
+    "ids_unicos": true,
+    "sha256_igual_aviso": true,
+    "elegiveis_existem": true,
+    "elegiveis_sem_repeticao": true,
+    "opcoes_e_gabaritos": true,
+    "tri_completa_todos": true,
+    "dominio_tri_a_c": true,
+    "splits_coerentes": true
+  },
+  "ids_opcoes_invalidas": [],
+  "ids_tri_invalidos": []
+}

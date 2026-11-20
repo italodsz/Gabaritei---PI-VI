@@ -1,0 +1,17 @@
+{
+  "ENEM_pedagogical_validation": false,
+  "difficulty_policy_superiority": "não demonstrada",
+  "eligible_skills": 20,
+  "fallback_skills": 36,
+  "global_ci95": [
+    -0.02184935861115191,
+    -0.011459023545817858
+  ],
+  "global_delta_log_loss": -0.01696852756662228,
+  "historical_external_timestamp": "pendente",
+  "real_app_integration": false,
+  "tests": {
+    "aprovado": 44
+  },
+  "verdict": "APROVADO_COM_RESSALVAS_NO_MODULO_INDEPENDENTE"
+}

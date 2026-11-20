@@ -1,0 +1,47 @@
+{
+  "paired_f1_bert_minus_deberta": 0.09695259267596407,
+  "paired_ci95": [
+    0.013917365915523864,
+    0.1746032887206936
+  ],
+  "bootstrap_replicates": 2000,
+  "seed": 42,
+  "slices": {
+    "bert": {
+      "near_cut": {
+        "n": 25,
+        "correct": 9
+      },
+      "far_cut": {
+        "n": 111,
+        "correct": 69
+      },
+      "long": {
+        "n": 68,
+        "correct": 42
+      },
+      "short": {
+        "n": 68,
+        "correct": 36
+      }
+    },
+    "deberta": {
+      "near_cut": {
+        "n": 25,
+        "correct": 8
+      },
+      "far_cut": {
+        "n": 111,
+        "correct": 63
+      },
+      "long": {
+        "n": 68,
+        "correct": 39
+      },
+      "short": {
+        "n": 68,
+        "correct": 32
+      }
+    }
+  }
+}

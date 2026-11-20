@@ -1,0 +1,14 @@
+python -B -m experiments.fase_02_comparar ../base-oficial/Dataset/base_trabalho --qwen-cuda --bge-cuda
+minilm/embedding/multiclass 0.471 [0.0, 0.0]
+qwen06/embedding/multiclass 0.4548 [-0.10247586275818432, 0.08750569046258834]
+minilm/both/ordinal 0.4545 [-0.08212541086121442, 0.051157431915173024]
+qwen06/embedding/ordinal 0.4498 [-0.1173360001227259, 0.0724073764621785]
+qwen06/structure/multiclass 0.4451 [-0.1244399375950753, 0.08384521936735187]
+bge/embedding/multiclass 0.435 [-0.1263928770289615, 0.056506941339887706]
+qwen06/structure/ridge_b 0.4235 [-0.15179275819053897, 0.05738660119114284]
+minilm/both/multiclass 0.4235 [-0.1068711177328097, 0.013625986658970204]
+minilm/area/ordinal 0.419 [-0.1180905361720123, 0.016083248690265835]
+minilm/structure/multiclass 0.4184 [-0.10896880806223676, 0.007392175670441168]
+qualified: []
+missing encoders: []
+exit=0 seconds=124.0126271

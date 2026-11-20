@@ -1,0 +1,8 @@
+id;parecer_preliminar;assunto_sugerido;subassunto_sugerido;evidencia;status
+gq_c87dd2ed68fa240ec1be74da;Sinal geométrico incidental;História;Gália merovíngia e resposta à fome;O comando pede a jurisdição responsável pela crise alimentar. A palavra ângulo tem sentido figurado.;revisao_humana_pendente
+gq_e8363d3047e31df1126d9c4d;Rótulo plausível e subassunto amplo;História da ciência;Revolução Científica e Galileu;O comando pede a posição de Galileu na Revolução Científica. Figuras geométricas aparecem na passagem citada.;revisao_humana_pendente
+gq_eb9453268a69429204393a65;Rótulo plausível e subassunto amplo;Física;Óptica atmosférica e refração;O comando pede o mecanismo óptico da miragem Fata Morgana.;revisao_humana_pendente
+gq_a179e264c4ea7c0e64122cc7;Possível multirrótulo;Química e Física;Termoquímica e estequiometria de combustão;É preciso comparar calor liberado por mol de CO₂ para diferentes combustíveis.;revisao_humana_pendente
+gq_fe2e5418fc4a0d548f9f7894;Sinal estatístico em distrator;Leitura;Efeitos de sentido de formas verbais em artigo de opinião;O comando pergunta pela função das formas verbais. Probabilidade aparece numa alternativa.;revisao_humana_pendente
+gq_e898766ae6adc513f38c0641;Provável classificação temática incorreta;Probabilidade e estatística;Variância e conversão de unidades;O alvo explícito é a variância. A área do talhão é usada na conversão de unidades.;revisao_humana_pendente
+gq_ea684bcd1c7c9b9e224fccbc;Possível multirrótulo;Funções e Geometria analítica;Representação gráfica da equação de Hill;O comando pede identificar o tipo de curva de uma equação. Álgebra e leitura geométrica são pertinentes.;revisao_humana_pendente

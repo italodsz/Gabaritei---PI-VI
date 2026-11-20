@@ -1,0 +1,157 @@
+[
+  {
+    "area": "CH",
+    "topic_inferred": "Economia",
+    "subtopics_inferred": [
+      "Produção e relações econômicas"
+    ]
+  },
+  {
+    "area": "CH",
+    "topic_inferred": "Filosofia",
+    "subtopics_inferred": [
+      "Ética, política e conhecimento"
+    ]
+  },
+  {
+    "area": "CH",
+    "topic_inferred": "Geografia",
+    "subtopics_inferred": [
+      "Ambiente e recursos naturais",
+      "Espaço, território e população"
+    ]
+  },
+  {
+    "area": "CH",
+    "topic_inferred": "História",
+    "subtopics_inferred": [
+      "Brasil e formação histórica",
+      "História mundial"
+    ]
+  },
+  {
+    "area": "CH",
+    "topic_inferred": "Sociologia",
+    "subtopics_inferred": [
+      "Sociedade, cultura e trabalho"
+    ]
+  },
+  {
+    "area": "CN",
+    "topic_inferred": "Biologia",
+    "subtopics_inferred": [
+      "Ecologia",
+      "Fisiologia e saúde",
+      "Genética e evolução"
+    ]
+  },
+  {
+    "area": "CN",
+    "topic_inferred": "Física",
+    "subtopics_inferred": [
+      "Eletricidade e magnetismo",
+      "Mecânica",
+      "Ondas, óptica e som",
+      "Termologia"
+    ]
+  },
+  {
+    "area": "CN",
+    "topic_inferred": "Química",
+    "subtopics_inferred": [
+      "Química orgânica",
+      "Transformações e propriedades da matéria"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Artes",
+    "subtopics_inferred": [
+      "Artes e manifestações culturais"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Educação física",
+    "subtopics_inferred": [
+      "Corpo, esporte e movimento"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Gramática",
+    "subtopics_inferred": [
+      "Recursos linguísticos"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Leitura",
+    "subtopics_inferred": [
+      "Interpretação e efeitos de sentido"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Linguística",
+    "subtopics_inferred": [
+      "Variação e usos da língua"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Literatura",
+    "subtopics_inferred": [
+      "Literatura e estilos"
+    ]
+  },
+  {
+    "area": "LC",
+    "topic_inferred": "Tecnologias",
+    "subtopics_inferred": [
+      "Comunicação e cultura digital"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Geometria",
+    "subtopics_inferred": [
+      "Geometria plana e espacial"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Grandezas e medidas",
+    "subtopics_inferred": [
+      "Escalas e proporcionalidade"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Matemática financeira",
+    "subtopics_inferred": [
+      "Razões, porcentagem e juros"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Números",
+    "subtopics_inferred": [
+      "Aritmética"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Probabilidade e estatística",
+    "subtopics_inferred": [
+      "Dados e incerteza"
+    ]
+  },
+  {
+    "area": "MT",
+    "topic_inferred": "Álgebra",
+    "subtopics_inferred": [
+      "Funções e equações"
+    ]
+  }
+]

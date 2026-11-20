@@ -1,0 +1,2519 @@
+{
+  "total": 8,
+  "falhas": 0,
+  "erros": 0,
+  "bloqueados": [
+    {
+      "teste": "test_C_granularidade_bloqueada (__main__.Functional.test_C_granularidade_bloqueada)",
+      "motivo": "C bloqueado documentalmente. MT sem faixa e sem par válido por assunto."
+    }
+  ],
+  "params_bkt_antes_depois": [
+    0.7275085699683296,
+    0.0511296795969948,
+    0.30865529308097295,
+    0.20001032161715282
+  ],
+  "hashes": {
+    "catalogo_adaptativo_operacional\\catalogo_adaptativo_pronto.jsonl": "467a4049a1ddfe080e0e8538e3104383f2554797557c78b4a8952b7f2c6b7276",
+    "correcao_adaptativa\\revisao_operacional_bkt\\itens_por_categoria.csv": "295a04f0a890cfda479ce6e0e3c52eafc3851b06732fa3cd9fa81924d631690a",
+    "correcao_adaptativa\\revisao_operacional_bkt\\fixtures.json": "9d05e1e525e970271a7f6f4a3cdef8bb8d5fa1846e1be5f0ccd92620bfface93",
+    "correcao_adaptativa\\rodada.py": "4bf19db57643a78afee037f2e43ac683bb3b4a28ca85ef49925f0baa8a14e31c",
+    "viabilidade\\fechamento.json": "634f10645ade7e7a32284a0a57d62c113d0f65d803d5a5dde76216aedee1be56",
+    "validacao_adaptativa\\protocolo.json": "610271afeba31eb7fb33cce2998e17e52209ed861c5c9a352ffcbcbbb22cb6b5",
+    "correcao_adaptativa\\teste_offline_bkt_margem\\protocolo.json": "c939754dc49577a630b35a8147f20cc7a73cd80a57afd47801219a050eb5f584"
+  },
+  "ids_por_resultado": {
+    "indisponivel_catalogo": [
+      "gq_acf5d212cc9ae8ac21b8be08",
+      "gq_b4c92a2d71ec0a4978435baa",
+      "gq_e898766ae6adc513f38c0641"
+    ],
+    "fora_da_escala": [
+      "gq_d6ad4166499f155e8689d461"
+    ],
+    "fora_da_area": [
+      "gq_23f08c13463322047535c93a"
+    ],
+    "revisao_invalida": [
+      "gq_058f81f7ff570a5b38d9df74"
+    ],
+    "metadado_divergente": [
+      "gq_058f81f7ff570a5b38d9df74"
+    ],
+    "atualizou_bkt": [
+      "gq_058f81f7ff570a5b38d9df74",
+      "gq_1100ada241f62157d3e81fc6",
+      "gq_1b3f424e3ce202691f81fc6d",
+      "gq_271e5bd89008dd80b4268b3d",
+      "gq_38eec9d5fe2b532d9d41b84e",
+      "gq_61ea7f1972f055ee85c9e262",
+      "gq_7bf8498d5abf84381d3889a5",
+      "gq_81b8f40361ec3b511a0e5859",
+      "gq_8e6e20d51e357741f99d7b3b",
+      "gq_9ac48bb522c1cbb226dac8f9"
+    ],
+    "somente_pratica": [
+      "gq_23f08c13463322047535c93a",
+      "gq_791c9febff7c0040732f2775"
+    ],
+    "historico_contextual": [
+      "gq_ce3c79382005b3009d018ca2"
+    ],
+    "repeticao": [
+      "gq_058f81f7ff570a5b38d9df74",
+      "gq_acf5d212cc9ae8ac21b8be08"
+    ]
+  },
+  "trilha": [
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_b4c92a2d71ec0a4978435baa",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_5c2997bb2efca7d6f0a247b5",
+        0
+      ],
+      "saida": "indisponivel_catalogo",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_d6ad4166499f155e8689d461",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2020/567/CH",
+        "gq_d6ad4166499f155e8689d461",
+        0
+      ],
+      "saida": "fora_da_escala",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_e898766ae6adc513f38c0641",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_e898766ae6adc513f38c0641",
+        0
+      ],
+      "saida": "indisponivel_catalogo",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_23f08c13463322047535c93a",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_23f08c13463322047535c93a",
+        0
+      ],
+      "saida": "fora_da_area",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "errada",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "revisao_invalida",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "divergente",
+        0
+      ],
+      "saida": "metadado_divergente",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_A_elegibilidade",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "preflight",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b"
+        ],
+        "escala": "2018/451/CH",
+        "mistura_autorizada": true
+      },
+      "saida": {
+        "motivo": "diagnostico_disponivel",
+        "familias_disponiveis": 10
+      },
+      "antes": null,
+      "depois": null,
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "preflight",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "escala": "2018/451/CH",
+        "mistura_autorizada": false
+      },
+      "saida": {
+        "motivo": "inventario_diagnostico_insuficiente",
+        "familias_disponiveis": 7
+      },
+      "antes": null,
+      "depois": null,
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "preflight",
+      "entrada": {
+        "ids": [
+          "gq_2bfcce13287daa55e2bb19f0",
+          "gq_3125b571acbf235aa0404345",
+          "gq_5a6a939d86041f5fbc50f593",
+          "gq_8e02cd343996be5334fc34c5",
+          "gq_9a1a342fc3e0955f2602bdfc",
+          "gq_9e234b4e26a951c2cee61043",
+          "gq_a820295fd29ecbe956efd607",
+          "gq_cdd04d8145703f8bb8275e23",
+          "gq_d58744d22fdb11f8f2ee63a6"
+        ],
+        "escala": "2020/597/CN",
+        "mistura_autorizada": true
+      },
+      "saida": {
+        "motivo": "inventario_diagnostico_insuficiente",
+        "familias_disponiveis": 9
+      },
+      "antes": null,
+      "depois": null,
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "diagnostico_em_curso"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.7977205696071301,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "diagnostico_em_curso"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.7977205696071301,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.7977205696071301,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.7977205696071301,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.8995778016456338,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.8995778016456338,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.8041510087626408,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "diagnostico_em_curso"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.8041510087626408,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.8041510087626408,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.8041510087626408,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.8578738852787636,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "diagnostico_em_curso"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.8578738852787636,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.8578738852787636,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_271e5bd89008dd80b4268b3d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_271e5bd89008dd80b4268b3d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.8578738852787636,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 5,
+        "evidencia_bkt": 5,
+        "historico_geral": 5,
+        "dominio": 0.6116632704745484,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_7bf8498d5abf84381d3889a5",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_7bf8498d5abf84381d3889a5",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 5,
+        "evidencia_bkt": 5,
+        "historico_geral": 5,
+        "dominio": 0.6116632704745484,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 6,
+        "evidencia_bkt": 6,
+        "historico_geral": 6,
+        "dominio": 0.43386622466863534,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_9ac48bb522c1cbb226dac8f9",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_9ac48bb522c1cbb226dac8f9",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 6,
+        "evidencia_bkt": 6,
+        "historico_geral": 6,
+        "dominio": 0.43386622466863534,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 7,
+        "evidencia_bkt": 7,
+        "historico_geral": 7,
+        "dominio": 0.5392614239565235,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_61ea7f1972f055ee85c9e262",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_61ea7f1972f055ee85c9e262",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 7,
+        "evidencia_bkt": 7,
+        "historico_geral": 7,
+        "dominio": 0.5392614239565235,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 8,
+        "evidencia_bkt": 8,
+        "historico_geral": 8,
+        "dominio": 0.7294740427997027,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_81b8f40361ec3b511a0e5859",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_81b8f40361ec3b511a0e5859",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 8,
+        "evidencia_bkt": 8,
+        "historico_geral": 8,
+        "dominio": 0.7294740427997027,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 9,
+        "evidencia_bkt": 9,
+        "historico_geral": 9,
+        "dominio": 0.5601757038014002,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_8e6e20d51e357741f99d7b3b",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_8e6e20d51e357741f99d7b3b",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 9,
+        "evidencia_bkt": 9,
+        "historico_geral": 9,
+        "dominio": 0.5601757038014002,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 10,
+        "evidencia_bkt": 10,
+        "historico_geral": 10,
+        "dominio": 0.2726572472629694,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_B_diagnostico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 10,
+        "evidencia_bkt": 10,
+        "historico_geral": 10,
+        "dominio": 0.2726572472629694,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 10,
+        "evidencia_bkt": 10,
+        "historico_geral": 10,
+        "dominio": 0.2726572472629694,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_C_granularidade_bloqueada",
+      "operacao": "documental",
+      "entrada": [
+        "gq_ce3c79382005b3009d018ca2",
+        "gq_087542e7f5c9edb569864da4",
+        "gq_ff45cc53c65a22fb9fb6c2b5"
+      ],
+      "saida": {
+        "status": "BLOQUEADO",
+        "motivo": "sem faixa local MT"
+      },
+      "antes": null,
+      "depois": null,
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_D_quatro_transicoes",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_D_quatro_transicoes",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.7977205696071301,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_D_quatro_transicoes",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.557830159401574,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_D_quatro_transicoes",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        1
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.9157782006145729,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_E_ausencias",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.42087422250395723,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_E_ausencias",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_23f08c13463322047535c93a",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_23f08c13463322047535c93a",
+        0
+      ],
+      "saida": "somente_pratica",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_E_ausencias",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_23f08c13463322047535c93a"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "sem_candidatos_elegiveis"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_E_ausencias",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_ce3c79382005b3009d018ca2",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_ce3c79382005b3009d018ca2",
+        0
+      ],
+      "saida": "historico_contextual",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_F_repeticao",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_F_repeticao",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        1
+      ],
+      "saida": "repeticao",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_F_repeticao",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_acf5d212cc9ae8ac21b8be08",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_791c9febff7c0040732f2775",
+        0
+      ],
+      "saida": "indisponivel_catalogo",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_F_repeticao",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_791c9febff7c0040732f2775",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_791c9febff7c0040732f2775",
+        0
+      ],
+      "saida": "somente_pratica",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_F_repeticao",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_acf5d212cc9ae8ac21b8be08",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "",
+        "gq_791c9febff7c0040732f2775",
+        0
+      ],
+      "saida": "repeticao",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 1,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "offline:1",
+        "errada",
+        true,
+        [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "oferta_invalida",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "errado",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        true,
+        [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "oferta_invalida",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "offline:1",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        false,
+        [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "recusada",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "offline:1",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        true,
+        [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "aceita",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 0,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "escolha_manual",
+      "entrada": 1,
+      "saida": 1,
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "offline:1",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        true,
+        [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "oferta_invalida",
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_058f81f7ff570a5b38d9df74",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_G_preferencia_e_aceite",
+      "operacao": "aceite",
+      "entrada": [
+        "offline:1",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        true,
+        [
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      ],
+      "saida": "faixa_sugerida_indisponivel",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_058f81f7ff570a5b38d9df74"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "historico_insuficiente"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_058f81f7ff570a5b38d9df74"
+        ],
+        "revisao": "errada"
+      },
+      "saida": {
+        "motivo": "revisao_invalida"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "motivo": "sem_candidatos_elegiveis"
+      },
+      "antes": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 1,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_058f81f7ff570a5b38d9df74",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_058f81f7ff570a5b38d9df74",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 0,
+        "evidencia_bkt": 0,
+        "historico_geral": 0,
+        "dominio": 0.7275085699683296,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1100ada241f62157d3e81fc6",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1100ada241f62157d3e81fc6",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 1,
+        "evidencia_bkt": 1,
+        "historico_geral": 1,
+        "dominio": 0.3279868821512643,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_1b3f424e3ce202691f81fc6d",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_1b3f424e3ce202691f81fc6d",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 2,
+        "evidencia_bkt": 2,
+        "historico_geral": 2,
+        "dominio": 0.15030127531755763,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "resposta",
+      "entrada": [
+        "gq_38eec9d5fe2b532d9d41b84e",
+        "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "2018/451/CH",
+        "gq_38eec9d5fe2b532d9d41b84e",
+        0
+      ],
+      "saida": "atualizou_bkt",
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 3,
+        "evidencia_bkt": 3,
+        "historico_geral": 3,
+        "dominio": 0.11808733123375578,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "origem": "simulacao"
+    },
+    {
+      "teste": "test_J_contrato_semantico",
+      "operacao": "avaliar",
+      "entrada": {
+        "ids": [
+          "gq_d729403b0e500b7ef02bef0a",
+          "gq_f729cb7cf7dd4324e0ef7f04",
+          "gq_f48826b7e3f3c0d99f429166",
+          "gq_e097a5827000e7601c22e1f0",
+          "gq_d01c42794cf6594ef85ae147",
+          "gq_c49c8bc2cde16869b3fc651d",
+          "gq_bf5c29c68f1520ba452acce4",
+          "gq_be609f7feaac078267ef2d54",
+          "gq_9ac48bb522c1cbb226dac8f9",
+          "gq_95b079a54fa85757882f8f7f",
+          "gq_8fb472f65da36859f69d6737",
+          "gq_8e6e20d51e357741f99d7b3b",
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_7bf8498d5abf84381d3889a5",
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_38eec9d5fe2b532d9d41b84e",
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_1b3f424e3ce202691f81fc6d",
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_058f81f7ff570a5b38d9df74"
+        ],
+        "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "saida": {
+        "nivel": 0,
+        "motivo": "margem_atingida",
+        "versao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51:bkt_politica_1_4_0.09:bkt",
+        "oferta_id": "offline:1"
+      },
+      "antes": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": null
+      },
+      "depois": {
+        "preferencia": 2,
+        "evidencia_elegivel": 4,
+        "evidencia_bkt": 4,
+        "historico_geral": 4,
+        "dominio": 0.07033826973830805,
+        "oferta": "offline:1"
+      },
+      "origem": "simulacao"
+    }
+  ]
+}

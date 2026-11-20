@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="Inter, Arial, sans-serif">
+  <rect width="560" height="300" fill="#FFFEFB"/>
+  <g fill="none" stroke="#29332F" stroke-width="3" stroke-linejoin="round">
+    <path d="M 100 150 L 100 60 L 220 60"/>
+    <path d="M 340 60 L 460 60 L 460 150"/>
+    <path d="M 460 190 L 460 240 L 100 240 L 100 190"/>
+    <path d="M 220 60 l 12 -16 l 16 32 l 16 -32 l 16 32 l 16 -32 l 16 32 l 16 -32 l 12 16"/>
+  </g>
+  <line x1="80" y1="150" x2="120" y2="150" stroke="#29332F" stroke-width="3"/>
+  <line x1="88" y1="170" x2="112" y2="170" stroke="#29332F" stroke-width="6"/>
+  <line x1="100" y1="170" x2="100" y2="190" stroke="#29332F" stroke-width="3"/>
+  <circle cx="460" cy="170" r="22" fill="#F5E9C4" stroke="#B98F22" stroke-width="3"/>
+  <text x="460" y="177" font-size="18" font-weight="800" fill="#8A6612" text-anchor="middle">A</text>
+  <text x="280" y="34" font-size="15" font-weight="700" fill="#29332F" text-anchor="middle">R</text>
+  <text x="52" y="166" font-size="15" font-weight="700" fill="#29332F" text-anchor="middle">U</text>
+  <text x="140" y="146" font-size="13" fill="#57615B">+</text>
+  <text x="140" y="182" font-size="13" fill="#57615B">−</text>
+  <text x="280" y="276" font-size="12" fill="#7F877F" text-anchor="middle">fonte (U) · resistor (R) · amperímetro (A)</text>
+</svg>

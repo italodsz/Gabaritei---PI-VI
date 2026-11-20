@@ -1,0 +1,6 @@
+08/11/2026
+O PDF vinculado pela página institucional retornou erro HTTP e falha de conexão. Dois endereços alternativos oficiais do INEP forneceram PDFs, conforme matriz_inep_referencias.md.
+A primeira execução da seleção falhou ao converter o TRI de um CSV anterior, cujo valor negativo tinha apóstrofo de proteção para planilhas. O script foi corrigido para usar os parâmetros numéricos da base JSONL e manter o status de conferência anterior. A regra de cautela foi aplicada sem conversão textual.
+A expressão de referências de contexto foi corrigida para usar limites de palavras. A triagem e os testes foram executados novamente.
+A primeira reprodução em cópia isolada falhou na verificação do hash, pois o git archive gravou quebras de linha CRLF. A normalização para LF foi aplicada apenas durante a leitura. O arquivo original foi preservado.
+A cópia local oferece o contrato da interface e uma simulação. O código e o índice semântico final não foram localizados nos arquivos examinados.

@@ -1,0 +1,33 @@
+{
+  "version": "missao04_1.0",
+  "scope": "reprodução e análise posterior à avaliação original",
+  "statistics": {
+    "comparison": "BKT menos histórico suavizado",
+    "replicates": 2000,
+    "seed": 20261111,
+    "interval": "percentile_2.5_97.5",
+    "unit": "student",
+    "extreme_groups": {"low": 0.1, "high": 0.9}
+  },
+  "eligibility": {
+    "max_G_exclusive": 0.5,
+    "max_S_exclusive": 0.5,
+    "boundary_allowed": false,
+    "wide_parameter_allowed": false,
+    "max_predictive_width": 0.1,
+    "max_skill_ece": 0.1,
+    "historical_categories": ["A", "B"]
+  },
+  "policies": {
+    "levels": ["facil", "media", "dificil"],
+    "threshold_pairs": [[0.35,0.75],[0.4,0.8]],
+    "minimum_observations": [5,10],
+    "cooldowns": [3,5],
+    "margin": 0.05,
+    "initial_level": "media",
+    "selection_split": "validacao",
+    "selection_rule": "minimize reversals per evaluated opportunity, then changes, then prefer minimum_observations=5, cooldown=3, thresholds=0.35/0.75; reject configurations with response coverage below 0.5",
+    "student_acceptance_in_replay": "fixed preference, no automatic acceptance",
+    "objective_limit": "stability of suggestions only; no observed outcomes for recommended levels"
+  }
+}

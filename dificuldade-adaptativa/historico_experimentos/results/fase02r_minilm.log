@@ -1,0 +1,18 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 199/199 [00:00<00:00, 13306.97it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+minilm train 8 / 1801
+minilm train 328 / 1801
+minilm train 648 / 1801
+minilm train 968 / 1801
+minilm train 1288 / 1801
+minilm train 1608 / 1801
+minilm validation 8 / 136
+exit=0

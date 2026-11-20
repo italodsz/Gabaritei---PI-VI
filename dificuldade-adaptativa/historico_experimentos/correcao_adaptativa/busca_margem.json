@@ -1,0 +1,699 @@
+{
+  "tune": [
+    461,
+    463,
+    467
+  ],
+  "test_seeds": [
+    479,
+    487,
+    491,
+    499,
+    503,
+    509
+  ],
+  "selection_false_change_max": 0.1,
+  "selected": "bkt_politica_1_4_0.09",
+  "configs": {
+    "bkt_politica_1_4_0.04": [
+      1,
+      4,
+      2,
+      0.04
+    ],
+    "bkt_politica_1_4_0.09": [
+      1,
+      4,
+      2,
+      0.09
+    ],
+    "bkt_politica_1_4_0.14": [
+      1,
+      4,
+      2,
+      0.14
+    ],
+    "bkt_politica_1_4_0.19": [
+      1,
+      4,
+      2,
+      0.19
+    ],
+    "bkt_politica_1_6_0.04": [
+      1,
+      6,
+      2,
+      0.04
+    ],
+    "bkt_politica_1_6_0.09": [
+      1,
+      6,
+      2,
+      0.09
+    ],
+    "bkt_politica_1_6_0.14": [
+      1,
+      6,
+      2,
+      0.14
+    ],
+    "bkt_politica_1_6_0.19": [
+      1,
+      6,
+      2,
+      0.19
+    ],
+    "bkt_politica_2_4_0.04": [
+      2,
+      4,
+      2,
+      0.04
+    ],
+    "bkt_politica_2_4_0.09": [
+      2,
+      4,
+      2,
+      0.09
+    ],
+    "bkt_politica_2_4_0.14": [
+      2,
+      4,
+      2,
+      0.14
+    ],
+    "bkt_politica_2_4_0.19": [
+      2,
+      4,
+      2,
+      0.19
+    ],
+    "bkt_politica_2_6_0.04": [
+      2,
+      6,
+      2,
+      0.04
+    ],
+    "bkt_politica_2_6_0.09": [
+      2,
+      6,
+      2,
+      0.09
+    ],
+    "bkt_politica_2_6_0.14": [
+      2,
+      6,
+      2,
+      0.14
+    ],
+    "bkt_politica_2_6_0.19": [
+      2,
+      6,
+      2,
+      0.19
+    ]
+  },
+  "development_closed": {
+    "bkt_politica_1_4_0.04": [
+      {
+        "accuracy": 0.5281207133058985,
+        "outside": 0.5158893461362597,
+        "offers": 0.2705761316872428,
+        "false_change": 0.14708835341365462,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5759847148736038,
+        "accepted_changes": 1586,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.5051440329218106,
+        "outside": 0.4515317786922725,
+        "offers": 0.24051211705532693,
+        "false_change": 0.12429811128126596,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5490887713109935,
+        "accepted_changes": 1404,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_4_0.09": [
+      {
+        "accuracy": 0.5122313671696388,
+        "outside": 0.5291495198902606,
+        "offers": 0.20941929583904892,
+        "false_change": 0.0984688489968321,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5545267489711934,
+        "accepted_changes": 1218,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.4897119341563786,
+        "outside": 0.4670781893004115,
+        "offers": 0.18941472336534065,
+        "false_change": 0.09028146574614976,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5286596119929453,
+        "accepted_changes": 1110,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_4_0.14": [
+      {
+        "accuracy": 0.45004572473708276,
+        "outside": 0.594421582075903,
+        "offers": 0.13625971650663007,
+        "false_change": 0.06461086637298091,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4772192827748383,
+        "accepted_changes": 796,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.41163694558756286,
+        "outside": 0.5396662094192959,
+        "offers": 0.11031092821216278,
+        "false_change": 0.055848588271796465,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4297472075249853,
+        "accepted_changes": 659,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_4_0.19": [
+      {
+        "accuracy": 0.4386145404663923,
+        "outside": 0.598193872885231,
+        "offers": 0.05989940557841793,
+        "false_change": 0.010992189759907435,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.46310993533215755,
+        "accepted_changes": 353,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.40077732053040693,
+        "outside": 0.5187471422039324,
+        "offers": 0.046410608139003204,
+        "false_change": 0.0053141606752110035,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4174015285126396,
+        "accepted_changes": 272,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_6_0.04": [
+      {
+        "accuracy": 0.49657064471879286,
+        "outside": 0.5403520804755373,
+        "offers": 0.22313671696387746,
+        "false_change": 0.12723041117145073,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5799039780521262,
+        "accepted_changes": 1298,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.4845679012345679,
+        "outside": 0.4719935985368084,
+        "offers": 0.19753086419753085,
+        "false_change": 0.11163153786104606,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5632716049382716,
+        "accepted_changes": 1107,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_6_0.09": [
+      {
+        "accuracy": 0.47885230909922266,
+        "outside": 0.5540695016003658,
+        "offers": 0.17352537722908093,
+        "false_change": 0.09066305818673884,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5536694101508917,
+        "accepted_changes": 981,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.47313671696387744,
+        "outside": 0.48068129858253317,
+        "offers": 0.1576360310928212,
+        "false_change": 0.07913090128755365,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5474965706447188,
+        "accepted_changes": 888,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_6_0.14": [
+      {
+        "accuracy": 0.42329675354366714,
+        "outside": 0.6128257887517147,
+        "offers": 0.113625971650663,
+        "false_change": 0.06477611940298507,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4703360768175583,
+        "accepted_changes": 665,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.39849108367626884,
+        "outside": 0.5482395976223137,
+        "offers": 0.09510745313214448,
+        "false_change": 0.05678627145085804,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.43449931412894377,
+        "accepted_changes": 553,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_1_6_0.19": [
+      {
+        "accuracy": 0.41506630086877,
+        "outside": 0.6153406492912665,
+        "offers": 0.05246913580246913,
+        "false_change": 0.016666666666666666,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4543895747599451,
+        "accepted_changes": 306,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.3914037494284408,
+        "outside": 0.5320073159579333,
+        "offers": 0.0413808870598994,
+        "false_change": 0.010668340131785378,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4202674897119342,
+        "accepted_changes": 229,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_4_0.04": [
+      {
+        "accuracy": 0.5032007315957934,
+        "outside": 0.5302926383173296,
+        "offers": 0.18918609967992683,
+        "false_change": 0.09590080971659919,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5446796002351558,
+        "accepted_changes": 1104,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.48536808413351623,
+        "outside": 0.4716506630086877,
+        "offers": 0.1673525377229081,
+        "false_change": 0.0852374839537869,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5243974132863022,
+        "accepted_changes": 974,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_4_0.09": [
+      {
+        "accuracy": 0.4794238683127572,
+        "outside": 0.5467535436671239,
+        "offers": 0.15306355738454505,
+        "false_change": 0.07004310344827586,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5139623750734862,
+        "accepted_changes": 871,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.4628486511202561,
+        "outside": 0.48879743941472337,
+        "offers": 0.13557384545038867,
+        "false_change": 0.06478720520466251,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.49559082892416223,
+        "accepted_changes": 801,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_4_0.14": [
+      {
+        "accuracy": 0.4277549154092364,
+        "outside": 0.6048239597622314,
+        "offers": 0.10539551897576589,
+        "false_change": 0.053270198283515834,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4495884773662551,
+        "accepted_changes": 608,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.391175125743027,
+        "outside": 0.5564700502972107,
+        "offers": 0.08344764517604024,
+        "false_change": 0.04339562876148242,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4041740152851264,
+        "accepted_changes": 493,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_4_0.19": [
+      {
+        "accuracy": 0.417466849565615,
+        "outside": 0.6098536808413352,
+        "offers": 0.046410608139003204,
+        "false_change": 0.011212747123045146,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.43724279835390945,
+        "accepted_changes": 269,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.3872885230909922,
+        "outside": 0.5301783264746228,
+        "offers": 0.03463648834019204,
+        "false_change": 0.005345911949685534,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.4006466784244562,
+        "accepted_changes": 200,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_6_0.04": [
+      {
+        "accuracy": 0.4842249657064472,
+        "outside": 0.5480109739368999,
+        "offers": 0.15592135345221764,
+        "false_change": 0.08766564729867482,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5596707818930041,
+        "accepted_changes": 912,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.47759487882944673,
+        "outside": 0.47690900777320533,
+        "offers": 0.13603109282121628,
+        "false_change": 0.07535121328224777,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5498971193415638,
+        "accepted_changes": 753,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_6_0.09": [
+      {
+        "accuracy": 0.46559213534522176,
+        "outside": 0.5597850937357111,
+        "offers": 0.1288294467306813,
+        "false_change": 0.06871657754010695,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5320644718792867,
+        "accepted_changes": 718,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.46227709190672156,
+        "outside": 0.4876543209876543,
+        "offers": 0.11374028349336991,
+        "false_change": 0.05696873343932168,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5281207133058985,
+        "accepted_changes": 629,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_6_0.14": [
+      {
+        "accuracy": 0.4140374942844079,
+        "outside": 0.6139689071787837,
+        "offers": 0.08870598994055784,
+        "false_change": 0.0525383707201889,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4540466392318244,
+        "accepted_changes": 506,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.38808870598994055,
+        "outside": 0.5524691358024691,
+        "offers": 0.07110196616369456,
+        "false_change": 0.04092471102780381,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4163237311385459,
+        "accepted_changes": 403,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ],
+    "bkt_politica_2_6_0.19": [
+      {
+        "accuracy": 0.4095793324188386,
+        "outside": 0.6180841335162323,
+        "offers": 0.0413808870598994,
+        "false_change": 0.014753614635585718,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.44495884773662553,
+        "accepted_changes": 238,
+        "violations": 0,
+        "trajectories": 243
+      },
+      {
+        "accuracy": 0.3938042981252858,
+        "outside": 0.5283493369913123,
+        "offers": 0.030864197530864196,
+        "false_change": 0.007330482590103849,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.42232510288065844,
+        "accepted_changes": 165,
+        "violations": 0,
+        "trajectories": 243
+      }
+    ]
+  },
+  "test": {
+    "logistic/False": {
+      "bkt_atual": {
+        "accuracy": 0.3543095564700503,
+        "outside": 0.6603223593964335,
+        "offers": 0.09813671696387746,
+        "false_change": 0.05521262002743484,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.37109053497942385,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_anterior": {
+        "accuracy": 0.41935299497027895,
+        "outside": 0.604023776863283,
+        "offers": 0.23319615912208505,
+        "false_change": 0.1416323731138546,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4623628257887517,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_1_4_0.09": {
+        "accuracy": 0.5112025605852767,
+        "outside": 0.5324074074074074,
+        "offers": 0.41546639231824417,
+        "false_change": 0.22959533607681756,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5620223398001176,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "vs_bkt_atual": {
+        "gain": 0.15689300411522633,
+        "ci95": [
+          0.13265603566529494,
+          0.1805569844535894
+        ]
+      },
+      "vs_bkt_politica_anterior": {
+        "gain": 0.09184956561499771,
+        "ci95": [
+          0.07795924782807499,
+          0.1057384545038866
+        ]
+      }
+    },
+    "logistic/True": {
+      "bkt_atual": {
+        "accuracy": 0.4162665752171925,
+        "outside": 0.5932213077274806,
+        "offers": 0.08447645176040237,
+        "false_change": 0.0460782897587751,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.4845679012345679,
+        "accepted_changes": 955,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_anterior": {
+        "accuracy": 0.480281207133059,
+        "outside": 0.5478395061728395,
+        "offers": 0.17718335619570189,
+        "false_change": 0.10138906919382058,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5549554183813443,
+        "accepted_changes": 2038,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_1_4_0.09": {
+        "accuracy": 0.505315500685871,
+        "outside": 0.5369227251943302,
+        "offers": 0.20821902149062643,
+        "false_change": 0.09936238044633369,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5471046443268666,
+        "accepted_changes": 2354,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "vs_bkt_atual": {
+        "gain": 0.08904892546867854,
+        "ci95": [
+          0.0713277320530407,
+          0.10660008001828988
+        ]
+      },
+      "vs_bkt_politica_anterior": {
+        "gain": 0.025034293552812073,
+        "ci95": [
+          0.012631458619112941,
+          0.03703989483310469
+        ]
+      }
+    },
+    "3pl/False": {
+      "bkt_atual": {
+        "accuracy": 0.3520804755372657,
+        "outside": 0.59139231824417,
+        "offers": 0.09385002286236854,
+        "false_change": 0.05675582990397805,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.36707818930041153,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_anterior": {
+        "accuracy": 0.40129172382258804,
+        "outside": 0.5428097850937357,
+        "offers": 0.22330818472793781,
+        "false_change": 0.1388888888888889,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.4352709190672154,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_1_4_0.09": {
+        "accuracy": 0.4750800182898948,
+        "outside": 0.4725080018289895,
+        "offers": 0.39123228166438045,
+        "false_change": 0.2242798353909465,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5155790711346266,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "vs_bkt_atual": {
+        "gain": 0.12299954275262918,
+        "ci95": [
+          0.10087734339277549,
+          0.143924325560128
+        ]
+      },
+      "vs_bkt_politica_anterior": {
+        "gain": 0.07378829446730682,
+        "ci95": [
+          0.06109967992684043,
+          0.08630687014174668
+        ]
+      }
+    },
+    "3pl/True": {
+      "bkt_atual": {
+        "accuracy": 0.4167238225880201,
+        "outside": 0.5370370370370371,
+        "offers": 0.07561728395061729,
+        "false_change": 0.042861238532110095,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.48518518518518516,
+        "accepted_changes": 847,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_anterior": {
+        "accuracy": 0.4667924096936443,
+        "outside": 0.4851394604481024,
+        "offers": 0.158493369913123,
+        "false_change": 0.09182190513938433,
+        "coverage": 0.6666666666666666,
+        "covered_accuracy": 0.5363511659807956,
+        "accepted_changes": 1814,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_politica_1_4_0.09": {
+        "accuracy": 0.4890260631001372,
+        "outside": 0.4702217649748514,
+        "offers": 0.19210105166895292,
+        "false_change": 0.09881000133707715,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.5285126396237507,
+        "accepted_changes": 2175,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "vs_bkt_atual": {
+        "gain": 0.07230224051211705,
+        "ci95": [
+          0.05532264517604023,
+          0.08916323731138545
+        ]
+      },
+      "vs_bkt_politica_anterior": {
+        "gain": 0.02223365340649291,
+        "ci95": [
+          0.010459533607681756,
+          0.03355052583447646
+        ]
+      }
+    }
+  }
+}

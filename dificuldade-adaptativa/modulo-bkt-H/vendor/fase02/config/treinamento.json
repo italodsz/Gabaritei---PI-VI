@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "seed": 20261110,
+  "starts": 20,
+  "max_iterations": 500,
+  "ftol": 1e-09,
+  "lower_bound": 0.0001,
+  "upper_bound": 0.9999,
+  "max_guess_plus_slip": 0.99,
+  "method": "SLSQP",
+  "selection": "menor_NLL_treino_entre_inicializacoes_convergentes_e_viaveis",
+  "near_optimal_mean_nll": 1e-05,
+  "parameter_spread_warning": 0.1,
+  "bootstrap_replicates": 100,
+  "bootstrap_starts": 5,
+  "baseline": "taxa_por_habilidade_treino_com_suavizacao_Beta_1_1",
+  "accuracy_threshold": 0.5,
+  "calibration_bins": 10
+}

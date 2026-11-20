@@ -1,0 +1,12 @@
+{
+  "auto_accept": false,
+  "cooldown": 5,
+  "margin": 0.05,
+  "minimum_observations": 5,
+  "selection_split": "validacao",
+  "thresholds": [
+    0.4,
+    0.8
+  ],
+  "version": "m4_policy_1"
+}

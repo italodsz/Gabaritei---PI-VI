@@ -1,0 +1,17 @@
+test_catalog_and_validation_scope (test_auditoria.AuditTests.test_catalog_and_validation_scope) ... FAIL
+test_coverage_not_claimed_as_official_validation (test_auditoria.AuditTests.test_coverage_not_claimed_as_official_validation) ... ok
+test_error_partitions (test_auditoria.AuditTests.test_error_partitions) ... ok
+
+======================================================================
+FAIL: test_catalog_and_validation_scope (test_auditoria.AuditTests.test_catalog_and_validation_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\auditoria_global\test_auditoria.py", line 18, in test_catalog_and_validation_scope
+    self.assertEqual(len({r["id"] for r in catalog}),2971)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2971
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.032s
+
+FAILED (failures=1)

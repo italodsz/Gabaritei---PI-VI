@@ -1,0 +1,34 @@
+{
+  "train": {
+    "n": 1801,
+    "truncated": {
+      "128": 1427,
+      "256": 360,
+      "512": 7
+    },
+    "classes": {
+      "facil": 601,
+      "media": 600,
+      "dificil": 600
+    },
+    "assets": 0,
+    "formula_or_table_proxy": 43,
+    "missing_text_or_options": 0
+  },
+  "validation": {
+    "n": 136,
+    "truncated": {
+      "128": 110,
+      "256": 28,
+      "512": 0
+    },
+    "classes": {
+      "facil": 54,
+      "media": 42,
+      "dificil": 40
+    },
+    "assets": 0,
+    "formula_or_table_proxy": 3,
+    "missing_text_or_options": 0
+  }
+}

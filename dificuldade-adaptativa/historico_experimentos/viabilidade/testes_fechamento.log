@@ -1,0 +1,10 @@
+test_current_answer_and_other_skills_do_not_leak (test_fechamento.FechamentoTests.test_current_answer_and_other_skills_do_not_leak) ... ok
+test_metrics_and_gate (test_fechamento.FechamentoTests.test_metrics_and_gate) ... ok
+test_report_and_demo (test_fechamento.FechamentoTests.test_report_and_demo) ... ok
+test_strict_temporal_and_student_separation (test_fechamento.FechamentoTests.test_strict_temporal_and_student_separation) ... ok
+test_update_preserves_rollback_snapshot (test_fechamento.FechamentoTests.test_update_preserves_rollback_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.670s
+
+OK

@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-13T15:03:26.092Z",
+  "repository": "https://github.com/italodsz/Gabaritei---PI-VI",
+  "excluded_branches": [
+    "joao/recomendador-dificuldade",
+    "joao/recomendador-dificulade"
+  ],
+  "included": [
+    {
+      "name": "dataset",
+      "sha": "67a5036b2297c7c2e78b1f011219ca112977d7a5"
+    },
+    {
+      "name": "dificuldade-adaptativa",
+      "sha": "e00f20c0d534a2bdd1a845d71cb791a16e3f4212"
+    },
+    {
+      "name": "front-end",
+      "sha": "1ada7f3a2e5f1d80fc9d5c9e08df4aaf2a52c461"
+    },
+    {
+      "name": "main",
+      "sha": "90d54984c21982c89e0d645ecfa78b1442b813b9"
+    },
+    {
+      "name": "paridade-p1",
+      "sha": "50060d0f5ff8494226905c2b0c023c84214983a7"
+    },
+    {
+      "name": "recomendador",
+      "sha": "a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef"
+    },
+    {
+      "name": "recomendador-para-main",
+      "sha": "f9ca200ac92c41c70b13eb9db57f35c8a7972e76"
+    },
+    {
+      "name": "wardrobe",
+      "sha": "ea3f28d22f805dea191e12130e14a3034099cf43"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "joao/recomendador-dificulade",
+      "content_read": false,
+      "reason": "grafia encontrada no remoto; corresponde à exclusão solicitada pelo usuário"
+    }
+  ]
+}

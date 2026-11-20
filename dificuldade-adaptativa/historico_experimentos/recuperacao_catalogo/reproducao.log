@@ -1,0 +1,175 @@
+Reprodução em pasta limpa com ZIP extraído. Base 7e720fa876beb7249adab2f05d3ecf33ae5a2c51.
+{
+  "total": 2971,
+  "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "sha256_catalogo_lf": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "sha256_matriz": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1",
+  "aptidao": {
+    "apto_texto_semantico": 2032,
+    "apto_treino_supervisionado": 2032,
+    "apto_recomendacao": 14,
+    "apto_demo": 12
+  },
+  "bloqueadas": 928,
+  "pendentes_rubrica": 2962,
+  "sem_uso_aprovado": 938,
+  "com_midia_referenciada": 878,
+  "com_midia_ausente": 878,
+  "por_area": {
+    "apto_texto_semantico": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_treino_supervisionado": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_recomendacao": {
+      "CH": 6,
+      "LC": 2,
+      "CN": 3,
+      "MT": 3
+    },
+    "apto_demo": {
+      "CH": 5,
+      "LC": 2,
+      "CN": 2,
+      "MT": 3
+    }
+  },
+  "splits_textuais": {
+    "train": 1779,
+    "validation": 131,
+    "test": 122
+  },
+  "notas": [
+    {
+      "nota": 0,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 1,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 2,
+      "n": 564,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 564,
+      "n_com_falha_critica": 564
+    },
+    {
+      "nota": 3,
+      "n": 2393,
+      "apto_texto_semantico": 2019,
+      "apto_treino_supervisionado": 2019,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 2393,
+      "n_com_falha_critica": 364
+    },
+    {
+      "nota": 4,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 5,
+      "n": 5,
+      "apto_texto_semantico": 4,
+      "apto_treino_supervisionado": 4,
+      "apto_recomendacao": 5,
+      "apto_demo": 3,
+      "n_com_pendencia": 5,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 6,
+      "n": 9,
+      "apto_texto_semantico": 9,
+      "apto_treino_supervisionado": 9,
+      "apto_recomendacao": 9,
+      "apto_demo": 9,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    }
+  ],
+  "quase_duplicatas_pares": 17,
+  "duplicatas_por_chave_itens": {
+    "item": 2,
+    "familia": 0,
+    "familia_conteudo": 18,
+    "exato": 20
+  },
+  "itens_em_grupo_nao_unitario": 36,
+  "taxa_itens_em_grupo_nao_unitario": 0.012117,
+  "grupos_cruzam_particao_historica": 0,
+  "grupos_cruzam_particao_nova": 0,
+  "tarefa_supervisionada": "classificacao_exploratoria_area_oficial_4_classes",
+  "fora_piloto_por_uso": {
+    "apto_texto_semantico": 723,
+    "apto_treino_supervisionado": 723,
+    "apto_recomendacao": 4,
+    "apto_demo": 3
+  },
+  "fora_A_B_por_uso": {
+    "apto_texto_semantico": 727,
+    "apto_treino_supervisionado": 727,
+    "apto_recomendacao": 5,
+    "apto_demo": 3
+  }
+}
+
+test_eligibility_is_not_score_and_no_critical_display (test_auditoria.AuditTests.test_eligibility_is_not_score_and_no_critical_display) ... ok
+test_exports_have_unique_ids_and_valid_answers_and_targets (test_auditoria.AuditTests.test_exports_have_unique_ids_and_valid_answers_and_targets) ... ok
+test_grouping_catches_cross_year_near_duplicate (test_auditoria.AuditTests.test_grouping_catches_cross_year_near_duplicate) ... ok
+test_no_detected_duplicate_crosses_new_splits (test_auditoria.AuditTests.test_no_detected_duplicate_crosses_new_splits) ... ok
+test_rubric_and_count (test_auditoria.AuditTests.test_rubric_and_count) ... ok
+test_source_based_recoveries (test_auditoria.AuditTests.test_source_based_recoveries) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.216s
+
+OK
+
+Produtos idênticos em SHA-256
+9b803ca9b2644cc673eecba4aee54ae49bbe981c68a9a8f39aee53498670ddaa  dificuldade-adaptativa/recuperacao_catalogo/catalogo_elegibilidade.csv
+d08466d22924ecb68376c1a3d15d8f6d5e782b57d28c3cc50883941e8c167e69  dificuldade-adaptativa/recuperacao_catalogo/causas_triagem_anterior.csv
+da0373455668969b53b48897c134d0eea7d86b58057f84ea24a0c5dfbc20faee  dificuldade-adaptativa/recuperacao_catalogo/cobertura_e_splits.csv
+118e546ef5ba56ca42b2e66fbc36f39e8102543831496f0c34fd27689b946168  dificuldade-adaptativa/recuperacao_catalogo/conjunto_recomendacao.csv
+d1556b36644f9989be4ba852c1907e1beedb7374ed7cc4a2c3904a5e69d2051e  dificuldade-adaptativa/recuperacao_catalogo/conjunto_recomendacao.jsonl
+a6b34dd5d9e69ccf043ac7f926d6920aceccd671ed7e0358f2b50b70966c9830  dificuldade-adaptativa/recuperacao_catalogo/conjunto_texto_semantico.csv
+259312faeb60d91eff7eab2340e35fe573710a979a97ee62604c9a6001821a21  dificuldade-adaptativa/recuperacao_catalogo/conjunto_texto_semantico.jsonl
+2cd7bb0e542b06f5fc082a78c635cf5ee79877cd3fb890e504b58a7e70b8cacd  dificuldade-adaptativa/recuperacao_catalogo/distribuicao_notas.csv
+d8fbcf4b9846f36f7f31d78abf6a2f1935a4ef03471a483dde77db11b1d26358  dificuldade-adaptativa/recuperacao_catalogo/exemplos_rubrica.csv
+2b065cc054e01768d37b9ae41a36d5df513844c612205783ae6c790379cc53fe  dificuldade-adaptativa/recuperacao_catalogo/metricas.json
+e4f0906e6006730b13cfd29fff3889fd1b1855f6f67f11935d48136f20d31aef  dificuldade-adaptativa/recuperacao_catalogo/painel_criterios.csv
+4ad0364a191798ca4ad80b0d1144aeef440804246addfdc9915c32f09b177883  dificuldade-adaptativa/recuperacao_catalogo/pendencias_recuperacao.csv
+e6985779160261dcb9ac471b8cfc89cb388604448d0eeb735365e25ad32b2d44  dificuldade-adaptativa/recuperacao_catalogo/quase_duplicatas.csv
+ca894ce60d4b4ae5c57ba257cb8c86cc17c3e44fdb950d496e326db112e577ae  dificuldade-adaptativa/recuperacao_catalogo/recuperacoes_por_id.csv
+62207b456b63eafa90dace1779aa60f23e1bf3752c6e51a27490963bb5ef953a  dificuldade-adaptativa/recuperacao_catalogo/recursos/gq_d729403b0e500b7ef02bef0a_grafico.png
+HEAD e status da fonte preservados.

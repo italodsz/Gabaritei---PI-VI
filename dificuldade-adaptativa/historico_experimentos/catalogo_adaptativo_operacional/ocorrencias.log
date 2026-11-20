@@ -1,0 +1,5 @@
+08/11/2026
+A tentativa direta por requests localizou as páginas do INEP, mas falhou na obtenção de PDFs. A coleta por curl obteve os 64 documentos das 16 edições. O manifesto preserva URL, hash e erros da coleta final.
+A primeira regra de apoio classificava marcas externas de impressão como desenhos do item. A exceção foi limitada ao traçado exterior com oito segmentos de marcas.
+A leitura dirigida identificou notação perdida em dois enunciados. O script passou a encaminhar expoentes, símbolos e marcadores de apoio para revisão. Os dois ajustes específicos ficaram em arquivo derivado.
+O primeiro teste de distribuição comparou um mapa que listava notas sem ocorrência com um contador que omitia essas chaves. O teste foi corrigido para verificar todas as sete notas. Os testes foram repetidos.

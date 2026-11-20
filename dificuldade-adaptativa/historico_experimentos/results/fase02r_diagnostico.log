@@ -1,0 +1,60 @@
+{
+  "train": {
+    "n": 1801,
+    "with_assets": 0,
+    "with_descriptions": 0,
+    "with_question_mark": 367,
+    "last_question_mark_outside_input": 218,
+    "class_by_area": {
+      "CH": {
+        "media": 224,
+        "facil": 191,
+        "dificil": 171
+      },
+      "CN": {
+        "dificil": 145,
+        "media": 142,
+        "facil": 106
+      },
+      "LC": {
+        "facil": 282,
+        "dificil": 89,
+        "media": 177
+      },
+      "MT": {
+        "media": 57,
+        "facil": 22,
+        "dificil": 195
+      }
+    }
+  },
+  "validation": {
+    "n": 136,
+    "with_assets": 0,
+    "with_descriptions": 0,
+    "with_question_mark": 30,
+    "last_question_mark_outside_input": 23,
+    "class_by_area": {
+      "CH": {
+        "media": 10,
+        "facil": 23,
+        "dificil": 6
+      },
+      "CN": {
+        "dificil": 14,
+        "facil": 8,
+        "media": 10
+      },
+      "LC": {
+        "media": 12,
+        "dificil": 6,
+        "facil": 21
+      },
+      "MT": {
+        "dificil": 14,
+        "media": 10,
+        "facil": 2
+      }
+    }
+  }
+}

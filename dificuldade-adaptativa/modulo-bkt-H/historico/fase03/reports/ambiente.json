@@ -1,0 +1,16 @@
+{
+  "final_evaluation_elapsed_seconds": 12.070458,
+  "google_colab_executed": false,
+  "isolated_virtual_environment": true,
+  "numpy": "2.4.3",
+  "protocol_sha256": "bc2d2609405c4bb2d69ac43dc84f4ce0e88e13a81028579598f6172ea9500348",
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "scipy": "1.17.1",
+  "seeds": [
+    20261110,
+    20261111
+  ],
+  "system": "Windows-11-10.0.26200-SP0",
+  "test_completed_utc": "2026-11-11T17:04:08.996995+00:00",
+  "test_started_utc": "2026-11-11T17:03:56.926537+00:00"
+}

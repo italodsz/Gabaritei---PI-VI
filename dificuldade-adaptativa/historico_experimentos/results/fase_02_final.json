@@ -1,0 +1,2237 @@
+{
+  "run_utc": "2026-11-06T18:01:07.024699+00:00",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "sklearn": "1.8.0",
+  "seed": 42,
+  "environment": {
+    "python": "3.14.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel"
+  },
+  "config": {
+    "majoritaria": {
+      "constant": "None",
+      "random_state": "None",
+      "strategy": "most_frequent"
+    },
+    "tfidf_palavras": {
+      "memory": "None",
+      "transform_input": "None",
+      "verbose": "False",
+      "tfidfvectorizer__analyzer": "word",
+      "tfidfvectorizer__binary": "False",
+      "tfidfvectorizer__decode_error": "strict",
+      "tfidfvectorizer__encoding": "utf-8",
+      "tfidfvectorizer__input": "content",
+      "tfidfvectorizer__lowercase": "True",
+      "tfidfvectorizer__max_df": "1.0",
+      "tfidfvectorizer__max_features": "None",
+      "tfidfvectorizer__min_df": "2",
+      "tfidfvectorizer__ngram_range": "(1, 2)",
+      "tfidfvectorizer__norm": "l2",
+      "tfidfvectorizer__preprocessor": "None",
+      "tfidfvectorizer__smooth_idf": "True",
+      "tfidfvectorizer__stop_words": "None",
+      "tfidfvectorizer__strip_accents": "None",
+      "tfidfvectorizer__sublinear_tf": "False",
+      "tfidfvectorizer__token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tfidfvectorizer__tokenizer": "None",
+      "tfidfvectorizer__use_idf": "True",
+      "tfidfvectorizer__vocabulary": "None",
+      "linearsvc__C": "1.0",
+      "linearsvc__class_weight": "None",
+      "linearsvc__dual": "auto",
+      "linearsvc__fit_intercept": "True",
+      "linearsvc__intercept_scaling": "1",
+      "linearsvc__loss": "squared_hinge",
+      "linearsvc__max_iter": "1000",
+      "linearsvc__multi_class": "ovr",
+      "linearsvc__penalty": "l2",
+      "linearsvc__random_state": "42",
+      "linearsvc__tol": "0.0001",
+      "linearsvc__verbose": "0"
+    },
+    "tfidf_caracteres": {
+      "memory": "None",
+      "transform_input": "None",
+      "verbose": "False",
+      "tfidfvectorizer__analyzer": "char",
+      "tfidfvectorizer__binary": "False",
+      "tfidfvectorizer__decode_error": "strict",
+      "tfidfvectorizer__encoding": "utf-8",
+      "tfidfvectorizer__input": "content",
+      "tfidfvectorizer__lowercase": "True",
+      "tfidfvectorizer__max_df": "1.0",
+      "tfidfvectorizer__max_features": "None",
+      "tfidfvectorizer__min_df": "2",
+      "tfidfvectorizer__ngram_range": "(3, 5)",
+      "tfidfvectorizer__norm": "l2",
+      "tfidfvectorizer__preprocessor": "None",
+      "tfidfvectorizer__smooth_idf": "True",
+      "tfidfvectorizer__stop_words": "None",
+      "tfidfvectorizer__strip_accents": "None",
+      "tfidfvectorizer__sublinear_tf": "False",
+      "tfidfvectorizer__token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tfidfvectorizer__tokenizer": "None",
+      "tfidfvectorizer__use_idf": "True",
+      "tfidfvectorizer__vocabulary": "None",
+      "linearsvc__C": "1.0",
+      "linearsvc__class_weight": "None",
+      "linearsvc__dual": "auto",
+      "linearsvc__fit_intercept": "True",
+      "linearsvc__intercept_scaling": "1",
+      "linearsvc__loss": "squared_hinge",
+      "linearsvc__max_iter": "1000",
+      "linearsvc__multi_class": "ovr",
+      "linearsvc__penalty": "l2",
+      "linearsvc__random_state": "42",
+      "linearsvc__tol": "0.0001",
+      "linearsvc__verbose": "0"
+    },
+    "minilm": {
+      "memory": "None",
+      "transform_input": "None",
+      "verbose": "False",
+      "minilmencoder__batch_size": "16",
+      "minilmencoder__checkpoint": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "minilmencoder__max_length": "128",
+      "minilmencoder__revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "linearsvc__C": "1.0",
+      "linearsvc__class_weight": "None",
+      "linearsvc__dual": "auto",
+      "linearsvc__fit_intercept": "True",
+      "linearsvc__intercept_scaling": "1",
+      "linearsvc__loss": "squared_hinge",
+      "linearsvc__max_iter": "1000",
+      "linearsvc__multi_class": "ovr",
+      "linearsvc__penalty": "l2",
+      "linearsvc__random_state": "42",
+      "linearsvc__tol": "0.0001",
+      "linearsvc__verbose": "0"
+    }
+  },
+  "model_version": "fase02-539aae3ba37d",
+  "train_support": {
+    "facil": 601,
+    "media": 600,
+    "dificil": 600
+  },
+  "label_order": [
+    "facil",
+    "media",
+    "dificil"
+  ],
+  "cutoffs": [
+    0.8005400000000001,
+    1.56301
+  ],
+  "validation": {
+    "majoritaria": {
+      "n": 136,
+      "support": {
+        "facil": 54,
+        "media": 42,
+        "dificil": 40
+      },
+      "macro_f1": 0.18947368421052632,
+      "accuracy": 0.39705882352941174,
+      "confusion": [
+        [
+          54,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          0
+        ],
+        [
+          40,
+          0,
+          0
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.39705882352941174,
+          "recall": 1.0,
+          "f1": 0.5684210526315789,
+          "n": 54
+        },
+        "media": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 40
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 39,
+          "support": {
+            "facil": 23,
+            "media": 10,
+            "dificil": 6
+          },
+          "macro_f1": 0.24731182795698925,
+          "accuracy": 0.5897435897435898,
+          "confusion": [
+            [
+              23,
+              0,
+              0
+            ],
+            [
+              10,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5897435897435898,
+              "recall": 1.0,
+              "f1": 0.7419354838709677,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 6
+            }
+          }
+        },
+        "CN": {
+          "n": 32,
+          "support": {
+            "facil": 8,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.13333333333333333,
+          "accuracy": 0.25,
+          "confusion": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              10,
+              0,
+              0
+            ],
+            [
+              14,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.25,
+              "recall": 1.0,
+              "f1": 0.4,
+              "n": 8
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 14
+            }
+          }
+        },
+        "LC": {
+          "n": 39,
+          "support": {
+            "facil": 21,
+            "media": 12,
+            "dificil": 6
+          },
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.5384615384615384,
+          "confusion": [
+            [
+              21,
+              0,
+              0
+            ],
+            [
+              12,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5384615384615384,
+              "recall": 1.0,
+              "f1": 0.7,
+              "n": 21
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 12
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 6
+            }
+          }
+        },
+        "MT": {
+          "n": 26,
+          "support": {
+            "facil": 2,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.047619047619047616,
+          "accuracy": 0.07692307692307693,
+          "confusion": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              10,
+              0,
+              0
+            ],
+            [
+              14,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.07692307692307693,
+              "recall": 1.0,
+              "f1": 0.14285714285714285,
+              "n": 2
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 14
+            }
+          }
+        }
+      }
+    },
+    "tfidf_palavras": {
+      "n": 136,
+      "support": {
+        "facil": 54,
+        "media": 42,
+        "dificil": 40
+      },
+      "macro_f1": 0.41824292532096524,
+      "accuracy": 0.41911764705882354,
+      "confusion": [
+        [
+          22,
+          18,
+          14
+        ],
+        [
+          10,
+          17,
+          15
+        ],
+        [
+          9,
+          13,
+          18
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.5365853658536586,
+          "recall": 0.4074074074074074,
+          "f1": 0.4631578947368421,
+          "n": 54
+        },
+        "media": {
+          "precision": 0.3541666666666667,
+          "recall": 0.40476190476190477,
+          "f1": 0.37777777777777777,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.3829787234042553,
+          "recall": 0.45,
+          "f1": 0.41379310344827586,
+          "n": 40
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 39,
+          "support": {
+            "facil": 23,
+            "media": 10,
+            "dificil": 6
+          },
+          "macro_f1": 0.37855921855921854,
+          "accuracy": 0.4358974358974359,
+          "confusion": [
+            [
+              10,
+              7,
+              6
+            ],
+            [
+              3,
+              6,
+              1
+            ],
+            [
+              3,
+              2,
+              1
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.625,
+              "recall": 0.43478260869565216,
+              "f1": 0.5128205128205128,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.4,
+              "recall": 0.6,
+              "f1": 0.48,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.125,
+              "recall": 0.16666666666666666,
+              "f1": 0.14285714285714285,
+              "n": 6
+            }
+          }
+        },
+        "CN": {
+          "n": 32,
+          "support": {
+            "facil": 8,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.3879731379731379,
+          "accuracy": 0.40625,
+          "confusion": [
+            [
+              2,
+              4,
+              2
+            ],
+            [
+              1,
+              5,
+              4
+            ],
+            [
+              3,
+              5,
+              6
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.3333333333333333,
+              "recall": 0.25,
+              "f1": 0.2857142857142857,
+              "n": 8
+            },
+            "media": {
+              "precision": 0.35714285714285715,
+              "recall": 0.5,
+              "f1": 0.4166666666666667,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.5,
+              "recall": 0.42857142857142855,
+              "f1": 0.46153846153846156,
+              "n": 14
+            }
+          }
+        },
+        "LC": {
+          "n": 39,
+          "support": {
+            "facil": 21,
+            "media": 12,
+            "dificil": 6
+          },
+          "macro_f1": 0.29012345679012347,
+          "accuracy": 0.38461538461538464,
+          "confusion": [
+            [
+              10,
+              7,
+              4
+            ],
+            [
+              6,
+              5,
+              1
+            ],
+            [
+              3,
+              3,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5263157894736842,
+              "recall": 0.47619047619047616,
+              "f1": 0.5,
+              "n": 21
+            },
+            "media": {
+              "precision": 0.3333333333333333,
+              "recall": 0.4166666666666667,
+              "f1": 0.37037037037037035,
+              "n": 12
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 6
+            }
+          }
+        },
+        "MT": {
+          "n": 26,
+          "support": {
+            "facil": 2,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.25132275132275134,
+          "accuracy": 0.46153846153846156,
+          "confusion": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              9
+            ],
+            [
+              0,
+              3,
+              11
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 2
+            },
+            "media": {
+              "precision": 0.25,
+              "recall": 0.1,
+              "f1": 0.14285714285714285,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.5,
+              "recall": 0.7857142857142857,
+              "f1": 0.6111111111111112,
+              "n": 14
+            }
+          }
+        }
+      }
+    },
+    "tfidf_caracteres": {
+      "n": 136,
+      "support": {
+        "facil": 54,
+        "media": 42,
+        "dificil": 40
+      },
+      "macro_f1": 0.41884057971014493,
+      "accuracy": 0.4264705882352941,
+      "confusion": [
+        [
+          25,
+          17,
+          12
+        ],
+        [
+          11,
+          12,
+          19
+        ],
+        [
+          10,
+          9,
+          21
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.5434782608695652,
+          "recall": 0.46296296296296297,
+          "f1": 0.5,
+          "n": 54
+        },
+        "media": {
+          "precision": 0.3157894736842105,
+          "recall": 0.2857142857142857,
+          "f1": 0.3,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.40384615384615385,
+          "recall": 0.525,
+          "f1": 0.45652173913043476,
+          "n": 40
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 39,
+          "support": {
+            "facil": 23,
+            "media": 10,
+            "dificil": 6
+          },
+          "macro_f1": 0.44829059829059825,
+          "accuracy": 0.48717948717948717,
+          "confusion": [
+            [
+              11,
+              8,
+              4
+            ],
+            [
+              4,
+              6,
+              0
+            ],
+            [
+              2,
+              2,
+              2
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.6470588235294118,
+              "recall": 0.4782608695652174,
+              "f1": 0.55,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.375,
+              "recall": 0.6,
+              "f1": 0.46153846153846156,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "f1": 0.3333333333333333,
+              "n": 6
+            }
+          }
+        },
+        "CN": {
+          "n": 32,
+          "support": {
+            "facil": 8,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.3300126502213789,
+          "accuracy": 0.34375,
+          "confusion": [
+            [
+              3,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              7
+            ],
+            [
+              5,
+              3,
+              6
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.3333333333333333,
+              "recall": 0.375,
+              "f1": 0.35294117647058826,
+              "n": 8
+            },
+            "media": {
+              "precision": 0.3333333333333333,
+              "recall": 0.2,
+              "f1": 0.25,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.35294117647058826,
+              "recall": 0.42857142857142855,
+              "f1": 0.3870967741935484,
+              "n": 14
+            }
+          }
+        },
+        "LC": {
+          "n": 39,
+          "support": {
+            "facil": 21,
+            "media": 12,
+            "dificil": 6
+          },
+          "macro_f1": 0.31441734417344175,
+          "accuracy": 0.38461538461538464,
+          "confusion": [
+            [
+              11,
+              8,
+              2
+            ],
+            [
+              6,
+              3,
+              3
+            ],
+            [
+              3,
+              2,
+              1
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.55,
+              "recall": 0.5238095238095238,
+              "f1": 0.5365853658536586,
+              "n": 21
+            },
+            "media": {
+              "precision": 0.23076923076923078,
+              "recall": 0.25,
+              "f1": 0.24,
+              "n": 12
+            },
+            "dificil": {
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "f1": 0.16666666666666666,
+              "n": 6
+            }
+          }
+        },
+        "MT": {
+          "n": 26,
+          "support": {
+            "facil": 2,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.2674982674982675,
+          "accuracy": 0.5,
+          "confusion": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              9
+            ],
+            [
+              0,
+              2,
+              12
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 2
+            },
+            "media": {
+              "precision": 0.3333333333333333,
+              "recall": 0.1,
+              "f1": 0.15384615384615385,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.5217391304347826,
+              "recall": 0.8571428571428571,
+              "f1": 0.6486486486486487,
+              "n": 14
+            }
+          }
+        }
+      }
+    },
+    "minilm": {
+      "n": 136,
+      "support": {
+        "facil": 54,
+        "media": 42,
+        "dificil": 40
+      },
+      "macro_f1": 0.4709829215853312,
+      "accuracy": 0.47058823529411764,
+      "confusion": [
+        [
+          25,
+          22,
+          7
+        ],
+        [
+          11,
+          17,
+          14
+        ],
+        [
+          9,
+          9,
+          22
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.5555555555555556,
+          "recall": 0.46296296296296297,
+          "f1": 0.5050505050505051,
+          "n": 54
+        },
+        "media": {
+          "precision": 0.3541666666666667,
+          "recall": 0.40476190476190477,
+          "f1": 0.37777777777777777,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.5116279069767442,
+          "recall": 0.55,
+          "f1": 0.5301204819277109,
+          "n": 40
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 39,
+          "support": {
+            "facil": 23,
+            "media": 10,
+            "dificil": 6
+          },
+          "macro_f1": 0.5379310344827586,
+          "accuracy": 0.5384615384615384,
+          "confusion": [
+            [
+              11,
+              11,
+              1
+            ],
+            [
+              1,
+              6,
+              3
+            ],
+            [
+              0,
+              2,
+              4
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.9166666666666666,
+              "recall": 0.4782608695652174,
+              "f1": 0.6285714285714286,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.3157894736842105,
+              "recall": 0.6,
+              "f1": 0.41379310344827586,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.5,
+              "recall": 0.6666666666666666,
+              "f1": 0.5714285714285714,
+              "n": 6
+            }
+          }
+        },
+        "CN": {
+          "n": 32,
+          "support": {
+            "facil": 8,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.3352214960058097,
+          "accuracy": 0.34375,
+          "confusion": [
+            [
+              4,
+              1,
+              3
+            ],
+            [
+              3,
+              2,
+              5
+            ],
+            [
+              5,
+              4,
+              5
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.3333333333333333,
+              "recall": 0.5,
+              "f1": 0.4,
+              "n": 8
+            },
+            "media": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2,
+              "f1": 0.23529411764705882,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.38461538461538464,
+              "recall": 0.35714285714285715,
+              "f1": 0.37037037037037035,
+              "n": 14
+            }
+          }
+        },
+        "LC": {
+          "n": 39,
+          "support": {
+            "facil": 21,
+            "media": 12,
+            "dificil": 6
+          },
+          "macro_f1": 0.33705475810738966,
+          "accuracy": 0.46153846153846156,
+          "confusion": [
+            [
+              10,
+              10,
+              1
+            ],
+            [
+              4,
+              8,
+              0
+            ],
+            [
+              3,
+              3,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5882352941176471,
+              "recall": 0.47619047619047616,
+              "f1": 0.5263157894736842,
+              "n": 21
+            },
+            "media": {
+              "precision": 0.38095238095238093,
+              "recall": 0.6666666666666666,
+              "f1": 0.48484848484848486,
+              "n": 12
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 6
+            }
+          }
+        },
+        "MT": {
+          "n": 26,
+          "support": {
+            "facil": 2,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.30822510822510824,
+          "accuracy": 0.5384615384615384,
+          "confusion": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              1,
+              6
+            ],
+            [
+              1,
+              0,
+              13
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 2
+            },
+            "media": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.18181818181818182,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.6190476190476191,
+              "recall": 0.9285714285714286,
+              "f1": 0.7428571428571429,
+              "n": 14
+            }
+          }
+        }
+      }
+    }
+  },
+  "selected_by_validation_macro_f1": "minilm",
+  "sensitivity_validation": {
+    "minimum_train_tri_a": 0.25,
+    "removed_train_rows": 6,
+    "removed_items": [
+      {
+        "id": "gq_cdc4346f90dd7b164d751ff7",
+        "class": "dificil"
+      },
+      {
+        "id": "gq_1913dfee169d1efadf52cfca",
+        "class": "dificil"
+      },
+      {
+        "id": "gq_cf15f16c076fceccbc04a730",
+        "class": "dificil"
+      },
+      {
+        "id": "gq_c51d9e7318fadbcdcf7773e5",
+        "class": "dificil"
+      },
+      {
+        "id": "gq_63abb69716ebeba164a92e7f",
+        "class": "dificil"
+      },
+      {
+        "id": "gq_5fc9cc5ab60559c3aa518e4c",
+        "class": "dificil"
+      }
+    ],
+    "metrics": {
+      "n": 136,
+      "support": {
+        "facil": 54,
+        "media": 42,
+        "dificil": 40
+      },
+      "macro_f1": 0.4562167863372683,
+      "accuracy": 0.45588235294117646,
+      "confusion": [
+        [
+          24,
+          22,
+          8
+        ],
+        [
+          11,
+          17,
+          14
+        ],
+        [
+          10,
+          9,
+          21
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.5333333333333333,
+          "recall": 0.4444444444444444,
+          "f1": 0.48484848484848486,
+          "n": 54
+        },
+        "media": {
+          "precision": 0.3541666666666667,
+          "recall": 0.40476190476190477,
+          "f1": 0.37777777777777777,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.4883720930232558,
+          "recall": 0.525,
+          "f1": 0.5060240963855421,
+          "n": 40
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 39,
+          "support": {
+            "facil": 23,
+            "media": 10,
+            "dificil": 6
+          },
+          "macro_f1": 0.5117872436330854,
+          "accuracy": 0.5128205128205128,
+          "confusion": [
+            [
+              10,
+              11,
+              2
+            ],
+            [
+              1,
+              6,
+              3
+            ],
+            [
+              0,
+              2,
+              4
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.9090909090909091,
+              "recall": 0.43478260869565216,
+              "f1": 0.5882352941176471,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.3157894736842105,
+              "recall": 0.6,
+              "f1": 0.41379310344827586,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.4444444444444444,
+              "recall": 0.6666666666666666,
+              "f1": 0.5333333333333333,
+              "n": 6
+            }
+          }
+        },
+        "CN": {
+          "n": 32,
+          "support": {
+            "facil": 8,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.3337742504409171,
+          "accuracy": 0.34375,
+          "confusion": [
+            [
+              4,
+              1,
+              3
+            ],
+            [
+              3,
+              2,
+              5
+            ],
+            [
+              6,
+              3,
+              5
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.3076923076923077,
+              "recall": 0.5,
+              "f1": 0.38095238095238093,
+              "n": 8
+            },
+            "media": {
+              "precision": 0.3333333333333333,
+              "recall": 0.2,
+              "f1": 0.25,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.38461538461538464,
+              "recall": 0.35714285714285715,
+              "f1": 0.37037037037037035,
+              "n": 14
+            }
+          }
+        },
+        "LC": {
+          "n": 39,
+          "support": {
+            "facil": 21,
+            "media": 12,
+            "dificil": 6
+          },
+          "macro_f1": 0.33705475810738966,
+          "accuracy": 0.46153846153846156,
+          "confusion": [
+            [
+              10,
+              10,
+              1
+            ],
+            [
+              4,
+              8,
+              0
+            ],
+            [
+              3,
+              3,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5882352941176471,
+              "recall": 0.47619047619047616,
+              "f1": 0.5263157894736842,
+              "n": 21
+            },
+            "media": {
+              "precision": 0.38095238095238093,
+              "recall": 0.6666666666666666,
+              "f1": 0.48484848484848486,
+              "n": 12
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 6
+            }
+          }
+        },
+        "MT": {
+          "n": 26,
+          "support": {
+            "facil": 2,
+            "media": 10,
+            "dificil": 14
+          },
+          "macro_f1": 0.2908496732026144,
+          "accuracy": 0.5,
+          "confusion": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              1,
+              6
+            ],
+            [
+              1,
+              1,
+              12
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 2
+            },
+            "media": {
+              "precision": 0.5,
+              "recall": 0.1,
+              "f1": 0.16666666666666666,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.6,
+              "recall": 0.8571428571428571,
+              "f1": 0.7058823529411765,
+              "n": 14
+            }
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "minilm": {
+      "n": 126,
+      "support": {
+        "facil": 53,
+        "media": 42,
+        "dificil": 31
+      },
+      "macro_f1": 0.5284195994390725,
+      "accuracy": 0.5317460317460317,
+      "confusion": [
+        [
+          29,
+          17,
+          7
+        ],
+        [
+          10,
+          17,
+          15
+        ],
+        [
+          5,
+          5,
+          21
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.6590909090909091,
+          "recall": 0.5471698113207547,
+          "f1": 0.5979381443298969,
+          "n": 53
+        },
+        "media": {
+          "precision": 0.4358974358974359,
+          "recall": 0.40476190476190477,
+          "f1": 0.41975308641975306,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.4883720930232558,
+          "recall": 0.6774193548387096,
+          "f1": 0.5675675675675675,
+          "n": 31
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 42,
+          "support": {
+            "facil": 23,
+            "media": 14,
+            "dificil": 5
+          },
+          "macro_f1": 0.5635683760683761,
+          "accuracy": 0.5952380952380952,
+          "confusion": [
+            [
+              13,
+              8,
+              2
+            ],
+            [
+              2,
+              9,
+              3
+            ],
+            [
+              1,
+              1,
+              3
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.8125,
+              "recall": 0.5652173913043478,
+              "f1": 0.6666666666666666,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.5,
+              "recall": 0.6428571428571429,
+              "f1": 0.5625,
+              "n": 14
+            },
+            "dificil": {
+              "precision": 0.375,
+              "recall": 0.6,
+              "f1": 0.46153846153846156,
+              "n": 5
+            }
+          }
+        },
+        "CN": {
+          "n": 18,
+          "support": {
+            "facil": 3,
+            "media": 10,
+            "dificil": 5
+          },
+          "macro_f1": 0.147008547008547,
+          "accuracy": 0.16666666666666666,
+          "confusion": [
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              4,
+              1,
+              5
+            ],
+            [
+              1,
+              2,
+              2
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 3
+            },
+            "media": {
+              "precision": 0.2,
+              "recall": 0.1,
+              "f1": 0.13333333333333333,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.25,
+              "recall": 0.4,
+              "f1": 0.3076923076923077,
+              "n": 5
+            }
+          }
+        },
+        "LC": {
+          "n": 37,
+          "support": {
+            "facil": 23,
+            "media": 11,
+            "dificil": 3
+          },
+          "macro_f1": 0.3814884302689181,
+          "accuracy": 0.5405405405405406,
+          "confusion": [
+            [
+              14,
+              7,
+              2
+            ],
+            [
+              3,
+              6,
+              2
+            ],
+            [
+              1,
+              2,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.7777777777777778,
+              "recall": 0.6086956521739131,
+              "f1": 0.6829268292682927,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.4,
+              "recall": 0.5454545454545454,
+              "f1": 0.46153846153846156,
+              "n": 11
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 3
+            }
+          }
+        },
+        "MT": {
+          "n": 29,
+          "support": {
+            "facil": 4,
+            "media": 7,
+            "dificil": 18
+          },
+          "macro_f1": 0.49164408310749774,
+          "accuracy": 0.6551724137931034,
+          "confusion": [
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              5
+            ],
+            [
+              2,
+              0,
+              16
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.4,
+              "recall": 0.5,
+              "f1": 0.4444444444444444,
+              "n": 4
+            },
+            "media": {
+              "precision": 1.0,
+              "recall": 0.14285714285714285,
+              "f1": 0.25,
+              "n": 7
+            },
+            "dificil": {
+              "precision": 0.6956521739130435,
+              "recall": 0.8888888888888888,
+              "f1": 0.7804878048780488,
+              "n": 18
+            }
+          }
+        }
+      },
+      "errors": [
+        {
+          "id": "gq_dd151465e965379ee8bfeba1",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "Cada objeto \u00e9, em si mesmo, um sistema funcionando sistemicamente. Um grande supermercado ou shopping center seria incapaz de existir se n\u00e3o fossem servidos por vias r\u00e1pidas, estacionamentos adequados e acess\u00edveis, sistemas de transportes p"
+        },
+        {
+          "id": "gq_f2e3c82359985524046c5b76",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "A finalidade mais marcante em toda a hist\u00f3ria dos mapas, desde o seu in\u00edcio, teria sido a de estarem sempre voltados \u00e0 pr\u00e1tica, principalmente a servi\u00e7o da domina\u00e7\u00e3o, do poder. Sempre registraram o que mais interessava a uma minoria, fato e"
+        },
+        {
+          "id": "gq_e9bc804de7c539bffe49e081",
+          "area": "CH",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "## Refugiados no Brasil\nO que alicer\u00e7a, portanto, o acolhimento de refugiados pelos Estados gira em torno da fronteira erguida entre inclus\u00e3o e exclus\u00e3o, admiss\u00e3o e rejei\u00e7\u00e3o, desej\u00e1veis e indesej\u00e1veis; ao mesmo tempo, enseja vulnerabilidade"
+        },
+        {
+          "id": "gq_990025b80c8a382ed1386f98",
+          "area": "CH",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "## 1890-1914, no tempo das certezas\nCom a proximidade do final do s\u00e9culo 19, amplificam-se as expectativas com rela\u00e7\u00e3o ao s\u00e9culo seguinte. Se muitas eram as utopias, talvez uma das mais evidentes tenha se concentrado nas potencialidades da "
+        },
+        {
+          "id": "gq_d93cca4cd211bdacba067786",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "O bispo Bartolomeu de Las Casas \u00e9 o homem mais odiado da Am\u00e9rica, o anti-Cristo dos senhores, o a\u00e7oite destas terras. Por sua culpa, o imperador promulgou novas leis que despojam de escravos \u00edndios os filhos dos conquistadores. O que ser\u00e1 d"
+        },
+        {
+          "id": "gq_c2eba58250864512a7e33964",
+          "area": "CH",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Os grupos dominantes s\u00e3o beneficiados em termos de credibilidade e podem, com isso, controlar falas de membros de outros grupos, descredibilizando seus testemunhos com base em concep\u00e7\u00f5es compartilhadas de preconceito de identidade (g\u00eanero e"
+        },
+        {
+          "id": "gq_88cfbe730af071ce67525e50",
+          "area": "CH",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Eu sentia falta do futuro. \u00c9 claro que eu sabia, muito mesmo antes da recorr\u00eancia dele, que nunca envelheceria. Era muito prov\u00e1vel que eu nunca mais fosse ver o oceano de uma altura de trinta mil p\u00e9s de novo, uma dist\u00e2ncia t\u00e3o grande que n\u00e3"
+        },
+        {
+          "id": "gq_b4258e6c9b2cf468c5c944a9",
+          "area": "CH",
+          "actual": "dificil",
+          "predicted": "facil",
+          "excerpt": "A regra de ouro, popularmente conhecida pelo prov\u00e9rbio \u201cTrate os outros como gostaria de ser tratado\u201d, \u00e9 um dos princ\u00edpios morais mais onipresentes. A no\u00e7\u00e3o subjacente, que apela para o senso \u00e9tico mais b\u00e1sico, se expressa de uma forma ou d"
+        },
+        {
+          "id": "gq_61348b10e3b14034f81a1fa9",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "A democracia responde a esta pergunta: quem deve exercer o poder p\u00fablico? A resposta \u00e9: o exerc\u00edcio do poder p\u00fablico corresponde \u00e0 coletividade dos cidad\u00e3os. Contudo, nessa pergunta n\u00e3o se fala sobre qual extens\u00e3o deva ter o poder p\u00fablico. "
+        },
+        {
+          "id": "gq_d26c53965162669d19e5b454",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "Resumamos os principais caracteres de um rizoma: diferentemente das \u00e1rvores ou de suas ra\u00edzes, o rizoma conecta um ponto qualquer com outro ponto qualquer e cada um de seus tra\u00e7os n\u00e3o remete necessariamente a tra\u00e7os de mesma natureza. Contr"
+        },
+        {
+          "id": "gq_f278c3364bee425075d490cd",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "Tal qual num ex\u00e9rcito, n\u00e3o se compreende um efetivo composto apenas de oficiais. Tamb\u00e9m na sa\u00fade p\u00fablica, os funcion\u00e1rios t\u00e9cnicos graduados necessitam ser assistidos por auxiliares em n\u00famero suficiente e com preparo adequado, constitu\u00eddo p"
+        },
+        {
+          "id": "gq_00cd2aa3961866b43f9f6e56",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## TEXTO 1\nUma \u00fanica \u00e1rvore joga entre 300 e 1 000 litros de \u00e1gua por dia para a atmosfera. Considerando a demanda m\u00ednima que uma pessoa consome de \u00e1gua, ou seja, 120 litros por dia, uma \u00fanica \u00e1rvore pode ser capaz de produzir \u00e1gua para at\u00e9"
+        },
+        {
+          "id": "gq_1e43bd626855bae9aa67a6db",
+          "area": "CH",
+          "actual": "dificil",
+          "predicted": "media",
+          "excerpt": "## O funcionamento do Conselho de Seguran\u00e7a das Na\u00e7\u00f5es Unidas\nO Conselho de Seguran\u00e7a da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas (ONU) \u00e9, junto com a Assembleia-Geral, um dos principais \u00f3rg\u00e3os de tomada de decis\u00e3o dentro da entidade. O Conselho lida "
+        },
+        {
+          "id": "gq_2b2929518fdb1ed81317db02",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "O rompimento da barragem de Fund\u00e3o levou muito consigo. A lama soterrou sonhos e modificou de forma permanente centenas de vidas nascidas e criadas em Bento Rodrigues e Paracatu, em Mariana (MG). Mas n\u00e3o somente. Ao se estender ao longo do "
+        },
+        {
+          "id": "gq_023bb01ea3464ba7a29630c9",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## A neglig\u00eancia parental e a rela\u00e7\u00e3o com a defici\u00eancia\nA pessoa com defici\u00eancia de qualquer modalidade \u2014 seja visual, auditiva, f\u00edsica ou mental \u2014 encontra-se em uma posi\u00e7\u00e3o de grande vulnerabilidade em rela\u00e7\u00e3o \u00e0s pessoas sem defici\u00eancia, "
+        },
+        {
+          "id": "gq_75da3633afa506a84f02dea4",
+          "area": "CH",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "## TEXTO 1\nO bufarinheiro, conhecido nas cidades por teque-teque, chama-se, nos rec\u00f4nditos da Amaz\u00f4nia, \u201cregat\u00e3o\u201d. Em lugar de transportar nas costas o mundo de miudezas, transporta-o no bojo de uma gaiola que desloca duas, tr\u00eas, quatro ton"
+        },
+        {
+          "id": "gq_77b1e5c80a7249684f6e903a",
+          "area": "CH",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## Origem e mem\u00f3ria das universidades medievais\nAs institui\u00e7\u00f5es que a Idade M\u00e9dia nos legou s\u00e3o de um valor maior e mais imperec\u00edvel do que suas catedrais. E a universidade \u00e9 nitidamente uma institui\u00e7\u00e3o medieval \u2014 tanto quanto a monarquia c"
+        },
+        {
+          "id": "gq_fb83a591a7f133c53142b3f5",
+          "area": "CN",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "No senso comum, considera-se, ainda hoje, que compostos org\u00e2nicos s\u00e3o subst\u00e2ncias presentes nos seres vivos. Na Qu\u00edmica, a express\u00e3o \u201ccompostos org\u00e2nicos\u201d tem um uso hist\u00f3rico de mais de 200 anos, adquirindo diferentes conota\u00e7\u00f5es ao longo d"
+        },
+        {
+          "id": "gq_0845a884d0b9e1e64a6f8e87",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Com base em testes realizados em ratos, concluiu-se que os compostos nitrosos s\u00e3o subst\u00e2ncias mutag\u00eanicas, ou seja, produzem muta\u00e7\u00f5es nas c\u00e9lulas e possivelmente c\u00e2ncer. Esses compostos podem ser obtidos pela rea\u00e7\u00e3o entre o nitrito de s\u00f3dio"
+        },
+        {
+          "id": "gq_346759a4adb2119a7fd41f12",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "O exoesqueleto dos crust\u00e1ceos \u00e9 formado por quitina e impregna\u00e7\u00f5es de sais calc\u00e1rios e, por isso, \u00e9 mais duro quando comparado com o exoesqueleto de outros artr\u00f3podes. Esse revestimento externo confere prote\u00e7\u00e3o, mas, por ser duro, limita o "
+        },
+        {
+          "id": "gq_62ca52f06451d1006bcbc634",
+          "area": "CN",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## Pererecas-assobiadoras tiram o sono de moradores do Brooklin\nMoradores do Brooklin, bairro de S\u00e3o Paulo, perdem o sono com um som alto, constante e estridente. O barulho \u00e9 causado por anf\u00edbios anuros trazidos do Caribe, da esp\u00e9cie Eleuth"
+        },
+        {
+          "id": "gq_79fcf6bf11c88002d01701d9",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Uma agricultora, com a inten\u00e7\u00e3o de comercializar o milho rec\u00e9m-colhido, testou uma forma de preservar o sabor adocicado do seu produto. O melhor resultado foi obtido quando ela imergiu as espigas em \u00e1gua fervente durante alguns minutos e, e"
+        },
+        {
+          "id": "gq_053cef1eadda732d756e224f",
+          "area": "CN",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "A tuberculose \u00e9 uma doen\u00e7a infecciosa causada pela bact\u00e9ria Mycobacterium tuberculosis. O principal reservat\u00f3rio \u00e9 o homem, e a sua transmiss\u00e3o ocorre principalmente pela inala\u00e7\u00e3o de aeross\u00f3is. No Brasil, a doen\u00e7a representa um s\u00e9rio proble"
+        },
+        {
+          "id": "gq_2508f23f7c79edf4996c6ee2",
+          "area": "CN",
+          "actual": "dificil",
+          "predicted": "media",
+          "excerpt": "O biog\u00e1s \u00e9 uma alternativa energ\u00e9tica muito importante, pois, al\u00e9m de reduzir a depend\u00eancia por combust\u00edveis f\u00f3sseis, sua obten\u00e7\u00e3o pode ser realizada a partir de res\u00edduos da produ\u00e7\u00e3o agroindustrial. Considere que o biog\u00e1s produzido em um em"
+        },
+        {
+          "id": "gq_efab6baab9890c9f906a2097",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Vida: a ci\u00eancia da biologia\nAs fibras musculares esquel\u00e9ticas n\u00e3o s\u00e3o todas iguais. As fibras lentas, tamb\u00e9m conhecidas como fibras vermelhas, apresentam muitas mitoc\u00f4ndrias e s\u00e3o bem supridas por vasos sangu\u00edneos. J\u00e1 as fibras r\u00e1pidas, ou "
+        },
+        {
+          "id": "gq_e5675dffa0e9d7905a1feb60",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Em aeroportos, por raz\u00f5es de seguran\u00e7a, os passageiros devem ter suas bagagens de m\u00e3o examinadas antes do embarque, passando-as em esteiras para sua inspe\u00e7\u00e3o por aparelhos de raios X. Nessas inspe\u00e7\u00f5es, os passageiros s\u00e3o orientados a retira"
+        },
+        {
+          "id": "gq_48bcaa6932b14105bbda0540",
+          "area": "CN",
+          "actual": "dificil",
+          "predicted": "media",
+          "excerpt": "A tuberculose \u00e9 uma doen\u00e7a infecciosa causada pela bact\u00e9ria Mycobacterium tuberculosis. O principal reservat\u00f3rio \u00e9 o homem, e a sua transmiss\u00e3o ocorre principalmente pela inala\u00e7\u00e3o de aeross\u00f3is. No Brasil, a doen\u00e7a representa um s\u00e9rio proble"
+        },
+        {
+          "id": "gq_31c35fbf745c475caaecd64f",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "## O v\u00edrus linfotr\u00f3pico de c\u00e9lulas T humanas tipo 1 (HTLV-1): quando suspeitar da infec\u00e7\u00e3o?\nO v\u00edrus linfotr\u00f3pico de c\u00e9lulas T humanas tipo 1 (HTLV-1) \u00e9 um retrov\u00edrus do mesmo grupo do v\u00edrus da imunodefici\u00eancia humana (HIV). Ambos s\u00e3o transm"
+        },
+        {
+          "id": "gq_fa73fd2e4b8f6bad7f2665c5",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Uma ambul\u00e2ncia em alta velocidade com a sirene ligada desloca-se em dire\u00e7\u00e3o a um radar operado por uma pessoa. O radar emite ondas de r\u00e1dio com frequ\u00eancia f zero que s\u00e3o refletidas pela dianteira da ambul\u00e2ncia, retornando para o detector co"
+        },
+        {
+          "id": "gq_524d430e713f646ee5b29e6c",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "## Brasil fecha 2020 entre os maiores recicladores de latas de alum\u00ednio\nA bauxita cont\u00e9m alumina (Al2O3), que \u00e9 a mat\u00e9ria-prima para produ\u00e7\u00e3o do alum\u00ednio (Al). De forma geral, s\u00e3o necess\u00e1rios 50 quilogramas de bauxita para produzir 10 quilo"
+        },
+        {
+          "id": "gq_197c36451e4b8268b292642b",
+          "area": "CN",
+          "actual": "dificil",
+          "predicted": "facil",
+          "excerpt": "## O que s\u00e3o vacinas?\nInd\u00fastrias farmac\u00eauticas e institui\u00e7\u00f5es cient\u00edficas t\u00eam trabalhado no desenvolvimento de diferentes vacinas contra a covid-19. Em algumas dessas vacinas, a principal estrutura antig\u00eanica \u00e9 uma prote\u00edna de superf\u00edcie vi"
+        },
+        {
+          "id": "gq_501d1ee35e3d96d1174b007f",
+          "area": "CN",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "## Impactos do micropl\u00e1stico\nA a\u00e7\u00e3o de fatores abi\u00f3ticos aliada \u00e0 biodeteriora\u00e7\u00e3o contribuem para a forma\u00e7\u00e3o de micropl\u00e1sticos, os quais se aderem a outros poluentes org\u00e2nicos apolares persistentes, como os derivados de pesticidas lipossol\u00fa"
+        },
+        {
+          "id": "gq_3a7052752ba9dfded28cd1c0",
+          "area": "LC",
+          "actual": "dificil",
+          "predicted": "media",
+          "excerpt": "Esa\u00fa e Jac\u00f3\nMachado de Assis Cap\u00edtulo 48/ Terps\u00edcore\nAo contr\u00e1rio do que ficou dito atr\u00e1s, Flora n\u00e3o se aborreceu na ilha. Conjeturei mal, emendo-me a tempo. Podia aborrecer-se pelas raz\u00f5es que l\u00e1 ficam, e ainda outras que poupei ao leitor "
+        },
+        {
+          "id": "gq_02252387c7fb9dcdff7de4ab",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "Por tr\u00e1s do universo \u201cmasculino\u201d das lutas, \u00e9 cada vez mais not\u00f3rio o aumento da participa\u00e7\u00e3o de mulheres nessa pr\u00e1tica corporal. Algumas situa\u00e7\u00f5es refor\u00e7am esse fen\u00f4meno de ocupa\u00e7\u00e3o em ambientes de lutas: a inclus\u00e3o de mulheres em combates"
+        },
+        {
+          "id": "gq_8abe01eb906a8063a6636197",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## Rua Aribau: colet\u00e2nea de poemas\nAlice Ruiz\npessoas com suas malas\nmochilas e valises\nchegam e se v\u00e3o\nse encontram\nse despedem\ne se despem\nde seus pertences\ncomo se pudessem chegar\na algum lugar\nonde elas mesmas\nn\u00e3o estivessem.\nEsse poema"
+        },
+        {
+          "id": "gq_375ce58eb2ecbf1eb62fedd6",
+          "area": "LC",
+          "actual": "dificil",
+          "predicted": "media",
+          "excerpt": "### TEXTO 1\n#### Cap\u00edtulo 4, vers\u00edculo 3\nRacionais MCs\nMinha palavra vale um tiro, eu tenho muita muni\u00e7\u00e3o\nNa queda ou na ascens\u00e3o, minha atitude vai al\u00e9m\nE tem disposi\u00e7\u00e3o pro mal e pro bem\nTalvez eu seja um s\u00e1dico ou um anjo, um m\u00e1gico\nOu j"
+        },
+        {
+          "id": "gq_46441bcf8827fce0a73b3d6a",
+          "area": "LC",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Maranhenses que moram longe matam a saudade da terra natal usando express\u00f5es pr\u00f3prias do estado. Se o maranh\u00eas impressiona e desperta a curiosidade de quem mora no pr\u00f3prio Maranh\u00e3o, imagine de quem vem de outros estados e pa\u00edses? A variedad"
+        },
+        {
+          "id": "gq_73e4b6da5f7fa9d23614bd36",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "Uma defini\u00e7\u00e3o poss\u00edvel para o conceito de arte afro-brasileira pode ser: produ\u00e7\u00e3o pl\u00e1stica que \u00e9 feita por negros, mesti\u00e7os ou brancos a partir de suas experi\u00eancias sociais com a cultura negra nacional. Exemplos cl\u00e1ssicos dessa abordagem s\u00e3"
+        },
+        {
+          "id": "gq_771efc13e2462e3c0bd0c649",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "Os Jogos Ol\u00edmpicos j\u00e1 n\u00e3o s\u00e3o mais os mesmos. E isso n\u00e3o \u00e9 nem uma cr\u00edtica, nem um elogio. \u00c9 uma constata\u00e7\u00e3o. Esse movimento come\u00e7ou com o v\u00f4lei de praia tornando-se esporte ol\u00edmpico em 1996, passou pela chegada do BMX Racing como primeiro "
+        },
+        {
+          "id": "gq_a8c9242936dbbe2c908e9ef9",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "O Brasil somou cerca de 60 mil novos casos de c\u00e2ncer de mama at\u00e9 o final de 2019, n\u00famero que corresponde a 25 por cento de todos os diagn\u00f3sticos da condi\u00e7\u00e3o registrados no pa\u00eds, segundo dados do Instituto Nacional do C\u00e2ncer (Inca). Apesar d"
+        },
+        {
+          "id": "gq_171d5bf39da346e85e70fed1",
+          "area": "LC",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "## Amora\nNat\u00e1lia Borges Polesso\nMar\u00edlia acorda\nTomo caf\u00e9 em golinhos para n\u00e3o queimar meus l\u00e1bios ressequidos. Como p\u00e3o em pedacinhos para n\u00e3o engasgar com um farelo mais duro. Mar\u00edlia come tamb\u00e9m, mas olha o tempo todo para baixo. Parece q"
+        },
+        {
+          "id": "gq_b45d0287b41c6872a1774a82",
+          "area": "LC",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "Um estudo norte-americano analisou os efeitos da pandemia da covid-19 sobre a sa\u00fade mental e a manuten\u00e7\u00e3o da atividade f\u00edsica, revelando que um fator est\u00e1 diretamente ligado ao outro. De acordo com os dados, fam\u00edlias de baixa renda foram ma"
+        },
+        {
+          "id": "gq_3ccd8c2c06f1ab25d41a6fff",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "Influenciadores negros t\u00eam recorrentemente chamado a aten\u00e7\u00e3o para o fato de terem muito menos repercuss\u00e3o em suas postagens e nas entregas do seu conte\u00fado quando comparados com os influenciadores brancos, mesmo se fotos, contextos e an\u00fancio"
+        },
+        {
+          "id": "gq_6aeacc24c299951b4cba1202",
+          "area": "LC",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "## TEXTO 1\nA 13 de fevereiro de 1946, Graciliano Ramos escreve uma carta a C\u00e2ndido Portinari relembrando uma visita que lhe fizera quando tivera a ocasi\u00e3o de apreciar algumas telas da s\u00e9rie Retirantes. Diz o escritor alagoano: Car\u00edssimo Por"
+        },
+        {
+          "id": "gq_cb39a8f8f5bcfece87b78e31",
+          "area": "LC",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "S\u00e3o Bernardo\nGraciliano Ramos\n\u2014 V\u00e1 para o inferno, Gondim. Voc\u00ea acanalhou o tro\u00e7o. Est\u00e1 pern\u00f3stico, est\u00e1 safado, est\u00e1 idiota. H\u00e1 l\u00e1 ningu\u00e9m que fale dessa forma!\nAzevedo Gondim apagou o sorriso, engoliu em seco, apanhou os cacos da sua pequ"
+        },
+        {
+          "id": "gq_bd1613824d50d19ee9a6d589",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "## Falar errado \u00e9 uma arte, Arnesto!\nNo dia 6 de agosto de 1910, Emma Riccini Rubinato pariu um garoto sapeca em Valinhos e deu a ele o nome de Jo\u00e3o Rubinato. Na escola, Jo\u00e3o n\u00e3o passou do terceiro ano. N\u00e3o era a \u00e1rea dele, tinha de escolhe"
+        },
+        {
+          "id": "gq_fe1ba2798f1f88c8db91e8da",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "## Conhe\u00e7a hist\u00f3rias de atletas paral\u00edmpicas que trocaram de modalidade durante a carreira esportiva\nJane Karla: a goiana de 45 anos teve poliomielite aos tr\u00eas anos, o que prejudicou seus movimentos das pernas. Em 2003, iniciou no t\u00eanis de "
+        },
+        {
+          "id": "gq_81da11fccece8b1b0a8f2291",
+          "area": "LC",
+          "actual": "dificil",
+          "predicted": "facil",
+          "excerpt": "Evanildo Bechara prepara a sua aposentadoria de pouco em pouco, como se a adiasse ao m\u00e1ximo. Aos 95 anos, o imortal da Academia Brasileira de Letras (ABL) alcan\u00e7ou um status de astro pop no mundo da filologia e da gram\u00e1tica. Quando ainda ti"
+        },
+        {
+          "id": "gq_9487705694692cec75a8d194",
+          "area": "LC",
+          "actual": "facil",
+          "predicted": "media",
+          "excerpt": "A fal\u00eancia\nAt\u00e9 ali que sabia das mis\u00e9rias do mundo? Nada. Aquela noite do Castelo, t\u00e3o simples, t\u00e3o mon\u00f3tona, fora uma revela\u00e7\u00e3o! Era bem certo que a l\u00e1grima existia, que irrompiam solu\u00e7os de peitos oprimidos, que para algu\u00e9m os dias n\u00e3o ti"
+        },
+        {
+          "id": "gq_6827e4356415fc54a2ab1956",
+          "area": "MT",
+          "actual": "dificil",
+          "predicted": "facil",
+          "excerpt": "Uma empresa produz mochilas escolares sob encomenda. Essa empresa tem um custo total de produ\u00e7\u00e3o composto por um custo fixo, que n\u00e3o depende do n\u00famero de mochilas, mais um custo vari\u00e1vel, que \u00e9 proporcional ao n\u00famero de mochilas produzidas."
+        },
+        {
+          "id": "gq_a691bb3047c6a701effb18bd",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Na constru\u00e7\u00e3o de uma varanda retangular, com 5 metros de largura e 6 metros de comprimento, decidiu-se usar dois tipos de pedras para revestir o piso. Uma das pedras \u00e9 quadrada, com 1 metro de lado, e a outra \u00e9 retangular, com 0,25 metro de"
+        },
+        {
+          "id": "gq_b35c5a63f8f2ffdc26a5b5ad",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "O est\u00e1dio do Maracan\u00e3 passou por algumas modifica\u00e7\u00f5es estruturais para a realiza\u00e7\u00e3o da Copa do Mundo de 2014, como, por exemplo, as dimens\u00f5es do campo retangular. Para se adaptar aos padr\u00f5es da Fifa, as dimens\u00f5es do campo foram reduzidas de"
+        },
+        {
+          "id": "gq_5ed65d18a022d6ebe52e37b8",
+          "area": "MT",
+          "actual": "dificil",
+          "predicted": "facil",
+          "excerpt": "Uma crian\u00e7a, utilizando um aplicativo, escreveu uma mensagem para enviar a um amigo. Essa mensagem foi escrita seguindo estas etapas:\n\n| Etapas | Visor de escrita |\n|:-------------------------------------------------------------------------"
+        },
+        {
+          "id": "gq_0ca35992cee4d0404c69cc2c",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Um comprador assinou um contrato com uma construtora adquirindo um im\u00f3vel, ainda na fase de lan\u00e7amento da constru\u00e7\u00e3o, cujo valor total, em reais, era de 420 000 reais, pagando o equivalente a 35 por cento desse valor, sem quaisquer outros \u00f4"
+        },
+        {
+          "id": "gq_c19e7fd94ad5b75ee98226b4",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Um comprador assinou um contrato com uma construtora adquirindo um im\u00f3vel, ainda na fase de lan\u00e7amento da constru\u00e7\u00e3o, cujo valor total, em reais, era de 420 000 reais, pagando o equivalente a 35 por cento desse valor, sem quaisquer outros \u00f4"
+        },
+        {
+          "id": "gq_a02fc61776eaf127dcae099d",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "facil",
+          "excerpt": "O uso de aplicativos de transporte tem sido uma alternativa \u00e0 popula\u00e7\u00e3o que busca pre\u00e7os mais competitivos para se locomover, principalmente nas grandes cidades. As formas usadas para determinar o valor cobrado por cada viagem variam de um "
+        },
+        {
+          "id": "gq_3c1e3d52230b8a3d986a6d8a",
+          "area": "MT",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "Um artes\u00e3o utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele sempre compra todos os componentes em uma mesma loja. O quadro apresenta os pre\u00e7os dos dois tipos de componentes nas lojas 1 e 2.\n\n| Lojas | Pre\u00e7os dos compon"
+        },
+        {
+          "id": "gq_837a844ed0ca7c39ff0303e9",
+          "area": "MT",
+          "actual": "facil",
+          "predicted": "dificil",
+          "excerpt": "Um professor de desenho, apresentou uma pe\u00e7a de 45 cent\u00edmetros de comprimento e solicitou aos alunos reproduzir no papel o objeto, onde as medidas devem ser proporcionais \u00e0s medidas reais, e o comprimento deste desenho tem que ser de 9 cent"
+        },
+        {
+          "id": "gq_be9bb949b31bd767dbb35c6a",
+          "area": "MT",
+          "actual": "media",
+          "predicted": "dificil",
+          "excerpt": "Uma doceira vende e entrega, em seu bairro, por\u00e7\u00f5es de 100 gramas de docinhos de anivers\u00e1rio. Atualmente, a taxa \u00fanica de entrega \u00e9 10 reais, e o valor cobrado por uma por\u00e7\u00e3o \u00e9 25 reais. Por uma estrat\u00e9gia de vendas, a partir da pr\u00f3xima sem"
+        }
+      ]
+    },
+    "majoritaria": {
+      "n": 126,
+      "support": {
+        "facil": 53,
+        "media": 42,
+        "dificil": 31
+      },
+      "macro_f1": 0.1973929236499069,
+      "accuracy": 0.42063492063492064,
+      "confusion": [
+        [
+          53,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          0
+        ],
+        [
+          31,
+          0,
+          0
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.42063492063492064,
+          "recall": 1.0,
+          "f1": 0.5921787709497207,
+          "n": 53
+        },
+        "media": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 42
+        },
+        "dificil": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 31
+        }
+      },
+      "by_area": {
+        "CH": {
+          "n": 42,
+          "support": {
+            "facil": 23,
+            "media": 14,
+            "dificil": 5
+          },
+          "macro_f1": 0.23589743589743592,
+          "accuracy": 0.5476190476190477,
+          "confusion": [
+            [
+              23,
+              0,
+              0
+            ],
+            [
+              14,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.5476190476190477,
+              "recall": 1.0,
+              "f1": 0.7076923076923077,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 14
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 5
+            }
+          }
+        },
+        "CN": {
+          "n": 18,
+          "support": {
+            "facil": 3,
+            "media": 10,
+            "dificil": 5
+          },
+          "macro_f1": 0.09523809523809523,
+          "accuracy": 0.16666666666666666,
+          "confusion": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              10,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.16666666666666666,
+              "recall": 1.0,
+              "f1": 0.2857142857142857,
+              "n": 3
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 10
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 5
+            }
+          }
+        },
+        "LC": {
+          "n": 37,
+          "support": {
+            "facil": 23,
+            "media": 11,
+            "dificil": 3
+          },
+          "macro_f1": 0.2555555555555556,
+          "accuracy": 0.6216216216216216,
+          "confusion": [
+            [
+              23,
+              0,
+              0
+            ],
+            [
+              11,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.6216216216216216,
+              "recall": 1.0,
+              "f1": 0.7666666666666667,
+              "n": 23
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 11
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 3
+            }
+          }
+        },
+        "MT": {
+          "n": 29,
+          "support": {
+            "facil": 4,
+            "media": 7,
+            "dificil": 18
+          },
+          "macro_f1": 0.08080808080808081,
+          "accuracy": 0.13793103448275862,
+          "confusion": [
+            [
+              4,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              0
+            ],
+            [
+              18,
+              0,
+              0
+            ]
+          ],
+          "by_class": {
+            "facil": {
+              "precision": 0.13793103448275862,
+              "recall": 1.0,
+              "f1": 0.24242424242424243,
+              "n": 4
+            },
+            "media": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 7
+            },
+            "dificil": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "n": 18
+            }
+          }
+        }
+      }
+    }
+  }
+}

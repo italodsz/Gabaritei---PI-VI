@@ -1,0 +1,28 @@
+{
+  "version": "2026.11.13-r1",
+  "checks": [
+    {
+      "comando": [
+        "verificar_pacote.py"
+      ],
+      "exit_code": 0,
+      "log": "integridade_modulo.txt"
+    },
+    {
+      "comando": [
+        "testar.py",
+        "--groups",
+        "A,D,F",
+        "--out",
+        "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\entregas\\2026.11.13-r1\\dificuldade-adaptativa\\entrega-2026.11.13-r1\\evidencias_montagem\\testes_runtime.json"
+      ],
+      "exit_code": 0,
+      "log": "testes_runtime.txt"
+    }
+  ],
+  "runtime_counts": {
+    "aprovado": 38
+  },
+  "treinamentos_executados": false,
+  "publicado": false
+}

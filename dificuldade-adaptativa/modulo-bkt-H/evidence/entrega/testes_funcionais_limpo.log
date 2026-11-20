@@ -1,0 +1,50 @@
+UTC: 2026-11-11T19:17:33.404972+00:00
+CWD: C:\Users\Darkz\Downloads\Gabaritei_Dificuldade_Adaptativa_Entrega\dificuldade-adaptativa\modulo-bkt-H
+COMMAND: C:\Users\Darkz\AppData\Local\Temp\Gabaritei_Entrega_Final_Validacao\venv\Scripts\python.exe -B testar.py --groups A,D,F --out C:\Users\Darkz\Downloads\Gabaritei_Dificuldade_Adaptativa_Entrega\dificuldade-adaptativa\modulo-bkt-H\evidence\entrega\funcionais.json
+
+Resultado por status {'aprovado': 38} exit code 0
+test_bayes_correct (test_math.Math.test_bayes_correct) ... ok
+test_bayes_error (test_math.Math.test_bayes_error) ... ok
+test_cooldown (test_math.Math.test_cooldown) ... ok
+test_determinism_and_reset (test_math.Math.test_determinism_and_reset) ... ok
+test_future_does_not_change_prediction (test_math.Math.test_future_does_not_change_prediction) ... ok
+test_insufficient_data_abstains (test_math.Math.test_insufficient_data_abstains) ... ok
+test_limits_and_invalid (test_math.Math.test_limits_and_invalid) ... ok
+test_prediction_before_response (test_math.Math.test_prediction_before_response) ... ok
+test_stock_and_choice (test_math.Math.test_stock_and_choice) ... ok
+test_blocked_skills_use_fallback (test_engine.Engine.test_blocked_skills_use_fallback) ... ok
+test_concurrency_same_attempt (test_engine.Engine.test_concurrency_same_attempt) ... ok
+test_confirmed_frontend_contract_adapter (test_engine.Engine.test_confirmed_frontend_contract_adapter) ... ok
+test_cooldown_counts_responses_not_order_id_distance (test_engine.Engine.test_cooldown_counts_responses_not_order_id_distance) ... ok
+test_cross_student_collision_rejected (test_engine.Engine.test_cross_student_collision_rejected) ... ok
+test_cross_user_accept_rejected (test_engine.Engine.test_cross_user_accept_rejected) ... ok
+test_decline_preserves_choice (test_engine.Engine.test_decline_preserves_choice) ... ok
+test_explicit_acceptance_and_replay (test_engine.Engine.test_explicit_acceptance_and_replay) ... ok
+test_idempotency (test_engine.Engine.test_idempotency) ... ok
+test_idempotency_conflict (test_engine.Engine.test_idempotency_conflict) ... ok
+test_invalid_inputs_leave_no_state (test_engine.Engine.test_invalid_inputs_leave_no_state) ... ok
+test_invalid_model_rejected_before_state (test_engine.Engine.test_invalid_model_rejected_before_state) ... ok
+test_isolation_namespace (test_engine.Engine.test_isolation_namespace) ... ok
+test_legacy_state_migration_retains_offer_count (test_engine.Engine.test_legacy_state_migration_retains_offer_count) ... ok
+test_manual_choice_is_preserved (test_engine.Engine.test_manual_choice_is_preserved) ... ok
+test_model_version_isolates_state (test_engine.Engine.test_model_version_isolates_state) ... ok
+test_order_guard (test_engine.Engine.test_order_guard) ... ok
+test_server_attempt_id_independent_from_client_key (test_engine.Engine.test_server_attempt_id_independent_from_client_key) ... ok
+test_stale_offer_rejected (test_engine.Engine.test_stale_offer_rejected) ... ok
+test_state_persists_restart (test_engine.Engine.test_state_persists_restart) ... ok
+test_transaction_rolls_back (test_engine.Engine.test_transaction_rolls_back) ... ok
+test_unknown_skill_uses_fallback (test_engine.Engine.test_unknown_skill_uses_fallback) ... ok
+test_area_does_not_alias_external_skill (test_entrega.Delivery.test_area_does_not_alias_external_skill) ... ok
+test_area_invalid (test_entrega.Delivery.test_area_invalid) ... ok
+test_area_isolation_and_enem_fallback (test_entrega.Delivery.test_area_isolation_and_enem_fallback) ... ok
+test_tri_boundaries (test_entrega.Delivery.test_tri_boundaries) ... ok
+test_tri_invalid_config (test_entrega.Delivery.test_tri_invalid_config) ... ok
+test_tri_missing_invalid (test_entrega.Delivery.test_tri_missing_invalid) ... ok
+test_tri_scale_conflict (test_entrega.Delivery.test_tri_scale_conflict) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.669s
+
+OK
+
+Exit code: 0

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "gq_f9d99ef27f186ab25bdb4ce0",
+    "year": 2014,
+    "area": "MT",
+    "position": 139,
+    "status_before": "hold_for_source_review",
+    "before_question": "Um carpinteiro fabrica portas retangulares maciças, feitas de um mesmo material. Por ter recebido de seus clientes pedidos de portas mais altas, aumentou sua altura em 1 8 , preservando suas espessuras. A fim de manter o custo com o material de cada porta, precisou reduzir a largura.\nA razão entre a largura da nova porta e a largura da porta anterior é",
+    "after_question": "Um carpinteiro fabrica portas retangulares maciças, feitas de um mesmo material. Por ter recebido de seus clientes pedidos de portas mais altas, aumentou sua altura em 1/8, preservando suas espessuras. A fim de manter o custo com o material de cada porta, precisou reduzir a largura.\nA razão entre a largura da nova porta e a largura da porta anterior é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1 8"
+      },
+      {
+        "label": "B",
+        "text": "7 8"
+      },
+      {
+        "label": "C",
+        "text": "8 7"
+      },
+      {
+        "label": "D",
+        "text": "8 9"
+      },
+      {
+        "label": "E",
+        "text": "9 8"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1/8"
+      },
+      {
+        "label": "B",
+        "text": "7/8"
+      },
+      {
+        "label": "C",
+        "text": "8/7"
+      },
+      {
+        "label": "D",
+        "text": "8/9"
+      },
+      {
+        "label": "E",
+        "text": "9/8"
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "check": "altura × 9/8 com área constante → largura × 8/9 (D)"
+  },
+  {
+    "id": "gq_8cefcdee4d95e260d86518c0",
+    "year": 2015,
+    "area": "MT",
+    "position": 168,
+    "status_before": "hold_for_source_review",
+    "before_question": "Durante um jogo de futebol foram anunciados os totais do público presente e do público pagante. Diante da diferença entre os dois totais apresentados, um dos comentaristas esportivos presentes afirmou que apenas 75% das pessoas que assistiam àquele jogo no estádio pagaram ingresso.\nConsiderando que a afirmativa do comentarista está correta, a razão entre o público não pagante e o público pagante naquele jogo foi",
+    "after_question": "Durante um jogo de futebol foram anunciados os totais do público presente e do público pagante. Diante da diferença entre os dois totais apresentados, um dos comentaristas esportivos presentes afirmou que apenas 75% das pessoas que assistiam àquele jogo no estádio pagaram ingresso.\nConsiderando que a afirmativa do comentarista está correta, a razão entre o público não pagante e o público pagante naquele jogo foi",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1 4"
+      },
+      {
+        "label": "B",
+        "text": "1 3"
+      },
+      {
+        "label": "C",
+        "text": "3 4"
+      },
+      {
+        "label": "D",
+        "text": "4 3"
+      },
+      {
+        "label": "E",
+        "text": "3 1"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1/4"
+      },
+      {
+        "label": "B",
+        "text": "1/3"
+      },
+      {
+        "label": "C",
+        "text": "3/4"
+      },
+      {
+        "label": "D",
+        "text": "4/3"
+      },
+      {
+        "label": "E",
+        "text": "3/1"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "check": "75% pagam → não pagantes/pagantes = 25/75 = 1/3 (B)"
+  },
+  {
+    "id": "gq_7724470e4c302483f2801e6a",
+    "year": 2016,
+    "area": "MT",
+    "position": 180,
+    "status_before": "corrected_secondary_source_hold",
+    "before_question": "Uma caixa contém uma cédula de R$ 5,00, uma de R$ 20,00 e duas de R$ 50,00 de modelos diferentes. Retira-se aleatoriamente uma cédula dessa caixa, anota-se o seu valor e devolve-se a cédula à caixa. Em seguida, repete-se o procedimento anterior.\nA probabilidade de que a soma dos valores anotados seja pelo menos igual a R$ 55,00 é",
+    "after_question": "Uma caixa contém uma cédula de R$ 5,00, uma de R$ 20,00 e duas de R$ 50,00 de modelos diferentes. Retira-se aleatoriamente uma cédula dessa caixa, anota-se o seu valor e devolve-se a cédula à caixa. Em seguida, repete-se o procedimento anterior.\nA probabilidade de que a soma dos valores anotados seja pelo menos igual a R$ 55,00 é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1/2"
+      },
+      {
+        "label": "B",
+        "text": "1/4"
+      },
+      {
+        "label": "C",
+        "text": "3/4"
+      },
+      {
+        "label": "D",
+        "text": "2/9"
+      },
+      {
+        "label": "E",
+        "text": "5/9"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1/2"
+      },
+      {
+        "label": "B",
+        "text": "1/4"
+      },
+      {
+        "label": "C",
+        "text": "3/4"
+      },
+      {
+        "label": "D",
+        "text": "2/9"
+      },
+      {
+        "label": "E",
+        "text": "5/9"
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "check": "cédulas 5, 20, 50, 50 com reposição: somas < 55 em 4 de 16 pares → 12/16 = 3/4 (C)"
+  },
+  {
+    "id": "gq_24c523dd3b2fcb27c1b7fc55",
+    "year": 2018,
+    "area": "CN",
+    "position": 129,
+    "status_before": "hold_for_source_review",
+    "before_question": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos \"azul\", \"verde\" e \"vermelho\" e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento \"azul\", o pigmento \"verde\" seria ativado ao máximo e o “vermelho\" seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento \"verde\" um pouco e o \"vermelho\" em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.\nCaso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde\", com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de",
+    "after_question": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos \"azul\", \"verde\" e \"vermelho\" e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento \"azul\", o pigmento \"verde\" seria ativado ao máximo e o “vermelho\" seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento \"verde\" um pouco e o \"vermelho\" em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.\nCaso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde\", com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "identificar o comprimento de onda do amarelo, uma vez que não possui o pigmento “verde”."
+      },
+      {
+        "label": "B",
+        "text": "ver o estímulo de comprimento de onda laranja, pois não haveria estimulação de um pigmento visual."
+      },
+      {
+        "label": "C",
+        "text": "detectar ambos os comprimentos de onda, uma vez que a estimulação dos pigmentos estaria prejudicada."
+      },
+      {
+        "label": "D",
+        "text": "visualizar o estímulo do comprimento de onda roxo, já que este se encontra na outra ponta do espectro."
+      },
+      {
+        "label": "E",
+        "text": "distinguir os dois comprimentos de onda, pois ambos estimulam o pigmento \"vermelho\"na mesma intensidade."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "identificar o comprimento de onda do amarelo, uma vez que não possui o pigmento “verde”."
+      },
+      {
+        "label": "B",
+        "text": "ver o estímulo de comprimento de onda laranja, pois não haveria estimulação de um pigmento visual."
+      },
+      {
+        "label": "C",
+        "text": "detectar ambos os comprimentos de onda, uma vez que a estimulação dos pigmentos estaria prejudicada."
+      },
+      {
+        "label": "D",
+        "text": "visualizar o estímulo do comprimento de onda roxo, já que este se encontra na outra ponta do espectro."
+      },
+      {
+        "label": "E",
+        "text": "distinguir os dois comprimentos de onda, pois ambos estimulam o pigmento \"vermelho\" na mesma intensidade."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "check": "sem o 'verde', 530 nm e 600 nm só ativam o 'vermelho', ~75% nos dois (E)"
+  },
+  {
+    "id": "gq_a40bf6efaf15b718596481df",
+    "year": 2020,
+    "area": "MT",
+    "position": 155,
+    "status_before": "hold_for_source_review",
+    "before_question": "O artista gráfico holandês Maurits Cornelius Escher criou belíssimas obras nas quais as imagens se repetiam, com diferentes tamanhos, induzindo ao raciocínio de repetição infinita das imagens. Inspirado por ele, um artista fez um rascunho de uma obra na qual propunha a ideia de construção de uma sequência de infinitos quadrados, cada vez menores, uns sob os outros, conforme indicado na figura.\nO quadrado PRST, com lado de medida 1, é o ponto de partida. O segundo quadrado é construído sob ele tomando-se o ponto médio da base do quadrado anterior e criando-se um novo quadrado, cujo lado corresponde à metade dessa base. Essa sequência de construção se repete recursivamente.\nQual é a medida do lado do centésimo quadrado construído de acordo com esse padrão?",
+    "after_question": "O artista gráfico holandês Maurits Cornelius Escher criou belíssimas obras nas quais as imagens se repetiam, com diferentes tamanhos, induzindo ao raciocínio de repetição infinita das imagens. Inspirado por ele, um artista fez um rascunho de uma obra na qual propunha a ideia de construção de uma sequência de infinitos quadrados, cada vez menores, uns sob os outros, conforme indicado na figura.\nO quadrado PRST, com lado de medida 1, é o ponto de partida. O segundo quadrado é construído sob ele tomando-se o ponto médio da base do quadrado anterior e criando-se um novo quadrado, cujo lado corresponde à metade dessa base. Essa sequência de construção se repete recursivamente.\nQual é a medida do lado do centésimo quadrado construído de acordo com esse padrão?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "2^{-100}"
+      },
+      {
+        "label": "B",
+        "text": "2^{-99}"
+      },
+      {
+        "label": "C",
+        "text": "2^{-98}"
+      },
+      {
+        "label": "D",
+        "text": "2^{-50}"
+      },
+      {
+        "label": "E",
+        "text": "2^{-1}"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "2^(-100)"
+      },
+      {
+        "label": "B",
+        "text": "2^(-99)"
+      },
+      {
+        "label": "C",
+        "text": "2^(-98)"
+      },
+      {
+        "label": "D",
+        "text": "2^(-50)"
+      },
+      {
+        "label": "E",
+        "text": "2^(-1)"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "check": "lado 1, depois 1/2, 1/4… → 100º quadrado = 2^(-99) (B)"
+  },
+  {
+    "id": "gq_42dd410976e8abd91caec4ba",
+    "year": 2020,
+    "area": "MT",
+    "position": 160,
+    "status_before": "hold_for_source_review",
+    "before_question": "Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino.\nA quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é",
+    "after_question": "Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino.\nA quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "13."
+      },
+      {
+        "label": "B",
+        "text": "14."
+      },
+      {
+        "label": "C",
+        "text": "17."
+      },
+      {
+        "label": "D",
+        "text": "18."
+      },
+      {
+        "label": "E",
+        "text": "21."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "13."
+      },
+      {
+        "label": "B",
+        "text": "14."
+      },
+      {
+        "label": "C",
+        "text": "17."
+      },
+      {
+        "label": "D",
+        "text": "18."
+      },
+      {
+        "label": "E",
+        "text": "21."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "check": "420 km até o posto gastam 21 L (sobra 1 L); 80 + 200 + 80 km = 18 L → abastecer 17 L (C)"
+  },
+  {
+    "id": "gq_110c27c0fc32bc82a7780f7f",
+    "year": 2024,
+    "area": "MT",
+    "position": 164,
+    "status_before": "hold_for_source_review",
+    "before_question": "Um hospital tem 7 médicos cardiologistas e 6 médicos neurologistas em seu quadro de funcionários. Para executar determinada atividade, a direção desse hospital formará uma equipe com 5 médicos, sendo, pelo menos, 3 cardiologistas.\nA expressão numérica que representa o número máximo de maneiras distintas de formar essa equipe é",
+    "after_question": "Um hospital tem 7 médicos cardiologistas e 6 médicos neurologistas em seu quadro de funcionários. Para executar determinada atividade, a direção desse hospital formará uma equipe com 5 médicos, sendo, pelo menos, 3 cardiologistas.\nA expressão numérica que representa o número máximo de maneiras distintas de formar essa equipe é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "fração, numerador 7 fatorial, denominador 4 fatorial, vezes fração, numerador 6 fatorial, denominador 4 fatorial."
+      },
+      {
+        "label": "B",
+        "text": "fração, numerador 7 fatorial, denominador, 3 fatorial vezes 4 fatorial, vezes fração, numerador 6 fatorial, denominador, 2 fatorial vezes 4 fatorial."
+      },
+      {
+        "label": "C",
+        "text": "fração, numerador 7 fatorial, denominador, 3 fatorial vezes 4 fatorial, mais fração, numerador 6 fatorial, denominador, 2 fatorial vezes 4 fatorial, mais fração, numerador 5 fatorial, denominador, 1 fatorial vezes 4 fatorial."
+      },
+      {
+        "label": "D",
+        "text": "abre parêntese, fração, numerador 7 fatorial, denominador, 3 fatorial vezes 4 fatorial, mais fração, numerador 6 fatorial, denominador, 2 fatorial vezes 4 fatorial, fecha parêntese, vezes, abre parêntese, fração, numerador 7 fatorial, denominador, 4 fatorial vezes 3 fatorial, mais fração, numerador 6 fatorial, denominador, 1 fatorial vezes 5 fatorial, fecha parêntese, vezes, abre parêntese, fração, numerador 7 fatorial, denominador, 5 fatorial vezes 2 fatorial, mais fração, numerador 6 fatorial, denominador, zero fatorial vezes 6 fatorial, fecha parêntese."
+      },
+      {
+        "label": "E",
+        "text": "abre parêntese, fração, numerador 7 fatorial, denominador, 3 fatorial vezes 4 fatorial, vezes fração, numerador 6 fatorial, denominador, 2 fatorial vezes 4 fatorial, fecha parêntese, mais, abre parêntese, fração, numerador 7 fatorial, denominador, 4 fatorial vezes 3 fatorial, vezes fração, numerador 6 fatorial, denominador, 1 fatorial vezes 5 fatorial, fecha parêntese, mais, abre parêntese, fração, numerador 7 fatorial, denominador, 5 fatorial vezes 2 fatorial, vezes fração, numerador 6 fatorial, denominador, zero fatorial vezes 6 fatorial, fecha parêntese."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "7!/4! × 6!/4!"
+      },
+      {
+        "label": "B",
+        "text": "7!/(3! × 4!) × 6!/(2! × 4!)"
+      },
+      {
+        "label": "C",
+        "text": "7!/(3! × 4!) + 6!/(2! × 4!) + 5!/(1! × 4!)"
+      },
+      {
+        "label": "D",
+        "text": "(7!/(3! × 4!) + 6!/(2! × 4!)) × (7!/(4! × 3!) + 6!/(1! × 5!)) × (7!/(5! × 2!) + 6!/(0! × 6!))"
+      },
+      {
+        "label": "E",
+        "text": "(7!/(3! × 4!) × 6!/(2! × 4!)) + (7!/(4! × 3!) × 6!/(1! × 5!)) + (7!/(5! × 2!) × 6!/(0! × 6!))"
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "check": "3, 4 ou 5 cardiologistas: C(7,3)C(6,2) + C(7,4)C(6,1) + C(7,5)C(6,0), somados (E)"
+  }
+]

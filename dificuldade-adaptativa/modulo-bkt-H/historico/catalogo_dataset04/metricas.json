@@ -1,0 +1,8839 @@
+{
+  "acoes_pendentes": {
+    "conferir_item_integral_ou_leitura_do_pdf": 1807,
+    "confirmar_codigo_posicao_gabarito_na_variante": 8,
+    "recuperar_conteudo_ou_midia_da_fonte_oficial": 4,
+    "revisar_figura_notacao_e_limites_do_recorte": 273,
+    "usar_representante_ou_preservar_anulacao": 18,
+    "validar_gabarito_e_bloco_por_idioma": 99
+  },
+  "alteracoes": {
+    "continuidade_entre_regioes": 10,
+    "correcao_textual_limitada_ao_caderno_original": 130,
+    "geometria_fluxo_v3": 46,
+    "ligadura_unicode": 27,
+    "marcacao_editorial": 5,
+    "revisao_visual_nativa_com_fonte_original": 9
+  },
+  "ancoras_idioma": 112,
+  "antes": {
+    "documental_confirmada": 538,
+    "estado": {
+      "A": 460,
+      "B": 75,
+      "C": 2401,
+      "D": 35
+    },
+    "estoque": {
+      "4": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      },
+      "5": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      },
+      "6": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      }
+    },
+    "familias_bkt": 460,
+    "familias_habilidade_escala": [
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_cdf54f8002e03089b383671f"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_3048172c551386579fb5c302"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_2dc5e6c52459752f1be89158",
+          "gq_f48826b7e3f3c0d99f429166"
+        ],
+        "habilidade": "CH:H1",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_a4bf3044c4d0bd7bc2ad4f75"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_c08424af10f755073428f081"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_f6adcd80c9fb1a9aedd942da"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_c36671610c763eba60b4df3a"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0ec88ca636babdee90ce34a8"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_08ce1719ee80c4135186ac71"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_a77bcc479143da76ff592f9d"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_34d4525bedb1d9240bcd1dec",
+          "gq_c5cf15c03aae50c494aebeda"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_607509d6111df0c06b136e05",
+          "gq_cee407d5c61401e71562099f"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_2e32fa55b630fc50fe7ccb03",
+          "gq_5e5cb5a8d248a9b0baed1a03"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_d75604705a98fc1451977ffa"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_c87dd2ed68fa240ec1be74da"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_1dbbb2d1bebdc8549a1f5f14"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_88cfbe730af071ce67525e50",
+          "gq_f278c3364bee425075d490cd"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_ad26fed27a908f5c1bf1015e"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_38eec9d5fe2b532d9d41b84e"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_40fc9889266f408200be8766"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_021d87104d8061f228b2b4e8"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_c2eba58250864512a7e33964"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_bf5c29c68f1520ba452acce4"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_c8e1e3cabcac5927ab05e32b"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_058f81f7ff570a5b38d9df74"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_40f28b0dd32e37c79346f031"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0848fa0c726411ff734084af"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_20f5a21be402bf83d6629150"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_d93cca4cd211bdacba067786"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_ed5f45f1854c0fa21e62ef07"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5"
+        ],
+        "habilidade": "CH:H15",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_c3d463e090cbdd031d948729"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_609cdb4e996adb2dcedadcf2"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_e718fb75bfdd070b3edb02a2"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_bd314be3d69e96aa2cba56ec"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_e56c7f0775d7077909379453"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_4bfa59fec81ac706e1fee7a0",
+          "gq_d6ad4166499f155e8689d461"
+        ],
+        "habilidade": "CH:H16",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_4d7d99a4a65dcd0f6a897dcc",
+          "gq_5ed4ddfa3b199fa6072840a9"
+        ],
+        "habilidade": "CH:H16",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_b770fcf7648217924ee94784"
+        ],
+        "habilidade": "CH:H16",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_01a7e54b6dad4d4de8e693c9",
+          "gq_f35f0473a264f5bb2343c5cb"
+        ],
+        "habilidade": "CH:H17",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_1b3f424e3ce202691f81fc6d"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_1dd7163a880a6040a6bcfc0a"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_22f3ee1be6d9d465c1e7e726"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_e520eeac96d4c6e1c66b9ef2"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_dd151465e965379ee8bfeba1"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2010/85/CH",
+        "familias": [
+          "gq_0ce853f2f184539bec5a8494"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_10116d213e4ca70e307e0a63",
+          "gq_3055064261d606874d58596e"
+        ],
+        "habilidade": "CH:H18",
+        "n": 2
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_ff8ecfa483a366dd328cf8ae"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_56279d2001d0eb5c99345047",
+          "gq_c5531a9d9a588f52ededb3bc"
+        ],
+        "habilidade": "CH:H18",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_cbcc897fad6d0a3e2fbcdeef"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_b033c061c3239cb4014f1c1e"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_746986170f6eea5627ab654f"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_d6099e5593891545085f579b"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_27167d6311cf94d9321c42b5",
+          "gq_7b2fb33a63453ba17a8a69c7"
+        ],
+        "habilidade": "CH:H19",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_34309d5b06c0712132cad341",
+          "gq_7064e2a204ef0c2cd6ba6b9e"
+        ],
+        "habilidade": "CH:H19",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_b2e9348b32054ecfa4288d5e"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_12bfec43f1833e187a7261a0"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_8a3045c0ea26ed6bd3c8f3fd"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_3105b342378ab81e2ad59044"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_e097a5827000e7601c22e1f0"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_965ae802f89379f7b59d22d8"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_d3a595c4deefc9ccb81b01a1"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_8849abc748c734fb9948cec7",
+          "gq_da618a213e8ebec22d410a41"
+        ],
+        "habilidade": "CH:H2",
+        "n": 2
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_60c7ce076fce373becd352ee",
+          "gq_815c7de050df56ef4846fb85"
+        ],
+        "habilidade": "CH:H20",
+        "n": 2
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_810cb506ab42ac15c24e9831"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_d528158c62717998eae50701"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8fb472f65da36859f69d6737"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_d26c53965162669d19e5b454"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_00cf7d32938fee64bfc3f997"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_ca133904890e520fe62f2c03"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_a1684708728162b4201e9031"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_0b98c1f3171fd8fff72e5aca"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_c49c8bc2cde16869b3fc651d"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_204acfc8e7e05109fda690fe"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_b8d0643634bd192b4f406cd0"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_2d11dcd409e9026bf3c8a528",
+          "gq_f4a58ad01a4865d8ef0473c5"
+        ],
+        "habilidade": "CH:H23",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_a483c283a963841d4c6700f5"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_bd1348a1a4f87399b5350aa6"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_13a98d99297e2daefdbd7489"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_8feb1d15fa6b30597ef4bd01"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_d01c42794cf6594ef85ae147"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_34105fd6464d709f183db523",
+          "gq_cc2815cc732db9b0121c2001"
+        ],
+        "habilidade": "CH:H24",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_23b7b6344ac2cd0d98b4e229"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_5f3a9117d3f61cabaf6cb1fc",
+          "gq_66064543ba67a3c82c042528"
+        ],
+        "habilidade": "CH:H24",
+        "n": 2
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_bc9f36e1ee6f0144eda07f1a"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8ff1fe90ebe41045ea5126a5"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_29ef25a472475b50d03207ab"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_023bb01ea3464ba7a29630c9"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_e89ed69729a114ceb8fbc346"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_c656418c01d5a5be03009eb0"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0cb550b195bcee616238b588"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_8a52755aa2acba04892ddada"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_cdd82ba7bbd3c2d76c59090f"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_f729cb7cf7dd4324e0ef7f04"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_9061b62c517e4b4e4ccdf26a"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2fd344ce0bac858c5f50dca2",
+          "gq_654b46c0630005886e2cb65d"
+        ],
+        "habilidade": "CH:H27",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_e74f67197da1a7687f9a751c"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_2b2929518fdb1ed81317db02"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_52eed4a97ef461aa2b6ac355"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_4a048c9bcfc5a4f8bf0f3b4f"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_86f71a5b34e5d9b12cb99cd1"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2db7db5f014a71a9f29b1d21"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_70b4a98b16333588914355b1"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_0e64f597eee580a6e841b434"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_a934aef05bfe79013b2e9f57",
+          "gq_f08917c43fde8eba6e2e16b5"
+        ],
+        "habilidade": "CH:H29",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_a3b86c9e766a010d5b104120"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_708ed13d3f9bfd2bf3587b2d"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_21746a609b787d2883895852",
+          "gq_32ea3236becbbccf5d05b672"
+        ],
+        "habilidade": "CH:H3",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_6a7c64c16bdeb17f4f1d7ea2"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_d8ca2075c226db664977adb9"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_78a212ccd1d809a829a31211"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_5fd9ae64d39af66bdb783ffc",
+          "gq_77b1e5c80a7249684f6e903a",
+          "gq_f72cd8e8d5671d219f129f26"
+        ],
+        "habilidade": "CH:H3",
+        "n": 3
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_b28b3632af0c00bbfca195ed",
+          "gq_c442100038b2b945757bebb1"
+        ],
+        "habilidade": "CH:H30",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "habilidade": "CH:H30",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_9ac48bb522c1cbb226dac8f9"
+        ],
+        "habilidade": "CH:H4",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_99219da6fd12d465fa4410bb"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_7577d93ba4e3a9a8709d140e"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_ae372d7921cc65b83ac37485"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_51047eaa465849e376bec46d",
+          "gq_a016cadded96e19646742b47"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_5692be059272483b9d3277c4"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_92b2b5613fbbb84ae320dfa1"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_314debd9b55971a15b32fe05"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_75da3633afa506a84f02dea4",
+          "gq_e8f988172eccfaa91f470a9f"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_411ac83b7da1c15eff6f4188"
+        ],
+        "habilidade": "CH:H7",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_ae75e5ed178b1437c8e7131a"
+        ],
+        "habilidade": "CH:H7",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_f2e3c82359985524046c5b76"
+        ],
+        "habilidade": "CH:H7",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_22e4aa82e23e6a14cf59d4bf",
+          "gq_be609f7feaac078267ef2d54"
+        ],
+        "habilidade": "CH:H8",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_3c9d5173c7225be7aa119cd5"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_37f4cfc66d92d469c7d10f9d"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_871f8fbbf08978b78485b2a6"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_e9bc804de7c539bffe49e081"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_b8c5b59cc3ccf485bedbcb74"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_00209c342d216cafe9ac9d38"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8e6e20d51e357741f99d7b3b"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_41f5c76e82e2f620eefc75eb"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_1dde3747f0cf3d2e254cfcbf",
+          "gq_dbcd39524336e1e4105e3155"
+        ],
+        "habilidade": "CH:H9",
+        "n": 2
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_276d86d9d7b5467833778b12"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6cc66b9914cdded54b19e37a"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_6eb9db1933e0fd534f33d41b"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_10ed12f474a7412c8fe6e75f",
+          "gq_d159b7f225d656f8d70dbaac"
+        ],
+        "habilidade": "CN:H1",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_8898a74860fa6a8d5ee93374"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_325cddcae85efef8414cc17a"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_451384e4480834ae2e9ab56f"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_ffebaa962dd54ff21200bc10"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_b585baec341a6758e6476c40"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_e2b9c174d83414e0cfdbba38"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_c128b2dd886ac3f35298e66d"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_22f84e9817fc2ffe3f4fbbbd"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_17661f478f83207f8750992f"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_14b417204258fde26eb6cef5"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_adfbe75a1401304c635e0338"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_71f8a7e400834ae86724e871"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a27a967bc4e40ca38071a5c3"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6806d0905d6a6811828eb4cd"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_0c9cfa195a18a69b78418f1d"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_38e7fded17b33a2ed12cb88f",
+          "gq_c2cbec00805bc607697cd429"
+        ],
+        "habilidade": "CN:H14",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_8e02cd343996be5334fc34c5"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_8d5d3088e9e80bf625e8e563"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_346759a4adb2119a7fd41f12",
+          "gq_efab6baab9890c9f906a2097"
+        ],
+        "habilidade": "CN:H14",
+        "n": 2
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_eeb8288df11ab2d660fb6dba"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_b2fdeffd5e64bd152e7f8bd9"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a70256857acdd9328e426efc"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_56115c76c787e17e0aee4b44"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_2012dde05736d1d5887c54f8",
+          "gq_29b02702604175cb29267886"
+        ],
+        "habilidade": "CN:H15",
+        "n": 2
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_2e43b65b90c2d47a8e1921b5"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_b0a6bf7925781340ba05d981"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_f3e711f1ab9d926970364863"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_f06b712eb71a2ff88e99db4a"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_b6bebf0daee898a0b855011a",
+          "gq_dd07f5028aa271213419944a"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_032b91246c74959f382e2869",
+          "gq_2e7e817f73005023ee4f566b"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_5a6a939d86041f5fbc50f593"
+        ],
+        "habilidade": "CN:H18",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_6051dec828d0634abc86be82",
+          "gq_8bb856ef8435de178d57b310"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_85cff5aa1fbc7bd450ea61e6"
+        ],
+        "habilidade": "CN:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_e4bd04a43342d879c36f2eb9"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_3bf3a897d51029bc48db059d"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_e5675dffa0e9d7905a1feb60"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_28d2720d8d15ffd10aca81ed"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_9e234b4e26a951c2cee61043"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_c7763cd102dda20ce2ae86c8"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_79fcf6bf11c88002d01701d9"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_f1a76ce1255a466cfd24c6f6"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_d6045b4f0000be40d58ae32d"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_71015ec85defadfcef5ab114"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_fd244e8b5faecad1a2a63317"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_4a4066b0af9de274c5247400"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_527c1d74c33eb21ed2278f4e"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_d58744d22fdb11f8f2ee63a6"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_76be20d82057fec711f259c0"
+        ],
+        "habilidade": "CN:H22",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_fda3e678e1a43391e5173c93"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_3125b571acbf235aa0404345",
+          "gq_cdd04d8145703f8bb8275e23"
+        ],
+        "habilidade": "CN:H23",
+        "n": 2
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_714e08d5c77e070b224ce190"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_74ddfd395eae9bcbee079ba9"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_8d2178404d2511cb7cf03287"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_8158765ec0299e748d43f0ee"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_374bd76761cf3f79b5401559"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_c8032f42fa6a135678729dc1"
+        ],
+        "habilidade": "CN:H25",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_86169e090cc3816ca5cd4977"
+        ],
+        "habilidade": "CN:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_da4879eadde48a351e753299"
+        ],
+        "habilidade": "CN:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_2508f23f7c79edf4996c6ee2",
+          "gq_d5e603f54e81b07598b512a8"
+        ],
+        "habilidade": "CN:H25",
+        "n": 2
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_67e4b014673590a958126cb8"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_6210f85ab2e7331747fd7b15"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_524d430e713f646ee5b29e6c"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_e73640be9d16c87ef6866c02"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_9a1a342fc3e0955f2602bdfc"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_b1dc8283e7547b83ae439994"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_bf3a930587d93275f7952645"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_8664484151b38bffeea00c2a"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_80e306cc6da9741467c8418f",
+          "gq_d8dfdbea5928970b06ff01da"
+        ],
+        "habilidade": "CN:H28",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_7c3a5bdb06b667d0a9047b8f"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_210aa8937ec8c0ae78955770",
+          "gq_8654aa0a3eeff9ca455e9f67"
+        ],
+        "habilidade": "CN:H28",
+        "n": 2
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_62ca52f06451d1006bcbc634"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_1b2f571174ef7e94b7e315d2"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_7404424a1bc5a826cc70e111"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_228c16524720c6e8faabcf43"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_007b3b763f5813e99dfa1fa6"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_3c940361ecc9d1dac812c769"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_dadb4ccd018a54d8c7f38154"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_e4780cdd1b3f8933530c5133"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_98457928a4a5eeb240082bdb"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_54bc010a74162d9b6805e46a"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_0cb3abc1ca6e5a20188b5d77"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_a820295fd29ecbe956efd607"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_1a9eede85da28baaa0132770"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_31c35fbf745c475caaecd64f"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_f993bc68785dd35ad95d58e6"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_4254ed5c841209de80eb09bb"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_c14cf56f1ae442a6025bc2f4"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_b7a622914984c36bda68529b"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_8ada41a9c7b503ed72dbb57b"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_85c78c40966c6a5d4e4e747c"
+        ],
+        "habilidade": "CN:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_35c52cd1e456eee66dff8957"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_2bfcce13287daa55e2bb19f0"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_cca3bb0cbd69d678ae73be07"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_a339b5bf1ab5b45758e4765d"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a3e73d669727f5780a40e502"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_2dc9c9311a9e06d583e2aba2"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_fa73fd2e4b8f6bad7f2665c5"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_5b4a8bdfe80e6988bc83a5a0"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6dbafe5f89ce6726a8241543"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_716ad1716b48f8aff078df73"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ab7a953f3bbe24b6bcb9a7c5"
+        ],
+        "habilidade": "LC:H1",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_b291ab2ee7e8633e5c940955",
+          "gq_e217f1abe6c579e54c165b76"
+        ],
+        "habilidade": "LC:H1",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_2c401eaed02247feb58f16e9"
+        ],
+        "habilidade": "LC:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_17bf21d3be405aa8cb65472b"
+        ],
+        "habilidade": "LC:H10",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_0dae049d67c46ae37bb3012d",
+          "gq_8092173cf8576b0d5d7f28a1"
+        ],
+        "habilidade": "LC:H10",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_461c34e5bb828b251210352a",
+          "gq_c0345cf88a5b4246b97961dc"
+        ],
+        "habilidade": "LC:H10",
+        "n": 2
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_e452bd978bcaa5c91e9ae8ab"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ad3e50542080a2f4cd68ca4e"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_02252387c7fb9dcdff7de4ab"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ab2c7ceda8c59bbc438ec80c"
+        ],
+        "habilidade": "LC:H12",
+        "n": 1
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_6fe94b841eee5d58a955c475"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_7a8d63c7cb8406d73fc5c03c"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_38d3378a0ae8007bb8f2006e"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_b57e24224cd2bc15af793227"
+        ],
+        "habilidade": "LC:H14",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_9f72427ca7f474dbf65abedd",
+          "gq_ad56f2d8a0fa366f5cf8b4aa"
+        ],
+        "habilidade": "LC:H14",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_503f89f350892522add01c6b"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_3a7052752ba9dfded28cd1c0"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_b3bbb241021497385ebdbe88",
+          "gq_efd1979e72933b5012c5b61f"
+        ],
+        "habilidade": "LC:H16",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_5571293b9a4b9e4ac6750af3",
+          "gq_ce4958c225d949a55083c597"
+        ],
+        "habilidade": "LC:H16",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ffd2b8fbe4884a0028606cde"
+        ],
+        "habilidade": "LC:H16",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_171d5bf39da346e85e70fed1"
+        ],
+        "habilidade": "LC:H16",
+        "n": 1
+      },
+      {
+        "escala": "2009/59/LC",
+        "familias": [
+          "gq_ddee71b001ea8738be29dd3e"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_9a5a606a5ded65c9234dbed6"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_4ee816f1d3fe6341a5734152",
+          "gq_9b89432144a65644ee1eebbe"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1baaf7ecf899a765c2a6f022"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_5c42141ca7e4f14c8aafd0d8",
+          "gq_a5db4846e772b89511ca3c6d"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_1c704d8e0026cd32089a67b9"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2016/299/LC",
+        "familias": [
+          "gq_134f2232bc553b8772ac81aa"
+        ],
+        "habilidade": "LC:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_0d5412792695da70a225f61f",
+          "gq_20cb4d9dd61fd309e1c4e671"
+        ],
+        "habilidade": "LC:H18",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_39d6f7af2c4b6f3fae000c2c"
+        ],
+        "habilidade": "LC:H18",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1515614ca0e20bbdea9053fb"
+        ],
+        "habilidade": "LC:H19",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_56cb18e48508b468da0a9f48"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_995e5ce9671614d91d7d06dc"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_49428e06e42bf042d04865b7"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_2e5092f7b33f0c6adb7e441a"
+        ],
+        "habilidade": "LC:H21",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_4e9e5d5691aa820fbadfa97b"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_85b1ce28bc028e69d0f6f61e"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_375ce58eb2ecbf1eb62fedd6",
+          "gq_6aeacc24c299951b4cba1202"
+        ],
+        "habilidade": "LC:H22",
+        "n": 2
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_911eda306578f1f3f0ac40aa",
+          "gq_9dfe9d66075912004dfadba0"
+        ],
+        "habilidade": "LC:H23",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_3ccd8c2c06f1ab25d41a6fff"
+        ],
+        "habilidade": "LC:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_d08e559413539bc196c3e910",
+          "gq_edb8de830e13c92696374ab9"
+        ],
+        "habilidade": "LC:H24",
+        "n": 2
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_1b261854cf27ff6bfef8c5cc"
+        ],
+        "habilidade": "LC:H24",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_2cb91978a23460c6ef1b1f9a"
+        ],
+        "habilidade": "LC:H24",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_c24e72eda444b8939d2e4092"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_1cea5428d65076203a8b43c0"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_cb39a8f8f5bcfece87b78e31"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_aaf03552b3ffe8a611b86f02"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_0658fe9fe1366ab9ce76dbc1"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_91df5991c3a01119a4870281"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_642d2a0f9a27f5acba14ade7"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_2824427a117816bfcd2a3f1d"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2017/399/LC",
+        "familias": [
+          "gq_f8fa33ead048dba39bd550da"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_4726d00495fa709110261749"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_bd1613824d50d19ee9a6d589"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_ecfcdf111eeb709e631b78c9"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_cc538a7b7be762af6eaf0dc1"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_1ba84b5dccbb111be88b2b31"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_c9c07509e4cebc13e8a6e022"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_6c42f23e164e80da84813d53"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_6bf00ac1184373971f6d86ae"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_791c9febff7c0040732f2775"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1cab571b74b797175e214d77"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_3b0962e6299f67bc7931b285",
+          "gq_e8eb6a75f626bdadd05e1964"
+        ],
+        "habilidade": "LC:H29",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_49a71af7fcd04a233c755853"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_eb1146848399731fee032ff1"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ceb55020d2d4d690acdebc14"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_3a6ae9c664d766838c6c0076"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_ac047be5d1fb1e4a77102dc9"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ea4d642a457a04c27d244c0c"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_da672718e07529da796a7d40"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_be59a57ae369e4497141de78"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_8796b1582d37cd6742260f99"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_fd0ea1188ef645e6610b4bf8"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_f229544e28a3dca6901be30f"
+        ],
+        "habilidade": "LC:H7",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_4f7461bfa8d724c8268f7268"
+        ],
+        "habilidade": "LC:H8",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_9df5389770ad1d080221dc31"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_b8d9356c07ab978793cb1f2c"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_9395de46989a8867205e1703"
+        ],
+        "habilidade": "MT:H1",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_7f4aace51f8bac0b44d3c7e2",
+          "gq_ff45cc53c65a22fb9fb6c2b5"
+        ],
+        "habilidade": "MT:H1",
+        "n": 2
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_022e120835b41cf647f84643"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_8b047debf548822cccd04726"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_31ee820537574fea2c780984"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_8e78aa22a2ef064f58fd8a85"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_f5c0f49a6c40f3167dc366f2"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_944ce331b39de277a5f96f41"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_d5197bd9047b17de16311b7f"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_ce3c79382005b3009d018ca2"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_087542e7f5c9edb569864da4"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_55c248f29c7f6b162174c9d6"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_5ba34fab294bbc0eb14b04f5"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_324dafa963602c7836475947"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_fe564035038e9652664d93f6"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_88cdae3eb85ca6e58ffadc99"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_f70c3448ad1c48893e721d40"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_a691bb3047c6a701effb18bd"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_c044016badb3375f1450fca2"
+        ],
+        "habilidade": "MT:H13",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_46f6172aa35cdfa2b320c95d",
+          "gq_b27d5de5f6e866344dccdd4a"
+        ],
+        "habilidade": "MT:H14",
+        "n": 2
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_bed2f439537f472b5d51a99f"
+        ],
+        "habilidade": "MT:H14",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_3d8328071f3b59506ac187b6"
+        ],
+        "habilidade": "MT:H14",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_4d0b38482365e395e2594158"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_9308afee4b782f3b8f4eeafe"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_3a57b0a03d45cf8b7ea8f3e7",
+          "gq_682e8a62d3c90b7dd5504fa2"
+        ],
+        "habilidade": "MT:H16",
+        "n": 2
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_12bf9266070e31d176621352",
+          "gq_ee61f5140f53398a18ab4697"
+        ],
+        "habilidade": "MT:H16",
+        "n": 2
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_85457879c4dea11686e036a2"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_24b595ae5c861706a88bc2cc"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_4ab513e1cf610e69208ed0a4"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_5ee286b3a6bb12356cd757c3"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_d154f05ea23ee9ccbeb316a3"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_98de48c8ed133e23d410bcf6"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_acdf87e65860d93b36e72dad"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_60dde54c500d3d7069024200"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_8e91b6efe3c85c3e307920e8"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_52354dffa0cf4a5a24a74a46"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_e08a615b6d728e7dbfaf1b64"
+        ],
+        "habilidade": "MT:H19",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_cd208a6831b562665f7fb89a"
+        ],
+        "habilidade": "MT:H20",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_092ecfc2eeb8650523b311dc"
+        ],
+        "habilidade": "MT:H21",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_e26131a4ebb9833e36ffb6b4"
+        ],
+        "habilidade": "MT:H21",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_82ed0b7218ef826041981fa3"
+        ],
+        "habilidade": "MT:H22",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_95fef056babae892b6c89401"
+        ],
+        "habilidade": "MT:H22",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_58176db00400ee0a90a241e1"
+        ],
+        "habilidade": "MT:H23",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_ad0a468663ae2652ff5b84ba"
+        ],
+        "habilidade": "MT:H23",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_265f3eee1c03478062e66cc8"
+        ],
+        "habilidade": "MT:H24",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_60dfe261fbf87d569cedd705"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_158b644f10a84cbfd372b8f8"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_9027508f4674395e3dad7cd2"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_3d7335725aa56dbea169d6cf"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/459/MT",
+        "familias": [
+          "gq_2e0ca74444a5da66f09227d6"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_6125224f7687a1b449ac7b42"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_b6d3454ad14f71ca4765c1bb"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_c3fd0591106465d772df6852"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_750e974f2dda3816d2aa5e5a",
+          "gq_8dfaeb0c100c5c2012c13972"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_116665f908ed3c4ffb400bfd"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_54b7dd4c1302a7ae0c98da40",
+          "gq_d16389149953200e4ce2c888"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_ed0c87e56cc45bf79493a686"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2018/459/MT",
+        "familias": [
+          "gq_5a1ac92973b9a27752bab2f6"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_77ca1326e3c03e1c4ed9aa54",
+          "gq_95908191d0396c955e37e9b1"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_3988d9b88b334100337aa312"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_77c0891a54c39c6bb357632a"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_44bc34564d46be15d051f89e"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_4e22029f698c55d7b8a98dc6"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_0af3e3035723e48729819dac",
+          "gq_47c769d519c73d25a05f055c"
+        ],
+        "habilidade": "MT:H30",
+        "n": 2
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_fb716d169006cd4364901cfc"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_3d89fa70359f3dbe7d9e34a0",
+          "gq_ca707a2b743d1d4b04707dff"
+        ],
+        "habilidade": "MT:H4",
+        "n": 2
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_96a5a508a70b9673ddefc8d6"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_7351423f9e6caa1875fc309d"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_cca272cda66fd0774fad5e36"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_64efa1ca93543d8cd3920a21"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_db45952086dbc06b0a364284"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_433695ea3c45017ab3ce4391"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_996bcb4dd26f4209ae2b2cd3"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_4129b868a478a5256968ca85"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_0d248e1dc6256d5d26694d12"
+        ],
+        "habilidade": "MT:H7",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_e2e407bd041e62b6bcba9ff3"
+        ],
+        "habilidade": "MT:H7",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_0c6c6e3f100203586e974ae3"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_ce3753cee1044ecdd9b7d20b"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      }
+    ],
+    "familias_por_habilidade": {
+      "CH:H1": 7,
+      "CH:H10": 3,
+      "CH:H11": 12,
+      "CH:H12": 5,
+      "CH:H13": 2,
+      "CH:H14": 5,
+      "CH:H15": 8,
+      "CH:H16": 5,
+      "CH:H17": 7,
+      "CH:H18": 9,
+      "CH:H19": 7,
+      "CH:H2": 7,
+      "CH:H20": 6,
+      "CH:H21": 2,
+      "CH:H22": 5,
+      "CH:H23": 5,
+      "CH:H24": 7,
+      "CH:H25": 4,
+      "CH:H26": 4,
+      "CH:H27": 7,
+      "CH:H28": 5,
+      "CH:H29": 6,
+      "CH:H3": 8,
+      "CH:H30": 4,
+      "CH:H4": 4,
+      "CH:H5": 8,
+      "CH:H7": 4,
+      "CH:H8": 6,
+      "CH:H9": 6,
+      "CN:H1": 6,
+      "CN:H10": 3,
+      "CN:H11": 5,
+      "CN:H12": 3,
+      "CN:H13": 1,
+      "CN:H14": 8,
+      "CN:H15": 6,
+      "CN:H16": 4,
+      "CN:H18": 8,
+      "CN:H19": 3,
+      "CN:H2": 4,
+      "CN:H20": 4,
+      "CN:H21": 3,
+      "CN:H22": 1,
+      "CN:H23": 5,
+      "CN:H24": 3,
+      "CN:H25": 5,
+      "CN:H26": 3,
+      "CN:H27": 2,
+      "CN:H28": 9,
+      "CN:H29": 3,
+      "CN:H3": 5,
+      "CN:H30": 5,
+      "CN:H4": 5,
+      "CN:H5": 1,
+      "CN:H6": 3,
+      "CN:H7": 4,
+      "CN:H9": 3,
+      "LC:H1": 4,
+      "LC:H10": 5,
+      "LC:H11": 3,
+      "LC:H12": 1,
+      "LC:H13": 3,
+      "LC:H14": 3,
+      "LC:H15": 2,
+      "LC:H16": 6,
+      "LC:H17": 8,
+      "LC:H18": 4,
+      "LC:H19": 1,
+      "LC:H20": 3,
+      "LC:H21": 1,
+      "LC:H22": 4,
+      "LC:H23": 3,
+      "LC:H24": 4,
+      "LC:H25": 3,
+      "LC:H26": 5,
+      "LC:H27": 3,
+      "LC:H28": 5,
+      "LC:H29": 6,
+      "LC:H3": 2,
+      "LC:H4": 4,
+      "LC:H5": 3,
+      "LC:H7": 1,
+      "LC:H8": 1,
+      "LC:H9": 2,
+      "MT:H1": 3,
+      "MT:H10": 5,
+      "MT:H11": 5,
+      "MT:H12": 6,
+      "MT:H13": 1,
+      "MT:H14": 4,
+      "MT:H16": 10,
+      "MT:H17": 3,
+      "MT:H18": 3,
+      "MT:H19": 1,
+      "MT:H20": 1,
+      "MT:H21": 2,
+      "MT:H22": 2,
+      "MT:H23": 2,
+      "MT:H24": 1,
+      "MT:H28": 5,
+      "MT:H29": 3,
+      "MT:H3": 10,
+      "MT:H30": 6,
+      "MT:H4": 6,
+      "MT:H5": 4,
+      "MT:H7": 2,
+      "MT:H9": 2
+    },
+    "por_ano": {
+      "2009": {
+        "A": 3,
+        "B": 3,
+        "C": 161,
+        "D": 3
+      },
+      "2010": {
+        "A": 1,
+        "C": 164,
+        "D": 1
+      },
+      "2011": {
+        "A": 20,
+        "B": 2,
+        "C": 141,
+        "D": 1
+      },
+      "2012": {
+        "A": 14,
+        "C": 158
+      },
+      "2013": {
+        "A": 11,
+        "C": 161,
+        "D": 2
+      },
+      "2014": {
+        "A": 15,
+        "B": 1,
+        "C": 156
+      },
+      "2015": {
+        "A": 16,
+        "B": 67,
+        "C": 200,
+        "D": 1
+      },
+      "2016": {
+        "A": 76,
+        "C": 210,
+        "D": 1
+      },
+      "2017": {
+        "A": 6,
+        "C": 173
+      },
+      "2018": {
+        "A": 56,
+        "C": 110,
+        "D": 4
+      },
+      "2019": {
+        "C": 167,
+        "D": 7
+      },
+      "2020": {
+        "A": 58,
+        "B": 1,
+        "C": 107,
+        "D": 2
+      },
+      "2021": {
+        "A": 10,
+        "C": 150,
+        "D": 4
+      },
+      "2022": {
+        "A": 61,
+        "C": 108,
+        "D": 3
+      },
+      "2023": {
+        "A": 52,
+        "C": 123,
+        "D": 2
+      },
+      "2024": {
+        "A": 61,
+        "B": 1,
+        "C": 112,
+        "D": 4
+      }
+    },
+    "por_area": {
+      "CH": {
+        "A": 168,
+        "B": 32,
+        "C": 566
+      },
+      "CN": {
+        "A": 115,
+        "B": 17,
+        "C": 567,
+        "D": 9
+      },
+      "LC": {
+        "A": 90,
+        "B": 12,
+        "C": 686,
+        "D": 13
+      },
+      "MT": {
+        "A": 87,
+        "B": 14,
+        "C": 582,
+        "D": 13
+      }
+    },
+    "por_dificuldade_bkt": {
+      "dificil": 147,
+      "facil": 148,
+      "medio": 165
+    },
+    "por_habilidade_bkt": {
+      "CH:H1": 7,
+      "CH:H10": 3,
+      "CH:H11": 12,
+      "CH:H12": 5,
+      "CH:H13": 2,
+      "CH:H14": 5,
+      "CH:H15": 8,
+      "CH:H16": 5,
+      "CH:H17": 7,
+      "CH:H18": 9,
+      "CH:H19": 7,
+      "CH:H2": 7,
+      "CH:H20": 6,
+      "CH:H21": 2,
+      "CH:H22": 5,
+      "CH:H23": 5,
+      "CH:H24": 7,
+      "CH:H25": 4,
+      "CH:H26": 4,
+      "CH:H27": 7,
+      "CH:H28": 5,
+      "CH:H29": 6,
+      "CH:H3": 8,
+      "CH:H30": 4,
+      "CH:H4": 4,
+      "CH:H5": 8,
+      "CH:H7": 4,
+      "CH:H8": 6,
+      "CH:H9": 6,
+      "CN:H1": 6,
+      "CN:H10": 3,
+      "CN:H11": 5,
+      "CN:H12": 3,
+      "CN:H13": 1,
+      "CN:H14": 8,
+      "CN:H15": 6,
+      "CN:H16": 4,
+      "CN:H18": 8,
+      "CN:H19": 3,
+      "CN:H2": 4,
+      "CN:H20": 4,
+      "CN:H21": 3,
+      "CN:H22": 1,
+      "CN:H23": 5,
+      "CN:H24": 3,
+      "CN:H25": 5,
+      "CN:H26": 3,
+      "CN:H27": 2,
+      "CN:H28": 9,
+      "CN:H29": 3,
+      "CN:H3": 5,
+      "CN:H30": 5,
+      "CN:H4": 5,
+      "CN:H5": 1,
+      "CN:H6": 3,
+      "CN:H7": 4,
+      "CN:H9": 3,
+      "LC:H1": 4,
+      "LC:H10": 5,
+      "LC:H11": 3,
+      "LC:H12": 1,
+      "LC:H13": 3,
+      "LC:H14": 3,
+      "LC:H15": 2,
+      "LC:H16": 6,
+      "LC:H17": 8,
+      "LC:H18": 4,
+      "LC:H19": 1,
+      "LC:H20": 3,
+      "LC:H21": 1,
+      "LC:H22": 4,
+      "LC:H23": 3,
+      "LC:H24": 4,
+      "LC:H25": 3,
+      "LC:H26": 5,
+      "LC:H27": 3,
+      "LC:H28": 5,
+      "LC:H29": 6,
+      "LC:H3": 2,
+      "LC:H4": 4,
+      "LC:H5": 3,
+      "LC:H7": 1,
+      "LC:H8": 1,
+      "LC:H9": 2,
+      "MT:H1": 3,
+      "MT:H10": 5,
+      "MT:H11": 5,
+      "MT:H12": 6,
+      "MT:H13": 1,
+      "MT:H14": 4,
+      "MT:H16": 10,
+      "MT:H17": 3,
+      "MT:H18": 3,
+      "MT:H19": 1,
+      "MT:H20": 1,
+      "MT:H21": 2,
+      "MT:H22": 2,
+      "MT:H23": 2,
+      "MT:H24": 1,
+      "MT:H28": 5,
+      "MT:H29": 3,
+      "MT:H3": 10,
+      "MT:H30": 6,
+      "MT:H4": 6,
+      "MT:H5": 4,
+      "MT:H7": 2,
+      "MT:H9": 2
+    }
+  },
+  "causas_por_estado_final": {
+    "A": {
+      "defeito_confirmado_no_derivado": 2,
+      "edicao_excluida_no_verificador_e_fonte_adicionada": 274,
+      "ja_confirmada_na_missao1": 119,
+      "verificador_anterior_limitava_confirmacao": 282
+    },
+    "B": {
+      "edicao_excluida_no_verificador_e_fonte_adicionada": 68,
+      "ja_confirmada_na_missao1": 2,
+      "verificador_anterior_limitava_confirmacao": 15
+    },
+    "C": {
+      "evidencia_insuficiente": 2174
+    },
+    "D": {
+      "defeito_confirmado_no_derivado": 17,
+      "restricao_legitima_variante_ou_anulacao": 18
+    }
+  },
+  "causas_primarias": {
+    "defeito_confirmado_no_derivado": 17,
+    "edicao_excluida_no_verificador_e_fonte_adicionada": 59,
+    "evidencia_insuficiente": 2174,
+    "restricao_legitima_variante_ou_anulacao": 18,
+    "verificador_anterior_limitava_confirmacao": 168
+  },
+  "depois": {
+    "documental_confirmada": 765,
+    "estado": {
+      "A": 677,
+      "B": 85,
+      "C": 2174,
+      "D": 35
+    },
+    "estoque": {
+      "4": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      },
+      "5": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      },
+      "6": {
+        "conjuntos_distintos_nao_ordenados": 0,
+        "grupos_suficientes": 0,
+        "habilidades_sem_estoque_na_matriz": 120,
+        "habilidades_suficientes": 0
+      }
+    },
+    "familias_bkt": 677,
+    "familias_habilidade_escala": [
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_cdf54f8002e03089b383671f"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/295/CH",
+        "familias": [
+          "gq_e26b783fd8050aeeb1bb2596"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_08699caf060672f18d7ffab1",
+          "gq_3048172c551386579fb5c302"
+        ],
+        "habilidade": "CH:H1",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_2dc5e6c52459752f1be89158",
+          "gq_f48826b7e3f3c0d99f429166"
+        ],
+        "habilidade": "CH:H1",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_709c358601f950929d26bc97"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_a4bf3044c4d0bd7bc2ad4f75"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_29d0b35c3cbc2b3e73159958",
+          "gq_c08424af10f755073428f081"
+        ],
+        "habilidade": "CH:H1",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_f6adcd80c9fb1a9aedd942da"
+        ],
+        "habilidade": "CH:H1",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_0f370986ecb935a04858feb3"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_c36671610c763eba60b4df3a"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0ec88ca636babdee90ce34a8"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_f74cb0843ebeefe5b8cdba9f"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_08ce1719ee80c4135186ac71"
+        ],
+        "habilidade": "CH:H10",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_a77bcc479143da76ff592f9d"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_b754cd91d15b18845110818b"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_ad3e382a337711399c65b413"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_34d4525bedb1d9240bcd1dec",
+          "gq_c5cf15c03aae50c494aebeda"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_bd7d1b618fdc642515963ff8"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_607509d6111df0c06b136e05",
+          "gq_cee407d5c61401e71562099f"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_2e32fa55b630fc50fe7ccb03",
+          "gq_5e5cb5a8d248a9b0baed1a03"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_d75604705a98fc1451977ffa"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_c87dd2ed68fa240ec1be74da"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_1dbbb2d1bebdc8549a1f5f14"
+        ],
+        "habilidade": "CH:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_88cfbe730af071ce67525e50",
+          "gq_f278c3364bee425075d490cd"
+        ],
+        "habilidade": "CH:H11",
+        "n": 2
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_ad26fed27a908f5c1bf1015e"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_38eec9d5fe2b532d9d41b84e"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_40fc9889266f408200be8766"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_021d87104d8061f228b2b4e8",
+          "gq_b4a513af90934bebfec3f47e"
+        ],
+        "habilidade": "CH:H12",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_c2eba58250864512a7e33964"
+        ],
+        "habilidade": "CH:H12",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_20f3cfff8b276820eaa871d7"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_dfab62119c29b57a2f91698f"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_bf5c29c68f1520ba452acce4"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2a08029f70df0c33016d6596"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_c8e1e3cabcac5927ab05e32b"
+        ],
+        "habilidade": "CH:H13",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_2e634f0686217f1cda75c1a5"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_058f81f7ff570a5b38d9df74"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_40f28b0dd32e37c79346f031"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_086a907e23fb6c3dcd1d5bad"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0848fa0c726411ff734084af",
+          "gq_ed8c30e36499fda6877594ce"
+        ],
+        "habilidade": "CH:H14",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_20f5a21be402bf83d6629150"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_d93cca4cd211bdacba067786"
+        ],
+        "habilidade": "CH:H14",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_978ede2a2429aeeb0f5c917a"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_ed5f45f1854c0fa21e62ef07"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_61ea7f1972f055ee85c9e262",
+          "gq_7bf8498d5abf84381d3889a5"
+        ],
+        "habilidade": "CH:H15",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_c3d463e090cbdd031d948729"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_609cdb4e996adb2dcedadcf2"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_e718fb75bfdd070b3edb02a2"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_7b06d602e00242f6d1c6c3bc",
+          "gq_bd314be3d69e96aa2cba56ec"
+        ],
+        "habilidade": "CH:H15",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_e56c7f0775d7077909379453"
+        ],
+        "habilidade": "CH:H15",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_4bfa59fec81ac706e1fee7a0",
+          "gq_d6ad4166499f155e8689d461"
+        ],
+        "habilidade": "CH:H16",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_88711645ca755e48de0bca5a",
+          "gq_aa33f13975c79cf09f9356cb"
+        ],
+        "habilidade": "CH:H16",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_4d7d99a4a65dcd0f6a897dcc",
+          "gq_5ed4ddfa3b199fa6072840a9"
+        ],
+        "habilidade": "CH:H16",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_b770fcf7648217924ee94784"
+        ],
+        "habilidade": "CH:H16",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_01a7e54b6dad4d4de8e693c9",
+          "gq_f35f0473a264f5bb2343c5cb"
+        ],
+        "habilidade": "CH:H17",
+        "n": 2
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_6be25a20bd867ff246ab98e1"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_7439124c8c1d21d3bb14aa6a"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_da834621e1f232d5765f2362"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_1b3f424e3ce202691f81fc6d"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_1dd7163a880a6040a6bcfc0a"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_163806cf286efd050a0491b5"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_22f3ee1be6d9d465c1e7e726"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_e520eeac96d4c6e1c66b9ef2"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_dd151465e965379ee8bfeba1"
+        ],
+        "habilidade": "CH:H17",
+        "n": 1
+      },
+      {
+        "escala": "2010/85/CH",
+        "familias": [
+          "gq_0ce853f2f184539bec5a8494"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_10116d213e4ca70e307e0a63",
+          "gq_3055064261d606874d58596e"
+        ],
+        "habilidade": "CH:H18",
+        "n": 2
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_ff8ecfa483a366dd328cf8ae"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_e309d261bd986b3fd960d505"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_b6cc7b794fb8cfaf2ab6172b"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/295/CH",
+        "familias": [
+          "gq_ea6c342c0ab07c89dd3c8f69"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_56279d2001d0eb5c99345047",
+          "gq_c5531a9d9a588f52ededb3bc"
+        ],
+        "habilidade": "CH:H18",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_cbcc897fad6d0a3e2fbcdeef"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_b033c061c3239cb4014f1c1e"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_f14ae4a73fe4c55a235d44c9"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_ed1c0a0756124e41865f77ea"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_d5fda5385a86d6bd093b24e8"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_746986170f6eea5627ab654f"
+        ],
+        "habilidade": "CH:H18",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_d197e7cb7589ca45c6b9d09e"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_ffe83bae5275454210b497e9"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_d6099e5593891545085f579b"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_27167d6311cf94d9321c42b5",
+          "gq_7b2fb33a63453ba17a8a69c7"
+        ],
+        "habilidade": "CH:H19",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_34309d5b06c0712132cad341",
+          "gq_7064e2a204ef0c2cd6ba6b9e"
+        ],
+        "habilidade": "CH:H19",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_b2e9348b32054ecfa4288d5e"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_12bfec43f1833e187a7261a0"
+        ],
+        "habilidade": "CH:H19",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_8a3045c0ea26ed6bd3c8f3fd"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_8f134bb21c7b27b228c7742c",
+          "gq_c37a9175cbc6cb8a7d1fcf4f"
+        ],
+        "habilidade": "CH:H2",
+        "n": 2
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_3105b342378ab81e2ad59044"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_e097a5827000e7601c22e1f0"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_965ae802f89379f7b59d22d8"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_d3a595c4deefc9ccb81b01a1"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_761a8751340e8826d4a77a6b"
+        ],
+        "habilidade": "CH:H2",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_8849abc748c734fb9948cec7",
+          "gq_da618a213e8ebec22d410a41"
+        ],
+        "habilidade": "CH:H2",
+        "n": 2
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_60c7ce076fce373becd352ee",
+          "gq_815c7de050df56ef4846fb85"
+        ],
+        "habilidade": "CH:H20",
+        "n": 2
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_810cb506ab42ac15c24e9831"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_d528158c62717998eae50701"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_6bbbabbac27e664a811152f9"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8fb472f65da36859f69d6737"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_d7b8c9fb5e36bca0a12a6f09"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_d26c53965162669d19e5b454"
+        ],
+        "habilidade": "CH:H20",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_84bec278a2ecfd53e106aeef"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_00cf7d32938fee64bfc3f997"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_47be2317eb9d0bac483c1284"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_72b3f38fe54fd2d1da85c962"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_ca133904890e520fe62f2c03"
+        ],
+        "habilidade": "CH:H21",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_c4dd1bc7913ed40c8e46a948"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_a1684708728162b4201e9031"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_0b98c1f3171fd8fff72e5aca"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_c49c8bc2cde16869b3fc651d"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_204acfc8e7e05109fda690fe"
+        ],
+        "habilidade": "CH:H22",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_8cde01f70d74425a1e5a71a2",
+          "gq_b8d0643634bd192b4f406cd0"
+        ],
+        "habilidade": "CH:H22",
+        "n": 2
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_b253a98e907dc26ca16fdba3"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/295/CH",
+        "familias": [
+          "gq_2bfa14c21a10252a292bf21e"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_2d11dcd409e9026bf3c8a528",
+          "gq_f4a58ad01a4865d8ef0473c5"
+        ],
+        "habilidade": "CH:H23",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_a483c283a963841d4c6700f5"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_063220d350fe19789a013c51"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_bd1348a1a4f87399b5350aa6"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_1cee8ef7ca50a57b4aabf4a5"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_13a98d99297e2daefdbd7489"
+        ],
+        "habilidade": "CH:H23",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_21a096f2903026f24753a454"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_8feb1d15fa6b30597ef4bd01"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_0e6300befecc9697f70a9b61"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_d01c42794cf6594ef85ae147"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_34105fd6464d709f183db523",
+          "gq_cc2815cc732db9b0121c2001"
+        ],
+        "habilidade": "CH:H24",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_23b7b6344ac2cd0d98b4e229"
+        ],
+        "habilidade": "CH:H24",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_5f3a9117d3f61cabaf6cb1fc",
+          "gq_66064543ba67a3c82c042528"
+        ],
+        "habilidade": "CH:H24",
+        "n": 2
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_bc9f36e1ee6f0144eda07f1a"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_e477ed10d4d1b5d618bfcfa7"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8ff1fe90ebe41045ea5126a5"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2b45804f0df554408b162de9"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_29ef25a472475b50d03207ab"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_023bb01ea3464ba7a29630c9"
+        ],
+        "habilidade": "CH:H25",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_644fa69355ed069bbec950db"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_73ea51421d9bd74e3a522794"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_e89ed69729a114ceb8fbc346"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_c656418c01d5a5be03009eb0"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_0cb550b195bcee616238b588"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_57c67987c0b8a32b861444cf",
+          "gq_902b54b055c809cdc14e74c0"
+        ],
+        "habilidade": "CH:H26",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_8a52755aa2acba04892ddada"
+        ],
+        "habilidade": "CH:H26",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_6cc88d364a1d5707acc7faab"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_cdd82ba7bbd3c2d76c59090f"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_f729cb7cf7dd4324e0ef7f04"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_9061b62c517e4b4e4ccdf26a"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_3cac9960d4b3fcd42abc24f0"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2fd344ce0bac858c5f50dca2",
+          "gq_654b46c0630005886e2cb65d"
+        ],
+        "habilidade": "CH:H27",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_b30f1747f20e30981d387c3d",
+          "gq_e74f67197da1a7687f9a751c"
+        ],
+        "habilidade": "CH:H27",
+        "n": 2
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_2b2929518fdb1ed81317db02"
+        ],
+        "habilidade": "CH:H27",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_52eed4a97ef461aa2b6ac355"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_4a048c9bcfc5a4f8bf0f3b4f"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_86f71a5b34e5d9b12cb99cd1"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_02136f1f6cb5cd908f30717e"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_d729403b0e500b7ef02bef0a"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_2db7db5f014a71a9f29b1d21"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_52dcd01b2018cbcb3e66fd97"
+        ],
+        "habilidade": "CH:H28",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_8010848fe6afe513f33cd6ef",
+          "gq_b39542569c7a6cc23a6c5c37"
+        ],
+        "habilidade": "CH:H29",
+        "n": 2
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_3920185335b8d2e20cf0dbe2",
+          "gq_5005ec9ed3ddf5c64eec1431"
+        ],
+        "habilidade": "CH:H29",
+        "n": 2
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_70b4a98b16333588914355b1"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_0e64f597eee580a6e841b434"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_a934aef05bfe79013b2e9f57",
+          "gq_f08917c43fde8eba6e2e16b5"
+        ],
+        "habilidade": "CH:H29",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_b4a8c6bb8c6050f5b063c412"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_a3b86c9e766a010d5b104120"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_708ed13d3f9bfd2bf3587b2d"
+        ],
+        "habilidade": "CH:H29",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_5f7a9a8aac64004068732aa1"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_21746a609b787d2883895852",
+          "gq_32ea3236becbbccf5d05b672"
+        ],
+        "habilidade": "CH:H3",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_6a7c64c16bdeb17f4f1d7ea2"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_d8ca2075c226db664977adb9"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_0596409256d5b3a4a675242d"
+        ],
+        "habilidade": "CH:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_09881f742abc8c42d9709432",
+          "gq_78a212ccd1d809a829a31211",
+          "gq_8a389709f0043165ee80574f"
+        ],
+        "habilidade": "CH:H3",
+        "n": 3
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_5fd9ae64d39af66bdb783ffc",
+          "gq_77b1e5c80a7249684f6e903a",
+          "gq_f72cd8e8d5671d219f129f26"
+        ],
+        "habilidade": "CH:H3",
+        "n": 3
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_b28b3632af0c00bbfca195ed",
+          "gq_c442100038b2b945757bebb1"
+        ],
+        "habilidade": "CH:H30",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_81b8f40361ec3b511a0e5859",
+          "gq_95b079a54fa85757882f8f7f"
+        ],
+        "habilidade": "CH:H30",
+        "n": 2
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_602abc2ca60cbabc91e63aad"
+        ],
+        "habilidade": "CH:H30",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_2628530e0a6d766fa5f471b9"
+        ],
+        "habilidade": "CH:H30",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_c9f0cec1da2a81c9e0302093"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_cb4b630a80cdcb19be60e084"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_271e5bd89008dd80b4268b3d",
+          "gq_9ac48bb522c1cbb226dac8f9"
+        ],
+        "habilidade": "CH:H4",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_99219da6fd12d465fa4410bb"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_7577d93ba4e3a9a8709d140e"
+        ],
+        "habilidade": "CH:H4",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_ae372d7921cc65b83ac37485"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2012/137/CH",
+        "familias": [
+          "gq_00510360b369a3b0d2ee8c2e"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_51047eaa465849e376bec46d",
+          "gq_a016cadded96e19646742b47"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_c248a8629a9026923ad3074d"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_39d9d8084fc5bf5034cd8346",
+          "gq_5692be059272483b9d3277c4"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_92b2b5613fbbb84ae320dfa1",
+          "gq_f264aecfaf8f26f44315008b"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_314debd9b55971a15b32fe05"
+        ],
+        "habilidade": "CH:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_75da3633afa506a84f02dea4",
+          "gq_e8f988172eccfaa91f470a9f"
+        ],
+        "habilidade": "CH:H5",
+        "n": 2
+      },
+      {
+        "escala": "2010/85/CH",
+        "familias": [
+          "gq_4f40d63a7f2aba8c722e4a35"
+        ],
+        "habilidade": "CH:H6",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_fbc4a78380a81d87e9879ddd"
+        ],
+        "habilidade": "CH:H7",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_1100ada241f62157d3e81fc6",
+          "gq_411ac83b7da1c15eff6f4188"
+        ],
+        "habilidade": "CH:H7",
+        "n": 2
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_ae75e5ed178b1437c8e7131a"
+        ],
+        "habilidade": "CH:H7",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_f2e3c82359985524046c5b76"
+        ],
+        "habilidade": "CH:H7",
+        "n": 1
+      },
+      {
+        "escala": "2014/195/CH",
+        "familias": [
+          "gq_36c07c406c538946f8de9822"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_22e4aa82e23e6a14cf59d4bf",
+          "gq_be609f7feaac078267ef2d54"
+        ],
+        "habilidade": "CH:H8",
+        "n": 2
+      },
+      {
+        "escala": "2020/567/CH",
+        "familias": [
+          "gq_3c9d5173c7225be7aa119cd5"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_37f4cfc66d92d469c7d10f9d"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_871f8fbbf08978b78485b2a6"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2024/1390/CH",
+        "familias": [
+          "gq_e9bc804de7c539bffe49e081"
+        ],
+        "habilidade": "CH:H8",
+        "n": 1
+      },
+      {
+        "escala": "2011/119/CH",
+        "familias": [
+          "gq_b8c5b59cc3ccf485bedbcb74"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2013/167/CH",
+        "familias": [
+          "gq_198cffc254e1c2343a0070b5"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2015/231/CH",
+        "familias": [
+          "gq_b34443531ae872b2b5b25b81"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2016/337/CH",
+        "familias": [
+          "gq_00209c342d216cafe9ac9d38"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2017/395/CH",
+        "familias": [
+          "gq_4ebb0c4abd63bbaaa4a59e34",
+          "gq_d64fd01ad472c572da966db2"
+        ],
+        "habilidade": "CH:H9",
+        "n": 2
+      },
+      {
+        "escala": "2018/451/CH",
+        "familias": [
+          "gq_8e6e20d51e357741f99d7b3b"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2021/879/CH",
+        "familias": [
+          "gq_41f5c76e82e2f620eefc75eb"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2022/1062/CH",
+        "familias": [
+          "gq_8edd9a57c451167876acbc3e"
+        ],
+        "habilidade": "CH:H9",
+        "n": 1
+      },
+      {
+        "escala": "2023/1198/CH",
+        "familias": [
+          "gq_1dde3747f0cf3d2e254cfcbf",
+          "gq_dbcd39524336e1e4105e3155"
+        ],
+        "habilidade": "CH:H9",
+        "n": 2
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_976af575c15d817ea2e99e13"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_276d86d9d7b5467833778b12",
+          "gq_859f03ba5dbad67c56cac393"
+        ],
+        "habilidade": "CN:H1",
+        "n": 2
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_b0f3e847488b4406fcf28854"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6cc66b9914cdded54b19e37a"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_6eb9db1933e0fd534f33d41b"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_10ed12f474a7412c8fe6e75f",
+          "gq_d159b7f225d656f8d70dbaac"
+        ],
+        "habilidade": "CN:H1",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_8898a74860fa6a8d5ee93374"
+        ],
+        "habilidade": "CN:H1",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_da27657a28a20b0c6f151574"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_2984626371e35d5deea36090"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_4b03dff79d3fdb9df705b780"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_325cddcae85efef8414cc17a"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_451384e4480834ae2e9ab56f"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_ffebaa962dd54ff21200bc10"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_b5e6c40a9549e942a4a26fdb"
+        ],
+        "habilidade": "CN:H10",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_295619e57ff025e2713454ff"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_b585baec341a6758e6476c40"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_118b990b8c3bbbc2600869db"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_e2b9c174d83414e0cfdbba38"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_c128b2dd886ac3f35298e66d"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_22f84e9817fc2ffe3f4fbbbd"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_93cf9f73d610eb07534f8816"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_17661f478f83207f8750992f"
+        ],
+        "habilidade": "CN:H11",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_a184d078e85de522169cbde5"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_09b97394e706a57a96edb01c"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_723d99a57e9aee4562c72e2c"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_14b417204258fde26eb6cef5"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_adfbe75a1401304c635e0338"
+        ],
+        "habilidade": "CN:H12",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_71f8a7e400834ae86724e871",
+          "gq_feb26a04e6772cee364d699e"
+        ],
+        "habilidade": "CN:H12",
+        "n": 2
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_e24d97b2508c428dd6b163cd"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_b7fcfb4a7d99554aca25396c"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a27a967bc4e40ca38071a5c3"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_5a58cdf63c011a3ca9765da5"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_f054df53cf90205d85879f43"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_f5724267e2df743168543a7b"
+        ],
+        "habilidade": "CN:H13",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_26c4c242457981eed7410755"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_b9d7bc9b1ed22d53ee637b5f"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_0c3d7b9ec17beddd4aa90222"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6806d0905d6a6811828eb4cd"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_0c9cfa195a18a69b78418f1d"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_38e7fded17b33a2ed12cb88f",
+          "gq_c2cbec00805bc607697cd429"
+        ],
+        "habilidade": "CN:H14",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_8e02cd343996be5334fc34c5"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_474ae75a10c0127e03302a78",
+          "gq_8d5d3088e9e80bf625e8e563"
+        ],
+        "habilidade": "CN:H14",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_91554940f3345ee6474b93ec"
+        ],
+        "habilidade": "CN:H14",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_346759a4adb2119a7fd41f12",
+          "gq_efab6baab9890c9f906a2097"
+        ],
+        "habilidade": "CN:H14",
+        "n": 2
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_eeb8288df11ab2d660fb6dba"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_b2fdeffd5e64bd152e7f8bd9"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a70256857acdd9328e426efc"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_56115c76c787e17e0aee4b44"
+        ],
+        "habilidade": "CN:H15",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_2012dde05736d1d5887c54f8",
+          "gq_29b02702604175cb29267886"
+        ],
+        "habilidade": "CN:H15",
+        "n": 2
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_2e43b65b90c2d47a8e1921b5"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_b0a6bf7925781340ba05d981"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_f3e711f1ab9d926970364863"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_03056359760c5ae84cd34004",
+          "gq_72819d8a3767555598008ab3"
+        ],
+        "habilidade": "CN:H16",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_f06b712eb71a2ff88e99db4a"
+        ],
+        "habilidade": "CN:H16",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_b6bebf0daee898a0b855011a",
+          "gq_dd07f5028aa271213419944a"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_032b91246c74959f382e2869",
+          "gq_2e7e817f73005023ee4f566b"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_5a6a939d86041f5fbc50f593"
+        ],
+        "habilidade": "CN:H18",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_6051dec828d0634abc86be82",
+          "gq_8bb856ef8435de178d57b310"
+        ],
+        "habilidade": "CN:H18",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_85cff5aa1fbc7bd450ea61e6"
+        ],
+        "habilidade": "CN:H18",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_96c8576189cd45e634f4ae65"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_e4bd04a43342d879c36f2eb9"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_3bf3a897d51029bc48db059d"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_0edb3211b99f47be0d621f5b"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_e5675dffa0e9d7905a1feb60"
+        ],
+        "habilidade": "CN:H19",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_234342e390543c7a5dfb1884"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_8284bd7e2d8de9818510d286"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_28d2720d8d15ffd10aca81ed"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_9e234b4e26a951c2cee61043"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_c7763cd102dda20ce2ae86c8"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_de826d8e9b7afefe83d21f9f"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_79fcf6bf11c88002d01701d9"
+        ],
+        "habilidade": "CN:H2",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_f1a76ce1255a466cfd24c6f6"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_4f33418465e9530fc54d183c"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_d6045b4f0000be40d58ae32d"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_71015ec85defadfcef5ab114"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_fd244e8b5faecad1a2a63317"
+        ],
+        "habilidade": "CN:H20",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_4a4066b0af9de274c5247400"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_527c1d74c33eb21ed2278f4e"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_d58744d22fdb11f8f2ee63a6"
+        ],
+        "habilidade": "CN:H21",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_76be20d82057fec711f259c0"
+        ],
+        "habilidade": "CN:H22",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_fca4006d77d6cb5aa4835a2a"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_ff4eb0272f1e5534473f81b6"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_fda3e678e1a43391e5173c93"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_3125b571acbf235aa0404345",
+          "gq_cdd04d8145703f8bb8275e23"
+        ],
+        "habilidade": "CN:H23",
+        "n": 2
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_714e08d5c77e070b224ce190"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_74ddfd395eae9bcbee079ba9"
+        ],
+        "habilidade": "CN:H23",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_8d2178404d2511cb7cf03287"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_8158765ec0299e748d43f0ee"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_374bd76761cf3f79b5401559"
+        ],
+        "habilidade": "CN:H24",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_c8032f42fa6a135678729dc1",
+          "gq_cf082619bb5be56acd5c4dbe"
+        ],
+        "habilidade": "CN:H25",
+        "n": 2
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_86169e090cc3816ca5cd4977"
+        ],
+        "habilidade": "CN:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_da4879eadde48a351e753299"
+        ],
+        "habilidade": "CN:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_2508f23f7c79edf4996c6ee2",
+          "gq_d5e603f54e81b07598b512a8"
+        ],
+        "habilidade": "CN:H25",
+        "n": 2
+      },
+      {
+        "escala": "2014/199/CN",
+        "familias": [
+          "gq_67e4b014673590a958126cb8"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_6210f85ab2e7331747fd7b15"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_524d430e713f646ee5b29e6c"
+        ],
+        "habilidade": "CN:H26",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_2c7efeeeacc89b3b175856be"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_185dc5dabbc02f46cc865ce6"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_e73640be9d16c87ef6866c02"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_9a1a342fc3e0955f2602bdfc"
+        ],
+        "habilidade": "CN:H27",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_b1dc8283e7547b83ae439994"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_a3375c85393bd50db0360b4a"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_bf3a930587d93275f7952645"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_8664484151b38bffeea00c2a"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_80e306cc6da9741467c8418f",
+          "gq_d8dfdbea5928970b06ff01da"
+        ],
+        "habilidade": "CN:H28",
+        "n": 2
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_7c3a5bdb06b667d0a9047b8f"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_3befb607160c11785f8fea71"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_210aa8937ec8c0ae78955770",
+          "gq_8654aa0a3eeff9ca455e9f67"
+        ],
+        "habilidade": "CN:H28",
+        "n": 2
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_62ca52f06451d1006bcbc634"
+        ],
+        "habilidade": "CN:H28",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_6f00a76ff72d0ed7ae48a290"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_aff6659ada5b6f8eeaa7ced7"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_1b2f571174ef7e94b7e315d2"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_2c3bf838bb32aecdc23f9002",
+          "gq_7404424a1bc5a826cc70e111"
+        ],
+        "habilidade": "CN:H29",
+        "n": 2
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_228c16524720c6e8faabcf43"
+        ],
+        "habilidade": "CN:H29",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_36c9d0632b262c08dc0e8fe0"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_007b3b763f5813e99dfa1fa6",
+          "gq_5aa2340247bf7c0f2e824bd2"
+        ],
+        "habilidade": "CN:H3",
+        "n": 2
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_3c940361ecc9d1dac812c769"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_6b897fba9428374974fabfd9",
+          "gq_6fde306576368f624d027e52"
+        ],
+        "habilidade": "CN:H3",
+        "n": 2
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_dadb4ccd018a54d8c7f38154"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_e4780cdd1b3f8933530c5133"
+        ],
+        "habilidade": "CN:H3",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_62e3bcb24c0d877c1d958905",
+          "gq_98457928a4a5eeb240082bdb"
+        ],
+        "habilidade": "CN:H3",
+        "n": 2
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_54bc010a74162d9b6805e46a"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_64740d1ba5e9c4ced6d1d79d"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_8f8e1571728849b1b3eb4eeb"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_0cb3abc1ca6e5a20188b5d77"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_a820295fd29ecbe956efd607"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_1a9eede85da28baaa0132770"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_070c9ea8335bcf4efd378789"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_31c35fbf745c475caaecd64f"
+        ],
+        "habilidade": "CN:H30",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_7beac4501fb123e81a15c242"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_1b755cf54867053a4b904c32",
+          "gq_e4d23ee40c5b87dd64a1153f"
+        ],
+        "habilidade": "CN:H4",
+        "n": 2
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_1d4baedfd0e9ae104e3a32a6"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_f993bc68785dd35ad95d58e6"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_4254ed5c841209de80eb09bb"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_c14cf56f1ae442a6025bc2f4"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_b7a622914984c36bda68529b"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_8ada41a9c7b503ed72dbb57b"
+        ],
+        "habilidade": "CN:H4",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_31d17e4ecae9edbb717f7886"
+        ],
+        "habilidade": "CN:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_85c78c40966c6a5d4e4e747c"
+        ],
+        "habilidade": "CN:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_35c52cd1e456eee66dff8957"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2020/597/CN",
+        "familias": [
+          "gq_2bfcce13287daa55e2bb19f0"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_cca3bb0cbd69d678ae73be07"
+        ],
+        "habilidade": "CN:H6",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_a339b5bf1ab5b45758e4765d"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2016/332/CN",
+        "familias": [
+          "gq_a3e73d669727f5780a40e502"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2018/447/CN",
+        "familias": [
+          "gq_2dc9c9311a9e06d583e2aba2"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2024/1426/CN",
+        "familias": [
+          "gq_fa73fd2e4b8f6bad7f2665c5"
+        ],
+        "habilidade": "CN:H7",
+        "n": 1
+      },
+      {
+        "escala": "2011/121/CN",
+        "familias": [
+          "gq_f8c1efd5b6b4c9d9eb3309f6"
+        ],
+        "habilidade": "CN:H8",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_c3882f0ecb5dbf1090ee51cd"
+        ],
+        "habilidade": "CN:H8",
+        "n": 1
+      },
+      {
+        "escala": "2023/1228/CN",
+        "familias": [
+          "gq_53b3a44abe4e95f412e1a8cc"
+        ],
+        "habilidade": "CN:H8",
+        "n": 1
+      },
+      {
+        "escala": "2012/141/CN",
+        "familias": [
+          "gq_299abdf97befa638db84569d"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2013/171/CN",
+        "familias": [
+          "gq_5b4a8bdfe80e6988bc83a5a0"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2015/235/CN",
+        "familias": [
+          "gq_2bc2a99b87067aebb836e2ac"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2016/291/CN",
+        "familias": [
+          "gq_6dbafe5f89ce6726a8241543"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2017/391/CN",
+        "familias": [
+          "gq_23713c46f1dbb3f1a397fe75"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2021/909/CN",
+        "familias": [
+          "gq_1afb927bd9d1b657dc84cd78"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2022/1092/CN",
+        "familias": [
+          "gq_716ad1716b48f8aff078df73"
+        ],
+        "habilidade": "CN:H9",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ab7a953f3bbe24b6bcb9a7c5"
+        ],
+        "habilidade": "LC:H1",
+        "n": 1
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_c57aa586a22eb4d3859b90e8"
+        ],
+        "habilidade": "LC:H1",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_b291ab2ee7e8633e5c940955",
+          "gq_e217f1abe6c579e54c165b76"
+        ],
+        "habilidade": "LC:H1",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_2c401eaed02247feb58f16e9"
+        ],
+        "habilidade": "LC:H1",
+        "n": 1
+      },
+      {
+        "escala": "2011/127/LC",
+        "familias": [
+          "gq_e06d53fd9ebc3e2b925cbb17"
+        ],
+        "habilidade": "LC:H10",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_17bf21d3be405aa8cb65472b"
+        ],
+        "habilidade": "LC:H10",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_0dae049d67c46ae37bb3012d",
+          "gq_8092173cf8576b0d5d7f28a1"
+        ],
+        "habilidade": "LC:H10",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_6a705c51185e3c6f2a22afd5"
+        ],
+        "habilidade": "LC:H10",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_461c34e5bb828b251210352a",
+          "gq_c0345cf88a5b4246b97961dc"
+        ],
+        "habilidade": "LC:H10",
+        "n": 2
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_e452bd978bcaa5c91e9ae8ab"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ad3e50542080a2f4cd68ca4e"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_44b01579918f28b456d9bc55"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_affdf0a8afee77d6ca2d96fb"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_02252387c7fb9dcdff7de4ab"
+        ],
+        "habilidade": "LC:H11",
+        "n": 1
+      },
+      {
+        "escala": "2015/241/LC",
+        "familias": [
+          "gq_84dcf50472a02527daf476e7"
+        ],
+        "habilidade": "LC:H12",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ab2c7ceda8c59bbc438ec80c"
+        ],
+        "habilidade": "LC:H12",
+        "n": 1
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_6fe94b841eee5d58a955c475"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2019/511/LC",
+        "familias": [
+          "gq_052838cedb3e492dc8125f80"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_7a8d63c7cb8406d73fc5c03c"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_38d3378a0ae8007bb8f2006e"
+        ],
+        "habilidade": "LC:H13",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_b57e24224cd2bc15af793227"
+        ],
+        "habilidade": "LC:H14",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_9f72427ca7f474dbf65abedd",
+          "gq_ad56f2d8a0fa366f5cf8b4aa"
+        ],
+        "habilidade": "LC:H14",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_8606e22e68559aefb397b82a"
+        ],
+        "habilidade": "LC:H14",
+        "n": 1
+      },
+      {
+        "escala": "2011/127/LC",
+        "familias": [
+          "gq_68e7f6701b78cb57f2d70820"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_c77574a32d17fc2fe4a3b435"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_503f89f350892522add01c6b",
+          "gq_b6ca436f8e1d1780aced3188"
+        ],
+        "habilidade": "LC:H15",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_f893561df9ec8fce01ac928a"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_3a7052752ba9dfded28cd1c0"
+        ],
+        "habilidade": "LC:H15",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_b3bbb241021497385ebdbe88",
+          "gq_efd1979e72933b5012c5b61f"
+        ],
+        "habilidade": "LC:H16",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_5571293b9a4b9e4ac6750af3",
+          "gq_ce4958c225d949a55083c597"
+        ],
+        "habilidade": "LC:H16",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ffd2b8fbe4884a0028606cde"
+        ],
+        "habilidade": "LC:H16",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_171d5bf39da346e85e70fed1"
+        ],
+        "habilidade": "LC:H16",
+        "n": 1
+      },
+      {
+        "escala": "2009/59/LC",
+        "familias": [
+          "gq_ddee71b001ea8738be29dd3e"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_57b19727ae90bf6674cb0576",
+          "gq_b9dd00d690cbb3beb681d3e6"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2015/241/LC",
+        "familias": [
+          "gq_d8687794f697af22358673bb"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_9a5a606a5ded65c9234dbed6"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2017/399/LC",
+        "familias": [
+          "gq_c003c6696494c5842daa7073"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_4ee816f1d3fe6341a5734152",
+          "gq_9b89432144a65644ee1eebbe"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1baaf7ecf899a765c2a6f022",
+          "gq_57d7f6d259358e4f43fd1c62"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_5c42141ca7e4f14c8aafd0d8",
+          "gq_a5db4846e772b89511ca3c6d"
+        ],
+        "habilidade": "LC:H17",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_1c704d8e0026cd32089a67b9"
+        ],
+        "habilidade": "LC:H17",
+        "n": 1
+      },
+      {
+        "escala": "2016/299/LC",
+        "familias": [
+          "gq_134f2232bc553b8772ac81aa",
+          "gq_506cfb0a63570857d9d22a43"
+        ],
+        "habilidade": "LC:H18",
+        "n": 2
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_0d5412792695da70a225f61f",
+          "gq_20cb4d9dd61fd309e1c4e671"
+        ],
+        "habilidade": "LC:H18",
+        "n": 2
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_c45234dbaaa0ed29b047c562"
+        ],
+        "habilidade": "LC:H18",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_39d6f7af2c4b6f3fae000c2c"
+        ],
+        "habilidade": "LC:H18",
+        "n": 1
+      },
+      {
+        "escala": "2011/127/LC",
+        "familias": [
+          "gq_d92d78980d4e7e7dcd8db4bb"
+        ],
+        "habilidade": "LC:H19",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1515614ca0e20bbdea9053fb"
+        ],
+        "habilidade": "LC:H19",
+        "n": 1
+      },
+      {
+        "escala": "2009/59/LC",
+        "familias": [
+          "gq_a8f564d333f019f081744b4a"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2011/127/LC",
+        "familias": [
+          "gq_6f9949f8e6c6126d4845cd4d"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_56cb18e48508b468da0a9f48",
+          "gq_b4e490161f2bd6a339155a10"
+        ],
+        "habilidade": "LC:H20",
+        "n": 2
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_995e5ce9671614d91d7d06dc"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_63c481f9806cd7b3634368e8"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_49428e06e42bf042d04865b7"
+        ],
+        "habilidade": "LC:H20",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_2e5092f7b33f0c6adb7e441a"
+        ],
+        "habilidade": "LC:H21",
+        "n": 1
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_ef3a0e3deade42bb3b6f3ee5"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_4e9e5d5691aa820fbadfa97b"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_85b1ce28bc028e69d0f6f61e"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_d5c6822f52288aaa1430b876"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_287155b76c47f63849e79012"
+        ],
+        "habilidade": "LC:H22",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_375ce58eb2ecbf1eb62fedd6",
+          "gq_6aeacc24c299951b4cba1202"
+        ],
+        "habilidade": "LC:H22",
+        "n": 2
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_46b97ab236de4d311de97358"
+        ],
+        "habilidade": "LC:H23",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_911eda306578f1f3f0ac40aa",
+          "gq_9dfe9d66075912004dfadba0"
+        ],
+        "habilidade": "LC:H23",
+        "n": 2
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_363380ef2f291b03cd6beaf6"
+        ],
+        "habilidade": "LC:H23",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_a9fa6be790d4501b69cef238"
+        ],
+        "habilidade": "LC:H23",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_3ccd8c2c06f1ab25d41a6fff"
+        ],
+        "habilidade": "LC:H23",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_d08e559413539bc196c3e910",
+          "gq_edb8de830e13c92696374ab9"
+        ],
+        "habilidade": "LC:H24",
+        "n": 2
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_1b261854cf27ff6bfef8c5cc"
+        ],
+        "habilidade": "LC:H24",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_9573b58b42b0782a2f18152a"
+        ],
+        "habilidade": "LC:H24",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_2cb91978a23460c6ef1b1f9a"
+        ],
+        "habilidade": "LC:H24",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_c24e72eda444b8939d2e4092"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_1cea5428d65076203a8b43c0"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_cb39a8f8f5bcfece87b78e31"
+        ],
+        "habilidade": "LC:H25",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_aaf03552b3ffe8a611b86f02"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_0658fe9fe1366ab9ce76dbc1"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_91df5991c3a01119a4870281"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_642d2a0f9a27f5acba14ade7"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_2824427a117816bfcd2a3f1d"
+        ],
+        "habilidade": "LC:H26",
+        "n": 1
+      },
+      {
+        "escala": "2014/205/LC",
+        "familias": [
+          "gq_7b4f1e3fccdf41d29c8474f7"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2017/399/LC",
+        "familias": [
+          "gq_f8fa33ead048dba39bd550da"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_4726d00495fa709110261749"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_bd1613824d50d19ee9a6d589"
+        ],
+        "habilidade": "LC:H27",
+        "n": 1
+      },
+      {
+        "escala": "2015/241/LC",
+        "familias": [
+          "gq_7abcfc6139d9cba1dfb7beeb"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/299/LC",
+        "familias": [
+          "gq_ab856642e9d3adf905569ea2"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_ecfcdf111eeb709e631b78c9"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_cc538a7b7be762af6eaf0dc1"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_1ba84b5dccbb111be88b2b31"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_1cefeb11d14231d52c7490e8"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_c9c07509e4cebc13e8a6e022"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_6c42f23e164e80da84813d53"
+        ],
+        "habilidade": "LC:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_6bf00ac1184373971f6d86ae"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_791c9febff7c0040732f2775"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_1cab571b74b797175e214d77"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_3b0962e6299f67bc7931b285",
+          "gq_e8eb6a75f626bdadd05e1964"
+        ],
+        "habilidade": "LC:H29",
+        "n": 2
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_49a71af7fcd04a233c755853"
+        ],
+        "habilidade": "LC:H29",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_8ad3a4c54d56bba523c6c365"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_ee1a48631e44ca39d9500d83"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2015/241/LC",
+        "familias": [
+          "gq_25129708ca1a7f427e1ae25d",
+          "gq_e02bf98e928f738826227eae"
+        ],
+        "habilidade": "LC:H3",
+        "n": 2
+      },
+      {
+        "escala": "2018/455/LC",
+        "familias": [
+          "gq_eb1146848399731fee032ff1"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_ceb55020d2d4d690acdebc14"
+        ],
+        "habilidade": "LC:H3",
+        "n": 1
+      },
+      {
+        "escala": "2009/59/LC",
+        "familias": [
+          "gq_14413d402dc9dcc913aa3755"
+        ],
+        "habilidade": "LC:H30",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_293c5f112237ee0b5b2604ca"
+        ],
+        "habilidade": "LC:H30",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_1b3b75429a66aca2874035c8"
+        ],
+        "habilidade": "LC:H30",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_3a6ae9c664d766838c6c0076"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_ac047be5d1fb1e4a77102dc9"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_ea4d642a457a04c27d244c0c"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_da672718e07529da796a7d40"
+        ],
+        "habilidade": "LC:H4",
+        "n": 1
+      },
+      {
+        "escala": "2013/177/LC",
+        "familias": [
+          "gq_18024eeb9de7462747efeb09"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_be59a57ae369e4497141de78"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2021/889/LC",
+        "familias": [
+          "gq_28c7851aff39698217fd89ea"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_8796b1582d37cd6742260f99"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_fd0ea1188ef645e6610b4bf8"
+        ],
+        "habilidade": "LC:H5",
+        "n": 1
+      },
+      {
+        "escala": "2012/147/LC",
+        "familias": [
+          "gq_7ac395c9aec6bac330aed612"
+        ],
+        "habilidade": "LC:H6",
+        "n": 1
+      },
+      {
+        "escala": "2017/399/LC",
+        "familias": [
+          "gq_0070b018ceb424e87bbeb131",
+          "gq_144242e1691d7cb7a334767d"
+        ],
+        "habilidade": "LC:H6",
+        "n": 2
+      },
+      {
+        "escala": "2017/399/LC",
+        "familias": [
+          "gq_d79622f176bd7dc792191a48"
+        ],
+        "habilidade": "LC:H7",
+        "n": 1
+      },
+      {
+        "escala": "2022/1072/LC",
+        "familias": [
+          "gq_f229544e28a3dca6901be30f"
+        ],
+        "habilidade": "LC:H7",
+        "n": 1
+      },
+      {
+        "escala": "2015/241/LC",
+        "familias": [
+          "gq_f27201ad462a2d1e21903613"
+        ],
+        "habilidade": "LC:H8",
+        "n": 1
+      },
+      {
+        "escala": "2024/1402/LC",
+        "familias": [
+          "gq_4f7461bfa8d724c8268f7268"
+        ],
+        "habilidade": "LC:H8",
+        "n": 1
+      },
+      {
+        "escala": "2011/127/LC",
+        "familias": [
+          "gq_4eb6d7d6e4b313a8cab29567"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2016/342/LC",
+        "familias": [
+          "gq_9df5389770ad1d080221dc31"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2020/577/LC",
+        "familias": [
+          "gq_b8d9356c07ab978793cb1f2c"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2023/1208/LC",
+        "familias": [
+          "gq_a55d53b0e2eb49c50c579d06"
+        ],
+        "habilidade": "LC:H9",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_9395de46989a8867205e1703"
+        ],
+        "habilidade": "MT:H1",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_7f4aace51f8bac0b44d3c7e2",
+          "gq_ff45cc53c65a22fb9fb6c2b5"
+        ],
+        "habilidade": "MT:H1",
+        "n": 2
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_022e120835b41cf647f84643"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_8b047debf548822cccd04726"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_31ee820537574fea2c780984"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_8e78aa22a2ef064f58fd8a85"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_f5c0f49a6c40f3167dc366f2"
+        ],
+        "habilidade": "MT:H10",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_944ce331b39de277a5f96f41"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_d5197bd9047b17de16311b7f"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_ce3c79382005b3009d018ca2"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_087542e7f5c9edb569864da4"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_55c248f29c7f6b162174c9d6"
+        ],
+        "habilidade": "MT:H11",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_5ba34fab294bbc0eb14b04f5"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_324dafa963602c7836475947"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_fe564035038e9652664d93f6"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_88cdae3eb85ca6e58ffadc99"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_669bb9b678dc41ec15e67c1c",
+          "gq_f70c3448ad1c48893e721d40"
+        ],
+        "habilidade": "MT:H12",
+        "n": 2
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_5c15d3e3361eb0f75fb79d4f"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_a691bb3047c6a701effb18bd"
+        ],
+        "habilidade": "MT:H12",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_c044016badb3375f1450fca2"
+        ],
+        "habilidade": "MT:H13",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_6b80392cb91d83d64335b670"
+        ],
+        "habilidade": "MT:H13",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_46f6172aa35cdfa2b320c95d",
+          "gq_b27d5de5f6e866344dccdd4a"
+        ],
+        "habilidade": "MT:H14",
+        "n": 2
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_bed2f439537f472b5d51a99f"
+        ],
+        "habilidade": "MT:H14",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_3d8328071f3b59506ac187b6"
+        ],
+        "habilidade": "MT:H14",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_5df49012aedb736aa103ebd9"
+        ],
+        "habilidade": "MT:H15",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_4d0b38482365e395e2594158"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_9308afee4b782f3b8f4eeafe"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_3a57b0a03d45cf8b7ea8f3e7",
+          "gq_682e8a62d3c90b7dd5504fa2"
+        ],
+        "habilidade": "MT:H16",
+        "n": 2
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_12bf9266070e31d176621352",
+          "gq_ee61f5140f53398a18ab4697"
+        ],
+        "habilidade": "MT:H16",
+        "n": 2
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_85457879c4dea11686e036a2"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_24b595ae5c861706a88bc2cc"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_4ab513e1cf610e69208ed0a4"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_fe0cf97c1b3f7b90f0f8f2c9"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_5ee286b3a6bb12356cd757c3"
+        ],
+        "habilidade": "MT:H16",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_9e8c14b1e1c601ea3adc7442"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_d154f05ea23ee9ccbeb316a3"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_98de48c8ed133e23d410bcf6"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_4d59004a0d4461b9911457a4"
+        ],
+        "habilidade": "MT:H17",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_0a743d5fdb70d03a1842dc30",
+          "gq_acdf87e65860d93b36e72dad"
+        ],
+        "habilidade": "MT:H17",
+        "n": 2
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_60dde54c500d3d7069024200"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_8e91b6efe3c85c3e307920e8"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_4a95f6b2a3dcfea16f196d7f"
+        ],
+        "habilidade": "MT:H18",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_52354dffa0cf4a5a24a74a46",
+          "gq_a495bf153008031b1a420d7f"
+        ],
+        "habilidade": "MT:H18",
+        "n": 2
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_e08a615b6d728e7dbfaf1b64"
+        ],
+        "habilidade": "MT:H19",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_cd208a6831b562665f7fb89a"
+        ],
+        "habilidade": "MT:H20",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_092ecfc2eeb8650523b311dc"
+        ],
+        "habilidade": "MT:H21",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_e26131a4ebb9833e36ffb6b4"
+        ],
+        "habilidade": "MT:H21",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_82ed0b7218ef826041981fa3"
+        ],
+        "habilidade": "MT:H22",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_95fef056babae892b6c89401"
+        ],
+        "habilidade": "MT:H22",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_65ce791d478273d80b4c6ece"
+        ],
+        "habilidade": "MT:H23",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_58176db00400ee0a90a241e1"
+        ],
+        "habilidade": "MT:H23",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_ad0a468663ae2652ff5b84ba"
+        ],
+        "habilidade": "MT:H23",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_265f3eee1c03478062e66cc8"
+        ],
+        "habilidade": "MT:H24",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_2ab6da1746eec035cef2d6aa"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_60dfe261fbf87d569cedd705"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_158b644f10a84cbfd372b8f8"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_9027508f4674395e3dad7cd2"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2017/403/MT",
+        "familias": [
+          "gq_3d7335725aa56dbea169d6cf"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2018/459/MT",
+        "familias": [
+          "gq_2e0ca74444a5da66f09227d6"
+        ],
+        "habilidade": "MT:H28",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_6125224f7687a1b449ac7b42"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_b6d3454ad14f71ca4765c1bb"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_c3fd0591106465d772df6852"
+        ],
+        "habilidade": "MT:H29",
+        "n": 1
+      },
+      {
+        "escala": "2011/131/MT",
+        "familias": [
+          "gq_025712705a9a3e2d8a1ba06f"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_750e974f2dda3816d2aa5e5a",
+          "gq_8dfaeb0c100c5c2012c13972"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_c4008b86c712073ca15a3320"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_116665f908ed3c4ffb400bfd",
+          "gq_1aa48d4fa57799f494bfffdd"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_54b7dd4c1302a7ae0c98da40",
+          "gq_d16389149953200e4ce2c888"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_ed0c87e56cc45bf79493a686"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2018/459/MT",
+        "familias": [
+          "gq_5a1ac92973b9a27752bab2f6"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_f2b00fda46dd68a31225fa5a"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_77ca1326e3c03e1c4ed9aa54",
+          "gq_95908191d0396c955e37e9b1"
+        ],
+        "habilidade": "MT:H3",
+        "n": 2
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_3988d9b88b334100337aa312"
+        ],
+        "habilidade": "MT:H3",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_77c0891a54c39c6bb357632a"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2016/347/MT",
+        "familias": [
+          "gq_44bc34564d46be15d051f89e"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2020/587/MT",
+        "familias": [
+          "gq_4e22029f698c55d7b8a98dc6"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_fcae973a810640c34afe0d13"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_0af3e3035723e48729819dac",
+          "gq_47c769d519c73d25a05f055c"
+        ],
+        "habilidade": "MT:H30",
+        "n": 2
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_fb716d169006cd4364901cfc"
+        ],
+        "habilidade": "MT:H30",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_3d89fa70359f3dbe7d9e34a0",
+          "gq_ca707a2b743d1d4b04707dff"
+        ],
+        "habilidade": "MT:H4",
+        "n": 2
+      },
+      {
+        "escala": "2014/209/MT",
+        "familias": [
+          "gq_96a5a508a70b9673ddefc8d6"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_7351423f9e6caa1875fc309d"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_cca272cda66fd0774fad5e36"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_64efa1ca93543d8cd3920a21"
+        ],
+        "habilidade": "MT:H4",
+        "n": 1
+      },
+      {
+        "escala": "2012/151/MT",
+        "familias": [
+          "gq_db45952086dbc06b0a364284"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_433695ea3c45017ab3ce4391"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2022/1082/MT",
+        "familias": [
+          "gq_996bcb4dd26f4209ae2b2cd3"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_43f2256db888dff8b0eec792"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2024/1414/MT",
+        "familias": [
+          "gq_4129b868a478a5256968ca85"
+        ],
+        "habilidade": "MT:H5",
+        "n": 1
+      },
+      {
+        "escala": "2016/303/MT",
+        "familias": [
+          "gq_0d248e1dc6256d5d26694d12"
+        ],
+        "habilidade": "MT:H7",
+        "n": 1
+      },
+      {
+        "escala": "2023/1218/MT",
+        "familias": [
+          "gq_e2e407bd041e62b6bcba9ff3"
+        ],
+        "habilidade": "MT:H7",
+        "n": 1
+      },
+      {
+        "escala": "2009/63/MT",
+        "familias": [
+          "gq_0d283e64750fa04505e83572"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      },
+      {
+        "escala": "2013/181/MT",
+        "familias": [
+          "gq_0c6c6e3f100203586e974ae3"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      },
+      {
+        "escala": "2015/245/MT",
+        "familias": [
+          "gq_fa4a054e7504e17d8c01ab9a"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      },
+      {
+        "escala": "2021/899/MT",
+        "familias": [
+          "gq_ce3753cee1044ecdd9b7d20b"
+        ],
+        "habilidade": "MT:H9",
+        "n": 1
+      }
+    ],
+    "familias_por_habilidade": {
+      "CH:H1": 11,
+      "CH:H10": 5,
+      "CH:H11": 15,
+      "CH:H12": 6,
+      "CH:H13": 5,
+      "CH:H14": 8,
+      "CH:H15": 10,
+      "CH:H16": 7,
+      "CH:H17": 11,
+      "CH:H18": 15,
+      "CH:H19": 9,
+      "CH:H2": 10,
+      "CH:H20": 8,
+      "CH:H21": 5,
+      "CH:H22": 7,
+      "CH:H23": 9,
+      "CH:H24": 9,
+      "CH:H25": 6,
+      "CH:H26": 8,
+      "CH:H27": 10,
+      "CH:H28": 7,
+      "CH:H29": 11,
+      "CH:H3": 12,
+      "CH:H30": 6,
+      "CH:H4": 6,
+      "CH:H5": 12,
+      "CH:H6": 1,
+      "CH:H7": 5,
+      "CH:H8": 7,
+      "CH:H9": 11,
+      "CN:H1": 9,
+      "CN:H10": 7,
+      "CN:H11": 8,
+      "CN:H12": 7,
+      "CN:H13": 6,
+      "CN:H14": 13,
+      "CN:H15": 6,
+      "CN:H16": 6,
+      "CN:H18": 8,
+      "CN:H19": 5,
+      "CN:H2": 7,
+      "CN:H20": 5,
+      "CN:H21": 3,
+      "CN:H22": 1,
+      "CN:H23": 7,
+      "CN:H24": 3,
+      "CN:H25": 6,
+      "CN:H26": 3,
+      "CN:H27": 4,
+      "CN:H28": 11,
+      "CN:H29": 6,
+      "CN:H3": 10,
+      "CN:H30": 8,
+      "CN:H4": 9,
+      "CN:H5": 2,
+      "CN:H6": 3,
+      "CN:H7": 4,
+      "CN:H8": 3,
+      "CN:H9": 7,
+      "LC:H1": 5,
+      "LC:H10": 7,
+      "LC:H11": 5,
+      "LC:H12": 2,
+      "LC:H13": 4,
+      "LC:H14": 4,
+      "LC:H15": 6,
+      "LC:H16": 6,
+      "LC:H17": 13,
+      "LC:H18": 6,
+      "LC:H19": 2,
+      "LC:H20": 7,
+      "LC:H21": 1,
+      "LC:H22": 7,
+      "LC:H23": 6,
+      "LC:H24": 5,
+      "LC:H25": 3,
+      "LC:H26": 5,
+      "LC:H27": 4,
+      "LC:H28": 8,
+      "LC:H29": 6,
+      "LC:H3": 6,
+      "LC:H30": 3,
+      "LC:H4": 4,
+      "LC:H5": 5,
+      "LC:H6": 3,
+      "LC:H7": 2,
+      "LC:H8": 2,
+      "LC:H9": 4,
+      "MT:H1": 3,
+      "MT:H10": 5,
+      "MT:H11": 5,
+      "MT:H12": 8,
+      "MT:H13": 2,
+      "MT:H14": 4,
+      "MT:H15": 1,
+      "MT:H16": 11,
+      "MT:H17": 6,
+      "MT:H18": 5,
+      "MT:H19": 1,
+      "MT:H20": 1,
+      "MT:H21": 2,
+      "MT:H22": 2,
+      "MT:H23": 3,
+      "MT:H24": 1,
+      "MT:H28": 6,
+      "MT:H29": 3,
+      "MT:H3": 14,
+      "MT:H30": 7,
+      "MT:H4": 6,
+      "MT:H5": 5,
+      "MT:H7": 2,
+      "MT:H9": 4
+    },
+    "por_ano": {
+      "2009": {
+        "A": 8,
+        "B": 11,
+        "C": 148,
+        "D": 3
+      },
+      "2010": {
+        "A": 2,
+        "C": 163,
+        "D": 1
+      },
+      "2011": {
+        "A": 32,
+        "B": 2,
+        "C": 129,
+        "D": 1
+      },
+      "2012": {
+        "A": 43,
+        "C": 129
+      },
+      "2013": {
+        "A": 22,
+        "C": 150,
+        "D": 2
+      },
+      "2014": {
+        "A": 31,
+        "B": 1,
+        "C": 140
+      },
+      "2015": {
+        "A": 41,
+        "B": 69,
+        "C": 173,
+        "D": 1
+      },
+      "2016": {
+        "A": 85,
+        "C": 201,
+        "D": 1
+      },
+      "2017": {
+        "A": 29,
+        "C": 150
+      },
+      "2018": {
+        "A": 56,
+        "C": 110,
+        "D": 4
+      },
+      "2019": {
+        "A": 1,
+        "C": 166,
+        "D": 7
+      },
+      "2020": {
+        "A": 58,
+        "B": 1,
+        "C": 107,
+        "D": 2
+      },
+      "2021": {
+        "A": 38,
+        "C": 122,
+        "D": 4
+      },
+      "2022": {
+        "A": 85,
+        "C": 84,
+        "D": 3
+      },
+      "2023": {
+        "A": 85,
+        "C": 90,
+        "D": 2
+      },
+      "2024": {
+        "A": 61,
+        "B": 1,
+        "C": 112,
+        "D": 4
+      }
+    },
+    "por_area": {
+      "CH": {
+        "A": 252,
+        "B": 41,
+        "C": 473
+      },
+      "CN": {
+        "A": 177,
+        "B": 18,
+        "C": 504,
+        "D": 9
+      },
+      "LC": {
+        "A": 141,
+        "B": 12,
+        "C": 635,
+        "D": 13
+      },
+      "MT": {
+        "A": 107,
+        "B": 14,
+        "C": 562,
+        "D": 13
+      }
+    },
+    "por_dificuldade_bkt": {
+      "dificil": 214,
+      "facil": 226,
+      "medio": 237
+    },
+    "por_habilidade_bkt": {
+      "CH:H1": 11,
+      "CH:H10": 5,
+      "CH:H11": 15,
+      "CH:H12": 6,
+      "CH:H13": 5,
+      "CH:H14": 8,
+      "CH:H15": 10,
+      "CH:H16": 7,
+      "CH:H17": 11,
+      "CH:H18": 15,
+      "CH:H19": 9,
+      "CH:H2": 10,
+      "CH:H20": 8,
+      "CH:H21": 5,
+      "CH:H22": 7,
+      "CH:H23": 9,
+      "CH:H24": 9,
+      "CH:H25": 6,
+      "CH:H26": 8,
+      "CH:H27": 10,
+      "CH:H28": 7,
+      "CH:H29": 11,
+      "CH:H3": 12,
+      "CH:H30": 6,
+      "CH:H4": 6,
+      "CH:H5": 12,
+      "CH:H6": 1,
+      "CH:H7": 5,
+      "CH:H8": 7,
+      "CH:H9": 11,
+      "CN:H1": 9,
+      "CN:H10": 7,
+      "CN:H11": 8,
+      "CN:H12": 7,
+      "CN:H13": 6,
+      "CN:H14": 13,
+      "CN:H15": 6,
+      "CN:H16": 6,
+      "CN:H18": 8,
+      "CN:H19": 5,
+      "CN:H2": 7,
+      "CN:H20": 5,
+      "CN:H21": 3,
+      "CN:H22": 1,
+      "CN:H23": 7,
+      "CN:H24": 3,
+      "CN:H25": 6,
+      "CN:H26": 3,
+      "CN:H27": 4,
+      "CN:H28": 11,
+      "CN:H29": 6,
+      "CN:H3": 10,
+      "CN:H30": 8,
+      "CN:H4": 9,
+      "CN:H5": 2,
+      "CN:H6": 3,
+      "CN:H7": 4,
+      "CN:H8": 3,
+      "CN:H9": 7,
+      "LC:H1": 5,
+      "LC:H10": 7,
+      "LC:H11": 5,
+      "LC:H12": 2,
+      "LC:H13": 4,
+      "LC:H14": 4,
+      "LC:H15": 6,
+      "LC:H16": 6,
+      "LC:H17": 13,
+      "LC:H18": 6,
+      "LC:H19": 2,
+      "LC:H20": 7,
+      "LC:H21": 1,
+      "LC:H22": 7,
+      "LC:H23": 6,
+      "LC:H24": 5,
+      "LC:H25": 3,
+      "LC:H26": 5,
+      "LC:H27": 4,
+      "LC:H28": 8,
+      "LC:H29": 6,
+      "LC:H3": 6,
+      "LC:H30": 3,
+      "LC:H4": 4,
+      "LC:H5": 5,
+      "LC:H6": 3,
+      "LC:H7": 2,
+      "LC:H8": 2,
+      "LC:H9": 4,
+      "MT:H1": 3,
+      "MT:H10": 5,
+      "MT:H11": 5,
+      "MT:H12": 8,
+      "MT:H13": 2,
+      "MT:H14": 4,
+      "MT:H15": 1,
+      "MT:H16": 11,
+      "MT:H17": 6,
+      "MT:H18": 5,
+      "MT:H19": 1,
+      "MT:H20": 1,
+      "MT:H21": 2,
+      "MT:H22": 2,
+      "MT:H23": 3,
+      "MT:H24": 1,
+      "MT:H28": 6,
+      "MT:H29": 3,
+      "MT:H3": 14,
+      "MT:H30": 7,
+      "MT:H4": 6,
+      "MT:H5": 5,
+      "MT:H7": 2,
+      "MT:H9": 4
+    }
+  },
+  "dimensoes": {
+    "direitos_dimension": {
+      "pendente": 2971
+    },
+    "documental": {
+      "confirmada": 765,
+      "divergencia_documentada": 1,
+      "inconclusiva": 2205
+    },
+    "estrutural": {
+      "confirmada": 2969,
+      "corrigida_recorte_nativo": 2
+    },
+    "habilidade_dimension": {
+      "confirmada_tabela_matriz": 2779,
+      "pendente": 192
+    },
+    "tri_dimension": {
+      "faixa_local": 2905,
+      "sem_faixa_operacional": 66
+    }
+  },
+  "edicoes_especiais_barradas_pelo_fluxo_anterior": 738,
+  "fontes_sha256_missao3": "9c45fab2e0809ef3a2dfdfc71623db1a4e5c803c54e7a74519f006fafae43c4b",
+  "pendencias_especificas": {
+    "bloco_nao_extraido_com_limites_e_alternativas": 109,
+    "defeito_confirmado_no_derivado": 17,
+    "divergencia_tokens_enunciado_ou_alternativas": 1334,
+    "prova_posicao_ou_gabarito_sem_vinculo": 8,
+    "regiao_ambigua:elemento_visual_cruza_limite": 577,
+    "regiao_ambigua:elemento_visual_cruza_limite+texto_cruza_limite_da_coluna_ou_cabecalho": 26,
+    "regiao_ambigua:multiplas_localizacoes_plausiveis": 6,
+    "regiao_ambigua:texto_cruza_limite_da_coluna_ou_cabecalho": 4,
+    "restricao_legitima_variante_ou_anulacao": 18,
+    "verificar_figura_formula_ou_recorte": 110
+  },
+  "pendencias_m3_destinos": {
+    "apto_tecnico_direitos_pendentes": {
+      "A": 460,
+      "B": 75
+    },
+    "bloco_nao_extraido_com_limites_e_alternativas": {
+      "A": 24,
+      "C": 145
+    },
+    "chave_especifica_do_idioma": {
+      "C": 20
+    },
+    "defeito_confirmado_no_derivado": {
+      "D": 17
+    },
+    "divergencia_tokens_enunciado_ou_alternativas": {
+      "A": 168,
+      "B": 3,
+      "C": 1349
+    },
+    "prova_posicao_ou_gabarito_sem_vinculo": {
+      "C": 8
+    },
+    "regiao_ambigua:elemento_visual_cruza_limite": {
+      "A": 20,
+      "B": 7,
+      "C": 554
+    },
+    "regiao_ambigua:elemento_visual_cruza_limite+texto_cruza_limite_da_coluna_ou_cabecalho": {
+      "C": 27
+    },
+    "regiao_ambigua:multiplas_localizacoes_plausiveis": {
+      "C": 6
+    },
+    "regiao_ambigua:texto_cruza_limite_da_coluna_ou_cabecalho": {
+      "C": 4
+    },
+    "restricao_legitima_variante_ou_anulacao": {
+      "D": 18
+    },
+    "verificar_figura_formula_ou_recorte": {
+      "A": 5,
+      "C": 61
+    }
+  },
+  "recortes_para_revisao": {
+    "candidato_exige_revisao_visual": 363,
+    "multiplos_segmentos_revisar_em_separado": 124,
+    "recorte_inclui_texto_lateral": 22,
+    "recorte_intercepta_cabecalho_vizinho": 118
+  },
+  "retidos_direitos": 2971,
+  "sinais_diagnostico": {
+    "bloco_nao_extraido_com_limites_e_alternativas": 109,
+    "cabecalho_localizado_sem_validacao_de_A_E": 112,
+    "defeito_confirmado_no_derivado": 17,
+    "diferenca_lexical_ou_pontuacao_interna_nao_confirmada": 1560,
+    "divergencia_em_variante_requer_fonte_original": 21,
+    "divergencia_tokens_enunciado_ou_alternativas": 1334,
+    "formula_ou_simbolo_exige_confronto_visual": 202,
+    "ordem_dos_tokens_divergente": 11,
+    "prova_posicao_ou_gabarito_sem_vinculo": 8,
+    "regiao_ambigua:elemento_visual_cruza_limite": 577,
+    "regiao_ambigua:elemento_visual_cruza_limite+texto_cruza_limite_da_coluna_ou_cabecalho": 26,
+    "regiao_ambigua:multiplas_localizacoes_plausiveis": 6,
+    "regiao_ambigua:texto_cruza_limite_da_coluna_ou_cabecalho": 4,
+    "restricao_legitima_variante_ou_anulacao": 18,
+    "risco_de_texto_de_coluna_vizinha": 30,
+    "sem_transcricao_comparavel": 122,
+    "texto_equivalente": 287,
+    "verificar_figura_formula_ou_recorte": 110
+  },
+  "situacao_fonte": {
+    "fonte_ou_vinculo_inconclusivo": 8,
+    "pdf_e_gabarito_ligados": 2963
+  },
+  "transicoes": {
+    "A->A": 460,
+    "B->B": 75,
+    "C->A": 217,
+    "C->B": 10,
+    "C->C": 2174,
+    "D->D": 35
+  }
+}

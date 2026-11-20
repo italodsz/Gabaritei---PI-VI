@@ -1,0 +1,44 @@
+// Navegador sobre o app completo, com respostas técnicas de teste, sem estudantes reais.
+import assert from 'node:assert/strict';
+import {once} from 'node:events';
+import {mkdirSync,writeFileSync} from 'node:fs';
+import {resolve,join} from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {carregarAcervo} from '../backend/acervo.mjs';
+import {abrirBanco} from '../backend/db.mjs';
+import {criarServidor} from '../backend/server.mjs';
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE?pathToFileURL(resolve(process.env.PLAYWRIGHT_MODULE)).href:'playwright');
+const output=resolve(process.argv[2]||'../evidencias-ui-4b');mkdirSync(output,{recursive:true});
+const db=abrirBanco(':memory:'),server=criarServidor(await carregarAcervo(),{db}).listen(0,'127.0.0.1');await once(server,'listening');let browser;
+try{
+ browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{channel:'chrome'})});
+ const page=await browser.newPage({viewport:{width:1440,height:1100},reducedMotion:'reduce'}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(`http://127.0.0.1:${server.address().port}/#questoes`);
+ await page.locator('[data-tab="unificada"]').click();await page.waitForSelector('#unificado-topic');
+ await page.locator('#unificado-topic').selectOption({label:'Matemática · Geometria plana e semelhança'});
+ assert.equal(await page.locator('#unificado-consent').isChecked(),false);
+ await page.locator('#unificado-search').click();assert.equal(db.prepare('SELECT COUNT(*) n FROM recomendacao_unificada').get().n,0);
+ await page.locator('#unificado-consent').check();
+ const request=page.waitForResponse(r=>r.url().endsWith('/api/unificado/recomendacoes')&&r.request().method()==='POST');
+ await page.locator('#unificado-search').click();const first=await (await request).json();assert.equal(first.itens.length,5);
+ await page.waitForSelector('#unificado-start');await page.screenshot({path:join(output,'top5.png'),fullPage:true});
+ await page.locator('#unificado-start').click();await page.waitForSelector('.qs-alt');
+ await page.waitForFunction(async()=>{const T=await import('/tentativas.js');return document.querySelector('#qs-minimum')?.textContent!=='Preparando tentativa verificável…';});
+ await page.locator('.qs-alt').first().click();assert.equal(await page.locator('#qs-confirm').isDisabled(),true);
+ await page.keyboard.press('Enter');assert.equal(db.prepare('SELECT COUNT(*) n FROM evento_integridade').get().n,0);
+ assert.equal(db.prepare('SELECT COUNT(*) n FROM exposicao_unificada').get().n,1);
+ await page.waitForFunction(()=>document.querySelector('#qs-confirm')?.disabled===false,{},{timeout:12000});
+ await page.screenshot({path:join(output,'questao_apos_minimo.png'),fullPage:true});
+ await page.evaluate(()=>{const b=document.querySelector('#qs-confirm');b.click();b.click();});
+ await page.waitForSelector('#qs-unificado-more');assert.equal(db.prepare('SELECT COUNT(*) n FROM evento_integridade').get().n,1);
+ await page.locator('#qs-unificado-more').click();await page.waitForSelector('#unificado-search');
+ const nextReq=page.waitForResponse(r=>r.url().endsWith('/api/unificado/recomendacoes')&&r.request().method()==='POST');
+ await page.locator('#unificado-search').click();const next=await (await nextReq).json();assert(next.itens.every(c=>c.familia!==first.itens[0].familia));
+ await page.locator('#unificado-history').click();await page.waitForFunction(()=>document.querySelector('#unificado-history-result')?.textContent.includes('MT: 1 respostas elegíveis'));
+ await page.screenshot({path:join(output,'historico.png'),fullPage:true});
+ await page.reload();await page.locator('[data-tab="unificada"]').click();await page.waitForSelector('#unificado-history');await page.locator('#unificado-history').click();await page.waitForFunction(()=>document.querySelector('#unificado-history-result')?.textContent.includes('MT: 1 respostas elegíveis'));
+ assert.deepEqual(errors,[]);
+ const result={fixture:'app completo com resposta sintética, não valida aprendizagem',consentimentoObrigatorio:true,primeiraRecomendacao:first,segundaRecomendacao:next,exposicoes:1,eventos:1,historicoAposReload:true,browserErrors:errors};
+ writeFileSync(join(output,'resultado.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({top5:first.itens.map(v=>v.id),newTop5:next.itens.map(v=>v.id),events:1,exposures:1,reload:true,errors},null,2));
+}finally{await browser?.close();await new Promise(r=>{server.close(r);server.closeIdleConnections();});}

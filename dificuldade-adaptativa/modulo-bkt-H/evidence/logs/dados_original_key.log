@@ -1,0 +1,6 @@
+Brutos=346860 Excluídos=132443 Válidos=214417 Estudantes=4003 Sequências=32070 Habilidades principais=56
+treino {'estudantes': 2802, 'eventos': 151015, 'sequencias': 22591, 'eventos_habilidades_principais': 143092}
+validacao {'estudantes': 601, 'eventos': 31521, 'sequencias': 4974, 'eventos_habilidades_principais': 29780}
+teste {'estudantes': 600, 'eventos': 31881, 'sequencias': 4505, 'eventos_habilidades_principais': 29948}
+
+Exit code: 0

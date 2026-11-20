@@ -1,0 +1,8 @@
+test_catalog_and_validation_scope (test_auditoria.AuditTests.test_catalog_and_validation_scope) ... ok
+test_coverage_not_claimed_as_official_validation (test_auditoria.AuditTests.test_coverage_not_claimed_as_official_validation) ... ok
+test_error_partitions (test_auditoria.AuditTests.test_error_partitions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.088s
+
+OK

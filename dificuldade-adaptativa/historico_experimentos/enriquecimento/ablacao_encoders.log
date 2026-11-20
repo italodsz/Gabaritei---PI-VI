@@ -1,0 +1,58 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 26062.15it/s]
+BertModel LOAD REPORT from: neuralmind/bert-base-portuguese-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 18473.02it/s]
+BertModel LOAD REPORT from: neuralmind/bert-base-portuguese-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{'train': {'n': 1801, 'truncated': {128: 1427, 256: 360, 512: 7}, 'classes': {'facil': 601, 'media': 600, 'dificil': 600}, 'assets': 0, 'formula_or_table_proxy': 43, 'missing_text_or_options': 0}, 'validation': {'n': 136, 'truncated': {128: 110, 256: 28, 512: 0}, 'classes': {'facil': 54, 'media': 42, 'dificil': 40}, 'assets': 0, 'formula_or_table_proxy': 3, 'missing_text_or_options': 0}}
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5568.75it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+1 0.4030732860520095
+2 0.43241899207721607
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12957.64it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{'minilm_congelado': {'A_texto': 0.471, 'B_assunto': 0.4353, 'C_habilidade': 0.4923}, 'bert_checkpoint': 0.5223322735795223, 'bert_ajustado': {'A_texto': 0.4258, 'B_assunto': 0.4208, 'C_habilidade': 0.4404}, 'bert_congelado': {'A_texto': 0.4199, 'B_assunto': 0.3771, 'C_habilidade': 0.3991}, 'minilm_ajustado': {'A_texto': 0.4534, 'B_assunto': 0.4176, 'C_habilidade': 0.471}}

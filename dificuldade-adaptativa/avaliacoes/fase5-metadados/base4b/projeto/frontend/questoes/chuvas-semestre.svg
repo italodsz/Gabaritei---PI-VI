@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="380" fill="#FFFEFB"/>
+  <text x="32" y="34" font-size="16" font-weight="700" fill="#29332F">Precipitação mensal (mm)</text>
+  <g stroke="#E5E0D2" stroke-width="1">
+    <line x1="72" y1="320" x2="616" y2="320"/>
+    <line x1="72" y1="270" x2="616" y2="270"/>
+    <line x1="72" y1="220" x2="616" y2="220"/>
+    <line x1="72" y1="170" x2="616" y2="170"/>
+    <line x1="72" y1="120" x2="616" y2="120"/>
+    <line x1="72" y1="70" x2="616" y2="70"/>
+  </g>
+  <g font-size="12" fill="#57615B" text-anchor="end">
+    <text x="62" y="324">0</text><text x="62" y="274">50</text><text x="62" y="224">100</text>
+    <text x="62" y="174">150</text><text x="62" y="124">200</text><text x="62" y="74">250</text>
+  </g>
+  <g fill="#4F7A5A">
+    <rect x="96" y="140" width="56" height="180" rx="6"/>
+    <rect x="186" y="110" width="56" height="210" rx="6"/>
+    <rect x="276" y="170" width="56" height="150" rx="6"/>
+    <rect x="366" y="240" width="56" height="80" rx="6"/>
+    <rect x="456" y="260" width="56" height="60" rx="6"/>
+    <rect x="546" y="280" width="56" height="40" rx="6"/>
+  </g>
+  <g font-size="13" font-weight="700" fill="#29332F" text-anchor="middle">
+    <text x="124" y="132">180</text><text x="214" y="102">210</text><text x="304" y="162">150</text>
+    <text x="394" y="232">80</text><text x="484" y="252">60</text><text x="574" y="272">40</text>
+  </g>
+  <g font-size="13" fill="#57615B" text-anchor="middle">
+    <text x="124" y="344">jan</text><text x="214" y="344">fev</text><text x="304" y="344">mar</text>
+    <text x="394" y="344">abr</text><text x="484" y="344">mai</text><text x="574" y="344">jun</text>
+  </g>
+  <text x="608" y="370" font-size="11" fill="#7F877F" text-anchor="end">Dados fictícios — uso demonstrativo</text>
+</svg>

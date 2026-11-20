@@ -1,0 +1,144 @@
+{
+  "total": 2971,
+  "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "sha256_catalogo_lf": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "sha256_matriz": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1",
+  "aptidao": {
+    "apto_texto_semantico": 2032,
+    "apto_treino_supervisionado": 2032,
+    "apto_recomendacao": 14,
+    "apto_demo": 12
+  },
+  "bloqueadas": 928,
+  "pendentes_rubrica": 2962,
+  "sem_uso_aprovado": 938,
+  "com_midia_referenciada": 878,
+  "com_midia_ausente": 878,
+  "por_area": {
+    "apto_texto_semantico": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_treino_supervisionado": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_recomendacao": {
+      "CH": 6,
+      "LC": 2,
+      "CN": 3,
+      "MT": 3
+    },
+    "apto_demo": {
+      "CH": 5,
+      "LC": 2,
+      "CN": 2,
+      "MT": 3
+    }
+  },
+  "splits_textuais": {
+    "train": 1779,
+    "validation": 131,
+    "test": 122
+  },
+  "notas": [
+    {
+      "nota": 0,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 1,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 2,
+      "n": 564,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 564,
+      "n_com_falha_critica": 564
+    },
+    {
+      "nota": 3,
+      "n": 2393,
+      "apto_texto_semantico": 2019,
+      "apto_treino_supervisionado": 2019,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 2393,
+      "n_com_falha_critica": 364
+    },
+    {
+      "nota": 4,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 5,
+      "n": 5,
+      "apto_texto_semantico": 4,
+      "apto_treino_supervisionado": 4,
+      "apto_recomendacao": 5,
+      "apto_demo": 3,
+      "n_com_pendencia": 5,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 6,
+      "n": 9,
+      "apto_texto_semantico": 9,
+      "apto_treino_supervisionado": 9,
+      "apto_recomendacao": 9,
+      "apto_demo": 9,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    }
+  ],
+  "quase_duplicatas_pares": 17,
+  "duplicatas_por_chave_itens": {
+    "item": 2,
+    "familia": 0,
+    "familia_conteudo": 18,
+    "exato": 20
+  },
+  "itens_em_grupo_nao_unitario": 36,
+  "taxa_itens_em_grupo_nao_unitario": 0.012117,
+  "grupos_cruzam_particao_historica": 0,
+  "grupos_cruzam_particao_nova": 0,
+  "tarefa_supervisionada": "classificacao_exploratoria_area_oficial_4_classes",
+  "fora_piloto_por_uso": {
+    "apto_texto_semantico": 723,
+    "apto_treino_supervisionado": 723,
+    "apto_recomendacao": 4,
+    "apto_demo": 3
+  },
+  "fora_A_B_por_uso": {
+    "apto_texto_semantico": 727,
+    "apto_treino_supervisionado": 727,
+    "apto_recomendacao": 5,
+    "apto_demo": 3
+  }
+}

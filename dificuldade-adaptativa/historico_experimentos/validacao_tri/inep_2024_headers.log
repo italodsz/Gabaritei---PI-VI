@@ -1,0 +1,14 @@
+HTTP/1.1 206 Partial Content
+Date: Mon, 09 Nov 2026 00:10:39 GMT
+Server: Apache
+Last-Modified: Thu, 09 Jul 2026 22:01:17 GMT
+ETag: "1f5b4000-65634c3692540"
+Accept-Ranges: bytes
+Content-Length: 65557
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT, INFO, HEAD
+Access-Control-Max-Age: 1000
+Access-Control-Allow-Headers: x-requested-with, X-Ssi-Client, Content-Type, origin, authorization, accept, client-security-token
+Content-Range: bytes 526008299-526073855/526073856
+Content-Type: application/zip
+

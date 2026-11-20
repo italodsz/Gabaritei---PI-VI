@@ -1,0 +1,7 @@
+﻿id;ano;area;co_item;arquivo_referenciado;co_prova;posicao;evidencia_catalogo;enunciado_presente;a;b;c;tri_estrutura_valida;tri_status_oficial;tri_alertas;assunto;subassunto;assunto_status;sugestao_nao_validada;habilidade_catalogo;habilidade_status;habilidade_tabela;competencia_matriz;revisao_humana
+gq_7e34ab1e680475f676732d68;2009;CN;60136;ITENS_PROVA_2009.csv;49;25;inep_blue_item_table_plus_enem_api_v1;True;2.29092;1.87019;0.18203;True;conferida_tabela;;;;ausente;Probabilidade e estatística;;ausente;;;True
+gq_dfa98cff2985c194b72c31a0;2011;MT;72821;ITENS_PROVA_2011.csv;131;151;inep_blue_item_table_plus_enem_api_v1;True;1.56479;1.83743;0.12533;True;conferida_tabela;;;;ausente;Geometria;8;confirmado_tabela;8;2;True
+gq_2f420717d0197ea651d5dc42;2013;CN;43164;ITENS_PROVA_2013.csv;171;59;inep_blue_item_table_plus_enem_api_v1;True;1.7586;1.5516;0.096;True;conferida_tabela;;;;ausente;Biologia;9;confirmado_tabela;9;3;True
+gq_0d248e1dc6256d5d26694d12;2016;MT;44243;itens_prova_2016.csv;303;175;inep_blue_item_table_plus_enem_api_v1;True;2.94115;4.08667;0.1354;True;conferida_tabela;;;;ausente;Geometria;7;confirmado_tabela;7;2;True
+gq_1d364473fd068a709b9ced94;2020;LC;11966;ITENS_PROVA_2020.csv;577;40;inep_blue_item_table_plus_enem_ocr_v1;True;1.22111;1.6828;0.21162;True;conferida_tabela;;;;ausente;Geometria;18;confirmado_tabela;18;6;True
+gq_9327a1626c297f760aab76fb;2020;MT;111566;ITENS_PROVA_2020.csv;587;172;inep_blue_item_table_plus_enem_ocr_v1;True;2.73154;1.76976;0.1412;True;conferida_tabela;;;;ausente;Geometria;14;confirmado_tabela;14;3;True

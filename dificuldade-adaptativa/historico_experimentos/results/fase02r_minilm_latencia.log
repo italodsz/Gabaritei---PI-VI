@@ -1,0 +1,11 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4931.09it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{"encoder": "minilm", "text": "Uma caixa contém 24 lápis. Quantos lápis representam um quarto do total?", "seconds": [0.014611799997510388, 0.01908929999990505, 0.013155100001313258, 0.02165959999911138, 0.02266330000202288], "median_seconds": 0.01908929999990505}

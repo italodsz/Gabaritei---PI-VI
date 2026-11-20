@@ -1,0 +1,7 @@
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<01:24,  3.66it/s]
+Loading weights:  54%|#####4    | 168/310 [00:00<00:00, 567.56it/s]
+Loading weights:  85%|########4 | 263/310 [00:00<00:00, 647.37it/s]
+Loading weights: 100%|##########| 310/310 [00:00<00:00, 552.88it/s]
+float32 seconds (8, 1024) 9.897139600001537

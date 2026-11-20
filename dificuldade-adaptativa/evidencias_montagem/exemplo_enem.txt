@@ -1,0 +1,6 @@
+Python: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+Comando: python -B exemplo_enem.py C:\Users\Darkz\Documents\ChatGPT\pi6\entregas\2026.11.13-r1\dificuldade-adaptativa\entrega-2026.11.13-r1\evidencias_montagem\demo_enem
+Exemplo ENEM: fallback identificado, �reas isoladas, persist�ncia e aceite expl�cito aprovados.
+C:\Users\Darkz\Documents\ChatGPT\pi6\entregas\2026.11.13-r1\dificuldade-adaptativa\entrega-2026.11.13-r1\evidencias_montagem\demo_enem\resultado_enem.json
+
+EXIT=0

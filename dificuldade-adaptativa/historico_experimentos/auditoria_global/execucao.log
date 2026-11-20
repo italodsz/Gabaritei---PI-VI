@@ -1,0 +1,3 @@
+catalog 2971 validation 136 middle 42 severe 16
+truncation {'minilm': 110, 'qwen06': 43, 'bge': 28, 'bert': 0, 'deberta': 87}
+paired 61 48 27

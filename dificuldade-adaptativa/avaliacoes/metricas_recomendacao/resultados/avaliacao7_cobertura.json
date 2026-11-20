@@ -1,0 +1,324 @@
+{
+  "pares_humanos": 62,
+  "consultas": 12,
+  "consultas_comuns_totalmente_julgadas": 11,
+  "media_nota": 6.661290322580645,
+  "proporcao_nota_ge7": 0.5967741935483871,
+  "diferencas_pareadas": {
+    "precision": {
+      "ganho_medio": 0.15151515151515152,
+      "ic95_bootstrap_pareado": [
+        -0.0909090909090909,
+        0.42424242424242425
+      ],
+      "n": 11
+    },
+    "recall_pool": {
+      "ganho_medio": 0.12424242424242424,
+      "ic95_bootstrap_pareado": [
+        -0.12121212121212122,
+        0.3939393939393939
+      ],
+      "n": 11
+    },
+    "ndcg_pool_linear": {
+      "ganho_medio": 0.13499210492275718,
+      "ic95_bootstrap_pareado": [
+        0.05272878448024065,
+        0.23154589585305213
+      ],
+      "n": 11
+    }
+  },
+  "cobertura_catalogos": [
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_f7606ea21c774debe4cc0faf",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_a9646f73bab5d82f31e84c50",
+        "gq_8dfaeb0c100c5c2012c13972",
+        "gq_2f3d34d1eb42a9889693b9e0"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_661b0e96f5996e4a09bae720",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_5d5f51a40497323078d2af26",
+        "gq_7351423f9e6caa1875fc309d",
+        "gq_463a8715dc8d0c5cbdd232a3"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_95fef056babae892b6c89401",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_5dc816dc4f37249801d4d66b",
+        "gq_fa4a054e7504e17d8c01ab9a",
+        "gq_dc6fb99bef33d7e6d9080795"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_292f28dead645148d796798c",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_a453a8dce58812b9bfa0b09c",
+        "gq_2cd2cae522e1c58e0cc7535f",
+        "gq_f9ed2b9043bc1a36515733e5"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_cbc37301210949f56ff47490",
+      "julgados_top3": 2,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_3677db9a4644320a41a13354",
+        "gq_97fd2312c10ec07d9a5e81d0",
+        "gq_c668695a285ab1377cfb03c2"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_24b1a2d74e302a040a978f0f",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_b84ebc89ed33009d89756cf8",
+        "gq_c3882f0ecb5dbf1090ee51cd",
+        "gq_d70f4b6082fba7d240724616"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_ae75e5ed178b1437c8e7131a",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_1100ada241f62157d3e81fc6",
+        "gq_42aeec245e6be3ecb821682a",
+        "gq_c18e11848a242238324c241b"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_83bd5c51ffa6d46ac90b8aaa",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_411ac83b7da1c15eff6f4188",
+        "gq_e718fb75bfdd070b3edb02a2",
+        "gq_537651edddd65385101020cc"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_5fd9ae64d39af66bdb783ffc",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_0848fa0c726411ff734084af",
+        "gq_8dccecbc46bf0b0a9ef3a86e",
+        "gq_8849abc748c734fb9948cec7"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_096992c648ba4e321a7990cc",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_707c7c50ebe05950df85e97a",
+        "gq_261f9756704bd702aa9aa350",
+        "gq_c18d563a836f4bf39eaa3173"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_171d5bf39da346e85e70fed1",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_57d7f6d259358e4f43fd1c62",
+        "gq_ffd2b8fbe4884a0028606cde",
+        "gq_64bf7ac045c4edfb1a3c26c2"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "titulo_area",
+      "referencia": "gq_4f7461bfa8d724c8268f7268",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_e591148a018a32a5927158f5",
+        "gq_9bed162f684234d0b0592bf6",
+        "gq_e65c3ae81fd2507ef61a35db"
+      ],
+      "base_sha256_catalogo": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_f7606ea21c774debe4cc0faf",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_2f3d34d1eb42a9889693b9e0",
+        "gq_dd78c435bb4e166bd48485c5",
+        "gq_9e8c14b1e1c601ea3adc7442"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_661b0e96f5996e4a09bae720",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_95fef056babae892b6c89401",
+        "gq_30773598cedf07785ea6ebe2",
+        "gq_dc6fb99bef33d7e6d9080795"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_95fef056babae892b6c89401",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_5dc816dc4f37249801d4d66b",
+        "gq_661b0e96f5996e4a09bae720",
+        "gq_327b7a15b8218e591706cc1c"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_292f28dead645148d796798c",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_2cd2cae522e1c58e0cc7535f",
+        "gq_a453a8dce58812b9bfa0b09c",
+        "gq_02ebc8bc8c546bae47864b19"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_cbc37301210949f56ff47490",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_a453a8dce58812b9bfa0b09c",
+        "gq_fd244e8b5faecad1a2a63317",
+        "gq_f9ed2b9043bc1a36515733e5"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_24b1a2d74e302a040a978f0f",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_d5e603f54e81b07598b512a8",
+        "gq_b84ebc89ed33009d89756cf8",
+        "gq_c3882f0ecb5dbf1090ee51cd"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_ae75e5ed178b1437c8e7131a",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_534ab360787d95817c493475",
+        "gq_1100ada241f62157d3e81fc6",
+        "gq_7577d93ba4e3a9a8709d140e"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_83bd5c51ffa6d46ac90b8aaa",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_e5186bcbb47ff7ce891e05f7",
+        "gq_3c69ed3e86464cfe2163c94d",
+        "gq_ffcbc1eef3118b88e9627da4"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_5fd9ae64d39af66bdb783ffc",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_67aa92805f74f22e2b849533",
+        "gq_8dccecbc46bf0b0a9ef3a86e",
+        "gq_761a8751340e8826d4a77a6b"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_096992c648ba4e321a7990cc",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_56bc6f2af6d5a7856dc1034c",
+        "gq_914351510dbbfec6d35fa371",
+        "gq_ceb55020d2d4d690acdebc14"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_171d5bf39da346e85e70fed1",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_7e63dc415a42d188b7df8eab",
+        "gq_adb20a479558b68e0e15a5f7",
+        "gq_94008134691e68f7d42dc39d"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    },
+    {
+      "metodo": "rrf_qwen",
+      "referencia": "gq_4f7461bfa8d724c8268f7268",
+      "julgados_top3": 3,
+      "total_top3": 3,
+      "ids_top3": [
+        "gq_e65c3ae81fd2507ef61a35db",
+        "gq_e591148a018a32a5927158f5",
+        "gq_99f014e88b8b840e7802883a"
+      ],
+      "base_sha256_catalogo": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5"
+    }
+  ],
+  "observacao": "Resultados calculados somente nas 11 consultas com top3 dos dois catálogos completamente julgados. Uma referência excluída por falta de uma nota no catálogo titulo_area atualizado. A ordem Sx.y é sorteada, não ranking. Chaves cegas não abertas. Catálogos têm hashes de base diferentes; comparação das listas publicadas, não experimento controlado apenas de algoritmo."
+}

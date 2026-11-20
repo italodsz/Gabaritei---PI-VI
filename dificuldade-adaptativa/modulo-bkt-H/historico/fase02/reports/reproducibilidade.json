@@ -1,0 +1,10 @@
+{
+  "initializations_reexecuted": 1120,
+  "isolated_copy": true,
+  "max_mean_nll_difference": 0.0,
+  "max_parameter_difference": 0.0,
+  "mean_nll_absolute_tolerance": 1e-08,
+  "parameter_absolute_tolerance": 0.0001,
+  "skills_retrained": 56,
+  "status": "aprovado"
+}

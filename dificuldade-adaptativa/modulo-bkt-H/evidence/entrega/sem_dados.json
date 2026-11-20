@@ -1,0 +1,479 @@
+{
+  "counts": {
+    "aprovado": 38,
+    "bloqueado": 13
+  },
+  "errors": 0,
+  "exit_code": 2,
+  "failures": 0,
+  "groups": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "tests": [
+    {
+      "detail": null,
+      "seconds": 0.00021430000015243422,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_correct",
+      "utc": "2026-11-11T19:17:35.434674+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001624000014999183,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_error",
+      "utc": "2026-11-11T19:17:35.435205+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00011589999849093147,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_cooldown",
+      "utc": "2026-11-11T19:17:35.435494+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012869999955000822,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_determinism_and_reset",
+      "utc": "2026-11-11T19:17:35.435710+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012600000081874896,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_future_does_not_change_prediction",
+      "utc": "2026-11-11T19:17:35.435944+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00011069999891333282,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_insufficient_data_abstains",
+      "utc": "2026-11-11T19:17:35.436172+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.004753199998958735,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_limits_and_invalid",
+      "utc": "2026-11-11T19:17:35.436385+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001584999990882352,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_prediction_before_response",
+      "utc": "2026-11-11T19:17:35.441467+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00016619999951217324,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_stock_and_choice",
+      "utc": "2026-11-11T19:17:35.441745+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.00012930000048072543,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_keyless_event_and_sequence_equivalence",
+      "utc": "2026-11-11T19:17:35.442057+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.0001126000006479444,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_student_isolation",
+      "utc": "2026-11-11T19:17:35.442292+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.00010320000001229346,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_train_only_skill_selection",
+      "utc": "2026-11-11T19:17:35.442501+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: definir BKT04_SOURCE e BKT04_WORK com dados reais.",
+      "seconds": 0.00018710000040300656,
+      "source": "tests/B_dados/test_data.py",
+      "source_sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+      "status": "bloqueado",
+      "test": "test_data.Data.test_verified_source",
+      "utc": "2026-11-11T19:17:35.442694+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00014270000065153,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_all_skills_really_exported",
+      "utc": "2026-11-11T19:17:35.443027+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00016850000065460335,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_convergence_and_initializations",
+      "utc": "2026-11-11T19:17:35.443276+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00011529999937920365,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_original_tolerances",
+      "utc": "2026-11-11T19:17:35.443543+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: reconstrução e treinamento reais necessários.",
+      "seconds": 0.00011000000085914508,
+      "source": "tests/C_treinamento/test_training.py",
+      "source_sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+      "status": "bloqueado",
+      "test": "test_training.Training.test_parameter_constraints",
+      "utc": "2026-11-11T19:17:35.443748+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03877780000038911,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_blocked_skills_use_fallback",
+      "utc": "2026-11-11T19:17:35.443978+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.09643539999888162,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_concurrency_same_attempt",
+      "utc": "2026-11-11T19:17:35.483105+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.04104410000036296,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_confirmed_frontend_contract_adapter",
+      "utc": "2026-11-11T19:17:35.579832+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.18067410000003292,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cooldown_counts_responses_not_order_id_distance",
+      "utc": "2026-11-11T19:17:35.621143+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.04300459999831219,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_student_collision_rejected",
+      "utc": "2026-11-11T19:17:35.802080+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.11016299999937473,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_user_accept_rejected",
+      "utc": "2026-11-11T19:17:35.845300+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.056506099999751314,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_decline_preserves_choice",
+      "utc": "2026-11-11T19:17:35.955700+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.027115999999296037,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_explicit_acceptance_and_replay",
+      "utc": "2026-11-11T19:17:36.012421+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.011747800001103315,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency",
+      "utc": "2026-11-11T19:17:36.039763+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.011256600000706385,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency_conflict",
+      "utc": "2026-11-11T19:17:36.051740+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00966820000030566,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_inputs_leave_no_state",
+      "utc": "2026-11-11T19:17:36.063313+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.008904600001187646,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_model_rejected_before_state",
+      "utc": "2026-11-11T19:17:36.073268+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.018319799999517272,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_isolation_namespace",
+      "utc": "2026-11-11T19:17:36.082405+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.04039510000075097,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_legacy_state_migration_retains_offer_count",
+      "utc": "2026-11-11T19:17:36.101030+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.046072500001173466,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_manual_choice_is_preserved",
+      "utc": "2026-11-11T19:17:36.141773+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.016650100000333623,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_model_version_isolates_state",
+      "utc": "2026-11-11T19:17:36.188100+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.012150199998359312,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_order_guard",
+      "utc": "2026-11-11T19:17:36.205056+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.009956500000043889,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_server_attempt_id_independent_from_client_key",
+      "utc": "2026-11-11T19:17:36.217562+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.027839600001243525,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_stale_offer_rejected",
+      "utc": "2026-11-11T19:17:36.227762+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.01804170000104932,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_state_persists_restart",
+      "utc": "2026-11-11T19:17:36.255847+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.012635200000659097,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_transaction_rolls_back",
+      "utc": "2026-11-11T19:17:36.274168+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010222099999737111,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_unknown_skill_uses_fallback",
+      "utc": "2026-11-11T19:17:36.287139+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00026790000083565246,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_aligned_observations",
+      "utc": "2026-11-11T19:17:36.297716+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00017140000090876129,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_extreme_groups",
+      "utc": "2026-11-11T19:17:36.298202+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00014369999917107634,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_independent_loss_readback",
+      "utc": "2026-11-11T19:17:36.298540+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.0001491999992140336,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_student_bootstrap_replay",
+      "utc": "2026-11-11T19:17:36.298793+00:00"
+    },
+    {
+      "detail": "BLOQUEADO: previsões e respostas reais necessárias.",
+      "seconds": 0.00016080000023066532,
+      "source": "tests/E_avaliacao/test_evaluation.py",
+      "source_sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+      "status": "bloqueado",
+      "test": "test_evaluation.Evaluation.test_validation_policy_does_not_claim_learning",
+      "utc": "2026-11-11T19:17:36.299052+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.020104300001548836,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_does_not_alias_external_skill",
+      "utc": "2026-11-11T19:17:36.299382+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0002131000001099892,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_invalid",
+      "utc": "2026-11-11T19:17:36.319703+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.014642299998740782,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_isolation_and_enem_fallback",
+      "utc": "2026-11-11T19:17:36.320037+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00035260000004200265,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_boundaries",
+      "utc": "2026-11-11T19:17:36.334892+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0002285999999003252,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_invalid_config",
+      "utc": "2026-11-11T19:17:36.335450+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00023639999926672317,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_missing_invalid",
+      "utc": "2026-11-11T19:17:36.335825+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001678000007814262,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_scale_conflict",
+      "utc": "2026-11-11T19:17:36.336173+00:00"
+    }
+  ],
+  "tests_collected": 51
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "coorte": "humana_1",
+    "fonte": "resultados/avaliacao_cega_v1.json",
+    "avaliador_registrado": "Ítalo de Souza (autor do projeto; declarou ter avaliado sem IA)",
+    "pares": 24,
+    "consultas": 8
+  },
+  {
+    "coorte": "humana_4",
+    "fonte": "resultados/avaliacao_cega_4/resultado.json",
+    "avaliador_registrado": "Teles (às cegas, sem IA, segundo Ítalo)",
+    "pares": 40,
+    "consultas": 8
+  },
+  {
+    "coorte": "humana_6",
+    "fonte": "resultados/avaliacao_cega_6/resultado.json",
+    "avaliador_registrado": "Ítalo (às cegas, 11/11/2026); S72 marcada com falha no texto",
+    "pares": 28,
+    "consultas": 8
+  },
+  {
+    "coorte": "IA_50",
+    "fonte": "resultados/avaliacao_ia_50/chave_com_notas.json",
+    "avaliador_registrado": "IA, conforme nome do campo nota_IA; não avaliação humana",
+    "pares": 197,
+    "consultas": 50
+  }
+]

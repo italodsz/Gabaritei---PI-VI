@@ -1,0 +1,20 @@
+Python: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+Plataforma: Windows-11-10.0.26200-SP0
+Comando: python -m unittest -v test_metricas.py
+test_curto (test_metricas.MetricTests.test_curto) ... ok
+test_duplicata (test_metricas.MetricTests.test_duplicata) ... ok
+test_intervalo_reproduzivel (test_metricas.MetricTests.test_intervalo_reproduzivel) ... ok
+test_invertido (test_metricas.MetricTests.test_invertido) ... ok
+test_nao_julgado (test_metricas.MetricTests.test_nao_julgado) ... ok
+test_nota_invalida (test_metricas.MetricTests.test_nota_invalida) ... ok
+test_perfeito (test_metricas.MetricTests.test_perfeito) ... ok
+test_pool (test_metricas.MetricTests.test_pool) ... ok
+test_referencia_sklearn (test_metricas.MetricTests.test_referencia_sklearn) ... ok
+test_sem_relevante (test_metricas.MetricTests.test_sem_relevante) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.441s
+
+OK
+
+Exit code: 0

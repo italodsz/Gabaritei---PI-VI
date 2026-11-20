@@ -1,0 +1,29 @@
+{
+  "train": {
+    "seconds": 17.429713300000003,
+    "truncated": 360,
+    "n": 1801,
+    "dimension": 1024
+  },
+  "validation": {
+    "seconds": 1.406986500001949,
+    "truncated": 28,
+    "n": 136,
+    "dimension": 1024
+  },
+  "checkpoint": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "input_limit": 256,
+  "native_context": 8192,
+  "pooling": "first",
+  "peak_sampled_rss_bytes": 2908131328,
+  "total_seconds": 22.912639100002707,
+  "embedding_sha256": "3fd7e7c08cee2c6034c8b7c5c8464c82e44874ee7472157c1b9b38153e65897f",
+  "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "gpu_peak_allocated_bytes": 1192629248,
+  "python": "3.14.0",
+  "torch": "2.11.0+cu128"
+}

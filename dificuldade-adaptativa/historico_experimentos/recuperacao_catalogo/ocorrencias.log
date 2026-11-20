@@ -1,0 +1,8 @@
+08/11/2026
+Revisão local e referência remota da branch dataset conferidas em 7e720fa876beb7249adab2f05d3ecf33ae5a2c51.
+O acesso web direto a alguns PDFs do INEP retornou 502 ou timeout. O PDF da Matriz já estava preservado. Os cadernos e gabaritos usados nas decisões foram obtidos pelos endereços oficiais em requisição direta, com parâmetro de download quando necessário.
+O primeiro processamento encontrou enunciados nulos e falhou antes de gerar as tabelas. A leitura passou a tratá-los como vazios para a triagem, sem editar a fonte.
+A primeira junção distinguiu maiúsculas e minúsculas no nome do arquivo de referência e deixou 287 itens de 2016 sem vínculo. A comparação foi corrigida e a auditoria inteira foi executada novamente.
+As páginas 22, 25, 28 e 31 do caderno Azul de 2018 e a página 7 do caderno Laranja de 2022 foram inspecionadas visualmente. O recorte final do gráfico da questão 88 foi reaberto e conferido.
+O PDF de 2018 tem um comando sobre gêneros textuais na posição 33, mas a origem local da questão incompleta gq_1bf495a5eda4568d0ea676d2 indica posição 34. Não houve transferência automática do texto-base.
+O índice semântico e os modelos não foram executados. A inspeção de integração foi documental e de código.

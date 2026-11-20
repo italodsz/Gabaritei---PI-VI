@@ -1,0 +1,6 @@
+-r requirements-fase02-minilm.txt
+sentencepiece==0.2.1
+numpy==2.4.3
+scipy==1.17.1
+joblib==1.5.3
+psutil==7.2.2

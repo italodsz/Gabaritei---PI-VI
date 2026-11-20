@@ -1,0 +1,2247 @@
+{
+  "sha": "d9250a7d64eaf116e28d11d9c44907f87bda65c7",
+  "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/d9250a7d64eaf116e28d11d9c44907f87bda65c7",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83157afbc24ce8e3017de90ddf48419a7bc15ee8",
+      "size": 242,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/83157afbc24ce8e3017de90ddf48419a7bc15ee8"
+    },
+    {
+      "path": "frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73d20a7f4344dd6658fb71be6069450e5cc71c75",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/73d20a7f4344dd6658fb71be6069450e5cc71c75"
+    },
+    {
+      "path": "frontend/.claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a605b88889b3dfe49433ac4a3faae674daec14c8",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a605b88889b3dfe49433ac4a3faae674daec14c8"
+    },
+    {
+      "path": "frontend/.claude/launch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77da774d031de7fbfcfe8ae42e8ab0f1a9ea86f8",
+      "size": 185,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/77da774d031de7fbfcfe8ae42e8ab0f1a9ea86f8"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80c9e53f005491dd5d5b65a8972060c4cb2825c6",
+      "size": 564,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/80c9e53f005491dd5d5b65a8972060c4cb2825c6"
+    },
+    {
+      "path": "frontend/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0b7896ee98d9b4dfa5b8eb92852ec421c4c0d79",
+      "size": 282,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b0b7896ee98d9b4dfa5b8eb92852ec421c4c0d79"
+    },
+    {
+      "path": "frontend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e215bc4ccf138bbc38ad58ad57e92135484b3c0f",
+      "size": 1450,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e215bc4ccf138bbc38ad58ad57e92135484b3c0f"
+    },
+    {
+      "path": "frontend/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b09adaf674dd1021908661c05262944a9dc81f3",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/0b09adaf674dd1021908661c05262944a9dc81f3"
+    },
+    {
+      "path": "frontend/docs/CONTEXTO_IA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27dc78c75a31312a809e9c3826b4ae8bf9b7e7e5",
+      "size": 34063,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/27dc78c75a31312a809e9c3826b4ae8bf9b7e7e5"
+    },
+    {
+      "path": "frontend/docs/FRONTEND_PARIDADE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85a76149caa5eea05464a7cc843125c10a2fbc0",
+      "size": 9294,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c85a76149caa5eea05464a7cc843125c10a2fbc0"
+    },
+    {
+      "path": "frontend/docs/FRONTEND_PROMPT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a76e17497966abf0b493b76b9ab36619dbc4c3",
+      "size": 55650,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e7a76e17497966abf0b493b76b9ab36619dbc4c3"
+    },
+    {
+      "path": "frontend/docs/PENDENCIAS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6894fd02e1b1397c55718c3b435049fe5622832",
+      "size": 29448,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b6894fd02e1b1397c55718c3b435049fe5622832"
+    },
+    {
+      "path": "frontend/docs/PROMPT_FRONTEND_FASE2_GABARITEI.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75bd925d90a2a2aac7a351a7a22e83fd066913ef",
+      "size": 26517,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/75bd925d90a2a2aac7a351a7a22e83fd066913ef"
+    },
+    {
+      "path": "frontend/e2e",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5edfd941ac54c116584cefa71a596982c9578b37",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/5edfd941ac54c116584cefa71a596982c9578b37"
+    },
+    {
+      "path": "frontend/e2e/acessibilidade.a11y.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30bb6db2f515dcc253c907a81139ca87c9e2a0e6",
+      "size": 7382,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/30bb6db2f515dcc253c907a81139ca87c9e2a0e6"
+    },
+    {
+      "path": "frontend/e2e/capturas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71b6c001b87c301a8dc12966d2c3140a10189d67",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/71b6c001b87c301a8dc12966d2c3140a10189d67"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88cbb3715930f4eb7f3e80047d286d7229886423",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/88cbb3715930f4eb7f3e80047d286d7229886423"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-ativo-claro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4695e65dbbf0e89292ffd279e09881c4471fd0c4",
+      "size": 81393,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4695e65dbbf0e89292ffd279e09881c4471fd0c4"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-ativo-claro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c46944b85ad99acf5a1ae79a53d39bf4c442b0",
+      "size": 68618,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b0c46944b85ad99acf5a1ae79a53d39bf4c442b0"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-ativo-escuro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f58f06dc7177a0fc45ba83d05f6cbbbecbf599",
+      "size": 81811,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/19f58f06dc7177a0fc45ba83d05f6cbbbecbf599"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-ativo-escuro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1493b3484dd658c34f0936e3020052875485204",
+      "size": 69500,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e1493b3484dd658c34f0936e3020052875485204"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-novo-claro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aba3548e14afd5ecdb3b2be04a32fba8ce521eb",
+      "size": 81484,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/8aba3548e14afd5ecdb3b2be04a32fba8ce521eb"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-novo-claro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78b0c80555b67fd05992b6e64a6daa687fdedcd9",
+      "size": 70483,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/78b0c80555b67fd05992b6e64a6daa687fdedcd9"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-novo-escuro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7b291d486c4b008c073c1b67ee1895dbcd1c36",
+      "size": 82342,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2a7b291d486c4b008c073c1b67ee1895dbcd1c36"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/inicio-novo-escuro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e42b263e0f7a5a2a91e46f8065fb47b3c3aaeec2",
+      "size": 71520,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e42b263e0f7a5a2a91e46f8065fb47b3c3aaeec2"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/questoes-claro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b8fa6937b3f619e5e7f42483510a1430efe8ec",
+      "size": 298100,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/99b8fa6937b3f619e5e7f42483510a1430efe8ec"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/questoes-claro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5160256f6612608dac2b254d13e5c70ee6c7c741",
+      "size": 245655,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5160256f6612608dac2b254d13e5c70ee6c7c741"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/questoes-escuro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1571194c9b6df3d0fea8224cdd1ecf2240499284",
+      "size": 306375,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1571194c9b6df3d0fea8224cdd1ecf2240499284"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/questoes-escuro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9401ff7d2b13bc6cfd8d2db0bc9b5dade22c0bc1",
+      "size": 252339,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9401ff7d2b13bc6cfd8d2db0bc9b5dade22c0bc1"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/simulados-claro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2822ad49b37d9c201728028fc704256c0d040006",
+      "size": 99234,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2822ad49b37d9c201728028fc704256c0d040006"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/simulados-claro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db83f510cf8c1634b01bee9ba507146f0d6040c1",
+      "size": 91264,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/db83f510cf8c1634b01bee9ba507146f0d6040c1"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/simulados-escuro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e54583e0ef8429ada2f7c9ff890da6d4927f4ea",
+      "size": 101205,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5e54583e0ef8429ada2f7c9ff890da6d4927f4ea"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/simulados-escuro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5244443d09cfde0dd557e5aabc536bc985bdc35",
+      "size": 93776,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a5244443d09cfde0dd557e5aabc536bc985bdc35"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/treino-claro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fff92ec927779e260ac146345dc49bbb0dd73d5",
+      "size": 106830,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6fff92ec927779e260ac146345dc49bbb0dd73d5"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/treino-claro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54cc4b33d41774bc5df7d8dabce7a9c4a1fb59f6",
+      "size": 96820,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/54cc4b33d41774bc5df7d8dabce7a9c4a1fb59f6"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/treino-escuro-1280.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59ad376ce9c62cf48872de9007ed8a8fc6108fa",
+      "size": 107848,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c59ad376ce9c62cf48872de9007ed8a8fc6108fa"
+    },
+    {
+      "path": "frontend/e2e/capturas/etapa-v/treino-escuro-360.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd25c3959445a16972cc1be817215142f5b3098c",
+      "size": 98885,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fd25c3959445a16972cc1be817215142f5b3098c"
+    },
+    {
+      "path": "frontend/e2e/console-limpo.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65301b46a98c7884c5804a6edc493a14bf3fc517",
+      "size": 5419,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/65301b46a98c7884c5804a6edc493a14bf3fc517"
+    },
+    {
+      "path": "frontend/e2e/entrada.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ffb166750c0c2e6371135dab4c72f2b5696b77",
+      "size": 6369,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d3ffb166750c0c2e6371135dab4c72f2b5696b77"
+    },
+    {
+      "path": "frontend/e2e/navegacao.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cdbdfa0ecefc41bc60170e35e6b77bd10ef3be",
+      "size": 734,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/81cdbdfa0ecefc41bc60170e35e6b77bd10ef3be"
+    },
+    {
+      "path": "frontend/e2e/perfil.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75f1e42ed07c5bb138bbb5e5b4b230cd762b1c58",
+      "size": 2545,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/75f1e42ed07c5bb138bbb5e5b4b230cd762b1c58"
+    },
+    {
+      "path": "frontend/e2e/questoes.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a0ce779c7c418a1e04b7aac60efb51dd5acb98",
+      "size": 4133,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/55a0ce779c7c418a1e04b7aac60efb51dd5acb98"
+    },
+    {
+      "path": "frontend/e2e/simulados.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d27eed5e152034c83e902967bdd3b97666be94e",
+      "size": 5002,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1d27eed5e152034c83e902967bdd3b97666be94e"
+    },
+    {
+      "path": "frontend/e2e/treino.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5d3fbbde28f968ee8c4559768b89b8e2aa293d0",
+      "size": 5625,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a5d3fbbde28f968ee8c4559768b89b8e2aa293d0"
+    },
+    {
+      "path": "frontend/eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e726d1b4201bc8c7716d2b058279676582e8c0",
+      "size": 465,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/05e726d1b4201bc8c7716d2b058279676582e8c0"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "302a3b6f0fed97b566e08085de4710a0be7b2062",
+      "size": 423,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/302a3b6f0fed97b566e08085de4710a0be7b2062"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34dda2f72ba7e03d87b098572935b9a710f8ac06",
+      "size": 355785,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/34dda2f72ba7e03d87b098572935b9a710f8ac06"
+    },
+    {
+      "path": "frontend/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf0ca0d182506a4709b86255e2d6c50394c8eb2",
+      "size": 1898,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/adf0ca0d182506a4709b86255e2d6c50394c8eb2"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24844cfffa3a5771bf79356c60601d6d496ad73a",
+      "size": 547,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/24844cfffa3a5771bf79356c60601d6d496ad73a"
+    },
+    {
+      "path": "frontend/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a508332e3b5b1ed5d2efcefc0cc1a1859aa3595",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8a508332e3b5b1ed5d2efcefc0cc1a1859aa3595"
+    },
+    {
+      "path": "frontend/public/mock",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1096ec8be72f784d52fc2699bb1e053d509603d9",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/1096ec8be72f784d52fc2699bb1e053d509603d9"
+    },
+    {
+      "path": "frontend/public/mock/figuras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e79bde3975744304ee5098d3fb0b81bf67c7e503",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e79bde3975744304ee5098d3fb0b81bf67c7e503"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bdaad2da474284e5c60de9172fcff0942581d31",
+      "size": 635,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2bdaad2da474284e5c60de9172fcff0942581d31"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c733cbb364d3fd9f8f8d3ad38baf54c0cfea0d",
+      "size": 468,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d3c733cbb364d3fd9f8f8d3ad38baf54c0cfea0d"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081da7a2753f7ed82f9f09dd61dfb1389793f3b2",
+      "size": 659,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/081da7a2753f7ed82f9f09dd61dfb1389793f3b2"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963b73941ae52029dfd4a2e232ab8e1657eb7214",
+      "size": 553,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/963b73941ae52029dfd4a2e232ab8e1657eb7214"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d8d37e8aecb34e60df1ba18677cf26692a2ec6",
+      "size": 394,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/39d8d37e8aecb34e60df1ba18677cf26692a2ec6"
+    },
+    {
+      "path": "frontend/public/mock/figuras/demo-6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0eccf60a98ed8083f209c6147d7f16f21c3047f",
+      "size": 475,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c0eccf60a98ed8083f209c6147d7f16f21c3047f"
+    },
+    {
+      "path": "frontend/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7df4cfed942856775d3d7d148b4469c36d4ee57",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a7df4cfed942856775d3d7d148b4469c36d4ee57"
+    },
+    {
+      "path": "frontend/scripts/auditar-contraste.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699b0eb042f7589e530e6250e266f9b3bfa62500",
+      "size": 14314,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/699b0eb042f7589e530e6250e266f9b3bfa62500"
+    },
+    {
+      "path": "frontend/scripts/capturar-telas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315cb832988dbacc0d33dc49bb445e33f0dfc598",
+      "size": 3095,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/315cb832988dbacc0d33dc49bb445e33f0dfc598"
+    },
+    {
+      "path": "frontend/scripts/check-regras.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b1e371351cccfa1e37a88fc5065962c3c6b095",
+      "size": 10652,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c6b1e371351cccfa1e37a88fc5065962c3c6b095"
+    },
+    {
+      "path": "frontend/scripts/gerar-mock.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc3053fc70de3637fb429aed46c4dfd6e1e6c06b",
+      "size": 999,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dc3053fc70de3637fb429aed46c4dfd6e1e6c06b"
+    },
+    {
+      "path": "frontend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f5252e59ae780e7b1187c3387600100e69ba2dc",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/3f5252e59ae780e7b1187c3387600100e69ba2dc"
+    },
+    {
+      "path": "frontend/src/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e50a7b24e3531749d488df4de1473959e95c41bc",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e50a7b24e3531749d488df4de1473959e95c41bc"
+    },
+    {
+      "path": "frontend/src/app/(app)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39ec3e3b0e74dccdef4521039dd363caeff6b9d8",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/39ec3e3b0e74dccdef4521039dd363caeff6b9d8"
+    },
+    {
+      "path": "frontend/src/app/(app)/inicio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a42c9e4d909b0374652208f5f37586f0d641844",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/4a42c9e4d909b0374652208f5f37586f0d641844"
+    },
+    {
+      "path": "frontend/src/app/(app)/inicio/inicio-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00012a39ab5246c8645df9fe87cfc628a1d6f401",
+      "size": 11276,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/00012a39ab5246c8645df9fe87cfc628a1d6f401"
+    },
+    {
+      "path": "frontend/src/app/(app)/inicio/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e693c9e0b188ff278e9871a60306d49e85ffae6",
+      "size": 212,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5e693c9e0b188ff278e9871a60306d49e85ffae6"
+    },
+    {
+      "path": "frontend/src/app/(app)/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07feaab2bbec5fbd38461c12b01eb3e9fdfd7b4",
+      "size": 189,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c07feaab2bbec5fbd38461c12b01eb3e9fdfd7b4"
+    },
+    {
+      "path": "frontend/src/app/(app)/perfil",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a13c3fb9b9cb21f9c3050cc094655e160e1b6ca2",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a13c3fb9b9cb21f9c3050cc094655e160e1b6ca2"
+    },
+    {
+      "path": "frontend/src/app/(app)/perfil/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373cb7e55186e9c90525423a203bc739fee43c7c",
+      "size": 211,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/373cb7e55186e9c90525423a203bc739fee43c7c"
+    },
+    {
+      "path": "frontend/src/app/(app)/perfil/perfil-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3cd25ddad75e82568fd3c96717b52452901c0b2",
+      "size": 14141,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b3cd25ddad75e82568fd3c96717b52452901c0b2"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abd90a6ec0ab08de457c0be33cd0367e18d82ac7",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/abd90a6ec0ab08de457c0be33cd0367e18d82ac7"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes/[id]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d42585057eae5378a154f2cb9383600f69f96383",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/d42585057eae5378a154f2cb9383600f69f96383"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes/[id]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acf4d1c9fe1c0353ae6d2983ccbf956a888b869",
+      "size": 217,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/8acf4d1c9fe1c0353ae6d2983ccbf956a888b869"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes/[id]/questao-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d861aa52f9d4fcaee8a14ffca5b2205612f7ffb0",
+      "size": 8217,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d861aa52f9d4fcaee8a14ffca5b2205612f7ffb0"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb84b5192bcd92c1d6753cf1b5995c9940179285",
+      "size": 222,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/eb84b5192bcd92c1d6753cf1b5995c9940179285"
+    },
+    {
+      "path": "frontend/src/app/(app)/questoes/questoes-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c67c1f2daef5dc74bbb01444365b2afaa082ebf",
+      "size": 12420,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/0c67c1f2daef5dc74bbb01444365b2afaa082ebf"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5f6c2b82899c12eb50d88780300ca5c3ad9a10c",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e5f6c2b82899c12eb50d88780300ca5c3ad9a10c"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/[id]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6115da9eae370b6a9e28812066e32c7134d159b1",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/6115da9eae370b6a9e28812066e32c7134d159b1"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/[id]/questao",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5489e59fa5967d52d4caf5a062a0dbdf378e5186",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/5489e59fa5967d52d4caf5a062a0dbdf378e5186"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/[id]/questao/[n]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ca2e0ee8e0f8ea17846100b7f1c7748f25a68df",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/5ca2e0ee8e0f8ea17846100b7f1c7748f25a68df"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/[id]/questao/[n]/correcao-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6831013edb5eab81581d8f0ffca4e54c937f9688",
+      "size": 4150,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6831013edb5eab81581d8f0ffca4e54c937f9688"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/[id]/questao/[n]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0c42dd166ec8971540f7b1800d3cdbed17e5c5",
+      "size": 223,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/df0c42dd166ec8971540f7b1800d3cdbed17e5c5"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c07210d200ade4d0ed36569b7f47fcf4342cd7",
+      "size": 226,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f3c07210d200ade4d0ed36569b7f47fcf4342cd7"
+    },
+    {
+      "path": "frontend/src/app/(app)/simulados/simulados-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c6ca45515b8f372f6467c8779cb5149cfe57bdf",
+      "size": 10119,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4c6ca45515b8f372f6467c8779cb5149cfe57bdf"
+    },
+    {
+      "path": "frontend/src/app/(app)/treino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa76f6c08260d54e77cd81cfe2a1dc8dd1617a5c",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/fa76f6c08260d54e77cd81cfe2a1dc8dd1617a5c"
+    },
+    {
+      "path": "frontend/src/app/(app)/treino/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa5c524b97b9afd256fad90d0ce67c8db9d50b65",
+      "size": 222,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fa5c524b97b9afd256fad90d0ce67c8db9d50b65"
+    },
+    {
+      "path": "frontend/src/app/(app)/treino/treino-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "575019bb5cd8f97a9af399c5d2be269ef35a9489",
+      "size": 11082,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/575019bb5cd8f97a9af399c5d2be269ef35a9489"
+    },
+    {
+      "path": "frontend/src/app/(foco)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd6a3212c9f9b4011c22840a53be41ecc8647e10",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/dd6a3212c9f9b4011c22840a53be41ecc8647e10"
+    },
+    {
+      "path": "frontend/src/app/(foco)/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee50a2709cc0a23a8ad0e99738bb18fefbd9640",
+      "size": 331,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2ee50a2709cc0a23a8ad0e99738bb18fefbd9640"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0177efacd3f7750e53e5e43a4365ac4285cb1e70",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/0177efacd3f7750e53e5e43a4365ac4285cb1e70"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a54d7855196469981ca12ca5eda1c1d0553296dd",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a54d7855196469981ca12ca5eda1c1d0553296dd"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d458c3b9a841343a9b2d9791359b09a01c77ba4",
+      "size": 221,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5d458c3b9a841343a9b2d9791359b09a01c77ba4"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]/resultado",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ff03745bed8f10963b3413f4bbe94828dbd9816",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8ff03745bed8f10963b3413f4bbe94828dbd9816"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]/resultado/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39bfa015f9e1d5dbf4a1a6f39187987f365e2661",
+      "size": 238,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/39bfa015f9e1d5dbf4a1a6f39187987f365e2661"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]/resultado/resultado-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc237224d9599ca9cb9b81bedf51a3e6bc17cde1",
+      "size": 5948,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fc237224d9599ca9cb9b81bedf51a3e6bc17cde1"
+    },
+    {
+      "path": "frontend/src/app/(foco)/simulados/[id]/simulado-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016f3027e8cc5f007b32b57ca5aea262037a51f5",
+      "size": 9139,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/016f3027e8cc5f007b32b57ca5aea262037a51f5"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aae8d50b69f1f50b89a987beb5e88bb8defaea03",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/aae8d50b69f1f50b89a987beb5e88bb8defaea03"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d51774170b5b957d89e8cb26a2074bb54f94cba",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/6d51774170b5b957d89e8cb26a2074bb54f94cba"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2f96fa5a4754aa8170e162ccd962fa6d941a69",
+      "size": 222,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ea2f96fa5a4754aa8170e162ccd962fa6d941a69"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]/resumo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8516cc9c1402cabf5cc537e2ab4950ba347ae29a",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8516cc9c1402cabf5cc537e2ab4950ba347ae29a"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]/resumo/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77e243f899095d9509d27c9b94c2b6fb9eae2b6b",
+      "size": 223,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/77e243f899095d9509d27c9b94c2b6fb9eae2b6b"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]/resumo/resumo-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7357b945c33121d012013e1de4d43399f4e5fd",
+      "size": 6357,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fa7357b945c33121d012013e1de4d43399f4e5fd"
+    },
+    {
+      "path": "frontend/src/app/(foco)/treino/[sessaoId]/sessao-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fe467e20debb3e94155c9d46d0b2a98ae6474fc",
+      "size": 11781,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6fe467e20debb3e94155c9d46d0b2a98ae6474fc"
+    },
+    {
+      "path": "frontend/src/app/(publico)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e437a699349658ee304fd9337c572c1adcbb547",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8e437a699349658ee304fd9337c572c1adcbb547"
+    },
+    {
+      "path": "frontend/src/app/(publico)/cadastrar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ce7175f309280be45e76580e4d96d81ee6648d5",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/9ce7175f309280be45e76580e4d96d81ee6648d5"
+    },
+    {
+      "path": "frontend/src/app/(publico)/cadastrar/cadastrar-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827ca42dfe2a34c0bdd569477d13b697c9f8a13e",
+      "size": 7324,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/827ca42dfe2a34c0bdd569477d13b697c9f8a13e"
+    },
+    {
+      "path": "frontend/src/app/(publico)/cadastrar/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07431a7ed9c44ad8a99bc45e50e5205a56ca53c1",
+      "size": 228,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/07431a7ed9c44ad8a99bc45e50e5205a56ca53c1"
+    },
+    {
+      "path": "frontend/src/app/(publico)/entrar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a4f8c1d6d0e15c3c72f486c841b5814a262ff2d",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8a4f8c1d6d0e15c3c72f486c841b5814a262ff2d"
+    },
+    {
+      "path": "frontend/src/app/(publico)/entrar/entrar-client.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bf7868392623638d05dbecda76dab9de0cc25d2",
+      "size": 5083,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/7bf7868392623638d05dbecda76dab9de0cc25d2"
+    },
+    {
+      "path": "frontend/src/app/(publico)/entrar/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "053844a67cbe5e276c6bfe411a8f462f971b29a5",
+      "size": 211,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/053844a67cbe5e276c6bfe411a8f462f971b29a5"
+    },
+    {
+      "path": "frontend/src/app/(publico)/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a5c6ce4efcf9565e0e76e15f3ca28e7d91b015",
+      "size": 200,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/23a5c6ce4efcf9565e0e76e15f3ca28e7d91b015"
+    },
+    {
+      "path": "frontend/src/app/(publico)/privacidade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7e098d275f5ad79076d27036bb4ab026c0e24f0",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/c7e098d275f5ad79076d27036bb4ab026c0e24f0"
+    },
+    {
+      "path": "frontend/src/app/(publico)/privacidade/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1ed0d53c60e25d7cedbc14690e84bc60de388f",
+      "size": 1099,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9a1ed0d53c60e25d7cedbc14690e84bc60de388f"
+    },
+    {
+      "path": "frontend/src/app/(publico)/termos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55e3843a0177a3c407e7f30485cabaa894094920",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/55e3843a0177a3c407e7f30485cabaa894094920"
+    },
+    {
+      "path": "frontend/src/app/(publico)/termos/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4cb7dcb77ebc21acabfaa9aa65e53b8cb92b899",
+      "size": 1117,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a4cb7dcb77ebc21acabfaa9aa65e53b8cb92b899"
+    },
+    {
+      "path": "frontend/src/app/dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00a5ba1efa764fb5087954337049680d1fa657f7",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/00a5ba1efa764fb5087954337049680d1fa657f7"
+    },
+    {
+      "path": "frontend/src/app/dev/componentes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc436b3f32af678bd622b1a5a097f9263c8dad89",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/bc436b3f32af678bd622b1a5a097f9263c8dad89"
+    },
+    {
+      "path": "frontend/src/app/dev/componentes/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddf842f14cbad200175f70c0eb76075d6b57e62",
+      "size": 14662,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dddf842f14cbad200175f70c0eb76075d6b57e62"
+    },
+    {
+      "path": "frontend/src/app/error.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81557b02a7fce35d63556c115023614b652f5839",
+      "size": 1337,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/81557b02a7fce35d63556c115023614b652f5839"
+    },
+    {
+      "path": "frontend/src/app/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af98450595e8b8efd9e505cddc5ed705b665a4d8",
+      "size": 15086,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/af98450595e8b8efd9e505cddc5ed705b665a4d8"
+    },
+    {
+      "path": "frontend/src/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e50a394abbe86d0fdc49da96fef78e9b495886d",
+      "size": 1901,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5e50a394abbe86d0fdc49da96fef78e9b495886d"
+    },
+    {
+      "path": "frontend/src/app/not-found.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afce227a99e584b65a1ad181dfc30b0bc7550882",
+      "size": 862,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/afce227a99e584b65a1ad181dfc30b0bc7550882"
+    },
+    {
+      "path": "frontend/src/app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddfc3e598555269b1677af9b8127557a84e72c9a",
+      "size": 516,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ddfc3e598555269b1677af9b8127557a84e72c9a"
+    },
+    {
+      "path": "frontend/src/app/providers.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba358c8ba1a6ecd9ee04cd8732999a2fb89ec893",
+      "size": 934,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ba358c8ba1a6ecd9ee04cd8732999a2fb89ec893"
+    },
+    {
+      "path": "frontend/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d929542a02d2dc894620697618902f3099ce0d30",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/d929542a02d2dc894620697618902f3099ce0d30"
+    },
+    {
+      "path": "frontend/src/components/dominio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e174a3e80b2c1fc4d4263479aaab7bf6783ebda",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/8e174a3e80b2c1fc4d4263479aaab7bf6783ebda"
+    },
+    {
+      "path": "frontend/src/components/dominio/alternativas-radio.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d61682eaf89f0bc2f74ee9fbe54f2c8d2f935d8",
+      "size": 4174,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1d61682eaf89f0bc2f74ee9fbe54f2c8d2f935d8"
+    },
+    {
+      "path": "frontend/src/components/dominio/area-tag.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5959dc9d632c23081bc5c73566eab83b1762b662",
+      "size": 912,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5959dc9d632c23081bc5c73566eab83b1762b662"
+    },
+    {
+      "path": "frontend/src/components/dominio/area-tile.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82717cdb782b1f545c2bdd0ebdf33d4b7c8cf6c4",
+      "size": 3030,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/82717cdb782b1f545c2bdd0ebdf33d4b7c8cf6c4"
+    },
+    {
+      "path": "frontend/src/components/dominio/atalhos-teclado-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89ee1d2496961efcc01d47349667e6f7c5e38c7b",
+      "size": 1006,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/89ee1d2496961efcc01d47349667e6f7c5e38c7b"
+    },
+    {
+      "path": "frontend/src/components/dominio/cartao-resposta-decorativo.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b24c71113fd17a7cb045f93b48aa8b8e68fac3a",
+      "size": 1336,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6b24c71113fd17a7cb045f93b48aa8b8e68fac3a"
+    },
+    {
+      "path": "frontend/src/components/dominio/cartao-resposta-mini.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e571bbc0b396e2d61ea8935ba5c88b360dab01a",
+      "size": 4435,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1e571bbc0b396e2d61ea8935ba5c88b360dab01a"
+    },
+    {
+      "path": "frontend/src/components/dominio/cartao-resposta.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2c187ec3e25a55f92115c2cd2c99c41dc63194",
+      "size": 6461,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/8e2c187ec3e25a55f92115c2cd2c99c41dc63194"
+    },
+    {
+      "path": "frontend/src/components/dominio/combo-meter.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420f637d6d81fd21bd4e41679be68e3470e52061",
+      "size": 3265,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/420f637d6d81fd21bd4e41679be68e3470e52061"
+    },
+    {
+      "path": "frontend/src/components/dominio/criterio-recomendacao.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dd63f62895f50a931f2a6ff2c4f5a8b1649013",
+      "size": 1260,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/71dd63f62895f50a931f2a6ff2c4f5a8b1649013"
+    },
+    {
+      "path": "frontend/src/components/dominio/demo-banner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dafe65af1be5f4ca4a898d030c085e9b7c8264b1",
+      "size": 718,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dafe65af1be5f4ca4a898d030c085e9b7c8264b1"
+    },
+    {
+      "path": "frontend/src/components/dominio/demo-chip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3a1d6d566de029a5ecebf0fedf0d1fb274f973",
+      "size": 733,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/3e3a1d6d566de029a5ecebf0fedf0d1fb274f973"
+    },
+    {
+      "path": "frontend/src/components/dominio/enunciado.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b801eeb757846ffd89b1ac742066381a40161e2",
+      "size": 2928,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9b801eeb757846ffd89b1ac742066381a40161e2"
+    },
+    {
+      "path": "frontend/src/components/dominio/envio.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7a3a974ffe3cd749ad99884a9b8dd751d9e181",
+      "size": 1268,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4b7a3a974ffe3cd749ad99884a9b8dd751d9e181"
+    },
+    {
+      "path": "frontend/src/components/dominio/envio.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c362b27088db757277aae50c524f2d5c5f09ea",
+      "size": 1392,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d6c362b27088db757277aae50c524f2d5c5f09ea"
+    },
+    {
+      "path": "frontend/src/components/dominio/faixa-chip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc98227843fe8a169df83dc7e4b3b40026f99ed6",
+      "size": 1018,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/bc98227843fe8a169df83dc7e4b3b40026f99ed6"
+    },
+    {
+      "path": "frontend/src/components/dominio/feedback-correcao.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d971c65c8cea49cd8a5583da9f39ec52b1181bbc",
+      "size": 1421,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d971c65c8cea49cd8a5583da9f39ec52b1181bbc"
+    },
+    {
+      "path": "frontend/src/components/dominio/foguinho-badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ced041db50528bfc7746f607d66f4c8f68d46c",
+      "size": 2637,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e7ced041db50528bfc7746f607d66f4c8f68d46c"
+    },
+    {
+      "path": "frontend/src/components/dominio/question-view.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75018e7fa5fedb5cc5cdf959a0c0aa82d94e548",
+      "size": 2256,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e75018e7fa5fedb5cc5cdf959a0c0aa82d94e548"
+    },
+    {
+      "path": "frontend/src/components/dominio/scenario-switcher.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "314a209f989028d59a036b9a9d9116359e791374",
+      "size": 1687,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/314a209f989028d59a036b9a9d9116359e791374"
+    },
+    {
+      "path": "frontend/src/components/dominio/status-chip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec3259897a554e17f509d66711bace6b3838dc4f",
+      "size": 1192,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ec3259897a554e17f509d66711bace6b3838dc4f"
+    },
+    {
+      "path": "frontend/src/components/dominio/timer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94fb13e870776f87a0fd15ed6434fa3ad5f7f470",
+      "size": 2125,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/94fb13e870776f87a0fd15ed6434fa3ad5f7f470"
+    },
+    {
+      "path": "frontend/src/components/dominio/week-strip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9f400867272348394e0a703c245fa0ca472a2e",
+      "size": 1694,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ec9f400867272348394e0a703c245fa0ca472a2e"
+    },
+    {
+      "path": "frontend/src/components/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2cf631ac250da7d49712317c663840f8fa3947c",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/b2cf631ac250da7d49712317c663840f8fa3947c"
+    },
+    {
+      "path": "frontend/src/components/layout/app-shell.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b28d70576481a1ee56a0bbfa62724b32cb8c60",
+      "size": 1378,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d9b28d70576481a1ee56a0bbfa62724b32cb8c60"
+    },
+    {
+      "path": "frontend/src/components/layout/bottom-nav.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12baf1d53923ed6e5cf8588dde72b77e0665eda",
+      "size": 1350,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b12baf1d53923ed6e5cf8588dde72b77e0665eda"
+    },
+    {
+      "path": "frontend/src/components/layout/foco-no-h1.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e502eb7cae7fd4ba3b6ef0f76dea7fba7772f58b",
+      "size": 620,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e502eb7cae7fd4ba3b6ef0f76dea7fba7772f58b"
+    },
+    {
+      "path": "frontend/src/components/layout/focus-shell.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc24a1ba6c6adc26c8254213b1bdf1046e2926a2",
+      "size": 1955,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/cc24a1ba6c6adc26c8254213b1bdf1046e2926a2"
+    },
+    {
+      "path": "frontend/src/components/layout/nav-itens.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3afd43e8d7ed9f3fb5fda2c5a1bd8582d197fa7d",
+      "size": 549,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/3afd43e8d7ed9f3fb5fda2c5a1bd8582d197fa7d"
+    },
+    {
+      "path": "frontend/src/components/layout/page-header.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5e156e416ebafa96cdc4c0313687d67094a5aa",
+      "size": 593,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/eb5e156e416ebafa96cdc4c0313687d67094a5aa"
+    },
+    {
+      "path": "frontend/src/components/layout/public-shell.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1e5e3ce8478389e5ba494b7e1f811201e33feba",
+      "size": 993,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d1e5e3ce8478389e5ba494b7e1f811201e33feba"
+    },
+    {
+      "path": "frontend/src/components/layout/secao-legal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd92144002625485b1f3735c9baefeee91ffeb7",
+      "size": 494,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/7fd92144002625485b1f3735c9baefeee91ffeb7"
+    },
+    {
+      "path": "frontend/src/components/layout/sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ef09dcfef7f6178cb35d9560cc2e8490158796",
+      "size": 2992,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a4ef09dcfef7f6178cb35d9560cc2e8490158796"
+    },
+    {
+      "path": "frontend/src/components/layout/skip-link.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f4093bc9fad5ef431cfbd7e29906d46387bac7",
+      "size": 253,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b2f4093bc9fad5ef431cfbd7e29906d46387bac7"
+    },
+    {
+      "path": "frontend/src/components/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "925f0e443fcfa4c837ac37774f4b2b1224ba904e",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/925f0e443fcfa4c837ac37774f4b2b1224ba904e"
+    },
+    {
+      "path": "frontend/src/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c167e5573590f5f93e020c1739999d2348849291",
+      "size": 1919,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c167e5573590f5f93e020c1739999d2348849291"
+    },
+    {
+      "path": "frontend/src/components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8961222320ac597c1248dbfa36e14e3c9f8419",
+      "size": 1190,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4f8961222320ac597c1248dbfa36e14e3c9f8419"
+    },
+    {
+      "path": "frontend/src/components/ui/combobox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab5305df7193dc7e9952974d2c9a077af1ac80c1",
+      "size": 4791,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ab5305df7193dc7e9952974d2c9a077af1ac80c1"
+    },
+    {
+      "path": "frontend/src/components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbe88d06198b7e521ba58deb001851667b24f07",
+      "size": 2013,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1bbe88d06198b7e521ba58deb001851667b24f07"
+    },
+    {
+      "path": "frontend/src/components/ui/disclosure.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aa497357bba1401ac92e11ebb7ed9ffc2e9d81b",
+      "size": 1297,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6aa497357bba1401ac92e11ebb7ed9ffc2e9d81b"
+    },
+    {
+      "path": "frontend/src/components/ui/empty-state.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f20bcc9b193342acbbd215df5b39974f1b6093",
+      "size": 815,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/71f20bcc9b193342acbbd215df5b39974f1b6093"
+    },
+    {
+      "path": "frontend/src/components/ui/error-state.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c186e939e8c54f41582f723063c3c9d569a24166",
+      "size": 1189,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c186e939e8c54f41582f723063c3c9d569a24166"
+    },
+    {
+      "path": "frontend/src/components/ui/field.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd8a666d2a4550062fcf882113222150c1a55105",
+      "size": 1502,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fd8a666d2a4550062fcf882113222150c1a55105"
+    },
+    {
+      "path": "frontend/src/components/ui/form-error-summary.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d4005f8c38909e870472a851028796ccfc9538",
+      "size": 1533,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/98d4005f8c38909e870472a851028796ccfc9538"
+    },
+    {
+      "path": "frontend/src/components/ui/icon-button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "998d5b0920063980d58f7c069359d4bbfaecca39",
+      "size": 1275,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/998d5b0920063980d58f7c069359d4bbfaecca39"
+    },
+    {
+      "path": "frontend/src/components/ui/link.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f0e1c134d1f186339e762f91793ba9af8b655d",
+      "size": 450,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/19f0e1c134d1f186339e762f91793ba9af8b655d"
+    },
+    {
+      "path": "frontend/src/components/ui/pagination.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913a5aefb9b903a4c6f191ccb63475bd1baf0334",
+      "size": 2326,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/913a5aefb9b903a4c6f191ccb63475bd1baf0334"
+    },
+    {
+      "path": "frontend/src/components/ui/password-field.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d2c3e04df782b46413410c351ef886455c1b293",
+      "size": 2211,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5d2c3e04df782b46413410c351ef886455c1b293"
+    },
+    {
+      "path": "frontend/src/components/ui/progress-bar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757d40dda4fa69384d3f60f66cc61e6c3f64e556",
+      "size": 1067,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/757d40dda4fa69384d3f60f66cc61e6c3f64e556"
+    },
+    {
+      "path": "frontend/src/components/ui/progress-to-minimum.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757d571edeac84137908d33cdcb7c431698a6674",
+      "size": 867,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/757d571edeac84137908d33cdcb7c431698a6674"
+    },
+    {
+      "path": "frontend/src/components/ui/radio-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bea9b56c25927209ee97f63a7cb7f5de89b272c",
+      "size": 2474,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9bea9b56c25927209ee97f63a7cb7f5de89b272c"
+    },
+    {
+      "path": "frontend/src/components/ui/removable-chip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c1f71d4e11d802e1662988469d98c7f9d2ed53",
+      "size": 923,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e8c1f71d4e11d802e1662988469d98c7f9d2ed53"
+    },
+    {
+      "path": "frontend/src/components/ui/segmented.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285a0a05d299a32bc3b168401d6688f39733220a",
+      "size": 1314,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/285a0a05d299a32bc3b168401d6688f39733220a"
+    },
+    {
+      "path": "frontend/src/components/ui/sheet.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e787e822e617d5315956aafef4601450acd9b8c1",
+      "size": 2210,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e787e822e617d5315956aafef4601450acd9b8c1"
+    },
+    {
+      "path": "frontend/src/components/ui/skeleton.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51b64926cbe1e0f1b221fe69be2ebe2f9d380c1",
+      "size": 351,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d51b64926cbe1e0f1b221fe69be2ebe2f9d380c1"
+    },
+    {
+      "path": "frontend/src/components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c4a158ee3e3c4e030497d2d0619bc936a7761a",
+      "size": 1407,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/20c4a158ee3e3c4e030497d2d0619bc936a7761a"
+    },
+    {
+      "path": "frontend/src/components/ui/table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6898667bfc5047eb63ecb6d74003ccb2d4df8128",
+      "size": 1455,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6898667bfc5047eb63ecb6d74003ccb2d4df8128"
+    },
+    {
+      "path": "frontend/src/components/ui/toast.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea51a53b8bbe79a11ca572f39a7f8f591ce87bf",
+      "size": 2207,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/aea51a53b8bbe79a11ca572f39a7f8f591ce87bf"
+    },
+    {
+      "path": "frontend/src/components/ui/tooltip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d998f82245161aca3636704ebabb4e62371fb339",
+      "size": 1043,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d998f82245161aca3636704ebabb4e62371fb339"
+    },
+    {
+      "path": "frontend/src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e02f28ab5dcd961f541e3dbccaccc1e1caba2a98",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e02f28ab5dcd961f541e3dbccaccc1e1caba2a98"
+    },
+    {
+      "path": "frontend/src/lib/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a30566da9af9366605e48b217f0d22582cac44c1",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a30566da9af9366605e48b217f0d22582cac44c1"
+    },
+    {
+      "path": "frontend/src/lib/api/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a67f76fea2a34dbdb8525c285f117611ce07b3",
+      "size": 3369,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/18a67f76fea2a34dbdb8525c285f117611ce07b3"
+    },
+    {
+      "path": "frontend/src/lib/api/errors.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bac22f7f9dfc158b085d8dd8e22478aebce1576",
+      "size": 1310,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2bac22f7f9dfc158b085d8dd8e22478aebce1576"
+    },
+    {
+      "path": "frontend/src/lib/api/http",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ada08c22b4e08dfd451c57f867b73232f6cb8d39",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/ada08c22b4e08dfd451c57f867b73232f6cb8d39"
+    },
+    {
+      "path": "frontend/src/lib/api/http/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1471a14c7ec78169fc431f696ab10fe17a9f76a",
+      "size": 1867,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e1471a14c7ec78169fc431f696ab10fe17a9f76a"
+    },
+    {
+      "path": "frontend/src/lib/api/mock",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3fedcc64bb829e28b17e7020badd9fbc5a209f4",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/a3fedcc64bb829e28b17e7020badd9fbc5a209f4"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/cenarios.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf84eca5414cbda43e909d6569fb6a174453272e",
+      "size": 7011,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/bf84eca5414cbda43e909d6569fb6a174453272e"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4deb1291df4e2df0d1c38bbac0e3b4fb51eccc",
+      "size": 24452,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5c4deb1291df4e2df0d1c38bbac0e3b4fb51eccc"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/dados.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc16d67de4a99d4d3ed9530cd70588a7c131840",
+      "size": 9550,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9bc16d67de4a99d4d3ed9530cd70588a7c131840"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/engine.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9883cab53629ae4c7120c3b0afe2cdbfab81567",
+      "size": 3251,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d9883cab53629ae4c7120c3b0afe2cdbfab81567"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/engine.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060677ee06d1a5c37eabd3b56050bb94ee9e989f",
+      "size": 14225,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/060677ee06d1a5c37eabd3b56050bb94ee9e989f"
+    },
+    {
+      "path": "frontend/src/lib/api/mock/estado.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6bc57b8a199951b49eb9a664b40d9a045923b0",
+      "size": 3579,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fb6bc57b8a199951b49eb9a664b40d9a045923b0"
+    },
+    {
+      "path": "frontend/src/lib/api/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfb2ce273bde93cb08a792691e31b3b0d5bc1103",
+      "size": 8264,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/cfb2ce273bde93cb08a792691e31b3b0d5bc1103"
+    },
+    {
+      "path": "frontend/src/lib/cn.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09965f9f8a3b9fccd95461acd202dc302847c808",
+      "size": 126,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/09965f9f8a3b9fccd95461acd202dc302847c808"
+    },
+    {
+      "path": "frontend/src/lib/format.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265428dace23a3b8fc683024196a25e70b22c2ce",
+      "size": 2381,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/265428dace23a3b8fc683024196a25e70b22c2ce"
+    },
+    {
+      "path": "frontend/src/lib/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7a4de35c8cac30004f2cb219b01e948b84ae7c0",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e7a4de35c8cac30004f2cb219b01e948b84ae7c0"
+    },
+    {
+      "path": "frontend/src/lib/hooks/use-tema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88114435b05edf7c7f32640df192ce8fca5394de",
+      "size": 2244,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/88114435b05edf7c7f32640df192ce8fca5394de"
+    },
+    {
+      "path": "frontend/src/lib/questoes-filtros.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e714da64bcdb7ea6eb6b46d86964c3033d77735b",
+      "size": 4225,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e714da64bcdb7ea6eb6b46d86964c3033d77735b"
+    },
+    {
+      "path": "frontend/src/lib/rota-segura.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca250fbc63f634b6a35f330d5674d29cf1cce7d",
+      "size": 386,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6ca250fbc63f634b6a35f330d5674d29cf1cce7d"
+    },
+    {
+      "path": "frontend/src/lib/sessao-ativa.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53929b169f57fb3cbfe5e73f972342c1d41fcca",
+      "size": 1906,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d53929b169f57fb3cbfe5e73f972342c1d41fcca"
+    },
+    {
+      "path": "frontend/src/proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611c5cd6a043f8dea39969dbe5135b35d3baf1f9",
+      "size": 1202,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/611c5cd6a043f8dea39969dbe5135b35d3baf1f9"
+    },
+    {
+      "path": "frontend/src/styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "020cf90375fb640baece7fae18c7f404be08971e",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/020cf90375fb640baece7fae18c7f404be08971e"
+    },
+    {
+      "path": "frontend/src/styles/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2f622902f2281995d2dfc06a4f8ddae6c67919",
+      "size": 5290,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/aa2f622902f2281995d2dfc06a4f8ddae6c67919"
+    },
+    {
+      "path": "frontend/src/styles/tokens.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af8c7c58dfd4178af06eca7740834c36a5df3b40",
+      "size": 3655,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/af8c7c58dfd4178af06eca7740834c36a5df3b40"
+    },
+    {
+      "path": "frontend/src/test-setup.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26219327dabf43160a2219f59ad4ff62e31dd21",
+      "size": 165,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e26219327dabf43160a2219f59ad4ff62e31dd21"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9c65d3e0676a0169374d827f7abb97497789ef",
+      "size": 670,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/cf9c65d3e0676a0169374d827f7abb97497789ef"
+    },
+    {
+      "path": "frontend/vitest.config.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e3f4dcfa0f35728bddebd57ae00988600497be",
+      "size": 484,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/57e3f4dcfa0f35728bddebd57ae00988600497be"
+    },
+    {
+      "path": "recomendador",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c16ebb50f74c2a750fbe74339bab69573dbc464a",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/c16ebb50f74c2a750fbe74339bab69573dbc464a"
+    },
+    {
+      "path": "recomendador/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602dd7d3c6703a78408a8138edfe53ba220226a0",
+      "size": 584,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/602dd7d3c6703a78408a8138edfe53ba220226a0"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "139bfe1f39f371cefe988316824e1a9441d61110",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/139bfe1f39f371cefe988316824e1a9441d61110"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9f85e6d8f4a97a2a42a99c49d7c5e7bc2377d6",
+      "size": 71,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/bd9f85e6d8f4a97a2a42a99c49d7c5e7bc2377d6"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/DECISAO_FINAL.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b640a058ea9293f358a8fe883c8cfbdeec112e",
+      "size": 2770,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/98b640a058ea9293f358a8fe883c8cfbdeec112e"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/ESTADO_ATUAL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c383b1a62c099cea0edd39271cca7fb8ddbcda6",
+      "size": 4602,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9c383b1a62c099cea0edd39271cca7fb8ddbcda6"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58a116d3b1f78613882a9a4948c5af72edcb16ec",
+      "size": 4042,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/58a116d3b1f78613882a9a4948c5af72edcb16ec"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d28dfb17d15665a8fe9d2e46766da9adc0518a70",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/d28dfb17d15665a8fe9d2e46766da9adc0518a70"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/base/config_baseline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cc6541064c70c8e887ff4c54764b336ba42194a",
+      "size": 2797,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6cc6541064c70c8e887ff4c54764b336ba42194a"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/base/ids_elegiveis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b8538aeb65803965c72b113daa411cb58db485",
+      "size": 72263,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f4b8538aeb65803965c72b113daa411cb58db485"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/base/pares_desenvolvimento_compativeis.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6f32ae4a100e619ea96dbca351da19a5c664eb",
+      "size": 50935,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ff6f32ae4a100e619ea96dbca351da19a5c664eb"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/base/questions.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49cfbaf4e00955357a6644489fb4f853473a9c70",
+      "size": 9755975,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/49cfbaf4e00955357a6644489fb4f853473a9c70"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/catalogo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f16a98d19ffb1194376425672038d72ea10fb5e",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/1f16a98d19ffb1194376425672038d72ea10fb5e"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/catalogo/LEIA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c5790607a6562b86a38f1578946d1eb40bce288",
+      "size": 1213,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5c5790607a6562b86a38f1578946d1eb40bce288"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_rrf_qwen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc16933602516644884a586957b838c666e42942",
+      "size": 3376154,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dc16933602516644884a586957b838c666e42942"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/comparar_modelos.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c7b963b5e338967d6bdd63232f6e1c5b970c92",
+      "size": 2620,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c6c7b963b5e338967d6bdd63232f6e1c5b970c92"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/gerar_vetores_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c4490e42484b4c7205a4aa579fa4636374d089",
+      "size": 4191,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/26c4490e42484b4c7205a4aa579fa4636374d089"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22b0e42d8af7aad991ff7d80dafc8e6594706ae0",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/22b0e42d8af7aad991ff7d80dafc8e6594706ae0"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc8006431e346e4e49e1adbcde59833b54e2d23",
+      "size": 939,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/8cc8006431e346e4e49e1adbcde59833b54e2d23"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/documentos.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7173755cb00f0fbd17d6a50daab9f17c4ae1aac",
+      "size": 241925,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f7173755cb00f0fbd17d6a50daab9f17c4ae1aac"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/minilm.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805c982c5cf6185b808b51e6d06f4262e7a0606c",
+      "size": 3168896,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/805c982c5cf6185b808b51e6d06f4262e7a0606c"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/qwen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "917d0b5551a65550fe2efef7f3bf2e9031b12ef9",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/917d0b5551a65550fe2efef7f3bf2e9031b12ef9"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/qwen/Qwen3-Embedding-8B-4bit__conceito.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd34f7664a46ec3de83170d2d2b355408813f4eb",
+      "size": 33800320,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dd34f7664a46ec3de83170d2d2b355408813f4eb"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/qwen/Qwen3-Embedding-8B-4bit__config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2ca971b0551f7f8b4f32a5facb9a695ead3a712",
+      "size": 671,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f2ca971b0551f7f8b4f32a5facb9a695ead3a712"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/qwen/ids.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fed55a994d80b16ece6a9e25cbdf74902925ce1",
+      "size": 63953,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2fed55a994d80b16ece6a9e25cbdf74902925ce1"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/tfidf.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eebc65957ae9a4c7f32bb45941d39b6cb338ff00",
+      "size": 491421,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/eebc65957ae9a4c7f32bb45941d39b6cb338ff00"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/indice/tfidf.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ea2be19f4a7959b46afbb14a04c6bf19d9b6794",
+      "size": 1579219,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6ea2be19f4a7959b46afbb14a04c6bf19d9b6794"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/pipeline_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56848f0469c898d948ba74e5c1bc3168ef62191f",
+      "size": 21245,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/56848f0469c898d948ba74e5c1bc3168ef62191f"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/recomendador.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e6c569fbd2230b040ed2e2a86ce07467ee41b0",
+      "size": 10235,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/26e6c569fbd2230b040ed2e2a86ce07467ee41b0"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/reranquear_referencias.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0a0144dbd7618e1f6032789fe78640d8b47d55",
+      "size": 3471,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/0c0a0144dbd7618e1f6032789fe78640d8b47d55"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8a35e8f90a855a953c1d40eb0fd4ccb551430f1",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/e8a35e8f90a855a953c1d40eb0fd4ccb551430f1"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/Avaliacao_Cega_Gabaritei.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a70ffd3b7739503fc7b4866cca22296d47b2f1",
+      "size": 24660,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/39a70ffd3b7739503fc7b4866cca22296d47b2f1"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/Avaliacao_Cega_Gabaritei_1_preenchida.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936f73f3774cc544b944286a468534f737480b5b",
+      "size": 24240,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/936f73f3774cc544b944286a468534f737480b5b"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao2_fontes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a10e5b3acbc06808f5131f16e19560d656e50ce",
+      "size": 2634,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9a10e5b3acbc06808f5131f16e19560d656e50ce"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa6a6b117250675e242356ce6a542a1c29943f67",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/aa6a6b117250675e242356ce6a542a1c29943f67"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/Avaliacao_4_com_notas_Teles_e_Claude.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a48d97b0c0bf8529002fffb913dfbcf508e19d",
+      "size": 34367,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b7a48d97b0c0bf8529002fffb913dfbcf508e19d"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/Avaliacao_Cega_4_v2_Gabaritei.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c9e6bbe60f67e42b50fce8d383abcb043180b6",
+      "size": 32392,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c8c9e6bbe60f67e42b50fce8d383abcb043180b6"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/chave_NAO_ABRIR.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dff267303c48539c14739ca51a16509d8d269820",
+      "size": 7826,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dff267303c48539c14739ca51a16509d8d269820"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/chave_sha256.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01b74d64b7f8a391b0331f7441242a974dd188c",
+      "size": 87,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e01b74d64b7f8a391b0331f7441242a974dd188c"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/ficha.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c15ad4f89c50c91712eca7246254ef7181243a",
+      "size": 3375,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/b8c15ad4f89c50c91712eca7246254ef7181243a"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/preparar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c468dcb24ada25809076d91091da1da33ae3dcb5",
+      "size": 3564,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/c468dcb24ada25809076d91091da1da33ae3dcb5"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/protocolo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e89758fee38d39ad25e9e14b38f6d3520b7f866",
+      "size": 2269,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5e89758fee38d39ad25e9e14b38f6d3520b7f866"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/resultado.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721eb75f2b0242f2b608ec82875f70713691f630",
+      "size": 10030,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/721eb75f2b0242f2b608ec82875f70713691f630"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/resultados_reranker_referencias.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d887f6c98e34f812c582b9b66b1d9802852ac862",
+      "size": 20356,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d887f6c98e34f812c582b9b66b1d9802852ac862"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f49c60923a79ef8d8751dfc35d2f7a2c56dbb95a",
+      "size": 5313,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f49c60923a79ef8d8751dfc35d2f7a2c56dbb95a"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "604e80c04b487877424827325f2f730e71b8129b",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/604e80c04b487877424827325f2f730e71b8129b"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/PROMPT_AVALIACAO_0_1_2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a68e9aac3f81fd41d0d8ef2e163f5b045bfb3b14",
+      "size": 10319,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a68e9aac3f81fd41d0d8ef2e163f5b045bfb3b14"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/RESULTADO.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e249a99669c496830ab1a1719cac83e8c09655d9",
+      "size": 895,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e249a99669c496830ab1a1719cac83e8c09655d9"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/chave_NAO_ABRIR.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3bd1b7ae5e3bd69ab4118675704e5fe6f4489c",
+      "size": 44423,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/0f3bd1b7ae5e3bd69ab4118675704e5fe6f4489c"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/chave_reranker_NAO_ABRIR.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7820c84585aee340158c38387cd70247a5b285a",
+      "size": 29844,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a7820c84585aee340158c38387cd70247a5b285a"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/pares_avaliados_agente.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58c8bfb5413c2c58496bfe2abf5f03ef11954541",
+      "size": 627072,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/58c8bfb5413c2c58496bfe2abf5f03ef11954541"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/pares_reranker_avaliados_agente.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3031952efd58590ec5be3fd98d6fd93ca6a4f81e",
+      "size": 89198,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/3031952efd58590ec5be3fd98d6fd93ca6a4f81e"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/preparar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c31a43f9e43aa5216c22e45ee49cc1021f5833a",
+      "size": 2838,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/3c31a43f9e43aa5216c22e45ee49cc1021f5833a"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_escala/protocolo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca12b6172f4936f09cb6d7dd79c2d234c837852",
+      "size": 1917,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/3ca12b6172f4936f09cb6d7dd79c2d234c837852"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/etapa1_reordenacao_pedagogica.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a88ead2f68f80261fe7476021597a3880b0637",
+      "size": 1300,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/09a88ead2f68f80261fe7476021597a3880b0637"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/etapa1_reordenacao_pedagogica.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9982fa9bd289d903d2666b2e6719fb87eeb503",
+      "size": 1160,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6c9982fa9bd289d903d2666b2e6719fb87eeb503"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/etapa1_reordenacao_script_referencia.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a2d31cac80e10bb6c9e357dfe380359b4285c28",
+      "size": 2771,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/9a2d31cac80e10bb6c9e357dfe380359b4285c28"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/etapa2_melhorias.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b5def1fd9bdb475933ef2cb1b645e1ed7ee29b",
+      "size": 874,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/81b5def1fd9bdb475933ef2cb1b645e1ed7ee29b"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/etapa2_script_referencia.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d37ad122ba3d86bd8fe4027963170a6fb4d1613",
+      "size": 2332,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/2d37ad122ba3d86bd8fe4027963170a6fb4d1613"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f149769d2b3b74d67c6222519d523070a0afe176",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/f149769d2b3b74d67c6222519d523070a0afe176"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega/chave_NAO_ABRIR.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd3e4656a457836ae9e547647ccac97e33ec4dd6",
+      "size": 3266,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fd3e4656a457836ae9e547647ccac97e33ec4dd6"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega/chave_sha256.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7e5c6947a4f7f320c351628716c876808a8a77",
+      "size": 87,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/7e7e5c6947a4f7f320c351628716c876808a8a77"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega/ficha.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052eebdb158e7d69254c7c7d56a89578421a9a32",
+      "size": 3105,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/052eebdb158e7d69254c7c7d56a89578421a9a32"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega/preparar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ea46005c185ee5d64533ae98a5653fc30bba782",
+      "size": 1920,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1ea46005c185ee5d64533ae98a5653fc30bba782"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/protocolo_avaliacao_cega/protocolo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdd7713a5340dd5c6a4b605924774513a1f409c",
+      "size": 1047,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4bdd7713a5340dd5c6a4b605924774513a1f409c"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/resultados_reranker_escala.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550323415d66f9c21325304086538ebcf84be1a5",
+      "size": 90200,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/550323415d66f9c21325304086538ebcf84be1a5"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/resultados_reranker_referencias.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d887f6c98e34f812c582b9b66b1d9802852ac862",
+      "size": 20356,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d887f6c98e34f812c582b9b66b1d9802852ac862"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/teste_ngramas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5375e1e5b949a3db1719a52f0e4485a72b83953",
+      "size": 1203,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d5375e1e5b949a3db1719a52f0e4485a72b83953"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/teste_ngramas_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "523e3aed7f227fb9be2c92e05c06828a6ea63dc6",
+      "size": 2522,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/523e3aed7f227fb9be2c92e05c06828a6ea63dc6"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/teste_qwen3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7158ad5d5d2a2c3e9d68bf6424ca82155c5ca7e1",
+      "size": 1276,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/7158ad5d5d2a2c3e9d68bf6424ca82155c5ca7e1"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/resultados/teste_reranker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e186218d670b17f30ef79f8acf7c25738d551d0",
+      "size": 1662,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/1e186218d670b17f30ef79f8acf7c25738d551d0"
+    },
+    {
+      "path": "recomendador/rrf-tfidf-minilm-J/testar_reranker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a09e8d3f93f5bf6adc97ddb1bf6f09d8c091e0d8",
+      "size": 8769,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a09e8d3f93f5bf6adc97ddb1bf6f09d8c091e0d8"
+    }
+  ],
+  "truncated": false
+}

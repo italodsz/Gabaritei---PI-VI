@@ -1,0 +1,11 @@
+{
+  "download_url": "https://drive.usercontent.google.com/download?id=1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE&export=download&confirm=t",
+  "exit_code": 0,
+  "expected_bytes": 64412812,
+  "expected_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "observed_bytes": 64412812,
+  "observed_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "publisher": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+  "status": "verificado",
+  "utc": "2026-11-11T18:14:56.716713+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "modelo": "Qwen/Qwen3-Embedding-8B",
+  "quantizado_4bit": true,
+  "instrucoes": {
+    "sem_instrucao": null,
+    "conceito": "Instruct: Dada uma questão do ENEM, represente o conceito central cobrado e a operação que o aluno precisa fazer para responder, ignorando o cenário e o tema de fundo do texto\nQuery: "
+  },
+  "max_tokens": 8192,
+  "base_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f"
+}

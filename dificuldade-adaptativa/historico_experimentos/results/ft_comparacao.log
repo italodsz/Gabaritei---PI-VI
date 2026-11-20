@@ -1,0 +1,20 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 62969.94it/s]
+BertModel LOAD REPORT from: neuralmind/bert-base-portuguese-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ft_bert_512_7 {'ft_bert_256_42': 0.4852, 'ft_bert_256_7': 0.5123, 'ft_bert_512_42': 0.4937, 'ft_bert_512_7': 0.5223, 'ft_deberta_256_42': 0.4234, 'ft_deberta_256_7': 0.4254, 'ft_deberta_512_42': 0.4111}
+heads {'multiclass': 0.4258, 'ordinal': 0.4435, 'ridge': 0.3934} hybrid ['embedding', 'area', 'structure', 'both']
+exit=0 seconds=33.2060253

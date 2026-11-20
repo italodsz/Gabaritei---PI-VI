@@ -1,0 +1,9 @@
+test_frozen_splits_and_labels (test_executar.EnrichmentTests.test_frozen_splits_and_labels) ... ok
+test_matrix_area_scoped (test_executar.EnrichmentTests.test_matrix_area_scoped) ... ok
+test_sidecar_and_original_integrity (test_executar.EnrichmentTests.test_sidecar_and_original_integrity) ... ok
+test_unknowns_not_invented (test_executar.EnrichmentTests.test_unknowns_not_invented) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.753s
+
+OK

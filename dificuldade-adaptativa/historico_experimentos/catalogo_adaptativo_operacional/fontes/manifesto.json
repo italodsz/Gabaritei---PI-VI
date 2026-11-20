@@ -1,0 +1,642 @@
+[
+  {
+    "ano": 2009,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2009",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2009/gabarito_dia1.pdf",
+    "arquivo": "2009_1_gabarito.pdf",
+    "sha256": "590aac1b58eb627de7f8e0a76859e9c81d3dd0d0f23addbaeef70cd535c22c5c",
+    "erros": []
+  },
+  {
+    "ano": 2009,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2009",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "arquivo": "2009_1_prova.pdf",
+    "sha256": "0fe000974a0b5b30a543860695fc1fc9f8639705069de0e344574c6146ec3921",
+    "erros": []
+  },
+  {
+    "ano": 2009,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2009",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2009/gabarito_dia2.pdf",
+    "arquivo": "2009_2_gabarito.pdf",
+    "sha256": "82615d5bb081c011ea83c15a145a7eae7ac0da3a13fd0f1c11e8cb3860286d20",
+    "erros": []
+  },
+  {
+    "ano": 2009,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2009",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "arquivo": "2009_2_prova.pdf",
+    "sha256": "1006d00bbd419de56cfdea13adc1a696ed227b05e8a654ac8951244ea13494de",
+    "erros": []
+  },
+  {
+    "ano": 2010,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2010",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul_com_gab.pdf",
+    "arquivo": "2010_1_gabarito.pdf",
+    "sha256": "6902130fa08a9947f86a510148479835bc0887b09082de9f330c24580cc3fc89",
+    "erros": []
+  },
+  {
+    "ano": 2010,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2010",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "arquivo": "2010_1_prova.pdf",
+    "sha256": "0999aeae2fb46f5e1ce7afb8081caebffa2de835063b1a64e543faa2a39ae615",
+    "erros": []
+  },
+  {
+    "ano": 2010,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2010",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul_com_gab.pdf",
+    "arquivo": "2010_2_gabarito.pdf",
+    "sha256": "38ca873c375165f7c755c3b678180cc51f350336b8022f77a4014a555906c8d7",
+    "erros": []
+  },
+  {
+    "ano": 2010,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2010",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "arquivo": "2010_2_prova.pdf",
+    "sha256": "c7284f83312a5c6ccf3667377c45bd3203097e8113309ec1ad2cf1344b3490f9",
+    "erros": []
+  },
+  {
+    "ano": 2011,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2011",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2011/01_AZUL_GABARITO.pdf",
+    "arquivo": "2011_1_gabarito.pdf",
+    "sha256": "6f48be59b9802da4ba18bffa78e8bff69b8af0cd1c2b985cb8924d180255fffb",
+    "erros": []
+  },
+  {
+    "ano": 2011,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2011",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "arquivo": "2011_1_prova.pdf",
+    "sha256": "0abce128c2a854d6ec649467abe076b81a3b56bb5828f27c024e0cbbfb4d8165",
+    "erros": []
+  },
+  {
+    "ano": 2011,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2011",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2011/07_AZUL_GABARITO.pdf",
+    "arquivo": "2011_2_gabarito.pdf",
+    "sha256": "be768a255e257fcc465fed2440db7bd8c7d89d036bfa598466fe7e725f14270d",
+    "erros": []
+  },
+  {
+    "ano": 2011,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2011",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "arquivo": "2011_2_prova.pdf",
+    "sha256": "31cd289a801afbd27c4d3bb02b4343cd54e8cb31fb8742651782213a3068d6c0",
+    "erros": []
+  },
+  {
+    "ano": 2012,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2012",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2012/dia1_azul.pdf",
+    "arquivo": "2012_1_gabarito.pdf",
+    "sha256": "f2df8a34bcfa9f7c7bcd1defe6fce454d310e2bc68effcb0ad522bd7dcfd5a2a",
+    "erros": []
+  },
+  {
+    "ano": 2012,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2012",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia1_caderno1_azul.pdf",
+    "arquivo": "2012_1_prova.pdf",
+    "sha256": "de9137c900db64f5c254775278e373e76da7338e83bdf7fd4ef9a26cde87f36e",
+    "erros": []
+  },
+  {
+    "ano": 2012,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2012",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2012/dia2_azul.pdf",
+    "arquivo": "2012_2_gabarito.pdf",
+    "sha256": "eb46855a6679b5acefdceaa91b0d4844c496303c7ab9b931c5eea922afebe243",
+    "erros": []
+  },
+  {
+    "ano": 2012,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2012",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia2_caderno7_azul.pdf",
+    "arquivo": "2012_2_prova.pdf",
+    "sha256": "48a9ccea2859aa1895995fe2b3217f13122c140ad2c3f4b055771eefb0c13970",
+    "erros": []
+  },
+  {
+    "ano": 2013,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2013",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2013/dia1_azul.pdf",
+    "arquivo": "2013_1_gabarito.pdf",
+    "sha256": "d7d90d20008668e523288509b48be44e4f692f30e29c5dfa5b4b16cbaf75dea4",
+    "erros": []
+  },
+  {
+    "ano": 2013,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2013",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "arquivo": "2013_1_prova.pdf",
+    "sha256": "085dde9fa2190c3175be0a18688410db29fbb6b56a0dc22c91580a58f06cf77f",
+    "erros": []
+  },
+  {
+    "ano": 2013,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2013",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2013/dia2_azul.pdf",
+    "arquivo": "2013_2_gabarito.pdf",
+    "sha256": "897c8165f03268a9d68e42a978b52995ff70605daadb1b82e8b47dc2597d1220",
+    "erros": []
+  },
+  {
+    "ano": 2013,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2013",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "arquivo": "2013_2_prova.pdf",
+    "sha256": "27e32e246f3cde472f2820131c55bb4acb39067a67247c0566d57b76fdbd53b4",
+    "erros": []
+  },
+  {
+    "ano": 2014,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2014",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2014/CADERNO_1_AZUL_SABADO.pdf",
+    "arquivo": "2014_1_gabarito.pdf",
+    "sha256": "c4a5f29058a2a287855265c9e61828de47c06db055895fe5ca7a3b3c381b2727",
+    "erros": []
+  },
+  {
+    "ano": 2014,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2014",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2014_1_prova.pdf",
+    "sha256": "76f0d0c987980b5f23aed885c94de754d6dc5fcbdbb5f3140906d066919a3127",
+    "erros": []
+  },
+  {
+    "ano": 2014,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2014",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2014/CADERNO_7_AZUL_DOMINGO.pdf",
+    "arquivo": "2014_2_gabarito.pdf",
+    "sha256": "c4382390c26bd8b5b0e3e8c293843d9454c4aa13bd9cd96ff95575f7870b4eeb",
+    "erros": []
+  },
+  {
+    "ano": 2014,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2014",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2014_2_prova.pdf",
+    "sha256": "874d6e9bfeb044a776ca395974965099d492685aa7b5aab6b20a01192f5ab919",
+    "erros": []
+  },
+  {
+    "ano": 2015,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2015",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2015/CADERNO_1_AZUL_SABADO.pdf",
+    "arquivo": "2015_1_gabarito.pdf",
+    "sha256": "b490b4267becb240f20e524b31c9c07c1883e1977f832c118544e64f039c5091",
+    "erros": []
+  },
+  {
+    "ano": 2015,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2015",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2015_1_prova.pdf",
+    "sha256": "4acf8c8dd0b24da5871b335b93c6cf3053d0a5f78e6cbaae28ed406bd51f3701",
+    "erros": []
+  },
+  {
+    "ano": 2015,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2015",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2015/CADERNO_7_AZUL_DOMINGO.pdf",
+    "arquivo": "2015_2_gabarito.pdf",
+    "sha256": "28aebf28e1066bfc4d382a9ccd6c56ed9912631e9057feb1cec46e4194b50bc5",
+    "erros": []
+  },
+  {
+    "ano": 2015,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2015",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2015_2_prova.pdf",
+    "sha256": "354ea210a950ae6713015dcee2fefb2e4676c8e506c62c597570fd48d84e2fd9",
+    "erros": []
+  },
+  {
+    "ano": 2016,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2016",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2016/GAB_ENEM_2016_DIA_1_01_AZUL.pdf",
+    "arquivo": "2016_1_gabarito.pdf",
+    "sha256": "67f330f99e7106ba78737a6ea963c5b27d0635530b9e22778a4660064447505f",
+    "erros": []
+  },
+  {
+    "ano": 2016,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2016",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2016_1_prova.pdf",
+    "sha256": "d9c2811b2f2c6f933f1d199971456c78ba9c7c6abced6ad14bfb1133b5e335c7",
+    "erros": []
+  },
+  {
+    "ano": 2016,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2016",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2016/GAB_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "arquivo": "2016_2_gabarito.pdf",
+    "sha256": "67557d0c2c7fd2a6ecb27184f97bca5e2b478aa5d578e3e1338aca2038910052",
+    "erros": []
+  },
+  {
+    "ano": 2016,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2016",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2016_2_prova.pdf",
+    "sha256": "cd1e1d7d2a65eb6b03b78118b3c749a20a2683f1bb50aa22a51aa608f9860f0d",
+    "erros": []
+  },
+  {
+    "ano": 2017,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+    "arquivo": "2017_1_gabarito.pdf",
+    "sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+    "erros": []
+  },
+  {
+    "ano": 2017,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2017_1_prova.pdf",
+    "sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+    "erros": []
+  },
+  {
+    "ano": 2017,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "arquivo": "2017_2_gabarito.pdf",
+    "sha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+    "erros": []
+  },
+  {
+    "ano": 2017,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2017_2_prova.pdf",
+    "sha256": "73e191bcac00dd497b9f05346440f8de0d67a9261d933b48202965c82745a896",
+    "erros": []
+  },
+  {
+    "ano": 2018,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+    "arquivo": "2018_1_gabarito.pdf",
+    "sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+    "erros": []
+  },
+  {
+    "ano": 2018,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2018_1_prova.pdf",
+    "sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+    "erros": []
+  },
+  {
+    "ano": 2018,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_2_AZUL.pdf",
+    "arquivo": "2018_2_gabarito.pdf",
+    "sha256": "36ead3cbb0dc3032d2ebe89bdbb66de54777e311f8e8ffa57eec42756fa38e78",
+    "erros": []
+  },
+  {
+    "ano": 2018,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2018_2_prova.pdf",
+    "sha256": "aa4d234beed82606c95911c744bf137b10c9906397daf08e489dde1b13774ab5",
+    "erros": []
+  },
+  {
+    "ano": 2019,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "arquivo": "2019_1_gabarito.pdf",
+    "sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+    "erros": []
+  },
+  {
+    "ano": 2019,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2019_1_prova.pdf",
+    "sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+    "erros": []
+  },
+  {
+    "ano": 2019,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "arquivo": "2019_2_gabarito.pdf",
+    "sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+    "erros": []
+  },
+  {
+    "ano": 2019,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2019_2_prova.pdf",
+    "sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+    "erros": []
+  },
+  {
+    "ano": 2020,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+    "arquivo": "2020_1_gabarito.pdf",
+    "sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+    "erros": []
+  },
+  {
+    "ano": 2020,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2020_1_prova.pdf",
+    "sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+    "erros": []
+  },
+  {
+    "ano": 2020,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+    "arquivo": "2020_2_gabarito.pdf",
+    "sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+    "erros": []
+  },
+  {
+    "ano": 2020,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2020_2_prova.pdf",
+    "sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+    "erros": []
+  },
+  {
+    "ano": 2021,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+    "arquivo": "2021_1_gabarito.pdf",
+    "sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+    "erros": []
+  },
+  {
+    "ano": 2021,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2021_1_prova.pdf",
+    "sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+    "erros": []
+  },
+  {
+    "ano": 2021,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+    "arquivo": "2021_2_gabarito.pdf",
+    "sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+    "erros": []
+  },
+  {
+    "ano": 2021,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2021_2_prova.pdf",
+    "sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+    "erros": []
+  },
+  {
+    "ano": 2022,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+    "arquivo": "2022_1_gabarito.pdf",
+    "sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+    "erros": []
+  },
+  {
+    "ano": 2022,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2022_1_prova.pdf",
+    "sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+    "erros": []
+  },
+  {
+    "ano": 2022,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "arquivo": "2022_2_gabarito.pdf",
+    "sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+    "erros": []
+  },
+  {
+    "ano": 2022,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2022_2_prova.pdf",
+    "sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+    "erros": []
+  },
+  {
+    "ano": 2023,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "arquivo": "2023_1_gabarito.pdf",
+    "sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+    "erros": []
+  },
+  {
+    "ano": 2023,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2023_1_prova.pdf",
+    "sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+    "erros": []
+  },
+  {
+    "ano": 2023,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+    "arquivo": "2023_2_gabarito.pdf",
+    "sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+    "erros": []
+  },
+  {
+    "ano": 2023,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2023_2_prova.pdf",
+    "sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+    "erros": []
+  },
+  {
+    "ano": 2024,
+    "dia": 1,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+    "arquivo": "2024_1_gabarito.pdf",
+    "sha256": "673d3d060156d6ad610ecf96c3dd0b8c61f361e16c57860c4ca5b5fecc8be050",
+    "erros": []
+  },
+  {
+    "ano": 2024,
+    "dia": 1,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+    "arquivo": "2024_1_prova.pdf",
+    "sha256": "b0adc1dc79a002aba36f725f1ef792cf53e47ff75ee012638ef34a4e6fbb18f5",
+    "erros": []
+  },
+  {
+    "ano": 2024,
+    "dia": 2,
+    "tipo": "gabarito",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+    "arquivo": "2024_2_gabarito.pdf",
+    "sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92",
+    "erros": []
+  },
+  {
+    "ano": 2024,
+    "dia": 2,
+    "tipo": "prova",
+    "portal": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD7.pdf",
+    "arquivo": "2024_2_prova.pdf",
+    "sha256": "0993ae687a93dfbcda8e95ce8708883be9d5a55cabbe1f1a06b81a50c18c6cdc",
+    "erros": []
+  }
+]

@@ -1,0 +1,3812 @@
+[
+  {
+    "id": "gq_00cd2aa3961866b43f9f6e56",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE3.impactos-ambientais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_00cf7d32938fee64bfc3f997",
+    "area": "CH",
+    "ano": 2020,
+    "posicao": null,
+    "no": "HB1.revoltas-coloniais",
+    "delta": [
+      {
+        "antes": "‘mancha'",
+        "depois": "‘mancha’"
+      },
+      {
+        "antes": "Portuguesa',",
+        "depois": "Portuguesa’,"
+      },
+      {
+        "antes": "político- -territorial.",
+        "depois": "político-territorial."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_021d87104d8061f228b2b4e8",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "SO4.cidadania-direitos-e-politicas-publicas",
+    "delta": [
+      {
+        "antes": "87 por cento",
+        "depois": "87%"
+      },
+      {
+        "antes": "",
+        "depois": "Disponível em: Acesso em: 12 out. 2021 (adaptado)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_023bb01ea3464ba7a29630c9",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI4.etica-aplicada-e-alteridade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_0378c9443902a858bb8237d8",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE3.mudancas-climaticas-e-acordos-internacionais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_04ca7c6eab57303c3d91a967",
+    "area": "LC",
+    "ano": 2016,
+    "posicao": null,
+    "no": "LL8.representacao-e-identidade-na-literatura-contemporanea",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_0508e3b3b01ee9e7a223a226",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FS4.circuitos-eletricos-e-consumo-de-energia",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "Morno"
+      },
+      {
+        "antes": "Unnamed: 2",
+        "depois": "delta T(°C) Quente"
+      },
+      {
+        "antes": "Unnamed: 3",
+        "depois": "delta T(°C) Superquente"
+      },
+      {
+        "antes": "| nan | Morno | Quente | Superquente |",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_07253f5173016e3873d292a2",
+    "area": "CN",
+    "ano": 2012,
+    "posicao": null,
+    "no": "QU2.estequiometria",
+    "delta": [
+      {
+        "antes": "2012",
+        "depois": "2012."
+      },
+      {
+        "antes": "10–4.",
+        "depois": "10^-4."
+      },
+      {
+        "antes": "10–3.",
+        "depois": "10^-3."
+      },
+      {
+        "antes": "10–2.",
+        "depois": "10^-2."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_0848fa0c726411ff734084af",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "SO3.cultura-popular-e-religiosidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_08ce1719ee80c4135186ac71",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO3.cultura-identidade-e-diversidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_09881f742abc8c42d9709432",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FI6.estetica-e-filosofia-da-arte",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_0afa470dc18a3b8a9944f81f",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "SO3.patrimonio-cultural-e-memoria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_0b4bb43dfa695f14dc861308",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL6.pre-modernismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_0f6ee017d6563444f0f9ed29",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI1.socrates-e-sofistas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1009e2e9a8cf95ede358a9d7",
+    "area": "LC",
+    "ano": 2015,
+    "posicao": null,
+    "no": "LP1.objetivo-e-finalidade-do-texto",
+    "delta": [
+      {
+        "antes": "estudants",
+        "depois": "estudantes"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_12463da220d22bf9333f3cc3",
+    "area": "CN",
+    "ano": 2020,
+    "posicao": null,
+    "no": "FS2.calorimetria-e-mudancas-de-estado",
+    "delta": [
+      {
+        "antes": "kg-1 K-1",
+        "depois": "kg^-1 K^-1"
+      },
+      {
+        "antes": "L-1.",
+        "depois": "L^-1."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_129cb384d548f1d51453037b",
+    "area": "CN",
+    "ano": 2015,
+    "posicao": null,
+    "no": "BI5.circulacao-e-respiracao",
+    "delta": [
+      {
+        "antes": "decoagulação",
+        "depois": "de coagulação"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_12eaa46316b7d29e4a1db4d2",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE3.sustentabilidade-e-conservacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_130ef6f102b546a2c7a8dd56",
+    "area": "CN",
+    "ano": 2020,
+    "posicao": null,
+    "no": "QU1.propriedades-da-materia-e-separacao-de-misturas",
+    "delta": [
+      {
+        "antes": "\"Resíduo:",
+        "depois": "“Resíduo:"
+      },
+      {
+        "antes": "água\".",
+        "depois": "água”."
+      },
+      {
+        "antes": "",
+        "depois": "•"
+      },
+      {
+        "antes": "",
+        "depois": "•"
+      },
+      {
+        "antes": "cm-3;",
+        "depois": "cm^-3; •"
+      },
+      {
+        "antes": "-83",
+        "depois": "−83"
+      },
+      {
+        "antes": "",
+        "depois": "•"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_13a98d99297e2daefdbd7489",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI4.virtude-felicidade-e-vida-boa",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1515614ca0e20bbdea9053fb",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP3.funcoes-da-linguagem",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_171d5bf39da346e85e70fed1",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL8.representacao-e-identidade-na-literatura-contemporanea",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1741507513810ca47a2e4fe4",
+    "area": "CN",
+    "ano": 2014,
+    "posicao": null,
+    "no": "QU3.equilibrio-acido-base-e-ph",
+    "delta": [
+      {
+        "antes": "10 − 10",
+        "depois": "10^-10"
+      },
+      {
+        "antes": "CH 3 COOH, Na 2 SO 4 , CH 3 OH, K 2 CO 3",
+        "depois": "CH3COOH, Na2SO4, CH3OH, K2CO3"
+      },
+      {
+        "antes": "NH 4 Cl.",
+        "depois": "NH4Cl."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_197c36451e4b8268b292642b",
+    "area": "CN",
+    "ano": 2024,
+    "posicao": null,
+    "no": "BI5.imunologia-e-vacinas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1a997d4f6be32afb87462ab5",
+    "area": "CN",
+    "ano": 2009,
+    "posicao": null,
+    "no": "FS4.circuitos-eletricos-e-consumo-de-energia",
+    "delta": [
+      {
+        "antes": "g-1 °C-1,",
+        "depois": "g^-1 °C^-1,"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_1b1121b14f8836f1bdabd04a",
+    "area": "CN",
+    "ano": 2016,
+    "posicao": null,
+    "no": "QU3.equilibrio-acido-base-e-ph",
+    "delta": [
+      {
+        "antes": "(NaCO3)",
+        "depois": "(Na2CO3)"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_1baaf7ecf899a765c2a6f022",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL9.cronica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1bf495a5eda4568d0ea676d2",
+    "area": "LC",
+    "ano": 2018,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "TEXTO I [Descrição da imagem:"
+      },
+      {
+        "antes": "trajetória",
+        "depois": "obra Estrutura vertical dupla,"
+      },
+      {
+        "antes": "Liesel Meminger",
+        "depois": "Norma Grimberg,"
+      },
+      {
+        "antes": "contada",
+        "depois": "formada"
+      },
+      {
+        "antes": "",
+        "depois": "várias peças arredondadas de cerâmica, de cor clara, unidas em pares e sobrepostas. Colocada sobre"
+      },
+      {
+        "antes": "narradora mórbida, surpreendentemente simpática. Ao perceber que",
+        "depois": "base quadrada,"
+      },
+      {
+        "antes": "pequena ladra",
+        "depois": "sequência das peças varia"
+      },
+      {
+        "antes": "livros lhe escapa, a Morte afeiçoa-se à menina e rastreia suas pegadas de 1939 a 1943. Traços de uma sobrevivente: a mãe comunista, perseguida pelo nazismo, envia Liesel e o irmão",
+        "depois": "tamanho, ora do menor"
+      },
+      {
+        "antes": "subúrbio pobre",
+        "depois": "maior, ora do maior para o menor.] TEXTO II [Descrição da imagem: A urna cerimonial marajoara é um vaso cerâmico"
+      },
+      {
+        "antes": "uma cidade alemã, onde",
+        "depois": "cor escura, bojudo, de gargalo estreito e base pontiaguda, com"
+      },
+      {
+        "antes": "casal",
+        "depois": "par de asas simétricas. Há desenhos de formas arredondadas e simétricas distribuídos por toda a urna.] As duas imagens são produções que têm a cerâmica como matéria-prima. A obra Estrutura vertical dupla"
+      },
+      {
+        "antes": "dispõe",
+        "depois": "distingue da urna funerária marajoara ao evidenciar"
+      },
+      {
+        "antes": "adotá-los por dinheiro. O garoto morre no trajeto e é enterrado por um coveiro que deixa cair um livro",
+        "depois": "simetria"
+      },
+      {
+        "antes": "neve. É",
+        "depois": "disposição das peças. materializar a técnica sem função utilitária. abandonar a regularidade na composição. anular possibilidades de leituras afetivas. integrar"
+      },
+      {
+        "antes": "primeiro de uma série que a menina vai surrupiar ao longo dos anos. O único vínculo com a família é esta obra, que ela ainda não sabe ler. A vida ao redor é a pseudorrealidade criada",
+        "depois": "suporte"
+      },
+      {
+        "antes": "torno do culto a Hitler na Segunda Guerra. Ela assiste à eufórica celebração do aniversário do Führer pela vizinhança. A Morte, perplexa diante da violência humana, dá um tom leve e divertido à narrativa deste duro confronto entre a infância perdida e a crueldade do mundo adulto, um sucesso absoluto – e raro – de crítica e público. Disponível em: www.odevoradordelivros.com. Acesso em: 24 jun. 2014. Os gêneros textuais podem ser caracterizados, dentre outros fatores, por seus objetivos. Esse fragmento é um(a) reportagem, pois busca convencer o interlocutor da tese defendida ao longo do texto. resumo, pois promove o contato rápido do leitor com uma informação desconhecida. sinopse, pois sintetiza as informações relevantes de uma obra de modo impessoal. instrução, pois ensina algo por meio de explicações sobre uma obra específica. resenha, pois apresenta uma produção intelectual de forma crítica.",
+        "depois": "sua constituição."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: cerâmicas e função utilitária, não resenha literária.",
+    "no_depois": "AR1.elementos-e-procedimentos-das-artes-visuais"
+  },
+  {
+    "id": "gq_1c704d8e0026cd32089a67b9",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL8.representacao-e-identidade-na-literatura-contemporanea",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1cab571b74b797175e214d77",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "TC1.meios-de-comunicacao-e-suas-transformacoes",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1cee8ef7ca50a57b4aabf4a5",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI4.etica-aplicada-e-alteridade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1dbbb2d1bebdc8549a1f5f14",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "HB1.mineracao-e-interiorizacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1e43bd626855bae9aa67a6db",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE8.ordem-mundial-e-organismos-internacionais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_1f350444706c42932f0185fa",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL9.poema-e-eu-lirico",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_2189952f4dae482de5a50619",
+    "area": "LC",
+    "ano": 2015,
+    "posicao": null,
+    "no": "LL8.representacao-e-identidade-na-literatura-contemporanea",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_22f84e9817fc2ffe3f4fbbbd",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "BI5.circulacao-e-respiracao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_23d6f9f764ecfb6572e77956",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL9.recursos-expressivos-e-construcao-literaria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_23f08c13463322047535c93a",
+    "area": "CN",
+    "ano": 2009,
+    "posicao": null,
+    "no": "FS2.temperatura-termometria-e-dilatacao",
+    "delta": [
+      {
+        "antes": "1×10-3 ºC-1,",
+        "depois": "1 × 10^-3 °C^-1,"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_2464d2ceae40b806bc85eaa1",
+    "area": "LC",
+    "ano": 2017,
+    "posicao": null,
+    "no": "LL4.machado-de-assis",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_27da05001f8a34c691493295",
+    "area": "MT",
+    "ano": 2019,
+    "posicao": null,
+    "no": "MA4.funcao-logaritmica",
+    "delta": [
+      {
+        "antes": "10-8.",
+        "depois": "10^-8."
+      },
+      {
+        "antes": "10-7.",
+        "depois": "10^-7."
+      },
+      {
+        "antes": "10-8",
+        "depois": "10^-8"
+      },
+      {
+        "antes": "10-7.",
+        "depois": "10^-7."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_287155b76c47f63849e79012",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP5.semantica-e-efeitos-expressivos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_29d0b35c3cbc2b3e73159958",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "GE8.conflitos-territoriais-e-etnicos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_29ef25a472475b50d03207ab",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "SO4.genero-e-sexualidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_2b1a5b1dfcddc97f073b1f1f",
+    "area": "CH",
+    "ano": 2013,
+    "posicao": null,
+    "no": "GE7.globalizacao-e-meio-tecnico-cientifico-informacional",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_2cb91978a23460c6ef1b1f9a",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP1.estrategias-argumentativas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_2d80431a533f8383a5af7a83",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL3.prosa-romantica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_2d95d1bc5fcfa7364da555b3",
+    "area": "CN",
+    "ano": 2016,
+    "posicao": null,
+    "no": "QU3.termoquimica",
+    "delta": [
+      {
+        "antes": "C 2 H 2 (g)",
+        "depois": "C2H2(g)"
+      },
+      {
+        "antes": "C 6 H 6 (l)",
+        "depois": "C6H6(l)"
+      },
+      {
+        "antes": "C 2 H 2 (g)",
+        "depois": "C2H2(g)"
+      },
+      {
+        "antes": "O 2 (g)",
+        "depois": "O2(g)"
+      },
+      {
+        "antes": "CO 2 (g)",
+        "depois": "CO2(g)"
+      },
+      {
+        "antes": "H 2 O (l) ∆ H c °",
+        "depois": "H2O(l) ΔH°c"
+      },
+      {
+        "antes": "− 310",
+        "depois": "−310"
+      },
+      {
+        "antes": "C 6 H 6 (l)",
+        "depois": "C6H6(l)"
+      },
+      {
+        "antes": "O 2 (g)",
+        "depois": "O2(g)"
+      },
+      {
+        "antes": "CO 2 (g)",
+        "depois": "CO2(g)"
+      },
+      {
+        "antes": "H 2 O (l) ∆ H c °",
+        "depois": "H2O(l) ΔH°c"
+      },
+      {
+        "antes": "− 780",
+        "depois": "−780"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_2db7db5f014a71a9f29b1d21",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "GE3.impactos-ambientais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_31c35fbf745c475caaecd64f",
+    "area": "CN",
+    "ano": 2024,
+    "posicao": null,
+    "no": "BI6.virus-bacterias-protozoarios-e-fungos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3289d19fc3512700468cf690",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP4.norma-padrao-e-adequacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3328c1d9fc3b6e01d0c910d8",
+    "area": "CN",
+    "ano": 2018,
+    "posicao": null,
+    "no": "QU5.quimica-atmosferica-e-ciclos",
+    "delta": [
+      {
+        "antes": "(NH 3 ).",
+        "depois": "(NH3)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_349fe67b4c0227081bf793eb",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "HB4.estado-novo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_36c18f7638bef60120b990b3",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP1.relacao-entre-textos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_375ce58eb2ecbf1eb62fedd6",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3850143d1373af38412683ab",
+    "area": "CH",
+    "ano": 2013,
+    "posicao": null,
+    "no": "FI5.justica-democracia-e-cidadania",
+    "delta": [
+      {
+        "antes": "Puertal",
+        "depois": "Puerta"
+      },
+      {
+        "antes": "Slogan:",
+        "depois": "slogan:"
+      },
+      {
+        "antes": "Rodriguez.",
+        "depois": "RODRÍGUEZ,"
+      },
+      {
+        "antes": "indignados",
+        "depois": "Indignados"
+      },
+      {
+        "antes": "descontamento",
+        "depois": "descontentamento"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_38c2e5b5302bdcd0ca365f03",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP6.patrimonio-e-diversidade-linguistica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_39d6f7af2c4b6f3fae000c2c",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP5.coerencia-e-progressao-tematica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3a730941fa121ac7a5ec8d92",
+    "area": "MT",
+    "ano": 2016,
+    "posicao": null,
+    "no": "MA1.conjuntos-numericos-e-operacoes",
+    "delta": [
+      {
+        "antes": "1 2 , 3 8",
+        "depois": "1/2, 3/8"
+      },
+      {
+        "antes": "5 4",
+        "depois": "5/4"
+      },
+      {
+        "antes": "1 2 , 3 8 , 5 4 1 2 , 5 4 , 3 8 3 8 , 1 2 , 5 4 3 8 , 5 4 , 1 2 5 4 , 1 2 , 3 8",
+        "depois": "1/2, 3/8, 5/4 1/2, 5/4, 3/8 3/8, 1/2, 5/4 3/8, 5/4, 1/2 5/4, 1/2, 3/8"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_3a78b76c3898dc2bc79a7b20",
+    "area": "LC",
+    "ano": 2017,
+    "posicao": null,
+    "no": "LP6.patrimonio-e-diversidade-linguistica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3b0962e6299f67bc7931b285",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL7.3a-fase-geracao-de-45",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3c1c037a0ce8eafd92fe2764",
+    "area": "MT",
+    "ano": 2015,
+    "posicao": null,
+    "no": "MA4.funcao-exponencial",
+    "delta": [
+      {
+        "antes": "(t),em",
+        "depois": "(t), em"
+      },
+      {
+        "antes": "s",
+        "depois": "s(t)"
+      },
+      {
+        "antes": "1800 ×",
+        "depois": ""
+      },
+      {
+        "antes": ", 03 t .",
+        "depois": "800 · (1,03)^t."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_3c1e3d52230b8a3d986a6d8a",
+    "area": "MT",
+    "ano": 2024,
+    "posicao": null,
+    "no": "MA1.conjuntos-numericos-e-operacoes",
+    "delta": [
+      {
+        "antes": "Preços dos componentes",
+        "depois": "Preço do componente X"
+      },
+      {
+        "antes": "Unnamed: 2",
+        "depois": "Preço do componente Y (R$)"
+      },
+      {
+        "antes": "| nan | X | Y |",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_3e24d504f23eb663a20daf45",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL9.recursos-expressivos-e-construcao-literaria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3e25bf1d5bf4b645a2ec4316",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI6.linguagem-e-significado",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_3ee6283760fa076c70bef974",
+    "area": "LC",
+    "ano": 2020,
+    "posicao": null,
+    "no": "LP1.objetivo-e-finalidade-do-texto",
+    "delta": [
+      {
+        "antes": "\"Quem",
+        "depois": "— “Quem"
+      },
+      {
+        "antes": "rouba\".",
+        "depois": "rouba”."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_3f9514b3459739bc44d94e99",
+    "area": "CN",
+    "ano": 2010,
+    "posicao": null,
+    "no": "QU1.funcoes-inorganicas",
+    "delta": [
+      {
+        "antes": "matérias primas",
+        "depois": "matérias-primas"
+      },
+      {
+        "antes": "NA+",
+        "depois": "Na⁺"
+      },
+      {
+        "antes": "HCO3",
+        "depois": "HCO3⁻"
+      },
+      {
+        "antes": "HCO3",
+        "depois": "HCO3⁻"
+      },
+      {
+        "antes": "H+",
+        "depois": "H⁺"
+      },
+      {
+        "antes": "3H+",
+        "depois": "3H⁺"
+      },
+      {
+        "antes": "A−",
+        "depois": "A⁻"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_40137da722c59a27e0a4b46f",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "TC1.inclusao-e-exclusao-digital",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_40a3d0617d5e602c7dbb75a4",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido",
+    "delta": [
+      {
+        "antes": "Millennials: Así es la generación que ya no recuerda cómo era el mundo sin Internet Algunos los llaman generación Y, otros \"Millennials”, generación del milenio o incluso \"Echo Boomers\". Nacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet. Son idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo",
+        "depois": "LETTER TO THE EDITOR: Sugar fear-mongering unhelpful By The Washington Times Tuesday, June 25, 2013 In his recent piece “Is obesity"
+      },
+      {
+        "antes": "una edad temprana, de estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras. La generación Y se compone de este tipo de personas que quieren todo",
+        "depois": "disease?” (Web, June 19), Dr. Peter Lind refers to high-fructose corn syrup and other “manufactured sugars” as “poison” that will “guarantee storage of fat in the body.” Current scientific research strongly indicates that obesity results from excessive calorie intake combined with"
+      },
+      {
+        "antes": "la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.",
+        "depois": "sedentary lifestyle. The fact is Americans are consuming more total calories now than ever before. According to the U.S. Department of Agriculture, our total per-capita daily caloric intake increased by 22 percent from 2,076 calories per day in 1970 to 2,534 calories per day in 2010 — an additional 458 calories, only 34 of which come from increased added sugar intake. A vast majority of these calories come from increased fats and flour/ cereals. Surprisingly, the amount of caloric sweeteners (i.e. sugar, high-fructose, corn syrup, honey, etc.). Americans consume has actually decreased over the past decade. We need to continue to study the obesity epidemic to see what more can be done, but demonizing one specific ingredient accomplishes nothing and raises unnecessary fears that get in the way of real solutions. JAMES M. RIPPE Shrewsbury, Mass."
+      },
+      {
+        "antes": "",
+        "depois": "www.washingtontimes.com."
+      },
+      {
+        "antes": "4 dez. 2018. O texto",
+        "depois": "29 jul. 2013 (adaptado). Ao abordar o assunto “obesidade”, em uma seção de jornal, o autor defende o consumo liberado de açúcar."
+      },
+      {
+        "antes": "características e interesses",
+        "depois": "a gordura como o grande vilão"
+      },
+      {
+        "antes": "\"Geração Y\". Nele,",
+        "depois": "saúde. demonstra acreditar que"
+      },
+      {
+        "antes": "expressão dejar su huella refere-se",
+        "depois": "obesidade não é preocupante. indica"
+      },
+      {
+        "antes": "um dos desejos dessa geração, que é",
+        "depois": "necessidade de mais pesquisas sobre"
+      },
+      {
+        "antes": "",
+        "depois": "assunto. enfatiza a redução"
+      },
+      {
+        "antes": "conhecer diferentes lugares. fazer a diferença no mundo. aproveitar todas as oportunidades. obter uma formação acadêmica",
+        "depois": "ingestão"
+      },
+      {
+        "antes": "excelência. conquistar boas colocações no mundo do trabalho.",
+        "depois": "calorias pelos americanos."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: carta em inglês sobre pesquisas de obesidade.",
+    "no_depois": "LE1.finalidade-e-argumentacao"
+  },
+  {
+    "id": "gq_44d082c29f4919760514a7e3",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LP1.relacao-entre-textos",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "Disponível em: www.folhadelondrina.com.br. Acesso em: 9 dez. 2018 (adaptado)."
+      },
+      {
+        "antes": "",
+        "depois": "[Descrição do cartaz: Cartaz intitulado “Direitos dos idosos”. No centro do cartaz, há o desenho de uma senhora de cabelos brancos, com óculos, sentada numa poltrona ao lado de um abajur, utilizando um notebook.] Estatuto do Idoso e a Constituição Federal asseguram: atendimento preferencial no SUS; prioridade na tramitação de processos judiciais; vagas preferenciais em estacionamentos; meia-entrada em eventos culturais, esportivos e de lazer. Aos idosos de baixa renda também estão garantidos: viagem gratuita em ônibus interestadual; assistência de um salário mínimo; acesso a mais de 20 programas sociais. Disponível em: www.brasil.gov.br. Acesso em: 9 dez. 2018."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_46b0636e6a4a955b38dc2da0",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FS2.calorimetria-e-mudancas-de-estado",
+    "delta": [
+      {
+        "antes": "Unnamed: 0",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_4726d00495fa709110261749",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP4.variacao-regional-e-social",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_47797006c0f4ddf3b3f3d333",
+    "area": "MT",
+    "ano": 2022,
+    "posicao": null,
+    "no": "MA2.porcentagem",
+    "delta": [
+      {
+        "antes": "mihões",
+        "depois": "milhões"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_47d21885570620bb451ef068",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "AR2.hibridismo-e-dialogo-musical",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_495779507cce0a6b2cf5852a",
+    "area": "MT",
+    "ano": 2015,
+    "posicao": null,
+    "no": "MA4.funcao-exponencial",
+    "delta": [
+      {
+        "antes": "t ,",
+        "depois": "t,"
+      },
+      {
+        "antes": "t-1",
+        "depois": "t^(-1)"
+      },
+      {
+        "antes": "t-1",
+        "depois": "t^(-1)"
+      },
+      {
+        "antes": "t-1",
+        "depois": "t^(-1)"
+      },
+      {
+        "antes": "(0,5)t",
+        "depois": "(0,5)^(t"
+      },
+      {
+        "antes": "1",
+        "depois": "1)"
+      },
+      {
+        "antes": "(1,5)t",
+        "depois": "(1,5)^(t"
+      },
+      {
+        "antes": "1",
+        "depois": "1)"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_4d0565792bd6e34b936859df",
+    "area": "CN",
+    "ano": 2019,
+    "posicao": null,
+    "no": "FS1.impulso-quantidade-de-movimento-e-colisoes",
+    "delta": [
+      {
+        "antes": "s −2",
+        "depois": "s^-2"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_4ed824fb64de3b86c9e0c26c",
+    "area": "LC",
+    "ano": 2014,
+    "posicao": null,
+    "no": "TC1.internet-e-redes-sociais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_4f3da60136c8cf1dd003b8c1",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LL7.2a-fase-poesia-de-30",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_4f7461bfa8d724c8268f7268",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_501d1ee35e3d96d1174b007f",
+    "area": "CN",
+    "ano": 2024,
+    "posicao": null,
+    "no": "BI1.composicao-quimica-e-atividade-enzimatica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_503f89f350892522add01c6b",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL3.prosa-romantica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_519b6c60c0caf9d62242442b",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO4.racismo-e-relacoes-etnico-raciais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_51c55ff04cc7dfcf9040127f",
+    "area": "LC",
+    "ano": 2011,
+    "posicao": null,
+    "no": "LL7.3a-fase-geracao-de-45",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_524d430e713f646ee5b29e6c",
+    "area": "CN",
+    "ano": 2024,
+    "posicao": null,
+    "no": "QU2.estequiometria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_5571293b9a4b9e4ac6750af3",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL7.2a-fase-romance-de-30",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_579103f44dfd33dc085b6084",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "LP5.formacao-de-palavras-e-neologismos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_57d7f6d259358e4f43fd1c62",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_5c418842c62a02f83a63f1d3",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "TC1.inclusao-e-exclusao-digital",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_5c42141ca7e4f14c8aafd0d8",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL9.cronica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_5f3a9117d3f61cabaf6cb1fc",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "SO4.racismo-e-relacoes-etnico-raciais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_62ca52f06451d1006bcbc634",
+    "area": "CN",
+    "ano": 2024,
+    "posicao": null,
+    "no": "BI6.zoologia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_63c481f9806cd7b3634368e8",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_64e23c7364e69ea4cdd2473f",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "TC1.hipertexto-e-generos-digitais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_6685062e05916effaf248a05",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LE1.compreensao-e-inferencia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_67a4c372c1eb5240c50942c9",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "LE1.compreensao-e-inferencia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_69a51809120ee2b1dda01291",
+    "area": "CH",
+    "ano": 2014,
+    "posicao": null,
+    "no": "HB6.golpe-de-1964-e-apoios",
+    "delta": [
+      {
+        "antes": "Disponivel",
+        "depois": "Disponível"
+      },
+      {
+        "antes": "(adaplado).",
+        "depois": "(adaptado)."
+      },
+      {
+        "antes": "Disponivel",
+        "depois": "Disponível"
+      },
+      {
+        "antes": "www.brasilrecente.com.Acesso",
+        "depois": "www.brasilrecente.com. Acesso"
+      },
+      {
+        "antes": "abro",
+        "depois": "abr."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_69bdc6d730717defbc4f2200",
+    "area": "MT",
+    "ano": 2019,
+    "posicao": null,
+    "no": "MA4.equacoes-inequacoes-e-sistemas",
+    "delta": [
+      {
+        "antes": "(adaptado)",
+        "depois": "(adaptado)."
+      },
+      {
+        "antes": "q",
+        "depois": "q/(0,8m)"
+      },
+      {
+        "antes": "0,8m 0,4m",
+        "depois": "0,4m/q"
+      },
+      {
+        "antes": "B q q",
+        "depois": "q/(0,4m)"
+      },
+      {
+        "antes": "0,4m 0,08m",
+        "depois": "0,08m/q"
+      },
+      {
+        "antes": "q q",
+        "depois": "q/(0,08m)"
+      },
+      {
+        "antes": "0,08m",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_6a697545f71aa52dee715749",
+    "area": "MT",
+    "ano": 2019,
+    "posicao": null,
+    "no": "MA2.razao-proporcao-e-regra-de-tres",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "[Descrição dos gráficos: Os gráficos mostram a população urbana e a população rural em cinco municípios.]"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Defeito: faltam os valores das populações urbana e rural dos cinco municípios nos gráficos.",
+    "no_depois": null
+  },
+  {
+    "id": "gq_6aeacc24c299951b4cba1202",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP1.relacao-entre-textos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_6c42f23e164e80da84813d53",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP6.patrimonio-e-diversidade-linguistica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_6c6595adaf610fd8822d7ceb",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "QU3.cinetica-quimica",
+    "delta": [
+      {
+        "antes": "Unnamed: 0 |",
+        "depois": ""
+      },
+      {
+        "antes": "| Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | |:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------| | nan",
+        "depois": ""
+      },
+      {
+        "antes": "",
+        "depois": "|:-------------|:-----------------------------|:-------------|:-------------|:-------------|:-------------|"
+      },
+      {
+        "antes": "L−1)",
+        "depois": "L^-1)"
+      },
+      {
+        "antes": "L−1)",
+        "depois": "L^-1)"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_6c8f7b7b83643d98c51f5b6e",
+    "area": "LC",
+    "ano": 2015,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_6ca1b9171ac8db029ac469cc",
+    "area": "LC",
+    "ano": 2012,
+    "posicao": null,
+    "no": "EF2.esporte-espetaculo-e-sociedade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_714be8a67883d8066948719a",
+    "area": "LC",
+    "ano": 2021,
+    "posicao": null,
+    "no": "LP6.patrimonio-e-diversidade-linguistica",
+    "delta": [
+      {
+        "antes": "[...]",
+        "depois": "[…]"
+      },
+      {
+        "antes": "jorubá",
+        "depois": "iorubá"
+      },
+      {
+        "antes": "(fragmento)",
+        "depois": "(fragmento)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_716ad1716b48f8aff078df73",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "BI1.metabolismo-energetico",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_71f8a7e400834ae86724e871",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FS2.transmissao-de-calor",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_72b3f38fe54fd2d1da85c962",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI6.escola-de-frankfurt-e-critica-da-cultura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_72d3d53672d7d164ebc38b49",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "TC1.internet-e-redes-sociais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_74002c1bc43d6c462fa810a5",
+    "area": "MT",
+    "ano": 2016,
+    "posicao": null,
+    "no": "MA2.porcentagem",
+    "delta": [
+      {
+        "antes": "1 3 .",
+        "depois": "1/3."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_749dd40512b29644fd8bb560",
+    "area": "CN",
+    "ano": 2013,
+    "posicao": null,
+    "no": "FS3.interferencia-e-ressonancia",
+    "delta": [
+      {
+        "antes": "o",
+        "depois": "os"
+      },
+      {
+        "antes": "próximas",
+        "depois": "próximas."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_74ca68c04eae2a90964f8ef9",
+    "area": "CN",
+    "ano": 2017,
+    "posicao": null,
+    "no": "FS4.eletromagnetismo-e-inducao",
+    "delta": [
+      {
+        "antes": "* -um",
+        "depois": "• um"
+      },
+      {
+        "antes": "* -dois",
+        "depois": "• dois"
+      },
+      {
+        "antes": "* -um",
+        "depois": "• um"
+      },
+      {
+        "antes": "Valor",
+        "depois": "valor"
+      },
+      {
+        "antes": "Curto",
+        "depois": "curto"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_74ddfd395eae9bcbee079ba9",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FS5.geracao-de-energia-e-impactos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_7577d93ba4e3a9a8709d140e",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO3.industria-cultural-e-midia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_75da3633afa506a84f02dea4",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "HB2.segundo-reinado",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_76c6b00fb9c3b5047d4251c9",
+    "area": "CH",
+    "ano": 2012,
+    "posicao": null,
+    "no": "HG6.conquista-e-colonizacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_775640fd55995393effd6647",
+    "area": "CN",
+    "ano": 2018,
+    "posicao": null,
+    "no": "QU4.isomeria",
+    "delta": [
+      {
+        "antes": "s",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_77b1e5c80a7249684f6e903a",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "HG2.renascimento-comercial-e-urbano",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_77fb00b70f5c4274ed41df35",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "SO4.genero-e-sexualidade",
+    "delta": [
+      {
+        "antes": "20.",
+        "depois": "XX."
+      },
+      {
+        "antes": "",
+        "depois": "SILVA, J. L. M. Transformações no espaço doméstico: o fogão a gás e a cozinha paulistana, 1870-1930. Anais do Museu Paulista, n. 2, jul.-dez. 2007 (adaptado)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_7806edcd3e09ccfd442a8bec",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "BI1.divisao-celular",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_7aa17072b2effe6d2d2d1592",
+    "area": "CN",
+    "ano": 2021,
+    "posicao": null,
+    "no": "BI6.botanica",
+    "delta": [
+      {
+        "antes": "O plantio por estaquia é um método",
+        "depois": "A imagem apresenta as etapas do funcionamento"
+      },
+      {
+        "antes": "propagação",
+        "depois": "uma estação individual para tratamento do esgoto residencial. [IMAGEM: 'Como funciona a estação individual' (etapas 1 a 6), PDF oficial ENEM 2021, 2º dia, caderno 7 azul (2021_PV_impresso_D2_CD7.pdf), página 12] TAVARES, K. Estações"
+      },
+      {
+        "antes": "plantas no",
+        "depois": "tratamento de esgoto individuais permitem a reutilização da água. Disponível em: Acesso em: 18 nov. 2014 (adaptado). Em"
+      },
+      {
+        "antes": "partes",
+        "depois": "etapa decanta-se o lodo a ser separado do esgoto residencial? Figura intitulada Como funciona a estação individual, com as etapas"
+      },
+      {
+        "antes": "um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois",
+        "depois": "1"
+      },
+      {
+        "antes": "propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule. A utilização de auxinas no método de estaquia das roseiras contribui para floração da planta. produção de gemas laterais. formação de folhas maiores. formação de raízes adventícias. produção de compostos energéticos.",
+        "depois": "6. 1 2 3 5 6"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Defeito: texto substituído por tratamento de esgoto, mas descrição não informa o conteúdo das etapas numeradas.",
+    "no_depois": null
+  },
+  {
+    "id": "gq_7b06d602e00242f6d1c6c3bc",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "SO4.desigualdade-social-e-estratificacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8157ef5d37b68be1df1a9dbf",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO3.cultura-popular-e-religiosidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_83bd5c51ffa6d46ac90b8aaa",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "GE8.conflitos-territoriais-e-etnicos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_85cff5aa1fbc7bd450ea61e6",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "QU1.propriedades-da-materia-e-separacao-de-misturas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8606e22e68559aefb397b82a",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "AR2.hibridismo-e-dialogo-musical",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8796b1582d37cd6742260f99",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8849abc748c734fb9948cec7",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO3.cultura-popular-e-religiosidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_89fe77316bcdd02bcdcc56ce",
+    "area": "LC",
+    "ano": 2013,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8a3c1e72bdb151eebc5357a9",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [
+      {
+        "antes": "Empanada Overa en bayo claro, vaquilla echada, eres del vino tinto la camarada. [...] Vienes llena de pino, cebolla y carne, con pasas, huevo duro, y aliño de hambre. Con el primer mordisco por una oreja, se abre tu boca ardiente como sorpresa. Te la lleno de pebre quedas picante si te beso muy fuerte, no me reclames. Busco, loco, en tu vientre, delicia oscura, la traición exquisita de tu aceituna. [...] Y repite el ataque por andanadas: Nadie queda con hambre si hay empanadas. ANTRIX, J.",
+        "depois": "If children live with criticism, they learn to condemn. If children live with fear, they learn to be apprehensive. If children live with pity, they learn to feel sorry for themselves. If children live with ridicule, they learn to feel shy. If children live with tolerance, they learn patience. If children live with praise, they learn appreciation. If children live with acceptance, they learn to love. If children live with approval, they learn to like themselves. If children live with recognition, they learn it is good to have a goal. If children live with sharing, they learn generosity. If children live with fairness, they learn justice. If children live with kindness and consideration, they learn respect. If children live with friendliness, they learn the world is a nice place in which to live. Acesso em: 30 jul. 2012. NOLTE, D. L."
+      },
+      {
+        "antes": "",
+        "depois": "www.americanfamilytraditions.com."
+      },
+      {
+        "antes": "8 dez. 2018 (fragmento). A gastronomia é uma das",
+        "depois": "30 jul. 2012. Valores culturais de um povo revelam sua forma de ser, agir e pensar. Na concepção da autora, as diferentes"
+      },
+      {
+        "antes": "expressão cultural de um povo. Nesse poema, ao personificar",
+        "depois": "educar crianças nos Estados Unidos confirmam que"
+      },
+      {
+        "antes": "empanadas,",
+        "depois": "crianças temem quem as amedronta. aprendem com"
+      },
+      {
+        "antes": "escritor chileno Antrix enaltece esse prato da culinária hispânica. descreve algumas etapas de preparação dessa receita. destaca a importância do vinho na alimentação hispânica. resgata o papel histórico desse alimento em tempos de fome. evidencia a relevância de alguns condimentos na cozinha hispânica.",
+        "depois": "que vivem. amam aqueles que as aceitam. são gentis quando respeitadas. ridicularizam quem as intimida."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: crianças aprendem com o ambiente em que vivem.",
+    "no_depois": "LE1.compreensao-e-inferencia"
+  },
+  {
+    "id": "gq_8a52755aa2acba04892ddada",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE2.estrutura-geologica-e-relevo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8abe01eb906a8063a6636197",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL9.poema-e-eu-lirico",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8d2178404d2511cb7cf03287",
+    "area": "CN",
+    "ano": 2013,
+    "posicao": null,
+    "no": "QU2.estequiometria",
+    "delta": [
+      {
+        "antes": "1023 mol–1",
+        "depois": "10^23 mol^-1"
+      },
+      {
+        "antes": "1021",
+        "depois": "10^21"
+      },
+      {
+        "antes": "1022",
+        "depois": "10^22"
+      },
+      {
+        "antes": "1023",
+        "depois": "10^23"
+      },
+      {
+        "antes": "1025",
+        "depois": "10^25"
+      },
+      {
+        "antes": "1025",
+        "depois": "10^25"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_8e9baa2ded92ba73411d3663",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LL8.literatura-e-ditadura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8edd9a57c451167876acbc3e",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "GE7.blocos-economicos-e-comercio-internacional",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8f38866ff2e13a08c2584e3a",
+    "area": "CH",
+    "ano": 2013,
+    "posicao": null,
+    "no": "HB1.povos-indigenas-e-colonizacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_8fd4b6f624ad457ecdbbb55a",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "QU2.gases",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_902b54b055c809cdc14e74c0",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "GE5.problemas-e-segregacao-urbana",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_908dcea06b2ba064685de9f1",
+    "area": "MT",
+    "ano": 2018,
+    "posicao": null,
+    "no": "MA2.escalas",
+    "delta": [
+      {
+        "antes": "X>",
+        "depois": "X >"
+      },
+      {
+        "antes": "",
+        "depois": "1 500 < X < 2 250."
+      },
+      {
+        "antes": "E) 2 250 < X < 3 000.",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_9107c5a16c918c546bc3f3e5",
+    "area": "LC",
+    "ano": 2015,
+    "posicao": null,
+    "no": "LP1.estrategias-argumentativas",
+    "delta": [
+      {
+        "antes": "matricule- se",
+        "depois": "matricule-se"
+      },
+      {
+        "antes": "junte- se",
+        "depois": "junte-se"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_91554940f3345ee6474b93ec",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "BI5.reproducao-e-desenvolvimento",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_933a63620865cf907e7cbb3e",
+    "area": "CN",
+    "ano": 2020,
+    "posicao": null,
+    "no": "QU2.estequiometria",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "C₂H₅OH (l) + 3 O₂ (g) → 2 CO₂ (g) + 3 H₂O (g)"
+      },
+      {
+        "antes": "",
+        "depois": "CHIARADIA, C. A. Estudo da viabilidade da implantação de frotas de veículos elétricos e híbridos elétricos no atual cenário econômico, político, energético e ambiental brasileiro. Guaratinguetá: Unesp, 2015 (adaptado)."
+      },
+      {
+        "antes": "20 40 60 80 100",
+        "depois": "50. 60. 95. 99. 120."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_9425233c3800bc906cd6cdc2",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LP3.funcoes-da-linguagem",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_9561c019d249b503a284b1ef",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "LE1.compreensao-e-inferencia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_9573b58b42b0782a2f18152a",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP1.estrategias-argumentativas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_976ce20f9fa9c2fca18ea49e",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LP5.semantica-e-efeitos-expressivos",
+    "delta": [
+      {
+        "antes": "Bastava um olhar pra eu entender Que era hora de me entregar pra você Palavras não faziam falta mais Ah, só de lembrar do seu perfume Que arrepio, que calafrio Que o meu corpo sente Nem que eu queira, eu te apago da minha mente",
+        "depois": ""
+      },
+      {
+        "antes": "",
+        "depois": "Ah, esse amor"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_97fd2312c10ec07d9a5e81d0",
+    "area": "CN",
+    "ano": 2016,
+    "posicao": null,
+    "no": "FS5.fisica-nuclear-e-radioatividade",
+    "delta": [
+      {
+        "antes": "U 235",
+        "depois": "²³⁵U"
+      },
+      {
+        "antes": "95 Sr",
+        "depois": "⁹⁵Sr"
+      },
+      {
+        "antes": "139 Xe",
+        "depois": "¹³⁹Xe"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_990025b80c8a382ed1386f98",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "HB3.proclamacao-e-ideario-republicano",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_99219da6fd12d465fa4410bb",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "HG3.renascimento-e-reformas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_9acec7a003889a4dbd2d560f",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LL9.intertextualidade-parodia-e-releitura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_9b89432144a65644ee1eebbe",
+    "area": "LC",
+    "ano": 2018,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_9b926cb85cdbd373a403fa18",
+    "area": "MT",
+    "ano": 2016,
+    "posicao": null,
+    "no": "MA4.funcao-logaritmica",
+    "delta": [
+      {
+        "antes": "log 10 (3)",
+        "depois": "log10(3)"
+      },
+      {
+        "antes": "log 10 (11).",
+        "depois": "log10(11)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_a5db4846e772b89511ca3c6d",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_a7be24c4a9895da684a5ef20",
+    "area": "LC",
+    "ano": 2016,
+    "posicao": null,
+    "no": "LL9.recursos-expressivos-e-construcao-literaria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_a97f43421f79fb40d20498af",
+    "area": "LC",
+    "ano": 2013,
+    "posicao": null,
+    "no": "LL7.3a-fase-geracao-de-45",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_a9d3387b9c2dd0ca3bb058b0",
+    "area": "LC",
+    "ano": 2018,
+    "posicao": null,
+    "no": "LP3.funcoes-da-linguagem",
+    "delta": [
+      {
+        "antes": "Resumo:",
+        "depois": ""
+      },
+      {
+        "antes": "SANT'ANA,",
+        "depois": "SANT’ANA,"
+      },
+      {
+        "antes": "estética\"e",
+        "depois": "estética\" e"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_aa1ffcc45bb966ab57163ed8",
+    "area": "LC",
+    "ano": 2016,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ac403d88530fba7d5a61a5df",
+    "area": "CN",
+    "ano": 2018,
+    "posicao": null,
+    "no": "QU3.termoquimica",
+    "delta": [
+      {
+        "antes": "CO",
+        "depois": "C6H12O6"
+      },
+      {
+        "antes": "O",
+        "depois": "O2"
+      },
+      {
+        "antes": "—→",
+        "depois": "→"
+      },
+      {
+        "antes": "CO",
+        "depois": "CO2"
+      },
+      {
+        "antes": "6HO () ∆ H=",
+        "depois": "6 H2O (l) ΔcH ="
+      },
+      {
+        "antes": "C",
+        "depois": ""
+      },
+      {
+        "antes": "mol-1):",
+        "depois": "mol^-1):"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_acf5d212cc9ae8ac21b8be08",
+    "area": "LC",
+    "ano": 2020,
+    "posicao": null,
+    "no": "TC1.internet-e-redes-sociais",
+    "delta": [
+      {
+        "antes": "Ade britânica",
+        "depois": "[IMAGEM: campanha publicitária sobre adoção] Disponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018. Nessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia"
+      },
+      {
+        "antes": "medicina St. George usou",
+        "depois": "que Imagem de uma família em que, ao redor de"
+      },
+      {
+        "antes": "software",
+        "depois": "homem e de uma mulher, aparecem quatro jovens de características distintas, assim identificados, da esquerda"
+      },
+      {
+        "antes": "definir quem deveria ser entrevistado. Ao reproduzir",
+        "depois": ""
+      },
+      {
+        "antes": "forma como os funcionários faziam essa escolha, o programa eliminou, de cara, 60 de 2 000 candidatos. Só por causa",
+        "depois": "direita: “André, adotado aos 15 anos”; “Rodrigo, adotado aos 13 anos”; “Bruno ganhou novos irmãos a partir dos 3 anos”; “Francisco, adotado aos 8 anos”. O homem é identificado: “Sinomar adotou aos 29 anos”, e a mulher: “Débora adotou aos 27 anos”. Na parte inferior esquerda"
+      },
+      {
+        "antes": "sexo ou",
+        "depois": "cartaz, está escrito: “Adoção. Pra encontrar a sua verdadeira família, não existe idade”. Na parte superior direita, encontra-se a logo"
+      },
+      {
+        "antes": "origem racial, numa dedução baseada em sobrenome e local de nascimento. Um estudo sobre o caso foi publicado em 1988, mas, 25 anos depois, outra pesquisa apontou que esse tipo de discriminação segue firme. O exemplo recente envolve o buscador do Google: ao digitar nomes comuns entre negros dos EUA, a chance de os anúncios automáticos oferecerem checagem de antecedentes criminais pode aumentar 25%. E pode piorar",
+        "depois": "campanha"
+      },
+      {
+        "antes": "pergunta \"detido?\" logo após",
+        "depois": "frase: “Adoção, lição de amor”."
+      },
+      {
+        "antes": "palavra procurada. Disponível em: Acesso em: 11 ago. 2017 (adaptado). O texto permite o desnudamento da sociedade ao relacionar",
+        "depois": "família que adota é mais feliz. a adoção tardia é muito positiva."
+      },
+      {
+        "antes": "tecnologias",
+        "depois": "famílias preferem adotar bebês. a adoção"
+      },
+      {
+        "antes": "informação e comunicação com o(a) agilidade",
+        "depois": "adolescentes é mais simples. os filhos adotivos são companheiros"
+      },
+      {
+        "antes": "softwares. passar dos anos. linguagem. preconceito. educação.",
+        "depois": "pais."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: imagem e texto na campanha de adoção tardia.",
+    "no_depois": "LP1.leitura-de-textos-multimodais"
+  },
+  {
+    "id": "gq_adb20a479558b68e0e15a5f7",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL6.pre-modernismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ae84c04155a73e41737cecd2",
+    "area": "CH",
+    "ano": 2019,
+    "posicao": null,
+    "no": "HG5.guerras-mundiais-e-totalitarismos",
+    "delta": [
+      {
+        "antes": "queterminalevando",
+        "depois": "que termina levando"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_b1102c405454aa94f81db9ac",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_b1f233711963f2d5e4272e58",
+    "area": "CN",
+    "ano": 2020,
+    "posicao": null,
+    "no": "QU3.cinetica-quimica",
+    "delta": [
+      {
+        "antes": "mol-1,",
+        "depois": "mol^-1,"
+      },
+      {
+        "antes": "5,00",
+        "depois": "4,27"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_b291ab2ee7e8633e5c940955",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL4.machado-de-assis",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_b4a513af90934bebfec3f47e",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI5.poder-disciplina-e-controle",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_b51898071deb6f81bc8218c3",
+    "area": "CN",
+    "ano": 2015,
+    "posicao": null,
+    "no": "QU2.solucoes-e-concentracao",
+    "delta": [
+      {
+        "antes": "(NO 3 − )",
+        "depois": "(NO3^-)"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_b6ca436f8e1d1780aced3188",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL4.naturalismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_b75d10d45f58b2e9e8971a2b",
+    "area": "LC",
+    "ano": 2021,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "And Palestinians"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_b7a622914984c36bda68529b",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "BI4.relacoes-ecologicas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_b8f4ee587c7f1fd71498cc48",
+    "area": "LC",
+    "ano": 2020,
+    "posicao": null,
+    "no": "LL6.pre-modernismo",
+    "delta": [
+      {
+        "antes": "antásticas",
+        "depois": "TEXTO I É pau, é pedra, é o fim do caminho É um resto de toco, é um pouco sozinho É um caco de vidro, é a vida, é o sol É a noite, é a morte, é o laço, é o anzol É peroba-do-campo, é o nó"
+      },
+      {
+        "antes": "natureza morta...Os aflitivos pássaros noturnos gemiam agouros",
+        "depois": "madeira Caingá, candeia, é o matita-pereira TOM JOBIM. Águas de março. O Tom de Jobim e o tal de João Bosco (disco de bolso). Salvador: Zen Produtora, 1972 (fragmento). TEXTO II A inspiração súbita e certeira do compositor serve ainda de exemplo do lema antigo: nada vem do nada. Para ninguém, nem mesmo para Tom Jobim. Duas fontes são razoavelmente conhecidas. A primeira é o poema O caçador de esmeraldas, do mestre parnasiano Olavo Bilac: “Foi em março, ao findar da chuva, quase à entrada/ do outono, quando a terra em sede requeimada/ bebera longamente as águas da estação [...]”. E a outra é um ponto de macumba, gravado"
+      },
+      {
+        "antes": "pios fúnebres. Maria quis fugir,",
+        "depois": "sucesso por J. B. Carvalho, do Conjunto Tupi: “É pau, é pedra, é seixo miúdo, roda a baiana por cima de tudo”. Combinar Olavo Bilac e macumba já seria bom;"
+      },
+      {
+        "antes": "os membros cansados não acudiam aosímpetos",
+        "depois": "o que se vê em Águas de março vai muito além: tudo se transforma numa outra coisa e numa outra música, que recompõem o mundo para nós. NESTROVSKI, A. O samba mais bonito"
+      },
+      {
+        "antes": "medo e deixavam-na prostrada em uma angústia desesperada. ARANHA, J. P. G. Canaã.",
+        "depois": "mundo. In: Três canções de Tom Jobim."
+      },
+      {
+        "antes": "Ática, 1997. No trecho,",
+        "depois": "Cosac Naify, 2004. Ao situar a composição no panorama cultural brasileiro,"
+      },
+      {
+        "antes": "narrador mobiliza recursos",
+        "depois": "Texto II destaca o(a) diálogo que a letra da canção estabelece com diferentes tradições da cultura nacional. singularidade com que o compositor converte referências eruditas em populares. caráter inovador com que o compositor concebe o processo"
+      },
+      {
+        "antes": "linguagem",
+        "depois": "criação artística. relativização"
+      },
+      {
+        "antes": "geram uma expressividade centrada",
+        "depois": "a letra da canção promove"
+      },
+      {
+        "antes": "percepção",
+        "depois": "concepção tradicional de originalidade. resgate que a letra"
+      },
+      {
+        "antes": "relação entre a natureza opressiva e o desejo",
+        "depois": "canção promove"
+      },
+      {
+        "antes": "libertação da personagem. confluência entre o estado emocional da personagem e a configuração da paisagem. prevalência do mundo natural em relação à fragilidade humana. depreciação do sentido da vida diante da consciência da morte iminente. instabilidade psicológica da personagem face à realidade hostil.",
+        "depois": "obras pouco conhecidas pelo público no país."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: Águas de março combina referências de Bilac e ponto de macumba.",
+    "no_depois": "AR2.hibridismo-e-dialogo-musical"
+  },
+  {
+    "id": "gq_b95e69c624d5e87ab3258f88",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP5.recursos-gramaticais-no-texto",
+    "delta": [
+      {
+        "antes": "Ouso",
+        "depois": "O uso"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_baf8d7f296c4ad293d8c8fdb",
+    "area": "LC",
+    "ano": 2017,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_bd1348a1a4f87399b5350aa6",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FI5.poder-disciplina-e-controle",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_bd1613824d50d19ee9a6d589",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP4.norma-padrao-e-adequacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_bd293ec53d4dc52d45dadb01",
+    "area": "CH",
+    "ano": 2014,
+    "posicao": null,
+    "no": "HB7.direitos-humanos-e-memoria",
+    "delta": [
+      {
+        "antes": "www.jb.com.br.Acessoem:",
+        "depois": "www.jb.com.br. Acesso em:"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_bd5c553b493a41e89c828dc8",
+    "area": "CH",
+    "ano": 2011,
+    "posicao": null,
+    "no": "SO4.cidadania-direitos-e-politicas-publicas",
+    "delta": [
+      {
+        "antes": "contnua",
+        "depois": "continua"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_be295ea965586e4e4aa73b1c",
+    "area": "CH",
+    "ano": 2012,
+    "posicao": null,
+    "no": "FI5.poder-e-estado-moderno",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_bea70f4be80b49170fa52775",
+    "area": "LC",
+    "ano": 2014,
+    "posicao": null,
+    "no": "LP1.relacao-entre-textos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c08424af10f755073428f081",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI3.racionalismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c13077eda9243c73f722dd20",
+    "area": "CN",
+    "ano": 2021,
+    "posicao": null,
+    "no": "BI3.teorias-evolutivas-e-selecao-natural",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "Disponível em: www.who.int. Acesso em: 1 fev. 2017 (adaptado)."
+      },
+      {
+        "antes": "A",
+        "depois": ""
+      },
+      {
+        "antes": "B",
+        "depois": ""
+      },
+      {
+        "antes": "C",
+        "depois": ""
+      },
+      {
+        "antes": "D",
+        "depois": ""
+      },
+      {
+        "antes": "E",
+        "depois": ""
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_c18e11848a242238324c241b",
+    "area": "CH",
+    "ano": 2014,
+    "posicao": null,
+    "no": "HG5.meios-de-comunicacao-e-politica",
+    "delta": [
+      {
+        "antes": "multares.",
+        "depois": "militares."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_c1b5f093dbf3efcd0224c865",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL7.1a-fase",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c24e72eda444b8939d2e4092",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP4.norma-padrao-e-adequacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c2c7bca230eff020a223f2ab",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL4.machado-de-assis",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c43c6eeeacd38163e603b4a6",
+    "area": "CH",
+    "ano": 2021,
+    "posicao": null,
+    "no": "HB1.escravidao-colonial-e-resistencia",
+    "delta": [
+      {
+        "antes": "[imagem: escravizados carregando",
+        "depois": "[Descrição da imagem: A imagem intitulada “Lixo: a limpeza urbana através dos tempos” apresenta uma pintura que mostra a cena de escravos levando"
+      },
+      {
+        "antes": "na cabeça]",
+        "depois": "apoiados em suas cabeças e comandados por uma autoridade empunhando uma espada.]"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_c45234dbaaa0ed29b047c562",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LP2.tipos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c4a2ea8d064243be9bd54141",
+    "area": "MT",
+    "ano": 2015,
+    "posicao": null,
+    "no": "MA2.grandezas-unidades-e-conversoes",
+    "delta": [
+      {
+        "antes": "x 10³",
+        "depois": "× 10^3"
+      },
+      {
+        "antes": "x 106",
+        "depois": "× 10^6"
+      },
+      {
+        "antes": "x 109",
+        "depois": "× 10^9"
+      },
+      {
+        "antes": "x 1012",
+        "depois": "× 10^12"
+      },
+      {
+        "antes": "x 1015",
+        "depois": "× 10^15"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_c5ec59b6381ba223af7fe5f6",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO4.genero-e-sexualidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_c94be5e1955bbb8644aaf59e",
+    "area": "LC",
+    "ano": 2017,
+    "posicao": null,
+    "no": "EF1.acesso-as-praticas-corporais",
+    "delta": [
+      {
+        "antes": "(fragmento)",
+        "depois": "(fragmento)."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_c9e97c325a3d3b2b5b886d2a",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FI4.existencia-liberdade-e-critica-dos-valores",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ca133904890e520fe62f2c03",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI6.escola-de-frankfurt-e-critica-da-cultura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_cbb5f3c01a4de167f6142db9",
+    "area": "MT",
+    "ano": 2020,
+    "posicao": null,
+    "no": "MA2.grandezas-unidades-e-conversoes",
+    "delta": [
+      {
+        "antes": "10−2",
+        "depois": "10^-2"
+      },
+      {
+        "antes": "101",
+        "depois": "10^1"
+      },
+      {
+        "antes": "101",
+        "depois": "10^1"
+      },
+      {
+        "antes": "10−2",
+        "depois": "10^-2"
+      },
+      {
+        "antes": "10−2",
+        "depois": "10^-2"
+      },
+      {
+        "antes": "10−3",
+        "depois": "10^-3"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_cbc37301210949f56ff47490",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "FS5.fisica-nuclear-e-radioatividade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_cc6845f5ba9d5d352ff15c75",
+    "area": "CH",
+    "ano": 2010,
+    "posicao": null,
+    "no": "SO4.genero-e-sexualidade",
+    "delta": [
+      {
+        "antes": "tao",
+        "depois": "tão"
+      },
+      {
+        "antes": "SOUZA",
+        "depois": "SOUZA,"
+      },
+      {
+        "antes": "Letras.",
+        "depois": "Letras,"
+      },
+      {
+        "antes": "Lés – bicas,",
+        "depois": "Lésbicas,"
+      },
+      {
+        "antes": "www.alemdanoticia.com.br/utimas_noticias.php?codnoticia=3871.",
+        "depois": "www.alemdanoticia.com.br/ultimas_noticias.php?codnoticia=3871."
+      },
+      {
+        "antes": "polítíca",
+        "depois": "política"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_ce4958c225d949a55083c597",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL7.2a-fase-romance-de-30",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ceb55020d2d4d690acdebc14",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP1.objetivo-e-finalidade-do-texto",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_cf0426617ddf90a05b7d3450",
+    "area": "CN",
+    "ano": 2015,
+    "posicao": null,
+    "no": "FS1.dinamica-e-leis-de-newton",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "μe ="
+      },
+      {
+        "antes": "",
+        "depois": "μc ="
+      },
+      {
+        "antes": "(d)",
+        "depois": "(d1)"
+      },
+      {
+        "antes": "(f)",
+        "depois": "(d2)"
+      },
+      {
+        "antes": "d",
+        "depois": "d1"
+      },
+      {
+        "antes": "f",
+        "depois": "d2"
+      },
+      {
+        "antes": "d",
+        "depois": "d1"
+      },
+      {
+        "antes": "f",
+        "depois": "d2"
+      },
+      {
+        "antes": "d",
+        "depois": "d1"
+      },
+      {
+        "antes": "f",
+        "depois": "d2"
+      },
+      {
+        "antes": "d",
+        "depois": "d1"
+      },
+      {
+        "antes": "5 , 8",
+        "depois": "5,8"
+      },
+      {
+        "antes": "10 2",
+        "depois": "10^2"
+      },
+      {
+        "antes": "f",
+        "depois": "d2"
+      },
+      {
+        "antes": "7 , 8",
+        "depois": "7,8"
+      },
+      {
+        "antes": "10 2",
+        "depois": "10^2"
+      },
+      {
+        "antes": "d",
+        "depois": "d1"
+      },
+      {
+        "antes": "7 , 8",
+        "depois": "7,8"
+      },
+      {
+        "antes": "10 2",
+        "depois": "10^2"
+      },
+      {
+        "antes": "f",
+        "depois": "d2"
+      },
+      {
+        "antes": "5 , 8",
+        "depois": "5,8"
+      },
+      {
+        "antes": "10 2",
+        "depois": "10^2"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_d159b7f225d656f8d70dbaac",
+    "area": "CN",
+    "ano": 2020,
+    "posicao": null,
+    "no": "FS3.interferencia-e-ressonancia",
+    "delta": [
+      {
+        "antes": "s-1.",
+        "depois": "s^-1."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_d2364cf40f770f557ecbf3fa",
+    "area": "CH",
+    "ano": 2010,
+    "posicao": null,
+    "no": "HB5.reformas-de-base-e-polarizacao",
+    "delta": [
+      {
+        "antes": "sobras”",
+        "depois": "“sobras”"
+      },
+      {
+        "antes": "Joao",
+        "depois": "João"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_d8096d6fac9800493bdaa48c",
+    "area": "LC",
+    "ano": 2012,
+    "posicao": null,
+    "no": "LP5.semantica-e-efeitos-expressivos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_da4879eadde48a351e753299",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "QU3.cinetica-quimica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_da618a213e8ebec22d410a41",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO4.cidadania-direitos-e-politicas-publicas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_da672718e07529da796a7d40",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "TC1.desinformacao-e-fake-news",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_dbcd39524336e1e4105e3155",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "HB2.segundo-reinado",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_df88318514624bbd57a79a30",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "ANTRIX, J. Disponível em:"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_e02e4fc6a8cb4ec5327609e0",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LL8.literatura-e-ditadura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e11e1596cccb599186cb7603",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL8.literatura-e-ditadura",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e217f1abe6c579e54c165b76",
+    "area": "LC",
+    "ano": 2022,
+    "posicao": null,
+    "no": "LL9.cronica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e24b413ff8877d30366b9db2",
+    "area": "LC",
+    "ano": 2021,
+    "posicao": null,
+    "no": "LE1.lingua-cultura-e-identidade",
+    "delta": [
+      {
+        "antes": "Ao descrever o processo de formação da Inglaterra, o autor do poema recorre",
+        "depois": "We are now"
+      },
+      {
+        "antes": "características de outro gênero textual para evidenciar A",
+        "depois": "nation obsessed with"
+      },
+      {
+        "antes": "British (serves 60 million) Take",
+        "depois": "cult of celebrity. Celebrities have replaced the classic notion of the hero. But instead of being respected for talent, courage or intelligence, it is money, style and image the deciding factors in what commands respect. Image is everything. Their image is painstakingly constructed by a multitude of different image consultants to carve out the most profitable celebrity they can. Then society is right behind them, believing in everything that celebrity believes in. Companies know that people will buy a product if a celebrity has it too. It is as if the person buying the product feels that they now have"
+      },
+      {
+        "antes": "Picts, Celts",
+        "depois": "kind of connection with the celebrity"
+      },
+      {
+        "antes": "Silures And let them settle, Then overrun them with Roman conquerors. Remove",
+        "depois": "that some of their perceived happiness will now be passed onto"
+      },
+      {
+        "antes": "Romans after approximately 400 years Add lots",
+        "depois": "consumer. So to look at it one way, the cult"
+      },
+      {
+        "antes": "Norman French",
+        "depois": "celebrity is really nothing more than a sophisticated marketing scheme. Celebrities though cannot be blamed for all negative aspects of society. In reality society is"
+      },
+      {
+        "antes": "some Angles, Saxons, Jutes and Vikings, then stir vigorously. [...] Sprinkle some fresh Indians, Malaysians, Bosnians, Iraqis and Bangladeshis together with some Afghans, Spanish, Turkish, Kurdish, Japanese Then add",
+        "depois": "blame. We are the people who seemed"
+      },
+      {
+        "antes": "",
+        "depois": "have lost"
+      },
+      {
+        "antes": "melting pot. Leave the ingredients",
+        "depois": "ability"
+      },
+      {
+        "antes": "simmer. As they mix and blend allow their languages to flourish Binding them together with English. Allow time",
+        "depois": "think for ourselves. I suppose it's easier"
+      },
+      {
+        "antes": "cool. Add some unity, understanding, and respect",
+        "depois": "told what to think, rather than challenging what we are told. The reason we are swamped by celebrity is because there is a demand"
+      },
+      {
+        "antes": "the future Serve with justice And enjoy. Note: All the ingredients are equally important. Treating one ingredient better than another will leave",
+        "depois": "it. Disponível em: www.pitlanemagazine.com. Acesso em: 7 dez. 2017 (adaptado). O texto, que aborda questões referentes ao tema do culto à celebridade, tem o objetivo de destacar os méritos das celebridades. criticar o consumismo das celebridades. ressaltar"
+      },
+      {
+        "antes": "bitter unpleasant taste. Warning: An unequal spread of justice will damage the people and cause pain. Give justice and equality to all. a riqueza da mistura cultural. um legado",
+        "depois": "necessidade"
+      },
+      {
+        "antes": "origem geográfica. um impacto de natureza histórica. um problema de estratificação social. a questão da intolerância linguística.",
+        "depois": "reflexão dos fãs. culpar as celebridades pela obsessão dos fãs. valorizar o marketing pessoal das celebridades."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: crítica ao culto a celebridades e necessidade de reflexão dos fãs.",
+    "no_depois": "LE1.finalidade-e-argumentacao"
+  },
+  {
+    "id": "gq_e2faa746bdb9e2cf6eb2dad2",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "HB4.estado-novo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e452b584abb5a8f72a782cb0",
+    "area": "CN",
+    "ano": 2010,
+    "posicao": null,
+    "no": "BI4.ciclos-biogeoquimicos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e4780cdd1b3f8933530c5133",
+    "area": "CN",
+    "ano": 2022,
+    "posicao": null,
+    "no": "FS1.gravitacao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e4a415558e28eb0036f05648",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP1.estrategias-argumentativas",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e512313d90dedbc3cfdbb5b6",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e56c7f0775d7077909379453",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "HB2.escravidao-no-imperio-e-abolicao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e6613ff880f22772dc361378",
+    "area": "CN",
+    "ano": 2010,
+    "posicao": null,
+    "no": "QU3.equilibrio-acido-base-e-ph",
+    "delta": [
+      {
+        "antes": "acompanha",
+        "depois": "acompanhada"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_e74f67197da1a7687f9a751c",
+    "area": "CH",
+    "ano": 2023,
+    "posicao": null,
+    "no": "GE3.mudancas-climaticas-e-acordos-internacionais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e8f988172eccfaa91f470a9f",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "SO3.cultura-popular-e-religiosidade",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_e94fa74df2dd8fa101bbcadf",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "Disponível em: Acesso em: 4 dez. 2018."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_e9bc804de7c539bffe49e081",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "GE6.migracoes-internas-e-internacionais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ea51515de3686395f2e1bc00",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP1.relacao-entre-textos",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ea5b83880b214e23196e4909",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.finalidade-e-argumentacao",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "Disponível em: www.muyinteresante.es. Acesso em: 31 out. 2012 (adaptado). A"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_ea684bcd1c7c9b9e224fccbc",
+    "area": "MT",
+    "ano": 2017,
+    "posicao": null,
+    "no": "MA4.graficos-e-dominio-de-funcoes",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ecc080f06fe98640ac3006f9",
+    "area": "LC",
+    "ano": 2013,
+    "posicao": null,
+    "no": "LE1.compreensao-e-inferencia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ed1c0a0756124e41865f77ea",
+    "area": "CH",
+    "ano": 2022,
+    "posicao": null,
+    "no": "GE6.migracoes-internas-e-internacionais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_eef535e19f0f621b88d2a9d8",
+    "area": "LC",
+    "ano": 2019,
+    "posicao": null,
+    "no": "LE1.finalidade-e-argumentacao",
+    "delta": [
+      {
+        "antes": "Que hay",
+        "depois": "In this life Sitting on a park bench Thinking about a friend of mine He was only twenty-three Gone before he had his time. It came without a warning Didnꞌt want his friends to see him cry He knew the day was dawning And I didnꞌt have a chance to say goodbye. MADONNA. Erotica. Estados Unidos: Maverick, 1992. A canção, muitas vezes, é uma forma"
+      },
+      {
+        "antes": "cierto en la fábula",
+        "depois": "manifestar sentimentos e emoções da vida cotidiana. Por exemplo, o sofrimento retratado nessa canção foi causado pela morte precoce"
+      },
+      {
+        "antes": "la cigarra y la hormiga Cuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina, la hormiga algo que llevarse a la boca. Esta le ofreció granos",
+        "depois": "um amigo jovem. pelo término"
+      },
+      {
+        "antes": "arroz acompañados",
+        "depois": "um relacionamento amoroso. pela mudança"
+      },
+      {
+        "antes": "una moraleja: más vale prevenir que lamentar. ¿Merecen su fama",
+        "depois": "um amigo para outro país. pelo fim"
+      },
+      {
+        "antes": "previsoras y afanosas las hormigas? Sin duda. Las hormigas cortadoras",
+        "depois": "uma amizade"
+      },
+      {
+        "antes": "hojas (Attacephalotes),",
+        "depois": "mais de vinte anos. pela traição"
+      },
+      {
+        "antes": "ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín",
+        "depois": "parte"
+      },
+      {
+        "antes": "hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven. En cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano “cantando\" — un sonido que producen con unas membranas llamadas timbales — y encaramados a un árbol, de cuya savia se alimentan. Disponível em: www.muyinteresante.es. Acesso em: 31 out. 2012 (adaptado). A fábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para apresentar ao leitor um ensinamento moral. reforçar o estereótipo associado às cigarras. descrever o comportamento dos insetos na natureza. expor a superioridade das formigas em relação às cigarras. descrever a relação social entre formigas e cigarras na natureza.",
+        "depois": "pessoa próxima."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: perda precoce de amigo na canção In this life.",
+    "no_depois": "LE1.compreensao-e-inferencia"
+  },
+  {
+    "id": "gq_ef3372cc10d9413a05a3149d",
+    "area": "LC",
+    "ano": 2011,
+    "posicao": null,
+    "no": "LL5.simbolismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f056288b09afabb8fe812cd1",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LP3.funcoes-da-linguagem",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f068073b477ae3b56aeffd5d",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "LL6.pre-modernismo",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f2dca74d4e6e5a806bd38991",
+    "area": "LC",
+    "ano": 2018,
+    "posicao": null,
+    "no": "LE1.finalidade-e-argumentacao",
+    "delta": [
+      {
+        "antes": "Mayo 15 Que mañana no sea otro nombre",
+        "depois": "1984 (excerpt) ‘Is it your opinion, Winston, that the past has real existence?’ [...] O'Brien smiled faintly. ‘I will put it more precisely. Does the past exist concretely, in space? Is there somewhere or other a place, a world of solid objects, where the past is still happening?’ ‘No.’ ‘Then where does the past exist, if at all?’ ‘In records. It is written down.’ ‘In records. And — —?’ ‘In the mind. In human memories.’ ‘In memory. Very well, then. We, the Party, control all records, and we control all memories. Then we control the past, do we not?’ ORWELL, G. Nineteen Eighty-Four. New York: Signet Classics, 1977. O romance 1984 descreve os perigos"
+      },
+      {
+        "antes": "hoy En el año 2011, miles",
+        "depois": "um Estado totalitário. A ideia evidenciada nessa passagem é que o controle do Estado se dá por meio do(a) boicote a ideais libertários. veto ao culto das tradições. poder sobre memórias e registros. censura a produções orais e escritas. manipulação"
+      },
+      {
+        "antes": "jóvenes, despojados de sus casas y de sus empleos, ocuparon las plazas y las calles de varias ciudades de España. Y la indignación se difundió. La buena salud resultó más contagiosa que las pestes, y las voces de los indignados atravesaron las fronteras dibujadas en los mapas. Así resonaron en el mundo: Nos dijeron \"a la puta calle!\", y aquí estamos. Apaga la tele y enciende la calle. La llaman crisis, pero es estafa. No falta dinero: sobran ladrones. Los mercados gobiernan. Yo no los voté. Ellos toman decisiones por nosotros, sin nosotros. Se alquila esclavo económico. Estoy buscando mis derechos. ¿Alguien los ha visto? Si no nos dejan soñar, no los dejaremos dormir. GALEANO, E. Los hijos de los días. Buenos Aires: Siglo Veintiuno, 2012. Ao elencar algumas frases proferidas durante protestos na Espanha, o enunciador transcreve, de forma direta, as reivindicações dos manifestantes para provocá-los de forma velada. dar voz ao movimento popular. fomentar o engajamento do leitor. favorecer o diálogo entre governo e sociedade. instaurar dúvidas sobre a legitimidade da causa.",
+        "depois": "pensamentos individuais."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: controle de memórias e registros no romance 1984.",
+    "no_depois": "LE1.compreensao-e-inferencia"
+  },
+  {
+    "id": "gq_f30f20c4772b01cac22a146b",
+    "area": "CN",
+    "ano": 2021,
+    "posicao": null,
+    "no": "BI6.botanica",
+    "delta": [
+      {
+        "antes": "",
+        "depois": "O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_f4a21368888b80dcf0c831f3",
+    "area": "LC",
+    "ano": 2011,
+    "posicao": null,
+    "no": "LP4.variacao-regional-e-social",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f5724267e2df743168543a7b",
+    "area": "CN",
+    "ano": 2023,
+    "posicao": null,
+    "no": "BI2.mutacoes",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f598657a0b6de35b91502ed2",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP4.variacao-regional-e-social",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f601182e9a4ff65246def724",
+    "area": "LC",
+    "ano": 2016,
+    "posicao": null,
+    "no": "LL9.poema-e-eu-lirico",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f6adcd80c9fb1a9aedd942da",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI6.filosofia-da-ciencia",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f72cd8e8d5671d219f129f26",
+    "area": "CH",
+    "ano": 2024,
+    "posicao": null,
+    "no": "FI1.platao",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f7ed31246a625e1535dee3c7",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LL9.recursos-expressivos-e-construcao-literaria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f893561df9ec8fce01ac928a",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL7.2a-fase-romance-de-30",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_f93dc85f43ac7680e7c8f64e",
+    "area": "MT",
+    "ano": 2015,
+    "posicao": null,
+    "no": "MA4.funcao-quadratica",
+    "delta": [
+      {
+        "antes": "V,",
+        "depois": "V(x),"
+      },
+      {
+        "antes": "V",
+        "depois": "V(x)"
+      },
+      {
+        "antes": "902 x V",
+        "depois": "902x V(x)"
+      },
+      {
+        "antes": "930 x V",
+        "depois": "930x V(x)"
+      },
+      {
+        "antes": "30 x V",
+        "depois": "30x V(x)"
+      },
+      {
+        "antes": "60 x",
+        "depois": "60x"
+      },
+      {
+        "antes": "2 x 2 V",
+        "depois": "2x² V(x)"
+      },
+      {
+        "antes": "- 30 x - 2 x 2",
+        "depois": "− 30x − 2x²"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_f9dd1e4c518e111604164934",
+    "area": "CH",
+    "ano": 2020,
+    "posicao": null,
+    "no": "GE5.urbanizacao-no-brasil-e-no-mundo",
+    "delta": [
+      {
+        "antes": "As metrópoles brasileiras estenderam-se por áreas",
+        "depois": "[IMAGEM: Zona"
+      },
+      {
+        "antes": "ocupação contínua, configurando densas regiões urbanizadas. MOURA, R. Arranjos urbano-regionais",
+        "depois": "pastoreio e cultura do algodão e cereais do agreste (1963)] ANDRADE, M. C. A terra e o homem"
+      },
+      {
+        "antes": "Brasil: especificidades",
+        "depois": "Nordeste. São Paulo: Brasiliense, 1963. A dinâmica produtiva apresentada na imagem tem como estratégia central a Representação que trata da zona de pastoreio"
+      },
+      {
+        "antes": "reprodução",
+        "depois": "cultura do algodão e cereais do agreste (1963). A figura ilustra os meses do ano em três eixos referentes às culturas do feijão, do milho e do algodão, indicando para cada cultura as convenções"
+      },
+      {
+        "antes": "padrões. Disponível em: www.ub.edu. Acesso em: 11 fev. 2015.",
+        "depois": "pastoreio, plantio e limpa, crescimento, colheita de feijão, colheita de milho verde, colheita de milho seco e colheita de algodão, apresentando os seguintes dados:"
+      },
+      {
+        "antes": "resultado",
+        "depois": "pastoreio ocorre em janeiro e fevereiro na cultura"
+      },
+      {
+        "antes": "processo geográfico descrito foi o(a) valorização",
+        "depois": "feijão, em janeiro e fevereiro na cultura do milho e em janeiro e fevereiro na cultura do algodão. separação pelo tipo de solo. exportação"
+      },
+      {
+        "antes": "escala local. crescimento das áreas periféricas. densificação do transporte ferroviário. predomínio do planejamento estadual. inibição de consórcios intermunicipais.",
+        "depois": "colheita sazonal. priorização da tecnologia moderna. adequação pelo tempo da natureza. intensificação da atividade pecuária."
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "Revisão base final 13/11/2026: Texto substituído: calendário de culturas e pastoreio adaptado aos ciclos naturais. Descrição do gráfico é parcial; encaminhar à conferência.",
+    "no_depois": "GE4.agricultura-familiar-trabalho-e-povos-do-campo"
+  },
+  {
+    "id": "gq_fa62551a7ef2de4b9a636c9d",
+    "area": "LC",
+    "ano": 2010,
+    "posicao": null,
+    "no": "LL6.pre-modernismo",
+    "delta": [
+      {
+        "antes": "zera",
+        "depois": "estalar o bacalhau. Nunca se afizera"
+      }
+    ],
+    "somente_marcacao": false,
+    "revisao": "diferenças lidas; rótulo mantido"
+  },
+  {
+    "id": "gq_fd0ea1188ef645e6610b4bf8",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LE1.recursos-linguisticos-e-efeitos-de-sentido",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_fe1ba2798f1f88c8db91e8da",
+    "area": "LC",
+    "ano": 2024,
+    "posicao": null,
+    "no": "LP2.generos-textuais",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_fe435cc75654f11bccb1973d",
+    "area": "LC",
+    "ano": 2009,
+    "posicao": null,
+    "no": "LL9.recursos-expressivos-e-construcao-literaria",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  },
+  {
+    "id": "gq_ffd2b8fbe4884a0028606cde",
+    "area": "LC",
+    "ano": 2023,
+    "posicao": null,
+    "no": "LL8.autoria-negra-e-periferica",
+    "delta": [],
+    "somente_marcacao": true,
+    "revisao": "texto de busca idêntico após normalizar marcação"
+  }
+]

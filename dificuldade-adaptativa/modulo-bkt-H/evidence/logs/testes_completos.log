@@ -1,0 +1,50 @@
+test_bayes_correct (test_math.Math.test_bayes_correct) ... ok
+test_bayes_error (test_math.Math.test_bayes_error) ... ok
+test_cooldown (test_math.Math.test_cooldown) ... ok
+test_determinism_and_reset (test_math.Math.test_determinism_and_reset) ... ok
+test_future_does_not_change_prediction (test_math.Math.test_future_does_not_change_prediction) ... ok
+test_insufficient_data_abstains (test_math.Math.test_insufficient_data_abstains) ... ok
+test_limits_and_invalid (test_math.Math.test_limits_and_invalid) ... ok
+test_prediction_before_response (test_math.Math.test_prediction_before_response) ... ok
+test_stock_and_choice (test_math.Math.test_stock_and_choice) ... ok
+test_keyless_event_and_sequence_equivalence (test_data.Data.test_keyless_event_and_sequence_equivalence) ... ok
+test_student_isolation (test_data.Data.test_student_isolation) ... ok
+test_train_only_skill_selection (test_data.Data.test_train_only_skill_selection) ... ok
+test_verified_source (test_data.Data.test_verified_source) ... ok
+test_all_skills_really_exported (test_training.Training.test_all_skills_really_exported) ... ok
+test_convergence_and_initializations (test_training.Training.test_convergence_and_initializations) ... ok
+test_original_tolerances (test_training.Training.test_original_tolerances) ... ok
+test_parameter_constraints (test_training.Training.test_parameter_constraints) ... ok
+test_blocked_skills_use_fallback (test_engine.Engine.test_blocked_skills_use_fallback) ... ok
+test_concurrency_same_attempt (test_engine.Engine.test_concurrency_same_attempt) ... ok
+test_confirmed_frontend_contract_adapter (test_engine.Engine.test_confirmed_frontend_contract_adapter) ... ok
+test_cooldown_counts_responses_not_order_id_distance (test_engine.Engine.test_cooldown_counts_responses_not_order_id_distance) ... ok
+test_cross_student_collision_rejected (test_engine.Engine.test_cross_student_collision_rejected) ... ok
+test_cross_user_accept_rejected (test_engine.Engine.test_cross_user_accept_rejected) ... ok
+test_decline_preserves_choice (test_engine.Engine.test_decline_preserves_choice) ... ok
+test_explicit_acceptance_and_replay (test_engine.Engine.test_explicit_acceptance_and_replay) ... ok
+test_idempotency (test_engine.Engine.test_idempotency) ... ok
+test_idempotency_conflict (test_engine.Engine.test_idempotency_conflict) ... ok
+test_invalid_inputs_leave_no_state (test_engine.Engine.test_invalid_inputs_leave_no_state) ... ok
+test_invalid_model_rejected_before_state (test_engine.Engine.test_invalid_model_rejected_before_state) ... ok
+test_isolation_namespace (test_engine.Engine.test_isolation_namespace) ... ok
+test_legacy_state_migration_retains_offer_count (test_engine.Engine.test_legacy_state_migration_retains_offer_count) ... ok
+test_manual_choice_is_preserved (test_engine.Engine.test_manual_choice_is_preserved) ... ok
+test_model_version_isolates_state (test_engine.Engine.test_model_version_isolates_state) ... ok
+test_order_guard (test_engine.Engine.test_order_guard) ... ok
+test_server_attempt_id_independent_from_client_key (test_engine.Engine.test_server_attempt_id_independent_from_client_key) ... ok
+test_stale_offer_rejected (test_engine.Engine.test_stale_offer_rejected) ... ok
+test_state_persists_restart (test_engine.Engine.test_state_persists_restart) ... ok
+test_transaction_rolls_back (test_engine.Engine.test_transaction_rolls_back) ... ok
+test_unknown_skill_uses_fallback (test_engine.Engine.test_unknown_skill_uses_fallback) ... ok
+test_aligned_observations (test_evaluation.Evaluation.test_aligned_observations) ... ok
+test_extreme_groups (test_evaluation.Evaluation.test_extreme_groups) ... ok
+test_independent_loss_readback (test_evaluation.Evaluation.test_independent_loss_readback) ... ok
+test_student_bootstrap_replay (test_evaluation.Evaluation.test_student_bootstrap_replay) ... ok
+test_validation_policy_does_not_claim_learning (test_evaluation.Evaluation.test_validation_policy_does_not_claim_learning) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 2.733s
+
+OK
+Resultado por status {'aprovado': 44} exit code 0

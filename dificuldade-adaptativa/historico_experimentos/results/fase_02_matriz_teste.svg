@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="435" viewBox="0 0 530 435" role="img" aria-label="Matriz de confusão do MiniLM no teste de 2024">
+<rect width="530" height="435" fill="#fff"/>
+<g font-family="Arial,sans-serif" fill="#17263b" text-anchor="middle">
+<text x="265" y="34" font-size="22" font-weight="bold">MiniLM + LinearSVC</text>
+<text x="265" y="59" font-size="15">Teste de 2024 · 126 questões</text>
+<text x="310" y="91" font-size="15">Classe prevista</text>
+<text x="30" y="245" transform="rotate(-90 30 245)" font-size="15">Classe real</text>
+<text x="198" y="121" font-size="15">Fácil</text>
+<text x="92" y="179" font-size="15">Fácil</text>
+<text x="310" y="121" font-size="15">Média</text>
+<text x="92" y="265" font-size="15">Média</text>
+<text x="422" y="121" font-size="15">Difícil</text>
+<text x="92" y="351" font-size="15">Difícil</text>
+<rect x="145" y="135" width="106" height="80" rx="5" fill="rgb(80,107,143)"/>
+<text x="198" y="183" fill="white" font-size="22">29</text>
+<rect x="257" y="135" width="106" height="80" rx="5" fill="rgb(148,175,211)"/>
+<text x="310" y="183" fill="#17263b" font-size="22">17</text>
+<rect x="369" y="135" width="106" height="80" rx="5" fill="rgb(205,232,255)"/>
+<text x="422" y="183" fill="#17263b" font-size="22">7</text>
+<rect x="145" y="221" width="106" height="80" rx="5" fill="rgb(188,215,251)"/>
+<text x="198" y="269" fill="#17263b" font-size="22">10</text>
+<rect x="257" y="221" width="106" height="80" rx="5" fill="rgb(148,175,211)"/>
+<text x="310" y="269" fill="#17263b" font-size="22">17</text>
+<rect x="369" y="221" width="106" height="80" rx="5" fill="rgb(160,187,223)"/>
+<text x="422" y="269" fill="#17263b" font-size="22">15</text>
+<rect x="145" y="307" width="106" height="80" rx="5" fill="rgb(217,244,255)"/>
+<text x="198" y="355" fill="#17263b" font-size="22">5</text>
+<rect x="257" y="307" width="106" height="80" rx="5" fill="rgb(217,244,255)"/>
+<text x="310" y="355" fill="#17263b" font-size="22">5</text>
+<rect x="369" y="307" width="106" height="80" rx="5" fill="rgb(126,153,189)"/>
+<text x="422" y="355" fill="white" font-size="22">21</text>
+</g></svg>

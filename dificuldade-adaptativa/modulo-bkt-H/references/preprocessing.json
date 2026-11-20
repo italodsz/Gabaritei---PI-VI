@@ -1,0 +1,18 @@
+{
+  "pipeline_version": "1.0.0",
+  "schema_version": 1,
+  "dataset": "assistments",
+  "release": "skill-builder-2009-2010-corrected-collapsed",
+  "official_filename": "skill_builder_data_corrected_collapsed.csv",
+  "publisher": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+  "download": "https://drive.usercontent.google.com/download?id=1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE&export=download&confirm=t",
+  "source_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "source_bytes": 64412812,
+  "source_encoding": "latin-1",
+  "seed": 20261110,
+  "thresholds": {
+    "principal": [100, 30, 50, 50],
+    "brando": [75, 20, 30, 30],
+    "estrito": [150, 50, 100, 100]
+  }
+}

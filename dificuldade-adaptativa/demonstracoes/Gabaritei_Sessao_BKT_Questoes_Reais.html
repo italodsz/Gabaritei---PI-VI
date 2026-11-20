@@ -1,0 +1,1032 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gabaritei — Uma sessão com questões reais e BKT</title>
+<style>
+:root{--bg:#f3f5f6;--paper:#fff;--ink:#1c2f3a;--muted:#526876;--line:#d6e0e5;--blue:#225ccc;--soft:#eaf0ff;--green:#176340;--good:#e4f3eb;--orange:#88470f;--warm:#fff1d9;--red:#9c2c2c;--wrong:#ffedeb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}button,select,input{font:inherit}button,summary{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:4px}a{color:var(--blue)}h1,h2,h3,p{margin:0}h1{font-size:clamp(1.65rem,3vw,2.5rem);letter-spacing:-.045em;line-height:1.2}h2{font-size:1.3rem;letter-spacing:-.025em}h3{font-size:1rem}header{background:#1c2f3a;color:#fff;padding:20px 24px}header .inner{max-width:1250px;margin:auto;display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap}.brand{font-size:1.25rem;font-weight:800;letter-spacing:-.04em}.brand span{color:#adc9ff}.header-meta{font-size:.8rem;color:#c5d5dc}.top-note{max-width:1298px;margin:auto;padding:18px 24px 0;font-size:.9rem;color:var(--muted)}.layout{max-width:1298px;margin:auto;padding:22px 24px 55px;display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:24px;align-items:start}.main,.side{min-width:0}.card{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:24px;margin-bottom:20px}.kicker{font-size:.74rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}.row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.badges{display:flex;gap:7px;flex-wrap:wrap}.badge{display:inline-block;border-radius:4px;padding:4px 9px;background:#eef2f4;font-size:.76rem;color:var(--muted);font-weight:650}.badge.easy{color:var(--green);background:var(--good)}.badge.medium{color:var(--blue);background:var(--soft)}.badge.hard{color:var(--orange);background:var(--warm)}.badge.exp{background:var(--warm);color:var(--orange)}.muted{color:var(--muted);font-size:.87rem}.space{margin-top:15px}.btn{min-height:44px;padding:10px 16px;border:1px solid #aabdc8;border-radius:7px;background:#fff;color:var(--ink);font-weight:650}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn.ghost{background:transparent;font-size:.84rem;font-weight:500}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.intro-copy{color:var(--muted);max-width:650px;margin:18px 0 24px}.intro-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.intro-grid b{display:block;font-size:1.5rem;line-height:1.2}.intro-grid span{font-size:.8rem;color:var(--muted)}.notice{background:var(--warm);border-left:3px solid #bd781f;border-radius:0 6px 6px 0;padding:14px 16px;font-size:.88rem;color:#654018}.notice.blue{background:var(--soft);color:#1f448d;border-color:var(--blue)}.question-head{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}.question-text{white-space:pre-line;font-size:1.02rem;line-height:1.8;overflow-wrap:anywhere}.options{margin:26px 0 0;padding:0;border:0;min-width:0}.options legend{font-size:.87rem;color:var(--muted);margin-bottom:12px}.option{display:flex;gap:12px;align-items:start;padding:14px 12px;border:1px solid var(--line);border-radius:8px;margin:9px 0;cursor:pointer;overflow-wrap:anywhere}.option input{margin-top:8px;accent-color:var(--blue);flex-shrink:0}.option .letter{font-weight:750;min-width:19px}.option.picked{background:var(--soft);border-color:#819bd0}.option.correct{background:var(--good);border-color:#91b9a0}.option.incorrect{background:var(--wrong);border-color:#d6a6a0}.option.locked{cursor:default}.feedback{padding:18px;border-radius:8px;margin-top:20px;background:var(--good);color:var(--green)}.feedback.error{background:var(--wrong);color:var(--red)}.feedback p{font-size:.9rem;margin-top:5px}.footer-buttons{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px}.divider{border-top:1px solid var(--line);padding-top:14px;margin-top:18px}details{padding:13px 0;border-top:1px solid var(--line);font-size:.88rem}summary{font-weight:600}details p{margin-top:10px;color:var(--muted)}.question-source{overflow-wrap:anywhere}.offer{border:1px solid #aec1f2;background:var(--soft)}.offer p{font-size:.92rem;margin-top:10px}.state-value{font-size:2.4rem;font-weight:750;line-height:1;letter-spacing:-.045em;margin:10px 0}.track{height:9px;border-radius:9px;background:#e5ecef;overflow:hidden;margin-top:12px}.track span{display:block;height:100%;background:var(--blue);border-radius:9px;transition:width .2s}.pred-row{display:grid;grid-template-columns:62px minmax(0,1fr) 48px;align-items:center;gap:10px;margin:13px 0;font-size:.86rem}.pred-row .track{margin:0}.pred-row.best .prediction-label{font-weight:750}.pred-row .target{background:var(--green)}.pref-select{width:100%;padding:10px;border:1px solid #aabdc8;border-radius:7px;color:var(--ink);background:#fff;min-height:44px}.inventory{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;text-align:center;margin-top:14px}.inventory strong{display:block;font-size:1.2rem}.inventory span{font-size:.76rem;color:var(--muted)}.comparison{display:grid;grid-template-columns:1fr 30px 1fr;gap:10px;align-items:center;margin:15px 0}.comparison>div{min-width:0}.comparison strong{display:block;font-size:1.1rem;font-variant-numeric:tabular-nums}.comparison small{font-size:.75rem;display:block;color:var(--muted)}.arrow{color:var(--muted);text-align:center}.number{font-variant-numeric:tabular-nums}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.83rem}th,td{text-align:left;white-space:nowrap;padding:10px 7px;border-bottom:1px solid var(--line)}th{font-weight:650;color:var(--muted)}td .review{background:none;border:0;color:var(--blue);text-decoration:underline;min-height:35px;padding:0}.history-preview{padding:18px;margin-top:14px;background:#f0f4f7;border-radius:8px}.history-preview p{white-space:pre-line}.history-preview[hidden],*[hidden]{display:none!important}.result-mark{font-weight:750}.correct-mark{color:var(--green)}.wrong-mark{color:var(--red)}.fit{font-size:.82rem;color:var(--muted);line-height:1.6}.graph{width:100%;height:155px;display:block;margin:14px 0 5px}.chart-axis{stroke:#a7b7bf;stroke-width:1;fill:none}.chart-path{stroke:var(--blue);stroke-width:2;fill:none}.chart-dot{fill:var(--blue)}.chart-text{fill:var(--muted);font-size:11px}.row-legend{display:flex;gap:8px;align-items:center;font-size:.8rem;color:var(--muted)}.row-legend span{width:16px;height:3px;display:inline-block;background:var(--blue)}.demo-control button{margin:12px 6px 0 0}.phase-meter{height:5px;background:#e4ebef;margin-top:16px;border-radius:8px;overflow:hidden}.phase-meter span{height:100%;display:block;background:var(--blue)}.review-title{font-weight:700;font-size:.9rem}.data-note{font-size:.78rem;color:var(--muted);margin-top:20px}.evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:16px}.evidence-grid article{border-left:2px solid var(--line);padding-left:12px}.evidence-grid p{font-size:.86rem}.wide-card{grid-column:1/-1}.top-note a{font-weight:650}footer{max-width:1298px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:.8rem}@media(max-width:1040px){.layout{grid-template-columns:minmax(0,1fr) 300px;gap:18px}.card{padding:19px}.question-text{font-size:1rem}}@media(max-width:780px){.layout{grid-template-columns:1fr;padding:18px 16px 35px}.top-note{padding:16px 16px 0}.side{display:grid;grid-template-columns:1fr 1fr;gap:16px}.side .card{margin:0}.side .state-card{grid-column:1/-1}.question-text{font-size:1rem}.offer{margin-top:16px}.side .card:last-child{grid-column:1/-1}.wide-card{grid-column:auto}}@media(max-width:460px){.side{grid-template-columns:1fr}.card{padding:17px}.intro-grid{gap:10px}.intro-grid span{font-size:.74rem}.footer-buttons .btn{width:100%}.comparison{grid-template-columns:1fr 20px 1fr}.evidence-grid{grid-template-columns:1fr}header{padding:16px}.data-note{overflow-wrap:anywhere}.pred-row{grid-template-columns:58px minmax(0,1fr) 45px}}@media(prefers-reduced-motion:reduce){.track span{transition:none}}
+</style></head><body>
+<header><div class="inner"><div class="brand">gabaritei<span>.</span> <span class="header-meta">/ sessão de estudo</span></div><div class="header-meta">Questões ENEM reais · Ciências Humanas · 2018 / prova 451</div></div></header>
+<p class="top-note"><strong>Este é o ensaio de uso da candidata histórica BKT + margem.</strong> As questões e seus parâmetros TRI vêm do catálogo; o BKT usa parâmetros externos e âncoras provisórias. A adequação ao ENEM ainda não foi validada. <a href="#como">Entender os limites</a></p>
+<div class="layout">
+<main class="main">
+ <section class="card" id="intro"><div class="kicker">Uma experiência para você testar de verdade</div><h1>Resolva a questão.<br>Veja o próximo desafio.</h1><p class="intro-copy">Você verá o enunciado e as alternativas, responderá e acompanhará o que mudou no BKT. O histórico permite comparar a dificuldade de cada questão com as anteriores.</p><div class="intro-grid"><div><b id="total-bank">20</b><span>questões reais no recorte</span></div><div><b>10</b><span>questões no diagnóstico misto</span></div><div><b>Você</b><span>decide se aceita mudar de nível</span></div></div><p class="muted space">O diagnóstico mistura faixas fáceis, médias e difíceis deste recorte. Depois dele, a próxima questão respeita seu nível escolhido. O diagnóstico não garante uma medição confiável de conhecimento com apenas dez itens.</p><div class="controls"><button class="btn primary" id="start">Iniciar diagnóstico misto de 10 questões</button></div><p class="data-note">Fila ilustrativa por faixa, sem repetir famílias. Não é a seleção semântica do Ítalo. Nenhum backend ou conta real é usado.</p></section>
+ <section class="card" id="question-card" hidden>
+  <div class="question-head"><div class="row"><div class="kicker" id="phase">Diagnóstico · questão 1 de 10</div><span class="badge" id="level-badge">Faixa fácil local</span></div><h2 id="question-title">ENEM 2018 · Questão</h2><div class="badges space"><span class="badge number" id="question-b"></span><span class="badge" id="question-skill"></span></div><p class="muted space" id="served-reason"></p><div class="phase-meter"><span id="phase-progress" style="width:0"></span></div></div>
+  <div class="question-text" id="question-text"></div>
+  <fieldset class="options" id="options"><legend>Escolha uma alternativa</legend></fieldset>
+  <div id="feedback" class="feedback" role="status" hidden><strong id="feedback-title"></strong><p id="feedback-text"></p></div>
+  <div class="footer-buttons"><button class="btn primary" id="submit" disabled>Confirmar resposta</button><button class="btn primary" id="next" hidden>Próxima questão</button></div>
+  <details class="space question-source"><summary>Ver a origem e o valor de dificuldade deste item</summary><p id="question-id"></p><p id="question-source"></p><p><a id="official-link" target="_blank" rel="noopener noreferrer">Abrir a prova oficial no INEP</a></p><p>O b representa dificuldade estatística dentro desta escala. “Fácil”, “média” e “difícil” são faixas relativas locais, não níveis universais de conhecimento.</p></details>
+  <details class="demo-control"><summary>Controles do ensaio: testar uma sequência sem resolver tudo</summary><p>Os botões abaixo preenchem uma resposta de teste e a identificam como simulada no histórico. Eles não medem seu conhecimento.</p><button class="btn ghost" id="simulate-correct">Simular um acerto</button><button class="btn ghost" id="simulate-wrong">Simular um erro</button></details>
+ </section>
+ <section class="card offer" id="offer-card" hidden aria-live="polite"><span class="badge">Sugestão experimental do BKT</span><h2 class="space" id="offer-title"></h2><p id="offer-explanation"></p><div class="controls"><button class="btn primary" id="offer-accept">Aceitar para a próxima questão</button><button class="btn" id="offer-decline">Manter meu nível</button></div></section>
+ <section class="card" id="session-message" hidden role="status"><h2 id="session-message-title"></h2><p class="muted space" id="session-message-text"></p></section>
+ <section class="card" id="history-card"><div class="row"><h2>Seu caminho até aqui</h2><span class="badge" id="history-count">0 respostas</span></div><p class="muted space">Clique em uma questão respondida para rever o texto, o gabarito e a mudança no estado. Comparar b faz sentido aqui porque os itens pertencem ao mesmo recorte 2018/451/CH.</p><svg class="graph" id="difficulty-graph" role="img" aria-label="Dificuldade b das questões respondidas ao longo da sessão" viewBox="0 0 660 155"></svg><div class="row-legend"><span></span>Parâmetro b de cada questão · escala local, não domínio do aluno</div><div class="table-wrap space"><table><thead><tr><th>#</th><th>Questão</th><th>Faixa</th><th>b</th><th>Resposta</th><th>BKT antes → depois</th></tr></thead><tbody id="history-rows"></tbody></table></div><p id="history-empty" class="muted space">O histórico começa quando você confirma a primeira resposta.</p><article class="history-preview" id="history-preview" hidden><div class="row"><h3 id="review-title"></h3><button id="close-review" class="btn ghost">Fechar revisão</button></div><p class="space" id="review-question"></p><div id="review-options" class="space"></div><p class="space" id="review-result"></p></article></section>
+ <section class="card" id="como"><div class="kicker">Como ler esta demonstração</div><h2>O que a tela permite conferir</h2><div class="evidence-grid"><article><h3>Coerência da faixa</h3><p>Após o diagnóstico, a faixa da próxima questão deve ser igual à preferência aceita ou escolhida manualmente. Uma oferta pendente não muda essa preferência.</p></article><article><h3>Questão anterior × próxima</h3><p>O painel compara b, faixa e posição dos itens. Dentro da mesma faixa, b pode variar. Uma sequência consistente por faixa não prova que o desafio é pedagogicamente adequado.</p></article><article><h3>Histórico e repetição</h3><p>Cada questão e família aparecem uma única vez nesta sessão. O número de itens é limitado: não criamos questões novas quando o estoque acaba.</p></article><article><h3>Escolha do estudante</h3><p>Recusar preserva a preferência e o histórico. Se a faixa acabar, você pode escolher outra explicitamente ou encerrar, sem mudança automática.</p></article></div><details class="space"><summary>Qual BKT está sendo usado aqui?</summary><p>A candidata histórica <code>bkt_politica_1_4_0.09</code>: parâmetros L0/T/G/S treinados externamente, emissões transformadas pelas âncoras sintéticas −1,6 / −0,4 / 0,8. A política procura a faixa cuja previsão fica mais perto de 70%, exige melhoria de pelo menos 0,09 nessa distância, mínimo de quatro famílias e intervalo de uma observação. A porta de diagnóstico segura ofertas até dez questões. Esses parâmetros não são os da política da Missão 04.</p><p>O valor bruto b não entra no BKT desta candidata. A faixa local escolhe uma âncora provisória. Isso não comprova uma conversão calibrada de TRI em domínio. A agregação em Humanas é uma hipótese de bancada, não um modelo treinado para cada assunto ou habilidade do ENEM.</p></details><details><summary>Quais dados reais estão aqui?</summary><p id="data-provenance"></p><p>O catálogo de exibição foi filtrado pela elegibilidade textual da revisão atual consultada. As faixas continuam sendo as do catálogo operacional histórico, limitado a essa área/ano/prova. As respostas dadas nesta página não entram no projeto nem treinam o modelo. O gabarito é o do dataset; não é uma resolução pedagógica produzida por especialista.</p></details><details><summary>O que ainda não é possível concluir?</summary><p>As porcentagens do painel são saídas de um modelo externo aplicado em hipótese experimental. Não são probabilidades calibradas de acerto do aluno no ENEM. Não há validação humana, prova de melhoria de aprendizagem, seleção semântica do Ítalo ou integração real. O BKT muda seu estado individual; os parâmetros globais não são retreinados.</p></details></section>
+</main>
+<aside class="side" aria-label="Estado, preferência e comparação">
+ <section class="card state-card"><div class="row"><h3>Estado do BKT</h3><span class="badge exp">Não calibrado para ENEM</span></div><div class="state-value number" id="mastery">72,8%</div><div class="track"><span id="mastery-bar" style="width:72.8%"></span></div><p class="fit space">Estimativa experimental agregada neste recorte. Não é sua nota nem domínio confirmado de Humanas.</p><div class="divider"><h3>Previsão por faixa</h3><p class="fit">A candidata busca ficar perto do alvo de 70%. As previsões usam âncoras provisórias.</p><div id="prediction-bars"></div></div><p class="fit" id="model-decision" aria-live="polite">Aguardando o início do diagnóstico.</p></section>
+ <section class="card"><label for="preference"><h3>Seu nível escolhido</h3></label><select id="preference" class="pref-select space"><option value="0">Fácil local</option><option value="1" selected>Média local</option><option value="2">Difícil local</option></select><p class="fit space" id="preference-note">Depois do diagnóstico, os itens respeitarão essa escolha. Durante o diagnóstico, as faixas são mistas com seu aceite.</p><h3 class="divider">Questões ainda disponíveis</h3><div class="inventory" id="inventory"></div><button class="btn ghost space" id="restart">Reiniciar esta sessão</button></section>
+ <section class="card"><h3>Anterior → questão na tela</h3><div id="compare-empty" class="muted space">Responda uma questão e avance para comparar os itens.</div><div id="comparison" hidden><div class="comparison"><div><small id="prev-label"></small><strong id="prev-b"></strong><span class="fit" id="prev-level"></span></div><div class="arrow">→</div><div><small id="current-label"></small><strong id="current-b"></strong><span class="fit" id="current-level"></span></div></div><p class="fit" id="comparison-text"></p></div><p class="fit divider">As questões são reais. A fila de exibição é ilustrativa por faixa e posição, sem algoritmo semântico do Ítalo.</p></section>
+</aside>
+</div><footer>Gabaritei · Ensaio de experiência com BKT e questões ENEM reais · 12/11/2026. Sessão local em memória; recarregar apaga o exemplo. Nenhum treinamento, publicação ou aprovação de fase.</footer>
+<script id="session-data" type="application/json">{
+  "questions": [
+    {
+      "id": "gq_f48826b7e3f3c0d99f429166",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 49,
+      "family": "gq_f48826b7e3f3c0d99f429166",
+      "level": 1,
+      "tri": {
+        "a": 2.67992,
+        "b": 1.47683,
+        "c": 0.11389
+      },
+      "skill": "1",
+      "text": "O filósofo reconhece-se pela posse inseparável do gosto da evidência e do sentido da ambiguidade. Quando se limita a suportar a ambiguidade, esta se chama equívoco. Sempre aconteceu que, mesmo aqueles que pretenderam construir uma filosofia absolutamente positiva, só conseguiram ser filósofos na medida em que, simultaneamente, se recusaram o direito de se instalar no saber absoluto. O que caracteriza o filósofo é o movimento que leva incessantemente do saber à ignorância, da ignorância ao saber, e um certo repouso neste movimento.\nMERLEAU-PONTY, M. Elogio da filosofia. Lisboa: Guimarães, 1998 (adaptado).\nO texto apresenta um entendimento acerca dos elementos constitutivos da atividade do filósofo, que se caracteriza por",
+      "options": [
+        {
+          "label": "A",
+          "text": "reunir os antagonismos das opiniões ao método dialético."
+        },
+        {
+          "label": "B",
+          "text": "ajustar a clareza do conhecimento ao inatismo das ideias."
+        },
+        {
+          "label": "C",
+          "text": "associar a certeza do intelecto à imutabilidade da verdade."
+        },
+        {
+          "label": "D",
+          "text": "conciliar o rigor da investigação à inquietude do questionamento."
+        },
+        {
+          "label": "E",
+          "text": "compatibilizar as estruturas do pensamento aos princípios fundamentais."
+        }
+      ],
+      "answer": "D",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=20",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=97982 CO_PROVA=451 posição=49",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_271e5bd89008dd80b4268b3d",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 52,
+      "family": "gq_271e5bd89008dd80b4268b3d",
+      "level": 1,
+      "tri": {
+        "a": 4.41776,
+        "b": 1.34319,
+        "c": 0.14594
+      },
+      "skill": "4",
+      "text": "TEXTO I\nTudo aquilo que é válido para um tempo de guerra, em que todo homem é inimigo de todo homem, é válido também para o tempo durante o qual os homens vivem sem outra segurança senão a que lhes pode ser oferecida por sua própria força e invenção.\nHOBBES, T. Leviatã. São Paulo: Abril Cultural, 1983.\n\nTEXTO II\nNão vamos concluir, com Hobbes que, por não ter nenhuma ideia de bondade, o homem seja naturalmente mau. Esse autor deveria dizer que, sendo o estado de natureza aquele em que o cuidado de nossa conservação é menos prejudicial à dos outros, esse estado era, por conseguinte, o mais próprio à paz e o mais conveniente ao gênero humano.\nROUSSEAU, J.-J. Discurso sobre a origem e o fundamento da desigualdade entre os homens. São Paulo: Martins Fontes, 1993 (adaptado).\n\nOs trechos apresentam divergências conceituais entre autores que sustentam um entendimento segundo o qual a igualdade entre os homens se dá em razão de uma",
+      "options": [
+        {
+          "label": "A",
+          "text": "predisposição ao conhecimento."
+        },
+        {
+          "label": "B",
+          "text": "submissão ao transcendente."
+        },
+        {
+          "label": "C",
+          "text": "tradição epistemológica."
+        },
+        {
+          "label": "D",
+          "text": "condição original."
+        },
+        {
+          "label": "E",
+          "text": "vocação política."
+        }
+      ],
+      "answer": "D",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=21",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=86760 CO_PROVA=451 posição=52",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_9ac48bb522c1cbb226dac8f9",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 54,
+      "family": "gq_9ac48bb522c1cbb226dac8f9",
+      "level": 0,
+      "tri": {
+        "a": 4.22228,
+        "b": 1.01525,
+        "c": 0.18939
+      },
+      "skill": "4",
+      "text": "TEXTO I\nE pois que em outra cousa nesta parte me não posso vingar do demônio, admoesto da parte da cruz de Cristo Jesus a todos que este lugar lerem, que deem a esta terra o nome que com tanta solenidade lhe foi posto, sob pena de a mesma cruz que nos há de ser mostrada no dia final, os acusar de mais devotos do pau-brasil que dela.\nBARROS, J. In: SOUZA, L. M. Inferno atlântico: demonologia e colonização: séculos XVI-XVIII. São Paulo: Cia. das Letras, 1993.\nTEXTO II\nE deste modo se hão os povoadores, os quais, por mais arraigados que na terra estejam e mais ricos que sejam, tudo pretendem levar a Portugal, e, se as fazendas e bens que possuem souberam falar, também lhes houveram de ensinar a dizer como os papagaios, aos quais a primeira coisa que ensinam é: papagaio real para Portugal, porque tudo querem para lá.\nSALVADOR, F. V. In: SOUZA, L. M. (Org.). História da vida privada no Brasil: cotidiano e vida privada na América portuguesa. São Paulo: Cia. das Letras, 1997.\nAs críticas desses cronistas ao processo de colonização portuguesa na América estavam relacionadas à",
+      "options": [
+        {
+          "label": "A",
+          "text": "utilização do trabalho escravo."
+        },
+        {
+          "label": "B",
+          "text": "implantação de polos urbanos."
+        },
+        {
+          "label": "C",
+          "text": "devastação de áreas naturais."
+        },
+        {
+          "label": "D",
+          "text": "ocupação de terras indígenas."
+        },
+        {
+          "label": "E",
+          "text": "expropriação de riquezas locais."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=22",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=44378 CO_PROVA=451 posição=54",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_1100ada241f62157d3e81fc6",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 55,
+      "family": "gq_1100ada241f62157d3e81fc6",
+      "level": 1,
+      "tri": {
+        "a": 4.79502,
+        "b": 1.23908,
+        "c": 0.18538
+      },
+      "skill": "7",
+      "text": "Os soviéticos tinham chegado a Cuba muito cedo na década de 1960, esgueirando-se pela fresta aberta pela imediata hostilidade norte-americana em relação ao processo social revolucionário. Durante três décadas os soviéticos mantiveram sua presença em Cuba com bases e ajuda militar, mas, sobretudo, com todo o apoio econômico que, como saberíamos anos mais tarde, mantinha o país à tona, embora nos deixasse em dívida com os irmãos soviéticos - e depois com seus herdeiros russos - por cifras que chegavam a US$ 32 bilhões. Ou seja, o que era oferecido em nome da solidariedade socialista tinha um preço definido.\nPADURA, L. Cuba e os russos. Folha de São Paulo, 19 jul. 2014 (adaptado).\nO texto indica que durante a Guerra Fria as relações internas em um mesmo bloco foram marcadas pelo(a)",
+      "options": [
+        {
+          "label": "A",
+          "text": "busca da neutralidade política."
+        },
+        {
+          "label": "B",
+          "text": "estímulo à competição comercial."
+        },
+        {
+          "label": "C",
+          "text": "subordinação à potência hegemônica."
+        },
+        {
+          "label": "D",
+          "text": "elasticidade das fronteiras geográficas."
+        },
+        {
+          "label": "E",
+          "text": "compartilhamento de pesquisas científicas."
+        }
+      ],
+      "answer": "C",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=22",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=83733 CO_PROVA=451 posição=55",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_be609f7feaac078267ef2d54",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 60,
+      "family": "gq_be609f7feaac078267ef2d54",
+      "level": 0,
+      "tri": {
+        "a": 4.81178,
+        "b": 0.85966,
+        "c": 0.15211
+      },
+      "skill": "8",
+      "text": "Em Beirute, no Líbano, quando perguntado sobre onde se encontram os refugiados sírios, a resposta do homem é imediata: \"em todos os lugares e em lugar nenhum\". Andando ao acaso, não é raro ver, sob um prédio ou num canto de calçada, ao abrigo do vento, uma família refugiada em volta de uma refeição frugal posta sobre jornais como se fossem guardanapos. Também se vê de vez em quando uma tenda com a sigla ACNUR (Alto Comissariado das Nações Unidas para Refugiados), erguida em um dos raros terrenos vagos da capital.\nJABER, H. Quem realmente acolhe os refugiados? Le Monde Diplomatique Brasil, out. 2015 (adaptado).\nO cenário descrito aponta para uma crise humanitária que é explicada pelo processo de",
+      "options": [
+        {
+          "label": "A",
+          "text": "migração massiva de pessoas atingidas por catástrofe natural."
+        },
+        {
+          "label": "B",
+          "text": "hibridização cultural de grupos caracterizados por homogeneidade social."
+        },
+        {
+          "label": "C",
+          "text": "desmobilização voluntária de militantes cooptados por seitas extremistas."
+        },
+        {
+          "label": "D",
+          "text": "peregrinação religiosa de fiéis orientados por lideranças fundamentalistas."
+        },
+        {
+          "label": "E",
+          "text": "desterritorialização forçada de populações afetadas por conflitos armados."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=23",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=97747 CO_PROVA=451 posição=60",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_8e6e20d51e357741f99d7b3b",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 61,
+      "family": "gq_8e6e20d51e357741f99d7b3b",
+      "level": 1,
+      "tri": {
+        "a": 1.59757,
+        "b": 1.3002,
+        "c": 0.05839
+      },
+      "skill": "9",
+      "text": "TEXTO I\nPrograma do Partido Social Democrático (PSD) Capitais estrangeiros\nÉ indispensável manter clima propício à entrada de capitais estrangeiros. A manutenção desse clima recomenda a adoção de normas disciplinadoras dos investimentos e suas rendas, visando reter no país a maior parcela possível dos lucros auferidos.\nTEXTO II\nPrograma da União Democrática Nacional (UDN) O capital\nApelar para o capital estrangeiro, necessário para os empreendimentos da reconstrução nacional e, sobretudo, para o aproveitamento das nossas reservas inexploradas, dando-lhe um tratamento equitativo e liberdade para a saída dos juros.\nCHACON, V. História dos partidos brasileiros: discurso e práxis dos seus programas. Brasília: UnB, 1981 (adaptado).\nConsiderando as décadas de 1950 e 1960 no Brasil, os trechos dos programas do PSD e UDN convergiam na defesa da",
+      "options": [
+        {
+          "label": "A",
+          "text": "autonomia de atuação das multinacionais."
+        },
+        {
+          "label": "B",
+          "text": "descentralização da cobrança tributária."
+        },
+        {
+          "label": "C",
+          "text": "flexibilização das reservas cambiais."
+        },
+        {
+          "label": "D",
+          "text": "liberdade de remessa de ganhos."
+        },
+        {
+          "label": "E",
+          "text": "captação de recursos do exterior."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=24",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=95752 CO_PROVA=451 posição=61",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_1b3f424e3ce202691f81fc6d",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 65,
+      "family": "gq_1b3f424e3ce202691f81fc6d",
+      "level": 2,
+      "tri": {
+        "a": 1.62334,
+        "b": 1.80121,
+        "c": 0.14924
+      },
+      "skill": "17",
+      "text": "Os portos sempre foram respostas ao comércio praticado em grande volume, que se dá via marítima, lacustre e fluvial, e sofreram adaptações, ou modernizações, de acordo com um conjunto de fatores que vão desde a sua localização privilegiada frente a extensas hinterlândias, passando por sua conectividade com modernas redes de transportes que garantam acessibilidade, associados, no atual momento, à tecnologia, que os transformam em pontas de lança de uma economia globalizada que comprime o tempo em nome da produtividade e da competitividade.\nROCHA NETO, J. M.; CRAVIDÃO, F. D. Portos no contexto do meio técnico. Mercator, n. 2, maio-ago. 2014 (adaptado).\nUma mudança que permitiu aos portos adequarem-se às novas necessidades comerciais apontadas no texto foi a",
+      "options": [
+        {
+          "label": "A",
+          "text": "intensificação do uso de contêineres."
+        },
+        {
+          "label": "B",
+          "text": "compactação das áreas de estocagem."
+        },
+        {
+          "label": "C",
+          "text": "burocratização dos serviços de alfândega."
+        },
+        {
+          "label": "D",
+          "text": "redução da profundidade dos atracadouros."
+        },
+        {
+          "label": "E",
+          "text": "superação da especialização dos cargueiros."
+        }
+      ],
+      "answer": "A",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=25",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=112081 CO_PROVA=451 posição=65",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_bf5c29c68f1520ba452acce4",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 66,
+      "family": "gq_bf5c29c68f1520ba452acce4",
+      "level": 2,
+      "tri": {
+        "a": 2.04803,
+        "b": 2.46656,
+        "c": 0.19722
+      },
+      "skill": "13",
+      "text": "O século XVIII é, por diversas razões, um século diferenciado. Razão e experimentação se aliavam no que se acreditava ser o verdadeiro caminho para o estabelecimento do conhecimento científico, por tanto tempo almejado. O fato, a análise e a indução passavam a ser parceiros fundamentais da razão. É ainda no século XVIII que o homem começa a tomar consciência de sua situação na história.\nODALIA, N. In: PINSKY, J.; PINSKY, C. B. História da cidadania. São Paulo: Contexto, 2003.\nNo ambiente cultural do Antigo Regime, a discussão filosófica mencionada no texto tinha como uma de suas características a",
+      "options": [
+        {
+          "label": "A",
+          "text": "aproximação entre inovação e saberes antigos."
+        },
+        {
+          "label": "B",
+          "text": "conciliação entre revelação e metafísica platônica."
+        },
+        {
+          "label": "C",
+          "text": "vinculação entre escolástica e práticas de pesquisa."
+        },
+        {
+          "label": "D",
+          "text": "separação entre teologia e fundamentalismo religioso."
+        },
+        {
+          "label": "E",
+          "text": "contraposição entre clericalismo e liberdade de pensamento."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=25",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=97786 CO_PROVA=451 posição=66",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_61ea7f1972f055ee85c9e262",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 68,
+      "family": "gq_61ea7f1972f055ee85c9e262",
+      "level": 1,
+      "tri": {
+        "a": 1.04948,
+        "b": 1.41026,
+        "c": 0.12765
+      },
+      "skill": "15",
+      "text": "O encontro entre o Velho e o Novo Mundo, que a descoberta de Colombo tornou possível, é de um tipo muito particular: é uma guerra - ou a Conquista -, como se dizia então. E um mistério continua: o resultado do combate. Por que a vitória fulgurante, se os habitantes da América eram tão superiores em número aos adversários e lutaram no próprio solo? Se nos limitarmos à conquista do México - a mais espetacular, já que a civilização mexicana é a mais brilhante do mundo pré-colombiano - como explicar que Cortez, liderando centenas de homens, tenha conseguido tomar o reino de Montezuma, que dispunha de centenas de milhares de guerreiros?\nTODOROV, T. A conquista da América. São Paulo: Martins Fontes, 1991 (adaptado).\nNo contexto da conquista, conforme análise apresentada no texto, uma estratégia para superar as disparidades levantadas foi",
+      "options": [
+        {
+          "label": "A",
+          "text": "implantar as missões cristãs entre as comunidades submetidas."
+        },
+        {
+          "label": "B",
+          "text": "utilizar a superioridade física dos mercenários africanos."
+        },
+        {
+          "label": "C",
+          "text": "explorar as rivalidades existentes entre os povos nativos."
+        },
+        {
+          "label": "D",
+          "text": "introduzir vetores para a disseminação de doenças epidêmicas."
+        },
+        {
+          "label": "E",
+          "text": "comprar terras para o enfraquecimento das teocracias autóctones."
+        }
+      ],
+      "answer": "C",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=25",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=87101 CO_PROVA=451 posição=68",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_7bf8498d5abf84381d3889a5",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 69,
+      "family": "gq_7bf8498d5abf84381d3889a5",
+      "level": 2,
+      "tri": {
+        "a": 3.26045,
+        "b": 2.04583,
+        "c": 0.1747
+      },
+      "skill": "15",
+      "text": "São Paulo, 10 de janeiro de 1979.\nExmo. Sr. Presidente Ernesto Geisel.\nConsiderando as instruções dadas por V. S. de que sejam negados os passaportes aos senhores Francisco Julião, Miguel Arraes, Leonel Brizola, Luis Prestes, Paulo Schilling, Gregório Bezerra, Márcio Moreira Alves e Paulo Freire.\nConsiderando que, desde que nasci, me identifico plenamente com a pele, a cor dos cabelos, a cultura, o sorriso, as aspirações, a história e o sangue destes oito senhores.\nConsiderando tudo isto, por imperativo de minha consciência, venho por meio desta devolver o passaporte que, negado a eles, me foi concedido pelos órgãos competentes de seu governo.\nCarta do cartunista Henrique de Souza Filho, conhecido como Henfil. In: HENFIL. Cartas da mãe. Rio de Janeiro: Codecri, 1981 (adaptado).\nNo referido contexto histórico, a manifestação do cartunista Henfil expressava uma crítica ao(à)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A censura moral das produções culturais."
+        },
+        {
+          "label": "B",
+          "text": "limite do processo de distensão política."
+        },
+        {
+          "label": "C",
+          "text": "interferência militar de países estrangeiros."
+        },
+        {
+          "label": "D",
+          "text": "representação social das agremiações partidárias."
+        },
+        {
+          "label": "E",
+          "text": "impedimento de eleição das assembleias estaduais."
+        }
+      ],
+      "answer": "B",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=26",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=98027 CO_PROVA=451 posição=69",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_f729cb7cf7dd4324e0ef7f04",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 72,
+      "family": "gq_f729cb7cf7dd4324e0ef7f04",
+      "level": 1,
+      "tri": {
+        "a": 6.69428,
+        "b": 1.39536,
+        "c": 0.11947
+      },
+      "skill": "27",
+      "text": "Uma pesquisa realizada por Carolina Levis, especialista em ecologia do Instituto Nacional de Pesquisas da Amazônia, e publicada na revista Science, demonstra que as espécies vegetais domesticadas pelas civilizações pré-colombianas são as mais dominantes. \"A domesticação de plantas na floresta começou há mais de 8 000 anos. Primeiro eram selecionadas as plantas com características que poderiam ser úteis ao homem e em um segundo momento era feita a propagação dessas espécies. Começaram a cultivá-las em pátios e jardins, por meio de um processo quase intuitivo de seleção\".\n\nOLIVEIRA, J. Indígenas foram os primeiros a alterar o ecossistema da Amazônia. Disponível em: https://brasil.elpais.com. Acesso em: 11 dez. 2017 (adaptado).\n\nO texto apresenta um novo olhar sobre a configuração da Floresta Amazônica por romper com a ideia de",
+      "options": [
+        {
+          "label": "A",
+          "text": "primazia de saberes locais."
+        },
+        {
+          "label": "B",
+          "text": "ausência de ação antrópica."
+        },
+        {
+          "label": "C",
+          "text": "insuficiência de recursos naturais."
+        },
+        {
+          "label": "D",
+          "text": "necessidade de manejo ambiental."
+        },
+        {
+          "label": "E",
+          "text": "predominância de práticas agropecuárias."
+        }
+      ],
+      "answer": "B",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=26",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=111943 CO_PROVA=451 posição=72",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_058f81f7ff570a5b38d9df74",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 73,
+      "family": "gq_058f81f7ff570a5b38d9df74",
+      "level": 0,
+      "tri": {
+        "a": 3.92803,
+        "b": 1.08796,
+        "c": 0.09238
+      },
+      "skill": "14",
+      "text": "TEXTO I\nQuando um exército atravessa montanhas, florestas, zonas de precipícios, ou marcha ao longo de desfiladeiros, alagadiços ou pântanos, ou qualquer outro terreno onde a deslocação é árdua, está em terreno difícil. O terreno onde é apertado e a sua saída é tortuosa e onde uma pequena força inimiga pode atacar a minha, embora maior, é cercado.\nTZU, S. A arte da guerra. São Paulo: Martin Claret, 2001.\nTEXTO II\nO objetivo principal era encontrar e matar Osama Bin Laden. Onde ele se esconde? Não podemos esquecer a dificuldade de ocupação do país, que possui um relevo montanhoso, cheio de cavernas, onde fica fácil, para quem está acostumado com esse relevo, esconder-se.\nOLIVEIRA, M. G.; SANTOS, M. S. Ásia: uma visão histórica, política e econômica do continente. Rio de Janeiro: E-Papers, 2009 (adaptado).\nAs situações apresentadas atestam a importância da relação entre a topografia e o(a)",
+      "options": [
+        {
+          "label": "A",
+          "text": "construção de vias terrestres."
+        },
+        {
+          "label": "B",
+          "text": "preservação do meio ambiente."
+        },
+        {
+          "label": "C",
+          "text": "emprego de armamentos sofisticados."
+        },
+        {
+          "label": "D",
+          "text": "intimidação contínua da população local."
+        },
+        {
+          "label": "E",
+          "text": "domínio cognitivo da configuração espacial."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=27",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=96354 CO_PROVA=451 posição=73",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_8fb472f65da36859f69d6737",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 75,
+      "family": "gq_8fb472f65da36859f69d6737",
+      "level": 2,
+      "tri": {
+        "a": 4.47836,
+        "b": 2.02417,
+        "c": 0.12905
+      },
+      "skill": "20",
+      "text": "Os países industriais adotaram uma concepção diferente das relações familiares e do lugar da fecundidade na vida familiar e social. A preocupação de garantir uma transmissão integral das vantagens econômicas e sociais adquiridas tem como resultado uma ação voluntária de limitação do número de nascimentos.\nGEORGE, P. Panorama do mundo atual. São Paulo: Difusão Europeia do Livro, 1968 (adaptado).\nEm meados do século XX, o fenômeno social descrito contribuiu para o processo europeu de",
+      "options": [
+        {
+          "label": "A",
+          "text": "estabilização da pirâmide etária."
+        },
+        {
+          "label": "B",
+          "text": "conclusão da transição demográfica."
+        },
+        {
+          "label": "C",
+          "text": "contenção da entrada de imigrantes."
+        },
+        {
+          "label": "D",
+          "text": "elevação do crescimento vegetativo."
+        },
+        {
+          "label": "E",
+          "text": "formação de espaços superpovoados."
+        }
+      ],
+      "answer": "B",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=27",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=112014 CO_PROVA=451 posição=75",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_38eec9d5fe2b532d9d41b84e",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 76,
+      "family": "gq_38eec9d5fe2b532d9d41b84e",
+      "level": 0,
+      "tri": {
+        "a": 2.1655,
+        "b": 0.79673,
+        "c": 0.03448
+      },
+      "skill": "12",
+      "text": "Código Penal dos Estados Unidos do Brasil, 1890\nDos crimes contra a saúde pública\nArt. 156. Exercer a medicina em qualquer dos seus ramos, a arte dentária ou a farmácia; praticar a homeopatia, a dosimetria, o hipnotismo ou magnetismo animal, sem estar habilitado segundo as leis e regulamentos.\nArt. 158. Ministrar, ou simplesmente prescrever, como meio curativo para uso interno ou externo, e sob qualquer forma preparada, substância de qualquer dos reinos da natureza, fazendo, ou exercendo assim, o ofício denominado curandeiro.\nDisponível em: http://legis.senado.gov.br. Acesso em: 21 dez. 2014 (adaptado).\nNo início da Primeira República, a legislação penal vigente evidenciava o(a)",
+      "options": [
+        {
+          "label": "A",
+          "text": "negligência das religiões cristãs sobre as moléstias."
+        },
+        {
+          "label": "B",
+          "text": "desconhecimento das origens das crenças tradicionais."
+        },
+        {
+          "label": "C",
+          "text": "preferência da população pelos tratamentos alopáticos."
+        },
+        {
+          "label": "D",
+          "text": "abandono pela comunidade das práticas terapêuticas de magia."
+        },
+        {
+          "label": "E",
+          "text": "condenação pela ciência dos conhecimentos populares de cura."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=27",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=86195 CO_PROVA=451 posição=76",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_81b8f40361ec3b511a0e5859",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 77,
+      "family": "gq_81b8f40361ec3b511a0e5859",
+      "level": 2,
+      "tri": {
+        "a": 1.97,
+        "b": 2.55364,
+        "c": 0.17706
+      },
+      "skill": "30",
+      "text": "A presunção de que a superfície das chapadas e chapadões representa uma velha peneplanície é corroborada pelo fato de que ela é coberta por acumulações superficiais, tais como massas de areia, camadas de cascalhos e seixos e pela ocorrência generalizada de concreções ferruginosas que formam uma crosta laterítica, denominada \"canga\".\nWEIBEL, L. Disponível em: http://biblioteca.ibge.gov.br. Acesso em: 8 jul. 2015 (adaptado)\nQual tipo climático favorece o processo de alteração do solo descrito no texto?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Árido, com déficit hídrico."
+        },
+        {
+          "label": "B",
+          "text": "Subtropical, com baixas temperaturas."
+        },
+        {
+          "label": "C",
+          "text": "Temperado, com invernos frios e secos."
+        },
+        {
+          "label": "D",
+          "text": "Tropical, com sazonalidade das chuvas."
+        },
+        {
+          "label": "E",
+          "text": "Equatorial, com pluviosidade abundante."
+        }
+      ],
+      "answer": "D",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=28",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=88107 CO_PROVA=451 posição=77",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_c49c8bc2cde16869b3fc651d",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 78,
+      "family": "gq_c49c8bc2cde16869b3fc651d",
+      "level": 1,
+      "tri": {
+        "a": 2.34409,
+        "b": 1.51378,
+        "c": 0.17552
+      },
+      "skill": "22",
+      "text": "O marco inicial das discussões parlamentares em torno do direito do voto feminino são os debates que antecederam a Constituição de 1824, que não trazia qualquer impedimento ao exercício dos direitos políticos por mulheres, mas, por outro lado, também não era explícita quanto à possibilidade desse exercício. Foi somente em 1932, dois anos antes de estabelecido o voto aos 18 anos, que as mulheres obtiveram o direito de votar, o que veio a se concretizar no ano seguinte. Isso ocorreu a partir da aprovação do Código Eleitoral de 1932.\nDisponível em: http://tse.jusbrasil.com.br. Acesso em: 14 maio 2018.\nUm dos fatores que contribuíram para a efetivação da medida mencionada no texto foi a",
+      "options": [
+        {
+          "label": "A",
+          "text": "superação da cultura patriarcal."
+        },
+        {
+          "label": "B",
+          "text": "influência de igrejas protestantes."
+        },
+        {
+          "label": "C",
+          "text": "pressão do governo revolucionário."
+        },
+        {
+          "label": "D",
+          "text": "fragilidade das oligarquias regionais."
+        },
+        {
+          "label": "E",
+          "text": "campanha de extensão da cidadania."
+        }
+      ],
+      "answer": "E",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=28",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=97888 CO_PROVA=451 posição=78",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_e097a5827000e7601c22e1f0",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 80,
+      "family": "gq_e097a5827000e7601c22e1f0",
+      "level": 0,
+      "tri": {
+        "a": 3.51503,
+        "b": 1.15937,
+        "c": 0.19457
+      },
+      "skill": "2",
+      "text": "Em algumas línguas de Moçambique não existe a palavra \"pobre\". O indivíduo é pobre quando não tem parentes. A pobreza é a solidão, a ruptura das relações familiares que, na sociedade rural, servem de apoio à sobrevivência. Os consultores internacionais, especialistas em elaborar relatórios sobre a miséria, talvez não tenham em conta o impacto dramático da destruição dos laços familiares e das relações de entreajuda. Nações inteiras estão tornando-se \"órfãs\", e a mendicidade parece ser a única via de uma agonizante sobrevivência.\nCOUTO, M. E se Obama fosse africano? & outras intervenções. Portugal: Caminho, 2009 (adaptado).\nEm uma leitura que extrapola a esfera econômica, o autor associa o acirramento da pobreza à",
+      "options": [
+        {
+          "label": "A",
+          "text": "afirmação das origens ancestrais."
+        },
+        {
+          "label": "B",
+          "text": "fragilização das redes de sociabilidade."
+        },
+        {
+          "label": "C",
+          "text": "padronização das políticas educacionais."
+        },
+        {
+          "label": "D",
+          "text": "fragmentação das propriedades agrícolas."
+        },
+        {
+          "label": "E",
+          "text": "globalização das tecnologias de comunicação."
+        }
+      ],
+      "answer": "B",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=28",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=95528 CO_PROVA=451 posição=80",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_d01c42794cf6594ef85ae147",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 84,
+      "family": "gq_d01c42794cf6594ef85ae147",
+      "level": 0,
+      "tri": {
+        "a": 2.64093,
+        "b": 0.97084,
+        "c": 0.10439
+      },
+      "skill": "24",
+      "text": "Rodrigo havia sido indicado pela oposição para fiscal duma das mesas eleitorais. Pôs o revólver na cintura, uma caixa de balas no bolso e encaminhou-se para seu posto. A chamada dos eleitores começou às sete da manhã. Plantados junto da porta, os capangas do Trindade ofereciam cédulas com o nome dos candidatos oficiais a todos os eleitores que entravam. Estes, em sua quase totalidade, tomavam docilmente dos papeluchos e depositavam-nos na urna, depois de assinar a autêntica. Os que se recusavam a isso tinham seus nomes acintosamente anotados.\nVERISSIMO, E. O tempo e o vento. São Paulo: Globo, 2003 (adaptado).\nErico Verissimo tematiza em obra ficcional o seguinte aspecto característico da vida política durante a Primeira República:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Identificação forçada de homens analfabetos."
+        },
+        {
+          "label": "B",
+          "text": "Monitoramento legal dos pleitos legislativos."
+        },
+        {
+          "label": "C",
+          "text": "Repressão explícita ao exercício de direito."
+        },
+        {
+          "label": "D",
+          "text": "Propaganda direcionada à população do campo."
+        },
+        {
+          "label": "E",
+          "text": "Cerceamento policial dos operários sindicalizados."
+        }
+      ],
+      "answer": "C",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=30",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=89639 CO_PROVA=451 posição=84",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_d729403b0e500b7ef02bef0a",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 88,
+      "family": "gq_d729403b0e500b7ef02bef0a",
+      "level": 2,
+      "tri": {
+        "a": 1.44874,
+        "b": 2.04777,
+        "c": 0.21786
+      },
+      "skill": "28",
+      "text": "[Gráfico de linhas: participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014. Em 1996, o extrativismo vegetal tinha cerca de 59% e a silvicultura cerca de 41%. As curvas ficam próximas, perto de 50%, de 1998 a 2002. A partir de 2003, a silvicultura sobe para cerca de 63% e chega a cerca de 78% em 2014, enquanto o extrativismo vegetal cai para cerca de 38% em 2003 e para cerca de 22% em 2014.]\nIBGE. Produção da extração vegetal e da silvicultura. Rio de Janeiro: IBGE, 2014 (adaptado).\nConsiderando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de",
+      "options": [
+        {
+          "label": "A",
+          "text": "conservação do bioma nativo."
+        },
+        {
+          "label": "B",
+          "text": "estagnação do setor primário."
+        },
+        {
+          "label": "C",
+          "text": "utilização de madeira de reflorestamento."
+        },
+        {
+          "label": "D",
+          "text": "redução da produção de móveis."
+        },
+        {
+          "label": "E",
+          "text": "retração da indústria alimentícia."
+        }
+      ],
+      "answer": "C",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=31",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=88520 CO_PROVA=451 posição=88",
+      "scale": "2018/451/CH"
+    },
+    {
+      "id": "gq_95b079a54fa85757882f8f7f",
+      "year": 2018,
+      "area": "CH",
+      "exam": "451",
+      "position": 89,
+      "family": "gq_95b079a54fa85757882f8f7f",
+      "level": 2,
+      "tri": {
+        "a": 2.14361,
+        "b": 2.00995,
+        "c": 0.17873
+      },
+      "skill": "30",
+      "text": "No início da década de 1990, dois biólogos importantes, Redford e Robinson, produziram um modelo largamente aceito de “produção sustentável” que previa quantos indivíduos de cada espécie poderiam ser caçados de forma sustentável baseado nas suas taxas de reprodução. Os seringueiros do Alto Juruá tinham um modelo diferente: a quem lhes afirmava que estavam caçando acima do sustentável (dentro do modelo), eles diziam que não, que o nível da caça dependia da existência de áreas de refúgio em que ninguém caçava. Ora, esse acabou sendo o modelo batizado de “fonte-ralo” proposto dez anos após o primeiro por Novaro, Bodmer e o próprio Redford e que suplantou o modelo anterior.\nCUNHA, M. C. Revista USP, n. 75, set.-nov. 2007.\nNo contexto da produção científica, a necessidade de reconstrução desse modelo, conforme exposto no texto, foi determinada pelo confronto com um(a)",
+      "options": [
+        {
+          "label": "A",
+          "text": "conclusão operacional obtida por lógica dedutiva."
+        },
+        {
+          "label": "B",
+          "text": "visão de mundo marcada por preconceitos morais."
+        },
+        {
+          "label": "C",
+          "text": "hábito social condicionado pela religiosidade popular."
+        },
+        {
+          "label": "D",
+          "text": "conhecimento empírico apropriado pelo senso comum."
+        },
+        {
+          "label": "E",
+          "text": "padrão de preservação construído por experimentação dirigida."
+        }
+      ],
+      "answer": "D",
+      "source_pdf": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf#page=31",
+      "source_table": "ITENS_PROVA_2018.csv CO_ITEM=112122 CO_PROVA=451 posição=89",
+      "scale": "2018/451/CH"
+    }
+  ],
+  "diagnostic": [
+    "gq_058f81f7ff570a5b38d9df74",
+    "gq_1100ada241f62157d3e81fc6",
+    "gq_1b3f424e3ce202691f81fc6d",
+    "gq_38eec9d5fe2b532d9d41b84e",
+    "gq_271e5bd89008dd80b4268b3d",
+    "gq_7bf8498d5abf84381d3889a5",
+    "gq_9ac48bb522c1cbb226dac8f9",
+    "gq_61ea7f1972f055ee85c9e262",
+    "gq_81b8f40361ec3b511a0e5859",
+    "gq_8e6e20d51e357741f99d7b3b"
+  ],
+  "parameters": {
+    "L0": 0.7275085699683296,
+    "T": 0.0511296795969948,
+    "G": 0.30865529308097295,
+    "S": 0.20001032161715282
+  },
+  "anchors": [
+    -1.6,
+    -0.4,
+    0.8
+  ],
+  "policy": {
+    "minimum": 4,
+    "cooldown": 1,
+    "max_step": 2,
+    "margin": 0.09,
+    "target": 0.7
+  },
+  "metadata": {
+    "source_commit": "79ad58f4e9cac94bec6315909d5a21aead9fcdb1",
+    "source_sha256": "8409158caa0faab7914c0248a6caaf20aa3dbfabdde0438c4a6918bb18433089",
+    "level_source": "local historical catalog, tercis only 2018/451/CH; not global fixed cutoffs",
+    "candidate": "bkt_politica_1_4_0.09",
+    "exclusions": [],
+    "scope": "internal interactive pedagogical prototype; not integrated recommendation validation",
+    "observed_labels": {
+      "1": 7,
+      "0": 6,
+      "2": 7
+    }
+  }
+}</script>
+<script id="candidate-engine">
+function logistic(x){return 1/(1+Math.exp(-x))}
+function logit(p){return Math.log(p/(1-p))}
+function emissions(d,p){return [logistic(logit(p.G)-d),logistic(logit(1-p.S)-d)]}
+function predictForLevel(m,level,p,anchors){const e=emissions(anchors[level],p);return (1-m)*e[0]+m*e[1]}
+function updateForItem(m,level,y,p,anchors){const e=emissions(anchors[level],p),a=m*(y?e[1]:1-e[1]),b=(1-m)*(y?e[0]:1-e[0]);const posterior=a/(a+b);return{posterior,updated:posterior+(1-posterior)*p.T}}
+function candidateAdvice(m,choice,p,anchors,cfg){const probs=anchors.map((d,i)=>predictForLevel(m,i,p,anchors));const distances=probs.map(v=>Math.abs(v-cfg.target));let best=0;distances.forEach((v,i)=>{if(v<distances[best])best=i});const target=choice+Math.max(-cfg.max_step,Math.min(cfg.max_step,best-choice));const gain=distances[choice]-distances[target];return{probs,best,target,gain,suggest:target!==choice&&gain>=cfg.margin}}
+</script>
+<script id="session-ui">
+(()=>{
+ const $=id=>document.getElementById(id),DATA=JSON.parse($('session-data').textContent),P=DATA.parameters,CFG=DATA.policy,A=DATA.anchors;
+ const LABELS=['Fácil','Média','Difícil'],CLASSES=['easy','medium','hard'],byid=new Map(DATA.questions.map(q=>[q.id,q]));
+ const pct=v=>(v*100).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%',bformat=v=>v.toLocaleString('pt-BR',{minimumFractionDigits:3,maximumFractionDigits:3});
+ let s;
+ function fresh(){s={started:false,choice:Number($('preference').value),m:P.L0,history:[],seen:new Set(),families:new Set(),current:null,selected:null,answered:false,pending:null,lastOffer:-100,servedReason:'',currentPrediction:null,notice:null};$('intro').hidden=false;$('question-card').hidden=true;$('session-message').hidden=true;$('history-preview').hidden=true;renderAll()}
+ function available(){return DATA.questions.filter(q=>!s.seen.has(q.id)&&!s.families.has(q.family))}
+ function inventory(){return [0,1,2].map(level=>available().filter(q=>q.level===level).length)}
+ function isDiagnostic(){return s.history.length<10}
+ function selectNext(){
+  if(!s.started)return;
+  s.pending=null;s.notice=null;
+  s.decision=s.history.length<10?'Diagnóstico em andamento. Nenhuma oferta antes de dez respostas.':'Prática na faixa escolhida. Uma nova oferta será avaliada após sua próxima resposta.';
+  let q;
+  if(isDiagnostic()){q=byid.get(DATA.diagnostic[s.history.length]);s.servedReason='Diagnóstico misto autorizado: a faixa varia para observar respostas em diferentes desafios. Isso não muda seu nível escolhido.'}
+  else{q=available().find(q=>q.level===s.choice);s.servedReason=`Item da faixa ${LABELS[s.choice].toLowerCase()} escolhida por você. Fila ilustrativa por posição na prova, sem repetição de família.`}
+  if(!q||s.seen.has(q.id)||s.families.has(q.family)){
+   s.current=null;$('question-card').hidden=true;$('session-message').hidden=false;$('session-message-title').textContent='Essa faixa ficou sem questões disponíveis';$('session-message-text').textContent=available().length?'Ainda há itens em outras faixas. Se quiser continuar, escolha outra faixa no painel e clique em continuar. A preferência não será trocada automaticamente.':'Você respondeu todos os itens deste recorte. O exemplo encerra sem fabricar novas questões.';
+   renderAll();return;
+  }
+  s.current=q;s.servedChoice=s.choice;s.selected=null;s.answered=false;s.currentPrediction=predictForLevel(s.m,q.level,P,A);
+  $('session-message').hidden=true;$('question-card').hidden=false;renderQuestion();renderAll();
+ }
+ function richText(target,text){target.replaceChildren();String(text).split(/(\*\*[^*]+\*\*)/g).forEach(part=>{const el=document.createElement(part.startsWith('**')&&part.endsWith('**')?'strong':'span');el.textContent=el.tagName==='STRONG'?part.slice(2,-2):part;target.append(el)})}
+ function renderQuestion(){
+  if(!s.current)return;const q=s.current,n=s.history.length+(s.answered?0:1),diagnostic=n<=10;
+  $('phase').textContent=diagnostic?`Diagnóstico misto · questão ${n} de 10`:`Prática adaptativa · resposta ${n}`;
+  $('question-title').textContent=`ENEM ${q.year} · Questão ${q.position}`;
+  $('level-badge').className='badge '+CLASSES[q.level];$('level-badge').textContent=`Faixa ${LABELS[q.level].toLowerCase()} local`;
+  $('question-b').textContent='TRI b = '+bformat(q.tri.b);$('question-skill').textContent=q.skill?'Habilidade CH:H'+String(q.skill).replace(/^H/,''):'Habilidade não informada';
+  $('served-reason').textContent=s.servedReason;$('phase-progress').style.width=Math.min(100,n*10)+'%';
+  richText($('question-text'),q.text);$('options').querySelectorAll('.option').forEach(x=>x.remove());
+  q.options.forEach(opt=>{
+   const label=document.createElement('label');label.className='option'+(s.selected===opt.label?' picked':'')+(s.answered?' locked':'');
+   const radio=document.createElement('input');radio.type='radio';radio.name='answer';radio.value=opt.label;radio.checked=s.selected===opt.label;radio.disabled=s.answered;
+   const letter=document.createElement('span');letter.className='letter';letter.textContent=opt.label;
+   const txt=document.createElement('span');richText(txt,opt.text);label.append(radio,letter,txt);
+   if(s.answered&&opt.label===q.answer)label.classList.add('correct');if(s.answered&&s.selected===opt.label&&opt.label!==q.answer)label.classList.add('incorrect');
+   radio.addEventListener('change',()=>{s.selected=opt.label;renderQuestion()});$('options').append(label);
+  });
+  $('submit').hidden=s.answered;$('submit').disabled=!s.selected;$('next').hidden=!s.answered;
+  $('next').textContent=s.history.length===10?'Ir para a prática':'Próxima questão';
+  $('simulate-correct').disabled=s.answered;$('simulate-wrong').disabled=s.answered;
+  $('feedback').hidden=!s.answered;
+  if(s.answered){const r=s.history.at(-1);$('feedback').className='feedback'+(r.correct?'':' error');$('feedback-title').textContent=(r.correct?'Resposta correta':'Resposta incorreta')+(r.simulated?' · resposta simulada':'');$('feedback-text').textContent=`Gabarito do dataset: ${q.answer}. A previsão experimental antes da resposta era ${pct(r.predicted)}. O estado passou de ${pct(r.before)} para ${pct(r.after)}. Isso não representa uma medição validada de domínio no ENEM.`}
+  $('question-id').textContent='ID: '+q.id+' · escala '+q.scale;$('question-source').textContent=q.source_table;$('official-link').href=q.source_pdf;
+ }
+ function advise(){
+  s.pending=null;
+  if(s.history.length<10){s.decision='Diagnóstico em andamento. Nenhuma oferta antes de dez respostas.';return}
+  if(s.history.length<CFG.minimum){s.decision='Sem evidência mínima.';return}
+  if(s.history.length-s.lastOffer<CFG.cooldown){s.decision='Aguardando intervalo entre ofertas.';return}
+  const c=candidateAdvice(s.m,s.choice,P,A,CFG);
+  if(!c.suggest){s.decision='Margem de melhoria insuficiente para sugerir outra faixa.';return}
+  if(!inventory()[c.target]){s.decision=`A política apontou ${LABELS[c.target].toLowerCase()}, mas não há estoque nessa faixa. Sem oferta.`;return}
+  s.pending={level:c.target,gain:c.gain,probs:c.probs,version:s.history.length};s.lastOffer=s.history.length;s.decision='Oferta emitida; aguarda sua decisão.';
+ }
+ function submit(simulated=false){
+  if(!s.current||s.answered||!s.selected)return;const q=s.current,correct=Number(s.selected===q.answer),before=s.m;
+  const updated=updateForItem(s.m,q.level,correct,P,A);
+  s.m=updated.updated;s.seen.add(q.id);s.families.add(q.family);
+  s.history.push({id:q.id,selected:s.selected,correct,simulated,before,after:s.m,predicted:s.currentPrediction,level:q.level,b:q.tri.b,choice:s.servedChoice});s.answered=true;
+  advise();renderQuestion();renderAll();
+ }
+ function renderAll(){
+  $('mastery').textContent=pct(s.m);$('mastery-bar').style.width=(s.m*100)+'%';
+  const advice=candidateAdvice(s.m,s.choice,P,A,CFG);$('prediction-bars').replaceChildren();
+  advice.probs.forEach((prob,level)=>{const row=document.createElement('div');row.className='pred-row'+(advice.best===level?' best':'');const label=document.createElement('span');label.className='prediction-label';label.textContent=LABELS[level];const track=document.createElement('div');track.className='track';const bar=document.createElement('span');bar.style.width=(prob*100)+'%';if(advice.best===level)bar.className='target';track.append(bar);const val=document.createElement('span');val.className='number';val.textContent=pct(prob);row.append(label,track,val);$('prediction-bars').append(row)});
+  $('model-decision').textContent=s.notice||s.decision||(s.started?'Diagnóstico em andamento.':'Aguardando o início do diagnóstico.');
+  $('inventory').replaceChildren();inventory().forEach((n,l)=>{const div=document.createElement('div');const num=document.createElement('strong');num.textContent=n;const label=document.createElement('span');label.textContent=LABELS[l];div.append(num,label);$('inventory').append(div)});
+  $('preference').value=String(s.choice);$('preference-note').textContent=!s.started||s.history.length<10?'O diagnóstico usa faixas mistas autorizadas. Sua preferência será usada na prática.':'Sua preferência vale para a próxima questão. Alterar este campo é uma escolha manual explícita.';
+  $('offer-card').hidden=!s.pending;
+  if(s.pending){$('offer-title').textContent=`Experimentar a faixa ${LABELS[s.pending.level].toLowerCase()}?`;$('offer-explanation').textContent=`A previsão experimental para essa faixa é ${pct(s.pending.probs[s.pending.level])}, mais próxima do alvo de 70%. A melhora de distância é ${(s.pending.gain*100).toFixed(1).replace('.',',')} pontos percentuais, acima da margem de 9. Seu nível ainda é ${LABELS[s.choice].toLowerCase()}.`}
+  $('history-count').textContent=s.history.length+' respostas';$('history-empty').hidden=!!s.history.length;
+  $('history-rows').replaceChildren();s.history.forEach((r,i)=>{const tr=document.createElement('tr');const q=byid.get(r.id);const cells=[i+1,'Q'+q.position,LABELS[q.level],bformat(q.tri.b),(r.correct?'✓ Acerto':'× Erro')+(r.simulated?' (sim.)':''),pct(r.before)+' → '+pct(r.after)];cells.forEach((v,col)=>{const td=document.createElement('td');if(col===1){const btn=document.createElement('button');btn.className='review';btn.textContent=v;btn.addEventListener('click',()=>review(i));td.append(btn)}else td.textContent=v;if(col===4)td.className=r.correct?'correct-mark':'wrong-mark';tr.append(td)});$('history-rows').append(tr)});
+  const last=s.history.at(-1),prev=s.current&&last?.id===s.current.id?s.history.at(-2):last;
+  $('comparison').hidden=!(s.current&&prev);$('compare-empty').hidden=!!(s.current&&prev);
+  if(s.current&&prev){const q=byid.get(prev.id),now=s.current,delta=now.tri.b-q.tri.b;$('prev-label').textContent='Anterior · Q'+q.position;$('prev-b').textContent='b '+bformat(q.tri.b);$('prev-level').textContent=LABELS[q.level];$('current-label').textContent='Na tela · Q'+now.position;$('current-b').textContent='b '+bformat(now.tri.b);$('current-level').textContent=LABELS[now.level];$('comparison-text').textContent=`O b ${delta>0?'subiu':delta<0?'caiu':'permaneceu'}${delta?' em '+bformat(Math.abs(delta)):''}. `+(s.history.length+(s.answered?0:1)<=10?'É o diagnóstico misto; variar de faixa não significa que o BKT já mudou sua preferência.':`A questão está na faixa ${LABELS[now.level].toLowerCase()}, e foi servida quando sua preferência era ${LABELS[s.answered?s.history.at(-1).choice:s.servedChoice].toLowerCase()}. A adequação pedagógica ainda precisa ser avaliada.`)}
+  drawChart();
+ }
+ function drawChart(){
+  const svg=$('difficulty-graph'),ns='http://www.w3.org/2000/svg';svg.replaceChildren();
+  const add=(tag,attrs,text)=>{const el=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));if(text!==undefined)el.textContent=text;svg.append(el);return el};
+  add('title',{},'Parâmetro b das questões respondidas, da primeira à última');
+  const width=Math.max(260,svg.clientWidth);svg.setAttribute('viewBox',`0 0 ${width} 155`);
+  const left=35,right=width-15,top=12,bottom=125,maxB=3;
+  [0,1,2,3].forEach(v=>{const y=bottom-v/maxB*(bottom-top);add('line',{x1:left,y1:y,x2:right,y2:y,class:'chart-axis',opacity:v===0?1:.25});add('text',{x:8,y:y+4,class:'chart-text'},v)});
+  add('text',{x:left,y:149,class:'chart-text'},'Ordem das respostas');
+  if(!s.history.length){add('text',{x:55,y:70,class:'chart-text'},'Aguardando respostas.');return}
+  const points=s.history.map((r,i)=>[left+i/Math.max(1,s.history.length-1)*(right-left),bottom-r.b/maxB*(bottom-top)]);
+  add('polyline',{points:points.map(p=>p.join(',')).join(' '),class:'chart-path'});
+  points.forEach(([x,y],i)=>{const dot=add('circle',{cx:x,cy:y,r:4,class:'chart-dot'});const title=document.createElementNS(ns,'title');const r=s.history[i];title.textContent=`Resposta ${i+1}: questão ${byid.get(r.id).position}, ${LABELS[r.level]}, b=${r.b}`;dot.append(title)});
+ }
+ function review(i){const r=s.history[i],q=byid.get(r.id);$('history-preview').hidden=false;$('review-title').textContent=`Questão ${q.position} · ${LABELS[q.level]} · b ${bformat(q.tri.b)}`;richText($('review-question'),q.text);$('review-options').replaceChildren();q.options.forEach(o=>{const p=document.createElement('p');p.textContent=o.label+') '+o.text+(o.label===q.answer?' ✓ Gabarito':'')+(o.label===r.selected?' ← sua escolha':'');$('review-options').append(p)});$('review-result').textContent=`Estado: ${pct(r.before)} → ${pct(r.after)}. ${r.simulated?'Resposta simulada no ensaio.':'Resposta registrada somente neste exemplo.'}`;$('history-preview').scrollIntoView({block:'nearest'})}
+ $('start').addEventListener('click',()=>{s.started=true;$('intro').hidden=true;selectNext();$('question-card').scrollIntoView({block:'start'})});
+ $('submit').addEventListener('click',()=>submit(false));$('next').addEventListener('click',()=>{selectNext();if(s.current)$('question-card').scrollIntoView({block:'start'})});
+ $('simulate-correct').addEventListener('click',()=>{if(s.current&&!s.answered){s.selected=s.current.answer;submit(true)}});
+ $('simulate-wrong').addEventListener('click',()=>{if(s.current&&!s.answered){s.selected=s.current.options.find(o=>o.label!==s.current.answer).label;submit(true)}});
+ $('offer-accept').addEventListener('click',()=>{if(!s.pending||s.pending.version!==s.history.length)return;if(!inventory()[s.pending.level]){s.pending=null;s.notice='A faixa sugerida esgotou. Sua preferência foi preservada.'}else{s.choice=s.pending.level;s.pending=null;s.notice='Mudança aceita por você. A próxima questão usará essa faixa; o histórico permanece.'}renderAll()});
+ $('offer-decline').addEventListener('click',()=>{s.pending=null;s.notice='Oferta recusada. Sua preferência e todas as respostas permanecem.';renderAll()});
+ $('preference').addEventListener('change',()=>{s.choice=Number($('preference').value);s.pending=null;s.notice='Escolha manual registrada para o próximo item; o histórico não foi apagado.';if(s.started&&!s.current){selectNext()}else renderAll()});
+ $('restart').addEventListener('click',fresh);$('close-review').addEventListener('click',()=>{$('history-preview').hidden=true});
+ $('total-bank').textContent=DATA.questions.length;
+ $('data-provenance').textContent=`${DATA.questions.length} questões da escala 2018/451/CH, conferidas contra a elegibilidade da branch dataset no commit ${DATA.metadata.source_commit}. SHA-256 da base: ${DATA.metadata.source_sha256}.`;
+ fresh();
+})();
+</script></body></html>

@@ -1,0 +1,14 @@
+(node:26092) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Precision@5 usa K, inclusive em lista curta, sem tratar não julgado como negativo (0.5324ms)
+✔ Recall e NDCG bloqueados sem universo julgado completo (1.2416ms)
+✔ NDCG ideal é 1, ordenação inversa piora; Recall usa todo o universo relevante (0.1561ms)
+✔ Brier e Log Loss correspondem a valores analíticos conhecidos (0.3057ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 252.8046

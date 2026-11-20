@@ -1,0 +1,2103 @@
+{
+  "dataset": "assistments",
+  "failures": [],
+  "forgetting": 0,
+  "model_version": "2.0.0",
+  "observations": [
+    0,
+    1
+  ],
+  "release": "skill-builder-2009-2010-corrected-collapsed",
+  "skills": {
+    "101": {
+      "best_initialization": 11,
+      "converged": true,
+      "correct_count": 626,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.00012083407992236062,
+          "L0": 0.00023619039291655763,
+          "S": 4.870976800172566e-05,
+          "T": 5.7177291143795106e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 13,
+      "length_mean": 4.376681614349776,
+      "length_median": 3,
+      "log_likelihood": -618.4774669815893,
+      "mean_nll": 0.6336859292844153,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.39178383409221307,
+        "L0": 0.3833894566159996,
+        "S": 0.20537148186919674,
+        "T": 0.22471323582617217
+      },
+      "seed": 20261110,
+      "skill_id": "101",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6413934426229508,
+      "training_events": 976,
+      "training_sequences": 223,
+      "training_students": 223
+    },
+    "11": {
+      "best_initialization": 19,
+      "converged": true,
+      "correct_count": 2000,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 6.786886727758179e-05,
+          "L0": 7.42069159489489e-05,
+          "S": 1.800390277484354e-05,
+          "T": 7.23612921029182e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 7.168367346938775,
+      "length_median": 6.0,
+      "log_likelihood": -1560.503364751967,
+      "mean_nll": 0.5553392757124438,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.10148786010250749,
+        "L0": 0.6986919634949679,
+        "S": 0.19615933839118813,
+        "T": 0.28124167597569705
+      },
+      "seed": 20261110,
+      "skill_id": "11",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7117437722419929,
+      "training_events": 2810,
+      "training_sequences": 392,
+      "training_students": 392
+    },
+    "13": {
+      "best_initialization": 12,
+      "converged": true,
+      "correct_count": 513,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.9478633407520327e-05,
+          "L0": 2.250875727660695e-05,
+          "S": 1.6339867936920882e-05,
+          "T": 2.5909875956846296e-05
+        },
+        "near_optimal_runs": 10
+      },
+      "iterations": 12,
+      "length_mean": 3.0118694362017804,
+      "length_median": 2,
+      "log_likelihood": -654.0634267733578,
+      "mean_nll": 0.6443974648013377,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.15057833894714745,
+        "L0": 0.7200858392385447,
+        "S": 0.2757635789934574,
+        "T": 0.03090638725426708
+      },
+      "seed": 20261110,
+      "skill_id": "13",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5054187192118227,
+      "training_events": 1015,
+      "training_sequences": 337,
+      "training_students": 337
+    },
+    "16": {
+      "best_initialization": 14,
+      "converged": true,
+      "correct_count": 465,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "G"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.0688065016362103e-15,
+          "L0": 2.4659454838094064e-05,
+          "S": 1.4666694705428585e-05,
+          "T": 6.420463729828185e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 20,
+      "length_mean": 2.3877551020408165,
+      "length_median": 1,
+      "log_likelihood": -275.0452685023687,
+      "mean_nll": 0.47016285214080117,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.9311027989521261,
+        "S": 0.1352250675319653,
+        "T": 0.3391113764777409
+      },
+      "seed": 20261110,
+      "skill_id": "16",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7948717948717948,
+      "training_events": 585,
+      "training_sequences": 245,
+      "training_students": 245
+    },
+    "17": {
+      "best_initialization": 1,
+      "converged": true,
+      "correct_count": 1378,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 3.875818414209031e-05,
+          "L0": 4.665678845439114e-05,
+          "S": 1.4374056469146357e-05,
+          "T": 5.8993972495750835e-05
+        },
+        "near_optimal_runs": 17
+      },
+      "iterations": 13,
+      "length_mean": 8.482993197278912,
+      "length_median": 7.0,
+      "log_likelihood": -1578.6832194143415,
+      "mean_nll": 0.6329924696929998,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2336625433753676,
+        "L0": 0.6316876535621029,
+        "S": 0.2630809098894035,
+        "T": 0.04634154575499745
+      },
+      "seed": 20261110,
+      "skill_id": "17",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5525260625501203,
+      "training_events": 2494,
+      "training_sequences": 294,
+      "training_students": 294
+    },
+    "18": {
+      "best_initialization": 2,
+      "converged": true,
+      "correct_count": 3308,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 8.142493229251757e-05,
+          "L0": 5.3028915872666005e-05,
+          "S": 1.5636132970037186e-05,
+          "T": 6.485411292865562e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 16,
+      "length_mean": 6.881141045958795,
+      "length_median": 6,
+      "log_likelihood": -2206.382094285669,
+      "mean_nll": 0.50814880107915,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.17617855719199402,
+        "L0": 0.8661150411571433,
+        "S": 0.17151956698312582,
+        "T": 0.11117916595321885
+      },
+      "seed": 20261110,
+      "skill_id": "18",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7618608935974206,
+      "training_events": 4342,
+      "training_sequences": 631,
+      "training_students": 631
+    },
+    "25": {
+      "best_initialization": 15,
+      "converged": true,
+      "correct_count": 697,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.988463452921475e-05,
+          "L0": 1.7696979146442082e-05,
+          "S": 1.4235234268966668e-05,
+          "T": 4.352059112559814e-05
+        },
+        "near_optimal_runs": 16
+      },
+      "iterations": 25,
+      "length_mean": 3.3665594855305465,
+      "length_median": 2,
+      "log_likelihood": -607.3762957566978,
+      "mean_nll": 0.5801110752212969,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.10543830460952192,
+        "L0": 0.8810854432020228,
+        "S": 0.2178866484763558,
+        "T": 0.07331659809101143
+      },
+      "seed": 20261110,
+      "skill_id": "25",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6657115568290354,
+      "training_events": 1047,
+      "training_sequences": 311,
+      "training_students": 311
+    },
+    "27": {
+      "best_initialization": 11,
+      "converged": true,
+      "correct_count": 2936,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.222495067569444e-05,
+          "L0": 0.00011980992972371318,
+          "S": 1.881003267639736e-05,
+          "T": 9.951735483262197e-06
+        },
+        "near_optimal_runs": 13
+      },
+      "iterations": 23,
+      "length_mean": 24.476683937823836,
+      "length_median": 25,
+      "log_likelihood": -3065.3538613771752,
+      "mean_nll": 0.6488894710789956,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.4369731500083916,
+        "L0": 0.6416544851710221,
+        "S": 0.29113706640693715,
+        "T": 0.015844703043856358
+      },
+      "seed": 20261110,
+      "skill_id": "27",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6215071972904318,
+      "training_events": 4724,
+      "training_sequences": 193,
+      "training_students": 193
+    },
+    "276": {
+      "best_initialization": 3,
+      "converged": true,
+      "correct_count": 1048,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.0257689781507686e-05,
+          "L0": 4.9193585677898e-05,
+          "S": 9.946334332669449e-06,
+          "T": 3.190537757240264e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 15,
+      "length_mean": 5.70464135021097,
+      "length_median": 5,
+      "log_likelihood": -634.8718882322471,
+      "mean_nll": 0.46957979898834845,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.3780871478853137,
+        "L0": 0.7567914861432167,
+        "S": 0.07721288676084856,
+        "T": 0.10615976822520956
+      },
+      "seed": 20261110,
+      "skill_id": "276",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7751479289940828,
+      "training_events": 1352,
+      "training_sequences": 237,
+      "training_students": 237
+    },
+    "277": {
+      "best_initialization": 0,
+      "converged": true,
+      "correct_count": 5351,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.202160917282649e-05,
+          "L0": 8.219978375112458e-05,
+          "S": 2.0556202895399833e-05,
+          "T": 3.963732279655373e-05
+        },
+        "near_optimal_runs": 15
+      },
+      "iterations": 14,
+      "length_mean": 10.127039627039627,
+      "length_median": 5.0,
+      "log_likelihood": -5324.087564209337,
+      "mean_nll": 0.6127388150776081,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.38215130617683163,
+        "L0": 0.6918497944452825,
+        "S": 0.19551690592269305,
+        "T": 0.011451324972252246
+      },
+      "seed": 20261110,
+      "skill_id": "277",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6158361146276902,
+      "training_events": 8689,
+      "training_sequences": 858,
+      "training_students": 858
+    },
+    "278": {
+      "best_initialization": 15,
+      "converged": true,
+      "correct_count": 1710,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.6500186797062675e-05,
+          "L0": 4.01864451895495e-05,
+          "S": 2.2970692995200048e-05,
+          "T": 1.55867952111588e-05
+        },
+        "near_optimal_runs": 15
+      },
+      "iterations": 10,
+      "length_mean": 6.316593886462882,
+      "length_median": 5.0,
+      "log_likelihood": -1585.3740270157252,
+      "mean_nll": 0.5480034659577343,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.13453746682595158,
+        "L0": 0.6733116080271698,
+        "S": 0.1741713121425898,
+        "T": 0.07196826437017426
+      },
+      "seed": 20261110,
+      "skill_id": "278",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.591081921880401,
+      "training_events": 2893,
+      "training_sequences": 458,
+      "training_students": 458
+    },
+    "279": {
+      "best_initialization": 2,
+      "converged": true,
+      "correct_count": 3782,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 8.25479422254527e-05,
+          "L0": 5.744307603239296e-05,
+          "S": 1.819124678800743e-05,
+          "T": 5.6995083404801083e-05
+        },
+        "near_optimal_runs": 18
+      },
+      "iterations": 18,
+      "length_mean": 7.60126582278481,
+      "length_median": 5.0,
+      "log_likelihood": -2216.5183133216487,
+      "mean_nll": 0.46139015681133405,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2063605049130983,
+        "L0": 0.8860363377094771,
+        "S": 0.14005789541789448,
+        "T": 0.0776729730538971
+      },
+      "seed": 20261110,
+      "skill_id": "279",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7872606161532056,
+      "training_events": 4804,
+      "training_sequences": 632,
+      "training_students": 632
+    },
+    "280": {
+      "best_initialization": 5,
+      "converged": true,
+      "correct_count": 5249,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.733633371133139e-05,
+          "L0": 6.423995258053594e-05,
+          "S": 1.3851151573041065e-05,
+          "T": 3.747632147506341e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 8.256929637526653,
+      "length_median": 7.0,
+      "log_likelihood": -4153.591269792579,
+      "mean_nll": 0.5362932562676022,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.10886925093017695,
+        "L0": 0.7738360577197712,
+        "S": 0.19809395518447978,
+        "T": 0.08009005921387137
+      },
+      "seed": 20261110,
+      "skill_id": "280",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6777275661717237,
+      "training_events": 7745,
+      "training_sequences": 938,
+      "training_students": 938
+    },
+    "294": {
+      "best_initialization": 6,
+      "converged": true,
+      "correct_count": 309,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 3.302591513522357e-05,
+          "L0": 6.537862903377434e-05,
+          "S": 2.6741568093402446e-05,
+          "T": 3.570975876324156e-05
+        },
+        "near_optimal_runs": 19
+      },
+      "iterations": 14,
+      "length_mean": 4.1571428571428575,
+      "length_median": 4.0,
+      "log_likelihood": -366.30458019130117,
+      "mean_nll": 0.6293893130434728,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.03161377076591673,
+        "L0": 0.6828444933037202,
+        "S": 0.2911020158555067,
+        "T": 0.23591133241582996
+      },
+      "seed": 20261110,
+      "skill_id": "294",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5309278350515464,
+      "training_events": 582,
+      "training_sequences": 140,
+      "training_students": 140
+    },
+    "297": {
+      "best_initialization": 19,
+      "converged": true,
+      "correct_count": 394,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.0001759129243982388,
+          "L0": 0.00017551332948162468,
+          "S": 4.4412417683381555e-05,
+          "T": 4.715202504479432e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 16,
+      "length_mean": 3.602094240837696,
+      "length_median": 2,
+      "log_likelihood": -452.1397502523423,
+      "mean_nll": 0.6571798695528231,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.09831654505953744,
+        "L0": 0.6684986052265439,
+        "S": 0.297486223399818,
+        "T": 0.33587019382115496
+      },
+      "seed": 20261110,
+      "skill_id": "297",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5726744186046512,
+      "training_events": 688,
+      "training_sequences": 191,
+      "training_students": 191
+    },
+    "301": {
+      "best_initialization": 2,
+      "converged": true,
+      "correct_count": 590,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 3.661074276162246e-05,
+          "L0": 5.944739044627667e-05,
+          "S": 2.2459389444728917e-05,
+          "T": 6.39259832189154e-05
+        },
+        "near_optimal_runs": 18
+      },
+      "iterations": 14,
+      "length_mean": 5.377551020408164,
+      "length_median": 4.5,
+      "log_likelihood": -668.9942545140377,
+      "mean_nll": 0.6347194065598081,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.03166382044462531,
+        "L0": 0.5875986782929102,
+        "S": 0.2996596790759652,
+        "T": 0.2836632016227518
+      },
+      "seed": 20261110,
+      "skill_id": "301",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5597722960151803,
+      "training_events": 1054,
+      "training_sequences": 196,
+      "training_students": 196
+    },
+    "303": {
+      "best_initialization": 0,
+      "converged": true,
+      "correct_count": 532,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.2508123770990114e-05,
+          "L0": 5.902248312972258e-05,
+          "S": 1.9471951946625765e-05,
+          "T": 1.4610785514540536e-05
+        },
+        "near_optimal_runs": 12
+      },
+      "iterations": 15,
+      "length_mean": 4.55188679245283,
+      "length_median": 4.0,
+      "log_likelihood": -644.055771117372,
+      "mean_nll": 0.6674153068573804,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.18712338833707848,
+        "L0": 0.6258743548936055,
+        "S": 0.30915548496518447,
+        "T": 0.198380488942758
+      },
+      "seed": 20261110,
+      "skill_id": "303",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5512953367875648,
+      "training_events": 965,
+      "training_sequences": 212,
+      "training_students": 212
+    },
+    "307": {
+      "best_initialization": 10,
+      "converged": true,
+      "correct_count": 512,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "T"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.00010175359457975652,
+          "L0": 1.3531935865507272e-05,
+          "S": 1.4515302098311311e-05,
+          "T": 5.0428953547732025e-17
+        },
+        "near_optimal_runs": 16
+      },
+      "iterations": 19,
+      "length_mean": 2.587982832618026,
+      "length_median": 2,
+      "log_likelihood": -244.34408271729774,
+      "mean_nll": 0.4052140675245402,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.21919202027861295,
+        "L0": 0.973098571894473,
+        "S": 0.11897624314452822,
+        "T": 0.0001
+      },
+      "seed": 20261110,
+      "skill_id": "307",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8490878938640133,
+      "training_events": 603,
+      "training_sequences": 233,
+      "training_students": 233
+    },
+    "308": {
+      "best_initialization": 16,
+      "converged": true,
+      "correct_count": 334,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "L0"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.0014092475252312e-05,
+          "L0": 1.622020660146939e-15,
+          "S": 4.3535861333890424e-05,
+          "T": 3.3054913065461156e-05
+        },
+        "near_optimal_runs": 7
+      },
+      "iterations": 19,
+      "length_mean": 4.2706766917293235,
+      "length_median": 4,
+      "log_likelihood": -379.1071071369531,
+      "mean_nll": 0.667442090029847,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.5024513817424849,
+        "L0": 0.0001,
+        "S": 0.12290022308740463,
+        "T": 0.12670326408332735
+      },
+      "seed": 20261110,
+      "skill_id": "308",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5880281690140845,
+      "training_events": 568,
+      "training_sequences": 133,
+      "training_students": 133
+    },
+    "309": {
+      "best_initialization": 4,
+      "converged": true,
+      "correct_count": 1029,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.044864674066257e-05,
+          "L0": 2.3219194284274103e-05,
+          "S": 9.942222175485238e-06,
+          "T": 2.1610107957190094e-05
+        },
+        "near_optimal_runs": 19
+      },
+      "iterations": 14,
+      "length_mean": 3.3483870967741933,
+      "length_median": 2,
+      "log_likelihood": -911.4878612516469,
+      "mean_nll": 0.5854128845546865,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.04511063880464339,
+        "L0": 0.9156056228740767,
+        "S": 0.2506379534803457,
+        "T": 0.08257440568067925
+      },
+      "seed": 20261110,
+      "skill_id": "309",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6608863198458574,
+      "training_events": 1557,
+      "training_sequences": 465,
+      "training_students": 465
+    },
+    "310": {
+      "best_initialization": 5,
+      "converged": true,
+      "correct_count": 1436,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 8.103943487697274e-05,
+          "L0": 0.00011566812519980818,
+          "S": 2.850140155510883e-05,
+          "T": 3.776012557793473e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 5.067685589519651,
+      "length_median": 3.0,
+      "log_likelihood": -1465.3322368502506,
+      "mean_nll": 0.6313365949376349,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2569504815126621,
+        "L0": 0.5494752085177749,
+        "S": 0.2295833421967353,
+        "T": 0.17888151414333908
+      },
+      "seed": 20261110,
+      "skill_id": "310",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6186988367083154,
+      "training_events": 2321,
+      "training_sequences": 458,
+      "training_students": 458
+    },
+    "311": {
+      "best_initialization": 14,
+      "converged": true,
+      "correct_count": 8077,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.0001623972587877498,
+          "L0": 0.00014426109374299223,
+          "S": 4.973476772307528e-05,
+          "T": 2.8725508381406695e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 21,
+      "length_mean": 18.29985443959243,
+      "length_median": 11,
+      "log_likelihood": -7635.724902599574,
+      "mean_nll": 0.6073596009067431,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2822296069317649,
+        "L0": 0.6528564842702754,
+        "S": 0.25605403406918653,
+        "T": 0.03438446296856178
+      },
+      "seed": 20261110,
+      "skill_id": "311",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6424594336621062,
+      "training_events": 12572,
+      "training_sequences": 687,
+      "training_students": 687
+    },
+    "312": {
+      "best_initialization": 3,
+      "converged": true,
+      "correct_count": 2110,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.246947097303778e-05,
+          "L0": 0.00010973128577840274,
+          "S": 2.7039491703212404e-05,
+          "T": 1.0822800956780676e-05
+        },
+        "near_optimal_runs": 12
+      },
+      "iterations": 14,
+      "length_mean": 12.171328671328672,
+      "length_median": 10.0,
+      "log_likelihood": -2132.849679405932,
+      "mean_nll": 0.6127117723085125,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.25653938643172186,
+        "L0": 0.44770425153410837,
+        "S": 0.22141724924595507,
+        "T": 0.09345916981535704
+      },
+      "seed": 20261110,
+      "skill_id": "312",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.606147658718759,
+      "training_events": 3481,
+      "training_sequences": 286,
+      "training_students": 286
+    },
+    "322": {
+      "best_initialization": 14,
+      "converged": true,
+      "correct_count": 423,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "G"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.40692882291782e-16,
+          "L0": 3.3333067455232346e-05,
+          "S": 1.9856984033228553e-05,
+          "T": 1.5018913690587055e-05
+        },
+        "near_optimal_runs": 13
+      },
+      "iterations": 26,
+      "length_mean": 5.012738853503185,
+      "length_median": 2,
+      "log_likelihood": -509.83476577634934,
+      "mean_nll": 0.6478205410118797,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.9023050386997918,
+        "S": 0.3840108323906377,
+        "T": 0.10767800290289319
+      },
+      "seed": 20261110,
+      "skill_id": "322",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5374841168996188,
+      "training_events": 787,
+      "training_sequences": 157,
+      "training_students": 157
+    },
+    "323": {
+      "best_initialization": 16,
+      "converged": true,
+      "correct_count": 598,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "G"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.8566962203814263e-17,
+          "L0": 1.3606756857131863e-05,
+          "S": 1.1025652545904041e-05,
+          "T": 7.702346144600192e-05
+        },
+        "near_optimal_runs": 11
+      },
+      "iterations": 25,
+      "length_mean": 5.052631578947368,
+      "length_median": 5,
+      "log_likelihood": -219.47918858418853,
+      "mean_nll": 0.3266059353931377,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.8129257636547013,
+        "S": 0.07515228155259249,
+        "T": 0.9785473667197285
+      },
+      "seed": 20261110,
+      "skill_id": "323",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8898809523809523,
+      "training_events": 672,
+      "training_sequences": 133,
+      "training_students": 133
+    },
+    "325": {
+      "best_initialization": 15,
+      "converged": true,
+      "correct_count": 587,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 3.9809772477042427e-05,
+          "L0": 0.00012664911138204893,
+          "S": 3.288562596759359e-05,
+          "T": 2.4515861384466486e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 12,
+      "length_mean": 6.1059322033898304,
+      "length_median": 4.5,
+      "log_likelihood": -915.1235157634495,
+      "mean_nll": 0.6350614266227963,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.09268856762279233,
+        "L0": 0.4608046152031327,
+        "S": 0.4076873454665801,
+        "T": 0.1494219754497011
+      },
+      "seed": 20261110,
+      "skill_id": "325",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.4073560027758501,
+      "training_events": 1441,
+      "training_sequences": 236,
+      "training_students": 236
+    },
+    "368": {
+      "best_initialization": 11,
+      "converged": true,
+      "correct_count": 831,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.3470040103112932e-05,
+          "L0": 3.158244751588768e-05,
+          "S": 7.3683037136451635e-06,
+          "T": 1.7905852149190105e-05
+        },
+        "near_optimal_runs": 16
+      },
+      "iterations": 32,
+      "length_mean": 6.1466666666666665,
+      "length_median": 4,
+      "log_likelihood": -861.5489258173787,
+      "mean_nll": 0.6229565624131445,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.36412075547333206,
+        "L0": 0.5609191572538615,
+        "S": 0.12674070445381955,
+        "T": 0.05285429364807577
+      },
+      "seed": 20261110,
+      "skill_id": "368",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6008676789587852,
+      "training_events": 1383,
+      "training_sequences": 225,
+      "training_students": 225
+    },
+    "39": {
+      "best_initialization": 19,
+      "converged": true,
+      "correct_count": 585,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 6.093805657671203e-05,
+          "L0": 1.3345101541606397e-05,
+          "S": 2.0937119592834286e-05,
+          "T": 2.8400643394072e-05
+        },
+        "near_optimal_runs": 12
+      },
+      "iterations": 28,
+      "length_mean": 4.699453551912568,
+      "length_median": 4,
+      "log_likelihood": -521.0930371777299,
+      "mean_nll": 0.6059221362531744,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.07763492833987522,
+        "L0": 0.9519095370448417,
+        "S": 0.2796762782697265,
+        "T": 0.10058131989120522
+      },
+      "seed": 20261110,
+      "skill_id": "39",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6802325581395349,
+      "training_events": 860,
+      "training_sequences": 183,
+      "training_students": 183
+    },
+    "4": {
+      "best_initialization": 16,
+      "converged": true,
+      "correct_count": 922,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.00015004328142234624,
+          "L0": 0.00017513481560926802,
+          "S": 2.544728756856407e-05,
+          "T": 7.066473466380008e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 8.067901234567902,
+      "length_median": 8.0,
+      "log_likelihood": -764.1103355240647,
+      "mean_nll": 0.584629177906706,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.22149103877656767,
+        "L0": 0.7179778168007691,
+        "S": 0.22696466812241414,
+        "T": 0.24166995500766247
+      },
+      "seed": 20261110,
+      "skill_id": "4",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7054322876817138,
+      "training_events": 1307,
+      "training_sequences": 162,
+      "training_students": 162
+    },
+    "40": {
+      "best_initialization": 17,
+      "converged": true,
+      "correct_count": 909,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.00015588309347180918,
+          "L0": 3.824741831504053e-05,
+          "S": 1.7596148353338226e-05,
+          "T": 8.409507933604399e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 22,
+      "length_mean": 7.266666666666667,
+      "length_median": 6.0,
+      "log_likelihood": -799.9113328581112,
+      "mean_nll": 0.6115530067722563,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2122862299679375,
+        "L0": 0.927307327639296,
+        "S": 0.28297047011347903,
+        "T": 0.16509221747207806
+      },
+      "seed": 20261110,
+      "skill_id": "40",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.694954128440367,
+      "training_events": 1308,
+      "training_sequences": 180,
+      "training_students": 180
+    },
+    "46": {
+      "best_initialization": 7,
+      "converged": true,
+      "correct_count": 2297,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.06985468546062434,
+          "L0": 0.036923841674703195,
+          "S": 0.0126080992511311,
+          "T": 0.013574611734418943
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 11.867647058823529,
+      "length_median": 11.0,
+      "log_likelihood": -1839.2153355880077,
+      "mean_nll": 0.5697693109008698,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.3244226192916956,
+        "L0": 0.726428813859314,
+        "S": 0.20840556729717186,
+        "T": 0.0715884933062363
+      },
+      "seed": 20261110,
+      "skill_id": "46",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7115861214374225,
+      "training_events": 3228,
+      "training_sequences": 272,
+      "training_students": 272
+    },
+    "47": {
+      "best_initialization": 1,
+      "converged": true,
+      "correct_count": 8426,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.828830230849899e-05,
+          "L0": 5.5763058656954634e-05,
+          "S": 1.2179648323756842e-05,
+          "T": 1.3223490348475073e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 17,
+      "length_mean": 15.4947245017585,
+      "length_median": 11,
+      "log_likelihood": -8083.327405998996,
+      "mean_nll": 0.6115856401603236,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.40623807023306585,
+        "L0": 0.6488095397909353,
+        "S": 0.20930111035549423,
+        "T": 0.014221342475701412
+      },
+      "seed": 20261110,
+      "skill_id": "47",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6375122947718846,
+      "training_events": 13217,
+      "training_sequences": 853,
+      "training_students": 853
+    },
+    "49": {
+      "best_initialization": 1,
+      "converged": true,
+      "correct_count": 2602,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.6868067777408022e-05,
+          "L0": 5.3451001684856614e-05,
+          "S": 1.760093970747112e-05,
+          "T": 1.6642070099971706e-05
+        },
+        "near_optimal_runs": 16
+      },
+      "iterations": 15,
+      "length_mean": 6.090121317157712,
+      "length_median": 4,
+      "log_likelihood": -1815.8442929020762,
+      "mean_nll": 0.5167456724251782,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.39358333000071866,
+        "L0": 0.7777324606180882,
+        "S": 0.11420856593796844,
+        "T": 0.06133237088975592
+      },
+      "seed": 20261110,
+      "skill_id": "49",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7404667046101309,
+      "training_events": 3514,
+      "training_sequences": 577,
+      "training_students": 577
+    },
+    "50": {
+      "best_initialization": 7,
+      "converged": true,
+      "correct_count": 3442,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.976055878780361e-05,
+          "L0": 6.253814538792479e-05,
+          "S": 1.2026428947591039e-05,
+          "T": 3.2391010279436694e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 11,
+      "length_mean": 7.061976549413735,
+      "length_median": 6,
+      "log_likelihood": -1800.7184511097712,
+      "mean_nll": 0.42711538214178635,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.5252253464336972,
+        "L0": 0.7051179035917796,
+        "S": 0.05164401030638838,
+        "T": 0.07019466983832805
+      },
+      "seed": 20261110,
+      "skill_id": "50",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8164136622390892,
+      "training_events": 4216,
+      "training_sequences": 597,
+      "training_students": 597
+    },
+    "51": {
+      "best_initialization": 11,
+      "converged": true,
+      "correct_count": 1232,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.6015036996174246e-05,
+          "L0": 0.00011404619857491305,
+          "S": 2.0805412459650244e-05,
+          "T": 1.4656748495794902e-05
+        },
+        "near_optimal_runs": 13
+      },
+      "iterations": 25,
+      "length_mean": 4.398753894080997,
+      "length_median": 2,
+      "log_likelihood": -517.8365691382687,
+      "mean_nll": 0.3667397798429665,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.7566187649399212,
+        "L0": 0.5278201000921906,
+        "S": 0.015581683123656495,
+        "T": 0.06471289045911223
+      },
+      "seed": 20261110,
+      "skill_id": "51",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8725212464589235,
+      "training_events": 1412,
+      "training_sequences": 321,
+      "training_students": 321
+    },
+    "54": {
+      "best_initialization": 14,
+      "converged": true,
+      "correct_count": 468,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.00010009843608281555,
+          "L0": 7.784443504632588e-05,
+          "S": 2.3553655130681417e-05,
+          "T": 5.3146248337854196e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 20,
+      "length_mean": 4.0754716981132075,
+      "length_median": 4,
+      "log_likelihood": -358.7868645967294,
+      "mean_nll": 0.5536834330196442,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.11868055217682302,
+        "L0": 0.7175081720467766,
+        "S": 0.16894568468466137,
+        "T": 0.38997094626083123
+      },
+      "seed": 20261110,
+      "skill_id": "54",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7222222222222222,
+      "training_events": 648,
+      "training_sequences": 159,
+      "training_students": 159
+    },
+    "58": {
+      "best_initialization": 15,
+      "converged": true,
+      "correct_count": 1078,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.000692391696003547,
+          "L0": 0.0007567653823656872,
+          "S": 0.0001333227430870415,
+          "T": 0.00016136186204158964
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 21,
+      "length_mean": 6.2009569377990434,
+      "length_median": 4,
+      "log_likelihood": -547.756226457242,
+      "mean_nll": 0.4226514093034274,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.5223581801037803,
+        "L0": 0.7071860840857329,
+        "S": 0.08264990998208677,
+        "T": 0.10678523444064707
+      },
+      "seed": 20261110,
+      "skill_id": "58",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8317901234567902,
+      "training_events": 1296,
+      "training_sequences": 209,
+      "training_students": 209
+    },
+    "61": {
+      "best_initialization": 18,
+      "converged": true,
+      "correct_count": 1914,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.461515895563429e-05,
+          "L0": 7.689924954978888e-05,
+          "S": 1.5189116792269086e-05,
+          "T": 4.0530167418784124e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 12,
+      "length_mean": 5.335892514395393,
+      "length_median": 5,
+      "log_likelihood": -1545.9451745467202,
+      "mean_nll": 0.5560953865275972,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.1798619397957518,
+        "L0": 0.6202678574136409,
+        "S": 0.1559235576381219,
+        "T": 0.21898117521801183
+      },
+      "seed": 20261110,
+      "skill_id": "61",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6884892086330935,
+      "training_events": 2780,
+      "training_sequences": 521,
+      "training_students": 521
+    },
+    "65": {
+      "best_initialization": 18,
+      "converged": true,
+      "correct_count": 1495,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.012808048165951e-05,
+          "L0": 0.00011367907469339578,
+          "S": 1.4010178700368803e-05,
+          "T": 6.193150245531465e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 15,
+      "length_mean": 9.03875968992248,
+      "length_median": 7.0,
+      "log_likelihood": -1408.5163626592625,
+      "mean_nll": 0.6039950097166649,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.10050652454596683,
+        "L0": 0.5161138510000985,
+        "S": 0.2462831529376109,
+        "T": 0.2723566830879819
+      },
+      "seed": 20261110,
+      "skill_id": "65",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6410806174957119,
+      "training_events": 2332,
+      "training_sequences": 258,
+      "training_students": 258
+    },
+    "67": {
+      "best_initialization": 5,
+      "converged": true,
+      "correct_count": 2541,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 9.725629886725429e-05,
+          "L0": 0.00016919711768814683,
+          "S": 2.9214464822735486e-05,
+          "T": 4.1019434397632226e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 15,
+      "length_mean": 6.845323741007194,
+      "length_median": 5.0,
+      "log_likelihood": -2308.339258506941,
+      "mean_nll": 0.6065000679208988,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.3126506615196813,
+        "L0": 0.6001906699533216,
+        "S": 0.21500051122383082,
+        "T": 0.14951265907268876
+      },
+      "seed": 20261110,
+      "skill_id": "67",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6676300578034682,
+      "training_events": 3806,
+      "training_sequences": 556,
+      "training_students": 556
+    },
+    "70": {
+      "best_initialization": 19,
+      "converged": true,
+      "correct_count": 1785,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.126041125264516e-05,
+          "L0": 7.055876354333801e-05,
+          "S": 1.9224867948308688e-05,
+          "T": 5.240096386344151e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 19,
+      "length_mean": 4.739703459637561,
+      "length_median": 4,
+      "log_likelihood": -1742.9397544137755,
+      "mean_nll": 0.6058184756391295,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.01647428307748643,
+        "L0": 0.6562862293980793,
+        "S": 0.24757679145004188,
+        "T": 0.30449950891971755
+      },
+      "seed": 20261110,
+      "skill_id": "70",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6204379562043796,
+      "training_events": 2877,
+      "training_sequences": 607,
+      "training_students": 607
+    },
+    "75": {
+      "best_initialization": 0,
+      "converged": true,
+      "correct_count": 1484,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.000139968809938551,
+          "L0": 8.635958693314905e-05,
+          "S": 1.5952832555218843e-05,
+          "T": 3.65767399001099e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 16,
+      "length_mean": 7.881578947368421,
+      "length_median": 8.0,
+      "log_likelihood": -771.3407905920824,
+      "mean_nll": 0.42923805820371863,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.4077453498502154,
+        "L0": 0.8078185364736652,
+        "S": 0.10293442877982631,
+        "T": 0.09969380156642998
+      },
+      "seed": 20261110,
+      "skill_id": "75",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8258208124652198,
+      "training_events": 1797,
+      "training_sequences": 228,
+      "training_students": 228
+    },
+    "76": {
+      "best_initialization": 13,
+      "converged": true,
+      "correct_count": 820,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.64004559129044e-05,
+          "L0": 6.0978786464160883e-05,
+          "S": 1.987127955682677e-05,
+          "T": 1.8735348634668636e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 11,
+      "length_mean": 6.412979351032448,
+      "length_median": 5,
+      "log_likelihood": -1264.597825220792,
+      "mean_nll": 0.581691731932287,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.044673879473125226,
+        "L0": 0.40203307760625867,
+        "S": 0.3675115733539071,
+        "T": 0.13343170813851798
+      },
+      "seed": 20261110,
+      "skill_id": "76",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.37718491260349585,
+      "training_events": 2174,
+      "training_sequences": 339,
+      "training_students": 339
+    },
+    "77": {
+      "best_initialization": 5,
+      "converged": true,
+      "correct_count": 2466,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.383542733571444e-05,
+          "L0": 0.00012024097468443795,
+          "S": 1.6857583266249865e-05,
+          "T": 2.266081470220227e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 18,
+      "length_mean": 8.879492600422832,
+      "length_median": 6,
+      "log_likelihood": -2227.401580602688,
+      "mean_nll": 0.5303337096673068,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.06549929489738739,
+        "L0": 0.43516119612603593,
+        "S": 0.18920718958196314,
+        "T": 0.13651929255338624
+      },
+      "seed": 20261110,
+      "skill_id": "77",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.5871428571428572,
+      "training_events": 4200,
+      "training_sequences": 473,
+      "training_students": 473
+    },
+    "79": {
+      "best_initialization": 13,
+      "converged": true,
+      "correct_count": 3629,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 3.462852258206972e-05,
+          "L0": 0.00011409578106924556,
+          "S": 4.450686722518027e-05,
+          "T": 9.75122696320746e-06
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 24,
+      "length_mean": 11.833684210526316,
+      "length_median": 8,
+      "log_likelihood": -3356.299770911618,
+      "mean_nll": 0.5971001193580534,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.42291488389648596,
+        "L0": 0.4943686515577881,
+        "S": 0.1364037309614864,
+        "T": 0.03437144935197255
+      },
+      "seed": 20261110,
+      "skill_id": "79",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6456146593132894,
+      "training_events": 5621,
+      "training_sequences": 475,
+      "training_students": 475
+    },
+    "8": {
+      "best_initialization": 13,
+      "converged": true,
+      "correct_count": 1136,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 0.0001658246562545318,
+          "L0": 8.762041410192989e-05,
+          "S": 7.880065110849044e-06,
+          "T": 8.15359059333498e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 16,
+      "length_mean": 5.152941176470589,
+      "length_median": 4,
+      "log_likelihood": -472.97706794576425,
+      "mean_nll": 0.35995210650362575,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.4244186791136833,
+        "L0": 0.605676520631209,
+        "S": 0.05217312494909974,
+        "T": 0.4264764757682952
+      },
+      "seed": 20261110,
+      "skill_id": "8",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8645357686453576,
+      "training_events": 1314,
+      "training_sequences": 255,
+      "training_students": 255
+    },
+    "81": {
+      "best_initialization": 0,
+      "converged": true,
+      "correct_count": 1054,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.6022279666637615e-05,
+          "L0": 7.577909661116156e-05,
+          "S": 3.716893337485372e-05,
+          "T": 1.3493605193828917e-05
+        },
+        "near_optimal_runs": 14
+      },
+      "iterations": 13,
+      "length_mean": 5.223277909738718,
+      "length_median": 4,
+      "log_likelihood": -1455.536526497984,
+      "mean_nll": 0.6619083794897608,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.15973797619301008,
+        "L0": 0.6715717932312836,
+        "S": 0.35711336441776675,
+        "T": 0.09547139595859697
+      },
+      "seed": 20261110,
+      "skill_id": "81",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.4793087767166894,
+      "training_events": 2199,
+      "training_sequences": 421,
+      "training_students": 421
+    },
+    "82": {
+      "best_initialization": 6,
+      "converged": true,
+      "correct_count": 971,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 8.064983729333397e-05,
+          "L0": 7.418366849254454e-05,
+          "S": 2.1516244860311784e-05,
+          "T": 3.940142841474259e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 15,
+      "length_mean": 6.814207650273224,
+      "length_median": 5,
+      "log_likelihood": -585.7598858032952,
+      "mean_nll": 0.4697352732985527,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.27332398156264975,
+        "L0": 0.588281404024076,
+        "S": 0.10097154090917787,
+        "T": 0.26123901921678855
+      },
+      "seed": 20261110,
+      "skill_id": "82",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7786688051323175,
+      "training_events": 1247,
+      "training_sequences": 183,
+      "training_students": 183
+    },
+    "83": {
+      "best_initialization": 13,
+      "converged": true,
+      "correct_count": 1256,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.3973918688516855e-05,
+          "L0": 6.612692846735824e-05,
+          "S": 2.0077814025437624e-05,
+          "T": 3.061532677314793e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 11,
+      "length_mean": 10.278947368421052,
+      "length_median": 10.0,
+      "log_likelihood": -1145.5641006443857,
+      "mean_nll": 0.5865663597769512,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.2153493729272622,
+        "L0": 0.3221991131363953,
+        "S": 0.2052632640577144,
+        "T": 0.19002658697640912
+      },
+      "seed": 20261110,
+      "skill_id": "83",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6431131592421915,
+      "training_events": 1953,
+      "training_sequences": 190,
+      "training_students": 190
+    },
+    "84": {
+      "best_initialization": 13,
+      "converged": true,
+      "correct_count": 380,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "L0"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 4.259570989850747e-05,
+          "L0": 3.6266562669640123e-17,
+          "S": 1.4609999433881637e-05,
+          "T": 0.00011462785639815287
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 17,
+      "length_mean": 4.230088495575221,
+      "length_median": 2,
+      "log_likelihood": -218.0648491593032,
+      "mean_nll": 0.4562026133039816,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.580100059174217,
+        "L0": 0.00010000000000000007,
+        "S": 0.09050880831583523,
+        "T": 0.5191137298217029
+      },
+      "seed": 20261110,
+      "skill_id": "84",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.7949790794979079,
+      "training_events": 478,
+      "training_sequences": 113,
+      "training_students": 113
+    },
+    "85": {
+      "best_initialization": 3,
+      "converged": true,
+      "correct_count": 1741,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 5.1769687368752315e-05,
+          "L0": 5.526767732322302e-05,
+          "S": 1.3841209858547754e-05,
+          "T": 4.392547503839772e-05
+        },
+        "near_optimal_runs": 19
+      },
+      "iterations": 20,
+      "length_mean": 4.837209302325581,
+      "length_median": 2.5,
+      "log_likelihood": -805.2326233745546,
+      "mean_nll": 0.3871310689300743,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.3788616791750971,
+        "L0": 0.8454601708888022,
+        "S": 0.06897718025470341,
+        "T": 0.09944604046122198
+      },
+      "seed": 20261110,
+      "skill_id": "85",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.8370192307692308,
+      "training_events": 2080,
+      "training_sequences": 430,
+      "training_students": 430
+    },
+    "86": {
+      "best_initialization": 15,
+      "converged": true,
+      "correct_count": 1538,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 8.48742581700257e-05,
+          "L0": 5.5841264602229934e-05,
+          "S": 2.526233682459411e-05,
+          "T": 5.116077088657134e-05
+        },
+        "near_optimal_runs": 20
+      },
+      "iterations": 14,
+      "length_mean": 4.6689655172413795,
+      "length_median": 3,
+      "log_likelihood": -1041.5010816707368,
+      "mean_nll": 0.5128021081589054,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.08211808824656198,
+        "L0": 0.9105533221739851,
+        "S": 0.18190999083666246,
+        "T": 0.1736375303997586
+      },
+      "seed": 20261110,
+      "skill_id": "86",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.75726243229936,
+      "training_events": 2031,
+      "training_sequences": 435,
+      "training_students": 435
+    },
+    "91": {
+      "best_initialization": 5,
+      "converged": true,
+      "correct_count": 306,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [
+          "G"
+        ],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.1348886240492018e-16,
+          "L0": 9.360892038445812e-05,
+          "S": 3.7742888589487045e-05,
+          "T": 0.0005414158288524484
+        },
+        "near_optimal_runs": 17
+      },
+      "iterations": 34,
+      "length_mean": 3.0939597315436242,
+      "length_median": 1,
+      "log_likelihood": -288.1331714357301,
+      "mean_nll": 0.6250177254571152,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.00010000000000001792,
+        "L0": 0.9545172204743948,
+        "S": 0.29775820513530815,
+        "T": 0.17667799982383842
+      },
+      "seed": 20261110,
+      "skill_id": "91",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6637744034707158,
+      "training_events": 461,
+      "training_sequences": 149,
+      "training_students": 149
+    },
+    "92": {
+      "best_initialization": 0,
+      "converged": true,
+      "correct_count": 402,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 1.1166139805673936e-05,
+          "L0": 2.1035095619459376e-05,
+          "S": 1.7735185862177705e-05,
+          "T": 1.4989192142919605e-05
+        },
+        "near_optimal_runs": 11
+      },
+      "iterations": 12,
+      "length_mean": 3.2142857142857144,
+      "length_median": 1.0,
+      "log_likelihood": -572.7034325237024,
+      "mean_nll": 0.6363371472485583,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.10073592903350412,
+        "L0": 0.7874732956843107,
+        "S": 0.3788361754673423,
+        "T": 0.02527210268950124
+      },
+      "seed": 20261110,
+      "skill_id": "92",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.44666666666666666,
+      "training_events": 900,
+      "training_sequences": 280,
+      "training_students": 280
+    },
+    "94": {
+      "best_initialization": 7,
+      "converged": true,
+      "correct_count": 680,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.533966677092936e-05,
+          "L0": 1.930848467313062e-05,
+          "S": 6.334152298448359e-06,
+          "T": 2.1718997618019875e-05
+        },
+        "near_optimal_runs": 17
+      },
+      "iterations": 25,
+      "length_mean": 4.497975708502024,
+      "length_median": 1,
+      "log_likelihood": -683.3321947175806,
+      "mean_nll": 0.615060481293952,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.06534853179143839,
+        "L0": 0.9107574725892847,
+        "S": 0.3022675838040387,
+        "T": 0.032570902437092056
+      },
+      "seed": 20261110,
+      "skill_id": "94",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6120612061206121,
+      "training_events": 1111,
+      "training_sequences": 247,
+      "training_students": 247
+    },
+    "96": {
+      "best_initialization": 14,
+      "converged": true,
+      "correct_count": 371,
+      "diagnostics": {
+        "attempted_runs": 20,
+        "boundary_parameters": [],
+        "converged_runs": 20,
+        "initialization_sensitive": false,
+        "near_optimal_parameter_range": {
+          "G": 2.2716647199279294e-05,
+          "L0": 2.5242803466607455e-05,
+          "S": 1.4141485468466275e-05,
+          "T": 4.660703839529101e-05
+        },
+        "near_optimal_runs": 12
+      },
+      "iterations": 33,
+      "length_mean": 2.933673469387755,
+      "length_median": 1.0,
+      "log_likelihood": -357.4236201559763,
+      "mean_nll": 0.6216062959234371,
+      "method": "SLSQP_maximum_likelihood",
+      "parameters": {
+        "G": 0.06018882650111029,
+        "L0": 0.9152182402724545,
+        "S": 0.27086243158227835,
+        "T": 0.17479976252236057
+      },
+      "seed": 20261110,
+      "skill_id": "96",
+      "source_sequence_sha256": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+      "training_correct_rate": 0.6452173913043479,
+      "training_events": 575,
+      "training_sequences": 196,
+      "training_students": 196
+    }
+  },
+  "states": [
+    "nao_dominada",
+    "dominada"
+  ]
+}

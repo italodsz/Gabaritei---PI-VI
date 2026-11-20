@@ -1,0 +1,66 @@
+{
+  "branch": "recomendador",
+  "commit": "a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef",
+  "arquivos": [
+    {
+      "arquivo": "resultados/avaliacao_cega_v1.json",
+      "sha256": "91fab784f947def67665127ebfe13f75dac97e279a35eda519a76ef5c245febf",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_v1.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_4/resultado.json",
+      "sha256": "cbd7866d257f5d82239cf0dd85c70c36d56ede97331ab03a59eb9e68cbca2d13",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/resultado.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_4/protocolo.json",
+      "sha256": "f878cb2777b7a2dc250126db39d59d39b48665d0832474b97939c6014c897e01",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_4/protocolo.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_6/resultado.json",
+      "sha256": "579686e526382f0e29789381ab314dfce0d2d8657cb87b0f63d311f8baaf951c",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_6/resultado.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_6/protocolo.json",
+      "sha256": "88379533e63c53a91d184c1bef4ff9f56527a2e99fa933a364d7768f442d0202",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_6/protocolo.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_7/notas_humanas.csv",
+      "sha256": "b0b8794480121a138a1749fb607afedfb60ce83907a8d8d64bfe8e21a702dbc0",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_7/notas_humanas.csv"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_7/protocolo.json",
+      "sha256": "625e10e22eaeaba1fbaf814739e3077bae892f0213e3d9399d95b73f18d0ab5e",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_7/protocolo.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_7/RELATORIO_concordancia.md",
+      "sha256": "869b2c46a665c21b05d9841bd050bf24a16513d773b78950602b504dfd6632d5",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_7/RELATORIO_concordancia.md"
+    },
+    {
+      "arquivo": "resultados/avaliacao_cega_7/conteudo.json",
+      "sha256": "cba0abede3bd44deb723ce93684c7c50dfd02e8c985863425d758be4d1863b77",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_cega_7/conteudo.json"
+    },
+    {
+      "arquivo": "resultados/avaliacao_ia_50/chave_com_notas.json",
+      "sha256": "7f4915895429dc07d371b271250572ffa6721470694b0a44234d6aad7d279d60",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/resultados/avaliacao_ia_50/chave_com_notas.json"
+    },
+    {
+      "arquivo": "catalogo/recomendacoes_titulo_area.json",
+      "sha256": "9fc0e5c0ea711bf4412d73806b8d603697fe244fd49745eade991ffe97f93da4",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_titulo_area.json"
+    },
+    {
+      "arquivo": "catalogo/recomendacoes_rrf_qwen.json",
+      "sha256": "4ea099bfaecb1c498d80fb60069fc67f7c3aa51add35b53d9483daef288b0821",
+      "url": "https://github.com/italodsz/Gabaritei---PI-VI/blob/a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef/recomendador/rrf-tfidf-minilm-J/catalogo/recomendacoes_rrf_qwen.json"
+    }
+  ]
+}

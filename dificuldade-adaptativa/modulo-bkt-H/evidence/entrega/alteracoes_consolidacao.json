@@ -1,0 +1,22 @@
+{
+  "untouched_core": [
+    "bkt04/motor.py",
+    "bkt04/inferencia.py",
+    "bkt04/politica.py",
+    "vendor/fase02/treinar.py"
+  ],
+  "modified_copies": {
+    "reproduzir_treino.py": "shared Phase01 copy materialized only in isolated replay job; one original model path",
+    "testar.py": "add F group",
+    "demo.py": "write result under execution directory"
+  },
+  "added_code": [
+    "bkt04/enem.py",
+    "exemplo_enem.py",
+    "verificar_pacote.py",
+    "instalar.ps1",
+    "tests/F_entrega/test_entrega.py"
+  ],
+  "training_now": false,
+  "original_core_sha256_equal": true
+}

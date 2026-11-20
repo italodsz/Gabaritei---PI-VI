@@ -1,0 +1,26 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 40451.03it/s]
+BertModel LOAD REPORT from: neuralmind/bert-base-portuguese-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+test_inference_validation_and_small_training (test_finetune.FineTuneTests.test_inference_validation_and_small_training) ... ok
+test_official_data_and_inputs (test_finetune.FineTuneTests.test_official_data_and_inputs) ... ok
+test_saved_predictions_reproduce_metrics (test_finetune.FineTuneTests.test_saved_predictions_reproduce_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.197s
+
+OK
+exit=0

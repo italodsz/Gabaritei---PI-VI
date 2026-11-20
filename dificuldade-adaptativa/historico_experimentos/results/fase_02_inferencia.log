@@ -1,0 +1,13 @@
+python -B -m src.inferencia models/fase_02.joblib "<enunciado>" --area MT
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13752.50it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{"class": "dificil", "model_version": "fase02-539aae3ba37d", "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51", "confidence": null}
+exit=0 seconds=12.4714537

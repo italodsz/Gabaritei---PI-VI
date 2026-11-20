@@ -1,0 +1,13 @@
+{
+  "encoder": "bge",
+  "text": "Uma caixa contém 24 lápis. Quantos lápis representam um quarto do total?",
+  "seconds": [
+    0.017069900000933558,
+    0.02698729999974603,
+    0.016354899998987094,
+    0.017934799998329254,
+    0.02823509999871021
+  ],
+  "device": "cuda",
+  "median_seconds": 0.017934799998329254
+}

@@ -1,0 +1,21 @@
+{
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "test_2024": "No new assessment in this round; selection on 2023 only.",
+  "models": {
+    "bert": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+    "deberta": "a0484667b22365f84929a935b5e50a51f71f159d"
+  },
+  "limits": [256, 512],
+  "seeds_at_256": [42, 7],
+  "seeds_at_512": {"bert": [42, 7], "deberta": [42]},
+  "internal_temporal_diagnostic": {"model": "bert", "limit": 512, "seed": 42, "train_through": 2021, "validation_year": 2022, "used_for_selection": false},
+  "epochs_max": 2,
+  "patience": 1,
+  "learning_rate": 0.00003,
+  "weight_decay": 0.01,
+  "effective_batch": 16,
+  "trainable": "last two encoder layers plus classification head",
+  "checkpoint_selection": "validation macro-F1",
+  "hybrid_exploration_gate": "At least +0.02 validation macro-F1 over MiniLM",
+  "promotion": "Requires convincing paired gain, stability, fewer severe errors and acceptable results by area; a single high run is insufficient."
+}

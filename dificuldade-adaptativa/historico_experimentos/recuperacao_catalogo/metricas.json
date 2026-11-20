@@ -1,0 +1,323 @@
+{
+  "total": 2971,
+  "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "sha256_catalogo_lf": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "sha256_matriz": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1",
+  "sha256_entradas": {
+    "base-oficial/Dataset/base_trabalho/qualidade/bloqueios.json": "4e38fa7b437bbdb84c9e27442f8e027daadc1239ac115340c4c6bfbb11f2f720",
+    "dificuldade-adaptativa/catalogo_mvp/auditoria_todas_questoes.csv": "2eaf53e852b4f8aef51bc3696c69bfa0ed46885e450e29a668c2a9741c34c3c6",
+    "dificuldade-adaptativa/catalogo_mvp/evidencias.json": "830147e472ec9f6801a965440ff0101a1f3bed03fd117d79853b979991b28678",
+    "dificuldade-adaptativa/catalogo_mvp/matriz.py": "15ac3e2ec275a4b8a6f16394a2fdef103a404d18e9aa64fa3faf6664bd513116",
+    "dificuldade-adaptativa/revisao_pedagogica/catalogo_derivado.csv": "b3ff45bb074fc37ab65836f994d552021390058df999df3f38f7ca510121fb79",
+    "dificuldade-adaptativa/revisao_pedagogica/taxonomia_proposta.json": "76c31eaa949aa7dc33fe54bcdb954a5faf5c99f2569b27fd5be1b8cca00e2c0e",
+    "dificuldade-adaptativa/validacao_tri/auditoria.json": "518847fbfaba08e50e86113cce851f62e4b4231228cbe03298bb46d32856a93d"
+  },
+  "sha256_tabelas_inep": {
+    "ITENS_PROVA_2009.csv": "7d9dde49c641782b12d8a1097a497df673d81f79e86bed1856c0f0f3568c42aa",
+    "ITENS_PROVA_2010.csv": "bf297cad3e15d28979c229827cc6233ab23d593ab17067bc97353441cdbbfa18",
+    "ITENS_PROVA_2011.csv": "17311f673302921c3fc0453c0019eb4c5c46c7adc8070888c1b1a443b3a590f6",
+    "ITENS_PROVA_2012.csv": "8d171b0de7d5766b247d1b5e08bb2afa381c2af3690f8f55e258f2614248a677",
+    "ITENS_PROVA_2013.csv": "87f8353454cb47653c457f41814e5a569d6a7c5e3fda4d1dc8e0ea9d3cf67e58",
+    "ITENS_PROVA_2014.csv": "d584838cc6683c8990b371cf5d94586640609c1606ea62aa32d4b87b842c1f6e",
+    "ITENS_PROVA_2015.csv": "c3c3a9a98d33ffc513c767b373d1f82d2ebd5d6431147c1bb2ba76ba63fbe392",
+    "ITENS_PROVA_2016.csv": "9043f322d31c30c31637ee946f86f50759311c87405f532f9d34c20cc4163406",
+    "ITENS_PROVA_2017.csv": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f",
+    "ITENS_PROVA_2018.csv": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+    "ITENS_PROVA_2019.csv": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
+    "ITENS_PROVA_2020.csv": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
+    "ITENS_PROVA_2021.csv": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
+    "ITENS_PROVA_2022.csv": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
+    "ITENS_PROVA_2023.csv": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+    "ITENS_PROVA_2024.csv": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de"
+  },
+  "aptidao": {
+    "apto_texto_semantico": 2032,
+    "apto_treino_supervisionado": 2032,
+    "apto_recomendacao": 14,
+    "apto_demo": 12
+  },
+  "bloqueadas": 928,
+  "pendentes_rubrica": 2962,
+  "sem_uso_aprovado": 938,
+  "com_midia_referenciada": 878,
+  "com_midia_ausente": 878,
+  "por_area": {
+    "apto_texto_semantico": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_treino_supervisionado": {
+      "CH": 665,
+      "CN": 438,
+      "LC": 614,
+      "MT": 315
+    },
+    "apto_recomendacao": {
+      "CH": 6,
+      "LC": 2,
+      "CN": 3,
+      "MT": 3
+    },
+    "apto_demo": {
+      "CH": 5,
+      "LC": 2,
+      "CN": 2,
+      "MT": 3
+    }
+  },
+  "splits_textuais": {
+    "train": 1779,
+    "validation": 131,
+    "test": 122
+  },
+  "notas": [
+    {
+      "nota": 0,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 1,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 2,
+      "n": 564,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 564,
+      "n_com_falha_critica": 564
+    },
+    {
+      "nota": 3,
+      "n": 2393,
+      "apto_texto_semantico": 2019,
+      "apto_treino_supervisionado": 2019,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 2393,
+      "n_com_falha_critica": 364
+    },
+    {
+      "nota": 4,
+      "n": 0,
+      "apto_texto_semantico": 0,
+      "apto_treino_supervisionado": 0,
+      "apto_recomendacao": 0,
+      "apto_demo": 0,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 5,
+      "n": 5,
+      "apto_texto_semantico": 4,
+      "apto_treino_supervisionado": 4,
+      "apto_recomendacao": 5,
+      "apto_demo": 3,
+      "n_com_pendencia": 5,
+      "n_com_falha_critica": 0
+    },
+    {
+      "nota": 6,
+      "n": 9,
+      "apto_texto_semantico": 9,
+      "apto_treino_supervisionado": 9,
+      "apto_recomendacao": 9,
+      "apto_demo": 9,
+      "n_com_pendencia": 0,
+      "n_com_falha_critica": 0
+    }
+  ],
+  "quase_duplicatas_pares": 17,
+  "duplicatas_por_chave_itens": {
+    "item": 2,
+    "familia": 0,
+    "familia_conteudo": 18,
+    "exato": 20
+  },
+  "itens_em_grupo_nao_unitario": 36,
+  "taxa_itens_em_grupo_nao_unitario": 0.012117,
+  "grupos_cruzam_particao_historica": 0,
+  "grupos_cruzam_particao_nova": 0,
+  "tarefa_supervisionada": "classificacao_exploratoria_area_oficial_4_classes",
+  "fora_piloto_por_uso": {
+    "apto_texto_semantico": 723,
+    "apto_treino_supervisionado": 723,
+    "apto_recomendacao": 4,
+    "apto_demo": 3
+  },
+  "fora_A_B_por_uso": {
+    "apto_texto_semantico": 727,
+    "apto_treino_supervisionado": 727,
+    "apto_recomendacao": 5,
+    "apto_demo": 3
+  },
+  "transicoes": [
+    {
+      "grupo": "A",
+      "uso": "apto_demo",
+      "apto": "True",
+      "n": 9
+    },
+    {
+      "grupo": "A",
+      "uso": "apto_recomendacao",
+      "apto": "True",
+      "n": 9
+    },
+    {
+      "grupo": "A",
+      "uso": "apto_texto_semantico",
+      "apto": "True",
+      "n": 9
+    },
+    {
+      "grupo": "A",
+      "uso": "apto_treino_supervisionado",
+      "apto": "True",
+      "n": 9
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_demo",
+      "apto": "False",
+      "n": 1305
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_recomendacao",
+      "apto": "False",
+      "n": 1305
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_texto_semantico",
+      "apto": "False",
+      "n": 9
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_texto_semantico",
+      "apto": "True",
+      "n": 1296
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_treino_supervisionado",
+      "apto": "False",
+      "n": 9
+    },
+    {
+      "grupo": "B",
+      "uso": "apto_treino_supervisionado",
+      "apto": "True",
+      "n": 1296
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_demo",
+      "apto": "False",
+      "n": 1650
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_demo",
+      "apto": "True",
+      "n": 3
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_recomendacao",
+      "apto": "False",
+      "n": 1650
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_recomendacao",
+      "apto": "True",
+      "n": 3
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_texto_semantico",
+      "apto": "False",
+      "n": 927
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_texto_semantico",
+      "apto": "True",
+      "n": 726
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_treino_supervisionado",
+      "apto": "False",
+      "n": 927
+    },
+    {
+      "grupo": "C",
+      "uso": "apto_treino_supervisionado",
+      "apto": "True",
+      "n": 726
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_demo",
+      "apto": "False",
+      "n": 4
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_recomendacao",
+      "apto": "False",
+      "n": 2
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_recomendacao",
+      "apto": "True",
+      "n": 2
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_texto_semantico",
+      "apto": "False",
+      "n": 3
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_texto_semantico",
+      "apto": "True",
+      "n": 1
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_treino_supervisionado",
+      "apto": "False",
+      "n": 3
+    },
+    {
+      "grupo": "D",
+      "uso": "apto_treino_supervisionado",
+      "apto": "True",
+      "n": 1
+    }
+  ]
+}

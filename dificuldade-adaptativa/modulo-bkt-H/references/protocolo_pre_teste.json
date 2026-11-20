@@ -1,0 +1,98 @@
+{
+  "calibration": "identidade",
+  "decision": "favorável global se IC95 superior de delta log-loss <0 e delta Brier <=0; avaliação descritiva por habilidade",
+  "definitions": {
+    "accuracy_threshold": 0.5,
+    "auc_score_round_decimals": 10,
+    "auc_tie_reason": "diferenças de previsão de ordem 1e-13 alteraram ranks na validação; tolerância fixada antes do teste",
+    "calibration_bins": 10,
+    "calibration_folds": 5,
+    "calibration_max_brier_increase": 0.0005,
+    "calibration_min_crossfit_logloss_gain": 0.002,
+    "calibration_require_ece_improvement": true,
+    "classification": {
+      "A": "favorável como B, com suporte mínimo e sem alertas de B",
+      "B": "favorável em log-loss com IC95 superior < 0 e Brier não pior, com parâmetro amplo, fronteira, largura preditiva > 0.10 ou ECE > 0.10",
+      "C": "suporte menor que 30 estudantes ou 100 eventos; ou IC95 superior log-loss >= 0; ou delta Brier > 0; ou mediana da largura preditiva bootstrap > 0.20",
+      "D": "falha crítica, ou IC95 inferior de BKT-baseline > 0 em log-loss e Brier"
+    },
+    "classification_inference": "categorias descritivas experimentais; intervalos marginais por habilidade, sem controle familiar das 56 comparações",
+    "main_bootstrap": 2000,
+    "main_hypothesis": "BKT reduz log-loss em estudantes inéditos contra taxa por habilidade do treino",
+    "primary_metric": "log_loss",
+    "probability_width_moderate": 0.1,
+    "probability_width_severe": 0.2,
+    "secondary_metrics": [
+      "brier",
+      "auc_roc",
+      "accuracy",
+      "ece"
+    ],
+    "seed": 20261111,
+    "skill_bootstrap": 1000,
+    "skill_ece_warning": 0.1,
+    "skill_low_training_support": 1000,
+    "skill_min_events": 100,
+    "skill_min_students": 30,
+    "subgroups": [
+      "position_1",
+      "position_2_4",
+      "position_5_9",
+      "position_10_plus",
+      "length_1",
+      "length_2_4",
+      "length_5_9",
+      "length_10_plus",
+      "training_events_below_1000",
+      "wide_parameters",
+      "boundary_parameters",
+      "student_accuracy_below_0.1",
+      "student_accuracy_above_0.9",
+      "unseen_items",
+      "seen_items",
+      "repeat_exposure",
+      "first_exposure"
+    ],
+    "undefined_metrics": "null/NA; bootstrap descarta apenas a métrica indefinida e registra réplicas válidas",
+    "version": "3.0.0"
+  },
+  "external_review": "reprodução integral por Claude e revisão humana externa somente quando houver evidência real",
+  "frozen_utc": "2026-11-11T17:03:56.201091+00:00",
+  "hypothesis": "BKT reduz log-loss em estudantes inéditos contra taxa por habilidade do treino",
+  "locked_sha256": {
+    "avaliar_teste.py": "77943eee64e694b9fc50fe1944eeb6b6bfe3c713be939d16cf12c8b4d401e909",
+    "config/decisoes.json": "011b0e7e2f69b27ad3c2f904ed26ad0a62d8f5d03d9fc768f9828819ea4174f1",
+    "models/calibracao.json": "b52dfa0c07c529ec233fa24f98f612b542e657ef320cd2c0a9cf606f420d1caa",
+    "models/parametros_por_habilidade.json": "f219a3b2e2e5604e428fbe3d96bc823041fe208aa76c4722fa9b05d18106df05",
+    "reports/estabilidade_parametros.json": "94f65eaea9dd0f0c63e0ca3db4108f3cb9fffee92d5b04eda062183980ac17a3",
+    "reports/habilidades_fronteira.json": "842a7f2319878ee86c9e309f18bd554a165c2516396f5bc18da2a09891d5dc75",
+    "src/avaliacao.py": "c33cb69f85565dc9051e2ae2a8b5654955fa8ece3c9c8051bdcea614b583380c",
+    "src/calibracao.py": "cd742df0b9944cbf7883c36baf0c0ba7cdf79d64c1205b8b14dbcda9fe7a042b",
+    "src/common.py": "00a79ec414c69a34b6b30974fa1f04cb124311ee1129f4194f9464dd227229f7",
+    "src/matematica.py": "b6401ac569b73e1c1f7be89336266a2ee0879fd8548b74ce36a911fd431bdc4e",
+    "src/metricas.py": "684c7577ffcdb01d412f9edc07c224adc2f9669985380e426cc3d919cde824bb",
+    "src/predicoes.py": "13fefd59166872e3e4d45801be87b8a83772b66283220130618b19fc734bbe34",
+    "src/protocolo.py": "b832f99992a595b888530748818145b0eef4c055f228356273a18d87d4095951"
+  },
+  "methods": [
+    "bkt",
+    "taxa_habilidade",
+    "taxa_global",
+    "historico_suavizado"
+  ],
+  "model_sha256": "f219a3b2e2e5604e428fbe3d96bc823041fe208aa76c4722fa9b05d18106df05",
+  "primary_comparison": "bkt_menos_taxa_habilidade",
+  "primary_metric": "log_loss",
+  "secondary": [
+    "brier",
+    "auc_roc",
+    "accuracy",
+    "ece"
+  ],
+  "selection": "parâmetros BKT da Fase02, escolha de calibração por crossfit de validação",
+  "test_sha256": {
+    "eventos_teste.jsonl": "fa45857027830c40dc67aa6a57531577a4ee73c3de57defe6a6461257a02af02",
+    "sequencias_teste.jsonl": "6a8729b41bd2bd89900597b54a53cb805515d270e17dc73d7823d29fcce35436"
+  },
+  "version": "3.0.0"
+}

@@ -1,0 +1,7 @@
+UTC: 2026-11-11T19:17:34.766597+00:00
+CWD: C:\Users\Darkz\Downloads\Gabaritei_Dificuldade_Adaptativa_Entrega\dificuldade-adaptativa\modulo-bkt-H
+COMMAND: C:\Users\Darkz\AppData\Local\Temp\Gabaritei_Entrega_Final_Validacao\venv\Scripts\python.exe -B demo.py C:\Users\Darkz\AppData\Local\Temp\Gabaritei_Entrega_Final_Validacao\demo_externo
+
+Demo sintética da interface: persistência, dez eventos idempotentes e fallback ENEM verificados.
+
+Exit code: 0

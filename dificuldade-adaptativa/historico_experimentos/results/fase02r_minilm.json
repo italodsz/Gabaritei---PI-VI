@@ -1,0 +1,27 @@
+{
+  "train": {
+    "seconds": 56.82109480000145,
+    "truncated": 1427,
+    "n": 1801,
+    "dimension": 384
+  },
+  "validation": {
+    "seconds": 4.2198023999990255,
+    "truncated": 110,
+    "n": 136,
+    "dimension": 384
+  },
+  "checkpoint": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "input_limit": 128,
+  "native_context": 128,
+  "pooling": "mean",
+  "peak_sampled_rss_bytes": 1054892032,
+  "total_seconds": 62.92586719999963,
+  "embedding_sha256": "ac0ce91c4ebb35e4cb455b7ef7a7a6867a06083244462ded626f4d9a9464541c",
+  "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "device": "cpu",
+  "python": "3.14.0",
+  "torch": "2.11.0+cpu"
+}

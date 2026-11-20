@@ -1,0 +1,1839 @@
+{
+  "sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "n": 2971,
+  "sem_assunto": 560,
+  "sem_habilidade": 192,
+  "sugestoes": 18,
+  "sugestoes_em_ausentes": 2,
+  "amostra": 300,
+  "piloto": 1329,
+  "status": {
+    "preenchido_inconclusivo": 2293,
+    "ausente": 560,
+    "plausivel_por_sinal": 61,
+    "suspeito": 55,
+    "inconclusivo_conteudo": 2
+  },
+  "habilidade_status": {
+    "ausente": 192,
+    "confirmado_tabela": 2779
+  },
+  "visual_sem_asset": 0,
+  "extracao_incompleta": 2,
+  "tri_por_grupo": [
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "Economia",
+      "n": 177,
+      "min_b": -0.62198,
+      "mediana_b": 1.06511,
+      "max_b": 3.12945
+    },
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "Filosofia",
+      "n": 120,
+      "min_b": -0.752,
+      "mediana_b": 1.11929,
+      "max_b": 4.4884
+    },
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "Geografia",
+      "n": 156,
+      "min_b": -0.92571,
+      "mediana_b": 1.082835,
+      "max_b": 3.57444
+    },
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "História",
+      "n": 108,
+      "min_b": -0.9463,
+      "mediana_b": 1.128145,
+      "max_b": 4.60999
+    },
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "Sociologia",
+      "n": 80,
+      "min_b": -2.10568,
+      "mediana_b": 0.688905,
+      "max_b": 7.3295
+    },
+    {
+      "area": "CH",
+      "campo": "assunto",
+      "rotulo": "ausente",
+      "n": 125,
+      "min_b": -0.97123,
+      "mediana_b": 1.02573,
+      "max_b": 11.14224
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "1",
+      "n": 31,
+      "min_b": 0.04233,
+      "mediana_b": 1.3618,
+      "max_b": 3.51778
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "10",
+      "n": 18,
+      "min_b": -0.55783,
+      "mediana_b": 0.85494,
+      "max_b": 1.72114
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "11",
+      "n": 29,
+      "min_b": -0.25115,
+      "mediana_b": 1.07648,
+      "max_b": 3.12945
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "12",
+      "n": 22,
+      "min_b": -0.03342,
+      "mediana_b": 0.91821,
+      "max_b": 2.9707
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "13",
+      "n": 22,
+      "min_b": -0.64144,
+      "mediana_b": 1.26138,
+      "max_b": 2.82836
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "14",
+      "n": 21,
+      "min_b": 0.38656,
+      "mediana_b": 1.08796,
+      "max_b": 2.8812
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "15",
+      "n": 28,
+      "min_b": -0.62019,
+      "mediana_b": 1.322865,
+      "max_b": 7.3295
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "16",
+      "n": 21,
+      "min_b": -0.2033,
+      "mediana_b": 0.68765,
+      "max_b": 2.53802
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "17",
+      "n": 21,
+      "min_b": 0.32474,
+      "mediana_b": 1.2222,
+      "max_b": 3.067
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "18",
+      "n": 24,
+      "min_b": -0.60015,
+      "mediana_b": 0.970925,
+      "max_b": 2.127
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "19",
+      "n": 20,
+      "min_b": -0.24666,
+      "mediana_b": 1.0017,
+      "max_b": 3.20842
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "2",
+      "n": 23,
+      "min_b": -0.9463,
+      "mediana_b": 1.15937,
+      "max_b": 2.20588
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "20",
+      "n": 18,
+      "min_b": -0.1754,
+      "mediana_b": 0.64022,
+      "max_b": 2.02417
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "21",
+      "n": 18,
+      "min_b": -1.26778,
+      "mediana_b": 0.94703,
+      "max_b": 2.09158
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "22",
+      "n": 22,
+      "min_b": -0.72645,
+      "mediana_b": 0.8633299999999999,
+      "max_b": 3.394
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "23",
+      "n": 30,
+      "min_b": -0.32296,
+      "mediana_b": 1.141445,
+      "max_b": 4.4884
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "24",
+      "n": 26,
+      "min_b": -0.42411,
+      "mediana_b": 0.9779450000000001,
+      "max_b": 2.95
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "25",
+      "n": 17,
+      "min_b": -0.752,
+      "mediana_b": 0.79149,
+      "max_b": 2.08511
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "26",
+      "n": 27,
+      "min_b": -0.40493,
+      "mediana_b": 0.92459,
+      "max_b": 1.83487
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "27",
+      "n": 26,
+      "min_b": -0.79401,
+      "mediana_b": 0.7841400000000001,
+      "max_b": 2.567
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "28",
+      "n": 18,
+      "min_b": -2.10568,
+      "mediana_b": 1.4191099999999999,
+      "max_b": 2.75231
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "29",
+      "n": 21,
+      "min_b": -0.295,
+      "mediana_b": 1.31972,
+      "max_b": 3.04416
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "3",
+      "n": 27,
+      "min_b": -0.102,
+      "mediana_b": 1.05968,
+      "max_b": 2.28546
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "30",
+      "n": 22,
+      "min_b": -0.05645,
+      "mediana_b": 1.0224350000000002,
+      "max_b": 3.22867
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "4",
+      "n": 23,
+      "min_b": -0.46573,
+      "mediana_b": 0.9949,
+      "max_b": 11.14224
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "5",
+      "n": 27,
+      "min_b": -0.62198,
+      "mediana_b": 0.97831,
+      "max_b": 2.7515
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "6",
+      "n": 23,
+      "min_b": 0.08078,
+      "mediana_b": 1.0743,
+      "max_b": 2.56419
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "7",
+      "n": 19,
+      "min_b": -0.01092,
+      "mediana_b": 1.22482,
+      "max_b": 3.0816
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "8",
+      "n": 23,
+      "min_b": -0.01484,
+      "mediana_b": 1.11463,
+      "max_b": 2.348
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "9",
+      "n": 20,
+      "min_b": 0.45809,
+      "mediana_b": 1.009825,
+      "max_b": 2.1432
+    },
+    {
+      "area": "CH",
+      "campo": "habilidade",
+      "rotulo": "ausente",
+      "n": 79,
+      "min_b": -0.97123,
+      "mediana_b": 1.17944,
+      "max_b": 4.60999
+    },
+    {
+      "area": "CN",
+      "campo": "assunto",
+      "rotulo": "Biologia",
+      "n": 201,
+      "min_b": -1.80092,
+      "mediana_b": 1.19295,
+      "max_b": 8.96186
+    },
+    {
+      "area": "CN",
+      "campo": "assunto",
+      "rotulo": "Física",
+      "n": 242,
+      "min_b": -1.70677,
+      "mediana_b": 1.56059,
+      "max_b": 61.05459
+    },
+    {
+      "area": "CN",
+      "campo": "assunto",
+      "rotulo": "Química",
+      "n": 102,
+      "min_b": -0.11164,
+      "mediana_b": 1.5058600000000002,
+      "max_b": 3.19204
+    },
+    {
+      "area": "CN",
+      "campo": "assunto",
+      "rotulo": "ausente",
+      "n": 163,
+      "min_b": -1.14947,
+      "mediana_b": 1.28416,
+      "max_b": 4.43681
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "1",
+      "n": 27,
+      "min_b": -0.36102,
+      "mediana_b": 1.59673,
+      "max_b": 4.16126
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "10",
+      "n": 21,
+      "min_b": -0.639,
+      "mediana_b": 1.15068,
+      "max_b": 2.04165
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "11",
+      "n": 18,
+      "min_b": -0.72714,
+      "mediana_b": 1.017255,
+      "max_b": 2.03465
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "12",
+      "n": 19,
+      "min_b": -0.00312,
+      "mediana_b": 0.85071,
+      "max_b": 2.41049
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "13",
+      "n": 16,
+      "min_b": -0.2251,
+      "mediana_b": 1.42962,
+      "max_b": 3.19792
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "14",
+      "n": 27,
+      "min_b": -0.19051,
+      "mediana_b": 0.99384,
+      "max_b": 3.81485
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "15",
+      "n": 23,
+      "min_b": 0.12756,
+      "mediana_b": 1.08639,
+      "max_b": 2.24438
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "16",
+      "n": 18,
+      "min_b": -0.23373,
+      "mediana_b": 1.27444,
+      "max_b": 2.03182
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "17",
+      "n": 21,
+      "min_b": 0.2239,
+      "mediana_b": 1.29865,
+      "max_b": 2.46941
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "18",
+      "n": 30,
+      "min_b": -0.3633,
+      "mediana_b": 1.425555,
+      "max_b": 2.65321
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "19",
+      "n": 22,
+      "min_b": -0.07547,
+      "mediana_b": 1.43842,
+      "max_b": 2.72331
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "2",
+      "n": 25,
+      "min_b": -0.45616,
+      "mediana_b": 1.20513,
+      "max_b": 2.1268
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "20",
+      "n": 24,
+      "min_b": 0.118,
+      "mediana_b": 1.875435,
+      "max_b": 5.86198
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "21",
+      "n": 19,
+      "min_b": 0.40984,
+      "mediana_b": 1.44219,
+      "max_b": 2.88
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "22",
+      "n": 22,
+      "min_b": 0.12588,
+      "mediana_b": 1.392625,
+      "max_b": 2.57131
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "23",
+      "n": 22,
+      "min_b": -0.203,
+      "mediana_b": 1.25427,
+      "max_b": 2.35839
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "24",
+      "n": 27,
+      "min_b": 0.01054,
+      "mediana_b": 1.43777,
+      "max_b": 2.66298
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "25",
+      "n": 25,
+      "min_b": 0.811,
+      "mediana_b": 1.6832,
+      "max_b": 8.96186
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "26",
+      "n": 21,
+      "min_b": -0.365,
+      "mediana_b": 1.34983,
+      "max_b": 3.1881
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "27",
+      "n": 21,
+      "min_b": -0.23526,
+      "mediana_b": 1.45358,
+      "max_b": 3.10608
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "28",
+      "n": 19,
+      "min_b": 0.02055,
+      "mediana_b": 1.19295,
+      "max_b": 2.97259
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "29",
+      "n": 18,
+      "min_b": -1.80092,
+      "mediana_b": 1.560735,
+      "max_b": 3.19204
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "3",
+      "n": 23,
+      "min_b": -1.14947,
+      "mediana_b": 1.15715,
+      "max_b": 2.8441
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "30",
+      "n": 16,
+      "min_b": -1.05106,
+      "mediana_b": 0.962675,
+      "max_b": 2.35841
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "4",
+      "n": 18,
+      "min_b": -0.02949,
+      "mediana_b": 1.069625,
+      "max_b": 4.03288
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "5",
+      "n": 20,
+      "min_b": 1.18769,
+      "mediana_b": 1.810515,
+      "max_b": 3.3857
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "6",
+      "n": 19,
+      "min_b": 0.3834,
+      "mediana_b": 1.68423,
+      "max_b": 61.05459
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "7",
+      "n": 21,
+      "min_b": -0.67482,
+      "mediana_b": 1.592,
+      "max_b": 3.36471
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "8",
+      "n": 21,
+      "min_b": 0.07698,
+      "mediana_b": 1.58166,
+      "max_b": 2.72363
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "9",
+      "n": 20,
+      "min_b": 0.51395,
+      "mediana_b": 1.57334,
+      "max_b": 3.79854
+    },
+    {
+      "area": "CN",
+      "campo": "habilidade",
+      "rotulo": "ausente",
+      "n": 65,
+      "min_b": -1.70677,
+      "mediana_b": 1.70151,
+      "max_b": 3.35507
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Artes",
+      "n": 141,
+      "min_b": -0.917,
+      "mediana_b": 0.86875,
+      "max_b": 4.17509
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Educação física",
+      "n": 74,
+      "min_b": -1.56844,
+      "mediana_b": 0.59794,
+      "max_b": 2.9006
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Gramática",
+      "n": 16,
+      "min_b": -0.30209,
+      "mediana_b": 1.067225,
+      "max_b": 2.20447
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Leitura",
+      "n": 257,
+      "min_b": -2.59784,
+      "mediana_b": 0.65173,
+      "max_b": 4.01866
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Linguística",
+      "n": 101,
+      "min_b": -0.855,
+      "mediana_b": 0.84356,
+      "max_b": 2.60869
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Literatura",
+      "n": 86,
+      "min_b": -0.514,
+      "mediana_b": 0.9318200000000001,
+      "max_b": 8.28479
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "Tecnologias",
+      "n": 30,
+      "min_b": -0.57318,
+      "mediana_b": 0.490475,
+      "max_b": 1.8515
+    },
+    {
+      "area": "LC",
+      "campo": "assunto",
+      "rotulo": "ausente",
+      "n": 96,
+      "min_b": -1.03297,
+      "mediana_b": 0.695385,
+      "max_b": 4.35476
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "1",
+      "n": 23,
+      "min_b": -0.22164,
+      "mediana_b": 0.9065,
+      "max_b": 2.32558
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "10",
+      "n": 22,
+      "min_b": -1.56844,
+      "mediana_b": 0.112025,
+      "max_b": 2.47968
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "11",
+      "n": 17,
+      "min_b": -0.55865,
+      "mediana_b": 0.307,
+      "max_b": 1.82145
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "12",
+      "n": 26,
+      "min_b": -0.42423,
+      "mediana_b": 0.84861,
+      "max_b": 3.15368
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "13",
+      "n": 21,
+      "min_b": 0.00914,
+      "mediana_b": 0.763,
+      "max_b": 2.15466
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "14",
+      "n": 26,
+      "min_b": -0.53194,
+      "mediana_b": 0.91144,
+      "max_b": 3.12888
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "15",
+      "n": 32,
+      "min_b": -0.47541,
+      "mediana_b": 0.9648950000000001,
+      "max_b": 8.28479
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "16",
+      "n": 44,
+      "min_b": -0.0369,
+      "mediana_b": 1.10007,
+      "max_b": 3.32746
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "17",
+      "n": 39,
+      "min_b": -0.28099,
+      "mediana_b": 1.10401,
+      "max_b": 4.35476
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "18",
+      "n": 30,
+      "min_b": -0.22063,
+      "mediana_b": 1.1795499999999999,
+      "max_b": 3.06995
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "19",
+      "n": 23,
+      "min_b": -0.55327,
+      "mediana_b": 0.8377,
+      "max_b": 2.078
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "2",
+      "n": 16,
+      "min_b": -2.59784,
+      "mediana_b": -0.033055,
+      "max_b": 1.2096
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "20",
+      "n": 24,
+      "min_b": -0.66104,
+      "mediana_b": 0.471955,
+      "max_b": 1.91811
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "21",
+      "n": 25,
+      "min_b": -0.78889,
+      "mediana_b": 0.33577,
+      "max_b": 4.27494
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "22",
+      "n": 29,
+      "min_b": -1.48328,
+      "mediana_b": 0.92225,
+      "max_b": 4.01866
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "23",
+      "n": 29,
+      "min_b": -0.47764,
+      "mediana_b": 0.36753,
+      "max_b": 2.16698
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "24",
+      "n": 29,
+      "min_b": -0.7431,
+      "mediana_b": 0.69753,
+      "max_b": 2.151
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "25",
+      "n": 25,
+      "min_b": -0.65267,
+      "mediana_b": 0.74872,
+      "max_b": 2.31528
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "26",
+      "n": 21,
+      "min_b": -0.22125,
+      "mediana_b": 0.79926,
+      "max_b": 2.9435
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "27",
+      "n": 20,
+      "min_b": -0.855,
+      "mediana_b": 1.1058249999999998,
+      "max_b": 2.36346
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "28",
+      "n": 22,
+      "min_b": -0.25773,
+      "mediana_b": 0.736235,
+      "max_b": 2.63502
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "29",
+      "n": 21,
+      "min_b": -0.80441,
+      "mediana_b": 0.58005,
+      "max_b": 1.53135
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "3",
+      "n": 26,
+      "min_b": -0.3231,
+      "mediana_b": 0.66869,
+      "max_b": 2.28139
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "30",
+      "n": 22,
+      "min_b": -0.65235,
+      "mediana_b": 0.47523,
+      "max_b": 1.60103
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "4",
+      "n": 24,
+      "min_b": -0.19959,
+      "mediana_b": 0.57125,
+      "max_b": 2.03879
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "5",
+      "n": 26,
+      "min_b": 0.32336,
+      "mediana_b": 0.832545,
+      "max_b": 4.2086
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "6",
+      "n": 33,
+      "min_b": 0.21669,
+      "mediana_b": 0.68677,
+      "max_b": 1.70239
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "7",
+      "n": 30,
+      "min_b": -0.46692,
+      "mediana_b": 0.6902550000000001,
+      "max_b": 2.60869
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "8",
+      "n": 25,
+      "min_b": -0.7191,
+      "mediana_b": 0.6769,
+      "max_b": 2.02318
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "9",
+      "n": 24,
+      "min_b": -0.44158,
+      "mediana_b": 0.555605,
+      "max_b": 1.72689
+    },
+    {
+      "area": "LC",
+      "campo": "habilidade",
+      "rotulo": "ausente",
+      "n": 27,
+      "min_b": -0.42631,
+      "mediana_b": 0.81728,
+      "max_b": 1.96733
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Geometria",
+      "n": 126,
+      "min_b": 0.465,
+      "mediana_b": 1.94345,
+      "max_b": 12.4166
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Grandezas e medidas",
+      "n": 128,
+      "min_b": -0.36006,
+      "mediana_b": 2.0304450000000003,
+      "max_b": 6.27505
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Matemática financeira",
+      "n": 47,
+      "min_b": 0.50185,
+      "mediana_b": 1.6945,
+      "max_b": 7.92092
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Números",
+      "n": 82,
+      "min_b": -0.42299,
+      "mediana_b": 1.86195,
+      "max_b": 4.65555
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Probabilidade e estatística",
+      "n": 105,
+      "min_b": -1.259,
+      "mediana_b": 1.91179,
+      "max_b": 14.23385
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "ausente",
+      "n": 176,
+      "min_b": -0.418,
+      "mediana_b": 1.817315,
+      "max_b": 17.62443
+    },
+    {
+      "area": "MT",
+      "campo": "assunto",
+      "rotulo": "Álgebra",
+      "n": 32,
+      "min_b": 0.098,
+      "mediana_b": 1.8490950000000002,
+      "max_b": 4.96788
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "1",
+      "n": 24,
+      "min_b": -0.40621,
+      "mediana_b": 1.1157599999999999,
+      "max_b": 2.65817
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "10",
+      "n": 16,
+      "min_b": 0.5442,
+      "mediana_b": 1.7576800000000001,
+      "max_b": 14.23385
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "11",
+      "n": 24,
+      "min_b": 0.79725,
+      "mediana_b": 1.7868650000000001,
+      "max_b": 3.53111
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "12",
+      "n": 29,
+      "min_b": 0.47926,
+      "mediana_b": 1.82003,
+      "max_b": 4.77908
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "13",
+      "n": 19,
+      "min_b": -0.048,
+      "mediana_b": 2.23254,
+      "max_b": 3.36222
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "14",
+      "n": 22,
+      "min_b": 1.51223,
+      "mediana_b": 2.1051900000000003,
+      "max_b": 3.0197
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "15",
+      "n": 6,
+      "min_b": 1.25923,
+      "mediana_b": 1.608455,
+      "max_b": 2.43323
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "16",
+      "n": 26,
+      "min_b": -0.418,
+      "mediana_b": 1.895735,
+      "max_b": 3.01267
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "17",
+      "n": 22,
+      "min_b": -0.36006,
+      "mediana_b": 1.7819099999999999,
+      "max_b": 4.48651
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "18",
+      "n": 23,
+      "min_b": 0.61239,
+      "mediana_b": 2.1276,
+      "max_b": 12.4166
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "19",
+      "n": 23,
+      "min_b": 0.86032,
+      "mediana_b": 2.00335,
+      "max_b": 3.16783
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "2",
+      "n": 23,
+      "min_b": 0.4856,
+      "mediana_b": 2.05864,
+      "max_b": 17.62443
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "20",
+      "n": 20,
+      "min_b": -1.259,
+      "mediana_b": 1.15273,
+      "max_b": 2.94242
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "21",
+      "n": 22,
+      "min_b": 0.826,
+      "mediana_b": 2.34793,
+      "max_b": 4.96788
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "22",
+      "n": 18,
+      "min_b": 0.77599,
+      "mediana_b": 2.5789549999999997,
+      "max_b": 5.35024
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "23",
+      "n": 18,
+      "min_b": 0.79745,
+      "mediana_b": 1.914625,
+      "max_b": 4.65555
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "24",
+      "n": 22,
+      "min_b": 0.39544,
+      "mediana_b": 1.931235,
+      "max_b": 3.54917
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "25",
+      "n": 32,
+      "min_b": -0.18327,
+      "mediana_b": 1.5029050000000002,
+      "max_b": 4.28177
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "26",
+      "n": 26,
+      "min_b": -0.42299,
+      "mediana_b": 1.30152,
+      "max_b": 3.62845
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "27",
+      "n": 27,
+      "min_b": 0.6447,
+      "mediana_b": 1.86319,
+      "max_b": 7.92092
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "28",
+      "n": 30,
+      "min_b": -0.23853,
+      "mediana_b": 2.366455,
+      "max_b": 4.65334
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "29",
+      "n": 23,
+      "min_b": 0.5697,
+      "mediana_b": 2.03551,
+      "max_b": 3.80554
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "3",
+      "n": 32,
+      "min_b": -0.047,
+      "mediana_b": 2.047965,
+      "max_b": 3.30111
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "30",
+      "n": 17,
+      "min_b": 0.74313,
+      "mediana_b": 2.40384,
+      "max_b": 4.5172
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "4",
+      "n": 27,
+      "min_b": 0.956,
+      "mediana_b": 1.58603,
+      "max_b": 3.22047
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "5",
+      "n": 21,
+      "min_b": 0.28863,
+      "mediana_b": 1.76214,
+      "max_b": 4.00415
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "6",
+      "n": 13,
+      "min_b": -0.28917,
+      "mediana_b": 1.50312,
+      "max_b": 2.92781
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "7",
+      "n": 18,
+      "min_b": -0.252,
+      "mediana_b": 1.90332,
+      "max_b": 4.08667
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "8",
+      "n": 30,
+      "min_b": 0.20972,
+      "mediana_b": 2.058395,
+      "max_b": 11.43966
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "9",
+      "n": 22,
+      "min_b": 1.02866,
+      "mediana_b": 2.0637749999999997,
+      "max_b": 6.27505
+    },
+    {
+      "area": "MT",
+      "campo": "habilidade",
+      "rotulo": "ausente",
+      "n": 21,
+      "min_b": 0.098,
+      "mediana_b": 1.68855,
+      "max_b": 3.33696
+    }
+  ],
+  "por_area_ano": {
+    "CH/2009": {
+      "preenchido_inconclusivo": 39,
+      "ausente": 5
+    },
+    "CH/2010": {
+      "preenchido_inconclusivo": 38,
+      "ausente": 4
+    },
+    "CH/2011": {
+      "preenchido_inconclusivo": 33,
+      "ausente": 2
+    },
+    "CH/2012": {
+      "ausente": 3,
+      "preenchido_inconclusivo": 42
+    },
+    "CH/2013": {
+      "preenchido_inconclusivo": 38,
+      "ausente": 5,
+      "suspeito": 2
+    },
+    "CH/2014": {
+      "suspeito": 1,
+      "preenchido_inconclusivo": 33,
+      "ausente": 10
+    },
+    "CH/2015": {
+      "preenchido_inconclusivo": 71,
+      "ausente": 8,
+      "suspeito": 1
+    },
+    "CH/2016": {
+      "preenchido_inconclusivo": 67,
+      "ausente": 9
+    },
+    "CH/2017": {
+      "preenchido_inconclusivo": 35,
+      "ausente": 9,
+      "suspeito": 1
+    },
+    "CH/2018": {
+      "preenchido_inconclusivo": 34,
+      "ausente": 10
+    },
+    "CH/2019": {
+      "preenchido_inconclusivo": 33,
+      "ausente": 10
+    },
+    "CH/2020": {
+      "preenchido_inconclusivo": 36,
+      "ausente": 9
+    },
+    "CH/2021": {
+      "ausente": 8,
+      "preenchido_inconclusivo": 36
+    },
+    "CH/2022": {
+      "preenchido_inconclusivo": 30,
+      "ausente": 11,
+      "suspeito": 2,
+      "plausivel_por_sinal": 1
+    },
+    "CH/2023": {
+      "ausente": 9,
+      "preenchido_inconclusivo": 35,
+      "suspeito": 1
+    },
+    "CH/2024": {
+      "preenchido_inconclusivo": 31,
+      "ausente": 13,
+      "suspeito": 1
+    },
+    "CN/2009": {
+      "ausente": 6,
+      "preenchido_inconclusivo": 32,
+      "plausivel_por_sinal": 1,
+      "suspeito": 2
+    },
+    "CN/2010": {
+      "preenchido_inconclusivo": 31,
+      "suspeito": 2,
+      "ausente": 6
+    },
+    "CN/2011": {
+      "preenchido_inconclusivo": 29,
+      "plausivel_por_sinal": 1,
+      "ausente": 13
+    },
+    "CN/2012": {
+      "preenchido_inconclusivo": 31,
+      "ausente": 9
+    },
+    "CN/2013": {
+      "preenchido_inconclusivo": 29,
+      "ausente": 9,
+      "plausivel_por_sinal": 1
+    },
+    "CN/2014": {
+      "preenchido_inconclusivo": 28,
+      "suspeito": 1,
+      "ausente": 10,
+      "plausivel_por_sinal": 1
+    },
+    "CN/2015": {
+      "preenchido_inconclusivo": 47,
+      "ausente": 15,
+      "suspeito": 2,
+      "plausivel_por_sinal": 3
+    },
+    "CN/2016": {
+      "preenchido_inconclusivo": 47,
+      "ausente": 23,
+      "plausivel_por_sinal": 5
+    },
+    "CN/2017": {
+      "ausente": 4,
+      "preenchido_inconclusivo": 32,
+      "plausivel_por_sinal": 3,
+      "suspeito": 3
+    },
+    "CN/2018": {
+      "preenchido_inconclusivo": 28,
+      "ausente": 9,
+      "plausivel_por_sinal": 2
+    },
+    "CN/2019": {
+      "preenchido_inconclusivo": 29,
+      "ausente": 10,
+      "plausivel_por_sinal": 2,
+      "suspeito": 1
+    },
+    "CN/2020": {
+      "preenchido_inconclusivo": 27,
+      "ausente": 9,
+      "plausivel_por_sinal": 1,
+      "suspeito": 2,
+      "inconclusivo_conteudo": 1
+    },
+    "CN/2021": {
+      "preenchido_inconclusivo": 23,
+      "ausente": 15,
+      "suspeito": 1
+    },
+    "CN/2022": {
+      "preenchido_inconclusivo": 29,
+      "ausente": 7,
+      "plausivel_por_sinal": 1
+    },
+    "CN/2023": {
+      "ausente": 9,
+      "preenchido_inconclusivo": 31,
+      "suspeito": 3,
+      "plausivel_por_sinal": 1
+    },
+    "CN/2024": {
+      "preenchido_inconclusivo": 31,
+      "ausente": 9,
+      "plausivel_por_sinal": 1
+    },
+    "LC/2009": {
+      "preenchido_inconclusivo": 42,
+      "ausente": 1
+    },
+    "LC/2010": {
+      "preenchido_inconclusivo": 40,
+      "ausente": 6
+    },
+    "LC/2011": {
+      "preenchido_inconclusivo": 41,
+      "ausente": 3
+    },
+    "LC/2012": {
+      "preenchido_inconclusivo": 44,
+      "ausente": 4,
+      "plausivel_por_sinal": 1
+    },
+    "LC/2013": {
+      "preenchido_inconclusivo": 40,
+      "ausente": 8,
+      "plausivel_por_sinal": 2
+    },
+    "LC/2014": {
+      "preenchido_inconclusivo": 43,
+      "ausente": 6
+    },
+    "LC/2015": {
+      "preenchido_inconclusivo": 65,
+      "ausente": 11
+    },
+    "LC/2016": {
+      "preenchido_inconclusivo": 70,
+      "ausente": 7
+    },
+    "LC/2017": {
+      "preenchido_inconclusivo": 42,
+      "ausente": 6,
+      "suspeito": 1
+    },
+    "LC/2018": {
+      "preenchido_inconclusivo": 38,
+      "suspeito": 2,
+      "ausente": 8
+    },
+    "LC/2019": {
+      "preenchido_inconclusivo": 39,
+      "ausente": 6,
+      "suspeito": 1
+    },
+    "LC/2020": {
+      "preenchido_inconclusivo": 40,
+      "ausente": 7
+    },
+    "LC/2021": {
+      "preenchido_inconclusivo": 37,
+      "ausente": 5
+    },
+    "LC/2022": {
+      "ausente": 7,
+      "preenchido_inconclusivo": 38
+    },
+    "LC/2023": {
+      "preenchido_inconclusivo": 38,
+      "ausente": 6,
+      "suspeito": 1
+    },
+    "LC/2024": {
+      "preenchido_inconclusivo": 39,
+      "ausente": 5,
+      "suspeito": 1
+    },
+    "MT/2009": {
+      "preenchido_inconclusivo": 31,
+      "suspeito": 1,
+      "plausivel_por_sinal": 2,
+      "ausente": 8
+    },
+    "MT/2010": {
+      "preenchido_inconclusivo": 28,
+      "ausente": 9,
+      "plausivel_por_sinal": 2
+    },
+    "MT/2011": {
+      "preenchido_inconclusivo": 21,
+      "ausente": 17,
+      "plausivel_por_sinal": 3,
+      "suspeito": 1
+    },
+    "MT/2012": {
+      "preenchido_inconclusivo": 23,
+      "ausente": 11,
+      "plausivel_por_sinal": 2,
+      "suspeito": 2
+    },
+    "MT/2013": {
+      "ausente": 18,
+      "plausivel_por_sinal": 2,
+      "preenchido_inconclusivo": 20
+    },
+    "MT/2014": {
+      "preenchido_inconclusivo": 25,
+      "ausente": 13,
+      "plausivel_por_sinal": 1
+    },
+    "MT/2015": {
+      "preenchido_inconclusivo": 38,
+      "ausente": 17,
+      "suspeito": 2,
+      "plausivel_por_sinal": 4
+    },
+    "MT/2016": {
+      "preenchido_inconclusivo": 42,
+      "plausivel_por_sinal": 2,
+      "ausente": 14,
+      "suspeito": 1
+    },
+    "MT/2017": {
+      "ausente": 13,
+      "preenchido_inconclusivo": 25,
+      "suspeito": 3,
+      "plausivel_por_sinal": 2
+    },
+    "MT/2018": {
+      "preenchido_inconclusivo": 28,
+      "ausente": 3,
+      "suspeito": 4,
+      "plausivel_por_sinal": 4
+    },
+    "MT/2019": {
+      "preenchido_inconclusivo": 27,
+      "ausente": 14,
+      "plausivel_por_sinal": 2
+    },
+    "MT/2020": {
+      "preenchido_inconclusivo": 25,
+      "plausivel_por_sinal": 2,
+      "ausente": 7,
+      "inconclusivo_conteudo": 1,
+      "suspeito": 1
+    },
+    "MT/2021": {
+      "preenchido_inconclusivo": 27,
+      "ausente": 9,
+      "suspeito": 2,
+      "plausivel_por_sinal": 1
+    },
+    "MT/2022": {
+      "preenchido_inconclusivo": 35,
+      "suspeito": 2,
+      "ausente": 8,
+      "plausivel_por_sinal": 1
+    },
+    "MT/2023": {
+      "preenchido_inconclusivo": 31,
+      "ausente": 8,
+      "suspeito": 2,
+      "plausivel_por_sinal": 2
+    },
+    "MT/2024": {
+      "preenchido_inconclusivo": 36,
+      "ausente": 7,
+      "plausivel_por_sinal": 2,
+      "suspeito": 2
+    }
+  },
+  "taxonomia_original_observada": [
+    [
+      "CH",
+      "Economia",
+      "Produção e relações econômicas"
+    ],
+    [
+      "CH",
+      "Filosofia",
+      "Ética, política e conhecimento"
+    ],
+    [
+      "CH",
+      "Geografia",
+      "Ambiente e recursos naturais"
+    ],
+    [
+      "CH",
+      "Geografia",
+      "Espaço, território e população"
+    ],
+    [
+      "CH",
+      "História",
+      "Brasil e formação histórica"
+    ],
+    [
+      "CH",
+      "História",
+      "História mundial"
+    ],
+    [
+      "CH",
+      "Sociologia",
+      "Sociedade, cultura e trabalho"
+    ],
+    [
+      "CN",
+      "Biologia",
+      "Ecologia"
+    ],
+    [
+      "CN",
+      "Biologia",
+      "Fisiologia e saúde"
+    ],
+    [
+      "CN",
+      "Biologia",
+      "Genética e evolução"
+    ],
+    [
+      "CN",
+      "Física",
+      "Eletricidade e magnetismo"
+    ],
+    [
+      "CN",
+      "Física",
+      "Mecânica"
+    ],
+    [
+      "CN",
+      "Física",
+      "Ondas, óptica e som"
+    ],
+    [
+      "CN",
+      "Física",
+      "Termologia"
+    ],
+    [
+      "CN",
+      "Química",
+      "Química orgânica"
+    ],
+    [
+      "CN",
+      "Química",
+      "Transformações e propriedades da matéria"
+    ],
+    [
+      "LC",
+      "Artes",
+      "Artes e manifestações culturais"
+    ],
+    [
+      "LC",
+      "Educação física",
+      "Corpo, esporte e movimento"
+    ],
+    [
+      "LC",
+      "Gramática",
+      "Recursos linguísticos"
+    ],
+    [
+      "LC",
+      "Leitura",
+      "Interpretação e efeitos de sentido"
+    ],
+    [
+      "LC",
+      "Linguística",
+      "Variação e usos da língua"
+    ],
+    [
+      "LC",
+      "Literatura",
+      "Literatura e estilos"
+    ],
+    [
+      "LC",
+      "Tecnologias",
+      "Comunicação e cultura digital"
+    ],
+    [
+      "MT",
+      "Geometria",
+      "Geometria plana e espacial"
+    ],
+    [
+      "MT",
+      "Grandezas e medidas",
+      "Escalas e proporcionalidade"
+    ],
+    [
+      "MT",
+      "Matemática financeira",
+      "Razões, porcentagem e juros"
+    ],
+    [
+      "MT",
+      "Números",
+      "Aritmética"
+    ],
+    [
+      "MT",
+      "Probabilidade e estatística",
+      "Dados e incerteza"
+    ],
+    [
+      "MT",
+      "Álgebra",
+      "Funções e equações"
+    ]
+  ],
+  "certificadas": 0
+}

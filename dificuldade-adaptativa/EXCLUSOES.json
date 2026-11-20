@@ -1,0 +1,1142 @@
+[
+  {
+    "origem": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\bkt04\\__pycache__\\inferencia.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/modulo-bkt-H/bkt04/__pycache__/inferencia.cpython-314.pyc",
+    "bytes": 3330,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\bkt04\\__pycache__\\politica.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/modulo-bkt-H/bkt04/__pycache__/politica.cpython-314.pyc",
+    "bytes": 2030,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Downloads\\Gabaritei_Dificuldade_Adaptativa_Entrega\\dificuldade-adaptativa\\modulo-bkt-H\\bkt04\\__pycache__\\__init__.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/modulo-bkt-H/bkt04/__pycache__/__init__.cpython-314.pyc",
+    "bytes": 304,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_058f81f7ff570a5b38d9df74.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_058f81f7ff570a5b38d9df74.png",
+    "bytes": 50050,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_12bf9266070e31d176621352.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_12bf9266070e31d176621352.png",
+    "bytes": 37752,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_1b261854cf27ff6bfef8c5cc.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_1b261854cf27ff6bfef8c5cc.png",
+    "bytes": 84837,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_23f08c13463322047535c93a.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_23f08c13463322047535c93a.png",
+    "bytes": 42747,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_4e9e5d5691aa820fbadfa97b.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_4e9e5d5691aa820fbadfa97b.png",
+    "bytes": 36540,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_95b079a54fa85757882f8f7f.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_95b079a54fa85757882f8f7f.png",
+    "bytes": 59974,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_e08a615b6d728e7dbfaf1b64.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_e08a615b6d728e7dbfaf1b64.png",
+    "bytes": 24504,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\amostra_gq_f06b712eb71a2ff88e99db4a.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/amostra_gq_f06b712eb71a2ff88e99db4a.png",
+    "bytes": 25257,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_mvp\\matriz_0.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_mvp/matriz_0.pdf",
+    "bytes": 1422722,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_mvp\\matriz_1.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_mvp/matriz_1.pdf",
+    "bytes": 177800,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\comparacao.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/correcao_adaptativa/comparacao.png",
+    "bytes": 40387,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\refinamento_precisao_cobertura.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/correcao_adaptativa/refinamento_precisao_cobertura.png",
+    "bytes": 107988,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\trajetorias.csv",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/correcao_adaptativa/trajetorias.csv",
+    "bytes": 49409975,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\models\\fase_02.joblib",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/models/fase_02.joblib",
+    "bytes": 9860,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\fase02r_bge.npz",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/fase02r_bge.npz",
+    "bytes": 7396204,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\fase02r_bge_cuda.npz",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/fase02r_bge_cuda.npz",
+    "bytes": 4605146,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\fase02r_minilm.npz",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/fase02r_minilm.npz",
+    "bytes": 2789639,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\fase02r_qwen06_cuda.npz",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/fase02r_qwen06_cuda.npz",
+    "bytes": 4603043,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\validacao_adaptativa\\evolucao.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/validacao_adaptativa/evolucao.png",
+    "bytes": 43799,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\validacao_adaptativa\\trajetorias.csv",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/validacao_adaptativa/trajetorias.csv",
+    "bytes": 13314439,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\validacao_adaptativa\\__pycache__\\avaliar.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/validacao_adaptativa/__pycache__/avaliar.cpython-314.pyc",
+    "bytes": 20940,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_bert_256_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_bert_256_42/delta.pt",
+    "bytes": 56721517,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_bert_256_7\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_bert_256_7/delta.pt",
+    "bytes": 56721517,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_bert_512_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_bert_512_42/delta.pt",
+    "bytes": 56721517,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_bert_512_7\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_bert_512_7/delta.pt",
+    "bytes": 56721517,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_256_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_256_42/delta.pt",
+    "bytes": 56721581,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_256_7\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_256_7/delta.pt",
+    "bytes": 56721581,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_512_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_512_42/delta.pt",
+    "bytes": 56721581,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_minilm_ablation_128_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_minilm_ablation_128_42/delta.pt",
+    "bytes": 14209645,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\interno_ft_bert_512_42\\delta.pt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/interno_ft_bert_512_42/delta.pt",
+    "bytes": 56721517,
+    "motivo": "binário pesado, cache, banco de exemplo ou pacote duplicado"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_minilm_ablation_128_42\\tokenizer\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_minilm_ablation_128_42/tokenizer/tokenizer.json",
+    "bytes": 17082832,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_512_42\\tokenizer\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_512_42/tokenizer/tokenizer.json",
+    "bytes": 16034114,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_256_7\\tokenizer\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_256_7/tokenizer/tokenizer.json",
+    "bytes": 16034114,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\results\\ft_deberta_256_42\\tokenizer\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/results/ft_deberta_256_42/tokenizer/tokenizer.json",
+    "bytes": 16034114,
+    "motivo": "arquivo histórico >10MiB; origem preservada, fora do pacote Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\2021_GB_impresso_D1_CD1.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/2021_GB_impresso_D1_CD1.pdf",
+    "bytes": 224151,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\2022_GB_impresso_D2_CD7.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/2022_GB_impresso_D2_CD7.pdf",
+    "bytes": 210705,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_14.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_14.png",
+    "bytes": 182734,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_15.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_15.png",
+    "bytes": 164789,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_22.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_22.png",
+    "bytes": 106918,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_25.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_25.png",
+    "bytes": 87499,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_28.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_28.png",
+    "bytes": 88498,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2018_31.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2018_31.png",
+    "bytes": 71848,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2022_12.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2022_12.png",
+    "bytes": 61423,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2022_17.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2022_17.png",
+    "bytes": 61121,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\amostra2022_19.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/amostra2022_19.png",
+    "bytes": 61451,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\caderno2018.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/caderno2018.pdf",
+    "bytes": 7353737,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\caderno2021.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/caderno2021.pdf",
+    "bytes": 2254970,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\caderno2022.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/caderno2022.pdf",
+    "bytes": 6854310,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\caderno2022_laranja.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/caderno2022_laranja.pdf",
+    "bytes": 4121624,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\caderno2022_laranja_7.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/caderno2022_laranja_7.png",
+    "bytes": 73017,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\gabarito2018.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/gabarito2018.pdf",
+    "bytes": 152963,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\gabarito2022_laranja.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/gabarito2022_laranja.pdf",
+    "bytes": 210883,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\fontes\\matriz_inep.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/fontes/matriz_inep.pdf",
+    "bytes": 177800,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\recuperacao_catalogo\\recursos\\gq_d729403b0e500b7ef02bef0a_grafico.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/recuperacao_catalogo/recursos/gq_d729403b0e500b7ef02bef0a_grafico.png",
+    "bytes": 40404,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\__pycache__\\rodada.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/correcao_adaptativa/__pycache__/rodada.cpython-314.pyc",
+    "bytes": 15195,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\__pycache__\\adaptador.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/correcao_adaptativa/teste_offline_bkt_margem/__pycache__/adaptador.cpython-314.pyc",
+    "bytes": 17226,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2009_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2009_1_gabarito.pdf",
+    "bytes": 66461,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2009_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2009_1_prova.pdf",
+    "bytes": 3180916,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2009_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2009_2_gabarito.pdf",
+    "bytes": 66643,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2009_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2009_2_prova.pdf",
+    "bytes": 3583555,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2010_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2010_1_gabarito.pdf",
+    "bytes": 742403,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2010_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2010_1_prova.pdf",
+    "bytes": 4430238,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2010_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2010_2_gabarito.pdf",
+    "bytes": 1892452,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2010_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2010_2_prova.pdf",
+    "bytes": 8395662,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2011_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2011_1_gabarito.pdf",
+    "bytes": 109929,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2011_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2011_1_prova.pdf",
+    "bytes": 5906234,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2011_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2011_2_gabarito.pdf",
+    "bytes": 117840,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2011_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2011_2_prova.pdf",
+    "bytes": 6049393,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2012_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2012_1_gabarito.pdf",
+    "bytes": 111264,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2012_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2012_1_prova.pdf",
+    "bytes": 4439914,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2012_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2012_2_gabarito.pdf",
+    "bytes": 106300,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2012_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2012_2_prova.pdf",
+    "bytes": 5621606,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2013_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2013_1_gabarito.pdf",
+    "bytes": 134524,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2013_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2013_1_prova.pdf",
+    "bytes": 3110239,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2013_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2013_2_gabarito.pdf",
+    "bytes": 134704,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2013_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2013_2_prova.pdf",
+    "bytes": 6403514,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2014_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2014_1_gabarito.pdf",
+    "bytes": 122598,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2014_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2014_1_prova.pdf",
+    "bytes": 14839137,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2014_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2014_2_gabarito.pdf",
+    "bytes": 123853,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2014_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2014_2_prova.pdf",
+    "bytes": 16961010,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2015_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2015_1_gabarito.pdf",
+    "bytes": 261439,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2015_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2015_1_prova.pdf",
+    "bytes": 5278795,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2015_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2015_2_gabarito.pdf",
+    "bytes": 263901,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2015_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2015_2_prova.pdf",
+    "bytes": 5079092,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2016_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2016_1_gabarito.pdf",
+    "bytes": 129607,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2016_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2016_1_prova.pdf",
+    "bytes": 7261499,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2016_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2016_2_gabarito.pdf",
+    "bytes": 131802,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2016_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2016_2_prova.pdf",
+    "bytes": 5628619,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2017_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2017_1_gabarito.pdf",
+    "bytes": 197114,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2017_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2017_1_prova.pdf",
+    "bytes": 5699702,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2017_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2017_2_gabarito.pdf",
+    "bytes": 197286,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2017_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2017_2_prova.pdf",
+    "bytes": 6637338,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2018_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2018_1_gabarito.pdf",
+    "bytes": 152963,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2018_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2018_1_prova.pdf",
+    "bytes": 7353737,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2018_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2018_2_gabarito.pdf",
+    "bytes": 150054,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2018_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2018_2_prova.pdf",
+    "bytes": 6003014,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2019_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2019_1_gabarito.pdf",
+    "bytes": 165462,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2019_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2019_1_prova.pdf",
+    "bytes": 13616351,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2019_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2019_2_gabarito.pdf",
+    "bytes": 166467,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2019_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2019_2_prova.pdf",
+    "bytes": 11071532,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2020_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2020_1_gabarito.pdf",
+    "bytes": 129591,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2020_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2020_1_prova.pdf",
+    "bytes": 5554330,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2020_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2020_2_gabarito.pdf",
+    "bytes": 129835,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2020_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2020_2_prova.pdf",
+    "bytes": 6518863,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2021_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2021_1_gabarito.pdf",
+    "bytes": 224151,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2021_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2021_1_prova.pdf",
+    "bytes": 2254970,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2021_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2021_2_gabarito.pdf",
+    "bytes": 224392,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2021_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2021_2_prova.pdf",
+    "bytes": 1354632,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2022_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2022_1_gabarito.pdf",
+    "bytes": 211180,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2022_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2022_1_prova.pdf",
+    "bytes": 7714964,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2022_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2022_2_gabarito.pdf",
+    "bytes": 210705,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2022_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2022_2_prova.pdf",
+    "bytes": 6854310,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2023_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2023_1_gabarito.pdf",
+    "bytes": 592479,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2023_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2023_1_prova.pdf",
+    "bytes": 6977304,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2023_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2023_2_gabarito.pdf",
+    "bytes": 592375,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2023_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2023_2_prova.pdf",
+    "bytes": 3753721,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2024_1_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2024_1_gabarito.pdf",
+    "bytes": 118234,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2024_1_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2024_1_prova.pdf",
+    "bytes": 4808950,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2024_2_gabarito.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2024_2_gabarito.pdf",
+    "bytes": 120684,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\fontes\\2024_2_prova.pdf",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/fontes/2024_2_prova.pdf",
+    "bytes": 5456870,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\recursos\\gq_29b02702604175cb29267886_tabela.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/recursos/gq_29b02702604175cb29267886_tabela.png",
+    "bytes": 22067,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\recursos\\gq_d729403b0e500b7ef02bef0a_grafico.png",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/catalogo_adaptativo_operacional/recursos/gq_d729403b0e500b7ef02bef0a_grafico.png",
+    "bytes": 40404,
+    "motivo": "fonte documental/mídia histórica; não duplicar provas e imagens oficiais na entrega Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\CACHEDIR.TAG",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/CACHEDIR.TAG",
+    "bytes": 195,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T145911201-0300_29944.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T145911201-0300_29944.log",
+    "bytes": 1392,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T151829304-0300_30564.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T151829304-0300_30564.log",
+    "bytes": 1392,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T151829716-0300_30700.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T151829716-0300_30700.log",
+    "bytes": 3712,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T154353486-0300_29304.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T154353486-0300_29304.log",
+    "bytes": 2320,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T154528558-0300_29304.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T154528558-0300_29304.log",
+    "bytes": 464,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\xet\\logs\\xet_20261106T154603929-0300_12180.log",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/xet/logs/xet_20261106T154603929-0300_12180.log",
+    "bytes": 928,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json",
+    "bytes": 645,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/model.safetensors",
+    "bytes": 470641600,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\special_tokens_map.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json",
+    "bytes": 239,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer.json",
+    "bytes": 9081518,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\tokenizer_config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json",
+    "bytes": 526,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\.no_exist\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\added_tokens.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/.no_exist/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/added_tokens.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\.no_exist\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\chat_template.jinja",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/.no_exist/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/chat_template.jinja",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\.no_exist\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42\\tokenizer.model",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/.no_exist/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer.model",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/config.json",
+    "bytes": 727,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\merges.txt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/merges.txt",
+    "bytes": 1671853,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/model.safetensors",
+    "bytes": 1191586416,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer.json",
+    "bytes": 11423705,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\tokenizer_config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer_config.json",
+    "bytes": 9706,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\vocab.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/vocab.json",
+    "bytes": 2776833,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\.no_exist\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\added_tokens.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/.no_exist/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/added_tokens.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\.no_exist\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\chat_template.jinja",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/.no_exist/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/chat_template.jinja",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\.no_exist\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\\special_tokens_map.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--Qwen--Qwen3-Embedding-0.6B/.no_exist/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/special_tokens_map.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\blobs\\41de7d86bc4c82e90bca72e9b0ee9842bc3decb1",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/blobs/41de7d86bc4c82e90bca72e9b0ee9842bc3decb1",
+    "bytes": 209528,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\blobs\\b7a2a92e82df8d405eaaa6ab5d0f48d66cf34258",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/blobs/b7a2a92e82df8d405eaaa6ab5d0f48d66cf34258",
+    "bytes": 43,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\blobs\\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/blobs/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5",
+    "bytes": 112,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\4a78cfbf83c9c97533dd6d6694ca4323029ff061\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/4a78cfbf83c9c97533dd6d6694ca4323029ff061/model.safetensors",
+    "bytes": 438210468,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\added_tokens.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/added_tokens.json",
+    "bytes": 2,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/config.json",
+    "bytes": 647,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\pytorch_model.bin",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/pytorch_model.bin",
+    "bytes": 438235074,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\special_tokens_map.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/special_tokens_map.json",
+    "bytes": 112,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\tokenizer_config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/tokenizer_config.json",
+    "bytes": 43,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\snapshots\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\vocab.txt",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/snapshots/94d69c95f98f7d5b2a8700c420230ae10def0baa/vocab.txt",
+    "bytes": 209528,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\refs\\refs\\pr\\5",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/refs/refs/pr/5",
+    "bytes": 40,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\.no_exist\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\chat_template.jinja",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/.no_exist/94d69c95f98f7d5b2a8700c420230ae10def0baa/chat_template.jinja",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\.no_exist\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/.no_exist/94d69c95f98f7d5b2a8700c420230ae10def0baa/model.safetensors",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\.no_exist\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\model.safetensors.index.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/.no_exist/94d69c95f98f7d5b2a8700c420230ae10def0baa/model.safetensors.index.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--neuralmind--bert-base-portuguese-cased\\.no_exist\\94d69c95f98f7d5b2a8700c420230ae10def0baa\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--neuralmind--bert-base-portuguese-cased/.no_exist/94d69c95f98f7d5b2a8700c420230ae10def0baa/tokenizer.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\snapshots\\a0484667b22365f84929a935b5e50a51f71f159d\\config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/snapshots/a0484667b22365f84929a935b5e50a51f71f159d/config.json",
+    "bytes": 579,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\snapshots\\a0484667b22365f84929a935b5e50a51f71f159d\\pytorch_model.bin",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/snapshots/a0484667b22365f84929a935b5e50a51f71f159d/pytorch_model.bin",
+    "bytes": 1332809049,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\snapshots\\a0484667b22365f84929a935b5e50a51f71f159d\\spm.model",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/snapshots/a0484667b22365f84929a935b5e50a51f71f159d/spm.model",
+    "bytes": 4305025,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\snapshots\\a0484667b22365f84929a935b5e50a51f71f159d\\tokenizer_config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/snapshots/a0484667b22365f84929a935b5e50a51f71f159d/tokenizer_config.json",
+    "bytes": 52,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\snapshots\\faf660b811036d7b6dfc53aacfe5281447d4e2c6\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/snapshots/faf660b811036d7b6dfc53aacfe5281447d4e2c6/model.safetensors",
+    "bytes": 1332766994,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\refs\\refs\\pr\\5",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/refs/refs/pr/5",
+    "bytes": 40,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\added_tokens.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/added_tokens.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\chat_template.jinja",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/chat_template.jinja",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/model.safetensors",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\model.safetensors.index.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/model.safetensors.index.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\special_tokens_map.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/special_tokens_map.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--microsoft--mdeberta-v3-base\\.no_exist\\a0484667b22365f84929a935b5e50a51f71f159d\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--microsoft--mdeberta-v3-base/.no_exist/a0484667b22365f84929a935b5e50a51f71f159d/tokenizer.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+    "bytes": 687,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\pytorch_model.bin",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/pytorch_model.bin",
+    "bytes": 2271145830,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\sentencepiece.bpe.model",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/sentencepiece.bpe.model",
+    "bytes": 5069051,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\special_tokens_map.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/special_tokens_map.json",
+    "bytes": 964,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\tokenizer.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/tokenizer.json",
+    "bytes": 17098108,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\tokenizer_config.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json",
+    "bytes": 444,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\snapshots\\9a0624b896d81da7492a910ffa53731274b6cf3d\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/snapshots/9a0624b896d81da7492a910ffa53731274b6cf3d/model.safetensors",
+    "bytes": 2271064456,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\refs\\refs\\pr\\130",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/refs/refs/pr/130",
+    "bytes": 40,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\added_tokens.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/.no_exist/5617a9f61b028005a4858fdac845db406aefb181/added_tokens.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\chat_template.jinja",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/.no_exist/5617a9f61b028005a4858fdac845db406aefb181/chat_template.jinja",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\model.safetensors",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/.no_exist/5617a9f61b028005a4858fdac845db406aefb181/model.safetensors",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\.hf-cache\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\model.safetensors.index.json",
+    "destino_previsto": "dificuldade-adaptativa/historico_experimentos/.hf-cache/hub/models--BAAI--bge-m3/.no_exist/5617a9f61b028005a4858fdac845db406aefb181/model.safetensors.index.json",
+    "bytes": 0,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\metricas_recomendacao_20261113\\__pycache__\\calcular_metricas.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/avaliacoes/metricas_recomendacao/__pycache__/calcular_metricas.cpython-314.pyc",
+    "bytes": 18424,
+    "motivo": "cache/ambiente/metadados Git"
+  },
+  {
+    "origem": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\metricas_recomendacao_20261113\\__pycache__\\test_metricas.cpython-314.pyc",
+    "destino_previsto": "dificuldade-adaptativa/avaliacoes/metricas_recomendacao/__pycache__/test_metricas.cpython-314.pyc",
+    "bytes": 4878,
+    "motivo": "cache/ambiente/metadados Git"
+  }
+]

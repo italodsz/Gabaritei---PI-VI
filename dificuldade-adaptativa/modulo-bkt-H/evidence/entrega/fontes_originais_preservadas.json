@@ -1,0 +1,1760 @@
+[
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\comparar.py",
+    "sha256": "c8ec2292688b88dcf37b74a3cf59e0b631902476213848262d21c1a05869eaf6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\comparar_politicas.py",
+    "sha256": "4b02a8d60d9b73312b46a7ac27ea2bddfe5533328dfabed39423dfd734eee535",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\demo.py",
+    "sha256": "05a4fb8a2d3f8d8e8755d82c5a6d618335d3dfcbb114b69100c3a7112af82730",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\executar.py",
+    "sha256": "7b5526d95d0fbf20964a5d4f4a523325f186b3b1bc9f3e3ecb50c3361905d3cb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\graficos.py",
+    "sha256": "67d2ae33a30c49472f9b7430f09a2a559daa63bf3a69d2d7d050c12d8a36447d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\inventariar.py",
+    "sha256": "0fc3c0bdb4e18c64b7df0450b55164550e0b29f673591c81834827f3a4e2393d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\obter_dataset.py",
+    "sha256": "d7becec1b3c28a9a42774d8c74d39c3e61d20080dedafdfe73aa2d3dc86dc562",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\README.md",
+    "sha256": "cc85ae492d291cbf1bd4a8d3a02d72900aff4f12c3c1f032612f1350f0c5f6c6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\relatorios.py",
+    "sha256": "732798090b6691566c29fe20d2a8759d8ec83e85e9e4cc66b125e28f24f012fa",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reproduzir_dados.py",
+    "sha256": "d90d3cefa4c9c998698fd08c931dc6503432b0efa6c94928ab925dc6244d0f88",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reproduzir_treino.py",
+    "sha256": "11657d6937e168ece341159dc7b3434e8306fd6a91daad77f8fcb6104c75ee12",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\requirements-lock.txt",
+    "sha256": "e5e067f160dc05a32b5e308f846276e86f177630c2a70a65b4156a4c34106533",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\requirements.txt",
+    "sha256": "a29feecfd5e0243e3eff76e58c7aa2152d0e991352e78999556607a29a0440c7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\testar.py",
+    "sha256": "5250916e25ee97bd70bc9b237d1656569d76d42f6438cc7a453ab13513f86098",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\adaptador.py",
+    "sha256": "683a7b4d063def81e136c485073a44890fade40298249431181d410f387ffae6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\canonico.py",
+    "sha256": "f368666883b8a979a6725b209c652320d4c4e36891064511ae19fc3881f217f8",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\common.py",
+    "sha256": "6524ad9f4d12aabf36d810aac82ebfc930cf430bb51ff0e3d87b0f771e19c918",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\elegibilidade.py",
+    "sha256": "aa1a02a735e61615b8167233ba250861fdc05af3c7693922496166e3a1be0b26",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\inferencia.py",
+    "sha256": "3e7bcd46dd9834618e8c768221496447148cc20862084597a5ca22b44aa8facf",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\motor.py",
+    "sha256": "93a2d951c4ef45106b9c469590b569aa916a63e0fec7cae3c050d5477496bebc",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\politica.py",
+    "sha256": "3f127b6eb1298f32e10f780e36fedc27fbd20ab024f19b46afeb7553ceea8834",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\bkt04\\__init__.py",
+    "sha256": "291b4102c5c3014273603fb2f76c68acfb17e89fcf8718e8c6be2cf4a3e77c31",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\config\\experimento.json",
+    "sha256": "af73fb762bf032fe7cd52c10a4cfd1e37b66729aef7e149371674ad93090cc5a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\protocolo_hash.json",
+    "sha256": "869d49a70c83f4aa1c5003dfd6dfacde86c44a611fea72ac7ffd2027ffd38a2a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\validacao_pacote.json",
+    "sha256": "153581728c8c991ebc079914b37c88bbc35ec5b5a34e34fe1958c5519b91a6c1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\vendor_hashes.json",
+    "sha256": "b6263da4b8944f6694a1e91afba3c4cb6a70d63b88a8eba76d562d7893a0082e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\external_review\\README.md",
+    "sha256": "45145413bfd9420c1e93ac5616fb1db714c600e7f5fb6673d6a7c6205cbeadff",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\integration\\contrato_frontend.json",
+    "sha256": "7d75241ec6ca6481e20127bf642da1c516bca89144a051a8378f012a7f6a68b1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\integration\\GUIA_INTEGRACAO.md",
+    "sha256": "4d6704ad5fec9def453be338d2a8c18d0091417dcc52d564dc9f9186ebe55c06",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\models\\elegibilidade_integracao.json",
+    "sha256": "78967e716ee8065d69603e6a033490890827864328e80718f88db513e4dcdae6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\models\\parametros_originais.json",
+    "sha256": "f219a3b2e2e5604e428fbe3d96bc823041fe208aa76c4722fa9b05d18106df05",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\models\\politica_selecionada.json",
+    "sha256": "b21fceb9f61728ebfd5e276dc00dfdd17be612ab6f40e413ac87e11bb39276f1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\avaliacao_final.json",
+    "sha256": "0fe6e9b340601979068cafb6dfa9d0f510f2261253664fab2d575a5c1530a250",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\estabilidade_parametros.json",
+    "sha256": "94f65eaea9dd0f0c63e0ca3db4108f3cb9fffee92d5b04eda062183980ac17a3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\gate_entrada.json",
+    "sha256": "7eed8eb8690b49680112766df31b9cb30c405ef4729ec25599cad3aa5e618557",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\identidade_logica.json",
+    "sha256": "34e062fd93a80c777b53312e533e860615edbe0e07339f8ce9d7b1f89e762a34",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\manifesto_dados_fase01.json",
+    "sha256": "ec1937e6ec595ed3903e56cd5a031d0239b2145831a165d1c6a17081098e8fba",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\metadados_modelo.json",
+    "sha256": "bbe1cc1dad7f143e93491c41a9569925e18056f880361b4460deeaab5269c9b7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\preprocessing.json",
+    "sha256": "75788edcc30162c468f47654857369dd9815808edc6853aa916c1e5e5c5b827c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\references\\protocolo_pre_teste.json",
+    "sha256": "bc2d2609405c4bb2d69ac43dc84f4ce0e88e13a81028579598f6172ea9500348",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\ambiente_verificado.json",
+    "sha256": "530ddbec1d58d1213dff05f90c0506d01d20e986acb88b7b1298faccc96107e0",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\auditoria_claude_texto_integral.txt",
+    "sha256": "51a7ca5b19f8e21f4dc1d922a8dff5bd0045638c7f904cb9d8b24c163246a152",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\comparacao_estatistica.json",
+    "sha256": "467ec5cc26116c865a5f6006598b92b6b7c79dc756c2fac425ff0b21d8785b94",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\comparacao_estatistica.md",
+    "sha256": "31c1b22cf8b3582e337957c6d6c27f667f24c1b5acc7d89a1855b5be82ead20a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\demo_integracao.json",
+    "sha256": "33c9cd8215b68b2ee79fe7ce3a24ab2df98dbac43037db265089c87692d35b0e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\elegibilidade_habilidades.csv",
+    "sha256": "f75dcaa1b27d6990665ebb9ba212d6e4fc703401dec5ea851b3e4ca5a886ce33",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\execucao_source_only.json",
+    "sha256": "51ca8db11772177ef93bbc9843e3a23cc21901fbb6e850591aa79e2f1b31bac0",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\integracao.md",
+    "sha256": "e952359f24e1f1791b2ec815228fb83f89bfce466e68b61f6209d1d8f0b38327",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\inventario_entrada.json",
+    "sha256": "a63cf42442565b60ab74f7decb6cb641b6261461e588d30038c8a66cd0bad2c3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\limitacoes_pendencias.md",
+    "sha256": "d31de99c95dea493971dc49070af3eb4448eacd097d718172d7ff61beb25f9b9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\matriz_seis_problemas.csv",
+    "sha256": "b94178c5fcabef9611ee674aa2951b5dab2418a682072532b95550b04983b650",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\matriz_testes.csv",
+    "sha256": "241f7fa6fdd04a85b57154e76e84bab1c116b279c44a37e127efa688d9528ba9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\obtencao_dataset.json",
+    "sha256": "5965704c62f39f3f680fca96fbb586da2b9d586cfd399e964483e66f0dde6cfd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\parecer_final.md",
+    "sha256": "69d94cd79128594893c5bcf2da2df072f6bb93427871cd20c42d357c0ee60343",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\politicas_validacao.json",
+    "sha256": "4eb8cee2f203d7d1a496ce803b608f68dce9918122a56783ce026f59719b4125",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\politica_dificuldade.md",
+    "sha256": "9552706a54fbe415bc226ffce74eb399096df68d0d5a1d75a9a35d88f4c04b81",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\protocolo_missao04.json",
+    "sha256": "e6823314971fa5748651a927634b24c9fac32d1a8542a911990af1d4eb44670a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\reconstrucao.json",
+    "sha256": "0aa17758c6ea45c3f7cd3b2c443713d29141edf59b43a4345e6c03b9f838599c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\reconstrucao_duas_chaves.json",
+    "sha256": "04eb7e48eb01d1577e15786e8f4d017961ad80d2de4f0e6f6a07cfbf04dac199",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\relatorio_seis_problemas.md",
+    "sha256": "910a6260105e782e88d0adf572a47aa0464160fd96f31bb89ac1e2eea15621d5",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\relatorio_tecnico_completo.md",
+    "sha256": "23d5fff8aeecb6783f2b3053ece7726b985635056a82b461ce841bdbdba0ce55",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\reproducao_treinamento.json",
+    "sha256": "0ce3298d959a4e9bb559b855a256837c0aed08184c019d3dccdee07c60c375ac",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\reprodutibilidade.md",
+    "sha256": "9868596d8b77d00add36d664f198bf6a657bbb687eb18d6dc4b67a7b815fd1a3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\resumo_executivo.json",
+    "sha256": "c24ac59a12bfb5132247a690bc656301864069e21d8d6fc62c75e9a978a93005",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\testes.md",
+    "sha256": "6c34c1cd4b224eaaf2b26f2f1128e57ffbb87486d5740eb223384b14db76c4d4",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\tratamento_auditoria.json",
+    "sha256": "922c12a05a29707b405393544fe73decdcebbe99e22d34945f57968c1543ebea",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\treinar.py",
+    "sha256": "1eb87a6588b58022b8263bd3d5fd4ca0c7d1dd7374639f1fce7493e8dd204415",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\alternativa.py",
+    "sha256": "0f56903fd2c57ec2dd87553fb8cb5b29c5e3098f19203dc55389d3b2b0344183",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\common.py",
+    "sha256": "e65a5d06d3b712c155828ee3eaa2a3e5e10522d50c25d16182cf7cd49fbd96ea",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\dados.py",
+    "sha256": "d9feb44fd9e9d909cf0bb4aeb1375eaa9b86d11483faae29d9c17e6cee6801ee",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\inferencia.py",
+    "sha256": "866f7a6e23edc8709bb5539fc9f85a1799077b56358c6a44c5490bcd17820564",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\likelihood.py",
+    "sha256": "aef7c38a1d83f78327985d0b99bcfa93591b0c7b1a186fd009d08a515d57bcca",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\metricas.py",
+    "sha256": "c8a70b02d88fc50857bb40c5a8a6fa8e422c37edf962f198c82f7dadb715cedd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\treinamento.py",
+    "sha256": "b8642447a01ed708d17ee198d87e3c0b0f5253a15e0e2a03badfd4fc34751014",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\bkt\\__init__.py",
+    "sha256": "b67f4713842ce9fb13cbc08e2bae3fc81357b7393bd22222d928e5e631a899f4",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase02\\config\\treinamento.json",
+    "sha256": "7c551659d24b7e761f80b13911152fb0e3e71eb772711c9dee992b173bfe0eec",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\config\\preprocessing.json",
+    "sha256": "75788edcc30162c468f47654857369dd9815808edc6853aa916c1e5e5c5b827c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\auditoria.py",
+    "sha256": "ed30e926e5504cba81282cd09e063ede4d2662b79e692032c8b0bfc1c3b34770",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\carregar.py",
+    "sha256": "5e27d3de8af5101757a8665a11dcf375fe1354ea15df549cb2153ba5b6c17b3b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\common.py",
+    "sha256": "7c126c39bc1cdfb8ab46f8cd036673651739a661ec787b8a7b27aecf099a5b19",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\complementos.py",
+    "sha256": "52ef372329d7f6e6c68c79746d1a85270ebd80671533e486928e00d144e6d3ab",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\estatisticas.py",
+    "sha256": "b3f441ae93c7dd3b416144758555c5e05395574cb55725f191b38b03f26aa058",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\graficos.py",
+    "sha256": "744d6922ec5f0dd86b3d34349a24726fe95b2db4a510e8ab3a925a19e38ffcb1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\ingestao.py",
+    "sha256": "c0243d1d05fc4055d5c13b182d7110e03b08d81e1678052005f2402cce156630",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\limpeza.py",
+    "sha256": "c5e1be2b9b8a1251c9be31914c6a762b080dc20e0297b97fdbfdd7386496b909",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\preparar.py",
+    "sha256": "c9e7eedca44497351e19fd6495cdd073f9e2a96a38e9e4944ca6fbb58e6d2423",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\sequencias.py",
+    "sha256": "97a513d80b2f4588c6352768776a5cf9f6f49e328748b3465d363f11b19d117b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\vendor\\fase01\\src\\__init__.py",
+    "sha256": "2315fd5c323084c0547125a09ef99fea10c17deabc47bd8892990faad912d266",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\tests\\A_matematica\\test_math.py",
+    "sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\tests\\B_dados\\test_data.py",
+    "sha256": "caa07c8057ae60dad3143e33e2abd83bf66e6e24107095e8154ca775f3cf7a18",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\tests\\C_treinamento\\test_training.py",
+    "sha256": "4b32cc7e6c14e8774840986fd8871f5bd5869ec1ba5112ec395e5e789a398457",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\tests\\D_integracao\\test_engine.py",
+    "sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\tests\\E_avaliacao\\test_evaluation.py",
+    "sha256": "788fcf5ec65d9c80aa3b15bf9049ba6eb75b8e7560f3dcc2b06dd8e5e5835965",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\graficos\\01_comparacao_pareada.png",
+    "sha256": "84962aed9934be2d4f3bed728baf3b3bbd3f4a260c3a16b78438d93178348d1e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\graficos\\02_elegibilidade.png",
+    "sha256": "5500d5de3a9596b25390ef0573401c3e0f1756cf2b4a8aa5bfe80067c62d3631",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\reports\\graficos\\03_politicas.png",
+    "sha256": "6e70be35bfe1b90bbdf3f8af1df869f99f42a0d28934496fc5c9e4bdb1c9a338",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_101.jsonl",
+    "sha256": "ff53f3a52256415a62b524344e7b2370bdc27189b539e8b57fa4067e10e21918",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_11.jsonl",
+    "sha256": "11f84afe8ca0ae54d9f387404c034ca609ced749dd02e51ce792dc8648687271",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_13.jsonl",
+    "sha256": "6af38f831f99b3cb3376606366392312f56cd736030a22770d88e75c10cce162",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_16.jsonl",
+    "sha256": "6638685f2fc3917ce4ce895716d6b3d022b746cefc6b0105386e4c5b1e1fea7a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_17.jsonl",
+    "sha256": "f17621014cbb7abf69d7319e3e5a5a23dcebc032b23ad93166b7baac56b7772f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_18.jsonl",
+    "sha256": "26d2548e32a396a24321d39a178b187a9ac65c1a66008f2c221d8d651f4aceec",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_25.jsonl",
+    "sha256": "f97675ad3cdc9b0696cde074220cafe3938c535b63597d7771dcd0c1fd7fbbbb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_27.jsonl",
+    "sha256": "8a56bb503fe672e327126e108176e1166e61860eaf67deb1111034a886d5296d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_276.jsonl",
+    "sha256": "ef571c77a78d542ad8ff33b660ea4b306c1b6e1124fce569c5852b7e33679338",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_277.jsonl",
+    "sha256": "3c578012d3a97140ef463af0cb8d8dd83a14dda9c7ee09901ec2c941155e4610",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_278.jsonl",
+    "sha256": "0ba08a530f6625162dd2660f0322f624d59b72c46063065ecb1e1efc06602231",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_279.jsonl",
+    "sha256": "3d03fa486cc93cc522d663dbb45a1c4042be40650e8a80d1d82173864b5b26f1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_280.jsonl",
+    "sha256": "5f710828dc78e92da311b2ca7faf4390d6e350527e573a08a07419889ca2c02c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_294.jsonl",
+    "sha256": "eb0bd6924b3755c4793416375ae794812f3dabdb8efe17526f0d0ede2cb67704",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_297.jsonl",
+    "sha256": "d9afba4d0ef5b6d8fc02bfa23ade3f7aa2a784a1ac5d48c58c11ac8d6fdbcf94",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_301.jsonl",
+    "sha256": "cdffd832ba4a52c314feec1fe46289ee0d932261cf0dfb07ef79ae74e370a378",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_303.jsonl",
+    "sha256": "f86e44730d3d1dc760ff098e99720dc4cfaa59c450e3ad1ba5c04ee800147b68",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_307.jsonl",
+    "sha256": "3d98b82be3ed2698aa377d6626a00d8d8aec00950f0ffaff98ed7d178ebf4a1a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_308.jsonl",
+    "sha256": "f47c8da4ec3354c6388808813dadd13eed598e3769eb33bda91332b3971768ba",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_309.jsonl",
+    "sha256": "4cf1fa082bbcdc486a1c7f4081474f292f67bf885ccb211a5179ef9f34627ba3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_310.jsonl",
+    "sha256": "41979a23fbc19b2bf4c57265bd17cf3a536e4b98466c62afd5ec0fda61168865",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_311.jsonl",
+    "sha256": "d8e928363e7e03b9f2d11180099478c86522284f5741e58312ecbbb2669fce71",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_312.jsonl",
+    "sha256": "56a17387998d1735ec410c6dbb11f2874bc531bad9fd81fc5df1edb2b8b3bed1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_322.jsonl",
+    "sha256": "da98dc35948d71fbe89e7559e9b0249f30372de6a99c9e5be7c268ad3f4cac7e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_323.jsonl",
+    "sha256": "d2778a0ba2fe3a7e665add6bf994e2b4a34733df6dcecd88f8fb34c1fb216474",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_325.jsonl",
+    "sha256": "941bc96dfb8a72741b06852a0857134d7796225d3487e483916f5ac43d92cb2c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_368.jsonl",
+    "sha256": "1f86d72063c1b185ff84aabb4ba352a81d22e0391ad73d326e010a71097ebefc",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_39.jsonl",
+    "sha256": "f9ae67d82a67d30b54edfa143a2d83a9d1972f82d242ca700ee913238254b0c9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_4.jsonl",
+    "sha256": "dc4268e8c37c119065c63d067a7be9b3fdb6117dbf10d9aef0751aef6bc2f337",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_40.jsonl",
+    "sha256": "2c99b69a6948229791066e75a3554adf58d12ec136701351e2d029017753bead",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_46.jsonl",
+    "sha256": "42ac43a0ff0f5bdcbb4c983ab09f9724344593aa47dc6d6e572c39c53faee0cd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_47.jsonl",
+    "sha256": "d52eced045db337c6ebd4638bd4422d65961bf0e2aaae56316b20c888fb88ec1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_49.jsonl",
+    "sha256": "2be18a8a6909abe12434b6fbb8b96289fd0024226e8714ff7c981f65df44e13f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_50.jsonl",
+    "sha256": "0e2e5fe945eb29d8591b3b38a3a70ca9b0a5ea4e38bd87728b0c7865bfbef180",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_51.jsonl",
+    "sha256": "6a58c8f9f988f175966d9a5a3dcfbeae3c90d15b01d7cef2e1ffc7682e5980f9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_54.jsonl",
+    "sha256": "f2be3ff0a361c27358191866164de4624a7af1c275a323a4b7f60c5ee8e287f6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_58.jsonl",
+    "sha256": "d0025143314a4c1630b06fd7726706fc25394daa92fd03d9ce858bfaffa30a84",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_61.jsonl",
+    "sha256": "6c4deb17a3add6a09cce8135dadffcbcd844f22f78105ab7eb5c7ea23d35e04a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_65.jsonl",
+    "sha256": "eda928ada6d836786f2b8a720f0410b789c177a85267fb3a2daafaf6268e5fbe",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_67.jsonl",
+    "sha256": "91c0030db8aab990464ed352b6adb16292bd143ec1151f84ecdb348aee76139b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_70.jsonl",
+    "sha256": "5263ccdf108f0574f46f1054e4da23bfad2e285dda73919858e46390f5e5ba11",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_75.jsonl",
+    "sha256": "ec3656e7793b2b3de549d9a9d4c7c8207ccaf3e12db4642c9924ec80cdf4201c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_76.jsonl",
+    "sha256": "9ce96c0330731cc7547ff558202b4bb58e17d15a0ad97501aa2c22470ac4f37c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_77.jsonl",
+    "sha256": "b68382ee682cf0977dd45e963f868281525b4c609dda43b06f65046d2edb47b3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_79.jsonl",
+    "sha256": "6d586c3e4188ce6beac3459e98a4332942aaa1d6f3a4c86e6e3599117291d2be",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_8.jsonl",
+    "sha256": "067cb2ea60f637a6ef7767cc9dcf042c80fa806efdc5a67efd1d20210f122876",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_81.jsonl",
+    "sha256": "3c954ac315c1c4a11b8c044d9f8d59f34d363f56826786b4336b0c873664a6d0",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_82.jsonl",
+    "sha256": "ba2c1f33d32062af2557a8a5491d04a03d53db3be84722f1ac0d76a7997b2d2e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_83.jsonl",
+    "sha256": "76f2c65c493d14edca08abbac04d9057421d4927f412c12038ea084151f9cbaa",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_84.jsonl",
+    "sha256": "5f3faefda8b7bfb085a8c6d6dbefe0a7ed2af392925cd4c44a1fdd8428ea6a80",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_85.jsonl",
+    "sha256": "f18afed6f083ffa16de68764ca439128a65091112b1da5177e19bbbbff8e0fa7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_86.jsonl",
+    "sha256": "79f14afe6d0c079a439d6ca84afa0e5f05a66b11985a62d3d9e4f60ebed487bf",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_91.jsonl",
+    "sha256": "d121360098355cea171f7b75bb33e8794661907339c6780fb699baff17e307f6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_92.jsonl",
+    "sha256": "44417bab891256e646794b854c29485b1fc1d9c58ae11708645887d3f1e0129d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_94.jsonl",
+    "sha256": "af45d0cb7c29431b623aa23fe79c6f900991d3de183e83a139b4cbf44992e2c2",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\initializations\\skill_96.jsonl",
+    "sha256": "0591a1a2c91b00a941b928063cd0e6153bd7a222d9a0a14441b2a7bc58b2967c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\comparacao_estatistica.log",
+    "sha256": "4e7efde0635c689993d1229577ed2b0fa4a596e24353d899acbffb6c1bf966ea",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\comparacao_treino.log",
+    "sha256": "f2d0e56d7bfb8dc3d56a06faec4d6bf2bc4cf0e83af42afe2d3be3d51dc50af8",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\dados_deterministic_alternative.log",
+    "sha256": "c3ac4d7f5682fad44dd7134499b5f5d06024c55edd60b866c077b39b57fa62a7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\dados_original_key.log",
+    "sha256": "c3ac4d7f5682fad44dd7134499b5f5d06024c55edd60b866c077b39b57fa62a7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\demo.log",
+    "sha256": "4ed8c64d65c3ac1e2af0cd77e47a1e1dddee6b9537390306cde0f9f43e990b26",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\elegibilidade.log",
+    "sha256": "b8e75c0620f8efbcfd8967e055bffb346dc869a7d494813b5a9132b5057cce28",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\fonte_existente_verificada.log",
+    "sha256": "b4b40f318ba496511085e5af65f7c40883a3f78c5f7511b37f69f78460c0437c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\graficos.log",
+    "sha256": "b57e071fa5098c9b4a36dd9f24464b3cb2b0e9a6895b549cd3833e1539390c51",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\instalacao_ambiente_limpo.log",
+    "sha256": "4936dd8cb774a0f32702bf52f6804dafda10b446030eb578071b21f95f3cbae6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\inventario.log",
+    "sha256": "a81142d99246e3674225f4049c775ca9935f4afcfb85374b23fe36d79d18118d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\obtencao_dataset.log",
+    "sha256": "f1b30219539257e1074b81dbe50cafacd367a77e51bdee1da75cba2dfca6aa91",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_dados.log",
+    "sha256": "2cccc9d6dcfd36bc5ca345e0cb073c2a39b5a8206e2e04198f50c19e493a4bfa",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_elegibilidade.log",
+    "sha256": "29cd6af698db2ac4d5b71a2c034b910b877c458b062ae364dc1c2ae09cad750c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_estatistica.log",
+    "sha256": "16776b3377825ee990f4a5b690014669853f5bbec77a9a602839a7eea1413243",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_politicas.log",
+    "sha256": "470f506e0d7b5bc73d12bc33d1dd05184e7647a848601f42549e7334fdc60e1f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_testes.log",
+    "sha256": "8a2b42caa2f6cb322b0de3485b6203e90134b13e88b98bbd8b9e93289ca2f0ba",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\pipeline_treino.log",
+    "sha256": "f97a26f613dde4adac1bc98abc7c71f4ca97abc38c1509568b97fbe9c2b5ae28",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\politicas.log",
+    "sha256": "c1c0fcb2645434354b6fc58bcd257cd9d0d592ac6bee5c07e4721ff97dbfad98",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\regressao_ordem_antes.log",
+    "sha256": "35ad50aaa4bac4d1256186d7301d9d91052d7de7ad1de62c1f51eeabc0a2c9cd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\source_only_limpo.log",
+    "sha256": "7b33eb32fd0ccdfead54de6c9b016db319b4c67f795f8e331d4df583040cfb5a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\stdlib_AD.log",
+    "sha256": "31de5cd48856992722dfa1ae7d2baa3e1b78a3ca834a3961499044f261ec0b07",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_A.log",
+    "sha256": "803b25ba393d068c4448310dc9dc16b5427aa46a7ba16ecc16e3b8de4e366cef",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_B.log",
+    "sha256": "dd3c3cd55d7035b4058c8c4ce9887e0b2618c7540f34dabc975d3c04ffb62e06",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_C.log",
+    "sha256": "7149ab87bc967c00c77abfd3a35a2a3bd272ae5935e328d5df4b10b31607b217",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_completos.log",
+    "sha256": "2f08699b29665bf4534fb3cbebfcf77a43d9605d8e5ed74830e7f23ae05eaf09",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_D.log",
+    "sha256": "f2dd41179b5c1e29dab0f08d7e3b5e0e9bfc253be9e62d1c90543a91e682f92b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_D_falha_inicial.log",
+    "sha256": "88244bb01f13ac0d30115c7fc4b16227f28a75fd01dd8eb66b0af6e9728b8c75",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_D_regressao_adapter_antes.log",
+    "sha256": "ebb6ae67983f26268c4fda8ecba6d4ca292d9a6ea809e943bf596ad26ddb9feb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_E.log",
+    "sha256": "b6b28e791e234fc8c1bc03bce65ab2fd93fed6accb3d77610dc9c195a64ee4bc",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_sem_dados.log",
+    "sha256": "902bf61aa6e6fc1f1b3eb4bb54113830ea260dcb5f515de512153c714d6827a7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\testes_zip_extraido.log",
+    "sha256": "383eec088466cc1c840d09f0f5bec51b8370b61f9f1a6e46e4c9462cf83ca00d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\logs\\treinamento_reproduzido.log",
+    "sha256": "59024edc7b7e53a80581254475a8290d3afc8b1c42a334ef157da77f9da2663f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\tests\\all.json",
+    "sha256": "b06bd89ee7b460ccfeee07143994774e0778915901d3be79068a77917c91273b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\tests\\sem_dados.json",
+    "sha256": "1afc336735eb0b193ea71f0d02dfdb01acf9a9630864b9c6924548530e063cb2",
+    "unchanged": true
+  },
+  {
+    "source_mission": "BKT04",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Missao04_Integracao_Auditada\\evidence\\tests\\stdlib_AD.json",
+    "sha256": "9a7831541daaab63d7b34b0201e1c7aa1a198ee9fb6d17be9e313825774a08d9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\README.md",
+    "sha256": "9fc98283d382f2b05eae20fbf5898a81822c336635223eaf871786e9326a69e7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\config\\preprocessing.json",
+    "sha256": "75788edcc30162c468f47654857369dd9815808edc6853aa916c1e5e5c5b827c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\analise_habilidades.md",
+    "sha256": "eee8c16a6eaba06d67aa09a89bec6c542e57b945308908e7c4e0a2e5d74040f9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\auditoria_independente.json",
+    "sha256": "fb3b578fd22a2c489e0afd9add288f75b832aa4641b5d85c135a3c7b796e5625",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\auditoria_inicial.md",
+    "sha256": "43d0bbfe662714b726a0467ed41b48227b6864630acdf79a9d1ee8cdd6a8aa6f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\inventario_inicial.json",
+    "sha256": "8fc29b5e1b7ac585b6f5f145f4227648943bfcbebbcc13cd3117c7216488dc83",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\matriz_evidencias.csv",
+    "sha256": "2027e01d48ef8fbc9433891d0931487cb0ec89857bf5cf2ef8adaf3aaf9af251",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\parecer_final.md",
+    "sha256": "8c08ef19b9c9138bfd6ab655dc3055b99d602c414d1864857471e43c99d7b6c2",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\reports\\qualidade_dados.md",
+    "sha256": "f915b61a7dc26d9f1829a887a2688b3101fc33602b0723e97652572c3e9e7969",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase01",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase01\\tests\\test_preparacao.py",
+    "sha256": "3169ce33a1ad35addd62a3c18660c05084ce8496bea76a82f17ac6fed7f57830",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\README.md",
+    "sha256": "92a6fdaa4ad6692f7b94e3e4dcb5f2a044550dba76ed61a7aae1b757bc32b47b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\config\\treinamento.json",
+    "sha256": "7c551659d24b7e761f80b13911152fb0e3e71eb772711c9dee992b173bfe0eec",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\ambiente_limpo.json",
+    "sha256": "64a29617e56d39b979bae0d8faec025f850867508351eaa529303cdec2f47cf6",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\auditoria_independente.md",
+    "sha256": "bcaeaa1762b8bbecf59d210a3c13d50e291e637eaecd4183ad3c398db49bf332",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\auditoria_matematica.json",
+    "sha256": "6f487095ffcc3ead425251c1fc4a3e0214d2eb98fef5115ef4dfeedb7051c7b1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\bootstrap.json",
+    "sha256": "383a65676db47fcedf72660b534068ff26ffc503ef6709af4c695365bfc512e1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\estabilidade_identificabilidade.md",
+    "sha256": "3997e3a03b5e58f6ce1702d6a9d83ca6536b9057b60ff31d235ef67f28ee582a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\gate_entrada.json",
+    "sha256": "73b20ecef098c766f29dd140714f25da3dfd5d154fbb04bf7a17a6f765e6a68a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\matriz_evidencias.csv",
+    "sha256": "1553588bdd457364072f3c17474ba0e368f06ae61b8ddaa77d6f12058be403fd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\parecer_final.md",
+    "sha256": "ac44f87460a44112f504c28b3fac09ef2d98620d805a1ea3739e85b27aeb331e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\relatorio_treinamento.md",
+    "sha256": "4555d77d929f49fce37a7b6ee1dea7ef0fd68a967ff66d5b1917be6731b7b2f4",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\reproducibilidade.json",
+    "sha256": "2733b3637d0899a75aaa6f1fd88e434513a9c745c959ed7d01b2d8bc62f34502",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\resumo_executivo.json",
+    "sha256": "f9fb6869df47cfd3c3b195333a396c305ff38983202f351c405263da93294c18",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\validacao.json",
+    "sha256": "0a35b742b04fb96ff3b207cd6dd9db30c120a818cf1976b6d7de54b5c5608708",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reports\\validacao_preliminar.md",
+    "sha256": "e1edd944aad7f27668352a0d72d2c58fb14bda39b58b656b425b018ceaf33d15",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\tests\\test_bkt.py",
+    "sha256": "3c25056d68b85ef9d17591aecd40b5bd91025e45f01fb4253ac52a86a3f93f24",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\README.md",
+    "sha256": "b7642a37ddddf1f2fbb8bd2bc2f8b0b8375c1ace93252cd4daf913af9aa1583c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\config\\decisoes.json",
+    "sha256": "011b0e7e2f69b27ad3c2f904ed26ad0a62d8f5d03d9fc768f9828819ea4174f1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\ambiente.json",
+    "sha256": "9664a69672d50408b9e0fd64f3fb55eecf8445f0fd01ace68223e9e082bad438",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\auditoria_independente.md",
+    "sha256": "a78629b30f2fb7f8264f901a7c9ec53dc5335f0eca55ac105a859a41da77a811",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\auditoria_matematica.json",
+    "sha256": "5026e462e824aa69d8d4f257c6ee73b08dfd1cb932d27972b5d2bd5c69cd62e1",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\auditoria_matematica.md",
+    "sha256": "de6ee215fe1590f7c2759396de3cf935b945b14df1f065a971faf9bc06ab1456",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\auditoria_resultados.json",
+    "sha256": "9589a7e8e11c66f7850d6a33fd1ddffc854d1f2bfa253f685f93ca42a57e678b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\avaliacao_final.json",
+    "sha256": "0fe6e9b340601979068cafb6dfa9d0f510f2261253664fab2d575a5c1530a250",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\avaliacao_final.md",
+    "sha256": "6a12d69c37268f2653ae1f2fa313e19dbae5e5eaf6a3d86b7a2b4e572301977b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\calibracao.md",
+    "sha256": "81164999141bfed508f442aa30b0d0d1584ee47a80959557357ba332cfd9d880",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\estabilidade_parametros.json",
+    "sha256": "94f65eaea9dd0f0c63e0ca3db4108f3cb9fffee92d5b04eda062183980ac17a3",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\estabilidade_parametros.md",
+    "sha256": "d094da07e263e89fe34457d5980403ad98ddff5957190becd08a4cf6ccda9de7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\gate_entrada.json",
+    "sha256": "7eed8eb8690b49680112766df31b9cb30c405ef4729ec25599cad3aa5e618557",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\habilidades_fronteira.json",
+    "sha256": "842a7f2319878ee86c9e309f18bd554a165c2516396f5bc18da2a09891d5dc75",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\habilidades_fronteira.md",
+    "sha256": "94d109febc24359de08c00774d3353e402e51d5c09f92d87b7234009c4c5a550",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\intervalos_confianca.csv",
+    "sha256": "245b715313553d633e1630e565d522bc6eb01477346cef302d960d3826ed3c28",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\matriz_evidencias.csv",
+    "sha256": "8ae405edb03261a8860c94b9573b7467a70490297b760ebb0a37778c880cfceb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\parecer_final.md",
+    "sha256": "c1f9c37f52f0272c518f26bf35c26b1abef0335401c83fae1889e945d0122cbe",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\protocolo_pre_teste.json",
+    "sha256": "bc2d2609405c4bb2d69ac43dc84f4ce0e88e13a81028579598f6172ea9500348",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\protocolo_pre_teste.md",
+    "sha256": "8229220d62ac55386ac7cb790e43b7776609a5457f6fe53f1dc158abdca6b539",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\qualificacao_habilidades.csv",
+    "sha256": "ab63971bb8bcb6a4cada3271e2092711dafff444644975e6302e12affa383de2",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\relatorio_cientifico.md",
+    "sha256": "86b01a69bcc510cac8cc777e214669c1452fa2c11947c5e0b0433f8a57ca08dc",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\reproducao_treinamento.csv",
+    "sha256": "c6a6ac7b17cb91604f58b6d99dcc473a115bce4044d0e3222d5f8d923847b6aa",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\reproducao_treinamento.md",
+    "sha256": "99458fd74ef87ee7cf00da7024ca2fc1e262c7bcf4dac8b194748a5b47e74333",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\reproducibilidade.json",
+    "sha256": "5b2f99c6deb10372a55abd4817ac0e3978d39cd72deaddad0ff11fc5b922ef41",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\resultados_por_habilidade.csv",
+    "sha256": "8d6cc003d5cd75d1e9f4db3d591180f2525ed33b322465639ce2928726243c00",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\validacao_reproduzida.json",
+    "sha256": "52ceb65a04703c61c9b6fa7eaf473814dce449b20ab8045eacffae4b95e2123c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reports\\validacao_reproduzida.md",
+    "sha256": "28b51334b232129c793ec8099fbe312d385621cdc3bafa0f91a2295093d7995b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\avaliacao.py",
+    "sha256": "c33cb69f85565dc9051e2ae2a8b5654955fa8ece3c9c8051bdcea614b583380c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\calibracao.py",
+    "sha256": "cd742df0b9944cbf7883c36baf0c0ba7cdf79d64c1205b8b14dbcda9fe7a042b",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\common.py",
+    "sha256": "00a79ec414c69a34b6b30974fa1f04cb124311ee1129f4194f9464dd227229f7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\matematica.py",
+    "sha256": "b6401ac569b73e1c1f7be89336266a2ee0879fd8548b74ce36a911fd431bdc4e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\metricas.py",
+    "sha256": "684c7577ffcdb01d412f9edc07c224adc2f9669985380e426cc3d919cde824bb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\predicoes.py",
+    "sha256": "13fefd59166872e3e4d45801be87b8a83772b66283220130618b19fc734bbe34",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\protocolo.py",
+    "sha256": "b832f99992a595b888530748818145b0eef4c055f228356273a18d87d4095951",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\reproducao.py",
+    "sha256": "0af0fec7365719e3d6a9b008ead82bef01e6d035da5113c85cbaceed8c9d2e0d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\src\\__init__.py",
+    "sha256": "8ae400c19aa34f8627931103cbadcdeb2bf12393674d385e8633483501b0c11f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\tests\\test_final.py",
+    "sha256": "dfca29224f855579b31f3c9c2bd8ddaad3e5ba627032b4aa71205c347fa71efe",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\tests\\test_pre_teste.py",
+    "sha256": "2bbb340f3e3031de37d895d6e5d5a940288d14b3dc2da30894fd26af80953bdb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\rodada.py",
+    "sha256": "4bf19db57643a78afee037f2e43ac683bb3b4a28ca85ef49925f0baa8a14e31c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\protocolo.json",
+    "sha256": "f585304fc74bde87d0d0f944464aac962e079ea809287a88b3c95f09ec0b81ee",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\busca_margem.json",
+    "sha256": "6eda0e4bd95341ef55fa14bd0c566725f956cfc7cbcf8e0b84cbcbe04ee4f3f7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\relatorio_margem.md",
+    "sha256": "680d0ac5aaedcd1372103bf5836ea4505a420246953a06bf33ec320d772de257",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\validacao_adaptativa\\avaliar.py",
+    "sha256": "ada761328f34e94fa10208e6bf49df2eb5a48d6a6681c01f84d7ebc6750f57a8",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\validacao_adaptativa\\protocolo.json",
+    "sha256": "610271afeba31eb7fb33cce2998e17e52209ed861c5c9a352ffcbcbbb22cb6b5",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\viabilidade\\fechamento.json",
+    "sha256": "634f10645ade7e7a32284a0a57d62c113d0f65d803d5a5dde76216aedee1be56",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\catalogo_adaptativo_operacional\\catalogo_adaptativo_pronto.jsonl",
+    "sha256": "467a4049a1ddfe080e0e8538e3104383f2554797557c78b4a8952b7f2c6b7276",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\revisao_operacional_bkt\\fixtures.json",
+    "sha256": "9d05e1e525e970271a7f6f4a3cdef8bb8d5fa1846e1be5f0ccd92620bfface93",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\revisao_operacional_bkt\\cobertura.json",
+    "sha256": "08144461330a8f2d7bd9baac8be414e31ec8949ddaa51d7296262202a757dec7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\revisao_operacional_bkt\\itens_por_categoria.csv",
+    "sha256": "295a04f0a890cfda479ce6e0e3c52eafc3851b06732fa3cd9fa81924d631690a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\adaptador.py",
+    "sha256": "d3aa502a6e44c695c47e7643683829c1428ec1a69e7fbadc8f8b0edc60d0fe9a",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\funcionais.json",
+    "sha256": "3241159bafba6b73850e4a848a0e348ea2bbe3c8a1105321811181642f9330c9",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\protocolo.json",
+    "sha256": "c939754dc49577a630b35a8147f20cc7a73cd80a57afd47801219a050eb5f584",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\protocolo_congelado.log",
+    "sha256": "d8bf58fb8e4932ea18cb520959865379f700c7dbff2f15c38f7b0d89ee2b31ed",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\RELATORIO.md",
+    "sha256": "ef7f624e4d2e2a691e9a280a62355edc0b9b44c242342bff3d20490f360a5e77",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\simulacao.json",
+    "sha256": "43b1aea0d49c45db0f5a50ad78757bc04356122ac513ef1206d52a906269d644",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\simulacao.log",
+    "sha256": "364d1c28cf7c032f1df3e6707a5f8e40d6f613b37abfd19b3ee855239c22d57f",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\simular.py",
+    "sha256": "6278f59f9585906b52d494914f924eb5c7d983731786ca7af364edb101280eb0",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\testes.log",
+    "sha256": "3c6cdb4659f5bf2e1113ff83e02fa64577e1fcac86b38958cc8b91e862f51f81",
+    "unchanged": true
+  },
+  {
+    "source_mission": "candidata_item_margem_pre_BKT01",
+    "original_path": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\dificuldade-adaptativa\\correcao_adaptativa\\teste_offline_bkt_margem\\test_catalogo_bkt.py",
+    "sha256": "a5dfd2b77f0c593ef43ae264bf08e5c0e279fca65aa9505406fcfff27924dbfa",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\auditar.py",
+    "sha256": "3622965919e051e35dcc3013e73aa646cf960caad5b0ca214e90a5a8cbb3e67d",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\bootstrap.py",
+    "sha256": "ab7172718c890f32dc3f78651496a7c08bce1df5ccb800db3b5bc35722fd393e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\executar.py",
+    "sha256": "b91818cfc4db9859eb6549f1a36df3d0b6c20c182a1299f277ff037e900a3b9c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\gate.py",
+    "sha256": "f2dfe6695bca5b7a0526007d2eff5468ef906885fd3abf8d3ff0a12d373cd2e4",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\graficos.py",
+    "sha256": "69982b0f21b391e133ff32f1e0e9567569e0c8be1d81fb6ae7925051d0de361e",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\relatorios.py",
+    "sha256": "93dea1fcd3e0ea95b17e3b5977a2c2c9aaa6b0cc01f8554c3f6a82d54e2a02ad",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\reproduzir.py",
+    "sha256": "e7deef5a321c4dff79f3a4e170bf5296270aaad867c4affacb39472a32d80485",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\testar.py",
+    "sha256": "29eea13a63df3ee19ccb2ee4bf1d89ff6e555646e91cd481f5022c2a4d1f5572",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\treinar.py",
+    "sha256": "1eb87a6588b58022b8263bd3d5fd4ca0c7d1dd7374639f1fce7493e8dd204415",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase02",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase02\\validar.py",
+    "sha256": "0f11d55cde66d75b8e6930ecd6eb76c11243718cb4c3cb1db283c1a08b98b96c",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\auditar_matematica.py",
+    "sha256": "f0c9e6e6598506001e7969985df0469b02b3ab0aa5943c51519b3ff0463ee0fd",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\auditar_resultados.py",
+    "sha256": "92e74dbd6315f609f4a4bc2ea6517a9020e063732418bd573ff3215c5f918078",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\avaliar_teste.py",
+    "sha256": "77943eee64e694b9fc50fe1944eeb6b6bfe3c713be939d16cf12c8b4d401e909",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\congelar.py",
+    "sha256": "25438a37d750b5a817442557f13f56279344eebb0d41e89d10d4d25ba3e7e016",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\gate.py",
+    "sha256": "ed2740a448b0790fbda9fe7a11dfa69dc928de36716689458d15731342c51ccb",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\graficos.py",
+    "sha256": "1a20c9503c47260455112d31fb775e274b38c650b09c24ee0ee189f72a3a6380",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\investigar.py",
+    "sha256": "5cce84276b8363a5589fd0364607227ccde6f89152a6bddd2905a5fa8d233dc7",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\relatorios.py",
+    "sha256": "25a22d0bb07e2c885a127228b67853bb3a4abee0abd906803fb945b9e93811c0",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\reproduzir.py",
+    "sha256": "1a7b6507c1f6a68a833b4902779407eb9550aad7f4ce5fd8ccd532d1c317ca85",
+    "unchanged": true
+  },
+  {
+    "source_mission": "fase03",
+    "original_path": "C:\\Users\\Darkz\\Downloads\\Gabaritei_BKT_Fase03_Avaliacao_Auditada\\validar.py",
+    "sha256": "e6927d9ed4afd380814885f0bac68019a528d4a1ca08bdf08935edbcec6300a8",
+    "unchanged": true
+  }
+]

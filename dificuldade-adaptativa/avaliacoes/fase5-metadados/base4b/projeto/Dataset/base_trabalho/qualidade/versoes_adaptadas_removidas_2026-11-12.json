@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gq_43af5e0298b07a51facf3218",
+    "year": 2022,
+    "area": "MT",
+    "position": 154,
+    "co_prova": "1082",
+    "co_item": "10992",
+    "split_anterior": "train",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_5ee286b3a6bb12356cd757c3",
+    "year": 2022,
+    "area": "MT",
+    "position": 173,
+    "co_prova": "1082",
+    "co_item": "68538",
+    "split_anterior": "train",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_f8f72f54cff2ecccfac8b197",
+    "year": 2022,
+    "area": "MT",
+    "position": 152,
+    "co_prova": "1082",
+    "co_item": "86438",
+    "split_anterior": "train",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_98b71afcfadc707111984efc",
+    "year": 2023,
+    "area": "MT",
+    "position": 146,
+    "co_prova": "1218",
+    "co_item": "14435",
+    "split_anterior": "validation",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_52354dffa0cf4a5a24a74a46",
+    "year": 2023,
+    "area": "MT",
+    "position": 163,
+    "co_prova": "1218",
+    "co_item": "141552",
+    "split_anterior": "validation",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_053cef1eadda732d756e224f",
+    "year": 2024,
+    "area": "CN",
+    "position": 115,
+    "co_prova": "1426",
+    "co_item": "96042",
+    "split_anterior": "test",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_a691bb3047c6a701effb18bd",
+    "year": 2024,
+    "area": "MT",
+    "position": 168,
+    "co_prova": "1414",
+    "co_item": "43095",
+    "split_anterior": "test",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_0ca35992cee4d0404c69cc2c",
+    "year": 2024,
+    "area": "MT",
+    "position": 173,
+    "co_prova": "1414",
+    "co_item": "95755",
+    "split_anterior": "test",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  },
+  {
+    "id": "gq_837a844ed0ca7c39ff0303e9",
+    "year": 2024,
+    "area": "MT",
+    "position": 178,
+    "co_prova": "1414",
+    "co_item": "125978",
+    "split_anterior": "test",
+    "motivo": "versão adaptada duplicada de questão já presente na versão padrão"
+  }
+]

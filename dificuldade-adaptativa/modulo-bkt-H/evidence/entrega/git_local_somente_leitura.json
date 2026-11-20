@@ -1,0 +1,20 @@
+[
+  {
+    "checkout": "C:\\Users\\Darkz\\Gabaritei---PI-VI",
+    "branch": "main",
+    "head": "90d54984c21982c89e0d645ecfa78b1442b813b9",
+    "status": "?? AGENTS.md\n?? CONTEXTO_COMPLETO_GABARITEI.md\n?? Gabaritei_Historico_Completo.md\n?? PROMPT_AVALIACAO_0_1_2.md"
+  },
+  {
+    "checkout": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\publicacao-modulo",
+    "branch": "dificuldade-adaptativa",
+    "head": "91365ad409efbbd07960089d460d5b0054d16ae1",
+    "status": ""
+  },
+  {
+    "checkout": "C:\\Users\\Darkz\\Documents\\ChatGPT\\pi6\\publicacao-fase01-final",
+    "branch": "dificuldade-adaptativa",
+    "head": "b72440ca4656b058af0b2364be8fb195b3ab9b6e",
+    "status": ""
+  }
+]

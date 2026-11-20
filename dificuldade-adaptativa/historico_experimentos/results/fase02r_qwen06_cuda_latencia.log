@@ -1,0 +1,5 @@
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<00:34,  8.93it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1614.34it/s]
+{"encoder": "qwen06", "text": "Uma caixa contém 24 lápis. Quantos lápis representam um quarto do total?", "seconds": [0.051301499999681255, 0.059341300002415664, 0.06669099999999162, 0.06302879999930155, 0.05129990000204998], "device": "cuda", "median_seconds": 0.059341300002415664}

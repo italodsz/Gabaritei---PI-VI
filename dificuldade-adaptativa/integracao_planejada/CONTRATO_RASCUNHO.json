@@ -1,0 +1,108 @@
+{
+  "status": "RASCUNHO_NAO_IMPLEMENTADO",
+  "scope": "Integração futura, sem implementação/treinamento/publicação nesta análise",
+  "dataset_proposed_sha256": "fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b",
+  "existing_semantic_catalog_sha256": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760",
+  "existing_semantic_catalog_allowed_now": false,
+  "area_mapping": {
+    "MT": "matematica",
+    "LC": "linguagens",
+    "CH": "humanas",
+    "CN": "natureza"
+  },
+  "language_mapping": {
+    "en": "ingles",
+    "es": "espanhol",
+    "pt": null
+  },
+  "public_question": {
+    "required": [
+      "question_id",
+      "dataset_sha256",
+      "content_family_id",
+      "area",
+      "language",
+      "year",
+      "exam",
+      "position",
+      "text",
+      "alternatives",
+      "tri_scale_id",
+      "difficulty_scheme_version",
+      "level"
+    ],
+    "forbidden_before_correction": [
+      "answer_key",
+      "correct_alternative"
+    ],
+    "nullable_when_unknown": [
+      "subject",
+      "topic",
+      "subtopic",
+      "skill",
+      "explanation"
+    ]
+  },
+  "corrected_attempt": {
+    "server_authoritative": [
+      "student_id",
+      "attempt_id",
+      "correct",
+      "event_order",
+      "recorded_at"
+    ],
+    "client_input": [
+      "question_id",
+      "selected_letter",
+      "session_id",
+      "idempotency_key"
+    ],
+    "context": [
+      "dataset_sha256",
+      "question_version",
+      "tri_scale_id",
+      "served_level",
+      "chosen_level",
+      "semantic_version",
+      "model_version",
+      "offer_id"
+    ]
+  },
+  "semantic_candidates": {
+    "required": [
+      "reference_question_id",
+      "dataset_sha256",
+      "catalog_version",
+      "method",
+      "ordered_question_ids"
+    ],
+    "preserve_order_after_filter": true,
+    "current_method": "titulo_area"
+  },
+  "difficulty_offer": {
+    "required": [
+      "model_version",
+      "scope",
+      "chosen_level",
+      "suggested_level",
+      "reason",
+      "evidence_count",
+      "offer_id",
+      "revision"
+    ],
+    "suggested_level_nullable": true,
+    "requires_explicit_consent": true,
+    "ENEM_calibration_validated": false
+  },
+  "empty_stock": {
+    "state": "sem_candidatos_no_nivel_escolhido",
+    "automatic_choice_change_allowed": false,
+    "automatic_scope_or_topic_expansion_allowed": false,
+    "show_explicit_options": true
+  },
+  "version_guard": {
+    "rule": "semantic_candidates.dataset_sha256 == question_catalog.dataset_sha256 == difficulty_context.dataset_sha256",
+    "on_failure": "reject_selection_and_report_version_mismatch"
+  },
+  "excluded_branch_content_read": false
+}

@@ -1,0 +1,36 @@
+{
+  "estado": "preparado, nao executado",
+  "origem_respostas_futuras": "simulacao",
+  "revisao": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "escala_principal": "2018/451/CH",
+  "A": {
+    "bloqueada": "gq_b4c92a2d71ec0a4978435baa",
+    "so_exibicao": "gq_23f08c13463322047535c93a",
+    "faixa_sem_rotulo_confirmado": "gq_058f81f7ff570a5b38d9df74",
+    "outra_escala_mesma_area": "gq_d6ad4166499f155e8689d461",
+    "conflito_pedagogico": "gq_e898766ae6adc513f38c0641"
+  },
+  "B": {
+    "diagnostico_misto_CH": [
+      "gq_058f81f7ff570a5b38d9df74", "gq_1100ada241f62157d3e81fc6", "gq_1b3f424e3ce202691f81fc6d",
+      "gq_38eec9d5fe2b532d9d41b84e", "gq_271e5bd89008dd80b4268b3d", "gq_7bf8498d5abf84381d3889a5",
+      "gq_9ac48bb522c1cbb226dac8f9", "gq_61ea7f1972f055ee85c9e262", "gq_81b8f40361ec3b511a0e5859",
+      "gq_8e6e20d51e357741f99d7b3b"
+    ],
+    "respostas_sinteticas": [1, 1, 0, 1, 0, 0, 1, 1, 0, 0],
+    "escala_CN_insuficiente": "2020/597/CN",
+    "reservas_por_faixa": ["gq_be609f7feaac078267ef2d54", "gq_c49c8bc2cde16869b3fc651d", "gq_95b079a54fa85757882f8f7f"]
+  },
+  "C": {
+    "geometria": ["gq_ce3c79382005b3009d018ca2", "gq_087542e7f5c9edb569864da4"],
+    "numeros_aritmetica": ["gq_ff45cc53c65a22fb9fb6c2b5"],
+    "status": "sem faixa adaptativa MT e sem grupo de porcentagem confirmado para este caso"
+  },
+  "D": {"baixo": "gq_058f81f7ff570a5b38d9df74", "alto": "gq_1b3f424e3ce202691f81fc6d"},
+  "E": {"sem_assunto": "gq_1100ada241f62157d3e81fc6", "sem_habilidade_e_faixa": "gq_23f08c13463322047535c93a"},
+  "F": {
+    "repetir_adaptativo": "gq_058f81f7ff570a5b38d9df74",
+    "familia_canonico_apenas_exibicao": "gq_791c9febff7c0040732f2775",
+    "familia_variante_bloqueada": "gq_acf5d212cc9ae8ac21b8be08"
+  }
+}

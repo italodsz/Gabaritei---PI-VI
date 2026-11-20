@@ -1,0 +1,17 @@
+test_closed_loop_needs_consent (test_busca_autonoma.SearchTests.test_closed_loop_needs_consent) ... ok
+test_difficulty_changes_posterior (test_busca_autonoma.SearchTests.test_difficulty_changes_posterior) ... ok
+test_distinct_seeds (test_busca_autonoma.SearchTests.test_distinct_seeds) ... ok
+test_oracle_ceiling_respects_policy_limits (test_busca_autonoma.SearchTests.test_oracle_ceiling_respects_policy_limits) ... ok
+test_recent_evidence_and_abstention (test_busca_autonoma.SearchTests.test_recent_evidence_and_abstention) ... ok
+test_history_and_archives (test_refinar.RefinementTests.test_history_and_archives) ... ok
+test_metrics_denominators (test_refinar.RefinementTests.test_metrics_denominators) ... ok
+test_reproducibility_and_consent (test_refinar.RefinementTests.test_reproducibility_and_consent) ... ok
+test_abstention_and_autonomy (test_rodada.Tests.test_abstention_and_autonomy) ... ok
+test_family_repetition_and_same_answer_different_item (test_rodada.Tests.test_family_repetition_and_same_answer_different_item) ... ok
+test_hard_error_is_weaker_evidence (test_rodada.Tests.test_hard_error_is_weaker_evidence) ... ok
+test_pre_answer_predictions_and_sequence (test_rodada.Tests.test_pre_answer_predictions_and_sequence) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.170s
+
+OK

@@ -1,0 +1,147 @@
+[
+  {
+    "requisito": "Sem LLM no módulo",
+    "estado": "Implementado e verificado",
+    "evidencia": "bkt04 e exemplos; biblioteca padrão"
+  },
+  {
+    "requisito": "Modelo realmente treinado",
+    "estado": "Implementado e verificado",
+    "evidencia": "56 modelos externos; tests C com fit histórico"
+  },
+  {
+    "requisito": "BKT validado no ENEM",
+    "estado": "Não implementado",
+    "evidencia": "namespace ENEM força fallback; nenhum mapeamento aprovado"
+  },
+  {
+    "requisito": "Atualização de domínio individual",
+    "estado": "Implementado e verificado",
+    "evidencia": "BKT externo; testes A/D"
+  },
+  {
+    "requisito": "Dificuldade do item separada do aluno",
+    "estado": "Parcialmente implementado",
+    "evidencia": "item_level separado; núcleo clássico ainda sem b"
+  },
+  {
+    "requisito": "BKT sensível à dificuldade",
+    "estado": "Parcialmente implementado",
+    "evidencia": "bancada histórica com âncoras; sem calibração real ENEM"
+  },
+  {
+    "requisito": "Área MT/LC/CH/CN",
+    "estado": "Implementado e verificado",
+    "evidencia": "fachada por área/fallback; testes F"
+  },
+  {
+    "requisito": "Domínio de cada assunto por área agregada",
+    "estado": "Não implementado",
+    "evidencia": "agregação não equivale a domínio de subassuntos"
+  },
+  {
+    "requisito": "Classificação TRI b",
+    "estado": "Implementado e verificado",
+    "evidencia": "item_level, cortes/versão/escala explícitos, testes F"
+  },
+  {
+    "requisito": "Cortes finais únicos no produto",
+    "estado": "Sem evidência suficiente",
+    "evidencia": "global histórico x arredondado x catálogo por área"
+  },
+  {
+    "requisito": "Diagnóstico10questões",
+    "estado": "Parcialmente implementado",
+    "evidencia": "bancada antiga; motor persistente não orquestra diagnóstico"
+  },
+  {
+    "requisito": "Mínimo5/margem.05/cooldown5",
+    "estado": "Implementado e verificado",
+    "evidencia": "models/politica_selecionada.json; testes A/D"
+  },
+  {
+    "requisito": "Aceite e recusa",
+    "estado": "Implementado e verificado",
+    "evidencia": "resolve_offer, owner/revisão/versão e idempotência"
+  },
+  {
+    "requisito": "Escolha manual preserva histórico",
+    "estado": "Implementado e verificado",
+    "evidencia": "choose_level e testes D"
+  },
+  {
+    "requisito": "Persistência entre sessões",
+    "estado": "Implementado e verificado",
+    "evidencia": "SQLite local; não backend implantado"
+  },
+  {
+    "requisito": "Log completo questão/TRI/sessão",
+    "estado": "Parcialmente implementado",
+    "evidencia": "recibos operacionais não guardam contexto completo"
+  },
+  {
+    "requisito": "Repetição versus aprendizagem",
+    "estado": "Parcialmente implementado",
+    "evidencia": "IDs/famílias na bancada; runtime só idempotência de tentativa"
+  },
+  {
+    "requisito": "Estoque antes de oferta",
+    "estado": "Implementado e verificado",
+    "evidencia": "inventário fornecido pelo chamador; tests A/D"
+  },
+  {
+    "requisito": "Resolver esgotamento sem violar escolha",
+    "estado": "Parcialmente implementado",
+    "evidencia": "abstém; fluxo de produto pendente"
+  },
+  {
+    "requisito": "Integração com Ítalo",
+    "estado": "Parcialmente implementado",
+    "evidencia": "contrato e responsabilidades; sem conexão real"
+  },
+  {
+    "requisito": "Backend/autenticação/RLS",
+    "estado": "Não implementado",
+    "evidencia": "árvores inspecionadas; motor local não servidor"
+  },
+  {
+    "requisito": "Frontend atual ligado ao módulo",
+    "estado": "Não implementado",
+    "evidencia": "contratos divergentes, sem requisições reais ao BKT"
+  },
+  {
+    "requisito": "Retreino periódico produtivo",
+    "estado": "Não implementado",
+    "evidencia": "ajustes offline existentes não são ciclo global"
+  },
+  {
+    "requisito": "Ganho estatístico sobre histórico",
+    "estado": "Implementado e verificado",
+    "evidencia": "posthoc externo global; extremos desfavoráveis"
+  },
+  {
+    "requisito": "Qualidade pedagógica da política",
+    "estado": "Sem evidência suficiente",
+    "evidencia": "replay não mede respostas às faixas recomendadas"
+  },
+  {
+    "requisito": "Revisão pedagógica humana qualificada",
+    "estado": "Sem evidência suficiente",
+    "evidencia": "auditoria automatizada não certifica pedagogia"
+  },
+  {
+    "requisito": "Prova externa do protocolo histórico",
+    "estado": "Sem evidência suficiente",
+    "evidencia": "carimbo externo não recuperado"
+  },
+  {
+    "requisito": "Não publicar/não avançar",
+    "estado": "Implementado e verificado",
+    "evidencia": "apenas pasta de entrega; consulta remota GET"
+  },
+  {
+    "requisito": "Missão05homologada",
+    "estado": "Sem evidência suficiente",
+    "evidencia": "não executada nesta entrega"
+  }
+]

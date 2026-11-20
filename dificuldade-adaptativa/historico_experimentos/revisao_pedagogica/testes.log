@@ -1,0 +1,9 @@
+test_lexical_signal_requires_area_and_preserves_scope (test_revisar.ReviewTests.test_lexical_signal_requires_area_and_preserves_scope) ... ok
+test_provisional_subset_is_not_certified (test_revisar.ReviewTests.test_provisional_subset_is_not_certified) ... ok
+test_sample_blind_and_priorities (test_revisar.ReviewTests.test_sample_blind_and_priorities) ... ok
+test_unique_ids_and_preserved_labels (test_revisar.ReviewTests.test_unique_ids_and_preserved_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.153s
+
+OK

@@ -1,0 +1,24 @@
+{
+  "versao": "unificado-4b-v1",
+  "pesos": {
+    "semantica": 0.4,
+    "tri": 0.6
+  },
+  "relevancia": {
+    "inicial": 0.65,
+    "piso": 0.4,
+    "pesoEscore": 0.7
+  },
+  "tri": {
+    "centroRelativoB": -0.25,
+    "largura": 1.0,
+    "margens": [
+      1.25,
+      2.5
+    ],
+    "minEvidencias": 15,
+    "dpReferencia": 0.6
+  },
+  "limite": 5,
+  "politica": "heuristica de engenharia, não otimizada cientificamente"
+}

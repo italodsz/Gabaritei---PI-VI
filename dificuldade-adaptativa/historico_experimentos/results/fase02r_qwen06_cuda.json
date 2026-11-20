@@ -1,0 +1,29 @@
+{
+  "train": {
+    "seconds": 41.02511459999732,
+    "truncated": 553,
+    "n": 1801,
+    "dimension": 1024
+  },
+  "validation": {
+    "seconds": 3.0922312999973656,
+    "truncated": 43,
+    "n": 136,
+    "dimension": 1024
+  },
+  "checkpoint": "Qwen/Qwen3-Embedding-0.6B",
+  "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "input_limit": 256,
+  "native_context": 32768,
+  "pooling": "last",
+  "peak_sampled_rss_bytes": 2826682368,
+  "total_seconds": 46.83978959999877,
+  "embedding_sha256": "c191c5860ecae1d7e218df93323b023e5862e34d52057a82890367211e5484c3",
+  "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "gpu_peak_allocated_bytes": 1615785472,
+  "python": "3.14.0",
+  "torch": "2.11.0+cu128"
+}

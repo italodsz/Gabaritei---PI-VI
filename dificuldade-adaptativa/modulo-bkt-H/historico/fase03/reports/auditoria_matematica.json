@@ -1,0 +1,456 @@
+{
+  "authorship": "mesmo agente, código matemático separado; revisão humana externa pendente",
+  "exact_sequences": 126,
+  "skills": [
+    {
+      "independent_nll": 0.633685929284415,
+      "nll_error": 2.220446049250313e-16,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6336859292844153,
+      "skill_id": "101",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.5553392757124465,
+      "nll_error": 2.6645352591003757e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.5553392757124438,
+      "skill_id": "11",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6443974648013379,
+      "nll_error": 1.1102230246251565e-16,
+      "prediction_error": 5.551115123125783e-17,
+      "primary_nll": 0.6443974648013377,
+      "skill_id": "13",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.470162852140796,
+      "nll_error": 5.162537064506978e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.47016285214080117,
+      "skill_id": "16",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6329924696929964,
+      "nll_error": 3.4416913763379853e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6329924696929998,
+      "skill_id": "17",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.5081488010791544,
+      "nll_error": 4.440892098500626e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.50814880107915,
+      "skill_id": "18",
+      "state_error": 5.551115123125783e-17
+    },
+    {
+      "independent_nll": 0.5801110752212933,
+      "nll_error": 3.552713678800501e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.5801110752212969,
+      "skill_id": "25",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.648889471078997,
+      "nll_error": 1.3322676295501878e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6488894710789956,
+      "skill_id": "27",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.4695797989883487,
+      "nll_error": 2.220446049250313e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.46957979898834845,
+      "skill_id": "276",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6127388150776074,
+      "nll_error": 6.661338147750939e-16,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6127388150776081,
+      "skill_id": "277",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.5480034659577296,
+      "nll_error": 4.6629367034256575e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.5480034659577343,
+      "skill_id": "278",
+      "state_error": 5.551115123125783e-17
+    },
+    {
+      "independent_nll": 0.46139015681132484,
+      "nll_error": 9.2148511043888e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.46139015681133405,
+      "skill_id": "279",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.5362932562676274,
+      "nll_error": 2.5202062658991053e-14,
+      "prediction_error": 0.0,
+      "primary_nll": 0.5362932562676022,
+      "skill_id": "280",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.6293893130434736,
+      "nll_error": 7.771561172376096e-16,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6293893130434728,
+      "skill_id": "294",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6571798695528217,
+      "nll_error": 1.4432899320127035e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6571798695528231,
+      "skill_id": "297",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6347194065598138,
+      "nll_error": 5.773159728050814e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6347194065598081,
+      "skill_id": "301",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.667415306857379,
+      "nll_error": 1.3322676295501878e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6674153068573804,
+      "skill_id": "303",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.4052140675245403,
+      "nll_error": 1.1102230246251565e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.4052140675245402,
+      "skill_id": "307",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6674420900298472,
+      "nll_error": 2.220446049250313e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.667442090029847,
+      "skill_id": "308",
+      "state_error": 5.551115123125783e-17
+    },
+    {
+      "independent_nll": 0.5854128845546946,
+      "nll_error": 8.104628079763643e-15,
+      "prediction_error": 1.1102230246251565e-15,
+      "primary_nll": 0.5854128845546865,
+      "skill_id": "309",
+      "state_error": 1.5543122344752192e-15
+    },
+    {
+      "independent_nll": 0.6313365949376337,
+      "nll_error": 1.2212453270876722e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6313365949376349,
+      "skill_id": "310",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6073596009067573,
+      "nll_error": 1.4210854715202004e-14,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6073596009067431,
+      "skill_id": "311",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6127117723085125,
+      "nll_error": 0.0,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6127117723085125,
+      "skill_id": "312",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6478205410118841,
+      "nll_error": 4.440892098500626e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6478205410118797,
+      "skill_id": "322",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.32660593539313687,
+      "nll_error": 8.326672684688674e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.3266059353931377,
+      "skill_id": "323",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6350614266227942,
+      "nll_error": 2.1094237467877974e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6350614266227963,
+      "skill_id": "325",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6229565624131442,
+      "nll_error": 2.220446049250313e-16,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6229565624131445,
+      "skill_id": "368",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.6059221362531738,
+      "nll_error": 5.551115123125783e-16,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.6059221362531744,
+      "skill_id": "39",
+      "state_error": 4.440892098500626e-16
+    },
+    {
+      "independent_nll": 0.5846291779067049,
+      "nll_error": 1.1102230246251565e-15,
+      "prediction_error": 5.551115123125783e-17,
+      "primary_nll": 0.584629177906706,
+      "skill_id": "4",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6115530067722568,
+      "nll_error": 4.440892098500626e-16,
+      "prediction_error": 3.3306690738754696e-16,
+      "primary_nll": 0.6115530067722563,
+      "skill_id": "40",
+      "state_error": 6.661338147750939e-16
+    },
+    {
+      "independent_nll": 0.5697693109008694,
+      "nll_error": 4.440892098500626e-16,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.5697693109008698,
+      "skill_id": "46",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.611585640160323,
+      "nll_error": 5.551115123125783e-16,
+      "prediction_error": 4.440892098500626e-16,
+      "primary_nll": 0.6115856401603236,
+      "skill_id": "47",
+      "state_error": 1.2212453270876722e-15
+    },
+    {
+      "independent_nll": 0.5167456724251751,
+      "nll_error": 3.1086244689504383e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.5167456724251782,
+      "skill_id": "49",
+      "state_error": 5.551115123125783e-16
+    },
+    {
+      "independent_nll": 0.4271153821417868,
+      "nll_error": 4.440892098500626e-16,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.42711538214178635,
+      "skill_id": "50",
+      "state_error": 5.551115123125783e-16
+    },
+    {
+      "independent_nll": 0.3667397798429666,
+      "nll_error": 5.551115123125783e-17,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.3667397798429665,
+      "skill_id": "51",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.5536834330196434,
+      "nll_error": 7.771561172376096e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.5536834330196442,
+      "skill_id": "54",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.422651409303428,
+      "nll_error": 5.551115123125783e-16,
+      "prediction_error": 0.0,
+      "primary_nll": 0.4226514093034274,
+      "skill_id": "58",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.5560953865276015,
+      "nll_error": 4.3298697960381105e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.5560953865275972,
+      "skill_id": "61",
+      "state_error": 3.3306690738754696e-16
+    },
+    {
+      "independent_nll": 0.603995009716668,
+      "nll_error": 3.1086244689504383e-15,
+      "prediction_error": 4.440892098500626e-16,
+      "primary_nll": 0.6039950097166649,
+      "skill_id": "65",
+      "state_error": 5.551115123125783e-16
+    },
+    {
+      "independent_nll": 0.6065000679208927,
+      "nll_error": 6.106226635438361e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6065000679208988,
+      "skill_id": "67",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.605818475639145,
+      "nll_error": 1.554312234475219e-14,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6058184756391295,
+      "skill_id": "70",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.4292380582037187,
+      "nll_error": 5.551115123125783e-17,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.42923805820371863,
+      "skill_id": "75",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.5816917319322771,
+      "nll_error": 9.880984919163893e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.581691731932287,
+      "skill_id": "76",
+      "state_error": 4.440892098500626e-16
+    },
+    {
+      "independent_nll": 0.5303337096673035,
+      "nll_error": 3.219646771412954e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.5303337096673068,
+      "skill_id": "77",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.5971001193580513,
+      "nll_error": 2.1094237467877974e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.5971001193580534,
+      "skill_id": "79",
+      "state_error": 5.551115123125783e-17
+    },
+    {
+      "independent_nll": 0.35995210650362564,
+      "nll_error": 1.1102230246251565e-16,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.35995210650362575,
+      "skill_id": "8",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.6619083794897638,
+      "nll_error": 2.9976021664879227e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.6619083794897608,
+      "skill_id": "81",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.46973527329855114,
+      "nll_error": 1.5543122344752192e-15,
+      "prediction_error": 2.220446049250313e-16,
+      "primary_nll": 0.4697352732985527,
+      "skill_id": "82",
+      "state_error": 2.220446049250313e-16
+    },
+    {
+      "independent_nll": 0.5865663597769507,
+      "nll_error": 4.440892098500626e-16,
+      "prediction_error": 5.551115123125783e-17,
+      "primary_nll": 0.5865663597769512,
+      "skill_id": "83",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.45620261330398176,
+      "nll_error": 1.6653345369377348e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.4562026133039816,
+      "skill_id": "84",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.3871310689300709,
+      "nll_error": 3.4416913763379853e-15,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.3871310689300743,
+      "skill_id": "85",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.5128021081589061,
+      "nll_error": 7.771561172376096e-16,
+      "prediction_error": 1.1102230246251565e-16,
+      "primary_nll": 0.5128021081589054,
+      "skill_id": "86",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6250177254571128,
+      "nll_error": 2.4424906541753444e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6250177254571152,
+      "skill_id": "91",
+      "state_error": 0.0
+    },
+    {
+      "independent_nll": 0.6363371472485595,
+      "nll_error": 1.2212453270876722e-15,
+      "prediction_error": 5.551115123125783e-17,
+      "primary_nll": 0.6363371472485583,
+      "skill_id": "92",
+      "state_error": 1.1102230246251565e-16
+    },
+    {
+      "independent_nll": 0.6150604812939541,
+      "nll_error": 2.1094237467877974e-15,
+      "prediction_error": 4.440892098500626e-16,
+      "primary_nll": 0.615060481293952,
+      "skill_id": "94",
+      "state_error": 7.771561172376096e-16
+    },
+    {
+      "independent_nll": 0.6216062959234359,
+      "nll_error": 1.2212453270876722e-15,
+      "prediction_error": 0.0,
+      "primary_nll": 0.6216062959234371,
+      "skill_id": "96",
+      "state_error": 1.1102230246251565e-16
+    }
+  ],
+  "status": "aprovado",
+  "training_events": 143092
+}

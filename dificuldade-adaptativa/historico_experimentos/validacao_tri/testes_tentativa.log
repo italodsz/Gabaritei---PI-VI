@@ -1,0 +1,23 @@
+test_validacao (unittest.loader._FailedTest.test_validacao) ... ERROR
+
+======================================================================
+ERROR: test_validacao (unittest.loader._FailedTest.test_validacao)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_validacao
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Python314\Lib\unittest\loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\validacao_tri\test_validacao.py", line 5, in <module>
+    from auditar import compare
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\validacao_tri\auditar.py", line 14, in <module>
+    from auditar import signals
+ImportError: cannot import name 'signals' from partially initialized module 'auditar' (most likely due to a circular import) (C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\validacao_tri\auditar.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

@@ -1,0 +1,12 @@
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:  24%|██▎       | 73/310 [00:00<00:00, 729.86it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1660.53it/s]
+qwen06 train 8 / 1801
+qwen06 train 328 / 1801
+qwen06 train 648 / 1801
+qwen06 train 968 / 1801
+qwen06 train 1288 / 1801
+qwen06 train 1608 / 1801
+qwen06 validation 8 / 136
+exit=0

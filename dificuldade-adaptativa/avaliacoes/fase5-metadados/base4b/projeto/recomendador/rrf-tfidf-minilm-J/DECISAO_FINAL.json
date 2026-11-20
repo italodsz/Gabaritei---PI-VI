@@ -1,0 +1,13 @@
+{
+  "atualizado_em": "2026-11-13",
+  "oficial": "titulo_area",
+  "origem": "recomendador-base-final@d10f5a3",
+  "dataset": "dataset@e6712a8",
+  "base_sha256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "qwen_sha256": "10f44a7935e23b9922305cbe9ded397e74f10619adc90e0826858834e410d1c5",
+  "ordenacao": "busca_por_area_v1.json, sem alteração de pesos ou filtros",
+  "galeria_app": "2731 elegíveis; sugestões com defeito ou duplicata excluídas",
+  "validacao_desenvolvimento": "8/10, igual à reprodução da base anterior",
+  "pendencias": ["Conferência humana da amostra de 100", "Correção na origem dos 67 defeitos bloqueados"],
+  "runtime": "Catálogo pré-calculado servido pelo back-end Node, sem banco de dados"
+}

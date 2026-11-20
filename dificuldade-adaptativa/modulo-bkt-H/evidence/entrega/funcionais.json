@@ -1,0 +1,358 @@
+{
+  "counts": {
+    "aprovado": 38
+  },
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "groups": [
+    "A",
+    "D",
+    "F"
+  ],
+  "tests": [
+    {
+      "detail": null,
+      "seconds": 0.00035799999932351056,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_correct",
+      "utc": "2026-11-11T19:17:33.830673+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00018660000023373868,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_bayes_error",
+      "utc": "2026-11-11T19:17:33.831318+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012179999976069666,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_cooldown",
+      "utc": "2026-11-11T19:17:33.831640+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00017109999862441327,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_determinism_and_reset",
+      "utc": "2026-11-11T19:17:33.831866+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00018459999955666717,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_future_does_not_change_prediction",
+      "utc": "2026-11-11T19:17:33.832139+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00012090000018361025,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_insufficient_data_abstains",
+      "utc": "2026-11-11T19:17:33.832440+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0035205000003770692,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_limits_and_invalid",
+      "utc": "2026-11-11T19:17:33.832663+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00014199999895936344,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_prediction_before_response",
+      "utc": "2026-11-11T19:17:33.836335+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001266999988729367,
+      "source": "tests/A_matematica/test_math.py",
+      "source_sha256": "c2a9a1c8afdb2488c3f02cf24b85ed46ea7dc3b980d37419c7b2d3ac0f3dd543",
+      "status": "aprovado",
+      "test": "test_math.Math.test_stock_and_choice",
+      "utc": "2026-11-11T19:17:33.836586+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0566209999997227,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_blocked_skills_use_fallback",
+      "utc": "2026-11-11T19:17:33.836833+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.12657950000175333,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_concurrency_same_attempt",
+      "utc": "2026-11-11T19:17:33.893715+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.011003000001437613,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_confirmed_frontend_contract_adapter",
+      "utc": "2026-11-11T19:17:34.020570+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03698679999979504,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cooldown_counts_responses_not_order_id_distance",
+      "utc": "2026-11-11T19:17:34.031822+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.012131899999076268,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_student_collision_rejected",
+      "utc": "2026-11-11T19:17:34.069085+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.027367599999706727,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_cross_user_accept_rejected",
+      "utc": "2026-11-11T19:17:34.081463+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.030445899999904213,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_decline_preserves_choice",
+      "utc": "2026-11-11T19:17:34.109255+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.029561900000771857,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_explicit_acceptance_and_replay",
+      "utc": "2026-11-11T19:17:34.139969+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.012166000000433996,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency",
+      "utc": "2026-11-11T19:17:34.169775+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.012400799998431467,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_idempotency_conflict",
+      "utc": "2026-11-11T19:17:34.182383+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.008654900000692578,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_inputs_leave_no_state",
+      "utc": "2026-11-11T19:17:34.195068+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00911400000040885,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_invalid_model_rejected_before_state",
+      "utc": "2026-11-11T19:17:34.203983+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.019494699999995646,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_isolation_namespace",
+      "utc": "2026-11-11T19:17:34.213403+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03978389999974752,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_legacy_state_migration_retains_offer_count",
+      "utc": "2026-11-11T19:17:34.233163+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.055932600000232924,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_manual_choice_is_preserved",
+      "utc": "2026-11-11T19:17:34.273486+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.022916199999599485,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_model_version_isolates_state",
+      "utc": "2026-11-11T19:17:34.329786+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.016024700000343728,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_order_guard",
+      "utc": "2026-11-11T19:17:34.353104+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.013846900001226459,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_server_attempt_id_independent_from_client_key",
+      "utc": "2026-11-11T19:17:34.369703+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.03261190000011993,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_stale_offer_rejected",
+      "utc": "2026-11-11T19:17:34.384034+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.01975270000002638,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_state_persists_restart",
+      "utc": "2026-11-11T19:17:34.416895+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.013864299999113427,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_transaction_rolls_back",
+      "utc": "2026-11-11T19:17:34.436973+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.010810400000991649,
+      "source": "tests/D_integracao/test_engine.py",
+      "source_sha256": "a730b3f00d0ac97dbfc0dd83e4f48355a303ee8eca61c9a89d406da3878c0cca",
+      "status": "aprovado",
+      "test": "test_engine.Engine.test_unknown_skill_uses_fallback",
+      "utc": "2026-11-11T19:17:34.451303+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.02037709999967774,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_does_not_alias_external_skill",
+      "utc": "2026-11-11T19:17:34.462405+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0002376000011281576,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_invalid",
+      "utc": "2026-11-11T19:17:34.483051+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.014512899999317597,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_area_isolation_and_enem_fallback",
+      "utc": "2026-11-11T19:17:34.483507+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00024060000032477546,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_boundaries",
+      "utc": "2026-11-11T19:17:34.498208+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001990000000660075,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_invalid_config",
+      "utc": "2026-11-11T19:17:34.498572+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.00017039999875123613,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_missing_invalid",
+      "utc": "2026-11-11T19:17:34.498883+00:00"
+    },
+    {
+      "detail": null,
+      "seconds": 0.0001661000005697133,
+      "source": "tests/F_entrega/test_entrega.py",
+      "source_sha256": "8e9a812fe54af86c38cff509704d3fa2eac80aecefc5a1fd822343c141d230bd",
+      "status": "aprovado",
+      "test": "test_entrega.Delivery.test_tri_scale_conflict",
+      "utc": "2026-11-11T19:17:34.499151+00:00"
+    }
+  ],
+  "tests_collected": 38
+}

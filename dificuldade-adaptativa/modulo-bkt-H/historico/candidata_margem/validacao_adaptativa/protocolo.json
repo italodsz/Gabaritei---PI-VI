@@ -1,0 +1,12 @@
+{
+  "seeds": [17, 42, 91, 123],
+  "target_probability": 0.7,
+  "challenge_band": [0.55, 0.85],
+  "minimum_unique_items": 8,
+  "cooldown_unique_items": 4,
+  "minimum_gain_vs_best_simple": 0.03,
+  "decision_rule": "Zero autonomy, leakage and duplicate failures; hybrid must improve trajectory accuracy by at least 3 points versus the best simple rule with a positive paired 95% interval and avoid worsening inappropriate challenge. Sparse evidence must trigger abstention. Synthetic outcomes cannot establish educational validity.",
+  "educational_gate": "No claim about ENEM students without a real pilot.",
+  "latent_levels": [-1.2, 0, 1.2],
+  "synthetic_item_difficulties": [-1.6, -0.4, 0.8]
+}

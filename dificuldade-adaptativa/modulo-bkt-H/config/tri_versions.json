@@ -1,0 +1,25 @@
+{
+  "warning": "Nenhuma equivalência global entre escalas TRI foi demonstrada. Selecionar área, escala e versão explicitamente.",
+  "historical_global_terciles": {
+    "cutoffs": [
+      0.8005400000000001,
+      1.56301
+    ],
+    "intervals": "<=low; <=high; >high",
+    "source": "Fase 1, tercis globais do treino; não são cortes da política BKT"
+  },
+  "rounded_decision": {
+    "cutoffs": [
+      0.8,
+      1.5
+    ],
+    "status": "decisão simplificada recuperada; não adotada automaticamente como configuração final"
+  },
+  "italo_catalog": {
+    "source_commit": "bd74deaa2d5a1e87acded278df4e1a8d393e725b",
+    "field": "cortes_nivel_por_area_tri_b",
+    "intervals": "<low; <high; >=high",
+    "status": "tercis por área; integração exige preservar versão e operadores distintos"
+  },
+  "default_active_version": null
+}

@@ -1,0 +1,21 @@
+{'train': {'n': 1667, 'truncated': {128: 1570, 256: 717, 512: 58}, 'classes': {'facil': 556, 'media': 555, 'dificil': 556}, 'assets': 0, 'formula_or_table_proxy': 41, 'missing_text_or_options': 0}, 'validation': {'n': 134, 'truncated': {128: 127, 256: 57, 512: 1}, 'classes': {'facil': 40, 'media': 38, 'dificil': 56}, 'assets': 0, 'formula_or_table_proxy': 2, 'missing_text_or_options': 0}}
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 46989.05it/s]
+BertModel LOAD REPORT from: neuralmind/bert-base-portuguese-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+1 0.47073974243785566
+2 0.5133642186273765
+exit=0 seconds=43.9958191

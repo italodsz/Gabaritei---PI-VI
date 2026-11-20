@@ -1,0 +1,195 @@
+{
+  "artefatos": [
+    {
+      "artefato": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "origem": "Área de Trabalho, pesquisa anterior",
+      "versao": "2026-11-10",
+      "bytes": 40391,
+      "sha256": "be244c5cacf2faea8732b685b8fd13efcb753be39d88a0f5e9cdf06c9ed5630a",
+      "finalidade": "protocolo, perfis e comparadores",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "ASSISTments_e_Statics.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 12368,
+      "sha256": "478309366077c7f37312eaf76219b6b6ca43c79662b9193648e94649b5091969",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Brasil.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 10693,
+      "sha256": "be0cb0144c1e78d3558ff134adf349e7b66a656b0eb7d51f8aae8cd3ca32a3ce",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Evidencia_ASSISTments_PI6.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 3219,
+      "sha256": "852597f13f67b246e78a0155c406a017a85fe0cafc30ce1a6e793ca50971739a",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Evidencia_KDD.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 2458,
+      "sha256": "14841ee5ce08ff05846febb7ab294f9293ddde54995b3706e9ab780dfeca4c8b",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "inspecionar_assistments.py",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 3668,
+      "sha256": "60e916a46016bae994d309ccc46635925c164d244cea1ef4d2f8af74d826dd9a",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "inspecionar_kdd.py",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 3506,
+      "sha256": "9fa89ceea4c466214aa595b404f4006739f9844481deedf3881d47be2b2268dd",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Inventario_datasets.csv",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 18932,
+      "sha256": "da731faca9bc00d3ccdb3080585f12cebd55f601bf1841aaccd5023f7bd65a88",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Outros_benchmarks.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 12961,
+      "sha256": "9e6ffe3faf1470e7d6bd15aa4e74379eae46481ec8a4ee85146fa1229b7684de",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "perfil_assistments.json",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 1462,
+      "sha256": "5371fbba4fa6e043b0bede2de7b375286426b9fde7cd88c9a79429516f3482ef",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "perfil_kdd.json",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 650,
+      "sha256": "51cef3e4874ccfe752e5ee33df76051d81c87385b1ab4978eb89fc32601b230d",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Protocolo_experimental.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 9930,
+      "sha256": "93a538acef219ae1264807056200b232ba4da6689c6e0963d68df1c250236c5f",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "Relatorio.md",
+      "origem": "Gabaritei_Pesquisa_Datasets_BKT.zip",
+      "versao": "2026-11-10",
+      "bytes": 10736,
+      "sha256": "dcc1a2a8186f389925e7d9a11c84fbf9e8db6ad12b7dfde54d193d9436898090",
+      "integridade": "idêntico à pasta extraída",
+      "finalidade": "evidência histórica"
+    },
+    {
+      "artefato": "GabariteiBKT_Official.csv",
+      "origem": "Drive indicado pelo publicador",
+      "versao": "2009–2010 corrigida colapsada",
+      "bytes": 64412812,
+      "sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+      "finalidade": "fonte efetivamente processada",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "assistments.csv",
+      "origem": "PI6",
+      "versao": "2009–2010 corrigida colapsada",
+      "bytes": 64412812,
+      "sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+      "finalidade": "comparação com cópia histórica",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "pi6-bkt-kdd-algebra-official.zip",
+      "origem": "SIGKDD, download histórico",
+      "versao": "Algebra I 2005–06",
+      "bytes": 22442608,
+      "sha256": "a38d1fb55b139a38dfb019391417824855aef9104f51291d93fba614dacc9c84",
+      "finalidade": "comparador externo",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "experimento.py",
+      "origem": "PI6, viabilidade anterior",
+      "versao": "histórico",
+      "bytes": 5184,
+      "sha256": "96490bf7064f140a4aa40164bffde75630fd736e58b88d9f46522587bb10a457",
+      "finalidade": "comparação de regras de filtragem e separação",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "fechamento.py",
+      "origem": "PI6, viabilidade anterior",
+      "versao": "histórico",
+      "bytes": 7391,
+      "sha256": "36b7412d676814eb65f7e45b7fcafb3b2911f74382716eb92188b6cc1844f58e",
+      "finalidade": "comparação de regras de filtragem e separação",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "fechamento.json",
+      "origem": "PI6, viabilidade anterior",
+      "versao": "histórico",
+      "bytes": 93223,
+      "sha256": "634f10645ade7e7a32284a0a57d62c113d0f65d803d5a5dde76216aedee1be56",
+      "finalidade": "comparação de regras de filtragem e separação",
+      "integridade": "SHA-256 calculado"
+    },
+    {
+      "artefato": "Gabaritei_MissaoDataset04_Encerramento_Documental.zip",
+      "origem": "Downloads",
+      "versao": "Missão Dataset 4",
+      "bytes": 13879198,
+      "sha256": "a7b4ea39685a3c67e67aebee28214f5da373865a47287ca547f16fffc99ef229",
+      "finalidade": "catálogo ENEM, conferência somente leitura",
+      "integridade": "SHA-256 calculado"
+    }
+  ],
+  "catalogo_enem": {
+    "questoes": 2971,
+    "estados": {
+      "A": 677,
+      "C": 2174,
+      "D": 35,
+      "B": 85
+    },
+    "confirmadas": 765,
+    "maior_estoque_local": 3
+  }
+}

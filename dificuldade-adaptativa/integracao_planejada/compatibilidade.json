@@ -1,0 +1,99 @@
+{
+  "allowed_branches": [
+    {
+      "name": "dataset",
+      "commit": "67a5036b2297c7c2e78b1f011219ca112977d7a5",
+      "files": 202,
+      "code_files": 128
+    },
+    {
+      "name": "dificuldade-adaptativa",
+      "commit": "e00f20c0d534a2bdd1a845d71cb791a16e3f4212",
+      "files": 178,
+      "code_files": 132
+    },
+    {
+      "name": "front-end",
+      "commit": "1ada7f3a2e5f1d80fc9d5c9e08df4aaf2a52c461",
+      "files": 85,
+      "code_files": 64
+    },
+    {
+      "name": "main",
+      "commit": "90d54984c21982c89e0d645ecfa78b1442b813b9",
+      "files": 78,
+      "code_files": 58
+    },
+    {
+      "name": "paridade-p1",
+      "commit": "50060d0f5ff8494226905c2b0c023c84214983a7",
+      "files": 298,
+      "code_files": 128
+    },
+    {
+      "name": "recomendador",
+      "commit": "a7b5b8c9ae8c153c04956d2e1ac3dcdada6a41ef",
+      "files": 398,
+      "code_files": 181
+    },
+    {
+      "name": "recomendador-para-main",
+      "commit": "f9ca200ac92c41c70b13eb9db57f35c8a7972e76",
+      "files": 303,
+      "code_files": 111
+    },
+    {
+      "name": "wardrobe",
+      "commit": "ea3f28d22f805dea191e12130e14a3034099cf43",
+      "files": 35,
+      "code_files": 6
+    }
+  ],
+  "excluded_branches": [
+    {
+      "name": "joao/recomendador-dificulade",
+      "content_read": false
+    }
+  ],
+  "new_or_changed_code_blobs_since_previous_audit": [],
+  "old_raw_count": 2971,
+  "new_raw_count": 3086,
+  "common_raw_ids": 2962,
+  "added_ids": 124,
+  "removed_ids": 9,
+  "old_eligible": 2063,
+  "new_eligible": 2563,
+  "eligible_overlap": 2049,
+  "new_eligible_without_old_index": 514,
+  "old_eligible_no_longer_textual": 14,
+  "changed_fields_on_common_ids": {
+    "question": 690,
+    "options": 59,
+    "answer": 0,
+    "area": 1,
+    "skill": 0,
+    "tri": 0,
+    "content_family_id": 0,
+    "ready_text": 455
+  },
+  "semantic_source_sha256": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760",
+  "current_dataset_sha256": "fedeb342679287d5a68cd3f7703b6aa4e610559b3e26358ab3098cea1f8b826b",
+  "semantic_catalog_sha256": "a64f75300b2e7f42bf7ea9c61748c54086b1b53a558a4d5e2f171f8da8005760",
+  "semantic_catalog_matches_own_base": true,
+  "semantic_catalog_matches_current_dataset": false,
+  "catalog_status_for_real_integration": "BLOCKED_DATASET_VERSION_MISMATCH",
+  "structural_stock_projection": {
+    "queries_inspected": 2029,
+    "no_same_scale_candidates": 384,
+    "median_same_scale_candidates": 2,
+    "no_candidate_opportunities_by_local_level": {
+      "0": 1182,
+      "1": 1117,
+      "2": 1148
+    },
+    "denominator_for_level_opportunities": 6087,
+    "interpretation": "Structural projection using frozen old ranking IDs only; invalid for production because dataset hashes differ. Not an educational-performance evaluation."
+  },
+  "new_training": false,
+  "excluded_branch_content_read": false
+}

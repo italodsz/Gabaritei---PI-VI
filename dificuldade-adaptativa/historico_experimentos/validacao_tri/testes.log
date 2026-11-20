@@ -1,0 +1,8 @@
+test_actual_catalog_evidence (test_validacao.EvidenceTests.test_actual_catalog_evidence) ... ok
+test_join_requires_identity_answer_and_parameters (test_validacao.EvidenceTests.test_join_requires_identity_answer_and_parameters) ... ok
+test_prequential_blocks_and_weight_changes (test_validacao.EvidenceTests.test_prequential_blocks_and_weight_changes) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.013s
+
+OK

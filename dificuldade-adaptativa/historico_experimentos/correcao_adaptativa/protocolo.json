@@ -1,0 +1,11 @@
+{
+  "seeds": [17, 42, 91, 123],
+  "promotion_gain": 0.03,
+  "promotion": "Require >= 3 pp gain over best simple baseline under common policy in both generators, paired 95% lower bound > 0, no worse challenge and all functional checks.",
+  "generators": ["logistic_original", "guessing_discrimination"],
+  "policies": ["original", "persistencia"],
+  "target": 0.70,
+  "band": [0.55, 0.85],
+  "minimum_families": 8,
+  "cooldown": 4
+}

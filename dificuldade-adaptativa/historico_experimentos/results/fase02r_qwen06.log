@@ -1,0 +1,5 @@
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 310/310 [00:00<00:00, 7153.30it/s]
+qwen06 train 8 / 1801
+exit=1; execução CPU interrompida após confirmação do progresso da execução CUDA.

@@ -1,0 +1,14 @@
+test_bayes_correct (test_math.Math.test_bayes_correct) ... ok
+test_bayes_error (test_math.Math.test_bayes_error) ... ok
+test_cooldown (test_math.Math.test_cooldown) ... ok
+test_determinism_and_reset (test_math.Math.test_determinism_and_reset) ... ok
+test_future_does_not_change_prediction (test_math.Math.test_future_does_not_change_prediction) ... ok
+test_insufficient_data_abstains (test_math.Math.test_insufficient_data_abstains) ... ok
+test_limits_and_invalid (test_math.Math.test_limits_and_invalid) ... ok
+test_prediction_before_response (test_math.Math.test_prediction_before_response) ... ok
+test_stock_and_choice (test_math.Math.test_stock_and_choice) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+OK

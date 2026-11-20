@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-11T19:22:01.349370+00:00",
+  "tested_candidate_sha256": "f368599c42dda5f8bb3eee076cebad0ef85fc2d03bb53a6f011df12e59699992",
+  "candidate_crc": "passed",
+  "steps": [
+    {
+      "name": "integridade_antes_instalacao",
+      "exit_code": 0
+    },
+    {
+      "name": "instalador_powershell",
+      "exit_code": 0
+    },
+    {
+      "name": "exemplo_enem_extraido",
+      "exit_code": 0
+    },
+    {
+      "name": "exemplo_externo_extraido",
+      "exit_code": 0
+    },
+    {
+      "name": "integridade_depois_instalacao",
+      "exit_code": 0
+    }
+  ],
+  "installed_functional_tests": {
+    "aprovado": 38
+  },
+  "distributed_files_unchanged_after_install_and_examples": true,
+  "method": "Final ZIP adds these verification logs and regenerates the manifest; executable payload is identical to tested extraction.",
+  "final_archive_hash": "See adjacent Gabaritei_Dificuldade_Adaptativa_Entrega.zip.sha256; hash cannot be embedded in its own ZIP."
+}

@@ -1,0 +1,13 @@
+test_A_elegibilidade (__main__.Functional.test_A_elegibilidade) ... ok
+test_B_diagnostico (__main__.Functional.test_B_diagnostico) ... ok
+test_C_granularidade_bloqueada (__main__.Functional.test_C_granularidade_bloqueada) ... skipped 'C bloqueado documentalmente. MT sem faixa e sem par válido por assunto.'
+test_D_quatro_transicoes (__main__.Functional.test_D_quatro_transicoes) ... ok
+test_E_ausencias (__main__.Functional.test_E_ausencias) ... ok
+test_F_repeticao (__main__.Functional.test_F_repeticao) ... ok
+test_G_preferencia_e_aceite (__main__.Functional.test_G_preferencia_e_aceite) ... ok
+test_J_contrato_semantico (__main__.Functional.test_J_contrato_semantico) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK (skipped=1)

@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-11-11T19:20:25.431Z",
+  "branches": [
+    {
+      "name": "dataset",
+      "commit": {
+        "sha": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/7e720fa876beb7249adab2f05d3ecf33ae5a2c51"
+      },
+      "protected": false
+    },
+    {
+      "name": "dificuldade-adaptativa",
+      "commit": {
+        "sha": "e00f20c0d534a2bdd1a845d71cb791a16e3f4212",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/e00f20c0d534a2bdd1a845d71cb791a16e3f4212"
+      },
+      "protected": false
+    },
+    {
+      "name": "front-end",
+      "commit": {
+        "sha": "1ada7f3a2e5f1d80fc9d5c9e08df4aaf2a52c461",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/1ada7f3a2e5f1d80fc9d5c9e08df4aaf2a52c461"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "90d54984c21982c89e0d645ecfa78b1442b813b9",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/90d54984c21982c89e0d645ecfa78b1442b813b9"
+      },
+      "protected": false
+    },
+    {
+      "name": "paridade-p1",
+      "commit": {
+        "sha": "50060d0f5ff8494226905c2b0c023c84214983a7",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/50060d0f5ff8494226905c2b0c023c84214983a7"
+      },
+      "protected": false
+    },
+    {
+      "name": "recomendador",
+      "commit": {
+        "sha": "bd74deaa2d5a1e87acded278df4e1a8d393e725b",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/bd74deaa2d5a1e87acded278df4e1a8d393e725b"
+      },
+      "protected": false
+    },
+    {
+      "name": "wardrobe",
+      "commit": {
+        "sha": "ea3f28d22f805dea191e12130e14a3034099cf43",
+        "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/commits/ea3f28d22f805dea191e12130e14a3034099cf43"
+      },
+      "protected": false
+    }
+  ]
+}

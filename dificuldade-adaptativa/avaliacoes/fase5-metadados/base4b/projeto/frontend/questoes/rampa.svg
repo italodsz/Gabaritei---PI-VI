@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="300" fill="#FFFEFB"/>
+  <line x1="40" y1="240" x2="600" y2="240" stroke="#CDC6B3" stroke-width="2"/>
+  <polygon points="80,240 540,240 540,74" fill="#E0EAE0" stroke="#4F7A5A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 150 240 A 70 70 0 0 0 146 216" fill="none" stroke="#B98F22" stroke-width="3"/>
+  <text x="160" y="228" font-size="16" font-weight="700" fill="#8A6612">30°</text>
+  <rect x="520" y="220" width="20" height="20" fill="none" stroke="#29332F" stroke-width="2"/>
+  <text x="290" y="140" font-size="16" font-weight="700" fill="#29332F" transform="rotate(-19.8 290 140)">rampa</text>
+  <text x="556" y="162" font-size="16" font-weight="700" fill="#29332F">h = ?</text>
+  <text x="310" y="270" font-size="14" fill="#57615B" text-anchor="middle">solo</text>
+</svg>

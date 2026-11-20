@@ -1,0 +1,350 @@
+{
+  "sha": "ea3f28d22f805dea191e12130e14a3034099cf43",
+  "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/ea3f28d22f805dea191e12130e14a3034099cf43",
+  "tree": [
+    {
+      "path": "Dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1754655924712584b6b6141705807319a250735",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/c1754655924712584b6b6141705807319a250735"
+    },
+    {
+      "path": "Dataset/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae240791b78637177acc0cc36480a62e64d5ffa5",
+      "size": 828,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ae240791b78637177acc0cc36480a62e64d5ffa5"
+    },
+    {
+      "path": "Dataset/base_trabalho",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "995785ec504cfb40866612b9ab27a93db8b41cc3",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/995785ec504cfb40866612b9ab27a93db8b41cc3"
+    },
+    {
+      "path": "Dataset/base_trabalho/AVISO_INDICES.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d02012e4c10f926780b2cd74a19909b252db6e",
+      "size": 421,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/42d02012e4c10f926780b2cd74a19909b252db6e"
+    },
+    {
+      "path": "Dataset/base_trabalho/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3274180d09c71702da35b80bff21b45293a54e0",
+      "size": 637,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a3274180d09c71702da35b80bff21b45293a54e0"
+    },
+    {
+      "path": "Dataset/base_trabalho/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60b5cb8feca92a2727d8442df53c648465687252",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/60b5cb8feca92a2727d8442df53c648465687252"
+    },
+    {
+      "path": "Dataset/base_trabalho/data/questions.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49cfbaf4e00955357a6644489fb4f853473a9c70",
+      "size": 9755975,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/49cfbaf4e00955357a6644489fb4f853473a9c70"
+    },
+    {
+      "path": "Dataset/base_trabalho/ids_elegiveis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b8538aeb65803965c72b113daa411cb58db485",
+      "size": 72263,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f4b8538aeb65803965c72b113daa411cb58db485"
+    },
+    {
+      "path": "Dataset/base_trabalho/qualidade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a8b709cfdde3fd1e88eb38ee7a4c5293f0602b5",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/7a8b709cfdde3fd1e88eb38ee7a4c5293f0602b5"
+    },
+    {
+      "path": "Dataset/base_trabalho/qualidade/alteracoes_2_itens.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f3d5d7befa2ceb341e2ce32c8108789f746180",
+      "size": 4089,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/58f3d5d7befa2ceb341e2ce32c8108789f746180"
+    },
+    {
+      "path": "Dataset/base_trabalho/qualidade/bloqueios.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8dcf7737a75d6a0943cd4f6a69db19ce492e1a",
+      "size": 262,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ab8dcf7737a75d6a0943cd4f6a69db19ce492e1a"
+    },
+    {
+      "path": "Dataset/base_trabalho/qualidade/evidencia_catalase_indexada.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f6315f6429bcf03e05aec88034240048040504",
+      "size": 784,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/95f6315f6429bcf03e05aec88034240048040504"
+    },
+    {
+      "path": "Dataset/base_trabalho/splits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14409b018e777ba33fbe614734c78348d80c45e5",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/14409b018e777ba33fbe614734c78348d80c45e5"
+    },
+    {
+      "path": "Dataset/base_trabalho/splits/test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc833a92317b29fc80a1e66753d4ab980501fb2",
+      "size": 579215,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/5fc833a92317b29fc80a1e66753d4ab980501fb2"
+    },
+    {
+      "path": "Dataset/base_trabalho/splits/train.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "889f006dc1c0f36dee2271cee498dcbddbcd56cc",
+      "size": 8611451,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/889f006dc1c0f36dee2271cee498dcbddbcd56cc"
+    },
+    {
+      "path": "Dataset/base_trabalho/splits/validation.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d62e6764f4620ebefb653278b8e2929f789f408",
+      "size": 565309,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/6d62e6764f4620ebefb653278b8e2929f789f408"
+    },
+    {
+      "path": "Dataset/dataset_gabaritei_curated_v1_2_1_core.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a56782ff3e4b4907120dd50fb74b4ce33ba104cf",
+      "size": 8891815,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a56782ff3e4b4907120dd50fb74b4ce33ba104cf"
+    },
+    {
+      "path": "Dataset/experimento_v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c558f6cf04014b7de98ffc269629bc952892ab9",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/3c558f6cf04014b7de98ffc269629bc952892ab9"
+    },
+    {
+      "path": "Dataset/experimento_v2/Gabaritei_git_experimento_v2.zip.part01",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f59553f160f956621fca020d9f9f9eead5cbaed5",
+      "size": 41943040,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f59553f160f956621fca020d9f9f9eead5cbaed5"
+    },
+    {
+      "path": "Dataset/experimento_v2/Gabaritei_git_experimento_v2.zip.part02",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf0d17ab31ba9cfa84cc7f37462818673bfff767",
+      "size": 41943040,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/cf0d17ab31ba9cfa84cc7f37462818673bfff767"
+    },
+    {
+      "path": "Dataset/experimento_v2/Gabaritei_git_experimento_v2.zip.part03",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad681556c60fbc38e7214ccda16256575a518d9",
+      "size": 37831021,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/fad681556c60fbc38e7214ccda16256575a518d9"
+    },
+    {
+      "path": "Dataset/experimento_v2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69cd8f2a2e258ac2f95c00037944bc25eb93e21",
+      "size": 1017,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/e69cd8f2a2e258ac2f95c00037944bc25eb93e21"
+    },
+    {
+      "path": "Dataset/experimento_v2/dividir_pacote.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1e7d25f5d4de466ca72919bb03be23c00485aa",
+      "size": 2154,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4e1e7d25f5d4de466ca72919bb03be23c00485aa"
+    },
+    {
+      "path": "Dataset/experimento_v2/partes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29379a7a0055ed725f667e97cdcaeb0b772d7431",
+      "size": 793,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/29379a7a0055ed725f667e97cdcaeb0b772d7431"
+    },
+    {
+      "path": "Dataset/experimento_v2/reconstruir_e_validar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd24d954174754d91f1c7f6f73df50023d09dbe5",
+      "size": 2538,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dd24d954174754d91f1c7f6f73df50023d09dbe5"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4617d088f9204205088243560aaf3f3119806bf2",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/4617d088f9204205088243560aaf3f3119806bf2"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/Gabaritei_v2_1_rc1.zip.part01",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeb891b1cc9b862ae03474209bd7e0e0e9178cf",
+      "size": 41943040,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/beeb891b1cc9b862ae03474209bd7e0e0e9178cf"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/Gabaritei_v2_1_rc1.zip.part02",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea4cb91499391adeeab8e86446e8ebbab010cb7a",
+      "size": 41943040,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ea4cb91499391adeeab8e86446e8ebbab010cb7a"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/Gabaritei_v2_1_rc1.zip.part03",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d54c529d3093526cc074e296d667edefdc0e33b4",
+      "size": 41943040,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d54c529d3093526cc074e296d667edefdc0e33b4"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/Gabaritei_v2_1_rc1.zip.part04",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff45eaee28a5c693eec91435facda55ce4b8f68",
+      "size": 1180999,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/bff45eaee28a5c693eec91435facda55ce4b8f68"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a595c03ec1f2c3e290ef203168af9fbcf9451c9b",
+      "size": 913,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/a595c03ec1f2c3e290ef203168af9fbcf9451c9b"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/dividir_pacote.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1e7d25f5d4de466ca72919bb03be23c00485aa",
+      "size": 2154,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/4e1e7d25f5d4de466ca72919bb03be23c00485aa"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/partes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "279ec6b2a5afc07533696cae4122e14c82d7bb80",
+      "size": 923,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/279ec6b2a5afc07533696cae4122e14c82d7bb80"
+    },
+    {
+      "path": "Dataset/experimento_v2_1_rc1/reconstruir_e_validar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd24d954174754d91f1c7f6f73df50023d09dbe5",
+      "size": 2538,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/dd24d954174754d91f1c7f6f73df50023d09dbe5"
+    },
+    {
+      "path": "Dataset/unificado-K",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23d584fd5360b26d5ef0d3feaf27c4acecdb9390",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/23d584fd5360b26d5ef0d3feaf27c4acecdb9390"
+    },
+    {
+      "path": "Dataset/unificado-K/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af72e2309318bd702d49181b82e874279b0b3016",
+      "size": 1867,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/af72e2309318bd702d49181b82e874279b0b3016"
+    },
+    {
+      "path": "Dataset/unificado-K/all_questions_df.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff44f34924b56fa19daf1a505dff02cb0759d0e8",
+      "size": 1069108,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/ff44f34924b56fa19daf1a505dff02cb0759d0e8"
+    },
+    {
+      "path": "Dataset/unificado-K/enem_todas_ocorrencias.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13b98afd2ffc8ff3b93fb3af54cec28236ef89a5",
+      "size": 28355606,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/13b98afd2ffc8ff3b93fb3af54cec28236ef89a5"
+    },
+    {
+      "path": "Dataset/unificado-K/enem_unificado.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a91015c0283a99403fe3fc10d1932ac37fc55c4",
+      "size": 15338140,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/7a91015c0283a99403fe3fc10d1932ac37fc55c4"
+    },
+    {
+      "path": "Dataset/unificado-K/limpeza",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb813432e8c8675fab4664d1066c01aa05bdc603",
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/trees/fb813432e8c8675fab4664d1066c01aa05bdc603"
+    },
+    {
+      "path": "Dataset/unificado-K/limpeza/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577c26e89fe0e28d6a8d81cf2052305c340fccf5",
+      "size": 40,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/577c26e89fe0e28d6a8d81cf2052305c340fccf5"
+    },
+    {
+      "path": "Dataset/unificado-K/limpeza/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0f9a063aec2beee3ac3acf205b4101861c61b4a",
+      "size": 11862,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/f0f9a063aec2beee3ac3acf205b4101861c61b4a"
+    },
+    {
+      "path": "Dataset/unificado-K/limpeza/unify_csv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d71b22b51e35c8f35e95fa98c817cde91d4b92a2",
+      "size": 11214,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/d71b22b51e35c8f35e95fa98c817cde91d4b92a2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83157afbc24ce8e3017de90ddf48419a7bc15ee8",
+      "size": 242,
+      "url": "https://api.github.com/repos/italodsz/Gabaritei---PI-VI/git/blobs/83157afbc24ce8e3017de90ddf48419a7bc15ee8"
+    }
+  ],
+  "truncated": false
+}

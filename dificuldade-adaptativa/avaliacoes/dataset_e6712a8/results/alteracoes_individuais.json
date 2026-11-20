@@ -1,0 +1,6859 @@
+[
+  {
+    "id": "gq_009a98151ebcd42b59eebfa5",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_00e710074e833f4dbeacfbd9",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_010ae127e9f48c502a0426ef",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_011c02cc38334707406ae039",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0144ddd7b94097bc0944e030",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_01588ccb5a7b90fff73e8299",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_018d76c46ece910d624e920d",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_01b5eaca21b50f3a342fdf87",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_028c6e1097bde6076297cd61",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_03016cd7d99d5a4065cb477c",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0363e021e54384b017c34716",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0562fe8f0f9f5340d1f3d3a9",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_05bbce6b5c4b7ed81224c6e7",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_066314bf1f8f941709b79096",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_068b9da27632300152e7fe2c",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_07d9d76e81010dc398e96054",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_07e5bd0605fa10ec17dc747c",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0822518d595594977082b22c",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_08389cca26307082331d6f40",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_08e58c3e0c3fa5dc8d361c78",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0946515301da0df273190e4f",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_099653b65f9af1713e9954dd",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0a06ec32739be740cbe86034",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0a4199e81f3d147cd10c624f",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0a5e2c84888565d896d134c9",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0a68c7c1c6cd1d1148e9ed1d",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0ac21d360c59a61c74983b25",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0b0532dfd525fb51a8fa7e98",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0b559cd579b875e03847b522",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0c6c6e3f100203586e974ae3",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0c996eb84c5e926eb15fc6b2",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0d3ce57c3b9af45f5057bcb2",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_0d794654e0cbfdab70b4ec49",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_0d7f0594b82b6a1a343e3ee1",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0df24dbc526c5b6c2995d6f9",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0e04cdb59f0bd069a215f9fa",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0e84a2a6222e75083487a195",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0e9844dc6b666c515f1f3e1b",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0f53546648a5bf8e7bceb082",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0f6af1fea039522b7b89eccf",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0fb42b463d88a6dad4a11f13",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_0fc4e3bd46c944b3bb1f8f06",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1026019e6fbbbf25f265ad5c",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_103fc370a0ce642e770ca1ae",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_105febc75c25c5962cc10159",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_10b34a340c6f16483d89995c",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_11fc131196b5af8d95ad4e44",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_12e162828def78a8723430c5",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_14292e84c1cbe3504ecaf26e",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_14af374b506863f182b74e26",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_14bd3f4795a565ff7e2446ed",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_14c2592d4097333508b0bf48",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_14f5a2e028d6c6bea8fa23f0",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_16049b16603e7c9d7ca44a7a",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_16324e09b5e0147a97a5d8bf",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_17ffccb2bc0e13371c22693c",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_180efc80f94ce526c0459723",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_181cb605a66bd0c375f2db3d",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_18ae113884cb4963cc6e6a51",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_18d9e12f40a3c5e0ee07681d",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_19318f4c86b781130b977ea9",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_194cbc46d095d4450c465c0f",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_19a3b20cd7e1dc9b8162d5df",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1a56733647f7514e0df64708",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1aa5613ebc9957154d8729fd",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_1aa563236ce46a93daf0745b",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1afd5c73c29b04c747a3851b",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1b62c44114ab91ca6529f750",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1b85d40fb3b286733fd10110",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1bf495a5eda4568d0ea676d2",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_1c81ad0871c41473caf2813e",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1c8ce32fb9706cfe90edc60d",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1d09b34c198e97e160fc8f83",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1dc1c4958d58b40af9eee917",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_1e94b8f47b4dac35614dc0c2",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_1f314714b516f2e18ffb9696",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_201c1d3d948a07c720ae929f",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "options",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2079c47ae862b1c9e4a804cb",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_20a6759028b402f9df944a9a",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_20bd95418708547fd7cec73c",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_20bdd5b7c3097a561b733c7f",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_228f58d179dbbc3b998a3080",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_22b049c90245da6181f0c22e",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_22e4a15ce8575a61a69d9bff",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2424487995a74a48539181b9",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_24b2f40936a307463a696b2e",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_24dc283a4ba2146d320baf4d",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_25137b1f3ade9b73bb3bcac1",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_253a836560b63b261e400b16",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_255575334af0f47478c33646",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_25666cc44702bef2e7c70bfc",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_25a89208e5fe50706ee4b4bb",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2611db1199e7b03e871206dd",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_264bf7dc844216fac6547983",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_265f3eee1c03478062e66cc8",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_266887b911b8409a41da87fa",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_269ed9f3cc030e8edfdcd553",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_26d9c95cb276ef63bb3d9e37",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_274d89b00fbf2a014bef2b8e",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_28035a9c08a952fc478c56b4",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_281d8cd7d8c9e537953ead25",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_28bfa31867d52da17c436889",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_293e60681da8ab07e671f163",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_29adb36b553ff33e350f1bba",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2a4efed5ab49b71c6de16080",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2a54829954e1bac1b8fd1c04",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2a73f3482b45945ed4102d2f",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2af81c95a5c9b5a3b44923ae",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2af84f83f903ca37606496a9",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2b9b069ee79ec14b1d893ea0",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2b9cb7856e90b6b3a9d688e8",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2c10b3226e39eeeec2c69ef9",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2c352b4ce3f0de384021a391",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2c5abf439018aad4a9384faa",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2c8dd89610006e85aa2776e8",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2cc961a9113dd6b2427a8a95",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2cd8839c5c04ab04db83bc60",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2d3689216227433bf8130849",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2d84d374a2dc4d26e45769c6",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2de10cb738595e7e20e29e3e",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2e5ec648b996f32378a1c60a",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2ede04214a9625fa54f1da95",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_2fa371e4ab069cc5756f5d23",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2fe8d3cd5385b433cb1a0935",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_2feb9bf66d0e63fb49e391d0",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_30436d49daceb70c3220bd49",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_30b06ffed3341abc13b9d0c2",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3112d7eeca4567f6844ecf45",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_315821450fa02af5d9071df8",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_31ebd16339a4476b997b9957",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_32fef015bc3a4184fb4f1bf2",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_335e97bc3d09118b0651e71d",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_337efcb8194f1af948fe3c0c",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3388fbdf5095311f3a19ac45",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_3395cfe524556e37fdff4515",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_33b3702f61499c028ae24515",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_34340c9c0ccece34ecf57744",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_34c4af6c5178f4ab8f452412",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_34e1a12b7ad6aaba5e1ab393",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_351f80f33d9e571271d5302a",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_352f61b8a550e8b5c0247ab8",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_353a26a237a790beb10d68b1",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_3652bdf56d692299b5969ee1",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3681ead3247d0be2b0e0ef8b",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_37328ac33d68331f209d6584",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3815eac5bb4b4c34aaa93401",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_381d98cada02d2dcada7995d",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_38339c8bc5e1d2f2bcd61d20",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_386cd9b52fe937e3d88fc298",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_392cfa46ee41b4b4dab3da65",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_399ee4011d5d2e28870e57d4",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_39c346da7c1b6a07ee575579",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_3a900542fc9997c1f3aa8636",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3a931bf7be7de4ec9c999bc5",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3aa626d3db3f2998ee5ed1d9",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3ae0cbdf630624e5b845e934",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_3b0b972234dbd20deaf7fc04",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3b54a8ea2f3e1b660f799b47",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3bb81fe06f6a32b6d0163884",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3df85b2660fcf4c620cc973d",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3e12e59642a0049288fdf3cb",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3e6d9dd553fdb6652af9e59e",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_3e9228800beb443e6658478c",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_3e92552b806864785fc2402e",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3eea7c66d00aaea8a9d3b851",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3f3b37faafe3854d6895f1a0",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3f9134b110baa77b0c36587f",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3fe8b92f903495487c1d668d",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_3ff7962f5ab1e817f1d225a6",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_403b5427563ad617e55fdccc",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_41658219aca967b9bd5bd622",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_423b4593882c6759bd614cb7",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_42a643459972143f90363b31",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_432594550fb101ecf2b84758",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_4382730a27ce152b3b23468b",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_43b6e2a6c700a9aaffe4fa0a",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_43bdf417accc0db9020e680a",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_441560db8787e9056cd790cf",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_44864ae8288d10ca8375e50f",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4499f615e6f0ac5563c820d0",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_44d082c29f4919760514a7e3",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_451384e4480834ae2e9ab56f",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_454ec7664e5f5ef1d603089c",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_4747d022d86bf3bb075b7929",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4750b1af8648b135efdc3f13",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_47968a4532d9361d1cb5feb4",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_47de7c0e194c65a1d01c1c63",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_48274032d952a4b50784f859",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_48c803778bf48614c02f974f",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_48e6169a4f07fb1497d7f766",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_492e1e32626b0f8cab580789",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_49e02d15d073c464f0588987",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "options",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4a0f57baa73ee5c1c106dcd1",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_4c5b346895231c61e9b6370d",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4ccc56ebe01c4e04c8580cf5",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4d473921f28d86af3eff5155",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_4d56d2fd2672f54ff3e545e3",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4d63327cb48732cc7b53a05a",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4d9d8c959c80c7ef04be9d0d",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4e8aed74d97dea89e7d78780",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4eb96198ec249b436c4de300",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4eba1cd10cacac8f70b99572",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4f3305be8e8f0fadfc71f10f",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_4f9cc717f4cabd83a8606eff",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_504359cfa06485359678d62a",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_52785c6f2fba69678f4c8f88",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_52adbc0e24548e90693a1eb3",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_53406905a67600694cec91a4",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_53d3dbb091bbe4c2fb03c9c0",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_540ed1cbd8b2214b1fdcca6d",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5501636e09188a0bde8b7578",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_551d3a7110c9d57ad8a0703c",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_55fa7d9e7b99ea8a986ae8bf",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_56158cd90d7d8e0e0b1ac1bc",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5616310440af118e5dac0eae",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_56e614a5360a484383d128a9",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_572a4845d11b508718ab10b2",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5793c8540e7f5418892c3d09",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_57be083f77e28f7838fe50de",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_57ea2a8c3678d2833bf9713d",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_58b650bdbca9ccc020898c8c",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_595bc1f917aef926877b9cd3",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5972b4f98b5ab23d0354c7e7",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_59a7688f3055cf9a9bcfde53",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5a15568ceb82989b5ceb50c7",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5a9f012bea609581aeb744d3",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5ab71660d2fb707befb6ad52",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5be10f0b5c0eea67d0d80cb8",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5c15d3e3361eb0f75fb79d4f",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5cf40c451292d91086d613e0",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5d3935fe612ba256221526b8",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5df5fff24e1ff67e59360d31",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_5dfd2cacf3b98057d23dd84b",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_5e2971e0f9d363abdb134b46",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_602cca9655e76deb38ca401f",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6036c705d11247e579124309",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_60371021ced2a791ebd2f7a6",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_604f9be77a4f92ed080e6b70",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_60e2adbbf55237e8af2281cf",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_62b45b8571edf34b57464e8a",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_62eb37a1644eb521e687b450",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_62ec868162443f6cbbc82ec6",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_62f65d32755efb120fb96f1c",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_63215bf9df7d363d67b4bf93",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_637df9f69809cb3868364c42",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_638e1590c68410d0dcacc137",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_63e99375ed1cccf9c08d3f28",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_64dd3182294e3fae873c2cf8",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_659a52d4da1e80ac710d7590",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_65c805d8b6bf5209518f78c6",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_661a91fffb37812861e57e37",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6641c0ab1d55fa13ac85ee9a",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_664cc5be6bb039484a9ea9fa",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_66ea3eb45fefa982091ad853",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_66faa094a0b340ec12252869",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_670274d781741cb5ac1c5906",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_674cc68b021264b8b8fe0a39",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_683b37c936de0eeb761759ee",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_68c6ab27c7d69e5f45f44a56",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_6a697545f71aa52dee715749",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_6a6ea5862fb4dc7528f6e538",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6a6f24a85ce04183798e6a32",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6abc00287d3be81277b217ac",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_6b1823888f4a7b4ca32991f4",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6b3676815a41eced161148b0",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6cda1e7010ed6eea86d448be",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6ce3cc06bdc1aa102518fab1",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_6e64d32387ddca39c8d19682",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6e684028300d3ea945b21dee",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6e91814da28ec7481b964efa",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6eff9093153f2c835745c902",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6f0e4d22a5ffbd4879c0570f",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6f2407d14b158a74fef64957",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6f5a341a623f6d88a59edce2",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_6f72b6d3f1f677c502c984f0",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6fd634fb4742e5de3fb86451",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_6fe675eccd347c498f695cf2",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_70bbbea6b12679d94dfa8e28",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_712f479f9e249d5bffd46edb",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_722a88114e6a6d6e17f30ee1",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_72754b7a013589456484e079",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7309c31fb6fc853699237c74",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_730c7be1329c0521fb7e60a5",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_73675769d696787c8314d767",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_737469272bd8def7cdee7544",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_73d34c12c5a43b2cfff315a8",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_73d5eb001b6e4bdb481595f9",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_73dd6e69cf4b3c97709677e1",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_74bbe9f6c30c1abda6a261f6",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_75223260d8c24fe1a39e6003",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_75c26a770699e9cadf018467",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7678fe25dd01aa761918dc1d",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_76a12034c6ed87c1cba34558",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_76b5c95fea73f78eaa0f78e5",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_774799119fffe8ae61b5b6dc",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_79378440f3251fba5cc80a8f",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7972ab468a4401e5f1f46c5d",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_798e33947470ab4354e87770",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7a8d63c7cb8406d73fc5c03c",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7aa17072b2effe6d2d2d1592",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7af57d61046796cf6d291493",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7b499724660b04a3c46ac59d",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7b50be27514cb6132923b874",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7b7a41bfe313660fe4cce974",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7bccaa2160bc754af78debf4",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7bce5fa8f81d7c39700b6978",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7bf7be06e6894ebb79320761",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7d74fbcf4f90b977e3be4b7f",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7e34ab1e680475f676732d68",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_7e80678310985db5d3373655",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7f3d5f52be33c12b0ab35085",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_7f50c2ce9353a4f0f8e134e4",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_80b83a3563d383867e2d08e4",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_80d6a6d4d0b7247248cd1fe4",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_80e36e9fee250e964c458d5b",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_813c38086fda6f033f6a0cb3",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_81562f741406266b2f2e4b0c",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_816ff271ca78fa7d9c662c4d",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_8282f0daf3102af4a953c493",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_82ad7538c0d6097eee645992",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_82d314241c8f206997d68f18",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_832b63d80defa62f55f83c30",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_832befa032a6052798229be6",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_835c277006a76a7aef24f2d3",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_835f4cc3c692e5ca01513604",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_83e751c1ab435f1f2b8c55d8",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_83f43d1ccec7f83051c7c1d6",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8405c5422a2de10ad258a656",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_84d833d37e0a1eac779535ff",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_85043b03702dd0a039b86921",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_8517308ad840775baf507c96",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8568c8267d4fd6b49dac773e",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8613e0c9c52ec788abb5c9f5",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_870834d2b1701d355212a5a7",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_87820dce4eef3e47d0d1ff92",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_87917e96589bb4952b752400",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_883ed6b1781f1ea6f48e8fc0",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_889f9373563ffc0e945ad206",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_88c641ac3909b70d6abd73a0",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_89bff65f5273fd950c49e17c",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8a0549749beed830f0090e84",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_8a7392bf1f7cfd72dbf00caa",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8b450e6fa2b9bd3dc511bb74",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8c2c8c6603fa894db24773b0",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8c3dd89367ad77eb5f8fc5eb",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8c4ab907919dd95ef10db854",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8ce1d1a691be0e99160b39c5",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8d199224040996a3185da714",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8d27607bc1dd7eab710dc3a2",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8e272a8ad234d1fffaf9ea20",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8e3882f7423955b6f0f17194",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8e5d8c1db0243c6b5c51e8fc",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8e7eff5762fc3d51b5d42d33",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_8ea02e8b75cd08cde6127b63",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_8f0a58ea17bd049b55d3ca6b",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_902ae70d1fafd252bb0723fc",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_908d6a072caad80bfe4c794d",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_91103f4ee9a141d37a44cb70",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_911162421ce7ddc9c68c8d08",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9118bd3825ddc75468f0e57a",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9387692056c79a68b575d719",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_94feaee05215e6f6e55db65a",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_953166744513f7f26306129c",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_95aeacd3fc0c817e4205b2fd",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_95f80322590e830fff59becb",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_960e6b6d468dd2b8ed72d3d2",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_96332204d78f9b567d129b92",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_980087c61e1a9d4a26855b40",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_98b759a3749f7ef32c60c1bf",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_991371b2a57cae6d8604dc71",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_99c4d153444d7246fc29e07d",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9c10e0da825230b9edb1b845",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9cb443939a2741ebebfe062b",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_9d1e594c74413e1cf2a002b6",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9d61075b9db30c992139bcc8",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_9df261b82a6d036b2e8a4096",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_9dfb8ba1aeb8813ec4d4a169",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_9e66a5acdc8b2e0900f82bc7",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_9f46f85bb2eef71f48156f9b",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9f5890ac534278fac4f48bbe",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9f8413669a4ea1276d9a7775",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_9ffcba94661467bc553451b4",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a02d4e12366dafb306747c60",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a0c86ede6d6bfcc34f94b7ec",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a179e264c4ea7c0e64122cc7",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a21d1a0141d90d120ccc9eff",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a2519edfbac1fe079116fce3",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a2b07afaea23088852fcd6b5",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a2ccb4d5a1f6e2421adb3fbc",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a2d583a697b45bfce90d968e",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a32f5c18cecada99136a4b6f",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a339b5bf1ab5b45758e4765d",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a33f4fe20771819240617b7b",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a33ffe5c1fbb2620004040bd",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a3883b5b6c96d8591942a984",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a3de9f8815944cc6dbf2dded",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a458b578f493864ddad6fa43",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a48fe7e058b364d4116ed42d",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a546e9bba7fc2ad9aa860aa2",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_a6127a474112581363bfdfe0",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a7495ef16c40629bf60b7db9",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a7dc87ca8099d6d7fc112e11",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a854d3cbc08dbbfbcff3b881",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a882cacb71757f6080977585",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a953ffc72ca89b58d8543c39",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a9b58df97519d1cbb41889b1",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_a9d600cea04bddc3e4950393",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_a9f084a58b8771b966d8a3a6",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_aa55b02e49d8c0a234a3afb1",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_aa958b2b47fdff6b2a3f48ed",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_aa9ac67e46d6e5c5debdb8bb",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ab230c3be08836aa7504ddd6",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ab3e23df0a408395e0dc7b71",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ab4f8fe94d8b357097e6888f",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ac172c8e65604a4f61e81894",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ac50e97b35136669a3859f37",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_ac531add2a49e964cb8e82b8",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_acf5d212cc9ae8ac21b8be08",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ae45d3a16a7b443de53ddb8c",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_aecabe4a62177290c24bc524",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_af09aae23c35f393405f8681",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_af3f7e43de218b8da449b7a2",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_af925267ddc6e12fc3486a7a",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_afb0a3d8234f262084ca70f6",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_afc2b82bdf5dfaa2dc7057f7",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b1240adf0c8149db36ecac84",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_b173ffb0a224ddf8ed3dbda0",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b1ca5a3051d2808888a47138",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b1e65216db883f1a877ed127",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_b1ec95bceb2c272b4ca3e376",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b1f226005378c605ab73aec6",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b25b73afaa0711d2bf11d940",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b2cddf1e9b8afc98f1b8308b",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b2eb3f12a6eb46f39552a7fe",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_b44a45a519203b2dacf9a4aa",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b46a4783e6028feddce97101",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b576e9fbcd5c148281f95a6b",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b5d6bced4c8ccd4f0b97d222",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b667f3461d7c1edfb2d8be3e",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b6bb5c9fdb657184eeae9877",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b79126d8d8af6ef76b44458d",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b7c03f494150195b6dfaca85",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_b8a762f375b2e52e99391d0b",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_b8ad06001c64c10eec3afb66",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b93f68bb21944137bb62a225",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b953b5769bc716e9628a4d02",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_b992412df12a6bb1ca2ca0ce",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_b9a0606277fee1de7ac1d886",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ba2db67866ce1661f4308cc1",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ba47b2be4a421389c5559f61",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_ba87a9fd3a63b7ea9051cd1d",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bae7cf7887ad3d15d1536416",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bbd4789fa41c8aa7442e7d64",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bc83dffbfd2a4f52dd72ee14",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bd11f3de0f651638eb909a1c",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bd12bdf4a2958b9a10dd4b95",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_bdddf3dcae68404b076f8cfe",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_be843dec5e67a9eb36cc0ed4",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_bf51708241c390a305bbaa33",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bf52212730c2135d8981c140",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bfa5cff1904ed806a68d48ca",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_bfc1a9e965cb4313059491d2",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c02a39083c23f6c8a519527d",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c07463f439897310019233b4",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c0ae684c84f2619f2d495719",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c0c2e6d49d94380de1e77852",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_c123ceb2fbdee2e873833c7a",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c20cc658da871dd4ae7117a6",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c2c86fcf405f107efebedfdf",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c2cade67399fd90f0ac9d431",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c32333bf4a9f492f306057d5",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_c37a6b75362a8d063972f7c7",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c43b1ef08d138fc017892ece",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c43c6eeeacd38163e603b4a6",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_c78c09816a0371b9895aefbb",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c79ab8cbe62168c023bf069f",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_c7f0af3510952d3c3ee5df94",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c82210d1085ea53a45bcd0a1",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c8c9e5e88b25520ce8195f5e",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c953583df8ce72b781754ac2",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c98d1a5894ff131355fb69a1",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_c9b1cbbd6488af1324707a91",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ca240e87d3babbff2a9db952",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_cad780116da5d2a9c1eff8e6",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cafc84e2c113b541be5e3434",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cb2e00b1ef2d0950dea34d21",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cb401803fbac464b7fdab592",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_cb62fed208037d84d1c10dcd",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cb78a5a8f9c6ff825d204f61",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cbb55dd3f9b3112e7a7e1f69",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_ccc0ea12c1944c9baad5d6b4",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_cce62ab52f03caf90be7d9aa",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cd81fd4619cfb321093a0fb7",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cdc9da9fd3d6cf2f6b5ad6ef",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cddb2162ccb994d0c8513415",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_ce80aec0fe6d2202ef2b938a",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_cea29abb012d14306488a22d",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cebfed782bbe41c383e890b9",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_ceec746ce6968349932baab3",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_cf811173b56825274b58204d",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d0da808dddcdaee855bdc85d",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d22c86d9e498d00d302ca7b8",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d261d099cc008a73cba8c60c",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d2659a75c242bf3a7912b6e1",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d3313a54e911f6cecc1e2755",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d380df37c15e52784158af3d",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d39aa6677f5ba6c5a6441df2",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d449d7ecc3ac6fdfc43db0c8",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d4b81020b225a403b2b4c49f",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d4c86dcb9e855327ac898ba4",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d50685190a5720afaf4aa764",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d6130e35d8e076f34c1e6b56",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d6b7ed7be3907b27098d66f6",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d8e5e3839da70a0cf14ffc4c",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d8f951c886ba559c421adfb1",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d90881acef17025c7f9d4783",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d9169ebac0d53fc6e761aa94",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d950898128349ade91c2f8f9",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "options",
+      "quality_review",
+      "question",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_d98826f00c663b2acc7338b8",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d9dd74d71b0e30532b142ec2",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_d9f11d43647b9caa03c99e7b",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_da120d002a812ba56904e21e",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_da1f7b81fe1f9f5368e9e8c3",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_da5ed8a66cba84d92ec95214",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_da70749013f7eaf5c4fb5205",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_dbd44f3a403f2b99b3004a16",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_dbf09d42d4e07aa1809b4175",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_dc616200f8229abbc6a00107",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "options",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_dd0c39e797c9c13ac7271fb4",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_dd50c6384198a4f2573944fe",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_dd59e7ecba610361d778d1f6",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_dffeebfd15ccb26b2b646fd1",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e0291e3816a4aadb83a3b263",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e0383e8e0f5f8de662c3f39f",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e053172a16bc913a278cd4a6",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e0a3b61cb1d6ab74ecc77ba3",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e0bc1f28733354081adee521",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e0c712bafb70e1a7f7d1667b",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e13944944390dc67122dee75",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e148b727493c56805fdaed31",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e16d2370c09ee6fe963f55f8",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e1d1171610f41b07cc98c7b5",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e1e5488f57bb55d206a83945",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e23ca49ea366486cbf89959b",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e29950e54abc2d9cb7c76a6f",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e2e407bd041e62b6bcba9ff3",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e3c05dd955e4dbf086fdf59d",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e3c95cb5e8f305538649994d",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e3e6e69455d2d374a71616eb",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e4055aca890a26156950980f",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e457ba0b15a19f24ce112c62",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e4b4f5a310cf3ae53c82da79",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e4fa614914f263d94e3d435b",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e50020b4f5c0d5824364a001",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e531c86a957705f9c0b53b19",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e568a0621741ed5a33154bce",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e5b15520dcef2b99ad20e62e",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e5d12c777339cf287c8c7dfd",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e6450489fd91fbc6d61b01f6",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e6563607cd0f764a73f185cb",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e6e5091bf2382a23ef6bb4fe",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e7a5bd7940f9a744a0a76fd7",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e83f489167963fb4a27953fd",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e872589847f907b1f3d81c80",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e8e7529b0fea182dfcd344d9",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e93370c084e20c1382d7479f",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_e934e9689bfdbcd8826838b9",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_e980db240e5a88f351b14755",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_ea1346fdb590ff3ff1783217",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_eaa9097f69d5de092685cd27",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_eaddaf5bf8cf3a2ca44f377e",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ec3734e81fafaaad7701f1b2",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ec50449c7a73c5cd92024dc6",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_eccd402a39d36f81192bcfb8",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ece86ee1ceb36c05168f144c",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_ed8f107e030f24a1bce9ff47",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_ed9350ffca90cf7f0e21dfb5",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ee7e0651384073c09d41dbdc",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ee97aabad08cc8229d62ce95",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ee9b470a81d67d4f4729e223",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f0a5f112e61a646d327839ae",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f0fdc1939cd8e3f4b80af173",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f1258929ca2fd14138bd2b93",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f1e1e9d8e2a64163cf0ee4ca",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f2397084cdb1812161183ab0",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_f2515df2998c0f8930f83332",
+    "tipo": "alterada",
+    "ano": 2011,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f2c078f61cf6dd2f6874ae28",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f2ef2970f503c9eaab741caf",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f3421ce1fe2bc46083a8435e",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f3750e5faffeb8a8f9703298",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_f3f1c3a295121af17b8c680d",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f4bd52319dc1ffdd2fabc3cf",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f4c49324f59d12ba7668e548",
+    "tipo": "alterada",
+    "ano": 2023,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f4cd0ae3fadae8cdc6cf2824",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f576bfa937226065d2f49d7f",
+    "tipo": "alterada",
+    "ano": 2022,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_f5fe89e33c025696f014ae66",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f6bfb042b1e67117f55d4d96",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f6d46bf2121de8a0b1e19ac0",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f74ac0073008884af3c6c02c",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f763d2576d2a1bd4bf59555e",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f7d50202ae03e582fe3aa796",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f7f75d6d6545999c38f48665",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f81938e6c8be3534b7f4c891",
+    "tipo": "alterada",
+    "ano": 2013,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f830af2298a59b3c586376b6",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_f946507c4d4cc35430bdc4ef",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_f9dd1e4c518e111604164934",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fa725c4a98bad650b76c18d1",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_fa8cd8812a2c9e8bb56132e0",
+    "tipo": "alterada",
+    "ano": 2018,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_faa9bf59096effb09398f714",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fadc5c89e357c79d8157e2c1",
+    "tipo": "alterada",
+    "ano": 2017,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fba0fbfd42e254f93c1bf40b",
+    "tipo": "alterada",
+    "ano": 2024,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fbd53f54d426f8b1b7385b3e",
+    "tipo": "alterada",
+    "ano": 2009,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_fc1bce39e7e2a7b36b9015d3",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_fc455323e339f26516bd40a0",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fc4d3223ca16f3f08eab76ef",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fc526b5097b4884d97d86535",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_fc65d4d1323579aa9c132726",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fceba6e536f8fd844ac14472",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fd39fa56e738ebbd4f3ee49e",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fd998c1de2276f536e8a036c",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fe6d7dc81df3e90cabd23483",
+    "tipo": "alterada",
+    "ano": 2012,
+    "area": "MT",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "ready_text"
+    ]
+  },
+  {
+    "id": "gq_fef9fdfa5584f266b6e809ce",
+    "tipo": "alterada",
+    "ano": 2016,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ff03d0e022e68ab1b552b718",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_ff4804ffa37905e4b882d5f6",
+    "tipo": "alterada",
+    "ano": 2020,
+    "area": "CH",
+    "campos": [
+      "descriptions",
+      "quality_review"
+    ]
+  },
+  {
+    "id": "gq_ff7ad93943becbdb0a71f121",
+    "tipo": "alterada",
+    "ano": 2021,
+    "area": "LC",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  },
+  {
+    "id": "gq_fffc55b255f3d3aafc110f67",
+    "tipo": "alterada",
+    "ano": 2019,
+    "area": "CN",
+    "campos": [
+      "descriptions",
+      "quality_review",
+      "question"
+    ]
+  }
+]

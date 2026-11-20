@@ -1,0 +1,49 @@
+{'train': {'n': 1801, 'truncated': {128: 1760, 256: 1220, 512: 174}, 'classes': {'facil': 601, 'media': 600, 'dificil': 600}, 'assets': 0, 'formula_or_table_proxy': 43, 'missing_text_or_options': 0}, 'validation': {'n': 136, 'truncated': {128: 135, 256: 87, 512: 7}, 'classes': {'facil': 54, 'media': 42, 'dificil': 40}, 'assets': 0, 'formula_or_table_proxy': 3, 'missing_text_or_options': 0}}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 55085.71it/s]
+DebertaV2Model LOAD REPORT from: microsoft/mdeberta-v3-base
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+deberta.embeddings.word_embeddings._weight | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight        | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight    | UNEXPECTED |  | 
+mask_predictions.classifier.weight         | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight          | UNEXPECTED |  | 
+lm_predictions.lm_head.bias                | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias            | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias          | UNEXPECTED |  | 
+mask_predictions.dense.bias                | UNEXPECTED |  | 
+mask_predictions.dense.weight              | UNEXPECTED |  | 
+mask_predictions.classifier.bias           | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\experiments\fase_02_finetune.py", line 150, in <module>
+    run(parser.parse_args())
+    ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\experiments\fase_02_finetune.py", line 107, in run
+    scaler.step(optimizer)
+    ~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\.fase02-torch-cuda\torch\amp\grad_scaler.py", line 473, in step
+    self.unscale_(optimizer)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\.fase02-torch-cuda\torch\amp\grad_scaler.py", line 358, in unscale_
+    optimizer_state["found_inf_per_device"] = self._unscale_grads_(
+                                              ~~~~~~~~~~~~~~~~~~~~^
+        optimizer, inv_scale, found_inf, False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Darkz\Documents\ChatGPT\pi6\.fase02-torch-cuda\torch\amp\grad_scaler.py", line 275, in _unscale_grads_
+    raise ValueError("Attempting to unscale FP16 gradients.")
+ValueError: Attempting to unscale FP16 gradients.
+C:\Users\Darkz\AppData\Roaming\Python\Python314\site-packages\huggingface_hub\file_download.py:138: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Darkz\Documents\ChatGPT\pi6\dificuldade-adaptativa\.hf-cache\hub\models--microsoft--mdeberta-v3-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+exit=1 seconds=35.1280739

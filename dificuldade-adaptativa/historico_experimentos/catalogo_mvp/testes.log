@@ -1,0 +1,10 @@
+test_coverage_and_missing_counts (test_selecao.CatalogTests.test_coverage_and_missing_counts) ... ok
+test_every_item_in_exactly_one_group (test_selecao.CatalogTests.test_every_item_in_exactly_one_group) ... ok
+test_precedence (test_selecao.CatalogTests.test_precedence) ... ok
+test_priority_has_individual_evidence_and_valid_area_code (test_selecao.CatalogTests.test_priority_has_individual_evidence_and_valid_area_code) ... ok
+test_restrictions_and_recoveries (test_selecao.CatalogTests.test_restrictions_and_recoveries) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.823s
+
+OK

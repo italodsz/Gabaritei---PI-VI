@@ -1,0 +1,15 @@
+{
+  "encoders": {
+    "minilm": ["sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", "e8f8c211226b894fcb81acc59f3b34ba3efd5f42", 128, "mean", 128],
+    "qwen06": ["Qwen/Qwen3-Embedding-0.6B", "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3", 256, "last", 32768],
+    "bge": ["BAAI/bge-m3", "5617a9f61b028005a4858fdac845db406aefb181", 256, "first", 8192]
+  },
+  "seed": 42,
+  "minimum_gain_macro_f1": 0.02,
+  "minimum_paired_bootstrap_lower_bound": 0,
+  "bootstrap_samples": 1000,
+  "selection": "Rank by validation macro-F1. Require minimum gain, positive paired interval, no increase in easy-hard errors, and no area macro-F1 loss above 0.10. Test 2024 only after freezing a qualified candidate.",
+  "features": ["embedding", "structure", "area", "both"],
+  "formulations": ["multiclass", "ordinal", "ridge_b"],
+  "ridge_target": "Clip b at train-only 1st/99th percentiles; evaluate MAE against raw b."
+}

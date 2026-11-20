@@ -1,0 +1,18 @@
+{
+  "observed_sources": {
+    "Api": "base-oficial/frontend/src/lib/api/client.ts",
+    "types": "base-oficial/frontend/src/lib/api/types.ts",
+    "http_stub": "base-oficial/frontend/src/lib/api/http/client.ts"
+  },
+  "observed_framework": "Next.js 16.4.3 / React 19.3.0",
+  "observed_api_operation": "enviarResposta(envio: EnvioResposta): Promise<EnvioResultado>",
+  "observed_submission_fields": ["questaoId","letra","modo","sessaoId","recomendacaoId","chaveIdempotencia"],
+  "observed_correction_fields": ["tentativaId","correta","gabarito","resolucao","respondidaEm"],
+  "new_module_interface": "bkt04.adaptador.register_correction",
+  "trusted_inputs": ["authenticated_student_id","authoritative_correction","versioned_question_metadata","server_event_order","current_inventory"],
+  "backend_available": false,
+  "application_runtime_integration_tested": false,
+  "next_step": "backend implementa correção e chama adaptador depois da correção autorizada",
+  "semantic_module": "mantém seleção e ordem de questões; motor devolve apenas estado e sugestão de faixa",
+  "mapping": "qualquer habilidade ENEM sem mapeamento aprovado aciona fallback"
+}

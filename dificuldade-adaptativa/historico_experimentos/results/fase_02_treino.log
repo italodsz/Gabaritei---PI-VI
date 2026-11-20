@@ -1,0 +1,28 @@
+python -B -m experiments.fase_02_treinamento ../base-oficial/Dataset/base_trabalho --minilm --output results/fase_02_final.json
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 20510.80it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12438.40it/s]
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+validation majoritaria: macro-F1=0.1895, accuracy=0.3971
+validation tfidf_palavras: macro-F1=0.4182, accuracy=0.4191
+validation tfidf_caracteres: macro-F1=0.4188, accuracy=0.4265
+validation minilm: macro-F1=0.4710, accuracy=0.4706
+test minilm: macro-F1=0.5284, accuracy=0.5317
+test majoritaria: macro-F1=0.1974, accuracy=0.4206
+exit=0 seconds=73.7406928

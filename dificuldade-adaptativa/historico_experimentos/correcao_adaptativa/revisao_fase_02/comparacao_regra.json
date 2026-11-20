@@ -1,0 +1,188 @@
+{
+  "natureza": "simulacao sem treinamento; confronto retrospectivo",
+  "candidata": "bkt_politica_1_4_0.09",
+  "configuracao": [
+    1,
+    4,
+    2,
+    0.09
+  ],
+  "referencia": "taxa de acertos suavizada com pol\u00edtica de persist\u00eancia existente",
+  "sementes": [
+    479,
+    487,
+    491,
+    499,
+    503,
+    509
+  ],
+  "passos_por_trajetoria": 36,
+  "replicas_bootstrap": 2000,
+  "sha256_resultado_historico": "6eda0e4bd95341ef55fa14bd0c566725f956cfc7cbcf8e0b84cbcbe04ee4f3f7",
+  "cenarios": {
+    "logistic/False": {
+      "resultados": {
+        "taxa": {
+          "accuracy": 0.3406492912665752,
+          "outside": 0.6696959304983996,
+          "offers": 0.0745313214449017,
+          "false_change": 0.05075445816186557,
+          "coverage": 0.5555555555555556,
+          "covered_accuracy": 0.3465020576131687,
+          "accepted_changes": 0,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.32515337423312884,
+          "no_offer_rate": 0.9254686785550983,
+          "student_coverage": 0.8621399176954733,
+          "offer_count": 1304,
+          "direction_reversals": 8
+        },
+        "bkt_politica_1_4_0.09": {
+          "accuracy": 0.5112025605852767,
+          "outside": 0.5324074074074074,
+          "offers": 0.41546639231824417,
+          "false_change": 0.22959533607681756,
+          "coverage": 0.7777777777777778,
+          "covered_accuracy": 0.5620223398001176,
+          "accepted_changes": 0,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.6123263172375842,
+          "no_offer_rate": 0.5845336076817558,
+          "student_coverage": 0.9711934156378601,
+          "offer_count": 7269,
+          "direction_reversals": 63
+        }
+      },
+      "delta_acerto": 0.1705532693187014,
+      "ic95_bootstrap_pareado": [
+        0.1459747942386831,
+        0.19478880887059902
+      ]
+    },
+    "logistic/True": {
+      "resultados": {
+        "taxa": {
+          "accuracy": 0.3604252400548697,
+          "outside": 0.6285436671239141,
+          "offers": 0.05235482395976223,
+          "false_change": 0.02892629514626573,
+          "coverage": 0.5555555555555556,
+          "covered_accuracy": 0.3881687242798354,
+          "accepted_changes": 596,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.39737991266375544,
+          "no_offer_rate": 0.9476451760402378,
+          "student_coverage": 0.8621399176954733,
+          "offer_count": 916,
+          "direction_reversals": 17
+        },
+        "bkt_politica_1_4_0.09": {
+          "accuracy": 0.505315500685871,
+          "outside": 0.5369227251943302,
+          "offers": 0.20821902149062643,
+          "false_change": 0.09936238044633369,
+          "coverage": 0.7777777777777778,
+          "covered_accuracy": 0.5471046443268666,
+          "accepted_changes": 2354,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.5657425199011803,
+          "no_offer_rate": 0.7917809785093736,
+          "student_coverage": 0.9711934156378601,
+          "offer_count": 3643,
+          "direction_reversals": 327
+        }
+      },
+      "delta_acerto": 0.14489026063100136,
+      "ic95_bootstrap_pareado": [
+        0.12597022176497485,
+        0.16363883173296753
+      ]
+    },
+    "3pl/False": {
+      "resultados": {
+        "taxa": {
+          "accuracy": 0.3448788294467307,
+          "outside": 0.5976794695930499,
+          "offers": 0.06893004115226338,
+          "false_change": 0.04080932784636488,
+          "coverage": 0.5555555555555556,
+          "covered_accuracy": 0.3541152263374486,
+          "accepted_changes": 0,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.3648424543946932,
+          "no_offer_rate": 0.9310699588477366,
+          "student_coverage": 0.845679012345679,
+          "offer_count": 1206,
+          "direction_reversals": 2
+        },
+        "bkt_politica_1_4_0.09": {
+          "accuracy": 0.4750800182898948,
+          "outside": 0.4725080018289895,
+          "offers": 0.39123228166438045,
+          "false_change": 0.2242798353909465,
+          "coverage": 0.7777777777777778,
+          "covered_accuracy": 0.5155790711346266,
+          "accepted_changes": 0,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.5533966398831264,
+          "no_offer_rate": 0.6087677183356195,
+          "student_coverage": 0.9444444444444444,
+          "offer_count": 6845,
+          "direction_reversals": 54
+        }
+      },
+      "delta_acerto": 0.13020118884316415,
+      "ic95_bootstrap_pareado": [
+        0.10699302697759487,
+        0.15180898491083672
+      ]
+    },
+    "3pl/True": {
+      "resultados": {
+        "taxa": {
+          "accuracy": 0.37088477366255146,
+          "outside": 0.5732738911751257,
+          "offers": 0.04852537722908093,
+          "false_change": 0.024872448979591837,
+          "coverage": 0.5555555555555556,
+          "covered_accuracy": 0.40699588477366255,
+          "accepted_changes": 546,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.43934040047114253,
+          "no_offer_rate": 0.9514746227709191,
+          "student_coverage": 0.845679012345679,
+          "offer_count": 849,
+          "direction_reversals": 12
+        },
+        "bkt_politica_1_4_0.09": {
+          "accuracy": 0.4890260631001372,
+          "outside": 0.4702217649748514,
+          "offers": 0.19210105166895292,
+          "false_change": 0.09881000133707715,
+          "coverage": 0.7777777777777778,
+          "covered_accuracy": 0.5285126396237507,
+          "accepted_changes": 2175,
+          "violations": 0,
+          "trajectories": 486,
+          "offer_precision": 0.5403153823266885,
+          "no_offer_rate": 0.807898948331047,
+          "student_coverage": 0.9444444444444444,
+          "offer_count": 3361,
+          "direction_reversals": 259
+        }
+      },
+      "delta_acerto": 0.11814128943758573,
+      "ic95_bootstrap_pareado": [
+        0.10019147233653405,
+        0.1366626657521719
+      ]
+    }
+  }
+}

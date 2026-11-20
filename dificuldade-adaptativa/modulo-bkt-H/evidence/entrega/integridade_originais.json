@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Gabaritei_BKT_Fase01_Preparacao_Auditada.zip",
+    "expected_sha256": "720cbfab4af6a3a7947c559ad8ea0c930528b4f1c7d10ba413c35f4f2851cca4",
+    "sha256": "720cbfab4af6a3a7947c559ad8ea0c930528b4f1c7d10ba413c35f4f2851cca4",
+    "match": true,
+    "bytes": 85262
+  },
+  {
+    "file": "Gabaritei_BKT_Fase02_Treinamento_Auditado.zip",
+    "expected_sha256": "549db12ed3acad537bd9056a03099d0c663cf2720744413d01f534eee07814da",
+    "sha256": "549db12ed3acad537bd9056a03099d0c663cf2720744413d01f534eee07814da",
+    "match": true,
+    "bytes": 4635760
+  },
+  {
+    "file": "Gabaritei_BKT_Fase03_Avaliacao_Auditada.zip",
+    "expected_sha256": "179973d91d4a6964fad86c6ff5cc29cabf0fe11fc976df45d9a4c796c499c67b",
+    "sha256": "179973d91d4a6964fad86c6ff5cc29cabf0fe11fc976df45d9a4c796c499c67b",
+    "match": true,
+    "bytes": 10951364
+  },
+  {
+    "file": "Gabaritei_BKT_Missao04_Integracao_Auditada.zip",
+    "expected_sha256": "1bb7bead8efc30d28ca3357ea366f68d318f3cdb068b418720327088dd339f83",
+    "sha256": "1bb7bead8efc30d28ca3357ea366f68d318f3cdb068b418720327088dd339f83",
+    "match": true,
+    "bytes": 840052
+  }
+]

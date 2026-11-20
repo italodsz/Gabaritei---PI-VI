@@ -1,0 +1,12 @@
+test_autonomy_accept_decline_and_reselect (test_avaliar.AdaptiveTests.test_autonomy_accept_decline_and_reselect) ... ok
+test_difficulty_skill_and_order_are_distinct (test_avaliar.AdaptiveTests.test_difficulty_skill_and_order_are_distinct) ... ok
+test_long_history_and_replay (test_avaliar.AdaptiveTests.test_long_history_and_replay) ... ok
+test_no_candidates_does_not_change_preference (test_avaliar.AdaptiveTests.test_no_candidates_does_not_change_preference) ... ok
+test_repetition_is_not_learning (test_avaliar.AdaptiveTests.test_repetition_is_not_learning) ... ok
+test_sparse_and_manual_choice (test_avaliar.AdaptiveTests.test_sparse_and_manual_choice) ... ok
+test_synthetic_oracle_covers_maintain_progress_and_decline (test_avaliar.AdaptiveTests.test_synthetic_oracle_covers_maintain_progress_and_decline) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+OK

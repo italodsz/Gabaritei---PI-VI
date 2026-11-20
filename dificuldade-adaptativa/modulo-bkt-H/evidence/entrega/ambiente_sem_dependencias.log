@@ -1,0 +1,7 @@
+UTC: 2026-11-11T19:17:33.222429+00:00
+CWD: C:\Users\Darkz\Downloads\Gabaritei_Dificuldade_Adaptativa_Entrega\dificuldade-adaptativa\modulo-bkt-H
+COMMAND: C:\Users\Darkz\AppData\Local\Temp\Gabaritei_Entrega_Final_Validacao\venv\Scripts\python.exe -c "import sys,sqlite3,importlib.util,json; print(json.dumps({\"python\":sys.version,\"sqlite\":sqlite3.sqlite_version,\"numpy_disponivel\":importlib.util.find_spec(\"numpy\") is not None,\"scipy_disponivel\":importlib.util.find_spec(\"scipy\") is not None,\"pip_disponivel\":importlib.util.find_spec(\"pip\") is not None}))"
+
+{"python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]", "sqlite": "3.50.4", "numpy_disponivel": false, "scipy_disponivel": false, "pip_disponivel": false}
+
+Exit code: 0

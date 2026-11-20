@@ -1,0 +1,30 @@
+{
+  "statuses": {
+    "habilidade_ausente_na_fonte": 195,
+    "confirmada_na_copia_tabular": 2891
+  },
+  "knownCandidatesIn746": 700,
+  "queries": 20,
+  "forms": [
+    {
+      "reviewer": "A",
+      "pairs": 746,
+      "validGrades": 0,
+      "reviewerIdentifications": 0,
+      "sha256": "609c5d6b28dceee6667ec78a812ad2d951703596e1cbe41f36859effd137f02e",
+      "blindingColumnsOK": true,
+      "duplicatePairs": 0
+    },
+    {
+      "reviewer": "B",
+      "pairs": 746,
+      "validGrades": 0,
+      "reviewerIdentifications": 0,
+      "sha256": "e296a8c3eb8d8a3baf96b3509a3a0b636d56d4f3815e69ad25d637b777db4cf8",
+      "blindingColumnsOK": true,
+      "duplicatePairs": 0
+    }
+  ],
+  "uniqueQuestions": 721,
+  "questionsWithMissingAssets": 185
+}

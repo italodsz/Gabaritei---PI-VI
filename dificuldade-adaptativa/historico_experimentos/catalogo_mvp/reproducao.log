@@ -1,0 +1,25 @@
+Reprodução a partir do ZIP extraído e de arquivos de git archive da revisão 7e720fa876beb7249adab2f05d3ecf33ae5a2c51.
+6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1 {'LC': 30, 'MT': 30, 'CN': 30, 'CH': 30}
+{"sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5", "matriz_sha256": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1", "total": 2971, "grupos": {"C": 1653, "B": 1305, "A": 9, "D": 4}, "por_area": {"A": {"CH": 2, "LC": 2, "CN": 2, "MT": 3}, "B": {"LC": 454, "MT": 164, "CH": 432, "CN": 255}, "C": {"CH": 331, "CN": 449, "LC": 345, "MT": 528}, "D": {"CH": 1, "CN": 2, "MT": 1}}, "recuperadas": 0, "piloto_anterior": 1329, "piloto_mantido": 1314, "sem_assunto": 560, "sem_habilidade": 192, "revisao_licenca": 2971, "historico_triagem": {"alertas": 55, "sugestoes": 18}}
+test_coverage_and_missing_counts (test_selecao.CatalogTests.test_coverage_and_missing_counts) ... ok
+test_every_item_in_exactly_one_group (test_selecao.CatalogTests.test_every_item_in_exactly_one_group) ... ok
+test_precedence (test_selecao.CatalogTests.test_precedence) ... ok
+test_priority_has_individual_evidence_and_valid_area_code (test_selecao.CatalogTests.test_priority_has_individual_evidence_and_valid_area_code) ... ok
+test_restrictions_and_recoveries (test_selecao.CatalogTests.test_restrictions_and_recoveries) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.878s
+
+OK
+
+Produtos idênticos byte a byte (SHA-256)
+2eaf53e852b4f8aef51bc3696c69bfa0ed46885e450e29a668c2a9741c34c3c6  auditoria_todas_questoes.csv
+52c51cd35e125af05e216d5594f58503e02216e8ad23e8c18452f41823bbd8d9  catalogo_A_mvp.csv
+1f0faa19ec490f971ef0076068dfa104a5ef25e33c34403e6e6ff12670d62efc  catalogo_B_condicional.csv
+ea8ccd627cf4875240e670a4d1bdd50dc53c41e528e9cbe98224b6963ec46a3d  cobertura_para_recomendador.csv
+9426d6fb85ac58f7b0dbb577cbb86a2ad44e8ef1f2cd5a43cc7cd6a606300f23  matriz_codigos.json
+c604a50b6eb948a5f5f43dbbcb32f0b8dd37bcd561c26d62c05356d16b700244  metricas.json
+17f6d7a324e0286bf428e4ec7663d8d64535a340c8cfe53dda838f73f545a690  questoes_C_revisao.csv
+0ce8834cd5cab69c16607c5b9b12ca845f492697520393a99455888ac179904e  questoes_D_bloqueadas.csv
+9f073b24f6be259d3a97e93ed57516939acc54e6e4a6be51e9da9816a66ee865  questoes_recuperadas.csv
+Revisão e status da cópia de origem conferidos.

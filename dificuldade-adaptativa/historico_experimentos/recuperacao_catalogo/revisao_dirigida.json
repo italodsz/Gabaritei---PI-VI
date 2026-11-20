@@ -1,0 +1,37 @@
+{
+  "gq_1100ada241f62157d3e81fc6": {
+    "caderno": "caderno2018.pdf", "pagina": 22, "questao": 55, "gabarito": "gabarito2018.pdf",
+    "trecho": "subordinação à potência hegemônica",
+    "parecer": "O relato sobre Cuba e a URSS, as cinco alternativas e o gabarito C coincidem com o caderno. O texto-base está integral. H7 (relações de poder) é plausível. Assunto ausente, sem preenchimento automático."
+  },
+  "gq_61ea7f1972f055ee85c9e262": {
+    "caderno": "caderno2018.pdf", "pagina": 25, "questao": 68, "gabarito": "gabarito2018.pdf",
+    "trecho": "explorar as rivalidades existentes entre os povos nativos",
+    "parecer": "O texto de Todorov, as cinco alternativas e o gabarito C coincidem. O texto-base está integral. H15 (conflitos político-culturais) é plausível. Assunto ausente, sem preenchimento automático."
+  },
+  "gq_81b8f40361ec3b511a0e5859": {
+    "caderno": "caderno2018.pdf", "pagina": 28, "questao": 77, "gabarito": "gabarito2018.pdf",
+    "trecho": "Tropical, com sazonalidade das chuvas",
+    "parecer": "O texto sobre a crosta laterítica, as cinco alternativas e o gabarito D coincidem. H30 e a interpretação das condições naturais são plausíveis. Assunto ausente, sem preenchimento automático."
+  },
+  "gq_d729403b0e500b7ef02bef0a": {
+    "caderno": "caderno2018.pdf", "pagina": 31, "questao": 88, "gabarito": "gabarito2018.pdf",
+    "trecho": "utilização de madeira de reflorestamento",
+    "parecer": "O comando sobre democracia era da questão 90. CO_ITEM 88520, posição 88, alternativas e gabarito C correspondem à questão do gráfico. A cópia derivada usa o comando oficial e o recorte legível do gráfico. H28 e relações entre sociedade e natureza são plausíveis. O assunto original segue sem validação.",
+    "enunciado_derivado": "Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de",
+    "midia": "recursos/gq_d729403b0e500b7ef02bef0a_grafico.png",
+    "recorte": [96, 91, 542, 274]
+  },
+  "gq_29b02702604175cb29267886": {
+    "caderno": "caderno2022_laranja.pdf", "pagina": 7, "questao": 106, "gabarito": "gabarito2022_laranja.pdf",
+    "trecho": "modificação da estrutura tridimensional da enzima",
+    "parecer": "A tabela na representação textual tem os seis pares de valores e o expoente 10^-12 do caderno oficial. As alternativas coincidem e o gabarito é E. O item permanece bloqueado no catálogo original. Na cópia derivada, apresentar com a tabela renderizada. H15 é plausível e o assunto amplo Química carece de adjudicação em interface com Biologia.",
+    "tabela_embutida": true
+  },
+  "gq_1bf495a5eda4568d0ea676d2": {
+    "caderno": "caderno2018.pdf", "pagina": 14, "questao": 33, "gabarito": "gabarito2018.pdf",
+    "trecho": "Esse fragmento",
+    "conflito": true,
+    "parecer": "O comando consta no item 33 do PDF, depois de uma resenha, mas o catálogo aponta posição 34 e gabarito B. Não foi estabelecida a correspondência segura entre as versões; manter fora dos conjuntos."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "bootstrap_refits": 5600,
+  "boundary_skills": [
+    "16",
+    "84",
+    "91",
+    "307",
+    "308",
+    "322",
+    "323"
+  ],
+  "initializations": 1120,
+  "status": "aprovado_com_ressalvas",
+  "test_evaluated": false,
+  "tests_passed": 25,
+  "trained_skills": 56,
+  "training_events": 143092,
+  "training_sequences": 19370,
+  "validation_micro": {
+    "baseline": {
+      "accuracy_threshold_0_5": 0.6699126930826058,
+      "auc_roc": 0.6102619214585812,
+      "brier": 0.21519058437817853,
+      "ece_10_bins": 0.003528560846855728,
+      "log_loss": 0.6200764222434556,
+      "n": 29780,
+      "negative": 9995,
+      "positive": 19785
+    },
+    "bkt": {
+      "accuracy_threshold_0_5": 0.7163196776359974,
+      "auc_roc": 0.7212358314613461,
+      "brier": 0.19087659916329985,
+      "ece_10_bins": 0.009511200717397418,
+      "log_loss": 0.5650950337476621,
+      "n": 29780,
+      "negative": 9995,
+      "positive": 19785
+    }
+  },
+  "wide_bootstrap_skills": [
+    "4",
+    "8",
+    "16",
+    "39",
+    "40",
+    "46",
+    "51",
+    "54",
+    "58",
+    "65",
+    "67",
+    "81",
+    "82",
+    "84",
+    "86",
+    "91",
+    "96",
+    "101",
+    "279",
+    "294",
+    "297",
+    "303",
+    "307",
+    "308",
+    "312",
+    "322",
+    "323",
+    "325"
+  ]
+}

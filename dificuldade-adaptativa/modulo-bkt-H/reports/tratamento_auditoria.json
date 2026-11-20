@@ -1,0 +1,86 @@
+{
+  "additional_findings": [
+    {
+      "id": "R7",
+      "problem": "Calibração na ponta baixa",
+      "status": "VALIDACAO_ENEM_PENDENTE"
+    },
+    {
+      "id": "R8",
+      "problem": "Comparações múltiplas",
+      "status": "CATEGORIAS_CONTINUAM_DESCRITIVAS"
+    },
+    {
+      "id": "R9",
+      "problem": "Viés da política do tutor",
+      "status": "LIMITACAO_PRESERVADA_NO_TRANSPORTE"
+    }
+  ],
+  "priority_findings": [
+    {
+      "accept": "346860 brutos, 214417 válidos, 4003 estudantes, 56 habilidades, split 2802/601/600 e oito representações lógicas iguais; modelos dentro de 1e-4 e NLL 1e-8.",
+      "audit_page": "6",
+      "evidence": "reports/reconstrucao.json; reports/execucao_source_only.json; reports/reproducao_treinamento.json; tests/B_dados; tests/C_treinamento",
+      "id": "P1",
+      "problem": "Reprodução externa inviável com o pacote entregue",
+      "reject": "Qualquer divergência não explicada de fonte, eventos, sequências, split, seleção ou parâmetros.",
+      "status": "CORRIGIDO_NO_MODO_SOURCE_ONLY",
+      "treatment": "Reconstrução somente a partir do CSV verificado; identidades alternativas determinísticas e hashes canônicos sem chave antiga."
+    },
+    {
+      "accept": "IC95 superior <0 favorece BKT nesse grupo; IC contendo zero é inconclusivo; IC inferior >0 favorece histórico.",
+      "audit_page": "6",
+      "evidence": "reports/comparacao_estatistica.json; evidence/logs/comparacao_estatistica.log; tests/E_avaliacao",
+      "id": "P2",
+      "problem": "Comparação principal limitada a baseline por habilidade",
+      "reject": "Alegar ganho sem perdas individuais alinhadas, quebrar agrupamento por aluno ou apresentar análise como pré-registrada.",
+      "status": "COMPLEMENTADO_POS_HOC_GANHO_GLOBAL_E_CONTRAPONTOS",
+      "treatment": "Delta pareado BKT menos histórico suavizado, 2000 reamostragens de estudantes, incluindo os dois grupos extremos."
+    },
+    {
+      "accept": "Interface, persistência e consentimento passam nos testes; implantação real exige backend conectado e evidência local ENEM.",
+      "audit_page": "6",
+      "evidence": "integration/contrato_frontend.json; bkt04/adaptador.py; bkt04/motor.py; reports/demo_integracao.json; tests/D_integracao",
+      "id": "P3",
+      "problem": "Conclusões não demonstram aplicação ao Gabaritei e ENEM",
+      "reject": "Declarar modelo calibrado no ENEM ou integração na aplicação sem execução na aplicação real.",
+      "status": "MITIGADO_NO_MODULO_APLICACAO_REAL_PENDENTE",
+      "treatment": "Inspeção do frontend real, adaptador para Envios/Correção, motor independente com SQLite e namespace ENEM encaminhado a fallback."
+    },
+    {
+      "accept": "Os cinco G altos e sete casos de fronteira usam fallback; nenhum caso bloqueado recebe domínio BKT para controlar dificuldade.",
+      "audit_page": "6",
+      "evidence": "models/elegibilidade_integracao.json; reports/elegibilidade_habilidades.csv; tests/D_integracao/test_engine.py",
+      "id": "P4",
+      "problem": "Parâmetros pouco plausíveis atravessam as categorias históricas",
+      "reject": "Categoria A/B autorizar sozinha a política ou algum bloqueado operar como BKT.",
+      "status": "CORRIGIDO_COM_GATE_CONSERVADOR",
+      "treatment": "Gate operacional adicional bloqueia G≥0.5, S≥0.5, fronteira, categoria C/D, intervalos amplos e evidência preditiva insuficiente."
+    },
+    {
+      "accept": "Para futura confirmação prospectiva, exigir registro verificável externo anterior ao acesso a dados novos.",
+      "audit_page": "6",
+      "evidence": "reports/protocolo_missao04.json; evidence/protocolo_hash.json; comunicação no chat",
+      "id": "P5",
+      "problem": "Anterioridade do protocolo histórico não tem prova externa",
+      "reject": "Tratar logs próprios ou registro criado depois como prova retroativa de anterioridade das Fases01–03.",
+      "status": "LIMITACAO_HISTORICA_PENDENTE_MITIGACAO_NESTA_RODADA",
+      "treatment": "Preservação do protocolo anterior; nova análise é explicitamente posterior ao teste; hash da Missão04 registrado no chat antes das análises."
+    },
+    {
+      "accept": "A/D passam em venv só com biblioteca padrão; coleta completa sem dados distingue aprovados e bloqueados; com dados todos passam.",
+      "audit_page": "7",
+      "evidence": "testar.py; evidence/tests/all.json; evidence/tests/sem_dados.json; evidence/tests/stdlib_AD.json",
+      "id": "P6",
+      "problem": "Suítes dependem dos dados privados para coleta e execução",
+      "reject": "Erro de importação por variável ausente, ausência de coleta ou contagem de bloqueados como aprovados.",
+      "status": "CORRIGIDO_COM_GRUPOS_INDEPENDENTES",
+      "treatment": "Grupos independentes A matemática, B dados, C treino, D integração e E avaliação; ausência vira bloqueio e código 2."
+    }
+  ],
+  "source_pdf": {
+    "name": "Auditoria_BKT_Fases_01_a_03_Gabaritei.pdf",
+    "pages": 8,
+    "sha256": "f7ab6c3e02cec4e3524d883f50e3c49874990032c70d4217dc217eacba81e510"
+  }
+}

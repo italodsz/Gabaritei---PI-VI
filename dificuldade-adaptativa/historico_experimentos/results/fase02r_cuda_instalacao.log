@@ -1,0 +1,8 @@
+Looking in indexes: https://download.pytorch.org/whl/cu128
+Collecting torch==2.11.0
+  Downloading torch-2.11.0%2Bcu128-cp314-cp314-win_amd64.whl.metadata (29 kB)
+Downloading torch-2.11.0%2Bcu128-cp314-cp314-win_amd64.whl (2771.0 MB)
+   ---------------------------------------- 2.8/2.8 GB 76.1 MB/s  0:00:41
+Installing collected packages: torch
+Successfully installed torch-2.11.0+cu128
+exit=0

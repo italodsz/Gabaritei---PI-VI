@@ -1,0 +1,449 @@
+PÁGINA 1
+Auditoria independente: BKT Fases 01 a 03
+(Gabaritei PI VI)
+​Nov 11, 2026  · ​@Santoz
+Resumo executivo
+Parecer: APROVADO COM RESSALVAS. O BKT está matematicamente correto e os
+números publicados são coerentes entre si, mas não consegui reproduzir o treino nem o
+log-loss de 0,565608, porque os dados privados não vêm nos ZIPs e o CSV oficial não é
+alcançável deste ambiente.
+Três pontos decidem a leitura:
+A matemática está certa. Conferi a verossimilhança, o gradiente e o filtro com
+implementação minha. O erro máximo ficou em 1e-14, e o código de treino recupera
+parâmetros conhecidos em dados sintéticos.
+O ganho anunciado é contra um baseline fraco. A vantagem de 0,060 em log-loss é
+sobre uma taxa constante por habilidade. Contra o histórico suavizado do aluno, a
+vantagem cai para 0,017 e não tem intervalo de confiança.
+Nada aqui fala do ENEM nem de recomendação de dificuldade. As três fases medem
+previsão de acerto em 56 habilidades do ASSISTments. A pergunta das auditorias
+anteriores, se o BKT recomenda melhor que uma regra simples, continua sem
+resposta.
+Esta é uma auditoria automatizada. Ela não substitui revisão científica humana.
+Fase 01: preparação dos dados
+Pelo código e pelos agregados, a preparação está correta e sem vazamento entre treino,
+validação e teste. Esta parte é análise estática: não executei o pipeline, porque ele precisa
+do CSV oficial.
+Fonte: ASSISTments Skill Builder 2009 a 2010, edição corrigida colapsada, com SHA-
+256 congelado. É a edição certa: a original tem duplicatas conhecidas.
+Filtros: dos 346.860 registros, saem 63.755 sem habilidade, 47.037 com habilidade
+composta, 21.643 de andaime e 8 de resposta aberta. Ficam 214.417 eventos (61,8%).
+Os motivos são exclusivos e a soma fecha.
+Duplicatas e conflitos: a chave é estudante mais ordem. Projeções idênticas mantêm
+a primeira linha, e conflitos são excluídos em bloco. O manifesto registra zero
+ocorrências nessa edição.
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 1 of 8
+
+
+PÁGINA 2
+Split: por estudante, ordenado por SHA-256 da semente com o ID original, em 2.802,
+601 e 600. Independe de respostas e da chave de pseudônimo, então é reproduzível
+por terceiros.
+Seleção das 56 habilidades: a função recusa qualquer evento que não seja de treino.
+Recalculei a regra (100 estudantes, 30 sequências com 5 ou mais eventos, 50 acertos,
+50 erros) a partir dos indicadores publicados e deu as mesmas 56, sem divergência.
+Rastreabilidade: cada evento guarda a linha de origem do CSV, e os oito arquivos
+privados têm hash no manifesto.
+Duas ressalvas. A base tem regra de parada por domínio e ordem sem timestamp, o que os
+relatórios declaram. E 8.802 dos 9.264 itens do teste também aparecem no treino, o que
+não afeta o BKT (ele não tem parâmetro por item), mas significa que o teste mede alunos
+novos, não questões novas.
+Fase 02: matemática e treinamento
+A implementação do BKT está correta e corresponde ao que os relatórios descrevem. O
+que não pude confirmar foi o ajuste nos dados reais.
+Modelo: BKT clássico de dois estados, com domínio inicial L0, aprendizado T, acerto
+casual G e erro S por habilidade. O esquecimento é fixado em zero por desenho, não é
+estimado.
+Fórmulas: a previsão é m(1−S) + (1−m)G, a atualização é de Bayes seguida da transição
+m + (1−m)T. Os exemplos da especificação batem: 0,375, 0,64, 0,136 e 0,1845.
+Verossimilhança: comparei com uma enumeração de estados escrita por mim em 60
+conjuntos aleatórios. A maior diferença foi 1,7e-15. O gradiente analítico difere de
+diferenças finitas em 1,2e-8.
+Sem olhar o futuro: em 200 sequências, alterar a resposta atual e as seguintes não
+muda a previsão.
+Foi treinado de verdade: o ajuste é máxima verossimilhança por SLSQP, com 20
+inicializações por habilidade. Os arquivos trazem as 1.120 execuções, todas
+convergentes, e o modelo publicado é sempre a de menor perda. As 5.600 réplicas de
+bootstrap também estão no pacote.
+Recuperação de parâmetros: em seis conjuntos sintéticos gerados por mim, o código
+recuperou os quatro parâmetros com erro de até 0,03, inclusive com regra de parada
+após três acertos.
+Sobreajuste: não há sinal. A perda média é 0,5674 no treino, 0,5651 na validação e
+0,5656 no teste. Com quatro parâmetros por habilidade isso é o esperado.
+Consistência com a Fase 01: eventos, sequências, estudantes e acertos por
+habilidade coincidem nas 56.
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 2 of 8
+
+
+PÁGINA 3
+O ponto fraco é a identificabilidade, que os próprios relatórios admitem: 28 habilidades
+têm intervalo de parâmetro mais largo que 0,30 e 7 estão na fronteira numérica. Somam-se
+a isso cinco habilidades com G acima de 0,5 (ver "Problemas").
+Fase 03: avaliação
+O protocolo de avaliação é bem montado e os números publicados fecham por dentro,
+mas a conclusão "BKT melhor" depende de qual baseline se olha.
+O que está bem feito:
+Congelamento: o hash do protocolo confere, e os 13 arquivos travados (código,
+modelos, critérios) batem com os hashes registrados. Os modelos são idênticos aos
+da Fase 02.
+Métricas: log-loss, Brier, acurácia, ECE e AUC estão implementados corretamente. O
+bootstrap reamostra estudantes inteiros e usa a mesma amostra para todos os
+métodos.
+Seleção sem teste: os parâmetros vêm só do treino, e a calibração foi decidida só na
+validação (e rejeitada). O carregador da Fase 02 recusa abrir o teste.
+Categorias: reapliquei a regra do protocolo aos resultados publicados e obtive as
+mesmas 56 classificações: 21 A, 14 B, 21 C e nenhuma D.
+Honestidade: falhas iniciais, ECE pior que o baseline e a revisão externa pendente
+estão declaradas.
+O que enfraquece a conclusão:
+O baseline oficial é uma constante por habilidade. Qualquer modelo que use o
+histórico do aluno ganha dele. O comparador justo é o histórico suavizado, e aí a
+vantagem é de 0,017 em log-loss, tratada como exploratória e sem intervalo pareado.
+Ainda assim o BKT parece melhor. Ele vence o histórico suavizado em 49 das 56
+habilidades e em quase todos os recortes. Falta só o intervalo para afirmar.
+Dois recortes contra o BKT: em alunos com mais de 90% de acerto (0,338 contra
+0,313) e com menos de 10% (0,580 contra 0,468), o histórico suavizado é melhor.
+Método no teste (29.948 eventos, 585 estudantes)
+Log-loss
+Brier
+AUC
+BKT
+0,5656
+0,1913
+0,729
+Histórico suavizado do aluno
+0,5826
+0,1990
+0,714
+Taxa por habilidade (baseline oficial)
+0,6254
+0,2177
+0,610
+Taxa global
+0,6461
+0,2269
+0,500
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 3 of 8
+
+
+PÁGINA 4
+As 21 habilidades C são quase todas falta de dados: 15 por ganho inconclusivo e 10
+por menos de 30 estudantes no teste. Elas somam só 3.968 dos 29.948 eventos.
+Calibração na ponta baixa: quando o BKT prevê cerca de 18% de acerto, o observado
+é 12% (684 eventos).
+Testes executados e comparação com os originais
+Executei nove verificações de fato e não consegui executar três. Ambiente: Python 3.13.18,
+NumPy 2.5.3, SciPy 1.18.1, em cópias de trabalho, sem alterar os ZIPs. O original usou
+Python 3.14.0, NumPy 2.4.3 e SciPy 1.17.1.
+Verificação
+Tipo
+Resultado
+SHA256SUMS.txt  dos três pacotes
+Executada
+54, 249 e 358 arquivos conferem,
+nenhum divergente
+ZIP da Fase 01 embutido na Fase 02, e
+da Fase 02 na Fase 03
+Executada
+Idênticos aos enviados
+Protocolo congelado e 13 arquivos
+travados
+Executada
+Todos os hashes conferem
+Verossimilhança contra enumeração
+própria
+Executada
+Diferença máxima 1,7e-15
+Gradiente contra diferenças finitas
+Executada
+Diferença máxima 1,2e-8
+Filtro prospectivo e ausência de
+vazamento do futuro
+Executada
+Diferença máxima 1,2e-14, sem
+vazamento
+Recuperação de parâmetros em
+dados sintéticos
+Executada
+Erro de até 0,03, 20 de 20
+inicializações convergem
+Métricas micro recompostas das 56
+habilidades
+Executada
+Log-loss e Brier dos quatro
+métodos batem em 8 casas
+Baselines de taxa recalculados do
+zero
+Executada
+Erro máximo 1,8e-15
+Suítes de teste dos pacotes (15, 25 e
+32 testes)
+Não
+executada
+Só 8 dos 32 da Fase 03 rodam; o
+resto falha na importação sem
+BKT_SOURCE  e BKT_PRIVATE
+Retreino das 56 habilidades
+Não
+executada
+Faltam as sequências privadas
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 4 of 8
+
+
+PÁGINA 5
+Comparação dos números pedidos:
+O que falta, exatamente: a pasta privada da Fase 01 ( manifesto_local.json ,
+estudantes.jsonl , exclusoes.csv  e os seis JSONL de eventos e sequências) ou o
+arquivo skill_builder_data_corrected_collapsed.csv , de 64.412.812 bytes.
+Problemas por gravidade
+Não encontrei erro matemático nem de implementação. Os problemas são de
+reprodutibilidade, de escolha de baseline e de alcance das conclusões.
+Verificação
+Tipo
+Resultado
+Avaliação congelada no teste
+Não
+executada
+Faltam os arquivos de teste com os
+hashes originais
+Item
+Relatório original
+Nesta auditoria
+Log-loss do BKT no teste
+0,565608
+0,56560806, recomposto dos
+resultados por habilidade. Não
+recalculado das previsões
+Log-loss da taxa por
+habilidade
+0,625443
+0,62544293, recalculado do zero a
+partir de acertos e contagens
+Intervalos de confiança
+−0,0734 a −0,0489
+Não reproduzíveis sem os dados por
+estudante
+Classificação das 56
+habilidades
+21 A, 14 B, 21 C
+Idêntica, reaplicando a regra aos
+resultados publicados
+Parâmetros das 56
+habilidades
+Reprodução "exata"
+declarada
+Não reproduzidos. Conferi só que
+cada um é a melhor das 20
+inicializações registradas
+Hashes e artefatos
+Íntegros
+Íntegros
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 5 of 8
+
+
+PÁGINA 6
+Gravidade
+Problema
+Evidência
+Correção
+Alta
+Reprodução externa
+inviável com o que foi
+entregue
+Os dados privados ficam
+fora dos ZIPs. O
+avaliador congelado
+exige os hashes
+originais, que dependem
+de uma chave local de
+pseudônimo
+Entregar ao auditor a
+pasta privada, ou criar
+um modo de
+reprodução que
+reconstrói do CSV e
+compara agregados e
+parâmetros, sem exigir
+os hashes individuais
+Alta
+Hipótese principal
+testada contra baseline
+fraco
+Taxa constante por
+habilidade: 0,6254.
+Histórico suavizado:
+0,5826. BKT: 0,5656. Só a
+primeira diferença tem
+intervalo
+Calcular o intervalo
+pareado de BKT menos
+histórico suavizado
+com as previsões já
+salvas. Registrar como
+análise posterior ao
+teste, sem mudar o
+protocolo
+Alta
+As conclusões não
+chegam ao Gabaritei
+Os 56 modelos são de
+habilidades do
+ASSISTments, sem
+mapeamento para o
+ENEM. A métrica é
+previsão de acerto, não
+qualidade de
+recomendação
+Tratar como validação
+do motor em base
+externa. Não
+apresentar como
+"modelo treinado para o
+ENEM"
+Média
+Parâmetros sem sentido
+pedagógico passam na
+classificação
+Cinco habilidades têm G
+acima de 0,5 (51: 0,757;
+84: 0,580; 50: 0,525; 58:
+0,522; 308: 0,503). A
+habilidade 50 ficou na
+categoria A e a 51 na B
+Acrescentar um alerta
+de plausibilidade (G e S
+abaixo de 0,5) que
+rebaixa a categoria, ou
+reajustar com esse
+limite numa versão
+nova do modelo
+Média
+Congelamento antes do
+teste não é verificável
+por terceiros
+O registro de acesso é
+gravado pelo próprio
+pipeline. O protocolo foi
+congelado menos de um
+segundo antes da
+abertura do teste, e a
+Fase 03 inteira rodou em
+cerca de 25 minutos
+Para próximas fases,
+publicar o hash do
+protocolo em lugar
+externo (commit ou
+mensagem ao grupo)
+antes de abrir o teste
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 6 of 8
+
+
+PÁGINA 7
+Sobre o PROTOCOLO_CLAUDE_CODE.md : ele é correto no que pede, mas tem uma deficiência.
+As etapas A e B pressupõem a pasta privada, e o protocolo não oferece caminho para
+quem só tem os ZIPs. Também não pede o teste mais informativo, que é a comparação
+pareada com o histórico suavizado.
+Limitações e verificações pendentes
+O que este relatório não cobre é justamente a reprodução com dados, então o parecer
+vale para código, matemática e coerência dos artefatos.
+Outras limitações. Usei versões de Python, NumPy e SciPy diferentes das originais, o que
+não afetou as checagens de matemática. A afirmação de que o teste não foi consultado
+antes do congelamento se apoia no código e nos registros do próprio pacote. Não achei
+Gravidade
+Problema
+Evidência
+Correção
+Média
+Suítes de teste não
+rodam sem os dados
+privados
+Fase 01: 0 testes
+coletados. Fase 02: 0.
+Fase 03: 8 de 32
+Separar os testes de
+matemática, que não
+precisam de dados, dos
+testes de dados
+Média
+Calibração pior que o
+baseline
+ECE de 0,0133 contra
+0,0122. Na faixa de 10%
+a 20% o previsto é 0,185
+e o observado 0,123
+Aceitável para previsão.
+Se a probabilidade for
+usada como limiar de
+decisão, recalibrar com
+dados locais
+Baixa
+Categorias sem controle
+de comparações
+múltiplas
+56 intervalos marginais,
+declarado no protocolo
+Manter como triagem
+descritiva, como já está
+escrito
+Baixa
+Viés da política do tutor
+Sequências param por
+domínio, então T reflete
+esse processo,
+declarado nos relatórios
+Nenhuma no
+ASSISTments. Levar em
+conta ao transportar
+parâmetros
+Reexecutar a Fase 01 a partir do CSV oficial e comparar contagens, split e as 56
+habilidades
+Retreinar as 56 habilidades e comparar parâmetros (tolerância 1e-4) e perda (1e-8)
+Reexecutar a avaliação congelada e conferir o log-loss de 0,565608 e os intervalos
+Calcular o intervalo pareado de BKT menos histórico suavizado
+Rodar as três suítes de teste com os dados privados
+Revisão científica humana, que continua pendente e não é substituída por esta
+auditoria
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 7 of 8
+
+
+PÁGINA 8
+indício contrário, mas não há prova externa.
+Parecer final e Fase 04
+APROVADO COM RESSALVAS. O trabalho é matematicamente correto, internamente
+consistente e bem documentado, inclusive nas próprias falhas. As ressalvas são a
+reprodução com dados, que ficou pendente, e o alcance das conclusões.
+Recomendação para a Fase 04: é seguro avançar se ela for uma prova de conceito de
+integração, com três condições.
+1. Dizer de onde vêm os parâmetros. São de habilidades do ASSISTments. Qualquer uso
+em habilidade do ENEM é emprestado e precisa aparecer assim na documentação e
+na apresentação.
+2. Não usar G acima de 0,5 nem as 7 habilidades de fronteira. Nelas, "domínio" não tem
+a leitura que a política de dificuldade pressupõe.
+3. Manter a regra simples como comparador. A Fase 04 liga o BKT à troca de
+dificuldade, e foi aí que as auditorias anteriores não acharam ganho sobre a regra de
+taxa de acerto. Essas três fases não mudam esse resultado.
+Para a entrega da PI VI, a frase sustentada pelos dados é: "treinamos e validamos um BKT
+em base pública real, com previsão melhor que o baseline por habilidade, e a adaptação ao
+ENEM depende de histórico local".
+Pergunta
+Resposta
+Matematicamente correto?
+Sim, verificado por implementação independente
+Tecnicamente confiável?
+Sim no código e nos artefatos. Reprodução com
+dados pendente
+Cientificamente defensável?
+Sim para "o BKT prevê acerto no ASSISTments
+melhor que uma taxa por habilidade". Ainda não
+para "melhor que o histórico do aluno"
+Robusto para a Fase 04?
+Como motor de inferência, sim. Como evidência de
+que funciona no Gabaritei, não
+Auditoria independente: BKT Fases 01 a 03 (Gabaritei PI VI)
+Page 8 of 8

@@ -1,0 +1,1246 @@
+{
+  "16": [
+    {
+      "delta_log_likelihood": -2.000399845769607e-11,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.470162852140767,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.931102393637049,
+        "S": 0.1352248235257666,
+        "T": 0.3391123331412844
+      },
+      "validation_prediction_rmse": 2.5722327767618164e-07
+    },
+    {
+      "delta_log_likelihood": 0.01057815885507185,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.001,
+      "mean_nll": 0.47018093446363035,
+      "parameters": {
+        "G": 0.001,
+        "L0": 0.9308942228916748,
+        "S": 0.13514630389092025,
+        "T": 0.3393661382068676
+      },
+      "validation_prediction_rmse": 0.0018880579375986147
+    },
+    {
+      "delta_log_likelihood": 0.05636045172112053,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.005,
+      "mean_nll": 0.4702591947933159,
+      "parameters": {
+        "G": 0.005,
+        "L0": 0.9299391345905771,
+        "S": 0.1347731339705636,
+        "T": 0.3404763757222975
+      },
+      "validation_prediction_rmse": 0.008781844574831981
+    },
+    {
+      "delta_log_likelihood": 0.11082966489345064,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.01,
+      "mean_nll": 0.47035230455942245,
+      "parameters": {
+        "G": 0.01,
+        "L0": 0.9286833942908251,
+        "S": 0.13426423750897098,
+        "T": 0.34185414035052497
+      },
+      "validation_prediction_rmse": 0.015037198363291635
+    },
+    {
+      "delta_log_likelihood": 0.2572006751866504,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.025,
+      "mean_nll": 0.4706025114146245,
+      "parameters": {
+        "G": 0.025,
+        "L0": 0.9245252129951765,
+        "S": 0.13247902006285295,
+        "T": 0.345818473586993
+      },
+      "validation_prediction_rmse": 0.02617531204261776
+    },
+    {
+      "delta_log_likelihood": 0.45533396235687196,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.05,
+      "mean_nll": 0.47094120079440266,
+      "parameters": {
+        "G": 0.05,
+        "L0": 0.9165875319771772,
+        "S": 0.12890547143597011,
+        "T": 0.3514729901388421
+      },
+      "validation_prediction_rmse": 0.035289313796496455
+    },
+    {
+      "delta_log_likelihood": 0.7764037961265985,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.1,
+      "mean_nll": 0.47149003811708595,
+      "parameters": {
+        "G": 0.1,
+        "L0": 0.8992345659195002,
+        "S": 0.12152425947130577,
+        "T": 0.3587643727094276
+      },
+      "validation_prediction_rmse": 0.043799539494623105
+    },
+    {
+      "delta_log_likelihood": 2.044956072869455,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.25,
+      "mean_nll": 0.4736585035474156,
+      "parameters": {
+        "G": 0.25,
+        "L0": 0.8432716006613472,
+        "S": 0.10506184062720848,
+        "T": 0.35762834603031607
+      },
+      "validation_prediction_rmse": 0.05323808170943038
+    },
+    {
+      "delta_log_likelihood": 5.683501220438659,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.5,
+      "mean_nll": 0.4798782388424057,
+      "parameters": {
+        "G": 0.5,
+        "L0": 0.67364562939604,
+        "S": 0.07583372746353835,
+        "T": 0.3019787962957386
+      },
+      "validation_prediction_rmse": 0.06581335193410855
+    },
+    {
+      "delta_log_likelihood": 13.605164766965745,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.75,
+      "mean_nll": 0.4934195440501443,
+      "parameters": {
+        "G": 0.75,
+        "L0": 0.0848729953068829,
+        "S": 0.002337222683829761,
+        "T": 0.160600662168688
+      },
+      "validation_prediction_rmse": 0.08650396741138304
+    },
+    {
+      "delta_log_likelihood": 108.29780893513912,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.95,
+      "mean_nll": 0.6552873118589877,
+      "parameters": {
+        "G": 0.95,
+        "L0": 0.0001,
+        "S": 0.039999999999857185,
+        "T": 0.00010000000000000286
+      },
+      "validation_prediction_rmse": 0.16761058262893316
+    }
+  ],
+  "307": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.4052140675245402,
+      "parameters": {
+        "G": 0.21919202027861295,
+        "L0": 0.973098571894473,
+        "S": 0.11897624314452822,
+        "T": 0.0001
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.00377080841077454,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.001,
+      "mean_nll": 0.40522032093815674,
+      "parameters": {
+        "G": 0.2190626318713709,
+        "L0": 0.9730466472651959,
+        "S": 0.11895434499325937,
+        "T": 0.001
+      },
+      "validation_prediction_rmse": 0.0004912104568545368
+    },
+    {
+      "delta_log_likelihood": 0.020763174413634566,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.005,
+      "mean_nll": 0.40524850064960427,
+      "parameters": {
+        "G": 0.21850920790147169,
+        "L0": 0.9728175887859875,
+        "S": 0.11886152836132513,
+        "T": 0.005
+      },
+      "validation_prediction_rmse": 0.002598752356207821
+    },
+    {
+      "delta_log_likelihood": 0.04253993912406462,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.01,
+      "mean_nll": 0.4052846146872667,
+      "parameters": {
+        "G": 0.21782732143787548,
+        "L0": 0.9725271747996928,
+        "S": 0.11874493550412535,
+        "T": 0.01
+      },
+      "validation_prediction_rmse": 0.00506642283456473
+    },
+    {
+      "delta_log_likelihood": 0.1114609776907941,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.025,
+      "mean_nll": 0.40539891160031266,
+      "parameters": {
+        "G": 0.21594089026065194,
+        "L0": 0.9716363051074067,
+        "S": 0.11838664832388199,
+        "T": 0.025
+      },
+      "validation_prediction_rmse": 0.011564338594227775
+    },
+    {
+      "delta_log_likelihood": 0.23841261733104901,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.05,
+      "mean_nll": 0.4056094449993844,
+      "parameters": {
+        "G": 0.21320797487971227,
+        "L0": 0.9700826931997834,
+        "S": 0.11777555594981981,
+        "T": 0.05
+      },
+      "validation_prediction_rmse": 0.02026469543734345
+    },
+    {
+      "delta_log_likelihood": 0.5388024555486021,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.1,
+      "mean_nll": 0.40610760393506856,
+      "parameters": {
+        "G": 0.20899307763816888,
+        "L0": 0.9667446263378897,
+        "S": 0.11651400675589364,
+        "T": 0.1
+      },
+      "validation_prediction_rmse": 0.03315027741390707
+    },
+    {
+      "delta_log_likelihood": 1.8533742330298102,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.25,
+      "mean_nll": 0.4082876566340424,
+      "parameters": {
+        "G": 0.20081492555170732,
+        "L0": 0.9555109799768604,
+        "S": 0.1128135993510165,
+        "T": 0.25
+      },
+      "validation_prediction_rmse": 0.058873696968336185
+    },
+    {
+      "delta_log_likelihood": 5.83221892682633,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.5,
+      "mean_nll": 0.4148860723783152,
+      "parameters": {
+        "G": 0.17477638612197308,
+        "L0": 0.9431779631579629,
+        "S": 0.11205423281845409,
+        "T": 0.5
+      },
+      "validation_prediction_rmse": 0.08745708869543309
+    },
+    {
+      "delta_log_likelihood": 10.408078654228229,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.75,
+      "mean_nll": 0.42247456280518403,
+      "parameters": {
+        "G": 0.00010000000000000003,
+        "L0": 0.977173652924845,
+        "S": 0.13598718948334051,
+        "T": 0.75
+      },
+      "validation_prediction_rmse": 0.09600681905973776
+    },
+    {
+      "delta_log_likelihood": 11.501607824221828,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.95,
+      "mean_nll": 0.424288044015787,
+      "parameters": {
+        "G": 0.838571490947063,
+        "L0": 0.9999,
+        "S": 0.1509064596988641,
+        "T": 0.95
+      },
+      "validation_prediction_rmse": 0.09501407772416781
+    },
+    {
+      "delta_log_likelihood": 11.501604097439476,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "T",
+      "fixed_value": 0.9999,
+      "mean_nll": 0.4242880378353851,
+      "parameters": {
+        "G": 0.8390901961060057,
+        "L0": 0.9998999999999999,
+        "S": 0.1509098038939944,
+        "T": 0.9999
+      },
+      "validation_prediction_rmse": 0.09501385271718134
+    }
+  ],
+  "308": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.667442090029847,
+      "parameters": {
+        "G": 0.5024513817424849,
+        "L0": 0.0001,
+        "S": 0.12290022308740463,
+        "T": 0.12670326408332735
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.007017736354914206,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.001,
+      "mean_nll": 0.6674544451994859,
+      "parameters": {
+        "G": 0.5021342167647709,
+        "L0": 0.001,
+        "S": 0.12389916888571445,
+        "T": 0.12712067016238773
+      },
+      "validation_prediction_rmse": 0.00016743649588339327
+    },
+    {
+      "delta_log_likelihood": 0.037283384277223774,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.005,
+      "mean_nll": 0.6675077297908985,
+      "parameters": {
+        "G": 0.5007562826252931,
+        "L0": 0.005,
+        "S": 0.12816841371087337,
+        "T": 0.12892438959588526
+      },
+      "validation_prediction_rmse": 0.0008836469537740188
+    },
+    {
+      "delta_log_likelihood": 0.07317969000666924,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.01,
+      "mean_nll": 0.6675709275122531,
+      "parameters": {
+        "G": 0.49910280230969783,
+        "L0": 0.01,
+        "S": 0.13303971119677316,
+        "T": 0.1310190959680182
+      },
+      "validation_prediction_rmse": 0.0017043207142731797
+    },
+    {
+      "delta_log_likelihood": 0.17031163243780512,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.025,
+      "mean_nll": 0.667741934453153,
+      "parameters": {
+        "G": 0.4944043607817831,
+        "L0": 0.025,
+        "S": 0.14558718935584605,
+        "T": 0.13663424374155161
+      },
+      "validation_prediction_rmse": 0.003842891033051311
+    },
+    {
+      "delta_log_likelihood": 0.30661488311404916,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.05,
+      "mean_nll": 0.667981904964907,
+      "parameters": {
+        "G": 0.48719075366492093,
+        "L0": 0.05,
+        "S": 0.16183746802238197,
+        "T": 0.14433938480508346
+      },
+      "validation_prediction_rmse": 0.006717376427527319
+    },
+    {
+      "delta_log_likelihood": 0.5211962155058467,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.1,
+      "mean_nll": 0.668359689000808,
+      "parameters": {
+        "G": 0.47380440326155765,
+        "L0": 0.1,
+        "S": 0.18534058604465056,
+        "T": 0.1563683324099175
+      },
+      "validation_prediction_rmse": 0.01128195352660666
+    },
+    {
+      "delta_log_likelihood": 0.9696842472856053,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.25,
+      "mean_nll": 0.669149280606054,
+      "parameters": {
+        "G": 0.434957940949988,
+        "L0": 0.25,
+        "S": 0.22952586537777572,
+        "T": 0.18075602975002497
+      },
+      "validation_prediction_rmse": 0.022445469254263356
+    },
+    {
+      "delta_log_likelihood": 1.6282670946746896,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.5,
+      "mean_nll": 0.6703087574500489,
+      "parameters": {
+        "G": 0.3641709081560889,
+        "L0": 0.5,
+        "S": 0.2796769356592629,
+        "T": 0.20104052107588524
+      },
+      "validation_prediction_rmse": 0.04119346125880378
+    },
+    {
+      "delta_log_likelihood": 2.776689873936932,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.75,
+      "mean_nll": 0.6723306285402993,
+      "parameters": {
+        "G": 0.2882128862227726,
+        "L0": 0.75,
+        "S": 0.3297295658559223,
+        "T": 0.18674735371465848
+      },
+      "validation_prediction_rmse": 0.06266527830070324
+    },
+    {
+      "delta_log_likelihood": 4.443718212809061,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.95,
+      "mean_nll": 0.6752655375876094,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.95,
+        "S": 0.40386462083607566,
+        "T": 0.9999
+      },
+      "validation_prediction_rmse": 0.06628407123907581
+    },
+    {
+      "delta_log_likelihood": 5.749731527814581,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.9999,
+      "mean_nll": 0.6775648568041684,
+      "parameters": {
+        "G": 0.085200528331732,
+        "L0": 0.9999,
+        "S": 0.4119336931669308,
+        "T": 0.23366357378658617
+      },
+      "validation_prediction_rmse": 0.0736337163322399
+    }
+  ],
+  "322": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.6478205410118797,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.9023050386997918,
+        "S": 0.3840108323906377,
+        "T": 0.10767800290289319
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.03735488731291958,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.001,
+      "mean_nll": 0.6478680059258732,
+      "parameters": {
+        "G": 0.001,
+        "L0": 0.9019862815727864,
+        "S": 0.38390105273623537,
+        "T": 0.10772584738555857
+      },
+      "validation_prediction_rmse": 0.00043204211282820337
+    },
+    {
+      "delta_log_likelihood": 0.20531445664981351,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.005,
+      "mean_nll": 0.648081423421854,
+      "parameters": {
+        "G": 0.005,
+        "L0": 0.9005864582390645,
+        "S": 0.38342555340770457,
+        "T": 0.10793870589807225
+      },
+      "validation_prediction_rmse": 0.00230109556037768
+    },
+    {
+      "delta_log_likelihood": 0.41902141392462433,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.01,
+      "mean_nll": 0.6483529697462185,
+      "parameters": {
+        "G": 0.01,
+        "L0": 0.8988369524616495,
+        "S": 0.38284250766552463,
+        "T": 0.10819651092478794
+      },
+      "validation_prediction_rmse": 0.004524990094928867
+    },
+    {
+      "delta_log_likelihood": 1.0753126010215495,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.025,
+      "mean_nll": 0.6491868848505348,
+      "parameters": {
+        "G": 0.025,
+        "L0": 0.8934850958038538,
+        "S": 0.38108079508410686,
+        "T": 0.10884703860461531
+      },
+      "validation_prediction_rmse": 0.010581131200647773
+    },
+    {
+      "delta_log_likelihood": 2.171918657087869,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.05,
+      "mean_nll": 0.6505802851759049,
+      "parameters": {
+        "G": 0.05,
+        "L0": 0.8837293314222672,
+        "S": 0.37775126497810846,
+        "T": 0.10909071178005686
+      },
+      "validation_prediction_rmse": 0.019203912685458034
+    },
+    {
+      "delta_log_likelihood": 4.184331618756884,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.1,
+      "mean_nll": 0.6531373537421934,
+      "parameters": {
+        "G": 0.1,
+        "L0": 0.8597999008496768,
+        "S": 0.3681138832718618,
+        "T": 0.10508487384537103
+      },
+      "validation_prediction_rmse": 0.03358408616148556
+    },
+    {
+      "delta_log_likelihood": 10.061156811360277,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.25,
+      "mean_nll": 0.6606047300987415,
+      "parameters": {
+        "G": 0.25,
+        "L0": 0.7690915246821158,
+        "S": 0.3294968592490344,
+        "T": 0.07610610354274762
+      },
+      "validation_prediction_rmse": 0.07477217276476034
+    },
+    {
+      "delta_log_likelihood": 26.468264468502188,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.5,
+      "mean_nll": 0.6814523891294174,
+      "parameters": {
+        "G": 0.5,
+        "L0": 0.4429645488948774,
+        "S": 0.2843513146526803,
+        "T": 0.011583550684694884
+      },
+      "validation_prediction_rmse": 0.13706235745081638
+    },
+    {
+      "delta_log_likelihood": 116.4724825811954,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.75,
+      "mean_nll": 0.7958160716106032,
+      "parameters": {
+        "G": 0.75,
+        "L0": 0.0001,
+        "S": 0.23999999999785868,
+        "T": 0.00010000000000000286
+      },
+      "validation_prediction_rmse": 0.27380041331357613
+    },
+    {
+      "delta_log_likelihood": 602.3378442527405,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.95,
+      "mean_nll": 1.4131799365045614,
+      "parameters": {
+        "G": 0.95,
+        "L0": 0.00010000000000005323,
+        "S": 0.040000000000000036,
+        "T": 0.0001
+      },
+      "validation_prediction_rmse": 0.4563907442832978
+    }
+  ],
+  "323": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.3266059353931377,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.8129257636547013,
+        "S": 0.07515228155259249,
+        "T": 0.9785473667197285
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 4.38327083376322e-05,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.001,
+      "mean_nll": 0.32660600062038225,
+      "parameters": {
+        "G": 0.001,
+        "L0": 0.8127436279360958,
+        "S": 0.07515208175885495,
+        "T": 0.9785445139150158
+      },
+      "validation_prediction_rmse": 2.7186239932957816e-06
+    },
+    {
+      "delta_log_likelihood": 0.00023950575566544785,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.005,
+      "mean_nll": 0.3266062918005122,
+      "parameters": {
+        "G": 0.005,
+        "L0": 0.8119292871001341,
+        "S": 0.07515007416607568,
+        "T": 0.9785005100842435
+      },
+      "validation_prediction_rmse": 1.2422631159002118e-05
+    },
+    {
+      "delta_log_likelihood": 0.0004861728583236413,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.01,
+      "mean_nll": 0.32660665886465307,
+      "parameters": {
+        "G": 0.01,
+        "L0": 0.8108990230726554,
+        "S": 0.07514487630583307,
+        "T": 0.9784444317659642
+      },
+      "validation_prediction_rmse": 2.4136978373083003e-05
+    },
+    {
+      "delta_log_likelihood": 0.001239847742153799,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.025,
+      "mean_nll": 0.32660778040465877,
+      "parameters": {
+        "G": 0.025,
+        "L0": 0.8077531591476613,
+        "S": 0.07514065357013468,
+        "T": 0.978314805995631
+      },
+      "validation_prediction_rmse": 6.423270083541676e-05
+    },
+    {
+      "delta_log_likelihood": 0.002543475994023936,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.05,
+      "mean_nll": 0.3266097203276526,
+      "parameters": {
+        "G": 0.05,
+        "L0": 0.8022595007188037,
+        "S": 0.0751306123524548,
+        "T": 0.9780812450504577
+      },
+      "validation_prediction_rmse": 0.00013056987276593518
+    },
+    {
+      "delta_log_likelihood": 0.005339987353076836,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.1,
+      "mean_nll": 0.3266138818028893,
+      "parameters": {
+        "G": 0.1,
+        "L0": 0.7902756200664953,
+        "S": 0.07511009211901969,
+        "T": 0.9776386803324764
+      },
+      "validation_prediction_rmse": 0.0002696817362723504
+    },
+    {
+      "delta_log_likelihood": 0.01547256022448984,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.25,
+      "mean_nll": 0.3266289600363289,
+      "parameters": {
+        "G": 0.25,
+        "L0": 0.7437215689973818,
+        "S": 0.0750675543174899,
+        "T": 0.9767556392923807
+      },
+      "validation_prediction_rmse": 0.000744681164269429
+    },
+    {
+      "delta_log_likelihood": 0.038857714754898964,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.5,
+      "mean_nll": 0.32666375937342773,
+      "parameters": {
+        "G": 0.5,
+        "L0": 0.5933550116006612,
+        "S": 0.07519469169848708,
+        "T": 0.9796980054266393
+      },
+      "validation_prediction_rmse": 0.0016716040401080997
+    },
+    {
+      "delta_log_likelihood": 0.056885796822738754,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.75,
+      "mean_nll": 0.3266905868765049,
+      "parameters": {
+        "G": 0.75,
+        "L0": 0.010815556169730012,
+        "S": 0.07606275320251356,
+        "T": 0.9999
+      },
+      "validation_prediction_rmse": 0.002377726534091614
+    },
+    {
+      "delta_log_likelihood": 32.88029239633397,
+      "distance_to_lower": 0.0,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.95,
+      "mean_nll": 0.37553494193530135,
+      "parameters": {
+        "G": 0.95,
+        "L0": 0.0001,
+        "S": 0.03999999999999993,
+        "T": 0.0001
+      },
+      "validation_prediction_rmse": 0.10115789464484035
+    }
+  ],
+  "84": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.4562026133039816,
+      "parameters": {
+        "G": 0.580100059174217,
+        "L0": 0.0001,
+        "S": 0.09050880831583523,
+        "T": 0.5191137298217029
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.00010000000000000007,
+      "mean_nll": 0.4562026133039816,
+      "parameters": {
+        "G": 0.580100059174217,
+        "L0": 0.00010000000000000007,
+        "S": 0.09050880831583523,
+        "T": 0.5191137298217029
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.0011527295261637427,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.001,
+      "mean_nll": 0.45620502487202796,
+      "parameters": {
+        "G": 0.5798275460458069,
+        "L0": 0.001,
+        "S": 0.09053001223214724,
+        "T": 0.5192551296572856
+      },
+      "validation_prediction_rmse": 4.010418922271754e-05
+    },
+    {
+      "delta_log_likelihood": 0.006355492225192161,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.005,
+      "mean_nll": 0.4562159093128209,
+      "parameters": {
+        "G": 0.5785702134225167,
+        "L0": 0.005,
+        "S": 0.0906093768337969,
+        "T": 0.5199837890205177
+      },
+      "validation_prediction_rmse": 0.00020890340520606795
+    },
+    {
+      "delta_log_likelihood": 0.01304282162544912,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.01,
+      "mean_nll": 0.45622989954169174,
+      "parameters": {
+        "G": 0.5769846527942679,
+        "L0": 0.01,
+        "S": 0.09072514119004305,
+        "T": 0.5209200401218876
+      },
+      "validation_prediction_rmse": 0.0004208188246469435
+    },
+    {
+      "delta_log_likelihood": 0.034343906217555786,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.025,
+      "mean_nll": 0.45627446248016895,
+      "parameters": {
+        "G": 0.5721533001888994,
+        "L0": 0.025,
+        "S": 0.0910735583659183,
+        "T": 0.5237746558009836
+      },
+      "validation_prediction_rmse": 0.001060523501085709
+    },
+    {
+      "delta_log_likelihood": 0.07405449465007785,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.05,
+      "mean_nll": 0.45635753902500686,
+      "parameters": {
+        "G": 0.5638020408103503,
+        "L0": 0.05,
+        "S": 0.09171371660939917,
+        "T": 0.528972312724532
+      },
+      "validation_prediction_rmse": 0.002126227930291246
+    },
+    {
+      "delta_log_likelihood": 0.16980996609343613,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.1,
+      "mean_nll": 0.45655786427907247,
+      "parameters": {
+        "G": 0.5458808189608131,
+        "L0": 0.1,
+        "S": 0.0931936284454957,
+        "T": 0.5408055388600643
+      },
+      "validation_prediction_rmse": 0.00426382525708633
+    },
+    {
+      "delta_log_likelihood": 0.5987997030898635,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.25,
+      "mean_nll": 0.45745533234810265,
+      "parameters": {
+        "G": 0.48020072771207445,
+        "L0": 0.25,
+        "S": 0.09895846156562615,
+        "T": 0.5870399848665404
+      },
+      "validation_prediction_rmse": 0.010746216275190915
+    },
+    {
+      "delta_log_likelihood": 1.8952321306919626,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.5,
+      "mean_nll": 0.4601675340794878,
+      "parameters": {
+        "G": 0.30034508278678357,
+        "L0": 0.5,
+        "S": 0.11223163648159419,
+        "T": 0.7032481079795941
+      },
+      "validation_prediction_rmse": 0.021655499423202502
+    },
+    {
+      "delta_log_likelihood": 4.679755180170262,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.75,
+      "mean_nll": 0.4659928961076851,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.75,
+        "S": 0.13228763604786525,
+        "T": 0.8378800847083095
+      },
+      "validation_prediction_rmse": 0.047816415547821414
+    },
+    {
+      "delta_log_likelihood": 18.563757067817484,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.95,
+      "mean_nll": 0.49503892516134035,
+      "parameters": {
+        "G": 0.00010000000000011984,
+        "L0": 0.95,
+        "S": 0.18143747702158317,
+        "T": 0.7547628028008135
+      },
+      "validation_prediction_rmse": 0.11813443190874752
+    },
+    {
+      "delta_log_likelihood": 24.403543684369218,
+      "distance_to_lower": 6.776263578034403e-20,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "L0",
+      "fixed_value": 0.9999,
+      "mean_nll": 0.5072560519742101,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.9999,
+        "S": 0.20494357514606396,
+        "T": 0.5090045137910106
+      },
+      "validation_prediction_rmse": 0.1338638781079776
+    }
+  ],
+  "91": [
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.0001,
+      "mean_nll": 0.6250177254571152,
+      "parameters": {
+        "G": 0.0001,
+        "L0": 0.9545172204743948,
+        "S": 0.29775820513530815,
+        "T": 0.17667799982383842
+      },
+      "validation_prediction_rmse": 1.5546231902119453e-17
+    },
+    {
+      "delta_log_likelihood": 0.0,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.00010000000000001792,
+      "mean_nll": 0.6250177254571152,
+      "parameters": {
+        "G": 0.00010000000000001792,
+        "L0": 0.9545172204743948,
+        "S": 0.29775820513530815,
+        "T": 0.17667799982383842
+      },
+      "validation_prediction_rmse": 0.0
+    },
+    {
+      "delta_log_likelihood": 0.003029494868428184,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.001,
+      "mean_nll": 0.6250242970294979,
+      "parameters": {
+        "G": 0.001,
+        "L0": 0.9544056631674613,
+        "S": 0.29769251295587323,
+        "T": 0.1766537439513876
+      },
+      "validation_prediction_rmse": 0.0005999272622230612
+    },
+    {
+      "delta_log_likelihood": 0.016975617397808174,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.005,
+      "mean_nll": 0.6250545489221864,
+      "parameters": {
+        "G": 0.005,
+        "L0": 0.9539145972390374,
+        "S": 0.2974090604912942,
+        "T": 0.1765499930264898
+      },
+      "validation_prediction_rmse": 0.003116775981109368
+    },
+    {
+      "delta_log_likelihood": 0.03546502597565793,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.01,
+      "mean_nll": 0.6250946560991448,
+      "parameters": {
+        "G": 0.01,
+        "L0": 0.9533125729466331,
+        "S": 0.29707138816812856,
+        "T": 0.1762916728665973
+      },
+      "validation_prediction_rmse": 0.005957493200076134
+    },
+    {
+      "delta_log_likelihood": 0.09723404589099027,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.025,
+      "mean_nll": 0.6252286452963581,
+      "parameters": {
+        "G": 0.025,
+        "L0": 0.9515628779778257,
+        "S": 0.29613255276961165,
+        "T": 0.1752407672250112
+      },
+      "validation_prediction_rmse": 0.012889803607040607
+    },
+    {
+      "delta_log_likelihood": 0.2171160085907603,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.05,
+      "mean_nll": 0.6254886929377893,
+      "parameters": {
+        "G": 0.05,
+        "L0": 0.9487816403380805,
+        "S": 0.29477640929515386,
+        "T": 0.17227044135171443
+      },
+      "validation_prediction_rmse": 0.020969969542828405
+    },
+    {
+      "delta_log_likelihood": 0.4976994026897069,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.1,
+      "mean_nll": 0.6260973337058998,
+      "parameters": {
+        "G": 0.1,
+        "L0": 0.9433218859563506,
+        "S": 0.2924274945219205,
+        "T": 0.16304152081653467
+      },
+      "validation_prediction_rmse": 0.03057638767514866
+    },
+    {
+      "delta_log_likelihood": 1.539859513092448,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.25,
+      "mean_nll": 0.6283579847046042,
+      "parameters": {
+        "G": 0.25,
+        "L0": 0.920157307470758,
+        "S": 0.2849659211798265,
+        "T": 0.13102062187808702
+      },
+      "validation_prediction_rmse": 0.040897783814405876
+    },
+    {
+      "delta_log_likelihood": 4.160924867321568,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.5,
+      "mean_nll": 0.6340435928482683,
+      "parameters": {
+        "G": 0.5,
+        "L0": 0.7784421652670509,
+        "S": 0.26916187669377367,
+        "T": 0.07375237877352454
+      },
+      "validation_prediction_rmse": 0.043171839112576646
+    },
+    {
+      "delta_log_likelihood": 14.773959062548064,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.75,
+      "mean_nll": 0.6570653589984342,
+      "parameters": {
+        "G": 0.75,
+        "L0": 0.00010000000026439901,
+        "S": 0.24000000000000124,
+        "T": 0.0001000000012963409
+      },
+      "validation_prediction_rmse": 0.08680510841138259
+    },
+    {
+      "delta_log_likelihood": 191.9092470182919,
+      "distance_to_lower": 1.791644090032296e-17,
+      "distance_to_upper": 0.9998,
+      "fixed_parameter": "G",
+      "fixed_value": 0.95,
+      "mean_nll": 1.041306764542347,
+      "parameters": {
+        "G": 0.95,
+        "L0": 0.0001,
+        "S": 0.03999999999927789,
+        "T": 0.0001
+      },
+      "validation_prediction_rmse": 0.27774355708230214
+    }
+  ]
+}

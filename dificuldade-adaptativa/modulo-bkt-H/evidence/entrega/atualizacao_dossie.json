@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-11T19:25:44.425142+00:00",
+  "change": "Added the explicitly named consolidated dossier and README link; regenerated archive manifest.",
+  "dossier": "docs/Gabaritei_Dossie_Tecnico_Para_IA_Italo.md",
+  "dossier_sha256": "87f8cfc08bbe006f619cd905a6b806ef19773eab6a96ba6c6e39d883414ab797",
+  "source_documents": [
+    "RELATORIO_EXECUTIVO.md",
+    "RELATORIO_TECNICO.md",
+    "CONTRATOS_INTEGRACAO.md",
+    "MATRIZ_REQUISITOS.md",
+    "BRANCHES_E_INCORPORACAO.md",
+    "REPRODUCAO.md",
+    "RESULTADOS_ENTREGA.md",
+    "LIMITACOES.md",
+    "FONTES.md"
+  ],
+  "code_models_configs_unchanged": true,
+  "new_training": false,
+  "tests_rerun": false,
+  "validation": "Documentation-only update; checksum verification performed; previous execution logs retained.",
+  "previous_zip_sha256": "1da891fb9bcfeec5e1152db8096faa09418a3feb274636c21f3e45e39cd6daef",
+  "previous_zip_preserved_as": "Gabaritei_Dificuldade_Adaptativa_Entrega_anterior_1da891fb9bcf.zip"
+}

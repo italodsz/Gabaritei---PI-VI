@@ -1,0 +1,9 @@
+test_all_skills_really_exported (test_training.Training.test_all_skills_really_exported) ... ok
+test_convergence_and_initializations (test_training.Training.test_convergence_and_initializations) ... ok
+test_original_tolerances (test_training.Training.test_original_tolerances) ... ok
+test_parameter_constraints (test_training.Training.test_parameter_constraints) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.461s
+
+OK

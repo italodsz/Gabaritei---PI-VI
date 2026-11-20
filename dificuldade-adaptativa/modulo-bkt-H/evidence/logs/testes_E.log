@@ -1,0 +1,10 @@
+test_aligned_observations (test_evaluation.Evaluation.test_aligned_observations) ... ok
+test_extreme_groups (test_evaluation.Evaluation.test_extreme_groups) ... ok
+test_independent_loss_readback (test_evaluation.Evaluation.test_independent_loss_readback) ... ok
+test_student_bootstrap_replay (test_evaluation.Evaluation.test_student_bootstrap_replay) ... ok
+test_validation_policy_does_not_claim_learning (test_evaluation.Evaluation.test_validation_policy_does_not_claim_learning) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.341s
+
+OK

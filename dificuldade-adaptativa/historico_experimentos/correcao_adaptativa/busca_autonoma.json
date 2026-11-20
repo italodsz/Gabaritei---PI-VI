@@ -1,0 +1,594 @@
+{
+  "goal": 0.6,
+  "tune_seeds": [
+    211,
+    223,
+    227,
+    229
+  ],
+  "test_seeds": [
+    307,
+    311,
+    313,
+    317,
+    331,
+    337
+  ],
+  "configurations": {
+    "bkt_atual": null,
+    "taxa": null,
+    "(5, 4, 1)": [
+      5,
+      4,
+      1
+    ],
+    "(5, 4, 2)": [
+      5,
+      4,
+      2
+    ],
+    "(5, 8, 1)": [
+      5,
+      8,
+      1
+    ],
+    "(5, 8, 2)": [
+      5,
+      8,
+      2
+    ],
+    "(12, 4, 1)": [
+      12,
+      4,
+      1
+    ],
+    "(12, 4, 2)": [
+      12,
+      4,
+      2
+    ],
+    "(12, 8, 1)": [
+      12,
+      8,
+      1
+    ],
+    "(12, 8, 2)": [
+      12,
+      8,
+      2
+    ],
+    "(36, 4, 1)": [
+      36,
+      4,
+      1
+    ],
+    "(36, 4, 2)": [
+      36,
+      4,
+      2
+    ],
+    "(36, 8, 1)": [
+      36,
+      8,
+      1
+    ],
+    "(36, 8, 2)": [
+      36,
+      8,
+      2
+    ]
+  },
+  "selected": "(12, 4, 2)",
+  "validation": {
+    "logistic": {
+      "bkt_atual": {
+        "accuracy": 0.3551954732510288,
+        "outside": 0.6607510288065843,
+        "offers": 0.09816529492455418,
+        "false_change": 0.05478395061728395,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3726851851851852,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "taxa": {
+        "accuracy": 0.34233539094650206,
+        "outside": 0.6694101508916324,
+        "offers": 0.07441700960219479,
+        "false_change": 0.04835390946502058,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.34953703703703703,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 4, 1)": {
+        "accuracy": 0.3436213991769547,
+        "outside": 0.6753257887517147,
+        "offers": 0.12448559670781893,
+        "false_change": 0.09516460905349794,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.34656084656084657,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 4, 2)": {
+        "accuracy": 0.3560528120713306,
+        "outside": 0.6684670781893004,
+        "offers": 0.12448559670781893,
+        "false_change": 0.09516460905349794,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36254409171075835,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 8, 1)": {
+        "accuracy": 0.3366769547325103,
+        "outside": 0.6787551440329218,
+        "offers": 0.0889917695473251,
+        "false_change": 0.07047325102880658,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.33935185185185185,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 8, 2)": {
+        "accuracy": 0.3461934156378601,
+        "outside": 0.6737825788751715,
+        "offers": 0.0889917695473251,
+        "false_change": 0.07047325102880658,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35648148148148145,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 4, 1)": {
+        "accuracy": 0.3465363511659808,
+        "outside": 0.6707818930041153,
+        "offers": 0.12319958847736626,
+        "false_change": 0.0889917695473251,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.35030864197530864,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.3571673525377229,
+        "outside": 0.664866255144033,
+        "offers": 0.12319958847736626,
+        "false_change": 0.0889917695473251,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36397707231040566,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 8, 1)": {
+        "accuracy": 0.3395061728395062,
+        "outside": 0.6752400548696845,
+        "offers": 0.0877914951989026,
+        "false_change": 0.06507201646090535,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.34444444444444444,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 8, 2)": {
+        "accuracy": 0.3476508916323731,
+        "outside": 0.6710390946502057,
+        "offers": 0.0877914951989026,
+        "false_change": 0.06507201646090535,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35910493827160495,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 4, 1)": {
+        "accuracy": 0.3450788751714678,
+        "outside": 0.6707818930041153,
+        "offers": 0.12259945130315501,
+        "false_change": 0.09207818930041152,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.3484347442680776,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 4, 2)": {
+        "accuracy": 0.35468106995884774,
+        "outside": 0.6636659807956105,
+        "offers": 0.12259945130315501,
+        "false_change": 0.09207818930041152,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36078042328042326,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 8, 1)": {
+        "accuracy": 0.3381344307270233,
+        "outside": 0.6752400548696845,
+        "offers": 0.08693415637860083,
+        "false_change": 0.06790123456790123,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3419753086419753,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 8, 2)": {
+        "accuracy": 0.34525034293552814,
+        "outside": 0.6698388203017832,
+        "offers": 0.08693415637860083,
+        "false_change": 0.06790123456790123,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35478395061728396,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      }
+    },
+    "3pl": {
+      "bkt_atual": {
+        "accuracy": 0.35468106995884774,
+        "outside": 0.5891632373113854,
+        "offers": 0.0921639231824417,
+        "false_change": 0.052726337448559674,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.37175925925925923,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "taxa": {
+        "accuracy": 0.3449074074074074,
+        "outside": 0.5972222222222222,
+        "offers": 0.06618655692729766,
+        "false_change": 0.038580246913580245,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3541666666666667,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 4, 1)": {
+        "accuracy": 0.3497085048010974,
+        "outside": 0.5905349794238683,
+        "offers": 0.10502400548696846,
+        "false_change": 0.06352880658436214,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.35438712522045857,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 4, 2)": {
+        "accuracy": 0.3611111111111111,
+        "outside": 0.575960219478738,
+        "offers": 0.10502400548696846,
+        "false_change": 0.06352880658436214,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36904761904761907,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 8, 1)": {
+        "accuracy": 0.3449931412894376,
+        "outside": 0.5952503429355281,
+        "offers": 0.07407407407407407,
+        "false_change": 0.043467078189300415,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35432098765432096,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(5, 8, 2)": {
+        "accuracy": 0.3527949245541838,
+        "outside": 0.5848765432098766,
+        "offers": 0.07407407407407407,
+        "false_change": 0.043467078189300415,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3683641975308642,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 4, 1)": {
+        "accuracy": 0.35545267489711935,
+        "outside": 0.5862482853223594,
+        "offers": 0.10802469135802469,
+        "false_change": 0.060699588477366256,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36177248677248675,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.3642832647462277,
+        "outside": 0.5751028806584362,
+        "offers": 0.10802469135802469,
+        "false_change": 0.060699588477366256,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.37312610229276894,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 8, 1)": {
+        "accuracy": 0.35030864197530864,
+        "outside": 0.5907064471879286,
+        "offers": 0.07698902606310014,
+        "false_change": 0.04140946502057613,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3638888888888889,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(12, 8, 2)": {
+        "accuracy": 0.3560528120713306,
+        "outside": 0.5833333333333334,
+        "offers": 0.07698902606310014,
+        "false_change": 0.04140946502057613,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3742283950617284,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 4, 1)": {
+        "accuracy": 0.3500514403292181,
+        "outside": 0.59139231824417,
+        "offers": 0.10656721536351166,
+        "false_change": 0.0676440329218107,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.3548280423280423,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 4, 2)": {
+        "accuracy": 0.3563957475994513,
+        "outside": 0.5825617283950617,
+        "offers": 0.10656721536351166,
+        "false_change": 0.0676440329218107,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.36298500881834217,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 8, 1)": {
+        "accuracy": 0.3449931412894376,
+        "outside": 0.5958504801097394,
+        "offers": 0.07544581618655692,
+        "false_change": 0.048096707818930044,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35432098765432096,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      },
+      "(36, 8, 2)": {
+        "accuracy": 0.3483367626886145,
+        "outside": 0.5907064471879286,
+        "offers": 0.07544581618655692,
+        "false_change": 0.048096707818930044,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3603395061728395,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 324
+      }
+    }
+  },
+  "test": {
+    "logistic/fixed": {
+      "taxa": {
+        "accuracy": 0.34167809785093733,
+        "outside": 0.6688957475994513,
+        "offers": 0.07458847736625514,
+        "false_change": 0.04921124828532236,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3483539094650206,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_atual": {
+        "accuracy": 0.3539666209419296,
+        "outside": 0.6599794238683128,
+        "offers": 0.09807956104252401,
+        "false_change": 0.05606995884773663,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.37047325102880657,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.3565386374028349,
+        "outside": 0.6648376771833562,
+        "offers": 0.12168495656149977,
+        "false_change": 0.08916323731138547,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.3631687242798354,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "delta_vs_taxa": {
+        "gain": 0.014860539551897575,
+        "ci95": [
+          0.008516232281664381,
+          0.020976223136716963
+        ]
+      },
+      "delta_vs_bkt_atual": {
+        "gain": 0.0025720164609053507,
+        "ci95": [
+          -0.003829446730681298,
+          0.009316415180612712
+        ]
+      }
+    },
+    "logistic/closed": {
+      "taxa": {
+        "accuracy": 0.3685413808870599,
+        "outside": 0.6299154092363969,
+        "offers": 0.0503543667123914,
+        "false_change": 0.024738955823293173,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.4023662551440329,
+        "accepted_changes": 591,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_atual": {
+        "accuracy": 0.42518289894833106,
+        "outside": 0.5864197530864198,
+        "offers": 0.08139003200731595,
+        "false_change": 0.042237604181381554,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.5013374485596708,
+        "accepted_changes": 927,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.38414494741655236,
+        "outside": 0.64900548696845,
+        "offers": 0.09110653863740284,
+        "false_change": 0.04999201405526274,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.39351851851851855,
+        "accepted_changes": 1040,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "delta_vs_taxa": {
+        "gain": 0.015603566529492454,
+        "ci95": [
+          -0.006174268404206674,
+          0.037837219935985364
+        ]
+      },
+      "delta_vs_bkt_atual": {
+        "gain": -0.041037951531778694,
+        "ci95": [
+          -0.06475908779149521,
+          -0.015827903520804782
+        ]
+      }
+    },
+    "3pl/fixed": {
+      "taxa": {
+        "accuracy": 0.345679012345679,
+        "outside": 0.5971650663008687,
+        "offers": 0.06744398719707362,
+        "false_change": 0.03892318244170096,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.35555555555555557,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_atual": {
+        "accuracy": 0.35248056698673985,
+        "outside": 0.59139231824417,
+        "offers": 0.09133516232281665,
+        "false_change": 0.05366941015089163,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.367798353909465,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.3619684499314129,
+        "outside": 0.5764746227709191,
+        "offers": 0.1068244170096022,
+        "false_change": 0.0605281207133059,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.37014991181657847,
+        "accepted_changes": 0,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "delta_vs_taxa": {
+        "gain": 0.016289437585733885,
+        "ci95": [
+          0.01102966392318244,
+          0.021606367169638766
+        ]
+      },
+      "delta_vs_bkt_atual": {
+        "gain": 0.009487882944673069,
+        "ci95": [
+          0.004000914494741656,
+          0.015775034293552814
+        ]
+      }
+    },
+    "3pl/closed": {
+      "taxa": {
+        "accuracy": 0.35865340649291266,
+        "outside": 0.5868770004572473,
+        "offers": 0.04681069958847737,
+        "false_change": 0.02349048800661704,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.3868312757201646,
+        "accepted_changes": 541,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "bkt_atual": {
+        "accuracy": 0.41489483310470965,
+        "outside": 0.5385230909922268,
+        "offers": 0.07304526748971193,
+        "false_change": 0.04110774556469061,
+        "coverage": 0.5555555555555556,
+        "covered_accuracy": 0.48405349794238683,
+        "accepted_changes": 845,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "(12, 4, 2)": {
+        "accuracy": 0.4053497942386831,
+        "outside": 0.5253200731595793,
+        "offers": 0.08470507544581618,
+        "false_change": 0.042723429951690824,
+        "coverage": 0.7777777777777778,
+        "covered_accuracy": 0.42203115814226927,
+        "accepted_changes": 961,
+        "violations": 0,
+        "trajectories": 486
+      },
+      "delta_vs_taxa": {
+        "gain": 0.04669638774577046,
+        "ci95": [
+          0.02605738454503887,
+          0.06728395061728389
+        ]
+      },
+      "delta_vs_bkt_atual": {
+        "gain": -0.009545038866026518,
+        "ci95": [
+          -0.033493369913122996,
+          0.015603566529492453
+        ]
+      }
+    }
+  }
+}

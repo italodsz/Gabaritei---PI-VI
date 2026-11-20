@@ -1,0 +1,27 @@
+{
+  "train": {
+    "seconds": 858.1109216000004,
+    "truncated": 360,
+    "n": 1801,
+    "dimension": 1024
+  },
+  "validation": {
+    "seconds": 53.99678219999987,
+    "truncated": 28,
+    "n": 136,
+    "dimension": 1024
+  },
+  "checkpoint": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "input_limit": 256,
+  "native_context": 8192,
+  "pooling": "first",
+  "peak_sampled_rss_bytes": 3519729664,
+  "total_seconds": 957.2540722999984,
+  "embedding_sha256": "7c9abb463c60fd55a3ff1450ffc2e5355b6e9026805099800b415accb05a674e",
+  "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "device": "cpu",
+  "python": "3.14.0",
+  "torch": "2.11.0+cpu"
+}

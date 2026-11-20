@@ -1,0 +1,5 @@
+bkt_politica_1_4_0.09
+logistic/False [('bkt_atual', np.float64(0.3543), np.float64(0.0552), 0), ('bkt_politica_anterior', np.float64(0.4194), np.float64(0.1416), 0), ('bkt_politica_1_4_0.09', np.float64(0.5112), np.float64(0.2296), 0)]
+logistic/True [('bkt_atual', np.float64(0.4163), np.float64(0.0461), 0), ('bkt_politica_anterior', np.float64(0.4803), np.float64(0.1014), 0), ('bkt_politica_1_4_0.09', np.float64(0.5053), np.float64(0.0994), 0)]
+3pl/False [('bkt_atual', np.float64(0.3521), np.float64(0.0568), 0), ('bkt_politica_anterior', np.float64(0.4013), np.float64(0.1389), 0), ('bkt_politica_1_4_0.09', np.float64(0.4751), np.float64(0.2243), 0)]
+3pl/True [('bkt_atual', np.float64(0.4167), np.float64(0.0429), 0), ('bkt_politica_anterior', np.float64(0.4668), np.float64(0.0918), 0), ('bkt_politica_1_4_0.09', np.float64(0.489), np.float64(0.0988), 0)]

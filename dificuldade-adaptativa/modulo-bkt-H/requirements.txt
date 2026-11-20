@@ -1,0 +1,2 @@
+# Inferência, SQLite, exemplo e testes A/D/F: somente biblioteca padrão do Python 3.11+.
+# Para pesquisa estatística, usar requirements-research.txt.

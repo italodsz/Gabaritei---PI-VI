@@ -1,0 +1,107 @@
+[
+  {
+    "area": "MT",
+    "disciplina": null,
+    "assunto_proposto": "Probabilidade e estatística",
+    "subassunto_proposto": "Variância e desvio padrão",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "MT",
+    "disciplina": null,
+    "assunto_proposto": "Probabilidade e estatística",
+    "subassunto_proposto": "Probabilidade de eventos",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "MT",
+    "disciplina": null,
+    "assunto_proposto": "Álgebra",
+    "subassunto_proposto": "Função quadrática",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "MT",
+    "disciplina": null,
+    "assunto_proposto": "Álgebra",
+    "subassunto_proposto": "Progressões",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "MT",
+    "disciplina": null,
+    "assunto_proposto": "Geometria",
+    "subassunto_proposto": "Volume de sólidos",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Física",
+    "subassunto_proposto": "Óptica e refração",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Física",
+    "subassunto_proposto": "Circuitos elétricos",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Química",
+    "subassunto_proposto": "Termoquímica",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Química",
+    "subassunto_proposto": "Estequiometria",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Biologia",
+    "subassunto_proposto": "Divisão celular",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Biologia",
+    "subassunto_proposto": "Ecologia trófica",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CN",
+    "disciplina": null,
+    "assunto_proposto": "Biologia",
+    "subassunto_proposto": "Fotossíntese",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CH",
+    "disciplina": null,
+    "assunto_proposto": "História",
+    "subassunto_proposto": "Escravidão e abolição",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "CH",
+    "disciplina": null,
+    "assunto_proposto": "Geografia",
+    "subassunto_proposto": "Migração e deslocamento populacional",
+    "origem": "triagem experimental"
+  },
+  {
+    "area": "LC",
+    "disciplina": null,
+    "assunto_proposto": "Leitura",
+    "subassunto_proposto": "Efeitos de sentido",
+    "origem": "triagem experimental"
+  }
+]

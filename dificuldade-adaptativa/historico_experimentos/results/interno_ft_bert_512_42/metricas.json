@@ -1,0 +1,1062 @@
+{
+  "n": 134,
+  "support": {
+    "facil": 40,
+    "media": 38,
+    "dificil": 56
+  },
+  "macro_f1": 0.5133642186273765,
+  "accuracy": 0.5522388059701493,
+  "confusion": [
+    [
+      30,
+      5,
+      5
+    ],
+    [
+      17,
+      8,
+      13
+    ],
+    [
+      8,
+      12,
+      36
+    ]
+  ],
+  "by_class": {
+    "facil": {
+      "precision": 0.5454545454545454,
+      "recall": 0.75,
+      "f1": 0.631578947368421,
+      "n": 40
+    },
+    "media": {
+      "precision": 0.32,
+      "recall": 0.21052631578947367,
+      "f1": 0.25396825396825395,
+      "n": 38
+    },
+    "dificil": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6428571428571429,
+      "f1": 0.6545454545454545,
+      "n": 56
+    }
+  },
+  "ordinal_mae": 0.5447761194029851,
+  "easy_hard_errors": 13,
+  "easy_hard_rate": 0.09701492537313433,
+  "by_area": {
+    "CH": {
+      "n": 36,
+      "support": {
+        "facil": 13,
+        "media": 13,
+        "dificil": 10
+      },
+      "macro_f1": 0.42865305698405276,
+      "accuracy": 0.4444444444444444,
+      "confusion": [
+        [
+          9,
+          3,
+          1
+        ],
+        [
+          7,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          4
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.5,
+          "recall": 0.6923076923076923,
+          "f1": 0.5806451612903226,
+          "n": 13
+        },
+        "media": {
+          "precision": 0.3,
+          "recall": 0.23076923076923078,
+          "f1": 0.2608695652173913,
+          "n": 13
+        },
+        "dificil": {
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444444444444444,
+          "n": 10
+        }
+      }
+    },
+    "CN": {
+      "n": 27,
+      "support": {
+        "facil": 1,
+        "media": 15,
+        "dificil": 11
+      },
+      "macro_f1": 0.25603864734299514,
+      "accuracy": 0.3333333333333333,
+      "confusion": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          1,
+          5,
+          5
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 1
+        },
+        "media": {
+          "precision": 0.4444444444444444,
+          "recall": 0.26666666666666666,
+          "f1": 0.3333333333333333,
+          "n": 15
+        },
+        "dificil": {
+          "precision": 0.4166666666666667,
+          "recall": 0.45454545454545453,
+          "f1": 0.43478260869565216,
+          "n": 11
+        }
+      }
+    },
+    "LC": {
+      "n": 36,
+      "support": {
+        "facil": 23,
+        "media": 9,
+        "dificil": 4
+      },
+      "macro_f1": 0.319706498951782,
+      "accuracy": 0.6111111111111112,
+      "confusion": [
+        [
+          21,
+          2,
+          0
+        ],
+        [
+          5,
+          1,
+          3
+        ],
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.7,
+          "recall": 0.9130434782608695,
+          "f1": 0.7924528301886793,
+          "n": 23
+        },
+        "media": {
+          "precision": 0.3333333333333333,
+          "recall": 0.1111111111111111,
+          "f1": 0.16666666666666666,
+          "n": 9
+        },
+        "dificil": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 4
+        }
+      }
+    },
+    "MT": {
+      "n": 35,
+      "support": {
+        "facil": 3,
+        "media": 1,
+        "dificil": 31
+      },
+      "macro_f1": 0.2903225806451613,
+      "accuracy": 0.7714285714285715,
+      "confusion": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          27
+        ]
+      ],
+      "by_class": {
+        "facil": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 3
+        },
+        "media": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n": 1
+        },
+        "dificil": {
+          "precision": 0.8709677419354839,
+          "recall": 0.8709677419354839,
+          "f1": 0.8709677419354839,
+          "n": 31
+        }
+      }
+    }
+  },
+  "validation_seconds": 0.8972919000007096,
+  "epoch": 2,
+  "model": "neuralmind/bert-base-portuguese-cased",
+  "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+  "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+  "seed": 42,
+  "limit": 512,
+  "cuts": [
+    0.7979433333333333,
+    1.55102
+  ],
+  "validation_year": 2022,
+  "batch": 2,
+  "effective_batch": 16,
+  "lr": 3e-05,
+  "changed_encoder_parameters": 32,
+  "predictions": [
+    {
+      "id": "gq_1601aac6582b42a98dc0c209",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_2a08029f70df0c33016d6596",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_e718fb75bfdd070b3edb02a2",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_66064543ba67a3c82c042528",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_22f3ee1be6d9d465c1e7e726",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_f3a55cc9a8953a0a3dd7ae56",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_349fe67b4c0227081bf793eb",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_78a212ccd1d809a829a31211",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_a4bf3044c4d0bd7bc2ad4f75",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_d3a595c4deefc9ccb81b01a1",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_09881f742abc8c42d9709432",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_8a389709f0043165ee80574f",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c87dd2ed68fa240ec1be74da",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_fedfd23a7bcb403b1eb32fc6",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_0848fa0c726411ff734084af",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_2b45804f0df554408b162de9",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_99219da6fd12d465fa4410bb",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_92b2b5613fbbb84ae320dfa1",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_0afa470dc18a3b8a9944f81f",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_33d1788485abc19b0d3159b8",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_a3b86c9e766a010d5b104120",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_0cb550b195bcee616238b588",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_654b46c0630005886e2cb65d",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_b029ec1f588746a44f71ef80",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_b2e9348b32054ecfa4288d5e",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_8edd9a57c451167876acbc3e",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_2db7db5f014a71a9f29b1d21",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_2fd344ce0bac858c5f50dca2",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_f264aecfaf8f26f44315008b",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_ed8c30e36499fda6877594ce",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_3065caa65036b585bb63d37b",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_37f4cfc66d92d469c7d10f9d",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_0ec88ca636babdee90ce34a8",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_5f3a9117d3f61cabaf6cb1fc",
+      "area": "CH",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_bd1348a1a4f87399b5350aa6",
+      "area": "CH",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_ed1c0a0756124e41865f77ea",
+      "area": "CH",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_1a9eede85da28baaa0132770",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_6051dec828d0634abc86be82",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_c7763cd102dda20ce2ae86c8",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_6c6595adaf610fd8822d7ceb",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_250e1bcdbc6ced8354b19eae",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_3befb607160c11785f8fea71",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_0508e3b3b01ee9e7a223a226",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_c3882f0ecb5dbf1090ee51cd",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_e4780cdd1b3f8933530c5133",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_b7a622914984c36bda68529b",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_71015ec85defadfcef5ab114",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_f9ed2b9043bc1a36515733e5",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_8bb856ef8435de178d57b310",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_ad35dbc4f8d0aa688785867c",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_716ad1716b48f8aff078df73",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_46a29a126aba7bb79395d6a6",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_74ddfd395eae9bcbee079ba9",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_a776a6e309ced788967b79af",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_2012dde05736d1d5887c54f8",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_76be20d82057fec711f259c0",
+      "area": "CN",
+      "actual": "facil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_46b0636e6a4a955b38dc2da0",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_ffebaa962dd54ff21200bc10",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_6210f85ab2e7331747fd7b15",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_e1014526491c0a66cf0eddad",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_2c3bf838bb32aecdc23f9002",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_22f84e9817fc2ffe3f4fbbbd",
+      "area": "CN",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_7404424a1bc5a826cc70e111",
+      "area": "CN",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_adb20a479558b68e0e15a5f7",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_ce4958c225d949a55083c597",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_0b4bb43dfa695f14dc861308",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_b6ca436f8e1d1780aced3188",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5c418842c62a02f83a63f1d3",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_1cab571b74b797175e214d77",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_8b64a1d34319e1bd791e4b50",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_287155b76c47f63849e79012",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_6a705c51185e3c6f2a22afd5",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c9c07509e4cebc13e8a6e022",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c24e72eda444b8939d2e4092",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c45234dbaaa0ed29b047c562",
+      "area": "LC",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_1baaf7ecf899a765c2a6f022",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_b291ab2ee7e8633e5c940955",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5571293b9a4b9e4ac6750af3",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_57d7f6d259358e4f43fd1c62",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_1515614ca0e20bbdea9053fb",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_f229544e28a3dca6901be30f",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_e65c3ae81fd2507ef61a35db",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c2c7bca230eff020a223f2ab",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_b1102c405454aa94f81db9ac",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_a9fa6be790d4501b69cef238",
+      "area": "LC",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_8fbd9344496d4d63f45dabd3",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c9b9c26f37070e6e19b44ddc",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_293c5f112237ee0b5b2604ca",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_38c2e5b5302bdcd0ca365f03",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_f8447fe07c69fd7ede32f521",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_8796b1582d37cd6742260f99",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_503f89f350892522add01c6b",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_e217f1abe6c579e54c165b76",
+      "area": "LC",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_25f0e488e4cb017e04ec2752",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_69d6e9f2677e14eb83c3bae9",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_72d3d53672d7d164ebc38b49",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_2c20d931235fcd7e3f6ab364",
+      "area": "LC",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_3289d19fc3512700468cf690",
+      "area": "LC",
+      "actual": "facil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_c0e0bb3964e051a65c17bc77",
+      "area": "LC",
+      "actual": "media",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_86b172192f0c30fba99c888c",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_47797006c0f4ddf3b3f3d333",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_77ca1326e3c03e1c4ed9aa54",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_43af5e0298b07a51facf3218",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5b7e76bd1f094e3cb5d24cc7",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_f70c3448ad1c48893e721d40",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_acdf87e65860d93b36e72dad",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_3a68eb09d9c1db1c900f3dbf",
+      "area": "MT",
+      "actual": "facil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_124081cde13c61445bdecc1a",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_fcae973a810640c34afe0d13",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_95908191d0396c955e37e9b1",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_42e41e5dd1d195c77869bef0",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_36f04f02fa45161b19c60220",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_ff45cc53c65a22fb9fb6c2b5",
+      "area": "MT",
+      "actual": "facil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5df49012aedb736aa103ebd9",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_3ec6d8cc5c078041ac14f084",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5789035b986046d3a41f7dee",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_cca272cda66fd0774fad5e36",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_5ee286b3a6bb12356cd757c3",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_7f4aace51f8bac0b44d3c7e2",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_8e78aa22a2ef064f58fd8a85",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_36b968d2e6bee4a96e476ee1",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_f8f72f54cff2ecccfac8b197",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_3d8328071f3b59506ac187b6",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_996bcb4dd26f4209ae2b2cd3",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "media"
+    },
+    {
+      "id": "gq_5fc9cc5ab60559c3aa518e4c",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_531913cfe65f200a10f23d85",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_97cad30819f385d75e278458",
+      "area": "MT",
+      "actual": "facil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_27639c444b8702ecd01b9475",
+      "area": "MT",
+      "actual": "media",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_92c0413d63f941cc05356709",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_4a95f6b2a3dcfea16f196d7f",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_6b80392cb91d83d64335b670",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_0a743d5fdb70d03a1842dc30",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "facil"
+    },
+    {
+      "id": "gq_669bb9b678dc41ec15e67c1c",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    },
+    {
+      "id": "gq_55c248f29c7f6b162174c9d6",
+      "area": "MT",
+      "actual": "dificil",
+      "predicted": "dificil"
+    }
+  ]
+}

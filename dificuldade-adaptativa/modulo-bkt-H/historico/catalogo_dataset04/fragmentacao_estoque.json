@@ -1,0 +1,42 @@
+{
+  "antes": {
+    "capacidade": {
+      "4": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 62
+      },
+      "5": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 46
+      },
+      "6": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 28
+      }
+    },
+    "escalas": 52,
+    "habilidade_escala": 396,
+    "habilidades": 107,
+    "maximo_local": 3
+  },
+  "depois": {
+    "capacidade": {
+      "4": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 85
+      },
+      "5": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 76
+      },
+      "6": {
+        "habilidades_com_estoque_local": 0,
+        "habilidades_se_misturasse_escalas_hipotese_nao_usada": 61
+      }
+    },
+    "escalas": 60,
+    "habilidade_escala": 575,
+    "habilidades": 112,
+    "maximo_local": 3
+  }
+}

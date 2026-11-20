@@ -1,0 +1,2893 @@
+[
+  {
+    "id": "gq_7a77e4dcf68c4e8d3587c082",
+    "year": 2010,
+    "area": "CH",
+    "position": 32,
+    "changed": false,
+    "released": false,
+    "status_before": "contextual_alert_cleared",
+    "status_after": "contextual_alert_cleared",
+    "before_question": "De março de 1931 a fevereiro de 1940, foram decretadas mais de 150 leis novas de proteção social e de regulamentação do trabalho em todos os seus setores. Todas elas têm sido simplesmente uma dádiva do governo. Desde aí, o trabalhador brasileiro encontra nos quadros gerais do regime o seu verdadeiro lugar.\n\nDANTAS, M. A força nacionalizadora do Estado Novo. Rio\nde Janeiro: DIP, 1942. Apud BERCITO, S. R. Nos Tempos\nde Getúlio: da revolução de 30 ao fim do Estado Novo. São\nPaulo: Atual, 1990.\n\nA adoção de novas políticas públicas e as mudanças jurídico-institucionais ocorridas no Brasil, com a ascensão de Getúlio Vargas ao poder, evidenciam o papel histórico de certas lideranças e a importância das lutas sociais na conquista da cidadania. Desse processo resultou a",
+    "after_question": "De março de 1931 a fevereiro de 1940, foram decretadas mais de 150 leis novas de proteção social e de regulamentação do trabalho em todos os seus setores. Todas elas têm sido simplesmente uma dádiva do governo. Desde aí, o trabalhador brasileiro encontra nos quadros gerais do regime o seu verdadeiro lugar.\n\nDANTAS, M. A força nacionalizadora do Estado Novo. Rio\nde Janeiro: DIP, 1942. Apud BERCITO, S. R. Nos Tempos\nde Getúlio: da revolução de 30 ao fim do Estado Novo. São\nPaulo: Atual, 1990.\n\nA adoção de novas políticas públicas e as mudanças jurídico-institucionais ocorridas no Brasil, com a ascensão de Getúlio Vargas ao poder, evidenciam o papel histórico de certas lideranças e a importância das lutas sociais na conquista da cidadania. Desse processo resultou a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Criação do Ministério do Trabalho, Indústria e Comércio, que garantiu ao operariado autonomia para o exercício de atividades sindicais."
+      },
+      {
+        "label": "B",
+        "text": "Legislação previdenciária, que proibiu migrantes de ocuparem cargos de direção nos sindicatos."
+      },
+      {
+        "label": "C",
+        "text": "Criação da Justiça do Trabalho, para coibir ideologias consideradas perturbadoras da \"harmonia social\"."
+      },
+      {
+        "label": "D",
+        "text": "Legislação trabalhista que atendeu reivindicações dos operários, garantido-lhes vários direitos e formas de proteção."
+      },
+      {
+        "label": "E",
+        "text": "Decretação da Consolidação das Leis do Trabalho (CLT), que impediu o controle estatal sobre as atividades políticas da classe operária."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Criação do Ministério do Trabalho, Indústria e Comércio, que garantiu ao operariado autonomia para o exercício de atividades sindicais."
+      },
+      {
+        "label": "B",
+        "text": "Legislação previdenciária, que proibiu migrantes de ocuparem cargos de direção nos sindicatos."
+      },
+      {
+        "label": "C",
+        "text": "Criação da Justiça do Trabalho, para coibir ideologias consideradas perturbadoras da \"harmonia social\"."
+      },
+      {
+        "label": "D",
+        "text": "Legislação trabalhista que atendeu reivindicações dos operários, garantido-lhes vários direitos e formas de proteção."
+      },
+      {
+        "label": "E",
+        "text": "Decretação da Consolidação das Leis do Trabalho (CLT), que impediu o controle estatal sobre as atividades políticas da classe operária."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "'garantido-lhes' está assim na própria prova (2010, 1º dia, p. 10); não é erro de transcrição. Sem mudança."
+  },
+  {
+    "id": "gq_d2364cf40f770f557ecbf3fa",
+    "year": 2010,
+    "area": "CH",
+    "position": 33,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Não é difícil entender o que ocorreu no Brasil nos anos imediatamente anteriores ao golpe militar de 1964. A diminuição da oferta de empregos e a desvalorização dos salários, provocadas pela inflação, levaram a uma intensa mobilização política popular, marcada por sucessivas ondas grevistas de várias categorias profissionais, o que aprofundou as tensões sociais. Dessa vez, as classes trabalhadoras se recusaram a pagar o pato pelas sobras” do modelo econômico juscelinista.\n\nMENDONÇA, S. R. A industrialização Brasileira. São\nPaulo: Moderna, 2002 (adaptado)\n\nSegundo o texto, os conflitos sociais ocorridos no início dos anos 1960 decorreram principalmente",
+    "after_question": "Não é difícil entender o que ocorreu no Brasil nos anos imediatamente anteriores ao golpe militar de 1964. A diminuição da oferta de empregos e a desvalorização dos salários, provocadas pela inflação, levaram a uma intensa mobilização política popular, marcada por sucessivas ondas grevistas de várias categorias profissionais, o que aprofundou as tensões sociais. Dessa vez, as classes trabalhadoras se recusaram a pagar o pato pelas “sobras” do modelo econômico juscelinista.\n\nMENDONÇA, S. R. A industrialização Brasileira. São\nPaulo: Moderna, 2002 (adaptado)\n\nSegundo o texto, os conflitos sociais ocorridos no início dos anos 1960 decorreram principalmente",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Da manipulação política empreendida pelo governo Joao Goulart."
+      },
+      {
+        "label": "B",
+        "text": "Das contradições econômicas do modelo desenvolvimentista."
+      },
+      {
+        "label": "C",
+        "text": "Do poder político adquirido pelos sindicatos populistas."
+      },
+      {
+        "label": "D",
+        "text": "Da desmobilização das classes dominantes frente ao avanço das greves."
+      },
+      {
+        "label": "E",
+        "text": "Da recusa dos sindicatos em aceitar mudanças na legislação trabalhista."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Da manipulação política empreendida pelo governo João Goulart."
+      },
+      {
+        "label": "B",
+        "text": "Das contradições econômicas do modelo desenvolvimentista."
+      },
+      {
+        "label": "C",
+        "text": "Do poder político adquirido pelos sindicatos populistas."
+      },
+      {
+        "label": "D",
+        "text": "Da desmobilização das classes dominantes frente ao avanço das greves."
+      },
+      {
+        "label": "E",
+        "text": "Da recusa dos sindicatos em aceitar mudanças na legislação trabalhista."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "aspas e acento conferidos na prova (p. 9)"
+  },
+  {
+    "id": "gq_cc6845f5ba9d5d352ff15c75",
+    "year": 2010,
+    "area": "CH",
+    "position": 41,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "“Pecado nefando” era expressão correntemente utilizada pelos inquisidores para a sodomia. Nefandus: o que não pode ser dito. A Assembleia de clérigos reunida em Salvador, em 1707, considerou a sodomia “tão péssimo e horrendo crime”, tao contrário à lei da natureza, que “era indigno de ser nomeado” e, por isso mesmo, nefando.\n\nNOVAIS, F.; MELLO E SOUZA L. História da vida privada no\nBrasil. V. 1. São Paulo: Companhia das Letras. 1997 (adaptado).\n\nTEXTO II\n\nO número de homossexuais assassinados no Brasil bateu o recorde histórico em 2009. De acordo com o Relatório Anual de Assassinato de Homossexuais (LGBT – Lés – bicas, Gays, Bissexuais e Travestis), nesse ano foram registrados 195 mortos por motivação homofóbica no País.\n\nDisponível em: www.alemdanoticia.com.br/utimas\\_noticias.php?codnoticia=3871. Acesso em: 29 abr. 2010 (adaptado).\n\nA homofobia é a rejeição e menosprezo à orientação sexual do outro e, muitas vezes, expressa-se sob a forma de comportamentos violentos. Os textos indicam que as condenações públicas, perseguições e assassinatos de homossexuais no país estão associadas",
+    "after_question": "“Pecado nefando” era expressão correntemente utilizada pelos inquisidores para a sodomia. Nefandus: o que não pode ser dito. A Assembleia de clérigos reunida em Salvador, em 1707, considerou a sodomia “tão péssimo e horrendo crime”, tão contrário à lei da natureza, que “era indigno de ser nomeado” e, por isso mesmo, nefando.\n\nNOVAIS, F.; MELLO E SOUZA, L. História da vida privada no\nBrasil. V. 1. São Paulo: Companhia das Letras, 1997 (adaptado).\n\nTEXTO II\n\nO número de homossexuais assassinados no Brasil bateu o recorde histórico em 2009. De acordo com o Relatório Anual de Assassinato de Homossexuais (LGBT – Lésbicas, Gays, Bissexuais e Travestis), nesse ano foram registrados 195 mortos por motivação homofóbica no País.\n\nDisponível em: www.alemdanoticia.com.br/ultimas_noticias.php?codnoticia=3871. Acesso em: 29 abr. 2010 (adaptado).\n\nA homofobia é a rejeição e menosprezo à orientação sexual do outro e, muitas vezes, expressa-se sob a forma de comportamentos violentos. Os textos indicam que as condenações públicas, perseguições e assassinatos de homossexuais no país estão associadas",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "À baixa representatividade polítíca de grupos organizados que defendem os direitos de cidadania dos homossexuais."
+      },
+      {
+        "label": "B",
+        "text": "À falência da democracia no país, que torna impeditiva a divulgação de estatísticas relacionadas à violência contra homossexuais."
+      },
+      {
+        "label": "C",
+        "text": "À Constituição de 1988, que exclui do tecido social os homossexuais, além de impedi-los de exercer seus direitos políticos."
+      },
+      {
+        "label": "D",
+        "text": "A um passado histórico marcado pela demonização do corpo e por formas recorrentes de tabus e intolerância."
+      },
+      {
+        "label": "E",
+        "text": "A uma política eugênica desenvolvida pelo Estado, justificada a partir dos posicionamentos de correntes filosófico-científicas."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "À baixa representatividade política de grupos organizados que defendem os direitos de cidadania dos homossexuais."
+      },
+      {
+        "label": "B",
+        "text": "À falência da democracia no país, que torna impeditiva a divulgação de estatísticas relacionadas à violência contra homossexuais."
+      },
+      {
+        "label": "C",
+        "text": "À Constituição de 1988, que exclui do tecido social os homossexuais, além de impedi-los de exercer seus direitos políticos."
+      },
+      {
+        "label": "D",
+        "text": "A um passado histórico marcado pela demonização do corpo e por formas recorrentes de tabus e intolerância."
+      },
+      {
+        "label": "E",
+        "text": "A uma política eugênica desenvolvida pelo Estado, justificada a partir dos posicionamentos de correntes filosófico-científicas."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 11)"
+  },
+  {
+    "id": "gq_3f9514b3459739bc44d94e99",
+    "year": 2010,
+    "area": "CN",
+    "position": 65,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "As misturas efervescentes, em pó ou comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo.\nAs matérias primas que atuam na efervescência são, em geral, o ácido tartárico ou ácido cítrico que reagem como um sal de caráter básico, como o bicarbonato de sódio (NaHCO3), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação de gás carbônico – gerando a efervescência.\nAs equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e H3A representa o ácido cítrico.\nI – NaHCO3 → NA+ + HCO3\nII – H2CO3 ↔H2O + CO2\nIII – HCO3 + H+ ↔ H2CO3\nIV – H3A ↔ 3H+ + A−\n\nA ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:",
+    "after_question": "As misturas efervescentes, em pó ou comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo.\nAs matérias-primas que atuam na efervescência são, em geral, o ácido tartárico ou ácido cítrico que reagem como um sal de caráter básico, como o bicarbonato de sódio (NaHCO3), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação de gás carbônico – gerando a efervescência.\nAs equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e H3A representa o ácido cítrico.\nI – NaHCO3 → Na⁺ + HCO3⁻\nII – H2CO3 ↔H2O + CO2\nIII – HCO3⁻ + H⁺ ↔ H2CO3\nIV – H3A ↔ 3H⁺ + A⁻\n\nA ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "IV, I, II e III."
+      },
+      {
+        "label": "B",
+        "text": "I, IV, III e II."
+      },
+      {
+        "label": "C",
+        "text": "IV, III, I e II."
+      },
+      {
+        "label": "D",
+        "text": "I, IV, II e III."
+      },
+      {
+        "label": "E",
+        "text": "IV, I, III e II."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "IV, I, II e III."
+      },
+      {
+        "label": "B",
+        "text": "I, IV, III e II."
+      },
+      {
+        "label": "C",
+        "text": "IV, III, I e II."
+      },
+      {
+        "label": "D",
+        "text": "I, IV, II e III."
+      },
+      {
+        "label": "E",
+        "text": "IV, I, III e II."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "cargas iônicas conferidas na prova (p. 18): Na⁺, HCO3⁻, H⁺, A⁻"
+  },
+  {
+    "id": "gq_e6613ff880f22772dc361378",
+    "year": 2010,
+    "area": "CN",
+    "position": 85,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Decisão de asfaltamento da rodovia MG-010, acompanha da introdução de espécies exóticas, e a prática de incêndios criminosos, ameaçam o sofisticado ecossistema do campo rupestre da reserva da Serra do Espinhaço. As plantas nativas desta região, altamente adaptadas a uma alta concentração de alumínio, que inibe o crescimento das raízes e dificultam a absorção de nutrientes e água, estão sendo substituídas por espécies invasoras que não teriam naturalmente adaptação para este ambiente, no entanto elas estão dominando as margens da rodovia, equivocadamente chamada de “estrada ecológica”. Possivelmente a entrada de espécies de plantas exóticas neste ambiente foi provocada pelo uso, neste empreendimento, de um tipo de asfalto (cimento-solo), que possui uma mistura rica em cálcio, que causou modificações químicas aos solos adjacentes à rodovia MG-010.\n\nScientific American. Brasil. Ano 7, nº 79. 2008 (adaptado).\n\nEssa afirmação baseia-se no uso de cimento-solo, mistura rica em cálcio que",
+    "after_question": "Decisão de asfaltamento da rodovia MG-010, acompanhada da introdução de espécies exóticas, e a prática de incêndios criminosos, ameaçam o sofisticado ecossistema do campo rupestre da reserva da Serra do Espinhaço. As plantas nativas desta região, altamente adaptadas a uma alta concentração de alumínio, que inibe o crescimento das raízes e dificultam a absorção de nutrientes e água, estão sendo substituídas por espécies invasoras que não teriam naturalmente adaptação para este ambiente, no entanto elas estão dominando as margens da rodovia, equivocadamente chamada de “estrada ecológica”. Possivelmente a entrada de espécies de plantas exóticas neste ambiente foi provocada pelo uso, neste empreendimento, de um tipo de asfalto (cimento-solo), que possui uma mistura rica em cálcio, que causou modificações químicas aos solos adjacentes à rodovia MG-010.\n\nScientific American. Brasil. Ano 7, nº 79. 2008 (adaptado).\n\nEssa afirmação baseia-se no uso de cimento-solo, mistura rica em cálcio que",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Inibe a toxicidade do alumínio, elevando o pH dessas áreas."
+      },
+      {
+        "label": "B",
+        "text": "Inibe a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      },
+      {
+        "label": "C",
+        "text": "Aumenta a toxicidade do alumínio, elevando o pH dessas áreas."
+      },
+      {
+        "label": "D",
+        "text": "Aumenta a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      },
+      {
+        "label": "E",
+        "text": "Neutraliza a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Inibe a toxicidade do alumínio, elevando o pH dessas áreas."
+      },
+      {
+        "label": "B",
+        "text": "Inibe a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      },
+      {
+        "label": "C",
+        "text": "Aumenta a toxicidade do alumínio, elevando o pH dessas áreas."
+      },
+      {
+        "label": "D",
+        "text": "Aumenta a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      },
+      {
+        "label": "E",
+        "text": "Neutraliza a toxicidade do alumínio, reduzindo o pH dessas áreas."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 28)"
+  },
+  {
+    "id": "gq_fa62551a7ef2de4b9a636c9d",
+    "year": 2010,
+    "area": "LC",
+    "position": 129,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**Negrinha\n**\n\nNegrinha era uma pobre órfã de sete anos. Preta? Não; fusca, mulatinha escura, de cabelos ruços e olhos assustados.\nNascera na senzala, de mãe escrava, e seus primeiros anos vivera-os pelos cantos escuros da cozinha, sobre velha esteira e trapos imundos. Sempre escondida, que a patroa não gostava de crianças.\nExcelente senhora, a patroa. Gorda, rica, dona do mundo, amimada dos padres, com lugar certo na igreja e camarote de luxo reservado no céu. Entaladas as banhas no trono (uma cadeira de balanço na sala de jantar), ali bordava, recebia as amigas e o vigário, dando audiências, discutindo o tempo. Uma virtuosa senhora em suma – “dama de grandes virtudes apostólicas, esteio da religião e da moral”, dizia o reverendo.\nÓtima, a dona Inácia.\nMas não admitia choro de criança. Ai! Punha-lhe os nervos em carne viva.\n\\[…\\]\nA excelente dona Inácia era mestra na arte de judiar de crianças. Vinha da escravidão, fora senhora de escravos – e daquelas ferozes, amigas de ouvir cantar o bolo e zera ao regime novo – essa indecência de negro igual.\n\nLOBATO, M. Negrinha. In: MORICONE, I. **Os cem melhores contos brasileiros do século.** Rio de Janeiro: Objetiva, 2000 (fragmento).\n\nA narrativa focaliza um momento histórico-social de valores contraditórios. Essa contradição infere-se, no contexto, pela",
+    "after_question": "**Negrinha**\n\nNegrinha era uma pobre órfã de sete anos. Preta? Não; fusca, mulatinha escura, de cabelos ruços e olhos assustados.\nNascera na senzala, de mãe escrava, e seus primeiros anos vivera-os pelos cantos escuros da cozinha, sobre velha esteira e trapos imundos. Sempre escondida, que a patroa não gostava de crianças.\nExcelente senhora, a patroa. Gorda, rica, dona do mundo, amimada dos padres, com lugar certo na igreja e camarote de luxo reservado no céu. Entaladas as banhas no trono (uma cadeira de balanço na sala de jantar), ali bordava, recebia as amigas e o vigário, dando audiências, discutindo o tempo. Uma virtuosa senhora em suma – “dama de grandes virtudes apostólicas, esteio da religião e da moral”, dizia o reverendo.\nÓtima, a dona Inácia.\nMas não admitia choro de criança. Ai! Punha-lhe os nervos em carne viva.\n[…]\nA excelente dona Inácia era mestra na arte de judiar de crianças. Vinha da escravidão, fora senhora de escravos – e daquelas ferozes, amigas de ouvir cantar o bolo e estalar o bacalhau. Nunca se afizera ao regime novo – essa indecência de negro igual.\n\nLOBATO, M. Negrinha. In: MORICONE, I. **Os cem melhores contos brasileiros do século.** Rio de Janeiro: Objetiva, 2000 (fragmento).\n\nA narrativa focaliza um momento histórico-social de valores contraditórios. Essa contradição infere-se, no contexto, pela",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Falta de aproximação entre a menina e a senhora, preocupada com as amigas."
+      },
+      {
+        "label": "B",
+        "text": "Receptividade da senhora para com os padres, mas deselegante para com as beatas."
+      },
+      {
+        "label": "C",
+        "text": "Ironia do padre a respeito da senhora, que era perversa com as crianças."
+      },
+      {
+        "label": "D",
+        "text": "Resistência da senhora em aceitar a liberdade dos negros, evidenciada no final do texto."
+      },
+      {
+        "label": "E",
+        "text": "Rejeição aos criados por parte da senhora, que preferia tratá-los com castigos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Falta de aproximação entre a menina e a senhora, preocupada com as amigas."
+      },
+      {
+        "label": "B",
+        "text": "Receptividade da senhora para com os padres, mas deselegante para com as beatas."
+      },
+      {
+        "label": "C",
+        "text": "Ironia do padre a respeito da senhora, que era perversa com as crianças."
+      },
+      {
+        "label": "D",
+        "text": "Resistência da senhora em aceitar a liberdade dos negros, evidenciada no final do texto."
+      },
+      {
+        "label": "E",
+        "text": "Rejeição aos criados por parte da senhora, que preferia tratá-los com castigos."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "trecho corrompido restaurado pela prova (2010, 2º dia, p. 18)"
+  },
+  {
+    "id": "gq_64e23c7364e69ea4cdd2473f",
+    "year": 2010,
+    "area": "LC",
+    "position": 135,
+    "changed": true,
+    "released": false,
+    "status_before": "contextual_alert_cleared",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**Fora da ordem\n**\n\nEm 1588, o engenheiro militar italiano Agostinho Romelli publicou Le Diverse et Artificiose Machine, no qual descrevia uma máquina de ler livros. Montada para girar verticalmente, como uma roda de hamster, a invenção permitia que o leitor fosse de um texto ao outro sem se levantar de sua cadeira.\n\nHoje podemos alternar entre documentos com muito mais facilidade – um clique no mouse é suficiente para acessarmos imagens, textos, vídeos e sons instantaneamente. Para isso, usamos o computador, e principalmente a internet – tecnologias que não estavam disponíveis no Renascimento, época em que Romelli viveu.\n\nBERCITTO, D. **Revista Língua Portuguesa**. Ano II. N°14.\n\nO inventor italiano antecipou, no século XVI, um dos princípios definidores do hipertexto: a quebra de linearidade na leitura e a possibilidade de acesso ao texto conforme o interesse do leitor. Além de ser característica essencial da internet, do ponto de vista da produção do texto, a hipertextualidade se manifesta também em textos impressos, como",
+    "after_question": "**Fora da ordem**\n\nEm 1588, o engenheiro militar italiano Agostinho Romelli publicou Le Diverse et Artificiose Machine, no qual descrevia uma máquina de ler livros. Montada para girar verticalmente, como uma roda de hamster, a invenção permitia que o leitor fosse de um texto ao outro sem se levantar de sua cadeira.\n\nHoje podemos alternar entre documentos com muito mais facilidade – um clique no mouse é suficiente para acessarmos imagens, textos, vídeos e sons instantaneamente. Para isso, usamos o computador, e principalmente a internet – tecnologias que não estavam disponíveis no Renascimento, época em que Romelli viveu.\n\nBERCITTO, D. **Revista Língua Portuguesa**. Ano II. N°14.\n\nO inventor italiano antecipou, no século XVI, um dos princípios definidores do hipertexto: a quebra de linearidade na leitura e a possibilidade de acesso ao texto conforme o interesse do leitor. Além de ser característica essencial da internet, do ponto de vista da produção do texto, a hipertextualidade se manifesta também em textos impressos, como",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Dicionários, pois a forma do texto dá liberdade de acesso à informação."
+      },
+      {
+        "label": "B",
+        "text": "Documentários, pois o autor faz uma seleção dos fatos e das imagens."
+      },
+      {
+        "label": "C",
+        "text": "Relatos pessoais, pois o narrador apresenta sua percepção dos fatos."
+      },
+      {
+        "label": "D",
+        "text": "Editoriais, pois o editorialista faz uma abordagem detalhada dos fatos."
+      },
+      {
+        "label": "E",
+        "text": "Romances românticos, pois os eventos ocorrem em diversos cenários."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Dicionários, pois a forma do texto dá liberdade de acesso à informação."
+      },
+      {
+        "label": "B",
+        "text": "Documentários, pois o autor faz uma seleção dos fatos e das imagens."
+      },
+      {
+        "label": "C",
+        "text": "Relatos pessoais, pois o narrador apresenta sua percepção dos fatos."
+      },
+      {
+        "label": "D",
+        "text": "Editoriais, pois o editorialista faz uma abordagem detalhada dos fatos."
+      },
+      {
+        "label": "E",
+        "text": "Romances românticos, pois os eventos ocorrem em diversos cenários."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "negrito do título arrumado; texto conferido na prova (p. 20)"
+  },
+  {
+    "id": "gq_bd5c553b493a41e89c828dc8",
+    "year": 2011,
+    "area": "CH",
+    "position": 23,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Embora o Brasil seja signatário de convenções e tratados internacionais contra a tortura e tenha incorporado em seu ordenamento jurídico uma lei tipificando o crime, ele contnua a ocorrer em larga escala. Mesmo que a lei que tipifica a tortura esteja vigente desde 1997, até o ano 2000 não se conhece nenhum caso de condenação de torturadores julgado em última instância, embora tenham sido registrados nesse período centenas de casos, além de numerosos outros presumíveis, mas não registrados. Disponível em: http://www.dhnet.org.br. Acesso em: 16 jun. 2010 (adaptado).\nO texto destaca a questão da tortura no país, apontando que",
+    "after_question": "Embora o Brasil seja signatário de convenções e tratados internacionais contra a tortura e tenha incorporado em seu ordenamento jurídico uma lei tipificando o crime, ele continua a ocorrer em larga escala. Mesmo que a lei que tipifica a tortura esteja vigente desde 1997, até o ano 2000 não se conhece nenhum caso de condenação de torturadores julgado em última instância, embora tenham sido registrados nesse período centenas de casos, além de numerosos outros presumíveis, mas não registrados. Disponível em: http://www.dhnet.org.br. Acesso em: 16 jun. 2010 (adaptado).\nO texto destaca a questão da tortura no país, apontando que",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "a justiça brasileira, por meio de tratados e leis, tem conseguido inibir e, inclusive, extinguir a prática da tortura."
+      },
+      {
+        "label": "B",
+        "text": "a existência da lei não basta como garantia de justiça para as vítimas e testemunhas dos casos de tortura."
+      },
+      {
+        "label": "C",
+        "text": "as denúncias anônimas dificultam a ação da justiça, impedindo que torturadores sejam reconhecidos e identificados pelo crime cometido."
+      },
+      {
+        "label": "D",
+        "text": "a falta de registro da tortura por parte das autoridades policiais, em razão do desconhecimento da tortura como crime, legitima a impunidade."
+      },
+      {
+        "label": "E",
+        "text": "a justiça tem esbarrado na precária existência de jurisprudência a respeito da tortura, o que a impede de atuar nesses casos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "a justiça brasileira, por meio de tratados e leis, tem conseguido inibir e, inclusive, extinguir a prática da tortura."
+      },
+      {
+        "label": "B",
+        "text": "a existência da lei não basta como garantia de justiça para as vítimas e testemunhas dos casos de tortura."
+      },
+      {
+        "label": "C",
+        "text": "as denúncias anônimas dificultam a ação da justiça, impedindo que torturadores sejam reconhecidos e identificados pelo crime cometido."
+      },
+      {
+        "label": "D",
+        "text": "a falta de registro da tortura por parte das autoridades policiais, em razão do desconhecimento da tortura como crime, legitima a impunidade."
+      },
+      {
+        "label": "E",
+        "text": "a justiça tem esbarrado na precária existência de jurisprudência a respeito da tortura, o que a impede de atuar nesses casos."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 8)"
+  },
+  {
+    "id": "gq_9308afee4b782f3b8f4eeafe",
+    "year": 2011,
+    "area": "MT",
+    "position": 164,
+    "changed": false,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "no_automatic_alert",
+    "before_question": "Muitas medidas podem ser tomadas em nossas casas visando à utilização racional de energia elétrica. Isso deve ser uma atitude diária de cidadania. Uma delas pode ser a redução do tempo no banho. Um chuveiro com potência de 4 800 W consome 4,8 kW por hora.\n\nUma pessoa que toma dois banhos diariamente, de 10 minutos cada, consumirá, em sete dias, quantos kW?",
+    "after_question": "Muitas medidas podem ser tomadas em nossas casas visando à utilização racional de energia elétrica. Isso deve ser uma atitude diária de cidadania. Uma delas pode ser a redução do tempo no banho. Um chuveiro com potência de 4 800 W consome 4,8 kW por hora.\n\nUma pessoa que toma dois banhos diariamente, de 10 minutos cada, consumirá, em sete dias, quantos kW?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "0,8"
+      },
+      {
+        "label": "B",
+        "text": "1,6"
+      },
+      {
+        "label": "C",
+        "text": "5,6"
+      },
+      {
+        "label": "D",
+        "text": "11,2"
+      },
+      {
+        "label": "E",
+        "text": "33,6"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "0,8"
+      },
+      {
+        "label": "B",
+        "text": "1,6"
+      },
+      {
+        "label": "C",
+        "text": "5,6"
+      },
+      {
+        "label": "D",
+        "text": "11,2"
+      },
+      {
+        "label": "E",
+        "text": "33,6"
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "sem mudança: o alerta ('kW por hora' em vez de kWh) aponta uma imprecisão do próprio enunciado, não um erro de transcrição; o texto da prova não se corrige"
+  },
+  {
+    "id": "gq_07253f5173016e3873d292a2",
+    "year": 2012,
+    "area": "CN",
+    "position": 90,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Aspartame é um edulcorante artificial (adoçante dietético) que apresenta potencial adoçante 200 vezes maior que o açúcar comum, permitindo seu uso em pequenas quantidades. Muito usado pela indústria alimentícia, principalmente nos refrigerantes diet, tem valor energético que corresponde a 4 calorias/grama. É contraindicado a portadores de fenilcetonúria, uma doença genética rara que\nprovoca o acúmulo da fenilalanina no organismo, causando retardo mental. O IDA (índice diário aceitável) desse adoçante é 40 mg/kg de massa corpórea.\n\nDisponível em: http://boaspraticasfarmaceuticas.blogspot.com. Acesso em: 27 fev. 2012\n\nCom base nas informações do texto, a quantidade máxima recomendada de aspartame, em mol, que uma pessoa de 70 kg de massa corporal pode ingerir por dia é mais próxima de\nDado: massa molar do aspartame = 294 g/mol",
+    "after_question": "Aspartame é um edulcorante artificial (adoçante dietético) que apresenta potencial adoçante 200 vezes maior que o açúcar comum, permitindo seu uso em pequenas quantidades. Muito usado pela indústria alimentícia, principalmente nos refrigerantes diet, tem valor energético que corresponde a 4 calorias/grama. É contraindicado a portadores de fenilcetonúria, uma doença genética rara que\nprovoca o acúmulo da fenilalanina no organismo, causando retardo mental. O IDA (índice diário aceitável) desse adoçante é 40 mg/kg de massa corpórea.\n\nDisponível em: http://boaspraticasfarmaceuticas.blogspot.com. Acesso em: 27 fev. 2012.\n\nCom base nas informações do texto, a quantidade máxima recomendada de aspartame, em mol, que uma pessoa de 70 kg de massa corporal pode ingerir por dia é mais próxima de\nDado: massa molar do aspartame = 294 g/mol",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "1,3 × 10–4."
+      },
+      {
+        "label": "B",
+        "text": "9,5 × 10–3."
+      },
+      {
+        "label": "C",
+        "text": "4 × 10–2."
+      },
+      {
+        "label": "D",
+        "text": "2,6."
+      },
+      {
+        "label": "E",
+        "text": "823."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "1,3 × 10^-4."
+      },
+      {
+        "label": "B",
+        "text": "9,5 × 10^-3."
+      },
+      {
+        "label": "C",
+        "text": "4 × 10^-2."
+      },
+      {
+        "label": "D",
+        "text": "2,6."
+      },
+      {
+        "label": "E",
+        "text": "823."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "expoentes negativos restaurados (p. 31); 40 mg/kg × 70 kg = 2,8 g ÷ 294 g/mol ≈ 9,5 × 10^-3 (B)"
+  },
+  {
+    "id": "gq_2b1a5b1dfcddc97f073b1f1f",
+    "year": 2013,
+    "area": "CH",
+    "position": 19,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**Disneylândia**\n\nMultinacionais japonesas instalam empresas em Hong-Kong\n\nE produzem com matéria-prima brasileira\n\nPara competir no mercado americano\n\n\\[…\\]\n\nPilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné\n\nGasolina árabe alimenta automóveis americanos na África do Sul\n\n\\[…\\]\n\nCrianças iraquianas fugidas da guerra\n\nNão obtêm visto no consulado americano do Egito\n\nPara entrarem na Disneylândia\n\nANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento).\n\nNa canção, ressalta-se a coexistência, no contexto internacional atual, das seguintes situações:",
+    "after_question": "**Disneylândia**\n\nMultinacionais japonesas instalam empresas em Hong-Kong\n\nE produzem com matéria-prima brasileira\n\nPara competir no mercado americano\n\n[…]\n\nPilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné\n\nGasolina árabe alimenta automóveis americanos na África do Sul\n\n[…]\n\nCrianças iraquianas fugidas da guerra\n\nNão obtêm visto no consulado americano do Egito\n\nPara entrarem na Disneylândia\n\nANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento).\n\nNa canção, ressalta-se a coexistência, no contexto internacional atual, das seguintes situações:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Acirramento do controle alfandegário e estímulo ao capital especulativo."
+      },
+      {
+        "label": "B",
+        "text": "Ampliação das trocas econômicas e seletividade dos fluxos populacionais."
+      },
+      {
+        "label": "C",
+        "text": "Intensificação do controle informacional e adoção de barreiras fitossanitárias."
+      },
+      {
+        "label": "D",
+        "text": "Aumento da circulação mercantil e desregulamentação do sistema financeiro."
+      },
+      {
+        "label": "E",
+        "text": "Expansão do protecionismo comercial e descaracterização de identidades nacionais."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Acirramento do controle alfandegário e estímulo ao capital especulativo."
+      },
+      {
+        "label": "B",
+        "text": "Ampliação das trocas econômicas e seletividade dos fluxos populacionais."
+      },
+      {
+        "label": "C",
+        "text": "Intensificação do controle informacional e adoção de barreiras fitossanitárias."
+      },
+      {
+        "label": "D",
+        "text": "Aumento da circulação mercantil e desregulamentação do sistema financeiro."
+      },
+      {
+        "label": "E",
+        "text": "Expansão do protecionismo comercial e descaracterização de identidades nacionais."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "marcadores de supressão escapados; conferido na prova (p. 7)"
+  },
+  {
+    "id": "gq_3850143d1373af38412683ab",
+    "year": 2013,
+    "area": "CH",
+    "position": 35,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Rua Preciados, seis da tarde. Ao longe, a massa humana que abarrota a Praça Puertal Del Sol, em Madri, se levanta. Um grupo de garotas, ao ver a cena, corre em direção à multidão. Milhares de pessoas fazem ressoar o Slogan: “Que não, que não, que não nos representem”. Um garoto fala pelo megafone: “Demandamos submeter a referendo o resgate bancário”.\n\nRodriguez. O. Puerta Del Sol, o grande alto-falante. **Brasil de Fato.** São Paulo, 26 maio-1 jun. 2011 (adaptado).\n\nEm 2011, o acampamento dos indignados espanhóis expressou todo o descontamento político da juventude europeia. Que proposta sintetiza o conjunto de reivindicações políticas destes jovens?",
+    "after_question": "Rua Preciados, seis da tarde. Ao longe, a massa humana que abarrota a Praça Puerta Del Sol, em Madri, se levanta. Um grupo de garotas, ao ver a cena, corre em direção à multidão. Milhares de pessoas fazem ressoar o slogan: “Que não, que não, que não nos representem”. Um garoto fala pelo megafone: “Demandamos submeter a referendo o resgate bancário”.\n\nRODRÍGUEZ, O. Puerta Del Sol, o grande alto-falante. **Brasil de Fato.** São Paulo, 26 maio-1 jun. 2011 (adaptado).\n\nEm 2011, o acampamento dos Indignados espanhóis expressou todo o descontentamento político da juventude europeia. Que proposta sintetiza o conjunto de reivindicações políticas destes jovens?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Voto universal."
+      },
+      {
+        "label": "B",
+        "text": "Democracia direta."
+      },
+      {
+        "label": "C",
+        "text": "Pluralidade partidária."
+      },
+      {
+        "label": "D",
+        "text": "Autonomia legislativa."
+      },
+      {
+        "label": "E",
+        "text": "Imunidade parlamentar."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Voto universal."
+      },
+      {
+        "label": "B",
+        "text": "Democracia direta."
+      },
+      {
+        "label": "C",
+        "text": "Pluralidade partidária."
+      },
+      {
+        "label": "D",
+        "text": "Autonomia legislativa."
+      },
+      {
+        "label": "E",
+        "text": "Imunidade parlamentar."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 11)"
+  },
+  {
+    "id": "gq_8d2178404d2511cb7cf03287",
+    "year": 2013,
+    "area": "CN",
+    "position": 47,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O brasileiro consome em média 500 miligramas de cálcio por dia, quando a quantidade recomendada é o dobro. Uma alimentação balanceada é a melhor decisão para evitar problemas no futuro, como a osteoporose, uma doença que atinge os ossos. Ela se caracteriza pela diminuição substancial de massa óssea, tornando os ossos frágeis e mais suscetíveis a fraturas.\n\nDisponível em: www.anvisa.gov.br. Acesso em: 1 ago. 2012 (adaptado).\n\nConsiderando-se o valor de 6 × 1023 mol–1 para a constante de Avogadro e a massa molar do cálcio igual a 40 g/mol, qual a quantidade mínima diária de átomos de cálcio a ser ingerida para que uma pessoa supra suas necessidades?",
+    "after_question": "O brasileiro consome em média 500 miligramas de cálcio por dia, quando a quantidade recomendada é o dobro. Uma alimentação balanceada é a melhor decisão para evitar problemas no futuro, como a osteoporose, uma doença que atinge os ossos. Ela se caracteriza pela diminuição substancial de massa óssea, tornando os ossos frágeis e mais suscetíveis a fraturas.\n\nDisponível em: www.anvisa.gov.br. Acesso em: 1 ago. 2012 (adaptado).\n\nConsiderando-se o valor de 6 × 10^23 mol^-1 para a constante de Avogadro e a massa molar do cálcio igual a 40 g/mol, qual a quantidade mínima diária de átomos de cálcio a ser ingerida para que uma pessoa supra suas necessidades?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "7,5 × 1021"
+      },
+      {
+        "label": "B",
+        "text": "1,5 × 1022"
+      },
+      {
+        "label": "C",
+        "text": "7,5 × 1023"
+      },
+      {
+        "label": "D",
+        "text": "1,5 × 1025"
+      },
+      {
+        "label": "E",
+        "text": "4,8 × 1025"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "7,5 × 10^21"
+      },
+      {
+        "label": "B",
+        "text": "1,5 × 10^22"
+      },
+      {
+        "label": "C",
+        "text": "7,5 × 10^23"
+      },
+      {
+        "label": "D",
+        "text": "1,5 × 10^25"
+      },
+      {
+        "label": "E",
+        "text": "4,8 × 10^25"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "expoentes restaurados (p. 15); 1 g ÷ 40 g/mol × 6 × 10^23 = 1,5 × 10^22 (B)"
+  },
+  {
+    "id": "gq_749dd40512b29644fd8bb560",
+    "year": 2013,
+    "area": "CN",
+    "position": 52,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Em viagens de avião, é solicitado aos passageiros o desligamento de todos o aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas. O procedimento é utilizado para eliminar fontes de radiação que possam interferir nas comunicações via rádio dos pilotos com a torre de controle.\n\nA propriedade das ondas emitidas que justifica o procedimento adotado é o fato de",
+    "after_question": "Em viagens de avião, é solicitado aos passageiros o desligamento de todos os aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas. O procedimento é utilizado para eliminar fontes de radiação que possam interferir nas comunicações via rádio dos pilotos com a torre de controle.\n\nA propriedade das ondas emitidas que justifica o procedimento adotado é o fato de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Terem fases opostas."
+      },
+      {
+        "label": "B",
+        "text": "Serem ambas audíveis."
+      },
+      {
+        "label": "C",
+        "text": "Terem intensidades inversas."
+      },
+      {
+        "label": "D",
+        "text": "Serem de mesma amplitude."
+      },
+      {
+        "label": "E",
+        "text": "Terem frequências próximas"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Terem fases opostas."
+      },
+      {
+        "label": "B",
+        "text": "Serem ambas audíveis."
+      },
+      {
+        "label": "C",
+        "text": "Terem intensidades inversas."
+      },
+      {
+        "label": "D",
+        "text": "Serem de mesma amplitude."
+      },
+      {
+        "label": "E",
+        "text": "Terem frequências próximas."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 17)"
+  },
+  {
+    "id": "gq_bd293ec53d4dc52d45dadb01",
+    "year": 2014,
+    "area": "CH",
+    "position": 28,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A Comissão Nacional da Verdade (CNV) reuniu representantes de comissões estaduais e de várias instituições para apresentar um balanço dos trabalhos feitos e assinar termos de cooperação com quatro organizações. O coordenador da CNV estima que, até o momento, a comissão examinou, “por baixo”, cerca de 30 milhões de páginas de documentos e fez centenas de entrevistas.\n\nDisponível em: www.jb.com.br.Acessoem: 2 mar. 2013 (adaptado).\n\nA notícia descreve uma iniciativa do Estado que resultou da ação de diversos movimentos sociais no Brasil diante de eventos ocorridos entre 1964 e 1988. O objetivo dessa iniciativa é",
+    "after_question": "A Comissão Nacional da Verdade (CNV) reuniu representantes de comissões estaduais e de várias instituições para apresentar um balanço dos trabalhos feitos e assinar termos de cooperação com quatro organizações. O coordenador da CNV estima que, até o momento, a comissão examinou, “por baixo”, cerca de 30 milhões de páginas de documentos e fez centenas de entrevistas.\n\nDisponível em: www.jb.com.br. Acesso em: 2 mar. 2013 (adaptado).\n\nA notícia descreve uma iniciativa do Estado que resultou da ação de diversos movimentos sociais no Brasil diante de eventos ocorridos entre 1964 e 1988. O objetivo dessa iniciativa é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Anular a anistia concedida aos chefes militares."
+      },
+      {
+        "label": "B",
+        "text": "Rever as condenações judiciais aos presos políticos."
+      },
+      {
+        "label": "C",
+        "text": "Perdoar os crimes atribuídos aos militantes esquerdistas."
+      },
+      {
+        "label": "D",
+        "text": "Comprovar o apoio da sociedade aos golpistas anticomunistas."
+      },
+      {
+        "label": "E",
+        "text": "Esclarecer as circunstâncias de violações aos direitos humanos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Anular a anistia concedida aos chefes militares."
+      },
+      {
+        "label": "B",
+        "text": "Rever as condenações judiciais aos presos políticos."
+      },
+      {
+        "label": "C",
+        "text": "Perdoar os crimes atribuídos aos militantes esquerdistas."
+      },
+      {
+        "label": "D",
+        "text": "Comprovar o apoio da sociedade aos golpistas anticomunistas."
+      },
+      {
+        "label": "E",
+        "text": "Esclarecer as circunstâncias de violações aos direitos humanos."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 10)"
+  },
+  {
+    "id": "gq_c18e11848a242238324c241b",
+    "year": 2014,
+    "area": "CH",
+    "position": 41,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Em 1961, o presidente De Gaulle apelou com êxito aos recrutas franceses contra o golpe militar dos seus comandados, porque os soldados podiam ouvi-lo em rádios portáteis. Na década de 1970, os discursos do aiatolá Khomeini, líder exilado da futura Revolução Iraniana, eram gravados em fita magnética e prontamente levados para o Irã, copiados e difundidos.\n\nHOBSBAWM, E. Era dos extremos: o breve século XX (1914-1991). São Paulo: Cia. das Letras, 1995.\n\nOs exemplos mencionados no texto evidenciam um uso dos meios de comunicação identificado na",
+    "after_question": "Em 1961, o presidente De Gaulle apelou com êxito aos recrutas franceses contra o golpe militar dos seus comandados, porque os soldados podiam ouvi-lo em rádios portáteis. Na década de 1970, os discursos do aiatolá Khomeini, líder exilado da futura Revolução Iraniana, eram gravados em fita magnética e prontamente levados para o Irã, copiados e difundidos.\n\nHOBSBAWM, E. Era dos extremos: o breve século XX (1914-1991). São Paulo: Cia. das Letras, 1995.\n\nOs exemplos mencionados no texto evidenciam um uso dos meios de comunicação identificado na",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Manipulação da vontade popular."
+      },
+      {
+        "label": "B",
+        "text": "Promoção da mobilização política."
+      },
+      {
+        "label": "C",
+        "text": "Insubordinação das tropas multares."
+      },
+      {
+        "label": "D",
+        "text": "Implantação de governos autoritários."
+      },
+      {
+        "label": "E",
+        "text": "Valorização dos socialmente desfavorecidos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Manipulação da vontade popular."
+      },
+      {
+        "label": "B",
+        "text": "Promoção da mobilização política."
+      },
+      {
+        "label": "C",
+        "text": "Insubordinação das tropas militares."
+      },
+      {
+        "label": "D",
+        "text": "Implantação de governos autoritários."
+      },
+      {
+        "label": "E",
+        "text": "Valorização dos socialmente desfavorecidos."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 14)"
+  },
+  {
+    "id": "gq_69a51809120ee2b1dda01291",
+    "year": 2014,
+    "area": "CH",
+    "position": 42,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**TEXTO I**\n\nO presidente do jornal de maior circulação do país destacava também os avanços econômicos obtidos naqueles vinte anos, mas, ao justificar sua adesão aos militares em 1964, deixava clara sua crença de que a intervenção fora imprescindível para a manutenção da democracia.\n\nDisponivel em: **http://oglobo.globo.com**. Acesso em: 1 set. 2013 (adaplado).\n\n**TEXTO II**\n\nNada pode ser colocado em compensação à perda das liberdades individuais. Não existe nada de bom quando se aceita uma solução autoritária.\n\nFICO, C. **A educação e o golpe de 1964**. Disponivel em: www.brasilrecente.com.Acesso em: 4 abro 2014 (adaptado).\n\nEmbora enfatizem a defesa da democracia, as visões do movimento político-militar de 1964 divergem ao focarem, respectivamente:",
+    "after_question": "**TEXTO I**\n\nO presidente do jornal de maior circulação do país destacava também os avanços econômicos obtidos naqueles vinte anos, mas, ao justificar sua adesão aos militares em 1964, deixava clara sua crença de que a intervenção fora imprescindível para a manutenção da democracia.\n\nDisponível em: **http://oglobo.globo.com**. Acesso em: 1 set. 2013 (adaptado).\n\n**TEXTO II**\n\nNada pode ser colocado em compensação à perda das liberdades individuais. Não existe nada de bom quando se aceita uma solução autoritária.\n\nFICO, C. **A educação e o golpe de 1964**. Disponível em: www.brasilrecente.com. Acesso em: 4 abr. 2014 (adaptado).\n\nEmbora enfatizem a defesa da democracia, as visões do movimento político-militar de 1964 divergem ao focarem, respectivamente:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Razões de Estado – Soberania popular."
+      },
+      {
+        "label": "B",
+        "text": "Ordenação da Nação – Prerrogativas religiosas."
+      },
+      {
+        "label": "C",
+        "text": "Imposição das Forças Armadas – Deveres sociais."
+      },
+      {
+        "label": "D",
+        "text": "Normatização do Poder Judiciário – Regras morais."
+      },
+      {
+        "label": "E",
+        "text": "Contestação do sistema de governo – Tradições culturais."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Razões de Estado – Soberania popular."
+      },
+      {
+        "label": "B",
+        "text": "Ordenação da Nação – Prerrogativas religiosas."
+      },
+      {
+        "label": "C",
+        "text": "Imposição das Forças Armadas – Deveres sociais."
+      },
+      {
+        "label": "D",
+        "text": "Normatização do Poder Judiciário – Regras morais."
+      },
+      {
+        "label": "E",
+        "text": "Contestação do sistema de governo – Tradições culturais."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "conferido na prova (p. 14)"
+  },
+  {
+    "id": "gq_da47eaff3afcfbb52a53df9d",
+    "year": 2015,
+    "area": "CH",
+    "position": 4,
+    "changed": true,
+    "released": true,
+    "status_before": "hold_for_source_review",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "TEXTO I Os problemas ambientais são consequência direta da intervenção humana nos diferentes ecossistemas da Terra, causando desequilíbrios no meio ambiente e comprometendo a qualidade de vida. TEXTO II Disponível em: www.repository.utl.pt. Acesso em: 29 jul. 2012. Disponível em: www.netuno.eco.br. Acesso em: 29 jul. 2012.\nAs imagens representam as geleiras da Groenlândia, que sofreram e sofrem impactos, resultantes do(a)",
+    "after_question": "TEXTO I\nOs problemas ambientais são consequência direta da intervenção humana nos diferentes ecossistemas da Terra, causando desequilíbrios no meio ambiente e comprometendo a qualidade de vida.\nDisponível em: www.repository.utl.pt. Acesso em: 29 jul. 2012.\nTEXTO II\n[Imagem: três vistas da Groenlândia, de 1992, 2002 e 2005. A área de gelo que derrete no verão, em cinza, aumenta de uma imagem para a outra, e a área branca de gelo permanente diminui.]\nDisponível em: www.netuno.eco.br. Acesso em: 29 jul. 2012.\nAs imagens representam as geleiras da Groenlândia, que sofreram e sofrem impactos, resultantes do(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "ilha de calor."
+      },
+      {
+        "label": "B",
+        "text": "chuva ácida."
+      },
+      {
+        "label": "C",
+        "text": "erosão eólica."
+      },
+      {
+        "label": "D",
+        "text": "inversão térmica."
+      },
+      {
+        "label": "E",
+        "text": "aquecimento global."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "ilha de calor."
+      },
+      {
+        "label": "B",
+        "text": "chuva ácida."
+      },
+      {
+        "label": "C",
+        "text": "erosão eólica."
+      },
+      {
+        "label": "D",
+        "text": "inversão térmica."
+      },
+      {
+        "label": "E",
+        "text": "aquecimento global."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "2ª aplicação de 2015, 1º dia, caderno azul, questão 4 (p. 2); imagem descrita; derretimento crescente das geleiras → aquecimento global (E)"
+  },
+  {
+    "id": "gq_cf0426617ddf90a05b7d3450",
+    "year": 2015,
+    "area": "CN",
+    "position": 67,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Num sistema de freio convencional, as rodas do carro travam e os pneus derrapam no solo, caso a força exercida sobre o pedal seja muito intensa. O sistema ABS evita o travamento das rodas, mantendo a força de atrito no seu valor estático máximo, sem derrapagem. O coeficiente de atrito estático da borracha em contato com o concreto vale 1,0 e o coeficiente de atrito cinético para o mesmo par de materiais é 0,75. Dois carros, com velocidades iniciais iguais a 108 km/h, iniciam a frenagem numa estrada perfeitamente horizontal de concreto no mesmo ponto. O carro 1 tem sistema ABS e utiliza a força de atrito estática máxima para a frenagem; já o carro 2 trava as rodas, de maneira que a força de atrito efetiva é a cinética. Considere g = 10 m/s².\nAs distâncias, medidas a partir do ponto em que iniciam a frenagem, que os carros 1 (d) e 2 (f) percorrem até parar são, respectivamente,",
+    "after_question": "Num sistema de freio convencional, as rodas do carro travam e os pneus derrapam no solo, caso a força exercida sobre o pedal seja muito intensa. O sistema ABS evita o travamento das rodas, mantendo a força de atrito no seu valor estático máximo, sem derrapagem. O coeficiente de atrito estático da borracha em contato com o concreto vale μe = 1,0 e o coeficiente de atrito cinético para o mesmo par de materiais é μc = 0,75. Dois carros, com velocidades iniciais iguais a 108 km/h, iniciam a frenagem numa estrada perfeitamente horizontal de concreto no mesmo ponto. O carro 1 tem sistema ABS e utiliza a força de atrito estática máxima para a frenagem; já o carro 2 trava as rodas, de maneira que a força de atrito efetiva é a cinética. Considere g = 10 m/s².\nAs distâncias, medidas a partir do ponto em que iniciam a frenagem, que os carros 1 (d1) e 2 (d2) percorrem até parar são, respectivamente,",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "d = 45 m e f = 60 m."
+      },
+      {
+        "label": "B",
+        "text": "d = 60 m e f = 45 m."
+      },
+      {
+        "label": "C",
+        "text": "d = 90 m e f = 120 m."
+      },
+      {
+        "label": "D",
+        "text": "d = 5 , 8 × 10 2 m e f = 7 , 8 × 10 2 m."
+      },
+      {
+        "label": "E",
+        "text": "d = 7 , 8 × 10 2 m e f = 5 , 8 × 10 2 m."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "d1 = 45 m e d2 = 60 m."
+      },
+      {
+        "label": "B",
+        "text": "d1 = 60 m e d2 = 45 m."
+      },
+      {
+        "label": "C",
+        "text": "d1 = 90 m e d2 = 120 m."
+      },
+      {
+        "label": "D",
+        "text": "d1 = 5,8 × 10^2 m e d2 = 7,8 × 10^2 m."
+      },
+      {
+        "label": "E",
+        "text": "d1 = 7,8 × 10^2 m e d2 = 5,8 × 10^2 m."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2015, 1º dia, p. 23; v = 30 m/s: d1 = 900/20 = 45 m, d2 = 900/15 = 60 m (A)"
+  },
+  {
+    "id": "gq_129cb384d548f1d51453037b",
+    "year": 2015,
+    "area": "CN",
+    "position": 78,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "De acordo com estatísticas do Ministério da Saúde, cerca de 5% das pessoas com dengue hemorrágica morrem. A dengue hemorrágica tem como base fisiopatológica uma resposta imune anômala, causando aumento da permeabilidade de vasos sanguíneos, queda da pressão arterial e manifestações hemorrágicas, podendo ocorrer manchas vermelhas na pele e sangramento pelo nariz, boca e gengivas. O hemograma do paciente pode apresentar como resultado leucopenia (diminuição do número de glóbulos brancos), linfocitose (aumento do número de linfócitos), aumento do hematócrito e trombocitopenia (contagem de plaquetas abaixo de 100 000/mm³). Disponível em: www.ciencianews.com.br. Acesso em: 28 fev. 2012 (adaptado).\nRelacionando os sintomas apresentados pelo paciente com dengue hemorrágica e os possíveis achados do hemograma, constata-se que",
+    "after_question": "De acordo com estatísticas do Ministério da Saúde, cerca de 5% das pessoas com dengue hemorrágica morrem. A dengue hemorrágica tem como base fisiopatológica uma resposta imune anômala, causando aumento da permeabilidade de vasos sanguíneos, queda da pressão arterial e manifestações hemorrágicas, podendo ocorrer manchas vermelhas na pele e sangramento pelo nariz, boca e gengivas. O hemograma do paciente pode apresentar como resultado leucopenia (diminuição do número de glóbulos brancos), linfocitose (aumento do número de linfócitos), aumento do hematócrito e trombocitopenia (contagem de plaquetas abaixo de 100 000/mm³). Disponível em: www.ciencianews.com.br. Acesso em: 28 fev. 2012 (adaptado).\nRelacionando os sintomas apresentados pelo paciente com dengue hemorrágica e os possíveis achados do hemograma, constata-se que",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "as manifestações febris ocorrem em função da diminuição dos glóbulos brancos, uma vez que estes controlam a temperatura do corpo."
+      },
+      {
+        "label": "B",
+        "text": "a queda na pressão arterial é ocasionada pelo aumento do número de linfócitos, que têm como função principal a produção de anticorpos."
+      },
+      {
+        "label": "C",
+        "text": "o sangramento pelo nariz, pela boca e gengiva é ocasionado pela quantidade reduzida de plaquetas, que são responsáveis pelo transporte de oxigênio."
+      },
+      {
+        "label": "D",
+        "text": "as manifestações hemorrágicas estão associadas à trombocitopenia, uma vez que as plaquetas estão envolvidas na cascata decoagulação sanguínea."
+      },
+      {
+        "label": "E",
+        "text": "os sangramentos observados ocorrem em função da linfocitose, uma vez que os linfócitos são responsáveis pela manutenção da integridade dos vasos sanguíneos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "as manifestações febris ocorrem em função da diminuição dos glóbulos brancos, uma vez que estes controlam a temperatura do corpo."
+      },
+      {
+        "label": "B",
+        "text": "a queda na pressão arterial é ocasionada pelo aumento do número de linfócitos, que têm como função principal a produção de anticorpos."
+      },
+      {
+        "label": "C",
+        "text": "o sangramento pelo nariz, pela boca e gengiva é ocasionado pela quantidade reduzida de plaquetas, que são responsáveis pelo transporte de oxigênio."
+      },
+      {
+        "label": "D",
+        "text": "as manifestações hemorrágicas estão associadas à trombocitopenia, uma vez que as plaquetas estão envolvidas na cascata de coagulação sanguínea."
+      },
+      {
+        "label": "E",
+        "text": "os sangramentos observados ocorrem em função da linfocitose, uma vez que os linfócitos são responsáveis pela manutenção da integridade dos vasos sanguíneos."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2015, 1º dia, p. 27"
+  },
+  {
+    "id": "gq_5f68c25e090faa94ce7517ac",
+    "year": 2015,
+    "area": "LC",
+    "position": 104,
+    "changed": false,
+    "released": true,
+    "status_before": "presentation_hold_concrete_poem",
+    "status_after": "released_layout_checked_against_official_pdf",
+    "before_question": "**da sua memória**\n\nmil\ne\nmui\ntos\nout\nros\nros\ntos\nsol\ntos\npou\ncoa\npou\ncoa\npag\namo\nmeu\n\nANTUNES, A. **2 ou + corpos no mesmo espaço**. São Paulo: Perspectiva, 1998.\n\nTrabalhando com recursos formais inspirados no Concretismo, o poema atinge uma expressividade que se caracteriza pela",
+    "after_question": "**da sua memória**\n\nmil\ne\nmui\ntos\nout\nros\nros\ntos\nsol\ntos\npou\ncoa\npou\ncoa\npag\namo\nmeu\n\nANTUNES, A. **2 ou + corpos no mesmo espaço**. São Paulo: Perspectiva, 1998.\n\nTrabalhando com recursos formais inspirados no Concretismo, o poema atinge uma expressividade que se caracteriza pela",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Interrupção da fluência verbal, para testar os limites da lógica racional."
+      },
+      {
+        "label": "B",
+        "text": "Reestruturação formal da palavra, para provocar o estranhamento no leitor."
+      },
+      {
+        "label": "C",
+        "text": "Dispersão das unidades verbais, para questionar o sentido das lembranças."
+      },
+      {
+        "label": "D",
+        "text": "Fragmentação da palavra, para representar o estreitamento das lembranças."
+      },
+      {
+        "label": "E",
+        "text": "Renovação das formas tradicionais, para propor uma nova vanguarda poética."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Interrupção da fluência verbal, para testar os limites da lógica racional."
+      },
+      {
+        "label": "B",
+        "text": "Reestruturação formal da palavra, para provocar o estranhamento no leitor."
+      },
+      {
+        "label": "C",
+        "text": "Dispersão das unidades verbais, para questionar o sentido das lembranças."
+      },
+      {
+        "label": "D",
+        "text": "Fragmentação da palavra, para representar o estreitamento das lembranças."
+      },
+      {
+        "label": "E",
+        "text": "Renovação das formas tradicionais, para propor uma nova vanguarda poética."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "disposição conferida na prova (2015, 2º dia, p. 9): uma coluna, um fragmento por linha, igual à base; liberada sem mudança no texto"
+  },
+  {
+    "id": "gq_9107c5a16c918c546bc3f3e5",
+    "year": 2015,
+    "area": "LC",
+    "position": 108,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Conecte-se Estabeleça relações com as pessoas a sua volta. Os relacionamentos são a base da vida diária e investir tempo neles enriquecerá seu dia e garantirá apoio quando precisar. As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima — entre família e amigos — tem mais chance de desenvolver uma doença mental. Seja ativo Caminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem — o importante é cada pessoa achar a atividade que lhe dá prazer e que é adequada a seus limites. Estudos de longo prazo sugerem que a prática de uma atividade física previne o declínio das capacidades mentais e protege contra a ansiedade e a depressão. Preste atenção Seja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa e garantir que você viva o presente. Uma pesquisa mostrou que pessoas treinadas a prestar atenção em seus sentimentos durante oito a 12 semanas apresentaram melhora no bem-estar por anos. Continue aprendendo Tente algo novo, matricule- se em um curso, faça uma nova tarefa no trabalho. Tente consertar algo em casa. Aprenda a tocar um instrumento ou a cozinhar. Escolha um desafio que você vai gostar de perseguir. Os estudos sugerem que o bem-estar está ligado a ter metas — desde que elas sejam estabelecidas pelos próprios indivíduos e tenham a ver com seus valores pessoais. Doe-se Agradeça a alguém, ajude um amigo ou um estranho. Sorria, faça trabalho voluntário, junte- se à associação do bairro. Olhe para fora, além de olhar para dentro de si. Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas. As pesquisas mostram que as pessoas que têm um interesse maior pelo outro tendem a se considerar mais felizes. Disponível em: www.revistaepoca.globo.com. Acesso em: 27 fev. 2012.\nAo interagirmos socialmente, é comum deixarmos claro nosso posicionamento a respeito do assunto discutido. Para isso, muitas vezes, recorremos a determinadas estratégias argumentativas, dentre as quais se encontra o argumento de autoridade. Considerando o texto em suas cinco partes, constata-se que há o emprego de argumento de autoridade no trecho:",
+    "after_question": "**Conecte-se**\nEstabeleça relações com as pessoas a sua volta. Os relacionamentos são a base da vida diária e investir tempo neles enriquecerá seu dia e garantirá apoio quando precisar. As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima — entre família e amigos — tem mais chance de desenvolver uma doença mental.\n**Seja ativo**\nCaminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem — o importante é cada pessoa achar a atividade que lhe dá prazer e que é adequada a seus limites. Estudos de longo prazo sugerem que a prática de uma atividade física previne o declínio das capacidades mentais e protege contra a ansiedade e a depressão.\n**Preste atenção**\nSeja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa e garantir que você viva o presente. Uma pesquisa mostrou que pessoas treinadas a prestar atenção em seus sentimentos durante oito a 12 semanas apresentaram melhora no bem-estar por anos.\n**Continue aprendendo**\nTente algo novo, matricule-se em um curso, faça uma nova tarefa no trabalho. Tente consertar algo em casa. Aprenda a tocar um instrumento ou a cozinhar. Escolha um desafio que você vai gostar de perseguir. Os estudos sugerem que o bem-estar está ligado a ter metas — desde que elas sejam estabelecidas pelos próprios indivíduos e tenham a ver com seus valores pessoais.\n**Doe-se**\nAgradeça a alguém, ajude um amigo ou um estranho. Sorria, faça trabalho voluntário, junte-se à associação do bairro. Olhe para fora, além de olhar para dentro de si. Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas. As pesquisas mostram que as pessoas que têm um interesse maior pelo outro tendem a se considerar mais felizes.\nDisponível em: www.revistaepoca.globo.com. Acesso em: 27 fev. 2012.\nAo interagirmos socialmente, é comum deixarmos claro nosso posicionamento a respeito do assunto discutido. Para isso, muitas vezes, recorremos a determinadas estratégias argumentativas, dentre as quais se encontra o argumento de autoridade. Considerando o texto em suas cinco partes, constata-se que há o emprego de argumento de autoridade no trecho:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "“Seja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa”."
+      },
+      {
+        "label": "B",
+        "text": "“As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima [...] tem mais chances de desenvolver uma doença mental.”"
+      },
+      {
+        "label": "C",
+        "text": "“Caminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem”."
+      },
+      {
+        "label": "D",
+        "text": "“Tente algo novo, matricule-se em um curso [...] Escolha um desafio que você vai gostar de perseguir.”"
+      },
+      {
+        "label": "E",
+        "text": "“Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas.”"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "“Seja curioso, saboreie os momentos da vida e tome consciência de como se sente. Refletir sobre suas experiências ajuda a descobrir o que realmente importa”."
+      },
+      {
+        "label": "B",
+        "text": "“As pesquisas mostram que quem tem menos de três pessoas em sua rede de contatos próxima [...] tem mais chances de desenvolver uma doença mental.”"
+      },
+      {
+        "label": "C",
+        "text": "“Caminhe ou corra, ande de bicicleta, pratique um esporte, dance. Os exercícios fazem as pessoas se sentirem bem”."
+      },
+      {
+        "label": "D",
+        "text": "“Tente algo novo, matricule-se em um curso [...] Escolha um desafio que você vai gostar de perseguir.”"
+      },
+      {
+        "label": "E",
+        "text": "“Fazer parte de uma comunidade traz benefícios — entre eles relações sociais mais significativas.”"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2015, 2º dia, p. 9: as cinco partes voltam a ter título e parágrafo próprios; hifens corrigidos"
+  },
+  {
+    "id": "gq_1009e2e9a8cf95ede358a9d7",
+    "year": 2015,
+    "area": "LC",
+    "position": 121,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**Poesia quentinha**\n\n_Projeto literário publica poemas em sacos de pão na capital mineira_\n\nSe a literatura é mesmo o alimento da alma, então os mineiros estão diante de um verdadeiro banquete. Mais do que um pãozinho com manteiga, os moradores do bairro de Barreiro, em Belo Horizonte (MG), estão consumindo poesia brasileira no café da manhã. Graças ao projeto “Pão e Poesia”, que faz do saquinho de pão um espaço para veiculação de poemas, escritores como Affonso Romano de Sant’Anna e Fernando Brant dividem espaço com estudants que passaram por oficinas de escrita poética. São ao todo 250 mil embalagens, distribuídas em padarias da região de Belo Horizonte, que trazem a boa literatura para o cotidiano de pessoas, além de dar uma chance a escritores novatos de verem seus textos impressos. Criado em 2008 por um analista de sistemas apaixonado por literatura, o “Pão e Poesia” já recebeu dois prêmios do Ministério da Cultura.\n\n**Língua Portuguesa**, n. 71, set. 2011.\n\nA proposta de um projeto como o “Pão e Poesia” objetiva inovar em sua área de atuação, pois:",
+    "after_question": "**Poesia quentinha**\n\n_Projeto literário publica poemas em sacos de pão na capital mineira_\n\nSe a literatura é mesmo o alimento da alma, então os mineiros estão diante de um verdadeiro banquete. Mais do que um pãozinho com manteiga, os moradores do bairro de Barreiro, em Belo Horizonte (MG), estão consumindo poesia brasileira no café da manhã. Graças ao projeto “Pão e Poesia”, que faz do saquinho de pão um espaço para veiculação de poemas, escritores como Affonso Romano de Sant’Anna e Fernando Brant dividem espaço com estudantes que passaram por oficinas de escrita poética. São ao todo 250 mil embalagens, distribuídas em padarias da região de Belo Horizonte, que trazem a boa literatura para o cotidiano de pessoas, além de dar uma chance a escritores novatos de verem seus textos impressos. Criado em 2008 por um analista de sistemas apaixonado por literatura, o “Pão e Poesia” já recebeu dois prêmios do Ministério da Cultura.\n\n**Língua Portuguesa**, n. 71, set. 2011.\n\nA proposta de um projeto como o “Pão e Poesia” objetiva inovar em sua área de atuação, pois:",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Privilegia novos escritores em detrimento daqueles já consagrados."
+      },
+      {
+        "label": "B",
+        "text": "Resgata poetas que haviam perdido espaços de publicação impressa."
+      },
+      {
+        "label": "C",
+        "text": "Prescinde de critérios de seleção em prol da popularização da literatura."
+      },
+      {
+        "label": "D",
+        "text": "Propõe acesso à literatura a públicos diversos."
+      },
+      {
+        "label": "E",
+        "text": "Alavanca projetos de premiações antes esquecidos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Privilegia novos escritores em detrimento daqueles já consagrados."
+      },
+      {
+        "label": "B",
+        "text": "Resgata poetas que haviam perdido espaços de publicação impressa."
+      },
+      {
+        "label": "C",
+        "text": "Prescinde de critérios de seleção em prol da popularização da literatura."
+      },
+      {
+        "label": "D",
+        "text": "Propõe acesso à literatura a públicos diversos."
+      },
+      {
+        "label": "E",
+        "text": "Alavanca projetos de premiações antes esquecidos."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "conferido na prova (2015, 2º dia, p. 14)"
+  },
+  {
+    "id": "gq_f93dc85f43ac7680e7c8f64e",
+    "year": 2015,
+    "area": "MT",
+    "position": 164,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Um meio de transporte coletivo que vem ganhando espaço no Brasil é a van, pois realiza, com relativo conforto e preço acessível, quase todos os tipos de transportes: escolar e urbano, intermunicipal e excursões em geral. O dono de uma van, cuja capacidade máxima é de 15 passageiros, cobra para uma excursão até a capital de seu estado R$ 60,00 de cada passageiro. Se não atingir a capacidade máxima da van, cada passageiro pagará mais R$ 2,00 por lugar vago.\nSendo x o número de lugares vagos, a expressão que representa o valor arrecadado V, em reais, pelo dono da van, para uma viagem até a capital é",
+    "after_question": "Um meio de transporte coletivo que vem ganhando espaço no Brasil é a van, pois realiza, com relativo conforto e preço acessível, quase todos os tipos de transportes: escolar e urbano, intermunicipal e excursões em geral. O dono de uma van, cuja capacidade máxima é de 15 passageiros, cobra para uma excursão até a capital de seu estado R$ 60,00 de cada passageiro. Se não atingir a capacidade máxima da van, cada passageiro pagará mais R$ 2,00 por lugar vago.\nSendo x o número de lugares vagos, a expressão que representa o valor arrecadado V(x), em reais, pelo dono da van, para uma viagem até a capital é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "V = 902 x"
+      },
+      {
+        "label": "B",
+        "text": "V = 930 x"
+      },
+      {
+        "label": "C",
+        "text": "V = 900 + 30 x"
+      },
+      {
+        "label": "D",
+        "text": "V = 60 x + 2 x 2"
+      },
+      {
+        "label": "E",
+        "text": "V = 900 - 30 x - 2 x 2"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "V(x) = 902x"
+      },
+      {
+        "label": "B",
+        "text": "V(x) = 930x"
+      },
+      {
+        "label": "C",
+        "text": "V(x) = 900 + 30x"
+      },
+      {
+        "label": "D",
+        "text": "V(x) = 60x + 2x²"
+      },
+      {
+        "label": "E",
+        "text": "V(x) = 900 − 30x − 2x²"
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2015, 2º dia, p. 27; (15 − x)(60 + 2x) = 900 − 30x − 2x² (E)"
+  },
+  {
+    "id": "gq_3c1c037a0ce8eafd92fe2764",
+    "year": 2015,
+    "area": "MT",
+    "position": 173,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O sindicato de trabalhadores de uma empresa sugere que o piso salarial da classe seja de R$ 1 800,00, propondo um aumento percentual fixo por cada ano dedicado ao trabalho. A expressão que corresponde à proposta salarial (s), em função do tempo de serviço (t),em anos, é s = 1800 × 1 , 03 t .\nDe acordo com a proposta do sindicato, o salário de um profissional dessa empresa com 2 anos de tempo de serviço será, em reais,",
+    "after_question": "O sindicato de trabalhadores de uma empresa sugere que o piso salarial da classe seja de R$ 1 800,00, propondo um aumento percentual fixo por cada ano dedicado ao trabalho. A expressão que corresponde à proposta salarial (s), em função do tempo de serviço (t), em anos, é s(t) = 1 800 · (1,03)^t.\nDe acordo com a proposta do sindicato, o salário de um profissional dessa empresa com 2 anos de tempo de serviço será, em reais,",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "7 416,00."
+      },
+      {
+        "label": "B",
+        "text": "3 819,24."
+      },
+      {
+        "label": "C",
+        "text": "3 709,62."
+      },
+      {
+        "label": "D",
+        "text": "3 708,00."
+      },
+      {
+        "label": "E",
+        "text": "1 909,62."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "7 416,00."
+      },
+      {
+        "label": "B",
+        "text": "3 819,24."
+      },
+      {
+        "label": "C",
+        "text": "3 709,62."
+      },
+      {
+        "label": "D",
+        "text": "3 708,00."
+      },
+      {
+        "label": "E",
+        "text": "1 909,62."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2015, 2º dia, p. 28; 1 800 × 1,03² = 1 909,62 (E)"
+  },
+  {
+    "id": "gq_97fd2312c10ec07d9a5e81d0",
+    "year": 2016,
+    "area": "CN",
+    "position": 118,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A energia nuclear é uma alternativa aos combustíveis fósseis que, se não gerenciada de forma correta, pode causar impactos ambientais graves. O princípio da geração dessa energia pode se basear na reação de fissão controlada do urânio por bombardeio de nêutrons, como ilustrado: U 235 + n → 95 Sr + 139 Xe + 2 n + energia Um grande risco decorre da geração do chamado lixo atômico, que exige condições muito rígidas de tratamento e armazenamento para evitar vazamentos para o meio ambiente.\nEsse lixo é prejudicial, pois",
+    "after_question": "A energia nuclear é uma alternativa aos combustíveis fósseis que, se não gerenciada de forma correta, pode causar impactos ambientais graves. O princípio da geração dessa energia pode se basear na reação de fissão controlada do urânio por bombardeio de nêutrons, como ilustrado: ²³⁵U + n → ⁹⁵Sr + ¹³⁹Xe + 2 n + energia Um grande risco decorre da geração do chamado lixo atômico, que exige condições muito rígidas de tratamento e armazenamento para evitar vazamentos para o meio ambiente.\nEsse lixo é prejudicial, pois",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "favorece a proliferação de microrganismos termófilos."
+      },
+      {
+        "label": "B",
+        "text": "produz nêutrons livres que ionizam o ar, tornando-o condutor."
+      },
+      {
+        "label": "C",
+        "text": "libera gases que alteram a composição da atmosfera terrestre."
+      },
+      {
+        "label": "D",
+        "text": "acentua o efeito estufa decorrente do calor produzido na fissão."
+      },
+      {
+        "label": "E",
+        "text": "emite radiação capaz de provocar danos à saúde dos seres vivos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "favorece a proliferação de microrganismos termófilos."
+      },
+      {
+        "label": "B",
+        "text": "produz nêutrons livres que ionizam o ar, tornando-o condutor."
+      },
+      {
+        "label": "C",
+        "text": "libera gases que alteram a composição da atmosfera terrestre."
+      },
+      {
+        "label": "D",
+        "text": "acentua o efeito estufa decorrente do calor produzido na fissão."
+      },
+      {
+        "label": "E",
+        "text": "emite radiação capaz de provocar danos à saúde dos seres vivos."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2016, 1º dia, p. 31: notação isotópica restaurada"
+  },
+  {
+    "id": "gq_1b1121b14f8836f1bdabd04a",
+    "year": 2016,
+    "area": "CN",
+    "position": 131,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Nos anos 1990, verificou-se que o rio Potomac, situado no estado norte-americano de Maryland, tinha, em parte de seu curso, águas extremamente ácidas por receber um efluente de uma mina de carvão desativada, o qual continha ácido sulfúrico (H2SO4). Essa água, embora límpida, era desprovida de vida. Alguns quilômetros adiante, instalou-se uma fábrica de papel e celulose que emprega hidróxido de sódio (NaOH) e carbonato de sódio (NaCO3) em seus processos. Em pouco tempo, observou-se que, a partir do ponto em que a fábrica lança seus rejeitos no rio, a vida aquática voltou a florescer. HARRIS, D. C. Análise química quantitativa. Rio de Janeiro: Livros Técnicos e Científicos, 2012 (adaptado).\nA explicação para o retorno da vida aquática nesse rio é a",
+    "after_question": "Nos anos 1990, verificou-se que o rio Potomac, situado no estado norte-americano de Maryland, tinha, em parte de seu curso, águas extremamente ácidas por receber um efluente de uma mina de carvão desativada, o qual continha ácido sulfúrico (H2SO4). Essa água, embora límpida, era desprovida de vida. Alguns quilômetros adiante, instalou-se uma fábrica de papel e celulose que emprega hidróxido de sódio (NaOH) e carbonato de sódio (Na2CO3) em seus processos. Em pouco tempo, observou-se que, a partir do ponto em que a fábrica lança seus rejeitos no rio, a vida aquática voltou a florescer. HARRIS, D. C. Análise química quantitativa. Rio de Janeiro: Livros Técnicos e Científicos, 2012 (adaptado).\nA explicação para o retorno da vida aquática nesse rio é a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "diluição das águas do rio pelo novo efluente lançado nele."
+      },
+      {
+        "label": "B",
+        "text": "precipitação do íon sulfato na presença do efluente da nova fábrica."
+      },
+      {
+        "label": "C",
+        "text": "biodegradação do ácido sulfúrico em contato com o novo efluente descartado."
+      },
+      {
+        "label": "D",
+        "text": "diminuição da acidez das águas do rio pelo efluente da fábrica de papel e celulose."
+      },
+      {
+        "label": "E",
+        "text": "volatilização do ácido sulfúrico após contato com o novo efluente introduzido no rio."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "diluição das águas do rio pelo novo efluente lançado nele."
+      },
+      {
+        "label": "B",
+        "text": "precipitação do íon sulfato na presença do efluente da nova fábrica."
+      },
+      {
+        "label": "C",
+        "text": "biodegradação do ácido sulfúrico em contato com o novo efluente descartado."
+      },
+      {
+        "label": "D",
+        "text": "diminuição da acidez das águas do rio pelo efluente da fábrica de papel e celulose."
+      },
+      {
+        "label": "E",
+        "text": "volatilização do ácido sulfúrico após contato com o novo efluente introduzido no rio."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "2ª aplicação 2016, 1º dia, p. 23"
+  },
+  {
+    "id": "gq_74ca68c04eae2a90964f8ef9",
+    "year": 2017,
+    "area": "CN",
+    "position": 43,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Para demonstrar o processo de transformação de energia mecânica em elétrica, um estudante constrói um pequeno gerador utilizando:\n\n* \\-um fio de cobre de diâmetro D enrolado em N espiras circulares de área A;\n* \\-dois ímãs que criam no espaço entre eles um campo magnético uniforme de intensidade B; e\n* \\-um sistema de engrenagens que lhe permite girar as espiras em torno de um eixo com uma frequência f.\n\nAo fazer o gerador funcionar, o estudante obteve uma tensão máxima V e uma corrente de curto-circuito i.\n\nPara dobrar o valor da tensão máxima V do gerador mantendo constante o Valor da corrente de Curto i, o estudante deve dobrar o(a)",
+    "after_question": "Para demonstrar o processo de transformação de energia mecânica em elétrica, um estudante constrói um pequeno gerador utilizando:\n\n• um fio de cobre de diâmetro D enrolado em N espiras circulares de área A;\n• dois ímãs que criam no espaço entre eles um campo magnético uniforme de intensidade B; e\n• um sistema de engrenagens que lhe permite girar as espiras em torno de um eixo com uma frequência f.\n\nAo fazer o gerador funcionar, o estudante obteve uma tensão máxima V e uma corrente de curto-circuito i.\n\nPara dobrar o valor da tensão máxima V do gerador mantendo constante o valor da corrente de curto i, o estudante deve dobrar o(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Número de espiras."
+      },
+      {
+        "label": "B",
+        "text": "Frequência de giro."
+      },
+      {
+        "label": "C",
+        "text": "Intensidade do campo magnético."
+      },
+      {
+        "label": "D",
+        "text": "Área das espiras."
+      },
+      {
+        "label": "E",
+        "text": "Diâmetro do fio."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Número de espiras."
+      },
+      {
+        "label": "B",
+        "text": "Frequência de giro."
+      },
+      {
+        "label": "C",
+        "text": "Intensidade do campo magnético."
+      },
+      {
+        "label": "D",
+        "text": "Área das espiras."
+      },
+      {
+        "label": "E",
+        "text": "Diâmetro do fio."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "conferido na prova (2017, 2º dia, p. 15)"
+  },
+  {
+    "id": "gq_c94be5e1955bbb8644aaf59e",
+    "year": 2017,
+    "area": "LC",
+    "position": 47,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "**Fim de semana no parque**\nOlha o meu povo nas favelas e vai perceber\nDaqui eu vejo uma caranga do ano\nToda equipada e o tiozinho guiando\nCom seus filhos ao lado estão indo ao parque\nEufóricos brinquedos eletrônicos\nAutomaticamente eu imagino\nA molecada lá da área como é que tá\nProvavelmente correndo pra lá e pra cá\nJogando bola descalços nas ruas de terra\nÉ, brincam do jeito que dá\n\\[…\\]\nOlha só aquele clube, que da hora\nOlha aquela quadra, olha aquele campo, olha\nOlha quanta gente\nTem sorveteria, cinema, piscina quente\n\n\\[…\\]\nAqui não vejo nenhum clube poliesportivo\nPra molecada frequentar nenhum incentivo\nO investimento no lazer é muito escasso\nO centro comunitário é um fracasso\n\nRACIONAIS MCs. **Racionais MCs**. São Paulo: Zimbabwue, 1994 (fragmento)\n\nA letra da canção apresenta uma realidade social quanto à distribuição distinta dos espaços de lazer que",
+    "after_question": "**Fim de semana no parque**\nOlha o meu povo nas favelas e vai perceber\nDaqui eu vejo uma caranga do ano\nToda equipada e o tiozinho guiando\nCom seus filhos ao lado estão indo ao parque\nEufóricos brinquedos eletrônicos\nAutomaticamente eu imagino\nA molecada lá da área como é que tá\nProvavelmente correndo pra lá e pra cá\nJogando bola descalços nas ruas de terra\nÉ, brincam do jeito que dá\n[…]\nOlha só aquele clube, que da hora\nOlha aquela quadra, olha aquele campo, olha\nOlha quanta gente\nTem sorveteria, cinema, piscina quente\n\n[…]\nAqui não vejo nenhum clube poliesportivo\nPra molecada frequentar nenhum incentivo\nO investimento no lazer é muito escasso\nO centro comunitário é um fracasso\n\nRACIONAIS MCs. **Racionais MCs**. São Paulo: Zimbabwue, 1994 (fragmento).\n\nA letra da canção apresenta uma realidade social quanto à distribuição distinta dos espaços de lazer que",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Retrata a ausência de opções de lazer para a população de baixa renda, por falta de espaço adequado."
+      },
+      {
+        "label": "B",
+        "text": "Ressalta a irrelevância das opções de lazer para diferentes classes sociais, que o acessam à sua maneira."
+      },
+      {
+        "label": "C",
+        "text": "Expressa o desinteresse das classes sociais menos favorecidas economicamente pelas atividades de lazer."
+      },
+      {
+        "label": "D",
+        "text": "Implica condições desiguais de acesso ao lazer, pela falta de infraestrutura e investimentos em equipamentos."
+      },
+      {
+        "label": "E",
+        "text": "Aponta para o predomínio do lazer contemplativo, nas classes favorecidas economicamente; e do prático, nas menos favorecidas."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Retrata a ausência de opções de lazer para a população de baixa renda, por falta de espaço adequado."
+      },
+      {
+        "label": "B",
+        "text": "Ressalta a irrelevância das opções de lazer para diferentes classes sociais, que o acessam à sua maneira."
+      },
+      {
+        "label": "C",
+        "text": "Expressa o desinteresse das classes sociais menos favorecidas economicamente pelas atividades de lazer."
+      },
+      {
+        "label": "D",
+        "text": "Implica condições desiguais de acesso ao lazer, pela falta de infraestrutura e investimentos em equipamentos."
+      },
+      {
+        "label": "E",
+        "text": "Aponta para o predomínio do lazer contemplativo, nas classes favorecidas economicamente; e do prático, nas menos favorecidas."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "marcadores de supressão escapados; conferido na prova (2017, 1º dia, p. 17)"
+  },
+  {
+    "id": "gq_9b89432144a65644ee1eebbe",
+    "year": 2018,
+    "area": "LC",
+    "position": 10,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Quebranto às vezes sou o policial que me suspeito me peço documentos e mesmo de posse deles me prendo e me dou porrada às vezes sou o porteiro não me deixando entrar em mim mesmo a não ser pela porta de serviço [...] às vezes faço questão de não me ver e entupido com a visão deles sinto-me a miséria concebida como um eterno começo fecho-me o cerco sendo o gesto que me nego a pinga que me bebo e me embebedo o dedo que me aponto e denuncio o ponto em que me entrego.\nàs vezes!...\nCUTI. Negroesia. Belo Horizonte: Mazza, 2007 (fragmento).\nNa literatura de temática negra produzida no Brasil, é recorrente a presença de elementos que traduzem experiências históricas de preconceito e violência. No poema, essa vivência revela que o eu lírico",
+    "after_question": "**Quebranto**\n\nàs vezes sou o policial que me suspeito\nme peço documentos\ne mesmo de posse deles\nme prendo e me dou porrada\n\nàs vezes sou o porteiro\nnão me deixando entrar em mim mesmo\na não ser\npela porta de serviço\n\n[...]\n\nàs vezes faço questão de não me ver\ne entupido com a visão deles\nsinto-me a miséria concebida como um eterno\ncomeço\n\nfecho-me o cerco\nsendo o gesto que me nego\na pinga que me bebo e me embebedo\no dedo que me aponto\ne denuncio\no ponto em que me entrego.\n\nàs vezes!...\nCUTI. Negroesia. Belo Horizonte: Mazza, 2007 (fragmento).\nNa literatura de temática negra produzida no Brasil, é recorrente a presença de elementos que traduzem experiências históricas de preconceito e violência. No poema, essa vivência revela que o eu lírico",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "incorpora seletivamente o discurso do seu opressor."
+      },
+      {
+        "label": "B",
+        "text": "submete-se à discriminação como meio de fortalecimento."
+      },
+      {
+        "label": "C",
+        "text": "engaja-se na denúncia do passado de opressão e injustiças."
+      },
+      {
+        "label": "D",
+        "text": "sofre uma perda de identidade e de noção de pertencimento."
+      },
+      {
+        "label": "E",
+        "text": "acredita esporadicamente na utopia de uma sociedade igualitária."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "incorpora seletivamente o discurso do seu opressor."
+      },
+      {
+        "label": "B",
+        "text": "submete-se à discriminação como meio de fortalecimento."
+      },
+      {
+        "label": "C",
+        "text": "engaja-se na denúncia do passado de opressão e injustiças."
+      },
+      {
+        "label": "D",
+        "text": "sofre uma perda de identidade e de noção de pertencimento."
+      },
+      {
+        "label": "E",
+        "text": "acredita esporadicamente na utopia de uma sociedade igualitária."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "versos e estrofes restaurados pela prova (2018, 1º dia, p. 6)"
+  },
+  {
+    "id": "gq_a9d3387b9c2dd0ca3bb058b0",
+    "year": 2018,
+    "area": "LC",
+    "position": 24,
+    "changed": true,
+    "released": false,
+    "status_before": "contextual_alert_cleared",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A imagem da negra e do negro em produtos de beleza e a estética do racismo\nResumo: Este artigo tem por finalidade discutir a representação da população negra, especialmente da mulher negra, em imagens de produtos de beleza presentes em comércios do nordeste goiano. Evidencia-se que a presença de estereótipos negativos nessas imagens dissemina um imaginário racista apresentado sob a forma de uma estética racista que camufla a exclusão e normaliza a inferiorização sofrida pelos(as) negros(as) na sociedade brasileira. A análise do material imagético aponta a desvalorização estética do negro, especialmente da mulher negra, e a idealização da beleza e do branqueamento a serem alcançados por meio do uso dos produtos apresentados. O discurso midiático-publicitário dos produtos de beleza rememora e legitima a prática de uma ética racista construída e atuante no cotidiano. Frente a essa discussão, sugere-se que o trabalho antirracismo, feito nos diversos espaços sociais, considere o uso de estratégias para uma \"descolonização estética\" que empodere os sujeitos negros por meio de sua valorização estética e protagonismo na construção de uma ética da diversidade.\nResumo:\nPalavras-chave: Estética, racismo, mídia, educação, diversidade.\nSANT'ANA, J. A imagem da negra e do negro em produtos de beleza e a estética do racismo. Dossiê: trabalho e educação básica. Margens Interdisciplinar. Versão digital. Abaetetuba, n.16, jun. 2017 (adaptado).\nO cumprimento da função referencial da linguagem é uma marca característica do gênero resumo de artigo acadêmico. Na estrutura desse texto, essa função é estabelecida pela",
+    "after_question": "A imagem da negra e do negro em produtos de beleza e a estética do racismo\nResumo: Este artigo tem por finalidade discutir a representação da população negra, especialmente da mulher negra, em imagens de produtos de beleza presentes em comércios do nordeste goiano. Evidencia-se que a presença de estereótipos negativos nessas imagens dissemina um imaginário racista apresentado sob a forma de uma estética racista que camufla a exclusão e normaliza a inferiorização sofrida pelos(as) negros(as) na sociedade brasileira. A análise do material imagético aponta a desvalorização estética do negro, especialmente da mulher negra, e a idealização da beleza e do branqueamento a serem alcançados por meio do uso dos produtos apresentados. O discurso midiático-publicitário dos produtos de beleza rememora e legitima a prática de uma ética racista construída e atuante no cotidiano. Frente a essa discussão, sugere-se que o trabalho antirracismo, feito nos diversos espaços sociais, considere o uso de estratégias para uma \"descolonização estética\" que empodere os sujeitos negros por meio de sua valorização estética e protagonismo na construção de uma ética da diversidade.\nPalavras-chave: Estética, racismo, mídia, educação, diversidade.\nSANT’ANA, J. A imagem da negra e do negro em produtos de beleza e a estética do racismo. Dossiê: trabalho e educação básica. Margens Interdisciplinar. Versão digital. Abaetetuba, n.16, jun. 2017 (adaptado).\nO cumprimento da função referencial da linguagem é uma marca característica do gênero resumo de artigo acadêmico. Na estrutura desse texto, essa função é estabelecida pela",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "impessoalidade, na organização da objetividade das informações, como em \"Este artigo tem por finalidade\" e “Evidencia-se\"."
+      },
+      {
+        "label": "B",
+        "text": "seleção lexical, no desenvolvimento sequencial do texto, como em \"imaginário racista\" e \"estética do negro\"."
+      },
+      {
+        "label": "C",
+        "text": "metaforização, relativa à construção dos sentidos figurados, como nas expressões \"descolonização estética\"e \"discurso midiático-publicitário\"."
+      },
+      {
+        "label": "D",
+        "text": "nominalização, produzida por meio de processos derivacionais na formação de palavras, como \"inferiorização” e \"desvalorização”."
+      },
+      {
+        "label": "E",
+        "text": "adjetivação, organizada para criar uma terminologia antirracista, como em \"ética da diversidade\" e “descolonização estética\"."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "impessoalidade, na organização da objetividade das informações, como em \"Este artigo tem por finalidade\" e “Evidencia-se\"."
+      },
+      {
+        "label": "B",
+        "text": "seleção lexical, no desenvolvimento sequencial do texto, como em \"imaginário racista\" e \"estética do negro\"."
+      },
+      {
+        "label": "C",
+        "text": "metaforização, relativa à construção dos sentidos figurados, como nas expressões \"descolonização estética\" e \"discurso midiático-publicitário\"."
+      },
+      {
+        "label": "D",
+        "text": "nominalização, produzida por meio de processos derivacionais na formação de palavras, como \"inferiorização” e \"desvalorização”."
+      },
+      {
+        "label": "E",
+        "text": "adjetivação, organizada para criar uma terminologia antirracista, como em \"ética da diversidade\" e “descolonização estética\"."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "'Resumo:' duplicado retirado; conferido na prova (2018, 1º dia, p. 11)"
+  },
+  {
+    "id": "gq_775640fd55995393effd6647",
+    "year": 2018,
+    "area": "CN",
+    "position": 132,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.\nLE COUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado).\nAs moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+    "after_question": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.\nLE COUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado).\nAs moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "fórmula estrutural."
+      },
+      {
+        "label": "B",
+        "text": "fórmula molecular."
+      },
+      {
+        "label": "C",
+        "text": "identificação dos tipos de ligação."
+      },
+      {
+        "label": "D",
+        "text": "contagem do número de carbonos."
+      },
+      {
+        "label": "E",
+        "text": "identificação dos grupos s funcionais."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "fórmula estrutural."
+      },
+      {
+        "label": "B",
+        "text": "fórmula molecular."
+      },
+      {
+        "label": "C",
+        "text": "identificação dos tipos de ligação."
+      },
+      {
+        "label": "D",
+        "text": "contagem do número de carbonos."
+      },
+      {
+        "label": "E",
+        "text": "identificação dos grupos funcionais."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "conferido na prova (2018, 2º dia, p. 15)"
+  },
+  {
+    "id": "gq_976ce20f9fa9c2fca18ea49e",
+    "year": 2019,
+    "area": "LC",
+    "position": 7,
+    "changed": true,
+    "released": false,
+    "status_before": "contextual_alert_cleared",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Um amor desse\nEra 24 horas lado a lado\nUm radar na pele, aquele sentimento alucinado\nCoração batia acelerado\nBastava um olhar pra eu entender\nBastava um olhar pra eu entender Que era hora de me entregar pra você Palavras não faziam falta mais Ah, só de lembrar do seu perfume Que arrepio, que calafrio Que o meu corpo sente Nem que eu queira, eu te apago da minha mente\nQue era hora de me entregar pra você\nPalavras não faziam falta mais\nAh, só de lembrar do seu perfume\nQue arrepio, que calafrio\nQue o meu corpo sente\nNem que eu queira, eu te apago da minha mente\nAh, esse amor\nDeixou marcas no meu corpo\nSó de pensar, eu grito, eu quase morro\nAZEVEDO, N.; LEÃO, W.; QUADROS, R. Coração pede socorro. Rio de Janeiro: Som Livre, 2018 (fragmento).\nEssa letra de canção foi composta especialmente para uma campanha de combate à violência contra as mulheres, buscando conscientizá-las acerca do limite entre relacionamento amoroso e relacionamento abusivo. Para tanto, a estratégia empregada na letra é a",
+    "after_question": "Um amor desse\nEra 24 horas lado a lado\nUm radar na pele, aquele sentimento alucinado\nCoração batia acelerado\nBastava um olhar pra eu entender\nQue era hora de me entregar pra você\nPalavras não faziam falta mais\nAh, só de lembrar do seu perfume\nQue arrepio, que calafrio\nQue o meu corpo sente\nNem que eu queira, eu te apago da minha mente\nAh, esse amor\nDeixou marcas no meu corpo\nAh, esse amor\nSó de pensar, eu grito, eu quase morro\nAZEVEDO, N.; LEÃO, W.; QUADROS, R. Coração pede socorro. Rio de Janeiro: Som Livre, 2018 (fragmento).\nEssa letra de canção foi composta especialmente para uma campanha de combate à violência contra as mulheres, buscando conscientizá-las acerca do limite entre relacionamento amoroso e relacionamento abusivo. Para tanto, a estratégia empregada na letra é a",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "revelação da submissão da mulher à situação de violência, que muitas vezes a leva à morte."
+      },
+      {
+        "label": "B",
+        "text": "ênfase na necessidade de se ouvirem os apelos da mulher agredida, que continuamente pede socorro."
+      },
+      {
+        "label": "C",
+        "text": "exploração de situação de duplo sentido, que mostra que atos de dominação e violência não configuram amor."
+      },
+      {
+        "label": "D",
+        "text": "divulgação da importância de denunciar a violência doméstica, que atinge um grande número de mulheres no país."
+      },
+      {
+        "label": "E",
+        "text": "naturalização de situações opressivas, que fazem parte da vida de mulheres que vivem em uma sociedade patriarcal."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "revelação da submissão da mulher à situação de violência, que muitas vezes a leva à morte."
+      },
+      {
+        "label": "B",
+        "text": "ênfase na necessidade de se ouvirem os apelos da mulher agredida, que continuamente pede socorro."
+      },
+      {
+        "label": "C",
+        "text": "exploração de situação de duplo sentido, que mostra que atos de dominação e violência não configuram amor."
+      },
+      {
+        "label": "D",
+        "text": "divulgação da importância de denunciar a violência doméstica, que atinge um grande número de mulheres no país."
+      },
+      {
+        "label": "E",
+        "text": "naturalização de situações opressivas, que fazem parte da vida de mulheres que vivem em uma sociedade patriarcal."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "versos repetidos e colados retirados; o verso 'Ah, esse amor' que faltava foi restaurado (2019, 1º dia, p. 5)"
+  },
+  {
+    "id": "gq_44d082c29f4919760514a7e3",
+    "year": 2019,
+    "area": "LC",
+    "position": 26,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "TEXTO I O Estatuto do Idoso completou 15 anos em 2018 e só no primeiro semestre o Disque 100 recebeu 16 mil denúncias de violação de direitos dos idosos em todo o País.\nPara especialistas da área, o aumento no número de denúncias pode ser consequência do encorajamento dos mais velhos na busca pelos direitos. Mas também pode refletir uma onda crescente de violência na sociedade e dentro das próprias famílias.\nPolíticas públicas mais eficazes no atendimento ao idoso são o mínimo que um país deve estabelecer. O Brasil está ficando para trás e é preciso levar em consideração que o País envelhece (tendência mundial) sem estar preparado para arcar com os desafios, como criar uma rede de proteção, preparar os serviços de saúde pública e dar suporte às famílias que precisam cuidar de seus idosos dependentes.\nTEXTO II Na comparação entre os textos, conclui-se que as regras do Estatuto do Idoso",
+    "after_question": "TEXTO I\nO Estatuto do Idoso completou 15 anos em 2018 e só no primeiro semestre o Disque 100 recebeu 16 mil denúncias de violação de direitos dos idosos em todo o País.\nPara especialistas da área, o aumento no número de denúncias pode ser consequência do encorajamento dos mais velhos na busca pelos direitos. Mas também pode refletir uma onda crescente de violência na sociedade e dentro das próprias famílias.\nPolíticas públicas mais eficazes no atendimento ao idoso são o mínimo que um país deve estabelecer. O Brasil está ficando para trás e é preciso levar em consideração que o País envelhece (tendência mundial) sem estar preparado para arcar com os desafios, como criar uma rede de proteção, preparar os serviços de saúde pública e dar suporte às famílias que precisam cuidar de seus idosos dependentes.\nDisponível em: www.folhadelondrina.com.br. Acesso em: 9 dez. 2018 (adaptado).\nTEXTO II\n[Infográfico “DIREITO DOS IDOSOS”, com a ilustração de uma idosa lendo numa poltrona.] Estatuto do Idoso e a Constituição Federal asseguram: atendimento preferencial no SUS; prioridade na tramitação de processos judiciais; vagas preferenciais em estacionamentos; meia-entrada em eventos culturais, esportivos e de lazer. Aos idosos de baixa renda também estão garantidos: viagem gratuita em ônibus interestadual; assistência de um salário mínimo; acesso a mais de 20 programas sociais.\nDisponível em: www.brasil.gov.br. Acesso em: 9 dez. 2018.\nNa comparação entre os textos, conclui-se que as regras do Estatuto do Idoso",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "apresentam vantagens em relação às de outros países."
+      },
+      {
+        "label": "B",
+        "text": "são ignoradas pelas famílias responsáveis por idosos."
+      },
+      {
+        "label": "C",
+        "text": "alteram a qualidade de vida das pessoas com mais de 60 anos."
+      },
+      {
+        "label": "D",
+        "text": "precisam ser revistas em razão do envelhecimento da população."
+      },
+      {
+        "label": "E",
+        "text": "contrastam com as condições de vida proporcionadas pelo País."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "apresentam vantagens em relação às de outros países."
+      },
+      {
+        "label": "B",
+        "text": "são ignoradas pelas famílias responsáveis por idosos."
+      },
+      {
+        "label": "C",
+        "text": "alteram a qualidade de vida das pessoas com mais de 60 anos."
+      },
+      {
+        "label": "D",
+        "text": "precisam ser revistas em razão do envelhecimento da população."
+      },
+      {
+        "label": "E",
+        "text": "contrastam com as condições de vida proporcionadas pelo País."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "Texto II (infográfico) transcrito da prova e fonte do Texto I restaurada (2019, 1º dia, p. 13)"
+  },
+  {
+    "id": "gq_ae84c04155a73e41737cecd2",
+    "year": 2019,
+    "area": "CH",
+    "position": 76,
+    "changed": true,
+    "released": false,
+    "status_before": "contextual_alert_cleared",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Essa atmosfera de loucura e irrealidade, criada pela aparente ausência de propósitos, é a verdadeira cortina de ferro que esconde dos olhos do mundo todas as formas de campos de concentração. Vistos de fora, os campos e o que neles acontece só podem ser descritos com imagens extraterrenas, como se a vida fosse neles separada das finalidades deste mundo. Mais que o arame farpado, é a irrealidade dos detentos que ele confina que provoca uma crueldade tão incrível queterminalevando à aceitação do extermínio como solução perfeitamente normal.\nARENDT, H. Origens do totalitarismo. São Paulo: Cia. das Letras, 1989 (adaptado).\nA partir da análise da autora, no encontro das temporalidades históricas, evidencia-se uma crítica à naturalização do(a)",
+    "after_question": "Essa atmosfera de loucura e irrealidade, criada pela aparente ausência de propósitos, é a verdadeira cortina de ferro que esconde dos olhos do mundo todas as formas de campos de concentração. Vistos de fora, os campos e o que neles acontece só podem ser descritos com imagens extraterrenas, como se a vida fosse neles separada das finalidades deste mundo. Mais que o arame farpado, é a irrealidade dos detentos que ele confina que provoca uma crueldade tão incrível que termina levando à aceitação do extermínio como solução perfeitamente normal.\nARENDT, H. Origens do totalitarismo. São Paulo: Cia. das Letras, 1989 (adaptado).\nA partir da análise da autora, no encontro das temporalidades históricas, evidencia-se uma crítica à naturalização do(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "ideário nacional, que legitima as desigualdades sociais."
+      },
+      {
+        "label": "B",
+        "text": "alienação ideológica, que justifica as ações individuais."
+      },
+      {
+        "label": "C",
+        "text": "cosmologia religiosa, que sustenta as tradições hierárquicas."
+      },
+      {
+        "label": "D",
+        "text": "segregação humana, que fundamenta os projetos biopolíticos."
+      },
+      {
+        "label": "E",
+        "text": "enquadramento cultural, que favorece os comportamentos punitivos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "ideário nacional, que legitima as desigualdades sociais."
+      },
+      {
+        "label": "B",
+        "text": "alienação ideológica, que justifica as ações individuais."
+      },
+      {
+        "label": "C",
+        "text": "cosmologia religiosa, que sustenta as tradições hierárquicas."
+      },
+      {
+        "label": "D",
+        "text": "segregação humana, que fundamenta os projetos biopolíticos."
+      },
+      {
+        "label": "E",
+        "text": "enquadramento cultural, que favorece os comportamentos punitivos."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "conferido na prova (2019, 1º dia, p. 28)"
+  },
+  {
+    "id": "gq_69bdc6d730717defbc4f2200",
+    "year": 2019,
+    "area": "MT",
+    "position": 165,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O álcool é um depressor do sistema nervoso central e age diretamente em diversos órgãos. A concentração de álcool no sangue pode ser entendida como a razão entre a quantidade q de álcool ingerido, medida em grama, e o volume de sangue, em litro, presente no organismo do indivíduo. Em geral, considera-se que esse volume corresponda ao valor numérico dado por 8% da massa corporal m desse indivíduo, medida em quilograma.\nDe acordo com a Associação Médica Americana, uma concentração alcoólica superior a 0,4 grama por litro de sangue é capaz de trazer prejuízos à saúde do indivíduo.\nDisponível em: http://cisa.org.br. Acesso em: 1 dez. 2018 (adaptado)\nA expressão relacionando q e m que representa a concentração alcoólica prejudicial à saúde do indivíduo, de acordo com a Associação Médica Americana, é",
+    "after_question": "O álcool é um depressor do sistema nervoso central e age diretamente em diversos órgãos. A concentração de álcool no sangue pode ser entendida como a razão entre a quantidade q de álcool ingerido, medida em grama, e o volume de sangue, em litro, presente no organismo do indivíduo. Em geral, considera-se que esse volume corresponda ao valor numérico dado por 8% da massa corporal m desse indivíduo, medida em quilograma.\nDe acordo com a Associação Médica Americana, uma concentração alcoólica superior a 0,4 grama por litro de sangue é capaz de trazer prejuízos à saúde do indivíduo.\nDisponível em: http://cisa.org.br. Acesso em: 1 dez. 2018 (adaptado).\nA expressão relacionando q e m que representa a concentração alcoólica prejudicial à saúde do indivíduo, de acordo com a Associação Médica Americana, é",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "q > 0,4 0,8m"
+      },
+      {
+        "label": "B",
+        "text": "0,4m > 0,8 B q"
+      },
+      {
+        "label": "C",
+        "text": "q > 0,8 0,4m"
+      },
+      {
+        "label": "D",
+        "text": "0,08m > 0,4 q"
+      },
+      {
+        "label": "E",
+        "text": "q > 0,4 0,08m"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "q/(0,8m) > 0,4"
+      },
+      {
+        "label": "B",
+        "text": "0,4m/q > 0,8"
+      },
+      {
+        "label": "C",
+        "text": "q/(0,4m) > 0,8"
+      },
+      {
+        "label": "D",
+        "text": "0,08m/q > 0,4"
+      },
+      {
+        "label": "E",
+        "text": "q/(0,08m) > 0,4"
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "frações das alternativas restauradas pela prova (2019, 2º dia, p. 25); concentração = q/(0,08m) > 0,4 (E)"
+  },
+  {
+    "id": "gq_3ee6283760fa076c70bef974",
+    "year": 2020,
+    "area": "LC",
+    "position": 32,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Chiquito tinha quase trinta quando conheceu Mariana num baile de casamento na Forquilha, onde moravam uns parentes dele. Por lá foi ficando, remanchando. Fez mal à moça, como costumavam dizer, tiveram de casar às pressas. Morou uns tempos com o sogro, descombinaram. Foi só conta de colher o milho e vender. Mudou pra casa do velho Chico Lourenço [seu pai]. Fumaça própria só viu subir um par de anos depois, quando o pai repartiu as terras. De tão parecidos, pai e filho nunca combinaram direito. Cada qual mais topetudo, muitas vezes dona Aparecida ouvia o marido reclamar da natureza forte do filho. Ela escutava com paciência e respondia dum jeito sempre igual:\n\"Quem herda, não rouba\".\nVinha um brilho nos olhos, o velho se acalmava.\nROMANO, O. Casos de Minas. Rio de Janeiro: Paz e Terra, 1982.\nOs ditados populares são frases de sabedoria criadas pelo povo, utilizadas em várias situações da vida. Nesse texto, a personagem emprega um ditado popular com a intenção de",
+    "after_question": "Chiquito tinha quase trinta quando conheceu Mariana num baile de casamento na Forquilha, onde moravam uns parentes dele. Por lá foi ficando, remanchando. Fez mal à moça, como costumavam dizer, tiveram de casar às pressas. Morou uns tempos com o sogro, descombinaram. Foi só conta de colher o milho e vender. Mudou pra casa do velho Chico Lourenço [seu pai]. Fumaça própria só viu subir um par de anos depois, quando o pai repartiu as terras. De tão parecidos, pai e filho nunca combinaram direito. Cada qual mais topetudo, muitas vezes dona Aparecida ouvia o marido reclamar da natureza forte do filho. Ela escutava com paciência e respondia dum jeito sempre igual:\n— “Quem herda, não rouba”.\nVinha um brilho nos olhos, o velho se acalmava.\nROMANO, O. Casos de Minas. Rio de Janeiro: Paz e Terra, 1982.\nOs ditados populares são frases de sabedoria criadas pelo povo, utilizadas em várias situações da vida. Nesse texto, a personagem emprega um ditado popular com a intenção de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "criticar a natureza forte do filho."
+      },
+      {
+        "label": "B",
+        "text": "justificar o gênio difícil de Chiquito."
+      },
+      {
+        "label": "C",
+        "text": "legitimar o direito do filho à herança."
+      },
+      {
+        "label": "D",
+        "text": "conter o ânimo violento de Chico Lourenço."
+      },
+      {
+        "label": "E",
+        "text": "condenar a agressividade do marido contra o filho."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "criticar a natureza forte do filho."
+      },
+      {
+        "label": "B",
+        "text": "justificar o gênio difícil de Chiquito."
+      },
+      {
+        "label": "C",
+        "text": "legitimar o direito do filho à herança."
+      },
+      {
+        "label": "D",
+        "text": "conter o ânimo violento de Chico Lourenço."
+      },
+      {
+        "label": "E",
+        "text": "condenar a agressividade do marido contra o filho."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "conferido na prova (2020, 1º dia, p. 14); o texto da base já estava com as palavras separadas"
+  },
+  {
+    "id": "gq_00cf7d32938fee64bfc3f997",
+    "year": 2020,
+    "area": "CH",
+    "position": 85,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser “a comoção no Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos\". Já a Gazeta do Rio de Janeiro considerou o movimento como um “pontual desvio de norma, apenas uma ‘mancha' nas ‘páginas da História Portuguesa', tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano\".\nJANCSÓ, I.; PIMENTA, J. P. Peças de um mosaico. In: MOTA, C. G. (Org.). Viagem Incompleta: a experiência brasileira (1500-2000). São Paulo: Senac, 2000 (adaptado).\nOs fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre",
+    "after_question": "O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser “a comoção no Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos\". Já a Gazeta do Rio de Janeiro considerou o movimento como um “pontual desvio de norma, apenas uma ‘mancha’ nas ‘páginas da História Portuguesa’, tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano\".\nJANCSÓ, I.; PIMENTA, J. P. Peças de um mosaico. In: MOTA, C. G. (Org.). Viagem Incompleta: a experiência brasileira (1500-2000). São Paulo: Senac, 2000 (adaptado).\nOs fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "quadros dirigentes em torno da abolição da ordem escravocrata."
+      },
+      {
+        "label": "B",
+        "text": "grupos regionais acerca da configuração político- -territorial."
+      },
+      {
+        "label": "C",
+        "text": "intelectuais laicos acerca da revogação do domínio eclesiástico."
+      },
+      {
+        "label": "D",
+        "text": "homens livres em torno da extensão do direito de voto."
+      },
+      {
+        "label": "E",
+        "text": "elites locais acerca da ordenação do monopólio fundiário."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "quadros dirigentes em torno da abolição da ordem escravocrata."
+      },
+      {
+        "label": "B",
+        "text": "grupos regionais acerca da configuração político-territorial."
+      },
+      {
+        "label": "C",
+        "text": "intelectuais laicos acerca da revogação do domínio eclesiástico."
+      },
+      {
+        "label": "D",
+        "text": "homens livres em torno da extensão do direito de voto."
+      },
+      {
+        "label": "E",
+        "text": "elites locais acerca da ordenação do monopólio fundiário."
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "conferido na prova (2020, 1º dia, p. 30)"
+  },
+  {
+    "id": "gq_b1f233711963f2d5e4272e58",
+    "year": 2020,
+    "area": "CN",
+    "position": 96,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C12H22O11), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol-1, respectivamente.\nQual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?",
+    "after_question": "A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C12H22O11), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol^-1, respectivamente.\nQual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "2,50 × 10⁻³ mol L⁻¹"
+      },
+      {
+        "label": "B",
+        "text": "6,25 × 10⁻² mol L⁻¹"
+      },
+      {
+        "label": "C",
+        "text": "1,25 × 10⁻¹ mol L⁻¹"
+      },
+      {
+        "label": "D",
+        "text": "2,50 × 10⁻¹ mol L⁻¹"
+      },
+      {
+        "label": "E",
+        "text": "5,00 × 10⁻¹ mol L⁻¹"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "2,50 × 10⁻³ mol L⁻¹"
+      },
+      {
+        "label": "B",
+        "text": "6,25 × 10⁻² mol L⁻¹"
+      },
+      {
+        "label": "C",
+        "text": "1,25 × 10⁻¹ mol L⁻¹"
+      },
+      {
+        "label": "D",
+        "text": "2,50 × 10⁻¹ mol L⁻¹"
+      },
+      {
+        "label": "E",
+        "text": "4,27 × 10⁻¹ mol L⁻¹"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "expoente da unidade restaurado; a alternativa E da base (5,00 × 10⁻¹) era diferente da prova (4,27 × 10⁻¹) (2020, 2º dia, p. 4); 1 mol/L ÷ 2⁴ = 6,25 × 10⁻² (B)"
+  },
+  {
+    "id": "gq_d159b7f225d656f8d70dbaac",
+    "year": 2020,
+    "area": "CN",
+    "position": 114,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m. O teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s-1.\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
+    "after_question": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m. O teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s^-1.\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "137 Hz."
+      },
+      {
+        "label": "B",
+        "text": "138 Hz."
+      },
+      {
+        "label": "C",
+        "text": "141 Hz."
+      },
+      {
+        "label": "D",
+        "text": "144 Hz."
+      },
+      {
+        "label": "E",
+        "text": "159 Hz."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "137 Hz."
+      },
+      {
+        "label": "B",
+        "text": "138 Hz."
+      },
+      {
+        "label": "C",
+        "text": "141 Hz."
+      },
+      {
+        "label": "D",
+        "text": "144 Hz."
+      },
+      {
+        "label": "E",
+        "text": "159 Hz."
+      }
+    ],
+    "answer": "C",
+    "answer_preserved": true,
+    "note": "expoente da unidade restaurado (2020, 2º dia, p. 9); tubo fechado: ressonâncias a cada v/2L = 6 Hz → 141 Hz (C)"
+  },
+  {
+    "id": "gq_933a63620865cf907e7cbb3e",
+    "year": 2020,
+    "area": "CN",
+    "position": 120,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO₂ (massa molar igual a 44 g mol⁻¹) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol⁻¹), emitem uma média de 2,6 mol de CO₂ por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO₂ por quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação de combustão do etanol pode ser representada pela equação química:\n\nForam analisadas as emissões de CO₂ envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.\n\nA quantidade equivalente de etanol economizada, em quilograma, com o uso do veículo elétrico nesse trajeto, é mais próxima de",
+    "after_question": "O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO₂ (massa molar igual a 44 g mol⁻¹) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol⁻¹), emitem uma média de 2,6 mol de CO₂ por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO₂ por quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação de combustão do etanol pode ser representada pela equação química:\nC₂H₅OH (l) + 3 O₂ (g) → 2 CO₂ (g) + 3 H₂O (g)\n\nForam analisadas as emissões de CO₂ envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.\nCHIARADIA, C. A. Estudo da viabilidade da implantação de frotas de veículos elétricos e híbridos elétricos no atual cenário econômico, político, energético e ambiental brasileiro. Guaratinguetá: Unesp, 2015 (adaptado).\n\nA quantidade equivalente de etanol economizada, em quilograma, com o uso do veículo elétrico nesse trajeto, é mais próxima de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "80"
+      },
+      {
+        "label": "E",
+        "text": "100"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "50."
+      },
+      {
+        "label": "B",
+        "text": "60."
+      },
+      {
+        "label": "C",
+        "text": "95."
+      },
+      {
+        "label": "D",
+        "text": "99."
+      },
+      {
+        "label": "E",
+        "text": "120."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "equação química que faltava restaurada; as alternativas da base (20, 40, 60, 80, 100) eram diferentes das da prova (50, 60, 95, 99, 120) (2020, 2º dia, p. 11); (2,6 − 0,45) × 1 000 = 2 150 mol de CO₂ → 1 075 mol de etanol × 46 g ≈ 49 kg (A)"
+  },
+  {
+    "id": "gq_130ef6f102b546a2c7a8dd56",
+    "year": 2020,
+    "area": "CN",
+    "position": 123,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambiente. Ao encontrar o frasco, observou a seguinte informação: \"Resíduo: mistura de acetato de etila e água\".\nConsidere os dados do acetato de etila:\nBaixa solubilidade em água;\nMassa específica = 0,9 g cm-3;\nTemperatura de fusão = -83 °C;\nPressão de vapor maior que a da água.\nA fim de tratar o resíduo, recuperando o acetato de etila, o técnico deve",
+    "after_question": "Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambiente. Ao encontrar o frasco, observou a seguinte informação: “Resíduo: mistura de acetato de etila e água”.\nConsidere os dados do acetato de etila:\n• Baixa solubilidade em água;\n• Massa específica = 0,9 g cm^-3;\n• Temperatura de fusão = −83 °C;\n• Pressão de vapor maior que a da água.\nA fim de tratar o resíduo, recuperando o acetato de etila, o técnico deve",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "evaporar o acetato de etila sem alterar o conteúdo de água."
+      },
+      {
+        "label": "B",
+        "text": "filtrar a mistura utilizando um funil comum e um papel de filtro."
+      },
+      {
+        "label": "C",
+        "text": "realizar uma destilação simples para separar a água do acetato de etila."
+      },
+      {
+        "label": "D",
+        "text": "proceder a uma centrifugação da mistura para remover o acetato de etila."
+      },
+      {
+        "label": "E",
+        "text": "decantar a mistura separando os dois componentes em um funil adequado."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "evaporar o acetato de etila sem alterar o conteúdo de água."
+      },
+      {
+        "label": "B",
+        "text": "filtrar a mistura utilizando um funil comum e um papel de filtro."
+      },
+      {
+        "label": "C",
+        "text": "realizar uma destilação simples para separar a água do acetato de etila."
+      },
+      {
+        "label": "D",
+        "text": "proceder a uma centrifugação da mistura para remover o acetato de etila."
+      },
+      {
+        "label": "E",
+        "text": "decantar a mistura separando os dois componentes em um funil adequado."
+      }
+    ],
+    "answer": "E",
+    "answer_preserved": true,
+    "note": "expoente da unidade e sinais restaurados (2020, 2º dia, p. 12)"
+  },
+  {
+    "id": "gq_cbb5f3c01a4de167f6142db9",
+    "year": 2020,
+    "area": "MT",
+    "position": 165,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10−2 mL de água.\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?",
+    "after_question": "Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10^-2 mL de água.\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "2 × 101"
+      },
+      {
+        "label": "B",
+        "text": "1 × 101"
+      },
+      {
+        "label": "C",
+        "text": "2 × 10−2"
+      },
+      {
+        "label": "D",
+        "text": "1 × 10−2"
+      },
+      {
+        "label": "E",
+        "text": "1 × 10−3"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "2 × 10^1"
+      },
+      {
+        "label": "B",
+        "text": "1 × 10^1"
+      },
+      {
+        "label": "C",
+        "text": "2 × 10^-2"
+      },
+      {
+        "label": "D",
+        "text": "1 × 10^-2"
+      },
+      {
+        "label": "E",
+        "text": "1 × 10^-3"
+      }
+    ],
+    "answer": "B",
+    "answer_preserved": true,
+    "note": "expoentes restaurados (2020, 2º dia, p. 18); 9 000 mL ÷ 0,25 mL/s = 36 000 s = 10 h = 1 × 10^1 (B)"
+  },
+  {
+    "id": "gq_714be8a67883d8066948719a",
+    "year": 2021,
+    "area": "LC",
+    "position": 11,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Sinhá\nSe a dona se banhou Eu não estava lá Por Deus Nosso Senhor Eu não olhei Sinhá Estava lá na roça Sou de olhar ninguém Não tenho mais cobiça Nem enxergo bem\nPara que me pôr no tronco Para que me aleijar Eu juro a vosmecê Que nunca vi Sinhá [...] Por que talhar meu corpo Eu não olhei Sinhá Para que que vosmincê Meus olhos vai furar Eu choro em jorubá Mas oro por Jesus Para que que vassuncê Me tira a luz.\nCHICO BUARQUE; JOÃO BOSCO. Chico. Rio de Janeiro: Biscoito Fino, 2011 (fragmento)\nNo fragmento da letra da canção, o vocabulário empregado e a situação retratada são relevantes para o patrimônio linguístico e identitário do país, na medida em que",
+    "after_question": "**Sinhá**\n\nSe a dona se banhou\nEu não estava lá\nPor Deus Nosso Senhor\nEu não olhei Sinhá\nEstava lá na roça\nSou de olhar ninguém\nNão tenho mais cobiça\nNem enxergo bem\n\nPara que me pôr no tronco\nPara que me aleijar\nEu juro a vosmecê\nQue nunca vi Sinhá\n[…]\nPor que talhar meu corpo\nEu não olhei Sinhá\nPara que que vosmincê\nMeus olhos vai furar\nEu choro em iorubá\nMas oro por Jesus\nPara que que vassuncê\nMe tira a luz.\nCHICO BUARQUE; JOÃO BOSCO. Chico. Rio de Janeiro: Biscoito Fino, 2011 (fragmento).\nNo fragmento da letra da canção, o vocabulário empregado e a situação retratada são relevantes para o patrimônio linguístico e identitário do país, na medida em que",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "remetem à violência física e simbólica contra os povos escravizados."
+      },
+      {
+        "label": "B",
+        "text": "valorizam as influências da cultura africana sobre a música nacional."
+      },
+      {
+        "label": "C",
+        "text": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras."
+      },
+      {
+        "label": "D",
+        "text": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes."
+      },
+      {
+        "label": "E",
+        "text": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "remetem à violência física e simbólica contra os povos escravizados."
+      },
+      {
+        "label": "B",
+        "text": "valorizam as influências da cultura africana sobre a música nacional."
+      },
+      {
+        "label": "C",
+        "text": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras."
+      },
+      {
+        "label": "D",
+        "text": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes."
+      },
+      {
+        "label": "E",
+        "text": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "versos e estrofes restaurados e 'jorubá' corrigido para 'iorubá' pela prova (2021, 1º dia, p. 8)"
+  },
+  {
+    "id": "gq_ac75ef29197193cdaa03a271",
+    "year": 2021,
+    "area": "CN",
+    "position": 119,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "As antocianinas absorvem a luz desde o azul até o verde. Nesse caso, a luz refletida pelas folhas que contêm antocianinas aparece conforme as cores complementares, ou seja, vermelho-alaranjado. Em qual faixa do espectro visível ocorre a absorção das antocianinas?",
+    "after_question": "No outono, as folhas das árvores mudam de cor, de verde para tons de amarelo, castanho, laranja e vermelho. A cor verde das folhas deve-se ao pigmento clorofila. Nas plantas de folhas caducas, a produção de clorofila diminui e o tom verde desvanece, permitindo assim que outros pigmentos, como o caroteno, de coloração amarelo-alaranjado, e a antocianina, de tons avermelhados, passem a dominar a tonalidade das folhas. A coloração observada se dá em função da interação desses pigmentos com a radiação solar.\nConforme apresentado no espectro de absorção, as moléculas de clorofila absorvem a radiação solar nas regiões do azul e do vermelho, assim a luz refletida pelas folhas tem falta desses dois tons e as vemos na cor verde. Já as antocianinas absorvem a luz desde o azul até o verde. Nesse caso, a luz refletida pelas folhas que contêm antocianinas aparece conforme as cores complementares, ou seja, vermelho-alaranjado.\n[Figura 1 — Espectro de absorção na região do visível: gráfico da absorção em função do comprimento de onda, de 300 nm a 700 nm. A clorofila tem um pico forte no azul, pouco abaixo de 500 nm, e outro no vermelho, pouco acima de 600 nm, e absorve pouco entre eles. A antocianina tem um único pico largo, entre o azul e o verde, por volta de 500 nm a 550 nm. Figura 2 — Cores complementares: círculo dividido nas faixas de comprimento de onda das cores, em que cada cor fica oposta à sua complementar: violeta (400 nm a 430 nm), azul (430 nm a 480 nm), verde (480 nm a 560 nm), amarelo (560 nm a 590 nm), laranja (590 nm a 630 nm) e vermelho (630 nm a 750 nm).]\nDisponível em: https://vidauniversoydemas.wordpress.com. Acesso em: 6 dez. 2017 (adaptado).\nEm qual faixa do espectro visível os carotenos absorvem majoritariamente?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "Entre o violeta e o azul."
+      },
+      {
+        "label": "B",
+        "text": "Entre o azul e o verde."
+      },
+      {
+        "label": "C",
+        "text": "Entre o verde e o amarelo."
+      },
+      {
+        "label": "D",
+        "text": "Entre o amarelo e o laranja."
+      },
+      {
+        "label": "E",
+        "text": "Entre o laranja e o vermelho."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "Entre o violeta e o azul."
+      },
+      {
+        "label": "B",
+        "text": "Entre o azul e o verde."
+      },
+      {
+        "label": "C",
+        "text": "Entre o verde e o amarelo."
+      },
+      {
+        "label": "D",
+        "text": "Entre o amarelo e o laranja."
+      },
+      {
+        "label": "E",
+        "text": "Entre o laranja e o vermelho."
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "a base tinha o comando trocado (perguntava das antocianinas, cuja resposta seria B) e não tinha as figuras; texto, comando e figuras restaurados pela prova (2021, 2º dia, questão 120 do caderno azul, p. 11). O caroteno é amarelo-alaranjado, então absorve a cor complementar, entre o violeta e o azul (A), o que bate com o gabarito oficial"
+  },
+  {
+    "id": "gq_47797006c0f4ddf3b3f3d333",
+    "year": 2022,
+    "area": "MT",
+    "position": 154,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "As empresas de capital aberto listadas na Bolsa de Valores de São Paulo (Bovespa) que melhor remuneram seus acionistas na distribuição dos lucros costumam pagar 25 por cento de seus lucros líquidos trimestrais como dividendos aos acionistas. Uma empresa de capital social listada na Bolsa de Valores de São Paulo (Bovespa) divulgou resumidamente no quadro abaixo o seguinte resultado:\n\n| | |\n|----------------------------|-------------------|\n| Receitas líquidas | R$ 422 000 000,00 |\n| Lucro bruto | R$ 76 000 000,00 |\n| Lucro líquido | R$ 28 000 000,00 |\n| Lucro líquido por ação | R$ 0,28 |\n\nQuanto receberá de dividendos um acionista que tem 1 400 ações desta empresa?",
+    "after_question": "As empresas de capital aberto listadas na Bolsa de Valores de São Paulo (Bovespa) que melhor remuneram seus acionistas na distribuição dos lucros costumam pagar 25 por cento de seus lucros líquidos trimestrais como dividendos aos acionistas. Uma empresa de capital social listada na Bolsa de Valores de São Paulo (Bovespa) divulgou resumidamente no quadro abaixo o seguinte resultado:\n\n| | |\n|----------------------------|-------------------|\n| Receitas líquidas | R$ 422 000 000,00 |\n| Lucro bruto | R$ 76 000 000,00 |\n| Lucro líquido | R$ 28 000 000,00 |\n| Lucro líquido por ação | R$ 0,28 |\n\nQuanto receberá de dividendos um acionista que tem 1 400 ações desta empresa?",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "98 reais"
+      },
+      {
+        "label": "B",
+        "text": "392 reais"
+      },
+      {
+        "label": "C",
+        "text": "20 mil reais"
+      },
+      {
+        "label": "D",
+        "text": "7 mihões de reais"
+      },
+      {
+        "label": "E",
+        "text": "9 bilhões e 800 milhões de reais"
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "98 reais"
+      },
+      {
+        "label": "B",
+        "text": "392 reais"
+      },
+      {
+        "label": "C",
+        "text": "20 mil reais"
+      },
+      {
+        "label": "D",
+        "text": "7 milhões de reais"
+      },
+      {
+        "label": "E",
+        "text": "9 bilhões e 800 milhões de reais"
+      }
+    ],
+    "answer": "A",
+    "answer_preserved": true,
+    "note": "erro de digitação evidente; a questão não está no caderno azul regular de 2022 (é de outra aplicação), por isso só a palavra foi corrigida"
+  },
+  {
+    "id": "gq_b95e69c624d5e87ab3258f88",
+    "year": 2023,
+    "area": "LC",
+    "position": 34,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.\nOuso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)",
+    "after_question": "Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.\nO uso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica."
+      },
+      {
+        "label": "B",
+        "text": "propósito do editor, chamando a atenção para o rigor normativo nos textos da revista."
+      },
+      {
+        "label": "C",
+        "text": "exclusividade na seleção temática, direcionada para a área das ciências humanas."
+      },
+      {
+        "label": "D",
+        "text": "identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros."
+      },
+      {
+        "label": "E",
+        "text": "padrão editorial dos artigos, organizados em torno de uma proposta de design inovador."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica."
+      },
+      {
+        "label": "B",
+        "text": "propósito do editor, chamando a atenção para o rigor normativo nos textos da revista."
+      },
+      {
+        "label": "C",
+        "text": "exclusividade na seleção temática, direcionada para a área das ciências humanas."
+      },
+      {
+        "label": "D",
+        "text": "identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros."
+      },
+      {
+        "label": "E",
+        "text": "padrão editorial dos artigos, organizados em torno de uma proposta de design inovador."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "conferido na prova (2023, 1º dia, p. 10)"
+  },
+  {
+    "id": "gq_021d87104d8061f228b2b4e8",
+    "year": 2023,
+    "area": "CH",
+    "position": 49,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87 por cento das mulheres e meninas serão vítimas de abuso durante a vida.\nO texto evidencia situação representativa de",
+    "after_question": "Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87% das mulheres e meninas serão vítimas de abuso durante a vida.\nDisponível em: https://g1.globo.com. Acesso em: 12 out. 2021 (adaptado).\nO texto evidencia situação representativa de",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "afronta às estruturas sociais."
+      },
+      {
+        "label": "B",
+        "text": "desprezo aos valores religiosos."
+      },
+      {
+        "label": "C",
+        "text": "transgressão às normas morais."
+      },
+      {
+        "label": "D",
+        "text": "desrespeito à dignidade humana."
+      },
+      {
+        "label": "E",
+        "text": "oposição aos princípios hierárquicos."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "afronta às estruturas sociais."
+      },
+      {
+        "label": "B",
+        "text": "desprezo aos valores religiosos."
+      },
+      {
+        "label": "C",
+        "text": "transgressão às normas morais."
+      },
+      {
+        "label": "D",
+        "text": "desrespeito à dignidade humana."
+      },
+      {
+        "label": "E",
+        "text": "oposição aos princípios hierárquicos."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "o texto-base já estava completo; faltava a fonte, restaurada (2023, 1º dia, p. 25)"
+  },
+  {
+    "id": "gq_77fb00b70f5c4274ed41df35",
+    "year": 2023,
+    "area": "CH",
+    "position": 79,
+    "changed": true,
+    "released": false,
+    "status_before": "no_automatic_alert",
+    "status_after": "corrected_against_official_pdf",
+    "before_question": "A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para uso doméstico no início do século 20. A organização da cozinha visava atingir uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos, a partir da produção em grande escala. A padronização e racionalização da habitação e seus componentes visava uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.\nNo contexto descrito, as mudanças mencionadas proporcionavam às mulheres o(a)",
+    "after_question": "A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para uso doméstico no início do século XX. A organização da cozinha visava atingir uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos, a partir da produção em grande escala. A padronização e racionalização da habitação e seus componentes visava uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.\nSILVA, J. L. M. Transformações no espaço doméstico: o fogão a gás e a cozinha paulistana, 1870-1930. Anais do Museu Paulista, n. 2, jul.-dez. 2007 (adaptado).\nNo contexto descrito, as mudanças mencionadas proporcionavam às mulheres o(a)",
+    "before_options": [
+      {
+        "label": "A",
+        "text": "controle do orçamento familiar."
+      },
+      {
+        "label": "B",
+        "text": "libertação das tradições religiosas."
+      },
+      {
+        "label": "C",
+        "text": "exercício da representatividade política."
+      },
+      {
+        "label": "D",
+        "text": "ampliação dos momentos de socialização."
+      },
+      {
+        "label": "E",
+        "text": "afastamento das atividades especializadas."
+      }
+    ],
+    "after_options": [
+      {
+        "label": "A",
+        "text": "controle do orçamento familiar."
+      },
+      {
+        "label": "B",
+        "text": "libertação das tradições religiosas."
+      },
+      {
+        "label": "C",
+        "text": "exercício da representatividade política."
+      },
+      {
+        "label": "D",
+        "text": "ampliação dos momentos de socialização."
+      },
+      {
+        "label": "E",
+        "text": "afastamento das atividades especializadas."
+      }
+    ],
+    "answer": "D",
+    "answer_preserved": true,
+    "note": "o texto-base já estava completo; faltava a fonte, restaurada (2023, 1º dia, p. 29)"
+  }
+]

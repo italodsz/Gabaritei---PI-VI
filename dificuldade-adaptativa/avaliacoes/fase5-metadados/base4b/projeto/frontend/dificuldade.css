@@ -1,0 +1,34 @@
+/* Recomendador de dificuldade: chance estimada, apoio, resultado esperado, seletor e nota TRI. */
+.qs-chance{color:var(--lg-fg-muted,#5c6658)}
+.qs-alt.is-eliminated{opacity:.38;text-decoration:line-through;cursor:not-allowed}
+.qs-alt.is-eliminated .qs-alt-text{text-decoration:line-through}
+#qs-apoio{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:14px}
+#qs-apoio:empty{display:none}
+.qs-apoio-btn{display:inline-flex;align-items:center;gap:6px;border:1.5px dashed var(--lg-border,#cfd6c9);background:var(--lg-surface,#fff);color:var(--lg-fg,#1b201b);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.qs-apoio-btn:hover{border-style:solid}
+.qs-apoio-btn:focus-visible{outline:3px solid #2856b6;outline-offset:2px}
+.qs-apoio-btn svg{width:15px;height:15px}
+.qs-apoio-dica,.qs-apoio-nota{font-size:12px;color:var(--lg-fg-muted,#5c6658);margin:0;display:inline-flex;align-items:center;gap:6px}
+.qs-apoio-nota svg{width:14px;height:14px;flex-shrink:0}
+.focus-esperado{margin:6px 0 0;font-size:14px;font-weight:600}
+.focus-esperado.is-acima{color:#2c703a}
+.cfg-desafio{margin:18px 0 14px}
+.cfg-desafio .cfg-sum-label{margin-bottom:6px}
+.cfg-desafio .cfg-hint{margin-top:6px}
+.pf-tri-chips{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 14px}
+.pf-tri-chip{display:grid;gap:2px;padding:10px 14px;border-radius:14px;background:var(--lg-surface-2,#f1f3ee);min-width:110px}
+.pf-tri-chip small{font-size:11px;color:var(--lg-fg-muted,#5c6658)}
+.pf-tri-chip b{font-size:20px;color:var(--lg-fg,#1b201b)}
+.pf-tri{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.pf-tri-row{display:grid;grid-template-columns:minmax(150px,1.2fr) minmax(160px,1.5fr) 120px;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--lg-border,#e3e7df)}
+.pf-tri-row:first-child{border-top:0}
+.pf-tri-area{font-weight:600}
+.pf-tri-val{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pf-tri-val strong{font-size:18px}
+.pf-tri-val span{font-size:12px;color:var(--lg-fg-muted,#5c6658)}
+.pf-tri-cal{font-size:13px!important}
+.pf-tri-spark{color:var(--lg-sage-strong,#2c703a)}
+.pf-tri-spark.is-empty{display:block;height:30px}
+@media(max-width:640px){.pf-tri-row{grid-template-columns:1fr auto}.pf-tri-spark{display:none}}
+.rs-esperado{margin:8px 0 0;font-size:14px;font-weight:600;color:var(--lg-on-ink,#fff);opacity:.92}
+.rs-esperado.is-acima{color:#a8e6b6;opacity:1}

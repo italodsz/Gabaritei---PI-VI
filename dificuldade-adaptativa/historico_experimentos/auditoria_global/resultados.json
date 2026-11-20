@@ -1,0 +1,3300 @@
+{
+  "completude": {
+    "ano/2009": {
+      "n": 170,
+      "id/verificado": 170,
+      "ano/verificado": 170,
+      "area/verificado": 170,
+      "disciplina/ausente": 170,
+      "texto/presente_nao_verificado": 170,
+      "alternativas/presente_nao_verificado": 170,
+      "gabarito/presente_nao_verificado": 170,
+      "assunto/presente_nao_verificado": 150,
+      "subassunto/presente_nao_verificado": 150,
+      "habilidade/ausente": 85,
+      "competencia/ausente": 85,
+      "tri_a/presente_nao_verificado": 170,
+      "tri_b/presente_nao_verificado": 170,
+      "tri_c/presente_nao_verificado": 170,
+      "recursos/ausente": 109,
+      "grafico/ausente": 166,
+      "tabela/ausente": 167,
+      "formula/ausente": 160,
+      "referencia_visual/ausente": 105,
+      "qualidade_extracao/presente_nao_verificado": 170,
+      "duplicacao/verificado": 170,
+      "elegivel_texto/verificado": 109,
+      "historico_individual/ausente": 170,
+      "recursos/presente_nao_verificado": 61,
+      "referencia_visual/presente_nao_verificado": 65,
+      "elegivel_texto/nao_aplicavel": 61,
+      "assunto/ausente": 20,
+      "subassunto/ausente": 20,
+      "grafico/presente_nao_verificado": 4,
+      "formula/presente_nao_verificado": 10,
+      "habilidade/presente_nao_verificado": 85,
+      "competencia/presente_nao_verificado": 85,
+      "tabela/presente_nao_verificado": 3
+    },
+    "area/CH": {
+      "n": 766,
+      "id/verificado": 766,
+      "ano/verificado": 766,
+      "area/verificado": 766,
+      "disciplina/ausente": 766,
+      "texto/presente_nao_verificado": 766,
+      "alternativas/presente_nao_verificado": 766,
+      "gabarito/presente_nao_verificado": 766,
+      "assunto/presente_nao_verificado": 641,
+      "subassunto/presente_nao_verificado": 641,
+      "habilidade/ausente": 79,
+      "competencia/ausente": 79,
+      "tri_a/presente_nao_verificado": 766,
+      "tri_b/presente_nao_verificado": 766,
+      "tri_c/presente_nao_verificado": 766,
+      "recursos/ausente": 671,
+      "grafico/ausente": 761,
+      "tabela/ausente": 765,
+      "formula/ausente": 765,
+      "referencia_visual/ausente": 678,
+      "qualidade_extracao/presente_nao_verificado": 766,
+      "duplicacao/verificado": 766,
+      "elegivel_texto/verificado": 667,
+      "historico_individual/ausente": 766,
+      "recursos/presente_nao_verificado": 95,
+      "referencia_visual/presente_nao_verificado": 88,
+      "elegivel_texto/nao_aplicavel": 99,
+      "assunto/ausente": 125,
+      "subassunto/ausente": 125,
+      "grafico/presente_nao_verificado": 5,
+      "habilidade/presente_nao_verificado": 687,
+      "competencia/presente_nao_verificado": 687,
+      "formula/presente_nao_verificado": 1,
+      "tabela/presente_nao_verificado": 1
+    },
+    "particao/train": {
+      "n": 1801,
+      "id/verificado": 1801,
+      "ano/verificado": 1801,
+      "area/verificado": 1801,
+      "disciplina/ausente": 1801,
+      "texto/presente_nao_verificado": 1801,
+      "alternativas/presente_nao_verificado": 1801,
+      "gabarito/presente_nao_verificado": 1801,
+      "assunto/presente_nao_verificado": 1524,
+      "subassunto/presente_nao_verificado": 1524,
+      "habilidade/ausente": 164,
+      "competencia/ausente": 164,
+      "tri_a/presente_nao_verificado": 1801,
+      "tri_b/presente_nao_verificado": 1801,
+      "tri_c/presente_nao_verificado": 1801,
+      "recursos/ausente": 1801,
+      "grafico/ausente": 1799,
+      "tabela/ausente": 1795,
+      "formula/ausente": 1758,
+      "referencia_visual/ausente": 1756,
+      "qualidade_extracao/presente_nao_verificado": 1801,
+      "duplicacao/verificado": 1793,
+      "elegivel_texto/verificado": 1801,
+      "historico_individual/ausente": 1801,
+      "assunto/ausente": 277,
+      "subassunto/ausente": 277,
+      "referencia_visual/presente_nao_verificado": 45,
+      "formula/presente_nao_verificado": 43,
+      "habilidade/presente_nao_verificado": 1637,
+      "competencia/presente_nao_verificado": 1637,
+      "tabela/presente_nao_verificado": 6,
+      "grafico/presente_nao_verificado": 2,
+      "duplicacao/inconsistente": 8
+    },
+    "dificuldade/media": {
+      "n": 929,
+      "id/verificado": 929,
+      "ano/verificado": 929,
+      "area/verificado": 929,
+      "disciplina/ausente": 929,
+      "texto/presente_nao_verificado": 927,
+      "alternativas/presente_nao_verificado": 927,
+      "gabarito/presente_nao_verificado": 927,
+      "assunto/presente_nao_verificado": 756,
+      "subassunto/presente_nao_verificado": 756,
+      "habilidade/ausente": 47,
+      "competencia/ausente": 47,
+      "tri_a/presente_nao_verificado": 929,
+      "tri_b/presente_nao_verificado": 929,
+      "tri_c/presente_nao_verificado": 929,
+      "recursos/ausente": 696,
+      "grafico/ausente": 900,
+      "tabela/ausente": 920,
+      "formula/ausente": 914,
+      "referencia_visual/ausente": 726,
+      "qualidade_extracao/presente_nao_verificado": 927,
+      "duplicacao/verificado": 923,
+      "elegivel_texto/verificado": 684,
+      "historico_individual/ausente": 929,
+      "recursos/presente_nao_verificado": 233,
+      "referencia_visual/presente_nao_verificado": 203,
+      "elegivel_texto/nao_aplicavel": 245,
+      "assunto/ausente": 173,
+      "subassunto/ausente": 173,
+      "habilidade/presente_nao_verificado": 882,
+      "competencia/presente_nao_verificado": 882,
+      "grafico/presente_nao_verificado": 29,
+      "formula/presente_nao_verificado": 15,
+      "tabela/presente_nao_verificado": 9,
+      "texto/ausente": 2,
+      "alternativas/ausente": 2,
+      "gabarito/inconsistente": 2,
+      "qualidade_extracao/inconsistente": 2,
+      "duplicacao/inconsistente": 6
+    },
+    "tipo/data_or_visual_interpretation": {
+      "n": 149,
+      "id/verificado": 149,
+      "ano/verificado": 149,
+      "area/verificado": 149,
+      "disciplina/ausente": 149,
+      "texto/presente_nao_verificado": 147,
+      "alternativas/presente_nao_verificado": 147,
+      "gabarito/presente_nao_verificado": 147,
+      "assunto/presente_nao_verificado": 124,
+      "subassunto/presente_nao_verificado": 124,
+      "habilidade/ausente": 6,
+      "competencia/ausente": 6,
+      "tri_a/presente_nao_verificado": 149,
+      "tri_b/presente_nao_verificado": 149,
+      "tri_c/presente_nao_verificado": 149,
+      "recursos/ausente": 149,
+      "grafico/ausente": 134,
+      "tabela/ausente": 141,
+      "formula/ausente": 145,
+      "referencia_visual/ausente": 101,
+      "qualidade_extracao/presente_nao_verificado": 147,
+      "duplicacao/verificado": 149,
+      "elegivel_texto/verificado": 130,
+      "historico_individual/ausente": 149,
+      "habilidade/presente_nao_verificado": 143,
+      "competencia/presente_nao_verificado": 143,
+      "referencia_visual/presente_nao_verificado": 48,
+      "assunto/ausente": 25,
+      "subassunto/ausente": 25,
+      "tabela/presente_nao_verificado": 8,
+      "formula/presente_nao_verificado": 4,
+      "grafico/presente_nao_verificado": 15,
+      "elegivel_texto/nao_aplicavel": 19,
+      "texto/ausente": 2,
+      "alternativas/ausente": 2,
+      "gabarito/inconsistente": 2,
+      "qualidade_extracao/inconsistente": 2
+    },
+    "dificuldade/facil": {
+      "n": 951,
+      "id/verificado": 951,
+      "ano/verificado": 951,
+      "area/verificado": 951,
+      "disciplina/ausente": 951,
+      "texto/presente_nao_verificado": 951,
+      "alternativas/presente_nao_verificado": 951,
+      "gabarito/presente_nao_verificado": 951,
+      "assunto/presente_nao_verificado": 776,
+      "subassunto/presente_nao_verificado": 776,
+      "habilidade/ausente": 67,
+      "competencia/ausente": 67,
+      "tri_a/presente_nao_verificado": 951,
+      "tri_b/presente_nao_verificado": 951,
+      "tri_c/presente_nao_verificado": 951,
+      "recursos/ausente": 711,
+      "grafico/ausente": 936,
+      "tabela/ausente": 946,
+      "formula/ausente": 949,
+      "referencia_visual/ausente": 759,
+      "qualidade_extracao/presente_nao_verificado": 951,
+      "duplicacao/verificado": 949,
+      "elegivel_texto/verificado": 708,
+      "historico_individual/ausente": 951,
+      "recursos/presente_nao_verificado": 240,
+      "grafico/presente_nao_verificado": 15,
+      "referencia_visual/presente_nao_verificado": 192,
+      "elegivel_texto/nao_aplicavel": 243,
+      "assunto/ausente": 175,
+      "subassunto/ausente": 175,
+      "habilidade/presente_nao_verificado": 884,
+      "competencia/presente_nao_verificado": 884,
+      "tabela/presente_nao_verificado": 5,
+      "formula/presente_nao_verificado": 2,
+      "duplicacao/inconsistente": 2
+    },
+    "tipo/text_interpretation": {
+      "n": 1154,
+      "id/verificado": 1154,
+      "ano/verificado": 1154,
+      "area/verificado": 1154,
+      "disciplina/ausente": 1154,
+      "texto/presente_nao_verificado": 1154,
+      "alternativas/presente_nao_verificado": 1154,
+      "gabarito/presente_nao_verificado": 1154,
+      "assunto/presente_nao_verificado": 1022,
+      "subassunto/presente_nao_verificado": 1022,
+      "habilidade/ausente": 91,
+      "competencia/ausente": 91,
+      "tri_a/presente_nao_verificado": 1154,
+      "tri_b/presente_nao_verificado": 1154,
+      "tri_c/presente_nao_verificado": 1154,
+      "recursos/ausente": 1154,
+      "grafico/ausente": 1154,
+      "tabela/ausente": 1154,
+      "formula/ausente": 1153,
+      "referencia_visual/ausente": 1136,
+      "qualidade_extracao/presente_nao_verificado": 1154,
+      "duplicacao/verificado": 1154,
+      "elegivel_texto/verificado": 1151,
+      "historico_individual/ausente": 1154,
+      "assunto/ausente": 132,
+      "subassunto/ausente": 132,
+      "habilidade/presente_nao_verificado": 1063,
+      "competencia/presente_nao_verificado": 1063,
+      "formula/presente_nao_verificado": 1,
+      "referencia_visual/presente_nao_verificado": 18,
+      "elegivel_texto/nao_aplicavel": 3
+    },
+    "dificuldade/dificil": {
+      "n": 1091,
+      "id/verificado": 1091,
+      "ano/verificado": 1091,
+      "area/verificado": 1091,
+      "disciplina/ausente": 1091,
+      "texto/presente_nao_verificado": 1091,
+      "alternativas/presente_nao_verificado": 1091,
+      "gabarito/presente_nao_verificado": 1091,
+      "assunto/presente_nao_verificado": 879,
+      "subassunto/presente_nao_verificado": 879,
+      "habilidade/ausente": 78,
+      "competencia/ausente": 78,
+      "tri_a/presente_nao_verificado": 1091,
+      "tri_b/presente_nao_verificado": 1091,
+      "tri_c/presente_nao_verificado": 1091,
+      "recursos/ausente": 686,
+      "grafico/ausente": 1062,
+      "tabela/ausente": 1079,
+      "formula/ausente": 1007,
+      "referencia_visual/ausente": 748,
+      "qualidade_extracao/presente_nao_verificado": 1091,
+      "duplicacao/verificado": 1079,
+      "elegivel_texto/verificado": 671,
+      "historico_individual/ausente": 1091,
+      "assunto/ausente": 212,
+      "subassunto/ausente": 212,
+      "recursos/presente_nao_verificado": 405,
+      "referencia_visual/presente_nao_verificado": 343,
+      "elegivel_texto/nao_aplicavel": 420,
+      "grafico/presente_nao_verificado": 29,
+      "formula/presente_nao_verificado": 84,
+      "habilidade/presente_nao_verificado": 1013,
+      "competencia/presente_nao_verificado": 1013,
+      "tabela/presente_nao_verificado": 12,
+      "duplicacao/inconsistente": 12
+    },
+    "particao/fora": {
+      "n": 908,
+      "id/verificado": 908,
+      "ano/verificado": 908,
+      "area/verificado": 908,
+      "disciplina/ausente": 908,
+      "texto/presente_nao_verificado": 906,
+      "alternativas/presente_nao_verificado": 906,
+      "gabarito/presente_nao_verificado": 906,
+      "assunto/presente_nao_verificado": 671,
+      "subassunto/presente_nao_verificado": 671,
+      "habilidade/ausente": 28,
+      "competencia/ausente": 28,
+      "tri_a/presente_nao_verificado": 908,
+      "tri_b/presente_nao_verificado": 908,
+      "tri_c/presente_nao_verificado": 908,
+      "recursos/presente_nao_verificado": 878,
+      "grafico/ausente": 837,
+      "tabela/ausente": 890,
+      "formula/ausente": 852,
+      "referencia_visual/presente_nao_verificado": 686,
+      "qualidade_extracao/presente_nao_verificado": 906,
+      "duplicacao/verificado": 908,
+      "elegivel_texto/nao_aplicavel": 908,
+      "historico_individual/ausente": 908,
+      "grafico/presente_nao_verificado": 71,
+      "assunto/ausente": 237,
+      "subassunto/ausente": 237,
+      "formula/presente_nao_verificado": 56,
+      "referencia_visual/ausente": 222,
+      "habilidade/presente_nao_verificado": 880,
+      "competencia/presente_nao_verificado": 880,
+      "tabela/presente_nao_verificado": 18,
+      "recursos/ausente": 30,
+      "texto/ausente": 2,
+      "alternativas/ausente": 2,
+      "gabarito/inconsistente": 2,
+      "qualidade_extracao/inconsistente": 2
+    },
+    "tipo/visual_or_multimodal": {
+      "n": 878,
+      "id/verificado": 878,
+      "ano/verificado": 878,
+      "area/verificado": 878,
+      "disciplina/ausente": 878,
+      "texto/presente_nao_verificado": 878,
+      "alternativas/presente_nao_verificado": 878,
+      "gabarito/presente_nao_verificado": 878,
+      "assunto/presente_nao_verificado": 646,
+      "subassunto/presente_nao_verificado": 646,
+      "habilidade/ausente": 26,
+      "competencia/ausente": 26,
+      "tri_a/presente_nao_verificado": 878,
+      "tri_b/presente_nao_verificado": 878,
+      "tri_c/presente_nao_verificado": 878,
+      "recursos/presente_nao_verificado": 878,
+      "grafico/ausente": 820,
+      "tabela/ausente": 860,
+      "formula/ausente": 825,
+      "referencia_visual/presente_nao_verificado": 670,
+      "qualidade_extracao/presente_nao_verificado": 878,
+      "duplicacao/verificado": 878,
+      "elegivel_texto/nao_aplicavel": 878,
+      "historico_individual/ausente": 878,
+      "grafico/presente_nao_verificado": 58,
+      "assunto/ausente": 232,
+      "subassunto/ausente": 232,
+      "formula/presente_nao_verificado": 53,
+      "referencia_visual/ausente": 208,
+      "habilidade/presente_nao_verificado": 852,
+      "competencia/presente_nao_verificado": 852,
+      "tabela/presente_nao_verificado": 18
+    },
+    "area/CN": {
+      "n": 708,
+      "id/verificado": 708,
+      "ano/verificado": 708,
+      "area/verificado": 708,
+      "disciplina/ausente": 708,
+      "texto/presente_nao_verificado": 707,
+      "alternativas/presente_nao_verificado": 707,
+      "gabarito/presente_nao_verificado": 707,
+      "assunto/ausente": 163,
+      "subassunto/ausente": 163,
+      "habilidade/ausente": 65,
+      "competencia/ausente": 65,
+      "tri_a/presente_nao_verificado": 708,
+      "tri_b/presente_nao_verificado": 708,
+      "tri_c/presente_nao_verificado": 708,
+      "recursos/presente_nao_verificado": 259,
+      "grafico/ausente": 696,
+      "tabela/ausente": 697,
+      "formula/ausente": 674,
+      "referencia_visual/presente_nao_verificado": 201,
+      "qualidade_extracao/presente_nao_verificado": 707,
+      "duplicacao/verificado": 704,
+      "elegivel_texto/nao_aplicavel": 265,
+      "historico_individual/ausente": 708,
+      "assunto/presente_nao_verificado": 545,
+      "subassunto/presente_nao_verificado": 545,
+      "grafico/presente_nao_verificado": 12,
+      "recursos/ausente": 449,
+      "referencia_visual/ausente": 507,
+      "elegivel_texto/verificado": 443,
+      "formula/presente_nao_verificado": 34,
+      "habilidade/presente_nao_verificado": 643,
+      "competencia/presente_nao_verificado": 643,
+      "tabela/presente_nao_verificado": 11,
+      "texto/ausente": 1,
+      "alternativas/ausente": 1,
+      "gabarito/inconsistente": 1,
+      "qualidade_extracao/inconsistente": 1,
+      "duplicacao/inconsistente": 4
+    },
+    "tipo/conceptual_problem": {
+      "n": 562,
+      "id/verificado": 562,
+      "ano/verificado": 562,
+      "area/verificado": 562,
+      "disciplina/ausente": 562,
+      "texto/presente_nao_verificado": 562,
+      "alternativas/presente_nao_verificado": 562,
+      "gabarito/presente_nao_verificado": 562,
+      "assunto/ausente": 136,
+      "subassunto/ausente": 136,
+      "habilidade/ausente": 47,
+      "competencia/ausente": 47,
+      "tri_a/presente_nao_verificado": 562,
+      "tri_b/presente_nao_verificado": 562,
+      "tri_c/presente_nao_verificado": 562,
+      "recursos/ausente": 562,
+      "grafico/ausente": 562,
+      "tabela/ausente": 562,
+      "formula/ausente": 537,
+      "referencia_visual/ausente": 560,
+      "qualidade_extracao/presente_nao_verificado": 562,
+      "duplicacao/verificado": 548,
+      "elegivel_texto/verificado": 558,
+      "historico_individual/ausente": 562,
+      "assunto/presente_nao_verificado": 426,
+      "subassunto/presente_nao_verificado": 426,
+      "referencia_visual/presente_nao_verificado": 2,
+      "formula/presente_nao_verificado": 25,
+      "habilidade/presente_nao_verificado": 515,
+      "competencia/presente_nao_verificado": 515,
+      "elegivel_texto/nao_aplicavel": 4,
+      "duplicacao/inconsistente": 14
+    },
+    "tipo/experimental_scenario": {
+      "n": 65,
+      "id/verificado": 65,
+      "ano/verificado": 65,
+      "area/verificado": 65,
+      "disciplina/ausente": 65,
+      "texto/presente_nao_verificado": 65,
+      "alternativas/presente_nao_verificado": 65,
+      "gabarito/presente_nao_verificado": 65,
+      "assunto/presente_nao_verificado": 56,
+      "subassunto/presente_nao_verificado": 56,
+      "habilidade/ausente": 5,
+      "competencia/ausente": 5,
+      "tri_a/presente_nao_verificado": 65,
+      "tri_b/presente_nao_verificado": 65,
+      "tri_c/presente_nao_verificado": 65,
+      "recursos/ausente": 65,
+      "grafico/ausente": 65,
+      "tabela/ausente": 65,
+      "formula/ausente": 64,
+      "referencia_visual/ausente": 65,
+      "qualidade_extracao/presente_nao_verificado": 65,
+      "duplicacao/verificado": 65,
+      "elegivel_texto/verificado": 65,
+      "historico_individual/ausente": 65,
+      "habilidade/presente_nao_verificado": 60,
+      "competencia/presente_nao_verificado": 60,
+      "assunto/ausente": 9,
+      "subassunto/ausente": 9,
+      "formula/presente_nao_verificado": 1
+    },
+    "tipo/calculation": {
+      "n": 163,
+      "id/verificado": 163,
+      "ano/verificado": 163,
+      "area/verificado": 163,
+      "disciplina/ausente": 163,
+      "texto/presente_nao_verificado": 163,
+      "alternativas/presente_nao_verificado": 163,
+      "gabarito/presente_nao_verificado": 163,
+      "assunto/ausente": 26,
+      "subassunto/ausente": 26,
+      "habilidade/ausente": 17,
+      "competencia/ausente": 17,
+      "tri_a/presente_nao_verificado": 163,
+      "tri_b/presente_nao_verificado": 163,
+      "tri_c/presente_nao_verificado": 163,
+      "recursos/ausente": 163,
+      "grafico/ausente": 163,
+      "tabela/ausente": 163,
+      "formula/ausente": 146,
+      "referencia_visual/ausente": 163,
+      "qualidade_extracao/presente_nao_verificado": 163,
+      "duplicacao/verificado": 157,
+      "elegivel_texto/verificado": 159,
+      "historico_individual/ausente": 163,
+      "assunto/presente_nao_verificado": 137,
+      "subassunto/presente_nao_verificado": 137,
+      "habilidade/presente_nao_verificado": 146,
+      "competencia/presente_nao_verificado": 146,
+      "formula/presente_nao_verificado": 17,
+      "elegivel_texto/nao_aplicavel": 4,
+      "duplicacao/inconsistente": 6
+    },
+    "area/LC": {
+      "n": 801,
+      "id/verificado": 801,
+      "ano/verificado": 801,
+      "area/verificado": 801,
+      "disciplina/ausente": 801,
+      "texto/presente_nao_verificado": 801,
+      "alternativas/presente_nao_verificado": 801,
+      "gabarito/presente_nao_verificado": 801,
+      "assunto/presente_nao_verificado": 705,
+      "subassunto/presente_nao_verificado": 705,
+      "habilidade/presente_nao_verificado": 774,
+      "competencia/presente_nao_verificado": 774,
+      "tri_a/presente_nao_verificado": 801,
+      "tri_b/presente_nao_verificado": 801,
+      "tri_c/presente_nao_verificado": 801,
+      "recursos/presente_nao_verificado": 176,
+      "grafico/ausente": 798,
+      "tabela/ausente": 801,
+      "formula/ausente": 800,
+      "referencia_visual/presente_nao_verificado": 136,
+      "qualidade_extracao/presente_nao_verificado": 801,
+      "duplicacao/verificado": 801,
+      "elegivel_texto/nao_aplicavel": 177,
+      "historico_individual/ausente": 801,
+      "recursos/ausente": 625,
+      "referencia_visual/ausente": 665,
+      "elegivel_texto/verificado": 624,
+      "assunto/ausente": 96,
+      "subassunto/ausente": 96,
+      "grafico/presente_nao_verificado": 3,
+      "habilidade/ausente": 27,
+      "competencia/ausente": 27,
+      "formula/presente_nao_verificado": 1
+    },
+    "area/MT": {
+      "n": 696,
+      "id/verificado": 696,
+      "ano/verificado": 696,
+      "area/verificado": 696,
+      "disciplina/ausente": 696,
+      "texto/presente_nao_verificado": 695,
+      "alternativas/presente_nao_verificado": 695,
+      "gabarito/presente_nao_verificado": 695,
+      "assunto/presente_nao_verificado": 520,
+      "subassunto/presente_nao_verificado": 520,
+      "habilidade/presente_nao_verificado": 675,
+      "competencia/presente_nao_verificado": 675,
+      "tri_a/presente_nao_verificado": 696,
+      "tri_b/presente_nao_verificado": 696,
+      "tri_c/presente_nao_verificado": 696,
+      "recursos/presente_nao_verificado": 348,
+      "grafico/ausente": 643,
+      "tabela/ausente": 682,
+      "formula/ausente": 631,
+      "referencia_visual/presente_nao_verificado": 313,
+      "qualidade_extracao/presente_nao_verificado": 695,
+      "duplicacao/verificado": 680,
+      "elegivel_texto/nao_aplicavel": 367,
+      "historico_individual/ausente": 696,
+      "recursos/ausente": 348,
+      "referencia_visual/ausente": 383,
+      "elegivel_texto/verificado": 329,
+      "formula/presente_nao_verificado": 65,
+      "grafico/presente_nao_verificado": 53,
+      "assunto/ausente": 176,
+      "subassunto/ausente": 176,
+      "tabela/presente_nao_verificado": 14,
+      "habilidade/ausente": 21,
+      "competencia/ausente": 21,
+      "texto/ausente": 1,
+      "alternativas/ausente": 1,
+      "gabarito/inconsistente": 1,
+      "qualidade_extracao/inconsistente": 1,
+      "duplicacao/inconsistente": 16
+    },
+    "ano/2010": {
+      "n": 166,
+      "id/verificado": 166,
+      "ano/verificado": 166,
+      "area/verificado": 166,
+      "disciplina/ausente": 166,
+      "texto/presente_nao_verificado": 166,
+      "alternativas/presente_nao_verificado": 166,
+      "gabarito/presente_nao_verificado": 166,
+      "assunto/presente_nao_verificado": 141,
+      "subassunto/presente_nao_verificado": 141,
+      "habilidade/presente_nao_verificado": 166,
+      "competencia/presente_nao_verificado": 166,
+      "tri_a/presente_nao_verificado": 166,
+      "tri_b/presente_nao_verificado": 166,
+      "tri_c/presente_nao_verificado": 166,
+      "recursos/ausente": 106,
+      "grafico/ausente": 161,
+      "tabela/ausente": 166,
+      "formula/ausente": 161,
+      "referencia_visual/ausente": 105,
+      "qualidade_extracao/presente_nao_verificado": 166,
+      "duplicacao/verificado": 166,
+      "elegivel_texto/verificado": 106,
+      "historico_individual/ausente": 166,
+      "recursos/presente_nao_verificado": 60,
+      "referencia_visual/presente_nao_verificado": 61,
+      "elegivel_texto/nao_aplicavel": 60,
+      "grafico/presente_nao_verificado": 5,
+      "assunto/ausente": 25,
+      "subassunto/ausente": 25,
+      "formula/presente_nao_verificado": 5
+    },
+    "ano/2011": {
+      "n": 164,
+      "id/verificado": 164,
+      "ano/verificado": 164,
+      "area/verificado": 164,
+      "disciplina/ausente": 164,
+      "texto/presente_nao_verificado": 164,
+      "alternativas/presente_nao_verificado": 164,
+      "gabarito/presente_nao_verificado": 164,
+      "assunto/presente_nao_verificado": 129,
+      "subassunto/presente_nao_verificado": 129,
+      "habilidade/presente_nao_verificado": 164,
+      "competencia/presente_nao_verificado": 164,
+      "tri_a/presente_nao_verificado": 164,
+      "tri_b/presente_nao_verificado": 164,
+      "tri_c/presente_nao_verificado": 164,
+      "recursos/ausente": 107,
+      "grafico/ausente": 161,
+      "tabela/ausente": 163,
+      "formula/ausente": 158,
+      "referencia_visual/ausente": 109,
+      "qualidade_extracao/presente_nao_verificado": 164,
+      "duplicacao/verificado": 164,
+      "elegivel_texto/verificado": 107,
+      "historico_individual/ausente": 164,
+      "assunto/ausente": 35,
+      "subassunto/ausente": 35,
+      "recursos/presente_nao_verificado": 57,
+      "referencia_visual/presente_nao_verificado": 55,
+      "elegivel_texto/nao_aplicavel": 57,
+      "tabela/presente_nao_verificado": 1,
+      "grafico/presente_nao_verificado": 3,
+      "formula/presente_nao_verificado": 6
+    },
+    "ano/2012": {
+      "n": 172,
+      "id/verificado": 172,
+      "ano/verificado": 172,
+      "area/verificado": 172,
+      "disciplina/ausente": 172,
+      "texto/presente_nao_verificado": 172,
+      "alternativas/presente_nao_verificado": 172,
+      "gabarito/presente_nao_verificado": 172,
+      "assunto/ausente": 27,
+      "subassunto/ausente": 27,
+      "habilidade/presente_nao_verificado": 172,
+      "competencia/presente_nao_verificado": 172,
+      "tri_a/presente_nao_verificado": 172,
+      "tri_b/presente_nao_verificado": 172,
+      "tri_c/presente_nao_verificado": 172,
+      "recursos/ausente": 114,
+      "grafico/ausente": 167,
+      "tabela/ausente": 169,
+      "formula/ausente": 168,
+      "referencia_visual/ausente": 113,
+      "qualidade_extracao/presente_nao_verificado": 172,
+      "duplicacao/verificado": 172,
+      "elegivel_texto/verificado": 114,
+      "historico_individual/ausente": 172,
+      "assunto/presente_nao_verificado": 145,
+      "subassunto/presente_nao_verificado": 145,
+      "recursos/presente_nao_verificado": 58,
+      "referencia_visual/presente_nao_verificado": 59,
+      "elegivel_texto/nao_aplicavel": 58,
+      "formula/presente_nao_verificado": 4,
+      "tabela/presente_nao_verificado": 3,
+      "grafico/presente_nao_verificado": 5
+    },
+    "ano/2013": {
+      "n": 174,
+      "id/verificado": 174,
+      "ano/verificado": 174,
+      "area/verificado": 174,
+      "disciplina/ausente": 174,
+      "texto/presente_nao_verificado": 174,
+      "alternativas/presente_nao_verificado": 174,
+      "gabarito/presente_nao_verificado": 174,
+      "assunto/presente_nao_verificado": 134,
+      "subassunto/presente_nao_verificado": 134,
+      "habilidade/presente_nao_verificado": 174,
+      "competencia/presente_nao_verificado": 174,
+      "tri_a/presente_nao_verificado": 174,
+      "tri_b/presente_nao_verificado": 174,
+      "tri_c/presente_nao_verificado": 174,
+      "recursos/ausente": 107,
+      "grafico/ausente": 171,
+      "tabela/ausente": 174,
+      "formula/ausente": 168,
+      "referencia_visual/ausente": 109,
+      "qualidade_extracao/presente_nao_verificado": 174,
+      "duplicacao/verificado": 174,
+      "elegivel_texto/verificado": 107,
+      "historico_individual/ausente": 174,
+      "assunto/ausente": 40,
+      "subassunto/ausente": 40,
+      "recursos/presente_nao_verificado": 67,
+      "referencia_visual/presente_nao_verificado": 65,
+      "elegivel_texto/nao_aplicavel": 67,
+      "grafico/presente_nao_verificado": 3,
+      "formula/presente_nao_verificado": 6
+    },
+    "ano/2014": {
+      "n": 172,
+      "id/verificado": 172,
+      "ano/verificado": 172,
+      "area/verificado": 172,
+      "disciplina/ausente": 172,
+      "texto/presente_nao_verificado": 172,
+      "alternativas/presente_nao_verificado": 172,
+      "gabarito/presente_nao_verificado": 172,
+      "assunto/presente_nao_verificado": 133,
+      "subassunto/presente_nao_verificado": 133,
+      "habilidade/presente_nao_verificado": 172,
+      "competencia/presente_nao_verificado": 172,
+      "tri_a/presente_nao_verificado": 172,
+      "tri_b/presente_nao_verificado": 172,
+      "tri_c/presente_nao_verificado": 172,
+      "recursos/ausente": 109,
+      "grafico/ausente": 171,
+      "tabela/ausente": 172,
+      "formula/ausente": 169,
+      "referencia_visual/ausente": 112,
+      "qualidade_extracao/presente_nao_verificado": 172,
+      "duplicacao/verificado": 172,
+      "elegivel_texto/verificado": 108,
+      "historico_individual/ausente": 172,
+      "assunto/ausente": 39,
+      "subassunto/ausente": 39,
+      "recursos/presente_nao_verificado": 63,
+      "referencia_visual/presente_nao_verificado": 60,
+      "elegivel_texto/nao_aplicavel": 64,
+      "formula/presente_nao_verificado": 3,
+      "grafico/presente_nao_verificado": 1
+    },
+    "ano/2015": {
+      "n": 284,
+      "id/verificado": 284,
+      "ano/verificado": 284,
+      "area/verificado": 284,
+      "disciplina/ausente": 284,
+      "texto/presente_nao_verificado": 284,
+      "alternativas/presente_nao_verificado": 284,
+      "gabarito/presente_nao_verificado": 284,
+      "assunto/presente_nao_verificado": 233,
+      "subassunto/presente_nao_verificado": 233,
+      "habilidade/ausente": 107,
+      "competencia/ausente": 107,
+      "tri_a/presente_nao_verificado": 284,
+      "tri_b/presente_nao_verificado": 284,
+      "tri_c/presente_nao_verificado": 284,
+      "recursos/ausente": 231,
+      "grafico/ausente": 283,
+      "tabela/ausente": 283,
+      "formula/ausente": 274,
+      "referencia_visual/ausente": 231,
+      "qualidade_extracao/presente_nao_verificado": 284,
+      "duplicacao/verificado": 284,
+      "elegivel_texto/verificado": 228,
+      "historico_individual/ausente": 284,
+      "assunto/ausente": 51,
+      "subassunto/ausente": 51,
+      "habilidade/presente_nao_verificado": 177,
+      "competencia/presente_nao_verificado": 177,
+      "recursos/presente_nao_verificado": 53,
+      "referencia_visual/presente_nao_verificado": 53,
+      "elegivel_texto/nao_aplicavel": 56,
+      "tabela/presente_nao_verificado": 1,
+      "formula/presente_nao_verificado": 10,
+      "grafico/presente_nao_verificado": 1
+    },
+    "ano/2016": {
+      "n": 287,
+      "id/verificado": 287,
+      "ano/verificado": 287,
+      "area/verificado": 287,
+      "disciplina/ausente": 287,
+      "texto/presente_nao_verificado": 287,
+      "alternativas/presente_nao_verificado": 287,
+      "gabarito/presente_nao_verificado": 287,
+      "assunto/presente_nao_verificado": 234,
+      "subassunto/presente_nao_verificado": 234,
+      "habilidade/presente_nao_verificado": 287,
+      "competencia/presente_nao_verificado": 287,
+      "tri_a/presente_nao_verificado": 287,
+      "tri_b/presente_nao_verificado": 287,
+      "tri_c/presente_nao_verificado": 287,
+      "recursos/ausente": 221,
+      "grafico/ausente": 284,
+      "tabela/ausente": 287,
+      "formula/ausente": 279,
+      "referencia_visual/ausente": 222,
+      "qualidade_extracao/presente_nao_verificado": 287,
+      "duplicacao/verificado": 287,
+      "elegivel_texto/verificado": 220,
+      "historico_individual/ausente": 287,
+      "recursos/presente_nao_verificado": 66,
+      "referencia_visual/presente_nao_verificado": 65,
+      "elegivel_texto/nao_aplicavel": 67,
+      "assunto/ausente": 53,
+      "subassunto/ausente": 53,
+      "formula/presente_nao_verificado": 8,
+      "grafico/presente_nao_verificado": 3
+    },
+    "ano/2017": {
+      "n": 179,
+      "id/verificado": 179,
+      "ano/verificado": 179,
+      "area/verificado": 179,
+      "disciplina/ausente": 179,
+      "texto/presente_nao_verificado": 179,
+      "alternativas/presente_nao_verificado": 179,
+      "gabarito/presente_nao_verificado": 179,
+      "assunto/presente_nao_verificado": 147,
+      "subassunto/presente_nao_verificado": 147,
+      "habilidade/presente_nao_verificado": 179,
+      "competencia/presente_nao_verificado": 179,
+      "tri_a/presente_nao_verificado": 179,
+      "tri_b/presente_nao_verificado": 179,
+      "tri_c/presente_nao_verificado": 179,
+      "recursos/ausente": 110,
+      "grafico/ausente": 172,
+      "tabela/ausente": 177,
+      "formula/ausente": 175,
+      "referencia_visual/ausente": 108,
+      "qualidade_extracao/presente_nao_verificado": 179,
+      "duplicacao/verificado": 179,
+      "elegivel_texto/verificado": 110,
+      "historico_individual/ausente": 179,
+      "referencia_visual/presente_nao_verificado": 71,
+      "assunto/ausente": 32,
+      "subassunto/ausente": 32,
+      "recursos/presente_nao_verificado": 69,
+      "elegivel_texto/nao_aplicavel": 69,
+      "grafico/presente_nao_verificado": 7,
+      "formula/presente_nao_verificado": 4,
+      "tabela/presente_nao_verificado": 2
+    },
+    "ano/2018": {
+      "n": 170,
+      "id/verificado": 170,
+      "ano/verificado": 170,
+      "area/verificado": 170,
+      "disciplina/ausente": 170,
+      "texto/presente_nao_verificado": 170,
+      "alternativas/presente_nao_verificado": 170,
+      "gabarito/presente_nao_verificado": 170,
+      "assunto/presente_nao_verificado": 140,
+      "subassunto/presente_nao_verificado": 140,
+      "habilidade/presente_nao_verificado": 170,
+      "competencia/presente_nao_verificado": 170,
+      "tri_a/presente_nao_verificado": 170,
+      "tri_b/presente_nao_verificado": 170,
+      "tri_c/presente_nao_verificado": 170,
+      "recursos/ausente": 116,
+      "grafico/ausente": 162,
+      "tabela/ausente": 169,
+      "formula/ausente": 161,
+      "referencia_visual/ausente": 141,
+      "qualidade_extracao/presente_nao_verificado": 170,
+      "duplicacao/verificado": 170,
+      "elegivel_texto/verificado": 111,
+      "historico_individual/ausente": 170,
+      "assunto/ausente": 30,
+      "subassunto/ausente": 30,
+      "grafico/presente_nao_verificado": 8,
+      "referencia_visual/presente_nao_verificado": 29,
+      "elegivel_texto/nao_aplicavel": 59,
+      "recursos/presente_nao_verificado": 54,
+      "formula/presente_nao_verificado": 9,
+      "tabela/presente_nao_verificado": 1
+    },
+    "ano/2019": {
+      "n": 174,
+      "id/verificado": 174,
+      "ano/verificado": 174,
+      "area/verificado": 174,
+      "disciplina/ausente": 174,
+      "texto/presente_nao_verificado": 174,
+      "alternativas/presente_nao_verificado": 174,
+      "gabarito/presente_nao_verificado": 174,
+      "assunto/presente_nao_verificado": 134,
+      "subassunto/presente_nao_verificado": 134,
+      "habilidade/presente_nao_verificado": 174,
+      "competencia/presente_nao_verificado": 174,
+      "tri_a/presente_nao_verificado": 174,
+      "tri_b/presente_nao_verificado": 174,
+      "tri_c/presente_nao_verificado": 174,
+      "recursos/ausente": 127,
+      "grafico/ausente": 168,
+      "tabela/ausente": 173,
+      "formula/ausente": 162,
+      "referencia_visual/ausente": 143,
+      "qualidade_extracao/presente_nao_verificado": 174,
+      "duplicacao/verificado": 174,
+      "elegivel_texto/verificado": 124,
+      "historico_individual/ausente": 174,
+      "assunto/ausente": 40,
+      "subassunto/ausente": 40,
+      "recursos/presente_nao_verificado": 47,
+      "referencia_visual/presente_nao_verificado": 31,
+      "elegivel_texto/nao_aplicavel": 50,
+      "formula/presente_nao_verificado": 12,
+      "tabela/presente_nao_verificado": 1,
+      "grafico/presente_nao_verificado": 6
+    },
+    "ano/2020": {
+      "n": 168,
+      "id/verificado": 168,
+      "ano/verificado": 168,
+      "area/verificado": 168,
+      "disciplina/ausente": 168,
+      "texto/presente_nao_verificado": 166,
+      "alternativas/presente_nao_verificado": 166,
+      "gabarito/presente_nao_verificado": 166,
+      "assunto/presente_nao_verificado": 136,
+      "subassunto/presente_nao_verificado": 136,
+      "habilidade/presente_nao_verificado": 168,
+      "competencia/presente_nao_verificado": 168,
+      "tri_a/presente_nao_verificado": 168,
+      "tri_b/presente_nao_verificado": 168,
+      "tri_c/presente_nao_verificado": 168,
+      "recursos/ausente": 123,
+      "grafico/ausente": 164,
+      "tabela/ausente": 163,
+      "formula/ausente": 160,
+      "referencia_visual/ausente": 138,
+      "qualidade_extracao/presente_nao_verificado": 166,
+      "duplicacao/verificado": 168,
+      "elegivel_texto/verificado": 114,
+      "historico_individual/ausente": 168,
+      "assunto/ausente": 32,
+      "subassunto/ausente": 32,
+      "referencia_visual/presente_nao_verificado": 30,
+      "recursos/presente_nao_verificado": 45,
+      "elegivel_texto/nao_aplicavel": 54,
+      "tabela/presente_nao_verificado": 5,
+      "formula/presente_nao_verificado": 8,
+      "texto/ausente": 2,
+      "alternativas/ausente": 2,
+      "gabarito/inconsistente": 2,
+      "qualidade_extracao/inconsistente": 2,
+      "grafico/presente_nao_verificado": 4
+    },
+    "ano/2021": {
+      "n": 164,
+      "id/verificado": 164,
+      "ano/verificado": 164,
+      "area/verificado": 164,
+      "disciplina/ausente": 164,
+      "texto/presente_nao_verificado": 164,
+      "alternativas/presente_nao_verificado": 164,
+      "gabarito/presente_nao_verificado": 164,
+      "assunto/ausente": 37,
+      "subassunto/ausente": 37,
+      "habilidade/presente_nao_verificado": 164,
+      "competencia/presente_nao_verificado": 164,
+      "tri_a/presente_nao_verificado": 164,
+      "tri_b/presente_nao_verificado": 164,
+      "tri_c/presente_nao_verificado": 164,
+      "recursos/presente_nao_verificado": 49,
+      "grafico/ausente": 156,
+      "tabela/ausente": 159,
+      "formula/ausente": 151,
+      "referencia_visual/ausente": 139,
+      "qualidade_extracao/presente_nao_verificado": 164,
+      "duplicacao/verificado": 162,
+      "elegivel_texto/nao_aplicavel": 55,
+      "historico_individual/ausente": 164,
+      "recursos/ausente": 115,
+      "elegivel_texto/verificado": 109,
+      "assunto/presente_nao_verificado": 127,
+      "subassunto/presente_nao_verificado": 127,
+      "referencia_visual/presente_nao_verificado": 25,
+      "duplicacao/inconsistente": 2,
+      "formula/presente_nao_verificado": 13,
+      "tabela/presente_nao_verificado": 5,
+      "grafico/presente_nao_verificado": 8
+    },
+    "ano/2022": {
+      "n": 172,
+      "id/verificado": 172,
+      "ano/verificado": 172,
+      "area/verificado": 172,
+      "disciplina/ausente": 172,
+      "texto/presente_nao_verificado": 172,
+      "alternativas/presente_nao_verificado": 172,
+      "gabarito/presente_nao_verificado": 172,
+      "assunto/presente_nao_verificado": 139,
+      "subassunto/presente_nao_verificado": 139,
+      "habilidade/presente_nao_verificado": 172,
+      "competencia/presente_nao_verificado": 172,
+      "tri_a/presente_nao_verificado": 172,
+      "tri_b/presente_nao_verificado": 172,
+      "tri_c/presente_nao_verificado": 172,
+      "recursos/ausente": 135,
+      "grafico/ausente": 167,
+      "tabela/ausente": 170,
+      "formula/ausente": 172,
+      "referencia_visual/ausente": 152,
+      "qualidade_extracao/presente_nao_verificado": 172,
+      "duplicacao/verificado": 166,
+      "elegivel_texto/verificado": 134,
+      "historico_individual/ausente": 172,
+      "assunto/ausente": 33,
+      "subassunto/ausente": 33,
+      "recursos/presente_nao_verificado": 37,
+      "elegivel_texto/nao_aplicavel": 38,
+      "referencia_visual/presente_nao_verificado": 20,
+      "tabela/presente_nao_verificado": 2,
+      "grafico/presente_nao_verificado": 5,
+      "duplicacao/inconsistente": 6
+    },
+    "ano/2023": {
+      "n": 177,
+      "id/verificado": 177,
+      "ano/verificado": 177,
+      "area/verificado": 177,
+      "disciplina/ausente": 177,
+      "texto/presente_nao_verificado": 177,
+      "alternativas/presente_nao_verificado": 177,
+      "gabarito/presente_nao_verificado": 177,
+      "assunto/ausente": 32,
+      "subassunto/ausente": 32,
+      "habilidade/presente_nao_verificado": 177,
+      "competencia/presente_nao_verificado": 177,
+      "tri_a/presente_nao_verificado": 177,
+      "tri_b/presente_nao_verificado": 177,
+      "tri_c/presente_nao_verificado": 177,
+      "recursos/ausente": 136,
+      "grafico/ausente": 172,
+      "tabela/ausente": 176,
+      "formula/ausente": 174,
+      "referencia_visual/ausente": 151,
+      "qualidade_extracao/presente_nao_verificado": 177,
+      "duplicacao/verificado": 173,
+      "elegivel_texto/verificado": 136,
+      "historico_individual/ausente": 177,
+      "assunto/presente_nao_verificado": 145,
+      "subassunto/presente_nao_verificado": 145,
+      "referencia_visual/presente_nao_verificado": 26,
+      "recursos/presente_nao_verificado": 41,
+      "grafico/presente_nao_verificado": 5,
+      "elegivel_texto/nao_aplicavel": 41,
+      "formula/presente_nao_verificado": 3,
+      "duplicacao/inconsistente": 4,
+      "tabela/presente_nao_verificado": 1
+    },
+    "particao/validation": {
+      "n": 136,
+      "id/verificado": 136,
+      "ano/verificado": 136,
+      "area/verificado": 136,
+      "disciplina/ausente": 136,
+      "texto/presente_nao_verificado": 136,
+      "alternativas/presente_nao_verificado": 136,
+      "gabarito/presente_nao_verificado": 136,
+      "assunto/ausente": 24,
+      "subassunto/ausente": 24,
+      "habilidade/presente_nao_verificado": 136,
+      "competencia/presente_nao_verificado": 136,
+      "tri_a/presente_nao_verificado": 136,
+      "tri_b/presente_nao_verificado": 136,
+      "tri_c/presente_nao_verificado": 136,
+      "recursos/ausente": 136,
+      "grafico/ausente": 136,
+      "tabela/ausente": 135,
+      "formula/ausente": 134,
+      "referencia_visual/ausente": 131,
+      "qualidade_extracao/presente_nao_verificado": 136,
+      "duplicacao/verificado": 132,
+      "elegivel_texto/verificado": 136,
+      "historico_individual/ausente": 136,
+      "assunto/presente_nao_verificado": 112,
+      "subassunto/presente_nao_verificado": 112,
+      "referencia_visual/presente_nao_verificado": 5,
+      "formula/presente_nao_verificado": 2,
+      "duplicacao/inconsistente": 4,
+      "tabela/presente_nao_verificado": 1
+    },
+    "ano/2024": {
+      "n": 178,
+      "id/verificado": 178,
+      "ano/verificado": 178,
+      "area/verificado": 178,
+      "disciplina/ausente": 178,
+      "texto/presente_nao_verificado": 178,
+      "alternativas/presente_nao_verificado": 178,
+      "gabarito/presente_nao_verificado": 178,
+      "assunto/presente_nao_verificado": 144,
+      "subassunto/presente_nao_verificado": 144,
+      "habilidade/presente_nao_verificado": 178,
+      "competencia/presente_nao_verificado": 178,
+      "tri_a/presente_nao_verificado": 178,
+      "tri_b/presente_nao_verificado": 178,
+      "tri_c/presente_nao_verificado": 178,
+      "recursos/ausente": 127,
+      "grafico/ausente": 173,
+      "tabela/ausente": 177,
+      "formula/ausente": 178,
+      "referencia_visual/ausente": 155,
+      "qualidade_extracao/presente_nao_verificado": 178,
+      "duplicacao/verificado": 170,
+      "elegivel_texto/verificado": 126,
+      "historico_individual/ausente": 178,
+      "assunto/ausente": 34,
+      "subassunto/ausente": 34,
+      "recursos/presente_nao_verificado": 51,
+      "elegivel_texto/nao_aplicavel": 52,
+      "referencia_visual/presente_nao_verificado": 23,
+      "duplicacao/inconsistente": 8,
+      "grafico/presente_nao_verificado": 5,
+      "tabela/presente_nao_verificado": 1
+    },
+    "particao/test": {
+      "n": 126,
+      "id/verificado": 126,
+      "ano/verificado": 126,
+      "area/verificado": 126,
+      "disciplina/ausente": 126,
+      "texto/presente_nao_verificado": 126,
+      "alternativas/presente_nao_verificado": 126,
+      "gabarito/presente_nao_verificado": 126,
+      "assunto/presente_nao_verificado": 104,
+      "subassunto/presente_nao_verificado": 104,
+      "habilidade/presente_nao_verificado": 126,
+      "competencia/presente_nao_verificado": 126,
+      "tri_a/presente_nao_verificado": 126,
+      "tri_b/presente_nao_verificado": 126,
+      "tri_c/presente_nao_verificado": 126,
+      "recursos/ausente": 126,
+      "grafico/ausente": 126,
+      "tabela/ausente": 125,
+      "formula/ausente": 126,
+      "referencia_visual/ausente": 124,
+      "qualidade_extracao/presente_nao_verificado": 126,
+      "duplicacao/verificado": 118,
+      "elegivel_texto/verificado": 126,
+      "historico_individual/ausente": 126,
+      "assunto/ausente": 22,
+      "subassunto/ausente": 22,
+      "duplicacao/inconsistente": 8,
+      "referencia_visual/presente_nao_verificado": 2,
+      "tabela/presente_nao_verificado": 1
+    }
+  },
+  "modelos_recalculados": {
+    "bert": {
+      "recomputed": {
+        "facil": {
+          "precision": 0.6515151515151515,
+          "recall": 0.7962962962962963,
+          "f1-score": 0.7166666666666667,
+          "support": 54.0
+        },
+        "media": {
+          "precision": 0.5,
+          "recall": 0.19047619047619047,
+          "f1-score": 0.27586206896551724,
+          "support": 42.0
+        },
+        "dificil": {
+          "precision": 0.5,
+          "recall": 0.675,
+          "f1-score": 0.574468085106383,
+          "support": 40.0
+        },
+        "accuracy": 0.5735294117647058,
+        "macro avg": {
+          "precision": 0.5505050505050505,
+          "recall": 0.5539241622574956,
+          "f1-score": 0.5223322735795223,
+          "support": 136.0
+        },
+        "weighted avg": {
+          "precision": 0.5601604278074866,
+          "recall": 0.5735294117647058,
+          "f1-score": 0.5387127228000518,
+          "support": 136.0
+        },
+        "confusion": [
+          [
+            43,
+            3,
+            8
+          ],
+          [
+            15,
+            8,
+            19
+          ],
+          [
+            8,
+            5,
+            27
+          ]
+        ],
+        "ordinal_mae": 0.5441176470588235
+      },
+      "config": {
+        "n": 136,
+        "support": {
+          "facil": 54,
+          "media": 42,
+          "dificil": 40
+        },
+        "macro_f1": 0.5223322735795223,
+        "accuracy": 0.5735294117647058,
+        "confusion": [
+          [
+            43,
+            3,
+            8
+          ],
+          [
+            15,
+            8,
+            19
+          ],
+          [
+            8,
+            5,
+            27
+          ]
+        ],
+        "by_class": {
+          "facil": {
+            "precision": 0.6515151515151515,
+            "recall": 0.7962962962962963,
+            "f1": 0.7166666666666667,
+            "n": 54
+          },
+          "media": {
+            "precision": 0.5,
+            "recall": 0.19047619047619047,
+            "f1": 0.27586206896551724,
+            "n": 42
+          },
+          "dificil": {
+            "precision": 0.5,
+            "recall": 0.675,
+            "f1": 0.574468085106383,
+            "n": 40
+          }
+        },
+        "ordinal_mae": 0.5441176470588235,
+        "easy_hard_errors": 16,
+        "easy_hard_rate": 0.11764705882352941,
+        "by_area": {
+          "CH": {
+            "n": 39,
+            "support": {
+              "facil": 23,
+              "media": 10,
+              "dificil": 6
+            },
+            "macro_f1": 0.470211161387632,
+            "accuracy": 0.5897435897435898,
+            "confusion": [
+              [
+                18,
+                2,
+                3
+              ],
+              [
+                5,
+                3,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.72,
+                "recall": 0.782608695652174,
+                "f1": 0.75,
+                "n": 23
+              },
+              "media": {
+                "precision": 0.42857142857142855,
+                "recall": 0.3,
+                "f1": 0.35294117647058826,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.2857142857142857,
+                "recall": 0.3333333333333333,
+                "f1": 0.3076923076923077,
+                "n": 6
+              }
+            }
+          },
+          "CN": {
+            "n": 32,
+            "support": {
+              "facil": 8,
+              "media": 10,
+              "dificil": 14
+            },
+            "macro_f1": 0.4888888888888889,
+            "accuracy": 0.53125,
+            "confusion": [
+              [
+                4,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                7
+              ],
+              [
+                1,
+                2,
+                11
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.6666666666666666,
+                "recall": 0.5,
+                "f1": 0.5714285714285714,
+                "n": 8
+              },
+              "media": {
+                "precision": 0.4,
+                "recall": 0.2,
+                "f1": 0.26666666666666666,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.5238095238095238,
+                "recall": 0.7857142857142857,
+                "f1": 0.6285714285714286,
+                "n": 14
+              }
+            }
+          },
+          "LC": {
+            "n": 39,
+            "support": {
+              "facil": 21,
+              "media": 12,
+              "dificil": 6
+            },
+            "macro_f1": 0.375,
+            "accuracy": 0.6153846153846154,
+            "confusion": [
+              [
+                21,
+                0,
+                0
+              ],
+              [
+                9,
+                3,
+                0
+              ],
+              [
+                5,
+                1,
+                0
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.6,
+                "recall": 1.0,
+                "f1": 0.75,
+                "n": 21
+              },
+              "media": {
+                "precision": 0.75,
+                "recall": 0.25,
+                "f1": 0.375,
+                "n": 12
+              },
+              "dificil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 6
+              }
+            }
+          },
+          "MT": {
+            "n": 26,
+            "support": {
+              "facil": 2,
+              "media": 10,
+              "dificil": 14
+            },
+            "macro_f1": 0.2333333333333333,
+            "accuracy": 0.5384615384615384,
+            "confusion": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                10
+              ],
+              [
+                0,
+                0,
+                14
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 2
+              },
+              "media": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.5384615384615384,
+                "recall": 1.0,
+                "f1": 0.7,
+                "n": 14
+              }
+            }
+          }
+        },
+        "validation_seconds": 0.8667722999998659,
+        "epoch": 1,
+        "model": "neuralmind/bert-base-portuguese-cased",
+        "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+        "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "seed": 7,
+        "limit": 512,
+        "cuts": [
+          0.8005400000000001,
+          1.56301
+        ],
+        "validation_year": 2023,
+        "batch": 2,
+        "effective_batch": 16,
+        "lr": 3e-05,
+        "changed_encoder_parameters": 32
+      },
+      "run": {
+        "epochs": [
+          0.5223322735795223,
+          0.44045060818385967
+        ],
+        "seconds": 38.53935119999733,
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "peak_allocated_bytes": 757916160,
+        "checkpoint_sha256": "c8026a554b5857dde412fc1a8ee69e799ec541104df502fc06e2da9aecbb578b"
+      }
+    },
+    "deberta": {
+      "recomputed": {
+        "facil": {
+          "precision": 0.5882352941176471,
+          "recall": 0.7407407407407407,
+          "f1-score": 0.6557377049180327,
+          "support": 54.0
+        },
+        "media": {
+          "precision": 0.25,
+          "recall": 0.023809523809523808,
+          "f1-score": 0.043478260869565216,
+          "support": 42.0
+        },
+        "dificil": {
+          "precision": 0.46875,
+          "recall": 0.75,
+          "f1-score": 0.5769230769230769,
+          "support": 40.0
+        },
+        "accuracy": 0.5220588235294118,
+        "macro avg": {
+          "precision": 0.4356617647058824,
+          "recall": 0.5048500881834216,
+          "f1-score": 0.4253796809035582,
+          "support": 136.0
+        },
+        "weighted avg": {
+          "precision": 0.44863754325259514,
+          "recall": 0.5220588235294118,
+          "f1-score": 0.44347680955160723,
+          "support": 136.0
+        },
+        "confusion": [
+          [
+            40,
+            3,
+            11
+          ],
+          [
+            18,
+            1,
+            23
+          ],
+          [
+            10,
+            0,
+            30
+          ]
+        ],
+        "ordinal_mae": 0.6323529411764706
+      },
+      "config": {
+        "n": 136,
+        "support": {
+          "facil": 54,
+          "media": 42,
+          "dificil": 40
+        },
+        "macro_f1": 0.4253796809035582,
+        "accuracy": 0.5220588235294118,
+        "confusion": [
+          [
+            40,
+            3,
+            11
+          ],
+          [
+            18,
+            1,
+            23
+          ],
+          [
+            10,
+            0,
+            30
+          ]
+        ],
+        "by_class": {
+          "facil": {
+            "precision": 0.5882352941176471,
+            "recall": 0.7407407407407407,
+            "f1": 0.6557377049180327,
+            "n": 54
+          },
+          "media": {
+            "precision": 0.25,
+            "recall": 0.023809523809523808,
+            "f1": 0.043478260869565216,
+            "n": 42
+          },
+          "dificil": {
+            "precision": 0.46875,
+            "recall": 0.75,
+            "f1": 0.5769230769230769,
+            "n": 40
+          }
+        },
+        "ordinal_mae": 0.6323529411764706,
+        "easy_hard_errors": 21,
+        "easy_hard_rate": 0.15441176470588236,
+        "by_area": {
+          "CH": {
+            "n": 39,
+            "support": {
+              "facil": 23,
+              "media": 10,
+              "dificil": 6
+            },
+            "macro_f1": 0.3247863247863248,
+            "accuracy": 0.5128205128205128,
+            "confusion": [
+              [
+                18,
+                1,
+                4
+              ],
+              [
+                9,
+                0,
+                1
+              ],
+              [
+                4,
+                0,
+                2
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.5806451612903226,
+                "recall": 0.782608695652174,
+                "f1": 0.6666666666666666,
+                "n": 23
+              },
+              "media": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.2857142857142857,
+                "recall": 0.3333333333333333,
+                "f1": 0.3076923076923077,
+                "n": 6
+              }
+            }
+          },
+          "CN": {
+            "n": 32,
+            "support": {
+              "facil": 8,
+              "media": 10,
+              "dificil": 14
+            },
+            "macro_f1": 0.44986449864498645,
+            "accuracy": 0.5625,
+            "confusion": [
+              [
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                0,
+                10
+              ],
+              [
+                0,
+                0,
+                14
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "n": 8
+              },
+              "media": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.5185185185185185,
+                "recall": 1.0,
+                "f1": 0.6829268292682927,
+                "n": 14
+              }
+            }
+          },
+          "LC": {
+            "n": 39,
+            "support": {
+              "facil": 21,
+              "media": 12,
+              "dificil": 6
+            },
+            "macro_f1": 0.2698412698412698,
+            "accuracy": 0.48717948717948717,
+            "confusion": [
+              [
+                18,
+                1,
+                2
+              ],
+              [
+                9,
+                1,
+                2
+              ],
+              [
+                6,
+                0,
+                0
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.5454545454545454,
+                "recall": 0.8571428571428571,
+                "f1": 0.6666666666666666,
+                "n": 21
+              },
+              "media": {
+                "precision": 0.5,
+                "recall": 0.08333333333333333,
+                "f1": 0.14285714285714285,
+                "n": 12
+              },
+              "dificil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 6
+              }
+            }
+          },
+          "MT": {
+            "n": 26,
+            "support": {
+              "facil": 2,
+              "media": 10,
+              "dificil": 14
+            },
+            "macro_f1": 0.2333333333333333,
+            "accuracy": 0.5384615384615384,
+            "confusion": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                10
+              ],
+              [
+                0,
+                0,
+                14
+              ]
+            ],
+            "by_class": {
+              "facil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 2
+              },
+              "media": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "n": 10
+              },
+              "dificil": {
+                "precision": 0.5384615384615384,
+                "recall": 1.0,
+                "f1": 0.7,
+                "n": 14
+              }
+            }
+          }
+        },
+        "validation_seconds": 1.4537558999982139,
+        "epoch": 2,
+        "model": "microsoft/mdeberta-v3-base",
+        "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+        "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "seed": 7,
+        "limit": 256,
+        "cuts": [
+          0.8005400000000001,
+          1.56301
+        ],
+        "validation_year": 2023,
+        "batch": 2,
+        "effective_batch": 16,
+        "lr": 3e-05,
+        "changed_encoder_parameters": 32
+      },
+      "run": {
+        "epochs": [
+          0.34748711508777436,
+          0.4253796809035582
+        ],
+        "seconds": 55.884922899997036,
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "peak_allocated_bytes": 1473506816,
+        "checkpoint_sha256": "bdc4ed9ddcee38691f52792384ab9a8074cf07ccd45bae2d9216c29d766e1bd3"
+      }
+    }
+  },
+  "truncamento": {
+    "minilm": {
+      "config": {
+        "train": {
+          "seconds": 56.82109480000145,
+          "truncated": 1427,
+          "n": 1801,
+          "dimension": 384
+        },
+        "validation": {
+          "seconds": 4.2198023999990255,
+          "truncated": 110,
+          "n": 136,
+          "dimension": 384
+        },
+        "checkpoint": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+        "input_limit": 128,
+        "native_context": 128,
+        "pooling": "mean",
+        "peak_sampled_rss_bytes": 1054892032,
+        "total_seconds": 62.92586719999963,
+        "embedding_sha256": "ac0ce91c4ebb35e4cb455b7ef7a7a6867a06083244462ded626f4d9a9464541c",
+        "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+        "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "device": "cpu",
+        "python": "3.14.0",
+        "torch": "2.11.0+cpu"
+      },
+      "truncated": 110,
+      "command_proxy_lost": 23,
+      "math_proxy_lost": 2
+    },
+    "qwen06": {
+      "config": {
+        "train": {
+          "seconds": 41.02511459999732,
+          "truncated": 553,
+          "n": 1801,
+          "dimension": 1024
+        },
+        "validation": {
+          "seconds": 3.0922312999973656,
+          "truncated": 43,
+          "n": 136,
+          "dimension": 1024
+        },
+        "checkpoint": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "input_limit": 256,
+        "native_context": 32768,
+        "pooling": "last",
+        "peak_sampled_rss_bytes": 2826682368,
+        "total_seconds": 46.83978959999877,
+        "embedding_sha256": "c191c5860ecae1d7e218df93323b023e5862e34d52057a82890367211e5484c3",
+        "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+        "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "device": "cuda",
+        "dtype": "torch.float16",
+        "gpu_peak_allocated_bytes": 1615785472,
+        "python": "3.14.0",
+        "torch": "2.11.0+cu128"
+      },
+      "truncated": 43,
+      "command_proxy_lost": 6,
+      "math_proxy_lost": 0
+    },
+    "bge": {
+      "config": {
+        "train": {
+          "seconds": 17.429713300000003,
+          "truncated": 360,
+          "n": 1801,
+          "dimension": 1024
+        },
+        "validation": {
+          "seconds": 1.406986500001949,
+          "truncated": 28,
+          "n": 136,
+          "dimension": 1024
+        },
+        "checkpoint": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "input_limit": 256,
+        "native_context": 8192,
+        "pooling": "first",
+        "peak_sampled_rss_bytes": 2908131328,
+        "total_seconds": 22.912639100002707,
+        "embedding_sha256": "3fd7e7c08cee2c6034c8b7c5c8464c82e44874ee7472157c1b9b38153e65897f",
+        "protocol_sha256": "dd202b31eead513b3aa27a2366ceaaba56210397796954709a7cd028a2371f45",
+        "dataset_revision": "7e720fa876beb7249adab2f05d3ecf33ae5a2c51",
+        "device": "cuda",
+        "dtype": "torch.float16",
+        "gpu_peak_allocated_bytes": 1192629248,
+        "python": "3.14.0",
+        "torch": "2.11.0+cu128"
+      },
+      "truncated": 28,
+      "command_proxy_lost": 3,
+      "math_proxy_lost": 0
+    },
+    "bert": {
+      "truncated": 0,
+      "alternatives_not_fully_kept": 0,
+      "command_proxy_lost": 0,
+      "math_proxy_lost": 0
+    },
+    "deberta": {
+      "truncated": 87,
+      "alternatives_not_fully_kept": 372,
+      "command_proxy_lost": 9,
+      "math_proxy_lost": 2
+    }
+  },
+  "erros_por_fatia": {
+    "bert/area": {
+      "CH": {
+        "n": 39,
+        "acerto": 23,
+        "erro": 16
+      },
+      "CN": {
+        "n": 32,
+        "acerto": 17,
+        "erro": 15
+      },
+      "LC": {
+        "n": 39,
+        "acerto": 24,
+        "erro": 15
+      },
+      "MT": {
+        "n": 26,
+        "acerto": 14,
+        "erro": 12
+      }
+    },
+    "bert/ano": {
+      "2023": {
+        "n": 136,
+        "acerto": 78,
+        "erro": 58
+      }
+    },
+    "bert/assunto_catalogo": {
+      "None": {
+        "n": 24,
+        "acerto": 14,
+        "erro": 10
+      },
+      "Sociologia": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      },
+      "História": {
+        "n": 6,
+        "acerto": 4,
+        "erro": 2
+      },
+      "Geografia": {
+        "n": 5,
+        "acerto": 4,
+        "erro": 1
+      },
+      "Filosofia": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "Economia": {
+        "n": 12,
+        "acerto": 4,
+        "erro": 8
+      },
+      "Biologia": {
+        "n": 12,
+        "erro": 5,
+        "acerto": 7
+      },
+      "Física": {
+        "n": 9,
+        "erro": 5,
+        "acerto": 4
+      },
+      "Química": {
+        "n": 3,
+        "erro": 3
+      },
+      "Artes": {
+        "n": 3,
+        "acerto": 3
+      },
+      "Leitura": {
+        "n": 14,
+        "erro": 6,
+        "acerto": 8
+      },
+      "Linguística": {
+        "n": 6,
+        "acerto": 5,
+        "erro": 1
+      },
+      "Literatura": {
+        "n": 7,
+        "acerto": 3,
+        "erro": 4
+      },
+      "Gramática": {
+        "n": 2,
+        "erro": 1,
+        "acerto": 1
+      },
+      "Educação física": {
+        "n": 4,
+        "erro": 1,
+        "acerto": 3
+      },
+      "Números": {
+        "n": 7,
+        "acerto": 5,
+        "erro": 2
+      },
+      "Probabilidade e estatística": {
+        "n": 5,
+        "erro": 3,
+        "acerto": 2
+      },
+      "Matemática financeira": {
+        "n": 4,
+        "erro": 1,
+        "acerto": 3
+      },
+      "Álgebra": {
+        "n": 1,
+        "acerto": 1
+      },
+      "Grandezas e medidas": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      }
+    },
+    "bert/habilidade_catalogo": {
+      "22": {
+        "n": 6,
+        "acerto": 5,
+        "erro": 1
+      },
+      "3": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "21": {
+        "n": 3,
+        "erro": 1,
+        "acerto": 2
+      },
+      "1": {
+        "n": 4,
+        "acerto": 4
+      },
+      "15": {
+        "n": 5,
+        "acerto": 4,
+        "erro": 1
+      },
+      "26": {
+        "n": 5,
+        "acerto": 2,
+        "erro": 3
+      },
+      "16": {
+        "n": 7,
+        "acerto": 5,
+        "erro": 2
+      },
+      "9": {
+        "n": 3,
+        "acerto": 3
+      },
+      "23": {
+        "n": 6,
+        "erro": 3,
+        "acerto": 3
+      },
+      "2": {
+        "n": 3,
+        "acerto": 1,
+        "erro": 2
+      },
+      "27": {
+        "n": 5,
+        "erro": 2,
+        "acerto": 3
+      },
+      "17": {
+        "n": 4,
+        "erro": 4
+      },
+      "7": {
+        "n": 3,
+        "acerto": 3
+      },
+      "14": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "30": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "8": {
+        "n": 5,
+        "erro": 2,
+        "acerto": 3
+      },
+      "4": {
+        "n": 4,
+        "acerto": 3,
+        "erro": 1
+      },
+      "11": {
+        "n": 5,
+        "acerto": 4,
+        "erro": 1
+      },
+      "29": {
+        "n": 6,
+        "erro": 2,
+        "acerto": 4
+      },
+      "12": {
+        "n": 6,
+        "acerto": 4,
+        "erro": 2
+      },
+      "28": {
+        "n": 6,
+        "erro": 3,
+        "acerto": 3
+      },
+      "19": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "25": {
+        "n": 3,
+        "erro": 2,
+        "acerto": 1
+      },
+      "18": {
+        "n": 6,
+        "erro": 4,
+        "acerto": 2
+      },
+      "5": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "10": {
+        "n": 5,
+        "acerto": 4,
+        "erro": 1
+      },
+      "24": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "13": {
+        "n": 2,
+        "erro": 1,
+        "acerto": 1
+      },
+      "20": {
+        "n": 3,
+        "erro": 2,
+        "acerto": 1
+      },
+      "6": {
+        "n": 3,
+        "acerto": 3
+      }
+    },
+    "bert/dificuldade": {
+      "media": {
+        "n": 42,
+        "acerto": 8,
+        "erro": 34
+      },
+      "facil": {
+        "n": 54,
+        "acerto": 43,
+        "erro": 11
+      },
+      "dificil": {
+        "n": 40,
+        "acerto": 27,
+        "erro": 13
+      }
+    },
+    "bert/assets": {
+      "False": {
+        "n": 136,
+        "acerto": 78,
+        "erro": 58
+      }
+    },
+    "bert/formula_proxy": {
+      "False": {
+        "n": 134,
+        "acerto": 77,
+        "erro": 57
+      },
+      "True": {
+        "n": 2,
+        "acerto": 1,
+        "erro": 1
+      }
+    },
+    "bert/tabela_proxy": {
+      "False": {
+        "n": 135,
+        "acerto": 77,
+        "erro": 58
+      },
+      "True": {
+        "n": 1,
+        "acerto": 1
+      }
+    },
+    "bert/visual_proxy": {
+      "False": {
+        "n": 131,
+        "acerto": 75,
+        "erro": 56
+      },
+      "True": {
+        "n": 5,
+        "acerto": 3,
+        "erro": 2
+      }
+    },
+    "bert/sem_assunto": {
+      "True": {
+        "n": 24,
+        "acerto": 14,
+        "erro": 10
+      },
+      "False": {
+        "n": 112,
+        "acerto": 64,
+        "erro": 48
+      }
+    },
+    "bert/sem_habilidade": {
+      "False": {
+        "n": 136,
+        "acerto": 78,
+        "erro": 58
+      }
+    },
+    "bert/bert_truncated": {
+      "False": {
+        "n": 136,
+        "acerto": 78,
+        "erro": 58
+      }
+    },
+    "deberta/area": {
+      "CH": {
+        "n": 39,
+        "erro": 19,
+        "acerto": 20
+      },
+      "CN": {
+        "n": 32,
+        "acerto": 18,
+        "erro": 14
+      },
+      "LC": {
+        "n": 39,
+        "erro": 20,
+        "acerto": 19
+      },
+      "MT": {
+        "n": 26,
+        "acerto": 14,
+        "erro": 12
+      }
+    },
+    "deberta/ano": {
+      "2023": {
+        "n": 136,
+        "erro": 65,
+        "acerto": 71
+      }
+    },
+    "deberta/assunto_catalogo": {
+      "None": {
+        "n": 24,
+        "erro": 11,
+        "acerto": 13
+      },
+      "Sociologia": {
+        "n": 3,
+        "acerto": 3
+      },
+      "História": {
+        "n": 6,
+        "erro": 2,
+        "acerto": 4
+      },
+      "Geografia": {
+        "n": 5,
+        "acerto": 3,
+        "erro": 2
+      },
+      "Filosofia": {
+        "n": 6,
+        "acerto": 2,
+        "erro": 4
+      },
+      "Economia": {
+        "n": 12,
+        "acerto": 5,
+        "erro": 7
+      },
+      "Biologia": {
+        "n": 12,
+        "erro": 6,
+        "acerto": 6
+      },
+      "Física": {
+        "n": 9,
+        "erro": 4,
+        "acerto": 5
+      },
+      "Química": {
+        "n": 3,
+        "erro": 3
+      },
+      "Artes": {
+        "n": 3,
+        "erro": 1,
+        "acerto": 2
+      },
+      "Leitura": {
+        "n": 14,
+        "erro": 7,
+        "acerto": 7
+      },
+      "Linguística": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "Literatura": {
+        "n": 7,
+        "acerto": 1,
+        "erro": 6
+      },
+      "Gramática": {
+        "n": 2,
+        "erro": 1,
+        "acerto": 1
+      },
+      "Educação física": {
+        "n": 4,
+        "erro": 1,
+        "acerto": 3
+      },
+      "Números": {
+        "n": 7,
+        "acerto": 5,
+        "erro": 2
+      },
+      "Probabilidade e estatística": {
+        "n": 5,
+        "erro": 3,
+        "acerto": 2
+      },
+      "Matemática financeira": {
+        "n": 4,
+        "erro": 1,
+        "acerto": 3
+      },
+      "Álgebra": {
+        "n": 1,
+        "acerto": 1
+      },
+      "Grandezas e medidas": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      }
+    },
+    "deberta/habilidade_catalogo": {
+      "22": {
+        "n": 6,
+        "erro": 3,
+        "acerto": 3
+      },
+      "3": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "21": {
+        "n": 3,
+        "acerto": 3
+      },
+      "1": {
+        "n": 4,
+        "erro": 2,
+        "acerto": 2
+      },
+      "15": {
+        "n": 5,
+        "acerto": 3,
+        "erro": 2
+      },
+      "26": {
+        "n": 5,
+        "acerto": 2,
+        "erro": 3
+      },
+      "16": {
+        "n": 7,
+        "acerto": 4,
+        "erro": 3
+      },
+      "9": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      },
+      "23": {
+        "n": 6,
+        "erro": 3,
+        "acerto": 3
+      },
+      "2": {
+        "n": 3,
+        "erro": 3
+      },
+      "27": {
+        "n": 5,
+        "erro": 2,
+        "acerto": 3
+      },
+      "17": {
+        "n": 4,
+        "erro": 4
+      },
+      "7": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      },
+      "14": {
+        "n": 4,
+        "erro": 2,
+        "acerto": 2
+      },
+      "30": {
+        "n": 6,
+        "acerto": 4,
+        "erro": 2
+      },
+      "8": {
+        "n": 5,
+        "erro": 4,
+        "acerto": 1
+      },
+      "4": {
+        "n": 4,
+        "erro": 2,
+        "acerto": 2
+      },
+      "11": {
+        "n": 5,
+        "erro": 1,
+        "acerto": 4
+      },
+      "29": {
+        "n": 6,
+        "acerto": 6
+      },
+      "12": {
+        "n": 6,
+        "acerto": 4,
+        "erro": 2
+      },
+      "28": {
+        "n": 6,
+        "acerto": 3,
+        "erro": 3
+      },
+      "19": {
+        "n": 4,
+        "erro": 4
+      },
+      "25": {
+        "n": 3,
+        "acerto": 2,
+        "erro": 1
+      },
+      "18": {
+        "n": 6,
+        "erro": 4,
+        "acerto": 2
+      },
+      "5": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "10": {
+        "n": 5,
+        "acerto": 4,
+        "erro": 1
+      },
+      "24": {
+        "n": 4,
+        "erro": 3,
+        "acerto": 1
+      },
+      "13": {
+        "n": 2,
+        "erro": 1,
+        "acerto": 1
+      },
+      "20": {
+        "n": 3,
+        "erro": 2,
+        "acerto": 1
+      },
+      "6": {
+        "n": 3,
+        "acerto": 3
+      }
+    },
+    "deberta/dificuldade": {
+      "media": {
+        "n": 42,
+        "erro": 41,
+        "acerto": 1
+      },
+      "facil": {
+        "n": 54,
+        "acerto": 40,
+        "erro": 14
+      },
+      "dificil": {
+        "n": 40,
+        "erro": 10,
+        "acerto": 30
+      }
+    },
+    "deberta/assets": {
+      "False": {
+        "n": 136,
+        "erro": 65,
+        "acerto": 71
+      }
+    },
+    "deberta/formula_proxy": {
+      "False": {
+        "n": 134,
+        "erro": 64,
+        "acerto": 70
+      },
+      "True": {
+        "n": 2,
+        "acerto": 1,
+        "erro": 1
+      }
+    },
+    "deberta/tabela_proxy": {
+      "False": {
+        "n": 135,
+        "erro": 65,
+        "acerto": 70
+      },
+      "True": {
+        "n": 1,
+        "acerto": 1
+      }
+    },
+    "deberta/visual_proxy": {
+      "False": {
+        "n": 131,
+        "erro": 62,
+        "acerto": 69
+      },
+      "True": {
+        "n": 5,
+        "acerto": 2,
+        "erro": 3
+      }
+    },
+    "deberta/sem_assunto": {
+      "True": {
+        "n": 24,
+        "erro": 11,
+        "acerto": 13
+      },
+      "False": {
+        "n": 112,
+        "acerto": 58,
+        "erro": 54
+      }
+    },
+    "deberta/sem_habilidade": {
+      "False": {
+        "n": 136,
+        "erro": 65,
+        "acerto": 71
+      }
+    },
+    "deberta/deberta_truncated": {
+      "False": {
+        "n": 49,
+        "erro": 25,
+        "acerto": 24
+      },
+      "True": {
+        "n": 87,
+        "acerto": 47,
+        "erro": 40
+      }
+    }
+  },
+  "tri": {
+    "area": {
+      "CH": {
+        "a": {
+          "min": 0.20704,
+          "q1": 1.429875,
+          "median": 2.005995,
+          "q3": 2.73939,
+          "max": 6.69428
+        },
+        "b": {
+          "min": -2.10568,
+          "q1": 0.5916225,
+          "median": 1.05645,
+          "q3": 1.5995000000000001,
+          "max": 11.14224
+        },
+        "c": {
+          "min": 0.00083,
+          "q1": 0.122835,
+          "median": 0.171,
+          "q3": 0.206745,
+          "max": 0.5
+        }
+      },
+      "CN": {
+        "a": {
+          "min": 0.01929,
+          "q1": 1.56954,
+          "median": 2.149915,
+          "q3": 2.817635,
+          "max": 8.00279
+        },
+        "b": {
+          "min": -1.80092,
+          "q1": 0.84232,
+          "median": 1.40643,
+          "q3": 1.8702825,
+          "max": 61.05459
+        },
+        "c": {
+          "min": 0.00115,
+          "q1": 0.1187725,
+          "median": 0.16457,
+          "q3": 0.21000000000000002,
+          "max": 0.4758
+        }
+      },
+      "LC": {
+        "a": {
+          "min": 0.17448,
+          "q1": 1.48285,
+          "median": 2.034,
+          "q3": 2.68787,
+          "max": 6.00028
+        },
+        "b": {
+          "min": -2.59784,
+          "q1": 0.2854,
+          "median": 0.73171,
+          "q3": 1.23509,
+          "max": 8.28479
+        },
+        "c": {
+          "min": 0.00117,
+          "q1": 0.10913,
+          "median": 0.16123,
+          "q3": 0.20287,
+          "max": 0.5
+        }
+      },
+      "MT": {
+        "a": {
+          "min": 0.09882,
+          "q1": 1.5734175000000001,
+          "median": 2.0222550000000004,
+          "q3": 2.6388375,
+          "max": 6.20439
+        },
+        "b": {
+          "min": -1.259,
+          "q1": 1.33764,
+          "median": 1.91287,
+          "q3": 2.45667,
+          "max": 17.62443
+        },
+        "c": {
+          "min": 0.00301,
+          "q1": 0.1252725,
+          "median": 0.16345500000000002,
+          "q3": 0.200635,
+          "max": 0.41758
+        }
+      }
+    },
+    "year": {
+      "2009": {
+        "a": {
+          "min": 0.17448,
+          "q1": 1.1721825,
+          "median": 1.62976,
+          "q3": 2.2379425,
+          "max": 4.39929
+        },
+        "b": {
+          "min": -2.59784,
+          "q1": 0.65432,
+          "median": 1.5508250000000001,
+          "q3": 2.2521575,
+          "max": 4.60999
+        },
+        "c": {
+          "min": 0.00083,
+          "q1": 0.1192775,
+          "median": 0.16279,
+          "q3": 0.20352499999999998,
+          "max": 0.38803
+        }
+      },
+      "2010": {
+        "a": {
+          "min": 0.3656,
+          "q1": 1.4461025,
+          "median": 1.96363,
+          "q3": 2.494305,
+          "max": 4.56819
+        },
+        "b": {
+          "min": -1.26778,
+          "q1": 0.5509575,
+          "median": 1.1391499999999999,
+          "q3": 1.7823975,
+          "max": 4.43681
+        },
+        "c": {
+          "min": 0.00376,
+          "q1": 0.12239749999999999,
+          "median": 0.16672,
+          "q3": 0.2054725,
+          "max": 0.42491
+        }
+      },
+      "2011": {
+        "a": {
+          "min": 0.34715,
+          "q1": 1.547935,
+          "median": 2.05305,
+          "q3": 2.60386,
+          "max": 3.69471
+        },
+        "b": {
+          "min": -2.10568,
+          "q1": 0.34780500000000003,
+          "median": 0.805135,
+          "q3": 1.5742275000000001,
+          "max": 5.86198
+        },
+        "c": {
+          "min": 0.00725,
+          "q1": 0.12398,
+          "median": 0.169465,
+          "q3": 0.210795,
+          "max": 0.44445
+        }
+      },
+      "2012": {
+        "a": {
+          "min": 0.814,
+          "q1": 1.45825,
+          "median": 1.884,
+          "q3": 2.2824999999999998,
+          "max": 3.558
+        },
+        "b": {
+          "min": -1.259,
+          "q1": 0.48675,
+          "median": 1.0285,
+          "q3": 1.6179999999999999,
+          "max": 3.255
+        },
+        "c": {
+          "min": 0.066,
+          "q1": 0.13775,
+          "median": 0.169,
+          "q3": 0.20025,
+          "max": 0.305
+        }
+      },
+      "2013": {
+        "a": {
+          "min": 0.09882,
+          "q1": 1.2729750000000002,
+          "median": 1.8588,
+          "q3": 2.4707749999999997,
+          "max": 5.3258
+        },
+        "b": {
+          "min": -0.9463,
+          "q1": 0.66365,
+          "median": 1.17655,
+          "q3": 1.985125,
+          "max": 17.62443
+        },
+        "c": {
+          "min": 0.00301,
+          "q1": 0.1122,
+          "median": 0.15301,
+          "q3": 0.194525,
+          "max": 0.4758
+        }
+      },
+      "2014": {
+        "a": {
+          "min": 0.15248,
+          "q1": 1.5022575,
+          "median": 2.03186,
+          "q3": 2.7087624999999997,
+          "max": 4.94938
+        },
+        "b": {
+          "min": -0.53194,
+          "q1": 0.66494,
+          "median": 1.22812,
+          "q3": 1.9099599999999999,
+          "max": 11.43966
+        },
+        "c": {
+          "min": 0.00558,
+          "q1": 0.1204675,
+          "median": 0.157445,
+          "q3": 0.18797750000000002,
+          "max": 0.41758
+        }
+      },
+      "2015": {
+        "a": {
+          "min": 0.01929,
+          "q1": 1.57332,
+          "median": 2.16664,
+          "q3": 2.8568024999999997,
+          "max": 6.00028
+        },
+        "b": {
+          "min": -0.97123,
+          "q1": 0.6594025,
+          "median": 1.21372,
+          "q3": 1.8233225,
+          "max": 61.05459
+        },
+        "c": {
+          "min": 0.00964,
+          "q1": 0.13584000000000002,
+          "median": 0.18533,
+          "q3": 0.216035,
+          "max": 0.5
+        }
+      },
+      "2016": {
+        "a": {
+          "min": 0.29852,
+          "q1": 1.6162,
+          "median": 2.06036,
+          "q3": 2.66596,
+          "max": 5.1872
+        },
+        "b": {
+          "min": -0.855,
+          "q1": 0.80183,
+          "median": 1.28926,
+          "q3": 1.838355,
+          "max": 10.12436
+        },
+        "c": {
+          "min": 0.00187,
+          "q1": 0.124885,
+          "median": 0.17813,
+          "q3": 0.210985,
+          "max": 0.386
+        }
+      },
+      "2017": {
+        "a": {
+          "min": 0.33732,
+          "q1": 1.5742250000000002,
+          "median": 2.12666,
+          "q3": 3.06501,
+          "max": 6.20439
+        },
+        "b": {
+          "min": -0.514,
+          "q1": 0.71936,
+          "median": 1.30961,
+          "q3": 2.0321350000000002,
+          "max": 7.92092
+        },
+        "c": {
+          "min": 0.00728,
+          "q1": 0.10517,
+          "median": 0.15169,
+          "q3": 0.20342,
+          "max": 0.34312
+        }
+      },
+      "2018": {
+        "a": {
+          "min": 0.24681,
+          "q1": 1.5337399999999999,
+          "median": 2.23875,
+          "q3": 3.16446,
+          "max": 8.00279
+        },
+        "b": {
+          "min": 0.04637,
+          "q1": 1.0208725,
+          "median": 1.450405,
+          "q3": 1.976505,
+          "max": 4.77908
+        },
+        "c": {
+          "min": 0.00591,
+          "q1": 0.10013,
+          "median": 0.1475,
+          "q3": 0.1941675,
+          "max": 0.45573
+        }
+      },
+      "2019": {
+        "a": {
+          "min": 0.05808,
+          "q1": 1.6700975,
+          "median": 2.315045,
+          "q3": 3.1165025,
+          "max": 7.09582
+        },
+        "b": {
+          "min": -0.25115,
+          "q1": 0.590195,
+          "median": 1.1455899999999999,
+          "q3": 1.83074,
+          "max": 12.4166
+        },
+        "c": {
+          "min": 0.00161,
+          "q1": 0.09616749999999999,
+          "median": 0.149035,
+          "q3": 0.1913,
+          "max": 0.36496
+        }
+      },
+      "2020": {
+        "a": {
+          "min": 0.29544,
+          "q1": 1.6245749999999999,
+          "median": 2.116145,
+          "q3": 2.7652025,
+          "max": 5.86603
+        },
+        "b": {
+          "min": -0.5151,
+          "q1": 0.7690224999999999,
+          "median": 1.27148,
+          "q3": 1.8127475,
+          "max": 3.80025
+        },
+        "c": {
+          "min": 0.01071,
+          "q1": 0.1364525,
+          "median": 0.172365,
+          "q3": 0.20763500000000001,
+          "max": 0.32936
+        }
+      },
+      "2021": {
+        "a": {
+          "min": 0.27414,
+          "q1": 1.565135,
+          "median": 2.14058,
+          "q3": 2.59056,
+          "max": 4.13911
+        },
+        "b": {
+          "min": -0.72714,
+          "q1": 0.7055225,
+          "median": 1.3154050000000002,
+          "q3": 1.7457150000000001,
+          "max": 4.96788
+        },
+        "c": {
+          "min": 0.00747,
+          "q1": 0.1254775,
+          "median": 0.16094,
+          "q3": 0.19881000000000001,
+          "max": 0.3388
+        }
+      },
+      "2022": {
+        "a": {
+          "min": 0.24441,
+          "q1": 1.49329,
+          "median": 2.04009,
+          "q3": 2.6461475,
+          "max": 5.67249
+        },
+        "b": {
+          "min": -0.7431,
+          "q1": 0.674485,
+          "median": 1.345185,
+          "q3": 2.0993950000000003,
+          "max": 6.27505
+        },
+        "c": {
+          "min": 0.00428,
+          "q1": 0.10581,
+          "median": 0.15816999999999998,
+          "q3": 0.1950675,
+          "max": 0.44865
+        }
+      },
+      "2023": {
+        "a": {
+          "min": 0.71667,
+          "q1": 1.58702,
+          "median": 2.1809,
+          "q3": 2.78931,
+          "max": 5.9367
+        },
+        "b": {
+          "min": -1.14947,
+          "q1": 0.49481,
+          "median": 1.19128,
+          "q3": 1.77344,
+          "max": 3.00088
+        },
+        "c": {
+          "min": 0.00556,
+          "q1": 0.12273,
+          "median": 0.17386,
+          "q3": 0.21903,
+          "max": 0.49995
+        }
+      },
+      "2024": {
+        "a": {
+          "min": 0.20704,
+          "q1": 1.696755,
+          "median": 2.2752,
+          "q3": 2.896395,
+          "max": 5.44912
+        },
+        "b": {
+          "min": -0.92571,
+          "q1": 0.556385,
+          "median": 1.09641,
+          "q3": 1.73834,
+          "max": 11.14224
+        },
+        "c": {
+          "min": 0.00115,
+          "q1": 0.1166975,
+          "median": 0.15571000000000002,
+          "q3": 0.2058425,
+          "max": 0.5
+        }
+      }
+    }
+  },
+  "cortes_globais": [
+    0.8005400000000001,
+    1.56301
+  ],
+  "cortes_area_treino": {
+    "CH": [
+      0.823,
+      1.44729
+    ],
+    "CN": [
+      0.9476266666666667,
+      1.61209
+    ],
+    "LC": [
+      0.5367866666666666,
+      1.1240866666666667
+    ],
+    "MT": [
+      1.6445999999999998,
+      2.37639
+    ]
+  },
+  "reclassificacao_area_validacao": 30,
+  "perto_cortes_validacao_010": 25,
+  "ambos_erram": [
+    "gq_6b2d8d9c52f1dc40f69aba12",
+    "gq_1cee8ef7ca50a57b4aabf4a5",
+    "gq_b30f1747f20e30981d387c3d",
+    "gq_e520eeac96d4c6e1c66b9ef2",
+    "gq_20f5a21be402bf83d6629150",
+    "gq_871f8fbbf08978b78485b2a6",
+    "gq_12bfec43f1833e187a7261a0",
+    "gq_d5fda5385a86d6bd093b24e8",
+    "gq_314debd9b55971a15b32fe05",
+    "gq_77fb00b70f5c4274ed41df35",
+    "gq_57c67987c0b8a32b861444cf",
+    "gq_292f28dead645148d796798c",
+    "gq_de826d8e9b7afefe83d21f9f",
+    "gq_374bd76761cf3f79b5401559",
+    "gq_9d007b6088e413c8668096fc",
+    "gq_da4879eadde48a351e753299",
+    "gq_6ef1ecc786be51ce3549e2d7",
+    "gq_f5724267e2df743168543a7b",
+    "gq_fd244e8b5faecad1a2a63317",
+    "gq_62e3bcb24c0d877c1d958905",
+    "gq_573be4c0214abb9a0cd30bee",
+    "gq_85cff5aa1fbc7bd450ea61e6",
+    "gq_f2258023bacb06cba08af5ba",
+    "gq_2c4cc0cb4d4c1021033e123d",
+    "gq_711de2543acf2b15d172ef27",
+    "gq_6685062e05916effaf248a05",
+    "gq_1f350444706c42932f0185fa",
+    "gq_9573b58b42b0782a2f18152a",
+    "gq_ffd2b8fbe4884a0028606cde",
+    "gq_a5db4846e772b89511ca3c6d",
+    "gq_36c18f7638bef60120b990b3",
+    "gq_3e24d504f23eb663a20daf45",
+    "gq_5c42141ca7e4f14c8aafd0d8",
+    "gq_ea51515de3686395f2e1bc00",
+    "gq_ab2c7ceda8c59bbc438ec80c",
+    "gq_8606e22e68559aefb397b82a",
+    "gq_fee34bf6f6c2712a05a4ccab",
+    "gq_d5f6d60a0332514c537a0c66",
+    "gq_4ef1c1edb14e45b8512864fd",
+    "gq_8db4e9d05a4cc5fc35063f57",
+    "gq_cd7a0273e58bbf2953fa7a39",
+    "gq_3988d9b88b334100337aa312",
+    "gq_0ff0ce934bfed327e5d8b63d",
+    "gq_a2fa97f9356f80acc4c3fac3",
+    "gq_fb25ccf866fab6af4a1400de",
+    "gq_0af3e3035723e48729819dac",
+    "gq_ad0a468663ae2652ff5b84ba",
+    "gq_52354dffa0cf4a5a24a74a46"
+  ],
+  "ambos_acertam": [
+    "gq_cae95a4885aa0c5720c68db9",
+    "gq_bd314be3d69e96aa2cba56ec",
+    "gq_902b54b055c809cdc14e74c0",
+    "gq_4d7d99a4a65dcd0f6a897dcc",
+    "gq_dbcd39524336e1e4105e3155",
+    "gq_7b06d602e00242f6d1c6c3bc",
+    "gq_5ed4ddfa3b199fa6072840a9",
+    "gq_e2faa746bdb9e2cf6eb2dad2",
+    "gq_2628530e0a6d766fa5f471b9",
+    "gq_83bd5c51ffa6d46ac90b8aaa",
+    "gq_021d87104d8061f228b2b4e8",
+    "gq_e74f67197da1a7687f9a751c",
+    "gq_c08424af10f755073428f081",
+    "gq_1dbbb2d1bebdc8549a1f5f14",
+    "gq_f74cb0843ebeefe5b8cdba9f",
+    "gq_228c16524720c6e8faabcf43",
+    "gq_8654aa0a3eeff9ca455e9f67",
+    "gq_24b1a2d74e302a040a978f0f",
+    "gq_cbc37301210949f56ff47490",
+    "gq_40172b48bb298d7706406848",
+    "gq_f06b712eb71a2ff88e99db4a",
+    "gq_98457928a4a5eeb240082bdb",
+    "gq_8ada41a9c7b503ed72dbb57b",
+    "gq_7806edcd3e09ccfd442a8bec",
+    "gq_8fd4b6f624ad457ecdbbb55a",
+    "gq_cca3bb0cbd69d678ae73be07",
+    "gq_8898a74860fa6a8d5ee93374",
+    "gq_6d98b3699759fa37725129c7",
+    "gq_feb26a04e6772cee364d699e",
+    "gq_e8eb6a75f626bdadd05e1964",
+    "gq_1b3b75429a66aca2874035c8",
+    "gq_d8c02cce222dd99d13df1df7",
+    "gq_b95e69c624d5e87ab3258f88",
+    "gq_63c481f9806cd7b3634368e8",
+    "gq_e11e1596cccb599186cb7603",
+    "gq_2824427a117816bfcd2a3f1d",
+    "gq_ceb55020d2d4d690acdebc14",
+    "gq_1cea5428d65076203a8b43c0",
+    "gq_461c34e5bb828b251210352a",
+    "gq_2c446af4206968983b214fe6",
+    "gq_38d3378a0ae8007bb8f2006e",
+    "gq_a55d53b0e2eb49c50c579d06",
+    "gq_affdf0a8afee77d6ca2d96fb",
+    "gq_02eca864ce72152273abd733",
+    "gq_4726d00495fa709110261749",
+    "gq_dcd463506e35a6fdd20c1e07",
+    "gq_39d6f7af2c4b6f3fae000c2c",
+    "gq_98b71afcfadc707111984efc",
+    "gq_78731170208461d5b0471387",
+    "gq_7ccb699b6e4216b0cf99db8f",
+    "gq_a495bf153008031b1a420d7f",
+    "gq_2d647f449c5e9d9fa5736ffe",
+    "gq_e26131a4ebb9833e36ffb6b4",
+    "gq_c12366a21e85fe76b07926e7",
+    "gq_43f2256db888dff8b0eec792",
+    "gq_78c7c3d4ef226f52b2ff39ec",
+    "gq_2922b1ea6de9d56cd2dd5312",
+    "gq_e21312d2bf6fabef103eb061",
+    "gq_b8560589ddb6599b51bddc75",
+    "gq_6ca876d2a904d164b348e699",
+    "gq_47c769d519c73d25a05f055c"
+  ],
+  "so_um_acerta": [
+    "gq_b8d0643634bd192b4f406cd0",
+    "gq_72b3f38fe54fd2d1da85c962",
+    "gq_29d0b35c3cbc2b3e73159958",
+    "gq_1dde3747f0cf3d2e254cfcbf",
+    "gq_761a8751340e8826d4a77a6b",
+    "gq_0f6ee017d6563444f0f9ed29",
+    "gq_c9e97c325a3d3b2b5b886d2a",
+    "gq_708ed13d3f9bfd2bf3587b2d",
+    "gq_52dcd01b2018cbcb3e66fd97",
+    "gq_29ef25a472475b50d03207ab",
+    "gq_8cde01f70d74425a1e5a71a2",
+    "gq_ae75e5ed178b1437c8e7131a",
+    "gq_b4a513af90934bebfec3f47e",
+    "gq_210aa8937ec8c0ae78955770",
+    "gq_53b3a44abe4e95f412e1a8cc",
+    "gq_070c9ea8335bcf4efd378789",
+    "gq_91554940f3345ee6474b93ec",
+    "gq_b5e6c40a9549e942a4a26fdb",
+    "gq_71f8a7e400834ae86724e871",
+    "gq_93cf9f73d610eb07534f8816",
+    "gq_23d6f9f764ecfb6572e77956",
+    "gq_9bed162f684234d0b0592bf6",
+    "gq_3b0962e6299f67bc7931b285",
+    "gq_c1b5f093dbf3efcd0224c865",
+    "gq_f056288b09afabb8fe812cd1",
+    "gq_f893561df9ec8fce01ac928a",
+    "gq_c0345cf88a5b4246b97961dc"
+  ],
+  "catalogo_sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "archives": {
+    "Gabaritei_PI_VI_busca_melhoria_dificuldade.zip": {
+      "sha256": "7aa71916c0ac1b1e9c9692c19c47a58655165ebdb40a523ba65548ad6369c327",
+      "files": 19,
+      "corrupt_entry": null
+    },
+    "Gabaritei_PI_VI_correcao_adaptativa.zip": {
+      "sha256": "a06d6ac90750eae0faabf9c819fa0cc09b147a69d2b673da87ac8f43d86ba5be",
+      "files": 20,
+      "corrupt_entry": null
+    },
+    "Gabaritei_PI_VI_revisao_fase_02_finetune.zip": {
+      "sha256": "af6d862d01b0cc96aee5c65fee2a49dbcf04f57b48987513645141dabbc83735",
+      "files": 97,
+      "corrupt_entry": null
+    },
+    "Gabaritei_PI_VI_validacao_adaptativa.zip": {
+      "sha256": "9b3f7366b4d6d0b01cbe710a5146d5b409346ecccf4d16b3aa9fc9324db83461",
+      "files": 22,
+      "corrupt_entry": null
+    }
+  }
+}

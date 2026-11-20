@@ -1,0 +1,85 @@
+{
+  "amostra_estratificada": [
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "treino",
+      "faixa_comprimento": "5+"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "treino",
+      "faixa_comprimento": "2-4"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "treino",
+      "faixa_comprimento": "1"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "validacao",
+      "faixa_comprimento": "5+"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "validacao",
+      "faixa_comprimento": "2-4"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "validacao",
+      "faixa_comprimento": "1"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "teste",
+      "faixa_comprimento": "1"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "teste",
+      "faixa_comprimento": "5+"
+    },
+    {
+      "confronto_csv_e_sequencia": "ok",
+      "conjunto": "teste",
+      "faixa_comprimento": "2-4"
+    }
+  ],
+  "divergencias_eventos": 0,
+  "eventos_verificados_na_fonte": 214417,
+  "exclusoes": {
+    "andaime": 21643,
+    "habilidade_ausente": 63755,
+    "habilidade_multipla": 47037,
+    "resposta_aberta_autocorrigida": 8
+  },
+  "habilidades_por_criterio": {
+    "brando": 61,
+    "estrito": 47,
+    "principal": 56
+  },
+  "intersecao_estudantes": 0,
+  "intersecao_eventos": 0,
+  "metodo": "SQLite e projeção direta do CSV, sem importar o pipeline",
+  "registros_brutos": 346860,
+  "sequencias_verificadas": 32070,
+  "split": {
+    "teste": {
+      "estudantes": 600,
+      "eventos": 31881,
+      "sequencias": 4505
+    },
+    "treino": {
+      "estudantes": 2802,
+      "eventos": 151015,
+      "sequencias": 22591
+    },
+    "validacao": {
+      "estudantes": 601,
+      "eventos": 31521,
+      "sequencias": 4974
+    }
+  },
+  "status": "aprovado"
+}

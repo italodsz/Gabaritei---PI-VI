@@ -1,0 +1,2275 @@
+{
+  "results": {
+    "manter": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.3333333333333333,
+        "difficulty_error": 0.6666666666666666,
+        "inadequate_challenge": 0.676954732510288,
+        "false_change_when_adequate": 0.0,
+        "direction_precision": {
+          "-1": null,
+          "0": 0.3333333333333333,
+          "1": null
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 1.344512357867609,
+        "oscillations": 0,
+        "repeat_rate": 0.0,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 0,
+            "missed": 324,
+            "median_steps": null
+          },
+          "down": {
+            "detected": 0,
+            "missed": 372,
+            "median_steps": null
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6666666666666666,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6527021396127966,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6666666666666666,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.1472978603872037,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.3333333333333333,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.8472978603872033,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6018518518518519,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.2672325045761572,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 60,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 84,
+              "median_steps": null
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7777777777777778,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.0916212837676782,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6574074074074074,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.5771617116902372,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.5472978603872036,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7407407407407407,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.217297860387203,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7592592592592593,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.7527021396127966,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7037037037037037,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.5289647253950671,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 144,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 192,
+              "median_steps": null
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6635802469135802,
+          "false_change_when_adequate": 0.0,
+          "direction_precision": {
+            "-1": null,
+            "0": 0.3333333333333333,
+            "1": null
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 1.2983992659857444,
+          "oscillations": 0,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 180,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 0,
+              "missed": 180,
+              "median_steps": null
+            }
+          }
+        }
+      }
+    },
+    "taxa": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.3421639231824417,
+        "difficulty_error": 0.6578360768175583,
+        "inadequate_challenge": 0.6666666666666666,
+        "false_change_when_adequate": 0.05452674897119342,
+        "direction_precision": {
+          "-1": 0.7237113402061855,
+          "0": 0.3435514018691589,
+          "1": 0.7390396659707724
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 1.174932502370979,
+        "oscillations": 1859,
+        "repeat_rate": 0.5269709543568465,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 152,
+            "missed": 172,
+            "median_steps": 12.0
+          },
+          "down": {
+            "detected": 189,
+            "missed": 183,
+            "median_steps": 15.0
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.37037037037037035,
+          "difficulty_error": 0.6296296296296297,
+          "inadequate_challenge": 0.6296296296296297,
+          "false_change_when_adequate": 0.006944444444444444,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3629441624365482,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6902269050174853,
+          "oscillations": 218,
+          "repeat_rate": 0.5526315789473685,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.37191358024691357,
+          "difficulty_error": 0.6280864197530864,
+          "inadequate_challenge": 0.6280864197530864,
+          "false_change_when_adequate": 0.013888888888888888,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3628620102214651,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.9367656919273161,
+          "oscillations": 243,
+          "repeat_rate": 0.5901639344262295,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 47,
+              "missed": 1,
+              "median_steps": 21.0
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.3881172839506173,
+          "difficulty_error": 0.6118827160493827,
+          "inadequate_challenge": 0.29552469135802467,
+          "false_change_when_adequate": 0.041666666666666664,
+          "direction_precision": {
+            "-1": 0.8208955223880597,
+            "0": 0.3481917577796468,
+            "1": 0.85
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.7665775243937039,
+          "oscillations": 204,
+          "repeat_rate": 0.514018691588785,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 18,
+              "missed": 6,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 23,
+              "missed": 1,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.3101851851851852,
+          "difficulty_error": 0.6898148148148148,
+          "inadequate_challenge": 0.6149691358024691,
+          "false_change_when_adequate": 0.10416666666666667,
+          "direction_precision": {
+            "-1": 0.5862068965517241,
+            "0": 0.32603201347935973,
+            "1": 0.49019607843137253
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.2998148718079496,
+          "oscillations": 209,
+          "repeat_rate": 0.5871559633027523,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 17,
+              "missed": 43,
+              "median_steps": 3.0
+            },
+            "down": {
+              "detected": 25,
+              "missed": 59,
+              "median_steps": 6.0
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.3757716049382716,
+          "difficulty_error": 0.6242283950617284,
+          "inadequate_challenge": 0.7438271604938271,
+          "false_change_when_adequate": 0.004629629629629629,
+          "direction_precision": {
+            "-1": 0.96,
+            "0": 0.3653355989804588,
+            "1": 0.9893617021276596
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.7833442722713673,
+          "oscillations": 235,
+          "repeat_rate": 0.5798319327731093,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.32098765432098764,
+          "difficulty_error": 0.6790123456790124,
+          "inadequate_challenge": 0.6666666666666666,
+          "false_change_when_adequate": 0.08564814814814815,
+          "direction_precision": {
+            "-1": 0.21153846153846154,
+            "0": 0.330820770519263,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.0565193692629953,
+          "oscillations": 189,
+          "repeat_rate": 0.4803921568627451,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 26,
+              "missed": 22,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 11,
+              "missed": 37,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.32253086419753085,
+          "difficulty_error": 0.6774691358024691,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.06018518518518518,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.33777038269550747,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.045850300273996,
+          "oscillations": 186,
+          "repeat_rate": 0.3617021276595745,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 31,
+              "missed": 17,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.3117283950617284,
+          "difficulty_error": 0.6882716049382716,
+          "inadequate_challenge": 0.7476851851851852,
+          "false_change_when_adequate": 0.08796296296296297,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3302598491198659,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.7494864030332098,
+          "oscillations": 202,
+          "repeat_rate": 0.5242718446601942,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 28,
+              "missed": 20,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.30787037037037035,
+          "difficulty_error": 0.6921296296296297,
+          "inadequate_challenge": 0.7847222222222222,
+          "false_change_when_adequate": 0.08564814814814815,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3286189683860233,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.2458071833507864,
+          "oscillations": 173,
+          "repeat_rate": 0.5106382978723404,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 19,
+              "missed": 29,
+              "median_steps": 13.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.34002057613168724,
+          "difficulty_error": 0.6599794238683128,
+          "inadequate_challenge": 0.7006172839506173,
+          "false_change_when_adequate": 0.032407407407407406,
+          "direction_precision": {
+            "-1": 0.7657657657657657,
+            "0": 0.339469409853817,
+            "1": 0.7228915662650602
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.1690367052074802,
+          "oscillations": 369,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 60,
+              "missed": 84,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 85,
+              "missed": 107,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.34323559670781895,
+          "difficulty_error": 0.6567644032921811,
+          "inadequate_challenge": 0.6496913580246914,
+          "false_change_when_adequate": 0.06558641975308642,
+          "direction_precision": {
+            "-1": 0.7112299465240641,
+            "0": 0.3457036825578076,
+            "1": 0.7424242424242424
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 1.1764064516618535,
+          "oscillations": 1490,
+          "repeat_rate": 0.6597402597402597,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 92,
+              "missed": 88,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 104,
+              "missed": 76,
+              "median_steps": 12.0
+            }
+          }
+        }
+      }
+    },
+    "bkt": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.339420438957476,
+        "difficulty_error": 0.660579561042524,
+        "inadequate_challenge": 0.6682956104252401,
+        "false_change_when_adequate": 0.1087962962962963,
+        "direction_precision": {
+          "-1": 0.7061946902654868,
+          "0": 0.34023959151610367,
+          "1": 0.5956284153005464
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 1.0637767016814434,
+        "oscillations": 2938,
+        "repeat_rate": 0.5540540540540541,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 217,
+            "missed": 107,
+            "median_steps": 12.0
+          },
+          "down": {
+            "detected": 207,
+            "missed": 165,
+            "median_steps": 12.0
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.36728395061728397,
+          "difficulty_error": 0.6327160493827161,
+          "inadequate_challenge": 0.6327160493827161,
+          "false_change_when_adequate": 0.037037037037037035,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3586206896551724,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.18594531889300359,
+          "oscillations": 272,
+          "repeat_rate": 0.5882352941176471,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 19.5
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.32947530864197533,
+          "difficulty_error": 0.6705246913580247,
+          "inadequate_challenge": 0.6705246913580247,
+          "false_change_when_adequate": 0.13657407407407407,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3336314847942755,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.3374514366753092,
+          "oscillations": 354,
+          "repeat_rate": 0.5730337078651685,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 47,
+              "missed": 1,
+              "median_steps": 21.0
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.38580246913580246,
+          "difficulty_error": 0.6141975308641975,
+          "inadequate_challenge": 0.31558641975308643,
+          "false_change_when_adequate": 0.12037037037037036,
+          "direction_precision": {
+            "-1": 0.8,
+            "0": 0.33807829181494664,
+            "1": 0.6185567010309279
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.8970272175595255,
+          "oscillations": 341,
+          "repeat_rate": 0.5581395348837209,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.31790123456790126,
+          "difficulty_error": 0.6820987654320988,
+          "inadequate_challenge": 0.6103395061728395,
+          "false_change_when_adequate": 0.14583333333333334,
+          "direction_precision": {
+            "-1": 0.5970149253731343,
+            "0": 0.3294642857142857,
+            "1": 0.46788990825688076
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.3521529712247111,
+          "oscillations": 351,
+          "repeat_rate": 0.5511363636363636,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 28,
+              "missed": 32,
+              "median_steps": 3.0
+            },
+            "down": {
+              "detected": 27,
+              "missed": 57,
+              "median_steps": 5.0
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.36342592592592593,
+          "difficulty_error": 0.6365740740740741,
+          "inadequate_challenge": 0.7476851851851852,
+          "false_change_when_adequate": 0.04861111111111111,
+          "direction_precision": {
+            "-1": 0.7272727272727273,
+            "0": 0.35584415584415585,
+            "1": 0.8888888888888888
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.4759736255330318,
+          "oscillations": 282,
+          "repeat_rate": 0.5460992907801419,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.3533950617283951,
+          "difficulty_error": 0.6466049382716049,
+          "inadequate_challenge": 0.6396604938271605,
+          "false_change_when_adequate": 0.10416666666666667,
+          "direction_precision": {
+            "-1": 0.21052631578947367,
+            "0": 0.34278122232063774,
+            "1": 0.9727272727272728
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.4293979839406379,
+          "oscillations": 331,
+          "repeat_rate": 0.5508982035928144,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 47,
+              "missed": 1,
+              "median_steps": 6.0
+            },
+            "down": {
+              "detected": 12,
+              "missed": 36,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.30169753086419754,
+          "difficulty_error": 0.6983024691358025,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.33037300177619894,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.3375244771133903,
+          "oscillations": 337,
+          "repeat_rate": 0.5294117647058824,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 39,
+              "missed": 9,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.2993827160493827,
+          "difficulty_error": 0.7006172839506173,
+          "inadequate_challenge": 0.7530864197530864,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.33184656556645853,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.9999583467136017,
+          "oscillations": 344,
+          "repeat_rate": 0.5542857142857143,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 34,
+              "missed": 14,
+              "median_steps": 15.5
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.33641975308641975,
+          "difficulty_error": 0.6635802469135802,
+          "inadequate_challenge": 0.7561728395061729,
+          "false_change_when_adequate": 0.1087962962962963,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.34040671971706454,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.5585589374797794,
+          "oscillations": 326,
+          "repeat_rate": 0.5393939393939394,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 46,
+              "missed": 2,
+              "median_steps": 10.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.3351337448559671,
+          "difficulty_error": 0.664866255144033,
+          "inadequate_challenge": 0.7006172839506173,
+          "false_change_when_adequate": 0.07098765432098765,
+          "direction_precision": {
+            "-1": 0.7109375,
+            "0": 0.33603125872174155,
+            "1": 0.5875706214689266
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.178737348858414,
+          "oscillations": 607,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 93,
+              "missed": 51,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 91,
+              "missed": 101,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.34156378600823045,
+          "difficulty_error": 0.6584362139917695,
+          "inadequate_challenge": 0.6521347736625515,
+          "false_change_when_adequate": 0.12770061728395063,
+          "direction_precision": {
+            "-1": 0.7048054919908466,
+            "0": 0.3425238600212089,
+            "1": 0.5975609756097561
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 1.0350365398872006,
+          "oscillations": 2331,
+          "repeat_rate": 0.6978723404255319,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 124,
+              "missed": 56,
+              "median_steps": 10.0
+            },
+            "down": {
+              "detected": 116,
+              "missed": 64,
+              "median_steps": 12.0
+            }
+          }
+        }
+      }
+    },
+    "sgd": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.321159122085048,
+        "difficulty_error": 0.678840877914952,
+        "inadequate_challenge": 0.6832990397805213,
+        "false_change_when_adequate": 0.11702674897119342,
+        "direction_precision": {
+          "-1": 0.594306049822064,
+          "0": 0.329810740705159,
+          "1": 0.6277056277056277
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 1.147103892664001,
+        "oscillations": 2505,
+        "repeat_rate": 0.5760956175298805,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 178,
+            "missed": 146,
+            "median_steps": 12.0
+          },
+          "down": {
+            "detected": 167,
+            "missed": 205,
+            "median_steps": 12.0
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6666666666666666,
+          "false_change_when_adequate": 0.12268518518518519,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.33539823008849556,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.31560785412477915,
+          "oscillations": 330,
+          "repeat_rate": 0.5903614457831325,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.30478395061728397,
+          "difficulty_error": 0.6952160493827161,
+          "inadequate_challenge": 0.6952160493827161,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3226366001734605,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.416889675204071,
+          "oscillations": 286,
+          "repeat_rate": 0.5804195804195804,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 36,
+              "missed": 12,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.42052469135802467,
+          "difficulty_error": 0.5794753086419753,
+          "inadequate_challenge": 0.2924382716049383,
+          "false_change_when_adequate": 0.016203703703703703,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3635585970915312,
+            "1": 0.8955223880597015
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6868787833768382,
+          "oscillations": 254,
+          "repeat_rate": 0.5669291338582677,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.3117283950617284,
+          "difficulty_error": 0.6882716049382716,
+          "inadequate_challenge": 0.6141975308641975,
+          "false_change_when_adequate": 0.12037037037037036,
+          "direction_precision": {
+            "-1": 0.6,
+            "0": 0.32506415739948674,
+            "1": 0.5373134328358209
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.2940040794189742,
+          "oscillations": 254,
+          "repeat_rate": 0.5748031496062992,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 36,
+              "median_steps": 1.5
+            },
+            "down": {
+              "detected": 24,
+              "missed": 60,
+              "median_steps": 5.5
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7754629629629629,
+          "false_change_when_adequate": 0.12731481481481483,
+          "direction_precision": {
+            "-1": 0.328125,
+            "0": 0.33481349911190056,
+            "1": 0.8867924528301887
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.5858825856751335,
+          "oscillations": 339,
+          "repeat_rate": 0.5941176470588235,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 21,
+              "missed": 3,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.32098765432098764,
+          "difficulty_error": 0.6790123456790124,
+          "inadequate_challenge": 0.6697530864197531,
+          "false_change_when_adequate": 0.1111111111111111,
+          "direction_precision": {
+            "-1": 0.2,
+            "0": 0.3287671232876712,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6694136938034396,
+          "oscillations": 256,
+          "repeat_rate": 0.5703125,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 31,
+              "missed": 17,
+              "median_steps": 9.0
+            },
+            "down": {
+              "detected": 12,
+              "missed": 36,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.28780864197530864,
+          "difficulty_error": 0.7121913580246914,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.32041343669250644,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.40017796681349,
+          "oscillations": 268,
+          "repeat_rate": 0.5481481481481482,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 25,
+              "missed": 23,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.28780864197530864,
+          "difficulty_error": 0.7121913580246914,
+          "inadequate_challenge": 0.7445987654320988,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.32041343669250644,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.077290664200846,
+          "oscillations": 270,
+          "repeat_rate": 0.562962962962963,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 25,
+              "missed": 23,
+              "median_steps": 15.0
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.29012345679012347,
+          "difficulty_error": 0.7098765432098766,
+          "inadequate_challenge": 0.8024691358024691,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3174061433447099,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.8777897313584364,
+          "oscillations": 248,
+          "repeat_rate": 0.5887096774193549,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 27,
+              "missed": 21,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.32227366255144035,
+          "difficulty_error": 0.6777263374485597,
+          "inadequate_challenge": 0.7111625514403292,
+          "false_change_when_adequate": 0.0787037037037037,
+          "direction_precision": {
+            "-1": 0.6311475409836066,
+            "0": 0.3291069459757442,
+            "1": 0.5652173913043478
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.2769981184430164,
+          "oscillations": 520,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 78,
+              "missed": 66,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 77,
+              "missed": 115,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.32060185185185186,
+          "difficulty_error": 0.6793981481481481,
+          "inadequate_challenge": 0.6693672839506173,
+          "false_change_when_adequate": 0.13618827160493827,
+          "direction_precision": {
+            "-1": 0.5840909090909091,
+            "0": 0.3301872880106179,
+            "1": 0.6432432432432432
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 1.1146303362192471,
+          "oscillations": 1985,
+          "repeat_rate": 0.7266331658291457,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 100,
+              "missed": 80,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 90,
+              "missed": 90,
+              "median_steps": 9.0
+            }
+          }
+        }
+      }
+    },
+    "hibrido": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.3241598079561043,
+        "difficulty_error": 0.6758401920438958,
+        "inadequate_challenge": 0.6810699588477366,
+        "false_change_when_adequate": 0.1183127572016461,
+        "direction_precision": {
+          "-1": 0.6108374384236454,
+          "0": 0.33127174333204484,
+          "1": 0.620933521923621
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 1.1072722648078759,
+        "oscillations": 2620,
+        "repeat_rate": 0.5653495440729484,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 179,
+            "missed": 145,
+            "median_steps": 12.0
+          },
+          "down": {
+            "detected": 187,
+            "missed": 185,
+            "median_steps": 12.0
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.6666666666666666,
+          "false_change_when_adequate": 0.12268518518518519,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.33539823008849556,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.2913899939139767,
+          "oscillations": 328,
+          "repeat_rate": 0.5903614457831325,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.3248456790123457,
+          "difficulty_error": 0.6751543209876543,
+          "inadequate_challenge": 0.6751543209876543,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3300798580301686,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.3267589417438108,
+          "oscillations": 335,
+          "repeat_rate": 0.5857988165680473,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 46,
+              "missed": 2,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.41280864197530864,
+          "difficulty_error": 0.5871913580246914,
+          "inadequate_challenge": 0.29475308641975306,
+          "false_change_when_adequate": 0.03935185185185185,
+          "direction_precision": {
+            "-1": 0.8955223880597015,
+            "0": 0.35806729939603105,
+            "1": 0.8571428571428571
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6892849696553944,
+          "oscillations": 274,
+          "repeat_rate": 0.5547445255474452,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.31790123456790126,
+          "difficulty_error": 0.6820987654320988,
+          "inadequate_challenge": 0.6080246913580247,
+          "false_change_when_adequate": 0.1111111111111111,
+          "direction_precision": {
+            "-1": 0.6290322580645161,
+            "0": 0.32989690721649484,
+            "1": 0.5571428571428572
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.2779169513885682,
+          "oscillations": 263,
+          "repeat_rate": 0.5606060606060606,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 36,
+              "median_steps": 1.5
+            },
+            "down": {
+              "detected": 27,
+              "missed": 57,
+              "median_steps": 5.0
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.33796296296296297,
+          "difficulty_error": 0.6620370370370371,
+          "inadequate_challenge": 0.7731481481481481,
+          "false_change_when_adequate": 0.12037037037037036,
+          "direction_precision": {
+            "-1": 0.375,
+            "0": 0.33747779751332146,
+            "1": 0.8867924528301887
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.5603401093328086,
+          "oscillations": 339,
+          "repeat_rate": 0.5764705882352941,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.3194444444444444,
+          "difficulty_error": 0.6805555555555556,
+          "inadequate_challenge": 0.6712962962962963,
+          "false_change_when_adequate": 0.11574074074074074,
+          "direction_precision": {
+            "-1": 0.1935483870967742,
+            "0": 0.3276157804459691,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.6500098411800447,
+          "oscillations": 260,
+          "repeat_rate": 0.5615384615384615,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 31,
+              "missed": 17,
+              "median_steps": 6.0
+            },
+            "down": {
+              "detected": 12,
+              "missed": 36,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.2908950617283951,
+          "difficulty_error": 0.7091049382716049,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3217993079584775,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 2.327383203469018,
+          "oscillations": 278,
+          "repeat_rate": 0.5428571428571428,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 27,
+              "missed": 21,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.28935185185185186,
+          "difficulty_error": 0.7106481481481481,
+          "inadequate_challenge": 0.75,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3226366001734605,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.9989145245691595,
+          "oscillations": 285,
+          "repeat_rate": 0.5384615384615384,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 27,
+              "missed": 21,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.2908950617283951,
+          "difficulty_error": 0.7091049382716049,
+          "inadequate_challenge": 0.8016975308641975,
+          "false_change_when_adequate": 0.1388888888888889,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.31876606683804626,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.8434518480181007,
+          "oscillations": 258,
+          "repeat_rate": 0.5658914728682171,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 28,
+              "missed": 20,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.32613168724279834,
+          "difficulty_error": 0.6738683127572016,
+          "inadequate_challenge": 0.7080761316872428,
+          "false_change_when_adequate": 0.07561728395061729,
+          "direction_precision": {
+            "-1": 0.6564885496183206,
+            "0": 0.3313969571230982,
+            "1": 0.5774647887323944
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.2265358088113294,
+          "oscillations": 543,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 79,
+              "missed": 65,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 86,
+              "missed": 106,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.3231738683127572,
+          "difficulty_error": 0.6768261316872428,
+          "inadequate_challenge": 0.6675668724279835,
+          "false_change_when_adequate": 0.1396604938271605,
+          "direction_precision": {
+            "-1": 0.5983263598326359,
+            "0": 0.3312045150750037,
+            "1": 0.631858407079646
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 1.0774563788070124,
+          "oscillations": 2077,
+          "repeat_rate": 0.713326941514861,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 100,
+              "missed": 80,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 101,
+              "missed": 79,
+              "median_steps": 12.0
+            }
+          }
+        }
+      }
+    },
+    "elo": {
+      "overall": {
+        "n": 11664,
+        "accuracy": 0.3342764060356653,
+        "difficulty_error": 0.6657235939643347,
+        "inadequate_challenge": 0.6777263374485597,
+        "false_change_when_adequate": 0.08770576131687242,
+        "direction_precision": {
+          "-1": 0.6219354838709678,
+          "0": 0.3373597108617082,
+          "1": 0.7733333333333333
+        },
+        "coverage": 0.5555555555555556,
+        "latent_proxy_mae": 0.9493233412541466,
+        "oscillations": 2274,
+        "repeat_rate": 0.5434782608695652,
+        "autonomy_violations": 0,
+        "detection": {
+          "up": {
+            "detected": 126,
+            "missed": 198,
+            "median_steps": 12.0
+          },
+          "down": {
+            "detected": 246,
+            "missed": 126,
+            "median_steps": 12.0
+          }
+        }
+      },
+      "by_profile": {
+        "estavel_dificil": {
+          "n": 1296,
+          "accuracy": 0.30632716049382713,
+          "difficulty_error": 0.6936728395061729,
+          "inadequate_challenge": 0.6936728395061729,
+          "false_change_when_adequate": 0.1087962962962963,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3273809523809524,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.7709935131705105,
+          "oscillations": 237,
+          "repeat_rate": 0.5583333333333333,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 30,
+              "missed": 18,
+              "median_steps": 23.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            }
+          }
+        },
+        "estavel_facil": {
+          "n": 1296,
+          "accuracy": 0.375,
+          "difficulty_error": 0.625,
+          "inadequate_challenge": 0.625,
+          "false_change_when_adequate": 0.013888888888888888,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3641025641025641,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.5912541675051756,
+          "oscillations": 252,
+          "repeat_rate": 0.5952380952380952,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 0,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 19.5
+            }
+          }
+        },
+        "estavel_medio": {
+          "n": 1296,
+          "accuracy": 0.3773148148148148,
+          "difficulty_error": 0.6226851851851852,
+          "inadequate_challenge": 0.28703703703703703,
+          "false_change_when_adequate": 0.09259259259259259,
+          "direction_precision": {
+            "-1": 0.6,
+            "0": 0.3382226056945643,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.3072783566036544,
+          "oscillations": 270,
+          "repeat_rate": 0.5547445255474452,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 19,
+              "missed": 5,
+              "median_steps": 24.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 18.0
+            }
+          }
+        },
+        "irregular": {
+          "n": 1296,
+          "accuracy": 0.32098765432098764,
+          "difficulty_error": 0.6790123456790124,
+          "inadequate_challenge": 0.6041666666666666,
+          "false_change_when_adequate": 0.12731481481481483,
+          "direction_precision": {
+            "-1": 0.5913978494623656,
+            "0": 0.32612456747404844,
+            "1": 0.5106382978723404
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.028236844239091,
+          "oscillations": 275,
+          "repeat_rate": 0.5785714285714286,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 16,
+              "missed": 44,
+              "median_steps": 3.0
+            },
+            "down": {
+              "detected": 42,
+              "missed": 42,
+              "median_steps": 5.0
+            }
+          }
+        },
+        "por_habilidade": {
+          "n": 1296,
+          "accuracy": 0.33487654320987653,
+          "difficulty_error": 0.6651234567901234,
+          "inadequate_challenge": 0.7847222222222222,
+          "false_change_when_adequate": 0.07407407407407407,
+          "direction_precision": {
+            "-1": 0.43636363636363634,
+            "0": 0.3418803418803419,
+            "1": 0.9859154929577465
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 0.744931840414657,
+          "oscillations": 248,
+          "repeat_rate": 0.5317460317460317,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 22,
+              "missed": 2,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 24,
+              "missed": 0,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "progressivo": {
+          "n": 1296,
+          "accuracy": 0.30709876543209874,
+          "difficulty_error": 0.6929012345679012,
+          "inadequate_challenge": 0.6820987654320988,
+          "false_change_when_adequate": 0.11805555555555555,
+          "direction_precision": {
+            "-1": 0.16901408450704225,
+            "0": 0.3231552162849873,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.1249199988747347,
+          "oscillations": 234,
+          "repeat_rate": 0.5299145299145299,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 21,
+              "missed": 27,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 12,
+              "missed": 36,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda": {
+          "n": 1296,
+          "accuracy": 0.35108024691358025,
+          "difficulty_error": 0.6489197530864198,
+          "inadequate_challenge": 0.8888888888888888,
+          "false_change_when_adequate": 0.05324074074074074,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.350471293916024,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.4459257626338873,
+          "oscillations": 256,
+          "repeat_rate": 0.4883720930232558,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 12.0
+            }
+          }
+        },
+        "queda_gradual": {
+          "n": 1296,
+          "accuracy": 0.3433641975308642,
+          "difficulty_error": 0.6566358024691358,
+          "inadequate_challenge": 0.7337962962962963,
+          "false_change_when_adequate": 0.07407407407407407,
+          "direction_precision": {
+            "-1": 1.0,
+            "0": 0.3451251078515962,
+            "1": 0.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.1950029370238306,
+          "oscillations": 269,
+          "repeat_rate": 0.5401459854014599,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 0,
+              "missed": 24,
+              "median_steps": null
+            },
+            "down": {
+              "detected": 48,
+              "missed": 0,
+              "median_steps": 11.0
+            }
+          }
+        },
+        "rapido": {
+          "n": 1296,
+          "accuracy": 0.2924382716049383,
+          "difficulty_error": 0.7075617283950617,
+          "inadequate_challenge": 0.8001543209876543,
+          "false_change_when_adequate": 0.12731481481481483,
+          "direction_precision": {
+            "-1": 0.0,
+            "0": 0.3200339558573854,
+            "1": 1.0
+          },
+          "coverage": 0.5555555555555556,
+          "latent_proxy_mae": 1.335366650821778,
+          "oscillations": 233,
+          "repeat_rate": 0.5084745762711864,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 18,
+              "missed": 30,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 0,
+              "missed": 48,
+              "median_steps": null
+            }
+          }
+        }
+      },
+      "by_skill": {
+        "CN:outra": {
+          "n": 3888,
+          "accuracy": 0.3333333333333333,
+          "difficulty_error": 0.6666666666666666,
+          "inadequate_challenge": 0.7109053497942387,
+          "false_change_when_adequate": 0.05401234567901234,
+          "direction_precision": {
+            "-1": 0.6449704142011834,
+            "0": 0.33497267759562843,
+            "1": 0.711864406779661
+          },
+          "coverage": 0.3333333333333333,
+          "latent_proxy_mae": 1.0318283464633988,
+          "oscillations": 447,
+          "repeat_rate": 0.0,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 42,
+              "missed": 102,
+              "median_steps": 19.5
+            },
+            "down": {
+              "detected": 108,
+              "missed": 84,
+              "median_steps": 24.0
+            }
+          }
+        },
+        "MT:algebra": {
+          "n": 7776,
+          "accuracy": 0.33474794238683125,
+          "difficulty_error": 0.6652520576131687,
+          "inadequate_challenge": 0.6611368312757202,
+          "false_change_when_adequate": 0.10455246913580248,
+          "direction_precision": {
+            "-1": 0.6155115511551155,
+            "0": 0.33863437408812375,
+            "1": 0.7848101265822784
+          },
+          "coverage": 0.6666666666666666,
+          "latent_proxy_mae": 0.9286970899518334,
+          "oscillations": 1827,
+          "repeat_rate": 0.6778741865509761,
+          "autonomy_violations": 0,
+          "detection": {
+            "up": {
+              "detected": 84,
+              "missed": 96,
+              "median_steps": 12.0
+            },
+            "down": {
+              "detected": 138,
+              "missed": 42,
+              "median_steps": 9.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "best_simple": "taxa",
+  "hybrid_gain": -0.01800411522633745,
+  "paired_trajectory_ci95": [
+    -0.023576817558299042,
+    -0.012688614540466395
+  ],
+  "synthetic_trajectories": 324,
+  "real_data_reference": {
+    "sgd": {
+      "auc": 0.6184804673562241,
+      "accuracy": 0.725862420902225,
+      "f1": 0.8331055051572014,
+      "log_loss": 0.580836438789826,
+      "brier": 0.19615384383337917,
+      "ece": 0.042373144931320744,
+      "calibration": [
+        {
+          "n": 77,
+          "predicted": 0.3669541461683349,
+          "observed": 0.22077922077922077
+        },
+        {
+          "n": 244,
+          "predicted": 0.4587545008517866,
+          "observed": 0.4098360655737705
+        },
+        {
+          "n": 620,
+          "predicted": 0.5582452592231877,
+          "observed": 0.5806451612903226
+        },
+        {
+          "n": 1551,
+          "predicted": 0.6648301610940166,
+          "observed": 0.731785944551902
+        },
+        {
+          "n": 1928,
+          "predicted": 0.7546063107678124,
+          "observed": 0.774896265560166
+        },
+        {
+          "n": 479,
+          "predicted": 0.8153216644911918,
+          "observed": 0.7578288100208769
+        }
+      ]
+    },
+    "bkt_sgd": {
+      "auc": 0.6173646906567056,
+      "accuracy": 0.7234129414166156,
+      "f1": 0.8287627953999748,
+      "log_loss": 0.5794853647367145,
+      "brier": 0.19560114647551544,
+      "ece": 0.04001812402976144,
+      "calibration": [
+        {
+          "n": 4,
+          "predicted": 0.2975046054831943,
+          "observed": 0.25
+        },
+        {
+          "n": 139,
+          "predicted": 0.365014580004259,
+          "observed": 0.2589928057553957
+        },
+        {
+          "n": 312,
+          "predicted": 0.45665374844295714,
+          "observed": 0.49038461538461536
+        },
+        {
+          "n": 508,
+          "predicted": 0.5557224028102133,
+          "observed": 0.5964566929133859
+        },
+        {
+          "n": 1400,
+          "predicted": 0.6713731644527073,
+          "observed": 0.7335714285714285
+        },
+        {
+          "n": 2132,
+          "predicted": 0.7556617266647817,
+          "observed": 0.7729831144465291
+        },
+        {
+          "n": 404,
+          "predicted": 0.8091532826835949,
+          "observed": 0.745049504950495
+        }
+      ]
+    }
+  },
+  "real_bkt": {
+    "auc": 0.6005708906256615,
+    "accuracy": 0.7217799550928761,
+    "f1": 0.8259036914037553,
+    "log_loss": 0.5852256095738202,
+    "brier": 0.19798445256239225,
+    "ece": 0.04299107877252493,
+    "calibration": [
+      {
+        "n": 290,
+        "predicted": 0.35809537269547176,
+        "observed": 0.3482758620689655
+      },
+      {
+        "n": 249,
+        "predicted": 0.4382460159642096,
+        "observed": 0.5421686746987951
+      },
+      {
+        "n": 342,
+        "predicted": 0.5392480734683465,
+        "observed": 0.6081871345029239
+      },
+      {
+        "n": 1041,
+        "predicted": 0.6604776992005019,
+        "observed": 0.7463976945244957
+      },
+      {
+        "n": 2977,
+        "predicted": 0.7782563052717159,
+        "observed": 0.755122606650991
+      }
+    ]
+  },
+  "global_update_evidence": {
+    "before": [
+      1.22411474357286,
+      -0.09683264744453862,
+      2.0055312728191828,
+      -1.0426191215415994
+    ],
+    "after": [
+      1.5125332606555044,
+      -0.02639570514041794,
+      2.638939518873493,
+      -1.6177109736095177
+    ],
+    "l2": 0.9055844788432562,
+    "probability_mae": 0.03313709597150652,
+    "decisions_changed": 31,
+    "mean_probability_shift": 0.01904105744891475
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "matriz": [
+    {
+      "path": "fontes/matriz_2012.pdf",
+      "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf",
+      "sha256": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1",
+      "acquisition": "cópia oficial local preexistente; tentativas de novo acesso nesta execução falharam",
+      "mappings": 120
+    },
+    {
+      "path": "fontes/matriz_2026.pdf",
+      "url": "https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf",
+      "sha256": "b094458e69fddb6a258872041ff1b2397ef0ca52985eefbbac3d07dd82b0799a",
+      "acquisition": "cópia oficial local preexistente; tentativas de novo acesso nesta execução falharam",
+      "mappings": 120
+    }
+  ],
+  "itens": [
+    {
+      "year": 2009,
+      "path": "fontes/itens_inep/ITENS_PROVA_2009.csv",
+      "sha256": "7d9dde49c641782b12d8a1097a497df673d81f79e86bed1856c0f0f3568c42aa",
+      "rows": 1440,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2010,
+      "path": "fontes/itens_inep/ITENS_PROVA_2010.csv",
+      "sha256": "bf297cad3e15d28979c229827cc6233ab23d593ab17067bc97353441cdbbfa18",
+      "rows": 1480,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2011,
+      "path": "fontes/itens_inep/ITENS_PROVA_2011.csv",
+      "sha256": "17311f673302921c3fc0453c0019eb4c5c46c7adc8070888c1b1a443b3a590f6",
+      "rows": 925,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2012,
+      "path": "fontes/itens_inep/ITENS_PROVA_2012.csv",
+      "sha256": "8d171b0de7d5766b247d1b5e08bb2afa381c2af3690f8f55e258f2614248a677",
+      "rows": 1015,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2013,
+      "path": "fontes/itens_inep/ITENS_PROVA_2013.csv",
+      "sha256": "87f8353454cb47653c457f41814e5a569d6a7c5e3fda4d1dc8e0ea9d3cf67e58",
+      "rows": 1295,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2014,
+      "path": "fontes/itens_inep/ITENS_PROVA_2014.csv",
+      "sha256": "d584838cc6683c8990b371cf5d94586640609c1606ea62aa32d4b87b842c1f6e",
+      "rows": 1665,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2015,
+      "path": "fontes/itens_inep/ITENS_PROVA_2015.csv",
+      "sha256": "c3c3a9a98d33ffc513c767b373d1f82d2ebd5d6431147c1bb2ba76ba63fbe392",
+      "rows": 2775,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2016,
+      "path": "fontes/itens_inep/ITENS_PROVA_2016.csv",
+      "sha256": "9043f322d31c30c31637ee946f86f50759311c87405f532f9d34c20cc4163406",
+      "rows": 2590,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2017,
+      "path": "fontes/itens_inep/ITENS_PROVA_2017.csv",
+      "sha256": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f",
+      "rows": 1850,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2018,
+      "path": "fontes/itens_inep/ITENS_PROVA_2018.csv",
+      "sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+      "rows": 1850,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2019,
+      "path": "fontes/itens_inep/ITENS_PROVA_2019.csv",
+      "sha256": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
+      "rows": 1945,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2020,
+      "path": "fontes/itens_inep/ITENS_PROVA_2020.csv",
+      "sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
+      "rows": 4415,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2021,
+      "path": "fontes/itens_inep/ITENS_PROVA_2021.csv",
+      "sha256": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
+      "rows": 5365,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2022,
+      "path": "fontes/itens_inep/ITENS_PROVA_2022.csv",
+      "sha256": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
+      "rows": 5365,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2023,
+      "path": "fontes/itens_inep/ITENS_PROVA_2023.csv",
+      "sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+      "rows": 5550,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    },
+    {
+      "year": 2024,
+      "path": "fontes/itens_inep/ITENS_PROVA_2024.csv",
+      "sha256": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de",
+      "rows": 5550,
+      "acquisition": "cópia local de ITENS_PROVA, não readquirida nesta execução"
+    }
+  ],
+  "officialLandingPage": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem"
+}

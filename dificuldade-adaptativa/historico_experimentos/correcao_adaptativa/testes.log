@@ -1,0 +1,9 @@
+test_abstention_and_autonomy (test_rodada.Tests.test_abstention_and_autonomy) ... ok
+test_family_repetition_and_same_answer_different_item (test_rodada.Tests.test_family_repetition_and_same_answer_different_item) ... ok
+test_hard_error_is_weaker_evidence (test_rodada.Tests.test_hard_error_is_weaker_evidence) ... ok
+test_pre_answer_predictions_and_sequence (test_rodada.Tests.test_pre_answer_predictions_and_sequence) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

@@ -1,0 +1,361 @@
+{
+  "adicionadas": [
+    {
+      "id": "gq_914a44086aa0829a5ccc83ac",
+      "year": 2018,
+      "position": 56,
+      "area": "CH",
+      "co_item": "96813",
+      "answer": "C",
+      "skill": "6",
+      "tri": {
+        "a": 5.31599,
+        "b": 1.31276,
+        "c": 0.17992
+      },
+      "pdf": "2018_PV_impresso_D1_CD1.pdf",
+      "page": 22,
+      "verificacao": "só o mapa das Américas altera a área de cada país conforme o valor representado: é uma anamorfose (C)"
+    },
+    {
+      "id": "gq_7da2da104abc973c43fcc9e6",
+      "year": 2018,
+      "position": 91,
+      "area": "CN",
+      "co_item": "111456",
+      "answer": "B",
+      "skill": "2",
+      "tri": {
+        "a": 0.92339,
+        "b": 1.76478,
+        "c": 0.08431
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 2,
+      "verificacao": "a luz converte o azobenzeno entre as formas trans (estendida) e cis (compacta) (B)"
+    },
+    {
+      "id": "gq_8990ba51c7470ffeacb13426",
+      "year": 2018,
+      "position": 92,
+      "area": "CN",
+      "co_item": "87205",
+      "answer": "D",
+      "skill": "23",
+      "tri": {
+        "a": 2.18742,
+        "b": 1.54804,
+        "c": 0.13671
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 2,
+      "verificacao": "40 L × 0,7 = 28 kg × 10 = 280 Mcal; 280 ÷ 6 = 46,7 kg ÷ 0,8 ≈ 58 L (D)"
+    },
+    {
+      "id": "gq_861f612742832f3234cbdaab",
+      "year": 2018,
+      "position": 117,
+      "area": "CN",
+      "co_item": "82909",
+      "answer": "D",
+      "skill": "29",
+      "tri": {
+        "a": 2.33756,
+        "b": 1.05073,
+        "c": 0.2738
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 9,
+      "verificacao": "mais eucromatina, nucléolo grande, mais mitocôndrias e mais retículo rugoso → síntese mais alta (IV, D)"
+    },
+    {
+      "id": "gq_af3be6736f91210ef50b9438",
+      "year": 2018,
+      "position": 127,
+      "area": "CN",
+      "co_item": "97446",
+      "answer": "E",
+      "skill": "13",
+      "tri": {
+        "a": 1.869,
+        "b": 0.91258,
+        "c": 0.12516
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 13,
+      "verificacao": "S1 tem o alelo 2 no loco A e só o alelo 3 no loco B; a matriz dá o 1 e o 3, então o pólen trouxe A2 e B3: só a DP5 tem os dois (E)"
+    },
+    {
+      "id": "gq_578e44a2ef26769cc3b28e5b",
+      "year": 2018,
+      "position": 128,
+      "area": "CN",
+      "co_item": "111564",
+      "answer": "B",
+      "skill": "3",
+      "tri": {
+        "a": 1.5965,
+        "b": 1.16868,
+        "c": 0.11844
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 13,
+      "verificacao": "no carro A o ar que bate na vela curva volta para trás e empurra o carro um pouco para a direita; o carro B é empurrado direto pela reação da ventoinha e anda mais (B)"
+    },
+    {
+      "id": "gq_95c95a935e06bdf455e90369",
+      "year": 2018,
+      "position": 165,
+      "area": "MT",
+      "co_item": "83742",
+      "answer": "C",
+      "skill": "2",
+      "tri": {
+        "a": 1.78838,
+        "b": 2.97454,
+        "c": 0.24777
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 26,
+      "verificacao": "escolher 2 compactos e 2 caminhonetes e depois decidir qual de cada vai para cada estande (2 × 2) (C)"
+    },
+    {
+      "id": "gq_2952bf24b1b206ebd78157a2",
+      "year": 2018,
+      "position": 173,
+      "area": "MT",
+      "co_item": "111628",
+      "answer": "A",
+      "skill": "15",
+      "tri": {
+        "a": 1.23644,
+        "b": 3.86545,
+        "c": 0.18943
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 29,
+      "verificacao": "as extremidades ficam sobre dois eixos perpendiculares que se cruzam em O; o ponto médio fica sempre a meia viga de O (A)"
+    },
+    {
+      "id": "gq_32dedbb000e20097142bc58c",
+      "year": 2018,
+      "position": 175,
+      "area": "MT",
+      "co_item": "18456",
+      "answer": "B",
+      "skill": "21",
+      "tri": {
+        "a": 2.60715,
+        "b": 3.02371,
+        "c": 0.30706
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 30,
+      "verificacao": "N = 24: valor 27 840; 27 840/24 = 1 160, /29 = 960 (−200), /20 = 1 392 (+232) (B)"
+    },
+    {
+      "id": "gq_0c108010dbb5cb736580300c",
+      "year": 2018,
+      "position": 178,
+      "area": "MT",
+      "co_item": "5990",
+      "answer": "D",
+      "skill": "21",
+      "tri": {
+        "a": 1.929,
+        "b": 3.008,
+        "c": 0.185
+      },
+      "pdf": "2018_PV_impresso_D2_CD7.pdf",
+      "page": 31,
+      "verificacao": "x com 3 bilhetes e y com 1: 3x + 90 + y = 80 + x + 45 + y + 33 → x = 34; y = 0,2(102 + 90 + y) → y = 48 (D)"
+    },
+    {
+      "id": "gq_3e6d9dd553fdb6652af9e59e",
+      "year": 2021,
+      "position": 36,
+      "area": "LC",
+      "co_item": "120560",
+      "answer": "B",
+      "skill": "13",
+      "tri": {
+        "a": 1.99754,
+        "b": 2.27789,
+        "c": 0.292
+      },
+      "pdf": "2021_PV_impresso_D1_CD1.pdf",
+      "page": 18,
+      "verificacao": "galões descartados viram máscaras: o objeto ganha outra função e outro valor estético (B)"
+    },
+    {
+      "id": "gq_7907be0dfd7be49cd74cf08f",
+      "year": 2021,
+      "position": 88,
+      "area": "CH",
+      "co_item": "96369",
+      "answer": "E",
+      "skill": "11",
+      "tri": {
+        "a": 2.56529,
+        "b": 1.19286,
+        "c": 0.16157
+      },
+      "pdf": "2021_PV_impresso_D1_CD1.pdf",
+      "page": 30,
+      "verificacao": "castigar a carne e sujeitá-la ao espírito → desvalorização do corpo (E)"
+    },
+    {
+      "id": "gq_bec8c844e548afe0679db66e",
+      "year": 2021,
+      "position": 105,
+      "area": "CN",
+      "co_item": "59907",
+      "answer": "A",
+      "skill": "20",
+      "tri": {
+        "a": 2.3659,
+        "b": 2.02542,
+        "c": 0.14126
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 6,
+      "verificacao": "F = qv × B com v para dentro do papel e B para a direita: na carga + a força aponta para baixo da figura, na − para cima (A)"
+    },
+    {
+      "id": "gq_b24fe8ab0a219b0959c3f0cf",
+      "year": 2021,
+      "position": 107,
+      "area": "CN",
+      "co_item": "60284",
+      "answer": "C",
+      "skill": "6",
+      "tri": {
+        "a": 1.89764,
+        "b": 1.77374,
+        "c": 0.22707
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 7,
+      "verificacao": "mesma variação de energia cinética em menos tempo (12,9 s) → maior potência no motor a álcool (C)"
+    },
+    {
+      "id": "gq_432594550fb101ecf2b84758",
+      "year": 2021,
+      "position": 125,
+      "area": "CN",
+      "co_item": "81640",
+      "answer": "B",
+      "skill": "21",
+      "tri": {
+        "a": 1.7041,
+        "b": 1.93672,
+        "c": 0.18178
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 13,
+      "verificacao": "ar úmido dificulta a evaporação do suor, que é o que resfria o corpo (B)"
+    },
+    {
+      "id": "gq_94294eb1a664a46bbd9feea5",
+      "year": 2021,
+      "position": 161,
+      "area": "MT",
+      "co_item": "111716",
+      "answer": "E",
+      "skill": "15",
+      "tri": {
+        "a": 2.68165,
+        "b": 2.10496,
+        "c": 0.14922
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 26,
+      "verificacao": "A(d)=(20-d)(200+40d), parábola com máximo em d=7,5; como só descontos inteiros, pontos discretos (E)"
+    },
+    {
+      "id": "gq_dfde1d00de3886cb28d50ec6",
+      "year": 2021,
+      "position": 162,
+      "area": "MT",
+      "co_item": "88518",
+      "answer": "A",
+      "skill": "15",
+      "tri": {
+        "a": 2.25826,
+        "b": 1.27898,
+        "c": 0.13427
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 27,
+      "verificacao": "I(10000)=500, I(15000)=500+0,3·5000=2000; contínuo por partes, inclinação maior no 3º trecho (A)"
+    },
+    {
+      "id": "gq_dffabde3d47261adc677f982",
+      "year": 2021,
+      "position": 165,
+      "area": "MT",
+      "co_item": "117832",
+      "answer": "D",
+      "skill": "12",
+      "tri": {
+        "a": 2.72456,
+        "b": 2.09992,
+        "c": 0.08091
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 28,
+      "verificacao": "20 km gastavam 1,25 L; agora 1,15 L; 20/1,15≈17,4 (D)"
+    },
+    {
+      "id": "gq_00e710074e833f4dbeacfbd9",
+      "year": 2021,
+      "position": 177,
+      "area": "MT",
+      "co_item": "37576",
+      "answer": "D",
+      "skill": "1",
+      "tri": {
+        "a": 2.48037,
+        "b": 1.4025,
+        "c": 0.20245
+      },
+      "pdf": "2021_PV_impresso_D2_CD7.pdf",
+      "page": 31,
+      "verificacao": "21 = 10101 (D)"
+    }
+  ],
+  "pendentes_visuais": [
+    {
+      "year": 2018,
+      "position": 95,
+      "motivo": "alternativas são desenhos de densímetros"
+    },
+    {
+      "year": 2018,
+      "position": 159,
+      "motivo": "figuras 3D de cubos"
+    },
+    {
+      "year": 2021,
+      "position": 102,
+      "motivo": "alternativas são diagramas de circuito"
+    },
+    {
+      "year": 2021,
+      "position": 126,
+      "motivo": "alternativas são diagramas de circuito com interruptores"
+    },
+    {
+      "year": 2021,
+      "position": 137,
+      "motivo": "alternativas são projeções ortogonais desenhadas"
+    }
+  ],
+  "anuladas_INEP": [
+    "2018 q163",
+    "2021 q24",
+    "2021 q43",
+    "2021 q118",
+    "2021 q138"
+  ]
+}

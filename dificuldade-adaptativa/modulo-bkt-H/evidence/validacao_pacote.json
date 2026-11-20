@@ -1,0 +1,13 @@
+{
+  "additional_findings": 3,
+  "architecture_files_unchanged": true,
+  "original_zips_unchanged": true,
+  "priority_findings": 6,
+  "private_data_distributed": false,
+  "real_tests": 44,
+  "required_artifacts": 20,
+  "source_only_replay": "aprovado",
+  "vendor_files_verified": 31,
+  "with_no_data_blocked": 13,
+  "zip_extraction_and_tests": "aprovado"
+}

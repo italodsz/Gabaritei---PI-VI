@@ -1,0 +1,155 @@
+{
+  "archives": [
+    {
+      "phase": 1,
+      "name": "Gabaritei_BKT_Fase01_Preparacao_Auditada.zip",
+      "sha256": "720cbfab4af6a3a7947c559ad8ea0c930528b4f1c7d10ba413c35f4f2851cca4",
+      "bytes": 85262,
+      "verified_member_hashes": 54,
+      "members": 55
+    },
+    {
+      "phase": 2,
+      "name": "Gabaritei_BKT_Fase02_Treinamento_Auditado.zip",
+      "sha256": "549db12ed3acad537bd9056a03099d0c663cf2720744413d01f534eee07814da",
+      "bytes": 4635760,
+      "verified_member_hashes": 249,
+      "members": 250
+    },
+    {
+      "phase": 3,
+      "name": "Gabaritei_BKT_Fase03_Avaliacao_Auditada.zip",
+      "sha256": "179973d91d4a6964fad86c6ff5cc29cabf0fe11fc976df45d9a4c796c499c67b",
+      "bytes": 10951364,
+      "verified_member_hashes": 358,
+      "members": 359
+    }
+  ],
+  "documents_read": [
+    {
+      "phase": 1,
+      "file": "README.md",
+      "sha256": "9fc98283d382f2b05eae20fbf5898a81822c336635223eaf871786e9326a69e7",
+      "characters": 4303
+    },
+    {
+      "phase": 1,
+      "file": "reports/qualidade_dados.md",
+      "sha256": "f915b61a7dc26d9f1829a887a2688b3101fc33602b0723e97652572c3e9e7969",
+      "characters": 5364
+    },
+    {
+      "phase": 1,
+      "file": "reports/analise_habilidades.md",
+      "sha256": "eee8c16a6eaba06d67aa09a89bec6c542e57b945308908e7c4e0a2e5d74040f9",
+      "characters": 2656
+    },
+    {
+      "phase": 1,
+      "file": "handoff/CONTRATO_FASE02.md",
+      "sha256": "e8cc2a0b26ea1c02d396dd9dad3d77f95458d3fe6ebb95068a00ef9376452a00",
+      "characters": 4715
+    },
+    {
+      "phase": 2,
+      "file": "README.md",
+      "sha256": "92a6fdaa4ad6692f7b94e3e4dcb5f2a044550dba76ed61a7aae1b757bc32b47b",
+      "characters": 5842
+    },
+    {
+      "phase": 2,
+      "file": "reports/relatorio_treinamento.md",
+      "sha256": "4555d77d929f49fce37a7b6ee1dea7ef0fd68a967ff66d5b1917be6731b7b2f4",
+      "characters": 8955
+    },
+    {
+      "phase": 2,
+      "file": "reports/validacao_preliminar.md",
+      "sha256": "e1edd944aad7f27668352a0d72d2c58fb14bda39b58b656b425b018ceaf33d15",
+      "characters": 2090
+    },
+    {
+      "phase": 2,
+      "file": "reports/estabilidade_identificabilidade.md",
+      "sha256": "3997e3a03b5e58f6ce1702d6a9d83ca6536b9057b60ff31d235ef67f28ee582a",
+      "characters": 2332
+    },
+    {
+      "phase": 3,
+      "file": "README.md",
+      "sha256": "b7642a37ddddf1f2fbb8bd2bc2f8b0b8375c1ace93252cd4daf913af9aa1583c",
+      "characters": 6630
+    },
+    {
+      "phase": 3,
+      "file": "reports/relatorio_cientifico.md",
+      "sha256": "86b01a69bcc510cac8cc777e214669c1452fa2c11947c5e0b0433f8a57ca08dc",
+      "characters": 17108
+    },
+    {
+      "phase": 3,
+      "file": "external_review/PROTOCOLO_CLAUDE_CODE.md",
+      "sha256": "111ed7dec9adafff65f1f9fb63e7fe5461e5a42367a6efc8349d6c9cd21657c5",
+      "characters": 1834
+    },
+    {
+      "phase": 3,
+      "file": "handoff/CONTRATO_FASE04.md",
+      "sha256": "75a0d972db08007e93ae55b7993228912c11828fb3d55eb906730a4702c23637",
+      "characters": 4598
+    }
+  ],
+  "audit_pdf": {
+    "name": "Auditoria_BKT_Fases_01_a_03_Gabaritei.pdf",
+    "sha256": "f7ab6c3e02cec4e3524d883f50e3c49874990032c70d4217dc217eacba81e510",
+    "pages": 8
+  },
+  "source": {
+    "name": "assistments.csv",
+    "bytes": 64412812,
+    "sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da"
+  },
+  "private_files": {
+    "estudantes.jsonl": "f03e941fb4b35f36516b7b0a9ee68dc6f400a6dacab597d03cbe20850a10648f",
+    "eventos_teste.jsonl": "fa45857027830c40dc67aa6a57531577a4ee73c3de57defe6a6461257a02af02",
+    "eventos_treino.jsonl": "5b0295718c8c71ba197ab068caef12c3491c1e3787d377af328c79afa397d759",
+    "eventos_validacao.jsonl": "ed70c1452d83bea0c0eb5d2c24e494ef79891d3a2644527ce75d6bbaaa65538f",
+    "exclusoes.csv": "a40bf78e8eae0016872f31e9b4b3c3978ea75ff468f50fadb380645188088bcb",
+    "sequencias_teste.jsonl": "6a8729b41bd2bd89900597b54a53cb805515d270e17dc73d7823d29fcce35436",
+    "sequencias_treino.jsonl": "29202ca61d647e2dd22a1486dd0e66fb2d7cbdaa3e5de8ba7ef7f23cb90d2596",
+    "sequencias_validacao.jsonl": "f631eeeaf7cb88e0d06f72af6c3c2a6c69ed0a153237837f1dbd1bc8736af62a"
+  },
+  "original_key_available": true,
+  "architecture": [
+    {
+      "file": "base-oficial/frontend/package.json",
+      "sha256": "67ba31ba77515f955edac84f1665531372406a1e1403a3e4539e64754f2ee82a",
+      "bytes": 1898
+    },
+    {
+      "file": "base-oficial/frontend/src/lib/api/client.ts",
+      "sha256": "eb4e9fe2dd918279ba5b0d0dd175f65e222b8111416d74dad7146f8e4ecfbd9c",
+      "bytes": 3369
+    },
+    {
+      "file": "base-oficial/frontend/src/lib/api/types.ts",
+      "sha256": "5cbceddb001a4418441d38278955803321e03028472a2defc154a79b866b82de",
+      "bytes": 8264
+    },
+    {
+      "file": "base-oficial/frontend/src/lib/api/http/client.ts",
+      "sha256": "e08c1579d47a3fc84b2babadfe483312c6ae6930fc0d17af6387ee1ffe4f62b8",
+      "bytes": 1867
+    },
+    {
+      "file": "base-oficial/frontend/src/lib/api/mock/engine.ts",
+      "sha256": "1b5c119aba2235d5b44a0ab7e3bab83b50133be8e17e541d1482535ca52bb721",
+      "bytes": 14225
+    }
+  ],
+  "environment": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "backend_observed": "Next.js/React; Api com mock local; httpApi lança indisponível"
+}

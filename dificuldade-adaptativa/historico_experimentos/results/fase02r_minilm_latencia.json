@@ -1,0 +1,12 @@
+{
+  "encoder": "minilm",
+  "text": "Uma caixa contém 24 lápis. Quantos lápis representam um quarto do total?",
+  "seconds": [
+    0.014611799997510388,
+    0.01908929999990505,
+    0.013155100001313258,
+    0.02165959999911138,
+    0.02266330000202288
+  ],
+  "median_seconds": 0.01908929999990505
+}

@@ -1,0 +1,425 @@
+{
+  "sha256": "22d83ac5d269976b647d34cb8aa66ccbebec6c21b0773487926eb294ee69fbd5",
+  "catalogo": 2971,
+  "sem_assunto": 560,
+  "sem_habilidade": 192,
+  "amostra": 300,
+  "confirmadas_oficialmente": 0,
+  "pendentes": 300,
+  "distribuicoes": {
+    "assunto_status": {
+      "inconclusivo": 199,
+      "ausente": 101
+    },
+    "subassunto_status": {
+      "inconclusivo": 199,
+      "ausente": 101
+    },
+    "habilidade_status": {
+      "inconclusivo": 282,
+      "ausente": 18
+    },
+    "triagem": {
+      "sem_sinal_controlado": 279,
+      "sinal_concorrente": 7,
+      "sinal_compativel": 14
+    },
+    "area": {
+      "CH": 75,
+      "CN": 75,
+      "LC": 75,
+      "MT": 75
+    },
+    "ano": {
+      "2023": 20,
+      "2018": 19,
+      "2024": 20,
+      "2010": 16,
+      "2016": 22,
+      "2017": 15,
+      "2020": 17,
+      "2014": 16,
+      "2021": 21,
+      "2009": 17,
+      "2022": 16,
+      "2012": 18,
+      "2011": 19,
+      "2019": 22,
+      "2013": 20,
+      "2015": 22
+    },
+    "dificuldade": {
+      "2": 102,
+      "0": 102,
+      "1": 96
+    },
+    "estrato_score": {
+      "alta": 95,
+      "ausente": 101,
+      "baixa": 104
+    },
+    "tem_recursos": {
+      "false": 202,
+      "true": 98
+    },
+    "multiplos_sinais": {
+      "false": 300
+    },
+    "sem_enunciado": {
+      "false": 299,
+      "true": 1
+    }
+  },
+  "por_area": {
+    "CH": {
+      "assunto_status": {
+        "inconclusivo": 49,
+        "ausente": 26
+      },
+      "subassunto_status": {
+        "inconclusivo": 49,
+        "ausente": 26
+      },
+      "habilidade_status": {
+        "inconclusivo": 70,
+        "ausente": 5
+      },
+      "triagem": {
+        "sem_sinal_controlado": 73,
+        "sinal_concorrente": 2
+      }
+    },
+    "CN": {
+      "assunto_status": {
+        "inconclusivo": 50,
+        "ausente": 25
+      },
+      "subassunto_status": {
+        "inconclusivo": 50,
+        "ausente": 25
+      },
+      "habilidade_status": {
+        "inconclusivo": 67,
+        "ausente": 8
+      },
+      "triagem": {
+        "sem_sinal_controlado": 67,
+        "sinal_concorrente": 2,
+        "sinal_compativel": 6
+      }
+    },
+    "LC": {
+      "assunto_status": {
+        "inconclusivo": 51,
+        "ausente": 24
+      },
+      "subassunto_status": {
+        "inconclusivo": 51,
+        "ausente": 24
+      },
+      "habilidade_status": {
+        "inconclusivo": 74,
+        "ausente": 1
+      },
+      "triagem": {
+        "sem_sinal_controlado": 74,
+        "sinal_concorrente": 1
+      }
+    },
+    "MT": {
+      "assunto_status": {
+        "inconclusivo": 49,
+        "ausente": 26
+      },
+      "subassunto_status": {
+        "inconclusivo": 49,
+        "ausente": 26
+      },
+      "habilidade_status": {
+        "inconclusivo": 71,
+        "ausente": 4
+      },
+      "triagem": {
+        "sem_sinal_controlado": 65,
+        "sinal_compativel": 8,
+        "sinal_concorrente": 2
+      }
+    }
+  },
+  "por_ano": {
+    "2009": {
+      "assunto_status": {
+        "ausente": 6,
+        "inconclusivo": 11
+      },
+      "subassunto_status": {
+        "ausente": 6,
+        "inconclusivo": 11
+      },
+      "habilidade_status": {
+        "ausente": 9,
+        "inconclusivo": 8
+      },
+      "triagem": {
+        "sem_sinal_controlado": 15,
+        "sinal_compativel": 1,
+        "sinal_concorrente": 1
+      }
+    },
+    "2010": {
+      "assunto_status": {
+        "inconclusivo": 13,
+        "ausente": 3
+      },
+      "subassunto_status": {
+        "inconclusivo": 13,
+        "ausente": 3
+      },
+      "habilidade_status": {
+        "inconclusivo": 16
+      },
+      "triagem": {
+        "sem_sinal_controlado": 13,
+        "sinal_compativel": 3
+      }
+    },
+    "2011": {
+      "assunto_status": {
+        "inconclusivo": 13,
+        "ausente": 6
+      },
+      "subassunto_status": {
+        "inconclusivo": 13,
+        "ausente": 6
+      },
+      "habilidade_status": {
+        "inconclusivo": 19
+      },
+      "triagem": {
+        "sem_sinal_controlado": 17,
+        "sinal_compativel": 2
+      }
+    },
+    "2012": {
+      "assunto_status": {
+        "inconclusivo": 13,
+        "ausente": 5
+      },
+      "subassunto_status": {
+        "inconclusivo": 13,
+        "ausente": 5
+      },
+      "habilidade_status": {
+        "inconclusivo": 18
+      },
+      "triagem": {
+        "sem_sinal_controlado": 17,
+        "sinal_concorrente": 1
+      }
+    },
+    "2013": {
+      "assunto_status": {
+        "ausente": 7,
+        "inconclusivo": 13
+      },
+      "subassunto_status": {
+        "ausente": 7,
+        "inconclusivo": 13
+      },
+      "habilidade_status": {
+        "inconclusivo": 20
+      },
+      "triagem": {
+        "sem_sinal_controlado": 18,
+        "sinal_concorrente": 1,
+        "sinal_compativel": 1
+      }
+    },
+    "2014": {
+      "assunto_status": {
+        "inconclusivo": 11,
+        "ausente": 5
+      },
+      "subassunto_status": {
+        "inconclusivo": 11,
+        "ausente": 5
+      },
+      "habilidade_status": {
+        "inconclusivo": 16
+      },
+      "triagem": {
+        "sem_sinal_controlado": 15,
+        "sinal_concorrente": 1
+      }
+    },
+    "2015": {
+      "assunto_status": {
+        "inconclusivo": 16,
+        "ausente": 6
+      },
+      "subassunto_status": {
+        "inconclusivo": 16,
+        "ausente": 6
+      },
+      "habilidade_status": {
+        "ausente": 9,
+        "inconclusivo": 13
+      },
+      "triagem": {
+        "sem_sinal_controlado": 21,
+        "sinal_concorrente": 1
+      }
+    },
+    "2016": {
+      "assunto_status": {
+        "ausente": 10,
+        "inconclusivo": 12
+      },
+      "subassunto_status": {
+        "ausente": 10,
+        "inconclusivo": 12
+      },
+      "habilidade_status": {
+        "inconclusivo": 22
+      },
+      "triagem": {
+        "sem_sinal_controlado": 22
+      }
+    },
+    "2017": {
+      "assunto_status": {
+        "inconclusivo": 12,
+        "ausente": 3
+      },
+      "subassunto_status": {
+        "inconclusivo": 12,
+        "ausente": 3
+      },
+      "habilidade_status": {
+        "inconclusivo": 15
+      },
+      "triagem": {
+        "sem_sinal_controlado": 13,
+        "sinal_compativel": 1,
+        "sinal_concorrente": 1
+      }
+    },
+    "2018": {
+      "assunto_status": {
+        "ausente": 8,
+        "inconclusivo": 11
+      },
+      "subassunto_status": {
+        "ausente": 8,
+        "inconclusivo": 11
+      },
+      "habilidade_status": {
+        "inconclusivo": 19
+      },
+      "triagem": {
+        "sem_sinal_controlado": 18,
+        "sinal_compativel": 1
+      }
+    },
+    "2019": {
+      "assunto_status": {
+        "inconclusivo": 13,
+        "ausente": 9
+      },
+      "subassunto_status": {
+        "inconclusivo": 13,
+        "ausente": 9
+      },
+      "habilidade_status": {
+        "inconclusivo": 22
+      },
+      "triagem": {
+        "sem_sinal_controlado": 22
+      }
+    },
+    "2020": {
+      "assunto_status": {
+        "inconclusivo": 11,
+        "ausente": 6
+      },
+      "subassunto_status": {
+        "inconclusivo": 11,
+        "ausente": 6
+      },
+      "habilidade_status": {
+        "inconclusivo": 17
+      },
+      "triagem": {
+        "sem_sinal_controlado": 15,
+        "sinal_compativel": 2
+      }
+    },
+    "2021": {
+      "assunto_status": {
+        "inconclusivo": 11,
+        "ausente": 10
+      },
+      "subassunto_status": {
+        "inconclusivo": 11,
+        "ausente": 10
+      },
+      "habilidade_status": {
+        "inconclusivo": 21
+      },
+      "triagem": {
+        "sem_sinal_controlado": 21
+      }
+    },
+    "2022": {
+      "assunto_status": {
+        "inconclusivo": 12,
+        "ausente": 4
+      },
+      "subassunto_status": {
+        "inconclusivo": 12,
+        "ausente": 4
+      },
+      "habilidade_status": {
+        "inconclusivo": 16
+      },
+      "triagem": {
+        "sem_sinal_controlado": 15,
+        "sinal_concorrente": 1
+      }
+    },
+    "2023": {
+      "assunto_status": {
+        "inconclusivo": 13,
+        "ausente": 7
+      },
+      "subassunto_status": {
+        "inconclusivo": 13,
+        "ausente": 7
+      },
+      "habilidade_status": {
+        "inconclusivo": 20
+      },
+      "triagem": {
+        "sem_sinal_controlado": 18,
+        "sinal_compativel": 2
+      }
+    },
+    "2024": {
+      "assunto_status": {
+        "ausente": 6,
+        "inconclusivo": 14
+      },
+      "subassunto_status": {
+        "ausente": 6,
+        "inconclusivo": 14
+      },
+      "habilidade_status": {
+        "inconclusivo": 20
+      },
+      "triagem": {
+        "sem_sinal_controlado": 19,
+        "sinal_compativel": 1
+      }
+    }
+  }
+}

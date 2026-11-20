@@ -1,0 +1,342 @@
+﻿categoria;area;dimensao;rotulo;estado;n
+A;CH;assunto;Economia;confianca_tecnica_C5;1
+A;CH;habilidade;H16;confianca_tecnica_C5;1
+A;CH;subassunto;Produção e relações econômicas;confianca_tecnica_C5;1
+B;CH;assunto;(ausente);ausente;7
+B;CH;assunto;Economia;sem_confirmacao_integral_C5;6
+B;CH;assunto;Filosofia;sem_confirmacao_integral_C5;5
+B;CH;assunto;Geografia;sem_confirmacao_integral_C5;7
+B;CH;assunto;História;sem_confirmacao_integral_C5;5
+B;CH;assunto;Sociologia;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H1;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H11;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H12;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H13;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H14;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H15;sem_confirmacao_integral_C5;3
+B;CH;habilidade;H17;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H19;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H2;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H20;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H21;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H22;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H24;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H27;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H28;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H29;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H3;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H30;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H4;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H7;sem_confirmacao_integral_C5;1
+B;CH;habilidade;H8;sem_confirmacao_integral_C5;2
+B;CH;habilidade;H9;sem_confirmacao_integral_C5;1
+B;CH;subassunto;(ausente);ausente;7
+B;CH;subassunto;Ambiente e recursos naturais;sem_confirmacao_integral_C5;3
+B;CH;subassunto;Brasil e formação histórica;sem_confirmacao_integral_C5;5
+B;CH;subassunto;Espaço, território e população;sem_confirmacao_integral_C5;4
+B;CH;subassunto;Produção e relações econômicas;sem_confirmacao_integral_C5;6
+B;CH;subassunto;Sociedade, cultura e trabalho;sem_confirmacao_integral_C5;1
+B;CH;subassunto;Ética, política e conhecimento;sem_confirmacao_integral_C5;5
+B;CN;assunto;(ausente);ausente;2
+B;CN;assunto;Biologia;sem_confirmacao_integral_C5;2
+B;CN;assunto;Física;sem_confirmacao_integral_C5;3
+B;CN;assunto;Química;sem_confirmacao_integral_C5;2
+B;CN;habilidade;H14;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H18;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H2;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H21;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H23;sem_confirmacao_integral_C5;2
+B;CN;habilidade;H27;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H30;sem_confirmacao_integral_C5;1
+B;CN;habilidade;H6;sem_confirmacao_integral_C5;1
+B;CN;subassunto;(ausente);ausente;2
+B;CN;subassunto;Ecologia;sem_confirmacao_integral_C5;1
+B;CN;subassunto;Fisiologia e saúde;sem_confirmacao_integral_C5;1
+B;CN;subassunto;Mecânica;sem_confirmacao_integral_C5;1
+B;CN;subassunto;Química orgânica;sem_confirmacao_integral_C5;1
+B;CN;subassunto;Termologia;sem_confirmacao_integral_C5;2
+B;CN;subassunto;Transformações e propriedades da matéria;sem_confirmacao_integral_C5;1
+C;CH;assunto;Economia;confianca_tecnica_C5;1
+C;CH;habilidade;H18;confianca_tecnica_C5;1
+C;CH;subassunto;Produção e relações econômicas;confianca_tecnica_C5;1
+C;CN;assunto;Biologia;confianca_tecnica_C5;1
+C;CN;assunto;Física;confianca_tecnica_C5;1
+C;CN;habilidade;H1;confianca_tecnica_C5;1
+C;CN;habilidade;H16;confianca_tecnica_C5;1
+C;CN;subassunto;Genética e evolução;confianca_tecnica_C5;1
+C;CN;subassunto;Ondas, óptica e som;confianca_tecnica_C5;1
+C;LC;assunto;Gramática;confianca_tecnica_C5;1
+C;LC;assunto;Literatura;confianca_tecnica_C5;1
+C;LC;habilidade;H18;confianca_tecnica_C5;1
+C;LC;habilidade;H4;confianca_tecnica_C5;1
+C;LC;subassunto;Literatura e estilos;confianca_tecnica_C5;1
+C;LC;subassunto;Recursos linguísticos;confianca_tecnica_C5;1
+C;MT;assunto;Geometria;confianca_tecnica_C5;2
+C;MT;assunto;Números;confianca_tecnica_C5;1
+C;MT;habilidade;H1;confianca_tecnica_C5;1
+C;MT;habilidade;H11;confianca_tecnica_C5;2
+C;MT;subassunto;Aritmética;confianca_tecnica_C5;1
+C;MT;subassunto;Geometria plana e espacial;confianca_tecnica_C5;2
+D;CN;assunto;(ausente);ausente;7
+D;CN;assunto;Biologia;sem_confirmacao_integral_C5;10
+D;CN;assunto;Física;sem_confirmacao_integral_C5;7
+D;CN;assunto;Química;sem_confirmacao_integral_C5;5
+D;CN;habilidade;(ausente);ausente;1
+D;CN;habilidade;H1;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H11;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H12;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H14;sem_confirmacao_integral_C5;3
+D;CN;habilidade;H15;sem_confirmacao_integral_C5;2
+D;CN;habilidade;H16;sem_confirmacao_integral_C5;2
+D;CN;habilidade;H18;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H19;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H2;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H20;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H21;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H22;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H24;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H25;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H28;sem_confirmacao_integral_C5;3
+D;CN;habilidade;H29;sem_confirmacao_integral_C5;2
+D;CN;habilidade;H3;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H30;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H4;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H7;sem_confirmacao_integral_C5;1
+D;CN;habilidade;H9;sem_confirmacao_integral_C5;1
+D;CN;subassunto;(ausente);ausente;7
+D;CN;subassunto;Ecologia;sem_confirmacao_integral_C5;6
+D;CN;subassunto;Fisiologia e saúde;sem_confirmacao_integral_C5;3
+D;CN;subassunto;Genética e evolução;sem_confirmacao_integral_C5;1
+D;CN;subassunto;Mecânica;sem_confirmacao_integral_C5;2
+D;CN;subassunto;Ondas, óptica e som;sem_confirmacao_integral_C5;2
+D;CN;subassunto;Termologia;sem_confirmacao_integral_C5;3
+D;CN;subassunto;Transformações e propriedades da matéria;sem_confirmacao_integral_C5;5
+D;LC;assunto;(ausente);ausente;1
+D;LC;assunto;Educação física;sem_confirmacao_integral_C5;1
+D;LC;assunto;Leitura;sem_confirmacao_integral_C5;6
+D;LC;assunto;Linguística;sem_confirmacao_integral_C5;5
+D;LC;habilidade;H10;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H11;sem_confirmacao_integral_C5;2
+D;LC;habilidade;H21;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H22;sem_confirmacao_integral_C5;2
+D;LC;habilidade;H23;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H24;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H26;sem_confirmacao_integral_C5;2
+D;LC;habilidade;H28;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H29;sem_confirmacao_integral_C5;1
+D;LC;habilidade;H3;sem_confirmacao_integral_C5;1
+D;LC;subassunto;(ausente);ausente;1
+D;LC;subassunto;Corpo, esporte e movimento;sem_confirmacao_integral_C5;1
+D;LC;subassunto;Interpretação e efeitos de sentido;sem_confirmacao_integral_C5;6
+D;LC;subassunto;Variação e usos da língua;sem_confirmacao_integral_C5;5
+D;MT;assunto;(ausente);ausente;5
+D;MT;assunto;Geometria;sem_confirmacao_integral_C5;4
+D;MT;assunto;Grandezas e medidas;sem_confirmacao_integral_C5;7
+D;MT;assunto;Matemática financeira;sem_confirmacao_integral_C5;1
+D;MT;assunto;Números;sem_confirmacao_integral_C5;1
+D;MT;assunto;Probabilidade e estatística;sem_confirmacao_integral_C5;3
+D;MT;habilidade;H1;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H10;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H11;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H12;sem_confirmacao_integral_C5;2
+D;MT;habilidade;H16;sem_confirmacao_integral_C5;2
+D;MT;habilidade;H17;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H18;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H19;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H23;sem_confirmacao_integral_C5;2
+D;MT;habilidade;H28;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H3;sem_confirmacao_integral_C5;3
+D;MT;habilidade;H30;sem_confirmacao_integral_C5;1
+D;MT;habilidade;H4;sem_confirmacao_integral_C5;2
+D;MT;habilidade;H5;sem_confirmacao_integral_C5;2
+D;MT;subassunto;(ausente);ausente;5
+D;MT;subassunto;Aritmética;sem_confirmacao_integral_C5;1
+D;MT;subassunto;Dados e incerteza;sem_confirmacao_integral_C5;3
+D;MT;subassunto;Escalas e proporcionalidade;sem_confirmacao_integral_C5;7
+D;MT;subassunto;Geometria plana e espacial;sem_confirmacao_integral_C5;4
+D;MT;subassunto;Razões, porcentagem e juros;sem_confirmacao_integral_C5;1
+E;CH;assunto;(ausente);ausente;118
+E;CH;assunto;Economia;sem_confirmacao_integral_C5;169
+E;CH;assunto;Filosofia;sem_confirmacao_integral_C5;115
+E;CH;assunto;Geografia;sem_confirmacao_integral_C5;149
+E;CH;assunto;História;sem_confirmacao_integral_C5;103
+E;CH;assunto;Sociologia;sem_confirmacao_integral_C5;79
+E;CH;habilidade;(ausente);ausente;79
+E;CH;habilidade;H1;sem_confirmacao_integral_C5;30
+E;CH;habilidade;H10;sem_confirmacao_integral_C5;18
+E;CH;habilidade;H11;sem_confirmacao_integral_C5;27
+E;CH;habilidade;H12;sem_confirmacao_integral_C5;21
+E;CH;habilidade;H13;sem_confirmacao_integral_C5;21
+E;CH;habilidade;H14;sem_confirmacao_integral_C5;20
+E;CH;habilidade;H15;sem_confirmacao_integral_C5;25
+E;CH;habilidade;H16;sem_confirmacao_integral_C5;20
+E;CH;habilidade;H17;sem_confirmacao_integral_C5;19
+E;CH;habilidade;H18;sem_confirmacao_integral_C5;23
+E;CH;habilidade;H19;sem_confirmacao_integral_C5;19
+E;CH;habilidade;H2;sem_confirmacao_integral_C5;22
+E;CH;habilidade;H20;sem_confirmacao_integral_C5;17
+E;CH;habilidade;H21;sem_confirmacao_integral_C5;17
+E;CH;habilidade;H22;sem_confirmacao_integral_C5;20
+E;CH;habilidade;H23;sem_confirmacao_integral_C5;30
+E;CH;habilidade;H24;sem_confirmacao_integral_C5;25
+E;CH;habilidade;H25;sem_confirmacao_integral_C5;17
+E;CH;habilidade;H26;sem_confirmacao_integral_C5;27
+E;CH;habilidade;H27;sem_confirmacao_integral_C5;24
+E;CH;habilidade;H28;sem_confirmacao_integral_C5;17
+E;CH;habilidade;H29;sem_confirmacao_integral_C5;20
+E;CH;habilidade;H3;sem_confirmacao_integral_C5;26
+E;CH;habilidade;H30;sem_confirmacao_integral_C5;20
+E;CH;habilidade;H4;sem_confirmacao_integral_C5;21
+E;CH;habilidade;H5;sem_confirmacao_integral_C5;27
+E;CH;habilidade;H6;sem_confirmacao_integral_C5;23
+E;CH;habilidade;H7;sem_confirmacao_integral_C5;18
+E;CH;habilidade;H8;sem_confirmacao_integral_C5;21
+E;CH;habilidade;H9;sem_confirmacao_integral_C5;19
+E;CH;subassunto;(ausente);ausente;118
+E;CH;subassunto;Ambiente e recursos naturais;sem_confirmacao_integral_C5;91
+E;CH;subassunto;Brasil e formação histórica;sem_confirmacao_integral_C5;80
+E;CH;subassunto;Espaço, território e população;sem_confirmacao_integral_C5;58
+E;CH;subassunto;História mundial;sem_confirmacao_integral_C5;23
+E;CH;subassunto;Produção e relações econômicas;sem_confirmacao_integral_C5;169
+E;CH;subassunto;Sociedade, cultura e trabalho;sem_confirmacao_integral_C5;79
+E;CH;subassunto;Ética, política e conhecimento;sem_confirmacao_integral_C5;115
+E;CN;assunto;(ausente);ausente;154
+E;CN;assunto;Biologia;sem_confirmacao_integral_C5;188
+E;CN;assunto;Física;sem_confirmacao_integral_C5;231
+E;CN;assunto;Química;sem_confirmacao_integral_C5;95
+E;CN;habilidade;(ausente);ausente;64
+E;CN;habilidade;H1;sem_confirmacao_integral_C5;25
+E;CN;habilidade;H10;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H11;sem_confirmacao_integral_C5;17
+E;CN;habilidade;H12;sem_confirmacao_integral_C5;18
+E;CN;habilidade;H13;sem_confirmacao_integral_C5;16
+E;CN;habilidade;H14;sem_confirmacao_integral_C5;23
+E;CN;habilidade;H15;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H16;sem_confirmacao_integral_C5;15
+E;CN;habilidade;H17;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H18;sem_confirmacao_integral_C5;28
+E;CN;habilidade;H19;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H2;sem_confirmacao_integral_C5;23
+E;CN;habilidade;H20;sem_confirmacao_integral_C5;23
+E;CN;habilidade;H21;sem_confirmacao_integral_C5;17
+E;CN;habilidade;H22;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H23;sem_confirmacao_integral_C5;20
+E;CN;habilidade;H24;sem_confirmacao_integral_C5;26
+E;CN;habilidade;H25;sem_confirmacao_integral_C5;24
+E;CN;habilidade;H26;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H27;sem_confirmacao_integral_C5;20
+E;CN;habilidade;H28;sem_confirmacao_integral_C5;16
+E;CN;habilidade;H29;sem_confirmacao_integral_C5;16
+E;CN;habilidade;H3;sem_confirmacao_integral_C5;22
+E;CN;habilidade;H30;sem_confirmacao_integral_C5;14
+E;CN;habilidade;H4;sem_confirmacao_integral_C5;17
+E;CN;habilidade;H5;sem_confirmacao_integral_C5;20
+E;CN;habilidade;H6;sem_confirmacao_integral_C5;18
+E;CN;habilidade;H7;sem_confirmacao_integral_C5;20
+E;CN;habilidade;H8;sem_confirmacao_integral_C5;21
+E;CN;habilidade;H9;sem_confirmacao_integral_C5;19
+E;CN;subassunto;(ausente);ausente;154
+E;CN;subassunto;Ecologia;sem_confirmacao_integral_C5;103
+E;CN;subassunto;Eletricidade e magnetismo;sem_confirmacao_integral_C5;44
+E;CN;subassunto;Fisiologia e saúde;sem_confirmacao_integral_C5;57
+E;CN;subassunto;Genética e evolução;sem_confirmacao_integral_C5;28
+E;CN;subassunto;Mecânica;sem_confirmacao_integral_C5;66
+E;CN;subassunto;Ondas, óptica e som;sem_confirmacao_integral_C5;51
+E;CN;subassunto;Química orgânica;sem_confirmacao_integral_C5;35
+E;CN;subassunto;Termologia;sem_confirmacao_integral_C5;70
+E;CN;subassunto;Transformações e propriedades da matéria;sem_confirmacao_integral_C5;60
+E;LC;assunto;(ausente);ausente;95
+E;LC;assunto;Artes;sem_confirmacao_integral_C5;141
+E;LC;assunto;Educação física;sem_confirmacao_integral_C5;73
+E;LC;assunto;Gramática;sem_confirmacao_integral_C5;15
+E;LC;assunto;Leitura;sem_confirmacao_integral_C5;251
+E;LC;assunto;Linguística;sem_confirmacao_integral_C5;96
+E;LC;assunto;Literatura;sem_confirmacao_integral_C5;85
+E;LC;assunto;Tecnologias;sem_confirmacao_integral_C5;30
+E;LC;habilidade;(ausente);ausente;27
+E;LC;habilidade;H1;sem_confirmacao_integral_C5;23
+E;LC;habilidade;H10;sem_confirmacao_integral_C5;21
+E;LC;habilidade;H11;sem_confirmacao_integral_C5;15
+E;LC;habilidade;H12;sem_confirmacao_integral_C5;26
+E;LC;habilidade;H13;sem_confirmacao_integral_C5;21
+E;LC;habilidade;H14;sem_confirmacao_integral_C5;26
+E;LC;habilidade;H15;sem_confirmacao_integral_C5;32
+E;LC;habilidade;H16;sem_confirmacao_integral_C5;44
+E;LC;habilidade;H17;sem_confirmacao_integral_C5;39
+E;LC;habilidade;H18;sem_confirmacao_integral_C5;29
+E;LC;habilidade;H19;sem_confirmacao_integral_C5;23
+E;LC;habilidade;H2;sem_confirmacao_integral_C5;16
+E;LC;habilidade;H20;sem_confirmacao_integral_C5;24
+E;LC;habilidade;H21;sem_confirmacao_integral_C5;24
+E;LC;habilidade;H22;sem_confirmacao_integral_C5;27
+E;LC;habilidade;H23;sem_confirmacao_integral_C5;28
+E;LC;habilidade;H24;sem_confirmacao_integral_C5;28
+E;LC;habilidade;H25;sem_confirmacao_integral_C5;25
+E;LC;habilidade;H26;sem_confirmacao_integral_C5;19
+E;LC;habilidade;H27;sem_confirmacao_integral_C5;20
+E;LC;habilidade;H28;sem_confirmacao_integral_C5;21
+E;LC;habilidade;H29;sem_confirmacao_integral_C5;20
+E;LC;habilidade;H3;sem_confirmacao_integral_C5;25
+E;LC;habilidade;H30;sem_confirmacao_integral_C5;22
+E;LC;habilidade;H4;sem_confirmacao_integral_C5;23
+E;LC;habilidade;H5;sem_confirmacao_integral_C5;26
+E;LC;habilidade;H6;sem_confirmacao_integral_C5;33
+E;LC;habilidade;H7;sem_confirmacao_integral_C5;30
+E;LC;habilidade;H8;sem_confirmacao_integral_C5;25
+E;LC;habilidade;H9;sem_confirmacao_integral_C5;24
+E;LC;subassunto;(ausente);ausente;95
+E;LC;subassunto;Artes e manifestações culturais;sem_confirmacao_integral_C5;141
+E;LC;subassunto;Comunicação e cultura digital;sem_confirmacao_integral_C5;30
+E;LC;subassunto;Corpo, esporte e movimento;sem_confirmacao_integral_C5;73
+E;LC;subassunto;Interpretação e efeitos de sentido;sem_confirmacao_integral_C5;251
+E;LC;subassunto;Literatura e estilos;sem_confirmacao_integral_C5;85
+E;LC;subassunto;Recursos linguísticos;sem_confirmacao_integral_C5;15
+E;LC;subassunto;Variação e usos da língua;sem_confirmacao_integral_C5;96
+E;MT;assunto;(ausente);ausente;171
+E;MT;assunto;Geometria;conflito;1
+E;MT;assunto;Geometria;sem_confirmacao_integral_C5;119
+E;MT;assunto;Grandezas e medidas;sem_confirmacao_integral_C5;121
+E;MT;assunto;Matemática financeira;sem_confirmacao_integral_C5;46
+E;MT;assunto;Números;sem_confirmacao_integral_C5;80
+E;MT;assunto;Probabilidade e estatística;sem_confirmacao_integral_C5;102
+E;MT;assunto;Álgebra;sem_confirmacao_integral_C5;32
+E;MT;habilidade;(ausente);ausente;21
+E;MT;habilidade;H1;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H10;sem_confirmacao_integral_C5;15
+E;MT;habilidade;H11;sem_confirmacao_integral_C5;21
+E;MT;habilidade;H12;sem_confirmacao_integral_C5;27
+E;MT;habilidade;H13;sem_confirmacao_integral_C5;19
+E;MT;habilidade;H14;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H15;sem_confirmacao_integral_C5;6
+E;MT;habilidade;H16;sem_confirmacao_integral_C5;24
+E;MT;habilidade;H17;sem_confirmacao_integral_C5;21
+E;MT;habilidade;H18;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H19;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H2;sem_confirmacao_integral_C5;23
+E;MT;habilidade;H20;sem_confirmacao_integral_C5;20
+E;MT;habilidade;H21;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H22;sem_confirmacao_integral_C5;18
+E;MT;habilidade;H23;sem_confirmacao_integral_C5;16
+E;MT;habilidade;H24;sem_confirmacao_integral_C5;22
+E;MT;habilidade;H25;sem_confirmacao_integral_C5;32
+E;MT;habilidade;H26;sem_confirmacao_integral_C5;26
+E;MT;habilidade;H27;conflito;1
+E;MT;habilidade;H27;sem_confirmacao_integral_C5;26
+E;MT;habilidade;H28;sem_confirmacao_integral_C5;29
+E;MT;habilidade;H29;sem_confirmacao_integral_C5;23
+E;MT;habilidade;H3;sem_confirmacao_integral_C5;29
+E;MT;habilidade;H30;sem_confirmacao_integral_C5;16
+E;MT;habilidade;H4;sem_confirmacao_integral_C5;25
+E;MT;habilidade;H5;sem_confirmacao_integral_C5;19
+E;MT;habilidade;H6;sem_confirmacao_integral_C5;13
+E;MT;habilidade;H7;sem_confirmacao_integral_C5;18
+E;MT;habilidade;H8;sem_confirmacao_integral_C5;30
+E;MT;habilidade;H9;sem_confirmacao_integral_C5;22
+E;MT;subassunto;(ausente);ausente;171
+E;MT;subassunto;Aritmética;sem_confirmacao_integral_C5;80
+E;MT;subassunto;Dados e incerteza;sem_confirmacao_integral_C5;102
+E;MT;subassunto;Escalas e proporcionalidade;sem_confirmacao_integral_C5;121
+E;MT;subassunto;Funções e equações;sem_confirmacao_integral_C5;32
+E;MT;subassunto;Geometria plana e espacial;conflito;1
+E;MT;subassunto;Geometria plana e espacial;sem_confirmacao_integral_C5;119
+E;MT;subassunto;Razões, porcentagem e juros;sem_confirmacao_integral_C5;46
