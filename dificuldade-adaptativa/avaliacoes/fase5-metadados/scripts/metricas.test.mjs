@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {metricRanking,brier,logloss} from './comum.mjs';
+test('Precision@5 usa K, inclusive em lista curta, sem tratar não julgado como negativo',()=>{const l=new Map([['a',2],['b',0]]);assert.equal(metricRanking(['a','b'],l).precision5,.2);const x=metricRanking(['a','b','c'],l);assert.equal(x.precision5,null);assert.equal(x.precision5Lower,.2);assert.equal(x.precision5Upper,.4);});
+test('Recall e NDCG bloqueados sem universo julgado completo',()=>{const x=metricRanking(['a'],new Map([['a',2]]));assert.equal(x.recall5,null);assert.equal(x.ndcg5,null);assert.throws(()=>metricRanking(['a','b'],new Map([['a',2]]),5,true),/não cobre/);});
+test('NDCG ideal é 1, ordenação inversa piora; Recall usa todo o universo relevante',()=>{const l=new Map([['a',2],['b',1],['c',0],['d',2]]);assert.equal(metricRanking(['a','d','b','c'],l,5,true).ndcg5,1);assert(metricRanking(['c','b','d','a'],l,5,true).ndcg5<1);assert.equal(metricRanking(['a'],l,5,true).recall5,.5);});
+test('Brier e Log Loss correspondem a valores analíticos conhecidos',()=>{assert.equal(brier([{p:.5,y:0},{p:.5,y:1}]),.25);assert.equal(logloss([{p:.5,y:0},{p:.5,y:1}]),Math.log(2));assert.equal(brier([{p:0,y:0},{p:1,y:1}]),0);assert(Number.isFinite(logloss([{p:0,y:1}])));});

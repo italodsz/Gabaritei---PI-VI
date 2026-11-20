@@ -1,0 +1,12 @@
+{
+  "queries": 20,
+  "pairsPerReviewer": 746,
+  "areas": {
+    "CN": 5,
+    "CH": 5,
+    "LC": 5,
+    "MT": 5
+  },
+  "existingHumanAnswersUsedAsTruth": false,
+  "finalJudgmentsReceived": 0
+}

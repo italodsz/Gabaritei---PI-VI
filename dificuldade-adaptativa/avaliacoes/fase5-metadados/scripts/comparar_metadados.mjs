@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';import {readFileSync,writeFileSync} from 'node:fs';
+import {acervo,cfg,policy,T,candidates,profile,commonPool,ordenarUnificado,rng,seedOf,mean,quantile,metricRanking,save,sha} from './comum.mjs';
+const universe=JSON.parse(readFileSync(new URL('../protocolo_humano/universo_congelado.json',import.meta.url))),audit=JSON.parse(readFileSync(new URL('../resultados/referencias_por_questao.json',import.meta.url))),refs=new Map(audit.map(r=>[r.id,r]));
+const kinds=['aleatorio','semantico','tri','unificado'],areas=['CN','CH','LC','MT'],metrics=['precision5','recall5','ndcg5','recall5Eligible','ndcg5Eligible'];
+// Protocol fixed before looking at metric outcomes. This is not a production config.
+const plan={reference:'metadados confirmados nas cópias ITENS_PROVA + mapa competência por área',labelRules:{2:'mesma área e habilidade',1:'mesma área e competência, habilidade diferente',0:'outra competência na mesma área'},unknownRule:'excluir do universo condicionado, nunca transformar em 0',profile:{theta:0,dp:.25,n:80,natureza:'controlado, não estudante real'},queries:universe.queries,randomSeeds:20,seedRule:'seedOf(qid)+0..19',bootstrap:{reps:2000,seed:20261118,stratifiedByArea:true,nestedRandomSeeds:true},policyFrozen:policy,qualityScope:'alinhamento à matriz, não relevância humana',productionChanges:false};
+save('plano_metadados_congelado.json',plan);
+function grade(query,candidate){const q=refs.get(query),c=refs.get(candidate);if(q?.referenceSkill==null||c?.referenceSkill==null)return null;if(q.area!==c.area)return 0;return q.referenceSkill===c.referenceSkill?2:q.referenceCompetence===c.referenceCompetence?1:0;}
+function fullOrder(cs,p,kind,seed){const pool=commonPool(cs,p),mom=T.momentos(p,cfg),random=rng(seed);return pool.map(c=>({...c,key:kind==='aleatorio'?random():kind==='semantico'?-c.posicaoSemantica:Math.exp(-((c.tri.b-mom.media-policy.tri.centroRelativoB)**2)/(2*(policy.tri.largura**2+mom.dp**2)))})).sort((a,b)=>b.key-a.key||a.posicaoSemantica-b.posicaoSemantica).map(x=>x.id);}
+const rows=[],queries=[],metadataLabels=[];
+for(const qid of universe.queries){
+ const ref=refs.get(qid);assert(ref?.referenceSkill!=null,'Consulta sem habilidade verificada: '+qid);
+ const originalL=universe.key.filter(p=>p.query_id===qid).map(p=>p.candidate_id),cs=candidates(qid),p=profile(ref.area,'medio'),E0=commonPool(cs,p).map(c=>c.id),K=originalL.filter(id=>grade(qid,id)!==null),E=E0.filter(id=>grade(qid,id)!==null),labelsK=new Map(K.map(id=>[id,grade(qid,id)])),labelsE=new Map(E.map(id=>[id,grade(qid,id)]));
+ assert(new Set(originalL).size===originalL.length);assert(E.every(id=>K.includes(id)));
+ for(const id of originalL)metadataLabels.push({query:qid,candidate:id,area:ref.area,querySkill:ref.referenceSkill,candidateSkill:refs.get(id)?.referenceSkill??null,metadataGrade:grade(qid,id),humanGrade:null,source:'referência tabular; não julgamento humano'});
+ const current=ordenarUnificado(cs,p,cfg).itens.map(c=>c.id),extended=ordenarUnificado(cs,p,cfg,{...policy,limite:Math.max(1,cs.length)}).itens.map(c=>c.id);
+ assert.deepEqual(extended.slice(0,5),current,'Leitura de ranking mudou o Top5 original');assert.deepEqual([...extended].sort(),[...E0].sort(),'Pools diferentes entre estratégias');
+ queries.push({query:qid,area:ref.area,skill:ref.referenceSkill,competence:ref.referenceCompetence,L:originalL.length,K:K.length,E0:E0.length,E:E.length,coverageKnown:K.length/originalL.length,coverageEligible:E.length/K.length,unknown:originalL.length-K.length,positivesK:[...labelsK.values()].filter(g=>g===2).length,positivesE:[...labelsE.values()].filter(g=>g===2).length});
+ for(const kind of kinds)for(let seed=0;seed<(kind==='aleatorio'?20:1);seed++){
+  const order=kind==='unificado'?extended:fullOrder(cs,p,kind,seedOf(qid)+seed),ids=order.filter(id=>labelsK.has(id)).slice(0,5),m=metricRanking(ids,labelsK,5,true),eligible=metricRanking(ids,labelsE,5,true),rawIds=order.slice(0,5),raw=metricRanking(rawIds,labelsK,5,K.length===originalL.length);
+  rows.push({query:qid,area:ref.area,kind,seed,scope:'metadados; universo conhecido e elegível; não Top5 integral de produção',ids,returned:ids.length,precision5:m.precision5,recall5:m.recall5,ndcg5:m.ndcg5,recall5Eligible:eligible.recall5,ndcg5Eligible:eligible.ndcg5Eligible??eligible.ndcg5,meanAbsBTheta:mean(ids.map(id=>Math.abs(acervo.byId.get(id).tri.b-T.momentos(p,cfg).media))),productionAsIs:{ids:rawIds,...raw},reasons:{recall5:m.recall5===null?'Nenhum item de grau 2 em K.':null,ndcg5:m.ndcg5===null?'IDCG=0 no universo K.':null,recall5Eligible:eligible.recall5===null?'Nenhum grau 2 no universo elegível E.':null}});
+ }
+}
+save('rotulos_metadados.json',metadataLabels);save('comparacao_por_execucao.json',{scope:plan.qualityScope,queries,rows});
+const queryPoints=[];
+for(const q of queries)for(const kind of kinds){const runs=rows.filter(r=>r.query===q.query&&r.kind===kind);const item={query:q.query,area:q.area,kind,runs:runs.length};for(const metric of metrics)item[metric]=mean(runs.map(r=>r[metric]).filter(Number.isFinite));queryPoints.push(item);}
+save('comparacao_por_consulta.json',queryPoints);
+const aggregates=[],diffs=[];
+for(const area of [...areas,'TOTAL']){
+ const qs=queries.filter(q=>area==='TOTAL'||q.area===area),random=rng(20261118+seedOf(area)),boot=Object.fromEntries(kinds.map(k=>[k,Object.fromEntries(metrics.map(m=>[m,[]]))])),diffBoot=Object.fromEntries(kinds.filter(k=>k!=='unificado').map(k=>[k,Object.fromEntries(metrics.map(m=>[m,[]]))]));
+ for(let rep=0;rep<2000;rep++){
+  const sampled=[];for(const a of areas){const group=qs.filter(q=>q.area===a);for(let n=0;n<group.length;n++)sampled.push(group[Math.floor(random()*group.length)]);}
+  const values=Object.fromEntries(kinds.map(k=>[k,[]]));
+  for(const q of sampled){const randomSeed=Math.floor(random()*20);for(const kind of kinds)values[kind].push(rows.find(r=>r.query===q.query&&r.kind===kind&&r.seed===(kind==='aleatorio'?randomSeed:0)));}
+  for(const kind of kinds)for(const metric of metrics){const v=mean(values[kind].map(r=>r[metric]).filter(Number.isFinite));if(v!==null)boot[kind][metric].push(v);}
+  for(const kind of kinds.filter(k=>k!=='unificado'))for(const metric of metrics){const differences=values.unificado.flatMap((r,k)=>Number.isFinite(r[metric])&&Number.isFinite(values[kind][k][metric])?[r[metric]-values[kind][k][metric]]:[]),v=mean(differences);if(v!==null)diffBoot[kind][metric].push(v);}
+ }
+ for(const kind of kinds){const points=queryPoints.filter(p=>p.kind===kind&&(area==='TOTAL'||p.area===area)),out={area,kind,queries:points.length,validMetricQueries:{},ci95:{},ciMethod:'2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas'};for(const metric of metrics){const vals=points.map(p=>p[metric]).filter(Number.isFinite);out[metric]=mean(vals);out.validMetricQueries[metric]=vals.length;out.ci95[metric]=[quantile(boot[kind][metric],.025),quantile(boot[kind][metric],.975)];}aggregates.push(out);}
+ for(const kind of kinds.filter(k=>k!=='unificado'))for(const metric of metrics){const points=qs.flatMap(q=>{const a=queryPoints.find(p=>p.query===q.query&&p.kind==='unificado'),b=queryPoints.find(p=>p.query===q.query&&p.kind===kind);return Number.isFinite(a[metric])&&Number.isFinite(b[metric])?[a[metric]-b[metric]]:[];});diffs.push({area,comparison:'unificado-'+kind,metric,pairedQueries:points.length,difference:mean(points),ci95:[quantile(diffBoot[kind][metric],.025),quantile(diffBoot[kind][metric],.975)],ci9833ForThreePrimaryNDCGComparisons:metric==='ndcg5'?[quantile(diffBoot[kind][metric],.05/6),quantile(diffBoot[kind][metric],1-.05/6)]:null,scope:'inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico'});}
+}
+save('comparacao_agregada_metadados.json',{label:'ALINHAMENTO À MATRIZ POR METADADOS, NÃO AVALIAÇÃO HUMANA',aggregates,differences:diffs,queryCoverage:queries,bootstrapReps:2000,sourceKnownPairs:metadataLabels.filter(r=>r.metadataGrade!==null).length,sourcePairs:metadataLabels.length,productionChanged:false});
+save('tabela_humana_pendente.json',{reason:'Usuário confirmou que ainda não há dois avaliadores definidos; 0 de 1492 notas e nenhuma qualificação documentada.',rows:kinds.map(kind=>({kind,precision5:null,recall5:null,ndcg5:null,humanQueriesEvaluated:0,humanJudgments:0}))});
+console.log(JSON.stringify({queries:queries.length,L:queries.reduce((s,q)=>s+q.L,0),K:queries.reduce((s,q)=>s+q.K,0),E:queries.reduce((s,q)=>s+q.E,0),summary:aggregates.filter(a=>a.area==='TOTAL').map(a=>({kind:a.kind,P:a.precision5,R:a.recall5,N:a.ndcg5,RE:a.recall5Eligible,queries:a.validMetricQueries}))},null,2));

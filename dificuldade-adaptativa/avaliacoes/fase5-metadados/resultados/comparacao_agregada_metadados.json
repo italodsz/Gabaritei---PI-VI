@@ -1,0 +1,2133 @@
+{
+  "label": "ALINHAMENTO À MATRIZ POR METADADOS, NÃO AVALIAÇÃO HUMANA",
+  "aggregates": [
+    {
+      "area": "CN",
+      "kind": "aleatorio",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 4,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.36
+        ],
+        "recall5": [
+          0.027777777777777776,
+          0.7222222222222223
+        ],
+        "ndcg5": [
+          0.13901347392334087,
+          0.5246205324190021
+        ],
+        "recall5Eligible": [
+          0.05,
+          0.75
+        ],
+        "ndcg5Eligible": [
+          0.1491234776422759,
+          0.5587484533708111
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.17600000000000002,
+      "recall5": 0.29375,
+      "ndcg5": 0.3226352533785241,
+      "recall5Eligible": 0.34687500000000004,
+      "ndcg5Eligible": 0.3461662821515467
+    },
+    {
+      "area": "CN",
+      "kind": "semantico",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 4,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.4
+        ],
+        "recall5": [
+          0.05555555555555555,
+          0.7916666666666666
+        ],
+        "ndcg5": [
+          0.07878652765830449,
+          0.5247325992739055
+        ],
+        "recall5Eligible": [
+          0.08333333333333333,
+          0.8
+        ],
+        "ndcg5Eligible": [
+          0.08695952961738815,
+          0.546929872226945
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.2,
+      "recall5": 0.3333333333333333,
+      "ndcg5": 0.301759563466105,
+      "recall5Eligible": 0.3875,
+      "ndcg5Eligible": 0.3169447009221666
+    },
+    {
+      "area": "CN",
+      "kind": "tri",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 4,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.28
+        ],
+        "recall5": [
+          0.037037037037037035,
+          0.7777777777777778
+        ],
+        "ndcg5": [
+          0.14063591420148935,
+          0.4509247251285607
+        ],
+        "recall5Eligible": [
+          0.06666666666666667,
+          0.8
+        ],
+        "ndcg5Eligible": [
+          0.15952331207127116,
+          0.4812845981993279
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.16,
+      "recall5": 0.3402777777777778,
+      "ndcg5": 0.2927961885832642,
+      "recall5Eligible": 0.3833333333333333,
+      "ndcg5Eligible": 0.3131489579362352
+    },
+    {
+      "area": "CN",
+      "kind": "unificado",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 4,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.4
+        ],
+        "recall5": [
+          0.05555555555555555,
+          0.7916666666666666
+        ],
+        "ndcg5": [
+          0.15595245517533968,
+          0.5469044439223095
+        ],
+        "recall5Eligible": [
+          0.09999999999999999,
+          0.8012499999999989
+        ],
+        "ndcg5Eligible": [
+          0.1749795198106137,
+          0.5708327744847509
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.2,
+      "recall5": 0.35416666666666663,
+      "ndcg5": 0.344797903941211,
+      "recall5Eligible": 0.4083333333333333,
+      "ndcg5Eligible": 0.36620287364087484
+    },
+    {
+      "area": "CH",
+      "kind": "aleatorio",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 2,
+        "ndcg5": 4,
+        "recall5Eligible": 2,
+        "ndcg5Eligible": 3
+      },
+      "ci95": {
+        "precision5": [
+          0,
+          0.36
+        ],
+        "recall5": [
+          0.125,
+          0.6666666666666666
+        ],
+        "ndcg5": [
+          0,
+          0.631003487335035
+        ],
+        "recall5Eligible": [
+          0.16666666666666666,
+          1
+        ],
+        "ndcg5Eligible": [
+          0,
+          0.9464805260987917
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.166,
+      "recall5": 0.46770833333333317,
+      "ndcg5": 0.33075684535590516,
+      "recall5Eligible": 0.6791666666666667,
+      "ndcg5Eligible": 0.5272016790058874
+    },
+    {
+      "area": "CH",
+      "kind": "semantico",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 2,
+        "ndcg5": 4,
+        "recall5Eligible": 2,
+        "ndcg5Eligible": 3
+      },
+      "ci95": {
+        "precision5": [
+          0,
+          0.32
+        ],
+        "recall5": [
+          0.25,
+          0.6666666666666666
+        ],
+        "ndcg5": [
+          0.1289509357448472,
+          0.6823969267657813
+        ],
+        "recall5Eligible": [
+          0.3333333333333333,
+          1
+        ],
+        "ndcg5Eligible": [
+          0.38685280723454163,
+          1
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.16,
+      "recall5": 0.4583333333333333,
+      "ndcg5": 0.4292475507091494,
+      "recall5Eligible": 0.6666666666666666,
+      "ndcg5Eligible": 0.6666456060471031
+    },
+    {
+      "area": "CH",
+      "kind": "tri",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 2,
+        "ndcg5": 4,
+        "recall5Eligible": 2,
+        "ndcg5Eligible": 3
+      },
+      "ci95": {
+        "precision5": [
+          0,
+          0.44000000000000006
+        ],
+        "recall5": [
+          0.375,
+          0.6666666666666666
+        ],
+        "ndcg5": [
+          0.14341067693905762,
+          0.66060496154386
+        ],
+        "recall5Eligible": [
+          0.5,
+          1
+        ],
+        "ndcg5Eligible": [
+          0.49125969208957576,
+          1
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.2,
+      "recall5": 0.5208333333333333,
+      "ndcg5": 0.42707826919621594,
+      "recall5Eligible": 0.75,
+      "ndcg5Eligible": 0.6637532306965253
+    },
+    {
+      "area": "CH",
+      "kind": "unificado",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 2,
+        "ndcg5": 4,
+        "recall5Eligible": 2,
+        "ndcg5Eligible": 3
+      },
+      "ci95": {
+        "precision5": [
+          0,
+          0.44000000000000006
+        ],
+        "recall5": [
+          0.375,
+          0.6666666666666666
+        ],
+        "ndcg5": [
+          0.15773243839286438,
+          0.6918984466786321
+        ],
+        "recall5Eligible": [
+          0.5,
+          1
+        ],
+        "ndcg5Eligible": [
+          0.6164336326286644,
+          1
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.2,
+      "recall5": 0.5208333333333333,
+      "ndcg5": 0.4911041927238525,
+      "recall5Eligible": 0.75,
+      "ndcg5Eligible": 0.7491211287333739
+    },
+    {
+      "area": "LC",
+      "kind": "aleatorio",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.36000000000000004
+        ],
+        "recall5": [
+          0.016666666666666666,
+          0.20476190476190476
+        ],
+        "ndcg5": [
+          0.17545843647841025,
+          0.5572411439505287
+        ],
+        "recall5Eligible": [
+          0.03125,
+          0.3564930555555553
+        ],
+        "ndcg5Eligible": [
+          0.18736606641593398,
+          0.5596629852491505
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.18400000000000002,
+      "recall5": 0.09795238095238094,
+      "ndcg5": 0.3667465004334197,
+      "recall5Eligible": 0.17348214285714286,
+      "ndcg5Eligible": 0.3756402725117245
+    },
+    {
+      "area": "LC",
+      "kind": "semantico",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.44000000000000006
+        ],
+        "recall5": [
+          0.016666666666666666,
+          0.23095238095238094
+        ],
+        "ndcg5": [
+          0.12705128892868128,
+          0.619207931432865
+        ],
+        "recall5Eligible": [
+          0.041666666666666664,
+          0.37777777777777777
+        ],
+        "ndcg5Eligible": [
+          0.12705128892868128,
+          0.619207931432865
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.24000000000000005,
+      "recall5": 0.12380952380952381,
+      "ndcg5": 0.3609673094560429,
+      "recall5Eligible": 0.21458333333333335,
+      "ndcg5Eligible": 0.3609673094560429
+    },
+    {
+      "area": "LC",
+      "kind": "tri",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.36
+        ],
+        "recall5": [
+          0.016666666666666666,
+          0.20476190476190476
+        ],
+        "ndcg5": [
+          0.19480165130319885,
+          0.514767307590428
+        ],
+        "recall5Eligible": [
+          0.041666666666666664,
+          0.34074074074074073
+        ],
+        "ndcg5Eligible": [
+          0.2184160082306595,
+          0.514767307590428
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.2,
+      "recall5": 0.10714285714285714,
+      "ndcg5": 0.35478447944681346,
+      "recall5Eligible": 0.18680555555555556,
+      "ndcg5Eligible": 0.36659165791054377
+    },
+    {
+      "area": "LC",
+      "kind": "unificado",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 4,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.08,
+          0.44000000000000006
+        ],
+        "recall5": [
+          0.04523809523809523,
+          0.19523809523809524
+        ],
+        "ndcg5": [
+          0.2150230464686564,
+          0.5848367384411342
+        ],
+        "recall5Eligible": [
+          0.13095238095238096,
+          0.2888888888888889
+        ],
+        "ndcg5Eligible": [
+          0.23623451037858625,
+          0.5848367384411342
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.24,
+      "recall5": 0.11523809523809522,
+      "ndcg5": 0.3916316425756878,
+      "recall5Eligible": 0.20029761904761906,
+      "ndcg5Eligible": 0.40223737453065267
+    },
+    {
+      "area": "MT",
+      "kind": "aleatorio",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 5,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.32
+        ],
+        "recall5": [
+          0.025,
+          0.36666666666666664
+        ],
+        "ndcg5": [
+          0.12201083380493183,
+          0.4457488532581769
+        ],
+        "recall5Eligible": [
+          0.05,
+          0.4666666666666666
+        ],
+        "ndcg5Eligible": [
+          0.13634069526277845,
+          0.48898627193508437
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.16,
+      "recall5": 0.14943181818181817,
+      "ndcg5": 0.27972437831422,
+      "recall5Eligible": 0.2234523809523809,
+      "ndcg5Eligible": 0.30616107967783257
+    },
+    {
+      "area": "MT",
+      "kind": "semantico",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 5,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.12000000000000002,
+          0.72
+        ],
+        "recall5": [
+          0.10833333333333332,
+          0.38181818181818183
+        ],
+        "ndcg5": [
+          0.26805883500809213,
+          0.7480286019776742
+        ],
+        "recall5Eligible": [
+          0.2,
+          0.6523809523809525
+        ],
+        "ndcg5Eligible": [
+          0.31889687405862854,
+          0.7626409475171664
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.4,
+      "recall5": 0.2492424242424242,
+      "ndcg5": 0.48558292918193996,
+      "recall5Eligible": 0.4261904761904762,
+      "ndcg5Eligible": 0.5191310578269708
+    },
+    {
+      "area": "MT",
+      "kind": "tri",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 5,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.2
+        ],
+        "recall5": [
+          0.025,
+          0.19166666666666665
+        ],
+        "ndcg5": [
+          0.2003674427444942,
+          0.3603918184223271
+        ],
+        "recall5Eligible": [
+          0.05,
+          0.31666666666666665
+        ],
+        "ndcg5Eligible": [
+          0.227140642078977,
+          0.3840001332783616
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.12000000000000002,
+      "recall5": 0.10833333333333332,
+      "ndcg5": 0.27313433933568787,
+      "recall5Eligible": 0.1833333333333333,
+      "ndcg5Eligible": 0.29948181441937505
+    },
+    {
+      "area": "MT",
+      "kind": "unificado",
+      "queries": 5,
+      "validMetricQueries": {
+        "precision5": 5,
+        "recall5": 5,
+        "ndcg5": 5,
+        "recall5Eligible": 5,
+        "ndcg5Eligible": 5
+      },
+      "ci95": {
+        "precision5": [
+          0.04,
+          0.2
+        ],
+        "recall5": [
+          0.025,
+          0.19166666666666665
+        ],
+        "ndcg5": [
+          0.22579933649305092,
+          0.361436858975707
+        ],
+        "recall5Eligible": [
+          0.05,
+          0.31666666666666665
+        ],
+        "ndcg5Eligible": [
+          0.24312315242113444,
+          0.40633165447199254
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.12000000000000002,
+      "recall5": 0.10833333333333332,
+      "ndcg5": 0.2936180977343789,
+      "recall5Eligible": 0.1833333333333333,
+      "ndcg5Eligible": 0.3247274034465635
+    },
+    {
+      "area": "TOTAL",
+      "kind": "aleatorio",
+      "queries": 20,
+      "validMetricQueries": {
+        "precision5": 20,
+        "recall5": 16,
+        "ndcg5": 19,
+        "recall5Eligible": 15,
+        "ndcg5Eligible": 18
+      },
+      "ci95": {
+        "precision5": [
+          0.09,
+          0.26000000000000006
+        ],
+        "recall5": [
+          0.0899891774891775,
+          0.3384746701710987
+        ],
+        "ndcg5": [
+          0.22233182497466797,
+          0.43197791552768317
+        ],
+        "recall5Eligible": [
+          0.15170725108225108,
+          0.45389947089947086
+        ],
+        "ndcg5Eligible": [
+          0.2593819033653381,
+          0.4917906705452688
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.17150000000000004,
+      "recall5": 0.2092086038961039,
+      "ndcg5": 0.32466094958181263,
+      "recall5Eligible": 0.3038015873015873,
+      "ndcg5Eligible": 0.3734135115957324
+    },
+    {
+      "area": "TOTAL",
+      "kind": "semantico",
+      "queries": 20,
+      "validMetricQueries": {
+        "precision5": 20,
+        "recall5": 16,
+        "ndcg5": 19,
+        "recall5Eligible": 15,
+        "ndcg5Eligible": 18
+      },
+      "ci95": {
+        "precision5": [
+          0.14000000000000004,
+          0.36000000000000004
+        ],
+        "recall5": [
+          0.14501129997453527,
+          0.3851400073336751
+        ],
+        "ndcg5": [
+          0.2710405011214269,
+          0.5216403752520832
+        ],
+        "recall5Eligible": [
+          0.2416346153846154,
+          0.5506435574229691
+        ],
+        "ndcg5Eligible": [
+          0.32000374248565133,
+          0.5769176774004661
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.25,
+      "recall5": 0.25720373376623373,
+      "ndcg5": 0.392554695439844,
+      "recall5Eligible": 0.3915079365079365,
+      "ndcg5Eligible": 0.4436195643981784
+    },
+    {
+      "area": "TOTAL",
+      "kind": "tri",
+      "queries": 20,
+      "validMetricQueries": {
+        "precision5": 20,
+        "recall5": 16,
+        "ndcg5": 19,
+        "recall5Eligible": 15,
+        "ndcg5Eligible": 18
+      },
+      "ci95": {
+        "precision5": [
+          0.09,
+          0.25000000000000006
+        ],
+        "recall5": [
+          0.10615079365079368,
+          0.33653360832637147
+        ],
+        "ndcg5": [
+          0.24732505345235956,
+          0.4172791804722857
+        ],
+        "recall5Eligible": [
+          0.17400068681318684,
+          0.449815586419753
+        ],
+        "ndcg5Eligible": [
+          0.2967167890554405,
+          0.47049356222371147
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.17,
+      "recall5": 0.2175099206349206,
+      "ndcg5": 0.33220463755861523,
+      "recall5Eligible": 0.3131481481481481,
+      "ndcg5Eligible": 0.382631769078908
+    },
+    {
+      "area": "TOTAL",
+      "kind": "unificado",
+      "queries": 20,
+      "validMetricQueries": {
+        "precision5": 20,
+        "recall5": 16,
+        "ndcg5": 19,
+        "recall5Eligible": 15,
+        "ndcg5Eligible": 18
+      },
+      "ci95": {
+        "precision5": [
+          0.1,
+          0.28
+        ],
+        "recall5": [
+          0.11605406746031746,
+          0.3391709743107769
+        ],
+        "ndcg5": [
+          0.2770929755819289,
+          0.4723281677626649
+        ],
+        "recall5Eligible": [
+          0.19055909863945578,
+          0.45836309523809493
+        ],
+        "ndcg5Eligible": [
+          0.33356649490492357,
+          0.5221935962807968
+        ]
+      },
+      "ciMethod": "2000 clusters consulta estratificados por área; aleatório inclui semente sorteada entre as 20 registradas",
+      "precision5": 0.19000000000000006,
+      "recall5": 0.22351190476190474,
+      "ndcg5": 0.3744555259027263,
+      "recall5Eligible": 0.32341269841269843,
+      "ndcg5Eligible": 0.4285112024605876
+    }
+  ],
+  "differences": [
+    {
+      "area": "CN",
+      "comparison": "unificado-aleatorio",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.023999999999999983,
+      "ci95": [
+        -0.12000000000000002,
+        0.16
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5",
+      "pairedQueries": 4,
+      "difference": 0.06041666666666666,
+      "ci95": [
+        -0.16666666666666666,
+        0.4166666666666667
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.022162650562686896,
+      "ci95": [
+        -0.15516836292203848,
+        0.20778515353085944
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.19738360316551243,
+        0.2507642259661355
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": 0.06145833333333331,
+      "ci95": [
+        -0.25,
+        0.4418055555555554
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.020036591489328126,
+      "ci95": [
+        -0.17041618104705109,
+        0.216052873991914
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-semantico",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        -0.12000000000000002,
+        0.08000000000000002
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-semantico",
+      "metric": "recall5",
+      "pairedQueries": 4,
+      "difference": 0.020833333333333336,
+      "ci95": [
+        -0.1111111111111111,
+        0.16666666666666666
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.04303834047510604,
+      "ci95": [
+        -0.02562395394722295,
+        0.11170063489743502
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.03527617878090805,
+        0.12516868573647721
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-semantico",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": 0.02083333333333333,
+      "ci95": [
+        -0.16666666666666666,
+        0.2222222222222222
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.04925817271870827,
+      "ci95": [
+        -0.028313735266372785,
+        0.1268815762636915
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-tri",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.039999999999999994,
+      "ci95": [
+        0,
+        0.11999999999999997
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-tri",
+      "metric": "recall5",
+      "pairedQueries": 4,
+      "difference": 0.013888888888888888,
+      "ci95": [
+        0,
+        0.041666666666666664
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.05200171535794681,
+      "ci95": [
+        -0.0017893007401905247,
+        0.14244443676424445
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.002683951110285787,
+        0.14596138051784513
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-tri",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": 0.024999999999999994,
+      "ci95": [
+        0,
+        0.07499999999999998
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CN",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.053053915704639645,
+      "ci95": [
+        -0.002003052704316577,
+        0.14349663711093727
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-aleatorio",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.033999999999999975,
+      "ci95": [
+        -2.2204460492503132e-17,
+        0.11999999999999997
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5",
+      "pairedQueries": 2,
+      "difference": 0.05312500000000012,
+      "ci95": [
+        -0.03125,
+        0.25
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5",
+      "pairedQueries": 4,
+      "difference": 0.1603473473679473,
+      "ci95": [
+        -0.016842804535482883,
+        0.42286549193806244
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.053326393082051934,
+        0.48758843514408284
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5Eligible",
+      "pairedQueries": 2,
+      "difference": 0.07083333333333336,
+      "ci95": [
+        -0.04166666666666666,
+        0.33333333333333337
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 3,
+      "difference": 0.22191944972748653,
+      "ci95": [
+        -0.013683060215791142,
+        0.6309297535714575
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-semantico",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.039999999999999994,
+      "ci95": [
+        0,
+        0.11999999999999997
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-semantico",
+      "metric": "recall5",
+      "pairedQueries": 2,
+      "difference": 0.0625,
+      "ci95": [
+        0,
+        0.125
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5",
+      "pairedQueries": 4,
+      "difference": 0.06185664201470312,
+      "ci95": [
+        0,
+        0.18305770975268693
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        0,
+        0.19526155706953272
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-semantico",
+      "metric": "recall5Eligible",
+      "pairedQueries": 2,
+      "difference": 0.08333333333333334,
+      "ci95": [
+        0,
+        0.16666666666666669
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 3,
+      "difference": 0.08247552268627083,
+      "ci95": [
+        0,
+        0.2440769463369159
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-tri",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-tri",
+      "metric": "recall5",
+      "pairedQueries": 2,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5",
+      "pairedQueries": 4,
+      "difference": 0.06402592352763653,
+      "ci95": [
+        0,
+        0.12862742835850996
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        0,
+        0.1294908003133653
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-tri",
+      "metric": "recall5Eligible",
+      "pairedQueries": 2,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "CH",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 3,
+      "difference": 0.0853678980368487,
+      "ci95": [
+        0,
+        0.13092975357145753
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-aleatorio",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.05599999999999998,
+      "ci95": [
+        -0.16,
+        0.27999999999999997
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": 0.0172857142857143,
+      "ci95": [
+        -0.09047619047619046,
+        0.11674999999999958
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.02488514214226811,
+      "ci95": [
+        -0.1483290964150381,
+        0.17414015000636018
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.19007259019545983,
+        0.20850974489111293
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": 0.026815476190476174,
+      "ci95": [
+        -0.17499999999999996,
+        0.20255456349206333
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.026597102018928225,
+      "ci95": [
+        -0.15451871232698744,
+        0.17815626474572535
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-semantico",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        -0.12000000000000002,
+        0.12000000000000002
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-semantico",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": -0.008571428571428568,
+      "ci95": [
+        -0.08571428571428572,
+        0.06000000000000001
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.03066433311964495,
+      "ci95": [
+        -0.05329844152625897,
+        0.12244690321470117
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.06733659101104597,
+        0.13218479320421495
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-semantico",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": -0.01428571428571429,
+      "ci95": [
+        -0.13333333333333333,
+        0.10714285714285714
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.04127006507460986,
+      "ci95": [
+        -0.049347130632389824,
+        0.1330526351696661
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-tri",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0.039999999999999994,
+      "ci95": [
+        -0.08000000000000002,
+        0.16
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-tri",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": 0.0080952380952381,
+      "ci95": [
+        -0.06904761904761905,
+        0.07666666666666666
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.03684716312887435,
+      "ci95": [
+        -0.027139184936998385,
+        0.09888100975570033
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.03836339452688353,
+        0.11010521934558548
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-tri",
+      "metric": "recall5Eligible",
+      "pairedQueries": 4,
+      "difference": 0.013492063492063486,
+      "ci95": [
+        -0.13333333333333333,
+        0.13227513227513227
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "LC",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.03564571662010897,
+      "ci95": [
+        -0.028340616180433608,
+        0.09888100975570033
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-aleatorio",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": -0.039999999999999994,
+      "ci95": [
+        -0.24,
+        0.12000000000000002
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": -0.04109848484848484,
+      "ci95": [
+        -0.2727272727272727,
+        0.10833333333333332
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.01389371942015898,
+      "ci95": [
+        -0.17635377890449846,
+        0.1798999333046838
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.21997715006556204,
+        0.2090736955582553
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5Eligible",
+      "pairedQueries": 5,
+      "difference": -0.040119047619047596,
+      "ci95": [
+        -0.31666666666666665,
+        0.1833333333333333
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.018566323768730887,
+      "ci95": [
+        -0.18512270468881742,
+        0.19860236600077733
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-semantico",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": -0.27999999999999997,
+      "ci95": [
+        -0.6799999999999999,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-semantico",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": -0.14090909090909093,
+      "ci95": [
+        -0.32272727272727275,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": -0.19196483144756096,
+      "ci95": [
+        -0.4793008910768915,
+        -0.016999619555378688
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.5031129882825763,
+        -0.0020465040118128664
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-semantico",
+      "metric": "recall5Eligible",
+      "pairedQueries": 5,
+      "difference": -0.24285714285714288,
+      "ci95": [
+        -0.5285714285714286,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": -0.1944036543804073,
+      "ci95": [
+        -0.48158888847924103,
+        -0.017309005258961764
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-tri",
+      "metric": "precision5",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-tri",
+      "metric": "recall5",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5",
+      "pairedQueries": 5,
+      "difference": 0.020483758398691092,
+      "ci95": [
+        0,
+        0.054936081976324026
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        0,
+        0.05819367858619865
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-tri",
+      "metric": "recall5Eligible",
+      "pairedQueries": 5,
+      "difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "MT",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 5,
+      "difference": 0.02524558902718844,
+      "ci95": [
+        0,
+        0.06751054549628735
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-aleatorio",
+      "metric": "precision5",
+      "pairedQueries": 20,
+      "difference": 0.01849999999999999,
+      "ci95": [
+        -0.06999999999999999,
+        0.09999999999999999
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5",
+      "pairedQueries": 16,
+      "difference": 0.01430330086580088,
+      "ci95": [
+        -0.08956056096681096,
+        0.11627128360814021
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5",
+      "pairedQueries": 19,
+      "difference": 0.04979457632091362,
+      "ci95": [
+        -0.04635276727412758,
+        0.14832677802372027
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.06464170613330932,
+        0.16705870144909848
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-aleatorio",
+      "metric": "recall5Eligible",
+      "pairedQueries": 15,
+      "difference": 0.01961111111111111,
+      "ci95": [
+        -0.11736511752136751,
+        0.15077609890109886
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-aleatorio",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 18,
+      "difference": 0.05509769086485531,
+      "ci95": [
+        -0.05156150079280748,
+        0.1558702078785453
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-semantico",
+      "metric": "precision5",
+      "pairedQueries": 20,
+      "difference": -0.06,
+      "ci95": [
+        -0.16,
+        0.029999999999999992
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-semantico",
+      "metric": "recall5",
+      "pairedQueries": 16,
+      "difference": -0.033691829004329,
+      "ci95": [
+        -0.10568858225108226,
+        0.03166666666666666
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5",
+      "pairedQueries": 19,
+      "difference": -0.01809916953711776,
+      "ci95": [
+        -0.10177274597444512,
+        0.04840111923293469
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        -0.12521835371472742,
+        0.061030541225449264
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-semantico",
+      "metric": "recall5Eligible",
+      "pairedQueries": 15,
+      "difference": -0.06809523809523808,
+      "ci95": [
+        -0.18945598672161174,
+        0.04121031746031745
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-semantico",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 18,
+      "difference": -0.015108361937590738,
+      "ci95": [
+        -0.10456185713208273,
+        0.05672227520883366
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-tri",
+      "metric": "precision5",
+      "pairedQueries": 20,
+      "difference": 0.019999999999999993,
+      "ci95": [
+        -0.02,
+        0.059999999999999984
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-tri",
+      "metric": "recall5",
+      "pairedQueries": 16,
+      "difference": 0.006001984126984128,
+      "ci95": [
+        -0.02040816326530612,
+        0.028209876543209854
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5",
+      "pairedQueries": 19,
+      "difference": 0.04225088834411092,
+      "ci95": [
+        0.01190028514478898,
+        0.07456306768426874
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": [
+        0.00525153397510306,
+        0.08112844785112819
+      ],
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-tri",
+      "metric": "recall5Eligible",
+      "pairedQueries": 15,
+      "difference": 0.010264550264550261,
+      "ci95": [
+        -0.028576097105508874,
+        0.043475334578275744
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    },
+    {
+      "area": "TOTAL",
+      "comparison": "unificado-tri",
+      "metric": "ndcg5Eligible",
+      "pairedQueries": 18,
+      "difference": 0.04587943338167952,
+      "ci95": [
+        0.013283705467472814,
+        0.07985584220678132
+      ],
+      "ci9833ForThreePrimaryNDCGComparisons": null,
+      "scope": "inferência exploratória condicional a estas consultas e metadados, não ganho pedagógico"
+    }
+  ],
+  "queryCoverage": [
+    {
+      "query": "gq_573be4c0214abb9a0cd30bee",
+      "area": "CN",
+      "skill": 20,
+      "competence": 6,
+      "L": 49,
+      "K": 43,
+      "E0": 27,
+      "E": 26,
+      "coverageKnown": 0.8775510204081632,
+      "coverageEligible": 0.6046511627906976,
+      "unknown": 6,
+      "positivesK": 18,
+      "positivesE": 10
+    },
+    {
+      "query": "gq_da4879eadde48a351e753299",
+      "area": "CN",
+      "skill": 25,
+      "competence": 7,
+      "L": 50,
+      "K": 48,
+      "E0": 34,
+      "E": 33,
+      "coverageKnown": 0.96,
+      "coverageEligible": 0.6875,
+      "unknown": 2,
+      "positivesK": 4,
+      "positivesE": 3
+    },
+    {
+      "query": "gq_cca3bb0cbd69d678ae73be07",
+      "area": "CN",
+      "skill": 6,
+      "competence": 2,
+      "L": 40,
+      "K": 34,
+      "E0": 23,
+      "E": 21,
+      "coverageKnown": 0.85,
+      "coverageEligible": 0.6176470588235294,
+      "unknown": 6,
+      "positivesK": 6,
+      "positivesE": 4
+    },
+    {
+      "query": "gq_18ae113884cb4963cc6e6a51",
+      "area": "CN",
+      "skill": 2,
+      "competence": 1,
+      "L": 50,
+      "K": 46,
+      "E0": 31,
+      "E": 29,
+      "coverageKnown": 0.92,
+      "coverageEligible": 0.6304347826086957,
+      "unknown": 4,
+      "positivesK": 0,
+      "positivesE": 0
+    },
+    {
+      "query": "gq_cbc37301210949f56ff47490",
+      "area": "CN",
+      "skill": 22,
+      "competence": 6,
+      "L": 12,
+      "K": 10,
+      "E0": 9,
+      "E": 7,
+      "coverageKnown": 0.8333333333333334,
+      "coverageEligible": 0.7,
+      "unknown": 2,
+      "positivesK": 1,
+      "positivesE": 1
+    },
+    {
+      "query": "gq_c08424af10f755073428f081",
+      "area": "CH",
+      "skill": 1,
+      "competence": 1,
+      "L": 17,
+      "K": 16,
+      "E0": 13,
+      "E": 13,
+      "coverageKnown": 0.9411764705882353,
+      "coverageEligible": 0.8125,
+      "unknown": 1,
+      "positivesK": 8,
+      "positivesE": 6
+    },
+    {
+      "query": "gq_5972b4f98b5ab23d0354c7e7",
+      "area": "CH",
+      "skill": 24,
+      "competence": 5,
+      "L": 7,
+      "K": 7,
+      "E0": 5,
+      "E": 5,
+      "coverageKnown": 1,
+      "coverageEligible": 0.7142857142857143,
+      "unknown": 0,
+      "positivesK": 0,
+      "positivesE": 0
+    },
+    {
+      "query": "gq_72b3f38fe54fd2d1da85c962",
+      "area": "CH",
+      "skill": 21,
+      "competence": 5,
+      "L": 10,
+      "K": 9,
+      "E0": 3,
+      "E": 3,
+      "coverageKnown": 0.9,
+      "coverageEligible": 0.3333333333333333,
+      "unknown": 1,
+      "positivesK": 3,
+      "positivesE": 2
+    },
+    {
+      "query": "gq_708ed13d3f9bfd2bf3587b2d",
+      "area": "CH",
+      "skill": 29,
+      "competence": 6,
+      "L": 29,
+      "K": 26,
+      "E0": 18,
+      "E": 16,
+      "coverageKnown": 0.896551724137931,
+      "coverageEligible": 0.6153846153846154,
+      "unknown": 3,
+      "positivesK": 0,
+      "positivesE": 0
+    },
+    {
+      "query": "gq_3e12e59642a0049288fdf3cb",
+      "area": "CH",
+      "skill": 20,
+      "competence": 4,
+      "L": 10,
+      "K": 9,
+      "E0": 3,
+      "E": 3,
+      "coverageKnown": 0.9,
+      "coverageEligible": 0.3333333333333333,
+      "unknown": 1,
+      "positivesK": 0,
+      "positivesE": 0
+    },
+    {
+      "query": "gq_38d3378a0ae8007bb8f2006e",
+      "area": "LC",
+      "skill": 13,
+      "competence": 4,
+      "L": 50,
+      "K": 46,
+      "E0": 31,
+      "E": 31,
+      "coverageKnown": 0.92,
+      "coverageEligible": 0.6739130434782609,
+      "unknown": 4,
+      "positivesK": 10,
+      "positivesE": 7
+    },
+    {
+      "query": "gq_6685062e05916effaf248a05",
+      "area": "LC",
+      "skill": 8,
+      "competence": 2,
+      "L": 50,
+      "K": 50,
+      "E0": 38,
+      "E": 38,
+      "coverageKnown": 1,
+      "coverageEligible": 0.76,
+      "unknown": 0,
+      "positivesK": 12,
+      "positivesE": 9
+    },
+    {
+      "query": "gq_1cea5428d65076203a8b43c0",
+      "area": "LC",
+      "skill": 25,
+      "competence": 8,
+      "L": 50,
+      "K": 47,
+      "E0": 34,
+      "E": 34,
+      "coverageKnown": 0.94,
+      "coverageEligible": 0.723404255319149,
+      "unknown": 3,
+      "positivesK": 12,
+      "positivesE": 8
+    },
+    {
+      "query": "gq_2c4cc0cb4d4c1021033e123d",
+      "area": "LC",
+      "skill": 4,
+      "competence": 1,
+      "L": 50,
+      "K": 48,
+      "E0": 37,
+      "E": 37,
+      "coverageKnown": 0.96,
+      "coverageEligible": 0.7708333333333334,
+      "unknown": 2,
+      "positivesK": 1,
+      "positivesE": 0
+    },
+    {
+      "query": "gq_2c446af4206968983b214fe6",
+      "area": "LC",
+      "skill": 11,
+      "competence": 3,
+      "L": 25,
+      "K": 24,
+      "E0": 15,
+      "E": 15,
+      "coverageKnown": 0.96,
+      "coverageEligible": 0.625,
+      "unknown": 1,
+      "positivesK": 7,
+      "positivesE": 5
+    },
+    {
+      "query": "gq_e568a0621741ed5a33154bce",
+      "area": "MT",
+      "skill": 4,
+      "competence": 1,
+      "L": 50,
+      "K": 48,
+      "E0": 23,
+      "E": 23,
+      "coverageKnown": 0.96,
+      "coverageEligible": 0.4791666666666667,
+      "unknown": 2,
+      "positivesK": 1,
+      "positivesE": 1
+    },
+    {
+      "query": "gq_cb62fed208037d84d1c10dcd",
+      "area": "MT",
+      "skill": 13,
+      "competence": 3,
+      "L": 50,
+      "K": 49,
+      "E0": 21,
+      "E": 21,
+      "coverageKnown": 0.98,
+      "coverageEligible": 0.42857142857142855,
+      "unknown": 1,
+      "positivesK": 4,
+      "positivesE": 3
+    },
+    {
+      "query": "gq_fb25ccf866fab6af4a1400de",
+      "area": "MT",
+      "skill": 17,
+      "competence": 4,
+      "L": 50,
+      "K": 47,
+      "E0": 24,
+      "E": 24,
+      "coverageKnown": 0.94,
+      "coverageEligible": 0.5106382978723404,
+      "unknown": 3,
+      "positivesK": 8,
+      "positivesE": 4
+    },
+    {
+      "query": "gq_e26131a4ebb9833e36ffb6b4",
+      "area": "MT",
+      "skill": 21,
+      "competence": 5,
+      "L": 50,
+      "K": 47,
+      "E0": 21,
+      "E": 21,
+      "coverageKnown": 0.94,
+      "coverageEligible": 0.44680851063829785,
+      "unknown": 3,
+      "positivesK": 6,
+      "positivesE": 3
+    },
+    {
+      "query": "gq_e0383e8e0f5f8de662c3f39f",
+      "area": "MT",
+      "skill": 11,
+      "competence": 3,
+      "L": 47,
+      "K": 46,
+      "E0": 29,
+      "E": 29,
+      "coverageKnown": 0.9787234042553191,
+      "coverageEligible": 0.6304347826086957,
+      "unknown": 1,
+      "positivesK": 11,
+      "positivesE": 7
+    }
+  ],
+  "bootstrapReps": 2000,
+  "sourceKnownPairs": 700,
+  "sourcePairs": 746,
+  "productionChanged": false
+}

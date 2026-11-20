@@ -1,0 +1,37 @@
+{
+  "reason": "Usuário confirmou que ainda não há dois avaliadores definidos; 0 de 1492 notas e nenhuma qualificação documentada.",
+  "rows": [
+    {
+      "kind": "aleatorio",
+      "precision5": null,
+      "recall5": null,
+      "ndcg5": null,
+      "humanQueriesEvaluated": 0,
+      "humanJudgments": 0
+    },
+    {
+      "kind": "semantico",
+      "precision5": null,
+      "recall5": null,
+      "ndcg5": null,
+      "humanQueriesEvaluated": 0,
+      "humanJudgments": 0
+    },
+    {
+      "kind": "tri",
+      "precision5": null,
+      "recall5": null,
+      "ndcg5": null,
+      "humanQueriesEvaluated": 0,
+      "humanJudgments": 0
+    },
+    {
+      "kind": "unificado",
+      "precision5": null,
+      "recall5": null,
+      "ndcg5": null,
+      "humanQueriesEvaluated": 0,
+      "humanJudgments": 0
+    }
+  ]
+}

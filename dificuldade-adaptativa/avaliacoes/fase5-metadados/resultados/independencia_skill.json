@@ -1,0 +1,107 @@
+{
+  "scope": "teste técnico em memória; nenhuma escrita no dataset ou modelo",
+  "queries": 20,
+  "checks": [
+    {
+      "query": "gq_573be4c0214abb9a0cd30bee",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_da4879eadde48a351e753299",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_cca3bb0cbd69d678ae73be07",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_18ae113884cb4963cc6e6a51",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_cbc37301210949f56ff47490",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_c08424af10f755073428f081",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_5972b4f98b5ab23d0354c7e7",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_72b3f38fe54fd2d1da85c962",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_708ed13d3f9bfd2bf3587b2d",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_3e12e59642a0049288fdf3cb",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_38d3378a0ae8007bb8f2006e",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_6685062e05916effaf248a05",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_1cea5428d65076203a8b43c0",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_2c4cc0cb4d4c1021033e123d",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_2c446af4206968983b214fe6",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_e568a0621741ed5a33154bce",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_cb62fed208037d84d1c10dcd",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_fb25ccf866fab6af4a1400de",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_e26131a4ebb9833e36ffb6b4",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    },
+    {
+      "query": "gq_e0383e8e0f5f8de662c3f39f",
+      "rankingIdentical": true,
+      "encoderTextIdentical": true
+    }
+  ],
+  "conclusion": "Campo skill não influencia a inferência atual nem o texto do encoder nas consultas testadas. Não prova ausência de uso em decisões históricas de desenvolvimento."
+}

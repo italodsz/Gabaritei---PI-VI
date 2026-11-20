@@ -1,0 +1,278 @@
+{
+  "datasetSHA256": "6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f",
+  "records": 3086,
+  "statuses": {
+    "habilidade_ausente_na_fonte": 195,
+    "confirmada_na_copia_tabular": 2891
+  },
+  "perYear": [
+    {
+      "year": 2009,
+      "records": 174,
+      "known": 86
+    },
+    {
+      "year": 2010,
+      "records": 170,
+      "known": 170
+    },
+    {
+      "year": 2011,
+      "records": 181,
+      "known": 181
+    },
+    {
+      "year": 2012,
+      "records": 183,
+      "known": 183
+    },
+    {
+      "year": 2013,
+      "records": 181,
+      "known": 181
+    },
+    {
+      "year": 2014,
+      "records": 180,
+      "known": 180
+    },
+    {
+      "year": 2015,
+      "records": 288,
+      "known": 181
+    },
+    {
+      "year": 2016,
+      "records": 290,
+      "known": 290
+    },
+    {
+      "year": 2017,
+      "records": 179,
+      "known": 179
+    },
+    {
+      "year": 2018,
+      "records": 182,
+      "known": 182
+    },
+    {
+      "year": 2019,
+      "records": 180,
+      "known": 180
+    },
+    {
+      "year": 2020,
+      "records": 179,
+      "known": 179
+    },
+    {
+      "year": 2021,
+      "records": 178,
+      "known": 178
+    },
+    {
+      "year": 2022,
+      "records": 177,
+      "known": 177
+    },
+    {
+      "year": 2023,
+      "records": 180,
+      "known": 180
+    },
+    {
+      "year": 2024,
+      "records": 184,
+      "known": 184
+    }
+  ],
+  "perArea": [
+    {
+      "area": "CN",
+      "records": 744,
+      "known": 677
+    },
+    {
+      "area": "CH",
+      "records": 780,
+      "known": 700
+    },
+    {
+      "area": "LC",
+      "records": 835,
+      "known": 808
+    },
+    {
+      "area": "MT",
+      "records": 727,
+      "known": 706
+    }
+  ],
+  "frozenQueryCoverage": [
+    {
+      "query": "gq_573be4c0214abb9a0cd30bee",
+      "area": "CN",
+      "queryReferenceValid": true,
+      "frozenCandidates": 49,
+      "candidateLabelsKnown": 43
+    },
+    {
+      "query": "gq_da4879eadde48a351e753299",
+      "area": "CN",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 48
+    },
+    {
+      "query": "gq_cca3bb0cbd69d678ae73be07",
+      "area": "CN",
+      "queryReferenceValid": true,
+      "frozenCandidates": 40,
+      "candidateLabelsKnown": 34
+    },
+    {
+      "query": "gq_18ae113884cb4963cc6e6a51",
+      "area": "CN",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 46
+    },
+    {
+      "query": "gq_cbc37301210949f56ff47490",
+      "area": "CN",
+      "queryReferenceValid": true,
+      "frozenCandidates": 12,
+      "candidateLabelsKnown": 10
+    },
+    {
+      "query": "gq_c08424af10f755073428f081",
+      "area": "CH",
+      "queryReferenceValid": true,
+      "frozenCandidates": 17,
+      "candidateLabelsKnown": 16
+    },
+    {
+      "query": "gq_5972b4f98b5ab23d0354c7e7",
+      "area": "CH",
+      "queryReferenceValid": true,
+      "frozenCandidates": 7,
+      "candidateLabelsKnown": 7
+    },
+    {
+      "query": "gq_72b3f38fe54fd2d1da85c962",
+      "area": "CH",
+      "queryReferenceValid": true,
+      "frozenCandidates": 10,
+      "candidateLabelsKnown": 9
+    },
+    {
+      "query": "gq_708ed13d3f9bfd2bf3587b2d",
+      "area": "CH",
+      "queryReferenceValid": true,
+      "frozenCandidates": 29,
+      "candidateLabelsKnown": 26
+    },
+    {
+      "query": "gq_3e12e59642a0049288fdf3cb",
+      "area": "CH",
+      "queryReferenceValid": true,
+      "frozenCandidates": 10,
+      "candidateLabelsKnown": 9
+    },
+    {
+      "query": "gq_38d3378a0ae8007bb8f2006e",
+      "area": "LC",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 46
+    },
+    {
+      "query": "gq_6685062e05916effaf248a05",
+      "area": "LC",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 50
+    },
+    {
+      "query": "gq_1cea5428d65076203a8b43c0",
+      "area": "LC",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 47
+    },
+    {
+      "query": "gq_2c4cc0cb4d4c1021033e123d",
+      "area": "LC",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 48
+    },
+    {
+      "query": "gq_2c446af4206968983b214fe6",
+      "area": "LC",
+      "queryReferenceValid": true,
+      "frozenCandidates": 25,
+      "candidateLabelsKnown": 24
+    },
+    {
+      "query": "gq_e568a0621741ed5a33154bce",
+      "area": "MT",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 48
+    },
+    {
+      "query": "gq_cb62fed208037d84d1c10dcd",
+      "area": "MT",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 49
+    },
+    {
+      "query": "gq_fb25ccf866fab6af4a1400de",
+      "area": "MT",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 47
+    },
+    {
+      "query": "gq_e26131a4ebb9833e36ffb6b4",
+      "area": "MT",
+      "queryReferenceValid": true,
+      "frozenCandidates": 50,
+      "candidateLabelsKnown": 47
+    },
+    {
+      "query": "gq_e0383e8e0f5f8de662c3f39f",
+      "area": "MT",
+      "queryReferenceValid": true,
+      "frozenCandidates": 47,
+      "candidateLabelsKnown": 46
+    }
+  ],
+  "forms": [
+    {
+      "reviewer": "A",
+      "pairs": 746,
+      "validGrades": 0,
+      "reviewerIdentifications": 0,
+      "sha256": "609c5d6b28dceee6667ec78a812ad2d951703596e1cbe41f36859effd137f02e",
+      "blindingColumnsOK": true,
+      "duplicatePairs": 0
+    },
+    {
+      "reviewer": "B",
+      "pairs": 746,
+      "validGrades": 0,
+      "reviewerIdentifications": 0,
+      "sha256": "e296a8c3eb8d8a3baf96b3509a3a0b636d56d4f3815e69ad25d637b777db4cf8",
+      "blindingColumnsOK": true,
+      "duplicatePairs": 0
+    }
+  ],
+  "qualificationDocumentsFound": [],
+  "humanAssessorsAssigned": false,
+  "humanJudgmentsReceived": 0,
+  "sourceLimit": "Fontes locais atribuídas ao INEP e conferência estrutural; não nova aquisição das tabelas nem certificação humana do vínculo texto-item."
+}

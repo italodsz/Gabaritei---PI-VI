@@ -1,0 +1,71 @@
+{
+  "reference": "metadados confirmados nas cópias ITENS_PROVA + mapa competência por área",
+  "labelRules": {
+    "0": "outra competência na mesma área",
+    "1": "mesma área e competência, habilidade diferente",
+    "2": "mesma área e habilidade"
+  },
+  "unknownRule": "excluir do universo condicionado, nunca transformar em 0",
+  "profile": {
+    "theta": 0,
+    "dp": 0.25,
+    "n": 80,
+    "natureza": "controlado, não estudante real"
+  },
+  "queries": [
+    "gq_573be4c0214abb9a0cd30bee",
+    "gq_da4879eadde48a351e753299",
+    "gq_cca3bb0cbd69d678ae73be07",
+    "gq_18ae113884cb4963cc6e6a51",
+    "gq_cbc37301210949f56ff47490",
+    "gq_c08424af10f755073428f081",
+    "gq_5972b4f98b5ab23d0354c7e7",
+    "gq_72b3f38fe54fd2d1da85c962",
+    "gq_708ed13d3f9bfd2bf3587b2d",
+    "gq_3e12e59642a0049288fdf3cb",
+    "gq_38d3378a0ae8007bb8f2006e",
+    "gq_6685062e05916effaf248a05",
+    "gq_1cea5428d65076203a8b43c0",
+    "gq_2c4cc0cb4d4c1021033e123d",
+    "gq_2c446af4206968983b214fe6",
+    "gq_e568a0621741ed5a33154bce",
+    "gq_cb62fed208037d84d1c10dcd",
+    "gq_fb25ccf866fab6af4a1400de",
+    "gq_e26131a4ebb9833e36ffb6b4",
+    "gq_e0383e8e0f5f8de662c3f39f"
+  ],
+  "randomSeeds": 20,
+  "seedRule": "seedOf(qid)+0..19",
+  "bootstrap": {
+    "reps": 2000,
+    "seed": 20261118,
+    "stratifiedByArea": true,
+    "nestedRandomSeeds": true
+  },
+  "policyFrozen": {
+    "versao": "unificado-4b-v1",
+    "pesos": {
+      "semantica": 0.4,
+      "tri": 0.6
+    },
+    "relevancia": {
+      "inicial": 0.65,
+      "piso": 0.4,
+      "pesoEscore": 0.7
+    },
+    "tri": {
+      "centroRelativoB": -0.25,
+      "largura": 1,
+      "margens": [
+        1.25,
+        2.5
+      ],
+      "minEvidencias": 15,
+      "dpReferencia": 0.6
+    },
+    "limite": 5,
+    "politica": "heuristica de engenharia, não otimizada cientificamente"
+  },
+  "qualityScope": "alinhamento à matriz, não relevância humana",
+  "productionChanges": false
+}

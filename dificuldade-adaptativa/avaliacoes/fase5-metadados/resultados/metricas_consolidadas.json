@@ -1,0 +1,481 @@
+{
+  "profileSummary": [
+    {
+      "area": "TOTAL",
+      "profile": "novo",
+      "queries": 68,
+      "empty": 0,
+      "incomplete": 1,
+      "meanB": 1.2471729901960789,
+      "meanDP": 0.8234344750076199
+    },
+    {
+      "area": "TOTAL",
+      "profile": "poucas",
+      "queries": 68,
+      "empty": 0,
+      "incomplete": 2,
+      "meanB": 0.6109502549019608,
+      "meanDP": 0.8234344750076199
+    },
+    {
+      "area": "TOTAL",
+      "profile": "baixo",
+      "queries": 68,
+      "empty": 4,
+      "incomplete": 29,
+      "meanB": 0.1467698567708334,
+      "meanDP": 0.24999999999999994
+    },
+    {
+      "area": "TOTAL",
+      "profile": "medio",
+      "queries": 68,
+      "empty": 0,
+      "incomplete": 2,
+      "meanB": 0.42753493137254894,
+      "meanDP": 0.24999999999999994
+    },
+    {
+      "area": "TOTAL",
+      "profile": "alto",
+      "queries": 68,
+      "empty": 0,
+      "incomplete": 1,
+      "meanB": 1.2311611078431373,
+      "meanDP": 0.24999999999999994
+    },
+    {
+      "area": "TOTAL",
+      "profile": "incerto",
+      "queries": 68,
+      "empty": 0,
+      "incomplete": 2,
+      "meanB": 0.5058524901960785,
+      "meanDP": 1.1941948517330119
+    }
+  ],
+  "monotonicComparisons": 64,
+  "monotonicExceptions": 0,
+  "catalogCoverage": {
+    "ids": 742,
+    "denominatorTri": 1885,
+    "denominatorPractice": 2657
+  },
+  "calibration": {
+    "students": 40,
+    "eligible": 800,
+    "activity": 920,
+    "rejected": 80,
+    "point": {
+      "brier": 0.17888802767957032,
+      "logLoss": 0.538596513778941
+    },
+    "intervals": {
+      "brier": [
+        0.16435578444594295,
+        0.19497306559641175
+      ],
+      "logLoss": [
+        0.5047777793556172,
+        0.5754674551598715
+      ]
+    }
+  },
+  "labels": {
+    "original": 45,
+    "eligible": 32,
+    "excluded": 13,
+    "queries": 7,
+    "scope": "desenvolvimento já exposto"
+  },
+  "ranking": [
+    {
+      "kind": "aleatorio",
+      "queries": 7,
+      "runs": 140,
+      "judgedPositions": 44,
+      "returnedPositions": 700,
+      "fullyJudgedTop5": 0,
+      "precision5Final": null,
+      "recall5Final": null,
+      "ndcg5Final": null,
+      "meanPrecisionLower": 0.002857142857142857,
+      "meanPrecisionUpper": 0.9400000000000001
+    },
+    {
+      "kind": "semantico",
+      "queries": 7,
+      "runs": 7,
+      "judgedPositions": 5,
+      "returnedPositions": 35,
+      "fullyJudgedTop5": 0,
+      "precision5Final": null,
+      "recall5Final": null,
+      "ndcg5Final": null,
+      "meanPrecisionLower": 0.028571428571428574,
+      "meanPrecisionUpper": 0.8857142857142857
+    },
+    {
+      "kind": "tri",
+      "queries": 7,
+      "runs": 7,
+      "judgedPositions": 2,
+      "returnedPositions": 35,
+      "fullyJudgedTop5": 0,
+      "precision5Final": null,
+      "recall5Final": null,
+      "ndcg5Final": null,
+      "meanPrecisionLower": 0,
+      "meanPrecisionUpper": 0.9428571428571428
+    },
+    {
+      "kind": "unificado",
+      "queries": 7,
+      "runs": 7,
+      "judgedPositions": 2,
+      "returnedPositions": 35,
+      "fullyJudgedTop5": 0,
+      "precision5Final": null,
+      "recall5Final": null,
+      "ndcg5Final": null,
+      "meanPrecisionLower": 0.028571428571428574,
+      "meanPrecisionUpper": 0.9714285714285714
+    }
+  ],
+  "sensitivity": [
+    {
+      "variant": "centro0",
+      "runs": 236,
+      "top1Change": 0.288135593220339,
+      "top1ChangeBothNonempty": 0.288135593220339,
+      "meanJaccard": 0.7444007263922517,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "centro_menos05",
+      "runs": 236,
+      "top1Change": 0.2584745762711864,
+      "top1ChangeBothNonempty": 0.2584745762711864,
+      "meanJaccard": 0.7497343287597524,
+      "listSizeChanged": 2
+    },
+    {
+      "variant": "margem2",
+      "runs": 236,
+      "top1Change": 0.11016949152542373,
+      "top1ChangeBothNonempty": 0.11016949152542373,
+      "meanJaccard": 0.8789850686037126,
+      "listSizeChanged": 5
+    },
+    {
+      "variant": "margem35",
+      "runs": 236,
+      "top1Change": 0.07627118644067797,
+      "top1ChangeBothNonempty": 0.07627118644067797,
+      "meanJaccard": 0.8924199623352166,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "min30",
+      "runs": 236,
+      "top1Change": 0.01694915254237288,
+      "top1ChangeBothNonempty": 0.01694915254237288,
+      "meanJaccard": 0.9693301049233253,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "min5",
+      "runs": 236,
+      "top1Change": 0.07627118644067797,
+      "top1ChangeBothNonempty": 0.07627118644067797,
+      "meanJaccard": 0.9366424535916061,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "piso02",
+      "runs": 236,
+      "top1Change": 0,
+      "top1ChangeBothNonempty": 0,
+      "meanJaccard": 1,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "piso06",
+      "runs": 236,
+      "top1Change": 0,
+      "top1ChangeBothNonempty": 0,
+      "meanJaccard": 0.9915254237288136,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "semantica20",
+      "runs": 236,
+      "top1Change": 0.2627118644067797,
+      "top1ChangeBothNonempty": 0.2627118644067797,
+      "meanJaccard": 0.8004439063761097,
+      "listSizeChanged": 0
+    },
+    {
+      "variant": "semantica70",
+      "runs": 236,
+      "top1Change": 0.2754237288135593,
+      "top1ChangeBothNonempty": 0.2754237288135593,
+      "meanJaccard": 0.7690677966101694,
+      "listSizeChanged": 0
+    }
+  ],
+  "baselines": [
+    {
+      "area": "CN",
+      "kind": "aleatorio",
+      "queries": 16,
+      "meanAbsBTheta": 1.18786803125,
+      "medianAbsBTheta": 1.200031,
+      "q25": 1.032099675,
+      "q75": 1.375945225,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CN",
+      "kind": "semantico",
+      "queries": 16,
+      "meanAbsBTheta": 1.1985881250000001,
+      "medianAbsBTheta": 1.2656,
+      "q25": 0.928469,
+      "q75": 1.4701385,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CN",
+      "kind": "tri",
+      "queries": 16,
+      "meanAbsBTheta": 0.510311375,
+      "medianAbsBTheta": 0.5068170000000001,
+      "q25": 0.29040699999999997,
+      "q75": 0.6192850000000001,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CN",
+      "kind": "unificado",
+      "queries": 16,
+      "meanAbsBTheta": 0.5416015,
+      "medianAbsBTheta": 0.5109220000000001,
+      "q25": 0.40837899999999994,
+      "q75": 0.6192850000000001,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CH",
+      "kind": "aleatorio",
+      "queries": 26,
+      "meanAbsBTheta": 1.095039532051282,
+      "medianAbsBTheta": 1.06752675,
+      "q25": 1.0028955499999999,
+      "q75": 1.1986750750000001,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CH",
+      "kind": "semantico",
+      "queries": 26,
+      "meanAbsBTheta": 1.147852358974359,
+      "medianAbsBTheta": 1.173861,
+      "q25": 1.0696549999999998,
+      "q75": 1.348592,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CH",
+      "kind": "tri",
+      "queries": 26,
+      "meanAbsBTheta": 0.5719235128205128,
+      "medianAbsBTheta": 0.45556499999999994,
+      "q25": 0.35732050000000004,
+      "q75": 0.8201775,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "CH",
+      "kind": "unificado",
+      "queries": 26,
+      "meanAbsBTheta": 0.5833418205128205,
+      "medianAbsBTheta": 0.505115,
+      "q25": 0.355939,
+      "q75": 0.8201775,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "LC",
+      "kind": "aleatorio",
+      "queries": 17,
+      "meanAbsBTheta": 0.8298664235294118,
+      "medianAbsBTheta": 0.8214753,
+      "q25": 0.7186522,
+      "q75": 0.9530079,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "LC",
+      "kind": "semantico",
+      "queries": 17,
+      "meanAbsBTheta": 0.8895644705882353,
+      "medianAbsBTheta": 0.976614,
+      "q25": 0.721254,
+      "q75": 1.052102,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "LC",
+      "kind": "tri",
+      "queries": 17,
+      "meanAbsBTheta": 0.2759605882352941,
+      "medianAbsBTheta": 0.24314399999999997,
+      "q25": 0.21238200000000002,
+      "q75": 0.28001400000000004,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "LC",
+      "kind": "unificado",
+      "queries": 17,
+      "meanAbsBTheta": 0.3057584705882353,
+      "medianAbsBTheta": 0.282334,
+      "q25": 0.22559199999999996,
+      "q75": 0.329214,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "MT",
+      "kind": "aleatorio",
+      "queries": 9,
+      "meanAbsBTheta": 1.4544043777777778,
+      "medianAbsBTheta": 1.4356601,
+      "q25": 1.3182450000000001,
+      "q75": 1.6225258,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "MT",
+      "kind": "semantico",
+      "queries": 9,
+      "meanAbsBTheta": 1.3163217777777778,
+      "medianAbsBTheta": 1.3161200000000002,
+      "q25": 1.1284759999999998,
+      "q75": 1.5726559999999998,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "MT",
+      "kind": "tri",
+      "queries": 9,
+      "meanAbsBTheta": 0.8059428888888889,
+      "medianAbsBTheta": 0.638574,
+      "q25": 0.606352,
+      "q75": 1.057246,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "MT",
+      "kind": "unificado",
+      "queries": 9,
+      "meanAbsBTheta": 0.857882,
+      "medianAbsBTheta": 0.7304160000000001,
+      "q25": 0.638574,
+      "q75": 1.110332,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "TOTAL",
+      "kind": "aleatorio",
+      "queries": 68,
+      "meanAbsBTheta": 1.098151249019608,
+      "medianAbsBTheta": 1.0631952500000001,
+      "q25": 0.922149425,
+      "q75": 1.2670813500000002,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "TOTAL",
+      "kind": "semantico",
+      "queries": 68,
+      "meanAbsBTheta": 1.117515637254902,
+      "medianAbsBTheta": 1.1286239999999998,
+      "q25": 0.9526595,
+      "q75": 1.3543180000000001,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "TOTAL",
+      "kind": "tri",
+      "queries": 68,
+      "meanAbsBTheta": 0.5144089607843138,
+      "medianAbsBTheta": 0.411628,
+      "q25": 0.25179149999999995,
+      "q75": 0.633999,
+      "metricNature": "proxy interno, não qualidade independente"
+    },
+    {
+      "area": "TOTAL",
+      "kind": "unificado",
+      "queries": 68,
+      "meanAbsBTheta": 0.540460931372549,
+      "medianAbsBTheta": 0.47689400000000004,
+      "q25": 0.31228849999999997,
+      "q75": 0.6574245000000001,
+      "metricNature": "proxy interno, não qualidade independente"
+    }
+  ],
+  "novelty": {
+    "sessions": 204,
+    "improperRepetitions": 0,
+    "zeroAfterExhaust": 204
+  },
+  "humanProtocol": {
+    "queries": 20,
+    "pairsPerReviewer": 746,
+    "areas": {
+      "CN": 5,
+      "CH": 5,
+      "LC": 5,
+      "MT": 5
+    },
+    "existingHumanAnswersUsedAsTruth": false,
+    "finalJudgmentsReceived": 0
+  },
+  "grades": [
+    {
+      "dimension": "A - Integridade técnica",
+      "classification": "APROVADO",
+      "reason": "98 regressões, coorte ampliada, idempotência e teste ponta a ponta passaram."
+    },
+    {
+      "dimension": "B - Funcionamento",
+      "classification": "APROVADO COM RESSALVAS",
+      "reason": "Integração e influência de proficiência demonstradas; estoque e alcance limitados."
+    },
+    {
+      "dimension": "C - Qualidade de recomendação",
+      "classification": "REPROVADO",
+      "reason": "Ausência de julgamentos finais independentes e completos; métricas finais de ranking indisponíveis."
+    },
+    {
+      "dimension": "D - Calibração e proficiência",
+      "classification": "REPROVADO",
+      "reason": "Consistência sintética comprovada; ausência de respostas reais para calibração e diagnóstico empíricos."
+    },
+    {
+      "dimension": "E - Requisito acadêmico de IA",
+      "classification": "APROVADO COM RESSALVAS",
+      "reason": "Treinamento BKT e neural histórico documentado, TF-IDF ajustado presente; modelos históricos não são a política 4B, enquadramento acadêmico requer aceite do professor."
+    },
+    {
+      "dimension": "F - Prontidão do MVP",
+      "classification": "APROVADO COM RESSALVAS",
+      "reason": "Demonstração local autenticada reproduzida com persistência e isolamento; infraestrutura/autenticação definitiva e piloto real pendentes."
+    }
+  ],
+  "overall": "REPROVADO para homologação integral por falta de evidências essenciais de qualidade/calibração real; MVP funcional demonstrável",
+  "productionUnchanged": true
+}

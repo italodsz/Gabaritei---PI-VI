@@ -1,0 +1,3759 @@
+{
+  "scope": "toda lista congelada titulo_area de cada referência, máximo 50; Recall restrito a esse universo, não catálogo global",
+  "queries": [
+    "gq_573be4c0214abb9a0cd30bee",
+    "gq_da4879eadde48a351e753299",
+    "gq_cca3bb0cbd69d678ae73be07",
+    "gq_18ae113884cb4963cc6e6a51",
+    "gq_cbc37301210949f56ff47490",
+    "gq_c08424af10f755073428f081",
+    "gq_5972b4f98b5ab23d0354c7e7",
+    "gq_72b3f38fe54fd2d1da85c962",
+    "gq_708ed13d3f9bfd2bf3587b2d",
+    "gq_3e12e59642a0049288fdf3cb",
+    "gq_38d3378a0ae8007bb8f2006e",
+    "gq_6685062e05916effaf248a05",
+    "gq_1cea5428d65076203a8b43c0",
+    "gq_2c4cc0cb4d4c1021033e123d",
+    "gq_2c446af4206968983b214fe6",
+    "gq_e568a0621741ed5a33154bce",
+    "gq_cb62fed208037d84d1c10dcd",
+    "gq_fb25ccf866fab6af4a1400de",
+    "gq_e26131a4ebb9833e36ffb6b4",
+    "gq_e0383e8e0f5f8de662c3f39f"
+  ],
+  "pairs": 746,
+  "key": [
+    {
+      "pair_id": "faa6314e47c64693",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_71015ec85defadfcef5ab114"
+    },
+    {
+      "pair_id": "6a01c54293bc5f89",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_2af81c95a5c9b5a3b44923ae"
+    },
+    {
+      "pair_id": "b7d1cd192d721e10",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_c85fd6fd50d62e89c803e4a1"
+    },
+    {
+      "pair_id": "0e0615d7f38160a6",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_e0c712bafb70e1a7f7d1667b"
+    },
+    {
+      "pair_id": "a5062eb001cdeb7d",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_2dc9c9311a9e06d583e2aba2"
+    },
+    {
+      "pair_id": "d22b16c687b7de14",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_e1e5488f57bb55d206a83945"
+    },
+    {
+      "pair_id": "c00e3bd1b3e469e0",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_77c2a28db7f10ed76f3f82a9"
+    },
+    {
+      "pair_id": "45b935ca12cfe6a1",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_fd244e8b5faecad1a2a63317"
+    },
+    {
+      "pair_id": "63dd5b901e53345d",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_0a5e2c84888565d896d134c9"
+    },
+    {
+      "pair_id": "1a7a90dbd929b0f6",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_0d3ce57c3b9af45f5057bcb2"
+    },
+    {
+      "pair_id": "b9a658b449c42e47",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_0946515301da0df273190e4f"
+    },
+    {
+      "pair_id": "683c645049e3263d",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_7f50c2ce9353a4f0f8e134e4"
+    },
+    {
+      "pair_id": "71ed9b97eac37c62",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_f1a76ce1255a466cfd24c6f6"
+    },
+    {
+      "pair_id": "69468ca26d5983ac",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_baa74567860210dd2f608912"
+    },
+    {
+      "pair_id": "358dcb1aebccb3f6",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_3af689d98d348af2e9a60320"
+    },
+    {
+      "pair_id": "8628e0bd134bd0fc",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_34aa33aa967c62a73b3b4d6a"
+    },
+    {
+      "pair_id": "c9ef74431c524621",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_b24fe8ab0a219b0959c3f0cf"
+    },
+    {
+      "pair_id": "242532ab9c9a2072",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_8e272a8ad234d1fffaf9ea20"
+    },
+    {
+      "pair_id": "3dff592fef8ebff3",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_60371021ced2a791ebd2f7a6"
+    },
+    {
+      "pair_id": "cc3b7d6372e59e47",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_fef9fdfa5584f266b6e809ce"
+    },
+    {
+      "pair_id": "acd8a657a97ca603",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_be0e75409568f353e2b82e78"
+    },
+    {
+      "pair_id": "17177ab5dae2b875",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_cf0426617ddf90a05b7d3450"
+    },
+    {
+      "pair_id": "c0ab9c193ceda37f",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_4d0565792bd6e34b936859df"
+    },
+    {
+      "pair_id": "2a034d8b93f58308",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_f576bfa937226065d2f49d7f"
+    },
+    {
+      "pair_id": "3e35835fbf019765",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_eccd402a39d36f81192bcfb8"
+    },
+    {
+      "pair_id": "55b7d6f46f4edd93",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_4d56d2fd2672f54ff3e545e3"
+    },
+    {
+      "pair_id": "47673c69f79b33cb",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_6051dec828d0634abc86be82"
+    },
+    {
+      "pair_id": "37f623b2509ad74e",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_c8c9e5e88b25520ce8195f5e"
+    },
+    {
+      "pair_id": "46de075296d385a5",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_e4780cdd1b3f8933530c5133"
+    },
+    {
+      "pair_id": "0dcb91af091e5c41",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_1afd5c73c29b04c747a3851b"
+    },
+    {
+      "pair_id": "69929b802be56a46",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_722a88114e6a6d6e17f30ee1"
+    },
+    {
+      "pair_id": "99111e8845b160b4",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_cf15f16c076fceccbc04a730"
+    },
+    {
+      "pair_id": "7a9ed8a7f0bcda28",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_859f03ba5dbad67c56cac393"
+    },
+    {
+      "pair_id": "e14f92782550bfc4",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_6f1e2cb53a0b472dfb7c8056"
+    },
+    {
+      "pair_id": "9e82ec7376081ceb",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_1aa5613ebc9957154d8729fd"
+    },
+    {
+      "pair_id": "b36301967e4d0cb1",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_6d19dbc9413c7ae56b1d321a"
+    },
+    {
+      "pair_id": "84b0fcb52a8b7f5e",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_86ad6d773620c22c55310be6"
+    },
+    {
+      "pair_id": "157fdb15094f8372",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_e5b15520dcef2b99ad20e62e"
+    },
+    {
+      "pair_id": "da1590bf5861f202",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_a339b5bf1ab5b45758e4765d"
+    },
+    {
+      "pair_id": "4da3d6bcc054b6b4",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_8e3882f7423955b6f0f17194"
+    },
+    {
+      "pair_id": "37e9dab6e41b1a55",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_2de10cb738595e7e20e29e3e"
+    },
+    {
+      "pair_id": "690ee25016c7c81e",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_12097225915a9f6725de1661"
+    },
+    {
+      "pair_id": "6324ea8c307dc4c6",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_5c0b909df15b28ff8a7050ec"
+    },
+    {
+      "pair_id": "8b57545f4b5785ab",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_0e9540c3181cd6211d561d90"
+    },
+    {
+      "pair_id": "778031f30161fdfb",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_133af67cdb8f123caeafedba"
+    },
+    {
+      "pair_id": "ad1334b088c50314",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_96c8576189cd45e634f4ae65"
+    },
+    {
+      "pair_id": "ada454c576cd44ea",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_1b85d40fb3b286733fd10110"
+    },
+    {
+      "pair_id": "06358057159749ad",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_d6045b4f0000be40d58ae32d"
+    },
+    {
+      "pair_id": "8133cbbb8cf6457c",
+      "query_id": "gq_573be4c0214abb9a0cd30bee",
+      "candidate_id": "gq_8de14d3766399516002aa9bf"
+    },
+    {
+      "pair_id": "8e7b027a44d32914",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_a6127a474112581363bfdfe0"
+    },
+    {
+      "pair_id": "99b3d13ffb9cba60",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_4460ad61a866ca08c40ab9f2"
+    },
+    {
+      "pair_id": "249aa20eb60ad235",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_4d9d8c959c80c7ef04be9d0d"
+    },
+    {
+      "pair_id": "d0ce39a893ad5479",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_1b1121b14f8836f1bdabd04a"
+    },
+    {
+      "pair_id": "d21e989fed36c571",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_f4cd0ae3fadae8cdc6cf2824"
+    },
+    {
+      "pair_id": "56c4f31a32c1ac1c",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_e6613ff880f22772dc361378"
+    },
+    {
+      "pair_id": "259e2af4c9c4a917",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_1f392d0fa3e94ee4a2316848"
+    },
+    {
+      "pair_id": "999e97794c529ad1",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_cde7c1297fb1dc89c9dc39f5"
+    },
+    {
+      "pair_id": "833871b1cbf93bb9",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_c546e88d7c0bcbbfece307cf"
+    },
+    {
+      "pair_id": "d69a967790e5f4a8",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_e531c86a957705f9c0b53b19"
+    },
+    {
+      "pair_id": "5bc1a258910d4b64",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_5b5b874b35d37897dad811d4"
+    },
+    {
+      "pair_id": "58aa2d88d920e354",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_e0b56f21b11320a46375711d"
+    },
+    {
+      "pair_id": "924b2abeb1b12327",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_cf082619bb5be56acd5c4dbe"
+    },
+    {
+      "pair_id": "095f48c64be862ee",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_730c7be1329c0521fb7e60a5"
+    },
+    {
+      "pair_id": "92015a2bef94e6ca",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_ba47b2be4a421389c5559f61"
+    },
+    {
+      "pair_id": "b85d56f4a5d337bb",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_5a9f012bea609581aeb744d3"
+    },
+    {
+      "pair_id": "8c1b01fa7591bf05",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_8b450e6fa2b9bd3dc511bb74"
+    },
+    {
+      "pair_id": "3ae23448ef5d23d4",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_282c6531b53d707e00655b2c"
+    },
+    {
+      "pair_id": "b3c9eaceec78b882",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_1741507513810ca47a2e4fe4"
+    },
+    {
+      "pair_id": "a08448cc6bf8cdfb",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_3bf3a897d51029bc48db059d"
+    },
+    {
+      "pair_id": "862a9b2a94c79099",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_3fe8b92f903495487c1d668d"
+    },
+    {
+      "pair_id": "d48a4f45dd342bed",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_e4d23ee40c5b87dd64a1153f"
+    },
+    {
+      "pair_id": "dfa90eb90ea47133",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_6f5a341a623f6d88a59edce2"
+    },
+    {
+      "pair_id": "245b40f4040fbfbc",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_028e5b1c15e019673d9c5338"
+    },
+    {
+      "pair_id": "9d6ca4814c692938",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_4eb96198ec249b436c4de300"
+    },
+    {
+      "pair_id": "84740dcee3681e57",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_4d17964f1ff251a502bc81f2"
+    },
+    {
+      "pair_id": "a40cac4c3a55c53a",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_73675769d696787c8314d767"
+    },
+    {
+      "pair_id": "55faf36ce2a844b7",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_74d4ab708a43f98d4acbac86"
+    },
+    {
+      "pair_id": "44d317afa08f0636",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_63e99375ed1cccf9c08d3f28"
+    },
+    {
+      "pair_id": "7c0d6493264350bb",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_ffebaa962dd54ff21200bc10"
+    },
+    {
+      "pair_id": "f0a3b4930df91b46",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_b1f233711963f2d5e4272e58"
+    },
+    {
+      "pair_id": "060ac52a773b2d08",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_6f0e4d22a5ffbd4879c0570f"
+    },
+    {
+      "pair_id": "3c93864ea9468999",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_fffc55b255f3d3aafc110f67"
+    },
+    {
+      "pair_id": "586a86e4f080415f",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_e13944944390dc67122dee75"
+    },
+    {
+      "pair_id": "417e98a79186bdc7",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_6c6595adaf610fd8822d7ceb"
+    },
+    {
+      "pair_id": "4992133498cf4133",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_8e7eff5762fc3d51b5d42d33"
+    },
+    {
+      "pair_id": "9f79242fc6900875",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_a179e264c4ea7c0e64122cc7"
+    },
+    {
+      "pair_id": "d31d9e81007ecf6e",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_2d95d1bc5fcfa7364da555b3"
+    },
+    {
+      "pair_id": "56cfe2b872c6b4d6",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_8990ba51c7470ffeacb13426"
+    },
+    {
+      "pair_id": "137d653d11194fac",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_11fc131196b5af8d95ad4e44"
+    },
+    {
+      "pair_id": "8e9ffe7ff1f50df3",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_ac403d88530fba7d5a61a5df"
+    },
+    {
+      "pair_id": "0095c4c1f2a8a0ab",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_c123ceb2fbdee2e873833c7a"
+    },
+    {
+      "pair_id": "3839b1fdd9c8b632",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_b2e2974da3ef7c98edc60454"
+    },
+    {
+      "pair_id": "14cd2ba5192055ad",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_449031f9993962fac62a60d9"
+    },
+    {
+      "pair_id": "8df4fa8db4143387",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_02ebc8bc8c546bae47864b19"
+    },
+    {
+      "pair_id": "b961b56fc660347c",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_0df24dbc526c5b6c2995d6f9"
+    },
+    {
+      "pair_id": "62d93c47c86f8046",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_5a76fb5f85ad5d965a88ac01"
+    },
+    {
+      "pair_id": "123ad47074f9568f",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_f9ed2b9043bc1a36515733e5"
+    },
+    {
+      "pair_id": "eddb35a0fba766c4",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_292f28dead645148d796798c"
+    },
+    {
+      "pair_id": "83ef4dcfd8c9e99d",
+      "query_id": "gq_da4879eadde48a351e753299",
+      "candidate_id": "gq_2cd2cae522e1c58e0cc7535f"
+    },
+    {
+      "pair_id": "25a82b705b3f4056",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_1b2e69550888950e463949cf"
+    },
+    {
+      "pair_id": "1e32be5569f8e3e3",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_a2519edfbac1fe079116fce3"
+    },
+    {
+      "pair_id": "90aa1f69db32ddb3",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_b1240adf0c8149db36ecac84"
+    },
+    {
+      "pair_id": "435739e381616d6d",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_fda3e678e1a43391e5173c93"
+    },
+    {
+      "pair_id": "1f39cce0398a0b80",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_432594550fb101ecf2b84758"
+    },
+    {
+      "pair_id": "0083cb252a534e43",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_f70ea1d034962f20a150122e"
+    },
+    {
+      "pair_id": "a6ee6e849546b6fd",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_cfa18fb42ba9d3bfbd3e5b44"
+    },
+    {
+      "pair_id": "ba21521a0b03b2ae",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_12463da220d22bf9333f3cc3"
+    },
+    {
+      "pair_id": "16c044b93594fb4e",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_dd07f5028aa271213419944a"
+    },
+    {
+      "pair_id": "4d413bd011c454f5",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_5a6a939d86041f5fbc50f593"
+    },
+    {
+      "pair_id": "81d35015ce814c11",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_a33f4fe20771819240617b7b"
+    },
+    {
+      "pair_id": "c537fd61fefc8a52",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_46b0636e6a4a955b38dc2da0"
+    },
+    {
+      "pair_id": "00ed1c7a67cdb7af",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_4a4066b0af9de274c5247400"
+    },
+    {
+      "pair_id": "6a89ca3b9eeb24eb",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_6de8301e46ab3ca097e37169"
+    },
+    {
+      "pair_id": "ac9563cdd22a5cb9",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_62ec868162443f6cbbc82ec6"
+    },
+    {
+      "pair_id": "6be11f1cfdf1a98d",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_430a66de72a79cf2e4c04809"
+    },
+    {
+      "pair_id": "d123f9eeeddb03fb",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_2c10b3226e39eeeec2c69ef9"
+    },
+    {
+      "pair_id": "64627c6530940b87",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_b173ffb0a224ddf8ed3dbda0"
+    },
+    {
+      "pair_id": "1425a89edbdcf4a1",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_3bb81fe06f6a32b6d0163884"
+    },
+    {
+      "pair_id": "4bb3c3781d4a0a80",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_3c940361ecc9d1dac812c769"
+    },
+    {
+      "pair_id": "ae8378c173c7b27d",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_2bfcce13287daa55e2bb19f0"
+    },
+    {
+      "pair_id": "f2c896e8302c15cc",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_0c3133387b73bfd6f6d9ce68"
+    },
+    {
+      "pair_id": "28c60c1f101ead2e",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_c3ad5ec1f591615283e1dd4a"
+    },
+    {
+      "pair_id": "85d525c1d595e18f",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_3c544eb100c9acbfe8aa8713"
+    },
+    {
+      "pair_id": "68409d8927d93279",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_007b3b763f5813e99dfa1fa6"
+    },
+    {
+      "pair_id": "e095b75c936c2cdb",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_41658219aca967b9bd5bd622"
+    },
+    {
+      "pair_id": "2bd5470cdee8ad2c",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_35c52cd1e456eee66dff8957"
+    },
+    {
+      "pair_id": "4ce160a56fd6b871",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_e2f5c8e6168fc710b38be957"
+    },
+    {
+      "pair_id": "9eceb95590cad547",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_88c641ac3909b70d6abd73a0"
+    },
+    {
+      "pair_id": "f595f858d72bccf7",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_0fb27a38af827ec02ac20659"
+    },
+    {
+      "pair_id": "a65ea8dcd20cef69",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_84a17bebbeab153702a3fa36"
+    },
+    {
+      "pair_id": "1da221d5f6233795",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_e93370c084e20c1382d7479f"
+    },
+    {
+      "pair_id": "6cdf87ae8a7e4f8d",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_527c1d74c33eb21ed2278f4e"
+    },
+    {
+      "pair_id": "715c4cb71ddb05c6",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_71f8a7e400834ae86724e871"
+    },
+    {
+      "pair_id": "aaff37d0e785b3d0",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_23f08c13463322047535c93a"
+    },
+    {
+      "pair_id": "4a21326d934458bd",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_9cc6d606320f8613cdb09f21"
+    },
+    {
+      "pair_id": "fd600afd40322039",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_d768e16ec4e59f90bc211b7e"
+    },
+    {
+      "pair_id": "110823460142de46",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_e148b727493c56805fdaed31"
+    },
+    {
+      "pair_id": "2e881d6c468030cd",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_ed8f107e030f24a1bce9ff47"
+    },
+    {
+      "pair_id": "680846d90efc4f5b",
+      "query_id": "gq_cca3bb0cbd69d678ae73be07",
+      "candidate_id": "gq_9848035c35ce62c069e41779"
+    },
+    {
+      "pair_id": "b87158adea508780",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_3f9514b3459739bc44d94e99"
+    },
+    {
+      "pair_id": "9b4823ffd93d8000",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_b2ac3310e31d790284df7822"
+    },
+    {
+      "pair_id": "be4aed3e97228427",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_f7a3aec2bd8d4c13cd8f15e0"
+    },
+    {
+      "pair_id": "7a7525e7a9e62b3e",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_4b03dff79d3fdb9df705b780"
+    },
+    {
+      "pair_id": "bf2a131e0fc0cf6d",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_3d8717ff34dbf4f4783b1609"
+    },
+    {
+      "pair_id": "a1b4035629cf874e",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_5454334012fc51b9cbe8505e"
+    },
+    {
+      "pair_id": "f580cd40ced79a0e",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_a0c86ede6d6bfcc34f94b7ec"
+    },
+    {
+      "pair_id": "416158361db8a3c2",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_870834d2b1701d355212a5a7"
+    },
+    {
+      "pair_id": "062e8d3085c8468d",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_b84ebc89ed33009d89756cf8"
+    },
+    {
+      "pair_id": "429541420282b79a",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_14af374b506863f182b74e26"
+    },
+    {
+      "pair_id": "12ff880ca0f271db",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_a776a6e309ced788967b79af"
+    },
+    {
+      "pair_id": "cdbf6aef74a3fa1f",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_5e7637f0397776413dfc2cfa"
+    },
+    {
+      "pair_id": "99c9db8ef9cbd1b5",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_c784caa08bf7b85aa20ea2fa"
+    },
+    {
+      "pair_id": "ed66a3720fde30eb",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_e560da0a0aec05b9a225c378"
+    },
+    {
+      "pair_id": "230dcb009b02f901",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_ad35dbc4f8d0aa688785867c"
+    },
+    {
+      "pair_id": "05832b1374c06866",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_8d7bdf753bf01ae1bafc5d0f"
+    },
+    {
+      "pair_id": "a53f25b8d33f7e15",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_b6bebf0daee898a0b855011a"
+    },
+    {
+      "pair_id": "a123ee20150e8084",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_6fde306576368f624d027e52"
+    },
+    {
+      "pair_id": "7617d65fbb54abfd",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_d70f4b6082fba7d240724616"
+    },
+    {
+      "pair_id": "6f0085291a5836e0",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_cc05d35c79085159e792b647"
+    },
+    {
+      "pair_id": "be2fe7fe07bcbece",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_a1ed96ad97cc6ed683dbe305"
+    },
+    {
+      "pair_id": "ca86c96abd433be9",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_6b897fba9428374974fabfd9"
+    },
+    {
+      "pair_id": "8bc98a3263460bc6",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_66faa094a0b340ec12252869"
+    },
+    {
+      "pair_id": "b1e09b6fd6df19dc",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_325cddcae85efef8414cc17a"
+    },
+    {
+      "pair_id": "535d9116b8117571",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_2af84f83f903ca37606496a9"
+    },
+    {
+      "pair_id": "f38def4cad0dd6f2",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_f770458f88fa97887504b068"
+    },
+    {
+      "pair_id": "7196c76350f43666",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_5aa2340247bf7c0f2e824bd2"
+    },
+    {
+      "pair_id": "46715f0df7a80ba0",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_130ef6f102b546a2c7a8dd56"
+    },
+    {
+      "pair_id": "43bebb1bbced6968",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_185dc5dabbc02f46cc865ce6"
+    },
+    {
+      "pair_id": "594e588dcd5828d1",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_24b1a2d74e302a040a978f0f"
+    },
+    {
+      "pair_id": "2b2471063ae20d12",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_0fb42b463d88a6dad4a11f13"
+    },
+    {
+      "pair_id": "f41306d8224eab67",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_2320d619af93e3e2406736fe"
+    },
+    {
+      "pair_id": "898b1a5e096ff43c",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_032b91246c74959f382e2869"
+    },
+    {
+      "pair_id": "e75de11fa86466dc",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_c3882f0ecb5dbf1090ee51cd"
+    },
+    {
+      "pair_id": "1a37f21269167347",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_85cff5aa1fbc7bd450ea61e6"
+    },
+    {
+      "pair_id": "5978cc2e1fee021f",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_6a1e1de50d142179d6e0c98a"
+    },
+    {
+      "pair_id": "23c421ff93c4b9f0",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_de4577587e81cacf2b6f08b0"
+    },
+    {
+      "pair_id": "e4e9ac09b1473df7",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_cad780116da5d2a9c1eff8e6"
+    },
+    {
+      "pair_id": "f7d22d71c61fe0dd",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_ea35ef7cc89fe029ae4c2c65"
+    },
+    {
+      "pair_id": "c0e3ce8a15e9139a",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_be843dec5e67a9eb36cc0ed4"
+    },
+    {
+      "pair_id": "af96995fc2686ae6",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_aaaacb580e5e83df00400d21"
+    },
+    {
+      "pair_id": "1456f6013ed51254",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_1d4baedfd0e9ae104e3a32a6"
+    },
+    {
+      "pair_id": "61cc0b42b448249b",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_6210f85ab2e7331747fd7b15"
+    },
+    {
+      "pair_id": "d8cccb0020dd360b",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_0eb1f8519041f5aa67c84dba"
+    },
+    {
+      "pair_id": "b1e4c7e2956dc7ff",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_f2ef2970f503c9eaab741caf"
+    },
+    {
+      "pair_id": "ad651caec6c3bb74",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_44b88937117be88dadd2fcc9"
+    },
+    {
+      "pair_id": "95e84ae0d13bc588",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_fd998c1de2276f536e8a036c"
+    },
+    {
+      "pair_id": "eaaac7db130aea16",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_bd11f3de0f651638eb909a1c"
+    },
+    {
+      "pair_id": "82465e27ee8dede6",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_209cde2bb15a6a31d88ffda0"
+    },
+    {
+      "pair_id": "c4cff8ee62d4f120",
+      "query_id": "gq_18ae113884cb4963cc6e6a51",
+      "candidate_id": "gq_92fba6940e1d19d238ddb781"
+    },
+    {
+      "pair_id": "af1923623a476fbc",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_3677db9a4644320a41a13354"
+    },
+    {
+      "pair_id": "a83a447e595819a9",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_97fd2312c10ec07d9a5e81d0"
+    },
+    {
+      "pair_id": "e65ed5810809e06d",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_c668695a285ab1377cfb03c2"
+    },
+    {
+      "pair_id": "9eb80e7f92e29dcf",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_3125b571acbf235aa0404345"
+    },
+    {
+      "pair_id": "c82a12030103b693",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_74ddfd395eae9bcbee079ba9"
+    },
+    {
+      "pair_id": "be11d491044fb9f7",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_a9d600cea04bddc3e4950393"
+    },
+    {
+      "pair_id": "e1547a19d02ccd9f",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_db7213114e21e3f971d4e2b1"
+    },
+    {
+      "pair_id": "724890af67178913",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_feb26a04e6772cee364d699e"
+    },
+    {
+      "pair_id": "4cb9fae7b23bb12f",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_d28afd72aca7b3af9bf2ce9b"
+    },
+    {
+      "pair_id": "770121935bea7321",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_0e9722c0df0ec84766c7c5c4"
+    },
+    {
+      "pair_id": "b3f932d00b850451",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_4c365d2e537a2ddeee5a123e"
+    },
+    {
+      "pair_id": "1a86af53ea876277",
+      "query_id": "gq_cbc37301210949f56ff47490",
+      "candidate_id": "gq_a882cacb71757f6080977585"
+    },
+    {
+      "pair_id": "36469721533db134",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_f8f90c13a94e37484136dee5"
+    },
+    {
+      "pair_id": "5bf1754d974f7c03",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_483dac5201bd4ce7c85e6b72"
+    },
+    {
+      "pair_id": "2911cd6c9e4bf368",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_830501ba1893d25886bfef72"
+    },
+    {
+      "pair_id": "d5e53834bb3bea13",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_78aa3f08a12239165608bef1"
+    },
+    {
+      "pair_id": "dbbefdeaf525e8bf",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_3ba2f935ba2e8e34edbff45e"
+    },
+    {
+      "pair_id": "4bbc2a3376024af3",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_cb82c8bd5b4b8c769a6b86ab"
+    },
+    {
+      "pair_id": "1faf81969f1604fd",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_cd79a0d9913e056919fc3efa"
+    },
+    {
+      "pair_id": "ebab14dd188ef78a",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_a552f18ad1a32d701a46fe89"
+    },
+    {
+      "pair_id": "65ebf8cf24ee308e",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_63b623faa8fcf2446ce9eff3"
+    },
+    {
+      "pair_id": "7c331f506f0e9e21",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_76c8babc2d03b8748f2243ac"
+    },
+    {
+      "pair_id": "ce9b3bd819bb59f4",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_1d8546eb75cd3c736bd6598e"
+    },
+    {
+      "pair_id": "bf984989c0e2c34d",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_b1ab8b902863626dd51f3363"
+    },
+    {
+      "pair_id": "b14a412f8e80aa94",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_e8363d3047e31df1126d9c4d"
+    },
+    {
+      "pair_id": "2b80ef9cce861452",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_cf60449a760be7863a872c4b"
+    },
+    {
+      "pair_id": "d85671cf8528eef9",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_c6d21f99040f5cf562c1b0b3"
+    },
+    {
+      "pair_id": "8307398151c44f92",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_533331a234acc6f2b86bdb59"
+    },
+    {
+      "pair_id": "7f8a07876a5e9f9f",
+      "query_id": "gq_c08424af10f755073428f081",
+      "candidate_id": "gq_08699caf060672f18d7ffab1"
+    },
+    {
+      "pair_id": "bb0189596c0d0424",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_e512ed2ccec642b350f390fe"
+    },
+    {
+      "pair_id": "79c35ae07dd7e886",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_607509d6111df0c06b136e05"
+    },
+    {
+      "pair_id": "936cd735bfaf7cf9",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_d75604705a98fc1451977ffa"
+    },
+    {
+      "pair_id": "e348d60384897045",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_1601aac6582b42a98dc0c209"
+    },
+    {
+      "pair_id": "e192a6895aa9d1cc",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_e1230b7a023a023eff686eb5"
+    },
+    {
+      "pair_id": "d24805916a93a9e8",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_662fc1f41e31c535dc6dd194"
+    },
+    {
+      "pair_id": "0585b0229a210352",
+      "query_id": "gq_5972b4f98b5ab23d0354c7e7",
+      "candidate_id": "gq_52c913d29e086afbac0b760c"
+    },
+    {
+      "pair_id": "32639159271c2466",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_47be2317eb9d0bac483c1284"
+    },
+    {
+      "pair_id": "58837791f5e2f529",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_8603f6bfc2b27260e9e49180"
+    },
+    {
+      "pair_id": "2b70965141a1081d",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_ca133904890e520fe62f2c03"
+    },
+    {
+      "pair_id": "0db8dd09f705edd8",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_534ae0f98675a7d8e37dd88b"
+    },
+    {
+      "pair_id": "a8d4016e0edefe1d",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_66064543ba67a3c82c042528"
+    },
+    {
+      "pair_id": "eafee0f2f024feca",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_3e12e59642a0049288fdf3cb"
+    },
+    {
+      "pair_id": "2951683becf4d321",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_09881f742abc8c42d9709432"
+    },
+    {
+      "pair_id": "caa224169159170e",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_95b079a54fa85757882f8f7f"
+    },
+    {
+      "pair_id": "cb33cc404a8bb133",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_f6adcd80c9fb1a9aedd942da"
+    },
+    {
+      "pair_id": "941303f76930ced1",
+      "query_id": "gq_72b3f38fe54fd2d1da85c962",
+      "candidate_id": "gq_3e25bf1d5bf4b645a2ec4316"
+    },
+    {
+      "pair_id": "b53d1ed68b50c8de",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_7e569f468922551bfc0912f1"
+    },
+    {
+      "pair_id": "3661b3a48c7ddd71",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_c3d463e090cbdd031d948729"
+    },
+    {
+      "pair_id": "968a973f58c4d35d",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_2cd8792ec1d742bd5f965811"
+    },
+    {
+      "pair_id": "41e6c6148655dbbf",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_ae372d7921cc65b83ac37485"
+    },
+    {
+      "pair_id": "265664b6b77330e8",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_76c6b00fb9c3b5047d4251c9"
+    },
+    {
+      "pair_id": "80d3538a9a21f931",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_f1a3e0744feb06081d2d5f67"
+    },
+    {
+      "pair_id": "028ef78ba672bd90",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_5e5cb5a8d248a9b0baed1a03"
+    },
+    {
+      "pair_id": "30ee4cb6b634357b",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_bf5c29c68f1520ba452acce4"
+    },
+    {
+      "pair_id": "d25fcca62bd86349",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_28744dd12aec7b25407274d4"
+    },
+    {
+      "pair_id": "0b8b63169b4f73b0",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_34d4525bedb1d9240bcd1dec"
+    },
+    {
+      "pair_id": "8070e6035af7d650",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_39358493d773c699e8e21758"
+    },
+    {
+      "pair_id": "44cb537778e70778",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_086a907e23fb6c3dcd1d5bad"
+    },
+    {
+      "pair_id": "3fee146f3b564f83",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_61ea7f1972f055ee85c9e262"
+    },
+    {
+      "pair_id": "cf445223a58c5aa9",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_de14d96b31dc28cf46c83e2a"
+    },
+    {
+      "pair_id": "802acbe728d70818",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_67aa92805f74f22e2b849533"
+    },
+    {
+      "pair_id": "003b4f3d4904ce97",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_fe98fbce5f01e83b2fafee8b"
+    },
+    {
+      "pair_id": "197028f27b97e252",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_7e573c26e6ea1319fbedffdb"
+    },
+    {
+      "pair_id": "6beb79ae52567146",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_a77bcc479143da76ff592f9d"
+    },
+    {
+      "pair_id": "e952b615f5b12a3b",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_4e705112babbdbd0ad2e8fc6"
+    },
+    {
+      "pair_id": "a74a087fc64f6fc1",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_1913dfee169d1efadf52cfca"
+    },
+    {
+      "pair_id": "6fe69fbaedb677c8",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_99219da6fd12d465fa4410bb"
+    },
+    {
+      "pair_id": "f4bc0091a16be7e3",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_92b2b5613fbbb84ae320dfa1"
+    },
+    {
+      "pair_id": "ac91d0b7e2797d6b",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_6e05d15569161b425c6621a5"
+    },
+    {
+      "pair_id": "480730821ca49370",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_d93cca4cd211bdacba067786"
+    },
+    {
+      "pair_id": "91fd2d9efc09ab0a",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_e1c0c610b446bace95353644"
+    },
+    {
+      "pair_id": "4b1d99040321b675",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_1dde3747f0cf3d2e254cfcbf"
+    },
+    {
+      "pair_id": "5706fe07777cf806",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_871f8fbbf08978b78485b2a6"
+    },
+    {
+      "pair_id": "dba9821cddd1994b",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_d8ca2075c226db664977adb9"
+    },
+    {
+      "pair_id": "7acbde0d9cb20109",
+      "query_id": "gq_708ed13d3f9bfd2bf3587b2d",
+      "candidate_id": "gq_57881d0b7b6fa397a9f3cfec"
+    },
+    {
+      "pair_id": "da3894d54fe53a8a",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_534ae0f98675a7d8e37dd88b"
+    },
+    {
+      "pair_id": "dcd376b2e468c359",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_8603f6bfc2b27260e9e49180"
+    },
+    {
+      "pair_id": "a06a4f3187de3dbc",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_72b3f38fe54fd2d1da85c962"
+    },
+    {
+      "pair_id": "c03db98831179e0e",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_47be2317eb9d0bac483c1284"
+    },
+    {
+      "pair_id": "232c14e0ea2049b7",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_66064543ba67a3c82c042528"
+    },
+    {
+      "pair_id": "5290abc5fbf8e70f",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_ca133904890e520fe62f2c03"
+    },
+    {
+      "pair_id": "4ab7b5bd207e8c69",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_09881f742abc8c42d9709432"
+    },
+    {
+      "pair_id": "cf945e34c0222eb9",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_95b079a54fa85757882f8f7f"
+    },
+    {
+      "pair_id": "e966d23d7edc1087",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_3e25bf1d5bf4b645a2ec4316"
+    },
+    {
+      "pair_id": "e42d015eefcbb9a1",
+      "query_id": "gq_3e12e59642a0049288fdf3cb",
+      "candidate_id": "gq_f6adcd80c9fb1a9aedd942da"
+    },
+    {
+      "pair_id": "4b84a31d3d92b368",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_69d6e9f2677e14eb83c3bae9"
+    },
+    {
+      "pair_id": "f58920af1f50f35a",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_0102a1a8182b04e216f6844c"
+    },
+    {
+      "pair_id": "37dcee04b045626c",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_ad56f2d8a0fa366f5cf8b4aa"
+    },
+    {
+      "pair_id": "3951b3c2e1d3eddf",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_120426cfdfbda69fce87be3e"
+    },
+    {
+      "pair_id": "8a9a6088660daabe",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_8f7a430e639f2bd2d1dc8774"
+    },
+    {
+      "pair_id": "d1fdc245461dccad",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_b8f4ee587c7f1fd71498cc48"
+    },
+    {
+      "pair_id": "eb64ddeec6765584",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_d9d4c05605d4b5e230206a0a"
+    },
+    {
+      "pair_id": "5b93e59d4bff017c",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_d6518a730498e67ca1b17c0c"
+    },
+    {
+      "pair_id": "793a8a142893eb38",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_76b5c95fea73f78eaa0f78e5"
+    },
+    {
+      "pair_id": "8592cb713bff1815",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_4d63327cb48732cc7b53a05a"
+    },
+    {
+      "pair_id": "ce3955841d0eb378",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_1d891505613d31ee650d676c"
+    },
+    {
+      "pair_id": "bffeaf662abb1f64",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_73e4b6da5f7fa9d23614bd36"
+    },
+    {
+      "pair_id": "198dbc70e3744026",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_04813d1226780faabd02070e"
+    },
+    {
+      "pair_id": "37c8f839e8537bfb",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_8606e22e68559aefb397b82a"
+    },
+    {
+      "pair_id": "8994cc30cb63b6be",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_02eca864ce72152273abd733"
+    },
+    {
+      "pair_id": "7c5f431282d6edd7",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_2f89145c461c1a312d2be6da"
+    },
+    {
+      "pair_id": "155156908539fc7b",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_6fe94b841eee5d58a955c475"
+    },
+    {
+      "pair_id": "96928b3f7b4d76e5",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_f7d50202ae03e582fe3aa796"
+    },
+    {
+      "pair_id": "de58ef4621a113d2",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_c2cade67399fd90f0ac9d431"
+    },
+    {
+      "pair_id": "18af4ef1f37f1d07",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_89c26d1ae4c0a7d8ecde4c49"
+    },
+    {
+      "pair_id": "b9f8f8fee7e6c01d",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_66551b0d9859d5da95463bd7"
+    },
+    {
+      "pair_id": "fdeb536e5d1b9d16",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_8517308ad840775baf507c96"
+    },
+    {
+      "pair_id": "4d7b8edf703c28b3",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_47d21885570620bb451ef068"
+    },
+    {
+      "pair_id": "ad99e6c634acdba5",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_84dcf50472a02527daf476e7"
+    },
+    {
+      "pair_id": "b4d17eeb294b53e4",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_b57e24224cd2bc15af793227"
+    },
+    {
+      "pair_id": "7fd7b2b3b35d440c",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_9d31e73cad3477de9ad357bb"
+    },
+    {
+      "pair_id": "3d496be9a895e47f",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_81562f741406266b2f2e4b0c"
+    },
+    {
+      "pair_id": "60d1457ae8750716",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_cdc4346f90dd7b164d751ff7"
+    },
+    {
+      "pair_id": "d9e8cd0bdd4d9b6a",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_816ff271ca78fa7d9c662c4d"
+    },
+    {
+      "pair_id": "868a6daa22c692e2",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_3e6d9dd553fdb6652af9e59e"
+    },
+    {
+      "pair_id": "876dfcdee853b722",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_a02d4e12366dafb306747c60"
+    },
+    {
+      "pair_id": "fed2a5c043b1ee88",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_54501afc1ff4dc9f485fde67"
+    },
+    {
+      "pair_id": "c3b679def9fa3433",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_386cd9b52fe937e3d88fc298"
+    },
+    {
+      "pair_id": "f78128b525588059",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_e8e7529b0fea182dfcd344d9"
+    },
+    {
+      "pair_id": "69da5ea371fb8212",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_ab2c7ceda8c59bbc438ec80c"
+    },
+    {
+      "pair_id": "ceab4c40e72e68aa",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_7309c31fb6fc853699237c74"
+    },
+    {
+      "pair_id": "b595f9e189a2e943",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_c0ae684c84f2619f2d495719"
+    },
+    {
+      "pair_id": "28b7c230bee5db00",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_c02a39083c23f6c8a519527d"
+    },
+    {
+      "pair_id": "7a77770a0783c01d",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_83e751c1ab435f1f2b8c55d8"
+    },
+    {
+      "pair_id": "10cb3d3cc771aeb6",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_c37a6b75362a8d063972f7c7"
+    },
+    {
+      "pair_id": "bfd1ee180da2475d",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_7e80678310985db5d3373655"
+    },
+    {
+      "pair_id": "97a7a6f31b7e83e7",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_25911cfe972fa08fd786974e"
+    },
+    {
+      "pair_id": "28c8be68f79901d4",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_8ea02e8b75cd08cde6127b63"
+    },
+    {
+      "pair_id": "421df0ac13ff9844",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_c9c07509e4cebc13e8a6e022"
+    },
+    {
+      "pair_id": "5af4c3c2a756290b",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_2fa371e4ab069cc5756f5d23"
+    },
+    {
+      "pair_id": "3f874ea2ebd75010",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_57378b096f5767974c4e8f4c"
+    },
+    {
+      "pair_id": "1bd45673a41c4f84",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_6fd634fb4742e5de3fb86451"
+    },
+    {
+      "pair_id": "a14d316abef8b899",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_d9169ebac0d53fc6e761aa94"
+    },
+    {
+      "pair_id": "8c3d3d25023620c9",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_14f5a2e028d6c6bea8fa23f0"
+    },
+    {
+      "pair_id": "7b99cc77d946f45b",
+      "query_id": "gq_38d3378a0ae8007bb8f2006e",
+      "candidate_id": "gq_f27b82f37cac47a7f51af2f8"
+    },
+    {
+      "pair_id": "fb3bcf1a99e633a5",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_e43b2cab31213502ca42c4fa"
+    },
+    {
+      "pair_id": "bef9eadd1e6a526a",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_584ccf56bd021352e4b5f04e"
+    },
+    {
+      "pair_id": "c8ea01a4c047e5dd",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_e65c3ae81fd2507ef61a35db"
+    },
+    {
+      "pair_id": "1142207dd513f989",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_711de2543acf2b15d172ef27"
+    },
+    {
+      "pair_id": "1090b1f7b452fbd5",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_d4f986065279810032c9054f"
+    },
+    {
+      "pair_id": "c9b40e3a88372b73",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_b75d10d45f58b2e9e8971a2b"
+    },
+    {
+      "pair_id": "448e19823f1000f2",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_310a7ca1e64f8fd2b9d9636d"
+    },
+    {
+      "pair_id": "35af88310f8d1fda",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_e591148a018a32a5927158f5"
+    },
+    {
+      "pair_id": "be3632365f6d9238",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_9bed162f684234d0b0592bf6"
+    },
+    {
+      "pair_id": "72db1786d208c39c",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_4f7461bfa8d724c8268f7268"
+    },
+    {
+      "pair_id": "c4ab3ea100e980d7",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_f8447fe07c69fd7ede32f521"
+    },
+    {
+      "pair_id": "fb8dbdfc8b35a558",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_90776afb092a0739b3459ae7"
+    },
+    {
+      "pair_id": "c32201b136bde733",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_886c46379b8b66caa403a1f8"
+    },
+    {
+      "pair_id": "18231ff60b8b1097",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_9561c019d249b503a284b1ef"
+    },
+    {
+      "pair_id": "32a6adcd85116165",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_10bf87534a92bdbe04530f85"
+    },
+    {
+      "pair_id": "db5d6bdb061d22d3",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_fab0fde08afb5665163e2d4d"
+    },
+    {
+      "pair_id": "e7badff36058465a",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_8a3c1e72bdb151eebc5357a9"
+    },
+    {
+      "pair_id": "69dc6bf08e4b2c56",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_0830208a20d5fc61cb8a0472"
+    },
+    {
+      "pair_id": "f53e4b4431d12972",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_c35fdc6a91a236fd7be9d77c"
+    },
+    {
+      "pair_id": "3da0500122ad8158",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_7f3d5f52be33c12b0ab35085"
+    },
+    {
+      "pair_id": "7ec9dda0fd132331",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_fd0ea1188ef645e6610b4bf8"
+    },
+    {
+      "pair_id": "ba1ab7d498fb536c",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_427ff6e92b7aa18f528ac66e"
+    },
+    {
+      "pair_id": "4918117ff53bd5eb",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_0f6af1fea039522b7b89eccf"
+    },
+    {
+      "pair_id": "28b8b1ac2ac59997",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_e6d1bb0ff9ed3425897ed6a3"
+    },
+    {
+      "pair_id": "2a9616eb84a64247",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_98fbf2d5f34ba9500c722e46"
+    },
+    {
+      "pair_id": "8002fcb118d202b8",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_bfa5cff1904ed806a68d48ca"
+    },
+    {
+      "pair_id": "ff334d3c66770e91",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_7ac395c9aec6bac330aed612"
+    },
+    {
+      "pair_id": "8b6ab2e9e0fa2bc6",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_832b63d80defa62f55f83c30"
+    },
+    {
+      "pair_id": "fbaf9c4353caec6d",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_28c7851aff39698217fd89ea"
+    },
+    {
+      "pair_id": "7fcee3ba197a438c",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_29adb36b553ff33e350f1bba"
+    },
+    {
+      "pair_id": "03026d11449c570c",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_d79622f176bd7dc792191a48"
+    },
+    {
+      "pair_id": "03e6edf25c86b80f",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_9f8413669a4ea1276d9a7775"
+    },
+    {
+      "pair_id": "110dc0e213cc7b0a",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_bdddf3dcae68404b076f8cfe"
+    },
+    {
+      "pair_id": "806fab2b573b67ed",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_a278aee87ad3f96f12216a4e"
+    },
+    {
+      "pair_id": "ecbd92398abb7ff8",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_58bc501774eabe57c7a641e1"
+    },
+    {
+      "pair_id": "bb773c5c3a0853a3",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_454ec7664e5f5ef1d603089c"
+    },
+    {
+      "pair_id": "78ff73fb8a34dd9b",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_24dc283a4ba2146d320baf4d"
+    },
+    {
+      "pair_id": "277b4f82d4a56f5f",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_86f9c5da9294b5a37a8f46a2"
+    },
+    {
+      "pair_id": "2e53dab962310835",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_e24b413ff8877d30366b9db2"
+    },
+    {
+      "pair_id": "d60eb81690bdc19c",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_bd12bdf4a2958b9a10dd4b95"
+    },
+    {
+      "pair_id": "a4c9aee2861aee88",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_eef535e19f0f621b88d2a9d8"
+    },
+    {
+      "pair_id": "cf385b395075424f",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_dcda748ccb65736545194d65"
+    },
+    {
+      "pair_id": "36e9694692503b2e",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_22e4a15ce8575a61a69d9bff"
+    },
+    {
+      "pair_id": "a98f920edec975b5",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_3874dc570b67ede62df33dd0"
+    },
+    {
+      "pair_id": "47c1807c4f98868e",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_293165a4c59b31c43b0b4f84"
+    },
+    {
+      "pair_id": "c6e62e2ecceaabd4",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_264bf7dc844216fac6547983"
+    },
+    {
+      "pair_id": "41291c747f5dc151",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_18024eeb9de7462747efeb09"
+    },
+    {
+      "pair_id": "da78a26a388603af",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_f2dca74d4e6e5a806bd38991"
+    },
+    {
+      "pair_id": "eba670610fa6033f",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_8796b1582d37cd6742260f99"
+    },
+    {
+      "pair_id": "58e23b7a00f02cfc",
+      "query_id": "gq_6685062e05916effaf248a05",
+      "candidate_id": "gq_a546e9bba7fc2ad9aa860aa2"
+    },
+    {
+      "pair_id": "2f3d9d6c76575b49",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_46441bcf8827fce0a73b3d6a"
+    },
+    {
+      "pair_id": "6e63db66a9b899c2",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_0658fe9fe1366ab9ce76dbc1"
+    },
+    {
+      "pair_id": "30585b51ce0f8789",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_f598657a0b6de35b91502ed2"
+    },
+    {
+      "pair_id": "0559f55e72ba1140",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_2824427a117816bfcd2a3f1d"
+    },
+    {
+      "pair_id": "5d26aacbe8c6abb9",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_2e5092f7b33f0c6adb7e441a"
+    },
+    {
+      "pair_id": "0647a647779cd545",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_1b4dc848112412acdee0dd33"
+    },
+    {
+      "pair_id": "6ecbe54881053202",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_81da11fccece8b1b0a8f2291"
+    },
+    {
+      "pair_id": "09bf315518cef9ef",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_e4c65b23e2974e1dda2c437a"
+    },
+    {
+      "pair_id": "0355dd76c9d279ac",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_0e154edecc6b99bc8c82fb65"
+    },
+    {
+      "pair_id": "19c88b465e441adb",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_3289d19fc3512700468cf690"
+    },
+    {
+      "pair_id": "10e25640dd6f7c4b",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_cafc84e2c113b541be5e3434"
+    },
+    {
+      "pair_id": "9aa25cff0a58f911",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_fc6a141832a20dfa3c212af9"
+    },
+    {
+      "pair_id": "051ceed3c78cc383",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_4726d00495fa709110261749"
+    },
+    {
+      "pair_id": "44efa569006d42ba",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_b2bd1eece6232f928f4ac150"
+    },
+    {
+      "pair_id": "2adb52748ff9a001",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_423b4593882c6759bd614cb7"
+    },
+    {
+      "pair_id": "b7294c2dd0eb736b",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_be990e7c87a7c4def8175b1d"
+    },
+    {
+      "pair_id": "93e5736279fd841e",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_edc1777a6a9b85bdca915cfd"
+    },
+    {
+      "pair_id": "649ae4c692a4de30",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_a74b49522467bf2fd099db29"
+    },
+    {
+      "pair_id": "1e2cbc76bb6c2994",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_0c1e99cadbd75591bb72464b"
+    },
+    {
+      "pair_id": "59d782f16d489424",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_8f74eb56983ec8d47a4098da"
+    },
+    {
+      "pair_id": "7e3ab28bbca535ea",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_271fbbf7113b24203b6fb9a1"
+    },
+    {
+      "pair_id": "001e5c50dd80cdf8",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_adf80395dd7e0a79bb41b2c2"
+    },
+    {
+      "pair_id": "d6c0c541b50508f6",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_bd1613824d50d19ee9a6d589"
+    },
+    {
+      "pair_id": "e40891a3cda25148",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_0118224ed827c72243c67e8a"
+    },
+    {
+      "pair_id": "ace4c5bbdc226fdf",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_a7495ef16c40629bf60b7db9"
+    },
+    {
+      "pair_id": "55aa88fb86cc8ebe",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_d80155dfbcd4344e9fd6a36c"
+    },
+    {
+      "pair_id": "a8d2f30681fe0376",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_88c87f2e21a4c2bd81611ab1"
+    },
+    {
+      "pair_id": "01c4497c28b26ec6",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_8b64a1d34319e1bd791e4b50"
+    },
+    {
+      "pair_id": "928d68edde01d692",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_158405b72ae0a0dd913a1ae6"
+    },
+    {
+      "pair_id": "daaee36a886334de",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_f4a21368888b80dcf0c831f3"
+    },
+    {
+      "pair_id": "6f5ba15224b31b45",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_56cb18e48508b468da0a9f48"
+    },
+    {
+      "pair_id": "0072ab083b1a3422",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_eca69792b6150ce4281a03bc"
+    },
+    {
+      "pair_id": "eb8a3e627d330057",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_7ae8591e438274091b6e2ecd"
+    },
+    {
+      "pair_id": "e2a22bbc0370b0cf",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_ee253b63a2c5198f144d7b90"
+    },
+    {
+      "pair_id": "c687a8a61db6fd21",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_1a2a8e072f27f06bbf0abf7d"
+    },
+    {
+      "pair_id": "1c3ebb97e41f6058",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_3041d7a6add28122780cb427"
+    },
+    {
+      "pair_id": "a448b9a2910904ba",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_8deddf35c0c795dd63eee982"
+    },
+    {
+      "pair_id": "2332f02197196f01",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_ad1635f33f91f5828a7ea1fd"
+    },
+    {
+      "pair_id": "65ea1854ff963382",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_403b5427563ad617e55fdccc"
+    },
+    {
+      "pair_id": "f1d507267fc42e89",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_d394d268027de0e3caf9268a"
+    },
+    {
+      "pair_id": "3af5ba4d083f3d37",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_ef71025badbf53ef06c892d7"
+    },
+    {
+      "pair_id": "6ab4fdc2682cffaf",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_6e23df44f646dfaf5e2d2798"
+    },
+    {
+      "pair_id": "bab753c289137ce1",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_8ac9c1549bed2bc5c89aea3e"
+    },
+    {
+      "pair_id": "12821e8df14bf639",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_31b409ee694fd71598e73146"
+    },
+    {
+      "pair_id": "e05a73a6bdff71c5",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_7b4f1e3fccdf41d29c8474f7"
+    },
+    {
+      "pair_id": "6e0c6365a920df8e",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_642d2a0f9a27f5acba14ade7"
+    },
+    {
+      "pair_id": "e758628698749d0f",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_914df3aa85741338ef6a27d7"
+    },
+    {
+      "pair_id": "dd737dce4d7a523b",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_7425dd106f7007777a8c1ae9"
+    },
+    {
+      "pair_id": "0fa171b1997d5b82",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_337af03c87372fa616186fee"
+    },
+    {
+      "pair_id": "935fc5d2a63fe70b",
+      "query_id": "gq_1cea5428d65076203a8b43c0",
+      "candidate_id": "gq_b695ae2449c95b09160714d8"
+    },
+    {
+      "pair_id": "fbf5165f074d8cba",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_156adb20bc25a1eab9d404d3"
+    },
+    {
+      "pair_id": "c60e396cc50bbc33",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ca4012b8bcec3c28cb23c7a5"
+    },
+    {
+      "pair_id": "271072172fd4f8eb",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ec6d6c9d73a4c7964fb3b98b"
+    },
+    {
+      "pair_id": "3ff17c61ef13d7b2",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_65c805d8b6bf5209518f78c6"
+    },
+    {
+      "pair_id": "9d707417ec2b0090",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_7abcfc6139d9cba1dfb7beeb"
+    },
+    {
+      "pair_id": "785f62ed1ffca741",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ce148ba1806c3a604a3a70bf"
+    },
+    {
+      "pair_id": "ac0d39ecc9ae710d",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_5c418842c62a02f83a63f1d3"
+    },
+    {
+      "pair_id": "4c5b877654593579",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_983d059986c8560ebbe76fb2"
+    },
+    {
+      "pair_id": "48d325613a9a66dd",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_85b21974716d1251fa51fe5c"
+    },
+    {
+      "pair_id": "ebb3a9532606aeb1",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_6f2407d14b158a74fef64957"
+    },
+    {
+      "pair_id": "1092e335ebf3f605",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_3b462fd3bfc9d2b2dd6ba6c6"
+    },
+    {
+      "pair_id": "ed9625909c3cfd11",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_0189f7c9da2e412dffabf746"
+    },
+    {
+      "pair_id": "7186be2955cac889",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_1cab571b74b797175e214d77"
+    },
+    {
+      "pair_id": "8f3d44f2a12c3393",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_e8eb6a75f626bdadd05e1964"
+    },
+    {
+      "pair_id": "8c00ee60b68bc24a",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_da672718e07529da796a7d40"
+    },
+    {
+      "pair_id": "7eb32774627d2265",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_1cefeb11d14231d52c7490e8"
+    },
+    {
+      "pair_id": "5be09377d9a3a14d",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_6bf00ac1184373971f6d86ae"
+    },
+    {
+      "pair_id": "08bba7473d6f3dc4",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_14413d402dc9dcc913aa3755"
+    },
+    {
+      "pair_id": "39bc4e3e31c6c9db",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_612717bd359417674f1d2916"
+    },
+    {
+      "pair_id": "7ca8b836906678d5",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_8b518e9786f235b173d643a6"
+    },
+    {
+      "pair_id": "8525b001159f72a2",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_e346508f0750004452bcd027"
+    },
+    {
+      "pair_id": "6a6d5d5269292ed0",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_523af7be094d7898640d004a"
+    },
+    {
+      "pair_id": "3c83588b052e131c",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_8ad3a4c54d56bba523c6c365"
+    },
+    {
+      "pair_id": "5b2620684f48c5f2",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_40137da722c59a27e0a4b46f"
+    },
+    {
+      "pair_id": "cc96e92ef0380c2d",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_4ea2abfa1ba1cbf075b6ff46"
+    },
+    {
+      "pair_id": "6af31af22294cd2e",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_d6a261a6dea6d36c5026761b"
+    },
+    {
+      "pair_id": "ac198d6390fe27a2",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_a33ffe5c1fbb2620004040bd"
+    },
+    {
+      "pair_id": "360694a019b6c9ba",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ecfcdf111eeb709e631b78c9"
+    },
+    {
+      "pair_id": "1f876a5c9d9a301a",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_232fe9092a3b6316844e338a"
+    },
+    {
+      "pair_id": "a26c20a106f7ea0e",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_8613e0c9c52ec788abb5c9f5"
+    },
+    {
+      "pair_id": "271601ca67c0d5c7",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_cf811173b56825274b58204d"
+    },
+    {
+      "pair_id": "476a9baf274b7d04",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_1ba84b5dccbb111be88b2b31"
+    },
+    {
+      "pair_id": "07afdb6aeea9bce4",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ab856642e9d3adf905569ea2"
+    },
+    {
+      "pair_id": "e37034ae7cf72c79",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_f2258023bacb06cba08af5ba"
+    },
+    {
+      "pair_id": "741e21ee846eddd1",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_683fe37c582c7e1f6535e174"
+    },
+    {
+      "pair_id": "b801f63ac39f3868",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_50350f4f6e2e0ce326cae52b"
+    },
+    {
+      "pair_id": "1021faf56d91e8f5",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_249bed410a14a8d3fb1ed7b4"
+    },
+    {
+      "pair_id": "c5e6e5dacb0dc38b",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_791c9febff7c0040732f2775"
+    },
+    {
+      "pair_id": "348354eb5798a207",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_363380ef2f291b03cd6beaf6"
+    },
+    {
+      "pair_id": "4045c0a56ea37a3d",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_ef37d0b740330ce50de59eb5"
+    },
+    {
+      "pair_id": "4656ac39e8306fb7",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_3ef0bfc85cb87e5e9e4aee0a"
+    },
+    {
+      "pair_id": "0e77f084c6ae8744",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_293c5f112237ee0b5b2604ca"
+    },
+    {
+      "pair_id": "375c0dc7f1ed1fcb",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_49a71af7fcd04a233c755853"
+    },
+    {
+      "pair_id": "5403fa9519d6a0aa",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_4ed824fb64de3b86c9e0c26c"
+    },
+    {
+      "pair_id": "94733698885c7fef",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_838d94012784ab10228ecc65"
+    },
+    {
+      "pair_id": "2d906217b8f10dcf",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_553284df47796360ed759185"
+    },
+    {
+      "pair_id": "6be77834567ef3d1",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_72d3d53672d7d164ebc38b49"
+    },
+    {
+      "pair_id": "fd72ae0407ad8d7e",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_6b2db519630b30e8e3d39537"
+    },
+    {
+      "pair_id": "3be43c0e3b003d8b",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_fc0900dbe6d54dd557656ed3"
+    },
+    {
+      "pair_id": "9462754f54815b14",
+      "query_id": "gq_2c4cc0cb4d4c1021033e123d",
+      "candidate_id": "gq_64e23c7364e69ea4cdd2473f"
+    },
+    {
+      "pair_id": "d893ba0d1737b3c9",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_ef820fae0052506c6584959a"
+    },
+    {
+      "pair_id": "dfeeba2923f10356",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_25f0e488e4cb017e04ec2752"
+    },
+    {
+      "pair_id": "979e3a66ac5ed9ee",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_0392fb5bedae6bfa67160abb"
+    },
+    {
+      "pair_id": "83361e1959311143",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_a85c19d3dcb5e85bc441d31d"
+    },
+    {
+      "pair_id": "66480d607e937981",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_461c34e5bb828b251210352a"
+    },
+    {
+      "pair_id": "1bed9529420e6528",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_771efc13e2462e3c0bd0c649"
+    },
+    {
+      "pair_id": "af6b30872af8eb8a",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_b8d9356c07ab978793cb1f2c"
+    },
+    {
+      "pair_id": "c40ba9ef5ca6d17c",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_e452bd978bcaa5c91e9ae8ab"
+    },
+    {
+      "pair_id": "059abeb6d542ed8a",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_cd81fd4619cfb321093a0fb7"
+    },
+    {
+      "pair_id": "a7b3eabf2bd70118",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_1d8a6dbf08ec5d873b190c26"
+    },
+    {
+      "pair_id": "15e62af092f47da1",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_affdf0a8afee77d6ca2d96fb"
+    },
+    {
+      "pair_id": "179824cb0420014e",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_c6f2a54931669fb9fa06acd1"
+    },
+    {
+      "pair_id": "454dc05b999bedf3",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_8fbd9344496d4d63f45dabd3"
+    },
+    {
+      "pair_id": "58fb89a6d160f15b",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_2ed1ff647df96d67004508d4"
+    },
+    {
+      "pair_id": "c1a12fe1442b8277",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_5ebb1d52b6e7439ed6dff1fd"
+    },
+    {
+      "pair_id": "146501774b279f23",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_be2ead7d34ae03e32cd3b11f"
+    },
+    {
+      "pair_id": "5ae8522d900e424e",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_a55d53b0e2eb49c50c579d06"
+    },
+    {
+      "pair_id": "9481ec26eb0cf8f9",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_0dae049d67c46ae37bb3012d"
+    },
+    {
+      "pair_id": "4c60a0202267996f",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_fc50df73cf9ed6075f2ab315"
+    },
+    {
+      "pair_id": "4ac73a68f9cb5adc",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_b840c9810ba5882765dc3bb2"
+    },
+    {
+      "pair_id": "5e75225e2e9f7334",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_c60ae2ccb4a6682c18da13d9"
+    },
+    {
+      "pair_id": "feaa4017599d9ef3",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_c9b9c26f37070e6e19b44ddc"
+    },
+    {
+      "pair_id": "60402fc557d5c589",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_44b01579918f28b456d9bc55"
+    },
+    {
+      "pair_id": "37a441d54650b572",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_6ca1b9171ac8db029ac469cc"
+    },
+    {
+      "pair_id": "7e294d1df8bd10d4",
+      "query_id": "gq_2c446af4206968983b214fe6",
+      "candidate_id": "gq_d7c58951eff90a50413783fd"
+    },
+    {
+      "pair_id": "6db299a30ec35bca",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_79f9c690ddb5588cf33b6beb"
+    },
+    {
+      "pair_id": "3a72712832067981",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_6336228791c4d445159ae71e"
+    },
+    {
+      "pair_id": "726fd281de188daa",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_5a1ac92973b9a27752bab2f6"
+    },
+    {
+      "pair_id": "5258fcf43b6b56f4",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_1c81ad0871c41473caf2813e"
+    },
+    {
+      "pair_id": "cc832911068dd870",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_750e974f2dda3816d2aa5e5a"
+    },
+    {
+      "pair_id": "4b769727d21857c2",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_016bfa5ba73b07fbce5140f7"
+    },
+    {
+      "pair_id": "557d372f7428baf3",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_49e02d15d073c464f0588987"
+    },
+    {
+      "pair_id": "2a53f714996d46d4",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_32dedbb000e20097142bc58c"
+    },
+    {
+      "pair_id": "d8075f113e50ff59",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_5ed65d18a022d6ebe52e37b8"
+    },
+    {
+      "pair_id": "b13d976462ea7be4",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_835f4cc3c692e5ca01513604"
+    },
+    {
+      "pair_id": "4c4b7c470283b6aa",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_d214ea233bf0bd48e79edf9b"
+    },
+    {
+      "pair_id": "bbc86dc962aeaa0c",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_099653b65f9af1713e9954dd"
+    },
+    {
+      "pair_id": "d9b6cba7cd9cd03d",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_a55817032da8d3248493e0a0"
+    },
+    {
+      "pair_id": "455569dd187e79b5",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_3815eac5bb4b4c34aaa93401"
+    },
+    {
+      "pair_id": "556a19101e1154db",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_82ed0b7218ef826041981fa3"
+    },
+    {
+      "pair_id": "6025b9239a59ea15",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_f7f75d6d6545999c38f48665"
+    },
+    {
+      "pair_id": "c769c2675393f9fb",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_a40bf6efaf15b718596481df"
+    },
+    {
+      "pair_id": "a92a74435477fcb5",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_265f3eee1c03478062e66cc8"
+    },
+    {
+      "pair_id": "c41fbcf2b1223348",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_6ca876d2a904d164b348e699"
+    },
+    {
+      "pair_id": "052e68502821fd8d",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_be9bb949b31bd767dbb35c6a"
+    },
+    {
+      "pair_id": "808f2ad5db5459af",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_e08a615b6d728e7dbfaf1b64"
+    },
+    {
+      "pair_id": "e46272ae29e84901",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_2a73f3482b45945ed4102d2f"
+    },
+    {
+      "pair_id": "7d86453cdf91664f",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_3580afb7e65efb904095f5c7"
+    },
+    {
+      "pair_id": "8ef9a73a6314be90",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_f0fdc1939cd8e3f4b80af173"
+    },
+    {
+      "pair_id": "ce563dc30a4194ee",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_6ad2b6ab8a3719fc0652e464"
+    },
+    {
+      "pair_id": "575a215e1b1e6cc8",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_aed7992893498e4ffd4f8782"
+    },
+    {
+      "pair_id": "65f702b90e3a0944",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_db45952086dbc06b0a364284"
+    },
+    {
+      "pair_id": "522594fb264dbd3e",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_12bf9266070e31d176621352"
+    },
+    {
+      "pair_id": "45a5a2f41b13897f",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_ee7e0651384073c09d41dbdc"
+    },
+    {
+      "pair_id": "30067717e8edf20a",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_8d199224040996a3185da714"
+    },
+    {
+      "pair_id": "090a161ed5038f3d",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_4ae0a57a811f3a2ff3f4b9d4"
+    },
+    {
+      "pair_id": "3fac2fbb247b592d",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_7351423f9e6caa1875fc309d"
+    },
+    {
+      "pair_id": "8599b217ac0c37ec",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_a02fc61776eaf127dcae099d"
+    },
+    {
+      "pair_id": "7c0a30fb4dd91206",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_495779507cce0a6b2cf5852a"
+    },
+    {
+      "pair_id": "96c88a5558eb71bc",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_463a8715dc8d0c5cbdd232a3"
+    },
+    {
+      "pair_id": "737c2fbef8d60e92",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_66ea3eb45fefa982091ad853"
+    },
+    {
+      "pair_id": "5535377b40999bbb",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_e26131a4ebb9833e36ffb6b4"
+    },
+    {
+      "pair_id": "cf164e70a2587682",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_e872589847f907b1f3d81c80"
+    },
+    {
+      "pair_id": "b65b97f735a3b3e7",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_d59fc4e973766ac856c5713f"
+    },
+    {
+      "pair_id": "92628a6ef3a4c0ec",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_10b34a340c6f16483d89995c"
+    },
+    {
+      "pair_id": "0b207117444cb41e",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_83a76f3cde2a9eb990e7e2f3"
+    },
+    {
+      "pair_id": "9bc0788693676855",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_49c4b2d7e098ee42f40211f8"
+    },
+    {
+      "pair_id": "43724096a9add43a",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_da5ed8a66cba84d92ec95214"
+    },
+    {
+      "pair_id": "90edd6bb8bd81363",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_6827e4356415fc54a2ab1956"
+    },
+    {
+      "pair_id": "9af3bf8184c346fe",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_6ce3cc06bdc1aa102518fab1"
+    },
+    {
+      "pair_id": "9d1d7117af94a92a",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_3112d7eeca4567f6844ecf45"
+    },
+    {
+      "pair_id": "e81007cd530f6bed",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_712f479f9e249d5bffd46edb"
+    },
+    {
+      "pair_id": "40753da85e5ca343",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_0c108010dbb5cb736580300c"
+    },
+    {
+      "pair_id": "bd7bde0b286cd286",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_a9b58df97519d1cbb41889b1"
+    },
+    {
+      "pair_id": "948411de810b2654",
+      "query_id": "gq_e568a0621741ed5a33154bce",
+      "candidate_id": "gq_65bcc5dfac031420f627a989"
+    },
+    {
+      "pair_id": "41796ad2af687161",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_19a3b20cd7e1dc9b8162d5df"
+    },
+    {
+      "pair_id": "3697cb389cf3ca3a",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_4f9cc717f4cabd83a8606eff"
+    },
+    {
+      "pair_id": "6e19df0688298d72",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_7972ab468a4401e5f1f46c5d"
+    },
+    {
+      "pair_id": "7e04ff6517a723e3",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_70bbbea6b12679d94dfa8e28"
+    },
+    {
+      "pair_id": "f15752ac0e8a40a5",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_327b7a15b8218e591706cc1c"
+    },
+    {
+      "pair_id": "f39adc3a61ccb335",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_5be10f0b5c0eea67d0d80cb8"
+    },
+    {
+      "pair_id": "5c940677f0e98d2e",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_228f58d179dbbc3b998a3080"
+    },
+    {
+      "pair_id": "fc42cf6b8a209947",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_f3f1c3a295121af17b8c680d"
+    },
+    {
+      "pair_id": "819ce9fc8c7bd3e5",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_5dc816dc4f37249801d4d66b"
+    },
+    {
+      "pair_id": "b4647388363538c1",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_fadc5c89e357c79d8157e2c1"
+    },
+    {
+      "pair_id": "c4bd25510bca4c77",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_b576e9fbcd5c148281f95a6b"
+    },
+    {
+      "pair_id": "1221bd3cbddfb75d",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_7bf7be06e6894ebb79320761"
+    },
+    {
+      "pair_id": "3778793b423daa9e",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_85043b03702dd0a039b86921"
+    },
+    {
+      "pair_id": "6d659bec38daff65",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_fa4a054e7504e17d8c01ab9a"
+    },
+    {
+      "pair_id": "a5d0976531d600a3",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_0c6c6e3f100203586e974ae3"
+    },
+    {
+      "pair_id": "828a079d1d5d4890",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_068b9da27632300152e7fe2c"
+    },
+    {
+      "pair_id": "ff311fa7210ab3af",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_281d8cd7d8c9e537953ead25"
+    },
+    {
+      "pair_id": "768b545911c23ab0",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_e2e407bd041e62b6bcba9ff3"
+    },
+    {
+      "pair_id": "0a49a872bc4254d8",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_82ad7538c0d6097eee645992"
+    },
+    {
+      "pair_id": "3dc12c44fb1c1f3c",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_d547e90b81136a87b8024db7"
+    },
+    {
+      "pair_id": "a799c6953327911c",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_cbd670744a6c75eb4b3dbc84"
+    },
+    {
+      "pair_id": "954250f7e531d1a4",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_ee97aabad08cc8229d62ce95"
+    },
+    {
+      "pair_id": "06470d0c1fbf0ae4",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_95fef056babae892b6c89401"
+    },
+    {
+      "pair_id": "7895e89bfe713b47",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_a32f5c18cecada99136a4b6f"
+    },
+    {
+      "pair_id": "6496bc656d6fabed",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_6f72b6d3f1f677c502c984f0"
+    },
+    {
+      "pair_id": "6927deefe034f3af",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_f81938e6c8be3534b7f4c891"
+    },
+    {
+      "pair_id": "c5e6c3396b4928e6",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_d8e5e3839da70a0cf14ffc4c"
+    },
+    {
+      "pair_id": "b820b5026a66349b",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_fa8cd8812a2c9e8bb56132e0"
+    },
+    {
+      "pair_id": "7aabea00a6a43bbb",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_62f65d32755efb120fb96f1c"
+    },
+    {
+      "pair_id": "af58419496b38790",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_d449d7ecc3ac6fdfc43db0c8"
+    },
+    {
+      "pair_id": "b6a07b82417255a1",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_ba87a9fd3a63b7ea9051cd1d"
+    },
+    {
+      "pair_id": "8f14339a48fdd466",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_2384e7b42188c9cf12051d99"
+    },
+    {
+      "pair_id": "f48e32182a2e20e7",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_124081cde13c61445bdecc1a"
+    },
+    {
+      "pair_id": "6d9968a328930069",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_d2659a75c242bf3a7912b6e1"
+    },
+    {
+      "pair_id": "80321e9f4f7eb8e5",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_f0a5f112e61a646d327839ae"
+    },
+    {
+      "pair_id": "2ffcf65917ee617a",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_659a52d4da1e80ac710d7590"
+    },
+    {
+      "pair_id": "4226b34066cbd388",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_dd06c30fb8eca51dfe903158"
+    },
+    {
+      "pair_id": "11f9d1c8f4559382",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_7678fe25dd01aa761918dc1d"
+    },
+    {
+      "pair_id": "b5e407886b57e88c",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_f2c078f61cf6dd2f6874ae28"
+    },
+    {
+      "pair_id": "61988f5b9eca060a",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_c044016badb3375f1450fca2"
+    },
+    {
+      "pair_id": "a2dcafc8240965ba",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_b35c5a63f8f2ffdc26a5b5ad"
+    },
+    {
+      "pair_id": "7000c9ff6ed621f8",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_f70c3448ad1c48893e721d40"
+    },
+    {
+      "pair_id": "bfe8d4901e3f008c",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_7208f687a00f38d2acc0f3a7"
+    },
+    {
+      "pair_id": "f97d94c99843d227",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_dc6fb99bef33d7e6d9080795"
+    },
+    {
+      "pair_id": "daaacf86962b4e0e",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_30773598cedf07785ea6ebe2"
+    },
+    {
+      "pair_id": "b7aaf6bc56f95fc0",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_0d283e64750fa04505e83572"
+    },
+    {
+      "pair_id": "4bf9a8170236b697",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_cebfed782bbe41c383e890b9"
+    },
+    {
+      "pair_id": "770ffee1f946d868",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_dd80da831fa2eb40ea57a67e"
+    },
+    {
+      "pair_id": "93be547cb863549c",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_8282f0daf3102af4a953c493"
+    },
+    {
+      "pair_id": "1a9d4a5161ef9292",
+      "query_id": "gq_cb62fed208037d84d1c10dcd",
+      "candidate_id": "gq_0d248e1dc6256d5d26694d12"
+    },
+    {
+      "pair_id": "1f9300abbe96625b",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_ea1346fdb590ff3ff1783217"
+    },
+    {
+      "pair_id": "fe22351429c99539",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_a55770ac69a608b16e84a9f1"
+    },
+    {
+      "pair_id": "07dfc58fc152a74f",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_21d778afe1ebff9418ec26de"
+    },
+    {
+      "pair_id": "d42a8ad839ce48e1",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_51e8cc1cf3a1dbdb39626726"
+    },
+    {
+      "pair_id": "e16a72915fe7bc3b",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_d154f05ea23ee9ccbeb316a3"
+    },
+    {
+      "pair_id": "1df234b0d3e1fa2c",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_2f3d34d1eb42a9889693b9e0"
+    },
+    {
+      "pair_id": "b0b2e5d554423e9e",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_80e36e9fee250e964c458d5b"
+    },
+    {
+      "pair_id": "5c2263afbf49a196",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_fe0cf97c1b3f7b90f0f8f2c9"
+    },
+    {
+      "pair_id": "6cd46749422aafb6",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_4d59004a0d4461b9911457a4"
+    },
+    {
+      "pair_id": "3d1cab039a15e9e5",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_1b9567825138025c9f3c6646"
+    },
+    {
+      "pair_id": "bfe816046f08c019",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_3d9c301120dab9139e37849d"
+    },
+    {
+      "pair_id": "0296e047c4c69861",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_5be7c63ce7daa1c437aec2c6"
+    },
+    {
+      "pair_id": "15081d29be44dada",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_80d6a6d4d0b7247248cd1fe4"
+    },
+    {
+      "pair_id": "e229f3c7b5d773ca",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_0163e3382e4ca8ea779e9a64"
+    },
+    {
+      "pair_id": "3cfff4699991a5a6",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_441560db8787e9056cd790cf"
+    },
+    {
+      "pair_id": "20df27bd027e8f4a",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_827cf6aa19a4738997addfed"
+    },
+    {
+      "pair_id": "64c111210d94dc0b",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_664cc5be6bb039484a9ea9fa"
+    },
+    {
+      "pair_id": "aa988c81189050cf",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_d90881acef17025c7f9d4783"
+    },
+    {
+      "pair_id": "659f51a309c5d1aa",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_ca707a2b743d1d4b04707dff"
+    },
+    {
+      "pair_id": "0d4adc60c86c4fa0",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_8dfaeb0c100c5c2012c13972"
+    },
+    {
+      "pair_id": "ba13b45ac3199d92",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_4ac92e40157aa5a5d353222e"
+    },
+    {
+      "pair_id": "e35f607d2afc5b9c",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_f1118fa159406fda9aa1e538"
+    },
+    {
+      "pair_id": "5f1d6e8c0119dd25",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_4d0b38482365e395e2594158"
+    },
+    {
+      "pair_id": "aeafa880d6acc9e9",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_b65622a9de6bdee7bcd15228"
+    },
+    {
+      "pair_id": "4f1eeec4d4e04952",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_fe564035038e9652664d93f6"
+    },
+    {
+      "pair_id": "68a09deb219ce484",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_14a9cf0390730801132ae290"
+    },
+    {
+      "pair_id": "8b946feeab5c43e1",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_eaddaf5bf8cf3a2ca44f377e"
+    },
+    {
+      "pair_id": "4605342b02633793",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_24b595ae5c861706a88bc2cc"
+    },
+    {
+      "pair_id": "dc3471d4cbef70d3",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_acdf87e65860d93b36e72dad"
+    },
+    {
+      "pair_id": "8867fd319f81d9a4",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_f7606ea21c774debe4cc0faf"
+    },
+    {
+      "pair_id": "3a85fb402910bafc",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_9e8c14b1e1c601ea3adc7442"
+    },
+    {
+      "pair_id": "8665b3016c2c6a5d",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_7dce256c9dd3aa18c68dbcd6"
+    },
+    {
+      "pair_id": "b92fa84af863521c",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_fceba6e536f8fd844ac14472"
+    },
+    {
+      "pair_id": "1aae6698d5d02a74",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_8e91b6efe3c85c3e307920e8"
+    },
+    {
+      "pair_id": "5ffdc9ec407a2b46",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_82467c0a48d7acbfb049511f"
+    },
+    {
+      "pair_id": "2412aa47ae7d1a20",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_025712705a9a3e2d8a1ba06f"
+    },
+    {
+      "pair_id": "32dc77ae95d77d63",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_3988d9b88b334100337aa312"
+    },
+    {
+      "pair_id": "572e32d454a4044c",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_a9646f73bab5d82f31e84c50"
+    },
+    {
+      "pair_id": "7ea7ef1a58a73c0f",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_045c06746ee6125f27dcb875"
+    },
+    {
+      "pair_id": "87ec072e04245ff0",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_78731170208461d5b0471387"
+    },
+    {
+      "pair_id": "dd8b4eae4bdafb79",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_dffabde3d47261adc677f982"
+    },
+    {
+      "pair_id": "257b312733ae03b2",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_972ccf314fed60ebadc40f62"
+    },
+    {
+      "pair_id": "d6ac840777756083",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_8db4e9d05a4cc5fc35063f57"
+    },
+    {
+      "pair_id": "cd4f58650a63bdc4",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_330695722feadb3404f88395"
+    },
+    {
+      "pair_id": "356c920268ec2de8",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_4a95f6b2a3dcfea16f196d7f"
+    },
+    {
+      "pair_id": "b19c3b85d2202d9e",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_678d24a1211987f5e3719625"
+    },
+    {
+      "pair_id": "97793eb0c836cade",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_5c15d3e3361eb0f75fb79d4f"
+    },
+    {
+      "pair_id": "ef62545cb15429fd",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_808c6275c937d23a5d104a78"
+    },
+    {
+      "pair_id": "ccd92a9d266dc008",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_42dd410976e8abd91caec4ba"
+    },
+    {
+      "pair_id": "6b89fbc15e843cad",
+      "query_id": "gq_fb25ccf866fab6af4a1400de",
+      "candidate_id": "gq_8cae068f337744571c8857d0"
+    },
+    {
+      "pair_id": "2f0581ca617adfd5",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_3580afb7e65efb904095f5c7"
+    },
+    {
+      "pair_id": "760bd66a1ce326c2",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_32dedbb000e20097142bc58c"
+    },
+    {
+      "pair_id": "a0776c8622b82d62",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_be9bb949b31bd767dbb35c6a"
+    },
+    {
+      "pair_id": "cc16e9f147acb486",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_0c108010dbb5cb736580300c"
+    },
+    {
+      "pair_id": "7ed0917427d89c53",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_ee7e0651384073c09d41dbdc"
+    },
+    {
+      "pair_id": "9079aca152789f32",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_4ae0a57a811f3a2ff3f4b9d4"
+    },
+    {
+      "pair_id": "6d8941351cebf48e",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_a55817032da8d3248493e0a0"
+    },
+    {
+      "pair_id": "ee56057f3e0dd600",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_f0fdc1939cd8e3f4b80af173"
+    },
+    {
+      "pair_id": "41adb6e52eaf34ac",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_463a8715dc8d0c5cbdd232a3"
+    },
+    {
+      "pair_id": "891a30785d6925c1",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_092ecfc2eeb8650523b311dc"
+    },
+    {
+      "pair_id": "51d0f29c79e5710e",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_7351423f9e6caa1875fc309d"
+    },
+    {
+      "pair_id": "981f2eeeaa69b5de",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_82ed0b7218ef826041981fa3"
+    },
+    {
+      "pair_id": "49162aef20eec46c",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_e08a615b6d728e7dbfaf1b64"
+    },
+    {
+      "pair_id": "1ed4efd07fe552c2",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_f93dc85f43ac7680e7c8f64e"
+    },
+    {
+      "pair_id": "26013f672121a690",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_6827e4356415fc54a2ab1956"
+    },
+    {
+      "pair_id": "2cee18f37f694357",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_016bfa5ba73b07fbce5140f7"
+    },
+    {
+      "pair_id": "c2b7df15bb7c4d23",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_a02fc61776eaf127dcae099d"
+    },
+    {
+      "pair_id": "2ba135f78ed79124",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_1c48bad15d1efa53e7d01a6f"
+    },
+    {
+      "pair_id": "3c61c5e2b2f8f2bb",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_f7b44d30c78c5a08ca2ef6b5"
+    },
+    {
+      "pair_id": "78d74ede0a593b26",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_d5f6d60a0332514c537a0c66"
+    },
+    {
+      "pair_id": "573b771851166ed3",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_e4e56199d8ac1b7f88ea48af"
+    },
+    {
+      "pair_id": "5ed08ed8aef83b4b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_12bf9266070e31d176621352"
+    },
+    {
+      "pair_id": "f157a7ec6f91040a",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_8317571d5b118d859c7a5b14"
+    },
+    {
+      "pair_id": "faf6ac98b6bd9c83",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_3815eac5bb4b4c34aaa93401"
+    },
+    {
+      "pair_id": "ac0d804dfc0606ef",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_79f9c690ddb5588cf33b6beb"
+    },
+    {
+      "pair_id": "3dc9378ac2a9c0f8",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_d59fc4e973766ac856c5713f"
+    },
+    {
+      "pair_id": "70848d27dc8897a7",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_f8afce811d58555e1e34de43"
+    },
+    {
+      "pair_id": "9bcd68257e8aa2e6",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_65bcc5dfac031420f627a989"
+    },
+    {
+      "pair_id": "7d3d1c6bee01498b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_6ce3cc06bdc1aa102518fab1"
+    },
+    {
+      "pair_id": "80ccd3475ffb10d2",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_180efc80f94ce526c0459723"
+    },
+    {
+      "pair_id": "acb404caf043a9ae",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_10b34a340c6f16483d89995c"
+    },
+    {
+      "pair_id": "8413b4ed8894fa2f",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_5d5f51a40497323078d2af26"
+    },
+    {
+      "pair_id": "d3f5658a5b142f50",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_aed7992893498e4ffd4f8782"
+    },
+    {
+      "pair_id": "732d877632d0c80c",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_661b0e96f5996e4a09bae720"
+    },
+    {
+      "pair_id": "eb2d033760462a17",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_6ca876d2a904d164b348e699"
+    },
+    {
+      "pair_id": "d595335743afbc30",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_66ea3eb45fefa982091ad853"
+    },
+    {
+      "pair_id": "01b9337126e4257b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_43f2256db888dff8b0eec792"
+    },
+    {
+      "pair_id": "b5794043579f326b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_cd52e779dff8133594ce031b"
+    },
+    {
+      "pair_id": "f7d640b901857501",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_7af57d61046796cf6d291493"
+    },
+    {
+      "pair_id": "21d058cf3f93bfc5",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_5a1ac92973b9a27752bab2f6"
+    },
+    {
+      "pair_id": "d7b8e88ed34e986b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_2b9b069ee79ec14b1d893ea0"
+    },
+    {
+      "pair_id": "bf3c3d9792b03508",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_0b559cd579b875e03847b522"
+    },
+    {
+      "pair_id": "689e440ea605e1f5",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_1c81ad0871c41473caf2813e"
+    },
+    {
+      "pair_id": "5e7ec5178b5ee636",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_83a76f3cde2a9eb990e7e2f3"
+    },
+    {
+      "pair_id": "72ebf94f871214f3",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_750e974f2dda3816d2aa5e5a"
+    },
+    {
+      "pair_id": "0e191e3beb478919",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_1e94b8f47b4dac35614dc0c2"
+    },
+    {
+      "pair_id": "adbda4652fd6c7c3",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_e568a0621741ed5a33154bce"
+    },
+    {
+      "pair_id": "b0a976a1294092f4",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_49c4b2d7e098ee42f40211f8"
+    },
+    {
+      "pair_id": "93f29b3a2872f24f",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_da5ed8a66cba84d92ec95214"
+    },
+    {
+      "pair_id": "781c2aad678df14b",
+      "query_id": "gq_e26131a4ebb9833e36ffb6b4",
+      "candidate_id": "gq_835f4cc3c692e5ca01513604"
+    },
+    {
+      "pair_id": "314f32ab6e61b361",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_14292e84c1cbe3504ecaf26e"
+    },
+    {
+      "pair_id": "9fd9d051bc96e78c",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_62b45b8571edf34b57464e8a"
+    },
+    {
+      "pair_id": "8b0fc6740903e777",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_e59b2a63209a051f96c0cb4e"
+    },
+    {
+      "pair_id": "58c0497c83cabd0d",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_55c248f29c7f6b162174c9d6"
+    },
+    {
+      "pair_id": "e35cf99322c8ea6f",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_e9d04e99b4ab4da4d7de1a45"
+    },
+    {
+      "pair_id": "e4b95e29a1d871db",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_908dcea06b2ba064685de9f1"
+    },
+    {
+      "pair_id": "71b85a29a344d5cf",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_aecabe4a62177290c24bc524"
+    },
+    {
+      "pair_id": "087434912d63b663",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_76c81aa648d9bc46c79faa8f"
+    },
+    {
+      "pair_id": "04b8b34950cbee51",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_07e4e258374debabfbde17d5"
+    },
+    {
+      "pair_id": "c12a381946ec3c28",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_b93f68bb21944137bb62a225"
+    },
+    {
+      "pair_id": "9f0cd9c57798382f",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_944ce331b39de277a5f96f41"
+    },
+    {
+      "pair_id": "47c9a7fb3c8b46f1",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_82dbfce34cb4057faff5c26b"
+    },
+    {
+      "pair_id": "a5e42b5124b5cfa7",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_4d473921f28d86af3eff5155"
+    },
+    {
+      "pair_id": "34710b177ab3942c",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_03016cd7d99d5a4065cb477c"
+    },
+    {
+      "pair_id": "b1bf938794b6aa62",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_a21d1a0141d90d120ccc9eff"
+    },
+    {
+      "pair_id": "24f971b4e8ba4670",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_dc6ef4ffe7a3591b990d0ef4"
+    },
+    {
+      "pair_id": "eb97154d11f06890",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_524e578269a561cf91a4b44b"
+    },
+    {
+      "pair_id": "a3189b8756c4eeca",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_4cc05eed0a971447a14e1a05"
+    },
+    {
+      "pair_id": "25ec5c83e52be0ad",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_c0c2e6d49d94380de1e77852"
+    },
+    {
+      "pair_id": "7310a156f16ab1f5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_8e78aa22a2ef064f58fd8a85"
+    },
+    {
+      "pair_id": "8b7d6d1b024abad5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_ad2821d7b501d4b62b68be77"
+    },
+    {
+      "pair_id": "ed39e3b00d70f99d",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_e21312d2bf6fabef103eb061"
+    },
+    {
+      "pair_id": "eca37720a604f3e5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_4ab513e1cf610e69208ed0a4"
+    },
+    {
+      "pair_id": "5d3a6e2aea67f706",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_f5c0f49a6c40f3167dc366f2"
+    },
+    {
+      "pair_id": "e02471d97e775e93",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_022e120835b41cf647f84643"
+    },
+    {
+      "pair_id": "a7c95036e24cb458",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_b9f6ec67270b56b1da0b92ca"
+    },
+    {
+      "pair_id": "9561bffe84380cb2",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_653e52cdf30cb0854deac0d8"
+    },
+    {
+      "pair_id": "11ccf0023986db10",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_8b047debf548822cccd04726"
+    },
+    {
+      "pair_id": "beb91f6864e4c1bf",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_4d1832f28f09a7baaf2941b0"
+    },
+    {
+      "pair_id": "63758a7f8b198692",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_d5cecc0e9fd6827b0e83c58f"
+    },
+    {
+      "pair_id": "deef7ebabd892e8d",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_f2b00fda46dd68a31225fa5a"
+    },
+    {
+      "pair_id": "697e70e0f4ca0c31",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_c4a2ea8d064243be9bd54141"
+    },
+    {
+      "pair_id": "106c12a5ea169196",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_d23f2c813c22dd6e6fdcf405"
+    },
+    {
+      "pair_id": "48d6854226062d14",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_669bb9b678dc41ec15e67c1c"
+    },
+    {
+      "pair_id": "7f050cfc6df4d6d2",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_b51e158e57bebea72550ed83"
+    },
+    {
+      "pair_id": "77059b890e9191e5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_b770eb1acfc54b170e822aec"
+    },
+    {
+      "pair_id": "a12bba10a65c5603",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_98de48c8ed133e23d410bcf6"
+    },
+    {
+      "pair_id": "59265d518d86cb92",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_acd24f251e0c00b61b36efed"
+    },
+    {
+      "pair_id": "9d14d3468220478e",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_61f6208fb09d57acea1830da"
+    },
+    {
+      "pair_id": "de8bebd38cc8532e",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_88cdae3eb85ca6e58ffadc99"
+    },
+    {
+      "pair_id": "0b9e07a23666ec39",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_31ee820537574fea2c780984"
+    },
+    {
+      "pair_id": "af4a614a6d4e44d2",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_911f7f7a8aca8533f60a497d"
+    },
+    {
+      "pair_id": "7d378938ff3ed23f",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_cbb5f3c01a4de167f6142db9"
+    },
+    {
+      "pair_id": "aa3bb9f2725fb53d",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_5ba34fab294bbc0eb14b04f5"
+    },
+    {
+      "pair_id": "ef51e07a68663ca9",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_9308afee4b782f3b8f4eeafe"
+    },
+    {
+      "pair_id": "28e4b8b80a1b2de5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_5481069e8fa84140bd3146c9"
+    },
+    {
+      "pair_id": "a52f5297de9896c5",
+      "query_id": "gq_e0383e8e0f5f8de662c3f39f",
+      "candidate_id": "gq_58176db00400ee0a90a241e1"
+    }
+  ],
+  "independence": "novos julgamentos humanos ainda não coletados; não usar para escolher pesos"
+}
