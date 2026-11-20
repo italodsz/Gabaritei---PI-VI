@@ -257,12 +257,13 @@ Table migracao [headercolor: #555555] {
   Note: 'Migrações já aplicadas ao banco.'
 }
 
-TableGroup "Contas e acesso" {
+TableGroup contas_e_acesso [color: #2856b6] {
   usuario
   sessao_login
+  Note: 'Contas e acesso'
 }
 
-TableGroup "Estudos do aluno" {
+TableGroup estudos_do_aluno [color: #226b47] {
   estado_usuario
   conta_estudos
   sessao_pratica
@@ -273,22 +274,26 @@ TableGroup "Estudos do aluno" {
   marca_revisao
   meta
   conquista_celebrada
+  Note: 'Estudos do aluno'
 }
 
-TableGroup "Plano e notas" {
+TableGroup plano_e_notas [color: #914315] {
   atividade_plano
   nota_bloco
+  Note: 'Plano e notas'
 }
 
-TableGroup "Recomendador de dificuldade (TRI)" {
+TableGroup recomendador_de_dificuldade_tri [color: #6b3fa0] {
   perfil_tri
   perfil_tri_historico
   resposta_evento
   config_dificuldade
+  Note: 'Recomendador de dificuldade (TRI)'
 }
 
-TableGroup "Controle" {
+TableGroup controle [color: #555555] {
   migracao
+  Note: 'Controle'
 }
 
 Ref: atividade_plano.usuario_id > usuario.id [delete: cascade]
