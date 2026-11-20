@@ -63,6 +63,7 @@ O modelo entidade-relacionamento está em `docs/mer/`:
 | `gabaritei.dbml` | MER completo com descrições e regras; cole em https://dbdiagram.io para o diagrama editável |
 | `gabaritei.mmd` | o mesmo em Mermaid (o GitHub desenha sozinho) |
 | `gabaritei-mer.png` / `.svg` / `.dot` | MER físico completo (Graphviz): todas as colunas, PK/FK/UK, `?` = aceita vazio, pé de galinha nas cardinalidades, tracejado = referência lógica ao arquivo de questões |
+| `gabaritei-mer-a4.pdf` / `.png` / `.dot` | o mesmo MER físico em formato vertical, pronto para imprimir em uma folha A4 (retrato); `LQ` marca as colunas que apontam para a questão do arquivo |
 | `gabaritei-visao-geral.png` / `.svg` / `.dot` | visão conceitual por grupo, com as entidades em arquivo |
 
 ## Segurança
