@@ -126,7 +126,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
     return card(`${cardHeader('Nota estimada (TRI)', 'Estimativa pelas suas respostas no Gabaritei, na escala do ENEM. Não é a nota oficial.', tile('Target', 'gold'))}
       <div class="pf-tri-chips">${chips}</div>
       <ul class="pf-tri">${ORDEM.map(linha).join('')}</ul>
-      <p class="pf-hint">A faixa mostra a incerteza e fica mais estreita conforme você responde. Questões repetidas ou com apoio não entram no cálculo.</p>`, { cls: 'pf-span-12' });
+      <p class="pf-hint">A faixa mostra a incerteza e fica mais estreita conforme você responde. Questões repetidas não entram no cálculo.</p>`, { cls: 'pf-span-12' });
   }
 
   function sparkline(pts, nome) {

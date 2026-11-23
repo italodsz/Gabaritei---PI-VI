@@ -209,7 +209,7 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
     persistActive();
     // O desafio também ensina o recomendador: a resposta é conferida no servidor e entra no perfil TRI.
     const primeira = !E.collectAnswerRecords(getAccount()).some(r => r.questionId === q.id);
-    conferirResposta(q.id, item.selected, { tempoMs: item.timeMs, apoio: false, primeira, desafio: Dif.desafio() })
+    conferirResposta(q.id, item.selected, { tempoMs: item.timeMs, primeira, desafio: Dif.desafio() })
       .then(r => Dif.registrarResposta(q, r.correct, { tempoMs: item.timeMs, primeira, tri: r.tri, origem: 'pratica' }))
       .catch(() => { /* sem conexão: o desafio continua; só o perfil deixa de ser atualizado */ });
     reveal(q, run.selected);

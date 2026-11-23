@@ -54,9 +54,3 @@ test('semelhante: a dificuldade muda pouco a posição escolhida na lista do tit
   assert.ok(mudou > 0 && mudou / refs.length < 0.15, `trocou a 1ª em ${mudou} de ${refs.length}`);
 });
 
-test('apoio de eliminar 2 alternativas aumenta a chance real nas questões difíceis', () => {
-  const th = -0.2, qs = acervo.questions.filter(q => q.sourceArea === 'MT' && q.tri && T.p3pl(th, q.tri, 1) < 0.45);
-  const sem = qs.reduce((a, q) => a + T.p3pl(th, q.tri, 1), 0) / qs.length;
-  const com = qs.reduce((a, q) => { const sab = (T.p3pl(th, q.tri, 1) - q.tri.c) / (1 - q.tri.c); return a + sab + (1 - sab) / 3; }, 0) / qs.length;
-  assert.ok(com - sem > 0.1, `${sem.toFixed(2)} -> ${com.toFixed(2)}`);
-});

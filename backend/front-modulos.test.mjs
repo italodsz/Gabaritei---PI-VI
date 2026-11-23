@@ -43,7 +43,7 @@ test('card de aprendizado: explica o que a resposta mudou', () => {
   const base = { conta: true, chanceAntes: 0.25, chanceDepois: 0.4, antes: foto(0, 500, 3), depois: foto(0.4, 540, 4), delta: 0 };
   assert.match(leitura({ ...base, acertou: true }), /difícil/);
   assert.match(leitura({ ...base, acertou: false, chanceAntes: 0.85 }), /tranquila/);
-  assert.match(leitura({ ...base, conta: false, motivo: 'com_apoio' }), /apoio/);
+  assert.match(leitura({ ...base, conta: false, motivo: 'repeticao' }), /respondido/);
   const l = linhas({ ...base, acertou: true });
   assert.equal(l[0].valor, '0,00 → 0,40');
   assert.ok(l.some(x => x.rotulo.startsWith('Nota TRI') && x.valor === '500 → 540'));

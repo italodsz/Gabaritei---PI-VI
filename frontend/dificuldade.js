@@ -193,23 +193,10 @@ export function montarLista(candidatos, n, alvo, cfg, rng = Math.random) {
   return escolhidas.map(c => c.id);
 }
 
-/* ------------------------------ contornos ------------------------------ */
-export const apoioDisponivel = (p, cfg) => Number.isFinite(p) && p < cfg.apoio.abaixo_de;
-
-/** Duas alternativas erradas, sempre as mesmas para a mesma semente. */
-export function eliminarAlternativas(letras, correta, semente, cfg) {
-  let h = 2166136261; for (const ch of String(semente)) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
-  const erradas = letras.filter(l => l !== correta);
-  const out = [];
-  while (out.length < Math.min(cfg.apoio.eliminar, erradas.length)) { h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0; const l = erradas[h % erradas.length]; if (!out.includes(l)) out.push(l); }
-  return out.sort();
-}
-
 /** Uma resposta entra no cálculo de θ? */
-export function contaParaTheta({ it, primeira, apoio, tempoMs, origem }, cfg) {
+export function contaParaTheta({ it, primeira, tempoMs, origem }, cfg) {
   if (!it) return { conta: false, motivo: 'parametros_fora_da_triagem' };
   if (!primeira) return { conta: false, motivo: 'repeticao' };
-  if (apoio) return { conta: false, motivo: 'com_apoio' };
   if (Number.isFinite(tempoMs) && tempoMs < cfg.tempo_minimo_ms) return { conta: false, motivo: 'resposta_muito_rapida' };
   return { conta: true, peso: origem === 'simulado' ? cfg.peso.simulado : cfg.peso.pratica };
 }

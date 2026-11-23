@@ -46,7 +46,7 @@ Os hashes congelados ficam em `acervo.py`.
 Recomendações por POST recebem `{"exclude":["gq_..."],"limit":10}`. Excluem também
 as famílias dos IDs informados. Lista vazia retorna uma justificativa, sem trocar
 de matéria, título, área ou idioma nem completar com sorteio.
-Correção recebe `{"selected":"A"}` (e, opcionalmente, `tempoMs`, `apoio`, `primeira`, `desafio`) e retorna
+Correção recebe `{"selected":"A"}` (e, opcionalmente, `tempoMs`, `primeira`, `desafio`) e retorna
 `correct`, `answer`, `explanation` e, com login, `tri` (o que o perfil TRI aprendeu) com `persisted:true`. Não há resolução comentada: a mensagem informa essa ausência.
 
 O bootstrap inclui gabaritos para a correção local dos simulados e da revisão.

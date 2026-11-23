@@ -308,7 +308,6 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
         <div class="${focusMode ? '' : 'qs-gap'}">${bodyHTML(q)}</div>
         <div class="qs-alts" role="radiogroup" aria-label="Alternativas">${q.alternatives.map(a => `<button type="button" class="qs-alt ${focusMode ? 'is-large' : ''}" role="radio" data-letter="${a.letter}"><span class="qs-alt-letter"><span class="qs-alt-glyph">${a.letter}</span></span><span class="qs-alt-text">${esc(a.text)}</span><span class="qs-alt-tag" id="alt-state-${a.letter}"></span></button>`).join('')}</div>
       </div>
-      <div id="qs-apoio"></div>
       <div id="qs-feedback"></div>
     </article>`;
     $$('.qs-alt').forEach(b => b.onclick = () => select(b.dataset.letter));
@@ -316,7 +315,6 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (zoom) zoom.onclick = () => openLightbox(q.image);
     if (!session.answers[q.id]?.confirmed && !mostradaEm.has(q.id)) mostradaEm.set(q.id, Date.now());
     updateAlts({ initial: true });
-    renderApoio();
     renderFeedback(false);
     const article = $('#qs-article');
     if (enter && dir) animate(article, [{ opacity: 0, transform: `translateX(${dir * 48}px)` }, { opacity: 1, transform: 'none' }], { duration: 360, easing: EASE.emphasized });
@@ -333,12 +331,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const a = session.answers[q.id];
     const revealed = !!a?.confirmed;
     const disabled = revealed || !running();
-    const eliminadas = session.apoio?.[q.id] || [];
     $$('.qs-alt').forEach(btn => {
       const letter = btn.dataset.letter;
-      const eliminada = eliminadas.includes(letter) && !(revealed && letter === q.correct);
-      btn.classList.toggle('is-eliminated', eliminada);
-      if (eliminada) btn.setAttribute('aria-label', `Alternativa ${letter} eliminada pelo apoio`); else btn.removeAttribute('aria-label');
       const isSel = a?.selected === letter;
       const isCorrect = revealed && letter === q.correct;
       const isWrong = revealed && isSel && !isCorrect;
@@ -364,25 +358,6 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       if (reveal && isCorrect) animate(btn, [{ transform: 'scale(1)' }, { transform: 'scale(1.035)' }, { transform: 'scale(1)' }], { duration: 380, easing: EASE.out, fill: 'none' });
       if (!initial && prev !== state && !reveal) { /* troca de borda/fundo é transição de CSS (200 ms) */ }
     });
-  }
-
-  /** Apoio: eliminar 2 alternativas erradas nas questões com chance estimada abaixo de 45%. Não conta para a nota. */
-  function renderApoio() {
-    const box = $('#qs-apoio'); if (!box) return;
-    const q = current(), a = session.answers[q.id];
-    const usado = !!session.apoio?.[q.id];
-    if (readOnly || focusMode || a?.confirmed || !running() || (!usado && !Dif.apoioDisponivel(q))) { box.innerHTML = ''; return; }
-    box.innerHTML = usado
-      ? `<p class="qs-apoio-nota">${icons('lightbulb')}Apoio usado: 2 alternativas eliminadas. Esta resposta não entra no cálculo da sua nota estimada.</p>`
-      : `<button type="button" class="qs-apoio-btn" id="qs-apoio-btn">${icons('spark')}Eliminar 2 alternativas</button><span class="qs-apoio-dica">Questão difícil para o seu nível agora. O apoio não conta para a nota estimada.</span>`;
-    const b = $('#qs-apoio-btn');
-    if (b) b.onclick = () => {
-      const letras = Dif.eliminar(q, `${session.id}:${q.id}`);
-      const sel = session.answers[q.id]?.selected;
-      persist({ ...session, apoio: { ...(session.apoio || {}), [q.id]: letras } });
-      if (sel && letras.includes(sel)) persist(E.practice.select(session, null, Date.now()));
-      updateAlts(); renderApoio(); renderActions();
-    };
   }
 
   function renderFeedback(animateIn) {
@@ -660,10 +635,9 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     try {
       const q = current();
       const primeira = !E.collectAnswerRecords(account()).some(r => r.questionId === qid);
-      const apoio = !!session.apoio?.[qid];
       const tempoMs = mostradaEm.has(qid) ? Date.now() - mostradaEm.get(qid) : undefined;
-      const result = await conferirResposta(qid, selected, { tempoMs, apoio, primeira, desafio: Dif.desafio() });
-      Dif.registrarResposta(q, result.correct, { apoio, tempoMs, primeira, tri: result.tri });
+      const result = await conferirResposta(qid, selected, { tempoMs, primeira, desafio: Dif.desafio() });
+      Dif.registrarResposta(q, result.correct, { tempoMs, primeira, tri: result.tri });
       if (!session || session.id !== id || current().id !== qid || session.answers[qid].selected !== selected || !running()) return;
       current().correct = result.answer;
       current().explanation = result.explanation;
@@ -671,7 +645,6 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       showExplanation = true;
       updateAlts({ reveal: true });
       renderFeedback(true);
-      renderApoio();
       renderActions();
       renderHeader();
       renderPanel();
