@@ -1,0 +1,59 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=13, nodesep=0.35, ranksep=1.1, pad=0.3, bgcolor="white"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, penwidth=1.2];
+  edge [fontname="Helvetica", fontsize=10, color="#555555", arrowhead=crow, arrowtail=tee, dir=both];
+  usuario [fillcolor="#dbe6fb", color="#2856b6", fontsize=14, label=<<b>usuario</b>>];
+  subgraph cluster_0 { label=<<b>Contas e acesso</b>>; color="#2856b6"; fontcolor="#2856b6"; style="rounded";
+    sessao_login [fillcolor="white", color="#2856b6"];
+  }
+  subgraph cluster_1 { label=<<b>Estudos do aluno</b>>; color="#226b47"; fontcolor="#226b47"; style="rounded";
+    estado_usuario [fillcolor="white", color="#226b47"];
+    conta_estudos [fillcolor="white", color="#226b47"];
+    sessao_pratica [fillcolor="white", color="#226b47"];
+    resposta_pratica [fillcolor="white", color="#226b47"];
+    simulado [fillcolor="white", color="#226b47"];
+    resposta_simulado [fillcolor="white", color="#226b47"];
+    favorita [fillcolor="white", color="#226b47"];
+    marca_revisao [fillcolor="white", color="#226b47"];
+    meta [fillcolor="white", color="#226b47"];
+    conquista_celebrada [fillcolor="white", color="#226b47"];
+  }
+  subgraph cluster_2 { label=<<b>Plano e notas</b>>; color="#914315"; fontcolor="#914315"; style="rounded";
+    atividade_plano [fillcolor="white", color="#914315"];
+    nota_bloco [fillcolor="white", color="#914315"];
+  }
+  subgraph cluster_3 { label=<<b>Recomendador de dificuldade (TRI)</b>>; color="#6b3fa0"; fontcolor="#6b3fa0"; style="rounded";
+    perfil_tri [fillcolor="white", color="#6b3fa0"];
+    perfil_tri_historico [fillcolor="white", color="#6b3fa0"];
+    resposta_evento [fillcolor="white", color="#6b3fa0"];
+    config_dificuldade [fillcolor="white", color="#6b3fa0"];
+  }
+  subgraph cluster_ext { label=<<b>Arquivos (fora do banco)</b>>; color="#999999"; fontcolor="#777777"; style="rounded,dashed";
+    questao [label="Questão\n(questions.jsonl)", fillcolor="#f3f3f3", color="#999999", style="rounded,filled,dashed"];
+    catalogo [label="Catálogo titulo_area\n(recomendacoes_titulo_area.json)", fillcolor="#f3f3f3", color="#999999", style="rounded,filled,dashed"];  }
+  migracao [label="migracao\n(controle de versões)", fillcolor="#eeeeee", color="#555555"];
+  usuario -> atividade_plano [arrowhead=crowodot];
+  usuario -> conquista_celebrada [arrowhead=crowodot];
+  usuario -> conta_estudos [arrowhead=teeodot];
+  usuario -> estado_usuario [arrowhead=crowodot];
+  usuario -> favorita [arrowhead=crowodot];
+  usuario -> marca_revisao [arrowhead=crowodot];
+  usuario -> meta [arrowhead=crowodot];
+  usuario -> nota_bloco [arrowhead=crowodot];
+  config_dificuldade -> perfil_tri [arrowhead=crowodot];
+  usuario -> perfil_tri [arrowhead=crowodot];
+  usuario -> perfil_tri_historico [arrowhead=crowodot];
+  config_dificuldade -> resposta_evento [arrowhead=crowodot];
+  usuario -> resposta_evento [arrowhead=crowodot];
+  sessao_pratica -> resposta_pratica [arrowhead=crowodot];
+  simulado -> resposta_simulado [arrowhead=crowodot];
+  usuario -> sessao_login [arrowhead=crowodot];
+  usuario -> sessao_pratica [arrowhead=crowodot];
+  usuario -> simulado [arrowhead=crowodot];
+  questao -> resposta_pratica [style=dashed, color="#999999", arrowhead=crowodot, label="questao_id"];
+  questao -> resposta_simulado [style=dashed, color="#999999", arrowhead=crowodot, label="questao_id"];
+  questao -> resposta_evento [style=dashed, color="#999999", arrowhead=crowodot, label="questao_id"];
+  questao -> favorita [style=dashed, color="#999999", arrowhead=crowodot, label="questao_id"];
+  questao -> marca_revisao [style=dashed, color="#999999", arrowhead=crowodot, label="questao_id"];
+  catalogo -> questao [style=dashed, color="#999999", dir=forward, arrowhead=normal, label="parecidas"];
+}

@@ -144,7 +144,7 @@ class Dificuldade:
             cx.exec_driver_sql(
                 "INSERT INTO resposta_evento VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (str(uuid4()), uid, questao["id"], area, alternativa, int(correta),
-                 js_round(tempo) if finite(tempo) and abs(tempo) <= 2**53 - 1 else None,
+                 js_round(tempo) if finite(tempo) and 0 <= tempo <= 2**53 - 1 else None,
                  int(primeira), 0, origem, prevista, media, dp, atual["pstar"],
                  int(regra["conta"]), motivo, CONFIG["versao"], _iso(agora)),
             )
