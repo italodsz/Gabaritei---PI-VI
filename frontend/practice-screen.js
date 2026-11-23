@@ -359,7 +359,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       const prev = btn.dataset.state;
       btn.dataset.state = state;
       btn.classList.toggle('is-dim', dim);
-      btn.disabled = disabled || eliminada;
+      btn.disabled = disabled;
       btn.setAttribute('aria-checked', String(isSel));
       if (isCorrect) btn.setAttribute('aria-describedby', `alt-state-${letter}`); else btn.removeAttribute('aria-describedby');
       const glyph = btn.querySelector('.qs-alt-glyph');
