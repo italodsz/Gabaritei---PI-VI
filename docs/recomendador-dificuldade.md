@@ -21,7 +21,7 @@ recomendador de dificuldade”. Configuração: `backend/config/dificuldade_v1.j
   (±1,28 desvio, cerca de 80%), só a partir de 15 respostas válidas na área, e “abaixo de 500” quando a faixa inteira
   fica abaixo disso.
 
-**O que conta para o θ:** só a primeira tentativa, sem apoio, com pelo menos 8 segundos, em questão
+**O que conta para o θ:** só a primeira tentativa, com pelo menos 8 segundos, em questão
 triada. Prática tem peso 0,8 e simulado 1,0. O motivo de cada resposta que não conta fica registrado
 (`resposta_evento.motivo`).
 
@@ -37,14 +37,12 @@ triada. Prática tem peso 0,8 e simulado 1,0. O motivo de cada resposta que não
 - **Alvo:** 85% (leve), 75% (no ponto, padrão) ou 65% (puxado), escolhido em Montar lista. Um controlador
   corrige o alvo pelas últimas 15 respostas (±0,1). A **meta alcançável** é o menor valor entre o alvo e
   a chance da 3ª questão mais acessível do conjunto: o app não persegue o impossível.
-- **Apoio:** quando a chance estimada é menor que 45%, o aluno pode eliminar 2 alternativas erradas. A
-  resposta é registrada, mas não entra no θ.
 - **Resultado da lista:** “acertou X de N; o esperado era Y”, com as chances calculadas quando a lista
-  foi criada (sem as respostas com apoio).
+  foi criada.
 
 Efeito medido em simulação com o banco real (listas de um título): o acerto sobe de 4 a 12 pontos
 percentuais e fica entre 64% e 71% na zona viável. Abaixo de ~550–650 pontos (conforme a área), as
-questões do ENEM são difíceis demais para 75%; para esses alunos valem a meta alcançável, o apoio, a
+questões do ENEM são difíceis demais para 75%; para esses alunos valem a meta alcançável, a
 revisão de erros e o progresso contra o esperado.
 
 ## Tela de início: os três modos
@@ -63,7 +61,7 @@ O recomendador aprende em dois níveis:
    ajusta a meta pelas últimas 15 respostas. Com login, no servidor (`resposta_evento`, `perfil_tri`);
    sem login, no navegador. Depois de cada resposta, a tela da questão mostra o card **O que o
    recomendador aprendeu**: o que ele previa, θ e incerteza antes → depois, a nota, a chance da mesma
-   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no laboratório.
+   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no modo dev (aba Ao vivo).
 2. **Sistema, com as respostas de todos os alunos com conta.** Para cada área, um deslocamento δ em
    logit corrige a chance prevista quando os alunos acertam sistematicamente mais (ou menos) do que o
    modelo do INEP previu. Estimado por máxima verossimilhança com prior N(0; 0,3²), só a partir de 30
@@ -72,10 +70,10 @@ O recomendador aprende em dois níveis:
 
 O `titulo_area` não muda com as respostas: é o conhecimento fixo de quais questões são parecidas.
 
-O laboratório (`/dev`, aba **Recomendadores ao vivo**) mostra o perfil TRI atual, a linha do tempo do
+O [modo dev](modo-dev.md) (aba **Ao vivo**, só a conta de desenvolvedor) mostra o perfil TRI atual, a linha do tempo do
 que foi aprendido a cada resposta (e de cada escolha da próxima questão, com as 5 primeiras do
 `titulo_area` e suas chances), o aprendizado do sistema por área e a calibração previsto × observado.
-Atualiza sozinho enquanto o app é usado em outra aba.
+Atualiza sozinho a cada 8 segundos.
 
 ## Modos da API (para os modos futuros)
 
@@ -88,17 +86,17 @@ Atualiza sozinho enquanto o app é usado em outra aba.
 | `aleatorio` | `area`, `materia` (opcionais) | aleatórias; com `usarDificuldade: true`, “aleatórias na minha dificuldade” |
 
 Também aceita `exclude`, `limite` (até 50), `desafio`, `historico` (`[{id, correta, em}]`, para revisão) e,
-sem login, `perfis` (o perfil do navegador). Devolve `ids` e `itens` com `chance` e `apoioDisponivel`.
+sem login, `perfis` (o perfil do navegador). Devolve `ids` e `itens` com `chance`.
 
 ## API e banco
 
 - `GET /api/dificuldade/config`: configuração e SHA-256.
-- `POST /api/questoes/{id}/responder` aceita `tempoMs`, `apoio`, `primeira`, `desafio`; com login, grava o
+- `POST /api/questoes/{id}/responder` aceita `tempoMs`, `primeira`, `desafio`; com login, grava o
   evento e devolve `tri` (perfil da área, se contou, chance prevista, resumo da nota).
 - `GET /api/eu/perfil-tri`: perfis, resumos, agregados (média geral, exatas, humanas) e histórico diário.
   `PUT` sobe o perfil feito sem login para as áreas ainda vazias no servidor.
 - `POST /api/eu/perfil-tri/respostas`: respostas de simulado, conferidas no servidor.
-- `GET /api/dev/dificuldade`: eventos, motivos e calibração previsto × observado (laboratório `/dev`, aba de estatísticas).
+- `GET /api/dev/dificuldade`: eventos, motivos e calibração previsto × observado (modo dev, só a conta de desenvolvedor).
 - Tabelas (migração `0002_dificuldade`): `perfil_tri` (distribuição completa por área), `perfil_tri_historico`,
   `resposta_evento` (chance prevista antes da resposta, θ no momento, se contou e por quê), `config_dificuldade`.
 
@@ -119,9 +117,12 @@ Sem login, o mesmo cálculo roda no navegador (`frontend/dificuldade.js`) e o pe
 
 `npm test` inclui `backend/dificuldade.test.mjs` (motor; reproduz a nota oficial de 2024 com erro médio
 ≤ 8 pontos, ≤ 10 em MT), `backend/dificuldade-api.test.mjs` (API e banco) e
-`backend/dificuldade-simulacao.test.mjs` (regressão por simulação: listas, níveis, Semelhante e apoio).
+`backend/dificuldade-simulacao.test.mjs` (regressão por simulação: listas, níveis e Semelhante).
 
 ## Limites
+
+- O apoio (eliminar 2 alternativas) foi retirado em 23/11/2026. A coluna `apoio` e o motivo `com_apoio`
+  continuam no banco só para as respostas antigas; a chave `apoio` de `dificuldade_v1.json` não é mais usada.
 
 - A nota estimada vem da prática, não de prova: o aluno pode ter acabado de estudar o tema.
 - Quem está abaixo da zona viável quase não recebe questões com 75% de chance, porque o banco é o do ENEM.

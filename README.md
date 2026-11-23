@@ -58,8 +58,9 @@ A base registra revisão de licença pendente para redistribuição pública.
    pela dificuldade. **Semelhante** traz a próxima do catálogo oficial.
 5. **Simulados**: por área (formato do dia do ENEM) ou personalizado; o gabarito aparece ao finalizar.
 6. **Entrar ou criar conta** (menu do perfil): o progresso e o perfil TRI passam a ficar no banco.
-7. **/dev → Recomendadores ao vivo**: perfil TRI, linha do tempo do aprendizado, decisões do
-   `titulo_area` + dificuldade e calibração (atualiza sozinho com o app aberto em outra aba).
+7. **Modo dev** (só a conta de desenvolvedor): botão no topo da tela da questão que abre o painel dos
+   recomendadores, com TRI e parecidas da questão, perfil TRI, aprendizado e calibração. Veja
+   [docs/modo-dev.md](docs/modo-dev.md).
 
 ## Base e recomendador
 
@@ -71,17 +72,16 @@ A base registra revisão de licença pendente para redistribuição pública.
 - Catálogo: até 50 sugestões, mediana 45, 68 listas vazias. Uma questão de Literatura
   pertence oficialmente à prova de CH de 2009 e não tem outra do mesmo título nessa área.
 - O servidor confere o SHA-256 da base e a compatibilidade das sugestões ao iniciar.
-- O FastAPI e o laboratório usam os índices já calculados, em CPU.
+- O FastAPI e o modo dev usam os índices já calculados, em CPU.
 
 O histórico fictício do protótipo não entra nesta versão. O progresso com questões
 oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
 
 ## Desenvolvimento e verificações
 
-O [laboratório dev](docs/laboratorio-dev.md) está em **http://127.0.0.1:4173/dev**:
-responda questões, inspecione escores e filtros, compare sugestões e exporte
-avaliações separadas do progresso do estudante. A inspeção numérica usa Python
-em CPU sobre os vetores existentes, carregados na primeira consulta de diagnóstico.
+O [modo dev](docs/modo-dev.md) fica na tela da questão, só para a conta de desenvolvedor
+(`backend/dados/devs.txt` ou `GABARITEI_DEVS`). A inspeção dos escores usa Python em CPU
+sobre os vetores existentes, carregados na primeira consulta.
 
 ```powershell
 .venv/bin/python -m pytest

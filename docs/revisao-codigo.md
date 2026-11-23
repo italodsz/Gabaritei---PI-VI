@@ -48,8 +48,8 @@ docs/      banco-de-dados · recomendador-dificuldade · laboratorio-dev · inte
 ## Pendências (não corrigidas), por prioridade
 
 1. **Gabarito no `/api/bootstrap`.** O contrato original dizia "o gabarito só vem depois da
-   resposta", mas o app manda todos os gabaritos ao navegador: os simulados, a revisão, o desafio e
-   o apoio são corrigidos ali. Está documentado como decisão (app de estudo, não de prova). Se o
+   resposta", mas o app manda todos os gabaritos ao navegador: os simulados, a revisão e o desafio
+   são corrigidos ali. Está documentado como decisão (app de estudo, não de prova). Se o
    projeto precisar de sigilo, por exemplo um ranking, os simulados devem passar a ser corrigidos
    no servidor.
 2. **SQL fora do repositório.** `rotas-dificuldade.mjs` escreve SQL direto em vez de usar

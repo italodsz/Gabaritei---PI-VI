@@ -51,10 +51,10 @@ const initial = () => [
 /** Versão dos cards de demonstração: quem já tem dados salvos recebe os cards novos uma única vez. */
 const DEMO_SEED = 2;
 const studyAreas = [
-  { key: 'linguagens', area: 'Linguagens', title: 'Linguagens, Códigos', fullName: 'Linguagens, Códigos e suas Tecnologias', subjects: 'LEITURA · EXPRESSÃO · CULTURA', text: 'Textos, sentidos e novas formas de ver o mundo.', id: 'reading', art: 'linguagens' },
-  { key: 'natureza', area: 'Natureza', title: 'Ciências da Natureza', fullName: 'Ciências da Natureza e suas Tecnologias', subjects: 'BIOLOGIA · FÍSICA · QUÍMICA', text: 'Descubra as conexões entre a vida e a ciência.', id: 'ecology', art: 'natureza' },
-  { key: 'humanas', area: 'Humanas', title: 'Ciências Humanas', fullName: 'Ciências Humanas e suas Tecnologias', subjects: 'SOCIEDADE · HISTÓRIA · ESPAÇO', text: 'Entenda as pessoas, os lugares e suas histórias.', id: 'humanities', art: 'humanas' },
-  { key: 'matematica', area: 'Matemática', title: 'Matemática', fullName: 'Matemática e suas Tecnologias', subjects: 'LÓGICA · NÚMEROS · GEOMETRIA', text: 'Encontre caminhos entre números e ideias.', id: 'functions', art: 'matematica' },
+  { key: 'linguagens', area: 'Linguagens', title: 'Linguagens, Códigos', fullName: 'Linguagens, Códigos e suas Tecnologias', id: 'reading', art: 'linguagens' },
+  { key: 'natureza', area: 'Natureza', title: 'Ciências da Natureza', fullName: 'Ciências da Natureza e suas Tecnologias', id: 'ecology', art: 'natureza' },
+  { key: 'humanas', area: 'Humanas', title: 'Ciências Humanas', fullName: 'Ciências Humanas e suas Tecnologias', id: 'humanities', art: 'humanas' },
+  { key: 'matematica', area: 'Matemática', title: 'Matemática', fullName: 'Matemática e suas Tecnologias', id: 'functions', art: 'matematica' },
 ];
 const areaKey = name => studyAreas.find(area => area.area === name)?.key || 'livre';
 const AREA_NAME_BY_KEY = Object.fromEntries(studyAreas.map(a => [a.key, a.area]));
@@ -151,7 +151,7 @@ function cardHTML(it, i, featured) {
   const [big, small] = CARD_DECOR[key] || CARD_DECOR.livre;
   const decor = `<span class="card-decoration" aria-hidden="true">${big}</span><span class="card-decoration is-small" aria-hidden="true">${small}</span>`;
   const actionLabel = it.done ? 'Praticar novamente' : it.inProgress || it.source !== 'activity' ? 'Continuar' : it.kind === 'simulado' ? 'Começar simulado' : 'Começar prática';
-  const label = featured ? (it.done ? 'MAIS UM PASSO CONCLUÍDO' : 'SEU PRÓXIMO PASSO') : `${AREA_LABEL[key] || escape(it.area).toUpperCase()}${it.done ? ' · CONCLUÍDA' : ''}`;
+  const label = `${AREA_LABEL[key] || escape(it.area).toUpperCase()}${it.done ? ' · CONCLUÍDA' : ''}`;
   const isActivity = it.source === 'activity';
   return `<article class="activity-card is-colored ${featured ? 'featured' : ''} ${it.done ? 'is-done' : ''}" data-key="${escape(it.key)}" data-id="${escape(it.id)}" data-source="${it.source}" data-area="${key}" data-note-ref='${escape(refOf(it))}' style="--index:${i}" title="Arraste para Minhas notas para criar um atalho">
     <div class="card-head"><span class="card-kind">${icon(kind.icon)}${kind.label}</span><span class="card-top-label">${label}</span></div><h2>${escape(it.title)}</h2><p class="card-description">${escape(it.description)}</p>
@@ -220,9 +220,8 @@ function practiceHubHTML() {
  * Estrutura comum dos três blocos: cenário ilustrado com rótulo, título e texto;
  * painel claro com os números; e o botão principal, igual nos três (só texto).
  */
-const hubColumn = ({ mode, tone, scene, kicker, title, text, panel, cta, id }) => `<article class="ph-col ph-col--${tone}" data-mode="${mode}">
+const hubColumn = ({ mode, tone, scene, title, text, panel, cta, id }) => `<article class="ph-col ph-col--${tone}" data-mode="${mode}">
     <div class="ph-scene" style="--scene:url('assets/${scene}')">
-      <span class="ph-pill">${kicker}</span>
       <h2>${title}</h2>
       <p class="ph-col-text">${text}</p>
     </div>
@@ -234,7 +233,7 @@ const plural = (n, um, varios) => (n === 1 ? um : varios);
 function recoColumnHTML() {
   const o = learning.sobMedidaOverview();
   return hubColumn({
-    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'MODO PADRÃO · SEM FIM', id: 'ph-start',
+    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', id: 'ph-start',
     title: 'Prática sob medida',
     text: 'Escolha por onde começar. Depois, cada questão é parecida com a anterior e do seu nível.',
     panel: o.active
@@ -242,8 +241,7 @@ function recoColumnHTML() {
         <p class="ph-note">Começou ${escape(o.active.rotulo)}.</p>
         <div class="ph-tags"><button type="button" class="ph-tag ph-tag-btn" id="ph-new">Começar outra</button></div>`
       : `<div class="ph-stat"><strong data-count="${o.respondidas}">${o.respondidas}</strong><span>${plural(o.respondidas, 'questão respondida', 'questões respondidas')} neste modo</span></div>
-        <div class="ph-tags"><span class="ph-tag">Uma questão</span><span class="ph-tag">Um tema</span><span class="ph-tag">Aleatório</span></div>
-        <p class="ph-note">Recomendação: titulo_area + nível de dificuldade.</p>`,
+        <div class="ph-tags"><span class="ph-tag">Uma questão</span><span class="ph-tag">Um tema</span><span class="ph-tag">Aleatório</span></div>`,
     cta: o.active ? 'Continuar praticando' : 'Escolher por onde começar',
   });
 }
@@ -253,9 +251,9 @@ function challengeColumnHTML() {
   const recent = st.attempts.slice(-8);
   const max = Math.max(1, ...recent.map(a => a.streak));
   return hubColumn({
-    mode: 'desafio', tone: 'chal', scene: 'hub-desafio.svg', kicker: 'DESAFIO DE ACERTOS', id: 'ph-challenge',
+    mode: 'desafio', tone: 'chal', scene: 'hub-desafio.svg', id: 'ph-challenge',
     title: 'Até onde você chega?',
-    text: 'Começa fácil e a dificuldade sobe a cada acerto. Até onde você vai?',
+    text: 'Começa fácil e a dificuldade sobe a cada acerto.',
     panel: `<div class="ph-stat"><strong data-count="${st.best}">${st.best}</strong><span>recorde · ${plural(st.best, 'acerto seguido', 'acertos seguidos')}</span></div>
       <div class="ph-attempts"><span class="ph-label">ÚLTIMAS TENTATIVAS</span>${recent.length ? `<div class="ph-bars" aria-hidden="true">${recent.map((a, i) => `<i class="${i === recent.length - 1 ? 'is-last' : ''}" style="--h:${Math.max(0.06, a.streak / max)}"></i>`).join('')}</div><small>Última: ${recent.at(-1).streak} ${plural(recent.at(-1).streak, 'acerto', 'acertos')}</small>` : '<small>Nenhuma tentativa ainda.</small>'}</div>
       <div class="ph-tags"><span class="ph-tag">Dificuldade crescente</span><span class="ph-tag">03:40 por questão</span></div>`,
@@ -267,19 +265,19 @@ function reviewColumnHTML() {
   const o = learning.reviewOverview();
   const a = o.active;
   if (!o.pending && !a) return hubColumn({
-    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-other',
-    title: 'Tudo revisado por enquanto!',
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', id: 'ph-other',
+    title: 'Tudo revisado por enquanto',
     text: 'Nenhuma questão errada pendente.',
     panel: '<p class="ph-note">Quando errar alguma questão, ela aparece aqui até você acertá-la.</p>',
     cta: 'Iniciar outra prática',
   });
   const pct = a ? a.reviewed / Math.max(1, a.total) : 0;
   return hubColumn({
-    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-review',
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', id: 'ph-review',
     title: 'Erros para superar',
-    text: 'Refaça o que errou até acertar. Sem pressa.',
+    text: 'Refaça o que errou até acertar.',
     panel: `<div class="ph-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} de ${a.total} revisadas` : `${o.pending} pendentes`}"><strong>${a ? a.reviewed : o.pending}</strong><small>${a ? `de ${a.total} revisadas` : plural(o.pending, 'pendente', 'pendentes')}</small></div>
-      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span><span class="ph-tag"><b>${o.pending}</b>na fila</span>` : '<span class="ph-tag">Sem cronômetro</span><span class="ph-tag">Com correção e explicação</span>'}</div>`,
+      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span><span class="ph-tag"><b>${o.pending}</b>na fila</span>` : '<span class="ph-tag">Sem cronômetro</span><span class="ph-tag">Com correção</span>'}</div>`,
     cta: a ? 'Continuar revisão' : 'Revisar agora',
   });
 }
@@ -477,7 +475,7 @@ function cardAction(key, act, anchor) {
 function confirmDeleteActivity(id) {
   const a = getActivity(id);
   if (!a) return;
-  openDialog(`<span class="dialog-label">EXCLUIR ATIVIDADE</span><h2 id="dialog-title" class="dialog-title">Excluir “${escape(a.title)}”?</h2><p class="dialog-description">Ela sai do seu plano. As questões que você já respondeu continuam no Histórico e no Progresso. Atalhos dessa atividade em Minhas notas passam a aparecer como indisponíveis.</p><div class="dialog-actions"><button class="primary-button danger-button" id="confirm-delete">${icon('trash')}Excluir</button><button class="small-button" id="cancel-delete">Cancelar</button></div>`);
+  openDialog(`<h2 id="dialog-title" class="dialog-title">Excluir “${escape(a.title)}”?</h2><p class="dialog-description">Ela sai do seu plano. As questões que você já respondeu continuam no Histórico e no Progresso. Atalhos dessa atividade em Minhas notas passam a aparecer como indisponíveis.</p><div class="dialog-actions"><button class="primary-button danger-button" id="confirm-delete">${icon('trash')}Excluir</button><button class="small-button" id="cancel-delete">Cancelar</button></div>`);
   $('#cancel-delete').onclick = () => dialog.close();
   $('#confirm-delete').onclick = () => {
     dialog.close();
@@ -575,12 +573,12 @@ document.addEventListener('click', event => { if (!event.target.closest('.profil
 $('#reset-demo').onclick = () => { activities = initial(); persist(); notes.reset(); clearFilters(); navigate('plano'); $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); toast('Plano inicial restaurado. Seu histórico de respostas foi mantido.'); };
 // Botão "Criar": recurso futuro, sem ação. Só mostra o aviso.
 $('#create-soon').addEventListener('click', e => { e.preventDefault(); const b = e.currentTarget; if (!reduced()) animate(b, { x: [0, -4, 4, -2, 0] }, { duration: 0.36, ease: ease.out }); toast('Em breve: criar listas, simulados e objetivos. Ainda indisponível neste protótipo.'); });
-$('#add-button').onclick = () => { openDialog(`<span class="dialog-label">SEU PLANO, DO SEU JEITO</span><h2 id="dialog-title" class="dialog-title">O que vamos estudar?</h2><p class="dialog-description">Adicione um assunto ao seu mural. Você pode reorganizar a visualização pela barra lateral.</p><form id="activity-form"><label class="dialog-field">Assunto<input name="title" placeholder="Ex.: Equações do segundo grau" maxlength="70" required></label><label class="dialog-field">Área<select name="area">${studyAreas.map(area => `<option value="${area.area}">${area.fullName}</option>`).join('')}</select></label><label class="dialog-field">Tipo<select name="kind"><option value="lista">Lista de questões (5 questões do assunto)</option><option value="simulado">Simulado (10 questões da área, correção ao finalizar)</option></select></label><label class="dialog-field">Sua intenção para esse estudo<textarea name="description" placeholder="O que você quer entender melhor?" maxlength="160" required></textarea></label><button class="primary-button" type="submit">Adicionar ao meu plano ${icon('plus')}</button></form>`); $('#activity-form').onsubmit = event => { event.preventDefault(); const data = new FormData(event.target); const title = data.get('title').trim(), description = data.get('description').trim(); if (!title || !description) return; const now = new Date().toISOString(); activities.push({ id: crypto.randomUUID(), title, description, area: data.get('area') || 'Estudo livre', kind: data.get('kind') === 'simulado' ? 'simulado' : 'lista', icon: 'book', done: false, saved: false, createdAt: now, updatedAt: now }); persist(); navigate('pendentes'); clearFilters(); dialog.close(); toast('Novo assunto adicionado. Seu plano ganhou mais um caminho.'); }; };
+$('#add-button').onclick = () => { openDialog(`<h2 id="dialog-title" class="dialog-title">Adicionar assunto</h2><form id="activity-form"><label class="dialog-field">Assunto<input name="title" placeholder="Ex.: Equações do segundo grau" maxlength="70" required></label><label class="dialog-field">Área<select name="area">${studyAreas.map(area => `<option value="${area.area}">${area.fullName}</option>`).join('')}</select></label><label class="dialog-field">Tipo<select name="kind"><option value="lista">Lista de questões (5 questões do assunto)</option><option value="simulado">Simulado (10 questões da área, correção ao finalizar)</option></select></label><label class="dialog-field">Sua intenção para esse estudo<textarea name="description" placeholder="O que você quer entender melhor?" maxlength="160" required></textarea></label><button class="primary-button" type="submit">Adicionar ao meu plano ${icon('plus')}</button></form>`); $('#activity-form').onsubmit = event => { event.preventDefault(); const data = new FormData(event.target); const title = data.get('title').trim(), description = data.get('description').trim(); if (!title || !description) return; const now = new Date().toISOString(); activities.push({ id: crypto.randomUUID(), title, description, area: data.get('area') || 'Estudo livre', kind: data.get('kind') === 'simulado' ? 'simulado' : 'lista', icon: 'book', done: false, saved: false, createdAt: now, updatedAt: now }); persist(); navigate('pendentes'); clearFilters(); dialog.close(); toast('Assunto adicionado ao plano.'); }; };
 let timerRemaining = 25 * 60;
 let timerEnd = null;
 let timerInterval = null;
 const timerText = () => `${String(Math.floor(timerRemaining / 60)).padStart(2, '0')}:${String(timerRemaining % 60).padStart(2, '0')}`;
-function updateTimer() { if (timerEnd) timerRemaining = Math.max(0, Math.ceil((timerEnd - Date.now()) / 1000)); if ($('#timer-value')) $('#timer-value').textContent = timerText(); if (timerEnd && timerRemaining === 0) { clearInterval(timerInterval); timerInterval = null; timerEnd = null; if ($('#timer-start')) $('#timer-start').textContent = 'Foco concluído'; toast('Seu tempo de foco terminou. Hora de respirar um pouco.'); } }
+function updateTimer() { if (timerEnd) timerRemaining = Math.max(0, Math.ceil((timerEnd - Date.now()) / 1000)); if ($('#timer-value')) $('#timer-value').textContent = timerText(); if (timerEnd && timerRemaining === 0) { clearInterval(timerInterval); timerInterval = null; timerEnd = null; if ($('#timer-start')) $('#timer-start').textContent = 'Foco concluído'; toast('Tempo de foco encerrado.'); } }
 
 /* ------------------------------------------------------------------ */
 /* Simulados: áreas → configuração (ano, tamanho, tempo) → prova         */
@@ -588,11 +586,9 @@ function updateTimer() { if (timerEnd) timerRemaining = Math.max(0, Math.ceil((t
 const simChoices = {}; // contexto preservado por área ao voltar
 function areaCards() {
   return `<div class="area-grid">${studyAreas.map((area, index) => `<button class="area-card area-${area.key}" data-sim-area="${area.key}" data-note-ref='${escape(JSON.stringify({ kind: 'sim-area', id: area.key }))}' aria-label="Configurar simulado: ${area.fullName}">
-    <span class="area-number">${String(index + 1).padStart(2, '0')}</span>
-    <span class="area-kicker">${area.subjects}</span>
-    <span class="area-copy"><h2><span class="area-title">${area.title}</span> <span class="area-suffix">e suas Tecnologias</span></h2><span class="area-description">${area.text}</span><span class="area-meta">Dia ${E().AREA_BY_ID[area.key].day} do ENEM <span>·</span> 45 ou 90 questões</span><span class="area-cta">Configurar simulado ${icon('arrow')}</span></span>
+    <span class="area-copy"><h2><span class="area-title">${area.title}</span> <span class="area-suffix">e suas Tecnologias</span></h2><span class="area-meta">Dia ${E().AREA_BY_ID[area.key].day} do ENEM <span>·</span> 45 ou 90 questões</span><span class="area-cta">Configurar simulado ${icon('arrow')}</span></span>
     <img class="area-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false">
-  </button>`).join('')}</div><p class="area-demo-note">${icon('spark')} Escolha a área para definir a edição e se a prova terá 45 questões (só a área) ou 90 (o dia completo). Arraste um card para Minhas notas para guardar um atalho.</p>`;
+  </button>`).join('')}</div>`;
 }
 const E = () => window.__gabaritei.E;
 const simAvailable = (areaKey, year = null) => E().questionRepository.query({ areaIds: [areaKey], ...(year ? { years: [year] } : {}) }).length;
@@ -602,7 +598,7 @@ function renderSimulados({ direction = 0 } = {}) {
   page.classList.remove('learning-page', 'legacy-ui');
   page.dataset.sim = state.simView;
   if (state.simView === 'areas') {
-    page.innerHTML = `<div class="sim-head"><div><div class="eyebrow">SE PREPARAR TAMBÉM É EXPERIMENTAR</div><h1>Um treino no seu ritmo.</h1><p class="secondary-description">Escolha uma das quatro áreas para fazer a prova no formato do ENEM, ou monte um simulado do seu jeito.</p></div></div>
+    page.innerHTML = `<div class="sim-head"><div><h1>Simulados</h1><p class="secondary-description">Escolha uma das quatro áreas para fazer a prova no formato do ENEM, ou monte um simulado do seu jeito.</p></div></div>
       ${customSimCardHTML()}${areaCards()}`;
     bindCustomSimCard();
     $$('[data-sim-area]', page).forEach(b => b.onclick = () => openAreaConfig(b.dataset.simArea, b));
@@ -633,11 +629,11 @@ function renderSimulados({ direction = 0 } = {}) {
     ? { ring: $('.off-opt-ring')?.getBoundingClientRect(), q: $('#sim-count')?.textContent, t: $('#sim-time')?.textContent, scroll: page.scrollTop } : null;
   page.innerHTML = `<div class="sim-config area-${area.key}" data-area="${area.key}">
     <button type="button" class="sim-back" id="sim-back" data-press="0.96">${icon('arrow-left')}Voltar às quatro áreas</button>
-    <section class="sim-hero"><div class="sim-hero-copy"><span class="area-kicker">${area.subjects} · DIA ${day} DO ENEM</span><h1>Simulado de ${area.title}<span> e suas Tecnologias</span></h1><p>Prova no formato do ENEM, com numeração oficial, cronômetro regressivo e correção só ao finalizar.</p></div><img class="sim-hero-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false"></section>
+    <section class="sim-hero"><div class="sim-hero-copy"><h1>Simulado de ${area.title}<span> e suas Tecnologias</span></h1><p>Prova no formato do ENEM, com numeração oficial, cronômetro regressivo e correção só ao finalizar.</p></div><img class="sim-hero-art" src="assets/area-${area.art}.svg" alt="" width="180" height="190" draggable="false"></section>
     <div class="sim-layout"><div class="sim-steps">
       <section class="sim-step" data-step><header><span class="sim-step-n">1</span><div><h2>Edição do ENEM</h2><p>Todas as edições que existem no acervo desta área.</p></div></header>
         <div class="sim-years" role="radiogroup" aria-label="Edição do ENEM"><button type="button" role="radio" aria-checked="${c.year === null}" data-year="" class="${c.year === null ? 'is-on' : ''}"><strong>Todas</strong><small>${simAvailable(area.key)} questões</small></button>${years.map(({ y, n }) => `<button type="button" role="radio" aria-checked="${c.year === y}" data-year="${y}" class="${c.year === y ? 'is-on' : ''}"><strong>${y}</strong><small>${n} ${n === 1 ? 'questão' : 'questões'}</small></button>`).join('')}</div>
-        <p class="sim-note">${icon('spark')} Questões oficiais do ENEM${c.year ? `. Há ${fromEdition} questões de ${c.year} para esta prova; elas entram primeiro e o restante vem de outras edições` : ''}.</p></section>
+        <p class="sim-note">Questões oficiais do ENEM${c.year ? `. Há ${fromEdition} questões de ${c.year} para esta prova; elas entram primeiro e o restante vem de outras edições` : ''}.</p></section>
       <section class="sim-step" data-step><header><span class="sim-step-n">2</span><div><h2>Quantidade de questões</h2><p>Como no ENEM: só a área ou o dia completo.</p></div></header>
         <div class="off-options" role="radiogroup" aria-label="Quantidade de questões">
           <button type="button" role="radio" class="off-opt ${full ? '' : 'is-on'}" aria-checked="${!full}" data-size="45" data-press="0.98">${full ? '' : '<span class="off-opt-ring"></span>'}<strong>45 questões</strong><span>Apenas ${shortName(area)}</span><small>Questões ${info.officialRange.join(' a ')} · ${hoursText(msOf(45))}</small></button>
@@ -652,7 +648,7 @@ function renderSimulados({ direction = 0 } = {}) {
       <dl><div><dt>${included.length > 1 ? 'Áreas' : 'Área'}</dt><dd>${included.map(a => a.fullName).join(' + ')}</dd></div><div><dt>Dia</dt><dd>Dia ${day}</dd></div><div><dt>Numeração</dt><dd>Questões ${numbering}</dd></div><div><dt>Edição</dt><dd>${c.year ?? 'Todas as edições'}</dd></div><div><dt>Duração</dt><dd id="sim-time">${hoursText(ms)}</dd></div><div><dt>Correção</dt><dd>Ao finalizar a prova</dd></div>${day === 1 && full ? '<div><dt>Redação</dt><dd>Prova à parte, não incluída aqui</dd></div>' : ''}</dl>
       <div class="sim-mix"><span>Matérias no acervo${c.year ? ` de ${c.year}` : ''}</span>${subjects.map(sb => `<div><span>${escape(sb.name)}</span><i><i style="--w:${sb.n / maxN}"></i></i><b>${sb.n}</b></div>`).join('')}</div>
       <button type="button" class="sim-start" id="sim-start" data-press="0.97">Iniciar simulado ${icon('arrow')}</button>
-      <p class="sim-fine">Nada começa antes de você confirmar. Você pode pausar e continuar depois.</p></aside></div>
+      <p class="sim-fine">Você pode pausar e continuar depois.</p></aside></div>
   </div>`;
   const rerender = () => { const sc = page.scrollTop; renderSimulados(); page.scrollTop = sc; };
   $('#sim-back').onclick = () => { history.replaceState(null, '', '#simulados'); state.simView = 'areas'; renderSimulados({ direction: -1 }); };
@@ -687,11 +683,9 @@ const dayAreas = day => studyAreas.filter(a => E().AREA_BY_ID[a.key].day === day
 /* ------------------------------------------------------------------ */
 function customSimCardHTML() {
   return `<button type="button" class="custom-sim-card" id="custom-sim" data-note-ref='${escape(JSON.stringify({ kind: 'custom-sim' }))}' aria-label="Montar um simulado personalizado">
-    <span class="area-number csc-number" aria-hidden="true">${hi('SlidersHorizontal')}</span>
     <span class="csc-copy">
-      <span class="area-kicker">MATÉRIAS · ASSUNTOS · ANOS · TEMPO</span>
       <h2>Simulado personalizado</h2>
-      <span class="csc-text">Escolha matérias e assuntos, o tamanho da prova, o critério de seleção das questões e o ritmo do cronômetro. Como no ENEM, a correção aparece só ao finalizar.</span>
+      <span class="csc-text">Escolha matérias, assuntos, tamanho, critério de seleção e cronômetro. A correção aparece só ao finalizar.</span>
       <span class="csc-steps" aria-hidden="true"><span><b>1</b>Conteúdo</span><span><b>2</b>Formato</span><span><b>3</b>Começar</span></span>
       <span class="area-cta csc-cta">Personalizar simulado ${icon('arrow')}</span>
     </span>
@@ -763,7 +757,6 @@ function navigate(page, { sub = null } = {}) {
 function paintBoardHeading(page) {
   const pend = page === 'pendentes';
   $('#plan-page').dataset.board = pend ? 'pendentes' : 'inicio';
-  $('#plan-page .eyebrow').textContent = pend ? 'CONTINUE DE ONDE PAROU' : 'UM POUCO MELHOR, TODOS OS DIAS';
   $('#page-title').textContent = pend ? 'Pendentes' : 'Meus estudos';
 }
 const sidebar = createSidebar({

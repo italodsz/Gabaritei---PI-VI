@@ -1,15 +1,5 @@
-/* Recomendador de dificuldade: chance estimada, apoio, resultado esperado, seletor e nota TRI. */
+/* Recomendador de dificuldade: chance estimada, resultado esperado, seletor e nota TRI. */
 .qs-chance{color:var(--lg-fg-muted,#5c6658)}
-.qs-alt.is-eliminated{opacity:.38;text-decoration:line-through;cursor:not-allowed}
-.qs-alt.is-eliminated .qs-alt-text{text-decoration:line-through}
-#qs-apoio{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:14px}
-#qs-apoio:empty{display:none}
-.qs-apoio-btn{display:inline-flex;align-items:center;gap:6px;border:1.5px dashed var(--lg-border,#cfd6c9);background:var(--lg-surface,#fff);color:var(--lg-fg,#1b201b);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
-.qs-apoio-btn:hover{border-style:solid}
-.qs-apoio-btn:focus-visible{outline:3px solid #2856b6;outline-offset:2px}
-.qs-apoio-btn svg{width:15px;height:15px}
-.qs-apoio-dica,.qs-apoio-nota{font-size:12px;color:var(--lg-fg-muted,#5c6658);margin:0;display:inline-flex;align-items:center;gap:6px}
-.qs-apoio-nota svg{width:14px;height:14px;flex-shrink:0}
 .focus-esperado{margin:6px 0 0;font-size:14px;font-weight:600}
 .focus-esperado.is-acima{color:#2c703a}
 .cfg-desafio{margin:18px 0 14px}

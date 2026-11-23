@@ -30,7 +30,7 @@ def acervo_de(questao_id, request):
 
 class Frontend(StaticFiles):
     async def get_response(self, path, scope):
-        path = {".": "index.html", "dev": "dev.html"}.get(path, path)
+        path = {".": "index.html"}.get(path, path)
         partes = path.split("/")
         if any(p.startswith(".") or p in {"node_modules", "legacy"} for p in partes):
             raise HTTPException(404)

@@ -1,5 +1,5 @@
 // Recomendador de dificuldade no navegador: perfil TRI por área, chance de cada questão, ordem das
-// listas, ajuste suave do Semelhante, apoio e resumo da nota. Com login, o servidor é a fonte do perfil;
+// listas, ajuste suave do Semelhante e resumo da nota. Com login, o servidor é a fonte do perfil;
 // sem login, o perfil fica neste navegador. O cálculo é o mesmo do servidor (dificuldade.js).
 import * as T from './dificuldade.js';
 import { usuarioAtual } from './conta.js';
@@ -57,8 +57,6 @@ export function chanceDe(q) {
 /** δ da área aprendido com as respostas de todos os alunos (0 enquanto há poucos dados). */
 export const deltaDe = area => cfg?.ajuste?.porArea?.[area]?.delta || 0;
 export const ajusteSistema = () => cfg?.ajuste ?? null;
-export const apoioDisponivel = q => pronto() && T.apoioDisponivel(chanceDe(q), cfg);
-export const eliminar = (q, semente) => T.eliminarAlternativas(q.alternatives.map(a => a.letter), q.correct, semente, cfg);
 
 export function resumo() {
   if (!pronto()) return null;
@@ -139,16 +137,15 @@ function registrarHistorico(area) {
 /* ----------------------------- aprendizado ----------------------------- */
 // Cada resposta vira um registro do que o recomendador aprendeu: θ, nota, faixa e meta antes e
 // depois, a chance que ele tinha previsto e o motivo quando a resposta não entra no cálculo.
-// Fica neste navegador (últimos 200) e alimenta o card da questão e o laboratório (/dev).
+// Fica neste navegador (últimos 200) e alimenta o card da questão e o modo dev.
 const CHAVE_APRENDIZADO = 'gabaritei:aprendizado:v1';
 export const MOTIVOS = {
   parametros_fora_da_triagem: 'a questão não tem parâmetros TRI confiáveis do INEP',
   repeticao: 'você já tinha respondido esta questão antes',
-  com_apoio: 'você usou o apoio (2 alternativas eliminadas)',
   resposta_muito_rapida: 'a resposta veio em menos de 8 segundos',
 };
 let feed = [];
-// Relido a cada uso: o laboratório (outra aba) acompanha o app ao vivo.
+// Relido a cada uso: o modo dev acompanha o app ao vivo.
 const lerFeed = () => { try { const v = JSON.parse(localStorage.getItem(CHAVE_APRENDIZADO)); if (Array.isArray(v)) feed = v; } catch { /* sem armazenamento: fica em memória */ } return feed; };
 export const aprendizados = () => lerFeed().slice();
 const CHAVE_MOSTRAR = 'gabaritei:mostrar-aprendizado';
@@ -168,22 +165,22 @@ function anotar(reg) {
 export function anotarDecisao(d) { anotar({ tipo: 'decisao', em: new Date().toISOString(), ...d }); avisar(); }
 
 /** Depois de conferir uma resposta. tri = o que o servidor devolveu (com login). Devolve o aprendizado. */
-export function registrarResposta(q, correta, { apoio = false, tempoMs, primeira = true, origem = 'pratica', tri = null } = {}) {
+export function registrarResposta(q, correta, { tempoMs, primeira = true, origem = 'pratica', tri = null } = {}) {
   if (!pronto()) return null;
   const area = areaDe(q);
   if (!T.AREAS.includes(area)) return null;
   const antesP = perfis[area], chanceAntes = chanceDe(q);
-  const regra = T.contaParaTheta({ it: q.tri, primeira, apoio, tempoMs, origem }, cfg);
+  const regra = T.contaParaTheta({ it: q.tri, primeira, tempoMs, origem }, cfg);
   let p = antesP, conta = regra.conta, motivo = regra.motivo ?? null;
   if (tri?.perfil) { p = tri.perfil; conta = tri.conta; motivo = tri.motivo ?? null; }
   else if (usuarioAtual()) return null; // com login sem resposta do servidor: o servidor continua sendo a fonte
   else {
     if (regra.conta) p = T.atualizar(p, q.tri, correta, cfg, { agoraMs: Date.now(), peso: regra.peso });
-    if (origem === 'pratica' && !apoio) p = T.registrarAcerto(p, correta, cfg, metaBase());
+    if (origem === 'pratica') p = T.registrarAcerto(p, correta, cfg, metaBase());
   }
   perfis[area] = p; registrarHistorico(area); gravarLocal();
   const reg = {
-    tipo: 'resposta', em: new Date().toISOString(), questaoId: q.id, area, acertou: !!correta, origem, apoio,
+    tipo: 'resposta', em: new Date().toISOString(), questaoId: q.id, area, acertou: !!correta, origem,
     tempoMs: Number.isFinite(tempoMs) ? Math.round(tempoMs) : null, b: q.tri?.b ?? null,
     chanceAntes: Number.isFinite(chanceAntes) ? +chanceAntes.toFixed(3) : null, chanceDepois: Number.isFinite(chanceDe(q)) ? +chanceDe(q).toFixed(3) : null,
     conta, motivo, peso: conta ? (origem === 'simulado' ? cfg.peso.simulado : cfg.peso.pratica) : 0,
@@ -211,9 +208,9 @@ export async function registrarSimulado(sim, repo, recordsAntes) {
   for (const r of respostas) { const q = repo.getById(r.questaoId); if (q) registrarResposta(q, r.alternativa === q.correct, { origem: 'simulado', tempoMs: r.tempoMs, primeira: !vistas.has(q.id) }); }
 }
 
-/** Resultado da lista: acertos × esperado (só respostas sem apoio e com chance conhecida). */
+/** Resultado da lista: acertos × esperado (só respostas com chance conhecida). */
 export function esperado(session) {
-  const prev = session.previsto || {}, apoio = session.apoio || {};
+  const prev = session.previsto || {}, apoio = session.apoio || {}; // apoio: só em listas antigas
   const ids = session.questionIds.filter(id => session.answers[id]?.confirmed && Number.isFinite(prev[id]) && !apoio[id]);
   if (ids.length < 3) return null;
   return { n: ids.length, acertos: ids.filter(id => session.answers[id].correct).length, esperado: ids.reduce((s, id) => s + prev[id], 0) };
