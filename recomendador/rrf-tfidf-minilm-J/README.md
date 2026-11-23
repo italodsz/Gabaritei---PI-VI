@@ -14,8 +14,9 @@ Fonte: `recomendador-base-final`, commit `d10f5a3`. Dataset: `e6712a8`.
 
 ## Uso do aplicativo
 
-Na raiz do projeto: `npm start`. A API usa o catálogo já exportado, sem Python,
-CUDA ou download de modelos. Para consultar o catálogo manualmente, leia
+Na raiz do projeto, prepare o ambiente Python conforme o README e rode
+`.venv/bin/python -m backend` (ou `npm start`). O FastAPI usa o catálogo já
+exportado, sem CUDA ou download de modelos. Para consultar o catálogo manualmente, leia
 `catalogo/LEIA.md`. Só o catálogo oficial foi integrado na main.
 
 ## Manutenção dos índices
@@ -28,13 +29,20 @@ python recomendador.py exportar
 # Apenas depois de mudar a base e revisar os rótulos:
 python recomendador.py construir --recodificar
 python gerar_vetores_qwen.py --quantizar-4bit --lote 2
-# Registrar o novo QWEN_SHA256 antes de exportar novamente.
+python registrar_indices_base_final.py
+# Somente após revisar os novos hashes e a compatibilidade, exporte o catálogo.
 ```
 
 A geração neural exige PyTorch com CUDA, sentence-transformers e bitsandbytes;
 o uso normal do app não exige esses pacotes. Não use vetores de outra base.
 
-Relatório: [RELATORIO_BASE_FINAL.md](RELATORIO_BASE_FINAL.md).
+`pipeline_baseline.py` é importado pelo recomendador e pelo diagnóstico do modo
+dev para preparar os textos e reconstruir os vetores. Não é um arquivo descartável.
+`registrar_indices_base_final.py` registra o SHA-256 do Qwen e o ambiente dos índices;
+ele altera o código e a configuração e deve ser usado apenas numa reconstrução revisada.
+Os cinco JSONs restantes em `resultados/base_final/` são lidos por `backend/dev.py`:
+`avaliacao_antes`, `avaliacao_depois`, `auditoria_base`, `auditoria_entrega` e
+`ambiente_indices`. As demais auditorias e relatórios históricos ficam no Git.
 A amostra em `classificador/saida/amostra_conferencia_base_final.csv` continua
 aguardando conferência humana. Os 67 defeitos continuam bloqueados. A integração
 não corrige enunciados nem considera a amostra como validada pelo grupo.

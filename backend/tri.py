@@ -212,17 +212,11 @@ def montar_lista(candidatos, n, alvo, cfg, rng=random):
     return [c["id"] for c in escolhidas]
 
 
-def apoio_disponivel(p, cfg):
-    return finite(p) and p < cfg["apoio"]["abaixo_de"]
-
-
-def conta_para_theta(item, primeira, apoio, tempo_ms, origem, cfg):
+def conta_para_theta(item, primeira, tempo_ms, origem, cfg):
     if item is None:
         motivo = "parametros_fora_da_triagem"
     elif not primeira:
         motivo = "repeticao"
-    elif apoio:
-        motivo = "com_apoio"
     elif finite(tempo_ms) and tempo_ms < cfg["tempo_minimo_ms"]:
         motivo = "resposta_muito_rapida"
     else:

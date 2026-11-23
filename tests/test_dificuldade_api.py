@@ -3,7 +3,8 @@ from fastapi.testclient import TestClient
 from backend.app import criar_app
 
 
-def test_recomendacao_gabarito_e_perfil(tmp_path):
+def test_recomendacao_gabarito_e_perfil(tmp_path, monkeypatch):
+    monkeypatch.setenv("GABARITEI_DEVS", "teste@example.org")
     banco = tmp_path / "dificuldade.db"
     with TestClient(criar_app(banco)) as cliente:
         acervo = cliente.app.state.acervo

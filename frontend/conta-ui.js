@@ -32,7 +32,7 @@ export function montarConta({ menu, openDialog, closeDialog, toast }) {
   }
 
   function formulario({ rotulo, titulo, texto, campos, botao, enviar, rodape }) {
-    openDialog(`<span class="dialog-label">${rotulo}</span><h2 id="dialog-title" class="dialog-title">${titulo}</h2><p class="dialog-description">${texto}</p>
+    openDialog(`${rotulo ? `<span class="dialog-label">${rotulo}</span>` : ''}<h2 id="dialog-title" class="dialog-title">${titulo}</h2><p class="dialog-description">${texto}</p>
       <form class="account-form" novalidate>${campos.map(c => `<label>${esc(c.rotulo)}<input name="${c.nome}" type="${c.tipo}" autocomplete="${c.auto}" ${c.min ? `minlength="${c.min}"` : ''} required></label>`).join('')}
       <p class="account-error" role="alert" aria-live="assertive"></p>
       <div class="dialog-actions"><button class="primary-button" type="submit">${botao}</button></div></form>${rodape || ''}`);
@@ -47,7 +47,7 @@ export function montarConta({ menu, openDialog, closeDialog, toast }) {
   function abrirEntrada(modo) {
     const criar = modo === 'criar';
     formulario({
-      rotulo: criar ? 'CRIAR CONTA' : 'ENTRAR', titulo: criar ? 'Guarde seu progresso.' : 'Que bom ver você.',
+      rotulo: '', titulo: criar ? 'Criar conta' : 'Entrar',
       texto: criar ? 'Com uma conta, suas práticas, simulados, plano e notas ficam salvos no servidor e acompanham você em qualquer navegador. O que já está neste navegador sobe para a conta.' : 'Entre para continuar de onde parou.',
       campos: [...(criar ? [{ nome: 'nome', rotulo: 'Nome', tipo: 'text', auto: 'name' }] : []), { nome: 'email', rotulo: 'E-mail', tipo: 'email', auto: 'email' }, { nome: 'senha', rotulo: criar ? 'Senha (mínimo 8 caracteres)' : 'Senha', tipo: 'password', auto: criar ? 'new-password' : 'current-password', min: criar ? 8 : 0 }],
       botao: criar ? 'Criar conta' : 'Entrar',
@@ -57,12 +57,12 @@ export function montarConta({ menu, openDialog, closeDialog, toast }) {
     document.querySelector('#account-switch').onclick = () => abrirEntrada(criar ? 'entrar' : 'criar');
   }
   function abrirSenha() {
-    formulario({ rotulo: 'SEGURANÇA', titulo: 'Trocar senha', texto: 'As outras sessões desta conta serão encerradas.',
+    formulario({ rotulo: '', titulo: 'Trocar senha', texto: 'As outras sessões desta conta serão encerradas.',
       campos: [{ nome: 'atual', rotulo: 'Senha atual', tipo: 'password', auto: 'current-password' }, { nome: 'nova', rotulo: 'Nova senha (mínimo 8 caracteres)', tipo: 'password', auto: 'new-password', min: 8 }], botao: 'Salvar nova senha',
       enviar: async d => { await trocarSenha(d.atual, d.nova); closeDialog(); toast('Senha alterada.'); } });
   }
   function abrirExclusao() {
-    formulario({ rotulo: 'EXCLUIR CONTA', titulo: 'Excluir minha conta?', texto: 'Isso apaga do servidor o seu perfil, práticas, simulados, plano e notas. Não dá para desfazer. Baixe seus dados antes, se quiser guardá-los.',
+    formulario({ rotulo: '', titulo: 'Excluir minha conta?', texto: 'Isso apaga do servidor o seu perfil, práticas, simulados, plano e notas. Não dá para desfazer. Baixe seus dados antes, se quiser guardá-los.',
       campos: [{ nome: 'senha', rotulo: 'Confirme sua senha', tipo: 'password', auto: 'current-password' }], botao: 'Excluir definitivamente',
       enviar: async d => { await excluirConta(d.senha); closeDialog(); recarregar(); } });
   }

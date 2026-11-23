@@ -46,7 +46,7 @@ Os hashes congelados ficam em `acervo.py`.
 Recomendações por POST recebem `{"exclude":["gq_..."],"limit":10}`. Excluem também
 as famílias dos IDs informados. Lista vazia retorna uma justificativa, sem trocar
 de matéria, título, área ou idioma nem completar com sorteio.
-Correção recebe `{"selected":"A"}` (e, opcionalmente, `tempoMs`, `apoio`, `primeira`, `desafio`) e retorna
+Correção recebe `{"selected":"A"}` (e, opcionalmente, `tempoMs`, `primeira`, `desafio`) e retorna
 `correct`, `answer`, `explanation` e, com login, `tri` (o que o perfil TRI aprendeu) com `persisted:true`. Não há resolução comentada: a mensagem informa essa ausência.
 
 O bootstrap inclui gabaritos para a correção local dos simulados e da revisão.
@@ -62,9 +62,9 @@ assuntos com base no gabarito ou em rótulos automáticos do dataset.
 Testes da API: `.venv/bin/python -m pytest` na raiz. A paridade do motor TRI
 com JavaScript e os testes do front-end rodam com `npm test`.
 
-## Laboratório local
+## Modo dev
 
-`/dev` abre o painel descrito em [docs/laboratorio-dev.md](../docs/laboratorio-dev.md).
+O painel do [modo dev](../docs/modo-dev.md) usa estas rotas; todas exigem a conta de desenvolvedor.
 `GET /api/dev/resumo`, `GET /api/dev/questoes` e `GET /api/dev/questoes/gq_...`
 oferecem estatísticas e inspeção da fonte. `GET /api/dev/dificuldade` traz a
 calibração TRI. `POST /api/dev/diagnostico` recebe

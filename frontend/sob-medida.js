@@ -6,7 +6,7 @@
 //      (pode trocar a 1ª pela 2ª ou 3ª quando a 1ª está muito fora do desafio);
 //   3. se a última não tem parecidas novas, tenta as anteriores da prática; depois o mesmo
 //      assunto (pela dificuldade); por fim, o acervo inteiro.
-// Cada escolha guarda o motivo (badge na questão) e fica registrada no laboratório (/dev).
+// Cada escolha guarda o motivo (badge na questão) e fica registrada no modo dev.
 import { recomendarQuestao } from './acervo-api.js';
 import * as Dif from './dificuldade-cliente.js';
 
@@ -81,7 +81,7 @@ export async function proxima(session, { E, records }) {
 export function abrirEscolha({ E, openDialog, closeDialog, icons, onEscolher }) {
   const state = { aba: 'tema', busca: '', subjectId: null, areaId: '' };
   const subjects = E.SUBJECTS.filter(s => E.questionRepository.query({ subjectId: s.id }).length);
-  openDialog(`<div class="sm"><span class="dialog-label">PRÁTICA SOB MEDIDA</span><h2 id="dialog-title" class="dialog-title">Por onde começar?</h2>
+  openDialog(`<div class="sm"><h2 id="dialog-title" class="dialog-title">Por onde começar?</h2>
     <p class="dialog-description">Depois da primeira questão, o recomendador escolhe a próxima sem parar: uma parecida com a anterior pelo <b>titulo_area</b>, ajustada pelo seu <b>nível de desafio</b>.</p>
     <div class="sm-tabs" role="tablist">${[['questao', 'Uma questão'], ['tema', 'Um tema'], ['aleatorio', 'Aleatório']].map(([v, l]) => `<button type="button" role="tab" data-aba="${v}">${l}</button>`).join('')}</div>
     <div class="sm-body" id="sm-body"></div></div>`);

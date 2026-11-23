@@ -9,10 +9,11 @@ O recomendador de dificuldade (nota TRI estimada e um toque de dificuldade nas l
 
 ## Rodar localmente
 
-Requer Python 3.12. Para baixar a versão integrada:
+Requer Python 3.12. Node 22.13 ou mais recente é necessário para os testes JavaScript
+e para os atalhos npm; o servidor pode ser iniciado diretamente pelo Python.
 
 ```sh
-git clone --branch integracao-front https://github.com/italodsz/Gabaritei---PI-VI.git
+git clone --branch main https://github.com/italodsz/Gabaritei---PI-VI.git
 cd Gabaritei---PI-VI
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
@@ -58,8 +59,9 @@ A base registra revisão de licença pendente para redistribuição pública.
    pela dificuldade. **Semelhante** traz a próxima do catálogo oficial.
 5. **Simulados**: por área (formato do dia do ENEM) ou personalizado; o gabarito aparece ao finalizar.
 6. **Entrar ou criar conta** (menu do perfil): o progresso e o perfil TRI passam a ficar no banco.
-7. **/dev → Recomendadores ao vivo**: perfil TRI, linha do tempo do aprendizado, decisões do
-   `titulo_area` + dificuldade e calibração (atualiza sozinho com o app aberto em outra aba).
+7. **Modo dev** (só a conta de desenvolvedor): botão no topo da tela da questão que abre o painel dos
+   recomendadores, com TRI e parecidas da questão, perfil TRI, aprendizado e calibração. Veja
+   [docs/modo-dev.md](docs/modo-dev.md).
 
 ## Base e recomendador
 
@@ -71,19 +73,18 @@ A base registra revisão de licença pendente para redistribuição pública.
 - Catálogo: até 50 sugestões, mediana 45, 68 listas vazias. Uma questão de Literatura
   pertence oficialmente à prova de CH de 2009 e não tem outra do mesmo título nessa área.
 - O servidor confere o SHA-256 da base e a compatibilidade das sugestões ao iniciar.
-- O FastAPI e o laboratório usam os índices já calculados, em CPU.
+- O FastAPI e o modo dev usam os índices já calculados, em CPU.
 
 O histórico fictício do protótipo não entra nesta versão. O progresso com questões
 oficiais usa novas chaves de armazenamento; dados antigos ficam preservados.
 
 ## Desenvolvimento e verificações
 
-O [laboratório dev](docs/laboratorio-dev.md) está em **http://127.0.0.1:4173/dev**:
-responda questões, inspecione escores e filtros, compare sugestões e exporte
-avaliações separadas do progresso do estudante. A inspeção numérica usa Python
-em CPU sobre os vetores existentes, carregados na primeira consulta de diagnóstico.
+O [modo dev](docs/modo-dev.md) fica na tela da questão, só para a conta de desenvolvedor
+(`backend/dados/devs.txt` ou `GABARITEI_DEVS`). A inspeção dos escores usa Python em CPU
+sobre os vetores existentes, carregados na primeira consulta.
 
-```powershell
+```sh
 .venv/bin/python -m pytest
 npm test                 # testes do navegador e paridade TRI com JavaScript
 # Somente para alterar os módulos TypeScript do motor:
@@ -92,7 +93,26 @@ npm ci
 npm run build:engine
 ```
 
-Detalhes e limites: [docs/integracao-main.md](docs/integracao-main.md),
-[back-end](backend/README.md), [front-end](frontend/README.md) e
-[revisão do código](docs/revisao-codigo.md) e
-[relatório da base final](recomendador/rrf-tfidf-minilm-J/RELATORIO_BASE_FINAL.md).
+## Estrutura da versão final
+
+- `frontend/`: telas, estilos e bundle do app. `legacy/src/` contém os módulos
+  TypeScript ainda usados por `learning-engine.ts`; não é um segundo aplicativo.
+- `backend/`: FastAPI, SQLite, migrações, TRI, catálogo e diagnóstico do modo dev.
+- `tests/`: testes Python; os testes JavaScript também ficam em `backend/` e `frontend/`.
+- `Dataset/base_trabalho/`: base oficial, IDs elegíveis e partições de treino,
+  validação e teste. `media/` é opcional e fica fora do Git.
+- `recomendador/rrf-tfidf-minilm-J/`: catálogo `titulo_area`, índices, base,
+  classificador e código para consulta e reconstrução. Cinco JSONs em
+  `resultados/base_final/` alimentam o resumo da API do modo dev.
+- `avaliacao/dificuldade/`: comparação dos três recomendadores com o ENEM 2024;
+  não participa da inicialização do servidor.
+- `docs/`: banco de dados e MER, recomendação de dificuldade e modo dev.
+
+A base e o catálogo têm SHA-256 congelados: não edite esses arquivos para fazer
+o servidor iniciar. Reconstruções precisam ser uma atualização deliberada e
+compatível da base, classificação, índices, catálogo e hashes.
+Relatórios antigos e registros de processo permanecem no histórico do Git.
+
+Detalhes: [back-end](backend/README.md), [front-end](frontend/README.md),
+[base](Dataset/base_trabalho/README.md), [recomendador](recomendador/rrf-tfidf-minilm-J/README.md)
+e [avaliação de dificuldade](avaliacao/dificuldade/README.md).

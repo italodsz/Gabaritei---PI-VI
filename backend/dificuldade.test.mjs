@@ -82,14 +82,9 @@ test('meta alcançável: sem questões no alvo, prefere as mais acessíveis', ()
   assert.equal(T.metaAlcancavel(0.75, [0.9, 0.8, 0.85, 0.6], cfg), 0.75);
 });
 
-test('apoio e regras do que conta para θ', () => {
-  assert.ok(T.apoioDisponivel(0.3, cfg)); assert.ok(!T.apoioDisponivel(0.6, cfg));
-  const e = T.eliminarAlternativas(['A', 'B', 'C', 'D', 'E'], 'C', 'sessao1:q1', cfg);
-  assert.equal(e.length, 2); assert.ok(!e.includes('C'));
-  assert.deepEqual(e, T.eliminarAlternativas(['A', 'B', 'C', 'D', 'E'], 'C', 'sessao1:q1', cfg));
+test('regras do que conta para θ', () => {
   const it = { a: 1, b: 0, c: 0.2 };
-  assert.equal(T.contaParaTheta({ it, primeira: true, apoio: false, tempoMs: 30000 }, cfg).peso, 0.8);
-  assert.equal(T.contaParaTheta({ it, primeira: true, apoio: true }, cfg).motivo, 'com_apoio');
+  assert.equal(T.contaParaTheta({ it, primeira: true, tempoMs: 30000 }, cfg).peso, 0.8);
   assert.equal(T.contaParaTheta({ it, primeira: false }, cfg).motivo, 'repeticao');
   assert.equal(T.contaParaTheta({ it, primeira: true, tempoMs: 3000 }, cfg).motivo, 'resposta_muito_rapida');
   assert.equal(T.contaParaTheta({ it: null, primeira: true }, cfg).motivo, 'parametros_fora_da_triagem');

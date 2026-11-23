@@ -43,7 +43,8 @@ def test_consulta_e_sugestoes():
 
 def test_frontend_e_documentacao_no_mesmo_servidor():
     with TestClient(criar_app(":memory:")) as cliente:
-        for caminho in ("/", "/dev", "/docs", "/assets/learning-engine.js"):
+        for caminho in ("/", "/docs", "/assets/learning-engine.js"):
             assert cliente.get(caminho).status_code == 200
         assert cliente.get("/api/inexistente").json() == {"error": "Rota não encontrada."}
         assert cliente.get("/backend/server.mjs").status_code == 404
+        assert cliente.get("/dev").status_code == 404

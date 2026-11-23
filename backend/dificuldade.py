@@ -11,7 +11,7 @@ from fastapi import APIRouter, Request
 
 from . import tri
 from .common import ApiError, ROOT, body, finite, js_number, js_round, reply
-from .contas import usuario_atual
+from .contas import exigir_dev, usuario_atual
 from .db import transacao
 
 _CONFIG_BYTES = (ROOT / "backend/config/dificuldade_v1.json").read_bytes()
@@ -121,7 +121,7 @@ class Dificuldade:
             self._novas = 0
         return self._ajuste
 
-    def registrar(self, uid, questao, alternativa, *, tempo=None, apoio=False, origem="pratica", primeira=True, desafio=None):
+    def registrar(self, uid, questao, alternativa, *, tempo=None, origem="pratica", primeira=True, desafio=None):
         area = _area(questao)
         if area not in tri.AREAS:
             return None
@@ -132,20 +132,20 @@ class Dificuldade:
             primeira = primeira and not cx.exec_driver_sql(
                 "SELECT 1 FROM resposta_evento WHERE usuario_id=? AND questao_id=? LIMIT 1", (uid, questao["id"]),
             ).first()
-            regra = tri.conta_para_theta(item, primeira, apoio, tempo, origem, CONFIG)
+            regra = tri.conta_para_theta(item, primeira, tempo, origem, CONFIG)
             media, dp = tri.momentos(atual, CONFIG)
             prevista = tri.chance(tri.alargar(atual, agora, CONFIG), item, CONFIG) if item else None
             novo = atual
             if regra["conta"]:
                 novo = tri.atualizar(atual, item, correta, CONFIG, agora_ms=agora, peso=regra["peso"])
-            if origem == "pratica" and not apoio:
+            if origem == "pratica":
                 novo = tri.registrar_acerto(novo, correta, CONFIG, tri.meta_de(desafio, CONFIG))
             motivo = regra.get("motivo")
             cx.exec_driver_sql(
                 "INSERT INTO resposta_evento VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (str(uuid4()), uid, questao["id"], area, alternativa, int(correta),
-                 js_round(tempo) if finite(tempo) and abs(tempo) <= 2**53 - 1 else None,
-                 int(primeira), int(apoio), origem, prevista, media, dp, atual["pstar"],
+                 js_round(tempo) if finite(tempo) and 0 <= tempo <= 2**53 - 1 else None,
+                 int(primeira), 0, origem, prevista, media, dp, atual["pstar"],
                  int(regra["conta"]), motivo, CONFIG["versao"], _iso(agora)),
             )
             if novo is not atual:
@@ -217,7 +217,7 @@ class Dificuldade:
             else:
                 random.shuffle(ids)
         ids = ids[:limite]
-        itens = [dict(id=i, chance=p, apoioDisponivel=tri.apoio_disponivel(p, CONFIG))
+        itens = [dict(id=i, chance=p)
                  for i in ids for p in [chance_de(i)]]
         return dict(modo=modo, usarDificuldade=usar, meta=meta, versao=CONFIG["versao"], itens=itens, ids=ids)
 
@@ -265,6 +265,7 @@ class Dificuldade:
 
 @router.get("/api/dev/dificuldade")
 def painel(request: Request):
+    exigir_dev(request)
     return reply(request.app.state.dificuldade.painel())
 
 
@@ -326,7 +327,7 @@ async def responder(request, questao):
         tempo = 0
     resultado = request.app.state.dificuldade.registrar(
         usuario["id"], questao, selected, tempo=tempo,
-        apoio=dados.get("apoio") is True, primeira=dados.get("primeira") is not False, desafio=dados.get("desafio"),
+        primeira=dados.get("primeira") is not False, desafio=dados.get("desafio"),
     ) if usuario else None
     return reply(dict(questionId=questao["id"], selected=selected, correct=selected == questao["correct"],
                       answer=questao["correct"], explanation=questao["explanation"],

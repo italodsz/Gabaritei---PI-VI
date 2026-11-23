@@ -1,5 +1,7 @@
 """Cadastro e sessões persistidos no SQLite."""
+import os
 import re
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from secrets import token_hex, token_urlsafe
 from uuid import uuid4
@@ -24,10 +26,30 @@ def _agora():
     return datetime.now(timezone.utc)
 
 
+# Contas com o modo dev (painel do recomendador na tela da questão): os e-mails da variável
+# GABARITEI_DEVS (separados por vírgula) e os do arquivo local backend/dados/devs.txt (um por linha,
+# fora do Git). Sem nenhum dos dois, ninguém tem o modo dev.
+ARQUIVO_DEVS = Path(__file__).resolve().parent / "dados" / "devs.txt"
+
+
+def _emails_dev():
+    texto = os.getenv("GABARITEI_DEVS", "")
+    try:
+        texto += "\n" + ARQUIVO_DEVS.read_text(encoding="utf-8")
+    except OSError:
+        pass
+    return {e.strip().lower() for e in texto.replace(",", "\n").splitlines() if e.strip() and not e.strip().startswith("#")}
+
+
+def e_dev(email):
+    return bool(email) and email.strip().lower() in _emails_dev()
+
+
 def _publico(usuario):
     return {
         **{k: usuario[k] for k in ("id", "nome", "apelido", "email", "escola", "cidade", "bio")},
         "criadoEm": usuario["criado_em"],
+        "dev": e_dev(usuario["email"]),
     }
 
 
@@ -199,6 +221,14 @@ def usuario_atual(request, *, exigir=False):
     usuario = request.app.state.contas.atual(request.cookies.get(COOKIE))
     if exigir and not usuario:
         raise ApiError(401, "Entre na sua conta para continuar.")
+    return usuario
+
+
+def exigir_dev(request: Request):
+    """Dependência das rotas /api/dev: só a conta de desenvolvedor."""
+    usuario = usuario_atual(request, exigir=True)
+    if not usuario["dev"]:
+        raise ApiError(403, "Disponível só para a conta de desenvolvedor.")
     return usuario
 
 

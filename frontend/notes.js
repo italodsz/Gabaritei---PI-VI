@@ -86,7 +86,6 @@ export function createNotes({ panel, resolveRef, openRef, toast, hi }) {
     ensureTrailingText();
     panel.innerHTML = `
       <header class="notes-head">
-        <div class="eyebrow">ESPAÇO PARA O QUE IMPORTA</div>
         <h2 id="notes-title">Minhas notas</h2>
         <p>Escreva à vontade e arraste atividades para cá.</p>
       </header>

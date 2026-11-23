@@ -74,8 +74,8 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     enterSummary();
   }
   function headerHTML() {
-    if (mode === 'practice') return pageHeader('Prática', 'Monte sua lista de questões', 'Adicione as matérias que quer estudar e, se quiser, escolha assuntos e subtópicos. Sem quantidade fixa: responda quantas quiser.');
-    return `<button type="button" class="cfg-back" id="cfg-back" data-press>${hi('ArrowLeft')}Voltar às áreas</button>${pageHeader('Simulado personalizado', 'Monte seu simulado', 'Escolha matérias, assuntos, anos e o formato da prova. No simulado, a correção acontece só quando você finaliza.', `<span class="cfg-demo">${hi('Info')}Questões oficiais do ENEM · Progresso salvo neste navegador</span>`)}`;
+    if (mode === 'practice') return pageHeader('', 'Monte sua lista de questões', 'Adicione as matérias que quer estudar e, se quiser, escolha assuntos e subtópicos. Sem quantidade fixa: responda quantas quiser.');
+    return `<button type="button" class="cfg-back" id="cfg-back" data-press>${hi('ArrowLeft')}Voltar às áreas</button>${pageHeader('', 'Monte seu simulado', 'Escolha matérias, assuntos, anos e o formato da prova. No simulado, a correção acontece só quando você finaliza.', `<span class="cfg-demo">${hi('Info')}Questões oficiais do ENEM · Progresso salvo neste navegador</span>`)}`;
   }
   function tabsHTML() {
     if (mode === 'practice') return tabs('cfg', practice.tab, [
@@ -257,7 +257,7 @@ export function createConfigStudio({ E, root, account, records, save, toast, onS
     return `<div class="lg-grid">
       ${card(`<div class="cfg-dots" aria-hidden="true"></div><div class="cfg-ai">
         <span class="cfg-ai-icon" id="cfg-ai-icon">${hi('Sparkles')}</span>
-        <h2>Deixe a seleção com a gente</h2>
+        <h2>Seleção automática</h2>
         <p>Montamos uma lista equilibrando seus pontos de atenção, as matérias que você marcou como difíceis e assuntos que precisam de revisão.</p>
         <p class="cfg-ai-q">Quantas questões?</p>
         <div class="cfg-ai-seg" role="radiogroup" aria-label="Quantidade">${E.PRACTICE_COUNTS.map(c => `<button type="button" role="radio" aria-checked="${practice.aiCount === c}" data-ai="${c}" data-focus="ai-${c}">${practice.aiCount === c ? '<span data-indicator="ai-count"></span>' : ''}<b>${c}</b></button>`).join('')}</div>

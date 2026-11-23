@@ -78,7 +78,7 @@ export function createHistoryPage({ E, root, toast, getAccount, save, records, n
     const wrong = wrongRecords();
     const acc = account();
     root.innerHTML = `<div class="lg-page hist">
-      ${pageHeader('Histórico', 'Suas atividades', 'Listas e simulados, concluídos ou interrompidos, além das questões para revisar.')}
+      ${pageHeader('', 'Suas atividades', 'Listas e simulados, concluídos ou interrompidos, além das questões para revisar.')}
       ${tabsHTML(wrong, acc)}
       <div id="hist-panel" role="tabpanel" aria-labelledby="tab-hist-${state.tab}">${panelHTML(wrong)}</div>
     </div>`;
@@ -184,7 +184,7 @@ export function createHistoryPage({ E, root, toast, getAccount, save, records, n
 
   function collectionHTML(tab, wrong) {
     const cfg = {
-      erradas: { ids: wrong.map(w => w.questionId), mode: 'retry', title: 'Refazer questões erradas', emptyTitle: 'Nenhuma questão errada pendente', emptyText: 'Quando você errar uma questão, ela aparece aqui até que você acerte numa nova tentativa.', illus: illus.flag, note: 'Ao refazer, sua resposta anterior não é exibida — você começa do zero.' },
+      erradas: { ids: wrong.map(w => w.questionId), mode: 'retry', title: 'Refazer questões erradas', emptyTitle: 'Nenhuma questão errada pendente', emptyText: 'Quando você errar uma questão, ela aparece aqui até que você acerte numa nova tentativa.', illus: illus.flag, note: 'Ao refazer, sua resposta anterior não aparece.' },
       favoritas: { ids: account().favorites, mode: 'favorites', title: 'Praticar favoritas', emptyTitle: 'Nenhuma questão favorita', emptyText: 'Use a estrela durante a resolução para guardar questões que você quer rever.', illus: illus.star },
       revisar: { ids: account().reviewMarks, mode: 'marks', title: 'Praticar marcadas', emptyTitle: 'Nada marcado para revisão', emptyText: 'Marque questões durante a prática (tecla M) para encontrá-las aqui.', illus: illus.stack },
     }[tab];

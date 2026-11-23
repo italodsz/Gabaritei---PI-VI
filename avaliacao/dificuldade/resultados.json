@@ -1,0 +1,100 @@
+{
+  "dados": "backend/testdata/microdados_2024_amostra.json",
+  "alunos": 660,
+  "config": "dificuldade-v1.2",
+  "sementes": {
+    "previsao": 5,
+    "escolha": 10
+  },
+  "prever": {
+    "metodos": {
+      "italo": {
+        "previsoes": 145845,
+        "logloss": 0.5658,
+        "auc": 0.7421,
+        "auc_respostas_0_a_4": 0.704,
+        "auc_respostas_5_a_14": 0.7345,
+        "auc_respostas_15_a_44": 0.7504
+      },
+      "joao": {
+        "previsoes": 145845,
+        "logloss": 0.5672,
+        "auc": 0.7409,
+        "auc_respostas_0_a_4": 0.6989,
+        "auc_respostas_5_a_14": 0.7325,
+        "auc_respostas_15_a_44": 0.7499
+      },
+      "gabriel": {
+        "previsoes": 145845,
+        "logloss": 0.6329,
+        "auc": 0.6601,
+        "auc_respostas_0_a_4": 0.5801,
+        "auc_respostas_5_a_14": 0.6486,
+        "auc_respostas_15_a_44": 0.6769
+      }
+    },
+    "diferencas_pareadas_por_aluno": {
+      "italo_menos_joao": {
+        "diferenca_logloss": -0.0014,
+        "ic95": [
+          -0.0019,
+          -0.0009
+        ],
+        "primeiro_melhor_em": 0.653
+      },
+      "italo_menos_gabriel": {
+        "diferenca_logloss": -0.0672,
+        "ic95": [
+          -0.0718,
+          -0.0626
+        ],
+        "primeiro_melhor_em": 0.873
+      },
+      "joao_menos_gabriel": {
+        "diferenca_logloss": -0.0658,
+        "ic95": [
+          -0.0703,
+          -0.0613
+        ],
+        "primeiro_melhor_em": 0.888
+      }
+    }
+  },
+  "escolher": {
+    "passos": 20,
+    "acerto_medio": {
+      "sorteio": {
+        "abaixo de 500": 0.234,
+        "500 a 650": 0.494,
+        "acima de 650": 0.638
+      },
+      "gabriel": {
+        "abaixo de 500": 0.256,
+        "500 a 650": 0.504,
+        "acima de 650": 0.644
+      },
+      "joao": {
+        "abaixo de 500": 0.282,
+        "500 a 650": 0.606,
+        "acima de 650": 0.726
+      },
+      "italo": {
+        "abaixo de 500": 0.282,
+        "500 a 650": 0.612,
+        "acima de 650": 0.76
+      }
+    },
+    "alunos_por_faixa": {
+      "abaixo de 500": 305,
+      "500 a 650": 325,
+      "acima de 650": 30
+    },
+    "trocas_de_faixa_gabriel_por_aluno": 1.18,
+    "estrategias_joao": {
+      "diagnostico_inicial": 0.15,
+      "diagnostico_direcionado": 0.457,
+      "adaptativo": 0.393
+    }
+  },
+  "segundos": 168
+}

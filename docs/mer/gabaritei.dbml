@@ -1,0 +1,316 @@
+// Gabaritei · banco SQLite (migrações 0001–0003). Gerado de backend/migracoes/*.sql.
+// Abra em https://dbdiagram.io (cole este arquivo) para ver o MER.
+
+Project gabaritei {
+  database_type: 'SQLite'
+  Note: 'Banco do Gabaritei: contas, progresso de estudo, plano, notas e recomendador de dificuldade (TRI). As questões e o catálogo titulo_area ficam em arquivos e aparecem aqui como referências lógicas (questao_id).'
+}
+
+Table usuario [headercolor: #2856b6] {
+  id text [pk, note: 'UUID gerado pelo servidor']
+  email text [not null, unique, note: 'único, sem diferenciar maiúsculas (COLLATE NOCASE)']
+  nome text [not null, note: 'nome informado no cadastro']
+  apelido text [not null, default: `''`, note: 'opcional, editado no perfil']
+  escola text [not null, default: `''`, note: 'opcional']
+  cidade text [not null, default: `''`, note: 'opcional']
+  bio text [not null, default: `''`, note: 'opcional']
+  senha_hash text [not null, note: 'scrypt (N=16384, r=8, p=1) com sal; nunca a senha']
+  criado_em text [not null, note: 'ISO 8601 (UTC)']
+  atualizado_em text [not null, note: 'ISO 8601 (UTC)']
+  Note: 'Conta de um aluno.'
+}
+
+Table sessao_login [headercolor: #2856b6] {
+  token_hash text [pk, note: 'SHA-256 do token do cookie']
+  usuario_id text [not null, note: 'dono da sessão']
+  criada_em text [not null, note: 'ISO 8601']
+  expira_em text [not null, note: '30 dias depois do login']
+  ultimo_uso text [not null, note: 'atualizado no máximo 1 vez por hora']
+  agente text [not null, default: `''`, note: 'navegador (User-Agent)']
+  Note: 'Login ativo (um por navegador). O cookie guarda o token; o banco guarda só o hash dele.'
+}
+
+Table estado_usuario [headercolor: #226b47] {
+  usuario_id text [not null]
+  chave text [not null, note: 'estudos | plano | notas · regra: chave IN (\'estudos\',\'plano\',\'notas\')']
+  revisao integer [not null, default: 0, note: 'sobe 1 a cada gravação']
+  atualizado_em text [not null, note: 'ISO 8601']
+  indexes {
+    (usuario_id, chave) [pk]
+  }
+  Note: 'Número de revisão de cada bloco sincronizado (estudos, plano, notas). Evita que duas abas se sobrescrevam: quem salva com revisão velha recebe 409.'
+}
+
+Table conta_estudos [headercolor: #226b47] {
+  usuario_id text [pk]
+  schema_version integer [not null, note: 'versão do formato do estado de estudos do front']
+  onboarding text [not null, note: 'JSON: objetivo, edição, matérias difíceis, nível']
+  preferencias text [not null, note: 'JSON: cronômetro, quantidade padrão, desafio (leve/no ponto/puxado)']
+  extra text [not null, default: `'{}'`, note: 'JSON: campos novos do front, preservados sem perda']
+  Note: 'Preferências gerais de estudo (1 linha por aluno).'
+}
+
+Table sessao_pratica [headercolor: #226b47] {
+  id text [pk, note: 'identificador gerado no navegador (único no banco)']
+  usuario_id text [not null]
+  ordem integer [not null, note: 'posição na lista de práticas do aluno']
+  modo text [not null, note: 'custom, recommended, auto…']
+  titulo text [not null, note: 'título mostrado no histórico']
+  status text [not null, note: 'in_progress | completed · regra: status IN (\'in_progress\',\'completed\')']
+  criada_em text [not null, note: 'ISO 8601']
+  atualizada_em text [not null, note: 'ISO 8601']
+  concluida_em text [note: 'ISO 8601 ou nulo']
+  filtros text [not null, note: 'JSON: matéria, assuntos, anos, quantidade']
+  questoes text [not null, note: 'JSON: IDs das questões, em ordem']
+  indice_atual integer [not null, default: 0, note: 'questão em que o aluno parou']
+  relogio text [not null, note: 'JSON: tempo decorrido e início do trecho atual']
+  cursor_ms integer [not null, default: 0, note: 'tempo acumulado na questão atual']
+  cronometro_visivel integer [not null, default: 1, note: '0/1']
+  extra text [not null, default: `'{}'`, note: 'JSON: continuous, sobMedida, livre, motivos, previsto, apoio…']
+  Note: 'Uma lista de questões (montar lista, prática sob medida, revisão, desafio…).'
+}
+
+Table resposta_pratica [headercolor: #226b47] {
+  sessao_id text [not null, note: 'lista a que pertence']
+  questao_id text [not null, note: 'ID da questão no acervo (arquivo)']
+  selecionada text [note: 'A–E ou nulo · regra: selecionada IS NULL OR selecionada IN (\'A\',\'B\',\'C\',\'D\',\'E\')']
+  confirmada integer [not null, default: 0, note: '0/1 · regra: confirmada IN (0,1)']
+  correta integer [note: '0/1 ou nulo (antes de confirmar) · regra: correta IS NULL OR correta IN (0,1)']
+  respondida_em text [note: 'ISO 8601']
+  tempo_ms integer [not null, default: 0, note: 'tempo gasto (≥ 0) · regra: tempo_ms >= 0']
+  extra text [not null, default: `'{}'`, note: 'JSON com campos adicionais']
+  indexes {
+    (sessao_id, questao_id) [pk]
+  }
+  Note: 'Resposta de uma questão dentro de uma lista.'
+}
+
+Table simulado [headercolor: #226b47] {
+  id text [pk, note: 'identificador gerado no navegador']
+  usuario_id text [not null]
+  ordem integer [not null]
+  titulo text [not null]
+  status text [not null, note: 'in_progress | completed · regra: status IN (\'in_progress\',\'completed\')']
+  criado_em text [not null]
+  atualizado_em text [not null]
+  concluido_em text
+  motivo_fim text [note: 'finalizado, tempo esgotado…']
+  configuracao text [not null, note: 'JSON: modo, dia, áreas, tamanho, duração, língua estrangeira']
+  questoes text [not null, note: 'JSON: IDs em ordem']
+  secoes text [not null, note: 'JSON: blocos por área com numeração oficial']
+  marcadas text [not null, note: 'JSON: questões marcadas para rever']
+  indice_atual integer [not null, default: 0]
+  relogio text [not null]
+  cursor_ms integer [not null, default: 0]
+  cronometro_oculto integer [not null, default: 0, note: '0/1']
+  extra text [not null, default: `'{}'`, note: 'JSON: campos adicionais']
+  Note: 'Um simulado (por área no formato do dia do ENEM, ou personalizado).'
+}
+
+Table resposta_simulado [headercolor: #226b47] {
+  simulado_id text [not null, note: 'simulado a que pertence']
+  questao_id text [not null, note: 'ID no acervo']
+  selecionada text [note: 'A–E ou nulo · regra: selecionada IS NULL OR selecionada IN (\'A\',\'B\',\'C\',\'D\',\'E\')']
+  respondida_em text [note: 'ISO 8601']
+  tempo_ms integer [not null, default: 0, note: 'tempo gasto']
+  extra text [not null, default: `'{}'`, note: 'JSON: confirmação e correção ao finalizar']
+  indexes {
+    (simulado_id, questao_id) [pk]
+  }
+  Note: 'Resposta de uma questão do simulado (corrigida só ao finalizar).'
+}
+
+Table favorita [headercolor: #226b47] {
+  usuario_id text [not null]
+  questao_id text [not null, note: 'ID no acervo']
+  ordem integer [not null, note: 'ordem em que foram favoritadas']
+  indexes {
+    (usuario_id, questao_id) [pk]
+  }
+  Note: 'Questões favoritadas.'
+}
+
+Table marca_revisao [headercolor: #226b47] {
+  usuario_id text [not null]
+  questao_id text [not null, note: 'ID no acervo']
+  ordem integer [not null, note: 'ordem']
+  indexes {
+    (usuario_id, questao_id) [pk]
+  }
+  Note: 'Questões marcadas para revisar.'
+}
+
+Table meta [headercolor: #226b47] {
+  usuario_id text [not null]
+  tipo text [not null, note: 'tipo da meta']
+  alvo real [not null, note: 'valor desejado']
+  ativa integer [not null, note: '0/1 · regra: ativa IN (0,1)']
+  ordem integer [not null, note: 'ordem na tela']
+  indexes {
+    (usuario_id, tipo) [pk]
+  }
+  Note: 'Metas pessoais (ex.: questões por semana, acerto semanal).'
+}
+
+Table conquista_celebrada [headercolor: #226b47] {
+  usuario_id text [not null]
+  conquista_id text [not null, note: 'ID da conquista no front']
+  ordem integer [not null, note: 'ordem']
+  indexes {
+    (usuario_id, conquista_id) [pk]
+  }
+  Note: 'Conquistas já comemoradas (para não repetir a animação).'
+}
+
+Table atividade_plano [headercolor: #914315] {
+  id text [not null, note: 'ID do card']
+  usuario_id text [not null]
+  ordem integer [not null]
+  titulo text [not null, note: 'título']
+  area text [not null, note: 'área do card']
+  criada_em text [note: 'ISO 8601']
+  atualizada_em text [note: 'ISO 8601']
+  dados text [not null, note: 'JSON completo do card (tipo, salvo, concluído, simulado ligado…)']
+  indexes {
+    (id, usuario_id) [pk]
+  }
+  Note: 'Cards do plano de estudos (tela Início/Pendentes).'
+}
+
+Table nota_bloco [headercolor: #914315] {
+  id text [not null]
+  usuario_id text [not null]
+  ordem integer [not null]
+  tipo text [not null, note: 'text | ref · regra: tipo IN (\'text\',\'ref\')']
+  html text [note: 'só em text; HTML limpo (lista fechada de tags)']
+  ref_tipo text [note: 'só em ref: tipo do item referenciado']
+  ref_id text [note: 'só em ref: ID do item']
+  dados text [not null, default: `'{}'`, note: 'JSON com campos adicionais']
+  indexes {
+    (id, usuario_id) [pk]
+  }
+  Note: 'Blocos de Minhas notas: texto formatado ou atalho para uma atividade/questão.'
+}
+
+Table perfil_tri [headercolor: #6b3fa0] {
+  usuario_id text [not null]
+  area text [not null, note: 'CN | CH | LC | MT · regra: area IN (\'CN\',\'CH\',\'LC\',\'MT\')']
+  lw text [not null, note: 'JSON: log-pesos da distribuição de θ em 161 pontos (−4 a 4)']
+  n integer [not null, default: 0, note: 'respostas válidas que já entraram no cálculo · regra: n >= 0']
+  atualizado_em integer [note: 'última atualização (milissegundos desde 1970, usado no cálculo da deriva)']
+  pstar real [note: 'meta de acerto ajustada pelo controlador (0–1) · regra: pstar IS NULL OR pstar BETWEEN 0 AND 1']
+  respostas text [not null, default: `'[]'`, note: 'JSON: últimas 15 respostas (janela do controlador)']
+  versao_config text [not null, note: 'versão dos parâmetros usada']
+  indexes {
+    (usuario_id, area) [pk]
+  }
+  Note: 'Nível estimado do aluno numa área do ENEM (θ), guardado como distribuição completa.'
+}
+
+Table perfil_tri_historico [headercolor: #6b3fa0] {
+  usuario_id text [not null]
+  area text [not null, note: 'CN | CH | LC | MT · regra: area IN (\'CN\',\'CH\',\'LC\',\'MT\')']
+  dia text [not null, note: 'AAAA-MM-DD']
+  nota real [note: 'nota estimada']
+  nota_min real [note: 'limite inferior da faixa (~80%)']
+  nota_max real [note: 'limite superior']
+  n integer [not null, note: 'respostas válidas até o dia · regra: n >= 0']
+  indexes {
+    (usuario_id, area, dia) [pk]
+  }
+  Note: 'Nota TRI estimada por dia (linha de evolução no perfil).'
+}
+
+Table resposta_evento [headercolor: #6b3fa0] {
+  id text [pk, note: 'UUID']
+  usuario_id text [not null]
+  questao_id text [not null, note: 'ID no acervo']
+  area text [not null, note: 'CN | CH | LC | MT · regra: area IN (\'CN\',\'CH\',\'LC\',\'MT\')']
+  alternativa text [note: 'A–E · regra: alternativa IS NULL OR alternativa IN (\'A\',\'B\',\'C\',\'D\',\'E\')']
+  correta integer [not null, note: '0/1 · regra: correta IN (0,1)']
+  tempo_ms integer [note: 'tempo de resposta (≥ 0) ou nulo · regra: tempo_ms IS NULL OR tempo_ms >= 0']
+  primeira integer [not null, note: '0/1: primeira vez que o aluno responde a questão · regra: primeira IN (0,1)']
+  apoio integer [not null, default: 0, note: '0/1: usou a eliminação de 2 alternativas · regra: apoio IN (0,1)']
+  origem text [not null, note: 'pratica | simulado · regra: origem IN (\'pratica\',\'simulado\')']
+  chance_prevista real [note: 'chance prevista antes de responder (sem o ajuste δ) · regra: chance_prevista IS NULL OR chance_prevista BETWEEN 0 AND 1']
+  theta_media real [note: 'θ antes da resposta']
+  theta_dp real [note: 'incerteza de θ antes da resposta · regra: theta_dp IS NULL OR theta_dp >= 0']
+  pstar real [note: 'meta do controlador antes da resposta · regra: pstar IS NULL OR pstar BETWEEN 0 AND 1']
+  conta integer [not null, note: '0/1: entrou no cálculo de θ · regra: conta IN (0,1)']
+  motivo text [note: 'por que não contou: parametros_fora_da_triagem, repeticao, com_apoio, resposta_muito_rapida']
+  versao_config text [not null, note: 'versão dos parâmetros']
+  criada_em text [not null, note: 'ISO 8601']
+  Note: 'Registro imutável de cada resposta conferida pelo servidor, com o que o recomendador previa e se ela entrou no θ. Base da calibração e do aprendizado do sistema (δ por área).'
+}
+
+Table config_dificuldade [headercolor: #6b3fa0] {
+  versao text [pk, note: 'ex.: dificuldade-v1.2']
+  sha256 text [not null, note: 'hash do arquivo de configuração']
+  conteudo text [not null, note: 'JSON completo dos parâmetros']
+  registrada_em text [not null, note: 'ISO 8601']
+  Note: 'Cada versão dos parâmetros do recomendador de dificuldade já usada (rastreabilidade).'
+}
+
+Table migracao [headercolor: #555555] {
+  versao text [pk, note: '0001_inicial, 0002_dificuldade, 0003_integridade']
+  aplicada_em text [not null, note: 'ISO 8601']
+  Note: 'Migrações já aplicadas ao banco.'
+}
+
+TableGroup contas_e_acesso [color: #2856b6] {
+  usuario
+  sessao_login
+  Note: 'Contas e acesso'
+}
+
+TableGroup estudos_do_aluno [color: #226b47] {
+  estado_usuario
+  conta_estudos
+  sessao_pratica
+  resposta_pratica
+  simulado
+  resposta_simulado
+  favorita
+  marca_revisao
+  meta
+  conquista_celebrada
+  Note: 'Estudos do aluno'
+}
+
+TableGroup plano_e_notas [color: #914315] {
+  atividade_plano
+  nota_bloco
+  Note: 'Plano e notas'
+}
+
+TableGroup recomendador_de_dificuldade_tri [color: #6b3fa0] {
+  perfil_tri
+  perfil_tri_historico
+  resposta_evento
+  config_dificuldade
+  Note: 'Recomendador de dificuldade (TRI)'
+}
+
+TableGroup controle [color: #555555] {
+  migracao
+  Note: 'Controle'
+}
+
+Ref: atividade_plano.usuario_id > usuario.id [delete: cascade]
+Ref: conquista_celebrada.usuario_id > usuario.id [delete: cascade]
+Ref: conta_estudos.usuario_id - usuario.id [delete: cascade]
+Ref: estado_usuario.usuario_id > usuario.id [delete: cascade]
+Ref: favorita.usuario_id > usuario.id [delete: cascade]
+Ref: marca_revisao.usuario_id > usuario.id [delete: cascade]
+Ref: meta.usuario_id > usuario.id [delete: cascade]
+Ref: nota_bloco.usuario_id > usuario.id [delete: cascade]
+Ref: perfil_tri.versao_config > config_dificuldade.versao
+Ref: perfil_tri.usuario_id > usuario.id [delete: cascade]
+Ref: perfil_tri_historico.usuario_id > usuario.id [delete: cascade]
+Ref: resposta_evento.versao_config > config_dificuldade.versao
+Ref: resposta_evento.usuario_id > usuario.id [delete: cascade]
+Ref: resposta_pratica.sessao_id > sessao_pratica.id [delete: cascade]
+Ref: resposta_simulado.simulado_id > simulado.id [delete: cascade]
+Ref: sessao_login.usuario_id > usuario.id [delete: cascade]
+Ref: sessao_pratica.usuario_id > usuario.id [delete: cascade]
+Ref: simulado.usuario_id > usuario.id [delete: cascade]

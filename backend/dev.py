@@ -7,13 +7,14 @@ from pathlib import Path
 import sys
 from threading import Lock
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Depends, Request
 from starlette.concurrency import run_in_threadpool
 
 from .acervo import sem_acentos
 from .common import ApiError, ROOT, body, exclusions, integer, reply
+from .contas import exigir_dev
 
-router = APIRouter(prefix="/api/dev")
+router = APIRouter(prefix="/api/dev", dependencies=[Depends(exigir_dev)])
 REC = ROOT / "recomendador/rrf-tfidf-minilm-J"
 log = logging.getLogger(__name__)
 

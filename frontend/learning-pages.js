@@ -47,7 +47,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const segmented = (name, value, options, aria) => `<div class="studio-segments" role="group" aria-label="${aria}">${options.map(o=>`<button type="button" data-${name}="${esc(o.value)}" aria-pressed="${value===o.value}" class="${value===o.value?'is-active':''}">${esc(o.label)}</button>`).join('')}</div>`;
   const panel = (title, subtitle, content, cls='', action='') => `<section class="studio-panel ${cls}"><header class="studio-panel-heading"><div><h2>${title}</h2>${subtitle?`<p>${subtitle}</p>`:''}</div>${action}</header>${content}</section>`;
   const bar = (value, color, label='') => `<div class="studio-progress" role="progressbar" aria-label="${esc(label)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(value*100)}"><span style="width:${Math.max(0,Math.min(1,value))*100}%;background:${color}"></span></div>`;
-  function pageHeader(eyebrow,title,description,actions='') { return `<header class="studio-header"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1><p>${description}</p></div>${actions?`<div class="studio-header-actions">${actions}</div>`:''}</header>`; }
+  function pageHeader(eyebrow,title,description,actions='') { return `<header class="studio-header"><div>${eyebrow?`<div class="eyebrow">${eyebrow}</div>`:''}<h1>${title}</h1><p>${description}</p></div>${actions?`<div class="studio-header-actions">${actions}</div>`:''}</header>`; }
   const notice = () => '';
 
   function mount(nextPage, { enter = true } = {}) {
@@ -114,7 +114,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     const s = activeReview();
     if (s) { openSession(s); return s; }
     const ids = reviewQueue();
-    if (!ids.length) { toast('Tudo revisado por enquanto!'); return null; }
+    if (!ids.length) { toast('Tudo revisado por enquanto.'); return null; }
     const created = { ...E.createPracticeSession({ title: 'Revisão de erros', questionIds: ids, mode: 'retry', filters: { ...E.EMPTY_FILTERS, count: ids.length }, timerVisible: false, now: Date.now() }), review: true, reviewInitial: ids.length };
     account.practiceSessions.push(created);
     save();
@@ -264,7 +264,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     const latest = new Map();
     records().filter(r => !r.correct).sort((a, b) => b.answeredAt - a.answeredAt).forEach(r => { if (!latest.has(r.questionId)) latest.set(r.questionId, r); });
     const ids = [...latest.keys()].slice(0, 10);
-    if (!ids.length) { toast('Você ainda não tem erros para revisar. Que tal uma lista nova?'); return; }
+    if (!ids.length) { toast('Você ainda não tem erros para revisar.'); return; }
     beginList('Revisão dos seus erros', ids, 'retry', { ...E.EMPTY_FILTERS, count: ids.length }, onComplete);
   }
   /** Progresso de uma lista: título, situação e quantas questões já foram respondidas. */
@@ -298,7 +298,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     const accDelta=comparison.accuracyDelta===null?'':pill(`${comparison.accuracyDelta>=0?'+':'−'}${Math.abs(Math.round(comparison.accuracyDelta*100))} p.p.`,comparison.accuracyDelta>=0?'up':'down');
     const prevN=comparison.previous.answered,curN=comparison.current.answered;
     const volDelta=prevN?pill(`${curN>=prevN?'+':'−'}${Math.abs(Math.round((curN-prevN)/prevN*100))}% ${performance.period==='all'?'na 2ª metade':'vs. anterior'}`,curN>=prevN?'up':'down'):'';
-    root.innerHTML=`<div class="learning-shell performance-shell">${pageHeader('PROGRESSO · CADA PASSO CONTA','Análise da sua evolução','Acompanhe seus acertos, seu ritmo de estudo e os assuntos que pedem atenção.',segmented('period',performance.period,[{value:'week',label:'Semanal'},{value:'month',label:'Mensal'},{value:'all',label:'Todo o período'}],'Período da análise'))}${notice()}
+    root.innerHTML=`<div class="learning-shell performance-shell">${pageHeader('','Análise da sua evolução','Acompanhe seus acertos, seu ritmo de estudo e os assuntos que pedem atenção.',segmented('period',performance.period,[{value:'week',label:'Semanal'},{value:'month',label:'Mensal'},{value:'all',label:'Todo o período'}],'Período da análise'))}${notice()}
       <div class="metrics-grid kpi-grid">${kpi('green','Acerto geral',pct(overall.accuracy),sparkLine(series.map(s=>s.accuracy)),accDelta||`<span class="kpi-note">${delta}</span>`)}${kpi('blue','Questões no período',num(cfg.periodAnswered ?? comparison.current.answered),sparkBars(series.map(s=>s.answered)),volDelta||`<span class="kpi-note">${num(overall.answered)} respostas no total</span>`)}${kpi('yellow','Tempo total de estudo',duration(E.totalStudyTime(account,now)),'','<span class="kpi-note">soma das sessões</span>')}${kpi('red','Tempo por questão',shortTime(overall.avgTimeMs),'','<span class="kpi-note">tempo médio por resposta</span>')}</div>
       <div class="performance-grid">
         ${panel('Evolução da taxa de acerto',cfg.subtitle,accuracyChart(series),'span-8')}
@@ -382,7 +382,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     return d;
   }
   function accuracyChart(series) {
-    return `<div class="acc-chart" role="img" aria-label="Evolução da taxa de acerto. Os valores também estão disponíveis na tabela abaixo."><svg class="acc-svg" aria-hidden="true"></svg><div class="acc-tip" hidden></div></div>${dataTable(series)}`;
+    return `<div class="acc-chart" role="img" aria-label="Evolução da taxa de acerto"><svg class="acc-svg" aria-hidden="true"></svg><div class="acc-tip" hidden></div></div>${dataTable(series)}`;
   }
   /** Desenha o gráfico com a largura real do painel e liga o tooltip. */
   function bindAccuracyChart(series, { fade = false } = {}) {
@@ -443,7 +443,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     if (window.ResizeObserver) { let w = box.clientWidth; new ResizeObserver(() => { if (Math.abs(box.clientWidth - w) > 2 && document.contains(box)) { w = box.clientWidth; draw(false); hide(); } }).observe(box); }
   }
   function dataTable(series) { return `<details class="chart-data"><summary>Ver dados em tabela</summary><div class="table-scroll"><table><caption>Respostas e acertos por período</caption><thead><tr><th>Período</th><th>Respondidas</th><th>Acertos</th><th>Taxa</th></tr></thead><tbody>${series.map(s=>`<tr><th scope="row">${esc(s.label)}</th><td>${s.answered}</td><td>${s.correct}</td><td>${s.accuracy===null?'Sem dados':pct(s.accuracy)}</td></tr>`).join('')}</tbody></table></div></details>`; }
-  function volumeChart(series) { const max=Math.max(1,...series.map(s=>s.answered));return `<div class="volume-chart" role="img" aria-label="Volume de questões por período. Consulte também a tabela abaixo.">${series.map(s=>`<div class="volume-column"><div class="volume-space"><div class="volume-bar" style="--bar-height:${s.answered/max*100}%" title="${esc(s.label)}: ${s.answered} questões"><span>${s.answered||''}</span></div></div><span>${esc(s.label)}</span></div>`).join('')}</div>${dataTable(series)}`; }
+  function volumeChart(series) { const max=Math.max(1,...series.map(s=>s.answered));return `<div class="volume-chart" role="img" aria-label="Volume de questões por período">${series.map(s=>`<div class="volume-column"><div class="volume-space"><div class="volume-bar" style="--bar-height:${s.answered/max*100}%" title="${esc(s.label)}: ${s.answered} questões"><span>${s.answered||''}</span></div></div><span>${esc(s.label)}</span></div>`).join('')}</div>${dataTable(series)}`; }
   /** Comparação "antes → agora": números lado a lado, selo de variação e um haltere (dois pontos ligados) na mesma escala. */
   function comparisonPanel(cmp) {
     const has=cmp.previous.answered>0;
@@ -475,6 +475,6 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     return `<div class="gh-cal-scroll"><div class="gh-cal" style="--weeks:${columns.length}"><div class="gh-months" aria-hidden="true">${months}</div><div class="gh-days" aria-hidden="true">${days}</div><div class="gh-grid" role="grid" aria-label="Calendário de atividades">${cells}</div></div></div><div class="calendar-legend"><span>${num(total)} questões no último ano</span><span>Menos <i class="gh-cell level-0"></i><i class="gh-cell level-1"></i><i class="gh-cell level-2"></i><i class="gh-cell level-3"></i><i class="gh-cell level-4"></i> Mais</span></div><div class="gh-tip" id="gh-tip" hidden></div>`;
   }
   function goalsHTML(goals) { return goals.length?`<div class="personal-goals">${goals.map((p,i)=>{const meta=E.GOAL_META[p.goal.kind];return `<article class="${p.done?'is-done':''}"><div class="goal-ring" style="--goal-progress:${Math.min(1,p.progress)*360}deg" role="img" aria-label="${meta.title}: ${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}"><span>${p.done?icons('check-circle'):p.pendingReason?'—':meta.format(p.current)}</span></div><h3>${meta.title}</h3><p>${p.pendingReason||`${meta.format(p.current)} de ${meta.format(p.goal.target)}`}</p></article>`;}).join('')}</div>`:'<p class="field-hint">Nenhuma meta ativa. Use “Editar metas” para definir seu próximo passo.</p>'; }
-  function editGoals() { openDialog(`<span class="dialog-label">SEU RITMO, SUAS METAS</span><h2 id="dialog-title" class="dialog-title">Pequenos passos possíveis.</h2><p class="dialog-description">As metas são recalculadas com base nas suas práticas realizadas aqui.</p><form id="goals-form">${account.goals.map(g=>{const meta=E.GOAL_META[g.kind];return `<div class="goal-editor-row"><label class="goal-enable"><input type="checkbox" name="enabled-${g.kind}" ${g.enabled?'checked':''}><span><strong>${meta.title}</strong><small>${meta.description}</small></span></label><label class="goal-target">Meta em ${meta.unit}<input type="number" name="target-${g.kind}" value="${g.target}" min="${meta.min}" max="${meta.max}" step="${meta.step}" required></label></div>`;}).join('')}<button class="primary-button" type="submit">Salvar metas ${icons('check')}</button></form>`);document.querySelector('#goals-form').onsubmit=event=>{event.preventDefault();const data=new FormData(event.target);account.goals=account.goals.map(g=>({...g,enabled:data.has(`enabled-${g.kind}`),target:Number(data.get(`target-${g.kind}`))}));save();closeDialog();renderPerformance();toast('Metas atualizadas. Um caminho possível para você.');}; }
+  function editGoals() { openDialog(`<h2 id="dialog-title" class="dialog-title">Editar metas</h2><p class="dialog-description">As metas são recalculadas com base nas suas práticas realizadas aqui.</p><form id="goals-form">${account.goals.map(g=>{const meta=E.GOAL_META[g.kind];return `<div class="goal-editor-row"><label class="goal-enable"><input type="checkbox" name="enabled-${g.kind}" ${g.enabled?'checked':''}><span><strong>${meta.title}</strong><small>${meta.description}</small></span></label><label class="goal-target">Meta em ${meta.unit}<input type="number" name="target-${g.kind}" value="${g.target}" min="${meta.min}" max="${meta.max}" step="${meta.step}" required></label></div>`;}).join('')}<button class="primary-button" type="submit">Salvar metas ${icons('check')}</button></form>`);document.querySelector('#goals-form').onsubmit=event=>{event.preventDefault();const data=new FormData(event.target);account.goals=account.goals.map(g=>({...g,enabled:data.has(`enabled-${g.kind}`),target:Number(data.get(`target-${g.kind}`))}));save();closeDialog();renderPerformance();toast('Metas atualizadas.');}; }
   return { mount, startOfficial, startSobMedida, sobMedidaOverview, startChallenge: () => challenge.start(), challengeStore: () => challenge.store(), reviewOverview, startReviewMode, startTopics, startReview, resumeLatest, sessionInfo, latestInProgress, resumeById, startSimulation, openExam, simulationInfo, resumeTarget, pendingSessions, openById, records, account: () => account, save };
 }

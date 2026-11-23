@@ -1,0 +1,210 @@
+erDiagram
+  USUARIO ||--o{ ATIVIDADE_PLANO : "usuario_id"
+  USUARIO ||--o{ CONQUISTA_CELEBRADA : "usuario_id"
+  USUARIO ||--o| CONTA_ESTUDOS : "usuario_id"
+  USUARIO ||--o{ ESTADO_USUARIO : "usuario_id"
+  USUARIO ||--o{ FAVORITA : "usuario_id"
+  USUARIO ||--o{ MARCA_REVISAO : "usuario_id"
+  USUARIO ||--o{ META : "usuario_id"
+  USUARIO ||--o{ NOTA_BLOCO : "usuario_id"
+  CONFIG_DIFICULDADE ||--o{ PERFIL_TRI : "versao_config"
+  USUARIO ||--o{ PERFIL_TRI : "usuario_id"
+  USUARIO ||--o{ PERFIL_TRI_HISTORICO : "usuario_id"
+  CONFIG_DIFICULDADE ||--o{ RESPOSTA_EVENTO : "versao_config"
+  USUARIO ||--o{ RESPOSTA_EVENTO : "usuario_id"
+  SESSAO_PRATICA ||--o{ RESPOSTA_PRATICA : "sessao_id"
+  SIMULADO ||--o{ RESPOSTA_SIMULADO : "simulado_id"
+  USUARIO ||--o{ SESSAO_LOGIN : "usuario_id"
+  USUARIO ||--o{ SESSAO_PRATICA : "usuario_id"
+  USUARIO ||--o{ SIMULADO : "usuario_id"
+  QUESTAO_ACERVO ||..o{ RESPOSTA_PRATICA : "questao_id (lógico)"
+  QUESTAO_ACERVO ||..o{ RESPOSTA_SIMULADO : "questao_id (lógico)"
+  QUESTAO_ACERVO ||..o{ RESPOSTA_EVENTO : "questao_id (lógico)"
+  QUESTAO_ACERVO ||..o{ FAVORITA : "questao_id (lógico)"
+  QUESTAO_ACERVO ||..o{ MARCA_REVISAO : "questao_id (lógico)"
+  ATIVIDADE_PLANO {
+    text id PK
+    text usuario_id PK,FK
+    integer ordem
+    text titulo
+    text area
+    text criada_em
+    text atualizada_em
+    text dados
+  }
+  CONFIG_DIFICULDADE {
+    text versao PK
+    text sha256
+    text conteudo
+    text registrada_em
+  }
+  CONQUISTA_CELEBRADA {
+    text usuario_id PK,FK
+    text conquista_id PK
+    integer ordem
+  }
+  CONTA_ESTUDOS {
+    text usuario_id PK,FK
+    integer schema_version
+    text onboarding
+    text preferencias
+    text extra
+  }
+  ESTADO_USUARIO {
+    text usuario_id PK,FK
+    text chave PK
+    integer revisao
+    text atualizado_em
+  }
+  FAVORITA {
+    text usuario_id PK,FK
+    text questao_id PK
+    integer ordem
+  }
+  MARCA_REVISAO {
+    text usuario_id PK,FK
+    text questao_id PK
+    integer ordem
+  }
+  META {
+    text usuario_id PK,FK
+    text tipo PK
+    real alvo
+    integer ativa
+    integer ordem
+  }
+  MIGRACAO {
+    text versao PK
+    text aplicada_em
+  }
+  NOTA_BLOCO {
+    text id PK
+    text usuario_id PK,FK
+    integer ordem
+    text tipo
+    text html
+    text ref_tipo
+    text ref_id
+    text dados
+  }
+  PERFIL_TRI {
+    text usuario_id PK,FK
+    text area PK
+    text lw
+    integer n
+    integer atualizado_em
+    real pstar
+    text respostas
+    text versao_config FK
+  }
+  PERFIL_TRI_HISTORICO {
+    text usuario_id PK,FK
+    text area PK
+    text dia PK
+    real nota
+    real nota_min
+    real nota_max
+    integer n
+  }
+  RESPOSTA_EVENTO {
+    text id PK
+    text usuario_id FK
+    text questao_id
+    text area
+    text alternativa
+    integer correta
+    integer tempo_ms
+    integer primeira
+    integer apoio
+    text origem
+    real chance_prevista
+    real theta_media
+    real theta_dp
+    real pstar
+    integer conta
+    text motivo
+    text versao_config FK
+    text criada_em
+  }
+  RESPOSTA_PRATICA {
+    text sessao_id PK,FK
+    text questao_id PK
+    text selecionada
+    integer confirmada
+    integer correta
+    text respondida_em
+    integer tempo_ms
+    text extra
+  }
+  RESPOSTA_SIMULADO {
+    text simulado_id PK,FK
+    text questao_id PK
+    text selecionada
+    text respondida_em
+    integer tempo_ms
+    text extra
+  }
+  SESSAO_LOGIN {
+    text token_hash PK
+    text usuario_id FK
+    text criada_em
+    text expira_em
+    text ultimo_uso
+    text agente
+  }
+  SESSAO_PRATICA {
+    text id PK
+    text usuario_id FK
+    integer ordem
+    text modo
+    text titulo
+    text status
+    text criada_em
+    text atualizada_em
+    text concluida_em
+    text filtros
+    text questoes
+    integer indice_atual
+    text relogio
+    integer cursor_ms
+    integer cronometro_visivel
+    text extra
+  }
+  SIMULADO {
+    text id PK
+    text usuario_id FK
+    integer ordem
+    text titulo
+    text status
+    text criado_em
+    text atualizado_em
+    text concluido_em
+    text motivo_fim
+    text configuracao
+    text questoes
+    text secoes
+    text marcadas
+    integer indice_atual
+    text relogio
+    integer cursor_ms
+    integer cronometro_oculto
+    text extra
+  }
+  USUARIO {
+    text id PK
+    text email UK
+    text nome
+    text apelido
+    text escola
+    text cidade
+    text bio
+    text senha_hash
+    text criado_em
+    text atualizado_em
+  }
+  QUESTAO_ACERVO {
+    text id PK "gq_... (arquivo questions.jsonl)"
+    text area
+    text materia
+    text titulo
+  }
