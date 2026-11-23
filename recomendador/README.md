@@ -9,6 +9,7 @@ atual: código principal, sinais usados, configuração, árvore, classificaçã
 Catálogos antigos, reranqueadores e avaliações experimentais permanecem nas branches
 de pesquisa e não fazem parte do aplicativo integrado.
 
-O aplicativo consulta o catálogo por meio do back-end Node. Não calcula Qwen em
-tempo de execução. Veja `../README.md` para abrir o app e
-`rrf-tfidf-minilm-J/RELATORIO_BASE_FINAL.md` para a auditoria e pendências.
+O aplicativo consulta o catálogo por meio do FastAPI. O diagnóstico do modo dev
+usa os vetores prontos em CPU; não calcula Qwen em tempo de execução.
+Veja o [README do projeto](../README.md) para abrir o app e o
+[README do recomendador](rrf-tfidf-minilm-J/README.md) para reconstrução e pendências.

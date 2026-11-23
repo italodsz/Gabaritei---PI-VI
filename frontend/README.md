@@ -56,7 +56,8 @@ npm run test:learning
 ```
 
 O bundle `assets/learning-engine.js` é versionado. Não inclui o banco de questões
-fictícias. As fontes antigas de fixtures permanecem como referência, sem uso no app.
+fictícias. `legacy/src/` contém a taxonomia, os tipos, o repositório e as regras
+de cálculo e sessão ainda importados pelo motor; o acervo fictício foi retirado.
 Os testes completos da API e do motor ficam na raiz: `npm test`.
 
-Fontes e limites da integração: [docs/integracao-main.md](../docs/integracao-main.md).
+Estrutura e limites da integração: [README do projeto](../README.md).

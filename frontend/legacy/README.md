@@ -1,5 +1,5 @@
 # Referência de domínio do front-end anterior
 
-Snapshot dos módulos puros (TypeScript) de `italodsz/Gabaritei-frontend-PI-VI`, commit `bebc810`, já integrado ao repositório principal. Contém acervo autoral fictício, taxonomia, geração de histórico demonstrativo, cálculos e regras de seleção e sessões.
+Módulos puros (TypeScript) derivados de `italodsz/Gabaritei-frontend-PI-VI`, commit `bebc810`, integrados ao repositório principal. A taxonomia, os tipos, os cálculos, as regras de seleção e sessões e a criação de conta vazia são usados pelo motor atual. O acervo fictício foi removido; as questões são instaladas pela API.
 
-Os arquivos originais não foram modificados. As telas são implementadas em `learning-pages.js`, com o visual atual. O bundle de domínio é regenerado por `npm run build:engine` após instalar a dependência de desenvolvimento esbuild.
+As telas são implementadas em `learning-pages.js`, com o visual atual. O bundle de domínio é regenerado por `npm run build:engine` após instalar a dependência de desenvolvimento esbuild.
