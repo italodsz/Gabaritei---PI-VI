@@ -88,7 +88,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
           ${field('name', 'Nome', p.name, { error: state.error })}${field('nickname', 'Apelido', p.nickname, { placeholder: 'Como prefere ser chamado' })}
           ${field('school', 'Escola', p.school, { optional: true })}${field('city', 'Cidade', p.city, { optional: true })}</div>
           <div class="pf-field"><label for="pf-bio">Sobre você <span>opcional</span></label><textarea id="pf-bio" name="bio" maxlength="280" aria-describedby="pf-bio-hint">${esc(p.bio)}</textarea><p id="pf-bio-hint" class="pf-hint">Ex.: série, curso desejado, objetivos.</p></div>
-          <p class="pf-hint">Foto e avatar personalizados não estão disponíveis nesta versão — usamos suas iniciais.</p>
+          <p class="pf-hint">O avatar mostra suas iniciais.</p>
           <div class="pf-actions">${btn('Salvar alterações', { icon: 'Save', extra: { type: 'submit', id: 'pf-save', disabled: true } })}</div>
         </form>`, { cls: 'pf-span-5' })}
       ${card(`${cardHeader('Conquistas', `${unlocked.length} de ${ach.length} desbloqueadas`, tile('Trophy', 'gold'), seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' }))}

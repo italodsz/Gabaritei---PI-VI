@@ -585,7 +585,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     showModal(`<div class="qs-modal" role="alertdialog" aria-modal="true" aria-labelledby="qs-finish-title" aria-describedby="qs-finish-text">
       <span class="qs-tile is-gold">${icons('flag')}</span>
       <h2 id="qs-finish-title">Finalizar a lista?</h2>
-      <p id="qs-finish-text">${done < total ? `Você respondeu ${done} de ${total} questões. As ${total - done} restantes aparecerão como não respondidas no resultado.` : 'Todas as questões foram respondidas. Vamos ver seu resultado!'}</p>
+      <p id="qs-finish-text">${done < total ? `Você respondeu ${done} de ${total} questões. As ${total - done} restantes aparecerão como não respondidas no resultado.` : 'Todas as questões foram respondidas.'}</p>
       <div class="qs-modal-actions"><button type="button" class="qs-btn qs-btn-ghost" id="qs-finish-cancel">Continuar respondendo</button><button type="button" class="qs-btn qs-btn-primary" id="qs-finish-ok">Finalizar e ver resultado</button></div>
     </div>`, () => {
       $('#qs-finish-cancel').onclick = () => closeModal();
@@ -884,7 +884,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const elapsed = E.clockElapsed(session.clock, Date.now());
     const avg = answered.length ? answered.reduce((sum, a) => sum + a.timeSpentMs, 0) / answered.length : 0;
     const accuracy = answered.length ? correct / answered.length : 0;
-    const message = !answered.length ? 'Nenhuma resposta confirmada desta vez.' : accuracy >= 0.8 ? 'Excelente. Você dominou esta lista.' : accuracy >= 0.6 ? 'Bom resultado. Revise os erros para fixar.' : 'Cada erro mostra o próximo passo. Vamos revisar?';
+    const message = !answered.length ? 'Nenhuma resposta confirmada desta vez.' : accuracy >= 0.8 ? 'Excelente. Você dominou esta lista.' : accuracy >= 0.6 ? 'Bom resultado. Revise os erros para fixar.' : 'Revise os erros desta lista.';
 
     const byTopic = new Map();
     ids.forEach(id => {
@@ -932,7 +932,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       </section>
       <div class="focus-result-grid">
         <section class="focus-result-block"><h2>Desempenho por assunto</h2><p>Do assunto que pede mais atenção para o mais firme.</p><ul class="focus-topics">${topics}</ul></section>
-        <section class="focus-result-block"><h2>Revisão das questões</h2><p>Abra cada questão para ver o gabarito e a explicação.</p><div class="focus-reviews">${review}</div></section>
+        <section class="focus-result-block"><h2>Revisão das questões</h2><p>Abra cada questão para ver o gabarito.</p><div class="focus-reviews">${review}</div></section>
       </div>
     </main>`;
   }

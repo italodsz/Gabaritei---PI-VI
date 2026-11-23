@@ -24,7 +24,7 @@ const REASONS = {
   erro: { label: 'Resposta incorreta', icon: 'XCircle', text: 'Uma resposta errada encerra a sequência.' },
   tempo: { label: 'Tempo esgotado', icon: 'Hourglass', text: 'O limite de 03:40 por questão chegou ao fim.' },
   abandono: { label: 'Desafio abandonado', icon: 'ArrowLeft', text: 'Você saiu antes de terminar. Tentativas não podem ser retomadas.' },
-  acervo: { label: 'Acervo esgotado', icon: 'Trophy', text: 'Você respondeu todas as questões disponíveis sem errar!' },
+  acervo: { label: 'Acervo esgotado', icon: 'Trophy', text: 'Você respondeu todas as questões disponíveis sem errar.' },
 };
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const mmss = ms => { const s = Math.max(0, Math.ceil(ms / 1000)); return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`; };
@@ -370,7 +370,7 @@ export function createChallengeScreen({ E, getAccount, save, onExit = () => {}, 
     const best = readChallengeStore().best;
     return `<header class="ch-top">
         <button type="button" class="ch-exit" id="ch-exit" aria-label="Sair do desafio">${hi('X')}</button>
-        <div class="ch-title"><span>DESAFIO DE ACERTOS</span><strong>Até onde você chega?</strong></div>
+        <div class="ch-title"><strong>Até onde você chega?</strong></div>
         <div class="ch-best">${hi('Trophy')}<span>Recorde <b>${best}</b></span></div>
       </header>
       <div class="ch-body">

@@ -14,10 +14,10 @@ const shortSeconds = ms => { const s = Math.round(ms / 1000); return s < 60 ? `$
 const dateLong = iso => new Date(iso).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long' });
 const time = iso => new Date(iso).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
 function verdict(acc) {
-  if (acc >= 0.85) return { title: 'Excelente!', text: 'Domínio claro do conteúdo. Que tal subir a dificuldade?' };
-  if (acc >= 0.65) return { title: 'Bom trabalho!', text: 'Você está no caminho. Revise os erros para consolidar.' };
-  if (acc >= 0.4) return { title: 'Continue praticando', text: 'Cada erro revisado vira acerto na prova. Vamos revisar?' };
-  return { title: 'Hora de revisar a base', text: 'Releia as explicações com calma e tente novamente em seguida.' };
+  if (acc >= 0.85) return { title: 'Excelente', text: 'Experimente uma dificuldade maior.' };
+  if (acc >= 0.65) return { title: 'Bom trabalho', text: 'Revise os erros para consolidar.' };
+  if (acc >= 0.4) return { title: 'Continue praticando', text: 'Revise os erros desta lista.' };
+  return { title: 'Hora de revisar a base', text: 'Revise os erros e tente novamente.' };
 }
 
 
@@ -58,7 +58,7 @@ export function resultHTML(E, session, { simulation = null } = {}) {
       ${sim ? card(`${cardHeader('Desempenho por área', 'Acertos nas questões respondidas. Não há cálculo de nota TRI.')}<ul class="rs-areas">${sim.byArea.map((a, i) => `<li>${tile(['BookOpen', 'Globe', 'Leaf', 'Sigma'][['linguagens', 'humanas', 'natureza', 'matematica'].indexOf(a.areaId)] || 'BookOpen', a.areaId, 'sm')}<div><div><span>${esc(a.name)}</span><span>${a.correct}/${a.total}${a.blank ? ` · ${a.blank} em branco` : ''} · <strong>${pct(a.accuracy)}</strong></span></div>${progress(a.accuracy, a.areaId, { delay: 0.2 + i * 0.08 })}</div></li>`).join('')}</ul>`, { cls: 'rs-span-12' }) : ''}
       ${card(`${cardHeader('Desempenho por assunto', 'Ordenado do menor para o maior acerto')}${topics}`, { cls: 'rs-span-7' })}
       ${card(`${cardHeader('Tempo e revisão')}<div class="rs-time"><div>${hi('Clock')}<p>Tempo utilizado</p><strong>${clock(sim ? sim.timeMs : r.timeMs)}</strong></div><div>${hi('Gauge')}<p>Média por questão</p><strong>${shortSeconds(sim ? sim.avgTimeMs : r.avgTimeMs)}</strong></div></div>
-        <p class="rs-sub">Recomendações de revisão</p><ul class="rs-recs">${weak.map(t => `<li><button type="button" data-rs-topic="${esc(t.topicId)}">${hi('RotateCcw')}<span>Praticar mais <strong>${esc(t.name)}</strong></span>${hi('ArrowRight')}</button></li>`).join('')}${r.byTopic.length && r.byTopic.every(t => t.accuracy >= 0.7) ? '<li class="rs-ok">Nenhum assunto abaixo de 70% nesta lista. Excelente consistência!</li>' : ''}</ul>`, { cls: 'rs-span-5' })}
+        <p class="rs-sub">Recomendações de revisão</p><ul class="rs-recs">${weak.map(t => `<li><button type="button" data-rs-topic="${esc(t.topicId)}">${hi('RotateCcw')}<span>Praticar mais <strong>${esc(t.name)}</strong></span>${hi('ArrowRight')}</button></li>`).join('')}${r.byTopic.length && r.byTopic.every(t => t.accuracy >= 0.7) ? '<li class="rs-ok">Nenhum assunto abaixo de 70% nesta lista.</li>' : ''}</ul>`, { cls: 'rs-span-5' })}
     </div>
     <section aria-labelledby="rs-review-title" class="rs-review"><h2 id="rs-review-title">Revisão das questões</h2><div class="rs-qs">${review}</div></section>
     ${inProgress && !simulation ? `<div class="rs-center">${btn('Voltar para a lista em andamento', { icon: 'ArrowRight', extra: { id: 'rs-back-list' } })}</div>` : ''}
@@ -147,5 +147,5 @@ function esperadoHTML(session) {
   if (!e) return '';
   const fmt = v => v.toLocaleString('pt-BR', { maximumFractionDigits: 1 });
   const acima = e.acertos >= e.esperado + 0.5, abaixo = e.acertos <= e.esperado - 0.5;
-  return `<p class="rs-esperado ${acima ? 'is-acima' : abaixo ? 'is-abaixo' : ''}">Você acertou ${e.acertos} de ${e.n}; para o seu nível, o esperado era ${fmt(e.esperado)}. ${acima ? 'Acima do esperado.' : abaixo ? 'Abaixo do esperado desta vez: cada erro mostra o próximo passo.' : 'Dentro do esperado.'}</p>`;
+  return `<p class="rs-esperado ${acima ? 'is-acima' : abaixo ? 'is-abaixo' : ''}">Você acertou ${e.acertos} de ${e.n}; para o seu nível, o esperado era ${fmt(e.esperado)}. ${acima ? 'Acima do esperado.' : abaixo ? 'Abaixo do esperado desta vez.' : 'Dentro do esperado.'}</p>`;
 }
