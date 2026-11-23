@@ -62,9 +62,9 @@ assuntos com base no gabarito ou em rótulos automáticos do dataset.
 Testes da API: `.venv/bin/python -m pytest` na raiz. A paridade do motor TRI
 com JavaScript e os testes do front-end rodam com `npm test`.
 
-## Laboratório local
+## Modo dev
 
-`/dev` abre o painel descrito em [docs/laboratorio-dev.md](../docs/laboratorio-dev.md).
+O painel do [modo dev](../docs/modo-dev.md) usa estas rotas; todas exigem a conta de desenvolvedor.
 `GET /api/dev/resumo`, `GET /api/dev/questoes` e `GET /api/dev/questoes/gq_...`
 oferecem estatísticas e inspeção da fonte. `GET /api/dev/dificuldade` traz a
 calibração TRI. `POST /api/dev/diagnostico` recebe

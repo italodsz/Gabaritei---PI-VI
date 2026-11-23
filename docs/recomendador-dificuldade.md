@@ -61,7 +61,7 @@ O recomendador aprende em dois níveis:
    ajusta a meta pelas últimas 15 respostas. Com login, no servidor (`resposta_evento`, `perfil_tri`);
    sem login, no navegador. Depois de cada resposta, a tela da questão mostra o card **O que o
    recomendador aprendeu**: o que ele previa, θ e incerteza antes → depois, a nota, a chance da mesma
-   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no laboratório.
+   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no modo dev (aba Ao vivo).
 2. **Sistema, com as respostas de todos os alunos com conta.** Para cada área, um deslocamento δ em
    logit corrige a chance prevista quando os alunos acertam sistematicamente mais (ou menos) do que o
    modelo do INEP previu. Estimado por máxima verossimilhança com prior N(0; 0,3²), só a partir de 30
@@ -70,10 +70,10 @@ O recomendador aprende em dois níveis:
 
 O `titulo_area` não muda com as respostas: é o conhecimento fixo de quais questões são parecidas.
 
-O laboratório (`/dev`, aba **Recomendadores ao vivo**) mostra o perfil TRI atual, a linha do tempo do
+O [modo dev](modo-dev.md) (aba **Ao vivo**, só a conta de desenvolvedor) mostra o perfil TRI atual, a linha do tempo do
 que foi aprendido a cada resposta (e de cada escolha da próxima questão, com as 5 primeiras do
 `titulo_area` e suas chances), o aprendizado do sistema por área e a calibração previsto × observado.
-Atualiza sozinho enquanto o app é usado em outra aba.
+Atualiza sozinho a cada 8 segundos.
 
 ## Modos da API (para os modos futuros)
 
@@ -96,7 +96,7 @@ sem login, `perfis` (o perfil do navegador). Devolve `ids` e `itens` com `chance
 - `GET /api/eu/perfil-tri`: perfis, resumos, agregados (média geral, exatas, humanas) e histórico diário.
   `PUT` sobe o perfil feito sem login para as áreas ainda vazias no servidor.
 - `POST /api/eu/perfil-tri/respostas`: respostas de simulado, conferidas no servidor.
-- `GET /api/dev/dificuldade`: eventos, motivos e calibração previsto × observado (laboratório `/dev`, aba de estatísticas).
+- `GET /api/dev/dificuldade`: eventos, motivos e calibração previsto × observado (modo dev, só a conta de desenvolvedor).
 - Tabelas (migração `0002_dificuldade`): `perfil_tri` (distribuição completa por área), `perfil_tri_historico`,
   `resposta_evento` (chance prevista antes da resposta, θ no momento, se contou e por quê), `config_dificuldade`.
 

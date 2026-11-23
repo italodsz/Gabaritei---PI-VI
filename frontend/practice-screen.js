@@ -7,6 +7,7 @@ import { recomendarQuestao, conferirResposta } from './acervo-api.js';
 import { aprendizadoHTML } from './aprendizado-ui.js';
 import * as Livre from './lista-livre.js';
 import * as Dif from './dificuldade-cliente.js';
+import * as ModoDev from './modo-dev.js';
 import { questionTextHTML, questionMediaHTML } from './question-text.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -133,7 +134,19 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (review) root.querySelector('.rs-review')?.scrollIntoView({ block: 'start' });
   }
 
+  let painelDev = null;
+  /** Modo dev: botão só para a conta de desenvolvedor; o painel acompanha a questão atual. */
+  function renderDev() {
+    const b = $('#qs-dev'); if (!b) return;
+    b.hidden = !ModoDev.disponivel();
+    b.setAttribute('aria-pressed', String(ModoDev.ligado()));
+    const box = $('#qs-dev-painel'); if (!box) return;
+    if (ModoDev.ligado() && session && !readOnly) { painelDev ||= ModoDev.criarPainel(box, { E }); painelDev.mostrar(current()); }
+    else { painelDev?.esconder(); painelDev = null; }
+  }
+
   function exit() {
+    painelDev?.esconder(); painelDev = null;
     stopTick();
     if (!readOnly && session?.status === 'in_progress') persist(E.practice.pause(session, Date.now()));
     session = null;
@@ -193,6 +206,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
             <button class="qs-icon" id="qs-pause"></button>
             <button class="qs-icon qs-hide-narrow" id="qs-focus"></button>
             <button class="qs-icon qs-only-narrow" id="qs-drawer" aria-label="Painel da lista" title="Painel da lista">${icons('columns')}</button>
+            <button type="button" class="qs-btn qs-btn-ghost qs-btn-sm" id="qs-dev" hidden aria-pressed="false" title="Painel dos recomendadores">Modo dev</button>
             <button class="qs-btn qs-btn-secondary qs-btn-sm" id="qs-finish" aria-label="Finalizar lista">${icons('flag')}<span class="qs-finish-label">Finalizar</span></button>
           </div>
         </div>
@@ -203,6 +217,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
           <div id="qs-stage"></div>
           <div class="qs-actions" id="qs-actions"></div>
           <div id="qs-pause-layer"></div>
+          <div id="qs-dev-painel"></div>
         </main>
         <div class="qs-scrim" id="qs-scrim" aria-hidden="true"></div>
         <aside class="qs-panel" id="qs-panel" aria-label="Painel da lista"><div class="qs-panel-inner" id="qs-panel-inner"></div></aside>
@@ -215,6 +230,8 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     $('#qs-drawer').onclick = () => { drawer = !drawer; renderPanelVisibility(); };
     $('#qs-scrim').onclick = () => { drawer = false; renderPanelVisibility(); };
     $('#qs-finish').onclick = () => openFinish();
+    $('#qs-dev').onclick = () => { ModoDev.definirLigado(!ModoDev.ligado()); renderDev(); };
+    painelDev = null;
     renderHeader();
     renderQuestion(0, { enter: false });
     renderActions();
@@ -316,6 +333,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (!session.answers[q.id]?.confirmed && !mostradaEm.has(q.id)) mostradaEm.set(q.id, Date.now());
     updateAlts({ initial: true });
     renderFeedback(false);
+    renderDev();
     const article = $('#qs-article');
     if (enter && dir) animate(article, [{ opacity: 0, transform: `translateX(${dir * 48}px)` }, { opacity: 1, transform: 'none' }], { duration: 360, easing: EASE.emphasized });
     if (enter) {
@@ -645,6 +663,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
       showExplanation = true;
       updateAlts({ reveal: true });
       renderFeedback(true);
+      renderDev();
       renderActions();
       renderHeader();
       renderPanel();

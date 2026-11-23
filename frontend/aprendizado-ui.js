@@ -1,5 +1,5 @@
 // Card "O que o recomendador aprendeu": mostrado depois de cada resposta (tela de questões) e no
-// laboratório (/dev). Recebe o registro criado por dificuldade-cliente.js (registrarResposta).
+// modo dev. Recebe o registro criado por dificuldade-cliente.js (registrarResposta).
 import { MOTIVOS } from './dificuldade-cliente.js';
 
 export const AREA_NOME = { CN: 'Ciências da Natureza', CH: 'Ciências Humanas', LC: 'Linguagens', MT: 'Matemática' };

@@ -3,8 +3,27 @@ from fastapi.testclient import TestClient
 from backend.app import criar_app
 
 
-def test_laboratorio_com_os_indices_reais(tmp_path):
+DEV = {"nome": "Dev", "email": "dev@example.org", "senha": "senha-de-teste"}
+
+
+def test_laboratorio_so_para_a_conta_dev(tmp_path, monkeypatch):
+    monkeypatch.setenv("GABARITEI_DEVS", DEV["email"])
     with TestClient(criar_app(tmp_path / "dev.db")) as cliente:
+        assert cliente.get("/api/dev/resumo").status_code == 401
+        outra = {"nome": "Aluna", "email": "aluna@example.org", "senha": "senha-de-teste"}
+        assert cliente.post("/api/auth/registrar", json=outra).json()["usuario"]["dev"] is False
+        assert cliente.get("/api/dev/resumo").status_code == 403
+        assert cliente.get("/api/dev/dificuldade").status_code == 403
+        assert cliente.post("/api/auth/sair").status_code == 200
+        assert cliente.post("/api/auth/registrar", json=DEV).json()["usuario"]["dev"] is True
+        assert cliente.get("/api/eu").json()["usuario"]["dev"] is True
+        assert cliente.get("/api/dev/dificuldade").status_code == 200
+
+
+def test_laboratorio_com_os_indices_reais(tmp_path, monkeypatch):
+    monkeypatch.setenv("GABARITEI_DEVS", DEV["email"])
+    with TestClient(criar_app(tmp_path / "dev.db")) as cliente:
+        assert cliente.post("/api/auth/registrar", json=DEV).status_code == 201
         resumo = cliente.get("/api/dev/resumo").json()
         assert resumo["info"]["available"] == 2657
         assert resumo["worker"]["state"] == "aguardando"

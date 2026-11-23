@@ -1,4 +1,4 @@
-// Laboratório › Recomendadores ao vivo: o perfil TRI de quem está usando o app, o que o recomendador
+// Modo dev › Ao vivo: o perfil TRI de quem está usando o app, o que o recomendador
 // aprendeu a cada resposta, como o titulo_area e a dificuldade escolheram cada próxima questão e o
 // aprendizado do sistema (calibração e ajuste δ por área, com as respostas de todos os alunos).
 // Atualiza sozinho quando o app (em outra aba) registra uma resposta.

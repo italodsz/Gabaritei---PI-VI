@@ -6,7 +6,7 @@
 //      (pode trocar a 1ª pela 2ª ou 3ª quando a 1ª está muito fora do desafio);
 //   3. se a última não tem parecidas novas, tenta as anteriores da prática; depois o mesmo
 //      assunto (pela dificuldade); por fim, o acervo inteiro.
-// Cada escolha guarda o motivo (badge na questão) e fica registrada no laboratório (/dev).
+// Cada escolha guarda o motivo (badge na questão) e fica registrada no modo dev.
 import { recomendarQuestao } from './acervo-api.js';
 import * as Dif from './dificuldade-cliente.js';
 

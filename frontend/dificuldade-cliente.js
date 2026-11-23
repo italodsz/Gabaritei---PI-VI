@@ -137,7 +137,7 @@ function registrarHistorico(area) {
 /* ----------------------------- aprendizado ----------------------------- */
 // Cada resposta vira um registro do que o recomendador aprendeu: θ, nota, faixa e meta antes e
 // depois, a chance que ele tinha previsto e o motivo quando a resposta não entra no cálculo.
-// Fica neste navegador (últimos 200) e alimenta o card da questão e o laboratório (/dev).
+// Fica neste navegador (últimos 200) e alimenta o card da questão e o modo dev.
 const CHAVE_APRENDIZADO = 'gabaritei:aprendizado:v1';
 export const MOTIVOS = {
   parametros_fora_da_triagem: 'a questão não tem parâmetros TRI confiáveis do INEP',
@@ -145,7 +145,7 @@ export const MOTIVOS = {
   resposta_muito_rapida: 'a resposta veio em menos de 8 segundos',
 };
 let feed = [];
-// Relido a cada uso: o laboratório (outra aba) acompanha o app ao vivo.
+// Relido a cada uso: o modo dev acompanha o app ao vivo.
 const lerFeed = () => { try { const v = JSON.parse(localStorage.getItem(CHAVE_APRENDIZADO)); if (Array.isArray(v)) feed = v; } catch { /* sem armazenamento: fica em memória */ } return feed; };
 export const aprendizados = () => lerFeed().slice();
 const CHAVE_MOSTRAR = 'gabaritei:mostrar-aprendizado';

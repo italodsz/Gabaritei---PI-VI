@@ -11,7 +11,7 @@ from fastapi import APIRouter, Request
 
 from . import tri
 from .common import ApiError, ROOT, body, finite, js_number, js_round, reply
-from .contas import usuario_atual
+from .contas import exigir_dev, usuario_atual
 from .db import transacao
 
 _CONFIG_BYTES = (ROOT / "backend/config/dificuldade_v1.json").read_bytes()
@@ -265,6 +265,7 @@ class Dificuldade:
 
 @router.get("/api/dev/dificuldade")
 def painel(request: Request):
+    exigir_dev(request)
     return reply(request.app.state.dificuldade.painel())
 
 
