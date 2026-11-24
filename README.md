@@ -31,6 +31,12 @@ depois que o ambiente Python estiver pronto.
 O SQLite continua em `backend/dados/gabaritei.db` por padrão. O servidor lê o mesmo
 banco da versão Node, com as contas, senhas, sessões e progresso existentes.
 
+## Hospedagem
+
+O Railway publica automaticamente a branch `main`, servindo o front-end, a API e as imagens
+no mesmo serviço. O SQLite fica no volume persistente `/data`, com
+`GABARITEI_DB=/data/gabaritei.db` e `GABARITEI_COOKIE_SEGURO=1`.
+
 ## Imagens das questões
 
 O servidor exibe as imagens verificadas que estiverem em `Dataset/base_trabalho/media/`.
@@ -44,7 +50,7 @@ as imagens para uso local, com a API parada:
 
 O script consulta as fontes, confere SHA-256 e tamanho, e registra ausências em
 `backend/dados/relatorio-imagens.json`. Se faltar algum arquivo, o script retorna
-código 1. Reinicie o servidor após baixar. As imagens novas ficam fora do Git.
+código 1. Reinicie o servidor após baixar. As 622 imagens verificadas são versionadas e publicadas junto com a aplicação no Railway.
 A base registra revisão de licença pendente para redistribuição pública.
 
 ## Demonstrar o fluxo

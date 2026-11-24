@@ -11,7 +11,7 @@ do dataset `e6712a8`, após as revisões de novembro de 2026.
 - `AVISO_INDICES.json`: proveniência das mudanças e aviso sobre a incompatibilidade
   dos vetores anteriores. Os índices compatíveis atuais estão em
   `../../recomendador/rrf-tfidf-minilm-J/indice/`.
-- `media/`: imagens locais opcionais, verificadas pelo servidor e fora do Git.
+- `media/`: 622 imagens verificadas pelo servidor, versionadas para publicação junto com o aplicativo.
 
 SHA-256 de `data/questions.jsonl`:
 `6b1d2ec687cd2e165bcb56ffe45f526bfeae7bac910212b837ad4925cdc5396f`.
