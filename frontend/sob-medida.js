@@ -1,3 +1,4 @@
+import { semMarcadorImagem } from './question-text.js';
 // Prática sob medida: o aluno escolhe o ponto de partida (uma questão, um tema ou aleatório) e, a
 // partir daí, o recomendador escolhe a próxima questão sem fim:
 //   1. titulo_area: as questões parecidas com a última respondida (catálogo oficial do projeto),
@@ -96,7 +97,7 @@ export function abrirEscolha({ E, openDialog, closeDialog, icons, onEscolher }) 
     const todas = E.questionRepository.query({});
     const achadas = termo.length < 3 ? [] : todas.filter(q => norm(`${q.prompt} ${E.SUBJECT_BY_ID[q.subjectId]?.name} ${E.TOPIC_BY_ID[q.topicId]?.name} ${q.year} ${q.id}`).includes(termo)).slice(0, 30);
     return `<label class="sm-search"><span>Buscar no enunciado, matéria, assunto ou ano</span><input id="sm-busca" value="${esc(state.busca)}" placeholder="Ex.: fotossíntese, porcentagem, 2019" autocomplete="off"></label>
-      <div class="sm-list" id="sm-lista">${termo.length < 3 ? '<p class="sm-hint">Digite ao menos 3 letras.</p>' : achadas.length ? achadas.map(q => `<button type="button" class="sm-q" data-q="${q.id}"><span class="sm-q-top"><b>${esc(E.SUBJECT_BY_ID[q.subjectId]?.name)}</b> · ${esc(E.TOPIC_BY_ID[q.topicId]?.name ?? '')} · ENEM ${q.year}${q.sourcePosition ? ` · questão ${q.sourcePosition}` : ''}<em>${pct(Dif.chanceDe(q))}</em></span><span class="sm-q-txt">${esc(String(q.prompt).replace(/\s+/g, ' ').slice(0, 170))}…</span></button>`).join('') : '<p class="sm-hint">Nada encontrado.</p>'}</div>`;
+      <div class="sm-list" id="sm-lista">${termo.length < 3 ? '<p class="sm-hint">Digite ao menos 3 letras.</p>' : achadas.length ? achadas.map(q => `<button type="button" class="sm-q" data-q="${q.id}"><span class="sm-q-top"><b>${esc(E.SUBJECT_BY_ID[q.subjectId]?.name)}</b> · ${esc(E.TOPIC_BY_ID[q.topicId]?.name ?? '')} · ENEM ${q.year}${q.sourcePosition ? ` · questão ${q.sourcePosition}` : ''}<em>${pct(Dif.chanceDe(q))}</em></span><span class="sm-q-txt">${esc(semMarcadorImagem(q.prompt).slice(0, 170))}…</span></button>`).join('') : '<p class="sm-hint">Nada encontrado.</p>'}</div>`;
   }
   function corpoTema() {
     const sub = state.subjectId;

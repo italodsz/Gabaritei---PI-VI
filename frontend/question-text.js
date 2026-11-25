@@ -4,8 +4,12 @@ const inline = text => escape(text).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</str
 const cells = line => line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
 const separator = line => line.includes('|') && cells(line).every(c => /^:?-{3,}:?$/.test(c));
 
+/** Tira o marcador "[imagem]" de prévias em texto corrido. */
+export const semMarcadorImagem = text => String(text ?? '').replace(/\[imagem\]/gi, ' ').replace(/\s+/g, ' ').trim();
+
 export function questionTextHTML(value) {
-  const lines = String(value ?? '').split('\n');
+  // O marcador "[imagem]" da base não é conteúdo para o aluno: a figura aparece abaixo.
+  const lines = String(value ?? '').split('\n').filter(line => !/^\s*\[imagem\]\s*$/i.test(line));
   const output = [];
   let paragraph = [];
   const flush = () => { if (paragraph.length) { output.push(`<p>${paragraph.map(inline).join('<br>')}</p>`); paragraph = []; } };
@@ -32,8 +36,13 @@ export function questionMediaHTML({ images = [], descriptions = [] }) {
   const figures = images.filter(({ src, width, height }) =>
     /^\/media\/[a-f0-9]{64}\.(?:png|jpg|bmp)$/.test(src) && Number.isInteger(width) && width > 0
     && Number.isInteger(height) && height > 0);
+  // Com a figura na tela, a descrição da base vira só texto alternativo (leitores de tela);
+  // ela só aparece visível quando a imagem não está disponível.
+  const plain = d => String(d ?? '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
   return figures.map(({ src, width, height }, index) => {
-    const alt = figures.length === 1 ? 'Imagem da questão' : `Imagem ${index + 1} da questão`;
-    return `<figure class="qs-figure qs-source-image"><a href="${src}" target="_blank" rel="noopener" aria-label="Abrir ${alt.toLowerCase()}"><img src="${src}" width="${width}" height="${height}" alt="${alt}" loading="lazy" decoding="async"></a></figure>`;
-  }).join('') + descriptionsHTML(descriptions);
+    const fallback = figures.length === 1 ? 'Imagem da questão' : `Imagem ${index + 1} da questão`;
+    const desc = plain(figures.length === descriptions.length ? descriptions[index] : figures.length === 1 ? descriptions.join(' ') : '');
+    const alt = escape(desc || fallback);
+    return `<figure class="qs-figure qs-source-image"><a href="${src}" target="_blank" rel="noopener" aria-label="Abrir ${fallback.toLowerCase()}"><img src="${src}" width="${width}" height="${height}" alt="${alt}" loading="lazy" decoding="async"></a></figure>`;
+  }).join('') + (figures.length ? '' : descriptionsHTML(descriptions));
 }

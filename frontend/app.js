@@ -430,7 +430,7 @@ function openCardMenu(key, anchor) {
     { act: 'notes', icon: 'pin', label: notes.hasRef(JSON.parse(refOf(it))) ? 'Já está em Minhas notas' : 'Salvar em Minhas notas' },
     isActivity ? { act: 'done', icon: 'check', label: it.done ? 'Marcar como pendente' : 'Marcar como concluída' } : null,
     isActivity ? { act: 'save', icon: 'bookmark', label: it.saved ? 'Remover dos salvos' : 'Salvar' } : { act: 'history', icon: 'history', label: 'Ver no Histórico' },
-    isActivity ? { act: 'delete', icon: 'trash', label: 'Excluir atividade', danger: true } : null,
+    { act: 'delete', icon: 'trash', label: isActivity ? 'Excluir atividade' : it.kind === 'simulado' ? 'Excluir simulado' : 'Excluir lista', danger: true },
   ].filter(Boolean);
   const menu = document.createElement('div');
   menu.className = 'card-menu';
@@ -466,6 +466,7 @@ function cardAction(key, act, anchor) {
   if (act === 'open') startItem(it);
   else if (act === 'notes') saveToNotes(JSON.parse(refOf(it)), anchor);
   else if (act === 'history') navigate('historico');
+  else if (act === 'delete' && !a) confirmDeleteSession(it);
   else if (!a) return;
   else if (act === 'restart') { a.sessionId = null; touch(a); persist(); startQuestion(a.id); }
   else if (act === 'done') { if (!activities.some(item => item.id === a.id)) activities.push(a); a.done = !a.done; touch(a); persist(); render(); toast(a.done ? 'Mais um passo concluído. Boa!' : 'Atividade marcada como pendente.'); }
@@ -481,6 +482,25 @@ function confirmDeleteActivity(id) {
     dialog.close();
     const card = $(`.activity-card[data-key="activity:${CSS.escape(id)}"]`);
     const go = () => { activities = activities.filter(item => item.id !== id); persist(); render(); toast('Atividade excluída do seu plano.'); };
+    if (card && !reduced()) card.animate([{ opacity: 1, scale: '1' }, { opacity: 0, scale: '.96' }], { duration: 200, easing: cssEase.in, fill: 'forwards' }).finished.then(go); else go();
+  };
+}
+/** Exclui uma lista ou simulado em andamento (fora do plano), como faz o Histórico. */
+function confirmDeleteSession(it) {
+  const noun = it.kind === 'simulado' ? 'o simulado' : 'a lista';
+  openDialog(`<h2 id="dialog-title" class="dialog-title">Excluir “${escape(it.title)}”?</h2><p class="dialog-description">Isso apaga ${noun} das suas pendências. As respostas já corrigidas deixam de contar nas suas estatísticas.</p><div class="dialog-actions"><button class="primary-button danger-button" id="confirm-delete">${icon('trash')}Excluir</button><button class="small-button" id="cancel-delete">Cancelar</button></div>`);
+  $('#cancel-delete').onclick = () => dialog.close();
+  $('#confirm-delete').onclick = () => {
+    dialog.close();
+    const card = $(`.activity-card[data-key="${CSS.escape(it.key)}"]`);
+    const go = () => {
+      const acc = learning.account();
+      const field = it.source === 'simulation' ? 'simulations' : 'practiceSessions';
+      acc[field] = acc[field].filter(s => s.id !== it.id);
+      learning.save();
+      render(); sidebar.renderBottom(); notes?.refresh();
+      toast(it.kind === 'simulado' ? 'Simulado excluído.' : 'Lista excluída.');
+    };
     if (card && !reduced()) card.animate([{ opacity: 1, scale: '1' }, { opacity: 0, scale: '.96' }], { duration: 200, easing: cssEase.in, fill: 'forwards' }).finished.then(go); else go();
   };
 }

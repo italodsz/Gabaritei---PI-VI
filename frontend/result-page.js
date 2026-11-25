@@ -5,7 +5,7 @@
 // desempenho por área e a nota estimada ILUSTRATIVA (não é TRI).
 import { animate, spring, duration, ease, countTo, collapse, reduced } from './motion-kit.js';
 import { esc, hi, pct, SUBJECT_ICON, tile, cardHeader, card, badge, btn, progress, playBars, rotateChevron } from './legacy-ui.js';
-import { questionTextHTML, questionMediaHTML } from './question-text.js';
+import { questionTextHTML, questionMediaHTML, semMarcadorImagem } from './question-text.js';
 import * as Dif from './dificuldade-cliente.js';
 
 const DIFFICULTY = { facil: 'Fácil', media: 'Média', dificil: 'Difícil' };
@@ -41,7 +41,7 @@ export function resultHTML(E, session, { simulation = null } = {}) {
     if (!q) return '';
     const a = session.answers[qid];
     const st = !a?.confirmed ? 'pending' : a.correct ? 'correct' : 'wrong';
-    return `<div class="rs-q" data-rq="${esc(qid)}"><button type="button" class="rs-q-head" data-rq-toggle="${esc(qid)}" aria-expanded="false"><span class="rs-q-n is-${st}">${i + 1}</span><span class="rs-q-main"><span>${esc(q.support?.paragraphs[0] ?? q.prompt)}</span><small>${esc(q.skill)}</small></span>${badge(st === 'correct' ? 'Acertou' : st === 'wrong' ? 'Errou' : 'Não respondida', st === 'correct' ? 'success' : st === 'wrong' ? 'danger' : 'neutral', '', 'sm')}<span class="rs-chev">${hi('ChevronDown')}</span></button></div>`;
+    return `<div class="rs-q" data-rq="${esc(qid)}"><button type="button" class="rs-q-head" data-rq-toggle="${esc(qid)}" aria-expanded="false"><span class="rs-q-n is-${st}">${i + 1}</span><span class="rs-q-main"><span>${esc(semMarcadorImagem(q.support?.paragraphs[0] ?? q.prompt))}</span><small>${esc(q.skill)}</small></span>${badge(st === 'correct' ? 'Acertou' : st === 'wrong' ? 'Errou' : 'Não respondida', st === 'correct' ? 'success' : st === 'wrong' ? 'danger' : 'neutral', '', 'sm')}<span class="rs-chev">${hi('ChevronDown')}</span></button></div>`;
   }).join('');
   return `<div class="lg-page rs">
     <div class="rs-grid" data-rs-stagger>

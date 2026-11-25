@@ -1,3 +1,4 @@
+import { semMarcadorImagem } from './question-text.js';
 // Página Histórico: réplica de features/history/HistoryPage.tsx do front anterior.
 // Abas Atividades | Erradas | Favoritas | Para revisar, com os mesmos filtros,
 // cards expansíveis, ações, estados vazios, ilustrações e animações (indicadores
@@ -201,7 +202,7 @@ export function createHistoryPage({ E, root, toast, getAccount, save, records, n
       const m = meta(q.id);
       return `<li class="hist-qrow ${checked ? 'is-checked' : ''}" data-key="${esc(q.id)}">
         <div class="hist-qcheck">${checkbox(checked, '<span class="sr-only">Selecionar questão</span>', { 'data-check': q.id, 'data-focus': `check-${q.id}` })}</div>
-        <div class="hist-qmain"><div class="hist-qmeta">${badge(esc(E.SUBJECT_BY_ID[q.subjectId].name), q.areaId, SUBJECT_ICON[q.subjectId], 'sm')}<span>${esc(E.TOPIC_BY_ID[q.topicId]?.name ?? '')}</span>${m ? `<span>· ${m}</span>` : ''}</div><p>${esc(q.support?.paragraphs[0] ?? q.prompt)}</p></div>
+        <div class="hist-qmain"><div class="hist-qmeta">${badge(esc(E.SUBJECT_BY_ID[q.subjectId].name), q.areaId, SUBJECT_ICON[q.subjectId], 'sm')}<span>${esc(E.TOPIC_BY_ID[q.topicId]?.name ?? '')}</span>${m ? `<span>· ${m}</span>` : ''}</div><p>${esc(semMarcadorImagem(q.support?.paragraphs[0] ?? q.prompt))}</p></div>
         <div class="hist-qactions">${cfg.mode !== 'retry' ? iconBtn('Trash2', 'Remover da lista', { 'data-remove': q.id }, { size: 'sm' }) : ''}${btn('Praticar', { size: 'sm', variant: 'secondary', icon: 'Play', extra: { 'data-single': q.id } })}</div>
       </li>`;
     }).join('');
