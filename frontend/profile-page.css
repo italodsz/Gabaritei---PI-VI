@@ -189,3 +189,7 @@
 /* Fundo da página e das metas no tom neutro do app (eram creme). */
 .legacy-ui:has(> .lg-page.pf) { background: #f8f9f8; }
 .lg-page.pf .pf-goal { background: #f2f4f0; }
+
+/* Indicadores pessoais reunidos na página Progresso. */
+.progress-overview { margin-top: 24px; }
+.progress-overview .pf-grid { margin-bottom: 24px; }

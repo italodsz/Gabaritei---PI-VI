@@ -54,7 +54,10 @@ export function medalHTML(a, size = 56, { shine = false } = {}) {
   </div>`;
 }
 
-export function createProfilePage({ E, root, getAccount, save, records, toast, onProfileChange }) {
+export const createProfilePage = options => createAccountPage(options);
+export const createProgressOverview = options => createAccountPage({ ...options, progressOnly: true });
+
+function createAccountPage({ E, root, getAccount, save, records, toast, onProfileChange, progressOnly = false }) {
   const $ = s => root.querySelector(s);
   const $$ = s => [...root.querySelectorAll(s)];
   const account = () => getAccount();
@@ -64,25 +67,27 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
     const p = account().profile;
     const now = Date.now();
     const rs = records();
-    const summary = E.summarize(rs);
-    const studyDays = new Set(rs.map(r => new Date(r.answeredAt).toDateString())).size;
     const ach = E.evaluateAchievements({ records: rs, account: account(), now });
     const unlocked = ach.filter(a => a.unlocked);
-    const stats = [
-      { icon: 'CheckCircle2', label: 'Questões', value: summary.answered, fmt: 'n' },
-      { icon: 'Target', label: 'Acerto', value: Math.round(summary.accuracy * 100), fmt: '%' },
-      { icon: 'CalendarDays', label: 'Dias de estudo', value: studyDays, fmt: 'n' },
-      { icon: 'Trophy', label: 'Conquistas', value: unlocked.length, fmt: `/${ach.length}` },
-    ];
+    if (progressOnly) {
+      root.innerHTML = `<div class="pf progress-overview"><div class="pf-grid">${triHTML()}
+      ${card(`${cardHeader('Conquistas', `${unlocked.length} de ${ach.length} desbloqueadas`, tile('Trophy', 'gold'), seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' }))}
+        <div class="pf-ach-bar">${progress(unlocked.length / ach.length, 'gold', { label: 'Conquistas desbloqueadas' })}</div>
+        <div class="pf-ach" id="pf-ach">${achGrid(ach)}</div>`, { cls: 'pf-span-12' })}
+      </div>${goalsHTML()}</div>`;
+      bind(ach);
+      playReveal(root); playBars(root);
+      return;
+    }
     root.innerHTML = `<div class="lg-page pf"><div class="pf-grid" data-stagger="0.07">
       ${card(`<div class="cfg-dots" aria-hidden="true"></div><div class="pf-hero">
         <span class="pf-avatar" id="pf-avatar" aria-hidden="true">${esc(initials(p.name))}</span>
         <div class="pf-id"><div class="pf-name"><h1>${esc(p.name)}</h1>${badge(p.kind === 'demo' ? 'Perfil demonstrativo' : p.kind === 'new' ? 'Estudante novo' : 'Conta local', 'gold')}</div>
           <p class="pf-sub">“${esc(p.nickname)}” · ${esc(p.email)}</p>
           <div class="pf-meta">${p.school ? `<span>${hi('School')}${esc(p.school)}</span>` : ''}${p.city ? `<span>${hi('MapPin')}${esc(p.city)}</span>` : ''}<span>${hi('CalendarDays')}Desde ${dateLong(p.createdAt)}</span></div></div>
-        <div class="pf-stats">${stats.map(s => `<div>${hi(s.icon)}<p data-count="${s.value}" data-fmt="${s.fmt}">${s.value}</p><small>${s.label}</small></div>`).join('')}</div>
+
       </div>`, { surface: 'ink', padded: 'lg', cls: 'pf-span-12 pf-hero-card' })}
-      ${triHTML()}
+
       ${card(`${cardHeader('Informações pessoais', 'Guardadas apenas neste navegador')}
         <form id="pf-form" novalidate><div class="pf-fields">
           ${field('name', 'Nome', p.name, { error: state.error })}${field('nickname', 'Apelido', p.nickname, { placeholder: 'Como prefere ser chamado' })}
@@ -90,11 +95,9 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
           <div class="pf-field"><label for="pf-bio">Sobre você <span>opcional</span></label><textarea id="pf-bio" name="bio" maxlength="280" aria-describedby="pf-bio-hint">${esc(p.bio)}</textarea><p id="pf-bio-hint" class="pf-hint">Ex.: série, curso desejado, objetivos.</p></div>
           <p class="pf-hint">O avatar mostra suas iniciais.</p>
           <div class="pf-actions">${btn('Salvar alterações', { icon: 'Save', extra: { type: 'submit', id: 'pf-save', disabled: true } })}</div>
-        </form>`, { cls: 'pf-span-5' })}
-      ${card(`${cardHeader('Conquistas', `${unlocked.length} de ${ach.length} desbloqueadas`, tile('Trophy', 'gold'), seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' }))}
-        <div class="pf-ach-bar">${progress(unlocked.length / ach.length, 'gold', { label: 'Conquistas desbloqueadas' })}</div>
-        <div class="pf-ach" id="pf-ach">${achGrid(ach)}</div>`, { cls: 'pf-span-7' })}
-    </div>${goalsHTML()}${appearanceHTML()}</div>`;
+        </form>`, { cls: 'pf-span-12' })}
+
+    </div>${appearanceHTML()}</div>`;
     bind(ach);
     bindAppearance();
     playReveal(root);
@@ -197,8 +200,8 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
     const form = $('#pf-form');
     const p = account().profile;
     const dirty = () => { const d = new FormData(form); return ['name', 'nickname', 'school', 'city', 'bio'].some(k => (d.get(k) ?? '') !== (p[k] ?? '')); };
-    form.addEventListener('input', () => { $('#pf-save').disabled = !dirty(); });
-    form.onsubmit = e => {
+    form?.addEventListener('input', () => { $('#pf-save').disabled = !dirty(); });
+    if (form) form.onsubmit = e => {
       e.preventDefault();
       const d = Object.fromEntries(new FormData(form));
       if (d.name.trim().length < 2) { state.error = 'Informe seu nome (mínimo de 2 letras).'; const old = $('#pf-name').closest('.pf-field'); old.outerHTML = field('name', 'Nome', d.name, { error: state.error }); const err = $('#pf-error, .pf-error'); if (err) animate(err, { opacity: [0, 1], y: [-4, 0] }, { duration: duration.fast }); $('#pf-name').focus(); return; }
@@ -216,7 +219,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
       const prevKeys = new Set(before.keys());
       state.filter = b.dataset.value;
       rerender(root, () => {
-        root.querySelector('.lg-seg').outerHTML = seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' });
+        root.querySelector('[data-seg="ach"]').closest('.lg-seg').outerHTML = seg('ach', state.filter, [{ value: 'todas', label: 'Todas' }, { value: 'desbloqueadas', label: 'Obtidas' }, { value: 'bloqueadas', label: 'Bloqueadas' }], { aria: 'Filtrar conquistas', size: 'sm' });
         grid.innerHTML = achGrid(ach);
         bind(ach);
       });
@@ -225,7 +228,7 @@ export function createProfilePage({ E, root, getAccount, save, records, toast, o
       playBars(grid);
     });
     $$('[data-ach]').forEach(b => b.onclick = () => openDetail(ach.find(a => a.id === b.dataset.ach)));
-    $('#pf-goals-edit').onclick = editGoals;
+    if ($('#pf-goals-edit')) $('#pf-goals-edit').onclick = editGoals;
   }
 
   function modal(inner, { onClose } = {}) {

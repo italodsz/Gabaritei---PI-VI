@@ -4,7 +4,7 @@ import * as Dif from './dificuldade-cliente.js';
 import { createPracticeScreen } from './practice-screen.js';
 import { createHistoryPage } from './history-page.js';
 import { createConfigStudio } from './config-studio.js';
-import { createProfilePage } from './profile-page.js';
+import { createProfilePage, createProgressOverview } from './profile-page.js';
 import { createExamScreen } from './exam-screen.js';
 import { createChallengeScreen } from './challenge-screen.js';
 import * as SobMedida from './sob-medida.js';
@@ -308,7 +308,8 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
         ${panel('Acerto por matéria','Ordenado do maior para o menor acerto',subjectPerformance(subjects),'span-7',segmented('subject-view',performance.subjectView,[{value:'barras',label:'Barras'},{value:'tabela',label:'Tabela'}],'Visualização por matéria'))}
         ${panel('Assuntos','Pelo menos 4 respostas para identificar um padrão.',topicRankings(ranks),'span-5')}
         ${panel('Calendário de atividades','Questões respondidas por dia no último ano.',calendarHTML(calendar),'span-12')}
-      </div></div>`;
+      </div><div id="progress-overview" class="legacy-ui"></div></div>`;
+    createProgressOverview({ E, root: $('#progress-overview'), getAccount: () => account, save, records, toast }).render();
     $$('[data-period]').forEach(b=>b.onclick=()=>{if(performance.period===b.dataset.period)return;performance.period=b.dataset.period;performance.fadeChart=true;renderPerformance();});
     $$('[data-subject-view]').forEach(b=>b.onclick=()=>{performance.subjectView=b.dataset.subjectView;renderPerformance();});
     $$('[data-start-topic]').forEach(b=>b.onclick=()=>startTopic(b.dataset.startTopic));
