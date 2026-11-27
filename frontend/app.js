@@ -4,7 +4,8 @@ import { createNotes } from './notes.js';
 import { animate, spring, duration, ease, cssEase, reduced, pageEnter, bindPress, collapse, countTo, snapshot, flipList } from './motion-kit.js';
 import { hi } from './legacy-ui.js';
 import { carregarAcervo } from './acervo-api.js';
-import { iniciarConta, espelhar } from './conta.js';
+import { iniciarConta, espelhar, usuarioAtual } from './conta.js';
+import { montarLanding, usarSemContaEscolhido } from './landing.js';
 import { montarConta } from './conta-ui.js';
 import { iniciarDificuldade } from './dificuldade-cliente.js';
 
@@ -832,7 +833,9 @@ function paintProfile(p) {
 paintProfile(learning.account().profile);
 $('#open-profile').onclick = () => { $('#profile-menu').hidden = true; $('#profile-button').setAttribute('aria-expanded', false); sidebar.close(); navigate('perfil'); };
 const notes = createNotes({ panel: $('#notes-panel'), resolveRef, openRef, toast, hi });
-montarConta({ menu: $('#profile-menu'), openDialog, closeDialog: () => dialog.close(), toast });
+const conta = montarConta({ menu: $('#profile-menu'), openDialog, closeDialog: () => dialog.close(), toast });
+// Deslogado e sem ter escolhido usar sem conta: mostra a página de entrada por cima do app.
+if (!usuarioAtual() && !usarSemContaEscolhido()) montarLanding({ E: window.__gabaritei.E, conta });
 notes.render();
 bindPress();
 

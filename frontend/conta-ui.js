@@ -26,7 +26,7 @@ export function montarConta({ menu, openDialog, closeDialog, toast }) {
          <button type="button" class="profile-link account-danger" id="account-delete">Excluir minha conta</button>`
       : '<button type="button" class="profile-link account-cta" id="account-login">Entrar ou criar conta</button>';
     caixa.querySelector('#account-login')?.addEventListener('click', () => { menu.hidden = true; abrirEntrada('entrar'); });
-    caixa.querySelector('#account-logout')?.addEventListener('click', async () => { await sair(); recarregar(); });
+    caixa.querySelector('#account-logout')?.addEventListener('click', async () => { await sair(); try { localStorage.removeItem('gabaritei:sem-conta:v1'); } catch { /* sem armazenamento */ } recarregar(); });
     caixa.querySelector('#account-password')?.addEventListener('click', () => { menu.hidden = true; abrirSenha(); });
     caixa.querySelector('#account-delete')?.addEventListener('click', () => { menu.hidden = true; abrirExclusao(); });
   }
