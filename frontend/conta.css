@@ -1,5 +1,4 @@
 .account-who{display:grid;gap:1px;padding:8px 0 6px}.account-who strong{font-size:13px}.account-who span{font-size:11px;color:#6f7a68;overflow-wrap:anywhere}
-.account-cta{font-weight:700}.account-danger{color:#a43a1c}
 .account-form{display:grid;gap:14px;margin-top:6px}
 .account-form label{display:grid;gap:6px;font-size:12px;font-weight:600;color:#4b5547}
 .account-form input{font:inherit;font-size:14px;padding:11px 13px;border:1.5px solid #cfd6c9;border-radius:12px;background:#fff;color:var(--ink,#1b201b)}

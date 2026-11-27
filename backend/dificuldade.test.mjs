@@ -65,6 +65,44 @@ test('semelhante: a dificuldade só mexe pouco na ordem do titulo_area', () => {
   assert.deepEqual(semChance, ids);
 });
 
+test('detalharSemelhantes: chance, A e escore de cada linha batem com a fórmula, e a ordem bate com ordenarSemelhantes', () => {
+  const ids = ['a', 'b', 'c', 'd', 'e'];
+  const chances = { a: 0.9, b: 0.6, c: 0.75, d: 0.3, e: null }; // "e" sem TRI do INEP
+  const chanceDe = id => chances[id];
+  const alvo = 0.75;
+  const { linhas, alvoEf, base, peso, restante } = T.detalharSemelhantes(ids, chanceDe, alvo, cfg);
+
+  assert.equal(linhas.length, 5);
+  assert.deepEqual(restante, []);
+  assert.deepEqual(linhas.map(l => l.id), ids);
+  assert.deepEqual(linhas.map(l => l.posicao), [0, 1, 2, 3, 4]);
+  assert.equal(base, cfg.semelhante.base);
+  assert.equal(peso, cfg.semelhante.peso);
+
+  for (const linha of linhas) {
+    assert.equal(linha.chance, chances[linha.id]);
+    const R = 1 / Math.log2(linha.posicao + 2);
+    const A = Number.isFinite(linha.chance) ? T.adequacao(linha.chance, alvoEf, cfg) : 0.5;
+    assert.equal(linha.A, A);
+    assert.ok(Math.abs(linha.escore - R * (base + peso * A)) < 1e-12);
+  }
+  // "e" não tem TRI do INEP: adequação neutra, como o código já faz em outros lugares.
+  assert.equal(linhas.find(l => l.id === 'e').A, 0.5);
+
+  const ordem = T.ordenarSemelhantes(ids, chanceDe, alvo, cfg);
+  const esperada = [...linhas].sort((x, y) => y.escore - x.escore).map(l => l.id);
+  assert.deepEqual(ordem, esperada);
+});
+
+test('detalharSemelhantes: meta alcançável menor que a meta quando nenhuma candidata chega perto', () => {
+  const ids = ['a', 'b', 'c', 'd', 'e'];
+  const chances = { a: 0.3, b: 0.2, c: 0.25, d: 0.1, e: 0.15 };
+  const alvo = 0.75;
+  const { alvoEf } = T.detalharSemelhantes(ids, id => chances[id], alvo, cfg);
+  assert.ok(alvoEf < alvo, `meta alcançável (${alvoEf}) deveria ser menor que a meta (${alvo})`);
+  assert.equal(alvoEf, T.metaAlcancavel(alvo, Object.values(chances), cfg));
+});
+
 test('lista: inéditas adequadas, revisão limitada a 20% e aquecimento pela mais acessível', () => {
   const c = [
     ...Array.from({ length: 30 }, (_, i) => ({ id: `n${i}`, p: 0.2 + i * 0.02, estado: 'inedita' })),

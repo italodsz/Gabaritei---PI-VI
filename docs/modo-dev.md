@@ -15,21 +15,24 @@ substitui a antiga página `/dev`.
 
 ## O que o painel mostra
 
-**Esta questão**
-- ID, matéria e tema, parâmetros TRI do INEP (a, b, c), chance estimada agora (com o ajuste δ da área,
-  quando houver) e a faixa de dificuldade no acervo.
-- As 10 primeiras parecidas no `titulo_area`, com a chance de cada uma para você.
-- **Ver escores do ranking**: os produtos escalares reais de TF-IDF e Qwen e o escore RRF de cada
-  sugestão, calculados sobre os índices existentes, em CPU. A primeira consulta carrega os índices.
-  O escore ordena as sugestões; não é chance de acerto. Questões do conjunto de teste reservado não
-  iniciam diagnóstico.
+Duas colunas (um filtro no topo mostra uma de cada vez ou as duas juntas; a escolha fica salva neste
+navegador em `gabaritei:modo-dev:colunas:v1`):
 
-**Ao vivo**
-- Perfil TRI por área (nota estimada, θ ± incerteza, respostas válidas, meta e δ).
-- O que o recomendador aprendeu a cada resposta e cada escolha da próxima questão na prática sob medida.
-- Aprendizado do sistema por área e calibração previsto × observado, com as respostas de todos os alunos
-  com conta.
-- A opção de mostrar ou esconder o card "O que o recomendador aprendeu" depois de cada resposta.
+**1. Questão agora**
+- Matéria na árvore (área › matéria › título › assunto).
+- Nota do aluno nesta área, com os 3 passos: média do ENEM 2023, θ atual depois de N respostas válidas,
+  e a nota pela tabela do INEP.
+- Chance de acertar esta questão: os parâmetros a, b, c do INEP, o gabarito, a fórmula 3PL com os
+  números substituídos e a chance final (com e sem o ajuste δ da área, quando houver).
+- Se acertar e se errar: θ e nota antes e depois nos dois casos (simulação local, não grava nada).
+
+**2. Próxima questão**
+- O pipeline em 3 etapas (Semântica/Qwen → TRI → Escore).
+- O θ usado e a meta do desafio atual.
+- As 20 parecidas do `titulo_area`, com similaridade Qwen, dificuldade (b), chance e escore de cada
+  uma; a 1ª (a escolhida) é sempre a mesma questão que a prática sob medida escolheria de verdade.
+  Mostra as 5 primeiras, com "ver as outras 15"; se a meta não é alcançável entre as 20, mostra a meta
+  efetiva usada; e a conta do escore da escolhida.
 
 ## Segurança
 
@@ -38,5 +41,7 @@ desenvolvedor (403 para as outras). O botão só aparece para quem tem `usuario.
 
 ## Rotas
 
-`GET /api/dev/resumo`, `GET /api/dev/questoes`, `GET /api/dev/questoes/gq_...`,
-`GET /api/dev/dificuldade` e `POST /api/dev/diagnostico` (`{"questionId": "gq_...", "limit": 10}`).
+`GET /api/questoes/{id}/recomendacoes?limite=20` (as parecidas do `titulo_area`) e
+`POST /api/dev/diagnostico` (`{"questionId": "gq_...", "limit": 20}`, para a similaridade Qwen de
+cada uma). As demais rotas de `/api/dev/*` (`resumo`, `questoes`, `dificuldade`) continuam existindo
+no servidor, mas não são mais usadas por este painel.

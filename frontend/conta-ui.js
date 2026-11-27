@@ -20,11 +20,13 @@ export function montarConta({ menu, openDialog, closeDialog, toast }) {
     descricao.textContent = TEXTO[u ? situacaoAtual() : 'local'];
     caixa.innerHTML = u
       ? `<div class="account-who"><strong>${esc(u.nome)}</strong><span>${esc(u.email)}</span></div>
-         <button type="button" class="profile-link" id="account-password">Trocar senha</button>
-         <a class="profile-link" href="/api/eu/exportar" download="gabaritei-meus-dados.json">Baixar meus dados</a>
-         <button type="button" class="profile-link" id="account-logout">Sair da conta</button>
-         <button type="button" class="profile-link account-danger" id="account-delete">Excluir minha conta</button>`
-      : '<button type="button" class="profile-link account-cta" id="account-login">Entrar ou criar conta</button>';
+         <div class="account-block">
+           <button type="button" class="profile-link" id="account-password">Trocar senha</button>
+           <a class="profile-link" href="/api/eu/exportar" download="gabaritei-meus-dados.json">Baixar meus dados</a>
+           <button type="button" class="profile-link is-neutral" id="account-logout">Sair da conta</button>
+           <button type="button" class="profile-link is-danger" id="account-delete">Excluir minha conta</button>
+         </div>`
+      : '<div class="account-block"><button type="button" class="profile-link is-cta" id="account-login">Entrar ou criar conta</button></div>';
     caixa.querySelector('#account-login')?.addEventListener('click', () => { menu.hidden = true; abrirEntrada('entrar'); });
     caixa.querySelector('#account-logout')?.addEventListener('click', async () => { await sair(); recarregar(); });
     caixa.querySelector('#account-password')?.addEventListener('click', () => { menu.hidden = true; abrirSenha(); });

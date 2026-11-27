@@ -57,6 +57,14 @@ export function chanceDe(q) {
 /** δ da área aprendido com as respostas de todos os alunos (0 enquanto há poucos dados). */
 export const deltaDe = area => cfg?.ajuste?.porArea?.[area]?.delta || 0;
 export const ajusteSistema = () => cfg?.ajuste ?? null;
+/** Meta do desafio atual (antes do controlador). Leitura pública para o modo dev. */
+export const metaDesafio = () => metaBase();
+/** Leitura somente leitura do perfil da área, já alargado pelo tempo sem prática (o mesmo que
+ *  chanceDe usa por baixo). Só para mostrar o que o sistema sabe agora; nunca grava nada. */
+export function perfilAgora(area) {
+  const p = perfilDe(area);
+  return p ? T.alargar(p, Date.now(), cfg) : null;
+}
 
 export function resumo() {
   if (!pronto()) return null;
@@ -65,11 +73,18 @@ export function resumo() {
 }
 
 /* ----------------------------- ordens ----------------------------- */
+/** Os números de cada candidata (semântica, chance, adequação, escore), sem ordenar: a mesma conta
+ *  de ordenarSemelhantes (abaixo), para o modo dev nunca divergir da escolha real do app. */
+export function detalharSemelhantes(ids, repo) {
+  if (!pronto()) return null;
+  const q0 = repo.getById(ids[0]), alvo = perfilDe(areaDe(q0))?.pstar ?? metaBase();
+  return T.detalharSemelhantes(ids, id => chanceDe(repo.getById(id)), alvo, cfg);
+}
 /** Ajuste suave sobre a ordem do titulo_area (Semelhante e Recomendadas). */
 export function ordenarSemelhantes(ids, repo) {
-  if (!pronto()) return ids;
-  const q0 = repo.getById(ids[0]), alvo = perfilDe(areaDe(q0))?.pstar ?? metaBase();
-  return T.ordenarSemelhantes(ids, id => chanceDe(repo.getById(id)), alvo, cfg);
+  const d = detalharSemelhantes(ids, repo);
+  if (!d) return ids;
+  return [...d.linhas].sort((a, b) => b.escore - a.escore).map(l => l.id).concat(d.restante);
 }
 
 function estados(records) {

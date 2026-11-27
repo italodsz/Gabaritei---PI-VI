@@ -65,9 +65,9 @@ A base registra revisão de licença pendente para redistribuição pública.
    pela dificuldade. **Semelhante** traz a próxima do catálogo oficial.
 5. **Simulados**: por área (formato do dia do ENEM) ou personalizado; o gabarito aparece ao finalizar.
 6. **Entrar ou criar conta** (menu do perfil): o progresso e o perfil TRI passam a ficar no banco.
-7. **Modo dev** (só a conta de desenvolvedor): botão no topo da tela da questão que abre o painel dos
-   recomendadores, com TRI e parecidas da questão, perfil TRI, aprendizado e calibração. Veja
-   [docs/modo-dev.md](docs/modo-dev.md).
+7. **Modo dev** (só a conta de desenvolvedor): botão no topo da tela da questão que abre o painel do
+   recomendador, com a questão agora (TRI, chance e simulação de acerto/erro) e a próxima questão
+   (parecidas, escore e a escolhida real). Veja [docs/modo-dev.md](docs/modo-dev.md).
 
 ## Base e recomendador
 

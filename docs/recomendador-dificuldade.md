@@ -61,7 +61,7 @@ O recomendador aprende em dois níveis:
    ajusta a meta pelas últimas 15 respostas. Com login, no servidor (`resposta_evento`, `perfil_tri`);
    sem login, no navegador. Depois de cada resposta, a tela da questão mostra o card **O que o
    recomendador aprendeu**: o que ele previa, θ e incerteza antes → depois, a nota, a chance da mesma
-   questão agora, a meta e o motivo quando a resposta não conta. O card pode ser desligado no modo dev (aba Ao vivo).
+   questão agora, a meta e o motivo quando a resposta não conta.
 2. **Sistema, com as respostas de todos os alunos com conta.** Para cada área, um deslocamento δ em
    logit corrige a chance prevista quando os alunos acertam sistematicamente mais (ou menos) do que o
    modelo do INEP previu. Estimado por máxima verossimilhança com prior N(0; 0,3²), só a partir de 30
@@ -70,10 +70,9 @@ O recomendador aprende em dois níveis:
 
 O `titulo_area` não muda com as respostas: é o conhecimento fixo de quais questões são parecidas.
 
-O [modo dev](modo-dev.md) (aba **Ao vivo**, só a conta de desenvolvedor) mostra o perfil TRI atual, a linha do tempo do
-que foi aprendido a cada resposta (e de cada escolha da próxima questão, com as 5 primeiras do
-`titulo_area` e suas chances), o aprendizado do sistema por área e a calibração previsto × observado.
-Atualiza sozinho a cada 8 segundos.
+O [modo dev](modo-dev.md) (só a conta de desenvolvedor) mostra, para a questão aberta, a chance calculada
+e como as 20 parecidas do `titulo_area` seriam reordenadas pela dificuldade — a mesma conta usada de
+verdade na prática sob medida.
 
 ## Modos da API (para os modos futuros)
 

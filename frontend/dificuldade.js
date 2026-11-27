@@ -159,16 +159,28 @@ export function metaAlcancavel(meta, chances, cfg) {
   return Math.min(meta, s[Math.min(cfg.meta_alcancavel_posicao, s.length) - 1]);
 }
 
-/** Semelhante: ordem do titulo_area com ajuste suave. ids na ordem do catálogo; chanceDe(id) → número ou null. */
-export function ordenarSemelhantes(ids, chanceDe, alvo, cfg) {
+/**
+ * Semelhante, com os números de cada candidata (posição semântica, chance, adequação A e escore).
+ * ids na ordem do catálogo (semântica, Qwen/RRF); chanceDe(id) → número ou null. Não ordena: é a base
+ * de ordenarSemelhantes (abaixo) e do modo dev, para nunca duplicar a fórmula em dois lugares.
+ */
+export function detalharSemelhantes(ids, chanceDe, alvo, cfg) {
   const { base, peso, candidatas } = cfg.semelhante;
   const lista = ids.slice(0, candidatas);
-  const ps = lista.map(chanceDe);
-  const alvoEf = metaAlcancavel(alvo, ps, cfg);
-  return lista.map((id, k) => {
-    const R = 1 / Math.log2(k + 2), A = Number.isFinite(ps[k]) ? adequacao(ps[k], alvoEf, cfg) : 0.5;
-    return { id, s: R * (base + peso * A) };
-  }).sort((a, b) => b.s - a.s).map(x => x.id).concat(ids.slice(candidatas));
+  const chances = lista.map(chanceDe);
+  const alvoEf = metaAlcancavel(alvo, chances, cfg);
+  const linhas = lista.map((id, posicao) => {
+    const chance = chances[posicao], R = 1 / Math.log2(posicao + 2);
+    const A = Number.isFinite(chance) ? adequacao(chance, alvoEf, cfg) : 0.5;
+    return { id, posicao, chance, R, A, escore: R * (base + peso * A) };
+  });
+  return { linhas, alvoEf, base, peso, restante: ids.slice(candidatas) };
+}
+
+/** Semelhante: ordem do titulo_area com ajuste suave. ids na ordem do catálogo; chanceDe(id) → número ou null. */
+export function ordenarSemelhantes(ids, chanceDe, alvo, cfg) {
+  const { linhas, restante } = detalharSemelhantes(ids, chanceDe, alvo, cfg);
+  return [...linhas].sort((a, b) => b.escore - a.escore).map(x => x.id).concat(restante);
 }
 
 /**
