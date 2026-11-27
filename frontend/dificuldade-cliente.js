@@ -141,6 +141,38 @@ export function previsto(ids, repo) {
   return Object.fromEntries(ids.map(id => [id, chanceDe(repo.getById(id))]).filter(([, p]) => Number.isFinite(p)).map(([id, p]) => [id, Math.round(p * 1000) / 1000]));
 }
 
+/* ----------------------------- TRI por título ----------------------------- */
+// Cada título da árvore (topicId) tem o próprio θ. Começa igual ao θ da área e se separa conforme
+// o aluno responde questões daquele título (mesma regra de contagem do θ da área). Fica no perfil
+// do aluno (account.perfisTitulo), que é espelhado no servidor junto com os estudos.
+const perfisTitulo = () => { const acc = getAccount(); if (!acc) return null; acc.perfisTitulo ??= {}; return acc.perfisTitulo; };
+/** Perfil do título: o próprio, ou uma cópia do perfil da área enquanto ele não tem respostas. */
+export function perfilTitulo(topicId, area) {
+  const p = perfisTitulo()?.[topicId];
+  if (p?.lw?.length) return p;
+  const base = perfilDe(area);
+  return base ? { ...base, n: 0, respostas: [], pstar: null, topicId } : null;
+}
+/** θ médio do título e quantas respostas ele já tem. */
+export function nivelTitulo(topicId, area) {
+  const p = perfilTitulo(topicId, area);
+  if (!p || !pronto()) return null;
+  return { theta: T.momentos(p, cfg).media, n: perfisTitulo()?.[topicId]?.n || 0 };
+}
+/** Chance de acerto pelo θ do título da questão. */
+export function chanceTitulo(q) {
+  if (!pronto() || !q?.tri) return null;
+  const p = perfilTitulo(q.topicId, areaDe(q));
+  return p ? T.ajustarChance(T.chance(T.alargar(p, Date.now(), cfg), q.tri, cfg), deltaDe(areaDe(q))) : null;
+}
+/** θ médio de cada área (para escolher a área mais fraca de um aluno novo). */
+export const thetaArea = area => (pronto() && perfilDe(area) ? T.momentos(perfilDe(area), cfg).media : null);
+function atualizarTitulo(q, correta, regra) {
+  const todos = perfisTitulo();
+  if (!todos || !q?.topicId || !regra.conta) return;
+  todos[q.topicId] = { ...T.atualizar(perfilTitulo(q.topicId, areaDe(q)), q.tri, correta, cfg, { agoraMs: Date.now(), peso: regra.peso }), topicId: q.topicId };
+}
+
 /* ----------------------------- respostas ----------------------------- */
 function registrarHistorico(area) {
   const r = T.resumoNota(perfis[area], cfg);
@@ -186,6 +218,7 @@ export function registrarResposta(q, correta, { tempoMs, primeira = true, origem
   if (!T.AREAS.includes(area)) return null;
   const antesP = perfis[area], chanceAntes = chanceDe(q);
   const regra = T.contaParaTheta({ it: q.tri, primeira, tempoMs, origem }, cfg);
+  atualizarTitulo(q, correta, regra);
   let p = antesP, conta = regra.conta, motivo = regra.motivo ?? null;
   if (tri?.perfil) { p = tri.perfil; conta = tri.conta; motivo = tri.motivo ?? null; }
   else if (usuarioAtual()) return null; // com login sem resposta do servidor: o servidor continua sendo a fonte

@@ -8,6 +8,7 @@ import { createProfilePage, createProgressOverview } from './profile-page.js';
 import { createExamScreen } from './exam-screen.js';
 import { createChallengeScreen } from './challenge-screen.js';
 import * as SobMedida from './sob-medida.js';
+import * as PontosFracos from './pontos-fracos.js';
 import { hi } from './legacy-ui.js';
 import { pageEnter } from './motion-kit.js';
 
@@ -33,6 +34,12 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   let account;
   try { const saved = JSON.parse(localStorage.getItem(storageKey)); if (saved && Array.isArray(saved.practiceSessions) && Array.isArray(saved.simulations) && Array.isArray(saved.goals) && saved.onboarding && saved.study && saved.profile) account = saved; } catch { /* Funciona sem armazenamento. */ }
   if (!account) account = E.createEmptyAccount({ id: usuarioAtual()?.id ?? 'estudante-local', kind: usuarioAtual() ? 'registered' : 'new', name: usuarioAtual()?.nome ?? 'Ítalo', email: usuarioAtual()?.email ?? '', now: Date.now() });
+  // Prática sob medida é modo livre: a que ficou aberta (inclusive as antigas, de antes do modo
+  // livre) é encerrada; as sem nenhuma resposta somem. As respostas continuam no Histórico.
+  const ehLivre = s => s.livre || (s.continuous && s.sobMedida && !s.pontosFracos);
+  const respondeu = s => s.questionIds.some(id => s.answers[id]?.confirmed);
+  function limparLivres() { account.practiceSessions = account.practiceSessions.filter(s => !(ehLivre(s) && !respondeu(s))).map(s => ehLivre(s) && s.status === 'in_progress' ? E.practice.finish(s, Date.now()) : s); }
+  limparLivres();
   account.practiceSessions = account.practiceSessions.map(s => s.status === 'in_progress' ? E.practice.pause(E.practice.recover(s,Date.now()),Date.now()) : s);
   let memoryNotice = false;
   function save() { espelhar('estudos', account); try { localStorage.setItem(storageKey, JSON.stringify(account)); } catch { if (!memoryNotice) { memoryNotice = true; toast('Armazenamento indisponível: suas práticas ficam nesta sessão.'); } } }
@@ -73,7 +80,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   const practiceScreen = createPracticeScreen({
     E, icons, toast, save,
     getAccount: () => account,
-    onExit: () => { if (!root.hidden && ['questoes', 'progresso', 'historico'].includes(page)) mount(page, { enter: false }); onChange(); },
+    onExit: () => { const antes = account.practiceSessions.length; limparLivres(); if (account.practiceSessions.length !== antes) save(); if (!root.hidden && ['questoes', 'progresso', 'historico'].includes(page)) mount(page, { enter: false }); onChange(); },
     onProgress: () => navigate('progresso'),
     onNewList: () => navigate('questoes'),
     onNewSimulation: () => navigate('simulados'),
@@ -81,7 +88,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     onHistory: () => navigate('historico'),
     saveToNotes: (ref, el) => saveToNotes(ref, el),
     // Toda prática contínua segue o recomendador da prática sob medida (titulo_area + dificuldade).
-    nextRecommended: current => SobMedida.proxima(current, { E, records: records() }),
+    nextRecommended: current => current.pontosFracos ? PontosFracos.proxima(current, { E, records: records(), account }) : SobMedida.proxima(current, { E, records: records() }),
     reviewTopic: topicId => { const t = E.TOPIC_BY_ID[topicId]; const ids = E.selectPracticeQuestions({ ...E.EMPTY_FILTERS, topicIds: [topicId], count: account.study.defaultQuestionCount }, records(), E.freshSeed(), account.onboarding.level); beginList(t?.name ?? 'Revisão', ids, 'recommended', { ...E.EMPTY_FILTERS, topicIds: [topicId], count: ids.length }); },
   });
   /** Desafio de acertos: tela própria, sem pausa nem retomada. */
@@ -102,20 +109,27 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
     for (const r of records()) { const prev = latest.get(r.questionId); if (!prev || r.answeredAt > prev.answeredAt) latest.set(r.questionId, r); }
     return [...latest.values()].filter(r => !r.correct && E.questionRepository.getById(r.questionId)).sort((a, b) => b.answeredAt - a.answeredAt).map(r => r.questionId);
   }
-  const activeReview = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.review).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0] ?? null;
+  /* ---------------------------------------------------------------- */
+  /* Treino dos pontos fracos (card "Erros para superar")             */
+  /* ---------------------------------------------------------------- */
+  // Contínuo, uma questão por vez, no título da árvore em que o aluno está pior (pontos-fracos.js).
+  // As questões erradas continuam só na aba "Erradas" do Histórico.
+  const activeReview = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.pontosFracos).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0] ?? null;
   function reviewOverview() {
-    const pending = reviewQueue().length;
     const s = activeReview();
-    if (!s) return { pending, active: null };
-    const done = s.questionIds.filter(id => s.answers[id]?.confirmed);
-    return { pending, active: { id: s.id, initial: s.reviewInitial ?? s.questionIds.length, reviewed: done.length, correct: done.filter(id => s.answers[id].correct).length, total: s.questionIds.length } };
+    const bloqueadas = new Set(records().map(r => r.questionId));
+    const fracos = Dif.pronto() ? PontosFracos.rankingFracos(E, bloqueadas) : [];
+    const atual = s?.fraco?.topicId ?? fracos[0] ?? null;
+    const done = s ? s.questionIds.filter(id => s.answers[id]?.confirmed) : [];
+    return { pending: reviewQueue().length, fracos: fracos.length, titulo: atual ? E.TOPIC_BY_ID[atual]?.name : null, active: s ? { id: s.id, reviewed: done.length, correct: done.filter(id => s.answers[id].correct).length, total: Math.max(done.length, PontosFracos.POR_TITULO) } : null };
   }
   function startReviewMode() {
     const s = activeReview();
     if (s) { openSession(s); return s; }
-    const ids = reviewQueue();
-    if (!ids.length) { toast('Tudo revisado por enquanto.'); return null; }
-    const created = { ...E.createPracticeSession({ title: 'Revisão de erros', questionIds: ids, mode: 'retry', filters: { ...E.EMPTY_FILTERS, count: ids.length }, timerVisible: false, now: Date.now() }), review: true, reviewInitial: ids.length };
+    const first = PontosFracos.proxima(null, { E, records: records(), account });
+    if (!first) { toast('Não há questões inéditas para treinar agora.'); return null; }
+    const created = { ...E.createPracticeSession({ title: PontosFracos.TITULO, questionIds: [first.id], mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: 1 }, timerVisible: false, now: Date.now() }), continuous: true, pontosFracos: true, fraco: first.fraco, reasons: { [first.id]: first.reason } };
+    created.previsto = Dif.previsto([first.id], E.questionRepository);
     account.practiceSessions.push(created);
     save();
     openSession(created);
@@ -202,22 +216,18 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   /* ---------------------------------------------------------------- */
   /* Prática sob medida: ponto de partida escolhido + recomendação sem fim */
   /* ---------------------------------------------------------------- */
-  const sobMedidaAtiva = () => account.practiceSessions.filter(x => x.status === 'in_progress' && x.continuous).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+  // Modo livre: não fica salva como lista nem aparece em Pendentes; ao sair, ela se encerra.
   function sobMedidaOverview() {
-    const a = sobMedidaAtiva();
-    const todas = account.practiceSessions.filter(x => x.continuous);
+    const todas = account.practiceSessions.filter(ehLivre);
     const respondidas = todas.reduce((n, x) => n + x.questionIds.filter(id => x.answers[id]?.confirmed).length, 0);
-    return { respondidas, praticas: todas.length, active: a ? { id: a.id, answered: a.questionIds.filter(id => a.answers[id]?.confirmed).length, rotulo: SobMedida.rotulo(a.sobMedida ?? { modo: 'aleatorio' }, E) } : null };
+    return { respondidas, praticas: todas.length, active: null };
   }
-  /** Retoma a prática sob medida aberta; com novo=true (ou sem nenhuma aberta) pede o ponto de partida. */
-  function startSobMedida({ novo = false } = {}) {
-    const ativa = sobMedidaAtiva();
-    if (ativa && !novo) { openSession(ativa); return ativa; }
+  /** Sempre pede o ponto de partida e começa uma prática livre nova. */
+  function startSobMedida() {
     SobMedida.abrirEscolha({ E, openDialog, closeDialog, icons, onEscolher: escolha => {
       const first = SobMedida.primeira(escolha, { E, records: records() });
       if (!first) { toast('Não há questões para esse ponto de partida.'); return; }
-      if (ativa) { account.practiceSessions = account.practiceSessions.map(x => x.id === ativa.id ? E.practice.finish(x, Date.now()) : x); }
-      const created = { ...E.createPracticeSession({ title: SobMedida.TITULO, questionIds: [first.id], mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: 1 }, timerVisible: account.study.practiceTimer, now: Date.now() }), continuous: true, sobMedida: escolha, reasons: { [first.id]: first.reason } };
+      const created = { ...E.createPracticeSession({ title: SobMedida.TITULO, questionIds: [first.id], mode: 'custom', filters: { ...E.EMPTY_FILTERS, count: 1 }, timerVisible: account.study.practiceTimer, now: Date.now() }), continuous: true, livre: true, sobMedida: escolha, reasons: { [first.id]: first.reason } };
       created.previsto = Dif.previsto([first.id], E.questionRepository);
       account.practiceSessions.push(created);
       save();
@@ -243,7 +253,7 @@ export function createLearningPages({ root, openDialog, closeDialog, toast, navi
   }
   /** Listas e simulados não concluídos, do mais recente para o mais antigo. */
   function pendingSessions() {
-    const lists = account.practiceSessions.filter(x => x.status === 'in_progress').map(x => ({ kind: 'practice', ...sessionInfo(x.id), updatedAt: x.updatedAt, createdAt: x.createdAt, areaIds: [...new Set(E.questionRepository.getMany(x.questionIds).map(q => q.areaId))] }));
+    const lists = account.practiceSessions.filter(x => x.status === 'in_progress' && !ehLivre(x)).map(x => ({ kind: 'practice', ...sessionInfo(x.id), updatedAt: x.updatedAt, createdAt: x.createdAt, areaIds: [...new Set(E.questionRepository.getMany(x.questionIds).map(q => q.areaId))] }));
     const sims = account.simulations.filter(x => x.status === 'in_progress').map(x => ({ kind: 'simulation', ...simulationInfo(x.id) }));
     return [...lists, ...sims].sort((a, b) => (b.updatedAt || b.createdAt).localeCompare(a.updatedAt || a.createdAt));
   }
