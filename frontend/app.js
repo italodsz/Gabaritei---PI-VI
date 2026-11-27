@@ -234,17 +234,13 @@ const plural = (n, um, varios) => (n === 1 ? um : varios);
 function recoColumnHTML() {
   const o = learning.sobMedidaOverview();
   return hubColumn({
-    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'MODO PADRÃO · SEM FIM', id: 'ph-start',
+    mode: 'recomendacoes', tone: 'reco', scene: 'hub-pratica.svg', kicker: 'MODO LIVRE · SEM FIM', id: 'ph-start',
     title: 'Prática sob medida',
-    text: 'Escolha por onde começar. Depois, cada questão é parecida com a anterior e do seu nível.',
-    panel: o.active
-      ? `<div class="ph-stat"><strong data-count="${o.active.answered}">${o.active.answered}</strong><span>${plural(o.active.answered, 'respondida', 'respondidas')} na prática atual</span></div>
-        <p class="ph-note">Começou ${escape(o.active.rotulo)}.</p>
-        <div class="ph-tags"><button type="button" class="ph-tag ph-tag-btn" id="ph-new">Começar outra</button></div>`
-      : `<div class="ph-stat"><strong data-count="${o.respondidas}">${o.respondidas}</strong><span>${plural(o.respondidas, 'questão respondida', 'questões respondidas')} neste modo</span></div>
+    text: 'Escolha por onde começar e faça questões livremente. Ao sair, a prática se encerra.',
+    panel: `<div class="ph-stat"><strong data-count="${o.respondidas}">${o.respondidas}</strong><span>${plural(o.respondidas, 'questão respondida', 'questões respondidas')} neste modo</span></div>
         <div class="ph-tags"><span class="ph-tag">Uma questão</span><span class="ph-tag">Um tema</span><span class="ph-tag">Aleatório</span></div>
         <p class="ph-note">Recomendação: titulo_area + nível de dificuldade.</p>`,
-    cta: o.active ? 'Continuar praticando' : 'Escolher por onde começar',
+    cta: 'Começar',
   });
 }
 /** Desafio de acertos: recorde, últimas tentativas e as regras. */
@@ -262,30 +258,23 @@ function challengeColumnHTML() {
     cta: 'Começar desafio',
   });
 }
-/** Revisão: erros ainda não superados (ou o estado vazio). */
+/** Treino dos pontos fracos: o título da árvore em que você está pior, uma questão por vez. */
 function reviewColumnHTML() {
   const o = learning.reviewOverview();
   const a = o.active;
-  if (!o.pending && !a) return hubColumn({
-    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-other',
-    title: 'Tudo revisado por enquanto!',
-    text: 'Nenhuma questão errada pendente.',
-    panel: '<p class="ph-note">Quando errar alguma questão, ela aparece aqui até você acertá-la.</p>',
-    cta: 'Iniciar outra prática',
-  });
   const pct = a ? a.reviewed / Math.max(1, a.total) : 0;
+  const n = a ? a.reviewed : o.fracos;
   return hubColumn({
-    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'REVISÃO', id: 'ph-review',
+    mode: 'revisar', tone: 'rev', scene: 'hub-revisao.svg', kicker: 'PONTOS FRACOS', id: 'ph-review',
     title: 'Erros para superar',
-    text: 'Refaça o que errou até acertar. Sem pressa.',
-    panel: `<div class="ph-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} de ${a.total} revisadas` : `${o.pending} pendentes`}"><strong>${a ? a.reviewed : o.pending}</strong><small>${a ? `de ${a.total} revisadas` : plural(o.pending, 'pendente', 'pendentes')}</small></div>
-      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span><span class="ph-tag"><b>${o.pending}</b>na fila</span>` : '<span class="ph-tag">Sem cronômetro</span><span class="ph-tag">Com correção e explicação</span>'}</div>`,
-    cta: a ? 'Continuar revisão' : 'Revisar agora',
+    text: o.titulo ? `Treine onde você está pior agora: ${escape(o.titulo)}.` : 'Treine onde você está pior, com questões novas no seu nível.',
+    panel: `<div class="ph-ring" style="--p:${pct}" role="img" aria-label="${a ? `${a.reviewed} respondidas no treino` : `${o.fracos} pontos fracos`}"><strong>${n}</strong><small>${a ? plural(a.reviewed, 'respondida', 'respondidas') : plural(o.fracos, 'ponto fraco', 'pontos fracos')}</small></div>
+      <div class="ph-tags">${a ? `<span class="ph-tag"><b>${a.correct}</b>acertadas</span>` : '<span class="ph-tag">Sempre questões novas</span>'}<span class="ph-tag">Chance perto de 75%</span></div>`,
+    cta: a ? 'Continuar treino' : 'Treinar agora',
   });
 }
 function bindPracticeHub() {
   $('#ph-start')?.addEventListener('click', () => learning.startSobMedida());
-  $('#ph-new')?.addEventListener('click', () => learning.startSobMedida({ novo: true }));
   $('#ph-challenge')?.addEventListener('click', () => learning.startChallenge());
   $('#ph-review')?.addEventListener('click', () => learning.startReviewMode());
   $('#ph-other')?.addEventListener('click', () => learning.startSobMedida());

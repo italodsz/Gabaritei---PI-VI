@@ -133,9 +133,11 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (review) root.querySelector('.rs-review')?.scrollIntoView({ block: 'start' });
   }
 
+  /** Prática livre (sob medida): ao sair ela se encerra sozinha; as outras ficam pausadas. */
+  const sair = s => (s.livre ? E.practice.finish(s, Date.now()) : E.practice.pause(s, Date.now()));
   function exit() {
     stopTick();
-    if (!readOnly && session?.status === 'in_progress') persist(E.practice.pause(session, Date.now()));
+    if (!readOnly && session?.status === 'in_progress') persist(sair(session));
     session = null;
     readOnly = false;
     root.hidden = true;
@@ -156,7 +158,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     }, 1000);
   }
   function stopTick() { clearInterval(tick); tick = null; }
-  addEventListener('pagehide', () => { if (!readOnly && session?.status === 'in_progress') persist(E.practice.pause(session, Date.now())); });
+  addEventListener('pagehide', () => { if (!readOnly && session?.status === 'in_progress') persist(sair(session)); });
 
   /* ---------------------------------------------------------------- */
   /* Estrutura                                                         */
@@ -185,7 +187,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     root.innerHTML = `
       <header class="qs-top">
         <div class="qs-top-row">
-          <button class="qs-back" id="qs-exit" aria-label="Sair da lista (o progresso fica salvo)">${icons('arrow-left')}${LOGO}</button>
+          <button class="qs-back" id="qs-exit" aria-label="${session?.livre ? 'Sair e encerrar a prática (as respostas ficam no Histórico)' : 'Sair da lista (o progresso fica salvo)'}">${icons('arrow-left')}${LOGO}</button>
           <div class="qs-title"><p class="qs-title-main" id="qs-title"></p><p class="qs-title-sub" id="qs-sub"></p></div>
           <div class="qs-tools">
             <div id="qs-timer-slot"></div>
@@ -752,7 +754,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     if (!pick) { toast('Você zerou as recomendações por agora. Finalize para ver o resultado.'); openFinish(); return; }
     const before = session.currentIndex;
     const inserted = E.practice.insertNext(session, pick.id, Date.now());
-    persist({ ...inserted, reasons: { ...(session.reasons || {}), [pick.id]: pick.reason }, previsto: { ...(session.previsto || {}), ...Dif.previsto([pick.id], E.questionRepository) } });
+    persist({ ...inserted, ...(pick.fraco ? { fraco: pick.fraco } : {}), reasons: { ...(session.reasons || {}), [pick.id]: pick.reason }, previsto: { ...(session.previsto || {}), ...Dif.previsto([pick.id], E.questionRepository) } });
     showExplanation = true;
     lastCurrent = before;
     const token = ++navToken;
@@ -846,7 +848,7 @@ export function createPracticeScreen({ E, icons, toast, getAccount, save, onExit
     const done = confirmedCount();
     const result = view === 'result';
     return `<header class="focus-top">
-      <button class="focus-icon-button" id="focus-exit" aria-label="Sair da lista (o progresso fica salvo)" data-tip="Sair">${icons('x')}</button>
+      <button class="focus-icon-button" id="focus-exit" aria-label="${session?.livre ? 'Sair e encerrar a prática (as respostas ficam no Histórico)' : 'Sair da lista (o progresso fica salvo)'}" data-tip="Sair">${icons('x')}</button>
       <div class="focus-heading">
         <span class="focus-kicker">${result ? resultKicker : 'LISTA DE QUESTÕES'}</span>
         <h1 id="focus-title">${esc(session.title)}</h1>
