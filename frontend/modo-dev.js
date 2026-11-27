@@ -129,7 +129,11 @@ export function criarPainel(raiz, { E, abrir = null }) {
             <div class="md-sim-linha"><span>Nível θ</span><b>${num(thetaAgora)} → ${num(simulacao.errar.theta)}</b></div>
             <div class="md-sim-linha"><span>Nota</span><b>${notaAgora} → ${simulacao.errar.nota}</b></div>
           </div>
-        </div>` : ''}`;
+        </div>` : ''}
+      <div class="md-card md-gabarito">
+        <h3>Alternativa correta</h3>
+        <div class="md-gabarito-linha"><span class="md-gabarito-letra">${esc(q.correct)}</span><p>${esc(q.alternatives?.find(a => a.letter === q.correct)?.text ?? '—')}</p></div>
+      </div>`;
   }
 
   /* ------------------------ coluna 2: a próxima questão ------------------------ */

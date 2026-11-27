@@ -60,6 +60,11 @@
 .md-sim-linha span{color:var(--qs-fg-subtle)}
 .md-sim-linha b{color:var(--qs-fg);font-family:var(--mono, ui-monospace, SFMono-Regular, Menlo, monospace)}
 
+/* Coluna 1: alternativa correta (gabarito) */
+.md-gabarito-linha{display:flex;align-items:flex-start;gap:12px}
+.md-gabarito-letra{flex-shrink:0;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--qs-success-soft);color:var(--qs-success);font-weight:700;font-size:13px}
+.md-gabarito-linha p{margin:0;padding-top:4px;font-size:13px;line-height:1.6;color:var(--qs-fg)}
+
 /* Coluna 2: pipeline semântica → TRI → escore */
 .md-pipeline{display:flex;align-items:stretch;gap:8px}
 .md-pipe-etapa{flex:1;display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:14px;background:var(--qs-surface-2);border:1px solid var(--qs-border)}
